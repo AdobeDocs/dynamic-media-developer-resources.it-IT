@@ -1,0 +1,27 @@
+---
+description: Un array di valori per un campo di tag.
+seo-description: Un array di valori per un campo di tag.
+seo-title: TagFieldValues
+solution: Experience Manager
+title: TagFieldValues
+topic: Scene7 Image Production System API
+uuid: 922f1962-7509-4210-989a-2f7a87112373
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# TagFieldValues{#tagfieldvalues}
+
+Un array di valori per un campo di tag.
+
+Sintassi
+
+## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+| Nome | Tipo | Descrizione |
+|---|---|---|
+| ` *`fieldHandle`*` | `xsd:string` | handle del campo del tag. |
+| ` *`valueArray`*` | `xsd:StringArray` | Un array di valori per un campo di tag. |
+
