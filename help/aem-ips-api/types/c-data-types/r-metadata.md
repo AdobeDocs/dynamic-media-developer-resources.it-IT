@@ -1,0 +1,31 @@
+---
+description: Campo di metadati restituito da searchAssets.
+seo-description: Campo di metadati restituito da searchAssets.
+seo-title: Metadati
+solution: Experience Manager
+title: Metadati
+topic: Scene7 Image Production System API
+uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Metadati{#metadata}
+
+Campo di metadati restituito da searchAssets.
+
+Sintassi
+
+## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+| Nome | Tipo | Descrizione |
+|---|---|---|
+| ` *`name`*` | `xsd:string` | Nome metadati. |
+| ` *`value`*` | `xsd:string` | Valore metadati. |
+| ` *`boolVal`*` | `xsd:boolean` | Valore dei metadati booleani (solo per i campi di tipo booleano). |
+| ` *`longVal`*` | `xsd:long` | Valore metadati lungo (solo per i campi con tipo int). |
+| ` *`doubleVal`*` | `xsd:double` | Valore di metadati doppio (solo per i campi con tipo mobile). |
+| ` *`dateVal`*` | `xsd:dateTime` | Valore metadati data (solo per i campi con tipo data). |
+
