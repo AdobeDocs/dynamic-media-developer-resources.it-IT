@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: PreferitiView.textpos
+solution: Experience Manager
+title: PreferitiView.textpos
+topic: Dynamic media
+uuid: e3e5f0c8-8a20-4e9c-8018-156af2a3ca3b
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# PreferitiView.textpos{#favoritesview-textpos}
+
+`[FavoritesView.|<containerId>_favoritesView.]textpos=bottom|top|left|right|none|tooltip`
+
+<table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine in miniatura. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> la descrizione</span> è specificata, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. </p> <p>Se impostato su <span class="codeph"> none</span>, disattiva la visualizzazione dell'etichetta. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Proprietà {#section-f42369774e2740dcb399626a0e4e930e}
+
+Facoltativo.
+
+## Predefinito {#section-d016470e92a74f98a18c4ab3489410a5}
+
+`bottom`
+
+## Esempio {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+
+`textpos=top`
