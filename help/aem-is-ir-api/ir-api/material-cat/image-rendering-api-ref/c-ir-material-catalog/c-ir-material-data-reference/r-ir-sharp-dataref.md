@@ -1,0 +1,52 @@
+---
+description: Opzioni. Attributo di nitidezza, determina quando il materiale viene reso più nitido.
+seo-description: Opzioni. Attributo di nitidezza, determina quando il materiale viene reso più nitido.
+seo-title: Nitido
+solution: Experience Manager
+title: Nitido
+topic: Scene7 Image Serving - Image Rendering API
+uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Nitido{#sharp}
+
+Opzioni. Attributo di nitidezza, determina quando il materiale viene reso più nitido.
+
+Il tipo e la quantità di nitidezza sono controllati dalla vignettatura tramite un modello di materiale predefinito o con `catalog::RenderSettings`.
+
+## Proprietà {#section-aac81b1a611b4bca90b8544eae7896df}
+
+Enum.
+
+<table id="simpletable_D52B41A39E4E4E54A06821B9D689DB30"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>0 </p></td> 
+  <td class="stentry"> <p>Nessuna nitidezza. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>Nitidezza normale (dopo la trasformazione). </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>2 </p></td> 
+  <td class="stentry"> <p>Nitidezza alternativa (prima della trasformazione). </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>Maggiore nitidezza (sia prima che dopo la trasformazione). </p></td> 
+ </tr> 
+</table>
+
+Ignorata da materiali in tinta unita, opzionale per tutti gli altri materiali.
+
+## Predefinito {#section-a6bc204d552b4cc3ae6a77ec232c26ff}
+
+`attribute::Sharpening` viene utilizzato se il campo non è presente, se è vuoto o se il valore non è una delle opzioni supportate.
+
+## Consultate anche {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
+
+[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
