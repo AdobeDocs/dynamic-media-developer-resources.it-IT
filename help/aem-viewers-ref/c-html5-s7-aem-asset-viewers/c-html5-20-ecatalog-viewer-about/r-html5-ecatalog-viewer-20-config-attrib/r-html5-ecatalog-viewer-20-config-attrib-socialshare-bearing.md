@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: SocialShare.cuscinetto
+solution: Experience Manager
+title: SocialShare.cuscinetto
+topic: Dynamic media
+uuid: e48b39bb-c23d-42ce-9dc6-6e8b0d9b04ea
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# SocialShare.cuscinetto{#socialshare-bearing}
+
+`[SocialShare.|<containerId>_socialShare.]bearing= up|down|left|right|fit-vertical|fit-lateral`
+
+<table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral </span> </p> </td> 
+   <td colname="col2"> <p> Specifica la direzione dell'animazione della diapositiva per il contenitore dei pulsanti. </p> <p> Quando è <span class="codeph"> impostato su </span>, giù <span class="codeph"> </span>, <span class="codeph"> sinistra </span>o <span class="codeph"> </span>destra, il pannello si sposta in una direzione specificata senza un controllo aggiuntivo. Questo comportamento può causare il ritaglio del pannello da parte di un contenitore esterno. </p> <p>Quando è impostato per l' <span class="codeph"> adattamento verticale, </span>il componente sposta prima la posizione del pannello di base nella parte inferiore di SocialShare e tenta di eseguire il rollout del pannello dal basso, da destra o da sinistra, da tale posizione di base. Per ogni tentativo, il componente verifica se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi non vanno a buon fine, il componente tenta di spostare la posizione del pannello di base verso l’alto e di ripetere i tentativi di implementazione dalla direzione superiore, destra e sinistra. </p> <p>Quando è impostato per l' <span class="codeph"> adattamento laterale </span>, il componente utilizza una logica simile a quella dell'adattamento verticale, ma sposta invece la base verso destra, verso il basso e verso l'alto, spostando quindi la base verso sinistra, provando verso sinistra, verso il basso e verso l'alto. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Proprietà {#section-8e843b967237426e9a8b3cd0f27b9820}
+
+Facoltativo.
+
+## Predefinito {#section-da4f728f90694e3f9b4842b32c2e9952}
+
+`fit-vertical`
+
+## Esempio {#section-b48f9881aca44bb5a30866d905d98035}
+
+`bearing=left`
