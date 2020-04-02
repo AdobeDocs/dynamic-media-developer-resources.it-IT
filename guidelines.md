@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Linee guida per il contributo alla documentazione sulle risorse Adobe Dynamic Media Developer
 
-## Documentazione sulle risorse Adobe Dynamic Media Developer
+## Filosofia della documentazione
 
 Sappiamo che gli utenti di Adobe Dynamic Media lavorano in ambienti altamente competitivi, cercando di creare esperienze digitali che le distinguano dai concorrenti. Pertanto, è fondamentale che, quando Adobe offre nuovi strumenti avanzati, questi siano accompagnati da una documentazione accurata e chiara che consenta al cliente di sfruttare immediatamente il proprio investimento in Dynamic Media e massimizzare il ROI.
 
@@ -35,13 +35,13 @@ Le eccezioni a questa regola si applicano alle note sulla versione in cui posson
 
 Ogni idea che si potrebbe dover migliorare la documentazione è gradita come contributo. Tuttavia, commenti, problemi e richieste pull sono destinati solo ai *contributi* . Non devono essere utilizzati per rispondere alle tue domande su come usare Dynamic Media, implementare il tuo progetto o risolvere problemi tecnici.
 
-Eventuali domande sull’utilizzo di Dynamic Media o eventuali errori tecnici devono essere segnalate attraverso il normale processo di supporto.
+Per qualsiasi domanda sull’utilizzo di Dynamic Media o sugli eventuali errori tecnici, consulta il portale [di assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud Enterprise o discuti nella community di [Experience Manager.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***I contributi alla documentazione non sostituiscono il supporto*** Adobe e tutti i contributi richiesti per ottenere risposte alle domande relative al supporto verranno rifiutati.
+***I contributi alla documentazione non sostituiscono l’Assistenza*** clienti Adobe e tutti i contributi richiesti per ottenere risposte alle domande relative al supporto verranno rifiutati.
 
 ### I contributi devono fare riferimento in modo chiaro alle pagine della documentazione interessate.
 
-Se apri una segnalazione problema per suggerire miglioramenti alla documentazione, devi includere i collegamenti alle pagine interessate. Se apri una segnalazione problema utilizzando il collegamento **Modifica pagina** di una pagina della documentazione, il problema verrà creato automaticamente con un collegamento alla pagina in questione.
+Se si crea un problema per suggerire miglioramenti alla documentazione, è necessario includere collegamenti alle pagine interessate. Se apri una segnalazione problema utilizzando il collegamento **Modifica pagina** di una pagina della documentazione, il problema verrà creato automaticamente con un collegamento alla pagina in questione.
 
 Ciò non si applica alle richieste pull, in quanto le richieste pull per loro natura fanno riferimento alle pagine interessate.
 
