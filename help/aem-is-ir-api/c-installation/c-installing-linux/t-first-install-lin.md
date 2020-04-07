@@ -7,7 +7,7 @@ title: Prima installazione
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ Questa procedura mostra come installare Image Serving per la prima volta su Linu
    Se è disponibile il file della licenza Image Server e/o Image Rendering (con suffisso [!DNL .sc8] file), copiatelo in questa cartella. In caso contrario, continuate con l&#39;installazione e installate il codice di licenza in un secondo momento.
 1. Decomprimete e decomprimete il file tar di distribuzione Image Server.
 1. Eseguite [!DNL ./install-is], che si trova nella [!DNL Setup] cartella, per avviare la procedura guidata di installazione.
+
    Se non viene trovata alcuna chiave di licenza, vengono visualizzate istruzioni che descrivono come ottenere un file di licenza. A questo punto, oppure procedere con l’installazione di Image Server e installare il codice di licenza in un secondo momento.
 1. Quando viene visualizzato il contratto di licenza per l&#39;utente finale (EULA), leggete il contratto di licenza e immettete `y` per proseguire.
 
