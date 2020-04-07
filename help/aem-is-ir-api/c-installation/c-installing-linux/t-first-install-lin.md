@@ -21,8 +21,7 @@ Questa procedura mostra come installare Image Serving per la prima volta su Linu
 
    Se è disponibile il file della licenza Image Server e/o Image Rendering (con suffisso [!DNL .sc8] file), copiatelo in questa cartella. In caso contrario, continuate con l&#39;installazione e installate il codice di licenza in un secondo momento.
 1. Decomprimete e decomprimete il file tar di distribuzione Image Server.
-1. 
-   4. Eseguite [!DNL ./install-is], che si trova nella [!DNL Setup] cartella, per avviare la procedura guidata di installazione.
+1. Eseguite [!DNL ./install-is], che si trova nella [!DNL Setup] cartella, per avviare la procedura guidata di installazione.
    Se non viene trovata alcuna chiave di licenza, vengono visualizzate istruzioni che descrivono come ottenere un file di licenza. A questo punto, oppure procedere con l’installazione di Image Server e installare il codice di licenza in un secondo momento.
 1. Quando viene visualizzato il contratto di licenza per l&#39;utente finale (EULA), leggete il contratto di licenza e immettete `y` per proseguire.
 
