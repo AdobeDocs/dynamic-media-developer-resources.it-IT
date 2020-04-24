@@ -7,7 +7,7 @@ title: Formattazione del testo
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ciascun 
    <td> <p>Adattamento copia </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> Adatta <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> Adatta <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Margini casella di testo </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> <p>\margl, \margr, \margt, \margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Giustificazione completa del paragrafo </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ultima riga, giustificazione </p> </td> 
