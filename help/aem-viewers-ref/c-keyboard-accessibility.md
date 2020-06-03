@@ -1,24 +1,29 @@
 ---
-description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
-seo-description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+seo-description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 seo-title: Accessibilità della tastiera e navigazione
 solution: Experience Manager
 title: Accessibilità della tastiera e navigazione
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # Accessibilità della tastiera e navigazione{#keyboard-accessibility-and-navigation}
 
-Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Dimensioni (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Accessibilità della tastiera e navigazione {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Dimensioni (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 
 Un utente finale può spostarsi tra gli elementi dell’interfaccia utente del visualizzatore utilizzando i tasti **[!UICONTROL Tab]** e **[!UICONTROL Maiusc+Tab]** . L&#39;utilizzo di **[!UICONTROL Tab]** rende più attivo il successivo elemento dell&#39;interfaccia utente nell&#39;ordine di tabulazione; utilizzando **[!UICONTROL Maiusc+Tab]** , l&#39;input diventa attivo sull&#39;elemento dell&#39;interfaccia utente precedente. La barra laterale di messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
 
