@@ -5,9 +5,13 @@ seo-title: Requisiti di sistema
 solution: Experience Manager
 title: Requisiti di sistema
 topic: Dynamic media
+contentOwner: Rick Brough
 uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -16,10 +20,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 Requisiti di sistema per visualizzatori HTML5.
 
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
 ## Software e hardware per server {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.5.3 o successivo.
-* I visualizzatori HTML5 richiedono SDK per librerie lato server JavaScript 3.7.1 o successive.
+* Dynamic Media Classic Image Server 6.7.1 o versione successiva.
+* I visualizzatori HTML5 richiedono SDK per librerie lato server JavaScript 3.9.1 o successive.
 * Le funzioni per social network &quot;Email a Friend&quot; richiedono s7ondemand 5.0.7 o versione successiva.
 * Visualizzatore eCatalog - Il supporto per il pannello Info richiede il server Info 2.1.8 o successivo.
 * I componenti delle funzioni di ricerca richiedono s7search 2.3.0 o versione successiva.
@@ -28,18 +34,16 @@ Requisiti di sistema per visualizzatori HTML5.
 
 **Requisiti minimi del browser client per i visualizzatori di componenti**
 
-* Monitor a colori e scheda video che supporta 16 bit High Color con risoluzione 1024x768 o superiore.
-* Microsoft® Windows® 7 o versione successiva; Mac OS X 10.9 o versione successiva.
-* Firefox 61, Safari 10 (solo Mac OS), Chrome 66 (o versione più recente); Chrome si aggiorna automaticamente alla versione più recente), Internet Explorer 11, Microsoft Edge.
+* Microsoft® Windows® 7 o versione successiva; macOS X 10.12 o versione successiva.
+* Firefox 69, Safari 11 (solo per Mac OS), Chrome 75 (o versione più recente); Chrome si aggiorna automaticamente alla versione più recente), Internet Explorer 11, Microsoft Edge.
 * iOS6 o versione successiva.
 * Certificato su iPhone 3GS o versione successiva e iPad 2 o versione successiva (solo browser Safari e Chrome).
 * Android OS 4.x o versione successiva.
 * BlackBerry 10 o versione successiva; solo browser nativi. Al momento la riproduzione video è supportata solo.
 * Internet Explorer sui dispositivi mobili non è attualmente supportato.
-* Il visualizzatore panoramico è supportato su iOS 10 o versione successiva, Firefox 61, Chrome 66, Safari 11 o versione successiva, Internet Explorer 11 o versione successiva, Microsoft Edge, Android 4.4 o versione successiva (solo per dispositivi telefonici).
-* Il visualizzatore per video 360 è supportato da iOS 12 o versione successiva, Firefox 61, Chrome 66, Safari 12 o versione successiva, Microsoft Edge, Android 5 o versione successiva (solo per dispositivi telefonici).
-* Il visualizzatore zoom verticale è supportato su iOS 10 o versione successiva, Firefox 61, Chrome 66, Safari 11 o versione successiva, Internet Explorer 11, Microsoft Edge, Android 4.x o versione successiva.
-* Il visualizzatore video non supporta la riproduzione HLS (HTTP Live Streaming) in Internet Explorer 11 con Windows 7.
+* Il visualizzatore panoramico è supportato su iOS 10 o versione successiva, Firefox 69, Chrome 75, Safari 11 o versione successiva, Internet Explorer 11 o versione successiva, Microsoft Edge, Android 4.4 o versione successiva (solo per dispositivi telefonici).
+* Il visualizzatore video 360 e il visualizzatore dimensionale sono supportati da iOS 12 o versioni successive, Firefox 69, Chrome 75, Safari 12 o versioni successive, Microsoft Edge, Android 5 o versioni successive (solo per dispositivi telefonici).
+* Il visualizzatore zoom verticale è supportato su iOS 10 o versione successiva, Firefox 69, Chrome 75, Safari 11 o versione successiva, Internet Explorer 11, Microsoft Edge, Android 4.x o versione successiva.
 
 <!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
 
