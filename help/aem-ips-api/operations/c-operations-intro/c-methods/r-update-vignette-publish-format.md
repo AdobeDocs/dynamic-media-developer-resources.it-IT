@@ -7,7 +7,10 @@ title: updateVignettePublishFormat
 topic: Scene7 Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 20%
 
 ---
 
