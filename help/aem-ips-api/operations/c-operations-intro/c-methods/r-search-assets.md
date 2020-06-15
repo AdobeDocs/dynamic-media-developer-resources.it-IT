@@ -7,7 +7,10 @@ title: searchAssets
 topic: Scene7 Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 6%
 
 ---
 
@@ -63,169 +66,169 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L’handle della società con le risorse da cercare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Consente agli amministratori di lavorare come un altro utente. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Consente agli amministratori di lavorare come parte di un altro gruppo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> cartella</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Percorso principale per la ricerca delle risorse. Se omessa, viene utilizzata la cartella principale della società. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> include sottocartelle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSottocartelle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Impostare su <span class="codeph"> true</span> per cercare nelle sottocartelle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Scelta dello stato di pubblicazione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Scelta dello stato del cestino. Il valore predefinito è <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Scelta delle modalità di ricerca per combinare i risultati di <span class="codeph"> parola chiave Array</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span>. Il valore predefinito è <span class="codeph"> Tutti</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p> <p>Nota:  Parametro obsoleto. Si consiglia di non utilizzarlo. </p> </p> <p>Un array di stringhe di parole chiave da associare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Scelta delle modalità di corrispondenza della ricerca per combinare le corrispondenze <span class="codeph"> systemFieldCondition</span> . Il valore predefinito è <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipi:SystemFieldConditionArray</span> </p> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Matrice di condizioni del campo di sistema. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Costanti della stringa Modalità corrispondenza ricerca. Il valore predefinito è <span class="codeph"> Tutti</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagConditionArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Un array di predicati per la ricerca di campi di tag. </p> <p>I predicati vengono combinati in base all'impostazione <span class="codeph"> tagMatchMode</span> , quindi combinati con eventuali termini in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span> in base all'impostazione <span class="codeph"> conditionMatchMode</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Modalità di corrispondenza ricerca per combinare <span class="codeph"> le corrispondenze tra metadatiCondizione</span> . Il valore predefinito è <span class="codeph"> Tutti</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipi:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Matrice di condizioni di ricerca dei campi di metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di tipi di risorse da includere nella ricerca. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di tipi di risorse da escludere dalla ricerca. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetSubTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Un elenco di nomi di sottotipo con cui filtrare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non sono vuoti, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span> . Se è <span class="codeph"> false</span> (impostazione predefinita), vengono restituite le risorse senza sottotipo definito. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Se true, le risorse per sottoprodotto generate durante l'assimilazione di una risorsa principale, come le immagini della pagina PDF estratti, sono escluse dai risultati della ricerca. Il valore predefinito è false. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipi:ExcludeByproductArray</span> </p> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di condizioni di generazione di risorse per sottoprodotto da escludere dai risultati della ricerca. Se presente, questo parametro sostituisce l'impostazione excludeByproducts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:sting</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Gestione di un progetto contenente le risorse da cercare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Numero massimo di risultati da restituire. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Specifica la pagina dei risultati da restituire, in base alle dimensioni della pagina <span class="codeph"> recordsPerPage</span> . </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Scelta dei campi di ordinamento delle risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Scelta di una specie di direzione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Contiene un elenco di campi e sottocampi da includere nella risposta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Contiene un elenco di campi e sottocampi da escludere dalla risposta. </td> 
