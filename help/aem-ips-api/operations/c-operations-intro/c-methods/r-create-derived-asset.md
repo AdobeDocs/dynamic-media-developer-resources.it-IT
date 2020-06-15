@@ -1,20 +1,23 @@
 ---
-description: Crea una nuova risorsa derivata da una risorsa immagine principale esistente.
-seo-description: Crea una nuova risorsa derivata da una risorsa immagine principale esistente.
+description: Crea una nuova risorsa derivata da una risorsa immagine di origine primaria esistente.
+seo-description: Crea una nuova risorsa derivata da una risorsa immagine di origine primaria esistente.
 seo-title: createDeriedAsset
 solution: Experience Manager
 title: createDeriedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
 
 # createDeriedAsset{#createderivedasset}
 
-Crea una nuova risorsa derivata da una risorsa immagine principale esistente.
+Crea una nuova risorsa derivata da una risorsa immagine di origine primaria esistente.
 
 Sintassi
 
@@ -40,7 +43,7 @@ A differenza di una copia immagine (consultate [copyImage](../../../operations/c
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverete la nuova risorsa. |
-| ` *`ownerHandle`*` | `xsd:string` | Sì | La maniglia della risorsa immagine principale da cui deriverà la nuova immagine. |
+| ` *`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriverà la nuova immagine. |
 | ` *`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui verrà creata la nuova risorsa derivata. |
 | ` *`name`*` | `xsd:string` | Sì | Nome della risorsa derivata. |
 | ` *`type`*` | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
