@@ -7,7 +7,10 @@ title: GenerationInfo
 topic: Scene7 Image Production System API
 uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +26,7 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | ` *`Motore`*` | `xsd:string` | Motore di generazione utilizzato (vedere &quot;Informazioni generazione&quot; per i valori). |
-| ` *`creatore`*` | `types:Asset` | Record di risorsa della risorsa principale utilizzata per la generazione. |
-| ` *`generato`*` | `types:Asset` | Record di risorsa della risorsa generata. |
+| ` *`creatore`*` | `types:Asset` | Record di risorsa della risorsa primaria utilizzata nella generazione. |
+| ` *`generato`*` | `types:Asset` | Record risorsa della risorsa generata. |
 | ` *`attributeArray`*` | `types:GenerationAttributeArray` | Array di attributi associati al processo di generazione. |
 
