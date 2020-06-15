@@ -7,7 +7,10 @@ title: Convertitore vignettatura
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Vignettatura Converter (vntc) è un&#39;utilità della riga di comando utilizzat
 
 [!DNL vntc] si trova in [!DNL *[!DNL install_root]*\ImageServing\bin]. Dispone delle seguenti funzionalità:
 
-* Converte le vignettature originali in vignettature di produzione a risoluzione singola, a risoluzione multipla o a piramide singola (consultate [Ridimensionamento](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)vignettatura).
+* Converte le vignettature primarie in vignettature di produzione a risoluzione singola, a risoluzione multipla o piramidale (consultate [Ridimensionamento](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)vignettatura).
 * Produce archivi di produzione e finestre che coprono i file di stile (vedere `-resolution` e `-jpegquality`).
 
 * Può produrre diverse versioni di file di stile per vignettature, scaffali e rivestimenti di finestre da usare con versioni precedenti di Image Rendering.
