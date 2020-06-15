@@ -7,7 +7,10 @@ title: setAssetSetDefinition
 topic: Scene7 Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 5%
 
 ---
 
