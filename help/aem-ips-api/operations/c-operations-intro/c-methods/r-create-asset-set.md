@@ -7,7 +7,10 @@ title: createAssetSet
 topic: Scene7 Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
@@ -42,37 +45,37 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L’handle della società che conterrà il set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> handle della cartella in cui verrà creato il nuovo set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Nome risorsa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Identificatore univoco creato dal client per il tipo di set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> I parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
@@ -90,7 +93,7 @@ Sintassi
 
 | **Funzione di sostituzione** | **Restituisce** |
 |---|---|
-| `getFilePath([asset_handle>])` | Percorso del file principale della risorsa. |
+| `getFilePath([asset_handle>])` | Percorso del file sorgente principale della risorsa. |
 | `getCatalogId([<asset_handle>])` | ID catalogo della risorsa. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valori di metadati per la risorsa. |
 | `getThumbCatalogId([<asset_handle>])` | L’ID catalogo della risorsa (solo per le risorse basate su immagini). L’ID catalogo della risorsa miniatura associata (per altre risorse). Se una risorsa thumb associata non è disponibile, la funzione restituisce una stringa vuota. |
