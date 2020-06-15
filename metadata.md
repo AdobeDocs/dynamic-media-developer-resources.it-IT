@@ -7,10 +7,13 @@ getting-started-title: Introduzione
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: Esercitazioni
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.it-IT
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 1%
 
 ---
 
@@ -27,4 +30,4 @@ Il file metadata.md include metadati a livello di repo che passano ai file TOC.m
 | getting-started | Link alla pagina di guida introduttiva |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o esercitazioni KT |
 | mini-livelli | Determina il numero di livelli di intestazione visualizzati nella barra a destra. il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repo principale per uso interno |
+| git-repo | Specifica la posizione del repo di origine principale per uso interno |
