@@ -7,7 +7,10 @@ title: Nuove aggiunte e modifiche
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 1%
 
 ---
 
@@ -115,7 +118,7 @@ Le interfacce del visualizzatore supportano due parametri: `skinFg` e `skinBg`. 
 
 Operazione implementata `getAssociatedAssets` .
 
-È stato aggiunto `ReprocessAssets` il tipo di processo per consentire la rielaborazione dei file principali caricati in precedenza, inclusi il ripristino dei PDF e il riottimizzazione delle immagini.
+È stato aggiunto `ReprocessAssets` il tipo di processo per consentire la rielaborazione dei file sorgente primari caricati in precedenza, inclusi il ripristino dei PDF e il riottimizzazione delle immagini.
 
 Il tipo di `PropertySetType` campo rinominato in `propertyType`. Questo influisce sul `createPropertySetType` parametro e sulla `getPropertySetType/getPropertySetTypes` risposta.
 
@@ -288,7 +291,7 @@ Sono state aggiunte ulteriori opzioni per `UploadDirectoryJob` e `UploadUrlsJob`
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> colorspace </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Spazio colore di destinazione per il rendering. </p> </td> 
+   <td colname="col4"> <p>Spazio colore Target per il rendering. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> alfa </span> </p> <p>Facoltativo. </p> </td> 
@@ -317,7 +320,7 @@ Sono state aggiunte ulteriori opzioni per `UploadDirectoryJob` e `UploadUrlsJob`
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> colorspace </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Spazio colore di destinazione per il rendering. </p> </td> 
+   <td colname="col4"> <p>Spazio colore Target per il rendering. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
