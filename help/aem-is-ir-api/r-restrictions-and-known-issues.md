@@ -7,7 +7,10 @@ title: Restrizioni e problemi noti
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione 
 
 ## Restrizioni applicabili alle librerie di terze parti {#section-79768b96bf634e44ab672c5b893f343d}
 
-La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagine, se già rilevata. Se a un&#39;immagine principale è stata apportata una modifica sufficiente, la libreria Digimarc potrebbe essere in grado di riconoscere l&#39;applicazione della filigrana. Tuttavia, potrebbe non essere in grado di leggere tali informazioni. In questo modo si ottiene una nuova immagine in cui non è possibile ottenere le informazioni Digimarc originali applicate all’immagine originale. Image Server può ora applicare la filigrana Digimarc definita nel catalogo aziendale.
+La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagine, se già rilevata. Se a un&#39;immagine principale viene apportata una modifica sufficiente, la libreria Digimarc potrebbe essere in grado di riconoscere che la filigrana è stata applicata. Tuttavia, potrebbe non essere in grado di leggere tali informazioni. In questo modo si ottiene una nuova immagine in cui non è possibile ottenere le informazioni Digimarc originali applicate all’immagine originale. Image Server può ora applicare la filigrana Digimarc definita nel catalogo aziendale.
 
 ## Restrizioni applicabili sia al server immagini che al rendering delle immagini {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
