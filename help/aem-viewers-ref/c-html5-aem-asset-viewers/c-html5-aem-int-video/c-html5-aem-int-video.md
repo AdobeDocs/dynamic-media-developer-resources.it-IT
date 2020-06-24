@@ -7,7 +7,10 @@ title: Video interattivo
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +57,7 @@ Il visualizzatore mostra un pannello con campioni interattivi a destra dell’ar
 
 È possibile navigare rapidamente nel contenuto video quando si attiva il filtro per video. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo e la descrizione del capitolo al passaggio del mouse (o su un singolo tocco su un sistema touch). Il cliente può &quot;cercare&quot; un capitolo specifico facendo clic su un marcatore capitolo o toccando una bolla di descrizione del capitolo.
 
-Il visualizzatore supporta anche una varietà di strumenti di condivisione social media. Sono disponibili come pulsante singolo nell&#39;interfaccia utente che si espande in una barra degli strumenti di condivisione quando l&#39;utente fa clic su di essa o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ciascun tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione del codice da incorporare e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorpora o collega, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando Facebook o Twitter vengono chiamati, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di protezione del browser Web.
+Il visualizzatore supporta anche una varietà di strumenti di condivisione social media. Sono disponibili come pulsante singolo nell&#39;interfaccia utente che si espande in una barra degli strumenti di condivisione quando l&#39;utente fa clic su di essa o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ciascun tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione del codice da incorporare e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorpora o collega, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando Facebook o Twitter vengono chiamati, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di protezione del browser Web.
 
 Il visualizzatore è completamente accessibile tramite tastiera. Consultate Accesso [e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)da tastiera.
 
@@ -93,7 +96,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Potete usare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -126,7 +129,7 @@ Il percorso relativo si presenta come segue:
 
    Potete impostare le dimensioni statiche per il visualizzatore dichiarandolo per la classe CSS di livello `.s7interactivevideoviewer` principale in unità assolute oppure utilizzando il `stagesize` modificatore.
 
-   Potete inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà quindi assegnato a un record di predefinito per visualizzatori in Risorse AEM - su richiesta, o trasmesso esplicitamente tramite `style` comando.
+   Potete inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà poi assegnato a un record di predefiniti per visualizzatori in AEM Assets - su richiesta, o trasmesso esplicitamente tramite `style` comando.
 
    Consultate [Personalizzazione del visualizzatore](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) video interattivo per ulteriori informazioni sullo stile del visualizzatore con CSS.
 
@@ -139,7 +142,7 @@ Il percorso relativo si presenta come segue:
    }
    ```
 
-   Puoi impostare il `stagesize` modificatore nel record del predefinito per visualizzatori in Risorse AEM - su richiesta. Oppure, potete trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con la `params` raccolta, o come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   Potete impostare il `stagesize` modificatore nel record del predefinito per visualizzatori in AEM Assets - su richiesta. Oppure, potete trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con la `params` raccolta, o come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 La pagina degli esempi seguente illustra gli usi più reali dell’incorporamento reattivo di design con altezza illimitata:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incorporazione reattiva con larghezza e altezza definite**
 
