@@ -1,24 +1,27 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore di immagini video.
-seo-description: Riferimento API JavaScript per il visualizzatore di immagini video.
+description: Riferimento API JavaScript per il visualizzatore immagini interattivo.
+seo-description: Riferimento API JavaScript per il visualizzatore immagini interattivo.
 seo-title: init
 solution: Experience Manager
 title: init
 topic: Dynamic media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bea6e8f949a9ef0f3f56faac40092b5681a16ff6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
 
 # init{#init}
 
-Riferimento API JavaScript per il visualizzatore di immagini video.
+Riferimento API JavaScript per il visualizzatore immagini interattivo.
 
 `init()`
 
-Avvia l’inizializzazione del visualizzatore di immagini video. Per questa volta, è necessario creare l’elemento DOM contenitore in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
+Avvia l’inizializzazione del visualizzatore immagini interattivo. Per questa volta, è necessario creare l’elemento DOM contenitore in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
 Se l’elemento contenitore non fa ancora parte del layout della pagina Web (ad esempio, potrebbe essere nascosto utilizzando `display:none` lo stile assegnato), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina Web riporta l’elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
