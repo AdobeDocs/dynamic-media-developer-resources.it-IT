@@ -8,7 +8,10 @@ title: Zoom di base
 topic: Dynamic media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2072'
+ht-degree: 0%
 
 ---
 
@@ -129,7 +132,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
-Potete usare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -189,7 +192,7 @@ Il percorso relativo si presenta come segue:
 
    Allo stesso tempo, l&#39;elemento contenitore non deve necessariamente far parte del layout della pagina Web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` lo stile assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina Web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo. L’esempio presuppone che `basicZoomViewer` sia l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; è `http://s7d1.scene7.com/is/image/` l’URL del server immagini ed `Scene7SharedAssets/Backpack_B` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo. L’esempio presuppone che `basicZoomViewer` sia l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://s7d1.scene7.com/is/image/` è l’URL del server immagini ed `Scene7SharedAssets/Backpack_B` è la risorsa:
 
    ```
    <script type="text/javascript"> 
@@ -290,7 +293,7 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 
 La pagina degli esempi seguente illustra gli usi più reali dell’incorporamento reattivo di design con altezza illimitata:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **Dimensioni flessibili Incorporamento con larghezza e altezza definite**
 
