@@ -1,20 +1,23 @@
 ---
-description: Note aggiornate sulla versione di Adobe Scene7 - Parte della soluzione Adobe Experience Manager in Adobe Marketing Cloud - Autunno 2016.
-seo-description: Note aggiornate sulla versione di Adobe Scene7 - Parte della soluzione Adobe Experience Manager in Adobe Marketing Cloud - Autunno 2016.
+description: Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016 - parte della soluzione di Adobe Experience Manager  nel Adobe Marketing Cloud .
+seo-description: Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016 - parte della soluzione di Adobe Experience Manager  nel Adobe Marketing Cloud .
 seo-title: Rilascio di Scene7 - Autunno 2016
 solution: Experience Manager
 title: Rilascio di Scene7 - Autunno 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
 
 # Rilascio di Scene7 - Autunno 2016{#scene-fall-release}
 
-Note aggiornate sulla versione di Adobe Scene7 - Parte della soluzione Adobe Experience Manager in Adobe Marketing Cloud - Autunno 2016.
+Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016 - parte della soluzione di Adobe Experience Manager  nel Adobe Marketing Cloud .
 
 ## Rilascio di Scene7 - Autunno 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -53,12 +56,12 @@ Per la documentazione completa, vedete [https://docs.adobe.com/content/help/en/d
 * Correzione di bug relativa al messaggio e-mail di benvenuto inviato ai nuovi utenti di Scene7 che non includevano l’autenticazione per controllare determinate impostazioni.
 * Correzione di bug che causava il mancato recupero di un elenco di cartelle FTP se il nome di una cartella conteneva caratteri speciali.
 * Configurare i fornitori di servizi OKTA per gli ambienti Scene7.
-* È stato aggiunto il supporto per l’ID organizzazione Marketing Cloud per Viewer Analytics.
+* È stato aggiunto il supporto per l’ID organizzazione Marketing Cloud per il visualizzatore  Analytics.
 * Implementato il consumer SAML di Scene7.
 
 ## Visualizzatori (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Per la documentazione completa, consultate la guida [di riferimento dei visualizzatori di](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Per la documentazione completa, consultate la Guida di riferimento [ai visualizzatori](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Correzioni di bug per Image Server 5.5.3**
 
@@ -68,7 +71,7 @@ Per la documentazione completa, consultate la guida [di riferimento dei visualiz
 
 ## Visualizzatori (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Per la documentazione completa, consultate la guida [di riferimento dei visualizzatori di](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Per la documentazione completa, consultate la Guida di riferimento [ai visualizzatori](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Correzioni di bug per Image Server 5.5.2**
 
@@ -77,14 +80,14 @@ Per la documentazione completa, consultate la guida [di riferimento dei visualiz
 
 ## Visualizzatori (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Per la documentazione completa, consultate la guida [di riferimento dei visualizzatori di](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Per la documentazione completa, consultate la Guida di riferimento [ai visualizzatori](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Nuove funzioni, miglioramenti e correzioni di bug per Image Server 5.5.1**
 
 * Visualizzatore HTML5 per eCatalog con funzione di ricerca.
 * È stata aggiunta la riproduzione video in streaming HLS come metodo di distribuzione video predefinito per la maggior parte dei sistemi desktop. Lo streaming video HDS basato su Flash è ancora disponibile come opzione di riproduzione alternativa.
 * È stato aggiunto il supporto per i dispositivi con input sia del mouse che touch con il browser Chrome.
-* È stato aggiunto il supporto per l’ID organizzazione di Marketing Cloud all’integrazione di Analytics.
+* È stato aggiunto il supporto per l’ID organizzazione Marketing Cloud all’integrazione  Analytics.
 * Aggiorna la libreria JavaScript AppMeasurement alla versione 1.6.1.
 * È stato aggiunto il supporto per l’orientamento da destra a sinistra nel visualizzatore eCatalog.
 * Problema risolto relativo alla `tip=0,-1,0` causa di un errore fuori intervallo.
@@ -192,7 +195,7 @@ Per la documentazione completa, consultate la guida [di riferimento dei visualiz
 
    * L&#39;immagine poster potrebbe incontrare un errore &quot;dimensione massima&quot;. Potrebbe essere necessario aumentare l’impostazione dei limiti per la pubblicazione da parte di Image Server.
    * I sottotitoli video richiedono un ruleset aziendale se l’hosting della pagina HTML è gestito da un server esterno (non da un server Scene7). Per assistenza, contattate il supporto Adobe.
-   * Il tracciamento di Analytics potrebbe riportare una percentuale di riproduzione non corretta a causa del buffering
+   *  tracciamento Analytics potrebbe riportare una percentuale di riproduzione non corretta a causa del buffering
    * Sui dispositivi Android e iPad potrebbe venire visualizzato un fotogramma nero invece dell’immagine poster.
    * Un fotogramma nero potrebbe lampeggiare sullo schermo durante il caricamento del visualizzatore su dispositivi iPad o Android.
    * I bordi neri sono visualizzati sul lato del componente VideoPlayer quando lo sfondo è impostato su bianco/trasparente sui dispositivi iPad.
