@@ -8,7 +8,10 @@ title: Video
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
@@ -116,7 +119,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Potete usare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 La pagina degli esempi seguente illustra l’utilizzo più reale di incorporamento reattivo con un’altezza illimitata del design:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incorporazione reattiva con larghezza e altezza definite**
 
