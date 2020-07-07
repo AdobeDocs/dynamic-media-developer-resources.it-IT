@@ -7,7 +7,10 @@ title: Cache server
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Utilizzate queste impostazioni del server per le cache del server.
 
 ## PS::cache.rootPaths - Cache Data Folders {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Le cartelle principali per la cache del disco del server piattaforma. Uno o più percorsi di file o percorsi assoluti relativi a *[!DNL install_folder]*, separati da punto e virgola (;). I dati per la cache delle risposte HTTP verranno distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si troveranno nella cartella cache primaria (la prima cartella dell&#39;elenco).
+Le cartelle principali per la cache del disco di Platform Server. Uno o più percorsi di file o percorsi assoluti relativi a *[!DNL install_folder]*, separati da punto e virgola (;). I dati per la cache delle risposte HTTP verranno distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si troveranno nella cartella cache primaria (la prima cartella dell&#39;elenco).
 
 ## PS::cache.maxSize - Dimensione cache dati di risposta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
@@ -28,7 +31,7 @@ La dimensione massima della cache delle risposte HTTP, in byte. Questa impostazi
 
 Il numero di voci allocate per l&#39;indice della cache delle risposte HTTP in memoria.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >In Linux, assicurarsi che i nodi i siano allocati sufficienti per la partizione della cache per evitare di esaurire i nodi.
 
@@ -36,7 +39,7 @@ Il numero di voci allocate per l&#39;indice della cache delle risposte HTTP in m
 
 Il server immagini a volte deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Prima di modificare questa impostazione è necessario creare la nuova cartella. Accertatevi che le autorizzazioni di accesso siano impostate in modo che il server immagini disponga del controllo completo della cartella.
 
@@ -44,7 +47,7 @@ Il server immagini a volte deve salvare i dati intermedi sul disco. Il percorso 
 
 Il supervisore del server a volte deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Il valore predefinito è [!DNL *[!DNL install_folder]*/temp].
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Prima di modificare questa impostazione è necessario creare la nuova cartella. Accertatevi che le autorizzazioni di accesso siano impostate in modo che il Garante server abbia il controllo completo della cartella.
 
