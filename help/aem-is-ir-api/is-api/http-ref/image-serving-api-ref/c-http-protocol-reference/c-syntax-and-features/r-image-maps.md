@@ -7,7 +7,10 @@ title: Mappe immagine
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Le mappe immagine sorgente vengono fornite a IS tramite `catalog::Map` o con il 
 
 Una mappa immagine è costituita da uno o più elementi AREA HTML, delimitati correttamente da &#39;&lt;&#39; e &#39;>&#39;. Se fornito tramite catalogo::Map, si presume che tutti i valori delle coordinate pixel siano nella risoluzione immagine originale e siano relativi all’angolo in alto a sinistra dell’immagine sorgente (non modificata). Se viene fornito tramite un `map=` comando, si presume che i valori delle coordinate siano coordinate del livello, relative all’angolo superiore sinistro del livello (dopo `rotate=` e `extend=`).
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Al momento le coordinate % non sono consentite e possono essere elaborate in modo non corretto.
 
