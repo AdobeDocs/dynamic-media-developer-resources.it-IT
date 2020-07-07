@@ -7,7 +7,10 @@ title: Richiesta di nidificazione e incorporazione
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Image Serving supporta la nidificazione illimitata delle richieste Image Server, l’incorporazione delle richieste di rendering delle immagini e l’incorporazione delle immagini recuperate dai server esteri. Questi meccanismi sono supportati solo dalle immagini dei livelli e dalle maschere di livello.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Alcuni client e server proxy e-mail possono codificare le parentesi graffe utilizzate per la sintassi di nidificazione e di incorporamento. Le applicazioni per le quali si tratta di un problema devono utilizzare le parentesi al posto delle parentesi graffe.
 
@@ -30,7 +33,7 @@ Per il `is` token viene fatta distinzione tra maiuscole e minuscole.
 
 La richiesta nidificata non deve includere il percorso principale del server (in genere ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >I caratteri di delimitazione delle richieste nidificati ( `'(',')'`) e i caratteri di delimitazione dei comandi ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati per HTTP. In effetti, le richieste nidificate devono essere codificate come la richiesta esterna (nidificazione).
 
@@ -62,7 +65,7 @@ Per il `ir` token viene fatta distinzione tra maiuscole e minuscole.
 
 *[!DNL renderRequest]* è la normale richiesta di rendering delle immagini, escluso il percorso principale HTTP ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >I caratteri di delimitazione delle richieste nidificati ( `'(',')'`) e i caratteri di delimitazione dei comandi ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati per HTTP. In effetti, le richieste incorporate devono essere codificate come la richiesta esterna (incorporazione).
 
@@ -87,13 +90,13 @@ Quando il renderer grafico FXG (alias [!DNL AGMServer]) è installato e attivato
 
 Per il `fxg` token viene fatta distinzione tra maiuscole e minuscole.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Il rendering di elementi grafici FXG è disponibile solo nell’ambiente ospitato di Scene7 e può richiedere ulteriori licenze. Per ulteriori informazioni, contattate il supporto di Scene7.
 
 *[!DNL renderRequest]* è la normale richiesta di rendering FXG, escluso il percorso principale HTTP ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >I caratteri di delimitazione ( `'(',')'`) e i caratteri di delimitazione dei comandi ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non devono essere codificati per HTTP. In effetti, le richieste incorporate devono essere codificate come la richiesta esterna (incorporazione).
 
@@ -119,7 +122,7 @@ Per specificare un URL esterno per un `src=` comando o un `mask=` comando, delim
 
 Importante I caratteri di delimitazione ( `'(',')'`) e i caratteri di delimitazione dei comandi ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non devono essere codificati per HTTP. In effetti, le richieste incorporate devono essere codificate come la richiesta esterna (incorporazione).
 
-Sono consentiti URL assoluti completi (se `attribute::AllowDirectUrls` impostati) e URL relativi a `attribute::RootUrl` . Si verifica un errore se un URL assoluto è incorporato e attributo: è `AllowDirectUrls` 0 oppure se è specificato un URL relativo e `attribute::RootUrl` se questo è vuoto.
+Sono consentiti URL assoluti completi (se `attribute::AllowDirectUrls` impostati) e URL relativi a `attribute::RootUrl` . Si verifica un errore se un URL assoluto è incorporato e attributo: `AllowDirectUrls` è 0 oppure se è specificato un URL relativo e `attribute::RootUrl` se questo è vuoto.
 
 Sebbene gli URL esteri non possano essere specificati direttamente nel componente percorso dell’URL della richiesta, è possibile impostare una regola di pre-elaborazione per consentire la conversione di percorsi relativi in URL assoluti (vedere l’esempio di seguito).
 
@@ -127,7 +130,7 @@ Le immagini esterne vengono memorizzate nella cache dal server in base alle inte
 
 Questo meccanismo supporta gli stessi formati di file immagine supportati dall’utility Image Convert (IC), ad eccezione delle immagini sorgente con 16 bit per componente.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Image Serving esegue automaticamente l&#39;utility validate al primo utilizzo di un&#39;immagine esterna, per assicurarsi che l&#39;immagine sia valida e non sia danneggiata durante la trasmissione. Ciò può causare un leggero ritardo nel primo accesso. Per ottenere prestazioni ottimali, si consiglia di limitare le dimensioni di tali immagini e/o di utilizzare un formato di file immagine che consenta una buona compressione.
 
