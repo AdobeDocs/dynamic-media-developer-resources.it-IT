@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Timestamp modifica file. Specifica la data/ora dell&#39;ultima modifica apportat
 
 Se `attribute::UseLastModified` è impostata, la più recente tra `catalog::TimeStamp` e `vignette::TimeStamp` i valori di tutti i materiali e la vignettatura coinvolta nella richiesta viene restituita nella risposta HTTP come ultima intestazione modificata.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >A questo scopo non vengono mai utilizzati i tempi effettivi dei file immagine o dei file di dati allegati al record del catalogo.
 
