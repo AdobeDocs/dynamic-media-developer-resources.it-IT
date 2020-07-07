@@ -7,7 +7,10 @@ title: Reindirizza a errore
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Quando attivato e quando si verifica un errore di questo tipo durante l&#39;elab
 
 Il reindirizzamento degli errori è abilitato impostando `PS::errorRedirect.rootUrl` il nome di dominio HTTP e il numero di porta del server secondario. Inoltre, il timeout di connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo entro il quale il server primario attende una risposta dal server secondario prima che venga restituito un errore al client con `PS::errorRedirect.socketTimeout`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Se il server secondario non può essere contattato, al client verrà restituita una risposta di errore di testo, anche se è configurata un&#39;immagine o un&#39;immagine di errore predefinita.
 
