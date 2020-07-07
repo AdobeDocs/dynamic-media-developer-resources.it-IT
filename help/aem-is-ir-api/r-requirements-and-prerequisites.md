@@ -7,7 +7,10 @@ title: Requisiti di sistema e prerequisiti
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Prima di usare Scene7 Image Serving, accertatevi che il sistema soddisfi i requi
 
 Il server deve soddisfare i seguenti requisiti hardware.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >I sistemi con processori con AMD64 e Intel® EM64T sono generalmente configurati come piattaforme NUMA (non Uniform Memory Architecture). Ciò significa che il kernel costruisce più nodi di memoria in fase di avvio anziché costruire un singolo nodo di memoria. Il costrutto a più nodi può determinare l&#39;esaurimento della memoria su uno o più nodi prima che gli altri si esauriscano. Quando si verifica l’esaurimento della memoria, il kernel può decidere di interrompere i processi (ad esempio, Image Server o Platform Server) anche se è disponibile memoria. Adobe Systems consiglia pertanto di disattivare la funzione NUMA se si esegue tale sistema. Utilizzare l&#39;opzione `numa=off` start per evitare che il kernel interrompa tali processi.
 
