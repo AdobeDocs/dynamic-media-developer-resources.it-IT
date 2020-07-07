@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Il server utilizza come valore dell’intestazione Ultima modifica tutti i catal
 
 Deve essere attivato solo se viene utilizzata una rete di caching distribuito, come Akamai, che non supporta le intestazioni dei tag.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Prestate attenzione quando usate le intestazioni Ultima modifica in un ambiente con bilanciamento del carico che coinvolge più host Image Serving/Rendering. Il caching dei client potrebbe essere ignorato e il caricamento del server potrebbe aumentare se per qualche motivo i server dispongono di timestamp diversi per le stesse voci di catalogo. Tale situazione può verificarsi come segue:
 
