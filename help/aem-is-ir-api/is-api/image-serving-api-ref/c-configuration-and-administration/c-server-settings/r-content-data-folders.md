@@ -7,7 +7,10 @@ title: Cartelle dei dati di contenuto
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Posizione dei dati di origine del contenuto statico che devono essere inviati tr
 
 È possibile specificare più valori separati da punti e virgola per distribuire contenuti statici su più file system. In genere, impostate gli stessi valori di `IS::RootPath`.
 
-Il server piattaforme tenta i percorsi principali nell&#39;ordine specificato fino a trovare il file richiesto.
+Platform Server tenta i percorsi principali nell&#39;ordine specificato fino a trovare il file richiesto.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Per impostazione predefinita, questo campo è intenzionalmente impostato su una posizione non esistente ( [!DNL *[!DNL install_folder]*/static]), disattivando in modo efficace il servizio di contenuto statico.
 
