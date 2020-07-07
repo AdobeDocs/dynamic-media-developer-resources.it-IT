@@ -7,7 +7,10 @@ title: Server
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Utilizzate queste impostazioni del server per configurare il server.
 
 Per Linux sono disponibili sia una versione a 32 che a 64 bit del server immagini. Specificate ImageServer64 se installato su server Linux a 64 bit oppure ImageServer32 (predefinito) se installato su server a 32 bit.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La versione a 64 bit del server immagini non supporta i file sorgente FlashPix.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >La modalità a 64 bit non è supportata in Windows. È `ImageServer32` possibile specificare solo l&#39;oggetto. In caso contrario, Image Server non verrà avviato.
 
-## SV::PsHeapSize - Dimensione heap del server della piattaforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Platform Server Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Dimensione heap Java per il server piattaforma. Il valore predefinito è &quot; `512m`&quot; (512 Mbyte).
+Dimensione heap Java per Platform Server. Il valore predefinito è &quot; `512m`&quot; (512 Mbyte).
 
 ## IS::TcpPort, PS::isConnection.port - Porta di ascolto del server immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
 Specifica la porta utilizzata per la comunicazione tra Platform Server e Image Server. Assicurarsi di specificare un numero di porta che non viene utilizzato altrimenti nel sistema host.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Affinché Image Server funzioni correttamente, è necessario impostare lo stesso valore per `IS::TcpPort` e `PS::isConnection.port`.
 
