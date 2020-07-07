@@ -7,9 +7,9 @@ title: Convertitore vignettatura
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Durante la generazione delle vignettature di produzione, al nome del file di vig
 
 [!DNL vntc] per impostazione predefinita si limita a un massimo di 3 GB di memoria. Quando Vntc raggiunge questo limite, interrompe l&#39;elaborazione e genera un errore. Questo limite può essere modificato utilizzando `-maxmem`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Lo strumento di aggiornamento della vignettatura in Image Authoring può essere utilizzato anche per preparare le vignettature da usare per il rendering delle immagini. Allo stesso modo, lo strumento di creazione dei contenuti è in grado di generare file di stile cabinet da usare con il rendering delle immagini. Utilizzare [!DNL vntc] se l&#39;elaborazione deve essere automatizzata. Gli strumenti di Image Authoring includono un’interfaccia utente grafica, che in genere risulta più semplice da usare in modo interattivo.
 
