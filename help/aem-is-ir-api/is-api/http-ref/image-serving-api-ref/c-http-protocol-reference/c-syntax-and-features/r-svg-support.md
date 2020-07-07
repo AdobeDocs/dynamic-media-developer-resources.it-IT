@@ -7,7 +7,10 @@ title: Supporto SVG
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Le immagini possono essere inserite in SVG utilizzando l’ `<image>` elemento .
 
 Specificate una richiesta di Image Server completa, a partire da `http://`o un URL relativo, a partire da `/is/image`. Se viene specificato un percorso HTTP completo, il nome del dominio verrà rimosso dal percorso per la conversione al formato relativo. L&#39;utilizzo di un percorso HTTP completo potrebbe risultare vantaggioso, in quanto consente l&#39;anteprima del file con un renderer SVG di terze parti.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Il supporto per il rendering delle immagini in questa versione di Image Server è limitato. Le immagini di riferimento provenienti da SVG devono essere utilizzate solo in situazioni in cui i tradizionali meccanismi di generazione dei livelli e di tempiazione di Image Server non sono sufficienti per ottenere il risultato desiderato. In nessun caso è consigliabile usare SVG per generare composizioni con più immagini.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Al momento, le immagini incorporate in SVG non vengono ridimensionate automaticamente. Accertatevi che tutti gli scaffali delle immagini includano i comandi Image Serving necessari per impostare le dimensioni desiderate (ad es. `wid=`). Se le dimensioni dell&#39;immagine non sono impostate in modo esplicito, `attribute::DefaultPix` verranno applicate.
 
