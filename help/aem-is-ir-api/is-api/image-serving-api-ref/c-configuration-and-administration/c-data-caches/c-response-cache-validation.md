@@ -7,7 +7,10 @@ title: Convalida cache di risposta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Per le applicazioni tipiche che coinvolgono principalmente immagini registrate n
 
 Le voci della cache diventano non valide e sono soggette a rigenerazione quando una voce del catalogo coinvolta nella richiesta cambia in modo tale da causare probabilmente una modifica dell&#39;immagine di risposta. Ad esempio, il contenuto delle `catalog::Modifier` modifiche.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Le immagini TIFF (PTIFF) piramidali di Scene7 mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
 
