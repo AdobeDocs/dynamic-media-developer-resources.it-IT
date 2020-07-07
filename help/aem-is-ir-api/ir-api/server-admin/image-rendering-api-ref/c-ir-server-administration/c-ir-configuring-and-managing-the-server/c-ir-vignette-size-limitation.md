@@ -7,7 +7,10 @@ title: Limitazione dimensione vignettatura
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Il rendering delle immagini applica un limite di due megapixel per le vignettatu
 
 Modificate il valore di `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se l&#39;applicazione richiede il supporto per vignettature non piramidali con un&#39;area immagine (larghezza x altezza) maggiore di questo limite.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >`attribute::MaxPix` e `IS::MaxMessageSize` potrebbe essere necessario regolare per consentire immagini di risposta di dimensioni insolitamente grandi. Per ulteriori informazioni, consultate la documentazione di Image Server.
 
