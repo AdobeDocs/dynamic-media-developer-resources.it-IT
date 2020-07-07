@@ -7,7 +7,10 @@ title: Verifica dell’installazione
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +23,11 @@ Image Server è installato come demone Linux.
 
 **Per verificare l&#39;installazione**
 
-1. Verificate che Image Server sia configurato per l’avvio automatico e che sia in esecuzione:
+1. Verificare che Image Server sia configurato per l’avvio automatico e che sia in esecuzione:
 
    `> /sbin/service ImageServing status`
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >Per eseguire questi script è necessario disporre delle autorizzazioni di livello principale.
 
@@ -34,6 +37,6 @@ Image Server è installato come demone Linux.
 
 [!DNL http:// *[!DNL server:port]*/ir/rendering]
 
-Nelle risposte, verificate la presenza di elementi che iniziano con &quot; `imageServer.`&quot;, il che indica che il server piattaforme può comunicare con il server immagini.
+Nelle risposte, verificate la presenza di elementi che iniziano con &quot; `imageServer.`&quot; e che indicano che Platform Server è in grado di comunicare con il server immagini.
 >È possibile eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.
 
