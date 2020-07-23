@@ -7,10 +7,10 @@ title: ReprocessAssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '484'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3">Controlla la conservazione di eventuali definizioni di ritaglio esistenti. Il valore predefinito è <span class="codeph"> true</span>. </td> 
+   <td colname="col3"> <p>Controlla la conservazione di eventuali definizioni di ritaglio esistenti. Il valore predefinito è true.</p> <p>Se fornite il parametro manualCropOptions e i valori corrispondenti, i nuovi valori (escluso 0,0,0,0) vengono applicati alla risorsa indipendentemente dal valore preserveCrop.</p><p>Se <i>non</i> si fornisce il parametro manualCropOptions, viene mantenuto il valore di preserveCrop. E, in caso di true, i valori preserveCrop esistenti vengono mantenuti; se è false, i valori preserveCrop vengono rimossi.</p><p>Esempio:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
