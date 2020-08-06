@@ -7,7 +7,10 @@ title: Prima installazione
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -61,13 +64,14 @@ Questa procedura mostra come installare Image Serving per la prima volta su Linu
 
    Verificate che tutti i numeri di porta specificati siano univoci e che non vengano utilizzati in caso contrario su questo host.
 
-   **Importante: **Se è specificato un account diverso da root, è necessario assicurarsi che le autorizzazioni di accesso per tutti i file e le cartelle che il server immagini deve leggere e/o scrivere siano impostate correttamente quando queste cartelle vengono riconfigurate nei file di configurazione.
->Image Server è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di rendering delle immagini sono installati in [!DNL /usr/local/Scene7/ImageRendering].
->
->Al termine dell’installazione, la procedura guidata di installazione tenta di avviare Image Server. Se non viene trovata alcuna chiave di licenza valida, Image Server non può avviarsi. Se è presente una licenza valida e Image Server non è ancora in fase di avvio, consultare i file di registro.
->[!NOTE]
-Se la licenza è installata dopo l’installazione di Image Server, il server immagini deve essere avviato manualmente prima di utilizzarlo.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Se viene specificato un account diverso da root, è necessario assicurarsi che le autorizzazioni di accesso per tutti i file e le cartelle che il server immagini deve leggere e/o scrivere siano impostate correttamente quando queste cartelle vengono riconfigurate nei file di configurazione.
+   >
+   >Image Server è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di rendering delle immagini sono installati in [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >Al termine dell’installazione, la procedura guidata di installazione tenta di avviare Image Server. Se non viene trovata alcuna chiave di licenza valida, Image Server non può avviarsi. Se è presente una licenza valida e Image Server non è ancora in fase di avvio, consultare i file di registro.
 
+>[!NOTE]
+>
+>Se la licenza è installata dopo l’installazione di Image Server, il server immagini deve essere avviato manualmente prima di utilizzarlo.
