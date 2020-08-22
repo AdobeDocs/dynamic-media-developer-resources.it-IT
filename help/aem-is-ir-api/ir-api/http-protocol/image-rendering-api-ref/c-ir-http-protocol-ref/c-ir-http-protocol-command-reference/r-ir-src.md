@@ -7,7 +7,10 @@ title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +36,7 @@ File materiale. Specifica i dati del materiale, sotto forma di un singolo riferi
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}|{'ir{'<span class="varname"> irReq</span>'}'|{'<span class="varname"> ForeignReq</span>'}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;race;'&amp;race;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;race;'|&amp;lbrace;'&amp;lbrace;<span class="varname"> ForeignReq</span>' amp;parentesi graffa;"</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -93,7 +96,7 @@ Se non *`catId`* viene specificato, viene utilizzato il catalogo delle sessioni.
 
 Il rendering delle immagini supporta gli stessi formati delle immagini sorgente di Scene7 Image Server.
 
-Le applicazioni che richiedono dati immagine a diverse risoluzioni si comportano nel modo migliore quando si utilizza il formato multirisoluzione TIFF (PTIFF) piramidale di Scene7. Image Server include l’utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Scene7 a piramide TIFF (PTIFF) a risoluzione multipla. Image Server include l’utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell’utility IC nella documentazione di Image Server.
 
