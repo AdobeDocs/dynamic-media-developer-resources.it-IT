@@ -1,36 +1,39 @@
 ---
-description: Dati del set di immagini. Offre un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori di Scene7.
-seo-description: Dati del set di immagini. Offre un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori di Scene7.
+description: Dati del set di immagini. Fornisce un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori Scene7.
+seo-description: Dati del set di immagini. Fornisce un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori Scene7.
 seo-title: ImageSet
 solution: Experience Manager
 title: ImageSet
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 2%
 
 ---
 
 
 # Set di immagini{#imageset}
 
-Dati del set di immagini. Offre un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori di Scene7.
+Dati del set di immagini. Fornisce un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori Scene7.
 
 Un set di immagini è composto da un elenco di elementi ordinati e separati da virgole, ciascuno dei quali è composto da uno o più elementi secondari (ID immagine, ID campioni, percorsi di file multimediali, etichette ecc.), separati da punti e virgola e/o due punti.
 
-Le parentesi graffe &#39;{ }&#39; e &#39;( )&#39; possono essere utilizzate per delimitare alcuni contenuti (come i valori di colore) o per indicare set nidificati. Le parentesi o le parentesi utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verificherà un errore di analisi del catalogo.
+Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per delimitare determinati contenuti (ad esempio i valori di colore) o per indicare set nidificati. Le parentesi o le parentesi utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verificherà un errore di analisi del catalogo.
 
 >[!NOTE]
 >
 >I seguenti caratteri vengono utilizzati come delimitatori di set e devono essere codificati per HTTP quando compaiono nel set come parte di valori id o stringa:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* )
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
@@ -101,7 +104,7 @@ Ogni elemento di un set di file multimediali può essere costituito da un’imma
 | ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
 | ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
 | ` *`swatchId`*` | ID immagine IS |
-| ` *`video`*` | Percorso del file video/animazione o ID del catalogo statico |
+| ` *`video`*` | Percorso file video/animazione o ID catalogo statico |
 | ` *`remix`*` | Percorso del file XML della definizione del remix o ID del catalogo statico |
 | ` *`imageId`*` | ID immagine IS |
 | ` *`setId`*` | Riferimento IS a immagine, set 360 gradi o set di cataloghi |
