@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Rispondi al formato immagine. Specifica il formato di codifica immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione della risposta HTTP.
 
-` fmt= *`formatpixelTypetiffCompression`*[,[ *``*][, *``*`]]
+` fmt= *`formatpixelTypetiffCompression`*[,[ *``*][, *``*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -52,12 +55,12 @@ Rispondi al formato immagine. Specifica il formato di codifica immagine per i da
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>JPEG con perdita di dati incorporati in un file SWF Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG con perdita di dati incorporati in un file Macromedia swf. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>JPEG con perdita di dati e maschera con compressione deflata incorporati in un file SWF Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG con perdita di dati e maschera con compressione deflata incorporati in un file Macromedia swf. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -169,7 +172,7 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`* e *`pi
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grigio </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shock-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>No </p> <p>Flash Player ignora i profili ICC incorporati. </p> </td> 
+   <td colname="col4"> <p>No </p> <p>(Il Flash Player ignora i profili ICC incorporati.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
