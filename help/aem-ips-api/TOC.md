@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: API Dynamic Media Image Production System
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [createDeriedAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
       + [createFolder](operations/c-operations-intro/c-methods/r-create-folder.md)
       + [createImageSet](operations/c-operations-intro/c-methods/r-create-image-set.md)
-      + [createMetadataField](operations/c-operations-intro/c-methods/r-create-metadata-field.md)
+      + [deleteMetadataField](operations/c-operations-intro/c-methods/r-create-metadata-field.md)
       + [createProject](operations/c-operations-intro/c-methods/r-create-project.md)
       + [createPropertySet](operations/c-operations-intro/c-methods/r-create-property-set.md)
       + [createPropertySetType](operations/c-operations-intro/c-methods/r-create-property-set-type.md)
@@ -118,7 +121,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPacket](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
-      + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
+      + [getAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
       + [moveAssets](operations/c-operations-intro/c-methods/r-move-assets.md)
       + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
@@ -129,7 +132,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [removeGroupMembership](operations/c-operations-intro/c-methods/r-remove-group-membership.md)
       + [removeProjectAssets](operations/c-operations-intro/c-methods/r-remove-project-assets.md)
       + [renameAsset](operations/c-operations-intro/c-methods/r-rename-asset.md)
-      + [renameFolder](operations/c-operations-intro/c-methods/r-rename-folder.md)
+      + [IlNomeCartella](operations/c-operations-intro/c-methods/r-rename-folder.md)
       + [renameProject](operations/c-operations-intro/c-methods/r-rename-project.md)
       + [replaceImage](operations/c-operations-intro/c-methods/r-replace-image.md)
       + [restoreAssetsFromTrash](operations/c-operations-intro/c-methods/r-restore-assets-from-trash.md)
@@ -354,7 +357,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
@@ -411,8 +413,8 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Impostazioni e-mail](string-constants/c-string-constants/r-email-settings.md)
    + [Stili font](string-constants/c-string-constants/r-font-styles.md)
    + [Tipi di font](string-constants/c-string-constants/r-font-types.md)
-   + [Informazioni sulla generazione](string-constants/c-string-constants/r-generation-info.md)
-   + [Processi Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Auto generazione](string-constants/c-string-constants/r-generation-info.md)
+   + [processi Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Tipi di file registro processi](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campi ordinamento registro processo](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipi di registro processo](string-constants/c-string-constants/r-job-log-types.md)
