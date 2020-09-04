@@ -1,15 +1,15 @@
 ---
-description: Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione alcuni problemi noti e limitazioni.
-seo-description: Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione alcuni problemi noti e limitazioni.
+description: Quando si utilizza Scene7 Image Serving è necessario tenere in considerazione alcuni problemi noti e limitazioni.
+seo-description: Quando si utilizza Scene7 Image Serving è necessario tenere in considerazione alcuni problemi noti e limitazioni.
 seo-title: Restrizioni e problemi noti
 solution: Experience Manager
 title: Restrizioni e problemi noti
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Restrizioni e problemi noti{#restrictions-and-known-issues}
 
-Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione alcuni problemi noti e limitazioni.
+Quando si utilizza Scene7 Image Serving è necessario tenere in considerazione alcuni problemi noti e limitazioni.
 
 ## Correzione della documentazione {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -29,7 +29,7 @@ Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione 
 ## Differenze note textPs= rispetto a text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
 * Il corsivo sintetico viene riprodotto meno inclinato rispetto all’utilizzo `text=`.
-* Sottolineare è un po&#39; più basso e sottile rispetto all&#39;uso `text=`.
+* La sottolineatura è un po&#39; più bassa e sottile rispetto all&#39;uso `text=`.
 * `\expnd` e `\expndtw` utilizzati con valori negativi elevati, i caratteri vengono posizionati l&#39;uno davanti all&#39;altro durante l&#39;uso `text=`.
 
 * `\charscaley` viene ridimensionata in modo diverso rispetto all&#39;uso `text=` ma non influisce sull&#39;altezza della riga.
@@ -37,9 +37,9 @@ Quando si utilizza Scene7 Image Serving, è necessario tenere in considerazione 
 * Se l&#39;ultima riga di testo non rientra, l&#39;intera riga viene eliminata invece di essere visualizzata come interruzione.
 * `\slmult` e `\sl` si comportano in modo diverso da MS Word e `text=`, hanno semplicemente effetto per i paragrafi correnti e successivi.
 
-* `\sb` viene applicato al primo paragrafo per Microsoft Word e `text=`, Adobe InDesign e Photoshop non lo fanno.
+* `\sb` viene applicato al primo paragrafo sia per MS Word che per `text=`,  Adobe InDesign e Photoshop non lo fanno.
 
-* `\sa` si applica all&#39;ultimo paragrafo per Microsoft Word e `text=`, Adobe InDesign e Photoshop non eseguono questa operazione.
+* `\sa` si applica all&#39;ultimo paragrafo per Microsoft Word e `text=`,  Adobe InDesign e Photoshop non lo fanno.
 
 ## Compatibilità con le versioni precedenti {#section-a76842f751944f4fb664af296d064122}
 
@@ -89,19 +89,19 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 
    *Soluzione*:
 
-   Per il rendering di immagini con vignettature non piramidali, aumentate il valore della proprietà per IrMaxNonPyrVignetteSize nel file di configurazione [!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   Per il rendering di immagini con vignettature non a piramide, aumentate il valore della proprietà per IrMaxNonPyrVignetteSize nel file di [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configurazione.
 
-   Per i TIFF non piramidali di Image Server, aumentate il valore della proprietà per `MaxNonDsfSize` nel file di configurazione [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   Per i TIFF non piramidali di Image Server, aumentate il valore della proprietà per `MaxNonDsfSize` nel file di [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configurazione.
 
-* Per impostazione predefinita, Adobe Photoshop CS3 non salva i file PSD con più livelli.
+*  Adobe Photoshop CS3 non salva i file PSD con più livelli per impostazione predefinita, come immagine composita.
 
    *Sintomi*:
 
-   Il file PSD a livelli di Adobe Photoshop CS3 viene visualizzato in nero con il testo &quot;Il file Photoshop a livelli non è stato salvato con un&#39;immagine composita&quot;. per l’immagine di risposta Image Server o in IPS.
+   Il  file PSD con livelli Adobe Photoshop CS3 viene visualizzato in nero con testo che indica: &quot;Il file Photoshop con più livelli non è stato salvato con un&#39;immagine composita&quot;. per l’immagine di risposta Image Server o in IPS.
 
    *Soluzione*:
 
-   Salvate il file Adobe Photoshop CS3 con l&#39;attivazione della massima compatibilità.
+   Salvate il file Adobe Photoshop CS3  con l&#39;opzione di massimizzazione della compatibilità attivata.
 
 * Se si assegna il profilo ICC a un&#39;immagine di risposta CMYK/JPEG, in alcuni browser i colori vengono invertiti.*Soluzione*:
 
@@ -120,7 +120,7 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 * Le correzioni colore per le immagini PNG con profili colore incorporati utilizzano opzioni hard-coded. L&#39;intento di rendering è colorimetrico relativo e la compensazione del punto nero è attivata per il testo PhotoFont.
 * La ricerca basata su file non è supportata quando la traduzione locale è abilitata nel [!DNL ini] file della società.
 * Image Server non scrive correttamente percorsi Photoshop non chiusi.
-* Image Server non supporta attualmente l&#39;elaborazione di file TIFF esportati con Adobe Media Encoder 4.0.1 o versioni precedenti. Adobe Media Encoder è incluso in Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
+* Image Server non supporta attualmente l&#39;elaborazione di file TIFF esportati con Adobe Media Encoder 4.0.1 o versioni precedenti. Adobe Media Encoder è incluso in Premiere Pro CS4,  After Effects CS4 e Creative Suite 4 Production Premium.
 * L&#39;utilizzo `text=` con livelli di ridimensionamento automatico non supporta stringhe RTF che utilizzano più di un&#39;impostazione per la giustificazione della riga.
 
    *Esempio*
@@ -135,7 +135,7 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 
    *Soluzione*
 
-   Impostare la proprietà `svgProvider.fontRoot=` in [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf] .
+   Impostate la proprietà `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Il ritaglio viene attualmente utilizzato `bgColor=` invece `color=` di riempire l&#39;area estesa di recente.
 
@@ -145,7 +145,7 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 ## Restrizioni applicabili solo al rendering delle immagini {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Decorazioni e materiali da parete non sono rimovibili.
-* Le dimensioni delle texture sono limitate rispetto alle dimensioni della vista vignettatura. In rare circostanze, il limite predefinito del 425% delle dimensioni di visualizzazione potrebbe interferire con un&#39;applicazione che utilizza texture molto grandi e non ripetibili. Se non è possibile modificare l&#39;applicazione o il contenuto in modo che funzioni entro i limiti predefiniti, la percentuale può essere aumentata come segue. Utilizzando un editor di testo, aprite [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml], individuate `IrMaxTextureSizeFactor` e immettete un nuovo valore percentuale. La modifica ha effetto immediato senza riavviare il server immagini.
+* Le dimensioni delle texture sono limitate rispetto alle dimensioni della vista vignettatura. In rare circostanze, il limite predefinito del 425% delle dimensioni di visualizzazione potrebbe interferire con un&#39;applicazione che utilizza texture molto grandi e non ripetibili. Se non è possibile modificare l&#39;applicazione o il contenuto in modo che funzioni entro i limiti predefiniti, la percentuale può essere aumentata come segue. Utilizzando un editor di testo, aprite [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], individuate `IrMaxTextureSizeFactor` e immettete un nuovo valore percentuale. La modifica ha effetto immediato senza riavviare il server immagini.
 
 * I motori JavaScript nei dati di risposta della cache Netscape e Opera anche se è impostata l&#39;intestazione nocache. Ciò interferisce con il corretto funzionamento delle richieste statiche.
 
