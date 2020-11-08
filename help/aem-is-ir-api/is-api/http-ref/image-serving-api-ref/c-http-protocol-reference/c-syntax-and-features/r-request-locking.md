@@ -7,7 +7,10 @@ title: Richiedi blocco
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Per ridurre le possibilità di manomissione delle richieste, è disponibile un semplice impianto di bloccaggio.
 
-Se attribute::RequestLock è impostato, alla richiesta deve essere aggiunto un valore di blocco sotto forma di `&xxxx`, con xxxx come valore esadecimale a quattro cifre. Questo valore esadecimale viene generato utilizzando un algoritmo di hash semplice applicato alla parte *modificatori* della richiesta (dopo il simbolo &#39;?&#39; che separa il percorso dell’URL dai *modificatori*). Questa operazione deve essere eseguita dopo che la richiesta è completamente http-encoded, ma prima che sia (facoltativamente) offuscata. Dopo aver decompresso la richiesta, il server utilizzerà lo stesso algoritmo di hash sulla stringa del modificatore (esclusi gli ultimi 5 caratteri, che contengono il valore lock). Se la chiave generata non corrisponde al blocco, la richiesta viene rifiutata.
+Se attribute::RequestLock è impostato, alla richiesta deve essere aggiunto un valore di blocco sotto forma di `&xxxx`, con xxxx come valore esadecimale a quattro cifre. Questo valore esadecimale viene generato utilizzando un algoritmo di hash semplice applicato alla parte *modificatori* della richiesta (dopo il simbolo &#39;?&#39; che separa il percorso dell’URL dai *modificatori*). Questa operazione deve essere eseguita dopo che la richiesta è completamente http-encoded, ma prima che sia (facoltativamente) offuscata. Dopo aver decompresso la richiesta, il server utilizzerà lo stesso algoritmo di hash sulla stringa del modificatore (ad eccezione degli ultimi 5 caratteri, che contengono il valore lock). Se la chiave generata non corrisponde al blocco, la richiesta viene rifiutata.
+
+>[!IMPORTANT]
+>
+>Se abilitate questa funzione, tenete presente che esistono alcune limitazioni all’uso che includono:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando **[!UICONTROL Request Obfuscation]** e **[!UICONTROL Request Locking]** sono abilitati.
 
 Codice di esempio C++ per generare il valore di blocco della richiesta:
 
