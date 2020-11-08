@@ -7,7 +7,10 @@ title: Oscuramento della richiesta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 Il contenuto dell’intero modificatore parte della stringa di richiesta, incluso il suffisso di blocco facoltativo, può essere oscurato applicando la codifica standard base64.
 
 Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato. Se la decodifica non riesce, la richiesta viene rifiutata. Se sono applicati sia il blocco della richiesta che l&#39;oscuramento della richiesta, il suffisso del blocco deve essere generato e aggiunto prima della codifica base64.
+
+>[!IMPORTANT]
+>
+>Se abilitate questa funzione, tenete presente che esistono alcune limitazioni all’uso che includono:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando sono abilitati l&#39;offuscamento **[!UICONTROL della]** richiesta e il blocco **[!UICONTROL della]** richiesta.
 
 ## Esempio {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
