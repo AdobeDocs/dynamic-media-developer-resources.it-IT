@@ -7,7 +7,7 @@ title: Richiedi blocco
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Se attribute::RequestLock è impostato, alla richiesta deve essere aggiunto un v
 
 >[!IMPORTANT]
 >
->Se abilitate questa funzione, tenete presente che esistono alcune limitazioni all’uso che includono:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando **[!UICONTROL Request Obfuscation]** e **[!UICONTROL Request Locking]** sono abilitati.
+>Se attivate questa funzione, tenete presente che l’utilizzo di questa funzione presenta alcune limitazioni:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando **[!UICONTROL Request Obfuscation]** e **[!UICONTROL Request Locking]** sono abilitati.
 
 Codice di esempio C++ per generare il valore di blocco della richiesta:
 
