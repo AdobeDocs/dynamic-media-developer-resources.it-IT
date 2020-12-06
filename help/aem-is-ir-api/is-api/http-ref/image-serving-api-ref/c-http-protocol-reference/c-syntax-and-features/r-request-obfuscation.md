@@ -7,9 +7,9 @@ title: Oscuramento della richiesta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato.
 
 >[!IMPORTANT]
 >
->Se attivate questa funzione, tenete presente che l’utilizzo di questa funzione presenta alcune limitazioni:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando sono abilitati l&#39;offuscamento **[!UICONTROL della]** richiesta e il blocco **[!UICONTROL della]** richiesta.
+>Se attivate questa funzione, tenete presente che l’utilizzo di questa funzione presenta alcune limitazioni:<br>- L’interfaccia utente per i file multimediali dinamici potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]** . Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando sono abilitati l&#39;offuscamento **[!UICONTROL della]** richiesta e il blocco **[!UICONTROL della]** richiesta.<br>- Al momento, alcuni visualizzatori per contenuti multimediali dinamici non funzionano quando sono abilitati l’oscuramento delle **[!UICONTROL richieste]** e il blocco **[!UICONTROL delle]** richieste.
 
 ## Esempio {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
