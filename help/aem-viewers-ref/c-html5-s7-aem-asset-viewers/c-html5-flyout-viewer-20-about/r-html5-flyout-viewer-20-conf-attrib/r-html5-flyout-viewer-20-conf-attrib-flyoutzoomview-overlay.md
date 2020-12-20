@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Controlla l'aspetto dell'evidenziazione della vista principale quando il menu a comparsa è attivo. Se è impostata su <span class="codeph"> 0</span>, l'area correntemente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti dai nomi delle classi CSS <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> (a seconda del valore del modificatore <span class="codeph"> highlightmode</span> ). Quando è impostato su <span class="codeph"> 1</span> , il componente entra in modalità "inverse", dove l’area correntemente visualizzata è completamente trasparente (nel caso <span class="codeph"> in cui la modalità</span> evidenziazione sia impostata su <span class="codeph"> evidenziazione</span>) oppure formattata con il nome della classe CSS <span class="codeph"> .s7cursor</span> (nel caso in cui la modalità <span class="codeph"></span> <span class="codeph"></span><span class="codeph"></span> evidenziazione sia impostata su ), ma l’area circostante viene riempita utilizzando gli stili forniti dal nome di classe .s7overlayTracciati. </p> </td> 
+   <td colname="col2"> <p> Controlla l'aspetto dell'evidenziazione della vista principale quando il menu a comparsa è attivo. Se impostata su <span class="codeph"> 0</span>, l'area attualmente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti dal modificatore <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> CSS (a seconda del valore di <span class="codeph"> highlightMode</span>). Quando è impostato su <span class="codeph"> 1</span> il componente entra in modalità "inverse", dove l'area correntemente visualizzata è completamente trasparente (nel caso in cui <span class="codeph"> highlight mode</span> sia impostato su <span class="codeph"> highlight</span>) o formattato con <span class="codeph"> .s7cursor</span> nome classe CSS (nel caso in cui <span class="codeph"> highlight mode</span> sia impostato a <span class="codeph"> cursor</span>), ma l'area circostante viene riempita con gli stili forniti da <span class="codeph"> .s7overlay</span> nome classe CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
