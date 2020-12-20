@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +40,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto dell&#39;area di vis
    <td colname="col2"> <p>Altezza visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
