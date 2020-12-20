@@ -1,6 +1,6 @@
 ---
-description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce i meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
-seo-description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce i meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+seo-description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 seo-title: Impostazioni di rendering avanzate
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 22%
 
 ---
 
 
 # Impostazioni di rendering avanzate{#advanced-render-settings}
 
-Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce i meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 
 >[!NOTE]
 >
->Le impostazioni di rendering sono una funzione avanzata di Image Rendering e Image Authoring. Per informazioni su come utilizzare le impostazioni di rendering, contattate il supporto tecnico Adobe o il rappresentante di consulenza Adobe.
+>Le impostazioni di rendering sono una funzione avanzata di Image Rendering e Image Authoring. Per informazioni su come utilizzare le impostazioni di rendering, contattate  Adobe di assistenza tecnica o il rappresentante di consulenza  Adobe.
 
-Queste impostazioni vengono controllate in modo interattivo nell’authoring delle immagini. È possibile applicare le stesse impostazioni nel rendering delle immagini con il `rs=` comando (o con il `catalog::RenderSettings` valore). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio variare la saturazione delle luci o il contrasto nelle ombre.
+Queste impostazioni vengono controllate in modo interattivo nell’authoring delle immagini. È possibile applicare le stesse impostazioni nel rendering delle immagini utilizzando il comando `rs=` (o con il valore `catalog::RenderSettings`). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio variare la saturazione delle luci o il contrasto nelle ombre.
 
-## Impostazioni di rendering avanzate (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Impostazioni di rendering avanzate (rs=) valori {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -52,7 +55,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Importo USM (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -109,7 +112,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Frequenza casuale. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 5. </p> </td> 
   </tr> 
@@ -130,7 +133,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Campioni/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 1. </p> </td> 
   </tr> 
