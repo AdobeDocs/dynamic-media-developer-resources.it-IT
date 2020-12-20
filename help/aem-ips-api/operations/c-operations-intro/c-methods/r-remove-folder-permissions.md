@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 9%
 
 ---
 
@@ -39,25 +42,25 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L’handle della società con cartelle con le autorizzazioni da rimuovere. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Gestite la cartella. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>Quando <span class="codeph"> true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La rimozione delle autorizzazioni viene propagata attraverso tutte le operazioni di autorizzazione delle cartelle. </li> 
-     </ul> </p> <p>Se <span class="codeph"> false</span>: 
+     </ul> </p> <p>Quando <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">L'operazione interessa solo la cartella specificata. </li> 
      </ul> </p> </td> 
@@ -71,7 +74,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Questo esempio di codice rimuove le autorizzazioni da una cartella e dalle relative sottocartelle. Impostate `updateChildren` su `false` se è necessario rimuovere le autorizzazioni solo dalla cartella principale.
+Questo esempio di codice rimuove le autorizzazioni da una cartella e dalle relative sottocartelle. Impostare `updateChildren` su `false` se è necessario rimuovere le autorizzazioni solo dalla cartella principale.
 
 **Request Contents (Richiesta contenuto)**
 
