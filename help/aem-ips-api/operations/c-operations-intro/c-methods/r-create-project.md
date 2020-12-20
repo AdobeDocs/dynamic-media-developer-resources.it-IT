@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +47,7 @@ Sintassi
 
 ## Esempi {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Questo esempio di codice crea un progetto chiamato `ApiTestProject` in una società specificata dall&#39;handle. La risposta restituisce l’handle al progetto.
+Questo esempio di codice crea un progetto denominato `ApiTestProject` in una società specificata dal relativo handle. La risposta restituisce l’handle al progetto.
 
 **Request Contents (Richiesta contenuto)**
 
