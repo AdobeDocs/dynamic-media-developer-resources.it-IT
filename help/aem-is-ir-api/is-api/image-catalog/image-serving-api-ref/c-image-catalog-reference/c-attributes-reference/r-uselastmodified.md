@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9dae4f15-4323-4f68-917f-6d72ae52c753
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Abilitare le intestazioni di risposta modificate per l’ultima volta. Abilita o disabilita l’inclusione dell’intestazione Ultima modifica nelle risposte HTTP memorizzabili nella cache emesse da Image Server.
 
-Il server utilizza il `catalog::TimeStamp` valore più recente di tutti i cataloghi/record di catalogo coinvolti in una risposta come valore dell’intestazione Ultima modifica.
+Il server utilizza il valore `catalog::TimeStamp` più recente di tutti i cataloghi/record di catalogo coinvolti in una risposta come valore dell&#39;intestazione Ultima modifica.
 
 Deve essere attivato solo se viene utilizzata una rete di caching distribuito o un altro sistema di caching che non supporta le intestazioni dei tag.
 
@@ -24,11 +27,12 @@ Deve essere attivato solo se viene utilizzata una rete di caching distribuito o 
 >
 >Prestate attenzione quando usate le intestazioni Ultima modifica in un ambiente con bilanciamento del carico che coinvolge più host Image Server. Il caching dei client potrebbe essere ignorato e il caricamento del server potrebbe aumentare se per qualche motivo i server dispongono di timestamp diversi per le stesse voci di catalogo. Tale situazione può verificarsi come segue:
 >
->* Né `catalog::TimeStamp` né `attribute::TimeStamp`, in modo che il tempo di modifica del [!DNL catalog.ini] file venga utilizzato come impostazione predefinita per `catalog::TimeStamp`.
+>* Né `catalog::TimeStamp` né `attribute::TimeStamp`, in modo che il tempo di modifica del file [!DNL catalog.ini] sia utilizzato come impostazione predefinita per `catalog::TimeStamp`.
    >
    >
 * Anziché condividere i file del catalogo immagini tramite un sistema di rete, ogni server dispone di una propria istanza dei file del catalogo su un file system locale.
->* Due o più istanze dello stesso [!DNL catalog.ini] file hanno date di modifica del file diverse, probabilmente causate da una copia non corretta dei file.
+>* Due o più istanze dello stesso file [!DNL catalog.ini] hanno date di modifica diverse, probabilmente causate da una copia non corretta dei file.
+
 >
 
 
