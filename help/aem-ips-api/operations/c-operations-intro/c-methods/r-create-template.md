@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Crea un’immagine a più livelli con più livelli di testo e immagine.
 
-Il `urlModifier` parametro specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima dei comandi forniti dall’utente nell’URL. Il `urlPostApplyModifier` parametro specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni in conflitto fornite dall&#39;utente.
+Il parametro `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima dei comandi forniti dall’utente nell’URL. Il parametro `urlPostApplyModifier` specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni fornite dall&#39;utente in conflitto.
 
 ## Tipi di utenti autorizzati {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +50,7 @@ Il `urlModifier` parametro specifica i comandi del protocollo Image Server memor
 
 ## Esempi {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome di `APIcreateTemplate`, un `urlModifier`e un `urlPostApplyModifier`. La risposta restituisce l’handle al modello appena creato.
+Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome `APIcreateTemplate`, un `urlModifier` e un `urlPostApplyModifier`. La risposta restituisce l’handle al modello appena creato.
 
 **Request Contents (Richiesta contenuto)**
 
