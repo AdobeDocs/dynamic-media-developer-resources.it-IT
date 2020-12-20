@@ -21,17 +21,17 @@ Cercate le risorse in base ai criteri specificati.
 
 Sintassi
 
-## searchAssets: Informazioni {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets: Informazioni su {#section-4ad74f12eb754768bf85bd235a7e25f0}
 
 `searchAssets` è il metodo principale per recuperare le risorse IPS. Questo metodo è utilizzato per vari scopi, ad esempio per esplorare la gerarchia delle cartelle o trovare una risorsa specifica per nome.
 
 **Dimensioni risposta**
 
-`searchAssets` restituisce fino a 1000 risorse in una singola chiamata. Per restituire fino a 10.000 risorse per chiamata, limitate i dati di risposta a un sottoinsieme dei `totalRows`, `name`, `handle`, `type`e `subType` dei campi. Per restituire set più grandi, impostate il paging con il `resultPage` parametro.
+`searchAssets` restituisce fino a 1000 risorse in una singola chiamata. Per restituire fino a 10.000 risorse per chiamata, limitate i dati di risposta a un sottoinsieme dei campi `totalRows`, `name`, `handle`, `type` e `subType`. Per restituire set più grandi, impostate il paging con il parametro `resultPage`.
 
 **Limita dimensione file risultati con responseFieldArray o excludeFieldArray**
 
-Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `excludFieldArray` . Questi parametri consentono di ridurre l&#39;utilizzo di memoria e la larghezza di banda e possono migliorare i tempi di risposta del server.
+Limita le dimensioni del set di dati con i parametri `responseFieldArray` o `excludFieldArray`. Questi parametri consentono di ridurre l&#39;utilizzo di memoria e la larghezza di banda e possono migliorare i tempi di risposta del server.
 
 ## Tipi di utenti autorizzati {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -111,7 +111,7 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Scelta delle modalità di ricerca per combinare i risultati di <span class="codeph"> parola chiave Array</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span>. Il valore predefinito è <span class="codeph"> Tutti</span>. </p> </td> 
+   <td colname="col4"> <p>Scelta delle modalità di ricerca per combinare i risultati di <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> e  <span class="codeph"> metadataConditionArray</span>. Il valore predefinito è <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -123,7 +123,7 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Scelta delle modalità di corrispondenza della ricerca per combinare le corrispondenze <span class="codeph"> systemFieldCondition</span> . Il valore predefinito è <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Scelta delle modalità di corrispondenza della ricerca per combinare le corrispondenze di <span class="codeph"> systemFieldCondition</span>. Il valore predefinito è <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -135,19 +135,19 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Costanti della stringa Modalità corrispondenza ricerca. Il valore predefinito è <span class="codeph"> Tutti</span>. </td> 
+   <td colname="col4">Costanti della stringa Modalità corrispondenza ricerca. Il valore predefinito è <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagConditionArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Un array di predicati per la ricerca di campi di tag. </p> <p>I predicati vengono combinati in base all'impostazione <span class="codeph"> tagMatchMode</span> , quindi combinati con eventuali termini in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span> in base all'impostazione <span class="codeph"> conditionMatchMode</span> . </p> </td> 
+   <td colname="col4"> <p>Un array di predicati per la ricerca di campi di tag. </p> <p>I predicati vengono combinati in base all'impostazione <span class="codeph"> tagMatchMode</span>, quindi combinati con eventuali termini in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> e <span class="codeph"> metadataConditionArray</span> in base all'impostazione <span class="codeph"> conditionMatchMode</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Modalità di corrispondenza ricerca per combinare <span class="codeph"> le corrispondenze tra metadatiCondizione</span> . Il valore predefinito è <span class="codeph"> Tutti</span>. </td> 
+   <td colname="col4">Modalità di corrispondenza ricerca per combinare corrispondenze tra <span class="codeph"> metadataCondition</span>. Il valore predefinito è <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -177,7 +177,7 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non sono vuoti, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span> . Se è <span class="codeph"> false</span> (impostazione predefinita), vengono restituite le risorse senza sottotipo definito. </td> 
+   <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span>. Se <span class="codeph"> false</span> (predefinito), vengono restituite risorse senza sottotipo definito. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -207,7 +207,7 @@ Limita le dimensioni del set di dati con i `responseFieldArray` parametri o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Specifica la pagina dei risultati da restituire, in base alle dimensioni della pagina <span class="codeph"> recordsPerPage</span> . </td> 
+   <td colname="col4">Specifica la pagina dei risultati da restituire, in base alle dimensioni di pagina <span class="codeph"> recordsPerPage</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
