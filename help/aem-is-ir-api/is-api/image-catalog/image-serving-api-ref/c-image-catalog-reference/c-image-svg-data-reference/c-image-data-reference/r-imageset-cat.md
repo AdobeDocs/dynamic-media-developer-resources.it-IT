@@ -21,7 +21,7 @@ Dati del set di immagini. Fornisce un meccanismo per definire set di immagini or
 
 Un set di immagini è composto da un elenco di elementi ordinati e separati da virgole, ciascuno dei quali è composto da uno o più elementi secondari (ID immagine, ID campioni, percorsi di file multimediali, etichette ecc.), separati da punti e virgola e/o due punti.
 
-Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per delimitare determinati contenuti (ad esempio i valori di colore) o per indicare set nidificati. Le parentesi o le parentesi utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verificherà un errore di analisi del catalogo.
+Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per delimitare alcuni contenuti (ad esempio, valori di colore) o per indicare set nidificati. Le parentesi o le parentesi utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verificherà un errore di analisi del catalogo.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per del
 
 Per ulteriori informazioni sulla struttura e l’utilizzo dei set di immagini, consultate la documentazione dei visualizzatori Image Server.
 
-Il server restituisce il contenuto di questo campo senza modifiche in risposta a una `req=imageset` richiesta.
+Il server restituisce il contenuto di questo campo senza modifiche in risposta a una richiesta `req=imageset`.
 
 ## Set standard {#section-5ecc8ffee7224668b63f601383665564}
 
@@ -119,14 +119,14 @@ Un set video consiste in un semplice elenco di ID video in cui ogni ID fa riferi
 
 ## Proprietà {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Stringa di testo. Elenco di `catalog::Id` valori separati da virgole, percorso assoluto del file del server immagini o percorsi di file relativi a `attribute::RootPath`. È possibile fare riferimento più volte alla stessa immagine nel set. Il record del catalogo di definizione può essere visualizzato nel set in qualsiasi posizione.
+Stringa di testo. Elenco separato da virgole di valori `catalog::Id`, percorsi di file assoluto del server immagini o percorsi di file relativi a `attribute::RootPath`. È possibile fare riferimento più volte alla stessa immagine nel set. Il record del catalogo di definizione può essere visualizzato nel set in qualsiasi posizione.
 
-Questo campo partecipa alla localizzazione delle stringhe di testo. Oltre alle *`label`* stringhe (parte di *`solidColorSpecifier`*), tutti i campi delimitati sono localizzati se includono almeno un token di localizzazione &#39; `^loc=…^`&#39;. Per ulteriori informazioni, vedere Localizzazione [delle stringhe di](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo nella Guida di riferimento *del protocollo* HTTP.
+Questo campo partecipa alla localizzazione delle stringhe di testo. Oltre alle stringhe *`label`* (parte di *`solidColorSpecifier`*), tutti i campi delimitati sono localizzati se includono almeno un token di localizzazione &#39; `^loc=…^`&#39;. Per ulteriori informazioni, consultare [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in *HTTP Protocol Reference*.
 
 ## Predefinito {#section-c3a60e360393478284f0f2d2da5b963b}
 
 Nessuno.
 
-## See Also {#section-4c99c44f99074aa0a4ed90ba183bbc25}
+## Vedere anche {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), Traduzione [ID](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) oggetto, Localizzazione [stringa di](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo, Documentazione visualizzatori Image Server
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), traduzione [ ID ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) oggetto, localizzazione [ delle stringhe di ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo, documentazione dei visualizzatori Image Server
