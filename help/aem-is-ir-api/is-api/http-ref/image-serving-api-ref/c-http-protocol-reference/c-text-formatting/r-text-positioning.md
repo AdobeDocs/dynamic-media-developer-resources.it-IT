@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Il renderer text= posiziona il testo in modo fondamentalmente diverso dal renderer textPs= quando viene applicato ai livelli predimensionati (ovvero quando è specificato anche size=).
 
-I livelli `text=``textPs=` e i livelli di ridimensionamento hanno un aspetto e un posizionamento simili.
+I livelli `text=`e `textPs=` di ridimensionamento automatico hanno un aspetto e un posizionamento simili.
 
-`textPs=` allinea la parte superiore della cella di carattere con la parte superiore della casella di testo (assumendo `\vertalt`), anche se in questo modo alcune parti dei glifi di testo sottoposti a rendering si estendono parzialmente al di fuori del limite della casella di testo. I glifi di cui è stato effettuato il rendering di alcuni font possono sporgere leggermente oltre i bordi sinistro e destro della casella di testo. Per le applicazioni che richiedono che tutto il testo di cui è stato effettuato il rendering sia contenuto all’interno del rettangolo del livello, `\marg*` i comandi RTF o `textFlowPath=` possono essere utilizzati per regolare l’area di rendering del testo.
+`textPs=` allinea la parte superiore della cella di carattere con la parte superiore della casella di testo (assumendo  `\vertalt`), anche se in questo modo alcune parti dei glifi di testo sottoposti a rendering si estendono parzialmente al di fuori del limite della casella di testo. I glifi di cui è stato effettuato il rendering di alcuni font possono sporgere leggermente oltre i bordi sinistro e destro della casella di testo. Per le applicazioni che richiedono che tutto il testo di cui è stato effettuato il rendering sia contenuto nel rettangolo di livello, i comandi RTF `\marg*` o `textFlowPath=` possono essere utilizzati per regolare l’area di rendering del testo.
 
 Al contrario, `text=` sposterà il testo renderizzato in base alle esigenze e garantirà che tutti i glifi sottoposti a rendering rientrino completamente nella casella di testo specificata.
 
-Anche se `text=` può essere leggermente più semplice da usare per applicazioni semplici, `textPs=` offre un posizionamento preciso indipendente dai caratteri e dagli effetti di testo.
+Anche se `text=` può essere leggermente più semplice da usare per applicazioni semplici, `textPs=` offre un posizionamento preciso, indipendente dalle facce dei font e dagli effetti di testo.
 
 ## Esempi {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
@@ -46,7 +49,7 @@ Gli esempi seguenti sono per il testo in formato predimensionale. Il comportamen
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` non sposterà il testo che contiene parti alzate, con conseguente significativo ritaglio se il testo si trova sul livello 0:**
+** `textPs=` non sposta il testo contenente porzioni alzate, con conseguente taglio significativo se il testo si trova sul livello 0:**
 
 ![](assets/tp04.png)
 
