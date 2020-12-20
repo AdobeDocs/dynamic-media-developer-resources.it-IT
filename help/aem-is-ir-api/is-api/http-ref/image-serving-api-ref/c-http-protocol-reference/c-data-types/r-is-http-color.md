@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 13%
 
 ---
 
@@ -18,23 +21,23 @@ Valori colore. È possibile specificare valori di colore utilizzando la notazion
 
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> colore</span></span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> Grey</span>[,<span class="varname"> alpha</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}[s]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
+  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> grigio</span>[,<span class="varname"> alfa</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>,  <span class="varname"> magenta</span>,  <span class="varname"> giallo</span>,  <span class="varname"> nero</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> rosso</span>, <span class="varname"> verde</span>, <span class="varname"> blu</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> rosso</span>,  <span class="varname"> verde</span>,  <span class="varname"> blu</span>,  <span class="varname"> rgbAlpha</span></span> </p> </td> 
   <td class="stentry"> <p>valore componente colore (0...255, numero decimale) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>, <span class="varname"> alfa</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ciano</span>,  <span class="varname"> magenta</span>,  <span class="varname"> giallo</span>,  <span class="varname"> nero</span>,  <span class="varname"> alfa</span></span> </p></td> 
   <td class="stentry"> <p>Valore componente colore CMYK (0,100 %, numero decimale) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grigio</span>, <span class="varname"> alfa</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grigio</span>,  <span class="varname"> alfa</span></span> </p> </td> 
   <td class="stentry"> <p>valore componente colore grigio (0...100%, numero decimale) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ex2</span> </span> </p></td> 
   <td class="stentry"> <p>valore compresso del colore grigio esadecimale a due cifre (GG) </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +45,7 @@ Valori colore. È possibile specificare valori di colore utilizzando la notazion
   <td class="stentry"> <p>grigio esadecimale a quattro cifre con valore alfa (GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> ex6</span> </span> </p> </td> 
   <td class="stentry"> <p>valore di colore RGB esadecimale compresso a sei cifre (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,25 +81,25 @@ Alcuni esempi di specifici di colore validi e il tipo di pixel, il valore del co
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i>colore</i></b> </th> 
+   <th class="entry"> <b> <i>color</i> </b> </th> 
    <th class="entry"> <b>Tipo di pixel</b> </th> 
    <th class="entry"> <b>Valore colore</b> </th> 
    <th class="entry"> <b>Valore alfa</b> </th> 
-   <th class="entry"> <b>Spazio colore predefinito </b> </th> 
+   <th class="entry"> <b>Spazio colore predefinito  </b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>0,100,200 </p> </td> 
+   <td> <p>0.100.200 </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0,100,200 </p> </td> 
+   <td> <p>0.100.200 </p> </td> 
    <td> <p>255 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0,100,200,200rs </p> </td> 
+   <td> <p>0.100.200.200 ore </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0,100,200 </p> </td> 
+   <td> <p>0.100.200 </p> </td> 
    <td> <p>200 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
@@ -110,19 +113,19 @@ Alcuni esempi di specifici di colore validi e il tipo di pixel, il valore del co
   <tr> 
    <td> <p>a0b1c2d3R </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>160,177,194 </p> </td> 
+   <td> <p>160.177.194 </p> </td> 
    <td> <p>211 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>100S </p> </td> 
+   <td> <p>100 S </p> </td> 
    <td> <p>grigio </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>50,75g </p> </td> 
+   <td> <p>50,75 g </p> </td> 
    <td> <p>grigio </p> </td> 
    <td> <p>50% </p> </td> 
    <td> <p>75% </p> </td> 
@@ -140,17 +143,17 @@ Alcuni esempi di specifici di colore validi e il tipo di pixel, il valore del co
    <td> <p>grigio </p> </td> 
    <td> <p>87% </p> </td> 
    <td> <p>93% </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileSrcGray </span> </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileSrcGray  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>94,11,50,33k </p> </td> 
+   <td> <p>94,11,50,33 k </p> </td> 
    <td> <p>CMYK </p> </td> 
    <td> <p>94-11-50-33% </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>22,23,24,25,26KS </p> </td> 
+   <td> <p>22,23,24,25,26 KS </p> </td> 
    <td> <p>CMYK </p> </td> 
    <td> <p>22-23-24-25% </p> </td> 
    <td> <p>26% </p> </td> 
@@ -173,4 +176,4 @@ Alcuni esempi di specifici di colore validi e il tipo di pixel, il valore del co
  </tbody> 
 </table>
 
-Lo spazio colore di output specificato con `icc=` viene applicato al posto dello spazio colore predefinito quando il tipo di pixel di un colore di output corrisponde al tipo di pixel dell’immagine di output.
+Lo spazio colore di output specificato con `icc=` si applica invece dello spazio colore predefinito quando il tipo di pixel di un colore di output corrisponde al tipo di pixel dell&#39;immagine di output.
