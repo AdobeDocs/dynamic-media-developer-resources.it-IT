@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 7%
 
 ---
 
@@ -49,28 +52,28 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Il conteggio delle risorse è stato spostato correttamente. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Conteggio delle risorse che generavano avvisi quando l'operazione tentava di spostarle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Conteggio delle risorse che generavano errori quando l'operazione tentava di spostarle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaultsche contengono:</span> 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaultsche contengono: </span> 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Risorse per la generazione degli avvisi. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codici di avvertenza. </li> 
@@ -78,10 +81,10 @@ Sintassi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> errorDetailArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaultsche contengono:</span> 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaultsche contengono: </span> 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Risorse che hanno generato gli errori. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codici di errore. </li> 
@@ -93,7 +96,7 @@ Sintassi
 
 ## Esempi {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Questo esempio di codice sposta le risorse in una posizione specifica specificata dall’ `assetMoveArray`. L’array include la maniglia della risorsa e la relativa maniglia della cartella. La risposta indica che le risorse sono state spostate correttamente.
+Questo esempio di codice sposta le risorse in una posizione specifica specificata da `assetMoveArray`. L’array include la maniglia della risorsa e la relativa maniglia della cartella. La risposta indica che le risorse sono state spostate correttamente.
 
 **Request Contents (Richiesta contenuto)**
 
