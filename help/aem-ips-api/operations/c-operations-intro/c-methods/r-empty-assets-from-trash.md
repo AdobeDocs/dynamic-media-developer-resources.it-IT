@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Elimina le risorse dal cestino IPS.
 
-Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o fino a quando non escono dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo processo di pulizia (normalmente notturno) quando vengono infine eliminati dal sistema. Se non vengono utilizzati, le risorse vengono eliminate come parte della stessa attività di pulizia. Il timeout è configurabile (il valore predefinito è 7 giorni).
+Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o fino a quando non vengono eliminate dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo processo di pulizia (normalmente notturno) quando vengono infine eliminati dal sistema. Se non vengono utilizzati, le risorse vengono eliminate come parte della stessa attività di pulizia. Il timeout è configurabile (il valore predefinito è 7 giorni).
 
 ## Tipi di utenti autorizzati {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -26,7 +29,7 @@ Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o f
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parametri {#section-8e1fb0ee3aae453581e99ef76e298569}
 
