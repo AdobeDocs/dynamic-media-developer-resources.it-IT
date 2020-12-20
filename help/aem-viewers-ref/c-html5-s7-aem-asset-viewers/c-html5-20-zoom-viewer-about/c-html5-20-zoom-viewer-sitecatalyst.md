@@ -1,28 +1,31 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Supporto per il tracciamento di Adobe Analytics
+seo-title: Supporto per  tracciamento Adobe Analytics
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
+title: Supporto per  tracciamento Adobe Analytics
 topic: Dynamic media
 uuid: d5399638-3fc5-4f95-841d-5c6d4d35bda2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 3%
 
 ---
 
 
-# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-## Tracciamento integrato {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento out-of-the-box {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore video supporta il [!DNL Adobe Analytics] tracciamento out-of-the-box. Per abilitare il tracciamento, passate il nome corretto del predefinito della società come `config2` parametro.
+Il visualizzatore video supporta il monitoraggio out-of-the-box [!DNL Adobe Analytics]. Per abilitare il tracciamento, passate il nome corretto del predefinito della società come parametro `config2`.
 
 Il visualizzatore invia inoltre un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del `trackEvent` visualizzatore ed elaborare l&#39; `eventInfo` argomento della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -62,7 +65,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore tramite l’ <span class="codeph"> API setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
