@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
 
@@ -30,9 +33,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Impostate su <span class="codeph"> True</span> per pubblicare di nuovo <i>tutti</i> i dati sul server di metadati. <p>Nota:  A seconda della quantità di dati, questo può richiedere alcuni minuti fino a poche ore. </p><p>Non impostate questo parametro se desiderate pubblicare solo metadati nuovi o modificati. </p></td> 
+   <td colname="col3">Impostare su <span class="codeph"> True</span> per pubblicare di nuovo i dati <i>all</i> nel server di metadati. <p>Nota:  A seconda della quantità di dati, questo può richiedere alcuni minuti fino a poche ore. </p><p>Non impostate questo parametro se desiderate pubblicare solo metadati nuovi o modificati. </p></td> 
   </tr> 
  </tbody> 
 </table>
