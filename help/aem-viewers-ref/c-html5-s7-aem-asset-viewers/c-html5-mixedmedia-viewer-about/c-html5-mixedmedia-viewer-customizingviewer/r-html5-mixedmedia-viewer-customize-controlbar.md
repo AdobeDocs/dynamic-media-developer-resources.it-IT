@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7b7dccb3-6c64-4342-aac7-82c769561902
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di contr
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 
