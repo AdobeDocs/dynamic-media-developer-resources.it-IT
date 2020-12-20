@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Sintassi
 
 **Aggiunto**
 
-* Aggiunto `isHidden` e `initialTagValue` a:
+* Aggiunti `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
@@ -41,12 +44,14 @@ Sintassi
 
    * `createImageSet`
    * `createAssetSet`
+
    Aggiunto `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
+
    Aggiunto `contextHandle` a:
 
    * `getImageServingPublishSettings`
@@ -67,17 +72,17 @@ Sintassi
 
 **Modificato**
 
-* In `addUser` e `setUser`, cambiato `role` in `defaultRole`.
+* In `addUser` e `setUser`, è stato modificato `role` in `defaultRole`.
 
-* In `getCompanyMembers`, cambiato `userArray` in `memberArray`.
+* In `getCompanyMembers`, è stato modificato `userArray` in `memberArray`.
 
-* In `getCompanyMembership`, cambiato `companyArray` in `membershipArray`.
+* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
 
-* In `addUser`, `setCompanyMembership`, e `addCompanyMembership`, `membershipArray` cambiato in `companyHandleArray`.
+* In `addUser`, `setCompanyMembership` e `addCompanyMembership`, `membershipArray` è stato modificato in `companyHandleArray`.
 
-* In `getCompanyMembership`, cambiato `companyArray` in `membershipArray`.
+* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
 
-* In `getUserChars`, `includeInvalid` ora è facoltativo.
+* In `getUserChars`, `includeInvalid` è ora opzionale.
 
 **Rimosso**
 
