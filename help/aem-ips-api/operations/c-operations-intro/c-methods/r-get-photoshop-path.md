@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +30,7 @@ Sintassi
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parametri {#section-ebffe496284c4ced9f329f78127be199}
 
