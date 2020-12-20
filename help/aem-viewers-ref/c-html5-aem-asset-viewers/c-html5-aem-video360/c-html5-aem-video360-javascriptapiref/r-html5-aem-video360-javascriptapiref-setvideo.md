@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 749aa32c-c27f-476c-954b-d4524528bccc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +30,8 @@ Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-referenc
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>}: un URL assoluto per il nuovo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} un URL assoluto per il nuovo video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
