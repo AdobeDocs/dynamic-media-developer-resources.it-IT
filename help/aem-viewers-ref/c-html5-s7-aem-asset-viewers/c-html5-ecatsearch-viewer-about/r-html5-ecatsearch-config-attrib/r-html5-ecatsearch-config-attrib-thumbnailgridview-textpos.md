@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine in miniatura. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> la descrizione</span> è specificata, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
+   <td> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine in miniatura. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica <span class="codeph"> tooltip</span>, il testo dell'etichetta viene visualizzato come una descrizione mobile sull'immagine della miniatura. Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
