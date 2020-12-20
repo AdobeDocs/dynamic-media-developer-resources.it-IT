@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,25 +40,25 @@ L&#39;aspetto del pulsante di condivisione incorporato è controllato dal seguen
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-È possibile rimuovere il pulsante dal pannello Condivisione social network impostando la proprietà `display:none` CSS della classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social network impostando la proprietà CSS `display:none` nella classe CSS corrispondente.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un pulsante di condivisione per incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante:
+**Esempio**  - per impostare un pulsante di condivisione per incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -87,17 +90,17 @@ La sovrapposizione di sfondo che copre la pagina Web quando la finestra di dialo
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
    <td colname="col2"> <p>Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare una sovrapposizione di sfondo in modo che sia grigia con opacità del 70%:
+**Esempio**  - per impostare una sovrapposizione di sfondo in modo che sia grigia con opacità del 70%:
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -117,25 +120,25 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo della finestra di dialogo, se la finestra di dialogo non utilizza l'intero browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Deve essere disimpostata o impostata su 100%, nel qual caso la finestra di dialogo utilizza l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Deve essere disimpostata o impostata su 100%, nel qual caso la finestra di dialogo utilizza l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare la finestra di dialogo in modo che utilizzi l’intera finestra del browser e che abbia uno sfondo bianco sui dispositivi touch:
+**Esempio** - per impostare la finestra di dialogo in modo che utilizzi l’intera finestra del browser e abbia uno sfondo bianco sui dispositivi touch:
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -156,7 +159,7 @@ L&#39;intestazione della finestra di dialogo è composta da un&#39;icona, un tes
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per il contenuto dell’intestazione. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +176,7 @@ L’icona e il testo del titolo sono racchiusi in un contenitore aggiuntivo cont
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per l’icona dell’intestazione e il titolo </p> </td> 
   </tr> 
  </tbody> 
@@ -190,20 +193,20 @@ L&#39;icona dell&#39;intestazione è controllata dal seguente selettore di class
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,19 +222,19 @@ Il titolo dell&#39;intestazione è controllato dal seguente selettore di classe 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Spessore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,41 +251,41 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante verticale rispetto al contenitore dell’intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante orizzontale rispetto al contenitore dell'intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Esempio** : per impostare l’intestazione della finestra di dialogo con la spaziatura, l’icona di 24 x 14 pixel, il titolo in grassetto di 16 punti e il pulsante Chiudi di 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore della finestra di dialogo:
 
@@ -335,7 +338,7 @@ Il piè di pagina della finestra di dialogo è costituito dal pulsante &quot;can
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Bordo che è possibile utilizzare per separare visivamente il piè di pagina dal resto della finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +355,7 @@ Il piè di pagina dispone di un contenitore interno che mantiene il pulsante. È
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Margine interno tra il piè di pagina e il pulsante. </p> </td> 
   </tr> 
  </tbody> 
@@ -371,11 +374,11 @@ Il pulsante è disponibile solo sui sistemi desktop.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +386,7 @@ Il pulsante è disponibile solo sui sistemi desktop.
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +394,7 @@ Il pulsante è disponibile solo sui sistemi desktop.
 
 >[!NOTE]
 >
->Il pulsante Seleziona tutto supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante differenti.
+>Il pulsante Seleziona tutto supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
@@ -404,19 +407,19 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +427,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS identiche per gli altri pulsanti delle finestre di dialogo:
 
@@ -437,35 +440,35 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può co
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Spessore font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font per i pulsanti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Interessa l’allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Ombra esterna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margine destro del pulsante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un piè di pagina di una finestra di dialogo con un pulsante Annulla 64 x 34, con un colore di testo e un colore di sfondo diversi per ogni stato del pulsante:
+**Esempio** - per impostare un piè di pagina di una finestra di dialogo con un pulsante Annulla 64 x 34, con un colore di testo e un colore di sfondo diversi per ogni stato del pulsante:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -536,15 +539,15 @@ L’area della finestra di dialogo principale (tra l’intestazione e il piè di
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Altezza dell'area della finestra di dialogo principale. Deve essere specificato solo quando la finestra di dialogo funziona in modalità desktop. Non è applicabile quando le dimensioni della finestra di dialogo consentono di occupare l’intera finestra del browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margine esterno. </p> </td> 
   </tr> 
  </tbody> 
@@ -573,13 +576,13 @@ Se l&#39;altezza di questo contenitore sembra essere maggiore dell&#39;area dell
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare il contenuto del modulo in modo che abbia una spaziatura di dieci pixel:
+**Esempio** : per impostare il contenuto del modulo in modo che includa 10 pixel di spaziatura:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -600,27 +603,27 @@ Questa classe non è adatta per controllare la dimensione o la posizione dell&#3
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta spessore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta famiglia di font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Colore del testo dell’etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare tutte le etichette in modo che siano grigie, il grassetto con un font di nove pixel:
+**Esempio**  - per impostare tutte le etichette in modo che siano grigie, grassetto con un font di nove pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -641,11 +644,11 @@ La dimensione della copia di testo visualizzata sopra al codice da incorporare �
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -671,15 +674,15 @@ Il codice da incorporare viene racchiuso in un contenitore e controllato con il 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del contenitore del codice da incorporare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Bordo intorno al contenitore del codice da incorporare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -706,13 +709,13 @@ Il testo effettivo del codice da incorporare è controllato dal seguente seletto
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ritorno a capo automatico </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ritorno a capo automatico  </span> </p> </td> 
    <td colname="col2"> <p>Stile di ritorno a capo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare il codice da incorporare in modo che venga utilizzato il `break-word` ritorno a capo automatico delle parole:
+**Esempio** - per impostare il codice da incorporare per utilizzare il ritorno a  `break-word` capo automatico:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -731,7 +734,7 @@ Le etichette delle dimensioni da incorporare e l&#39;elenco a discesa si trovano
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -756,11 +759,11 @@ Le dimensioni e l&#39;allineamento dell&#39;etichetta della dimensione di incorp
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
    <td colname="col2"> <p>Allineamento dell'etichetta verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza etichetta. </p> </td> 
   </tr> 
  </tbody> 
@@ -786,7 +789,7 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza casella combinata. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,7 +797,7 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 
 >[!NOTE]
 >
->La casella combinata supporta il selettore `expanded` di attributi con possibili valori di `true` e `false`. `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite per l&#39;incorporamento, che deve quindi avere tutta la larghezza disponibile. `false` viene utilizzata quando nella casella combinata è selezionata l&#39;opzione relativa alle dimensioni personalizzate, in modo che lo spazio disponibile nei campi di immissione larghezza e altezza sia ridotto.
+>La casella combinata supporta il selettore di attributi `expanded` con possibili valori di `true` e `false`. `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite per l&#39;incorporamento, che deve quindi avere tutta la larghezza disponibile. `false` viene utilizzata quando nella casella combinata è selezionata l&#39;opzione relativa alle dimensioni personalizzate, in modo che lo spazio disponibile nei campi di immissione larghezza e altezza sia ridotto.
 
 **Esempio** : per impostare la casella combinata delle dimensioni di incorporamento su una larghezza di 300 pixel quando viene visualizzata una voce predefinita e di 110 pixel di larghezza quando viene visualizzata una dimensione personalizzata:
 
@@ -818,7 +821,7 @@ L&#39;altezza del testo della casella combinata è definita da un elemento inter
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del testo della casella combinata. </p> </td> 
   </tr> 
  </tbody> 
@@ -843,35 +846,35 @@ La casella combinata ha un pulsante a discesa a destra ed è controllata con il 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione del pulsante verticale all'interno della casella combinata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posizione del pulsante orizzontale all'interno della casella combinata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 **Esempio** : per impostare un pulsante a discesa su 28 x 28 pixel e ottenere un’immagine separata per ogni stato:
 
@@ -907,7 +910,7 @@ Le dimensioni e la posizione del pannello sono controllate dal componente. Non �
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Bordo del pannello. </p> </td> 
   </tr> 
  </tbody> 
@@ -932,13 +935,13 @@ Un singolo elemento in un pannello a discesa controllato dal seguente selettore 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Sfondo elemento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare l&#39;elemento del pannello della casella combinata su uno sfondo bianco:
+**Esempio**  - per impostare l&#39;elemento del pannello della casella combinata su uno sfondo bianco:
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor { 
@@ -957,25 +960,25 @@ Un segno di spunta visualizzato a sinistra dell&#39;elemento selezionato all&#39
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare l’icona del segno di spunta su 25 x 25 pixel:
+**Esempio**  - per impostare l’icona del segno di spunta su 25 x 25 pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark { 
@@ -996,7 +999,7 @@ Quando l&#39;opzione &quot;Dimensioni personalizzate&quot; è selezionata nella 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Distanza dalla casella combinata Dimensione incorpora. </p> </td> 
   </tr> 
  </tbody> 
@@ -1021,25 +1024,25 @@ Ogni campo di immissione delle dimensioni personalizzate viene racchiuso in un c
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Bordo intorno al campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p> Margine campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Margine campo di input. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare le dimensioni personalizzate dei campi di immissione in modo che abbiano un bordo grigio di un pixel, un margine, una spaziatura e una larghezza di 70 pixel:
+**Esempio** : per impostare i campi di immissione delle dimensioni personalizzate in modo che abbiano un bordo grigio di un pixel, un margine, una spaziatura e una larghezza di 70 pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1062,7 +1065,7 @@ Se è necessario lo scorrimento verticale, la barra di scorrimento viene riprodo
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pannello di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
@@ -1087,19 +1090,19 @@ L&#39;aspetto dell&#39;area della barra di scorrimento è controllato dal seguen
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> L’offset verticale della barra di scorrimento dalla parte superiore del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> L’offset verticale della barra di scorrimento dal fondo del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> L’offset della barra di scorrimento orizzontale rispetto al bordo destro del pannello di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
@@ -1127,11 +1130,11 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del brano. </p> </td> 
   </tr> 
  </tbody> 
@@ -1157,37 +1160,37 @@ La barra di scorrimento si sposta verticalmente all’interno di un’area della
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riempimento superiore </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento superiore  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra la parte superiore della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura in basso </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura in basso  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura verticale tra il fondo della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato di pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pulsante di opzione Miniatura supporta il selettore `state` attributo, che può essere utilizzato per applicare interfacce diverse a diversi stati dei pollici: `up`, `down`, `over`e `disabled`.
+>La casella di controllo supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pollice: `up`, `down`, `over` e `disabled`.
 
-**Esempio** : per impostare una miniatura della barra di scorrimento di 28 x 45 pixel, il margine superiore e inferiore è di 10 pixel e per ogni stato è disponibile un’immagine diversa:
+**Esempio** : per impostare una casella di scorrimento di 28 x 45 pixel, il margine superiore e inferiore della barra di scorrimento è di 10 pixel e per ogni stato è disponibile un’immagine diversa:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1220,38 +1223,38 @@ L&#39;aspetto dei pulsanti di scorrimento superiore e inferiore è controllato d
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`e `right` proprietà. Al contrario, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica del visualizzatore li posiziona automaticamente.
 
 **Proprietà CSS dei pulsanti di scorrimento superiore e inferiore**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questi pulsanti supportano il selettore di `state` attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over`e `disabled`.
+>Questi pulsanti supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over` e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare pulsanti di scorrimento con 28 x 32 pixel e un&#39;immagine diversa per ogni stato:
+**Esempio** : per impostare pulsanti di scorrimento con 28 x 32 pixel e un’immagine diversa per ogni stato:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 
