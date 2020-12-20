@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 00c8295c-cc41-489c-a444-ba9189426a20
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ Attributo di configurazione per il visualizzatore Video360.
 
 >[!NOTE]
 >
->Questo attributo di configurazione si applica solo ad AEM 6.2 con l&#39;installazione del [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) e ad AEM 6.1 con l&#39;installazione del [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>Questo attributo di configurazione si applica solo a AEM 6.2 con installazione di [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) e a AEM 6.1 con installazione di [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
 `[Video360Player.|<containerId>_video360Player.]ssl=auto|on`
 
@@ -26,7 +29,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Se impostato su <span class="codeph"> auto</span> , il protocollo di distribuzione video viene ereditato dal protocollo della pagina Web in cui è stato incorporato. Se la pagina Web viene caricata mediante HTTPS, il video viene distribuito anche attraverso HTTPS e viceversa. Se la pagina Web è su HTTP, il video viene distribuito su HTTP. </p> <p>Quando è <span class="codeph"> attivata</span>, la trasmissione video avviene sempre su una connessione protetta, senza tenere conto del protocollo della pagina Web. </p> <p>Interessa solo la distribuzione di video pubblicati e viene ignorata per l’anteprima video in modalità Autore. </p> </td> 
+   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Se impostato su <span class="codeph"> auto</span>, il protocollo di distribuzione video viene ereditato dal protocollo della pagina Web in cui è stato incorporato. Se la pagina Web viene caricata mediante HTTPS, il video viene distribuito anche attraverso HTTPS e viceversa. Se la pagina Web è su HTTP, il video viene distribuito su HTTP. </p> <p>Se è impostata su <span class="codeph"> su</span>, la distribuzione video avviene sempre su una connessione protetta, indipendentemente dal protocollo della pagina Web. </p> <p>Interessa solo la distribuzione di video pubblicati e viene ignorata per l’anteprima video in modalità Autore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +50,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Consultate anche Distribuzione [video](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)protetta.
+Vedere anche [Secure Video Delivery](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).
