@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Utilizza getActiveJobs per tenere traccia dei caricamenti del desktop.
 
-Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Consultate anche [Caricamento delle risorse tramite POST HTTP nel processo di caricamento...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -77,13 +77,13 @@ Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:InDesignOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni per caricare i file InDesign sul server immagini. </p> </td> 
+   <td colname="col4"> <p>Opzioni per caricare  file InDesign sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:IllustratorOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni per caricare i file Illustrator sul server immagini. </p> </td> 
+   <td colname="col4"> <p>Opzioni per caricare  file Illustrator sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
@@ -101,7 +101,7 @@ Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:MediaOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Consultate <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
@@ -113,13 +113,13 @@ Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PDFOptions</span> </td> 
    <td colname="col3"> <p>No</p> </td> 
-   <td colname="col4"> <p>Opzioni per caricare file PDF sul server immagini. </p> </td> 
+   <td colname="col4"> <p>Opzioni per caricare i file PDF sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PhotoshopOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni per caricare i file Photoshop sul server immagini. </p> </td> 
+   <td colname="col4"> <p>Opzioni per caricare file Photoshop sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -137,7 +137,7 @@ Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Controlla la conservazione di eventuali definizioni di ritaglio esistenti. Il valore predefinito è true.</p> <p>Se fornite il parametro manualCropOptions e i valori corrispondenti, i nuovi valori (escluso 0,0,0,0) vengono applicati alla risorsa indipendentemente dal valore preserveCrop.</p><p>Se <i>non</i> si fornisce il parametro manualCropOptions, viene mantenuto il valore di preserveCrop. E, in caso di true, i valori preserveCrop esistenti vengono mantenuti; se è false, i valori preserveCrop vengono rimossi.</p><p>Esempio:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>Controlla la conservazione di eventuali definizioni di ritaglio esistenti. Il valore predefinito è true.</p> <p>Se fornite il parametro manualCropOptions e i valori corrispondenti, i nuovi valori (escluso 0,0,0,0) vengono applicati alla risorsa indipendentemente dal valore preserveCrop.</p><p>Se <i>not</i> fornisci il parametro manualCropOptions, il valore di preserveCrop viene mantenuto. E, in caso di true, i valori preserveCrop esistenti vengono mantenuti; se è false, i valori preserveCrop vengono rimossi.</p><p>Esempio:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -161,13 +161,13 @@ Consultate anche [Caricamento delle risorse tramite POST HTTP in corso...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AnnullaCompressOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Estrarre ed elaborare il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> AnnullaCompressOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Estrarre ed elaborare il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni che consentono di controllare le impostazioni di maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Usate queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Consultate <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Opzioni che consentono di controllare le impostazioni di maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Usate queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 
