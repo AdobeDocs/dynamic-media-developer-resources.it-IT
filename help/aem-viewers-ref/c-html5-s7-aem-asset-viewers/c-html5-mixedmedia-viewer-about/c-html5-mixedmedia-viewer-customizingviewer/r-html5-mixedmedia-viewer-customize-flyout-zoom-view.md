@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +38,7 @@ L&#39;aspetto della vista principale è controllato dal seguente selettore di cl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ L&#39;aspetto del messaggio di suggerimento è controllato dal seguente selettor
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare lo stile del font, l&#39;aspetto delle dimensioni e l&#39;offset verticale tramite CSS. Tuttavia, l&#39;allineamento orizzontale è gestito dalla logica del visualizzatore. La sostituzione tramite CSS utilizzando `left` o `right` proprietà non è supportata.
+È possibile configurare lo stile del font, l&#39;aspetto delle dimensioni e l&#39;offset verticale tramite CSS. Tuttavia, l&#39;allineamento orizzontale è gestito dalla logica del visualizzatore. La sostituzione tramite CSS utilizzando le proprietà `left` o `right` non è supportata.
 
 **Proprietà CSS del messaggio di suggerimento**
 
@@ -70,15 +73,15 @@ L&#39;aspetto del messaggio di suggerimento è controllato dal seguente selettor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento dello sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Raggio bordo sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> Consente di scostarsi dal fondo della vista principale. </p> </td> 
   </tr> 
   <tr> 
@@ -86,25 +89,25 @@ L&#39;aspetto del messaggio di suggerimento è controllato dal seguente selettor
    <td colname="col2"> <p>Colore del testo della punta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
    <td colname="col2"> <p> Opacità di sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Esempio: per impostare un messaggio di suggerimento semi-trasparente con font Arial 12px bianco, l’offset di 50 pixel dal fondo della vista principale, la spaziatura e un bordo arrotondato:
 
