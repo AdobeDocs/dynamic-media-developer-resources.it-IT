@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 translation-type: tm+mt
 source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
 
 Image Serving supporta un semplice meccanismo di preelaborazione delle richieste basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 
-Le raccolte di regole di pre-elaborazione (set *di* regole) possono essere collegate ai cataloghi di immagini o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non identifica uno specifico catalogo immagini principale.
+Le raccolte di regole di pre-elaborazione (*set di regole*) possono essere collegate ai cataloghi di immagini o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non identifica uno specifico catalogo immagini principale.
 
 Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima di essere elaborate dal parser del server della piattaforma, compresa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. Le regole possono essere utilizzate anche per configurare e ignorare alcune funzioni di sicurezza che normalmente sono controllate solo con gli attributi del catalogo, come l&#39;offuscamento della richiesta, l&#39;indicazione dell&#39;acqua, nonché per limitare il servizio a specifici indirizzi IP del client.
 
-I set di regole sono memorizzati come file di documento XML. Il percorso relativo o assoluto del file set di regole deve essere specificato in `attribute::RuleSetFile`.
+I set di regole sono memorizzati come file di documento XML. Il percorso relativo o assoluto del file del set di regole deve essere specificato in `attribute::RuleSetFile`.
 
 ## Struttura generale {#section-8bcbd91ea8a946f28051bde8ad21827f}
 
@@ -48,29 +51,29 @@ I set di regole sono memorizzati come file di documento XML. Il percorso relativ
 </ruleset>
 ```
 
-Gli elementi `<?xml>` e `<ruleset>` sono sempre richiesti in un file XML con set di regole valido, anche se non sono definite regole effettive.
+Gli elementi `<?xml>` e `<ruleset>` sono sempre richiesti in un file XML di set di regole valido, anche se non sono definite regole effettive.
 
-È consentito un `<ruleset>` elemento contenente un numero qualsiasi di `<rule>` elementi.
+È consentito un elemento `<ruleset>` contenente un numero qualsiasi di elementi `<rule>`.
 
 I contenuti dei file delle regole di pre-elaborazione sono con distinzione tra maiuscole e minuscole.
 
 ## Convalida del set di regole {#section-d8d101a0b4d74580835e37d128d05567}
 
-Una copia di [!DNL RuleSet.xsd] viene fornita nella cartella del catalogo e deve essere utilizzata per convalidare un file ruleset prima di registrarlo nel [!DNL catalog.ini] file. Image Server utilizza una copia interna di [!DNL RuleSet.xsd] per la convalida.
+Una copia di [!DNL RuleSet.xsd] viene fornita nella cartella del catalogo e deve essere utilizzata per convalidare un file ruleset prima di registrarlo nel file [!DNL catalog.ini]. Image Server utilizza una copia interna di [!DNL RuleSet.xsd] per la convalida.
 
 ## Pre-elaborazione URL {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
 Prima di qualsiasi altra elaborazione, una richiesta HTTP in entrata viene analizzata in parte per determinare quale catalogo immagini applicare. Una volta identificato il catalogo, viene applicato il set di regole per il catalogo selezionato (o per il catalogo predefinito, se non è stato identificato alcun catalogo specifico).
 
-La ricerca `<rule>` degli elementi viene eseguita nell&#39;ordine specificato per trovare una corrispondenza con il contenuto dell&#39; `<expression>` elemento ( *`expression`*).
+La ricerca degli elementi `<rule>` avviene nell&#39;ordine specificato per trovare una corrispondenza con il contenuto dell&#39;elemento `<expression>` ( *`expression`*).
 
-Se `<rule>` viene rilevata una corrispondenza, *`substitution`* viene applicata l&#39;opzione facoltativa e la stringa di richiesta modificata viene passata al parser di richieste del server per una normale elaborazione.
+Se viene rilevata una corrispondenza tra `<rule>`, viene applicata l&#39;opzione *`substitution`* e la stringa di richiesta modificata viene passata al parser di richieste del server per una normale elaborazione.
 
-Se non viene trovata alcuna corrispondenza valida al raggiungimento della fine del `<ruleset>` test, la richiesta viene trasmessa al parser senza modifiche.
+Se non viene eseguita alcuna corrispondenza valida quando viene raggiunta la fine del `<ruleset>`, la richiesta viene trasmessa al parser senza modifiche.
 
-## L’attributo OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
+## L&#39;attributo OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-Il comportamento predefinito può essere modificato con l&#39; `OnMatch` attributo dell&#39; `<rule>` elemento. `OnMatch` può essere impostato su `break` (predefinito), `continue`o `error`.
+Il comportamento predefinito può essere modificato con l&#39;attributo `OnMatch` dell&#39;elemento `<rule>`. `OnMatch` può essere impostato su  `break` (predefinito),  `continue` o  `error`.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -97,25 +100,25 @@ Il comportamento predefinito può essere modificato con l&#39; `OnMatch` attribu
 
 ## Sostituzione degli attributi del catalogo {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
-`<rule>` facoltativamente, gli elementi possono definire attributi che ignorano gli attributi del catalogo corrispondenti quando la regola viene rilevata correttamente. Se più regole associate impostano lo stesso attributo, prevale l&#39;ultimo. Fare riferimento alla descrizione dell&#39; ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` elemento per un elenco di attributi che possono essere controllati con le regole.
+`<rule>` facoltativamente, gli elementi possono definire attributi che ignorano gli attributi del catalogo corrispondenti quando la regola viene rilevata correttamente. Se più regole corrispondenti impostano lo stesso attributo, prevale l&#39;ultimo. Fare riferimento alla descrizione dell&#39;elemento ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` per un elenco di attributi che possono essere controllati con le regole.
 
 ## Espressioni regolari {#section-3f77bb9a265147b38c645f63ab1bad8b}
 
 La semplice corrispondenza delle stringhe funziona per applicazioni molto semplici, ma nella maggior parte dei casi sono necessarie espressioni regolari. Sebbene le espressioni regolari siano standard di settore, l&#39;implementazione specifica varia da un&#39;istanza all&#39;altra.
 
-[ [!DNL package java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descrive l&#39;implementazione specifica dell&#39;espressione regolare utilizzata da Image Server.
+[ [!DNL package java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descrive l’implementazione specifica delle espressioni regolari utilizzate da Image Server.
 
 ## Sottostringhe acquisite {#section-066e659406d5403599cd26ae35e80d68}
 
 Per semplificare complesse modifiche agli URL, nell&#39;espressione possono essere acquisite delle sottostringhe racchiudendo la sottostringa con parentesi (...). Le sottostringhe acquisite vengono numerate in sequenza a partire da 1 in base alla posizione delle parentesi iniziali. Le sottostringhe acquisite possono essere inserite nella sostituzione utilizzando ` $ *`n`*`, dove *`n`* è il numero di sequenza della sottostringa acquisita.
 
-## Gestione dei file set di regole {#section-0598a608e4044bb4805fe93ceebe10a9}
+## Gestione dei file di set di regole {#section-0598a608e4044bb4805fe93ceebe10a9}
 
-È possibile allegare un file set di regole a ciascun catalogo di immagini con l’attributo catalogo `attribute::RuleSetFile`. Anche se potete modificare il file del set di regole in qualsiasi momento, il server immagini riconosce le modifiche solo quando il catalogo immagini associato viene ricaricato. Questo ricaricamento avviene quando il server della piattaforma viene avviato o riavviato e ogni volta che il file del catalogo primario, con un suffisso di [!DNL .ini] file, viene modificato o &quot;toccato&quot; per modificare la data del file.
+È possibile allegare un file set di regole a ciascun catalogo di immagini con l&#39;attributo catalogo `attribute::RuleSetFile`. Anche se potete modificare il file del set di regole in qualsiasi momento, il server immagini riconosce le modifiche solo quando il catalogo immagini associato viene ricaricato. Questo ricaricamento avviene quando il server della piattaforma viene avviato o riavviato e ogni volta che il file del catalogo primario, con un suffisso di file [!DNL .ini], viene modificato o &quot;toccato&quot; per modificare la data del file.
 
 ## Esempi {#section-aa769437d967459299b83a4bf34fe924}
 
-**Esempio A.** Definite una regola che aumenta le impostazioni di qualità dell’immagine se il nome dell’immagine ha il suffisso &quot; [!DNL _hg]&quot;:
+**Esempio A.** Definite una regola che aumenta le impostazioni di qualità dell’immagine se il nome dell’immagine ha il suffisso &quot;  [!DNL _hg]&quot;:
 
 ```
 <rule> 
@@ -124,7 +127,7 @@ Per semplificare complesse modifiche agli URL, nell&#39;espressione possono esse
 </rule>
 ```
 
-L&#39;espressione regola specifica una corrispondenza senza distinzione tra maiuscole e minuscole di &quot; [!DNL _hg]&quot; alla fine della stringa URL. Il suffisso viene sostituito con la stringa di query specificata che modifica le impostazioni di qualità dell&#39;immagine. Tenere presente che il `?` carattere nella stringa di sostituzione è preceduto da un carattere speciale nelle espressioni regolari.
+L&#39;espressione regola specifica una corrispondenza senza distinzione tra maiuscole e minuscole di &quot; [!DNL _hg]&quot; alla fine della stringa URL. Il suffisso viene sostituito con la stringa di query specificata che modifica le impostazioni di qualità dell&#39;immagine. Tenere presente che il carattere `?` nella stringa di sostituzione è preceduto da un carattere speciale nelle espressioni regolari.
 
 >[!NOTE]
 >
@@ -132,7 +135,7 @@ L&#39;espressione regola specifica una corrispondenza senza distinzione tra maiu
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Esempio B.** Una particolare applicazione Web non consente le stringhe di query. Definite una regola che traduca l’elemento del percorso finale `small`, `medium`o `large` in un modello, utilizzando il resto del percorso come nome dell’immagine. Ad esempio, `myCat/myImage/small` si tradurrebbe in `myCat/smallTemplate?src=myCat/myImage`.
+**Esempio B.** Una particolare applicazione Web non consente le stringhe di query. Definite una regola per tradurre l&#39;elemento del percorso finale `small`, `medium` o `large` in un modello, utilizzando il resto del percorso come nome dell&#39;immagine. Ad esempio, `myCat/myImage/small` viene convertito in `myCat/smallTemplate?src=myCat/myImage`.
 
 È possibile utilizzare le sottostringhe per ristrutturare la richiesta:
 
