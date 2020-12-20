@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2c70da87-f869-495a-be50-226a4516e002
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Utilizzo della maschera immagine. Specifica in che modo la maschera o il canale 
 
 `maskUse=norm|invert|off`
 
-Nella tabella seguente è illustrato l’effetto di `maskUse=` varia a seconda della disponibilità e del tipo di maschera (canale alfa) associata all’immagine del livello.
+Nella tabella seguente è illustrato l&#39;effetto di `maskUse=` a seconda della disponibilità e del tipo di maschera (canale alfa) associata all&#39;immagine del livello.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
@@ -31,19 +34,19 @@ Nella tabella seguente è illustrato l’effetto di `maskUse=` varia a seconda d
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> off </span> </p> </td> 
+   <td> <p> <span class="codeph"> off  </span> </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Area di primo piano dell’immagine su un rettangolo riempito di nero pieno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> norma </span> </p> </td> 
+   <td> <p> <span class="codeph"> norma  </span> </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Area di primo piano dell’immagine </p> </td> 
    <td> <p> Area di primo piano dell’immagine o del livello </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> invertito </span> </p> </td> 
+   <td> <p> <span class="codeph"> invertito  </span> </p> </td> 
    <td> <p> Livello nascosto </p> </td> 
    <td> <p> Area di sfondo dell’immagine </p> </td> 
    <td> <p> Area di sfondo dell’immagine o livello riempita con nero in tinta unita </p> </td> 
@@ -55,7 +58,7 @@ Nella tabella seguente è illustrato l’effetto di `maskUse=` varia a seconda d
 
 Attributo immagine o livello. Si applica al livello 0 se `layer=comp`. Se specificato in un livello di effetto, il comando modifica la maschera ereditata dal livello principale.
 
-Il comportamento di non `maskUse=` è definito e non è supportato se specificato con livelli di testo o di colore in tinta unita quando non è applicabile alcuna maschera immagine (specificata con `mask=` o `catalog::Mask`).
+Il comportamento di `maskUse=` non è definito e non è supportato se specificato con livelli di testo o in tinta unita quando non è applicabile alcuna maschera immagine (specificato con `mask=` o `catalog::Mask`).
 
 ## Predefinito {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +72,4 @@ Colorare l’area di sfondo di un’immagine; il primo piano dell’immagine è 
 
 ## Consultate anche {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
