@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ Attributo di configurazione per il visualizzatore carosello.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,durata][,direzione]</span> </p> </td> 
-   <td colname="col2"> <p> Specifica l'attivazione/disattivazione, la durata di visualizzazione di ciascun banner nel carosello e la direzione del ciclo automatico. </p> <p>Impostare su <span class="codeph"> 0</span> per il ciclo automatico disattivato. </p> <p>Impostate <span class="codeph"> 1</span> per attivare il ciclo automatico con durata transizione in secondi controllata dalla <span class="codeph"> durata</span>. </p> <p>La direzione del ciclo automatico è controllata con <span class="codeph"> direzione</span>. La <span class="codeph"> direzione</span> è compresa tra <span class="codeph"> 1</span> da destra a sinistra e <span class="codeph"> 0</span> da sinistra a destra. </p> </td> 
+   <td colname="col2"> <p> Specifica l'attivazione/disattivazione, la durata di visualizzazione di ciascun banner nel carosello e la direzione del ciclo automatico. </p> <p>Impostare su <span class="codeph"> 0</span> per il ciclo automatico disattivato. </p> <p>Impostate <span class="codeph"> 1</span> per l'attivazione automatica del loop con durata di transizione in secondi controllata da <span class="codeph"> durata</span>. </p> <p>La direzione del ciclo automatico è controllata con la direzione <span class="codeph"></span>. La direzione <span class="codeph"></span> ha un intervallo compreso tra <span class="codeph"> 1</span> da destra a sinistra e <span class="codeph"> 0</span> da sinistra a destra. </p> </td> 
   </tr> 
  </tbody> 
 </table>
