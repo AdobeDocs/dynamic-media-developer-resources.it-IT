@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 791c47e9-daab-4500-9cd0-e56ee6fc830e
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
-# disporre{#dispose}
+# dispose{#dispose}
 
 Riferimento API JavaScript per il visualizzatore di eCatalog.
 
@@ -22,9 +25,9 @@ Dispone l’istanza del visualizzatore rilasciando tutte le risorse utilizzate d
 
 Il codice della pagina Web deve anche eliminare la variabile di istanza del visualizzatore per rimuovere completamente il visualizzatore dalla memoria del browser Web.
 
-Se il codice della pagina Web ha registrato i listener di eventi direttamente sui componenti SDK per visualizzatori utilizzati dal visualizzatore o memorizzati i riferimenti esterni a tali componenti, tali listener devono essere esplicitamente cancellati dal codice della pagina Web e tali riferimenti esterni devono essere eliminati prima della chiamata [!DNL `dispose()`].
+Se il codice della pagina Web ha registrato i listener di eventi direttamente sui componenti SDK per visualizzatori utilizzati dal visualizzatore o memorizzati i riferimenti esterni a tali componenti, tali listener devono essere esplicitamente deregistrati dal codice della pagina Web e tali riferimenti esterni devono essere eliminati prima di chiamare [!DNL `dispose()`].
 
-Non accedete più all’API del visualizzatore dopo [!DNL `dispose()`] la chiamata.
+Non accedete più all&#39;API del visualizzatore dopo la chiamata di [!DNL `dispose()`].
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
