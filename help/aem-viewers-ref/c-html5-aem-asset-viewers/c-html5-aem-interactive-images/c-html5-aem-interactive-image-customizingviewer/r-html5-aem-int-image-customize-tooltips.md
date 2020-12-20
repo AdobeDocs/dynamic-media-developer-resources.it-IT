@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
 
-# Tooltips{#tooltips}
+# Descrizioni comandi{#tooltips}
 
 Sui sistemi desktop, alcuni elementi dell&#39;interfaccia utente come i pulsanti dispongono di descrizioni comandi che vengono visualizzate al passaggio del mouse.
 
@@ -35,15 +38,15 @@ L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo dello sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore del bordo dello sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nome font testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di
 
 >[!NOTE]
 >
->Se gli stili delle descrizioni comandi sono personalizzati dall&#39;interno della pagina Web in cui sono incorporati, tutte le proprietà devono contenere `!IMPORTANT` regola. Questo non è necessario se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
+>Se gli stili delle descrizioni comandi vengono personalizzati dall&#39;interno della pagina Web in cui sono incorporati, tutte le proprietà devono contenere la regola `!IMPORTANT`. Questo non è necessario se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
 
 Esempio: per impostare descrizioni comandi con bordo grigio con raggio di 3 pixel, sfondo nero e testo bianco in Arial, le dimensioni sono di 11 pixel:
 
