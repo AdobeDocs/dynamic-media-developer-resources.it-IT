@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 4%
 
 ---
 
@@ -18,13 +21,13 @@ Stringa modificatore richiesta suffisso. Nessuno o più comandi Image Server sep
 
 I comandi in questo campo sovrascrivono sempre i comandi nella richiesta HTTP e in `catalog::Modifier`.
 
-`catalog::PostModifier` è utile se alcune immagini richiedono impostazioni speciali che vengono normalmente controllate dall’URL, ad esempio `qlt=` o `resmode=`. `catalog::Modifier` deve essere utilizzato per impostare la maggior parte dei comandi IS nel catalogo immagini.
+`catalog::PostModifier` è utile se alcune immagini richiedono impostazioni speciali che vengono normalmente controllate dall’URL, ad esempio  `qlt=` o  `resmode=`. `catalog::Modifier` deve essere utilizzato per impostare la maggior parte dei comandi IS nel catalogo immagini.
 
 Le macro sono consentite in `catalog::PostModifier`, purché siano definite nello stesso catalogo o nel catalogo predefinito. È possibile utilizzare anche variabili personalizzate.
 
 >[!NOTE]
 >
->Se una richiesta interessa più livelli, viene applicato solo il contenuto del livello 0 `catalog::PostModifier` di livello. `catalog::PostModifier` di tutti gli altri livelli viene ignorato.
+>Se una richiesta riguarda più livelli, viene applicato solo il contenuto di `catalog::PostModifier` del livello 0. `catalog::PostModifier` di tutti gli altri livelli viene ignorato.
 
 ## Proprietà {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
