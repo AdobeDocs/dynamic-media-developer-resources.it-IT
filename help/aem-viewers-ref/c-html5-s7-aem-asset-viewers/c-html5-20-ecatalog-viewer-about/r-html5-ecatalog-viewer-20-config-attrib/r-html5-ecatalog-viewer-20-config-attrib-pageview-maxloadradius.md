@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span> , il componente precarica tutti i fotogrammi del catalogo quando sono inattivi. </p> <p> Quando è impostato su <span class="codeph"> 0</span> , il componente carica solo il fotogramma correntemente visibile, precedente e successivo. </p> <p>Impostate <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati in stato di inattività. </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostata su <span class="codeph"> -1</span>, il componente precarica tutti i fotogrammi del catalogo quando è in stato di inattività. </p> <p> Se impostato su <span class="codeph"> 0</span>, il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p>Impostate <span class="codeph"><span class="varname"> precaricatore</span></span> per definire quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati in stato di inattività. </p> </td> 
   </tr> 
  </tbody> 
 </table>
