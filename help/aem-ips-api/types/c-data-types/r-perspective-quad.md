@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -33,7 +36,7 @@ Sintassi
 
 ## Esempio {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Il `PerspectiveQuad` tipo restituisce i dati nell&#39;ordine seguente:
+Il tipo `PerspectiveQuad` restituisce i dati nell&#39;ordine seguente:
 
 ```
 <complexType name="PerspectiveQuad">
