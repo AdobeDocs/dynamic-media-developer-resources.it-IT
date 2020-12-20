@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12595a89-bad5-4224-aeff-52ce6bb615ee
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
@@ -22,14 +25,14 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
    <td colname="col1"> <p> <span class="codeph"> diapositiva|volta|auto</span> </p> </td> 
    <td colname="col2"> <p> Specifica il tipo di effetto applicato alla modifica del fotogramma. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> diapositiva</span> attiva una transizione in cui la vecchia cornice scorre fuori dalla vista e la nuova cornice scorre verso l’interno. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> attiva</span> un effetto di riflesso della pagina quando un utente può trascinare uno dei quattro angoli di visualizzazione ed eseguire un Capovolgimento interattivo della pagina. </p> <p>Quando <span class="codeph"> si utilizza il volantino</span> , l’aspetto del componente viene controllato con il modificatore <span class="codeph"> pageturnstyle</span> e la classe CSS <span class="codeph"> .s7pagedivider</span> viene ignorata. </p> <p>Nota:  <p><span class="codeph"> l'animazione di tornitura</span> non è supportata in Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> imposta automaticamente</span> la transizione del frame di tornitura sui sistemi desktop e la transizione della diapositiva sui dispositivi touch. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> Consente di </span> attivare una transizione in cui la vecchia cornice scorre fuori dalla vista e la nuova cornice scorre per visualizzarla. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> Attiva </span> un effetto di riflessione della pagina, quando un utente può trascinare uno dei quattro angoli di visualizzazione ed eseguire un Capovolgimento interattivo della pagina. </p> <p>Quando si utilizza <span class="codeph"> Turn</span>, l'aspetto del componente viene controllato con il modificatore <span class="codeph"> pageturnstyle</span> e la classe CSS <span class="codeph"> .s7pagedivider</span> viene ignorata. </p> <p>Nota:  <p><span class="codeph"> L'</span> animazione di tornitura non è supportata in Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> Consente di </span> impostare automaticamente la transizione del frame di attivazione sui sistemi desktop e la transizione della diapositiva sui dispositivi touch. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> length</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica la durata in secondi di un effetto di transizione di <span class="codeph"> diapositiva</span> o <span class="codeph"> rotazione</span> . </p> </td> 
+   <td colname="col2"> <p>Specifica la durata in secondi di un effetto di transizione <span class="codeph"> slide</span> o <span class="codeph"> volta</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
