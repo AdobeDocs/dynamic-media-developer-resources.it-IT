@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Visualizzazione zoom{#zoom-view}
 
 La vista principale è costituita dall’immagine con zoom.
 
@@ -35,11 +38,11 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Esempio: per rendere trasparente la vista principale.
 }
 ```
 
-Sui sistemi desktop il componente supporta il selettore `cursortype` di attributi che può essere applicato alla `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. The following `cursortype` values are supported:
+Sui sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview`. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. Sono supportati i seguenti valori `cursortype`:
 
 * `default`
 
