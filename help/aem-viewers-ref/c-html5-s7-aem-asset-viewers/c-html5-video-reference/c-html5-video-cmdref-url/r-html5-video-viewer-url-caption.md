@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 10%
 
 ---
 
@@ -34,7 +37,7 @@ Il visualizzatore supporta i sottotitoli codificati nei file WebVTT ospitati. Le
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>text, align </p> </td> 
    <td colname="col3"> <p><span class="codeph"> sinistra|destra|centro|inizio|fine</span> </p> </td> 
-   <td colname="col4"> <p> Controllare l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> centrale</span>. </p> </td> 
+   <td colname="col4"> <p> Controllare l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> mid</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
