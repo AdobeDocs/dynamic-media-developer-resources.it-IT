@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e8c5ec9-dc15-4894-b6a1-8e5241f03977
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 I dati immagine vengono restituiti se una richiesta viene completata correttamente e se la richiesta non include un comando req= o se req= ha uno dei seguenti valori: img, debug
 
-Il tipo MIME di risposta HTTP è determinato dal `fmt=`valore di `fmt=` , oppure, se non `attribute::Format`è specificato, dipende da esso.
+Il tipo MIME di risposta HTTP è determinato da `fmt=`, oppure, se `fmt=` non è specificato, dipende dal valore di `attribute::Format`.
 
 Lo stato di risposta HTTP è &#39;200 OK&#39; se il metodo di richiesta era incondizionato `GET` o `HEAD`.
 
-Il server può rispondere con lo stato &#39;304&#39; (non modificato) e non restituire alcun dato immagine in risposta a una `GET` richiesta condizionale (con il [!DNL If-Modified-Since] campo presente nel `request-header`).
+Il server può rispondere con stato &#39;304&#39; (non modificato) e non restituire dati immagine in risposta a una richiesta `GET` condizionale (con il campo [!DNL If-Modified-Since] presente in `request-header`).
