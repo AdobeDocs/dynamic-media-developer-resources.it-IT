@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 Percorso del file delle metriche dei font. Percorso e nome di un file di metriche dei font, incluso il suffisso del file.
 
-Utilizzata per i font Adobe Type 1. Se non viene specificato, il server tenterà di trovare un file di metriche dei font nella stessa cartella in cui si trova il file di font principale. Se in fase di rendering non è possibile trovare un file di metriche di font richiesto, si verificherà un errore.
+Utilizzato per i font  Adobe Type 1. Se non viene specificato, il server tenterà di trovare un file di metriche dei font nella stessa cartella in cui si trova il file di font principale. Se in fase di rendering non è possibile trovare un file di metriche di font richiesto, si verificherà un errore.
 
 ## Proprietà {#section-955268c581574875b05253d9e14544f3}
 
-Stringa di testo. Facoltativo per i file Adobe Type 1. Deve essere vuoto o un percorso di file valido per Image Server, assoluto o relativo a `attribute::RootPath`.
+Stringa di testo. Facoltativo per  file di Adobe Tipo 1. Deve essere vuoto o un percorso di file valido per Image Server, assoluto o relativo a `attribute::RootPath`.
 
 ## Predefinito {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 
