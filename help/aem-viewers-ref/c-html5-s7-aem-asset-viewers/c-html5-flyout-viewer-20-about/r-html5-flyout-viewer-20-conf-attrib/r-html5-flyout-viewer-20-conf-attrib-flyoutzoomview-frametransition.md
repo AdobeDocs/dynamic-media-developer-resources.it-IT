@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. Nessuno <span class="codeph"> è</span> privo di transizione, il cambiamento di vista principale avviene all'istante. La <span class="codeph"> dissolvenza</span> attiva la transizione in dissolvenza incrociata in cui la vecchia immagine si dissolve e la nuova immagine si dissolve in entrata </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. Il <span class="codeph"> none</span> indica che non è prevista alcuna transizione. La modifica della vista principale avviene immediatamente. La <span class="codeph"> dissolvenza</span> attiva la transizione tra dissolvenza quando l'immagine precedente si dissolve e la nuova immagine si dissolve in </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> length</span></span> </p> </td> 
