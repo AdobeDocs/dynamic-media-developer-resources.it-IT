@@ -1,18 +1,21 @@
 ---
 description: Stringa di comando Image Server applicata a tutte le miniature.
 seo-description: Stringa di comando Image Server applicata a tutte le miniature.
-seo-title: PreferitiView.iscommand
+seo-title: FavoritesView.iscommand
 solution: Experience Manager
-title: PreferitiView.iscommand
+title: FavoritesView.iscommand
 topic: Dynamic media
 uuid: 59a25b65-a08f-46e9-a9eb-33672e4a0cb5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
 
-# PreferitiView.iscommand{#favoritesview-iscommand}
+# FavoritesView.iscommand{#favoritesview-iscommand}
 
 Stringa di comando Image Server applicata a tutte le miniature.
 
@@ -22,7 +25,7 @@ Stringa di comando Image Server applicata a tutte le miniature.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se specificate nell’URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devono essere codificate rispettivamente in HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col2"> <p> Se specificate nell'URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devono essere codificate per HTTP rispettivamente come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
