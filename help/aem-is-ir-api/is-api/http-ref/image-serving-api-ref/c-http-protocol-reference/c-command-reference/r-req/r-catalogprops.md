@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 6%
 
 ---
 
 
-# catalogprops{#catalogprops}
+# catalog ogprops{#catalogprops}
 
 Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo immagini specificato nel percorso della richiesta.
 
@@ -25,9 +28,9 @@ Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo imma
  </tr> 
 </table>
 
-Omettete l’ID del catalogo per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]). La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
+Omettete l&#39;ID catalogo per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]). La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del `req=` parametro:
+Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -80,7 +83,7 @@ Vengono restituiti i seguenti valori di proprietà:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>o, se non presente, l'ora dell'ultima modifica del file <span class="varname"> catalogo</span><span class="filepath"> .ini</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span> o, se non presente, l'ora dell'ultima modifica del  <span class="varname"> catalogo</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
