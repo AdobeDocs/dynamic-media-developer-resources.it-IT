@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +30,7 @@ Regolare il contrasto. Regola il contrasto dell’immagine aumentando la luminos
 
 ## Proprietà {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-896d1b1f7f084e929355a4684f3e833b}
 
@@ -37,6 +40,6 @@ Livello, comando. Si applica al livello corrente o all’immagine composita, se 
 
 Per ridurre il contrasto e la nitidezza di un livello di immagine di qualità superiore e ottenere una corrispondenza visiva con una foto di sfondo di bassa qualità:
 
-… `&op_blur=3&op_contrast=-12&`
+... `&op_blur=3&op_contrast=-12&`
 
 In una versione futura è possibile utilizzare la luminosità media dell’immagine anziché una luminosità fissa del 50%.
