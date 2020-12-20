@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Criterio di convalida della cache del server. Specifica quando le voci della cache lato server vengono convalidate.
 
-Con la convalida basata sulla scadenza, i materiali di origine e le vignettature vengono verificati periodicamente per verificare se sono stati modificati. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del `catalog::TimeStamp` valore.
+Con la convalida basata sulla scadenza, i materiali di origine e le vignettature vengono verificati periodicamente per verificare se sono stati modificati. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
 
 La convalida basata su catalogo è consigliata quando si utilizzano sia cataloghi di materiale che di vignettatura. La convalida basata sulla scadenza deve essere utilizzata quando alle richieste di rendering delle immagini viene fatto riferimento direttamente tramite percorso di vignettature.
 
