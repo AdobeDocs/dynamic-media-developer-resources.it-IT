@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +26,6 @@ Convertire il testo in un file PDF in contorni.
  </tr> 
 </table>
 
-Utilizzare il comando URL `convertTextToOutlines=1` per modificare tutto il testo contenuto in un file PDF in tracciati con contorno.
+Utilizzare il comando URL `convertTextToOutlines=1` per modificare tutto il testo di un file PDF in tracciati contornati.
 
 Quando un effetto viene applicato al testo in un file PDF, ad esempio convertendo il testo in contorni, l’immagine finale sottoposta a rendering viene ridotta o &quot;appiattita&quot; in dimensioni.
