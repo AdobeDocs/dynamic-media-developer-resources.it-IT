@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0dcebbce-f449-4f5f-acbc-02960e1dbdba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span> , il componente precarica tutti i fotogrammi carosello quando sono inattivi. </p> <p>Quando è impostato su <span class="codeph"> 0</span> , il componente carica solo il fotogramma correntemente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> Il</span></span>precaricamento definisce quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati se in stato di inattività. </p> </td> 
+   <td> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span>, il componente precarica tutti i fotogrammi del carosello quando è in stato di inattività. </p> <p>Se impostato su <span class="codeph"> 0</span>, il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> Il </span></span>precaricamento definisce quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati se in stato di inattività. </p> </td> 
   </tr> 
  </tbody> 
 </table>
