@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 0%
 
 ---
 
 
-# Panoramica{#overview}
+# Overview{#overview}
 
 I cataloghi di immagini vengono utilizzati per fornire informazioni sulle immagini e sui dati di supporto (come font e profili ICC) al server.
 
@@ -29,8 +32,8 @@ Ciascun catalogo di immagini è costituito da un file attributo di catalogo obbl
 
 I file di dati del catalogo sono associati ai cataloghi di immagini in base ai riferimenti ai file presenti nel file di attributi del catalogo. Lo stesso file di dati del catalogo può essere condiviso da più cataloghi di immagini.
 
-I file di attributi del catalogo devono avere un suffisso di [!DNL .ini] file e devono trovarsi nella cartella del catalogo del server piattaforme ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server della piattaforma.
+I file di attributi del catalogo devono avere un suffisso di file [!DNL .ini] e devono trovarsi nella cartella del catalogo del server piattaforme ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server della piattaforma.
 
-Questo documento descrive il formato del file catalogo immagini per il sistema Image Server di Scene7. Gli utenti a cui è destinato sono programmatori esperti e sviluppatori di siti Web che desiderano sfruttare Scene7 Image Serving per un’applicazione Web o personalizzata.
+Questo documento descrive il formato del file catalogo immagini per il sistema Scene7 Image Server. L&#39;audience prevista è composta da programmatori esperti e sviluppatori di siti Web che desiderano sfruttare Scene7 Image Server per un&#39;applicazione Web o personalizzata.
 
-Si presume che il lettore abbia familiarità con il sistema Image Serving di Scene7, con gli standard e le convenzioni generali del protocollo HTTP e con la terminologia di base dell’imaging.
+Si presume che il lettore abbia familiarità con il sistema Scene7 Image Server, con gli standard e le convenzioni generali del protocollo HTTP e con la terminologia di base per l’imaging.
