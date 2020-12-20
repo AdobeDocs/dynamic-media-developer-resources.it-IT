@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Visualizzazione Preferiti{#favorites-view}
+# Vista Preferiti{#favorites-view}
 
 La visualizzazione Preferiti è composta da una colonna di miniature.
 
@@ -31,7 +34,7 @@ La posizione e l&#39;altezza della visualizzazione Preferiti sono gestite dalla 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della visualizzazione Preferiti. </p> </td> 
   </tr> 
   <tr> 
@@ -61,8 +64,8 @@ La spaziatura tra le miniature Preferiti è controllata dal seguente selettore d
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> La dimensione del margine verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine superiore e inferiore impostato per la cella <span class="codeph"> .s7thumbnail </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col2"> <p> La dimensione del margine verticale intorno a ciascuna miniatura. L'effettiva spaziatura delle miniature è uguale alla somma del margine superiore e inferiore impostato per la cella <span class="codeph"> .s7thumbnail </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +89,7 @@ L&#39;aspetto di una singola miniatura è controllato dal seguente selettore di 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +97,7 @@ L&#39;aspetto di una singola miniatura è controllato dal seguente selettore di 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +105,7 @@ L&#39;aspetto di una singola miniatura è controllato dal seguente selettore di 
 
 >[!NOTE]
 >
->Thumbnail supporta il selettore `state` di attributi, che può essere usato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall’utente. `state="default"` corrisponde alle altre miniature. E `state="over"` viene usato al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall&#39;utente. `state="default"` corrisponde alle altre miniature. `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio: per impostare le miniature da 75 x 75 pixel, avete un bordo grigio chiaro predefinito e un bordo grigio scuro selezionato.
 
@@ -130,11 +133,11 @@ L&#39;aspetto dell&#39;etichetta della miniatura è controllato dal seguente sel
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font. </p> </td> 
   </tr> 
  </tbody> 
