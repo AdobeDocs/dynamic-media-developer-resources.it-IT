@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 0%
 
 ---
 
@@ -31,33 +34,33 @@ Il caso d’uso più semplice della libreria di immagini reattive è definire un
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
    <td colname="col2"> <p>Di seguito è riportato un semplice esempio in cui l’immagine reattiva si trova all’interno di un contenitore che occupa il 50% della larghezza della pagina Web. Ogni volta che la finestra del browser viene ridimensionata, la larghezza del contenitore cambia. Quando la larghezza dell’immagine raggiunge uno dei punti di interruzione configurati, impostati su 200, 400, 600 e 800 pixel a scopo illustrativo, viene scaricata e visualizzata una nuova rappresentazione. L'obiettivo è evitare di caricare immagini di grandi dimensioni e di risparmiare sulla larghezza di banda della rete. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionare la finestra del browser e monitorare il traffico di rete. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>L'esempio di avvio seguente illustra lo stesso caso di utilizzo in una pagina Web. In base al CSS di Bootstrap, la cella di layout alla quale viene aggiunta l'immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi sono i valori esatti che vengono passati come punti di interruzione alla libreria di immagini reattive. In questo modo, Scene7 garantisce l’utilizzo efficiente della larghezza di banda di rete del client. Inoltre, garantisce che l'immagine venga visualizzata nella dimensione esatta necessaria, dato il layout della pagina Web corrente, senza artefatti visivi che ne impediscano il ridimensionamento del browser lato client. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionare la finestra del browser per individuare diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi di utilizzo più avanzati includono l’associazione di diversi predefiniti per immagini, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
+   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso di utilizzo in una pagina Web. In base a Bootstrap CSS, la cella di layout a cui viene aggiunta l'immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi sono i valori esatti che vengono passati come punti di interruzione alla libreria di immagini reattive. Scene7 garantisce l'utilizzo efficiente della larghezza di banda di rete del cliente. Inoltre, garantisce che l'immagine venga visualizzata nella dimensione esatta necessaria, dato il layout della pagina Web corrente, senza artefatti visivi che ne impediscano il ridimensionamento del browser lato client. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionare la finestra del browser per individuare diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi di utilizzo più avanzati includono l’associazione di diversi predefiniti per immagini, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>In questo esempio vengono utilizzati predefiniti per immagini di qualità e formato diversi per diverse dimensioni di punti di interruzione. Per un piccolo punto di interruzione, viene applicato un predefinito di bassa qualità che fa sì che Image Serving restituisca l’immagine GIF compressa solo a sei colori. Un punto di interruzione medio utilizza un predefinito per immagini configurato per JPEG con compressione elevata. Il punto di interruzione più grande è associato a un predefinito per immagini di alta qualità che utilizza il formato PNG senza perdita di dati. Questo metodo garantisce la distribuzione di immagini di alta qualità a tali dispositivi, partendo dal presupposto che i dispositivi con schermi più grandi abbiano una larghezza di banda e una potenza di elaborazione maggiori. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionate la finestra del browser Web da più grande a più piccola e notate come la qualità dell’immagine si riduce. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/crops.html--> </p> </td> 
    <td colname="col2"> <p>Oltre ai predefiniti per immagini, è possibile associare specifici comandi Image Server ai punti di interruzione. L'esempio seguente mostra come sia possibile ritagliare gradualmente l'immagine del banner fino all'area di interesse, man mano che le dimensioni dell'immagine sullo schermo diventano più piccole. In questo caso, il punto di interruzione più grande non dispone di alcun comando Image Serving, pertanto l'immagine del banner è completamente visibile. Con un punto di interruzione medio viene applicato un ritaglio moderato, rendendo visibile solo il corridore con testo "In esecuzione". A un punto di interruzione piccolo, viene applicato un maggior ritaglio in modo che venga mostrato solo il prodotto. </p> <p>Fate clic sull’URL per aprire la pagina Web e ridimensionare la finestra del browser. L’immagine viene ritagliata gradualmente passando da una dimensione più grande a una più piccola. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Potete anche usare i comandi Image Server con Image Server Templates per controllare alcuni parametri di modello in base alle dimensioni dell’immagine. In questo esempio successivo, viene utilizzato un modello Image Server in cui la dimensione del font della sovrapposizione di testo è parametrizzata utilizzando il parametro <span class="codeph"> $fontsize </span> . L’immagine reattiva è configurata per utilizzare un font di dimensioni maggiori per immagini di dimensioni ridotte, in modo da garantire che il testo rimanga sempre leggibile: </p> </td> 
+   <td colname="col2"> <p>Potete anche usare i comandi Image Server con Image Server Templates per controllare alcuni parametri di modello in base alle dimensioni dell’immagine. In questo esempio successivo, viene utilizzato un modello Image Server in cui la dimensione del font della sovrapposizione di testo è parametrizzata utilizzando il parametro <span class="codeph"> $fontsize </span>. L’immagine reattiva è configurata per utilizzare un font di dimensioni maggiori per immagini di dimensioni ridotte, in modo da garantire che il testo rimanga sempre leggibile: </p> </td> 
   </tr> 
  </tbody> 
 </table>
