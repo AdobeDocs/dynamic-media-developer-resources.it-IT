@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: add69c62-1139-4993-acf7-2e11e734ea83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 9%
 
 ---
 
@@ -30,12 +33,12 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> OriginalPath</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> OriginalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Percorso del file GIF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> file</span> originale </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> OriginalFile</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nome file. </p> </td> 
   </tr> 
@@ -50,7 +53,7 @@ Sintassi
    <td colname="col3"> <p>Il file di immagine ottimizzato per IPS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Dimensione file. </p> </td> 
   </tr> 
