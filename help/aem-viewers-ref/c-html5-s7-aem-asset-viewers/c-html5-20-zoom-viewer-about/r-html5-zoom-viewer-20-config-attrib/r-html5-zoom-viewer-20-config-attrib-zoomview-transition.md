@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ZoomView.transizioni
+seo-title: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transizioni
+title: ZoomView.transition
 topic: Dynamic media
 uuid: 1d58d230-f056-4cd8-a36f-b0f5d43483a3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
-# ZoomView.transizioni{#zoomview-transition}
+# ZoomView.transition{#zoomview-transition}
 
 ` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`temporizzazione`*]`
 
