@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a79302ce-745b-44d8-9cb6-ed8d37530197
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Questo parametro:
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
   <td class="stentry"> <p>ID processo ottenuto al momento dell’invio. </p> </td> 
  </tr> 
 </table>
