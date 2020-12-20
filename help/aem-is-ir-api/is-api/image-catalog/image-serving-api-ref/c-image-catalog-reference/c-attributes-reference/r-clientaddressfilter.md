@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
@@ -22,12 +25,12 @@ Se specificato, le richieste a questo catalogo di immagini che provengono da un 
 
 Elenco separato da virgole di indirizzi IP con netmask opzionali (è utilizzata la notazione CIDR):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`*`[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Indirizzo IP in formato <span class="varname"> ddd.ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>Indirizzo IP in formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,7 +38,7 @@ Elenco separato da virgole di indirizzi IP con netmask opzionali (è utilizzata 
  </tr> 
 </table>
 
-Questo attributo viene ignorato quando viene applicata una regola di preelaborazione con un `<addressfilter>` elemento.
+Questo attributo viene ignorato quando viene applicata una regola di preelaborazione con un elemento `<addressfilter>`.
 
 ## Predefinito {#section-de26e8c9225745e985e4beac1f03f4f6}
 
