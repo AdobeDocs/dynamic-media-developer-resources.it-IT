@@ -15,7 +15,7 @@ ht-degree: 21%
 ---
 
 
-# Image Serving HTTP encoding{#image-serving-http-encoding}
+# Image Server HTTP encoding{#image-serving-http-encoding}
 
 I valori dei comandi devono essere codificati http-encoded utilizzando %xx sequenze di escape, in modo che le stringhe dei valori non includano i caratteri riservati &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
@@ -36,7 +36,7 @@ In caso contrario, si applicano le regole di codifica HTTP standard. La specific
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -186,4 +186,4 @@ Se si applica l&#39;offuscamento, la codifica può essere limitata per rimuovere
 
 ## Consultate anche {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Richiesta di offuscamento](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), specifica [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Richiesta di offuscamento](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), specifica  [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
