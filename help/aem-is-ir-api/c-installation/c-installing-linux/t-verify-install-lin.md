@@ -9,13 +9,13 @@ uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Verifica dell’installazione{#verifying-the-installation}
+# Verifica dell&#39;installazione{#verifying-the-installation}
 
 Dopo aver installato Image Server su Linux, verificate l&#39;installazione.
 
@@ -37,6 +37,6 @@ Image Server è installato come demone Linux.
 
 [!DNL http:// *[!DNL server:port]*/ir/rendering]
 
-Nelle risposte, verificate la presenza di elementi che iniziano con &quot; `imageServer.`&quot; e che indicano che Platform Server è in grado di comunicare con il server immagini.
+Nelle risposte, verificate la presenza di elementi che iniziano con &quot; `imageServer.`&quot;, il che indica che il server piattaforme può comunicare con il server immagini.
 >È possibile eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.
 
