@@ -25,7 +25,7 @@ Per rendere effettive le modifiche, riavviare il server immagini dopo aver modif
 
 >[!NOTE]
 >
->Non modificate la struttura degli elementi, `<imageserverregistry>`incluso l’ordine degli stessi. Prestate attenzione quando modificate il file, in caso contrario il server immagini potrebbe non avviarsi.
+>Non modificate la struttura di `<imageserverregistry>`, incluso l&#39;ordine degli elementi. Prestate attenzione quando modificate il file, in caso contrario il server immagini potrebbe non avviarsi.
 
 Di seguito sono illustrati gli elementi che possono essere modificati. Sono presenti altri elementi che non devono essere modificati. L&#39;ordine degli elementi di seguito non riflette l&#39;ordine in cui devono essere presenti nel file.
 
@@ -55,4 +55,4 @@ Di seguito sono illustrati gli elementi che possono essere modificati. Sono pres
 
 ## Note {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Possono essere presenti più `<RootPath>` elementi (uno per ogni cartella di file di dati di origine). Image Server esegue la ricerca nei percorsi principali nell’ordine specificato per trovare un particolare file sorgente.
+Potrebbero essere presenti più elementi `<RootPath>` (uno per ciascuna cartella di file di dati di origine). Image Server esegue la ricerca nei percorsi principali nell’ordine specificato per trovare un particolare file sorgente.
