@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +48,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
