@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 2d683c94-3ed7-4d2f-ae97-8e722582bca0
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '23'
+ht-degree: 4%
 
 ---
 
 
-# Modalità di sovrascrittura risorse{#asset-overwrite-modes}
+# Modalità di sovrascrittura delle risorse{#asset-overwrite-modes}
 
 Utilizzato da setCompanySettingsParam/overwriteMode.
 
