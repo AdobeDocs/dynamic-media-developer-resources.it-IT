@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ Al momento, solo il renderer FXG può fare riferimento ai font in base ai nomi P
 
 ## Proprietà {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei font. Lo stesso `font::PsName` valore può verificarsi solo una volta nello stesso file di mappa dei font.
+Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei font. Lo stesso valore `font::PsName` può verificarsi solo una volta nello stesso file di mappa dei font.
 
 ## Predefinito {#section-c5903d5340e740b69ec0150d2303a893}
 
