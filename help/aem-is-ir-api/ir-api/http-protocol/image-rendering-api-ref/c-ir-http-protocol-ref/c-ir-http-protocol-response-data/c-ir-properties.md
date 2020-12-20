@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +31,7 @@ I dati di risposta sono formattati per essere leggibili come proprietà Java. Un
 
 ` *[!DNL propertyValue]*` può essere vuoto. Lo spazio vuoto è facoltativo all&#39;inizio e alla fine di ogni riga e prima e dopo il separatore &#39;=&#39;. Le virgolette singole o doppie possono essere utilizzate per racchiudere i valori stringa, ma non sono obbligatorie.
 
-I valori stringa possono contenere caratteri escape di tipo JAVA, ad esempio `\n`, `\t`, `\:`. Oppure `\\`.
+I valori stringa possono contenere caratteri di escape stile JAVA, ad esempio `\n`, `\t`, `\:`. Oppure `\\`.
 
 **Consultate anche**
 
