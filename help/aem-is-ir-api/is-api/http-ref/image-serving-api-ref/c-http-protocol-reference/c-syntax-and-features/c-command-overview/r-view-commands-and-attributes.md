@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
 
-# Visualizza, comandi{#view-commands}
+# Visualizza comandi{#view-commands}
 
 Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
 
