@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
@@ -23,9 +26,9 @@ Le proprietà di sistema supportate includono:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: Prefisso URL per il rendering delle risorse SVG.
-* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse SVG `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse SVG  `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Dimensione massima (in byte) dei dati del file consentiti in un caricamento [!DNL POST]. Il sistema rifiuta i file di dimensioni superiori al limite massimo.
+* `UploadPostMaxFileSize`: Dimensione massima (in byte) dei dati del file consentiti in un caricamento  [!DNL POST]. Il sistema rifiuta i file di dimensioni superiori al limite massimo.
 
 ## Tipi di utenti autorizzati {#section-2cd36bbd46ed414b8753569d5895530e}
 
