@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 19%
 
 ---
 
@@ -49,7 +52,7 @@ Per i materiali di texture ripetibili sono consentiti i seguenti valori:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Carta da parati da mezza goccia appesa. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carta da parati mezza goccia appesa. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
