@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# AnnullaComprimiOpzioni{#uncompressoptions}
+# UnpressOptions{#uncompressoptions}
 
 Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principali (Nessuno) o per estrarne e caricarne il contenuto (Non compress).
 
@@ -39,9 +39,9 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principa
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controlla l'elaborazione dei file archivio ZIP e TAR. Fornisce 2 opzioni: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> Elaborazione come risorse primarie. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Annulla compressione:</span> Estrarre ed elaborare i contenuti. </li>
-     </ul><p>Nota: Le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzate <span class="codeph"> AnnullaCompressione</span>, non <span class="codeph"> decomprimete</span> o <span class="codeph"> decomprimete</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno: </span> elabora come risorse primarie. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Decomprimete:</span> Estrai e elabora i contenuti. </li>
+     </ul><p>Nota: Le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> UnCompress</span>, non <span class="codeph"> decomprimere</span> o <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +59,9 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principa
     </complexType>
 ```
 
-## Usato da {#section-b2a829cf5511412e968bb2000f85cc31}
+## Utilizzata da {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Il `unCompressionOptions` tipo viene utilizzato da:
+Il tipo `unCompressionOptions` è utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
