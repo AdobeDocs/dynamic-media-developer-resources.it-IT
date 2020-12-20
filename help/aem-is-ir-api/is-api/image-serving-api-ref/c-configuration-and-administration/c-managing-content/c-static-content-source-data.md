@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ Il percorso dei file di dati di contenuto statico è stato risolto come segue:
 
 Il server combina i segmenti di percorso da destra a sinistra finché non viene definito un percorso di file assoluto.
 
-Tutti ` *[!DNL rootPath]*` i segmenti possono essere vuoti, relativi o assoluti.
+Tutti i segmenti ` *[!DNL rootPath]*` possono essere vuoti, relativi o assoluti.
 
 ` *[!DNL catalogPath]*` è un nome/percorso di file assoluto o relativo. *[!DNL requestPath]* deve essere un percorso/nome di file relativo.
 
-È possibile definire più `PS::staticContent.rootPaths` valori in [!DNL PlatformServer.conf]. Questo consente la distribuzione dei file di dati di origine tra più file system. Il server piattaforme proverà percorsi alternativi nell&#39;ordine specificato fino a trovare il file di dati.
+Più valori `PS::staticContent.rootPaths` possono essere definiti in [!DNL PlatformServer.conf]. Questo consente la distribuzione dei file di dati di origine tra più file system. Il server piattaforme proverà percorsi alternativi nell&#39;ordine specificato fino a trovare il file di dati.
