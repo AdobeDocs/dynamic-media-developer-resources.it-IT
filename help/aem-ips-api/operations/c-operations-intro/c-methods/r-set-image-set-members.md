@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Imposta l’elenco delle risorse associate a un set di immagini.
 
-Questa operazione ignora il `pageReset` parametro per `ImageSets` e `SpinSets` forza il valore su true.
+Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e forza il valore su true.
 
 ## Tipi di utenti autorizzati {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -46,19 +49,19 @@ Questa operazione ignora il `pageReset` parametro per `ImageSets` e `SpinSets` f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Maniglia aziendale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Maniglia del set di immagini. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Array di membri di risorse appartenenti al set di immagini. </td> 
