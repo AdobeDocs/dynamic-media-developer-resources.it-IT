@@ -1,6 +1,6 @@
 ---
-description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Adobe Scene7.
-seo-description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Adobe Scene7.
+description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
+seo-description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
 seo-title: Esercitazione SDK per visualizzatori
 solution: Experience Manager
 title: Esercitazione SDK per visualizzatori
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 0%
 
 ---
 
 
-# Esercitazione SDK per visualizzatori{#viewer-sdk-tutorial}
+# Esercitazione SDK visualizzatore{#viewer-sdk-tutorial}
 
-L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Adobe Scene7.
+L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
 
-Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate in Adobe Scene7 tramite l’applicazione di back-end SPS (Scene7 Publishing System).
+Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate su  Adobe Scene7 tramite l’applicazione back-end SPS (Scene7 Publishing System).
 
-Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android e Apple iOS e computer desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza consente di fornire un singolo flusso di lavoro per tutte le piattaforme supportate.
+Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android e Apple iOS e computer desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
-L’SDK è costituito da componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Potete formattare questi componenti tramite CSS e componenti non dell&#39;interfaccia utente che hanno un ruolo di supporto, come il recupero delle definizioni dei set, l&#39;analisi o il tracciamento. Tutti i comportamenti dei componenti possono essere personalizzati tramite modificatori che è possibile specificare in diversi modi, ad esempio, come `name=value` coppie nell’URL.
+L’SDK è costituito da componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Potete formattare questi componenti tramite CSS e componenti non dell&#39;interfaccia utente che hanno un ruolo di supporto, come il recupero delle definizioni dei set, l&#39;analisi o il tracciamento. Tutti i comportamenti dei componenti possono essere personalizzati tramite modificatori che è possibile specificare in diversi modi, ad esempio, come coppie `name=value` nell&#39;URL.
 
 Questa esercitazione include il seguente ordine di attività per creare un visualizzatore zoom di base:
 
@@ -32,15 +35,15 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
 * [Aggiunta di pulsanti al visualizzatore](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configurazione dei campioni in verticale](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Scarica l’SDK visualizzatore più recente da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Scarica l&#39;SDK visualizzatore più recente da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Scarica l’SDK per visualizzatori più recente da Adobe Developer Connection [qui](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Scarica l&#39;SDK visualizzatore più recente da Adobe Developer Connection [qui](https://marketing.adobe.com/developer/devcenter/scene7/show).
 
    >[!NOTE]
    >
    >Puoi completare questa esercitazione senza dover scaricare il pacchetto SDK per visualizzatori, in quanto l’SDK viene caricato in remoto. Tuttavia, il pacchetto Visualizzatore include esempi aggiuntivi e una guida di riferimento API che sarà utile per creare visualizzatori personalizzati.
 
-## Caricamento dell’SDK per visualizzatori {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Carica l&#39;SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Per iniziare, impostate una nuova pagina per sviluppare il visualizzatore zoom di base che intendete creare.
 
@@ -79,7 +82,7 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
    </html>
    ```
 
-   Aggiungete il seguente codice JavaScript all&#39;interno del `script` tag per inizializzare il `ParameterManager`. Questo consente di prepararsi a creare e creare un&#39;istanza di componenti SDK all&#39;interno della `initViewer` funzione:
+   Aggiungete il seguente codice JavaScript all&#39;interno del tag `script` per inizializzare `ParameterManager`. Questo consente di preparare e creare un&#39;istanza dei componenti SDK all&#39;interno della funzione `initViewer`:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -123,7 +126,7 @@ Ora potete aggiungere dello stile al visualizzatore.
 
 1. Per questo visualizzatore a pagina intera che state creando, potete aggiungere alcuni stili di base.
 
-   Aggiungere il seguente `style` blocco nella parte inferiore della `head`:
+   Aggiungere il seguente blocco `style` nella parte inferiore della `head`:
 
    ```
    <style> 
@@ -148,7 +151,7 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
 
 1. Create un visualizzatore effettivo includendo i componenti `Container` e `ZoomView`.
 
-   Inserite le seguenti `include` istruzioni nella parte inferiore dell&#39; `<head>` elemento, dopo che lo [!DNL Utils.js] script è stato caricato:
+   Inserire le seguenti istruzioni `include` nella parte inferiore dell&#39;elemento `<head>` dopo il caricamento dello script [!DNL Utils.js]:
 
    ```
    <!-- 
@@ -163,13 +166,13 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
 
 1. Ora create le variabili per fare riferimento ai vari componenti SDK.
 
-   Aggiungi le seguenti variabili all&#39;inizio della funzione anonima principale, appena sopra `s7sdk.Util.init()`:
+   Aggiungete le seguenti variabili all&#39;inizio della funzione anonima principale, appena sopra `s7sdk.Util.init()`:
 
    ```
    var container, zoomView;
    ```
 
-1. Inserite quanto segue all&#39;interno della `initViewer` funzione per definire alcuni modificatori e creare un&#39;istanza dei rispettivi componenti:
+1. Inserire quanto segue all&#39;interno della funzione `initViewer` per definire alcuni modificatori e creare le istanze dei rispettivi componenti:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +193,7 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Affinché il codice riportato sopra venga eseguito correttamente, aggiungete un gestore di `containerResize` eventi e una funzione helper:
+1. Affinché il codice riportato sopra venga eseguito correttamente, aggiungere un gestore eventi `containerResize` e una funzione helper:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -209,7 +212,7 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
 
    ![](assets/viewer-1.jpg)
 
-Ora potete aggiungere i componenti `MediaSet` e `Swatches` il visualizzatore.
+Ora potete aggiungere i componenti `MediaSet` e `Swatches` al visualizzatore.
 
 ## Aggiunta di componenti MediaSet e Campioni al visualizzatore {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -228,9 +231,9 @@ Ora potete aggiungere i componenti `MediaSet` e `Swatches` il visualizzatore.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Creare un&#39;istanza `MediaSet` e `Swatches` componenti all&#39;interno della `initViewer` funzione.
+1. Creare un&#39;istanza dei componenti `MediaSet` e `Swatches` all&#39;interno della funzione `initViewer`.
 
-   Assicuratevi di creare un&#39;istanza dopo i `Swatches` componenti `ZoomView` e `Container` , in caso contrario l&#39;ordine di sovrapposizione nasconde `Swatches`:
+   Assicuratevi di creare un&#39;istanza dell&#39;istanza `Swatches` dopo i componenti `ZoomView` e `Container`, altrimenti l&#39;ordine di sovrapposizione nasconde l&#39; `Swatches`:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +269,7 @@ Ora potete aggiungere i componenti `MediaSet` e `Swatches` il visualizzatore.
    }
    ```
 
-1. Posizionate i campioni nella parte inferiore del visualizzatore aggiungendo il seguente CSS all’ `style` elemento:
+1. Posizionate i campioni nella parte inferiore del visualizzatore aggiungendo il seguente CSS all&#39;elemento `style`:
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +283,7 @@ Ora potete aggiungere i componenti `MediaSet` e `Swatches` il visualizzatore.
 
 1. Visualizzate l’anteprima del visualizzatore.
 
-   I campioni si trovano nella parte inferiore sinistra del visualizzatore. Affinché i campioni possano avere l’intera larghezza del visualizzatore, aggiungete una chiamata per ridimensionare manualmente i campioni ogni volta che l’utente ridimensiona il browser. Aggiungere quanto segue alla `resizeViewer` funzione:
+   I campioni si trovano nella parte inferiore sinistra del visualizzatore. Affinché i campioni possano avere l’intera larghezza del visualizzatore, aggiungete una chiamata per ridimensionare manualmente i campioni ogni volta che l’utente ridimensiona il browser. Aggiungere quanto segue alla funzione `resizeViewer`:
 
    ```
    swatches.resize(width, swatches.getHeight());
@@ -308,9 +311,9 @@ Ora potete aggiungere al visualizzatore pulsanti di zoom in, zoom out e reimpost
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Creare un&#39;istanza dei pulsanti nella parte inferiore della `initViewer` funzione.
+1. Creare un&#39;istanza dei pulsanti nella parte inferiore della funzione `initViewer`.
 
-   Tenete presente che l’ordine è importante, a meno che non specifichiate il valore `z-index` in CSS:
+   Tenete presente che l&#39;ordine è importante, a meno che non specifichiate la `z-index` in CSS:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +327,7 @@ Ora potete aggiungere al visualizzatore pulsanti di zoom in, zoom out e reimpost
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definire ora alcuni stili di base per i pulsanti aggiungendo quanto segue al `style` blocco nella parte superiore del file:
+1. Definite ora alcuni stili di base per i pulsanti aggiungendo quanto segue al blocco `style` nella parte superiore del file:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -358,21 +361,21 @@ Ora potete aggiungere al visualizzatore pulsanti di zoom in, zoom out e reimpost
 
 ## Configurazione dei campioni in verticale {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Potete configurare i modificatori direttamente sull’ `ParameterManager` istanza.
+1. È possibile configurare i modificatori direttamente sull&#39;istanza `ParameterManager`.
 
-   Aggiungete quanto segue nella parte superiore della `initViewer` funzione per configurare il layout delle `Swatches` miniature come una singola riga:
+   Aggiungere quanto segue nella parte superiore della funzione `initViewer` per configurare il layout dei pollici `Swatches` come una singola riga:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Aggiorna la seguente chiamata di ridimensionamento all&#39;interno `resizeViewer`:
+1. Aggiorna la seguente chiamata di ridimensionamento all&#39;interno di `resizeViewer`:
 
    ```
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Modificate la seguente `s7swatches` regola in `ZoomViewer.css`:
+1. Modificate la seguente regola `s7swatches` in `ZoomViewer.css`:
 
    ```
    .s7swatches { 
@@ -389,5 +392,5 @@ Ora potete aggiungere al visualizzatore pulsanti di zoom in, zoom out e reimpost
 
    Il visualizzatore zoom di base è ora completo.
 
-   Questa esercitazione sul visualizzatore illustra i principi di base di Scene7 Viewer SDK. Mentre lavori con l’SDK, puoi usare i vari componenti standard per creare e personalizzare facilmente esperienze di visualizzazione avanzate per il pubblico di destinazione.
+   Questa esercitazione sul visualizzatore illustra i principi di base di ciò che l’SDK per visualizzatori Scene7 offre. Mentre lavori con l’SDK, puoi usare i vari componenti standard per creare e personalizzare facilmente esperienze di visualizzazione avanzate per il pubblico di destinazione.
 
