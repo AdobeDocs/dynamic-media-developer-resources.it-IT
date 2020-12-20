@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +26,7 @@ I dati interattivi consentono di associare determinate aree temporali del conten
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto di dati interattivi WebVTT. Il file WebVTT deve essere gestito da Image Server. </p> </td> 
   </tr> 
  </tbody> 
