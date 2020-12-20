@@ -21,7 +21,7 @@ Usate queste impostazioni del server per impostare i limiti di dimensione immagi
 
 ## IS::MaxMessageSize - Limite dimensioni risposta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita la dimensione dei dati che il server immagini può inviare al server Platform. In effetti, questo limita le dimensioni dell’immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
+Limita la dimensione dei dati che il server immagini può inviare al server della piattaforma. In effetti, questo limita le dimensioni dell’immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
 
 ## IS::MaxRenderRongPixels - Limite dimensione immagine di output {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -29,7 +29,7 @@ Limita le dimensioni delle immagini che il server immagini può produrre (esclus
 
 ## IS::MaxSavePixels - Limite dimensione per il salvataggio in file {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita le dimensioni delle immagini che il server immagini scriverà nei file con il `req=saveToFile` comando. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
+Limita le dimensioni delle immagini che il server immagini scriverà nei file con il comando `req=saveToFile`. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
 
 ## IS::MaxNonDsfSize - Limite dimensione per immagini di input non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
