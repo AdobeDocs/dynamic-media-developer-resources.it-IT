@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
 
-# op_sound{#op-noise}
+# op_rumor{#op-noise}
 
 Aggiungete rumore. Aggiunge un disturbo casuale ai dati dell’immagine in primo piano o al primo piano di un livello di effetto.
 
@@ -43,7 +46,7 @@ Aggiungete rumore. Aggiunge un disturbo casuale ai dati dell’immagine in primo
 
 ## Proprietà {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
 
 ## Predefinito {#section-d548868fa4b64a60bcb481cad1f8113e}
 
