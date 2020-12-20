@@ -1,18 +1,21 @@
 ---
 description: Il catalogo di sessione è il catalogo di materiali che fornisce gli attributi di sessione per la richiesta, nonché un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
 seo-description: Il catalogo di sessione è il catalogo di materiali che fornisce gli attributi di sessione per la richiesta, nonché un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
-seo-title: Catalogo sessioni
+seo-title: Catalogo delle sessioni
 solution: Experience Manager
-title: Catalogo sessioni
+title: Catalogo delle sessioni
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
 
-# Catalogo sessioni{#session-catalog}
+# Catalogo delle sessioni{#session-catalog}
 
 Il catalogo di sessione è il catalogo di materiali che fornisce gli attributi di sessione per la richiesta, nonché un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
 
@@ -42,7 +45,7 @@ Il catalogo delle sessioni contiene i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::RootUrl</span> </p> </td> 
-   <td> <p> URL radice per percorsi di file HTTP relativi nei comandi <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL principale per percorsi di file HTTP relativi nei comandi <span class="codeph"> src=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
@@ -78,11 +81,11 @@ Il catalogo delle sessioni contiene i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::OnFailSel</span> </p> </td> 
-   <td> <p> Specifica il comportamento in caso di errore di un comando <span class="codeph"> sel=</span> </p> </td> 
+   <td> <p> Specifica il comportamento quando un comando <span class="codeph"> sel=</span> ha esito negativo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::OnFailObj</span> </p> </td> 
-   <td> <p> Specifica il comportamento quando un comando <span class="codeph"> obj=</span> non riesce </p> </td> 
+   <td> <p> Specifica il comportamento quando un comando <span class="codeph"> obj=</span> ha esito negativo </p> </td> 
   </tr> 
  </tbody> 
 </table>
