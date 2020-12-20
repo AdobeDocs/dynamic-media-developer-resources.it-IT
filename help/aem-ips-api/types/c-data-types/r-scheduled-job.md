@@ -39,14 +39,14 @@ Sintassi
 | ` *`triggerState`*` | `xsd:int` | Scelta dello stato di attivazione del processo. |
 | ` *`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Dettagli del processo per un processo di pubblicazione di Image Server. |
 | ` *`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Dettagli del processo per un processo di rendering delle immagini. |
-| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Dettagli del processo per un processo di pubblicazione video. Consultate [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Dettagli del processo per un processo di pubblicazione video. Vedere [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | ` *`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Dettagli del processo per un processo di pubblicazione della directory del server. |
 | ` *`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Dettagli del processo per un processo della directory di caricamento. |
 | ` *`uploadUrlsJob`*` | `types:UploadUrlsJob` | Dettagli processo per un processo URL di caricamento. |
 | ` *`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Consenti esportazione autorizzata di file caricati in precedenza. Consultate Processo [di](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)esportazione. |
+| ` *`exportJob`*` | `types:ExportJob` | Consenti esportazione autorizzata di file caricati in precedenza. Vedere [Processo di esportazione](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Note {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
