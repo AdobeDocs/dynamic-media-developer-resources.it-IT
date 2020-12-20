@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Visualizzatori per AEM Assets e Dynamic Media Classic
+seo-title: Visualizzatori per  AEM Assets e Dynamic Media Classic
 solution: Experience Manager
-title: Visualizzatori per AEM Assets e Dynamic Media Classic
+title: Visualizzatori per  AEM Assets e Dynamic Media Classic
 topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 12%
 
 ---
 
 
-# Visualizzatori per AEM Assets e Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
+# Visualizzatori per  AEM Assets e Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-I seguenti visualizzatori funzionano in Risorse Adobe Experience Manager e anche in Dynamic Media Classic.
+I seguenti visualizzatori funzionano con Adobe Experience Manager Assets e anche in Dynamic Media Classic.
 
 * [Zoom di base](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
