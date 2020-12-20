@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 95046b8c-1277-4954-b13d-329994d0cb04
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
 
-# disporre{#dispose}
+# dispose{#dispose}
 
 Riferimento API JavaScript per il visualizzatore video interattivo.
 
@@ -22,9 +25,9 @@ Dispone l’istanza del visualizzatore rilasciando tutte le risorse utilizzate d
 
 Il codice della pagina Web deve anche eliminare la variabile di istanza del visualizzatore per rimuovere completamente il visualizzatore dalla memoria del browser Web.
 
-Se il codice della pagina Web ha registrato i listener di eventi direttamente sui componenti SDK per visualizzatori utilizzati dal visualizzatore o memorizzati i riferimenti esterni a tali componenti, tali listener devono essere esplicitamente cancellati dal codice della pagina Web e tali riferimenti esterni devono essere eliminati prima della chiamata `dispose()`.
+Se il codice della pagina Web ha registrato i listener di eventi direttamente sui componenti SDK per visualizzatori utilizzati dal visualizzatore o memorizzati i riferimenti esterni a tali componenti, tali listener devono essere esplicitamente deregistrati dal codice della pagina Web e tali riferimenti esterni devono essere eliminati prima di chiamare `dispose()`.
 
-Non accedete più all’API del visualizzatore dopo `dispose()` la chiamata.
+Non accedete più all&#39;API del visualizzatore dopo la chiamata di `dispose()`.
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
