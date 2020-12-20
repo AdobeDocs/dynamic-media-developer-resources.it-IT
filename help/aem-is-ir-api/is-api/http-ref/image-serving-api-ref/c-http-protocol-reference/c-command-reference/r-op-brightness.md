@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +30,7 @@ Regolare la luminosità. Riduce o aumenta la luminosità dell’immagine.
 
 ## Proprietà {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
 
 ## Predefinito {#section-be56be0759634c79b4f264f194a94dbc}
 
