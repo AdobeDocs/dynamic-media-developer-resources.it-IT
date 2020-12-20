@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ L&#39;aspetto del contenitore degli indicatori di set è controllato dal seguent
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore del set. </p> </td> 
   </tr> 
  </tbody> 
@@ -70,27 +73,27 @@ L’aspetto di un singolo punto indicatore del set è controllato dal selettore 
    <td colname="col2"> <p>Altezza del punto dell'indicatore del set. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ L’aspetto di un singolo punto indicatore del set è controllato dal selettore 
 
 >[!NOTE]
 >
->Il punto indicatore impostato supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrispondente allo stato predefinito del punto.
+>Il punto indicatore impostato supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla pagina corrente di miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
 
 Esempio: per impostare l’indicatore punto su 15 x 15 pixel, con due pixel per il margine orizzontale, cinque pixel per il margine superiore, un pixel per il margine inferiore, dodici pixel per il raggio, #D5D3D3 per il colore predefinito e #939393 per il colore attivo:
 
