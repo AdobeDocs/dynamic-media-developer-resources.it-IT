@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PreferitiView.textpos
+seo-title: FavoritesView.textpos
 solution: Experience Manager
-title: PreferitiView.textpos
+title: FavoritesView.textpos
 topic: Dynamic media
 uuid: e3e5f0c8-8a20-4e9c-8018-156af2a3ca3b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
 
-# PreferitiView.textpos{#favoritesview-textpos}
+# FavoritesView.textpos{#favoritesview-textpos}
 
 `[FavoritesView.|<containerId>_favoritesView.]textpos=bottom|top|left|right|none|tooltip`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine in miniatura. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> la descrizione</span> è specificata, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. </p> <p>Se impostato su <span class="codeph"> none</span>, disattiva la visualizzazione dell'etichetta. </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine in miniatura. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica <span class="codeph"> tooltip</span>, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. </p> <p>Se impostata su <span class="codeph"> none</span>, la visualizzazione dell'etichetta viene disattivata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
