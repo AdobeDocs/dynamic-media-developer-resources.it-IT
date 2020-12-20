@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ Sintassi
 
 * Aggiunto `exportJob` a `ActiveJob` e `ScheduledJob`.
 
-* Aggiunto `optmizedPath` e `optimizedFile` a `PsdInfo`.
+* Sono stati aggiunti `optmizedPath` e `optimizedFile` a `PsdInfo`.
 
 * Aggiunto `contextHandle` a:
 
@@ -66,9 +69,9 @@ Sintassi
 
 **Modificato**
 
-* In `User`, cambiato `role` in `defaultRole`.
+* In `User`, è stato modificato `role` in `defaultRole`.
 
-* In `Folder`, cambiato `permissions` in `permissionsSetHandle`.
+* In `Folder`, è stato modificato `permissions` in `permissionsSetHandle`.
 
-* In `AssetSummary`, `type` e ora `name` sono opzionali.
+* In `AssetSummary`, `type` e `name` sono ora facoltativi.
 
