@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 823a70b8-0f05-4b8a-8011-39f17c047018
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Il numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, potete ridurre il numero di elementi visibili nel menu a discesa nel caso in cui il contenitore esterno lo ritagli. </p> <p>Se è impostato su <span class="codeph"> 0</span> , il componente mostra il numero massimo di elementi possibile a seconda del contenitore a cui viene aggiunto. </p> </td> 
+   <td> <p>Il numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, potete ridurre il numero di elementi visibili nel menu a discesa nel caso in cui il contenitore esterno lo ritagli. </p> <p>Se impostato su <span class="codeph"> 0</span>, il componente mostra il maggior numero possibile di elementi, dato il contenitore a cui è aggiunto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
