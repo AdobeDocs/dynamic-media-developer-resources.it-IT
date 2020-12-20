@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PageView.transizioni
+seo-title: PageView.transition
 solution: Experience Manager
-title: PageView.transizioni
+title: PageView.transition
 topic: Dynamic media
 uuid: c85ad85f-a802-4f5d-9046-00171ad2d9ca
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
-# PageView.transizioni{#pageview-transition}
+# PageView.transition{#pageview-transition}
 
 [!DNL `[PageView.|<containerId>_pageView.]transition= *``*[, *`temporizzazione`*]`]
 
