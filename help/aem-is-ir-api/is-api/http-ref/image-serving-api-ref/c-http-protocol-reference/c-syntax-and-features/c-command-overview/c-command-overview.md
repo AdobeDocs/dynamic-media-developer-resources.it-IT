@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
 
-# Panoramica del protocollo HTTP Image Server{#image-serving-http-protocol-command-overview}
+# Panoramica del comando del protocollo HTTP Image Server{#image-serving-http-protocol-command-overview}
 
 I comandi supportati da Image Server sono elencati di seguito, raggruppati per categoria di approssimazione. Per informazioni sull&#39;utilizzo e l&#39;applicabilità, fare riferimento alle descrizioni comandi specifiche.
 
