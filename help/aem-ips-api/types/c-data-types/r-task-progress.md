@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -30,47 +33,47 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taskType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Descrizione del tipo di attività. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessed</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessed</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Numero di elementi attività già elaborati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Numero di elementi attività in corso di elaborazione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Numero di elementi attività in sospeso (non ancora elaborati). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> % progresso (intervallo 0,0 - 1,0). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Messaggio di avanzamento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> lastProgressUpdate <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Ora dell’ultimo aggiornamento delle informazioni sull’avanzamento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TaskItemProgressArray</span> </td> 
    <td colname="col3"> Array di elementi attività. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taskState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">I valori includono: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
