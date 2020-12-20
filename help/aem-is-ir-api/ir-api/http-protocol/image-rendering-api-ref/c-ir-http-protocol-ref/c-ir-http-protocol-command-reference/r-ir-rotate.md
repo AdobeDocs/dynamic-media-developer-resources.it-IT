@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +34,7 @@ Ruotate i materiali di texture ripetibili con angoli arbitrari se applicati agli
 
 Ruotare i materiali del decallo per angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La texture o il decallo è ruotato intorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
+Gli angoli positivi ruotano in senso orario. La texture o il decallo viene ruotato intorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
