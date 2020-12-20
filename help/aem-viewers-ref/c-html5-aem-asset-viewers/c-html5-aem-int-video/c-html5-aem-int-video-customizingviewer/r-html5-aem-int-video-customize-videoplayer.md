@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 1%
 
 ---
 
 
-# Video player{#video-player}
+# Lettore video{#video-player}
 
 Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato nel visualizzatore.
 
@@ -31,7 +34,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del lettore video:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +42,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del lettore video:
 
 È possibile localizzare il messaggio di errore visualizzato nei casi in cui il sistema non è in grado di riprodurre il video.
 
-Consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)dell’interfaccia utente.
+Vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un visualizzatore video con le dimensioni del lettore video impostate su 512 x 288 pixel.
 
@@ -58,7 +61,7 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Sfondo del testo dei sottotitoli codificati. </p> </td> 
   </tr> 
   <tr> 
@@ -66,15 +69,15 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
    <td colname="col2"> <p>Colore del testo della didascalia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p> Spessore font didascalia chiusa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p> Dimensione font didascalia chiusa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Font per sottotitoli codificati. </p> </td> 
   </tr> 
  </tbody> 
@@ -119,15 +122,15 @@ L&#39;aspetto dell&#39;animazione del buffering è controllato dal seguente sele
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> Margine sinistro dell'icona dell'animazione, in genere meno metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> Margine superiore dell'icona dell'animazione, in genere meno metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Manopola la grafica. </p> </td> 
   </tr> 
  </tbody> 
