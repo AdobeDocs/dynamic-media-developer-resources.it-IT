@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -35,4 +38,4 @@ Una tipica risposta delle proprietà di testo ha questa struttura generale:
 
 *`propertyValue`* può essere vuoto. Lo spazio vuoto è facoltativo all&#39;inizio e alla fine di ogni riga e prima e dopo il separatore =. Le virgolette singole o doppie possono essere utilizzate per racchiudere i valori stringa, ma non sono obbligatorie.
 
-I valori stringa possono contenere caratteri escape di tipo JAVA, ad esempio `\n`, `\t`, `\:`o `\\`.
+I valori stringa possono contenere caratteri di escape stile JAVA, ad esempio `\n`, `\t`, `\:` o `\\`.
