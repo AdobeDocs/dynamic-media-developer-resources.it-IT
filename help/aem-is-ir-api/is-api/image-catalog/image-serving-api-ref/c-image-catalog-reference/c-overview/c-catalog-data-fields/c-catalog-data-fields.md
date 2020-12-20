@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 0%
 
 ---
 
 
-# Campi dati del catalogo{#catalog-data-fields}
+# Campi dati catalogo{#catalog-data-fields}
 
 Questa sezione descrive i campi dati del catalogo.
 
