@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 translation-type: tm+mt
 source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +19,14 @@ source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
 
 Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 
-Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south`e `southeast`. Ad esempio, con il punto di riferimento center potete ruotare un elemento grafico di 45 gradi attorno al suo centro. Questa illustrazione mostra dove si trovano i punti di riferimento, un elemento grafico, tale elemento ruotato di 20 gradi rispetto al punto di riferimento `northWest` (nord ovest) e ruotato di 20 gradi rispetto al punto di riferimento `east` (est).
+Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` e `southeast`. Ad esempio, con il punto di riferimento center potete ruotare un elemento grafico di 45 gradi attorno al suo centro. Questa illustrazione mostra dove si trovano i punti di riferimento, un elemento grafico, tale elemento ruotato di 20 gradi rispetto al punto di riferimento `northWest` (nord ovest) e ruotato di 20 gradi rispetto al punto di riferimento `east` (est).
 
 ![](assets/wp_ref_points.png)
 
 * A. Posizioni dei punti di riferimento
 * B. Elemento grafico
-* C. The graphic rotated 20 degrees from its `northWest` reference point
-* D. The graphic rotated 20 degrees from its `east` reference point
+* C. Elemento grafico ruotato di 20 gradi dal punto di riferimento `northWest`
+* D. Elemento grafico ruotato di 20 gradi dal punto di riferimento `east`
 
 È richiesta la seguente sintassi:
 
