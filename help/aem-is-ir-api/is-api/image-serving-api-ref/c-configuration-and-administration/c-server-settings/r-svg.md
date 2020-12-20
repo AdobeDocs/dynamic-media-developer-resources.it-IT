@@ -25,7 +25,7 @@ Dimensione heap Java per il rendering SVG. Il valore predefinito è &quot;200m&q
 
 ## PS::svgProvider.rootPaths - SVG Data Root Folders {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-Posizione dei file di dati sorgente SVG. Può essere uno o più percorsi di file assoluti o relativi a *[!DNL install_folder]*, separati da punto e virgola. In genere, impostate lo stesso valore di `IS::RootPath`.
+Posizione dei file di dati sorgente SVG. Può essere uno o più percorsi di file assoluti o relativi a *[!DNL install_folder]*, separati da punto e virgola. In genere, è possibile impostare lo stesso valore di `IS::RootPath`.
 
 ## PS::svgProvider.SVGFileSizeLimit - Dimensione massima file SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -35,9 +35,9 @@ Dimensione massima del file sorgente SVG in kBytes. Il server restituisce un err
 
 Limita le dimensioni delle immagini che SVGRender può produrre. Valore intero maggiore di 0 in milioni di pixel. Viene restituito un errore se un&#39;operazione di rendering supera il limite di dimensioni. Il valore predefinito è 4.
 
-## PS::svgProvider.port - Porta di ascolto del server Platform {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Porta di ascolto del server della piattaforma {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-La porta utilizzata per SvgRender per ottenere immagini dal server Platform da incorporare nei rendering SVG.
+La porta utilizzata per SvgRender per ottenere immagini dal server piattaforma da incorporare nei rendering SVG.
 
 Importante Per il corretto funzionamento del componente SVGRender, questa opzione di configurazione deve essere impostata sullo stesso valore di `TC::PsPort`.
 
