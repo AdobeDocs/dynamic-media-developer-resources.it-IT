@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,16 +35,16 @@ Allineamento rendering texture. Specifica quale dei punti di origine definiti da
   <td class="stentry"> <p>Allineamento casuale. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3..6 </p></td> 
+  <td class="stentry"> <p>3,6 </p></td> 
   <td class="stentry"> <p>Origine definita dall’utente. </p></td> 
  </tr> 
 </table>
 
 Il renderer applica la texture all&#39;oggetto in modo che il punto di ancoraggio della texture ( `anchor=`) coincida con il punto di origine specificato.
 
-Ogni oggetto può definire fino a 6 punti di origine (0,1, 3, 4, 5, 6). Se viene specificato un `align` valore ma il punto di origine corrispondente non è definito dall&#39;oggetto vignettatura, viene utilizzato il punto di origine predefinito (corrispondenza centrale).
+Ogni oggetto può definire fino a 6 punti di origine (0,1, 3, 4, 5, 6). Se viene specificato un valore `align` ma il punto di origine corrispondente non è definito dall&#39;oggetto vignettatura, viene utilizzato il punto di origine predefinito (corrispondenza centrale).
 
-`align=2` specifica l&#39;allineamento casuale della texture, nel qual caso `anchor=` viene effettivamente ignorato.
+`align=2` specifica l&#39;allineamento casuale della texture, nel qual caso  `anchor=` viene effettivamente ignorato.
 
 Utilizzato principalmente per materiali di imbottitura, possibilmente per tessuti di abbigliamento, per gestire l&#39;allineamento della texture tra oggetti adiacenti.
 
@@ -55,4 +58,4 @@ Attributo materiale. Ignorato se è selezionato un oggetto frame per rivestiment
 
 ## Consultate anche {#section-945d1ce275df487d9d564d4043156c79}
 
-[catalogo::Allineamento](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) , [ancoraggio=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[catalogo::Allineamento](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ,  [ancoraggio=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
