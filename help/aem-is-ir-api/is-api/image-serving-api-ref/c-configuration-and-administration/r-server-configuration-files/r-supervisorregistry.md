@@ -1,24 +1,27 @@
 ---
 description: Contiene le impostazioni di configurazione del supervisore del server.
 seo-description: Contiene le impostazioni di configurazione del supervisore del server.
-seo-title: SupervisoreRegistry.xml
+seo-title: SupervisorRegistry.xml
 solution: Experience Manager
-title: SupervisoreRegistry.xml
+title: SupervisorRegistry.xml
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
 
-# SupervisoreRegistry.xml{#supervisorregistry-xml}
+# SupervisorRegistry.xml{#supervisorregistry-xml}
 
 Contiene le impostazioni di configurazione del supervisore del server.
 
 Quando modificate questo file XML, accertatevi di mantenere una sintassi XML valida, in caso contrario il server immagini potrebbe non avviarsi.
 
-Riavviate Image Server dopo la modifica di questo file per assicurarvi che le modifiche abbiano effetto. Per la modifica sono supportati solo i valori di elemento/attributo evidenziati di seguito. Modificate tutti gli altri contenuti di questo file solo se il supporto tecnico di Scene7 lo consiglia.
+Riavviate Image Server dopo la modifica di questo file per assicurarvi che le modifiche abbiano effetto. Per la modifica sono supportati solo i valori di elemento/attributo evidenziati di seguito. Modificate tutti gli altri contenuti di questo file solo se il supporto tecnico Scene7 lo consiglia.
 
 ```
 <supervisor>
