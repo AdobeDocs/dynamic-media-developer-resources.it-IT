@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> direzione</span></span> </p> </td> 
-   <td colname="col2"> <p> La direzione di rotazione che è <span class="codeph"> 0</span> per la rotazione verso est e <span class="codeph"> 1</span> per la rotazione verso ovest. </p> </td> 
+   <td colname="col2"> <p> La direzione di rotazione è <span class="codeph"> 0</span> per la rotazione verso est e <span class="codeph"> 1</span> per la rotazione verso ovest. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Il numero di rotazioni complete effettuate prima dell'arresto dell'autosfera. Il numero è un numero a virgola mobile. Impostate su <span class="codeph"> -1</span> per un giro automatico infinito. </p> </td> 
+   <td colname="col2"> <p> Il numero di rotazioni complete effettuate prima dell'arresto dell'autosfera. Il numero è un numero a virgola mobile. Impostare su <span class="codeph"> -1</span> per un giro automatico infinito. </p> </td> 
   </tr> 
  </tbody> 
 </table>
