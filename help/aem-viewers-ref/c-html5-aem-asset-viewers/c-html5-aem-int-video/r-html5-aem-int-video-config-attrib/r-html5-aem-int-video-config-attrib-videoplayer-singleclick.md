@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5b387eb6-1e09-4506-beea-3f1cf337cb9d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura del singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Se si imposta su <span class="codeph"> none</span> , il tocco o il clic singolo viene disattivato per la riproduzione o la pausa. Se è impostato su <span class="codeph"> Pausa</span> , facendo clic sul video si passa dalla riproduzione alla pausa. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, un <span class="codeph"> comportamento con un solo clic</span> è disabilitato. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura del singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Se si imposta su <span class="codeph"> none</span>, il tocco o il clic singolo viene disattivato per la riproduzione o la pausa. Se è impostato su <span class="codeph"> playPause</span>, facendo clic sul video si passa dalla riproduzione alla pausa. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, un comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
