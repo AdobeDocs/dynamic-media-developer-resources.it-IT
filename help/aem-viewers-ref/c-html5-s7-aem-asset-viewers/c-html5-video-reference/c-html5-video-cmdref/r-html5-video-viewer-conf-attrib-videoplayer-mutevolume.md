@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8e32b005-cf7f-4078-896c-14497340fad7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se impostato su <span class="codeph"> 1, </span> il volume è disattivato; in caso contrario, il video viene riprodotto con il suono. Su alcuni dispositivi, l’audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume è disattivato; in caso contrario, il video viene riprodotto con il suono. Su alcuni dispositivi, l’audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
