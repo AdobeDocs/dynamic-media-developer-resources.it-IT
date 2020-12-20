@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ Descrive i valori utilizzati da vari parametri di input. Consultate l&#39;elenco
 
 Sintassi
 
-## Usato da {#section-2d471a1b240b4f5794454f0e5fcc5206}
+## Utilizzata da {#section-2d471a1b240b4f5794454f0e5fcc5206}
 
 * [!DNL `Input(searchAssetsParam)/assetTypeArray`]
 * [!DNL `Asset/type`]
