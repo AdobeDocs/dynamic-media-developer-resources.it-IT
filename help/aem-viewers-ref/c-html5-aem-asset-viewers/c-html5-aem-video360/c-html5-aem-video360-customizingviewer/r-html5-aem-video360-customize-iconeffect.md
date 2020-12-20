@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: a1e7d877-097c-4f43-8a6d-9627dc4924b1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# Effetto icona{#icon-effect}
 
 L&#39;icona di riproduzione è sovrapposta all&#39;area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video, e dipende anche dal parametro iconeffect.
 
@@ -29,11 +32,11 @@ L&#39;aspetto dell&#39;icona di riproduzione è controllato dal seguente seletto
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per l'icona di riproduzione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,9 +50,9 @@ L&#39;aspetto dell&#39;icona di riproduzione è controllato dal seguente seletto
  </tbody> 
 </table>
 
-L&#39;effetto Icon supporta il selettore `state` di attributi. `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
+L&#39;effetto Icon supporta il selettore di attributi `state`. `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e  `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
 
-**Esempio** - Imposta un&#39;icona di riproduzione di 100 x 100 pixel.
+**Esempio** : imposta un&#39;icona di riproduzione di 100 x 100 pixel.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 
