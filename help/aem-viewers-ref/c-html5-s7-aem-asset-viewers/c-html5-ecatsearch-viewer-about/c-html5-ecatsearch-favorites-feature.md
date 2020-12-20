@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
 
 # Funzione di ricerca{#search-feature}
 
-Il visualizzatore supporta la ricerca del testo sui contenuti del catalogo. Affinché la funzione di ricerca funzioni correttamente nel catalogo, quando il file PDF sorgente viene caricato in Scene7 Publishing System, deve essere attivata la funzione &quot;Estrai parole di ricerca&quot;.
+Il visualizzatore supporta la ricerca del testo sui contenuti del catalogo. Affinché la funzione di ricerca funzioni correttamente nel catalogo, la funzione &quot;Estrai parole di ricerca&quot; deve essere attivata quando il file PDF di origine viene caricato in Scene7 Publishing System.
 
 La funzione Ricerca viene attivata attivando un pulsante Ricerca nella barra degli strumenti principale. Questa azione apre un pannello dei risultati di ricerca con un campo di testo. Un utente può eseguire una ricerca utilizzando parole chiave separate da spazi o utilizzando frasi, queste vengono racchiuse tra virgolette.
 
