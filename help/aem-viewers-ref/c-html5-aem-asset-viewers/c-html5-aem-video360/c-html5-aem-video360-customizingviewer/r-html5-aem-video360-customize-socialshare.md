@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ La posizione e le dimensioni dello strumento di condivisione mediante social net
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Posizione orizzontale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ La posizione e le dimensioni dello strumento di condivisione mediante social net
  </tbody> 
 </table>
 
-**Esempio** - Per impostare uno strumento di condivisione mediante social network che si posiziona a quattro pixel dalla parte superiore e a cinque pixel dalla parte destra del contenitore del visualizzatore e abbia dimensioni di 28 x 28 pixel.
+**Esempio**  - Per impostare uno strumento di condivisione mediante social network che si posiziona a quattro pixel dalla parte superiore e a cinque pixel dalla parte destra del contenitore del visualizzatore e abbia dimensioni di 28 x 28 pixel.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -69,11 +72,11 @@ L&#39;aspetto del pulsante dello strumento di condivisione mediante social netwo
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,11 +84,11 @@ L&#39;aspetto del pulsante dello strumento di condivisione mediante social netwo
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)dell’interfaccia utente.
+La descrizione del pulsante può essere localizzata. Vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** - Per impostare un pulsante per lo strumento di condivisione mediante social network in cui viene visualizzata un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+**Esempio**  - Per impostare un pulsante dello strumento di condivisione mediante social network che mostra un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -113,7 +116,7 @@ L&#39;aspetto del pannello che contiene le singole icone di condivisione mediant
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del pannello. </p> </td> 
   </tr> 
  </tbody> 
