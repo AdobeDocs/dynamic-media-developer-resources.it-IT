@@ -8,18 +8,21 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
-# Comandi del livello testo{#text-layer-commands}
+# Comandi livello testo{#text-layer-commands}
 
 Questi comandi si applicano ai livelli di testo, oltre ai comandi più comuni del livello.
 
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767" type="reference" format="dita" scope="local"> textPs</a> </p></td> 
-  <td class="stentry"> <p>Fornisce il formato RTF al renderer di testo compatibile con PhotoShop. </p></td> 
+  <td class="stentry"> <p>Fornisce RTF al renderer di testo compatibile con Photoshop. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d" type="reference" format="dita" scope="local"> textAttr</a> </p></td> 
