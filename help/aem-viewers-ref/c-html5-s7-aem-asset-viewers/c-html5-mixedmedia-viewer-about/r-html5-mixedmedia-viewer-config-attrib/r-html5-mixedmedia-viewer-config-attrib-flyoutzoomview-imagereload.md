@@ -1,18 +1,21 @@
 ---
 description: Configura il modo in cui il componente recupera le nuove immagini per la visualizzazione principale e a comparsa durante il ridimensionamento.
 seo-description: Configura il modo in cui il componente recupera le nuove immagini per la visualizzazione principale e a comparsa durante il ridimensionamento.
-seo-title: FlyoutZoomView.imagerload
+seo-title: FlyoutZoomView.imagereload
 solution: Experience Manager
-title: FlyoutZoomView.imagerload
+title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 5cded4cb-7b02-47da-9e2d-b236548cc61d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 3%
 
 ---
 
 
-# FlyoutZoomView.imagerload{#flyoutzoomview-imagereload}
+# FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
 Configura il modo in cui il componente recupera le nuove immagini per la visualizzazione principale e a comparsa durante il ridimensionamento.
 
@@ -22,10 +25,10 @@ Configura il modo in cui il componente recupera le nuove immagini per la visuali
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p>Se è impostato su <span class="codeph"> 0 </span>, il componente non carica le nuove immagini durante il ridimensionamento e la risoluzione delle immagini nella visualizzazione a comparsa non cambia. </p> <p>Se è impostato su <span class="codeph"> 1, </span> è possibile specificare uno o più punti di interruzione di larghezza per l’immagine caricata nella vista principale. </p> </td> 
+   <td colname="col2"> <p>Se è impostato su <span class="codeph"> 0 </span>, il componente non carica nuove immagini durante il ridimensionamento e la risoluzione dell'immagine nella visualizzazione a comparsa non cambia. </p> <p>Se è impostata su <span class="codeph"> 1 </span>, è possibile specificare uno o più punti di interruzione di larghezza per l'immagine caricata nella vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> punto di interruzione, <span class="varname"> larghezza </span>[; <span class="varname"> larghezza </span>] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> punto di interruzione,  <span class="varname"> larghezza  </span>[;  <span class="varname"> width  </span>]  </span> </p> </td> 
    <td colname="col2"> <p>Punti di interruzione della larghezza per l’immagine caricata nella vista principale. Il componente utilizza sempre le dimensioni di adattamento migliori per il caricamento iniziale. Dopo il ridimensionamento, l’immagine nella vista principale viene sempre scaricata con la larghezza uguale al punto di interruzione più vicino e ridimensionata sul client. </p> </td> 
   </tr> 
  </tbody> 
