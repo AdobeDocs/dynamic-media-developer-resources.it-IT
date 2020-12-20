@@ -1,6 +1,6 @@
 ---
-description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Contenuti multimediali dinamici di Risorse AEM - su richiesta.
-seo-description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Contenuti multimediali dinamici di Risorse AEM - su richiesta.
+description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
+seo-description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
 seo-title: Punti attivi e mappe immagine
 solution: Experience Manager
 title: Punti attivi e mappe immagine
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
 
 # Punti attivi e mappe immagine{#hotspots-and-image-maps}
 
-Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Contenuti multimediali dinamici di Risorse AEM - su richiesta.
+Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +38,12 @@ L&#39;aspetto dell&#39;icona del punto di attivazione è controllato dal seguent
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Grafica dell'icona del punto di attivazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Posizionarsi all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spessi CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p>Posizionarsi all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -83,16 +86,16 @@ L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente sel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>o <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>o <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Stile del bordo della mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore in tinta unita </span>", dove <span class="codeph"> la larghezza </span> è espressa in pixel, e <span class="codeph"> il colore </span> è impostato come <span class="codeph"> #RRGGBB </span><span class="codeph"> </span><span class="codeph"> </span>,  RGB(R,G,B),, o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col2"> <p> Stile del bordo della mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore in tinta unita </span>", dove <span class="codeph"> larghezza </span> è espressa in pixel, e <span class="codeph"> colore </span> è impostato come <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1/&gt; oppure <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
