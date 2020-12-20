@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +23,9 @@ Scansione JPEG progressiva. Il formato JPEG progressivo visualizza un’immagine
 
 La velocità effettiva di ogni scansione dipende dalla velocità di trasmissione del sistema dell&#39;utente e del computer che riceve e decomprime i dati.
 
-`Auto` utilizza le impostazioni di scansione calcolate dalla libreria JPEG indipendente e che dipendono dal modello di colore. I valori di `3`, `4`, `5` corrispondono all’impostazione di scansione rilevata in Adobe Photoshop quando salvate un file JPEG come pjpeg (JPEG progressivo).
+`Auto` utilizza le impostazioni di scansione calcolate dalla libreria JPEG indipendente e che dipendono dal modello di colore. I valori di `3`, `4`, `5` corrispondono all&#39;impostazione di scansione rilevata in  Adobe Photoshop quando si salva un file JPEG come pjpeg (JPEG progressivo).
 
-Se non `pscan` è impostato, per impostazione predefinita viene `auto`.
+Se `pscan` non è impostato, il valore predefinito è `auto`.
 
 ## Proprietà {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
