@@ -23,7 +23,7 @@ Impostazioni che consentono di migliorare la nitidezza delle immagini per i file
 
 ## Parametri {#section-c3f0d03136ba4422819cb463bd393885}
 
-Specificare un valore per `unsharpMaskOptions` le opzioni con `minOccurs=" *`n`*".`
+Specificare un valore per le opzioni `unsharpMaskOptions` con `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -65,7 +65,7 @@ Specificare un valore per `unsharpMaskOptions` le opzioni con `minOccurs=" *`n`*
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromatico</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>I valori includono solo <span class="codeph"> 0</span> o <span class="codeph"> 1</span> . </p><p>Impostare su <span class="codeph"> 0</span> per ciascun componente di colore separatamente o su <span class="codeph"> 1</span> per applicarlo solo alla luminosità (intensità) dell’immagine. Anche la maschera di livello o la maschera composita vengono rese più nitide. </p><p><span class="codeph"><span class="varname"> monocromatico</span></span> viene ignorato per le immagini in scala di grigio. </p></td>
+   <td colname="col3"><p>I valori includono solo <span class="codeph"> 0</span> o <span class="codeph"> 1</span>. </p><p>Impostare su <span class="codeph"> 0</span> da applicare separatamente a ciascun componente di colore oppure su <span class="codeph"> 1</span> da applicare solo alla luminosità dell'immagine (intensità). Anche la maschera di livello o la maschera composita vengono rese più nitide. </p><p><span class="codeph"><span class="varname"> Le immagini </span></span> monocromei vengono ignorate per le immagini in scala di grigio. </p></td>
   </tr>
  </tbody>
 </table>
@@ -84,9 +84,9 @@ Specificare un valore per `unsharpMaskOptions` le opzioni con `minOccurs=" *`n`*
     </complexType>
 ```
 
-## Usato da {#section-db8124a5468b498694a780f8a56a4560}
+## Utilizzata da {#section-db8124a5468b498694a780f8a56a4560}
 
-Il `unsharpMaskOptions` tipo viene utilizzato da:
+Il tipo `unsharpMaskOptions` è utilizzato da:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
