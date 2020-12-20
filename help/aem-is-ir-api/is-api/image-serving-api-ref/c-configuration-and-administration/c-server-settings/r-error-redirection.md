@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
 
-# Reindirizzamento errore{#error-redirection}
+# Errore di reindirizzamento{#error-redirection}
 
 Utilizzate queste impostazioni del server per reindirizzare gli errori.
 
@@ -22,7 +25,7 @@ Utilizzate queste impostazioni del server per reindirizzare gli errori.
 
 ## PS::errorRedirect.rootUrl - Server di reindirizzamento {#section-85f22e48d68842a490b0e1191543b558}
 
-L&#39;URL principale ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) per la distribuzione secondaria Image Server a cui reindirizzare le richieste che non vanno a buon fine localmente. Il reindirizzamento degli errori è disattivato (impostazione predefinita) quando questa impostazione è vuota o non definita.
+L&#39;URL principale ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) per la distribuzione secondaria Image Serving a cui reindirizzare le richieste che non vanno a buon fine localmente. Il reindirizzamento degli errori è disattivato (impostazione predefinita) quando questa impostazione è vuota o non definita.
 
 ## PS::errorRedirect.connectTimeout - Timeout connessione di reindirizzamento {#section-3971be8f720d4b32a2cc7860b4085971}
 
