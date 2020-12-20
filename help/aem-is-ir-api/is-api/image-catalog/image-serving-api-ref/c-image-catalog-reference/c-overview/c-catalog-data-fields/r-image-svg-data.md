@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 translation-type: tm+mt
 source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# Dati Image_SVG{#image-svg-data}
+# Image_SVG data{#image-svg-data}
 
 I seguenti campi sono riconosciuti nei file di dati immagine e SVG.
 
-## Catalog management {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
+## Gestione catalogo {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 
 <table id="table_823F89CAD494441690D28F18005F774C"> 
  <tbody> 
@@ -27,7 +30,7 @@ I seguenti campi sono riconosciuti nei file di dati immagine e SVG.
  </tbody> 
 </table>
 
-## Request attributes {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
+## Attributi richiesta {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
 
 <table id="table_C070C676835F49918E1B3BBF81471B09"> 
  <tbody> 
@@ -40,11 +43,11 @@ I seguenti campi sono riconosciuti nei file di dati immagine e SVG.
    <td colname="col2"> <p>Scadenza cache (time-to-live) per le immagini di risposta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificatore</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificatore</a> </span> </p> </td> 
    <td colname="col2"> <p>Modificatori di richieste di prefisso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
    <td colname="col2"> <p>Modificatori di richieste Postfix. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +74,7 @@ I seguenti campi sono riconosciuti nei file di dati immagine e SVG.
    <td colname="col2"> <p>Percorso file immagine/SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> Risoluzione di stampa</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
    <td colname="col2"> <p>Risoluzione di stampa. </p> </td> 
   </tr> 
   <tr> 
@@ -109,7 +112,7 @@ I seguenti campi sono riconosciuti nei file di dati immagine e SVG.
    <td colname="col2"> <p>Tipo di risorsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> ImageSet <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"></a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> ImageSet</a></span> </p> </td> 
    <td colname="col2"> <p>Dati del set di immagini. </p> </td> 
   </tr> 
   <tr> 
