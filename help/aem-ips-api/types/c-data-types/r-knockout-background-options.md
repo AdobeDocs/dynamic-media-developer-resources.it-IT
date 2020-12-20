@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
@@ -30,9 +33,9 @@ Mascherare (forare) lo sfondo per le immagini selezionate. Questo consente di so
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> angolo</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Seleziona l’angolo da utilizzare. <span class="codeph"> corner</span> accetta i seguenti valori: 
+   <td colname="col3">Seleziona l’angolo da utilizzare. <span class="codeph"> I valori </span> di corneraccetta: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -41,7 +44,7 @@ Mascherare (forare) lo sfondo per le immagini selezionate. Questo consente di so
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolleranza</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolleranza</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Impostazione opzionale che rimuove lo spazio bianco dai bordi dell’immagine in base alla trasparenza. Accetta un intervallo di valori compreso tra 0,0 e 1,0. Specificate: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ Mascherare (forare) lo sfondo per le immagini selezionate. Questo consente di so
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controllare la trasparenza dei pixel nella posizione specificata dalla variabile <span class="codeph"><span class="varname"> corner</span></span> . Il <span class="codeph"> fillMethod</span> accetta i seguenti valori: </p> 
+   <td colname="col3"> <p>Controllare la trasparenza dei pixel nella posizione specificata dalla variabile <span class="codeph"><span class="varname"> corner</span></span>. <span class="codeph"> fillMethod</span> accetta i seguenti valori: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Trasforma tutti i pixel nell’angolo specificato in trasparente. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Trasforma tutti i pixel corrispondenti in trasparente, indipendentemente dalla posizione. </li> 
@@ -76,9 +79,9 @@ Mascherare (forare) lo sfondo per le immagini selezionate. Questo consente di so
     </complexType>
 ```
 
-## Usato da {#section-28c43baafe85434a9ee9e303ed10569a}
+## Utilizzata da {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Il `KnockoutBackgroundOptions` tipo viene utilizzato da:
+Il tipo `KnockoutBackgroundOptions` è utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
