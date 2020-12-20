@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Percorsi dei file di dati immagine. Specifica i file che contengono i dati immagine per questo catalogo.
 
-I file di dati immagine vengono caricati nell&#39;ordine specificato. Se lo stesso `catalog::Id` valore si verifica in più record (nello stesso file catalogo o in altri file), prevale l’ultima istanza.
+I file di dati immagine vengono caricati nell&#39;ordine specificato. Se lo stesso valore `catalog::Id` si verifica in più record (nello stesso o in file di catalogo diversi), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-6da55f145ecd4e31a5de52637a436983}
 
