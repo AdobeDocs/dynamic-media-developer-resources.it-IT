@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Utilizzate queste impostazioni del server per configurare il sistema di monitoraggio e di avvisi.
 
-## AS::monitorAlertGenerator.enableGlobalAlerting - Attivazione del sistema di avvisi {#section-612f8ea61794426ab205e22e5f665fa9}
+## AS::monitorAlertGenerator.enableGlobalAlerting - Abilita sistema di avvisi {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Attivate la notifica e-mail impostando &#39;true&#39; e configurando le impostazioni di notifica e-mail. L&#39;impostazione per `false` disattivare tutti gli avvisi e-mail può essere utile quando un server viene disattivato per la manutenzione. Booleano.
+Attivate la notifica e-mail impostando &#39;true&#39; e configurando le impostazioni di notifica e-mail. Se si imposta `false`, tutti gli avvisi e-mail vengono disattivati. Questo può essere utile quando un server viene disattivato per la manutenzione. Booleano.
 
 ## AS::mailSender.host - Host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -28,13 +31,13 @@ L&#39;indirizzo IP del server di posta elettronica SMTP.
 
 La porta di ascolto per il server di posta elettronica SMTP.
 
-## AS::monitorAlertGenerator.messageTo - Message Recipient {#section-0017bbaa15434117a70900c3f1163960}
+## AS::monitorAlertGenerator.messageTo - Messaggio destinatario {#section-0017bbaa15434117a70900c3f1163960}
 
 Uno o più indirizzi e-mail cui inviare gli avvisi. Utilizzare il punto e virgola come separatori.
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-L&#39;indirizzo e-mail da utilizzare nel campo **[!UICONTROL Da]** .
+L&#39;indirizzo e-mail da utilizzare nel campo **[!UICONTROL From]** e-mail.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervallo di monitoraggio {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
