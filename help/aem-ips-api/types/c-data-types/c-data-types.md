@@ -146,7 +146,7 @@ ht-degree: 4%
 + [PdfInfo](r-pdf-info.md)
 + [PDFOptions](r-pdf-options.md)
 + [PdfSettingsInfo](r-pdf-settings-info.md)
-+ [Metadati](r-permissions.md)
++ [Autorizzazione](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
 + [PermissonSet](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
