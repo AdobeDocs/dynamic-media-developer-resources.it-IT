@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 14%
 
 ---
 
@@ -35,7 +38,7 @@ Sintassi
 | ` *`firstName`*` | `xsd:string` | Sì | Nome. |
 | ` *`lastName`*` | `xsd:string` | Sì | Cognome. |
 | ` *`e-mail`*` | `xsd:string` | Sì | E-mail utente. |
-| ` *`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il `IpsAdmin` ruolo ha la priorità sulle altre impostazioni per società. |
+| ` *`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` ha la priorità su altre impostazioni per società. |
 | ` *`passwordExpires`*` | `xsd:dateTime` | No | Data di scadenza della password del set. |
 | ` *`isInvalid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
 | ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle della società. |
