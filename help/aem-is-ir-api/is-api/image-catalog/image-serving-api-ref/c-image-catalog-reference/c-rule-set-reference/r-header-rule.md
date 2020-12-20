@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
 
 
 # header{#header}
 
-Elemento intestazione di risposta HTTP. Facoltativo negli `<rule>` elementi.
+Elemento intestazione di risposta HTTP. Facoltativo negli elementi `<rule>`.
 
 ## Attributi {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**: Obbligatorio. Specifica il nome dell’intestazione HTTP.
+**`Name`= &quot;*text*&quot;** : Obbligatorio. Specifica il nome dell’intestazione HTTP.
 
-**`Action`= &quot;set&quot;|`"add"`**: Facoltativo. Il valore predefinito è`"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specificate`"add"`per aggiungere il valore dell’intestazione, separato da una virgola.
+**`Action`= &quot;set&quot; |`"add"`**: Facoltativo. Il valore predefinito è `"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specificare `"add"` per aggiungere il valore dell&#39;intestazione, separato da una virgola.
 
 ## Dati {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +46,6 @@ La regola seguente applica un&#39;intestazione personalizzata quando il valore d
 </rule>
 ```
 
-Questa regola viene attivata dalla seguente richiesta, impostando l’intestazione della risposta HTTP `Edge-Control::no-store`:
+Questa regola viene attivata dalla richiesta seguente, impostando l&#39;intestazione della risposta HTTP `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
