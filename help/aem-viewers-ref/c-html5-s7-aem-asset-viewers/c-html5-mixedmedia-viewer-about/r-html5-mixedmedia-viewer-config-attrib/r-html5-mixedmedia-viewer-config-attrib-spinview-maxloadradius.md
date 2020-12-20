@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -22,11 +25,11 @@ Rappresenta il numero massimo di fotogrammi da precaricare in ogni direzione qua
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Un valore pari a <span class="codeph"> -1</span> precarica tutti i fotogrammi del set. I fotogrammi precaricati vengono sempre visualizzati alla risoluzione originale con cui era stata inizialmente caricata la Visualizzazione 360 gradi. </p> </td> 
+   <td colname="col2"> <p> Un valore di <span class="codeph"> -1</span> precarica tutti i fotogrammi del set. I fotogrammi precaricati vengono sempre visualizzati alla risoluzione originale con cui era stata inizialmente caricata la Visualizzazione 360 gradi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Controlla la qualità dei fotogrammi precaricati. </p> <p>Quando è impostato su <span class="codeph"> 1</span> , i fotogrammi vengono caricati in alta qualità, con le stesse dimensioni del componente. </p> <p>Se è impostato su <span class="codeph"> 0</span> , viene caricata solo la sezione di anteprima a bassa risoluzione. </p> <p>Il precaricamento ad alta risoluzione migliora l'esperienza dell'utente finale, soprattutto quando è abilitata la rotazione automatica. Allo stesso tempo, si traduce in tempi di avvio più lenti e in un maggiore consumo di rete, per cui dovrebbe essere utilizzato con cura. Quando si utilizza il precaricamento ad alta risoluzione, i fotogrammi precaricati sono sempre nella risoluzione originale alla quale il componente è stato inizialmente caricato. </p> </td> 
+   <td colname="col2"> <p> Controlla la qualità dei fotogrammi precaricati. </p> <p>Se impostato su <span class="codeph"> 1</span>, il carico dei fotogrammi è di alta qualità, in base alle dimensioni del componente. </p> <p>Se è impostato su <span class="codeph"> 0</span> viene caricata solo la sezione di anteprima a bassa risoluzione. </p> <p>Il precaricamento ad alta risoluzione migliora l'esperienza dell'utente finale, soprattutto quando è abilitata la rotazione automatica. Allo stesso tempo, si traduce in tempi di avvio più lenti e in un maggiore consumo di rete, per cui dovrebbe essere utilizzato con cura. Quando si utilizza il precaricamento ad alta risoluzione, i fotogrammi precaricati sono sempre nella risoluzione originale alla quale il componente è stato inizialmente caricato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
