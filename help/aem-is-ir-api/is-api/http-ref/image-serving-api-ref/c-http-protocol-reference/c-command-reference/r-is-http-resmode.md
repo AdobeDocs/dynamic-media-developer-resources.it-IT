@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,20 +24,20 @@ Modalità di ricampionamento. Scegliete l’algoritmo di ricampionamento e/o int
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
    <td colname="col2"> <p>Seleziona l’interpolazione bi-lineare standard. È il metodo di ricampionamento più veloce; possono essere visibili alcuni artefatti di alias. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>Seleziona l’interpolazione bicubica. Richiede maggiore utilizzo della CPU rispetto all’interpolazione bilineare, ma produce immagini più nitide con meno artefatti di alias. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>come algoritmo di interpolazione viene utilizzata una funzione Lanczos Window modificata. I risultati possono essere leggermente più nitidu dell’opzione bicubica, ma richiede un utilizzo maggiore della CPU. <span class="codeph"> sharp </span> è stato sostituito da <span class="codeph"> sharp2 </span>, che ha una minore probabilità di artefatti di aliasing (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
+   <td colname="col2"> <p>come algoritmo di interpolazione viene utilizzata una funzione Lanczos Window modificata. I risultati possono essere leggermente più nitidu dell’opzione bicubica, ma richiede un utilizzo maggiore della CPU. <span class="codeph"> sharp  </span> è stato sostituito da  <span class="codeph"> sharp2  </span>, che ha una minore probabilità di causare artefatti di aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona il ricampionamento predefinito di Photoshop per ridurre le dimensioni dell’immagine, detto "bicubico più nitido" in Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col2"> <p>Seleziona il ricampionamento predefinito di Photoshop per ridurre le dimensioni dell’immagine, detto "bicubico più nitido" in  Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
