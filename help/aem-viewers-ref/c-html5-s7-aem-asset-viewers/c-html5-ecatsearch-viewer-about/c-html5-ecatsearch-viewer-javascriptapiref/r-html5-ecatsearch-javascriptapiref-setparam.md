@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a732461f-1b34-4ebe-9dfd-69175762e574
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +21,21 @@ Riferimento API JavaScript per il visualizzatore di eCatalog.
 
 [!DNL ` setParam( *`name, value`*)`]
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima [!DNL `init()`].
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di [!DNL `init()`].
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto [!DNL `config`] JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto JSON [!DNL `config`] al costruttore.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> nome del parametro. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> name del parametro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
