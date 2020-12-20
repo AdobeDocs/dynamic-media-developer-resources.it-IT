@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Questo esempio di codice utilizza l&#39;handle del tipo come campo `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
+Questo esempio di codice utilizza l&#39;handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
 
 **Request Contents (Richiesta contenuto)**
 
