@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -27,11 +30,11 @@ Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (i
 
 ## Predefinito {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-Se non `wid=`, `hei=`né `scale=` vengono specificati, l&#39;immagine di risposta corrisponde alla dimensione di visualizzazione predefinita specificata nel file FXG.
+Se non vengono specificati né `wid=`, `hei=`, né `scale=`, l&#39;immagine di risposta corrisponde alla dimensione di visualizzazione predefinita specificata nel file FXG.
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Dimensione visualizzazione predefinita (o DefaultPix). Fate clic su **[!UICONTROL Impostazione]** applicazione > Impostazione **** pubblicazione > Server **** immagini, quindi immettete i valori di larghezza e altezza. Le dimensioni più ridotte garantiscono prestazioni migliori. Per applicare una modifica, dovete salvare le impostazioni ed eseguire una pubblicazione Image Server.
+Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Dimensione visualizzazione predefinita (o DefaultPix). Fate clic su **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettete i valori di larghezza e altezza. Le dimensioni più ridotte garantiscono prestazioni migliori. Per applicare una modifica, dovete salvare le impostazioni ed eseguire una pubblicazione Image Server.
 
-Se applicate un `scale=1` comando, viene eseguito il rendering di una richiesta di formato raster nelle dimensioni specificate nel file FXG.
+Se applicate un comando `scale=1`, viene eseguito il rendering di una richiesta di formato raster nelle dimensioni specificate nel file FXG.
 
 ## Esempio {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
