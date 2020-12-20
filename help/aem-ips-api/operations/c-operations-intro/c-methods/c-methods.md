@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Parametri di funzionamento{#operation-parameters}
+# Parametri operazione{#operation-parameters}
 
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
