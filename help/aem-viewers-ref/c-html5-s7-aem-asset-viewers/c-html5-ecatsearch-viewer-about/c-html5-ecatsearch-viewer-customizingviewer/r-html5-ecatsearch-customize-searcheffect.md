@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
-# Effetto Ricerca{#search-effect}
+# Effetto di ricerca{#search-effect}
 
 Il visualizzatore visualizza le aree dei risultati della ricerca sopra la visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
 
@@ -33,7 +36,7 @@ L&#39;aspetto delle aree dei risultati della ricerca è controllato dal seguente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
    <td colname="col2"> <p>Sfondo dell'area dei risultati della ricerca. </p> </td> 
   </tr> 
  </tbody> 
