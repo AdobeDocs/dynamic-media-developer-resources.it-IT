@@ -83,7 +83,7 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Le impostazioni internazionali per i dettagli del registro dei processi e la localizzazione delle e-mail. <p>Specificate le impostazioni internazionali come <span class="codeph"> &lt;codice_lingua&gt;[-&lt;codice_paese&gt;]</span>, dove il codice della lingua è un codice di due lettere minuscoli, come specificato dallo standard ISO-639, e il codice del paese facoltativo è un codice di due lettere maiuscole, come specificato dallo standard ISO-3166. Ad esempio, la stringa per l'inglese (Stati Uniti) è: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Le impostazioni internazionali per i dettagli del registro dei processi e la localizzazione delle e-mail. <p>Specificare le impostazioni internazionali come <span class="codeph"> &lt;codice_lingua&gt;[-&lt;codice_paese&gt;]</span>, dove il codice della lingua è un codice di due lettere minuscoli, come specificato dallo standard ISO-639, e il codice del paese facoltativo è un codice di due lettere maiuscole, come specificato dallo standard ISO-3166. Ad esempio, la stringa per l'inglese (Stati Uniti) è: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -173,7 +173,7 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ExportJob</span> </td> 
-   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Consultate Processo <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"></a>di esportazione. </td> 
+   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Vedere <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Processo di esportazione</a>. </td> 
   </tr> 
  </tbody> 
 </table>
