@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 44207916-80a6-42cb-8bf1-fcf0f5194c6d
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -21,23 +24,23 @@ Mappa di traduzione stringa. Fa riferimento a un locId che può essere mappato a
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> item </span> </p> </td> 
-  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locale  </span>,  <span class="varname"> locId  </span>*[','  <span class="varname"> locId  </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 
   <td class="stentry"> <p>Imp. int. (senza distinzione tra maiuscole e minuscole). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> locId </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locId  </span> </p> </td> 
   <td class="stentry"> <p>ID lingua interno. </p> </td> 
  </tr> 
 </table>
 
-`LocaleStrMap` si riferisce a un `locId` oggetto che può essere mappato a qualsiasi numero di `internalLocId`.
+`LocaleStrMap` si riferisce a un numero  `locId` che può essere mappato a qualsiasi numero di  `internalLocId`.
 
-Un *`locale`* valore vuoto corrisponde a stringhe vuote e sconosciute `locale=` . Questo consente di definire una regola predefinita per le lingue sconosciute.
+Un valore vuoto *`locale`* corrisponde a stringhe vuote e sconosciute `locale=`. Questo consente di definire una regola predefinita per le lingue sconosciute.
 
-I *`locId`* valori vuoti sono consentiti e selezionarli *`defaultString`* (l&#39;identificatore *`defaultString`* non ha un identificatore di lingua). *`locId`* la ricerca dei valori viene eseguita nell&#39;ordine specificato. Viene restituita la prima corrispondenza.
+I valori *`locId`* vuoti sono consentiti e selezionare il *`defaultString`* (il *`defaultString`* non dispone di un identificatore di lingua). *`locId`* la ricerca dei valori viene eseguita nell&#39;ordine specificato. Viene restituita la prima corrispondenza.
 
 La conversione delle stringhe, se attivata, viene applicata alle stringhe di testo nei seguenti campi del catalogo immagini:
 
@@ -48,19 +51,19 @@ La conversione delle stringhe, se attivata, viene applicata alle stringhe di tes
    <td> <b>Elemento stringa nel campo</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::ImageSet </span> </p> </td> 
-   <td> <p>Qualsiasi sottoelemento contenente una stringa traducibile (delimitata da qualsiasi combinazione di separatori ',' ';' ':' e/o l'inizio/fine del campo). </p> <p>Un valore di colore <span class="codeph"> 0xrggbb </span> all’inizio di un campo localizzabile è escluso dalla localizzazione e trasmesso senza modifiche. </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::ImageSet  </span> </p> </td> 
+   <td> <p>Qualsiasi sottoelemento contenente una stringa traducibile (delimitata da qualsiasi combinazione di separatori ',' ';' ':' e/o l'inizio/fine del campo). </p> <p>Un valore di colore <span class="codeph"> 0xrggbb </span> all'inizio di un campo localizzabile è escluso dalla localizzazione e passato senza modifiche. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo:Mappa </span> </p> </td> 
-   <td> <p>Qualsiasi valore di attributo tra virgolette singole o doppie, ad eccezione dei valori degli attributi <span class="codeph"> coords= </span> e <span class="codeph"> shape= </span> . </p> </td> 
+   <td> <p> <span class="codeph"> catalogo:Mappa  </span> </p> </td> 
+   <td> <p>Qualsiasi valore di attributo tra virgolette singole o doppie, ad eccezione dei valori degli attributi <span class="codeph"> coords= </span> e <span class="codeph"> shape= </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::Target </span> </p> </td> 
-   <td> <p>Il valore di qualsiasi <span class="filepath"> destinazione.*.label </span> e <span class="filepath"> target.*.userdata, </span> proprietà. </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Target  </span> </p> </td> 
+   <td> <p>Il valore di qualsiasi destinazione <span class="filepath">.*.label </span> e <span class="filepath"> target.*.userdata </span> proprietà. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::UserData </span> </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::UserData  </span> </p> </td> 
    <td> <p>Il valore di qualsiasi proprietà. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,8 +71,8 @@ La conversione delle stringhe, se attivata, viene applicata alle stringhe di tes
 
 ## Proprietà {#section-8505a8525f6948ada3979f68c4081044}
 
-Uno o più elementi, separati da|, in cui ogni elemento è costituito da due o più valori stringa separati da virgole.
+Uno o più elementi, separati da |, in cui ogni elemento è costituito da due o più valori stringa separati da virgole.
 
 ## Consultate anche {#section-0c0516e4f83d42d38247308cab9b6708}
 
-Supporto per la localizzazione, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attributo::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalogo::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [catalogo::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)[,Catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+Supporto per la localizzazione, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attributo::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalogo::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [catalogo::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalogo::UserData&lt;aData&lt;a 11/>](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
