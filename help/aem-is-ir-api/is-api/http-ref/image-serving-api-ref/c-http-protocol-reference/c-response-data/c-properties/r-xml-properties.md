@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +41,9 @@ Un documento di risposta con proprietà tipiche ha questa struttura generale:
 </prop-group>
 ```
 
-L&#39; `<prop-group>` elemento viene utilizzato come contenitore più esterno e per raggruppare le proprietà. Se un gruppo è denominato, il nome corrisponde al nome dell&#39;oggetto Java/JavaScript.
+L&#39;elemento `<prop-group>` viene utilizzato come contenitore più esterno e per raggruppare le proprietà. Se un gruppo è denominato, il nome corrisponde al nome dell&#39;oggetto Java/JavaScript.
 
 >[!NOTE]
 >
->È possibile specificare la codifica dei caratteri per alcuni `req=` tipi. Per ulteriori informazioni, fare riferimento alla descrizione del `req=`comando specifico.
+>È possibile specificare la codifica dei caratteri per alcuni tipi `req=`. Fare riferimento alla descrizione del comando specifico `req=`per ulteriori dettagli.
 
