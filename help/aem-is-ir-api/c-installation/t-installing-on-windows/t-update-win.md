@@ -23,24 +23,24 @@ Se state effettuando l’aggiornamento da una versione precedente di Image Serve
 
 >[!NOTE]
 >
->La [!DNL webapps] cartella potrebbe essere eliminata al momento dell&#39;aggiornamento. Esegui il backup della [!DNL webapps] cartella prima dell&#39;aggiornamento.
+>La cartella [!DNL webapps] potrebbe essere eliminata al momento dell&#39;aggiornamento. Esegui il backup della cartella [!DNL webapps] prima dell&#39;aggiornamento.
 
 1. Accedete all&#39;host del server con privilegi amministrativi.
 1. Estrarre il contenuto del file zip di distribuzione Image Server.
 1. Per avviare la procedura guidata di installazione, eseguite setup/setup.exe.
-1. Fare clic su **[!UICONTROL Avanti]** per avanzare al contratto di licenza per l&#39;utente finale (EULA), leggere il contratto di licenza e fare clic su **[!UICONTROL Sì]**.
+1. Fare clic su **[!UICONTROL Next]** per avanzare al contratto di licenza per l&#39;utente finale (EULA), leggere il contratto di licenza e fare clic su **[!UICONTROL Yes]**.
 
    Nella pagina successiva vengono visualizzate le impostazioni di configurazione precedenti.
-1. Fate clic su **[!UICONTROL Avanti]** per avviare l&#39;installazione dell&#39;aggiornamento.
+1. Fare clic su **[!UICONTROL Next]** per avviare l&#39;installazione dell&#39;aggiornamento.
 
    >[!NOTE]
    >
-   >Il programma di installazione esegue il backup dei vecchi file di configurazione del server nella [!DNL BACKUP/] cartella.
+   >Il programma di installazione esegue il backup dei vecchi file di configurazione del server nella cartella [!DNL BACKUP/].
 
 1. Al termine dell&#39;installazione, fare clic su &quot;Fine&quot; per uscire dalla procedura guidata di installazione.
 
    In alcuni casi, la procedura guidata di installazione potrebbe richiedere il riavvio del sistema.
 
-Durante un aggiornamento, il [!DNL ImageServing/conf/server.xml] file viene aggiornato alle impostazioni più recenti. Se avete modificato o aggiunto dei valori, salvate quelli esistenti [!DNL server.xml] e reimplementate le modifiche dopo l&#39;aggiornamento.
+Durante un aggiornamento, il file [!DNL ImageServing/conf/server.xml] viene aggiornato alle impostazioni più recenti. Se hai modificato o aggiunto dei valori, devi salvare la [!DNL server.xml] esistente e riimplementare le modifiche dopo l&#39;aggiornamento.
 
-Dopo un&#39;installazione di aggiornamento, prendete in considerazione il riscaldamento della cache delle risposte HTTP prima di rendere attivo il server. Per informazioni dettagliate, fare riferimento alla descrizione dell&#39; `playlog` utilità.
+Dopo un&#39;installazione di aggiornamento, prendete in considerazione il riscaldamento della cache delle risposte HTTP prima di rendere attivo il server. Per ulteriori informazioni, fare riferimento alla descrizione dell&#39;utility `playlog`.
