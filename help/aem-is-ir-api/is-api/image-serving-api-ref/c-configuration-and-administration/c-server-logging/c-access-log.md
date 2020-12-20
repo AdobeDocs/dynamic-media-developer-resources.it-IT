@@ -1,6 +1,6 @@
 ---
-description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
-seo-description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
+description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server piattaforma. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
+seo-description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server piattaforma. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
 seo-title: Registro di accesso
 solution: Experience Manager
 title: Registro di accesso
@@ -15,14 +15,14 @@ ht-degree: 0%
 ---
 
 
-# Registro di accesso{#access-log}
+# Log di accesso{#access-log}
 
-Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
+Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server piattaforma. Il rendering delle immagini, se attivato, scrive i dati del registro di accesso nello stesso file.
 
 Il registro di accesso è configurato in server.xml.
 
 >[!NOTE]
 >
->Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il registro di accesso può includere anche un determinato traffico interno: accesso al sistema di catalogo di Platform Server ( [!DNL /is-catalog/*]), condivisione della cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti sul server Platform, come i visualizzatori Scene7 ( [!DNL /is-viewers/*]), richieste di traffico statico e contenuti statici servite da Platform Server (ad esempio [!DNL /is-docs/*]).
+>Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il registro di accesso potrebbe includere un determinato traffico interno: accesso al sistema di cataloghi Platform Server ( [!DNL /is-catalog/*]), condivisione della cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti nel server piattaforme, come i visualizzatori Scene7 ( [!DNL /is-viewers/*]), le richieste di traffico statico e di contenuto statico servite dal server piattaforme (ad esempio [!DNL /is-docs/*]).
 
-Le richieste con [!DNL /is-catalog] e i percorsi [!DNL /is/cache] principali devono essere sempre escluse dall&#39;analisi del traffico client.
+Le richieste con percorsi [!DNL /is-catalog] e [!DNL /is/cache] principali devono essere sempre escluse dall&#39;analisi del traffico client.
