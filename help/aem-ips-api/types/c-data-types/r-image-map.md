@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Eseguire il targeting per un&#39;azione di clic nel browser.
 
-Sempre associata a un’immagine. Puoi ottenere un `ImageMap` bersaglio da `ImageInfo`.
+Sempre associata a un’immagine. È possibile ottenere una destinazione `ImageMap` da `ImageInfo`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -24,10 +27,10 @@ Sempre associata a un’immagine. Puoi ottenere un `ImageMap` bersaglio da `Imag
 |---|---|---|
 | ` *`imageMapHandle`*` | `xsd:string` | Maniglia della mappa immagine. |
 | ` *`name`*` | `xsd:string` | Nome mappa immagine. |
-| ` *`regione`*` | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo `<area>` tag HTML. |
-| ` *`action`*` | `xsd:string` | Altri attributi da includere nel `<area>` tag HTML, incluso l’ `href` URL. |
-| ` *`shapeType`*` | `xsd:boolean` | Un [!DNL RegionShape] valore. |
-| ` *`position`*` | `xsd:string` | Posizione nel formato dell&#39;attributo dell&#39; `<area>` elemento HTML [!DNL coords] . Ad esempio: `coords ="0,0,84,128"`. |
+| ` *`regione`*` | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo di tag HTML `<area>`. |
+| ` *`action`*` | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l&#39;URL `href`. |
+| ` *`shapeType`*` | `xsd:boolean` | Un valore [!DNL RegionShape]. |
+| ` *`position`*` | `xsd:string` | Posizione nel formato dell&#39;attributo `<area>` dell&#39;elemento HTML [!DNL coords]. Ad esempio: `coords ="0,0,84,128"`. |
 | ` *`enabled`*` | `xsd:boolean` | True se la mappa immagine è abilitata. |
 | ` *`lastModified`*` | `xsd:dateTime` | Data e ora dell’ultima modifica della mappa immagine. |
 
