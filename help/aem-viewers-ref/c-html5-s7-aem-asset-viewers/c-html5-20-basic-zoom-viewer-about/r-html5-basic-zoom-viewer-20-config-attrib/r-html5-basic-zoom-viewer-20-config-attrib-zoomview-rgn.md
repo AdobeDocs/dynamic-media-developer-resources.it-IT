@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ZoomView.rign
+seo-title: ZoomView.rgn
 solution: Experience Manager
-title: ZoomView.rign
+title: ZoomView.rgn
 topic: Dynamic media
 uuid: 8ad882f9-5a7d-4a5c-a36b-98ad1f61e0b4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
-# ZoomView.rign{#zoomview-rgn}
+# ZoomView.rgn{#zoomview-rgn}
 
 ` [ZoomView.|<containerId>_zoomView.]rgn= *``*, *``*, *``*, *`xywh`*`
 
