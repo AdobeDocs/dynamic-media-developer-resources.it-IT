@@ -21,7 +21,7 @@ Consente di creare una cartella.
 
 >[!NOTE]
 >
->La nuova cartella è subordinata alla cartella Images, anche se specificate un elemento `/` che indichi la radice della società.
+>La nuova cartella è subordinata alla cartella Images, anche se si specifica `/` per indicare la radice della società.
 
 Sintassi
 
