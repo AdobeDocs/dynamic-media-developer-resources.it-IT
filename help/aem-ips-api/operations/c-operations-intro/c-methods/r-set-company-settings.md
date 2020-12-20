@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 10%
 
 ---
 
@@ -33,13 +36,13 @@ Sintassi
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
 | ` *`overwriteMode`*` | `xsd:string` | No | Modalità di sovrascrittura risorse. |
-| ` *`keepPublishState`*` | `xsd:boolean` | No | Impostate questa opzione `true` per mantenere lo stato di pubblicazione quando una risorsa viene ricaricata. |
+| ` *`keepPublishState`*` | `xsd:boolean` | No | Impostate questa opzione su `true` per mantenere lo stato di pubblicazione al momento del ricaricamento di una risorsa. |
 | ` *`defaultSourceProfileHandle`*` | `xsd:string` | No | Risorsa IccProfile da usare come profilo colore sorgente predefinito. |
 | ` *`defaultDisplayProfileHandle`*` | `xsd:string` | No | Risorsa IccProfile da usare come profilo colore di visualizzazione predefinito. |
 | ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati IPTC e EXIF ai campi di metadati IPS. |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati XMP ai campi di metadati IPS. |
+| ` *`xmpMappingXsltHandle`*` | `xsd:string` | No | Risorsa XSL utilizzata per mappare XMP metadati ai campi di metadati IPS. |
 | ` *`diskSpaceWarningMin`*` | `xsd:int` | No | Spazio su disco disponibile minimo (in KB) prima dell&#39;invio di un messaggio di avviso. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Impostate questa opzione `true` per inviare agli amministratori della società una notifica ogni volta che le risorse vengono svuotate dal cestino. |
+| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Impostate questa opzione su `true` per inviare agli amministratori della società una notifica ogni volta che le risorse vengono svuotate dal cestino. |
 
 **Output (setCompanySettingsReturn)**
 
