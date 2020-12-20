@@ -2,20 +2,20 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Guida di riferimento visualizzatori per contenuti multimediali dinamici
+user-guide-title: Guida di riferimento visualizzatori Dynamic Media
 translation-type: tm+mt
 source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Guida di riferimento visualizzatori per contenuti multimediali dinamici {#library}
+# Guida di riferimento dei visualizzatori Dynamic Media {#library}
 
-+ [Risorse per sviluppatori di contenuti multimediali dinamici](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Guida di riferimento visualizzatori per contenuti multimediali dinamici](/help/aem-viewers-ref/home.md)
++ [Risorse per sviluppatori Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Guida di riferimento visualizzatori Dynamic Media](/help/aem-viewers-ref/home.md)
 + [Esempi di libreria di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisiti di sistema](c-system-requirements-and-prerequisites.md)
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
@@ -35,8 +35,8 @@ ht-degree: 3%
       + [Note sulla versione di Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Note sulla versione di Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Note sulla compatibilità](c-compatibility-notes.md)
-+ Visualizzatori per AEM Assets e Dynamic Media Classic {#viewers-aem-assets-dmc}
-   + [Visualizzatori per AEM Assets e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
++ Visualizzatori per  AEM Assets e Dynamic Media Classic {#viewers-aem-assets-dmc}
+   + [Visualizzatori per  AEM Assets e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Zoom di base {#basic-zoom}
       + [Visualizzatore zoom di base](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
       + Riferimento comando - Attributi di configurazione {#command-reference-configuration-attributes-basic-zoom}
@@ -78,7 +78,7 @@ ht-degree: 3%
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomresetbutton.md)
          + [Visualizzazione zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomview.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md)
       + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
@@ -130,7 +130,7 @@ ht-degree: 3%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-textpos.md)
-      + Riferimento API JavaScript per il visualizzatore di eCatalog {#jsapi-ecatalog}
+      + Riferimento API Javascript per il visualizzatore di eCatalog {#jsapi-ecatalog}
          + [Riferimento API JavaScript per il visualizzatore di eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
          + [disporre](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-dispose.md)
          + [eCatalogViewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-ecatalogviewer.md)
@@ -183,7 +183,7 @@ ht-degree: 3%
          + [Pulsante Zoom in](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoominbutton.md)
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomoutbutton.md)
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomresetbutton.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md)
       + [Supporto per mappe immagine](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md)
@@ -246,7 +246,7 @@ ht-degree: 3%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + Riferimento API Javascript per il visualizzatore di ricerche per eCatalog {#jsapi-ecatalog-search}
+      + Riferimento API Javascript per il visualizzatore di ricerca per eCatalog {#jsapi-ecatalog-search}
          + [Riferimento API Javascript per il visualizzatore di ricerche per eCatalog](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [disporre](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -302,7 +302,7 @@ ht-degree: 3%
          + [Pulsante Zoom in](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoominbutton.md)
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomoutbutton.md)
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomresetbutton.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md)
       + [Supporto per mappe immagine](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-image-map-support.md)
@@ -355,7 +355,7 @@ ht-degree: 3%
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-mainviewerarea.md)
          + [Campioni](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-swatches.md)
          + [Descrizioni comandi](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-tooltips.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
@@ -400,7 +400,7 @@ ht-degree: 3%
          + [Evidenziazione dello stato](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-focushighlight.md)
          + [Campioni](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-swatches.md)
          + [Descrizioni comandi](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-tooltips.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
@@ -506,7 +506,7 @@ ht-degree: 3%
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomresetbutton.md)
          + [Visualizzazione zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomview.md)
          + [Effetto icona Visualizzazione zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomviewiconeffect.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-assistive.md)
       + [Distribuzione video HTTPS](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
@@ -542,7 +542,7 @@ ht-degree: 3%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [Callback evento](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + Personalizzazione del visualizzatore per set 360 gradi {#customizing-spin}
+      + Personalizzazione del visualizzatore 360 gradi {#customizing-spin}
          + [Personalizzazione del visualizzatore per set 360 gradi](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Pulsante Chiudi](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [Evidenziazione dello stato](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -556,7 +556,7 @@ ht-degree: 3%
          + [Pulsante Zoom in](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoominbutton.md)
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoomoutbutton.md)
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoomresetbutton.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md)
       + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
@@ -626,7 +626,7 @@ ht-degree: 3%
          + [Lettore video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoplayer.md)
          + [Scorrimento video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoscrubber.md)
          + [Ora video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videotime.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-sitecatalystracking.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-sitecatalystracking.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-assistive.md)
       + [Distribuzione video HTTP](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md)
@@ -659,7 +659,7 @@ ht-degree: 3%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transizioni](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + Riferimento API JavaScript per il visualizzatore zoom {#jsapi-zoom}
+      + Riferimento API Javascript per il visualizzatore zoom {#jsapi-zoom}
          + [Riferimento API JavaScript per il visualizzatore zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [disporre](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -686,13 +686,13 @@ ht-degree: 3%
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Pulsante di ripristino dello zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomresetbutton.md)
          + [Visualizzazione zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomview.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Visualizzatori solo per AEM Assets {#viewers-for-aem-assets-only}
-   + [Visualizzatori solo per AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
++ Visualizzatori per  solo AEM Assets {#viewers-for-aem-assets-only}
+   + [Visualizzatori per  solo AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Carosello {#carousel}
       + [Carosello](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
       + Riferimento comando - Attributi di configurazione {#command-reference-configuration-attributes-carousel}
@@ -709,7 +709,7 @@ ht-degree: 3%
       + Riferimento comando - URL {#command-reference-url-carousel}
          + [Riferimento comando - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
-      + Riferimento API Javascript per il visualizzatore carosello {#jsapi-carousel}
+      + Riferimento API Javascript per il visualizzatore Carosello {#jsapi-carousel}
          + [Riferimento API JavaScript per il visualizzatore carosello](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [CarouselViewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [disporre](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
@@ -729,11 +729,11 @@ ht-degree: 3%
          + [Punti attivi e mappe immagine](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md)
          + [Area visualizzatore principale](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-mainviewerarea.md)
          + [Diapositiva successiva](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-nextslide.md)
-         + [Pulsante RiproduciPausa](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-playpausebutton.md)
+         + [Pulsante PlayPause](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-playpausebutton.md)
          + [Diapositiva precedente](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-previousslide.md)
          + [Imposta indicatore](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-setindicator.md)
          + [Descrizioni comandi](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-tooltips.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [Supporto per tecnologie di assistenza](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
       + [Supporto per aree sensibili e mappe immagine](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
@@ -749,7 +749,7 @@ ht-degree: 3%
       + Riferimento comando - URL {#command-reference-interactive-images}
          + [Riferimento comando - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [preloadimage](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + Riferimento API Javascript per il visualizzatore di immagini interattivo {#jsapi-interactive-image}
+      + Riferimento API Javascript per il visualizzatore di immagini interattive {#jsapi-interactive-image}
          + [Riferimento API JavaScript per il visualizzatore di immagini interattivo](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [disporre](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -761,7 +761,7 @@ ht-degree: 3%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
       + [Callback evento](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
-      + Personalizzazione del visualizzatore di immagini interattivo {#customizing-interactive-image}
+      + Personalizzazione del visualizzatore immagini interattivo {#customizing-interactive-image}
          + [Personalizzazione del visualizzatore di immagini interattivo](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [Evidenziazione dello stato](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [Punti attivi](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
@@ -852,7 +852,7 @@ ht-degree: 3%
          + [Lettore video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoplayer.md)
          + [Scorrimento video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoscrubber.md)
          + [Ora video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
       + [Supporto per tecnologie di assistenza](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-assistive.md)
       + [Distribuzione video HTTPS](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
       + [Supporto dei dati interattivi](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
@@ -868,16 +868,16 @@ ht-degree: 3%
          + [SocialShare.cuscinetto](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-socialshare-bearing.md)
          + [Video360Player.autoplay](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-autoplay.md)
          + [Video360Player.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-iconeffect.md)
-         + [Video360Player.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-initialbitrate.md)
+         + [Video360Player.Initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-initialbitrate.md)
          + [Video360Player.loop](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-loop.md)
          + [Video360Player.mutevolume](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-mutevolume.md)
-         + [Video360Player.playback](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-playback.md)
+         + [Video360Player.play](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-playback.md)
          + [Video360Player.posterimage](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-posterimage.md)
          + [Video360Player.preload](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-preload.md)
          + [Video360Player.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-progressivebitrate.md)
          + [Video360Player.singleclick](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-singleclick.md)
          + [Video360Player.ssl](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md)
-         + [Video360Player.vrrender](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-vrrender.md)
+         + [Video360Player.vrrendering](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-vrrender.md)
          + [Video360Player.waiticon](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-waiticon.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videotime-timepattern.md)
@@ -885,7 +885,7 @@ ht-degree: 3%
          + [Riferimento comando - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + Riferimento API JavaScript per il visualizzatore Video360 {#jsapi-video360}
+      + Riferimento API Javascript per il visualizzatore Video360 {#jsapi-video360}
          + [Riferimento API JavaScript per il visualizzatore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [disporre](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
@@ -897,7 +897,7 @@ ht-degree: 3%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
-         + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
+         + [Visualizzatore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Callback evento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
       + Personalizzazione del visualizzatore Video360 {#customizing-video360}
          + [Personalizzazione del visualizzatore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
@@ -917,7 +917,7 @@ ht-degree: 3%
          + [Lettore video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [Scorrimento video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Ora video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
-      + [Supporto per il tracciamento di Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
+      + [Supporto per  tracciamento Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
       + [Distribuzione video HTTPS](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
       + [Supporto per tecnologie di assistenza](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-assistive.md)
       + [Localizzazione degli elementi dell&#39;interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
