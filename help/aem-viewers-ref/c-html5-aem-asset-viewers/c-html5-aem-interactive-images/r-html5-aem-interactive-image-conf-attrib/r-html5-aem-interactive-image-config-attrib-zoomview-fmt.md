@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 73a2196f-0ece-497a-9a12-376dafbbae56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ Specifica il formato immagine utilizzato dal componente per caricare le immagini
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alpha</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente considera le immagini come opache. Per impostazione predefinita, il componente ha uno sfondo bianco. Per renderlo trasparente, impostate la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> Trasparente</span>. </p> </td> 
+   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alpha</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente considera le immagini come opache. Per impostazione predefinita, il componente ha uno sfondo bianco. Per renderlo trasparente, impostate la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> trasparente</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
