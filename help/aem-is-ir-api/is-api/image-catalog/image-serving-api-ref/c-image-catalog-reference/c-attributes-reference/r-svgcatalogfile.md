@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Percorsi dei file di dati SVG. Specifica i file contenenti i dati SVG per questo catalogo.
 
-I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell&#39;ordine esatto specificato. Se lo stesso `catalog::Id` valore si verifica in più record (nella stessa immagine o in file di catalogo SVG diversi), prevale l’ultima istanza.
+I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell&#39;ordine esatto specificato. Se lo stesso valore `catalog::Id` si verifica in più record (nella stessa immagine o in file di catalogo SVG diversi), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-fc2d549f76474792837b2b92ec2087ea}
 
@@ -28,4 +31,4 @@ Vuoto, che indica che questo catalogo immagini non include dati SVG.
 
 ## Consultate anche {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 
-[Dati](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)catalogo, [CatalogFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)
+[Dati](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29) catalogo,  [CatalogFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)
