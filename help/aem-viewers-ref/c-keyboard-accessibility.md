@@ -25,11 +25,11 @@ Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCa
 
 Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Carosello, Dimensioni (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 
-Un utente finale può spostarsi tra gli elementi dell’interfaccia utente del visualizzatore utilizzando i tasti **[!UICONTROL Tab]** e **[!UICONTROL Maiusc+Tab]** . L&#39;utilizzo di **[!UICONTROL Tab]** rende più attivo il successivo elemento dell&#39;interfaccia utente nell&#39;ordine di tabulazione; utilizzando **[!UICONTROL Maiusc+Tab]** , l&#39;input diventa attivo sull&#39;elemento dell&#39;interfaccia utente precedente. La barra laterale di messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
+Un utente finale può spostarsi tra gli elementi dell&#39;interfaccia utente del visualizzatore utilizzando i tasti **[!UICONTROL Tab]** e **[!UICONTROL Maiusc+Tab]**. L&#39;utilizzo di **[!UICONTROL Tab]** rende attivo il successivo elemento dell&#39;interfaccia utente nell&#39;ordine di tabulazione; l&#39;utilizzo di **[!UICONTROL Maiusc+Tab]** riattiva l&#39;elemento dell&#39;interfaccia utente precedente. La barra laterale di messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
 
 A seconda del sistema operativo e delle impostazioni del browser Web, l&#39;elemento dell&#39;interfaccia utente attivo potrebbe ricevere un&#39;indicazione visiva. Ad esempio, l&#39;indicatore visivo può essere un sottile bordo intorno all&#39;elemento dell&#39;interfaccia utente.
 
-È possibile disattivare o personalizzare tale evidenziazione nel CSS del visualizzatore. Nel sommario di questo sistema di Aiuto, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fate clic su ***Personalizzazione del nome del visualizzatore ***>**Evidenziazione **dello stato attivo.
+È possibile disattivare o personalizzare tale evidenziazione nel CSS del visualizzatore. Nel sommario di questo sistema di Aiuto, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fate clic su **Customizing *name of viewer*** >** Focus highlight **(Personalizzazione del nome del visualizzatore&lt;a2/> > &lt;a3/>Evidenziazione dello stato attivo).
 
 I tasti supportati dai singoli elementi dell’interfaccia utente del visualizzatore sono, nella maggior parte dei casi, evidenti e facili da scoprire.
 
@@ -47,7 +47,7 @@ I tasti supportati dai singoli elementi dell’interfaccia utente del visualizza
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom avanti o indietro </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> o <span class="uicontrol"> - </span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> o  <span class="uicontrol"> -  </span>, rispettivamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ripristino zoom </p> </td> 
