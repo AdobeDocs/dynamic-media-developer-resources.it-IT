@@ -1,6 +1,6 @@
 ---
-description: Platform Server memorizza nella cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
-seo-description: Platform Server memorizza nella cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
+description: Il server piattaforma memorizza in cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
+seo-description: Il server piattaforma memorizza in cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
 seo-title: Cache dei dati di risposta
 solution: Experience Manager
 title: Cache dei dati di risposta
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Cache dei dati di risposta{#response-data-cache}
 
-Platform Server memorizza nella cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
+Il server piattaforma memorizza in cache su disco tutte le immagini di risposta e alcuni dati di testo, a meno che una richiesta non sia contrassegnata come non memorizzabile nella cache.
 
-Il percorso della cache del disco di Platform Server è impostato con `PS::cache.rootPaths`.
+Il percorso della cache del disco del server della piattaforma è impostato con `PS::cache.rootPaths`.
 
 Per le applicazioni con elevate frequenze di hit della cache, potete aumentare le prestazioni e la capacità del server distribuendo la cache dei dati di risposta tra più dispositivi disco. A tal fine, create una cartella cache root su ciascun disco e registratele in `PS::cache.rootPaths`.
 
@@ -29,6 +29,6 @@ Oltre a `PS::cache.maxSize`, la cache delle risposte viene gestita anche limitan
 
 >[!NOTE]
 >
->Platform Server mantiene un indice della cache in memoria. La dimensione di questo indice è 32 byte volte il valore di `PS::cache.maxEntries`. Potrebbe essere necessario aumentare le dimensioni dell&#39;heap del server Platform per contenere cache più grandi.
+>Il server piattaforma mantiene un indice della cache in memoria. La dimensione di questo indice è 32 byte volte il valore di `PS::cache.maxEntries`. Potrebbe essere necessario aumentare le dimensioni dell&#39;heap del server piattaforma per contenere cache più grandi.
 
-Il sistema utilizza un file di indice della cache che viene salvato su disco quando il server viene spento in modo ordinato. In caso di eventi imprevisti come un&#39;interruzione di corrente, il file potrebbe non essere salvato. Inoltre, potrebbero essere necessari alcuni minuti perché Platform Server sia pronto.
+Il sistema utilizza un file di indice della cache che viene salvato su disco quando il server viene spento in modo ordinato. In caso di eventi imprevisti come un&#39;interruzione di corrente, il file potrebbe non essere salvato. Inoltre, potrebbero essere necessari alcuni minuti perché il server della piattaforma sia pronto.
