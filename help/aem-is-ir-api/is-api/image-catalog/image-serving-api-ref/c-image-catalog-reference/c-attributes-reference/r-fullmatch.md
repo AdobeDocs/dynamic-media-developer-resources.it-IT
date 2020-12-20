@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 Opzione di corrispondenza catalogo.
 
-Una voce di catalogo viene specificata come coppia ` *``*/ *`rootIdimageId`*` nelle richieste HTTP. Durante l&#39;analisi, viene selezionato un catalogo se ` *`rootId`*` corrisponde al `attribute::RootId` valore del catalogo e il record del catalogo viene identificato dalla corrispondenza di ` *`imageId`*` con un `catalog::Id` valore. Se viene trovato un catalogo, ma non esiste una voce di catalogo che corrisponda a ` *`imageId`*`, il server può eseguire una delle due operazioni seguenti:
+Una voce di catalogo è specificata come coppia ` *`rootId`*/ *`imageId`*` nelle richieste HTTP. Quando si esegue l&#39;analisi, viene selezionato un catalogo se ` *`rootId`*` corrisponde al valore `attribute::RootId` del catalogo e il record del catalogo viene identificato facendo corrispondere ` *`imageId`*` a un valore `catalog::Id`. Se viene trovato un catalogo, ma non esiste una voce di catalogo che corrisponda a ` *`imageId`*`, il server può eseguire una delle due operazioni seguenti:
 
-Se non `attribute::FullMatch` è impostato, il server utilizza gli attributi del catalogo corrispondente. In questo caso, ` *`rootId`*` viene sostituito da `attribute::RootPath` (o `default::RootPath`, se non specificato in questo catalogo).
+Se `attribute::FullMatch` non è impostato, il server utilizza gli attributi del catalogo corrispondente. In questo caso, ` *`rootId`*` viene sostituito da `attribute::RootPath` (o `default::RootPath`, se non specificato in questo catalogo).
 
 Se `attribute::FullMatch` è impostato, il server ignora completamente il catalogo, come se non fosse stato trovato alcun catalogo, e continua utilizzando gli attributi di catalogo predefiniti. In questo caso, ` *`rootId`*` rimane parte del percorso (preceduto da `default::RootPath`).
 
@@ -32,4 +35,4 @@ Ereditato da `default::FullMatch` se non definito o se vuoto.
 
 ## Consultate anche {#section-42da0ba53e0b4c089c62108785faf5a9}
 
-[attributo::RootId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546) , [catalogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
+[attributo::RootId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546) ,  [catalogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
