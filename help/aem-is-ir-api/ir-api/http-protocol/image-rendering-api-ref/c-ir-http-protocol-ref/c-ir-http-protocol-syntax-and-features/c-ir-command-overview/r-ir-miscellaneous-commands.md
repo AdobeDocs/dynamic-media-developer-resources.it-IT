@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Sono disponibili anche questi comandi.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> nascondiglio</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> hide</a></span> </p></td> 
   <td class="stentry"> <p>Nasconde gli oggetti sovrapposti selezionati. </p></td> 
   <td class="stentry"></td> 
  </tr> 
