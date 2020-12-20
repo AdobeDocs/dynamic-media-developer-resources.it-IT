@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5bb7aebf-0a1d-4783-923d-7f7e7dcb9baa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ Riferimento API JavaScript per il visualizzatore zoom in linea.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa, set di immagini esplicito o set di immagini esplicito con modificatori Image Server specifici per ciascun fotogramma, con i modificatori Image Server globali facoltativi aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta la nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene richiamata, `init()`il visualizzatore scambia la risorsa in fase di esecuzione.
+Imposta la nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di esecuzione.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
