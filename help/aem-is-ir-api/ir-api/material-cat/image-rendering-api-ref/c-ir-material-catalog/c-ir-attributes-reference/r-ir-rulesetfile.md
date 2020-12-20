@@ -1,6 +1,6 @@
 ---
-description: Percorso del file delle definizioni dei set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
-seo-description: Percorso del file delle definizioni dei set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
+description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
+seo-description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
 seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
 
 # RuleSetFile{#rulesetfile}
 
-Percorso del file delle definizioni dei set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
+Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
 
 ## Proprietà {#section-e805898763824caba24abb6af1706f5c}
 
