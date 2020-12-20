@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 9%
 
 ---
 
@@ -45,7 +48,7 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">L'handle della società a cui sono associati i tipi di set di proprietà. <p>Ometti se vuoi restituire tipi di set di proprietà globali. </p> </td> 
