@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ Crea un formato immagine.
 
 >[!NOTE]
 >
->Il valore del `urlModifier` campo deve essere costituito da un XML valido. Ad esempio, passate `&` a `&`. Ottenete il `urlModfier` valore dall&#39;interfaccia utente IPS.
+>Il valore del campo `urlModifier` deve essere costituito da un XML valido. Ad esempio, modificare `&` in `&`. Ottenete il valore `urlModfier` dall&#39;interfaccia utente IPS.
 
 ## Tipi di utenti autorizzati {#section-12c9d8d5933f4692bafb194060b4f882}
 
