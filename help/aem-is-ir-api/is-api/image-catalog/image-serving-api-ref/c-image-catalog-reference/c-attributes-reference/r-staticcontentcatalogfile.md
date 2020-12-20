@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Percorsi del file di dati del catalogo del contenuto statico. Specifica i file che contengono i dati del contenuto statico per il catalogo.
 
-I file di dati del catalogo del contenuto statico vengono caricati nell&#39;ordine specificato. Se lo stesso `static::Id` valore si verifica in più record (nello stesso file catalogo o in altri file), prevale l’ultima istanza.
+I file di dati del catalogo del contenuto statico vengono caricati nell&#39;ordine specificato. Se lo stesso valore `static::Id` si verifica in più record (nello stesso o in file di catalogo diversi), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
