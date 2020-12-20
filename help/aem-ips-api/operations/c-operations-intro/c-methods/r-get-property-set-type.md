@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 7%
 
 ---
 
@@ -52,7 +55,7 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PropertySetType</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">La struttura del tipo che contiene: 
