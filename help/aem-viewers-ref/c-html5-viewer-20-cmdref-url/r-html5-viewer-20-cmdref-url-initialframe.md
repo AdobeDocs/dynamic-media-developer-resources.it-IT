@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +28,12 @@ Parametro comune a tutti i visualizzatori.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica un indice di frame basato su zero visualizzato dal visualizzatore al caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Un indice basato su zero della pagina all'interno del set di pagine affiancate quando il dispositivo è con orientamento verticale. In un ambiente "da sinistra a destra" <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". In "da destra a sinistra" è l'opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non viene specificato, per impostazione predefinita <span class="codeph"> 0</span> viene utilizzato. Ignorato quando il dispositivo è con orientamento orizzontale. </p> </td> 
+   <td colname="col2"> <p>Un indice basato su zero della pagina all'interno del set di pagine affiancate quando il dispositivo è con orientamento verticale. In un ambiente "da sinistra a destra" <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". In "da destra a sinistra" è l'opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non viene specificato, per impostazione predefinita viene utilizzato <span class="codeph"> 0</span>. Ignorato quando il dispositivo è con orientamento orizzontale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
