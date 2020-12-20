@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Specifica quando visualizzare il pannello delle informazioni. </p> <p>Se è impostato su <span class="codeph"> 1</span>, il pannello Info viene visualizzato quando il mouse entra nell’area della mappa immagine (nel caso in cui la mappa immagine abbia un attributo rollover_key <span class="codeph"></span> non vuoto). </p> <p>Se è impostato su <span class="codeph"> 0</span> , il pannello Info viene attivato quando si fa clic sulla mappa immagine (se la mappa immagine ha un <span class="codeph"> rollover_key</span> non vuoto e <span class="codeph"> attributi href</span> vuoti). </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch, viene automaticamente impostato su <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Specifica quando visualizzare il pannello delle informazioni. </p> <p>Se è impostato su <span class="codeph"> 1</span>, il pannello Info viene visualizzato quando il mouse entra nell'area della mappa immagine (nel caso in cui la mappa immagine non sia vuota, l'attributo <span class="codeph"> rollover_key</span>). </p> <p>Se è impostato su <span class="codeph"> 0</span> il pannello Info viene attivato quando si fa clic sulla mappa immagine (se la mappa immagine ha gli attributi <span class="codeph"> rollover_key</span> non vuoti e <span class="codeph"> href</span> vuoti). </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch, viene automaticamente impostato su <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
