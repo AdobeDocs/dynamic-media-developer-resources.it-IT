@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 37d58c88-3d45-44d9-9f2c-d616d1077906
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span> , tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p> Se è impostato su <span class="codeph"> 0</span> , vengono caricate solo le miniature visibili. </p> <p>Impostare <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe invisibili vengono precaricate intorno all'area visibile. </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostate su <span class="codeph"> -1</span>, tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p> Se impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Impostare <span class="codeph"><span class="varname"> preload</span></span> per definire quante righe invisibili vengono precaricate intorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
