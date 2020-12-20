@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 551338fe-8fc6-4045-8205-4cf102782f8d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +24,7 @@ URL per il visualizzatore video.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> Percorso principale del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui viene distribuita la pagina. Si applica la risoluzione standard del percorso URI. </p> </td> 
   </tr> 
  </tbody> 
