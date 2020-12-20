@@ -1,24 +1,27 @@
 ---
 description: Il pulsante Riproduci/Pausa consente all’utente di mettere in pausa o riprendere il comportamento di riproduzione automatica del carosello.
 seo-description: Il pulsante Riproduci/Pausa consente all’utente di mettere in pausa o riprendere il comportamento di riproduzione automatica del carosello.
-seo-title: Pulsante RiproduciPausa
+seo-title: Pulsante PlayPause
 solution: Experience Manager
-title: Pulsante RiproduciPausa
+title: Pulsante PlayPause
 topic: Dynamic media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
 
-# Pulsante RiproduciPausa{#playpause-button}
+# Pulsante PlayPause{#playpause-button}
 
 Il pulsante Riproduci/Pausa consente all’utente di mettere in pausa o riprendere il comportamento di riproduzione automatica del carosello.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Il pulsante è visibile solo se il `CarouselViewer.autoplay` parametro è impostato su `1`; altrimenti è nascosta. Utilizzando CSS potete ridimensionare, applicare l&#39;interfaccia e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
+Il pulsante è visibile solo se il parametro `CarouselViewer.autoplay` è impostato su `1`; altrimenti è nascosta. Utilizzando CSS potete ridimensionare, applicare l&#39;interfaccia e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
 
 **Proprietà CSS dell&#39;area visualizzatore principale**
 
@@ -35,19 +38,19 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dalla parte superiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posizione da destra del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posizione da sinistra del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione nella parte inferiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -59,15 +62,15 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Tipo di cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,9 +78,9 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
 
 Esempio: per impostare un pulsante di pausa di riproduzione pari a 28x28 pixel, posizionato 17 pixel dal basso e 12 pixel dal bordo sinistro del visualizzatore, e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante quando è selezionato o meno.
 
