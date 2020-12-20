@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +36,7 @@ posN= *`coordN`*
 
 Nel caso di livelli di immagine, testo e tinta unita, `pos=` specifica la posizione di un ancoraggio di livello rispetto all’ancoraggio di livello 0. `posN=` i valori delle coordinate vengono normalizzati rispetto alle dimensioni effettive del livello 0 rect.
 
-Nel caso di livelli di effetto, `pos=` sposta il livello dell’effetto rispetto al livello principale.
+In caso di livelli di effetto, `pos=` sposta il livello di effetto rispetto al livello principale.
 
 I valori positivi spostano il livello verso destra/basso, verso sinistra/in alto. `posN=0.5,0.5` sposta il livello di metà del livello 0 di larghezza e altezza verso il basso e verso destra.
 
@@ -47,7 +50,7 @@ Attributo layer. Ignorato se `layer=0` o `layer=comp`.
 
 ## Esempio {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-Vedere Esempio A in [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Vedere l&#39;esempio A in [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Consultate anche {#section-812d95575ba542808e8387d0a8650606}
 
