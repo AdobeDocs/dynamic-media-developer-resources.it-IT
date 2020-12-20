@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8575fde4-4d03-4b87-a628-ff06ff8c91c9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
@@ -37,11 +40,11 @@ L&#39;aspetto del pulsante di condivisione Facebook è controllato dal seguente 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +52,11 @@ L&#39;aspetto del pulsante di condivisione Facebook è controllato dal seguente 
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-È possibile rimuovere il pulsante dal pannello Condivisione social network impostando la proprietà `display:none` CSS della classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social network impostando la proprietà CSS `display:none` nella classe CSS corrispondente.
 
-La descrizione del pulsante può essere localizzata. Consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)dell’interfaccia utente.
+La descrizione del pulsante può essere localizzata. Vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 **Esempio** : per impostare un pulsante di condivisione Facebook di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante:
 
