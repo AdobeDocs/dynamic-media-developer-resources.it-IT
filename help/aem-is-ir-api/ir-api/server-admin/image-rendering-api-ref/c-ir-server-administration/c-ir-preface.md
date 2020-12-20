@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Questa documentazione descrive i problemi di amministrazione del server e le imp
 
 **Destinatari**
 
-Questa documentazione è destinata agli amministratori di sistema e ai master Web che devono installare, configurare e amministrare il rendering delle immagini di Scene7.
+Questa documentazione è destinata agli amministratori di sistema e ai master Web che devono installare, configurare e amministrare Scene7 Image Rendering.
 
 **Convenzioni documento**
 
