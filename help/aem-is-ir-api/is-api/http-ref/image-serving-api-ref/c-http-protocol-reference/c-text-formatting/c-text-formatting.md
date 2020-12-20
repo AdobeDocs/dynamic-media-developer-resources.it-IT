@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 Image Server offre diverse alternative per il rendering del testo, accessibili con i comandi text= e textPs=.
 
-`textPs=` offre un alto livello di similarità con il testo rappresentato con Adobe Photoshop e Illustrator. `text=` è ragionevolmente compatibile con il testo rappresentato con Windows Wordpad.
+`textPs=` offre un alto livello di similarità con il testo rappresentato con  Adobe Photoshop e  Illustrator. `text=` è ragionevolmente compatibile con il testo rappresentato con Windows Wordpad.
 
 >[!NOTE]
 >
->Oltre alle differenze elencate altrove, `text=` produce lievi differenze nel testo di cui è stato effettuato il rendering rispetto al testo `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene rappresentato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` può ritagliare parzialmente l’ultima riga, mentre `textPs=` sarà possibile eseguire solo il rendering di righe complete.
+>Oltre alle differenze elencate altrove, `text=` produce lievi differenze nel testo di cui è stato effettuato il rendering rispetto a `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene rappresentato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` potrebbe ritagliare parzialmente l&#39;ultima riga, mentre `textPs=` eseguirà solo il rendering delle righe complete.
 
 Tutti i comandi di testo accettano testo formattato in base a un sottoinsieme della specifica RTF (Rich Text Format). Ogni livello di testo può specificare un comando di testo diverso.
 
@@ -37,7 +40,7 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ciascun 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> Compatibile con Adobe Photoshop </p> </td> 
+   <td> <p>  compatibile con Adobe Photoshop </p> </td> 
    <td> <p> no </p> </td> 
    <td> <p> limitato </p> </td> 
    <td> <p> </p> </td> 
@@ -149,13 +152,13 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ciascun 
 
 Le stringhe compatibili con RTF possono essere assemblate manualmente o formattando il testo desiderato in un editor di testo o in un elaboratore di testi in grado di salvare i file RTF. Il file RTF può quindi essere aperto in un editor di testo normale e il contenuto RTF del file pertinente copiato nell&#39;URL della richiesta.
 
-Alcuni elaboratori di testi generano file di dimensioni piuttosto grandi, che includono prerequisiti sostanziali non utilizzati da Scene7 Image Server. Si consiglia di rimuovere gli elementi RTF non utilizzati dalla stringa prima di passare la stringa ai comandi di testo.
+Alcuni elaboratori di testi generano file piuttosto grandi, che includono prerequisiti sostanziali non utilizzati da Scene7 Image Server. Si consiglia di rimuovere gli elementi RTF non utilizzati dalla stringa prima di passare la stringa ai comandi di testo.
 
 La codifica della lingua basata sugli standard UTF-8 e ISO è supportata nelle stringhe RTF come alternativa ai meccanismi standard di codifica dei caratteri RTF. Questo consente alle applicazioni di inviare testo non in inglese al server senza conoscere la codifica RTF.
 
-Tutti i caratteri non conformi a HTTP devono essere preceduti dalla corretta escape, se la stringa deve essere trasmessa tramite http. Solo &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; devono essere preceduti da escape se la stringa è incorporata nel `catalog::Modifiers` campo di un record di catalogo immagini. I caratteri di controllo, inclusi `<CR>`, `<LF>`, e `<TAB>` devono sempre essere rimossi.
+Tutti i caratteri non conformi con HTTP devono essere preceduti dalla corretta escape, se la stringa deve essere trasmessa tramite http. Solo &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; devono essere preceduti da escape se la stringa è incorporata nel campo `catalog::Modifiers` di un record di catalogo immagini. I caratteri di controllo, inclusi `<CR>`, `<LF>` e `<TAB>`, devono sempre essere rimossi.
 
-I motori di testo Image Server interpretano un sottoinsieme di comandi definiti dalla specifica Rich Text Format (RTF), versione 1.6. Questo sottoinsieme è incentrato sulla formattazione di font/caratteri, sulla semplice formattazione del paragrafo e sul supporto per font e set di caratteri internazionali. Al momento, costrutti di formattazione più avanzati, come fogli di stile e tabelle, non sono supportati.
+I motori di testo Image Server interpretano un sottoinsieme di comandi definiti dalla specifica Rich Text Format (RTF), versione 1.6. Questo sottoinsieme è incentrato sulla formattazione di font/caratteri, sulla semplice formattazione del paragrafo e sul supporto per i font e i set di caratteri internazionali. Al momento, costrutti di formattazione più avanzati, come fogli di stile e tabelle, non sono supportati.
 
 Quando si tenta di creare manualmente stringhe di testo con codifica RTF, è necessario conoscere la specifica Rich Text Format (RTF) pubblicata da Microsoft.
 
