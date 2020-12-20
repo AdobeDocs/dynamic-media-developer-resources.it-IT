@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ Nella sequenza di comando URL o catalogo::Modificatore, una sequenza di definizi
 
 Tutti i comandi nella sequenza di definizione del livello sono associati al livello.
 
-Il `layer=` comando specifica un numero di livello, che deve essere un numero intero pari o superiore a 0. Tutti i comandi nelle sequenze di definizione del livello con lo stesso numero di livello vengono applicati allo stesso livello. Se lo stesso comando si verifica più volte, prevarrà l&#39;ultima istanza.
+Il comando `layer=` specifica un numero di livello, che deve essere un numero intero pari o superiore a 0. Tutti i comandi nelle sequenze di definizione del livello con lo stesso numero di livello vengono applicati allo stesso livello. Se lo stesso comando si verifica più volte, prevarrà l&#39;ultima istanza.
