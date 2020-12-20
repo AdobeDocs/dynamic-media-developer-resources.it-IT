@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Utilizzate queste impostazioni del server per configurare le soglie di avviso.
 
-## AS: monitorAlertGenerator.maxAverageResponseTime - Soglia tempo di rispostaAS: monitorAlertGenerator.maxAverageResponseTime - Tempo di risposta {#section-35111039ac6c4a63ba23fc2c828ab726}
+## AS: monitorAlertGenerator.maxAverageResponseTime - Soglia tempo di rispostaAS: monitorAlertGenerator.maxAverageResponseTime -Response Time {#section-35111039ac6c4a63ba23fc2c828ab726}
 
 Viene emesso un avviso sul tempo di risposta quando il tempo medio di elaborazione di una richiesta durante l’intervallo di campionamento supera la soglia qui impostata. Espressi in msec; numero intero pari o superiore a 0. I valori tipici sono compresi tra 100 e 1000 msec, a seconda della complessità delle operazioni.
 
@@ -39,7 +39,7 @@ Viene inviato un avviso di traffico minimo quando il numero medio di richieste a
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Soglia spazio heap gratuito {#section-ce6705045f6842769030ccb1894594cc}
 
-Specifica lo spazio di heap Java gratuito minimo. Un avviso di priorità viene inviato immediatamente dopo un ciclo di raccolta dei rifiuti Java quando lo spazio di heap gratuito è inferiore a tale soglia. Si consiglia di 50 MB per il funzionamento sicuro del server Platform. Mantenendo lo spazio di heap gratuito al di sopra di questo valore si riduce la frequenza dei cicli di raccolta dei rifiuti, il che potrebbe migliorare le prestazioni complessive del server. Valore intero in byte, 0 o superiore.
+Specifica lo spazio di heap Java gratuito minimo. Un avviso di priorità viene inviato immediatamente dopo un ciclo di raccolta dei rifiuti Java quando lo spazio di heap gratuito è inferiore a tale soglia. Si consiglia di 50 MB per il funzionamento sicuro del server piattaforma. Mantenendo lo spazio di heap gratuito al di sopra di questo valore si riduce la frequenza dei cicli di raccolta dei rifiuti, il che potrebbe migliorare le prestazioni complessive del server. Valore intero in byte, 0 o superiore.
 
 ## AS::monitorAlertGenerator.maxOverlap - Numero massimo di richieste simultanee {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
