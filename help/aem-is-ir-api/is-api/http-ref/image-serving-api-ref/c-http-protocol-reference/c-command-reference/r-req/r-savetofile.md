@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 1%
 
 ---
 
@@ -55,15 +58,15 @@ Al completamento della richiesta di salvataggio, la richiesta restituisce divers
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> fatto</span> in caso di esito positivo. </p> </td> 
+   <td> <p> <span class="codeph"> </span> doneif success. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Restituisce lo stato di risposta HTTP 200 in caso di esito positivo e 403 in caso di esito negativo o di timeout della richiesta. La risposta ha un tipo MIME `text/plain` e non è memorizzabile nella cache.
+Restituisce lo stato di risposta HTTP 200 in caso di esito positivo e 403 in caso di esito negativo o di timeout della richiesta. La risposta è di tipo MIME `text/plain` e non è memorizzabile nella cache.
 
-Il salvataggio importante nei file deve essere abilitato specificando il percorso di una cartella scrivibile esistente in `attribute::SavePath`. `saveToFile=` non riesce se `attribute::SavePath` è vuoto.
+Il salvataggio importante nei file deve essere abilitato specificando il percorso di una cartella scrivibile esistente in `attribute::SavePath`. `saveToFile=` non riesce se  `attribute::SavePath` è vuoto.
 
-*`file`* è obbligatorio e deve essere un percorso relativo combinato con `attribute::SavePath`. Image Server non crea cartelle. La cartella di destinazione deve esistere sul server e disporre delle autorizzazioni appropriate per la creazione dei file da parte di Image Server.
+*`file`* è obbligatorio e deve essere un percorso relativo combinato con  `attribute::SavePath`. Image Server non crea cartelle. La cartella di destinazione deve esistere sul server e disporre delle autorizzazioni appropriate per la creazione dei file da parte di Image Server.
 
 `timeout=` è facoltativo. Il timeout predefinito è 60.000 msec, o qualsiasi valore configurato con `PS::SaveTimeout`.
