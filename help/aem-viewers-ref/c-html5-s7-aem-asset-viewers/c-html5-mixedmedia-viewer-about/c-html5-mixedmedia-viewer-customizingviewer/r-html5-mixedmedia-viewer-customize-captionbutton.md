@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 0%
 
 ---
 
 
-# Caption button{#caption-button}
+# Pulsante Didascalia{#caption-button}
 
 Attiva e disattiva la visualizzazione della didascalia chiusa. Non è visibile se il parametro caption non è specificato. Potete usare CSS per ridimensionare, incarnato e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
 
@@ -35,19 +38,19 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo inferiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -59,11 +62,11 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,9 +74,9 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi e i selettori di attributi selezionati, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante differenti. In particolare, `selected='true'` corrisponde allo stato in cui le didascalie sono visibili e `selected='false'` vengono utilizzate quando le didascalie sono nascoste.
+>Questo pulsante supporta il selettore di attributi `state` e i selettori di attributi selezionati, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato in cui le didascalie sono visibili e `selected='false'` viene utilizzato quando le didascalie sono nascoste.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Esempio: per impostare un pulsante per sottotitoli codificati di 28x28 pixel, posizionato quattro pixel dalla parte superiore e 68 pixel dal bordo destro della barra di controllo, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o non selezionato.
 
