@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -42,13 +45,13 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>L’handle della società a cui appartengono le risorse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> assetHandleArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Matrice di risorse da eliminare. </p> </td> 
@@ -69,31 +72,31 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Numero di risorse eliminate correttamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Risorse che generavano un avviso quando l'operazione tentava di eliminarle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Risorse che hanno generato un errore durante il tentativo di eliminazione dell'operazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Array di dettagli associati alle risorse che generavano un avviso quando l'operazione tentava di eliminarle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> errorDetailArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Array di dettagli associati alle risorse che generavano un errore quando l'operazione tentava di eliminarle. </p> </td> 
@@ -103,7 +106,7 @@ Sintassi
 
 ## Esempi {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Questo esempio di codice invia un handle a una società e un array di handle di risorse in una `deleteAssetsParam` richiesta al server dei servizi Web. `deleteAssetsReturn` restituisce un conteggio di successo pari a 2, a indicare che entrambe le risorse sono state eliminate.
+Questo esempio di codice invia un handle a una società e un array di handle di risorse in una richiesta `deleteAssetsParam` al server dei servizi Web. `deleteAssetsReturn` restituisce un conteggio di successo pari a 2, a indicare che entrambe le risorse sono state eliminate.
 
 **Request Contents (Richiesta contenuto)**
 
