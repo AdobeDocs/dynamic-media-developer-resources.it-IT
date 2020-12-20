@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Sintassi
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Un caso speciale di [!DNL `SingleFixedTag`] un dizionario non modificabile inizializzato sui valori [!DNL `True`] e [!DNL `False`].
+* [!DNL `BooleanTag`]: Un caso speciale di  [!DNL `SingleFixedTag`] un dizionario non modificabile inizializzato sui valori  [!DNL `True`] e  [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
