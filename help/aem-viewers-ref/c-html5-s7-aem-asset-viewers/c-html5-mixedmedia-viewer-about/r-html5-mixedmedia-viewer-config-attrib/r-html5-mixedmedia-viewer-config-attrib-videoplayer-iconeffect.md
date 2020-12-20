@@ -8,31 +8,34 @@ topic: Dynamic media
 uuid: 8e112f3c-8fa6-4c77-94c5-5027275225e7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 4%
 
 ---
 
 
 # VideoPlayer.iconeffect{#videoplayer-iconeffect}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1 `*[, *``*][, *``*][, *`countfadeautoHide`*]`
 
 <table id="table_38995A95977645AD8716203987DD9909"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra al video quando il video viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tal caso, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra al video quando il video viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questo caso, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> conteggio</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il numero massimo di volte in cui IconEffect viene visualizzato e riappare. Un valore pari a <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente all'infinito. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il numero massimo di volte in cui IconEffect viene visualizzato e riappare. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente all'infinito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dissolvenza</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dissolvenza</span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica la durata in secondi dell'animazione mostrata o nascosta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi per cui IconEffect rimane visibile prima che venga automaticamente nascosto. ovvero il tempo dopo il completamento dell'animazione con dissolvenza in entrata e prima dell'avvio dell'animazione con dissolvenza in uscita. L’impostazione <span class="codeph"> 0</span> disattiva il comportamento di disattivazione automatica delle aree. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi per cui IconEffect rimane visibile prima che venga automaticamente nascosto. ovvero il tempo dopo il completamento dell'animazione con dissolvenza in entrata e prima dell'avvio dell'animazione con dissolvenza in uscita. Un'impostazione di <span class="codeph"> 0</span> disattiva il comportamento di disattivazione automatica. </p> </td> 
   </tr> 
  </tbody> 
 </table>
