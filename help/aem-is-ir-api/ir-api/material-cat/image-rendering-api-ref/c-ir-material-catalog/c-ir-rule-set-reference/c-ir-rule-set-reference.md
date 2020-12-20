@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ Image Rendering supporta un semplice meccanismo di pre-elaborazione delle richie
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Le raccolte di regole di pre-elaborazione (set *di* regole) possono essere collegate ai cataloghi dei materiali o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non allega un catalogo materiale specifico.
+Le raccolte di regole di pre-elaborazione (*set di regole*) possono essere collegate ai cataloghi dei materiali o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non allega un catalogo materiale specifico.
 
 Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dall&#39;analizzatore delle richieste del server, compresa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. Le regole possono essere utilizzate anche per configurare e ignorare alcuni attributi del catalogo, nonché per limitare il servizio a specifici indirizzi IP client.
 
-I set di regole sono memorizzati come file di documento XML. Il percorso relativo o assoluto del file set di regole deve essere specificato in `attribute::RuleSetFile`.
+I set di regole sono memorizzati come file di documento XML. Il percorso relativo o assoluto del file del set di regole deve essere specificato in `attribute::RuleSetFile`.
 
 ## Struttura generale {#section-74faaee27fc543a2ab4a306f3a03674e}
 
@@ -47,9 +50,9 @@ I set di regole sono memorizzati come file di documento XML. Il percorso relativ
 </ruleset>
 ```
 
-Gli `<?xml>`, `<!DOCTYPE>` e `<ruleset>` gli elementi sono sempre richiesti in un file XML di set di regole valido, anche se non sono definite regole effettive.
+Gli elementi `<?xml>`, `<!DOCTYPE>` e `<ruleset>` sono sempre richiesti in un file XML di set di regole valido, anche se non sono definite regole effettive.
 
-È consentito un `<ruleset>` elemento contenente un numero qualsiasi di `<rule>` elementi.
+È consentito un elemento `<ruleset>` contenente un numero qualsiasi di elementi `<rule>`.
 
 I contenuti dei file delle regole di pre-elaborazione sono con distinzione tra maiuscole e minuscole.
 
@@ -57,15 +60,15 @@ I contenuti dei file delle regole di pre-elaborazione sono con distinzione tra m
 
 Prima di qualsiasi altra elaborazione, una richiesta HTTP in entrata viene analizzata in parte per determinare quale catalogo di materiali applicare. Una volta identificato il catalogo, viene applicato il set di regole per il catalogo selezionato (o per il catalogo predefinito, se non è stato identificato alcun catalogo specifico).
 
-La ricerca `<rule>` degli elementi viene eseguita nell&#39;ordine specificato per trovare una corrispondenza con il contenuto dell&#39; `<expression>` elemento ( *`expression`*).
+La ricerca degli elementi `<rule>` avviene nell&#39;ordine specificato per trovare una corrispondenza con il contenuto dell&#39;elemento `<expression>` ( *`expression`*).
 
-Se `<rule>` viene rilevata una corrispondenza, *`substitution`* viene applicata l&#39;opzione facoltativa e la stringa di richiesta modificata viene passata al parser di richieste del server per una normale elaborazione.
+Se viene rilevata una corrispondenza tra `<rule>`, viene applicata l&#39;opzione *`substitution`* e la stringa di richiesta modificata viene passata al parser di richieste del server per una normale elaborazione.
 
-Se non viene trovata alcuna corrispondenza valida al raggiungimento della fine del `<ruleset>` test, la richiesta viene trasmessa al parser senza modifiche.
+Se non viene eseguita alcuna corrispondenza valida quando viene raggiunta la fine del `<ruleset>`, la richiesta viene trasmessa al parser senza modifiche.
 
-## L’attributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
+## L&#39;attributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-Il comportamento predefinito può essere modificato con l&#39; `OnMatch` attributo degli `<rule>` elementi. `OnMatch` può essere impostato su `break` (predefinito), `continue`oppure `error.`
+Il comportamento predefinito può essere modificato con l&#39;attributo `OnMatch` degli elementi `<rule>`. `OnMatch` può essere impostato su  `break` (predefinito),  `continue`oppure  `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,21 +95,21 @@ Il comportamento predefinito può essere modificato con l&#39; `OnMatch` attribu
 
 ## Sostituzione degli attributi del catalogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` facoltativamente, gli elementi possono definire attributi che ignorano gli attributi del catalogo corrispondenti quando la regola viene rilevata e `OnMatch="break"` impostata correttamente. Nessun attributo viene applicato se `OnMatch="continue"` è impostato. Fare riferimento alla descrizione di `<rule>` per un elenco di attributi che possono essere controllati con le regole.
+`<rule>` gli elementi possono anche definire attributi che ignorano gli attributi del catalogo corrispondenti quando la regola viene rilevata e  `OnMatch="break"` impostata correttamente. Non vengono applicati attributi se è impostato `OnMatch="continue"`. Fare riferimento alla descrizione di `<rule>` per un elenco di attributi che possono essere controllati con le regole.
 
 ## Espressioni regolari {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 La semplice corrispondenza delle stringhe funziona per applicazioni molto semplici, ma nella maggior parte dei casi sono necessarie espressioni regolari. Sebbene le espressioni regolari siano standard di settore, l&#39;implementazione specifica varia da un&#39;istanza all&#39;altra.
 
-[il pacchetto java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descrive l’implementazione specifica delle espressioni regolari utilizzate da Image Server.
+[package java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescrive l’implementazione specifica delle espressioni regolari utilizzate da Image Server.
 
 ## Sottostringhe acquisite {#section-8057cd65d48949ffb6a50e929bd3688b}
 
 Per semplificare complesse modifiche agli URL, nell&#39;espressione possono essere acquisite delle sottostringhe racchiudendo la sottostringa con parentesi (...). Le sottostringhe acquisite vengono numerate in sequenza a partire da 1 in base alla posizione delle parentesi iniziali. Le sottostringhe acquisite possono essere inserite nella sostituzione utilizzando *`$n`*, dove *`n`* è il numero di sequenza della sottostringa acquisita.
 
-## Gestione dei file set di regole {#section-e8ce976b56404c009496426fd334d23d}
+## Gestione dei file di set di regole {#section-e8ce976b56404c009496426fd334d23d}
 
-Un file set di regole può essere allegato a ciascun catalogo di materiali con l&#39;attributo catalogo `attribute::RuleSetFile`. Anche se potete modificare il file del set di regole in qualsiasi momento, il server immagini riconosce le modifiche solo quando il catalogo materiale associato viene ricaricato. Ciò si verifica quando il server della piattaforma viene avviato o riavviato e ogni volta che il file del catalogo principale (con un suffisso di [!DNL .ini] file) viene modificato o toccato (per modificare la data del file).
+È possibile allegare un file set di regole a ciascun catalogo di materiali con l&#39;attributo di catalogo `attribute::RuleSetFile`. Anche se potete modificare il file del set di regole in qualsiasi momento, il server immagini riconosce le modifiche solo quando il catalogo materiale associato viene ricaricato. Ciò si verifica quando il server della piattaforma viene avviato o riavviato e ogni volta che il file del catalogo principale (con un suffisso di file [!DNL .ini]) viene modificato o toccato (per modificare la data del file).
 
 ## Esempi {#section-c4142a41f5cd4ff799a72fbc130c3700}
 
