@@ -1,6 +1,6 @@
 ---
-description: Il Popup Pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
-seo-description: Il Popup Pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
+description: Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
+seo-description: Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
 seo-title: Finestra a comparsa del pannello Info
 solution: Experience Manager
 title: Finestra a comparsa del pannello Info
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Finestra a comparsa del pannello Info{#info-panel-popup}
+# Popup pannello Info{#info-panel-popup}
 
-Il Popup Pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
+Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
 
 Lo sfondo del pannello Info copre l’intera area del visualizzatore ed è controllato con il seguente selettore di classe CSS:
 
@@ -29,12 +32,12 @@ Lo sfondo del pannello Info copre l’intera area del visualizzatore ed è contr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Riempimento di sfondo del pannello Info. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +63,11 @@ La finestra di dialogo del pannello Info viene visualizzata per impostazione pre
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posizione orizzontale della finestra di dialogo del pannello Info all’interno del riempimento di sfondo dell’area del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione verticale della finestra di dialogo del pannello Info all’interno dell’area del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -76,27 +79,27 @@ La finestra di dialogo del pannello Info viene visualizzata per impostazione pre
    <td colname="col2"> <p>Altezza finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Il margine sinistro della finestra di dialogo del pannello Info può essere utilizzato per centrare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Il margine superiore della finestra di dialogo del pannello Info può essere utilizzato per centrare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Margine finestra di dialogo interno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Ombra finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 
@@ -137,45 +140,45 @@ L&#39;aspetto di questo pulsante è controllato dal seguente selettore di classe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo superiore della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo destro della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo inferiore della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di `state` attributi, che consente di applicare interfacce diverse a stati di pulsante differenti.
+>Questo pulsante supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un pulsante di chiusura della finestra di dialogo di 28 x 28 pixel, posizionato 5 pixel dal bordo superiore e destro della finestra di dialogo del pannello Info, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante.
 
