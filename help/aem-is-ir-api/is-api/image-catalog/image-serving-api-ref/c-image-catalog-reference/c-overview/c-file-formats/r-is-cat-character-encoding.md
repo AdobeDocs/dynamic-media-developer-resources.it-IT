@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
-# Codifica dei caratteri{#character-encoding}
+# Codifica caratteri{#character-encoding}
 
 Image Server supporta i cataloghi di immagini con codifica ISO-8859-1 e UTF-8.
 
