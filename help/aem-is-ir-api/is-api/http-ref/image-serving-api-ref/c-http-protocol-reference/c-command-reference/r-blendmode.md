@@ -1,6 +1,6 @@
 ---
-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati in Photoshop. Per informazioni dettagliate, consultate la documentazione di Photoshop.
-seo-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati in Photoshop. Per informazioni dettagliate, consultate la documentazione di Photoshop.
+description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
+seo-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
 
 # blendMode{#blendmode}
 
-Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati in Photoshop. Per informazioni dettagliate, consultate la documentazione di Photoshop.
+Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
