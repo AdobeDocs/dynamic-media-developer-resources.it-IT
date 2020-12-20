@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Impostare XML prima o dopo un nodo.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Se un elemento nodo FXG ha un elemento `s7:elementID` definito, con questo comando è possibile aggiungere frammenti XML prima o dopo tale nodo.
+Se un elemento nodo FXG ha una `s7:elementID` definita, con questo comando è possibile aggiungere frammenti XML prima o dopo tale nodo.
 
 ## Esempio {#section-1fc8d4135ef94b60b838391e1568e70e}
 
