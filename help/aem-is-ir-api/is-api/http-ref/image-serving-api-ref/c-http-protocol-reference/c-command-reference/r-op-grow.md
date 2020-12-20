@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
@@ -25,13 +28,13 @@ Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un&#39;eruzi
  </tr> 
 </table>
 
-` *`radius`*` è espresso in pixel rispetto all’immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
+` *``*` radiosi in pixel rispetto all’immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
 
 Utilizzata principalmente per modificare le dimensioni degli effetti livello. È utile anche per ottenere effetti speciali sui livelli di testo o di colore in tinta unita con maschere.
 
 ## Proprietà {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Attributo layer. Si applica al livello corrente o all’immagine composita, se `layer=comp`.
+Attributo layer. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
 
 ## Predefinito {#section-14c908bb87cb42acbea709effea2f964}
 
