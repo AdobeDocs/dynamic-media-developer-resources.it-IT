@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +32,12 @@ L&#39;aspetto dell&#39;icona Preferiti è controllato dal seguente selettore di 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per l'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,20 +60,20 @@ Esempio: impostare un&#39;icona Preferiti da 36 x 36 pixel.
 }
 ```
 
-Sui sistemi desktop, il componente supporta il selettore `cursortype` di attributi che è possibile applicare alla `.s7favoriteseffect` classe e controlla il tipo di cursore in base all&#39;azione dell&#39;utente selezionata. The following `cursortype` values are supported:
+Sui sistemi desktop, il componente supporta il selettore di attributi `cursortype` che è possibile applicare alla classe `.s7favoriteseffect` e controlla il tipo di cursore in base all&#39;azione dell&#39;utente selezionata. Sono supportati i seguenti valori `cursortype`:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
    <td colname="col2"> <p>L'utente visualizzato sta aggiungendo una nuova icona Preferiti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
    <td colname="col2"> <p>L'utente visualizzato sta rimuovendo un'icona Preferiti esistente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
    <td colname="col2"> <p>Visualizzato in modalità normale quando la modifica Preferiti non è attiva. </p> </td> 
   </tr> 
  </tbody> 
