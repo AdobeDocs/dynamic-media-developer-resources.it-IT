@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: EmbedShare.embedsize
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedsize
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: 13a93677-5221-48d9-bea8-d291f8612f09
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
 
 
-# EmbedShare.embedsize{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza`*, *``*[,0|1][; *``*, *`altezza larghezza`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza `*, *``*[,0|1][; *``*, *`altezza larghezza`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
