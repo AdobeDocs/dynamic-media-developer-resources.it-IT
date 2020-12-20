@@ -1,6 +1,6 @@
 ---
 description: Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale cardine.
-seo-description: Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale decal.
+seo-description: Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale cardine.
 seo-title: Dimensione
 solution: Experience Manager
 title: Dimensione
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 4%
 
 ---
 
 
 # Dimensione{#size}
 
-Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale decal.
+Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale cardine.
 
 ## Proprietà {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
 Tre numeri reali separati da virgole. Non deve essere negativo. Impostate i valori non utilizzati su 0. Gli zeri finali possono essere omessi.
 
-Specificate larghezza e altezza solo se l’immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero variare). Impostare larghezza o altezza per ridimensionare l’immagine in modo proporzionale. Impostare larghezza e altezza su 0 per determinare `catalog::Resolution`le dimensioni dell’oggetto.
+Specificate larghezza e altezza solo se l’immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero variare). Impostare larghezza o altezza per ridimensionare l’immagine in modo proporzionale. Impostare larghezza e altezza su 0 per utilizzare `catalog::Resolution`per determinare le dimensioni dell&#39;oggetto.
 
 Specificare un valore di spessore per aggiungere un&#39;ombra esterna all&#39;oggetto decal. Facoltativo per i materiali di decallo, ignorati da tutti gli altri materiali.
 
@@ -40,7 +43,7 @@ Specificare un valore di spessore per aggiungere un&#39;ombra esterna all&#39;og
   <td class="stentry"> <p>L'ingombro è di 5 pollici di larghezza, l'altezza è determinata dalle proporzioni dell'immagine, e un'ombra esterna è rappresentata da uno spessore di 1 pollice. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0,5 </p></td> 
   <td class="stentry"> <p>La larghezza e l'altezza del decallo sono determinate dal catalogo::Resolution e lo spessore è di ½ pollice. </p></td> 
  </tr> 
 </table>
