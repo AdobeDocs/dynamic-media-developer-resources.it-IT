@@ -8,15 +8,18 @@ topic: Dynamic media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
 
-# Riferimento API Javascript per il visualizzatore di ricerche per eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
+# Riferimento API Javascript per il visualizzatore di ricerca per eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
 
 La classe principale del visualizzatore di ricerca per eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
 
-In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla `s7viewers.eCatalogSearchViewer` classe.
+In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla classe `s7viewers.eCatalogSearchViewer`.
 
 * [disporre](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
