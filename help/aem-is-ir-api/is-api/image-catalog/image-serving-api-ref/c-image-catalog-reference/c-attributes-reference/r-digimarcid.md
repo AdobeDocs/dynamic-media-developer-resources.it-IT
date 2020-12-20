@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +25,11 @@ Cinque o sei numeri interi separati da virgola. Il terzo e il quarto numero non 
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-L&#39; `creator-id` e `creator-pin` viene fornito da Digimarc al momento dell&#39;acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
+`creator-id` e `creator-pin` vengono forniti da Digimarc al momento dell&#39;acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
 
 `durability` specifica l&#39;intensità di incorporamento della filigrana Digimarc. Può essere 1, 2, 3 o 4, con 1 che indica una durata più debole e 4 la durata più elevata.
 
-Impostate `chroma` su 1 per codificare la filigrana nei dati di crominanza dell’immagine oppure su 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l’output delle immagini in scala di grigio.
+Impostate `chroma` su 1 per codificare la filigrana nei dati di crominanza dell&#39;immagine oppure su 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l’output delle immagini in scala di grigio.
 
 ## Predefinito {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
