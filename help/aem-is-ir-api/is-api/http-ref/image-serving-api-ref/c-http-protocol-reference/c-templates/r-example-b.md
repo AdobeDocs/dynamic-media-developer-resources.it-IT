@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Requisiti simili all’esempio A, ma con uno sfondo a colori in tinta unita e l�
  </tr> 
 </table>
 
-L’immagine viene posizionata nel livello 0 e il valore di altezza di `size=` è impostato su 0, il che determina l’altezza effettiva in base all’altezza dell’immagine dopo averla ridimensionata a 800 pixel di larghezza.
+L’immagine viene inserita nel livello 0 e il valore di altezza di `size=` è impostato su 0, il che determina l’altezza effettiva in base all’altezza dell’immagine dopo averla ridimensionata a 800 pixel di larghezza.
 
 `extend=` aggiunge 100 pixel in alto e in basso e 200 pixel a destra.
 
