@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3278c781-968a-4bde-b469-84e8dcfb0e9a
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
 
-# Panoramica del protocollo HTTP Image Rendering{#image-rendering-http-protocol-command-overview}
+# Image Rendering HTTP protocol command overview{#image-rendering-http-protocol-command-overview}
 
 I comandi supportati dal rendering delle immagini sono elencati di seguito, raggruppati per categoria.
 
