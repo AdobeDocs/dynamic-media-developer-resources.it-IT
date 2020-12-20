@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ Parametro comune a tutti i visualizzatori.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span></span> </p> </td> 
-   <td colname="col2"> <p>Percorso principale del server immagini relativo o assoluto. </p> <p> Specifica il percorso relativo o assoluto del server immagini, dal quale il visualizzatore recupera le immagini. Se il percorso non ha un percorso <span class="filepath"> /</span>iniziale, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso <span class="filepath"> /</span>iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Usate solo un percorso assoluto se nel visualizzatore è abilitato il modulo Condivisione e-mail. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>Percorso principale del server immagini relativo o assoluto. </p> <p> Specifica il percorso relativo o assoluto del server immagini, dal quale il visualizzatore recupera le immagini. Se il percorso non ha un'interlinea <span class="filepath"> /</span>, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Usate solo un percorso assoluto se nel visualizzatore è abilitato il modulo Condivisione e-mail. </p> </td> 
   </tr> 
  </tbody> 
 </table>
