@@ -15,7 +15,7 @@ ht-degree: 2%
 ---
 
 
-# Entità testo speciali{#special-text-entities}
+# Entità testo speciale{#special-text-entities}
 
 Per formattare il testo, utilizzate le seguenti entità speciali.
 
@@ -34,27 +34,27 @@ Per formattare il testo, utilizzate le seguenti entità speciali.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \line </span> </td> 
+   <td> <span class="codeph"> \line  </span> </td> 
    <td> <p>Interruzione di riga. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>Barra posteriore. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;parentesi graffa;  </span> </td> 
    <td> <p>Parentesi aperta ricci. </p> </td> 
    <td> <p>La parentesi deve essere codificata per HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rampa; </span> </td> 
+   <td> <span class="codeph"> &amp;parentesi graffa;  </span> </td> 
    <td> <p>Staffa di chiusura riccio. </p> </td> 
    <td> <p>La parentesi deve essere codificata per HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Spazio unificatore. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Per formattare il testo, utilizzate le seguenti entità speciali.
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Trattino facoltativo. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
