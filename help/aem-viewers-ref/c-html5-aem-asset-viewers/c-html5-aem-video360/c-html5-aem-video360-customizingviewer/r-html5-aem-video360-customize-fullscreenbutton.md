@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d09832e4-5058-420a-8ee9-c6b5a2d42190
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 0%
 
 ---
 
 
-# Full screen button{#full-screen-button}
+# Pulsante a schermo intero{#full-screen-button}
 
 Il pulsante a schermo intero consente al lettore video di entrare o uscire dalla modalità a schermo intero quando un utente fa clic su di esso.
 
@@ -31,19 +34,19 @@ L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di clas
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo inferiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -55,11 +58,11 @@ L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di clas
    <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,11 +70,11 @@ L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di clas
 
 >[!NOTE]
 >
->Questo pulsante supporta sia i selettori `state` che gli `selected` attributi, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;a schermo intero&quot; e `selected='false'` allo stato &quot;normale&quot;.
+>Questo pulsante supporta i selettori di attributi `state` e `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato &quot;a schermo intero&quot; e `selected='false'` corrisponde allo stato &quot;normale&quot;.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** - Per impostare un pulsante a schermo intero di 32 x 32 pixel e posizionato 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o non selezionata, viene visualizzata un’immagine diversa per ciascuno dei quattro stati del pulsante.
+**Esempio**  - Per impostare un pulsante a schermo intero di 32 x 32 pixel e posizionato 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, quando selezionato o non selezionato, viene visualizzata un’immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 
