@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PreferitiView.maxloadradius
+seo-title: FavoritesView.maxloadradius
 solution: Experience Manager
-title: PreferitiView.maxloadradius
+title: FavoritesView.maxloadradius
 topic: Dynamic media
 uuid: 52347bee-2cdf-4bb4-bb6f-eefff06b82af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
 
-# PreferitiView.maxloadradius{#favoritesview-maxloadradius}
+# FavoritesView.maxloadradius{#favoritesview-maxloadradius}
 
 ` [FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostata su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Quando è impostato su <span class="codeph"><span class="varname"> preloadnbr</span></span>, è possibile specificare quante righe invisibili intorno all'area visibile vengono precaricate. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostata su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostata su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Se è impostata su <span class="codeph"><span class="varname"> precaricatore</span></span>, è possibile specificare quante righe invisibili intorno all'area visibile vengono precaricate. </p> </td> 
   </tr> 
  </tbody> 
 </table>
