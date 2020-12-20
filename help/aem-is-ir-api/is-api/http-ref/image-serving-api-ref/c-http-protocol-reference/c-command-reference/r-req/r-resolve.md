@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bd1576a7-4802-4a87-b1c0-406f51382561
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +21,6 @@ Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, 
 
 `req=resolve`
 
-La stringa di richiesta finale viene restituita, invece dell&#39;immagine del risultato, con tipo MIME `text/plain`.
+La stringa di richiesta finale viene restituita, invece dell&#39;immagine del risultato, con il tipo MIME `text/plain`.
 
 La risposta HTTP non è memorizzabile nella cache.
