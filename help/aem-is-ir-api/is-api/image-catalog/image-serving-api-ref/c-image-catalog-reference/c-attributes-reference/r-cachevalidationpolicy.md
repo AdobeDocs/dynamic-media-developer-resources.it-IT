@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Criterio di convalida della cache del server. Specifica quando le voci della cache lato server vengono convalidate.
 
-Con la convalida basata sulla scadenza, le immagini sorgente vengono verificate periodicamente se sono state modificate o meno. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del `catalog::TimeStamp` valore.
+Con la convalida basata sulla scadenza, le immagini sorgente vengono verificate periodicamente se sono state modificate o meno. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
 
 Quando si utilizzano i cataloghi di immagini, si consiglia di eseguire una convalida basata su catalogo. La convalida basata sulla scadenza deve essere utilizzata quando alle immagini viene fatto riferimento direttamente, senza l’utilizzo di un catalogo immagini.
 
