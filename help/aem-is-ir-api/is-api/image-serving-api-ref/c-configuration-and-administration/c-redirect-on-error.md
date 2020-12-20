@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Reindirizza a errore{#redirect-on-error}
+# Reindirizza all&#39;errore{#redirect-on-error}
 
 I server IS possono essere configurati per il failover su server alternativi per le richieste che richiedono un&#39;immagine sorgente che non può essere aperta o letta correttamente.
 
@@ -23,7 +23,7 @@ I seguenti tipi di richieste vengono reindirizzati:
 
 * Immagini IS presenti nel catalogo, ma non su disco.
 
-   Se un’immagine non è presente in un catalogo, il reindirizzamento non dovrebbe essere eseguito quando l’immagine non è disponibile.
+   Se un&#39;immagine non è presente in un catalogo, il reindirizzamento non dovrebbe verificarsi se l&#39;immagine non è disponibile.
 
 * Immagini, profili colore o font danneggiati.
 * Impossibile trovare il contenuto statico su disco.
@@ -34,7 +34,7 @@ Il reindirizzamento degli errori non si verificherà in nessun altro caso.
 
 Quando attivato e quando si verifica un errore di questo tipo durante l&#39;elaborazione della richiesta, il server primario invia la richiesta al server secondario per l&#39;elaborazione. La risposta, indipendentemente dal fatto che indichi un esito positivo o negativo, viene quindi inoltrata direttamente al client. Il server principale contrassegna le voci di registro di tali richieste inoltrate con l&#39;utilizzo della cache `REMOTE`. I dati di risposta non vengono memorizzati nella cache locale dal server primario.
 
-Il reindirizzamento degli errori è abilitato impostando `PS::errorRedirect.rootUrl` il nome di dominio HTTP e il numero di porta del server secondario. Inoltre, il timeout di connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo entro il quale il server primario attende una risposta dal server secondario prima che venga restituito un errore al client con `PS::errorRedirect.socketTimeout`.
+Il reindirizzamento degli errori è abilitato impostando `PS::errorRedirect.rootUrl` sul nome di dominio HTTP e sul numero di porta del server secondario. Inoltre, il timeout di connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo entro il quale il server primario attende una risposta dal server secondario prima che venga restituito un errore al client con `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
