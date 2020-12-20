@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +33,7 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> elementi</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipo:Metadati</span> </p> </td> 
    <td colname="col3"> <p>Un array di metadati. </p> </td> 
   </tr> 
