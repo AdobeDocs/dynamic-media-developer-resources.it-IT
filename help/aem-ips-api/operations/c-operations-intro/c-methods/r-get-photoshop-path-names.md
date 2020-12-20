@@ -1,6 +1,6 @@
 ---
-description: Restituisce un array di nomi di percorsi di Photoshop per l'immagine specificata.
-seo-description: Restituisce un array di nomi di percorsi di Photoshop per l'immagine specificata.
+description: Restituisce un array di nomi di percorsi Photoshop per l'immagine specificata.
+seo-description: Restituisce un array di nomi di percorsi Photoshop per l'immagine specificata.
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Restituisce un array di nomi di percorsi di Photoshop per l&#39;immagine specificata.
+Restituisce un array di nomi di percorsi Photoshop per l&#39;immagine specificata.
 
 Sintassi
 
