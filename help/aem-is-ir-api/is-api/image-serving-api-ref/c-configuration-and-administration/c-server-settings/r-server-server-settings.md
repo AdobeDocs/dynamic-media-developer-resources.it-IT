@@ -29,11 +29,11 @@ Per Linux sono disponibili sia una versione a 32 che a 64 bit del server immagin
 
 >[!NOTE]
 >
->La modalità a 64 bit non è supportata in Windows. È `ImageServer32` possibile specificare solo l&#39;oggetto. In caso contrario, Image Server non verrà avviato.
+>La modalità a 64 bit non è supportata in Windows. È possibile specificare solo `ImageServer32`. In caso contrario, Image Server non verrà avviato.
 
-## SV::PsHeapSize - Platform Server Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Dimensione heap del server piattaforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Dimensione heap Java per Platform Server. Il valore predefinito è &quot; `512m`&quot; (512 Mbyte).
+Dimensione heap Java per il server piattaforma. Il valore predefinito è &quot; `512m`&quot; (512 Mbyte).
 
 ## IS::TcpPort, PS::isConnection.port - Porta di ascolto del server immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
