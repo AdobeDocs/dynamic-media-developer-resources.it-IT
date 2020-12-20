@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 937d2d73-5e6d-4276-a4f9-892af97a2b86
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +21,7 @@ Nome font. Il nome del volto del font, esattamente come specificato nel comando 
 
 ## Proprietà {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-Stringa di testo. Obbligatorio. Chiave di indice principale per la mappa dei font. Lo stesso font::Name può verificarsi fino a quattro volte nello stesso file di mappa dei font, ma ogni record deve avere una combinazione diversa di `font::Bold` e `font::Italic` valori.
+Stringa di testo. Obbligatorio. Chiave di indice principale per la mappa dei font. Lo stesso valore font::Name può verificarsi fino a quattro volte nello stesso file mappa font, ma ogni record deve avere una combinazione diversa di valori `font::Bold` e `font::Italic`.
 
 ## Predefinito {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
