@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,36 +23,36 @@ Tipo di richiesta. Specifica il tipo di dati richiesti.
 
 <table id="simpletable_D04D41FBB03D4992B257CCBAD7EF0E7B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> debug </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> debug  </span> </p> </td> 
   <td class="stentry"> <p>Eseguire i comandi in modalità debug. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> contents </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> contents  </span> </p> </td> 
   <td class="stentry"> <p>Restituisce informazioni sugli oggetti nella vignettatura. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> img </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> img  </span> </p> </td> 
   <td class="stentry"> <p>Eseguite i comandi e restituite l’immagine di cui è stato effettuato il rendering. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> imageprop </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> imageprop  </span> </p> </td> 
   <td class="stentry"> <p>Restituisce le proprietà della vignettatura specificata. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> map </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> map  </span> </p> </td> 
   <td class="stentry"> <p>Restituisce i dati della mappa immagine incorporati nella vignettatura. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> object </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> object  </span> </p> </td> 
   <td class="stentry"> <p>Eseguire i comandi e restituire l'immagine di cui è stato eseguito il rendering mascherata alla selezione oggetto corrente. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> prop </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> prop  </span> </p> </td> 
   <td class="stentry"> <p>Eseguire i comandi e le proprietà di ritorno dell'immagine di risposta. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> userdata </span> </p> </td> 
-  <td class="stentry"> <p>Restituisce il contenuto della <span class="codeph"> vignettatura::UserData </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> userdata  </span> </p> </td> 
+  <td class="stentry"> <p>Restituisce il contenuto della vignettatura <span class="codeph">::UserData </span>. </p> </td> 
  </tr> 
 </table>
 
@@ -69,7 +72,7 @@ Esegue i comandi specificati e restituisce l&#39;immagine di cui è stato effett
 
 `imageprops`
 
-Restituisce le proprietà selezionate del file di vignettatura o della voce di catalogo specificate nel percorso URL. Vedere [Proprietà](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) per una descrizione della sintassi di risposta e del tipo MIME di risposta. Altri comandi nella richiesta vengono ignorati. Vengono restituite le seguenti proprietà:
+Restituisce le proprietà selezionate del file di vignettatura o della voce di catalogo specificate nel percorso URL. Per una descrizione della sintassi di risposta e del tipo MIME di risposta, vedere [Properties](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a). Altri comandi nella richiesta vengono ignorati. Vengono restituite le seguenti proprietà:
 
 <table id="table_A30296D29B5D43F1B5383A887252C6B4"> 
  <thead> 
@@ -81,77 +84,77 @@ Restituisce le proprietà selezionate del file di vignettatura o della voce di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.expires </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.expires  </span> </p> </td> 
    <td colname="col2"> <p>Doppio </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Scadenza </span> o durata predefinita. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::Scadenza  </span> o durata predefinita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.height  </span> </p> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Altezza della risoluzione completa in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.iccProfile  </span> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
    <td colname="col3"> <p>nome/descrizione del profilo associato a questa vignettatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.embeddedIccProfile </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.embeddedIccProfile  </span> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
    <td colname="col3"> <p>1 se il profilo associato è incorporato nella vignettatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths  </span> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
    <td colname="col3"> <p>1 se la vignettatura incorpora i dati del percorso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.modifier </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.modifier  </span> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Modificatore </span> o vuoto se non è presente una voce di catalogo. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::Modificatore  </span> o vuoto se non è presente una voce di catalogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.pixTyp  </span> </p> </td> 
    <td colname="col2"> <p>Enum </p> </td> 
    <td colname="col3"> <p>tipo di pixel dell’immagine di risposta; possono essere 'CMYK', 'RGB' o 'BW' (per le immagini in scala di grigio). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
    <td colname="col3"> <p>Risoluzione di stampa predefinita in dpi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.timeStamp </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.timeStamp  </span> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>Data/ora di modifica (dal <span class="codeph"> catalogo::TimeStamp </span> o dal file di vignettatura). </p> </td> 
+   <td colname="col3"> <p>Data/ora di modifica (da <span class="codeph"> catalogo::TimeStamp </span> o dal file di vignettatura). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.width  </span> </p> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Larghezza ad alta risoluzione in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vignette.name </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.name  </span> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
    <td colname="col3"> <p>Nome vignettatura (stringa nome dell'oggetto vignettatura principale). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vignette.res </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res  </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
    <td colname="col3"> <p>Risoluzione massima dell'oggetto in <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unità di risoluzione del materiale </a> (in genere pixel/pollice). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vignette.res.avg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res.avg  </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
-   <td colname="col3"> <p>Risoluzione media dell'oggetto in <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unità di risoluzione </a> del materiale (in genere pixel/inc <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> risoluzione del materiale </a>h). </p> </td> 
+   <td colname="col3"> <p>Risoluzione media dell'oggetto in <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unità di risoluzione del materiale </a> (in genere pixel/inc <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> risoluzione del materiale </a>h). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vignette.res.min </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res.min  </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
    <td colname="col3"> <p>Risoluzione minima dell'oggetto in <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unità di risoluzione del materiale </a> (in genere pixel/pollice). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vignette.version </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.version  </span> </p> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Numero versione del file di vignettatura. </p> </td> 
   </tr> 
@@ -164,23 +167,23 @@ Restituisce i dati della mappa immagine inclusi nella vignettatura. Per impostaz
 
 `req=map&groupLevel=-1`
 
-I dati della mappa non vengono ridimensionati `wid=` né modificati in `hei=` altro modo. Il tipo MIME della risposta è `<text/xml>`.
+I dati della mappa non vengono ridimensionati in `wid=` o `hei=` o in altro modo modificati. Il tipo MIME della risposta è `<text/xml>`.
 
-I dati di risposta sono costituiti da un `<map>` elemento contenente un insieme di `<area>` elementi, simile al `<AREA>` tag HTML.
+I dati di risposta sono costituiti da un elemento `<map>` contenente un set di elementi `<area>`, simile al tag HTML `<AREA>`.
 
-Ogni `<area>` elemento include gli attributi standard `type=` e `coord=` , nonché un `name=` attributo, che specifica il nome o il percorso del gruppo di vignettature. Se le maschere del gruppo di oggetti corrispondente hanno aree non continue, saranno presenti più `<area>` elementi con lo stesso nome.
+Ogni elemento `<area>` include gli attributi standard `type=` e `coord=`, nonché un attributo `name=`, che specifica il nome o il percorso del gruppo di vignettature. Se le maschere del gruppo di oggetti corrispondente hanno aree non continue, saranno presenti più elementi `<area>` con lo stesso nome.
 
-Oltre agli attributi predefiniti, le vignettature possono definire attributi aggiuntivi, se lo si desidera. Tali attributi personalizzati sono definiti come attributi del gruppo di oggetti. I nomi degli attributi personalizzati devono iniziare con `map`. da includere negli `<area>` elementi. Ad esempio, se gli attributi del gruppo includono `map.href=http://www.scene7.com`, l&#39; `<area>` elemento corrispondente includerà `href="http://www.scene7.com"`.
+Oltre agli attributi predefiniti, le vignettature possono definire attributi aggiuntivi, se lo si desidera. Tali attributi personalizzati sono definiti come attributi del gruppo di oggetti. I nomi degli attributi personalizzati devono iniziare con `map`. da includere negli elementi `<area>`. Ad esempio, se gli attributi del gruppo includono `map.href=http://www.scene7.com`, l&#39;elemento `<area>` corrispondente includerà `href="http://www.scene7.com"`.
 
-Se la vignettatura non include dati di mappa, viene restituito un documento XML con un `<map>` elemento vuoto.
+Se la vignettatura non include i dati della mappa, viene restituito un documento XML con un elemento `<map>` vuoto.
 
 `object`
 
-Esegue i comandi specificati e restituisce l&#39;immagine sottoposta a rendering mascherata dalla selezione dell&#39;oggetto residuo (il gruppo o l&#39;oggetto selezionato con l&#39;ultimo `sel=` comando o `obj=` comando nella richiesta). Generalmente utilizzato insieme a un formato immagine che supporta l&#39;alfa (vedere [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)). Se viene utilizzato un formato immagine che non supporta l&#39;alfa, le aree esterne alla maschera sono nere.
+Esegue i comandi specificati e restituisce l&#39;immagine sottoposta a rendering mascherata dalla selezione dell&#39;oggetto residuo (il gruppo o l&#39;oggetto selezionato con l&#39;ultimo comando `sel=` o `obj=` nella richiesta). Generalmente utilizzato insieme a un formato immagine che supporta l&#39;alfa (vedere [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)). Se viene utilizzato un formato immagine che non supporta l&#39;alfa, le aree esterne alla maschera sono nere.
 
 `props`
 
-Esegue i comandi specificati e restituisce le proprietà della vignettatura e le proprietà del gruppo o dell&#39;oggetto, anziché l&#39;immagine di cui è stato eseguito il rendering. Per una descrizione della sintassi di risposta e del tipo MIME di risposta, vedere [Proprietà](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) . La selezione predefinita si applica a meno che `obj=` o `sel=` non sia specificata (vedere [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Esegue i comandi specificati e restituisce le proprietà della vignettatura e le proprietà del gruppo o dell&#39;oggetto, anziché l&#39;immagine di cui è stato eseguito il rendering. Per una descrizione della sintassi di risposta e del tipo MIME di risposta, vedere [Properties](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a). La selezione predefinita si applica a meno che non sia specificato anche `obj=` o `sel=` (vedere [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Nella risposta possono essere incluse le seguenti proprietà:
 
@@ -194,102 +197,102 @@ Nella risposta possono essere incluse le seguenti proprietà:
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> image.bgc </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.bgc  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
    <td> <p> Rispondi al colore di sfondo dell’immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.height </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.height  </span> </p> </td> 
    <td> <p>Intero </p> </td> 
    <td> <p> Rispondi all’altezza dell’immagine in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.iccEmbed  </span> </p> </td> 
    <td> <p> Booleano </p> </td> 
-   <td> <p>True se il profilo ICC verrà incorporato nell'immagine di risposta (vedere <span class="codeph"> iccEmbed= <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> </a> </span>). </p> </td> 
+   <td> <p>True se il profilo ICC verrà incorporato nell'immagine di risposta (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.iccProfile  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
-   <td> <p> Nome collegamento del profilo associato all'immagine di risposta (vedere <span class="codeph"><a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc= </a></span>). </p> </td> 
+   <td> <p> Nome del collegamento del profilo associato all'immagine di risposta (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06" type="reference" format="dita" scope="local"> icc= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.mask  </span> </p> </td> 
    <td> <p> Booleano </p> </td> 
    <td> <p> True se l'immagine di risposta include l'alfa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.pathEmbed  </span> </p> </td> 
    <td> <p> Booleano </p> </td> 
-   <td> <p> True se l'immagine di risposta include i dati del percorso (vedere <span class="codeph"> pathEmbed= <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> </a> </span>). </p> </td> 
+   <td> <p> True se l'immagine di risposta include i dati del percorso (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.pixTyp  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
    <td> <p> Rispondi al tipo di immagine, può essere 'CMYK', 'RGB' o 'BW' (per le immagini in scala di grigio) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.printRes </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
    <td> <p> Real </p> </td> 
    <td> <p> Risoluzione di stampa (dpi) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.quality  </span> </p> </td> 
    <td> <p>Integer, boolean </p> </td> 
-   <td> <p> Qualità JPEG e contrassegno crominanza (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a></span>) </p> </td> 
+   <td> <p> Contrassegno di qualità JPEG e crominanza (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.type </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.type  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
-   <td> <p> Mime type per l'immagine di risposta (vedere <span class="codeph"> fmt= <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c" type="reference" format="dita" scope="local"></a> </span>). </p> </td> 
+   <td> <p> Mime type per l'immagine di risposta (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c" type="reference" format="dita" scope="local"> fmt= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.width </span> </p> </td> 
+   <td> <p> <span class="codeph"> image.width  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Rispondi alla larghezza dell’immagine in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.attribute </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.attribute  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
    <td> <p> Stringa Attributi per la selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.count </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.count  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Numero di oggetti nella selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.ident </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.ident  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Rientra il valore della selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> select <span class="codeph"> selection.attribute </span>ion.name </span> </p> </td> 
+   <td> <p> <span class="codeph"> select  <span class="codeph"> selection.attribute  </span>ion.name  </span> </p> </td> 
    <td> <p> Stringa </p> </td> 
    <td> <p> Percorso del nome completo della selezione dell'oggetto corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.sovrapposizione </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.sovrapposizione  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> numero di oggetti di sovrapposizione nella selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.rendeable </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.rendeable  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p>Numero di oggetti di rendering nella selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.texturable </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.texturable  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Numero di oggetti con texture nella selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.visible </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.visible  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Mostra/nascondi lo stato corrente della selezione corrente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.zorder </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.zorder  </span> </p> </td> 
    <td> <p> Intero </p> </td> 
    <td> <p> Valore ordine Z del primo oggetto di sovrapposizione nella selezione corrente. </p> </td> 
   </tr> 
@@ -298,9 +301,9 @@ Nella risposta possono essere incluse le seguenti proprietà:
 
 `userdata`
 
-Restituisce il contenuto di `vignette::UserData`. Il server sostituirà tutte le occorrenze di `'??'` in `vignette::UserData` con terminatori di riga ( `<cr><lf>`). La risposta viene formattata come dati di testo con il tipo MIME della risposta impostato su &lt;text/plain>.
+Restituisce il contenuto di `vignette::UserData`. Il server sostituirà tutte le occorrenze di `'??'` in `vignette::UserData` con i terminatori di riga ( `<cr><lf>`). La risposta viene formattata come dati di testo con il tipo MIME della risposta impostato su &lt;text/plain>.
 
-Se l&#39;oggetto specificato nel percorso dell&#39;URL non viene risolto in una voce di mappa di vignettatura valida, o se `vignette::UserData` è vuoto, la risposta conterrà solo un terminatore di riga ( `CR/LF`).
+Se l&#39;oggetto specificato nel percorso dell&#39;URL non viene risolto in una voce di mappa di vignettatura valida, o se l&#39; `vignette::UserData` è vuoto, la risposta conterrà solo un terminatore di riga ( `CR/LF`).
 
 Tutti gli altri comandi nella stringa di richiesta vengono ignorati.
 
@@ -322,4 +325,4 @@ In caso contrario, `req=img`
 
 ## Consultate anche {#section-f7a955525fb44ef2ae7cd7ede25a96c3}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) , [attribute::ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0), [vignettatura::UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85), [Properties](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) ,  [attributo::ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0),  [vignettatura::UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85),  [Properties](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)
