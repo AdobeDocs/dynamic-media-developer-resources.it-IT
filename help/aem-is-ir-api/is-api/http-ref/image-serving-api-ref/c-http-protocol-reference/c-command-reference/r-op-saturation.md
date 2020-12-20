@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +32,7 @@ Regolate la saturazione. Modifica la saturazione di ciascun pixel visibile del l
 
 ## Proprietà {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
