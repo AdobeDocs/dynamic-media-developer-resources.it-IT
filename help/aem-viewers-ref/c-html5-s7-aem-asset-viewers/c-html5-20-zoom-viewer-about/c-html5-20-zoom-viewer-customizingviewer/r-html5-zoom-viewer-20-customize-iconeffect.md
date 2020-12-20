@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# Effetto icona{#icon-effect}
 
 L’indicatore di zoom è sovrapposto all’area di visualizzazione principale. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 
@@ -35,11 +38,11 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Grafica dell’indicatore di zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +58,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
 
 >[!NOTE]
 >
->L&#39;effetto Icona supporta il selettore `media-type` di attributi, che può essere utilizzato per applicare diversi effetti di icona su dispositivi diversi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui l&#39;input del mouse viene normalmente utilizzato e `media-type='multitouch'` corrisponde ai dispositivi con ingresso touch.
+>L&#39;effetto Icon supporta il selettore di attributi `media-type`, che può essere utilizzato per applicare effetti di icona diversi su dispositivi diversi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui l&#39;input del mouse viene normalmente utilizzato e `media-type='multitouch'` corrisponde ai dispositivi con ingresso touch.
 
 Esempio: per impostare un indicatore di zoom da 100 x 100 pixel con grafica diversa per i sistemi desktop e i dispositivi touch.
 
