@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1493'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +32,11 @@ L&#39;aspetto del pulsante di stampa è controllato dal seguente selettore di cl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> L'offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> La distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo, se si tratta del primo pulsante di una riga. </p> </td> 
   </tr> 
   <tr> 
@@ -45,21 +48,21 @@ L&#39;aspetto del pulsante di stampa è controllato dal seguente selettore di cl
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un pulsante di stampa di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
 
@@ -95,11 +98,11 @@ La sovrapposizione di sfondo che copre la pagina Web quando la finestra di dialo
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
    <td colname="col2"> <p> Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,11 +128,11 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della finestra di dialogo; </p> </td> 
   </tr> 
  </tbody> 
@@ -154,7 +157,7 @@ L&#39;intestazione della finestra di dialogo è composta da un&#39;icona, un tes
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per il contenuto dell’intestazione. </p> </td> 
   </tr> 
  </tbody> 
@@ -171,7 +174,7 @@ L’icona e il testo del titolo sono racchiusi in un contenitore aggiuntivo cont
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per l’icona dell’intestazione e il titolo. </p> </td> 
   </tr> 
  </tbody> 
@@ -188,20 +191,20 @@ L&#39;icona dell&#39;intestazione è controllata dal seguente selettore di class
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,19 +220,19 @@ Il titolo dell&#39;intestazione è controllato dal seguente selettore di classe 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Spessore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,41 +249,41 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante verticale rispetto al contenitore dell’intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante orizzontale rispetto al contenitore dell'intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare l’intestazione della finestra di dialogo con la spaziatura, l’icona da 22x22 pixel, il titolo in grassetto da 16 punti e un pulsante Chiudi da 28x28 pixel posizionato due pixel dalla parte superiore e due pixel dal lato destro del contenitore della finestra di dialogo:
 
@@ -333,7 +336,7 @@ Il piè di pagina della finestra di dialogo è costituito dai pulsanti Annulla e
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Bordo che è possibile utilizzare per separare visivamente il piè di pagina dal resto della finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +353,7 @@ Il piè di pagina dispone di un contenitore interno che mantiene entrambi i puls
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna tra il piè di pagina e i pulsanti. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,11 +370,11 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
@@ -379,7 +382,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +390,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
 
@@ -400,19 +403,19 @@ Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +423,7 @@ Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore `state` di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS identiche per gli altri pulsanti delle finestre di dialogo:
 
@@ -433,33 +436,33 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può co
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Spessore font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font per i pulsanti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Interessa l’allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Ombra esterna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Margine destro del pulsante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un piè di pagina di una finestra di dialogo con il pulsante Annulla 64x34 e il pulsante Invia a stampa 96x34, con il colore del testo e dello sfondo diversi per ogni stato del pulsante:
 
@@ -532,15 +535,15 @@ L’area della finestra di dialogo principale (tra l’intestazione e il piè di
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Altezza dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margine esterno. </p> </td> 
   </tr> 
  </tbody> 
@@ -567,7 +570,7 @@ Tutto il contenuto del modulo (come etichette e campi di input) risiede all&#39;
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -592,7 +595,7 @@ Il modulo della finestra di dialogo viene compilato riga per riga, dove ogni rig
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura della linea interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -617,11 +620,11 @@ La dimensione del blocco di contenuto finestra di dialogo è controllata dal seg
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza blocco. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura della linea interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -649,25 +652,25 @@ Questa classe non è adatta per controllare la dimensione o la posizione dell&#3
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta spessore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta famiglia di font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Colore del testo dell’etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare tutte le etichette in modo che siano di colore grigio, grassetto e con un font di nove pixel:
 
@@ -690,7 +693,7 @@ I controlli di input sono racchiusi nel contenitore e controllati con il seguent
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura a sinistra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura a sinistra  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -715,11 +718,11 @@ I pulsanti di scelta e il relativo testo della didascalia sono controllati dal s
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza totale del pulsante di scelta con una didascalia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Colore del testo della didascalia. </p> </td> 
   </tr> 
  </tbody> 
@@ -736,7 +739,7 @@ La spaziatura tra il pulsante di scelta e la relativa didascalia è controllata 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura tra il pulsante di scelta e la relativa didascalia. </p> </td> 
   </tr> 
  </tbody> 
@@ -753,11 +756,11 @@ I selettori numerici per la selezione dell&#39;intervallo di stampa sono control
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del selettore numerico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura intorno al selettore numerico. </p> </td> 
   </tr> 
  </tbody> 
@@ -792,19 +795,19 @@ Il separatore orizzontale tra la selezione dell&#39;intervallo di pagine e le se
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Bordo intorno al divisore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza divisore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>Margine esterno </p> </td> 
   </tr> 
  </tbody> 
