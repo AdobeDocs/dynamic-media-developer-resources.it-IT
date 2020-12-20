@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +28,7 @@ Parametro comune a tutti i visualizzatori.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Image Server distribuisce il file WebVTT. </p> </td> 
   </tr> 
   <tr> 
@@ -50,26 +53,26 @@ Questo visualizzatore supporta i sottotitoli codificati mediante i file WebVTT o
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>test align </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sinistra|destra|centro|inizio|fine </span> </p> </td> 
-   <td colname="col4"> <p> Controlla l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> centrale </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sinistra|destra|centro|inizio|fine  </span> </p> </td> 
+   <td colname="col4"> <p> Controlla l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> al centro </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>posizione testo </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Percentuale di inserimento nel componente VideoPlayer per l’inizio del testo della didascalia. </p> <p>Default is <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> Percentuale di inserimento nel componente VideoPlayer per l’inizio del testo della didascalia. </p> <p>Il valore predefinito è <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
    <td colname="col2"> <p>dimensione linea </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Percentuale di larghezza video utilizzata per le didascalie. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Percentuale di larghezza video utilizzata per le didascalie. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>posizione linea </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se viene espresso come numero intero senza segno di percentuale, corrisponde al numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se viene espresso come percentuale, il segno di percentuale è l'ultimo carattere, il testo della didascalia viene visualizzato con una percentuale in basso nell'area di visualizzazione. </p> <p>Default is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se viene espresso come numero intero senza segno di percentuale, corrisponde al numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se viene espresso come percentuale, il segno di percentuale è l'ultimo carattere, il testo della didascalia viene visualizzato con una percentuale in basso nell'area di visualizzazione. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,7 +82,7 @@ Tenere presente che se esistono altre funzionalità WebVTT presenti nel file Web
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto di sottotitoli WebVTT. Il file WebVTT è gestito da Image Server. </p> </td> 
   </tr> 
   <tr> 
