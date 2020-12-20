@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d5e75af0-03d6-4357-a540-4094313ed026
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 Nell&#39;esempio precedente, l&#39;oggetto localization definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
 
-Il codice della pagina Web deve trasmettere l&#39;oggetto di localizzazione al costruttore del visualizzatore come valore del `localizedTexts` campo dell&#39;oggetto di configurazione. Un&#39;opzione alternativa consiste nel passare l&#39;oggetto di localizzazione chiamando il `setLocalizedTexts(localizationInfo)` metodo .
+Il codice della pagina Web deve trasmettere l&#39;oggetto di localizzazione al costruttore del visualizzatore come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. Un&#39;opzione alternativa consiste nel passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI:
 
@@ -53,135 +56,135 @@ Sono supportati i seguenti SIMBOLI:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
    <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Stato del pulsante Riproduci pausa selezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Stato pulsante Riproduci pausa deselezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
    <td colname="col2"> <p>Riproduci stato pulsante Pausa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Scorrimento video. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Tempo video sulla barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Stato del volume modificabile selezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Volume variabile deselezionato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta della manopola del dispositivo di scorrimento del volume esposta tramite l'attributo ARIA <span class="codeph"> aria-value </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MablesVolume.TOOLTIP_VOLUME  </span> </p> </td> 
+   <td colname="col2"> <p>Etichetta della manopola del dispositivo di scorrimento del volume esposta dall'attributo ARIA <span class="codeph"> aria-value </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante a schermo intero in stato normale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante a schermo intero nello stato a schermo intero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Strumento Condivisione social network. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante di condivisione incorporato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER  </span> </p> </td> 
    <td colname="col2"> <p>Intestazione della finestra di dialogo di incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Chiudi della finestra di dialogo Incorpora, in alto a destra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>Testo del codice da incorporare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE  </span> </p> </td> 
    <td colname="col2"> <p>Casella combinata Dimensione da incorporare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Annulla". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Annulla". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Seleziona tutto". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Azione EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Azione EmbedShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Seleziona tutto". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>L'ultima voce "dimensione personalizzata" nella casella combinata delle dimensioni di incorporamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE  </span> </p> </td> 
+   <td colname="col2"> <p>L'ultima voce relativa alle "dimensioni personalizzate" nella casella combinata delle dimensioni di incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante di condivisione del collegamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
    <td colname="col2"> <p>Intestazione della finestra di dialogo del collegamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Chiudi della finestra di dialogo del collegamento in alto a destra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>Il collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Annulla". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Annulla". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Seleziona tutto". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AZIONE LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> AZIONE LinkShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Il pulsante "Seleziona tutto". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante di condivisione Facebook. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Pulsante di condivisione Twitter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR  </span> </p> </td> 
    <td colname="col2"> <p>Il messaggio di errore visualizzato quando non è possibile riprodurre il video. </p> </td> 
   </tr> 
  </tbody> 
