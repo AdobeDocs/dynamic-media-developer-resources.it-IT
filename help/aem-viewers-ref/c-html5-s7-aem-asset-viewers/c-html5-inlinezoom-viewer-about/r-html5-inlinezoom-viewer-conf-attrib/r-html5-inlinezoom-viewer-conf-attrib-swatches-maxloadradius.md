@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 15d555bc-f9f7-4d0e-809e-7a51358e5c03
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. Se è impostato su <span class="codeph"> -1</span> , tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o viene modificata la risorsa. Se impostato su <span class="codeph"> 0</span> , vengono caricati solo i campioni visibili. </p> <p><span class="codeph"> <span class="varname"> precaricamento</span></span> definisce quante righe/colonne invisibili verranno precaricate intorno all'area visibile. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. Se impostato su <span class="codeph"> -1</span> tutti i campioni verranno caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. Se impostato su <span class="codeph"> 0</span> vengono caricati solo i campioni visibili. </p> <p><span class="codeph"> <span class="varname"> Il </span></span> precaricamento definisce quante righe/colonne invisibili verranno precaricate intorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
