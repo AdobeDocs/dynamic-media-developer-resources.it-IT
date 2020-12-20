@@ -8,18 +8,21 @@ topic: Dynamic media
 uuid: 2226a368-5db5-42a1-94be-b219560e3891
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
 
-# sovrapposizione campioni{#swatchoverlay}
+# swatchoverlay{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
    <td colname="col2"> <p>Specifica il layout del visualizzatore sui dispositivi touch. Quando il parametro è impostato su <span class="codeph"> 1 </span>, il visualizzatore mostra i campioni sotto la vista principale sul desktop; sui dispositivi touch, i campioni vengono sovrapposti sulla vista principale. </p> <p>Quando il parametro è impostato su <span class="codeph"> 0 </span>, i campioni vengono visualizzati sotto la visualizzazione principale su tutti i tipi di dispositivi. </p> </td> 
   </tr> 
  </tbody> 
