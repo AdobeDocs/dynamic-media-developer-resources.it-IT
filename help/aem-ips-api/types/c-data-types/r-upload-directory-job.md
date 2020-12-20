@@ -70,7 +70,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:IllustratorOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare i file Illustrator nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per caricare  file Illustrator nel server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSottocartelle</span> </span> </td> 
@@ -80,7 +80,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:InDesignOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare i file InDesign sul server. </p> </td> 
+   <td colname="col3"> <p>Opzioni per caricare  file InDesign sul server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
@@ -95,7 +95,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Consultate <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
@@ -110,7 +110,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare i file Photoshop sul server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per caricare file Photoshop nel server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -118,7 +118,7 @@ Sintassi
    <td colname="col3"> <p>URL della destinazione di caricamento del file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Dettagli per un processo di pubblicazione di rendering immagine che viene eseguito al termine del caricamento. </p> </td> 
   </tr> 
@@ -175,12 +175,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AnnullaCompressOptions</span> </td> 
-   <td colname="col3"> <p>Estrarre ed elaborare il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> AnnullaCompressOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Estrarre ed elaborare il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni di maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Usate queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Consultate <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni di maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Usate queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
