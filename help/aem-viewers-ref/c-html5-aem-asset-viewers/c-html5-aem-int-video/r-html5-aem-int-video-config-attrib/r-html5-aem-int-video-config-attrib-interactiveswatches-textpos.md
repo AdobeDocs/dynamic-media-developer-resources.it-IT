@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fd27847-f00f-431f-8f4b-85817c4c3ac6
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine campione. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> la descrizione</span> è specificata, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. </p> <p>Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine campione. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica <span class="codeph"> tooltip</span>, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine della miniatura. </p> <p>Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
