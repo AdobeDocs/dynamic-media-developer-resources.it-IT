@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -20,20 +23,20 @@ Formato immagine di risposta.
 
 <table id="simpletable_66FAABB7BD7A4BBB815A570BEA4C1AE8"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> formato</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> jpeg| png| png-alpha| tif| tif-alpha| swf| pdf| gif| gif-alpha| fxg| fxgraw</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> format</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha | swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Specifica il formato di codifica immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione della risposta HTTP. </p> <p> <span class="codeph">  jpeg </span>: JPEG con perdita </p> <p> <span class="codeph"> png </span>: PNG senza perdita di dati </p> <p> <span class="codeph"> png-alpha </span>: PNG senza perdita di dati con canale alfa </p> <p> <span class="codeph">  tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF con canale alfa </p> <p> <span class="codeph">  swf </span>: JPEG con perdita di dati incorporati in un file Adobe swf </p> <p> <span class="codeph"> pdf </span>: immagine incorporata in PDF </p> <p> <span class="codeph"> gif </span>: GIF con 2-256 colori </p> <p> <span class="codeph"> gif-alpha </span>: GIF con 2-255 colori più trasparenza con colore chiave </p> <p> <span class="codeph"> fxg </span>: FXG con variabili e modifica DOM applicata </p> <p> <span class="codeph">  fxgraw </span>: FXG originale memorizzato sul server </p> </td> 
+  <td class="stentry"> <p> Specifica il formato di codifica immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione della risposta HTTP. </p> <p> <span class="codeph">  jpeg  </span>: JPEG con perdita </p> <p> <span class="codeph"> png  </span>: PNG senza perdita di dati </p> <p> <span class="codeph"> png-alpha  </span>: PNG senza perdita di dati con canale alfa </p> <p> <span class="codeph">  tif  </span>: TIFF </p> <p> <span class="codeph"> tif-alpha  </span>: TIFF con canale alfa </p> <p> <span class="codeph">  swf  </span>: JPEG con perdita di dati incorporati in un file swf di Adobe </p> <p> <span class="codeph"> pdf  </span>: immagine incorporata in PDF </p> <p> <span class="codeph"> gif  </span>: GIF con 2-256 colori </p> <p> <span class="codeph"> gif-alpha  </span>: GIF con 2-255 colori più trasparenza con colore chiave </p> <p> <span class="codeph"> fxg  </span>: FXG con variabili e modifica DOM applicata </p> <p> <span class="codeph">  fxgraw  </span>: FXG originale memorizzato sul server </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> rgb| grigia| cmyk</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> rgb | grigia | cmyk</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Può essere usato per applicare lo spazio colore di output. </p> <p> <span class="codeph">  rgb </span>: restituisce dati immagine RGB </p> <p> <span class="codeph"> grigio </span>: restituisce dati immagine in scala di grigio </p> <p> <span class="codeph"> cmyk </span>: restituisce dati immagine CMYK </p> </td> 
+  <td class="stentry"> <p> Può essere usato per applicare lo spazio colore di output. </p> <p> <span class="codeph">  rgb  </span>: restituisce dati immagine RGB </p> <p> <span class="codeph"> grigio  </span>: restituisce dati immagine in scala di grigio </p> <p> <span class="codeph"> cmyk  </span>: restituisce dati immagine CMYK </p> </td> 
  </tr> 
 </table>
 
@@ -41,9 +44,9 @@ Formato immagine di risposta.
 
 `qlt=` può essere utilizzato per impostare le opzioni di codifica JPEG per i seguenti formati: JPEG, TIFF con compressione JPEG. quantize= può essere utilizzato se fmt=gif o fmt=gif-alpha. Per informazioni dettagliate, fare riferimento alle descrizioni dei comandi. Gli altri formati non dispongono di opzioni impostabili.
 
-Vengono restituiti 8 bit per pixel per tutti i formati e `pixelTypes[7]`.
+Vengono restituiti 8 bit per componente pixel per tutti i formati e `pixelTypes[7]`.
 
-Nella tabella seguente sono elencate le combinazioni valide di formato e `pixelType`i tipi MIME di risposta HTTP corrispondenti.
+Nella tabella seguente sono elencate le combinazioni valide di formato e `pixelType`, i tipi MIME di risposta HTTP corrispondenti.
 
 <table id="table_54AFE58185004C74971EFBA845E177B6"> 
  <thead> 
@@ -59,42 +62,42 @@ Nella tabella seguente sono elencate le combinazioni valide di formato e `pixelT
   <tr> 
    <td> <p>jpeg </p> </td> 
    <td> <p>rgb, grigia, cmyk </p> </td> 
-   <td> <p>&lt;image/jpeg&gt; </p> </td> 
+   <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>yes </p> </td> 
    <td> <p><span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>png, png-alpha </p> </td> 
    <td> <p>rgb, grigio </p> </td> 
-   <td> <p>&lt;image/png&gt; </p> </td> 
+   <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>yes </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>tif, tif-alpha </p> </td> 
    <td> <p>rgb, grigia, cmyk </p> </td> 
-   <td> <p>&lt;image/tiff&gt; </p> </td> 
+   <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( none| lzw| zip| jpeg), qlt=</span> </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( none | lzw | zip | jpeg), qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>swf, swf-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p>&lt;application/x-shock-flash&gt; </p> </td> 
+   <td> <p>&lt;application&gt; </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p><span class="codeph"> qlt= </span> </p> </td> 
+   <td> <p><span class="codeph"> qlt=  </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>pdf </p> </td> 
    <td> <p>rgb, grigia, cmyk </p> </td> 
-   <td> <p>&lt;application/pdf&gt; </p> </td> 
+   <td> <p>&lt;application&gt; </p> </td> 
    <td> <p>yes </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>gif, gif-alpha </p> </td> 
    <td> <p>rgb, grigio </p> </td> 
-   <td> <p>&lt;image/gif&gt; </p> </td> 
+   <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p><span class="codeph"> quantizza=</span> </p> </td> 
   </tr> 
