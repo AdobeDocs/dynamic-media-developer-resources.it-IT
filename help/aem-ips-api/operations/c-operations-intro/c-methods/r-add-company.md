@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ Aggiunge una società al sistema.
 
 Invia il nome della società da aggiungere al sistema e, facoltativamente, invia l’indicazione della scadenza della società.
 
-Quando questa operazione viene chiamata, il sistema riceve un tipo ` *`companyInfo`*` che contiene un handle della società e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo ` *`companyInfo`*` contenente un handle della società e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,7 +44,7 @@ Quando questa operazione viene chiamata, il sistema riceve un tipo ` *`companyIn
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Nome della società da aggiungere. </p> </td> 
@@ -68,7 +71,7 @@ Quando questa operazione viene chiamata, il sistema riceve un tipo ` *`companyIn
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestione a nome, percorso principale, data di scadenza e ora della nuova società. </p> </td> 
