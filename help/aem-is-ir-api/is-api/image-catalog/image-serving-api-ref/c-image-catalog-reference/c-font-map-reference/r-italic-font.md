@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
 
 Bandiera corsivo.
 
-Specifica se il file di font a cui fa riferimento il record della mappa di font deve essere utilizzato quando richiesto dal comando RTF ( `\i`).
+Specifica se il file di font a cui fa riferimento il record della mappa di font deve essere utilizzato quando richiesto dal comando RTF in corsivo ( `\i`).
 
 ## Proprietà {#section-607e76490e87418496d1c6763018a14f}
 
