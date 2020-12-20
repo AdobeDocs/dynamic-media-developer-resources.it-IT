@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 244a8485-a615-4155-a5a9-9d468ac3208f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Quando è impostato su <span class="codeph"> 1</span> , il componente popola il pannello a discesa con gli elementi per tutte le pagine, anche per quelle per le quali non è definita l’etichetta. </p> <p>Se è impostato su <span class="codeph"> 0</span> , nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
+   <td> <p> Se è impostato su <span class="codeph"> 1</span>, il componente inserisce nel pannello a discesa gli elementi per tutte le pagine, anche per quelle per le quali non è definita l'etichetta. </p> <p>Se è impostata su <span class="codeph"> 0</span>, nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
