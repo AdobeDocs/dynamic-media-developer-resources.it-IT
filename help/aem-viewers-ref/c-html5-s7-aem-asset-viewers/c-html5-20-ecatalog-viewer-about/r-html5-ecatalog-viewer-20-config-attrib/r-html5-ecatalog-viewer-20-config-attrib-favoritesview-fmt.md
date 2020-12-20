@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PreferitiView.fmt
+seo-title: FavoritesView.fmt
 solution: Experience Manager
-title: PreferitiView.fmt
+title: FavoritesView.fmt
 topic: Dynamic media
 uuid: 4d9d161e-e39b-4607-9fb1-9dbfb06d7704
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
 
 
-# PreferitiView.fmt{#favoritesview-fmt}
+# FavoritesView.fmt{#favoritesview-fmt}
 
 `[FavoritesView.|<containerId>_favoritesView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
