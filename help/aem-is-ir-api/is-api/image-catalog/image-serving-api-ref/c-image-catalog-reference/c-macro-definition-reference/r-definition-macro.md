@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Definizione{#definition}
+# Definition{#definition}
 
 Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati dai caratteri &#39;&amp;&#39;.
 
