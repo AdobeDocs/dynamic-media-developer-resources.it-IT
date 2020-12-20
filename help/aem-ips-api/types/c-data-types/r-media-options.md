@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,19 +33,19 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> videoEncodingPresetsArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:HandleArray</span> </td> 
-   <td colname="col3">Un array di <span class="codeph"> PropertySet</span> gestisce il riferimento ai predefiniti di codifica video per la transcodifica di video. </td> 
+   <td colname="col3">Un array di <span class="codeph"> PropertySet</span> gestisce il riferimento ai predefiniti di codifica video per la transcodifica dei video. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> genera miniatura</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Quando è true, il primo fotogramma del video viene estratto e utilizzato come miniatura. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> thumbnailOptions <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ThumbnailOptions</span> </td> 
-   <td colname="col3">Facoltativo. Consente di scegliere un particolare fotogramma video da usare come miniatura. <p>Per specificare una miniatura, passate il tempo (in millisecondi dall’inizio del video) per il fotogramma che desiderate usare. I valori vanno da 0 alla fine del video. <p>Nota: Se specificate l’ora in modo errato, <span class="codeph"> generateMiniatura</span> per impostazione predefinita è true. </p></p><p>Vedere <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col3">Facoltativo. Consente di scegliere un particolare fotogramma video da usare come miniatura. <p>Per specificare una miniatura, passate il tempo (in millisecondi dall’inizio del video) per il fotogramma che desiderate usare. I valori vanno da 0 alla fine del video. <p>Nota: Se si specifica l'ora in modo errato, per impostazione predefinita <span class="codeph"> generateThumbnail</span> è true. </p></p><p>Vedere <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +62,9 @@ Sintassi
     </complexType>
 ```
 
-## Usato da {#section-87cb83407198432c95eaa2db9f12f9db}
+## Utilizzata da {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Il `mediaOptions` tipo viene utilizzato da:
+Il tipo `mediaOptions` è utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
