@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 15b745fb-203a-4301-b1ea-8e12ea7450e8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Tipi di risorse e conteggio per una società.
 
-I tipi di risorsa includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]e altri.
+I tipi di risorsa includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] e altri.
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | ` *`assetType`*` | `xsd:string` | Tipo di risorsa associata al conteggio. |
-| ` *`count`*` | `xsd:int` | Numero di `assetType` risorse nella società. |
+| ` *`count`*` | `xsd:int` | Numero di risorse `assetType` nella società. |
 
