@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -50,7 +53,7 @@ Controlla se un utente con una società specifica (identificata dall&#39;handle)
 
 ## Esempi {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Questo codice di esempio utilizza un parametro di handle della società, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* eseguire l&#39;accesso, questo metodo restituisce la stringa, `ValidLogin`. Se l&#39;utente *non può* eseguire l&#39;accesso, questo metodo restituisce la stringa, `InvalidLogin`.
+Questo codice di esempio utilizza un parametro di handle della società, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* eseguire l&#39;accesso, questo metodo restituisce la stringa `ValidLogin`. Se l&#39;utente *non è in grado di eseguire l&#39;accesso*, questo metodo restituisce la stringa `InvalidLogin`.
 
 **Request Contents (Richiesta contenuto)**
 
