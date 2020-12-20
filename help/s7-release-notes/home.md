@@ -1,14 +1,17 @@
 ---
-title: Note di rilascio di Adobe Dynamic Media Classic
-seo-title: Note di rilascio di Adobe Dynamic Media Classic
-description: Note di rilascio di Adobe Dynamic Media Classic
-seo-description: Note sulla versione di Adobe Dynamic Media
+title: ' Adobe Note sulla versione di Dynamic Media Classic'
+seo-title: ' Adobe Note sulla versione di Dynamic Media Classic'
+description: ' Adobe Note sulla versione di Dynamic Media Classic'
+seo-description: ' Adobe Note sulla versione di Dynamic Media'
 translation-type: tm+mt
 source-git-commit: 00791121b8c345c461d33067926424d5c2f2966b
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
 
 # Note sulla versione di Dynamic Media{#dynamic-media-release-notes}
 
-Note aggiornate sulla versione relative a [!DNL Adobe Dynamic Media Classic]parte della [!DNL Adobe Experience Manager] soluzione inclusa nel [!DNL Adobe Experience Cloud].
+Note aggiornate sulla versione di [!DNL Adobe Dynamic Media Classic] parte della soluzione [!DNL Adobe Experience Manager] in [!DNL Adobe Experience Cloud].
