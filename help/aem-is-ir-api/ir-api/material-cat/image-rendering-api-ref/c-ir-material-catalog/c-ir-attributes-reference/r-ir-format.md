@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ Formato immagine di risposta predefinito. Specifica il formato predefinito per l
 
 ## Proprietà {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Stringa di testo. Deve essere uno dei token di formato supportati dal `fmt=` comando:
+Stringa di testo. Deve essere uno dei token di formato supportati dal comando `fmt=`:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
