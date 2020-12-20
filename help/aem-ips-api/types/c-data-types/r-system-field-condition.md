@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Una condizione di ricerca del campo di sistema per l&#39;operazione searchAssets.
 
-Per i confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`, `doubleVal`o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, passate `min<Type>` e `max<Type>` i parametri e passate un `op` valore di `Between` o `NotBetween`.
+Per i confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, passare i parametri `min<Type>` e `max<Type>` e passare un valore `op` di `Between` o `NotBetween`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
