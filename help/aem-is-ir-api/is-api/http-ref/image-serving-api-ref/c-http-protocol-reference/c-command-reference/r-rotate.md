@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 3%
 
 ---
 
@@ -25,11 +28,11 @@ Ruota immagine. Ruota il livello dell’immagine, del testo o del colore in tint
  </tr> 
 </table>
 
-Gli angoli positivi ruotano in senso orario. Il punto di ancoraggio ( `anchor=` o `catalog::Anchor`) del livello funge da centro di rotazione. Il rettangolo del livello viene ingrandito e montato attorno ai dati ruotati in base alle esigenze per evitare il ritaglio. La rotazione viene applicata dopo aver riempito l’area di sfondo del livello con `color=`. `bgColor=` può essere utilizzato per aggiungere un colore di sfondo al rettangolo di selezione dopo la rotazione.
+Gli angoli positivi ruotano in senso orario. Il punto di ancoraggio del livello ( `anchor=` o `catalog::Anchor`) funge da centro di rotazione. Il rettangolo del livello viene ingrandito e montato attorno ai dati ruotati in base alle esigenze per evitare il ritaglio. La rotazione viene applicata dopo aver riempito l&#39;area di sfondo del livello con `color=`. `bgColor=` può essere utilizzato per aggiungere un colore di sfondo al rettangolo di selezione dopo la rotazione.
 
 ## Proprietà {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Livello, comando. Si applica al livello corrente o al livello 0, se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o al livello 0 se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-69475db636124a8a85f132b6d49bd592}
 
@@ -41,12 +44,12 @@ Posizionate un’etichetta &quot;In vendita&quot; vicino all’angolo in alto a 
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Per impostare le dimensioni della visualizzazione, `size=` al livello 0 viene applicato il comando `wid=` e `hei=`. Questo consente `myImageId` di ridimensionare senza modificare le dimensioni finali di `labelImage`. È inoltre necessario specificare `scl=1`se l&#39;immagine composita può essere ridimensionata in `attribute::DefaultPix` (a meno che non sia impostata su 0,0). `color=` aggiunge il colore di sfondo semi-opaco alla casella di testo prima della rotazione.
+Al livello 0 viene applicato `size=` per impostare le dimensioni della visualizzazione, anziché utilizzare `wid=` e `hei=`. Questo consente di ridimensionare `myImageId` senza modificare le dimensioni finali di `labelImage`. È inoltre necessario specificare `scl=1`, altrimenti l&#39;immagine composita potrebbe essere ridimensionata su `attribute::DefaultPix` (a meno che non sia impostata su 0,0). `color=` aggiunge il colore di sfondo semi-opaco alla casella di testo prima della rotazione.
 
-L’origine di entrambi i livelli viene impostata sugli angoli in alto a sinistra, per ottenere l’allineamento desiderato. Il punto di origine del livello 1 si applica `labelImage`dopo che è stato ruotato.
+L’origine di entrambi i livelli viene impostata sugli angoli in alto a sinistra, per ottenere l’allineamento desiderato. Il punto di origine del livello 1 si applica a `labelImage`dopo che è stato ruotato.
 
-Per un esempio di testo ruotato, consultate [Esempio A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) .
+Per un esempio di testo ruotato, vedere l&#39;esempio A[ in ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)Templates[.](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)
 
 ## Consultate anche {#section-c371ee0845994b7382c02e782d1bc595}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
