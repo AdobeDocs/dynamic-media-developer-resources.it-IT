@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 73651147-d122-4466-ad74-e5f9438a9c56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il pattern per il tempo visualizzato nella bolla temporale, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è minuti e <span class="codeph"> s</span> è secondi. </p> <p>Il numero di lettere utilizzato per ogni unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre indicate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> è 67:05. La stessa ora viene visualizzata come 1:07:5 se il pattern di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Imposta il pattern per l'ora visualizzata nella bolla temporale in cui <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è di minuti e <span class="codeph"> s</span> di secondi. </p> <p>Il numero di lettere utilizzato per ogni unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre indicate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l'ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> è 67:05. La stessa ora viene visualizzata come 1:07:5 se il pattern di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
