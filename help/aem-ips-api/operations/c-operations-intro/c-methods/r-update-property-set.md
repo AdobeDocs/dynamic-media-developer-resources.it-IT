@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 11%
 
 ---
 
@@ -37,7 +40,7 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | Sì | Gestire l&#39;insieme di proprietà. |
-| ` *`replaceProperties`*` | `xsd:string` | No | Impostare `true` in modo da sostituire le proprietà. |
+| ` *`replaceProperties`*` | `xsd:string` | No | Impostare su `true` per sostituire le proprietà. |
 | ` *`propertyArray`*` | `types:PropertyArray` | Sì | Array di proprietà aggiornate per l&#39;insieme di proprietà. |
 
 **Output (updatePropertySetReturn)**
