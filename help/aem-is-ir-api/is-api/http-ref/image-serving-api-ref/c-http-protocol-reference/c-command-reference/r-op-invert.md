@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bca91ce1-b105-42bf-b4ff-691f26218285
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ Inverti colori. Inverte ciascun componente colore per un effetto immagine negati
 
 ## Proprietà {#section-2e7a7b340dd147db9bd68ff3bfb6f4c1}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-8040bc4e2a684c629a28b155aa0ba289}
 
