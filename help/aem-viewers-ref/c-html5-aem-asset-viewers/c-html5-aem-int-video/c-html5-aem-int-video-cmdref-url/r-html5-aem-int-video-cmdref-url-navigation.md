@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eecc7458-153c-4f36-b29e-97451f275c0c
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +26,7 @@ Il visualizzatore supporta la navigazione dei capitoli video mediante file WebVT
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto di navigazione WebVTT. Image Server deve ospitare il file WebVTT. </p> </td> 
   </tr> 
  </tbody> 
