@@ -19,9 +19,9 @@ ht-degree: 0%
 
 I livelli sono composti nell’ordine specificato dal comando layer=, dove i livelli con numero superiore nascondono quelli con numero inferiore.
 
-Il livello 0 costituisce il livello di sfondo, sempre richiesto e che definisce le dimensioni dell’immagine composita. Per il livello 0 è consentito qualsiasi tipo di livello. Le dimensioni del livello 0 devono essere definite, in modo esplicito `size=` o implicito, in base all’immagine o al testo del contenuto. Le aree di altri livelli che non rientrano nell’area del livello 0 non saranno incluse nell’immagine di output.
+Il livello 0 costituisce il livello di sfondo, che è sempre richiesto e che definisce le dimensioni dell’immagine composita. Per il livello 0 è consentito qualsiasi tipo di livello. Le dimensioni del livello 0 devono essere definite, in modo esplicito utilizzando `size=` o implicitamente, in base all&#39;immagine o al testo del contenuto. Le aree di altri livelli che non rientrano nell’area del livello 0 non saranno incluse nell’immagine di output.
 
 >[!NOTE]
 >
->Dopo aver appiattito tutti i livelli, l’immagine composita viene convertita nell’immagine di risposta finale, come specificato con i comandi e gli attributi [di](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)visualizzazione.
+>Dopo aver appiattito tutti i livelli, l&#39;immagine composita viene convertita nell&#39;immagine di risposta finale, come specificato con i comandi e gli attributi [view](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).
 
