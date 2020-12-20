@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 14%
 
 ---
 
@@ -30,9 +33,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> elementi</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Elenco separato da virgole di parole chiave che vengono unite nel nodo di proprietà <span class="codeph"> dc:subject=</span> XMP. Se una virgola viene visualizzata in uno dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
+   <td colname="col3"> <p>Elenco separato da virgole di parole chiave che vengono unite nel nodo di proprietà XMP <span class="codeph"> dc:subject=</span>. Se una virgola viene visualizzata in uno dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
