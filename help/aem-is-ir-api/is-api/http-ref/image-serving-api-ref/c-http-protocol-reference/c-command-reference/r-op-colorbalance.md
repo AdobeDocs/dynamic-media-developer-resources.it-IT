@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +40,7 @@ I dati delle immagini in ingresso Grigio e CMYK vengono convertiti in RGB utiliz
 
 ## Proprietà {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini e i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini e i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
 
 ## Predefinito {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -47,4 +50,4 @@ Livello, comando. Si applica al livello corrente o all’immagine composita, se 
 
 Spinge il bilanciamento del colore verso il rosso:
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...
