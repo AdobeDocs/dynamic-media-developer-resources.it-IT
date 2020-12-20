@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 I valori dei comandi devono essere codificati http-encoded utilizzando %xx sequenze di escape, in modo che le stringhe dei valori non includano i caratteri riservati &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-In caso contrario, si applicano le regole di codifica HTTP standard. La specifica HTTP richiede la codifica dei caratteri non sicuri come &#39; (spazio), &#39;&#39;(virgolette doppie), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, nonché di tutti i caratteri di controllo, ad esempio `<return>` e `<tab>`.
+In caso contrario, si applicano le regole di codifica HTTP standard. La specifica HTTP richiede la codifica dei caratteri non sicuri come &#39; (spazio), &#39;&quot;(virgolette doppie), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, nonché di tutti i caratteri di controllo, come `<return>` e `<tab>`.
 
-**Attenzione:** Le parentesi graffe { } utilizzate come delimitatori di nidificazione delle richieste non devono essere codificate. Alcuni client e-mail codificano purtroppo le parentesi graffe nella richiesta HTTP incorporata. Se si verifica questo problema, Image Rendering consente l’uso delle parentesi ( ) invece delle parentesi graffe.
+**Attenzione:** le parentesi graffe { } utilizzate come delimitatori di nidificazione delle richieste non devono essere codificate. Alcuni client e-mail codificano purtroppo le parentesi graffe nella richiesta HTTP incorporata. Se si verifica questo problema, Image Rendering consente l’uso delle parentesi ( ) invece delle parentesi graffe.
 
 ## Esempio {#section-3edc5b8ee2354220a281b01722ad337a}
 
