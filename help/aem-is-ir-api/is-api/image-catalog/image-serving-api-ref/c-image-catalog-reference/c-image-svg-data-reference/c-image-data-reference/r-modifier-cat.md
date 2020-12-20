@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +21,7 @@ Stringa modificatore richiesta prefisso. Nessuno o più comandi Image Server sep
 
 Utilizzato per modificare in modo permanente le immagini e memorizzare il corpo dei modelli.
 
-I comandi in questo campo vengono sostituiti dagli stessi comandi nella richiesta o nel modello a cui si fa riferimento e dai comandi in `catalog::PostModifier`
+I comandi in questo campo vengono sostituiti dagli stessi comandi nella richiesta o nel modello a cui viene fatto riferimento e dai comandi in `catalog::PostModifier`
 
 Le macro sono consentite in `catalog::Modifier`, purché siano definite nello stesso catalogo o nel catalogo predefinito. È possibile utilizzare anche variabili personalizzate.
 
