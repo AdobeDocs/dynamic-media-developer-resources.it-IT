@@ -1,24 +1,27 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Supporto per il tracciamento di Adobe Analytics
+seo-title: Supporto per  tracciamento Adobe Analytics
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
+title: Supporto per  tracciamento Adobe Analytics
 topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Per impostazione predefinita, il visualizzatore invia un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del `trackEvent` visualizzatore ed elaborare l&#39; `eventInfo` argomento della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,7 +60,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
    <td colname="col2"> <p>il visualizzatore viene caricato per primo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNER  </span> </p> </td> 
    <td colname="col2"> <p>l’immagine del banner del carosello viene modificata. </p> </td> 
   </tr> 
   <tr> 
