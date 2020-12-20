@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6ec0730-1ddc-4026-939c-2c9f8ecee5c7
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Riferimento API JavaScript per il visualizzatore video interattivo.
 
 Avvia l’inizializzazione del visualizzatore video interattivo. Per questa volta, è necessario creare l’elemento DOM contenitore in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l’elemento contenitore non fa ancora parte del layout della pagina Web (ad esempio, potrebbe essere nascosto utilizzando `display:none` lo stile assegnato), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina Web riporta l’elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l&#39;elemento contenitore non fa ancora parte del layout della pagina Web (ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina Web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
 Chiamare questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 
