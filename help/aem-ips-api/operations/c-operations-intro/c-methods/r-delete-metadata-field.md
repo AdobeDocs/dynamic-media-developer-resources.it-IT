@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Questo esempio di codice elimina il campo di metadati di una società. Per eseguire questa azione, utilizza l’handle della società e la gestione dei metadati come campi `deleteMetadataFieldParam` passati al server dei servizi Web IPS.
+Questo esempio di codice elimina il campo di metadati di una società. Utilizza l&#39;handle della società e la gestione dei metadati come campi nel `deleteMetadataFieldParam` passato al server dei servizi Web IPS per eseguire questa azione.
 
 **Request Contents (Richiesta contenuto)**
 
