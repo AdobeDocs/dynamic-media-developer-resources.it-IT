@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui de
 
 Se la mappa di illuminazione specificata non è disponibile nella vignettatura di destinazione, viene usata la mappa disponibile più vicina.
 
-`illum=-1` specifica che la mappa di illuminazione viene selezionata automaticamente in base al `gloss=` valore.
+`illum=-1` specifica che la mappa di illuminazione viene selezionata automaticamente in base al  `gloss=` valore.
 
 ## Proprietà {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
