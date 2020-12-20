@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -20,16 +23,16 @@ Versione immagine/metadati Quando si lavora con contenuti che si modificano freq
 
 <table id="simpletable_3A6EBDA15B004636804E1ACEF952479A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> val </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> val  </span> </span> </p> </td> 
   <td class="stentry"> <p>Stringa della versione. </p> </td> 
  </tr> 
 </table>
 
-Image Serving include un meccanismo di controllo delle versioni che consente di ridurre la possibilità che un’applicazione utilizzi una voce cache obsoleta. Questo meccanismo prevede l’utilizzo `req=props` per ottenere le stringhe dell’identificatore di versione per i dati immagine e i metadati (ad esempio, mappe immagine o dati di destinazione di zoom). La stringa dell’identificatore di versione viene quindi aggiunta alle richieste Image Server memorizzabili nella cache con il `id=` comando .
+Image Serving include un meccanismo di controllo delle versioni che consente di ridurre la possibilità che un’applicazione utilizzi una voce cache obsoleta. Questo meccanismo prevede l&#39;utilizzo di `req=props` per ottenere le stringhe dell&#39;identificatore di versione per i dati immagine e i metadati (ad esempio, mappe immagine o dati di destinazione di zoom). La stringa dell’identificatore di versione viene quindi aggiunta alle richieste di Image Server memorizzabili nella cache con il comando `id=`.
 
-Quando un&#39;immagine sorgente o i metadati cambiano, cambia anche il valore ID versione corrispondente. L&#39;inclusione di un ID versione aggiornato con il `id=` comando assicura che non sarà più possibile accedere alle vecchie voci della cache.
+Quando un&#39;immagine sorgente o i metadati cambiano, cambia anche il valore ID versione corrispondente. L&#39;inclusione di un ID versione aggiornato con il comando `id=` garantisce che non sarà più possibile accedere alle vecchie voci della cache.
 
-Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ciascun `req=` tipo:
+Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ciascun tipo `req=`:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
@@ -70,7 +73,7 @@ Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di vers
  </tbody> 
 </table>
 
-`req=` i tipi non elencati sopra dispongono di un TTL breve ( `attribute::NonImgExpiration`) o le loro risposte non sono affatto memorizzabili nella cache; non vi è alcun vantaggio da includere `id=` con tali richieste.
+`req=` i tipi non elencati sopra dispongono di un TTL breve (  `attribute::NonImgExpiration`) o le loro risposte non sono affatto memorizzabili nella cache; non vi è alcun vantaggio nell&#39;includere  `id=` tali richieste.
 
 ## Proprietà {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -82,8 +85,8 @@ Nessuno.
 
 ## Esempio {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Consultate la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) , ad esempio l’utilizzo.
+Vedere la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), ad esempio l&#39;utilizzo.
 
-## See Also {#section-6b4befb47202415195a68516f60e9988}
+## Vedere anche {#section-6b4befb47202415195a68516f60e9988}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), [catalogo::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a), [attributo::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3),  [catalogo::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a),  [attributo::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
