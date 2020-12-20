@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l’etichetta rispetto alla miniatura del campione. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Quando <span class="codeph"> la descrizione</span> è specificata, non viene disegnata alcuna etichetta. </p> </td> 
+   <td> <p> Specifica dove viene disegnata l’etichetta rispetto alla miniatura del campione. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Quando si specifica <span class="codeph"> tooltip</span>, non viene disegnata alcuna etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
