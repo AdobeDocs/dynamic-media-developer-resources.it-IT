@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 29%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Visualizzare gli indicatori di stampa. Specifica come visualizzare gli indicatori di stampa.
 
-` printerMark= *`trim`*, *`marksbleed`*, *`marksregistration`*, *`markscolor`*, *`barspage`*, *``*, *`informationstyleline`*, *`Weight Layer incorporato`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`marksregistration `*, *`markscolor `*, *`barspage `*, *``*, *`informationstyleline `*, *`Weight Layer incorporato`*`
 
 I diversi indicatori possono essere disattivati o attivati. È inoltre possibile controllare lo stile degli indicatori di stampa.
 
