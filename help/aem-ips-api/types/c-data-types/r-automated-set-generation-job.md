@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 3%
 
 ---
 
@@ -30,27 +33,27 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetHandleArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:HandleArray</span> </td> 
    <td colname="col3">Un array di handle di risorsa utilizzato per creare il set. <p>Per impostazione predefinita, 1000 è il numero massimo di risorse disponibili nell'array. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Percorso della cartella in cui salvare i set. Salva nella cartella principale della società per impostazione predefinita. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Imposta un flag che indica se le risorse devono essere pubblicate o meno. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Un array di script di generazione di set da eseguire sui file caricati. Vedere <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Configurate una notifica e-mail automatica per il processo. </p> </td> 
   </tr> 
@@ -59,7 +62,7 @@ Sintassi
 
 **opzioni emailSetting**
 
-Il `emailSetting` parametro include le seguenti opzioni:
+Il parametro `emailSetting` include le seguenti opzioni:
 
 | Opzione | Restituisce |
 |---|---|
