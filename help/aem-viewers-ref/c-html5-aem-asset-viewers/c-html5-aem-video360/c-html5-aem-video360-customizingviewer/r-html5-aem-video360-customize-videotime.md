@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f8ba615f-661a-4750-bdf7-559650d464af
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 0%
 
 ---
 
 
-# Video time{#video-time}
+# Ora video{#video-time}
 
 L&#39;ora video è la visualizzazione numerica che mostra l&#39;ora e la durata correnti del video attualmente in riproduzione.
 
@@ -31,11 +34,11 @@ L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CS
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +46,11 @@ L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CS
    <td colname="col2"> <p> La larghezza del controllo del tempo video. Questa proprietà è necessaria per il corretto funzionamento di Internet Explorer 8 o versione successiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font da utilizzare per il testo di visualizzazione dell'ora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>La dimensione del font da utilizzare per il testo di visualizzazione dell'ora. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +60,7 @@ L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CS
  </tbody> 
 </table>
 
-**Esempio** - Imposta il tempo video su grigio chiaro (esadecimale `#BBBBBB`), con dimensioni pari a 12 pixel, 15 pixel nella parte superiore della barra di controllo e 80 pixel dai bordi superiore e destro della barra di controllo.
+**Esempio** : imposta il tempo video su grigio chiaro (esadecimale  `#BBBBBB`), con dimensioni pari a 12 pixel, 15 pixel nella parte superiore della barra di controllo e 80 pixel dai bordi superiore e destro della barra di controllo.
 
 ```
 .s7video360viewer .s7videotime { 
