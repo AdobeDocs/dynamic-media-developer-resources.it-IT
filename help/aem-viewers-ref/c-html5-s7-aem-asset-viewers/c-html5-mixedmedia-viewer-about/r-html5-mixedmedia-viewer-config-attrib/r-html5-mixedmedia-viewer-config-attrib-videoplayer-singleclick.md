@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 90664bad-10e4-47fb-a630-a5c25a5beb79
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura del singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Se si imposta su <span class="codeph"> none</span> , il tocco o il clic singolo viene disattivato per la riproduzione o la pausa. Se è impostato su <span class="codeph"> Pausa</span>, facendo clic sul video si passa dalla riproduzione alla messa in pausa. In alcuni dispositivi è possibile utilizzare i controlli nativi. In tal caso, <span class="codeph"> il comportamento di un singolo clic</span> è disabilitato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura del singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Se si imposta su <span class="codeph"> none</span>, il tocco o il clic singolo viene disattivato per la riproduzione o la pausa. Se è impostato su <span class="codeph"> playPause</span>, facendo clic sul video si passa dalla riproduzione alla pausa. In alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, il comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
