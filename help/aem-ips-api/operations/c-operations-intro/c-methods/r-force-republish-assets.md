@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -42,25 +45,25 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestite la società che contiene le risorse da reimpostare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di distribuzione. Il valore predefinito è <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per distribuire la risorsa vengono sincronizzati per garantire che sia corrente. Questo parametro viene utilizzato per risolvere le condizioni di gara che potrebbero verificarsi in caso di aggiornamenti simultanei allo stesso record. Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetHandleArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:HandleArray</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Array di handle per risorse il cui stato di pubblicazione deve essere reimpostato. </p> </td> 
@@ -81,7 +84,7 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Array di aggiornamenti dello stato di pubblicazione. </p> </td> 
