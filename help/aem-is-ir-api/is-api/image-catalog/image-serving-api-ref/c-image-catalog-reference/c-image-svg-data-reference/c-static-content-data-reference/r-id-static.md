@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 45a79636-3fa9-4f2a-98bb-a46c9b627dd4
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ In genere, un identificatore breve e univoco, ad esempio un numero SKU, può con
 
 ## Proprietà {#section-874a6853f67b4b229341ca76682884ae}
 
-Stringa di testo. Obbligatorio. Identificatore del record per la tabella di dati immagine/SVG o di contenuto statico. Ogni `catalog::Id` valore presente nel catalogo immagini/catalogo SVG o nel catalogo di contenuti statici deve essere univoco e non deve includere caratteri &#39;,&#39;.
+Stringa di testo. Obbligatorio. Identificatore del record per la tabella di dati immagine/SVG o di contenuto statico. Ogni valore `catalog::Id` all&#39;interno di questo catalogo immagini/catalogo SVG o all&#39;interno di questo catalogo di contenuti statico deve essere univoco e non deve includere caratteri &#39;,&#39;.
 
 ## Predefinito {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
