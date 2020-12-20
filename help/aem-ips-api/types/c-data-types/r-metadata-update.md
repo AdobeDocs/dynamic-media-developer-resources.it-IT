@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
@@ -32,37 +35,37 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Handle del campo metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valore di aggiornamento metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Valore dei metadati booleani (solo per i campi di tipo booleano). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> Valore metadati lungo (solo per i campi con tipo int). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> Valore di metadati doppio (solo per i campi con tipo mobile). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Valore metadati data (solo per i campi con tipo data). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> addTagValueArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> <p>Aggiunge all’elenco dei valori dei tag esistenti per la risorsa. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
@@ -71,7 +74,7 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3">Sostituisce l’elenco di valori tag esistente per la risorsa. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
@@ -80,7 +83,7 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> Elimina i valori specificati dall'elenco dei valori tag della risorsa, se presente. </td> 
   </tr> 
