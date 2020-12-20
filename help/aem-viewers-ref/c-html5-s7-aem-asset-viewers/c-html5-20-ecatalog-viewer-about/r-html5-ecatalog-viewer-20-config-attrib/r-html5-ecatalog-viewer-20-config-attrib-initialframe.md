@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica un indice di estensione basato su zero da visualizzare durante il caricamento del visualizzatore. L'indice corrisponde all'indice della pagina di estensione in modalità orizzontale. Se il visualizzatore viene ruotato in verticale, il visualizzatore visualizza la pagina più a sinistra della pagina affiancata a cui è indirizzato <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Specifica un indice di estensione basato su zero da visualizzare durante il caricamento del visualizzatore. L'indice corrisponde all'indice della pagina di estensione in modalità orizzontale. Se il visualizzatore viene ruotato in verticale, il visualizzatore visualizza la pagina più a sinistra dalla pagina affiancata a cui punta <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
