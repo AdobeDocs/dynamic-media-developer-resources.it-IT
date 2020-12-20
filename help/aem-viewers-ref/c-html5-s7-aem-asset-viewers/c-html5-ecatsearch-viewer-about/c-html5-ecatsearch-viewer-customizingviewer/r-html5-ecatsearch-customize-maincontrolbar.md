@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -31,11 +34,11 @@ L&#39;aspetto della barra di controllo principale è controllato dal seguente se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione nella parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione nella parte inferiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +46,13 @@ L&#39;aspetto della barra di controllo principale è controllato dal seguente se
    <td colname="col2"> <p>Altezza della barra di controllo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare una barra di controllo principale grigia alta 36 pixel e posizionata nella parte superiore del contenitore del visualizzatore.
+**Esempio**  - per impostare una barra di controllo principale grigia alta 36 pixel e posizionata nella parte superiore del contenitore del visualizzatore.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -75,7 +78,7 @@ La funzione di scorrimento è attivata per la barra di controllo principale ed �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Se impostata su <span class="codeph"> statica, </span> la funzione di scorrimento è disabilitata. </p> <p>Impostate questa proprietà su <span class="codeph"> assoluta </span> per abilitare la funzione di scorrimento. </p> </td> 
+   <td colname="col2"> <p>Se è impostata su <span class="codeph"> statica </span>, la funzione di scorrimento è disabilitata. </p> <p>Impostate questa proprietà su <span class="codeph"> assoluto </span> per abilitare la funzione di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +102,7 @@ L&#39;aspetto di questo contenitore di pulsanti di scorrimento è controllato da
    <td colname="col2"> <p>In genere deve essere uguale o maggiore della larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del contenitore. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,29 +123,29 @@ L&#39;aspetto di questo pulsante è controllato dal seguente selettore di classe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p>Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta i selettori `state` e `selected` attributo, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `state="selected"` corrisponde allo stato iniziale del pulsante di scorrimento quando è possibile scorrere il contenuto della barra di controllo verso sinistra; corrisponde `state="default"` allo stato in cui si scorre il contenuto completamente verso sinistra e il pulsante di scorrimento suggerisce di riportarlo allo stato iniziale.
+>Questo pulsante supporta i selettori di attributi `state` e `selected`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `state="selected"` corrisponde allo stato iniziale del pulsante di scorrimento quando è possibile scorrere il contenuto della barra di controllo verso sinistra; `state="default"` corrisponde allo stato di scorrimento del contenuto verso sinistra e il pulsante di scorrimento suggerisce di riportarlo allo stato iniziale.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, consultate [Localizzazione degli elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia utente.
+La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 **Esempio** : per abilitare la funzione di scorrimento nella barra di controllo principale per i telefoni cellulari, e impostare un pulsante di scorrimento di 64 x 64 pixel che visualizzi un&#39;immagine diversa per ciascuno dei 4 stati di pulsante diversi se selezionato o non selezionato:
 
