@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b95cef30-41ad-47d5-b0f1-efc8831c7bdc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +24,13 @@ Riferimento API JavaScript per il visualizzatore video.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa </span></span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nuovo ID risorsa o set di immagini esplicito con modificatori Image Server facoltativi aggiunti dopo <span class="codeph"> ? </span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} nuovo ID risorsa o set di immagini esplicite con modificatori Image Server facoltativi aggiunti dopo <span class="codeph"> ? </span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta una nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene richiamata, `init()`il visualizzatore scambia la risorsa in fase di esecuzione.
+Imposta una nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di esecuzione.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
