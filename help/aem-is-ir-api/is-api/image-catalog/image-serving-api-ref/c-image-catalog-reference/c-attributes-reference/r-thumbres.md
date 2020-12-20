@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 3%
 
 ---
 
 
 # ThumbRes{#thumbres}
 
-Risoluzione predefinita delle miniature. Fornisce un valore predefinito per la risoluzione dell&#39;oggetto miniatura nel caso in cui un determinato record di catalogo non contenga un valore valido per il catalogo::ThumbRes.
+Risoluzione predefinita delle miniature. Fornisce un valore predefinito per la risoluzione dell&#39;oggetto miniatura nel caso in cui un determinato record catalogo non contenga un valore valido per il catalogo::ThumbRes.
 
 Utilizzata solo per le richieste di miniature ( `req=tmb`) e quando `catalog::ThumbType=3`.
 
