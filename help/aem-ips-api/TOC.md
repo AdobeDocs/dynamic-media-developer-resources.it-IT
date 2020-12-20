@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: API Dynamic Media Image Production System
+user-guide-title: API di Dynamic Media Image Production System
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,9 +12,9 @@ ht-degree: 2%
 ---
 
 
-# API Dynamic Media Image Production System {#image-production-api}
+# API di Dynamic Media Image Production System {#image-production-api}
 
-+ [Risorse per sviluppatori di contenuti multimediali dinamici](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Risorse per sviluppatori Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [Informazioni su Dynamic Media Image Production System API](c-overview.md)
 + [Chiamate obsolete](c-deprecated-calls.md)
 + [Versioni WSDL servizio Web IPS](c-wsdl-versions.md)
@@ -43,7 +43,7 @@ ht-degree: 2%
       + [createDeriedAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
       + [createFolder](operations/c-operations-intro/c-methods/r-create-folder.md)
       + [createImageSet](operations/c-operations-intro/c-methods/r-create-image-set.md)
-      + [deleteMetadataField](operations/c-operations-intro/c-methods/r-create-metadata-field.md)
+      + [createMetadataField](operations/c-operations-intro/c-methods/r-create-metadata-field.md)
       + [createProject](operations/c-operations-intro/c-methods/r-create-project.md)
       + [createPropertySet](operations/c-operations-intro/c-methods/r-create-property-set.md)
       + [createPropertySetType](operations/c-operations-intro/c-methods/r-create-property-set-type.md)
@@ -121,7 +121,7 @@ ht-degree: 2%
       + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPacket](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
-      + [getAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
+      + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
       + [moveAssets](operations/c-operations-intro/c-methods/r-move-assets.md)
       + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
@@ -132,7 +132,7 @@ ht-degree: 2%
       + [removeGroupMembership](operations/c-operations-intro/c-methods/r-remove-group-membership.md)
       + [removeProjectAssets](operations/c-operations-intro/c-methods/r-remove-project-assets.md)
       + [renameAsset](operations/c-operations-intro/c-methods/r-rename-asset.md)
-      + [IlNomeCartella](operations/c-operations-intro/c-methods/r-rename-folder.md)
+      + [renameFolder](operations/c-operations-intro/c-methods/r-rename-folder.md)
       + [renameProject](operations/c-operations-intro/c-methods/r-rename-project.md)
       + [replaceImage](operations/c-operations-intro/c-methods/r-replace-image.md)
       + [restoreAssetsFromTrash](operations/c-operations-intro/c-methods/r-restore-assets-from-trash.md)
@@ -413,8 +413,8 @@ ht-degree: 2%
    + [Impostazioni e-mail](string-constants/c-string-constants/r-email-settings.md)
    + [Stili font](string-constants/c-string-constants/r-font-styles.md)
    + [Tipi di font](string-constants/c-string-constants/r-font-types.md)
-   + [Auto generazione](string-constants/c-string-constants/r-generation-info.md)
-   + [processi Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [Informazioni sulla generazione](string-constants/c-string-constants/r-generation-info.md)
+   + [ processi Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Tipi di file registro processi](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campi ordinamento registro processo](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipi di registro processo](string-constants/c-string-constants/r-job-log-types.md)
@@ -448,32 +448,32 @@ ht-degree: 2%
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
 + Registro delle modifiche {#change-log}
    + [Registro delle modifiche](change-log/c-change-log.md)
-   + Version 6.0 {#version-6-0}
+   + Versione 6.0 {#version-6-0}
       + [Versione 6.0](change-log/c-change-log/c-6/c-6.md)
       + [Operazioni: Nuovo e modificato](change-log/c-change-log/c-6/r-6-operations.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-6/r-6-types.md)
-   + Version 4.5 {#version-4-5}
+   + Versione 4.5 {#version-4-5}
       + [Versione 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [Operazioni: Nuovo e modificato](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [Uso limitato](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + Version 4.4 {#version-4-4}
+   + Versione 4.4 {#version-4-4}
       + [Versione 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [Operazioni: Nuovo e modificato](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [Costanti stringa: Nuovo e modificato](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + Version 4.2 {#version-4-2}
+   + Versione 4.2 {#version-4-2}
       + [Versione 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + Version 4.0 {#version-4-0}
+   + Versione 4.0 {#version-4-0}
       + [Versione 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [Nuove aggiunte e modifiche](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + Version 3.8 {#version-3-8}
+   + Versione 3.8 {#version-3-8}
       + [Versione 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [Operazioni: Nuovo e modificato](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [Costanti stringa: Nuovo e modificato](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + Version 3.7 {#version-3-7}
+   + Versione 3.7 {#version-3-7}
       + [Versione 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Operazioni: Nuovo e modificato](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [Tipi di dati: Nuovo e modificato](change-log/c-change-log/c-3-7/r-3-7-types.md)
