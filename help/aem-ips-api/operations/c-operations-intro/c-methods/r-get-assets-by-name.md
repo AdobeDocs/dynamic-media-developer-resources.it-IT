@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 9%
 
 ---
 
@@ -48,61 +51,61 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L'handle della società. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Fornisce l'accesso come altro utente. Disponibile solo per gli amministratori. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Utilizzato per filtrare in base a un gruppo specifico. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Array di nomi di risorse da recuperare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di tipi di risorse consentiti per le risorse recuperate. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di tipi di risorse esclusi per le risorse recuperate. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetSubTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Array di sottotipi di risorse consentiti per le risorse recuperate. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non sono vuoti, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span> . </p> <p>Se è <span class="codeph"> false</span>, vengono incluse anche le risorse senza sottotipo definito. </p> <p>The default value is <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se <span class="codeph"> false</span>, vengono incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Contiene un elenco di campi e sottocampi inclusi nella risposta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Contiene un elenco di campi e sottocampi esclusi dalla risposta. </td> 
