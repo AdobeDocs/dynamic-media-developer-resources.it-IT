@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
       ]&gt;</code> </p> <p>La sintassi effettiva per il modello di contenuto è la seguente: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>In altre parole, il modello deve iniziare con l'elemento <span class="codeph"> &lt;info&gt;</span> che può contenere elementi <span class="codeph"> &lt;var&gt;</span> predefiniti facoltativi. Il contenuto del modello stesso, <span class="codeph"> TEMPLATE_CONTENT</span> è testo HTML. Inoltre, il modello di contenuto può contenere nomi di variabili racchiusi in <span class="codeph"> $</span> fonts che vengono sostituiti con i valori variabili restituiti dal server informazioni o con quelli predefiniti. </p> <p>Le variabili predefinite definite nel modello possono essere globali (se l’attributo di rollover non è impostato) o specifiche per una determinata chiave di rollover (se è presente l’attributo di rollover). </p> <p>Durante l'elaborazione dei modelli, le variabili specifiche per il passaggio del mouse sulle chiavi hanno la precedenza sulle variabili globali. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>In altre parole, il modello deve iniziare con l'elemento <span class="codeph"> &lt;info&gt;</span> che può contenere elementi <span class="codeph"> &lt;var&gt;</span> facoltativi predefiniti. Il contenuto del modello stesso, <span class="codeph"> TEMPLATE_CONTENT</span> è testo HTML. Inoltre, il modello di contenuto può contenere nomi di variabili racchiusi tra <span class="codeph"> $</span> che vengono sostituiti con i valori variabili restituiti dal server Info o con quelli predefiniti. </p> <p>Le variabili predefinite definite nel modello possono essere globali (se l’attributo di rollover non è impostato) o specifiche per una determinata chiave di rollover (se è presente l’attributo di rollover). </p> <p>Durante l'elaborazione dei modelli, le variabili specifiche per il passaggio del mouse sulle chiavi hanno la precedenza sulle variabili globali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +51,6 @@ Nessuno.
 
 ## Esempio {#section-16d184665c484964af9a22f79ff3f840}
 
-Presupponendo che la risposta del server informazioni restituisca il nome del prodotto come variabile `$1$` e l’URL dell’immagine del prodotto viene restituito come variabile `$2$`.
+Presupponendo che la risposta del server informazioni restituisca il nome del prodotto come variabile `$1$` e che l&#39;URL dell&#39;immagine del prodotto venga restituito come variabile `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
