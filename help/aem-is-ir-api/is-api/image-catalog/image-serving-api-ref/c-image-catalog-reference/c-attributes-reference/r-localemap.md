@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 1%
 
 ---
 
@@ -33,19 +36,19 @@ Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immag
  </tr> 
 </table>
 
-`LocaleMap` si riferisce a un `locId` oggetto che può essere mappato a qualsiasi numero di `locSuffix`.
+`LocaleMap` si riferisce a un numero  `locId` che può essere mappato a qualsiasi numero di  `locSuffix`.
 
-Empty *`locSuffix`* values are permitted. *`locSuffix`* i valori devono essere ordinati nell&#39;ordine in cui devono essere cercati. Viene restituita la prima corrispondenza.
+I valori *`locSuffix`* vuoti sono consentiti. *`locSuffix`* i valori devono essere ordinati nell&#39;ordine in cui devono essere cercati. Viene restituita la prima corrispondenza.
 
-Image Server cerca nei *`locId`* valori una corrispondenza senza distinzione tra maiuscole e minuscole con il `locale=` valore specificato nella richiesta. Se viene trovata una corrispondenza, il primo *`locSuffix`* valore associato viene aggiunto all’ID catalogo originale. Se esiste già, viene utilizzato, altrimenti viene provato il *`locSuffix`* valore successivo. Se nessuno dei *`locSuffix`* valori corrisponde a una voce di catalogo, Image Server restituisce un errore o un&#39;immagine predefinita.
+Image Server cerca nei valori *`locId`* una corrispondenza senza distinzione tra maiuscole e minuscole con il valore `locale=` specificato nella richiesta. Se viene trovata una corrispondenza, il primo valore associato *`locSuffix`* viene aggiunto all&#39;ID catalogo originale. Se esiste già, viene utilizzato, altrimenti viene provato il valore successivo *`locSuffix`*. Se nessuno dei valori *`locSuffix`* corrisponde a una voce di catalogo, Image Server restituisce un errore o un&#39;immagine predefinita.
 
-Un *`locId`* valore vuoto corrisponde a stringhe vuote e sconosciute `locale=` . Questo consente di definire una regola predefinita per le lingue sconosciute.
+Un valore vuoto *`locId`* corrisponde a stringhe vuote e sconosciute `locale=`. Questo consente di definire una regola predefinita per le lingue sconosciute.
 
 Quando abilitata, la traduzione ID viene applicata a tutti gli ID che fanno riferimento a voci di catalogo immagini e di catalogo di contenuti statici.
 
 ## Proprietà {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Uno o più elementi, separati da|, in cui ogni elemento è costituito da due o più valori stringa separati da virgole. *`locId`* e `locale=` vengono confrontati. Senza distinzione tra maiuscole e minuscole.
+Uno o più elementi, separati da |, in cui ogni elemento è costituito da due o più valori stringa separati da virgole. *`locId`* e  `locale=` vengono confrontati. Senza distinzione tra maiuscole e minuscole.
 
 ## Consultate anche {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 
