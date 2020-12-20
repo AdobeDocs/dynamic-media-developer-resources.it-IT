@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 368cef00-3009-4694-a014-746e4aa7df20
 translation-type: tm+mt
 source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 
-# Riferimento del protocollo server FXG{#fxg-server-protocol-reference}
+# Riferimento del protocollo del server FXG{#fxg-server-protocol-reference}
 
 Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
 
