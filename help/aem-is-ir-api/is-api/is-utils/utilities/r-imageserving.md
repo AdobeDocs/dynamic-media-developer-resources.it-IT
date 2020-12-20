@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
 
-# ImageServer{#imageserving}
+# ImageServing{#imageserving}
 
 Script di controllo Image Server. Questo script viene utilizzato per avviare, arrestare o riavviare Image Server Supervisore, che a sua volta avvia, arresta o riavvia tutti gli altri componenti Image Server.
 
@@ -31,11 +34,11 @@ Script di controllo Image Server. Questo script viene utilizzato per avviare, ar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
    <td colname="col2"> <p> Avviate il Server Supervisore e tutti gli altri componenti Image Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
    <td colname="col2"> <p> Arrestate tutti i componenti Image Server, incluso il server di supervisione. </p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +46,11 @@ Script di controllo Image Server. Questo script viene utilizzato per avviare, ar
    <td colname="col2"> <p>Riavviate tutti i componenti Image Server, incluso il server di sorveglianza. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riavvio { ps| is| svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riavvio { ps | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Riavvia Tomcat/Platform Server, Image Server o SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps| is| svg ] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
    <td colname="col2"> <p>Restituisce informazioni sull’utilizzo del tempo di attività e della memoria corrente per Image Server, Tomcat/Platform Server e SVGserver, oppure lo stato solo per il server specificato; se il Server Supervisore non è in esecuzione, viene restituito un messaggio informativo. </p> </td> 
   </tr> 
  </tbody> 
