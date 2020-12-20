@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: InfoPanelPopup.showhidetransizioni
+seo-title: InfoPanelPopup.showhidetransition
 solution: Experience Manager
-title: InfoPanelPopup.showhidetransizioni
+title: InfoPanelPopup.showhidetransition
 topic: Dynamic media
 uuid: 95ef4138-2a3e-44ae-8b28-6db8d3e46f9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 12%
 
 ---
 
 
-# InfoPanelPopup.showhidetransizioni{#infopanelpopup-showhidetransition}
+# InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
 ` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`time`*]`
 
