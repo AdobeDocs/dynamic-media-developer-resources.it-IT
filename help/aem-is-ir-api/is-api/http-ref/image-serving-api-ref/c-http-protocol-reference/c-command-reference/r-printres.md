@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
  </tr> 
 </table>
 
-La risoluzione di stampa è normalmente definita `catalog::PrintResolution` in caso di voce di catalogo, altrimenti viene utilizzata per il valore di risoluzione di stampa incorporato nell’immagine sorgente. Nel caso di un modello o di un’immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta corrisponde alla risoluzione di stampa dell’immagine del livello con il numero di livello più basso.
+La risoluzione di stampa è normalmente definita da `catalog::PrintResolution` nel caso di una voce di catalogo, altrimenti dal valore di risoluzione di stampa incorporato nell&#39;immagine di origine. Nel caso di un modello o di un’immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta corrisponde alla risoluzione di stampa dell’immagine del livello con il numero di livello più basso.
 
 L&#39;impostazione della risoluzione di stampa non modifica la dimensione in pixel dell&#39;immagine di risposta.
 
