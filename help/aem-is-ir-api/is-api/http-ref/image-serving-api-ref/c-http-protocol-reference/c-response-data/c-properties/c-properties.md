@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # Proprietà{#properties}
 
-I dati delle proprietà vengono restituiti in risposta ai seguenti `req=` tipi:
+I dati delle proprietà vengono restituiti in risposta ai seguenti tipi `req=`:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` le risposte sono formattate come proprietà solo quando il contenuto delle `catalog::UserData` proprietà segue il formato proprietà.
+`userdata` le risposte sono formattate come proprietà solo quando il contenuto  `catalog::UserData` segue il formato delle proprietà.
 
 * [Proprietà testo (Java)](r-text-java-properties.md)
 * [Proprietà JavaScript](r-javascript-properties.md)
