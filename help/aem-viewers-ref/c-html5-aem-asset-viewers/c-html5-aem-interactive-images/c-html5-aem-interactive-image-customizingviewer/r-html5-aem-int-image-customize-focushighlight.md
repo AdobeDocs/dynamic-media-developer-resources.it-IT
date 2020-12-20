@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 56600f9c-c51e-40a4-93b6-a43902ef5ff1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
 
-# Evidenziazione dello stato{#focus-highlight}
+# Evidenziazione della messa a fuoco{#focus-highlight}
 
 L&#39;evidenziazione dello stato attivo visualizzata attorno all&#39;elemento dell&#39;interfaccia utente del visualizzatore mirato è controllata dal selettore di classe CSS.
 
@@ -35,7 +38,7 @@ L&#39;aspetto è controllato dal seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
    <td colname="col2"> <p>Stile evidenziazione dello stato attivo. </p> </td> 
   </tr> 
  </tbody> 
