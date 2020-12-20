@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +34,11 @@ L&#39;aspetto della barra di controllo secondaria è controllato dal seguente se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posizione nella parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posizione nella parte inferiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +46,7 @@ L&#39;aspetto della barra di controllo secondaria è controllato dal seguente se
    <td colname="col2"> <p>Altezza della barra di controllo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo secondaria. </p> </td> 
   </tr> 
  </tbody> 
