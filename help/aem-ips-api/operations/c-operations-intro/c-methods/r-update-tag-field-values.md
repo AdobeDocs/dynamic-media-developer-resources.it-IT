@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 11%
 
 ---
 
@@ -39,19 +42,19 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Maniglia aziendale. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> handle del campo del tag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">Matrice di valori dei campi di tag da aggiornare. <p>Nota:  Aggiorna solo i valori delle stringhe di tag. Non influenza le associazioni di risorse. </p> </td> 
