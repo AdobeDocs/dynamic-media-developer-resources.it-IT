@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 0%
 
 ---
 
 
-# Richieste di set di file multimediali{#media-set-requests}
+# Richieste set di file multimediali{#media-set-requests}
 
 Image Serving fornisce un meccanismo per recuperare una risposta testuale gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati al catalogo::ImageSet per un record particolare.
 
@@ -20,7 +23,7 @@ I visualizzatori possono usare questo meccanismo per generare risposte che infor
 
 ## Sintassi richiesta {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-La risposta del set per un `catalog::ImageSet` può essere recuperata utilizzando il `req=set` modificatore e facendo riferimento all’ID del record del catalogo nel percorso di rete. In alternativa, il set di immagini può essere specificato direttamente nell’URL utilizzando il `imageset=` modificatore . Se il `imageset=` modificatore viene usato per specificare il set di immagini, l’intero valore deve essere racchiuso tra parentesi graffe per sfuggire al valore del set di immagini e assicurarsi che gli eventuali modificatori inclusi non vengano interpretati come parte della stringa di query URL.
+La risposta del set per un `catalog::ImageSet` può essere recuperata utilizzando il modificatore `req=set` e facendo riferimento all&#39;ID del record del catalogo nel percorso di rete. In alternativa, il set di immagini può essere specificato direttamente nell&#39;URL utilizzando il modificatore `imageset=`. Se per specificare il set di immagini si utilizza il modificatore `imageset=`, l&#39;intero valore deve essere racchiuso tra parentesi graffe per sfuggire al valore del set di immagini e assicurarsi che gli eventuali modificatori inclusi non vengano interpretati come parte della stringa di query URL.
 
 ## Tipi di risposte impostate {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -67,9 +70,9 @@ Il meccanismo set supporta i seguenti tipi di risposte:
 
 ## Rilevamento del tipo di set esterno {#section-3dd6e453528d46898e559d31458a59ba}
 
-Quando viene ricevuta una `req=set` richiesta, il tipo di risposta da generare è determinato dal valore di `catalog::AssetType`. Se non `catalog::AssetType` è definito, il tipo di risposta è determinato dalle seguenti regole:
+Quando viene ricevuta una richiesta `req=set`, il tipo di risposta da generare è determinato dal valore di `catalog::AssetType`. Se `catalog::AssetType` non è definito, il tipo di risposta è determinato dalle seguenti regole:
 
-* Se il record viene trovato nel catalogo immagini e `catalog::ImageSet` viene definito
+* Se il record è trovato nel catalogo immagini e `catalog::ImageSet` è definito
 
    * Si supponga di aver impostato un e-Catalog se almeno una voce nel campo del set di immagini del record contiene due punti
    * Si supponga di aver impostato un supporto se almeno una voce nel campo set di immagini del record contiene due punti e virgola.
@@ -100,7 +103,7 @@ In tutti i casi, la risposta xml risultante sarà conforme al documento XML spec
 
 ## Rilevamento del tipo di set interno {#section-8f46490e467247e69ce284704def06f3}
 
-Quando il set esterno viene rilevato come tipo di set di file multimediali, la risposta conterrà un set di elementi di set di file multimediali corrispondenti a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se il parametro opzionale type è specificato per una particolare voce del set di supporti, verrà mappato su un tipo di output secondo la tabella seguente:
+Quando il set esterno viene rilevato come tipo di set di file multimediali, la risposta conterrà un set di elementi del set di file multimediali corrispondenti a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se il parametro opzionale type è specificato per una particolare voce del set di supporti, verrà mappato su un tipo di output secondo la tabella seguente:
 
 | Tipo di ingresso | Tipo di output |
 |---|---|
@@ -126,23 +129,23 @@ La risposta xml restituita è conforme alle seguenti specifiche:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-Il `labelkey=` modificatore viene utilizzato insieme al `catalog::UserData`campo per generare etichette per immagini e campioni. Il `catalog:UserData` campo viene analizzato come un insieme di coppie chiave/valore e gli indici di labelkey in questo set per recuperare il valore per la chiave specificata. Questo valore viene quindi restituito nell&#39; *`l`* attributo per il *`s`* e *`i`*.
+Il modificatore `labelkey=` viene utilizzato insieme al campo `catalog::UserData`per generare etichette per immagini e campioni. Il campo `catalog:UserData` viene analizzato come un insieme di coppie chiave/valore e gli indici di labelkey in questo set per recuperare il valore per la chiave specificata. Questo valore viene quindi restituito nell&#39;attributo *`l`* per *`s`* e *`i`*.
 
-## Restrizioni applicate {#section-b9f042873bee45a5ae11b69fd42f2bca}
+## Limitazioni applicate {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
 Al fine di limitare le dimensioni della risposta e prevenire problemi di autoreferenza, la profondità massima di nidificazione è controllata dalla proprietà server `PS::fvctx.nestingLimit`. Se questo limite viene superato, viene restituito un errore.
 
-Per limitare la dimensione delle risposte xml per i set di eCatalog di grandi dimensioni, per gli elementi dei set di brochure vengono soppressi i metadati privati in base alla proprietà server `PS::fvctx.brochureLimit`. Tutti i metadati privati associati alla brochure saranno esportati fino al raggiungimento del limite di brochure. Una volta superato il limite, le mappe private e i dati utente verranno eliminati e verrà impostato un flag corrispondente per indicare quale tipo di dati è stato eliminato.
+Per limitare la dimensione delle risposte xml per i set di eCatalog di grandi dimensioni, per gli elementi dei set di brochure vengono soppressi i metadati privati in base alla proprietà del server `PS::fvctx.brochureLimit`. Tutti i metadati privati associati alla brochure saranno esportati fino al raggiungimento del limite di brochure. Una volta superato il limite, le mappe private e i dati utente verranno eliminati e verrà impostato un flag corrispondente per indicare quale tipo di dati è stato eliminato.
 
 I set di file multimediali nidificati non sono supportati. Un set di file multimediali nidificati è definito come un set di file multimediali che contiene un set di file multimediali di tipo set di file multimediali. Se questa condizione viene rilevata, viene restituito un errore.
 
 ## Esempi {#section-588c9d33aa05482c86cd2b1936887228}
 
-Per un esempio di risposte XML per la `req=set` richiesta, consultate la pagina Proprietà nell&#39;intestazione Esempi HTML.
+Per un esempio di risposte XML per la richiesta `req=set`, consultate la pagina Proprietà nell&#39;intestazione Esempi HTML.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Consultate anche {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), Riferimento catalogo [immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), Riferimento catalogo  [immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
 
