@@ -1,6 +1,6 @@
 ---
-description: Usato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
-seo-description: Usato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
+description: Utilizzato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
+seo-description: Utilizzato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
 seo-title: Spazi colore
 solution: Experience Manager
 title: Spazi colore
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: a703fccb-932d-4de8-84a1-bc0483013151
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 3%
 
 ---
 
 
 # Spazi colore{#color-spaces}
 
-Usato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
+Utilizzato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
 
 Sintassi
 
