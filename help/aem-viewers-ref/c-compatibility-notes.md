@@ -41,7 +41,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 * Dispositivo rilevato come tablet in modalità verticale con schermo intero selezionato nelle impostazioni del browser.
 
-## Galassia Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
+## Nexus Galaxy {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
 * Toccando due volte un visualizzatore è possibile che l’intera pagina venga ingrandita invece che solo il visualizzatore, con l’opzione di ridimensionamento sul lato browser attivata.
 
@@ -54,7 +54,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 * L’impossibilità di disattivare lo zoom con le dita nativo è una &quot;funzione&quot; del wrapper HTC dell’interfaccia utente (SENSO HTC). Questa funzione può causare lo zoom di un’intera pagina quando si utilizza il gesto di zoom con le dita sul visualizzatore. Utilizzare invece un doppio tocco.
 * Le icone delle mappe immagine potrebbero sovrapporsi se le mappe immagine sono piccole e si chiudono insieme.
 
-## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visualizzatore video HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` il modificatore è supportato solo con il software HLS e la riproduzione Flash HDS. Non funziona quando la riproduzione utilizza il lettore nativo.
 * Riproduzione progressiva OGG e WebM non supportata.
@@ -73,7 +73,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 o successivo: Le impostazioni del plug-in Internet potrebbero impedire la riproduzione di video Flash.
+* Safari 6.1 o successivo: Le impostazioni del plug-in Internet potrebbero impedire la riproduzione del video Flash.
 * La ricerca di video con streaming HLS su Safari potrebbe non essere coerente.
 * Impossibile cercare di terminare il video in Safari 6 utilizzando lo streaming HLS.
 
