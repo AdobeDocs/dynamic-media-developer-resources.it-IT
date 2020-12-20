@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 La classe principale del visualizzatore a comparsa è FlyoutViewer. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e richiamate di questa particolare classe.
 
-In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla `s7viewers.FlyoutViewer` classe.
+In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla classe `s7viewers.FlyoutViewer`.
 
 * [disporre](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
