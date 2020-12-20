@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -30,20 +33,20 @@ Selezionare Livello. Seleziona un livello e avvia un nuovo segmento di definizio
   <td class="stentry"> <p>Selezionate l’immagine composita. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nome</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
   <td class="stentry"> <p>Nome del livello. </p></td> 
  </tr> 
 </table>
 
-Tutti i comandi all’interno del segmento del livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal `layer=` o dal comando successivo `effect=` o dalla fine della richiesta.
+Tutti i comandi all’interno del segmento del livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
 
-Specificate `layer=comp` per selezionare l&#39;immagine composita (o visualizzare, per alcuni comandi).
+Specificare `layer=comp` per selezionare l&#39;immagine composita (o la visualizzazione, per alcuni comandi).
 
 Il numero del livello specifica l’ordine z del livello. I livelli con numero superiore vengono posizionati sopra a quelli con numero inferiore.
 
 I numeri dei livelli non devono essere consecutivi. Il livello 0 è obbligatorio.
 
-Un nome può essere assegnato a un livello con la variante del comando `layer= *``*, *`name`*` . Una volta definito un livello denominato, è possibile farvi riferimento con il ` layer= *`nome`*`, senza dover conoscere il numero del livello. Possono essere assegnati più nomi allo stesso livello, utilizzando più comandi di `layer= *``*, *`nome`*` .
+Un nome può essere assegnato a un livello con la variante di comando `layer= *`n`*, *`name`*`. Una volta definito un livello denominato, è possibile farvi riferimento con ` layer= *`name`*`, senza dover conoscere il numero del livello. Possono essere assegnati più nomi allo stesso livello, utilizzando più comandi `layer= *`n`*, *`name`*`.
 
 >[!NOTE]
 >
@@ -53,7 +56,7 @@ Un nome può essere assegnato a un livello con la variante del comando `layer= *
 
 Livello, comando. I riferimenti alle variabili di sostituzione non sono supportati in `layer=`.
 
-`comp` non è consentito come *`name`* stringa. Viene restituito un errore se lo stesso *`name`* è assegnato a più livelli, oppure se a un livello è fatto riferimento da *`name`* cui non è stata definita in precedenza.
+`comp` non è consentito come  *`name`* stringa. Viene restituito un errore se lo stesso *`name`* è assegnato a più livelli, oppure se a un livello viene fatto riferimento da *`name`* che non è stato definito in precedenza.
 
 ## Predefinito {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -75,4 +78,4 @@ Livello, comando. I riferimenti alle variabili di sostituzione non sono supporta
 
 ## Esempio {#section-cc40de6a0a754178aa752601539c815b}
 
-Vedere gli esempi in [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Vedere gli esempi in [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
