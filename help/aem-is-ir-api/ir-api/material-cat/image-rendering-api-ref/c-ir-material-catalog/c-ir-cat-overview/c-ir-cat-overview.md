@@ -1,6 +1,6 @@
 ---
-description: I cataloghi dei materiali forniscono informazioni sulle vignettature, i materiali e i dati di supporto, come i profili ICC, al server.
-seo-description: I cataloghi dei materiali forniscono informazioni sulle vignettature, i materiali e i dati di supporto, come i profili ICC, al server.
+description: I cataloghi dei materiali forniscono informazioni su vignettature, materiali e dati di supporto, come i profili ICC, al server.
+seo-description: I cataloghi dei materiali forniscono informazioni su vignettature, materiali e dati di supporto, come i profili ICC, al server.
 seo-title: Panoramica del catalogo dei materiali *
 solution: Experience Manager
 title: Panoramica del catalogo dei materiali *
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
 
 # Panoramica del catalogo dei materiali *{#material-catalog-overview}
 
-I cataloghi dei materiali forniscono informazioni sulle vignettature, i materiali e i dati di supporto, come i profili ICC, al server.
+I cataloghi dei materiali forniscono informazioni su vignettature, materiali e dati di supporto, come i profili ICC, al server.
 
-Ciascun catalogo di materiali è costituito da un file *di attributi di* catalogo richiesto e da un set di file *di dati di* catalogo opzionali:
+Ciascun catalogo di materiali è costituito da un file di attributi di catalogo *richiesto* e da un set di file di dati di catalogo *opzionali*:
 
 * Il file di mappa vignettatura, che riassume vignettature e modelli e i relativi metadati.
 * Il file di dati del materiale, che elenca i materiali e specifica i file immagine e i metadati della texture associati.
@@ -25,7 +28,7 @@ Ciascun catalogo di materiali è costituito da un file *di attributi di* catalog
 
 I file di dati del catalogo sono associati ai cataloghi dei materiali in base ai riferimenti ai file presenti nel file di attributi del catalogo. Lo stesso file di dati del catalogo può essere condiviso da più cataloghi di materiali.
 
-I file di attributi del catalogo devono avere un suffisso di [!DNL .ini] file e devono trovarsi nella cartella *del* catalogo di rendering delle immagini ( [!DNL PlatformServer::ir.catalogRootPath]). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server di rendering.
+I file di attributi del catalogo devono avere un suffisso di file [!DNL .ini] e devono trovarsi nella cartella del catalogo *Image Rendering* ( [!DNL PlatformServer::ir.catalogRootPath]). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server di rendering.
 
 **Aggiornamento dei cataloghi dei materiali**
 
@@ -37,7 +40,7 @@ Il catalogo predefinito fornisce valori predefiniti per tutti gli attributi del 
 
 Inoltre, il catalogo predefinito fornisce tutti gli attributi e i record di dati (profili ICC) quando nessun catalogo di materiali specifico è coinvolto in un&#39;operazione.
 
-Per il corretto funzionamento del server di rendering, il file degli attributi del catalogo per il catalogo predefinito deve essere denominato [!DNL default.ini], deve sempre esistere nella cartella del catalogo e deve essere compilato con tutti gli attributi richiesti, ad eccezione `attribute::RootId` e dei riferimenti ai vari file di dati del catalogo, tutti facoltativi.
+Per il corretto funzionamento del server di rendering, il file degli attributi del catalogo per il catalogo predefinito deve essere denominato [!DNL default.ini], deve essere sempre presente nella cartella del catalogo e deve essere compilato con tutti gli attributi richiesti, ad eccezione di `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, tutti facoltativi.
 
 **Consultate anche**
 
