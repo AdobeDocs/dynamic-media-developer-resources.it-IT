@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +38,8 @@ Controllo cache. Consente di disattivare selettivamente la memorizzazione nella 
  </tr> 
 </table>
 
-Se viene specificato un solo *`cacheControl`* valore, questo viene applicato sia alle cache client che a quelle del server.
+Se viene specificato un solo valore *`cacheControl`*, questo viene applicato sia alle cache client che a quelle del server.
 
-Attributo di richiesta. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`* viene ignorato quando la memorizzazione nella cache sul lato client è disabilitata dal catalogo immagini (se `catalog::Expiration` ha un valore negativo).
+Attributo di richiesta. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`* viene ignorato quando la memorizzazione nella cache sul lato client è disabilitata dal catalogo immagini (se  `catalog::Expiration` ha un valore negativo).
 
 Il valore predefinito è `cache=on,on`.
