@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +32,7 @@ Basato su una gamma di tonalità di 360 gradi.
 
 ## Proprietà {#section-55779644700b4c808a624cdf5a04447e}
 
-Livello, comando. Si applica al livello corrente o all’immagine composita, se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
 
 ## Predefinito {#section-7314580251f5456fa1f381ec9e99e0bb}
 
