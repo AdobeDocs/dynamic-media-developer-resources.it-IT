@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ Selezionate Livello effetto. Seleziona un livello di effetto e avvia un nuovo se
  </tr> 
 </table>
 
-Tutti i comandi all’interno del nuovo segmento vengono applicati al livello dell’effetto specificato. Un segmento del livello di effetto viene terminato dal `layer=` `effect=` comando o dal comando successivo o dalla fine della richiesta.
+Tutti i comandi all’interno del nuovo segmento vengono applicati al livello dell’effetto specificato. Un segmento del livello di effetto viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
 
 *`n`* deve essere minore di 0 per gli effetti del livello esterno (ossia gli effetti dietro il livello principale) e maggiore di 0 per gli effetti del livello interno (ossia gli effetti all’interno del livello principale). I numeri del livello dell’effetto non devono essere consecutivi.
 
