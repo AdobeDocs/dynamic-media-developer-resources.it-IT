@@ -45,38 +45,38 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L’handle della società che conterrà il set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> handle della cartella in cui verrà creato il nuovo set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Nome risorsa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Identificatore univoco creato dal client per il tipo di set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> I parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
   </tr> 
@@ -89,7 +89,7 @@ Sintassi
 
 >[!NOTE]
 >
->I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi `([])`. Tutto il testo esterno a una stringa di sostituzione viene copiato verbalmente nella stringa di output durante la risoluzione.
+>I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi quadre `([])`. Tutto il testo esterno a una stringa di sostituzione viene copiato verbalmente nella stringa di output durante la risoluzione.
 
 | **Funzione di sostituzione** | **Restituisce** |
 |---|---|
