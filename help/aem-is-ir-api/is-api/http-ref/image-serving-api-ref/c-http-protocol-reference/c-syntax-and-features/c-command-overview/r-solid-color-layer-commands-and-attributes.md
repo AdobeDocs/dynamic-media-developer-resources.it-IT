@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
 
-# Comandi per il livello del colore tinta unita{#solid-color-layer-commands}
+# Comandi livello colore tinta unita{#solid-color-layer-commands}
 
 Questi comandi si applicano ai livelli in tinta unita, oltre ai comandi più comuni del livello.
 
