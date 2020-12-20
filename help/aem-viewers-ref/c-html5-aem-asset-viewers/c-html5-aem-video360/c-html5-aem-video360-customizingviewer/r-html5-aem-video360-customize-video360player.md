@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
 
-# Video360 player{#video-player}
+# Lettore video360{#video-player}
 
 Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato nel visualizzatore.
 
@@ -31,7 +34,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del lettore video:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +42,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del lettore video:
 
 Potete localizzare il messaggio di errore visualizzato nei casi in cui il sistema non è in grado di riprodurre il video.
 
-Consultate [Localizzazione degli elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)dell’interfaccia utente.
+Vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Esempio: per impostare un visualizzatore video con le dimensioni del lettore video impostate su 512 x 288 pixel.
 
@@ -76,15 +79,15 @@ L&#39;aspetto dell&#39;animazione del buffering è controllato dal seguente sele
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> Margine sinistro dell'icona dell'animazione, in genere meno metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> Margine superiore dell'icona dell'animazione, in genere meno metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Manopola la grafica. </p> </td> 
   </tr> 
  </tbody> 
