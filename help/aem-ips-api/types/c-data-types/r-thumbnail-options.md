@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 4%
 
 ---
 
@@ -30,9 +33,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> thumbnail <span class="varname"> Time</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Imposta il tempo (in millisecondi dall’inizio del video) in base al fotogramma che si desidera utilizzare per la miniatura del video. I valori vanno da 0 alla fine del video. <p>Nota: Il sistema utilizza il primo fotogramma del video per la miniatura se l'ora non è specificata correttamente. Consultate <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Imposta il tempo (in millisecondi dall’inizio del video) in base al fotogramma che si desidera utilizzare per la miniatura del video. I valori vanno da 0 alla fine del video. <p>Nota: Il sistema utilizza il primo fotogramma del video per la miniatura se l'ora non è specificata correttamente. Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
