@@ -9,8 +9,8 @@ uuid: eb695666-fcaf-40bc-8b56-452819f058d2
 translation-type: tm+mt
 source-git-commit: 65cf517cb75d35cbd3761397ee99d1d8ec074ad6
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Questo parametro:
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
   <td class="stentry"> <p>Frammento XML dei dati di processo completi. </p> </td> 
  </tr> 
 </table>
