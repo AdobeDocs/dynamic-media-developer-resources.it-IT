@@ -1,6 +1,6 @@
 ---
-description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o dai predefiniti PDF in InDesign.
-seo-description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o dai predefiniti PDF in InDesign.
+description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da  Illustrator nella finestra di dialogo Opzioni Salva come PDF o nei predefiniti PDF  InDesign.
+seo-description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da  Illustrator nella finestra di dialogo Opzioni Salva come PDF o nei predefiniti PDF  InDesign.
 seo-title: joboption
 solution: Experience Manager
 title: joboption
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
 # joboption{#joboption}
 
-Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o dai predefiniti PDF in InDesign.
+Applicare le opzioni del processo PDF. Un file di opzioni di processo o un predefinito PDF è un file generato da  Illustrator nella finestra di dialogo Opzioni Salva come PDF o nei predefiniti PDF  InDesign.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valore</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>IPSID del file delle opzioni di processo. </p></td> 
  </tr> 
 </table>
