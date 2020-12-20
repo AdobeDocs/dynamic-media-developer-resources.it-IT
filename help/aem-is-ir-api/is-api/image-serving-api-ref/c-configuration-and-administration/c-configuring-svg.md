@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Il componente SvgRender è un’applicazione Java indipendente.
 
-Le impostazioni di configurazione SVG si trovano in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml]e [!DNL ServerSupervisorRegistry.xml].
+Le impostazioni di configurazione SVG si trovano in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] e [!DNL ServerSupervisorRegistry.xml].
 
-Una connessione socket viene utilizzata per comunicare tra SvgRender e il server immagini. Il numero della porta è 27346. Se necessario, può essere modificato impostando `SVGRender.port` in e [!DNL svg.conf] in `<SVGTcpPort>` [!DNL ImageServerRegistry.xml] un nuovo valore.
+Una connessione socket viene utilizzata per comunicare tra SvgRender e il server immagini. Il numero della porta è 27346. Se necessario, può essere modificato impostando `SVGRender.port` in [!DNL svg.conf] e `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] su un nuovo valore.
 
 ## Consultate anche {#section-c085b47d54d44059bdaa67fd5e226e91}
 
