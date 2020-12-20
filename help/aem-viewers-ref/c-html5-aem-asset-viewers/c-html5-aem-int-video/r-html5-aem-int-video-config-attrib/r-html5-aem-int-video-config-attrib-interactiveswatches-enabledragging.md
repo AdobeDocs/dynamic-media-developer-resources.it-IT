@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -25,8 +28,8 @@ Attributo di configurazione per il visualizzatore video interattivo.
    <td colname="col2"> <p> Abilita o disabilita la possibilità per un utente di scorrere i campioni con il mouse o con gesti touch. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> Si trova nell'intervallo <span class="codeph"> 0-1 </span> ed è un valore percentuale per il movimento nella direzione sbagliata della velocità effettiva. </p> <p>Se impostato su <span class="codeph"> 1, si </span> sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0, non </span> consente di spostarsi nella direzione sbagliata. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Si trova nell'intervallo <span class="codeph"> 0-1 </span> ed è un valore percentuale per il movimento nella direzione sbagliata della velocità effettiva. </p> <p>Se impostato su <span class="codeph"> 1 </span> si sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0 </span> non consente di spostarsi nella direzione sbagliata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
