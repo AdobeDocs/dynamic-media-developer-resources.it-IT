@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 Questa sezione descrive i comandi del protocollo HTTP.
 
-**Solo** per contenuti multimediali dinamici in AEM: Oltre alle impostazioni di base delle immagini disponibili nell’interfaccia utente, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) sono supportate numerose modifiche avanzate alle immagini che potete specificare nel campo Modificatori **** immagini. Questi parametri sono definiti di seguito. In AEM, tuttavia, le seguenti funzionalità non sono supportate negli elementi multimediali dinamici.
+**Solo** per Dynamic Media in AEM: Oltre alle impostazioni di base dell’immagine disponibili nell’interfaccia utente,  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) sono supportate numerose modifiche avanzate alle immagini che potete specificare nel campo  **Image** Modifiersfield. Questi parametri sono definiti di seguito. Tenete presente, tuttavia, che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
 
 * Comandi di correzione colore: `icc=` e `iccEmbed=`.
 * Comandi di base per la modellazione e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
@@ -26,11 +29,11 @@ Questa sezione descrive i comandi del protocollo HTTP.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servizi per contenuti multimediali dinamici non core: SVG, Image Rendering e Web-stampa.
+* Servizi Dynamic Media non core: SVG, Image Rendering e Web-stampa.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consultate anche Opzioni [predefiniti per](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) immagini per file multimediali dinamici nella documentazione di AEM 6.5.
+Consultate anche Dynamic Media [Image Preset Options](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
