@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +27,11 @@ Timeout e altre salvaguardie garantiscono che il sistema continui a funzionare a
 
 Il cluster di cache può funzionare in una delle due configurazioni di base:
 
-* Quando `PS::cacheCluster.updateLocalCache` è abilitata (impostazione predefinita), qualsiasi voce della cache trovata in un server peer viene copiata nella cache locale.
+* Quando `PS::cacheCluster.updateLocalCache` è abilitato (impostazione predefinita), qualsiasi voce della cache trovata su un server peer viene copiata nella cache locale.
 
    Questa configurazione riduce il traffico tra i server peer. Fornisce inoltre i tempi di risposta più rapidi al costo di far replicare tutte le voci della cache su tutti i server del cluster. Questa è la configurazione consigliata.
 
-* Quando `PS::cacheCluster.updateLocalCache` è disattivato, i dati provenienti da altri server non vengono copiati nella cache locale.
+* Se `PS::cacheCluster.updateLocalCache` è disattivato, i dati provenienti da altri server non vengono copiati nella cache locale.
 
    Questo moltiplica lo spazio disponibile su disco per i dati della cache. Tuttavia, aumenta il traffico tra i server peer e riduce i tempi di risposta complessivi. Utilizzate questa configurazione solo quando vengono visualizzate percentuali di hit della cache ridotte.
 
