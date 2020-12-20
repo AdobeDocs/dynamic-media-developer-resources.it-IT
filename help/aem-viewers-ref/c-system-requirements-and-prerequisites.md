@@ -22,15 +22,15 @@ Requisiti di sistema per visualizzatori HTML5.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Software e hardware per server {#section-05099146f1f0418988c196635110bee6}
+## Hardware e software del server {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Server 6.7.1 o versione successiva.
+* Dynamic Media Classic Image Serving 6.7.1 o versione successiva.
 * I visualizzatori HTML5 richiedono SDK per librerie lato server JavaScript 3.9.1 o successive.
 * Le funzioni per social network &quot;Email a Friend&quot; richiedono s7ondemand 5.0.7 o versione successiva.
 * Visualizzatore eCatalog - Il supporto per il pannello Info richiede il server Info 2.1.8 o successivo.
 * I componenti delle funzioni di ricerca richiedono s7search 2.3.0 o versione successiva.
 
-## Requisiti di sistema per i visualizzatori {#section-cc72b1e209524d038b4d5b92b35e998e}
+## Requisiti di sistema per visualizzatori {#section-cc72b1e209524d038b4d5b92b35e998e}
 
 **Requisiti minimi del browser client per i visualizzatori di componenti**
 
@@ -49,7 +49,7 @@ Requisiti di sistema per visualizzatori HTML5.
 
 >[!NOTE]
 >
->A partire dal 30 settembre 2018, i visualizzatori Adobe Dynamic Media Classic cesseranno di supportare Transport Layer Security 1.0 (TLS 1.0). Di conseguenza, Dynamic Media Classic non supporta più i visualizzatori nei seguenti browser e/o piattaforme che supportano TLS 1.0. (Adobe Systems consiglia di utilizzare TLS 1.2 o successivo.)
+>A partire dal 30 settembre 2018,  visualizzatori Dynamic Media Classic in Adobe cesserà il supporto di Transport Layer Security 1.0 (TLS 1.0). Di conseguenza, Dynamic Media Classic non supporta più i visualizzatori nei seguenti browser e/o piattaforme che supportano TLS 1.0. ( Adobe Systems consiglia di utilizzare TLS 1.2 o successivo.)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Requisiti di sistema per visualizzatori HTML5.
 
 >[!NOTE]
 >
->FLASH VIEWERS END-OF-LIFE - A partire dal 31 gennaio 2017, Adobe Scene7 Publishing System ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash. Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti:
+>FINE DEL VIAGGIO DEI VISUALIZZATORI DI Flash - A partire dal 31 gennaio 2017,  Adobe Scene7 Publishing System ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash. Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti:
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
