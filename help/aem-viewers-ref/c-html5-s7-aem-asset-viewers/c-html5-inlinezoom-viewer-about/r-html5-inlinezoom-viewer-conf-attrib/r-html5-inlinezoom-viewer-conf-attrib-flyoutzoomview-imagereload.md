@@ -23,10 +23,10 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Configura il modo in cui il componente recupera le nuove immagini per la visualizzazione principale e a comparsa durante il ridimensionamento. </p> <p>Con <span class="codeph"> 0 </span>, il componente non carica nuove immagini durante il ridimensionamento e la risoluzione delle immagini nella visualizzazione a comparsa non cambia. </p> <p>Impostato su <span class="codeph"> 1 </span> , potete specificare uno o più punti di interruzione di larghezza per l’immagine caricata nella vista principale. </p> </td> 
+   <td colname="col2"> <p> Configura il modo in cui il componente recupera le nuove immagini per la visualizzazione principale e a comparsa durante il ridimensionamento. </p> <p>Impostato su <span class="codeph"> 0 </span>, il componente non carica nuove immagini durante il ridimensionamento e la risoluzione dell'immagine nella visualizzazione a comparsa non cambia. </p> <p>Impostato su <span class="codeph"> 1 </span> è possibile specificare uno o più punti di interruzione di larghezza per l'immagine caricata nella vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> punto di interruzione, <span class="varname"> larghezza </span>; <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> punto di interruzione,  <span class="varname"> larghezza  </span>;  <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p>Punti di interruzione della larghezza per l’immagine caricata nella vista principale. </p> <p>Il componente utilizza sempre le dimensioni di adattamento migliori per il caricamento iniziale. Dopo il ridimensionamento, l’immagine nella vista principale viene sempre scaricata con la larghezza uguale al punto di interruzione più grande più vicino e ridimensionata sul client. </p> </td> 
   </tr> 
  </tbody> 
