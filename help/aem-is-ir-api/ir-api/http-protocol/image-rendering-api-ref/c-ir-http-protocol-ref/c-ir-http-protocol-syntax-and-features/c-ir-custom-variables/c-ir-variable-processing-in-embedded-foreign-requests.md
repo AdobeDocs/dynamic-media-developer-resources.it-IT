@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
 
-# Elaborazione delle variabili nelle richieste esterne incorporate{#variable-processing-in-embedded-foreign-requests}
+# Elaborazione delle variabili in richieste esterne incorporate{#variable-processing-in-embedded-foreign-requests}
 
 I riferimenti $var$ che si verificano ovunque all&#39;interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con valori di definizione variabili corrispondenti.
 
