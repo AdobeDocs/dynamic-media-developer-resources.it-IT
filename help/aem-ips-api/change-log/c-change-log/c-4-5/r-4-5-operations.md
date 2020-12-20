@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4002670-c830-474e-bb84-343f76b6fb80
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -37,13 +40,13 @@ Sintassi
 
 ## Operazioni modificate {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo`e `javascriptInfo` parametri.
+* `Asset` include  `animatedGifInfo`,  `swcInfo`,  `cssInfo`e  `javascriptInfo` parametri.
 
-* `createMetadataField` include un `isHidden` parametro facoltativo.
+* `createMetadataField` include un  `isHidden` parametro facoltativo.
 
-* `saveMetadataField` include un `isHidden` parametro facoltativo.
+* `saveMetadataField` include un  `isHidden` parametro facoltativo.
 
 * `searchAssets`
 * 
-* Il `renameFiles` parametro è stato dichiarato obsoleto per le versioni precedenti e rimosso dall&#39; `renameAsset` operazione. Il percorso del file virtuale viene modificato per corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono modificati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione dell&#39;API.
+* Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso dall&#39;operazione `renameAsset`. Il percorso del file virtuale viene modificato per corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono modificati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione dell&#39;API.
 
