@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 5%
 
 ---
 
@@ -25,9 +28,9 @@ Scala visualizzazione. Ridimensiona in scala l’immagine composita per l’inve
  </tr> 
 </table>
 
-No scaling is applied when `scl=1`. *`invFactor`* con dimensioni maggiori di 1,0 e minori di 1,0 l’immagine composita viene ingrandita.
+Non viene applicato alcun ridimensionamento quando `scl=1`. *`invFactor`* con dimensioni maggiori di 1,0 e minori di 1,0 l’immagine composita viene ingrandita.
 
-Se `scl=` è specificata e `wid=` e/o `hei=` è presente, l&#39;immagine viene ritagliata `wid=` e/o `hei=` dopo il ridimensionamento.
+Se è stato specificato `scl=` e sono presenti anche `wid=` e/o `hei=`, l&#39;immagine viene ritagliata su `wid=` e/o `hei=` dopo il ridimensionamento.
 
 >[!NOTE]
 >
@@ -39,12 +42,12 @@ Visualizza attributo. Si applica indipendentemente dall’impostazione del livel
 
 ## Predefinito {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se non `wid=`, `hei=`e non `scl=` vengono specificati, l&#39;immagine di risposta avrà la dimensione dell&#39;immagine composita o, `attribute::DefaultPix`se inferiore, quella dell&#39;immagine.
+Se non vengono specificati né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta avrà le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, se inferiore.
 
 ## Esempio {#section-a33f6239476a4b438d939656ad99aa76}
 
-Per un’applicazione comune di [, vedere l’esempio in](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) rotate= `scl=`.
+Vedere l&#39;esempio in [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) per un&#39;applicazione comune di `scl=`.
 
 ## Consultate anche {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
