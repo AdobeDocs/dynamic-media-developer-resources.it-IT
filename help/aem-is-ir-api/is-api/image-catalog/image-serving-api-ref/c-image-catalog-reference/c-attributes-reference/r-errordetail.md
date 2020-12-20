@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Sono consentiti i seguenti valori:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informazioni di debug complete. Aggiunge tracce stack Java quando applicabile. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili per segnalare problemi al supporto tecnico di Scene7. </p></td> 
+  <td class="stentry"> <p>Informazioni di debug complete. Aggiunge tracce stack Java quando applicabile. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili per segnalare problemi al supporto tecnico Scene7. </p></td> 
  </tr> 
 </table>
 
