@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 713646a7-1108-4f93-bec2-3fbe7e548515
 translation-type: tm+mt
 source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
 
 Questa sezione descrive i parametri operativi comuni gestiti dall&#39;API del servizio Web IPS.
 
-Per una descrizione completa di ciascun parametro di operazione, vedete Parametri [di](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)operazione.
+Per una descrizione completa di ciascun parametro di operazione, vedere [Parametri di operazione](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Maniglie: Informazioni {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Maniglie: Informazioni su {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 Handle fanno riferimento agli oggetti IPS restituiti da alcune operazioni API. È inoltre possibile trasmettere handle come parametri alle chiamate di operazione successive. I gestori sono tipi di dati stringa ( `xsd:string`).
 
@@ -51,13 +54,13 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-La maggior parte delle operazioni richiede di impostare un contesto aziendale trasmettendo un `companyHandle` parametro. L&#39;handle della società è un puntatore restituito da alcune operazioni quali `getCompanyInfo`, `addCompany`e `getCompanyMembership`.
+La maggior parte delle operazioni richiede di impostare un contesto aziendale trasmettendo un parametro `companyHandle`. L&#39;handle della società è un puntatore restituito da alcune operazioni quali `getCompanyInfo`, `addCompany` e `getCompanyMembership`.
 
 **userHandle**
 
-Il `userHandle` parametro è un parametro facoltativo per le operazioni che riguardano un utente specifico. Per impostazione predefinita, queste operazioni sono destinate all&#39;utente chiamante (l&#39;utente le cui credenziali vengono trasmesse per l&#39;autenticazione). Tuttavia, gli utenti admin con le autorizzazioni corrette possono specificare un altro utente. Ad esempio, l&#39; `setPassword` operazione normalmente imposta la password dell&#39;utente autenticato, ma un amministratore può utilizzare il `userHandle` parametro per impostare la password per un altro utente.
+Il parametro `userHandle` è un parametro facoltativo per le operazioni che riguardano un utente specifico. Per impostazione predefinita, queste operazioni sono destinate all&#39;utente chiamante (l&#39;utente le cui credenziali vengono trasmesse per l&#39;autenticazione). Tuttavia, gli utenti admin con le autorizzazioni corrette possono specificare un altro utente. Ad esempio, l&#39;operazione `setPassword` normalmente imposta la password dell&#39;utente autenticato, ma un amministratore può utilizzare il parametro `userHandle` per impostare la password per un altro utente.
 
-Per le operazioni che richiedono un contesto aziendale (utilizzando il `companyHandle` parametro), gli utenti autenticati e target devono essere membri della società specificata. Per le operazioni che non richiedono un contesto aziendale, gli utenti autenticati e target devono essere entrambi membri di almeno una società comune.
+Per le operazioni che richiedono un contesto aziendale (utilizzando il parametro `companyHandle`), sia gli utenti autenticati che quelli target devono essere membri della società specificata. Per le operazioni che non richiedono un contesto aziendale, gli utenti autenticati e target devono essere entrambi membri di almeno una società comune.
 
 Le seguenti operazioni possono recuperare le handle utente:
 
@@ -70,13 +73,13 @@ Le seguenti operazioni possono recuperare le handle utente:
 
 **accessUserHandle e accessGroupHandle**
 
-Per impostazione predefinita, le operazioni che richiedono autorizzazioni di accesso (lettura, scrittura, eliminazione) operano nel contesto delle autorizzazioni dell&#39;utente chiamante. Alcune operazioni consentono di modificare questo contesto con il `accessUserHandle` parametro o `accessGroupHandle` . Il `accessUserHandle` parametro consente a un amministratore di rappresentare un altro utente. Il `accessGroupHandle` parametro consente al chiamante di funzionare nel contesto di un gruppo utente specifico.
+Per impostazione predefinita, le operazioni che richiedono autorizzazioni di accesso (lettura, scrittura, eliminazione) operano nel contesto delle autorizzazioni dell&#39;utente chiamante. Alcune operazioni consentono di modificare questo contesto con il parametro `accessUserHandle` o `accessGroupHandle`. Il parametro `accessUserHandle` consente a un amministratore di rappresentare un altro utente. Il parametro `accessGroupHandle` consente al chiamante di funzionare nel contesto di un gruppo utente specifico.
 
 **responseFieldArray e excludeFieldArray**
 
-Alcune operazioni consentono al chiamante di limitare i campi inclusi nella risposta. Limitando i campi è possibile ridurre il tempo e la memoria necessari per elaborare la richiesta e ridurre la dimensione dei dati della risposta. Il chiamante può richiedere un elenco specifico di campi passando un `responseFieldArray` parametro, oppure un elenco enumerato di campi esclusi tramite il `excludeFieldArray` parametro.
+Alcune operazioni consentono al chiamante di limitare i campi inclusi nella risposta. Limitando i campi è possibile ridurre il tempo e la memoria necessari per elaborare la richiesta e ridurre la dimensione dei dati della risposta. Il chiamante può richiedere un elenco specifico di campi passando un parametro `responseFieldArray` oppure con un elenco enumerato di campi esclusi tramite il parametro `excludeFieldArray`.
 
-Entrambi `responseFieldArray` e `excludeFieldArray` specificare i campi utilizzando un percorso nodo separato da `/`. Ad esempio, per specificare che `searchAssets` restituisce solo il nome, la data dell’ultima modifica e i metadati di ciascuna risorsa, consultate i seguenti riferimenti:
+Sia `responseFieldArray` che `excludeFieldArray` specificano i campi utilizzando un percorso nodo separato da `/`. Ad esempio, per specificare che `searchAssets` restituisca solo il nome, la data dell&#39;ultima modifica e i metadati di ciascuna risorsa, fare riferimento a quanto segue:
 
 ```
 <responseFieldArray> 
@@ -94,15 +97,15 @@ Allo stesso modo, per restituire tutti i campi (ad eccezione delle autorizzazion
 </excludeFieldArray>
 ```
 
-I percorsi dei nodi sono relativi alla radice del nodo restituito. Se si specifica un campo di tipo complesso senza i relativi sottoelementi (ad esempio, `assetArray/items/imageInfo`), vengono inclusi tutti i relativi sottoelementi. Se si specifica uno o più sottoelementi in un campo di tipo complesso (ad esempio, `assetArray/items/imageInfo/originalPath`), vengono inclusi solo tali elementi secondari.
+I percorsi dei nodi sono relativi alla radice del nodo restituito. Se si specifica un campo di tipo complesso senza alcun sottoelemento (ad esempio, `assetArray/items/imageInfo`), vengono inclusi tutti i relativi sottoelementi. Se si specifica uno o più elementi secondari in un campo di tipo complesso (ad esempio, `assetArray/items/imageInfo/originalPath`), vengono inclusi solo tali elementi secondari.
 
-Se non includete `responseFieldArray` o `excludeFieldArray` in una richiesta, vengono restituiti tutti i campi.
+Se non si inserisce `responseFieldArray` o `excludeFieldArray` in una richiesta, vengono restituiti tutti i campi.
 
 **Lingua**
 
-A partire da IPS 4.0, l&#39;API IPS supporta l&#39;impostazione del contesto internazionale di un&#39;operazione, passando il parametro `authHeader` locale. Se il parametro locale non è presente, verrà utilizzata l&#39;intestazione HTTP `Accept-Language` . Se questa intestazione non è presente, verranno utilizzate le impostazioni internazionali predefinite per il server IPS.
+A partire da IPS 4.0, l&#39;API IPS supporta l&#39;impostazione del contesto internazionale di un&#39;operazione, trasmettendo il parametro delle impostazioni internazionali `authHeader`. Se il parametro locale non è presente, verrà utilizzata l&#39;intestazione HTTP `Accept-Language`. Se questa intestazione non è presente, verranno utilizzate le impostazioni internazionali predefinite per il server IPS.
 
-Alcune operazioni utilizzano anche parametri di impostazione internazionale espliciti, che possono essere diversi dal contesto delle impostazioni internazionali dell&#39;operazione. Ad esempio, l&#39; `submitJob` operazione richiede un `locale` parametro che imposta le impostazioni internazionali utilizzate per la registrazione dei processi e la notifica e-mail.
+Alcune operazioni utilizzano anche parametri di impostazione internazionale espliciti, che possono essere diversi dal contesto delle impostazioni internazionali dell&#39;operazione. Ad esempio, l&#39;operazione `submitJob` richiede un parametro `locale` che imposta le impostazioni internazionali utilizzate per la registrazione dei processi e le notifiche e-mail.
 
 I parametri delle impostazioni internazionali utilizzano il formato `<language_code>[-<country_code>]`
 
