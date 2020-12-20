@@ -1,30 +1,33 @@
 ---
-description: Il visualizzatore di eCatalog supporta il tracciamento di Adobe Analytics.
-seo-description: Il visualizzatore di eCatalog supporta il tracciamento di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
+description: Il visualizzatore di eCatalog supporta  tracciamento Adobe Analytics.
+seo-description: Il visualizzatore di eCatalog supporta  tracciamento Adobe Analytics.
+seo-title: Supporto per  tracciamento Adobe Analytics
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
+title: Supporto per  tracciamento Adobe Analytics
 topic: Dynamic media
 uuid: a96b6655-4a11-490c-8f66-3633f0ae0fee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 3%
 
 ---
 
 
-# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore di eCatalog supporta il tracciamento di Adobe Analytics.
+Il visualizzatore di eCatalog supporta  tracciamento Adobe Analytics.
 
-## Tracciamento integrato {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento out-of-the-box {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore per eCatalog supporta il [!DNL Adobe Analytics] tracciamento out-of-the-box. Per abilitare il tracciamento, passate il nome corretto del predefinito della società come `config2` parametro.
+Il visualizzatore per eCatalog supporta il tracciamento out-of-the-box. [!DNL Adobe Analytics] Per abilitare il tracciamento, passate il nome corretto del predefinito della società come parametro `config2`.
 
 Il visualizzatore invia inoltre un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del `trackEvent` visualizzatore ed elaborare l&#39; `eventInfo` argomento della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
 
 ```
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -64,7 +67,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore tramite l’ <span class="codeph"> API setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
