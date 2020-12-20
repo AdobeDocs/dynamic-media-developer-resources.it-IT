@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# Visualizzazione 360 gradi{#spin-view}
 
 La vista principale consiste nell’immagine a 360 gradi quando la risorsa corrente è un set 360 gradi.
 
@@ -35,7 +38,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della visualizzazione a 360 gradi. </p> </td> 
   </tr> 
  </tbody> 
