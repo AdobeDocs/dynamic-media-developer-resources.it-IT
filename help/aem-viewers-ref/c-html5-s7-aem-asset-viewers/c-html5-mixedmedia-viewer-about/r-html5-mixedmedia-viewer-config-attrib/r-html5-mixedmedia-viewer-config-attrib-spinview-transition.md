@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Visualizzazione 360 gradi.transizione
+seo-title: SpinView.transition
 solution: Experience Manager
-title: Visualizzazione 360 gradi.transizione
+title: SpinView.transition
 topic: Dynamic media
 uuid: d5cc319a-fb0b-41d3-a118-f00376a127e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
-# Visualizzazione 360 gradi.transizione{#spinview-transition}
+# SpinView.transition{#spinview-transition}
 
 ` [SpinView.|<containerId>_spinView.]transition= *``*[, *`temporizzazione`*]`
 
