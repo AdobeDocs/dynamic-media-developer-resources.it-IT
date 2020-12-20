@@ -1,6 +1,6 @@
 ---
-description: Prefisso URL del server di streaming Apple. Prefisso URL Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
-seo-description: Prefisso URL del server di streaming Apple. Prefisso URL Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
+description: Prefisso URL del server di streaming Apple. Il prefisso URL di Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
+seo-description: Prefisso URL del server di streaming Apple. Il prefisso URL di Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Prefisso URL del server di streaming Apple. Prefisso URL Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
+Prefisso URL del server di streaming Apple. Il prefisso URL di Apple Streaming Server utilizzato per generare risposte con bitrate multiplo m3u8 con req=mbrSet.
 
 ## Proprietà {#properties}
 
