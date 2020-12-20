@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Impostate su <span class="codeph"> 1</span> per abilitare il precaricamento dell’immagine ingrandita. </p> <p>Impostate questo valore su <span class="codeph"> 0</span> per caricare l’immagine di zoom in modo incrementale, in base alle esigenze. </p> <p> <p>Nota:  Tenete presente che se abilitate questa opzione, l’utilizzo della larghezza di banda potrebbe risultare notevolmente più elevato, poiché l’immagine ingrandita deve essere caricata interamente, anche se l’utente non esegue alcuna azione di zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Impostare su <span class="codeph"> 1</span> per abilitare il precaricamento dell'immagine ingrandita. </p> <p>Impostare su <span class="codeph"> 0</span> per caricare l'immagine di zoom in modo incrementale, in base alle esigenze. </p> <p> <p>Nota:  Tenete presente che se abilitate questa opzione, l’utilizzo della larghezza di banda potrebbe risultare notevolmente più elevato, poiché l’immagine ingrandita deve essere caricata interamente, anche se l’utente non esegue alcuna azione di zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
