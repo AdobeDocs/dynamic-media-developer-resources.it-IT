@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +21,13 @@ I modelli possono essere utilizzati per ridurre la lunghezza e la complessità d
 
 Le variabili personalizzate possono essere utilizzate per semplificare ulteriormente l&#39;utilizzo del modello. I modelli sono spesso configurati per consentire un facile scambio di immagini o testo o per impostare altre opzioni in fase di esecuzione.
 
-I modelli vengono memorizzati come record nei cataloghi di immagini, con il corpo del modello nel `catalog::Modifier` campo e il `catalog::Path` campo vuoto o con la specifica di un’immagine di sfondo statica che non può essere modificata in modo dinamico.
+I modelli vengono memorizzati come record nei cataloghi di immagini, con il corpo del modello nel campo `catalog::Modifier` e il campo `catalog::Path` vuoto o con la specifica di un&#39;immagine di sfondo statica che non può essere modificata in modo dinamico.
 
-I modelli vengono specificati con il `template=` comando o nel componente percorso dell’URL della richiesta. Per la maggior parte delle applicazioni è consigliabile utilizzare il `template=` comando per specificare i modelli. Il `template=`comando non deve essere presente nel `catalog::PostModifier` campo e può verificarsi solo nel `catalog::Modifier` campo in una richiesta IS nidificata (ovvero in un `src=is{...}` costrutto). I record modello non possono essere citati in `src=` o `mask=`comandi.
+I modelli vengono specificati con il comando `template=` o nel componente percorso dell&#39;URL della richiesta. Per la maggior parte delle applicazioni si consiglia di utilizzare il comando `template=` per specificare i modelli. Il comando `template=`non deve essere presente nel campo `catalog::PostModifier` e può verificarsi solo nel campo `catalog::Modifier` in una richiesta IS nidificata (ovvero in un costrutto `src=is{...}`). I record modello non possono essere citati nei comandi `src=` o `mask=`.
 
-Eventuali `src=` o `mask=`comandi incorporati nel modello possono essere risolti nel catalogo principale della richiesta o in un altro catalogo immagini. Se non `rootId` viene specificato in modo esplicito, viene utilizzato il catalogo principale. Il modello specificato con `template=` può anche trovarsi nel catalogo principale o in un altro catalogo immagini.
+Tutti i comandi `src=` o `mask=`incorporati nel modello possono essere risolti nel catalogo principale della richiesta o in un altro catalogo immagini. Se non viene specificato in modo esplicito `rootId`, viene utilizzato il catalogo principale. Il modello specificato con `template=` può anche trovarsi nel catalogo principale o in un altro catalogo immagini.
 
-Si consiglia vivamente di includere sempre definizioni predefinite per tutte le variabili utilizzate in un modello. In questo modo, l&#39;output delle immagini del modello può sempre essere visualizzato semplicemente specificandone `attribute::RootId` e `catalog::Id`, senza dover sapere quali variabili vengono utilizzate nel modello.
+Si consiglia vivamente di includere sempre definizioni predefinite per tutte le variabili utilizzate in un modello. In questo modo, l&#39;output dell&#39;immagine del modello può sempre essere visualizzato semplicemente specificando `attribute::RootId` e `catalog::Id`, senza dover sapere quali variabili vengono utilizzate nel modello.
 
 La variabile di sostituzione del percorso predefinita `$object$` può essere utilizzata per applicare l’oggetto immagine specificato nel percorso url a qualsiasi origine o maschera di livello ( `src=` o `mask=`), anche in richieste nidificate o incorporate.
 
