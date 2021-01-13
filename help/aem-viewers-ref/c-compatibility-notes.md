@@ -7,7 +7,7 @@ title: Note sulla compatibilità
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Note sulla compatibilità{#compatibility-notes}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13,2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
@@ -76,4 +76,3 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 * Safari 6.1 o successivo: Le impostazioni del plug-in Internet potrebbero impedire la riproduzione del video Flash.
 * La ricerca di video con streaming HLS su Safari potrebbe non essere coerente.
 * Impossibile cercare di terminare il video in Safari 6 utilizzando lo streaming HLS.
-
