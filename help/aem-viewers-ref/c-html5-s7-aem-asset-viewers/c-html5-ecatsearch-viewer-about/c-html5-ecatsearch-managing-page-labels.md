@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Gestione delle etichette di pagina
+description: Gestione delle etichette di pagina
 solution: Experience Manager
 title: Gestione delle etichette di pagina
 topic: Dynamic media
 uuid: 49444fe6-ef34-4e5b-a293-e23830a67b4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
