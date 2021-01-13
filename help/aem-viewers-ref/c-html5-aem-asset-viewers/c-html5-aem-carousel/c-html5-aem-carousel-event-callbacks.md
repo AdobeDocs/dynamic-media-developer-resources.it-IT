@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Callback evento
+description: Callback evento
 solution: Experience Manager
 title: Callback evento
 topic: Dynamic media
 uuid: 7280a391-3ead-470b-89e9-5faa082e0202
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
