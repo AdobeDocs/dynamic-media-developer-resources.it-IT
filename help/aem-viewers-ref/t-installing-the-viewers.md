@@ -1,23 +1,20 @@
 ---
+title: Installazione di più visualizzatori Dynamic Media sullo stesso server
 description: Istruzioni per l'installazione dell'API dei visualizzatori Dynamic Media.
-seo-description: Istruzioni per l'installazione dell'API dei visualizzatori Dynamic Media.
-seo-title: Installazione di più visualizzatori sullo stesso server
 solution: Experience Manager
-title: Installazione di più visualizzatori sullo stesso server
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
 
 # Installazione di più visualizzatori sullo stesso server{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Istruzioni per l&#39;installazione dell&#39;API visualizzatori Dynamic Media.
 
@@ -27,12 +24,12 @@ Copiate i file dei visualizzatori IS sul disco rigido, quindi distribuite il fil
 
 >[!NOTE]
 >
->Non è disponibile un aggiornamento per i visualizzatori Image Server.  Adobe consiglia di eseguire il backup di qualsiasi directory visualizzatori Dynamic Media esistente prima di continuare l&#39;installazione.
+>Non è disponibile un aggiornamento per i visualizzatori Image Server.  Adobe consiglia di eseguire il backup di qualsiasi directory di visualizzatori Dynamic Media (s7viewers) esistente prima di continuare l&#39;installazione.
 
-**Per installare i visualizzatori sullo stesso server**
+**Per installare più visualizzatori sullo stesso server**
 
 1. Rinominare il visualizzatore .war nel contesto desiderato e distribuire il file nella posizione desiderata.
 1. Impostate il parametro `this.isViewerRoot` in `config.js`.
 1. Aprite `config.js` nella directory principale della cartella del visualizzatore appena creata.
-1. Impostate il parametro `this.isViewerRoot = "/s7viewers"` nel contesto del file `s7viewers.war`. Ad esempio, `"/s7viewers-4.0"`. Salvate e chiudete il file.
+1. Impostate il parametro `this.isViewerRoot = "/s7viewers"` nel contesto del file `s7viewers.war`. Ad esempio, `"/s7viewers-4.0"`.
 1. Salvate il file e chiudete.
