@@ -1,15 +1,15 @@
 ---
-description: Dopo aver installato Scene7 Image Server, è necessario verificare l’installazione.
-seo-description: Dopo aver installato Scene7 Image Server, è necessario verificare l’installazione.
+description: Dopo aver installato Dynamic Media Image Server, è necessario verificare l’installazione.
+seo-description: Dopo aver installato Dynamic Media Image Server, è necessario verificare l’installazione.
 seo-title: Verifica dell’installazione
 solution: Experience Manager
 title: Verifica dell’installazione
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Verifica dell&#39;installazione{#verifying-the-installation}
 
-Dopo aver installato Scene7 Image Server, è necessario verificare l’installazione.
+Dopo aver installato Dynamic Media Image Server, è necessario verificare l’installazione.
 
 Image Server è installato come servizio Windows.
 
-1. Aprite il Pannello di controllo Campaign Servizi e verificate che &quot;Scene7 Image Serving&quot; sia presente con lo stato &quot;Started&quot;.
+1. Aprite il Pannello di controllo Campaign Servizi e verificate che &quot;Dynamic Media Image Serving&quot; sia presente con lo stato &quot;Started&quot;.
 1. Aprite un browser Internet sullo stesso host o su un altro host e verificate le risposte predefinite del server:
 
    `http:// server:port /is/image`
