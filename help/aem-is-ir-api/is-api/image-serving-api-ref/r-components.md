@@ -4,12 +4,12 @@ seo-description: 'Scene7 Image Serving è costituito dai seguenti componenti '
 seo-title: Componenti per Image Server
 solution: Experience Manager
 title: Componenti per Image Server
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Scene7 Image Serving è costituito dai seguenti componenti:
    <td colname="col2"> <p>Applicazione Java autonoma (non ospitata da Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendering delle immagini Scene7 (alias Render Server) </p> </td> 
+   <td colname="col1"> <p>Rendering delle immagini Dynamic Media (alias Render Server) </p> </td> 
    <td colname="col2"> <p>Richiede una licenza separata per l'attivazione. Accesso HTTP all'indirizzo <span class="filepath"> /ir/rendering</span>. Tutte le funzionalità di rendering delle immagini sono integrate nel server piattaforma e nel server immagini, senza componenti eseguibili separati. </p> </td> 
   </tr> 
  </tbody> 
