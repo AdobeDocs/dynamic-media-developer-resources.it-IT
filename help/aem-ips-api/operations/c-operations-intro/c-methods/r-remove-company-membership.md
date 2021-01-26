@@ -4,10 +4,10 @@ seo-description: Rimuove un utente da una o più società.
 seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 9%
@@ -34,8 +34,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | No | L’handle dell’utente con l’iscrizione da rimuovere. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Sì | L’handle della società da cui si sta rimuovendo l’utente. |
+| `*`userHandle`*` | `xsd:string` | No | L’handle dell’utente con l’iscrizione da rimuovere. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Sì | L’handle della società da cui si sta rimuovendo l’utente. |
 
 **Output (removeCompanyMembershipReturn)**
 
