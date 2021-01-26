@@ -4,10 +4,10 @@ seo-description: Ottiene i set di proprietà associati a un handle di tipo.
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 15%
@@ -39,15 +39,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
-| ` *`mainOwnerHandle`*` | `xsd:string` | Sì | Proprietario principale dei dati associati all&#39;oggetto di database. |
-| ` *`secondariaOwnerHandle`*` | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
+| `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
+| `*`mainOwnerHandle`*` | `xsd:string` | Sì | Proprietario principale dei dati associati all&#39;oggetto di database. |
+| `*`secondariaOwnerHandle`*` | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
 
 **Output (getPropertySetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | Sì | Array di set di proprietà. |
+| `*`setArray`*` | `types:PropertySetArray` | Sì | Array di set di proprietà. |
 
 ## Esempi {#section-1358af974eab4259864910337a6f0bd2}
 
