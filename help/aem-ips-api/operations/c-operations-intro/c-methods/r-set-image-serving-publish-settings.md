@@ -4,10 +4,10 @@ seo-description: Solo per sviluppatori di Scene7. Consultate la sezione Attribut
 seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 11%
@@ -27,7 +27,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`CompanyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| ` *`publishSettingsArray`*` | `types:ConfigSettingArray` | Sì | Solo per sviluppatori di Scene7. |
-| ` *`contextHandle`*` | `xsd:string` | No | Consente di passare al contesto di pubblicazione. |
+| `*`CompanyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sì | Solo per sviluppatori di Scene7. |
+| `*`contextHandle`*` | `xsd:string` | No | Consente di passare al contesto di pubblicazione. |
 
