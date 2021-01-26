@@ -4,10 +4,10 @@ seo-description: Crea un set di immagini.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 12%
@@ -40,17 +40,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società a cui appartiene il set di immagini. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella. |
-| ` *`name`*` | `xsd:string` | Sì | Nome set di immagini. |
-| ` *`type`*` | `xsd:string` | Sì | Tipo set di immagini. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | No | Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società a cui appartiene il set di immagini. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella. |
+| `*`name`*` | `xsd:string` | Sì | Nome set di immagini. |
+| `*`type`*` | `xsd:string` | Sì | Tipo set di immagini. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
 
 **Uscita**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sì | La maniglia del nuovo set di immagini. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del nuovo set di immagini. |
 
 ## Esempi {#section-385fe3b0af8044b0a2451336ec137fc5}
 
