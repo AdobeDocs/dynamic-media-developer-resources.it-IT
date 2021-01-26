@@ -4,10 +4,10 @@ seo-description: Documentazione degli attributi di configurazione per il visuali
 seo-title: Riferimento comando - Attributi di configurazione
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6a96ed89-5ef3-4efd-82ed-08f3ad8c73cf
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
