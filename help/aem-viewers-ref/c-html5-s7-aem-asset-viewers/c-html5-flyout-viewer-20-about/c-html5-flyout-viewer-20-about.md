@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore a comparsa è un visualizzatore di immagini. Viene visualizzata un’immagine statica con la versione ingrandita mostrata nella visualizzazione a comparsa attivata da un utente. Questo visualizzatore funziona con i set di immagini e la navigazione viene effettuata utilizzando i campioni. È progettato per funzionare su computer desktop e dispositivi mobili.
 keywords: responsive
-seo-description: Il visualizzatore a comparsa è un visualizzatore di immagini. Viene visualizzata un’immagine statica con la versione ingrandita mostrata nella visualizzazione a comparsa attivata da un utente. Questo visualizzatore funziona con i set di immagini e la navigazione viene effettuata utilizzando i campioni. È progettato per funzionare su computer desktop e dispositivi mobili.
-seo-title: A comparsa
 solution: Experience Manager
 title: A comparsa
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Scene7  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno  server Adobe Scene7 in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di uno dei Adobi  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media  Adobe in cui sono installati i visualizzatori IS.
 
 Un percorso relativo si presenta come segue:
 
