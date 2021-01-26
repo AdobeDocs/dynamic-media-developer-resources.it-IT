@@ -4,12 +4,12 @@ seo-description: Percorso del file immagine. Percorso relativo e nome di un file
 seo-title: Percorso *
 solution: Experience Manager
 title: Percorso *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,9 @@ Stringa di testo. Obbligatorio per materiali di texture e decantazione, opzional
 
 ## Formati di file supportati {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Il rendering delle immagini supporta gli stessi formati delle immagini sorgente di Scene7 Image Server.
+Il rendering delle immagini supporta gli stessi formati delle immagini sorgente di Dynamic Media Image Server.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Scene7 a piramide TIFF (PTIFF) a risoluzione multipla. Image Server include l’utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Dynamic Media a piramide TIFF (PTIFF) a risoluzione multipla. Image Server include l’utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell’utility IC nella documentazione di Image Server.
 
