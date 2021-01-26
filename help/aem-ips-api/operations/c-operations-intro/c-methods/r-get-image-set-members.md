@@ -4,10 +4,10 @@ seo-description: Ottiene un array di membri che si trovano in un set di immagini
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 13%
@@ -42,14 +42,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il set di immagini. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | La maniglia della risorsa set di immagini. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il set di immagini. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia della risorsa set di immagini. |
 
 **Output (getImageSetMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`MemberArray`*` | `types:ImageSetMemberArray` | No | Matrice di membri di set di immagini. |
+| `*`MemberArray`*` | `types:ImageSetMemberArray` | No | Matrice di membri di set di immagini. |
 
 ## Esempi {#section-888a9a78033346f39b171229de93dfa0}
 
