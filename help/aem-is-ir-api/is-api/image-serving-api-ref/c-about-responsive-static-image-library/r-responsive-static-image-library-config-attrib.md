@@ -4,12 +4,12 @@ seo-description: Gli attributi di configurazione sono definiti come attributi di
 seo-title: Riferimento comando - Attributi di configurazione
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Più comandi Image Server o nomi di predefiniti per immagini sono separati dal c
 
 ## modalità dati {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Le due modalità SmartCrop seguenti sono disponibili in AEM 6.4 e versioni successive e nei visualizzatori Scene7 5.9 e versioni successive:
+Le due modalità SmartCrop seguenti sono disponibili in AEM 6.4 e versioni successive e nei visualizzatori Dynamic Media 5.9 e versioni successive:
 
 * **I punti di interruzione definiti dall’utente e i comandi corrispondenti del servizio immagini sono definiti all’interno di un attributo nell’elemento immagine.** 
 * **Smart Crop** : le rappresentazioni di ritaglio avanzato calcolate vengono recuperate automaticamente dal server di consegna. La rappresentazione migliore viene selezionata utilizzando le dimensioni di runtime dell&#39;elemento immagine.
