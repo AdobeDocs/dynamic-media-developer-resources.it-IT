@@ -4,10 +4,10 @@ seo-description: Le macro di comandi forniscono collegamenti denominati per set 
 seo-title: Macro di comandi
 solution: Experience Manager
 title: Macro di comandi
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Le macro di comandi forniscono collegamenti denominati per set di comandi. Le ma
  </tr> 
 </table>
 
-` *`Il `*` nome non fa distinzione tra maiuscole e minuscole e può essere composto da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
+`*`Il `*` nome non fa distinzione tra maiuscole e minuscole e può essere composto da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
 
 Le macro possono essere invocate in qualsiasi punto di una richiesta dopo &#39;?&#39;, nonché ovunque all&#39;interno di un campo `catalog::Modifier` o `catalog::PostModifier`. Le macro possono rappresentare solo uno o più comandi Image Server completi e devono essere separate da altri comandi con separatori &#39;&amp;&#39;.
 
