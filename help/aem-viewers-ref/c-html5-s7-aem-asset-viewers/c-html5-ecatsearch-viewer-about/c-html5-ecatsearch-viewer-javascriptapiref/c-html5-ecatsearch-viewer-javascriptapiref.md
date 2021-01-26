@@ -4,10 +4,10 @@ seo-description: La classe principale del visualizzatore di ricerca per eCatalog
 seo-title: Riferimento API Javascript per il visualizzatore di ricerche per eCatalog
 solution: Experience Manager
 title: Riferimento API Javascript per il visualizzatore di ricerche per eCatalog
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
