@@ -4,10 +4,10 @@ seo-description: L’indicatore set è una serie di punti sottoposti a rendering
 seo-title: Imposta indicatore
 solution: Experience Manager
 title: Imposta indicatore
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
