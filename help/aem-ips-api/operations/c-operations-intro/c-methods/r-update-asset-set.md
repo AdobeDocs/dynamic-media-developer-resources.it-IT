@@ -4,10 +4,10 @@ seo-description: Aggiorna un set di risorse.
 seo-title: updateAssetSet
 solution: Experience Manager
 title: updateAssetSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 18%
@@ -27,10 +27,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il set di immagini da modificare. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | La maniglia del set di immagini da modificare. |
-| ` *`setDefinition`*` | `xsd:string` | No | Ripristina i membri del set di immagini. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che funge da miniatura per il set di immagini. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il set di immagini da modificare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del set di immagini da modificare. |
+| `*`setDefinition`*` | `xsd:string` | No | Ripristina i membri del set di immagini. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che funge da miniatura per il set di immagini. |
 
 **Output (updateAssetSetReturn)**
 
