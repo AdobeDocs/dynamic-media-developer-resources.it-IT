@@ -4,10 +4,10 @@ seo-description: Il pulsante a schermo intero consente al lettore video di entra
 seo-title: Pulsante Schermo intero
 solution: Experience Manager
 title: Pulsante Schermo intero
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c6b90158-8658-49f1-86c3-c3dd00fe9070
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
