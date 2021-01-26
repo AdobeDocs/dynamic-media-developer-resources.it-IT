@@ -4,10 +4,10 @@ seo-description: Ruota immagine. Ruota il livello dell’immagine, del testo o d
 seo-title: rotate
 solution: Experience Manager
 title: rotate
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Al livello 0 viene applicato `size=` per impostare le dimensioni della visualizz
 
 L’origine di entrambi i livelli viene impostata sugli angoli in alto a sinistra, per ottenere l’allineamento desiderato. Il punto di origine del livello 1 si applica a `labelImage`dopo che è stato ruotato.
 
-Per un esempio di testo ruotato, vedere l&#39;esempio A[ in ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)Templates[.](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)
+Per un esempio di testo ruotato, vedere l&#39;esempio A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).[
 
 ## Consultate anche {#section-c371ee0845994b7382c02e782d1bc595}
 
