@@ -4,12 +4,12 @@ seo-description: Toccando o facendo clic su questo pulsante si esegue lo zoom ou
 seo-title: Pulsante Zoom out
 solution: Experience Manager
 title: Pulsante Zoom out
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cf1c62eb-e0a4-413d-93d3-3aed31e9a444
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
