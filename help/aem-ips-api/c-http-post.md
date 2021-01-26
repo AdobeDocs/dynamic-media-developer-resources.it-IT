@@ -1,15 +1,12 @@
 ---
 description: Il caricamento di risorse in Scene7 Production System implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
-seo-description: Il caricamento di risorse in Scene7 Production System implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
-seo-title: Caricamento delle risorse tramite POST HTTP nel servlet UploadFile
 solution: Experience Manager
 title: Caricamento delle risorse tramite POST HTTP nel servlet UploadFile
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Tutte le richieste POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
 
-**URL di accesso per aree Scene7**
+**URL di accesso per aree Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
