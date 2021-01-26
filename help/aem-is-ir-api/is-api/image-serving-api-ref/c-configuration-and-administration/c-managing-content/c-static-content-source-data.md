@@ -4,12 +4,12 @@ seo-description: I file di dati di origine del contenuto statico sono accessibil
 seo-title: Dati origine contenuto statico
 solution: Experience Manager
 title: Dati origine contenuto statico
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
