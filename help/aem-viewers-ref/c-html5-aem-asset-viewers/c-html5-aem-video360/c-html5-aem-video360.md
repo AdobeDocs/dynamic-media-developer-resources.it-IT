@@ -1,15 +1,12 @@
 ---
-description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e in progressivo 360 video codificati nel formato H.264, distribuito da Scene7 Publishing System o da AEM Dynamic Media.
-seo-description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e in progressivo 360 video codificati nel formato H.264, distribuito da Scene7 Publishing System o da AEM Dynamic Media.
-seo-title: Video360
+description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e in progressivo 360 video codificati nel formato H.264, distribuito da Dynamic Media Classic o AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e in progressivo 360 video codificati nel formato H.264, distribuito da Scene7 Publishing System o da AEM Dynamic Media.
+Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e in progressivo 360 video codificati in formato H.264, distribuito da Dynmaic Media Classic o da AEM Dynamic Media.
 
 I video a 360 gradi, noti anche come video immersivi o sferici, sono registrazioni video in cui viene contemporaneamente registrata una visualizzazione in ogni direzione, ripresi utilizzando una telecamera omnidirezionale o una raccolta di telecamere. Sono supportati sia i singoli video che i set video adattivi. Il visualizzatore supporta inoltre l’utilizzo di video progressivi e flussi HLS ospitati su luoghi esterni.
 
