@@ -4,10 +4,10 @@ seo-description: Il sommario è un pulsante situato nella barra di controllo pri
 seo-title: Sommario
 solution: Experience Manager
 title: Sommario
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3513dd02-6c51-42fc-a1a8-afca378aabc6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
