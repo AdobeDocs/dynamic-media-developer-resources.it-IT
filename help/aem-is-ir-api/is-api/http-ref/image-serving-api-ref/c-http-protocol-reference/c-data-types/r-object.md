@@ -4,12 +4,12 @@ seo-description: Specifica dell'oggetto di origine. Gli oggetti profilo Immagine
 seo-title: object
 solution: Experience Manager
 title: object
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Specifica dell&#39;oggetto di origine. Gli oggetti profilo Immagine, SVG e ICC possono essere specificati come voci di catalogo immagini o percorsi di file relativi
 
-` *``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
+`*``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Fare riferimento a *Gestione dei contenuti* nella *Guida alla configurazione del
 
 Per un elenco completo dei formati di file supportati, fare riferimento alla descrizione dell&#39;utilità IC (Image Converter).
 
-Le applicazioni che richiedono dati immagine a più risoluzioni diverse otterranno le prestazioni migliori quando si utilizza il formato Scene7 a piramide TIFF (PTIF) a risoluzione multipla. L’utility IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine a più risoluzioni diverse otterranno le prestazioni migliori quando si utilizza il formato Dynamic Media a piramide TIFF (PTIF) a risoluzione multipla. L’utility IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
 
 ## Esempi {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
