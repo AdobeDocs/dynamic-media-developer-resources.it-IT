@@ -4,10 +4,10 @@ seo-description: Per contattare il supporto tecnico, utilizzate le seguenti opzi
 seo-title: Supporto tecnico
 solution: Experience Manager
 title: Supporto tecnico
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 translation-type: tm+mt
-source-git-commit: 420021e6c15bb7434379b90990ed4f6c7d695f4e
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
