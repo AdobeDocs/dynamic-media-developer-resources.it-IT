@@ -4,10 +4,10 @@ seo-description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCat
 seo-title: Accessibilità della tastiera e navigazione
 solution: Experience Manager
 title: Accessibilità della tastiera e navigazione
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Un utente finale può spostarsi tra gli elementi dell&#39;interfaccia utente del
 
 A seconda del sistema operativo e delle impostazioni del browser Web, l&#39;elemento dell&#39;interfaccia utente attivo potrebbe ricevere un&#39;indicazione visiva. Ad esempio, l&#39;indicatore visivo può essere un sottile bordo intorno all&#39;elemento dell&#39;interfaccia utente.
 
-È possibile disattivare o personalizzare tale evidenziazione nel CSS del visualizzatore. Nel sommario di questo sistema di Aiuto, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fate clic su **Customizing *name of viewer*** >** Focus highlight **(Personalizzazione del nome del visualizzatore&lt;a2/> > &lt;a3/>Evidenziazione dello stato attivo).
+È possibile disattivare o personalizzare tale evidenziazione nel CSS del visualizzatore. Nel sommario di questo sistema di Aiuto, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fate clic su **Customizing *name of viewer*** >** Focus highlight **(Personalizzazione del nome del visualizzatore > Evidenziazione dello stato attivo).
 
 I tasti supportati dai singoli elementi dell’interfaccia utente del visualizzatore sono, nella maggior parte dei casi, evidenti e facili da scoprire.
 
