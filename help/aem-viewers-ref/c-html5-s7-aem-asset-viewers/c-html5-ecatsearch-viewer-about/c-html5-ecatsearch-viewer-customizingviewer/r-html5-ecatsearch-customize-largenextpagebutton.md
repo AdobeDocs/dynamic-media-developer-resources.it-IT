@@ -4,10 +4,10 @@ seo-description: Toccando o facendo clic su questo pulsante l’utente passa all
 seo-title: Pulsante Pagina successiva grande
 solution: Experience Manager
 title: Pulsante Pagina successiva grande
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
