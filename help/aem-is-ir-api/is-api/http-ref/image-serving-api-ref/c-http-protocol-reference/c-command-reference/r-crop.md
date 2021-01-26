@@ -4,13 +4,13 @@ seo-description: Ritaglia immagine. Specifica un'area di ritaglio rettangolare, 
 seo-title: Ritaglia
 solution: Experience Manager
 title: Ritaglia
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '230'
+ht-degree: 3%
 
 ---
 
