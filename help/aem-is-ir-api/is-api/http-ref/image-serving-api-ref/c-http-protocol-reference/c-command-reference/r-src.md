@@ -4,12 +4,12 @@ seo-description: Immagine del livello.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -43,10 +43,6 @@ Vedere [oggetto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pro
 Le richieste nidificate o incorporate sono racchiuse tra parentesi graffe. Prefissate una richiesta di Image Server incorporata con `is`, una richiesta di rendering immagine incorporata con `ir` e una richiesta di rendering di immagini FXG con `fxg`. Se non viene specificato alcun prefisso, si assume una richiesta a un server esterno.
 
 Vedere [Richiedi nidificazione e incorporazione](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->Il rendering di elementi grafici FXG è disponibile solo nell&#39;ambiente ospitato Scene7 e può richiedere ulteriori licenze. Per ulteriori informazioni, contattate il supporto Scene7.
 
 ## Proprietà {#section-2c22bb89a35d470f833df8ba898efd93}
 
