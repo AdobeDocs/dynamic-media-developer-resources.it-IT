@@ -1,15 +1,12 @@
 ---
 description: Aggiunge una società al sistema.
-seo-description: Aggiunge una società al sistema.
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 8%
 
 ---
@@ -21,7 +18,7 @@ Aggiunge una società al sistema.
 
 Invia il nome della società da aggiungere al sistema e, facoltativamente, invia l’indicazione della scadenza della società.
 
-Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo ` *`companyInfo`*` contenente un handle della società e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo `*`companyInfo`*` contenente un handle della società e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 
