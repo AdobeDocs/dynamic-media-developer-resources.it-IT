@@ -4,10 +4,10 @@ seo-description: Ottiene i processi pianificati per l'esecuzione.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 18%
@@ -38,15 +38,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| ` *`jobHandle`*` | `xsd:string` | No | Handle processo. |
-| ` *`OriginalName`*` | `xsd:string` | No | Nome specificato da `submitJob`. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`jobHandle`*` | `xsd:string` | No | Handle processo. |
+| `*`OriginalName`*` | `xsd:string` | No | Nome specificato da `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`jobArray`*` | `types:ScheduledJobArray` | Sì | Array di processi pianificati. |
+| `*`jobArray`*` | `types:ScheduledJobArray` | Sì | Array di processi pianificati. |
 
 ## Esempi {#section-e79e7da86ba848fd9996aa36de462e6c}
 
