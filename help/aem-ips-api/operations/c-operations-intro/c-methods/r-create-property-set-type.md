@@ -4,10 +4,10 @@ seo-description: Un tipo di set di proprietà specifica diverse impostazioni uti
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 9%
@@ -34,16 +34,16 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | No | L&#39;handle della società proprietaria del tipo di set di proprietà. Se `companyHandle` non viene passato e il chiamante è un `IpsAdmin`, verrà creato un tipo di set di proprietà globale. |
-| ` *`name`*` | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
-| ` *`propertyType`*` | `xsd:string` | Sì | Scelta dei tipi di set di proprietà. |
-| ` *`allowMultiple`*` | `xsd:boolean` | Sì | Determina se il programma può avere più set di proprietà. |
+| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società proprietaria del tipo di set di proprietà. Se `companyHandle` non viene passato e il chiamante è un `IpsAdmin`, verrà creato un tipo di set di proprietà globale. |
+| `*`name`*` | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
+| `*`propertyType`*` | `xsd:string` | Sì | Scelta dei tipi di set di proprietà. |
+| `*`allowMultiple`*` | `xsd:boolean` | Sì | Determina se il programma può avere più set di proprietà. |
 
 **Output (createPropertySetTypeReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sì | Un handle per il tipo. |
+| `*`typeHandle`*` | `xsd:string` | Sì | Un handle per il tipo. |
 
 ## Esempi {#section-13396c9639a6475190e622eae3cdb534}
 
