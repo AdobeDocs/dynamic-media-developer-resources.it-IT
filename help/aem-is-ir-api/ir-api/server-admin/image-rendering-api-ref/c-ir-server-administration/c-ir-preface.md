@@ -1,15 +1,15 @@
 ---
-description: Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Scene7 Image Rendering.
-seo-description: Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Scene7 Image Rendering.
+description: Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Dynamic Media Image Rendering.
+seo-description: Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Dynamic Media Image Rendering.
 seo-title: Prefazione di amministrazione del server
 solution: Experience Manager
 title: Prefazione di amministrazione del server
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Prefazione di amministrazione del server{#server-administration-preface}
 
-Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Scene7 Image Rendering.
+Questa documentazione descrive i problemi di amministrazione del server e le impostazioni di configurazione per Dynamic Media Image Rendering.
 
 **Destinatari**
 
-Questa documentazione è destinata agli amministratori di sistema e ai master Web che devono installare, configurare e amministrare Scene7 Image Rendering.
+Questa documentazione è destinata agli amministratori di sistema e ai master Web che devono installare, configurare e amministrare Dynamic Media Image Rendering.
 
 **Convenzioni documento**
 
