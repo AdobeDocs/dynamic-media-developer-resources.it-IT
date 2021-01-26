@@ -4,10 +4,10 @@ seo-description: Lo strumento di condivisione dei collegamenti è costituito da 
 seo-title: Condivisione collegamenti
 solution: Experience Manager
 title: Condivisione collegamenti
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 699ddab2-8cfd-4edf-bb1b-5ff91fe63c1a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 1%
