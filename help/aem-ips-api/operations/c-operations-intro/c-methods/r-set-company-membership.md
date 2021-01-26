@@ -4,10 +4,10 @@ seo-description: Imposta l'iscrizione di un utente in una o più società.
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 11%
@@ -34,8 +34,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:sting` | No | handle utente. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Array di società. |
+| `*`userHandle`*` | `xsd:sting` | No | handle utente. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Array di società. |
 
 **Output (setCompanyMembershipParam)**
 
