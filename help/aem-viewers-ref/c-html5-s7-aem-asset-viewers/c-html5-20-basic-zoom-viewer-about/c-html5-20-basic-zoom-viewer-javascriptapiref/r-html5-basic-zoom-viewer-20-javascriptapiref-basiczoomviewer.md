@@ -4,13 +4,13 @@ seo-description: Riferimento API JavaScript per il visualizzatore zoom di base.
 seo-title: BasicZoomViewer
 solution: Experience Manager
 title: BasicZoomViewer
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 727e38af-636a-4eb3-b373-6940169d006b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
