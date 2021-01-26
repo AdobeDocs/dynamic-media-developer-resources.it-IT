@@ -4,12 +4,12 @@ seo-description: Sono supportati quattro tipi generali di vignettatura di produz
 seo-title: Ridimensionamento vignettatura
 solution: Experience Manager
 title: Ridimensionamento vignettatura
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sono supportati quattro tipi generali di vignettatura di produzione.
    Consigliato quando sono note tutte le dimensioni di immagine di rendering desiderate. Fornisce una qualità migliore e un rendering più rapido rispetto alle vignettature a risoluzione singola e a piramide, perché non è necessario ridimensionare l&#39;immagine dopo il rendering.
 * Piramide
 
-   Ideale per tutti gli usi, consigliato quando sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando viene utilizzato uno dei visualizzatori di zoom per Flash Scene7.
+   Ideale per tutti gli usi, consigliato quando sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando viene utilizzato il visualizzatore zoom Dynamic Media.
 * Piramide con una o più risoluzioni aggiuntive
 
    Fornisce alta qualità per dimensioni specifiche, garantendo al contempo flessibilità e supporto del visualizzatore zoom.
