@@ -4,10 +4,10 @@ seo-description: Aggiorna i valori dei dizionari di tag per un campo di tag.
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 11%
@@ -66,11 +66,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
-| ` *`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di aggiornare i campi tag. |
-| ` *`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di aggiornare i campi tag. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di aggiornare i campi tag. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di aggiornare i campi tag. |
+| `*`successCount`*` | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di aggiornare i campi tag. |
+| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di aggiornare i campi tag. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di aggiornare i campi tag. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di aggiornare i campi tag. |
 
 ## Esempi {#section-bb4dcf97044c4675974c9b8d27674001}
 
