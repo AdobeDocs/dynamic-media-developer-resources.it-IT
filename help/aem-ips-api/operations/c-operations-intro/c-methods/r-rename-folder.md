@@ -4,10 +4,10 @@ seo-description: Rinomina una cartella.
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 18%
@@ -40,15 +40,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Gestite la società con le cartelle da rinominare. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | Gestite la cartella. |
-| ` *`folderName`*` | `xsd:string` | Sì | Nuovo nome cartella. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestite la società con le cartelle da rinominare. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestite la cartella. |
+| `*`folderName`*` | `xsd:string` | Sì | Nuovo nome cartella. |
 
 **Output (renameFolderReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella rinominata. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella rinominata. |
 
 ## Esempi {#section-98bdd2f88d164f488676e90aba1dc864}
 
