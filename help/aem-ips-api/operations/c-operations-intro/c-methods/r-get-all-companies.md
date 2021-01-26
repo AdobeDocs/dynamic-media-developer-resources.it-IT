@@ -4,10 +4,10 @@ seo-description: Restituisce un array di tutte le società.
 seo-title: getAllCompanies
 solution: Experience Manager
 title: getAllCompanies
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 16%
@@ -31,13 +31,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`includeExpired`*` | `xsd:boolean` | Sì | Impostato su true per restituire le società scadute e non scadute. |
+| `*`includeExpired`*` | `xsd:boolean` | Sì | Impostato su true per restituire le società scadute e non scadute. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyArray`*` | `types:CompanyArray` | Sì | L&#39;array di aziende. |
+| `*`companyArray`*` | `types:CompanyArray` | Sì | L&#39;array di aziende. |
 
 ## Esempi {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
