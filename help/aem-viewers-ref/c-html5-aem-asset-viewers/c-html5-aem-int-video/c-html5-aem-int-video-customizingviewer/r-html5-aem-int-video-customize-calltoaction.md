@@ -4,10 +4,10 @@ seo-description: Il pannello Invito all’azione viene visualizzato al termine d
 seo-title: Invito all'azione
 solution: Experience Manager
 title: Invito all'azione
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 1%
