@@ -4,13 +4,13 @@ seo-description: Image Server fornisce un meccanismo per convertire gli ID degli
 seo-title: Traduzione ID oggetto
 solution: Experience Manager
 title: Traduzione ID oggetto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ Tutti i riferimenti alle voci nei cataloghi di immagini, SVG e contenuti statici
 
 `attribute::LocaleMap` definisce le regole utilizzate dal server per determinare l&#39;ID del contenuto localizzato, in quanto fornisce l&#39;ID oggetto generico e il  `locale=` valore.
 
-`attribute::LocaleMap` è costituito da un elenco di  *impostazioni internazionali*  di input (corrispondenti ai valori specificati con  `locale=`), ognuna con uno o più suffissi internazionali di output ( ` *`locSuffixes`*`).
+`attribute::LocaleMap` è costituito da un elenco di  *impostazioni internazionali*  di input (corrispondenti ai valori specificati con  `locale=`), ognuna con uno o più suffissi internazionali di output ( `*`locSuffixes`*`).
 
 Ad esempio, `attribute::LocaleMap` potrebbe essere simile al seguente:
 
