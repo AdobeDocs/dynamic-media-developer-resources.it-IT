@@ -4,13 +4,13 @@ seo-description: Sui sistemi desktop, alcuni elementi dell'interfaccia utente co
 seo-title: Descrizioni comandi
 solution: Experience Manager
 title: Descrizioni comandi
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 01be5c3b-2f10-492c-a9b1-91cdbefea589
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
