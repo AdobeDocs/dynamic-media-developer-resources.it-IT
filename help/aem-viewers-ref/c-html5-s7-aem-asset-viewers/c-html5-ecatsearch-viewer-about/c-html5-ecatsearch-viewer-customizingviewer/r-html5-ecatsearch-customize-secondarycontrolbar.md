@@ -4,13 +4,13 @@ seo-description: La barra di controllo secondaria è l’area rettangolare che c
 seo-title: Barra di controllo secondaria
 solution: Experience Manager
 title: Barra di controllo secondaria
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
