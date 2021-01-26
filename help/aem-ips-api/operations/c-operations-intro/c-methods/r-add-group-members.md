@@ -1,16 +1,13 @@
 ---
 description: Aggiunge utenti da una società specifica a un gruppo specifico.
-seo-description: Aggiunge utenti da una società specifica a un gruppo specifico.
-seo-title: addGroupMembers
 solution: Experience Manager
 title: addGroupMembers
-topic: Scene7 Image Production System API
-uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 9%
+source-wordcount: '101'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +30,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| ` *`groupHandle`*` | `xsd:string` | Sì | La maniglia del gruppo. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Sì | Un array di handle per gli utenti che si desidera aggiungere a un gruppo. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`groupHandle`*` | `xsd:string` | Sì | La maniglia del gruppo. |
+| `*`userHandleArray`*` | `types:HandleArray` | Sì | Un array di handle per gli utenti che si desidera aggiungere a un gruppo. |
 
 **Output (addGroupMembersParam)**
 
@@ -43,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In questo esempio viene utilizzato ` *`addGroupMembersParam`*` per aggiungere un utente a una singola società. L&#39;API IPS non restituisce una risposta per questa operazione.
+In questo esempio viene utilizzato `*`addGroupMembersParam`*` per aggiungere un utente a una singola società. L&#39;API IPS non restituisce una risposta per questa operazione.
 
 **Request Contents (Richiesta contenuto)**
 
