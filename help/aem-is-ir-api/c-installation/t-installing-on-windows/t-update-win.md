@@ -1,15 +1,15 @@
 ---
-description: Utilizzate questa procedura per aggiornare Scene7 Image Server.
-seo-description: Utilizzate questa procedura per aggiornare Scene7 Image Server.
+description: Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
+seo-description: Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
 seo-title: Aggiornamento da IS 4.7.4 o successivo
 solution: Experience Manager
 title: Aggiornamento da IS 4.7.4 o successivo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aggiornamento da IS 4.7.4 o successivo{#updating-from-is-or-later}
 
-Utilizzate questa procedura per aggiornare Scene7 Image Server.
+Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
 
 Se state effettuando l’aggiornamento da una versione precedente di Image Server, contattate il supporto per il processo corretto.
 
