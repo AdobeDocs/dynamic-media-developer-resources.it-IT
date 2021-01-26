@@ -4,12 +4,12 @@ seo-description: 'Alcuni contenuti visualizzati dal visualizzatore di eCatalog s
 seo-title: Localizzazione degli elementi dell'interfaccia utente
 solution: Experience Manager
 title: Localizzazione degli elementi dell'interfaccia utente
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
