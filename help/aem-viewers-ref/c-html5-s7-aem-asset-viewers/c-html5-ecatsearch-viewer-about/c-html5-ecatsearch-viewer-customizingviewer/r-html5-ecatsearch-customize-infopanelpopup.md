@@ -4,13 +4,13 @@ seo-description: Il popup del pannello Info viene visualizzato al centro dell’
 seo-title: Finestra a comparsa del pannello Info
 solution: Experience Manager
 title: Finestra a comparsa del pannello Info
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 1%
 
 ---
 
