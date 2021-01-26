@@ -4,10 +4,10 @@ seo-description: Crea un set di risorse generico con una stringa di definizione 
 seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 5%
@@ -115,7 +115,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sì | handle del set di risorse. |
+| `*`assetHandle`*` | `xsd:string` | Sì | handle del set di risorse. |
 
 ## Esempi {#section-fed53089de824d67ab96cd9103d384b4}
 
