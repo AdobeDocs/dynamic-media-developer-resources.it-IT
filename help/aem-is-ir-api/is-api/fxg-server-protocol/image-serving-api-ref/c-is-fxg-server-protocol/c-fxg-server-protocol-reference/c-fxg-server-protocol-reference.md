@@ -4,13 +4,13 @@ seo-description: Questo documento fornisce informazioni sui protocolli del serve
 seo-title: Riferimento del protocollo server FXG
 solution: Experience Manager
 title: Riferimento del protocollo server FXG
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
