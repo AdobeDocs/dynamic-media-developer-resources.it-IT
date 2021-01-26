@@ -1,15 +1,12 @@
 ---
-description: Libreria immagini reattiva è un modulo JavaScript che regola in modo dinamico la qualità delle immagini trasmesse da Scene7 e incorporate in pagine Web reattive. Offre inoltre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering reattivo dei risultati da SmartCrop e Smart Swatch.
-seo-description: Libreria immagini reattiva è un modulo JavaScript che regola in modo dinamico la qualità delle immagini trasmesse da Scene7 e incorporate in pagine Web reattive. Offre inoltre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering reattivo dei risultati da SmartCrop e Smart Swatch.
-seo-title: Informazioni sulla libreria di immagini reattive
+description: Libreria immagini reattiva è un modulo JavaScript che regola in modo dinamico la qualità delle immagini trasmesse da Dynamic Media e incorporate in pagine Web reattive. Offre inoltre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering reattivo dei risultati da SmartCrop e Smart Swatch.
 solution: Experience Manager
 title: Informazioni sulla libreria di immagini reattive
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # Informazioni sulla libreria di immagini reattive{#about-responsive-image-library}
 
-Libreria immagini reattiva è un modulo JavaScript che regola in modo dinamico la qualità delle immagini trasmesse da Scene7 e incorporate in pagine Web reattive. Offre inoltre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering reattivo dei risultati da SmartCrop e Smart Swatch.
+Libreria immagini reattiva è un modulo JavaScript che regola in modo dinamico la qualità delle immagini trasmesse da Dynamic Media e incorporate in pagine Web reattive. Offre inoltre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering reattivo dei risultati da SmartCrop e Smart Swatch.
 
 ## URL demo {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-Il caso d’uso più semplice della libreria di immagini reattive è definire un elenco di valori dei punti di interruzione per la larghezza dell’immagine. Questo elenco assicura che la rappresentazione appropriata venga caricata e visualizzata quando un&#39;immagine viene ridimensionata a causa delle modifiche apportate al layout della pagina Web da un utente che ridimensiona la finestra del browser o modifica l&#39;orientamento del dispositivo. La libreria effettua un monitoraggio continuo delle dimensioni dell’immagine sullo schermo e ogni volta che viene raggiunta una nuova larghezza, ottiene una nuova rappresentazione immagine da Scene7.
+Il caso d’uso più semplice della libreria di immagini reattive è definire un elenco di valori dei punti di interruzione per la larghezza dell’immagine. Questo elenco assicura che la rappresentazione appropriata venga caricata e visualizzata quando un&#39;immagine viene ridimensionata a causa delle modifiche apportate al layout della pagina Web da un utente che ridimensiona la finestra del browser o modifica l&#39;orientamento del dispositivo. La libreria effettua un monitoraggio continuo delle dimensioni dell’immagine sullo schermo e ogni volta che viene raggiunta una nuova larghezza, ottiene una nuova rappresentazione immagine da Dynamic Media.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ Il caso d’uso più semplice della libreria di immagini reattive è definire un
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso di utilizzo in una pagina Web. In base a Bootstrap CSS, la cella di layout a cui viene aggiunta l'immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi sono i valori esatti che vengono passati come punti di interruzione alla libreria di immagini reattive. Scene7 garantisce l'utilizzo efficiente della larghezza di banda di rete del cliente. Inoltre, garantisce che l'immagine venga visualizzata nella dimensione esatta necessaria, dato il layout della pagina Web corrente, senza artefatti visivi che ne impediscano il ridimensionamento del browser lato client. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionare la finestra del browser per individuare diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi di utilizzo più avanzati includono l’associazione di diversi predefiniti per immagini, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
+   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso di utilizzo in una pagina Web. In base a Bootstrap CSS, la cella di layout a cui viene aggiunta l'immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi sono i valori esatti che vengono passati come punti di interruzione alla libreria di immagini reattive. Dynamic Media garantisce l'utilizzo efficiente della larghezza di banda di rete del cliente. Inoltre, garantisce che l'immagine venga visualizzata nella dimensione esatta necessaria, dato il layout della pagina Web corrente, senza artefatti visivi che ne impediscano il ridimensionamento del browser lato client. </p> <p>Fate clic sull’URL per aprire la pagina Web, ridimensionare la finestra del browser per individuare diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi di utilizzo più avanzati includono l’associazione di diversi predefiniti per immagini, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ Il caso d’uso più semplice della libreria di immagini reattive è definire un
 
 **Software e hardware per server**
 
-* Scene7 Image Serving 6.0.1 o versione successiva.
+* Dynamic Media Image Serving 6.0.1 o versione successiva.
 
 **Requisiti minimi del browser client**
 
