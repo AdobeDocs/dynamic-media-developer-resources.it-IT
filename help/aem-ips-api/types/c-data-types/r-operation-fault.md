@@ -4,10 +4,10 @@ seo-description: Messaggio di dettaglio che risponde a uno degli URL forniti nel
 seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 6%
@@ -27,6 +27,6 @@ Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di a
 
 | ** Nome** | ** Tipo** | ** Descrizione** |
 |---|---|---|
-| ` *`code`*` | `xsd:int` | Codice di errore fornito dalla rete CDN |
-| ` *`reason`*` | `xsd:string` | Messaggio di errore fornito dalla rete CDN |
+| `*`code`*` | `xsd:int` | Codice di errore fornito dalla rete CDN |
+| `*`reason`*` | `xsd:string` | Messaggio di errore fornito dalla rete CDN |
 
