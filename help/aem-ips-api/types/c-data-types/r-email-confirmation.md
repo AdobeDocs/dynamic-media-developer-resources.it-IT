@@ -1,16 +1,13 @@
 ---
 description: Invia un'e-mail a un destinatario designato in risposta a un'operazione cdnCacheInvalidation.
-seo-description: Invia un'e-mail a un destinatario designato in risposta a un'operazione cdnCacheInvalidation.
-seo-title: EmailConfirm
 solution: Experience Manager
 title: EmailConfirm
-topic: Scene7 Image Production System API
-uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -25,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ` *`ccOriginator`*` | `xsd:boolean` | Se true, include l&#39;account utente del servizio Web dell&#39;utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Scene7. |
-| ` *`ccOthersArray`*` | `types:EmailArray` | Un array di indirizzi e-mail (massimo 5) destinati a ricevere la notifica di conferma dalla rete CDN Scene7. |
+| `*`ccOriginator`*` | `xsd:boolean` | Se true, include l&#39;account utente del servizio Web dell&#39;utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Dynamic Media. |
+| `*`ccOthersArray`*` | `types:EmailArray` | Un array di indirizzi e-mail (massimo 5) destinati a ricevere la notifica di conferma dalla rete CDN Dynamic Media. |
 
