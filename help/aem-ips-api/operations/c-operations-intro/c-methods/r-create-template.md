@@ -4,10 +4,10 @@ seo-description: Crea un’immagine a più livelli con più livelli di testo e i
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -35,18 +35,18 @@ Il parametro `urlModifier` specifica i comandi del protocollo Image Server memor
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | La società a cui appartiene il modello. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | handle della cartella che rappresenta la cartella in cui risiede il modello. |
-| ` *`name`*` | `xsd:string` | Sì | Nome del modello. |
-| ` *`type`*` | `xsd:string` | Sì | Tipo di modello. |
-| ` *`urlModifier`*` | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall’utente sull’URL. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | No | Specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
+| `*`companyHandle`*` | `xsd:string` | Sì | La società a cui appartiene il modello. |
+| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella che rappresenta la cartella in cui risiede il modello. |
+| `*`name`*` | `xsd:string` | Sì | Nome del modello. |
+| `*`type`*` | `xsd:string` | Sì | Tipo di modello. |
+| `*`urlModifier`*` | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall’utente sull’URL. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
 
 **Output (createTemplateParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sì | La maniglia del modello. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del modello. |
 
 ## Esempi {#section-09adb4d2f0c944af875c4463a461f55d}
 
