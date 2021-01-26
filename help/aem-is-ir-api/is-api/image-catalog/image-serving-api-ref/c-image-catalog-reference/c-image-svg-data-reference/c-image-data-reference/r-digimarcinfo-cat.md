@@ -4,10 +4,10 @@ seo-description: Informazioni immagine Digimarc. Abilita l'incorporamento Digima
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -23,9 +23,9 @@ Informazioni immagine Digimarc. Abilita l&#39;incorporamento Digimarc e specific
 
 Quattro valori interi, separati da virgole.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`Digimarc `*` embedding e specifica il tipo di filigrana:
+`*`Digimarc `*` embedding e specifica il tipo di filigrana:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Quattro valori interi, separati da virgole.
  </tbody> 
 </table>
 
-` *``*` flagsis a bit field con tre valori. Impostate il bit 0 per indicare il contenuto protetto da copia, il bit 1 per indicare il contenuto con restrizioni e il bit 2 per indicare il contenuto per adulti:
+`*``*` flagsis a bit field con tre valori. Impostate il bit 0 per indicare il contenuto protetto da copia, il bit 1 per indicare il contenuto con restrizioni e il bit 2 per indicare il contenuto per adulti:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -81,7 +81,7 @@ Quattro valori interi, separati da virgole.
    <td> <p>Limitato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protetto da copia, limitato. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Quattro valori interi, separati da virgole.
  </tbody> 
 </table>
 
-L&#39;interpretazione di ` *`val1`*` e ` *`val2`*` dipende da ` *`type`*`:
+L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -130,7 +130,7 @@ L&#39;interpretazione di ` *`val1`*` e ` *`val2`*` dipende da ` *`type`*`:
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID transazione. </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
