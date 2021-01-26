@@ -4,10 +4,10 @@ seo-description: Questa pagina contiene diversi esempi di server immagini.
 seo-title: Esempi di Image Server
 solution: Experience Manager
 title: Esempi di Image Server
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 3%
