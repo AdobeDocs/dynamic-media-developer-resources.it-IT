@@ -4,10 +4,10 @@ seo-description: Sostituisce i dati immagine per una risorsa immagine.
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 13%
@@ -36,15 +36,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Sì | L’handle della società con l’immagine da sostituire. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa da sostituire. |
-| ` *`urlModifier`*` | `xsd:string` | Sì | Comandi Image Server che generano nuovi dati immagine. |
+| `*`companyName`*` | `xsd:string` | Sì | L’handle della società con l’immagine da sostituire. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa da sostituire. |
+| `*`urlModifier`*` | `xsd:string` | Sì | Comandi Image Server che generano nuovi dati immagine. |
 
 **Output (replaceImageReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sì | Consente di passare alla nuova risorsa. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Consente di passare alla nuova risorsa. |
 
 ## Esempi {#section-cebb93576bde4cb98cb27356ca66783b}
 
