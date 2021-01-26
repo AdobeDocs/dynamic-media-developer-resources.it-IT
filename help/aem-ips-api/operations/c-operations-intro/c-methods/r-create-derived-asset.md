@@ -4,10 +4,10 @@ seo-description: Crea una nuova risorsa derivata da una risorsa immagine di orig
 seo-title: createDeriedAsset
 solution: Experience Manager
 title: createDeriedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 7%
@@ -42,19 +42,19 @@ A differenza di una copia immagine (vedere [copyImage](../../../operations/c-ope
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverete la nuova risorsa. |
-| ` *`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriverà la nuova immagine. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui verrà creata la nuova risorsa derivata. |
-| ` *`name`*` | `xsd:string` | Sì | Nome della risorsa derivata. |
-| ` *`type`*` | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | No | I comandi del protocollo di trasmissione delle immagini o di rendering delle immagini applicati *prima di* i comandi della richiesta o `urlPostApplyModifier`. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | No | I comandi del protocollo di trasmissione delle immagini o di rendering delle immagini applicati *dopo* ai comandi della richiesta o `urlPostApplyModifier`. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverete la nuova risorsa. |
+| `*`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriverà la nuova immagine. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui verrà creata la nuova risorsa derivata. |
+| `*`name`*` | `xsd:string` | Sì | Nome della risorsa derivata. |
+| `*`type`*` | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
+| `*`urlModifier`*` | `xsd:string` | No | I comandi del protocollo di trasmissione delle immagini o di rendering delle immagini applicati *prima di* i comandi della richiesta o `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | I comandi del protocollo di trasmissione delle immagini o di rendering delle immagini applicati *dopo* ai comandi della richiesta o `urlPostApplyModifier`. |
 
 **Output (createDeriedAssetParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa derivata. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa derivata. |
 
 ## Esempi {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
