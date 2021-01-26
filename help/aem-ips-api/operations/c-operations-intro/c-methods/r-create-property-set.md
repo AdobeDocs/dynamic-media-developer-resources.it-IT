@@ -4,10 +4,10 @@ seo-description: I set di proprietà sono set di coppie nome-valore specifici de
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 5%
@@ -34,17 +34,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
-| ` *`mainOwnerHandle`*` | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
-| ` *`secondariaOwnerHandle`*` | `xsd:string` | No | L&#39;handle del proprietario secondario dell&#39;insieme di proprietà. |
-| ` *`propertyArray`*` | `types:PropertyArray` | Sì | L&#39;array di proprietà. |
-| ` *`permissionsArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
+| `*`mainOwnerHandle`*` | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
+| `*`secondariaOwnerHandle`*` | `xsd:string` | No | L&#39;handle del proprietario secondario dell&#39;insieme di proprietà. |
+| `*`propertyArray`*` | `types:PropertyArray` | Sì | L&#39;array di proprietà. |
+| `*`permissionsArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **Output (createPropertySetParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Sì | L&#39;handle del nuovo set di proprietà. |
+| `*`setHandle`*` | `xsd:string` | Sì | L&#39;handle del nuovo set di proprietà. |
 
 ## Esempi {#section-4e1f5b2883664bc88f590fcd253df22b}
 
