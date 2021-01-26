@@ -1,15 +1,12 @@
 ---
 description: Per aggiungere una libreria di immagini reattive a una pagina Web e gestire le immagini esistenti con la libreria, effettua i seguenti passaggi.
-seo-description: Per aggiungere una libreria di immagini reattive a una pagina Web e gestire le immagini esistenti con la libreria, effettua i seguenti passaggi.
-seo-title: Utilizzo della libreria di immagini reattive
 solution: Experience Manager
 title: Utilizzo della libreria di immagini reattive
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ Il codice seguente è un esempio completo di una pagina Web banale con una singo
 
 **Utilizzo del ritaglio avanzato**
 
-Sono disponibili due modalità di ritaglio avanzato nei visualizzatori AEM 6.4 e Scene7 5.9:
+Sono disponibili due modalità di ritaglio avanzato nei visualizzatori AEM 6.4 e Dynamic Media 5.9:
 
 * **I punti di interruzione definiti dall’utente e i comandi corrispondenti del servizio immagini sono definiti all’interno di un attributo nell’elemento immagine.** 
 * **Smart Crop** : le rappresentazioni di ritaglio avanzato calcolate vengono recuperate automaticamente dal server di consegna. La rappresentazione migliore viene selezionata utilizzando le dimensioni di runtime dell&#39;elemento immagine.
