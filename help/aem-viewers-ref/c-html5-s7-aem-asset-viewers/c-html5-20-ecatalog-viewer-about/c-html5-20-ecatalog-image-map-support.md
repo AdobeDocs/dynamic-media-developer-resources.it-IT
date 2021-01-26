@@ -7,7 +7,7 @@ title: Supporto per mappe immagine
 topic: Dynamic media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Facendo clic su una mappa immagine si esegue uno scambio di pagina interno all�
 
 ` href=target: *`idx`*`
 
-dove ` *`idx`*` è un indice basato su zero dell&#39;estensione del catalogo.
+dove `*`idx`*` è un indice basato su zero dell&#39;estensione del catalogo.
 
 Di seguito è riportato un esempio di attributo `href` per una mappa immagine che indirizza alle pagine affiancate 3D nell’eCatalog:
 
