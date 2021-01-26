@@ -4,10 +4,10 @@ seo-description: Elemento stringa di sostituzione. Facoltativo negli elementi <r
 seo-title: replace
 solution: Experience Manager
 title: replace
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%
