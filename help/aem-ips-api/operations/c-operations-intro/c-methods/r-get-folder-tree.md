@@ -4,10 +4,10 @@ seo-description: Restituisce cartelle e sottocartelle in una struttura ad albero
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 7%
@@ -41,21 +41,21 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| ` *`accessUserHandle`*` | `xsd:string` | No | Utilizzata solo dagli amministratori per rappresentare un utente specifico. |
-| ` *`accessGroupHandle`*` | `xsd:string` | No | Utilizzato per filtrare in base a uno specifico gruppo, compresi quelli a cui appartiene la società. |
-| ` *`folderPath`*` | `xsd:string` | No | Cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
-| ` *`profondità`*` | `xsd:int` | Sì | Con un valore pari a zero si ottiene la cartella di livello principale. Qualsiasi altro valore specifica la profondità da scendere nella struttura ad albero. |
-| ` *`assetTypeArray`*` | `types:StringArray` | No | Restituisce cartelle contenenti solo tipi di risorse specificati. |
-| ` *`responseFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi da escludere nella risposta. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`accessUserHandle`*` | `xsd:string` | No | Utilizzata solo dagli amministratori per rappresentare un utente specifico. |
+| `*`accessGroupHandle`*` | `xsd:string` | No | Utilizzato per filtrare in base a uno specifico gruppo, compresi quelli a cui appartiene la società. |
+| `*`folderPath`*` | `xsd:string` | No | Cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
+| `*`profondità`*` | `xsd:int` | Sì | Con un valore pari a zero si ottiene la cartella di livello principale. Qualsiasi altro valore specifica la profondità da scendere nella struttura ad albero. |
+| `*`assetTypeArray`*` | `types:StringArray` | No | Restituisce cartelle contenenti solo tipi di risorse specificati. |
+| `*`responseFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
+| `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi da escludere nella risposta. |
 
 **Output (getFolderTreeReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`folder`*` | `types:folders` | No | La gerarchia di cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
-| ` *`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`folder`*` | `types:folders` | No | La gerarchia di cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
+| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Esempi {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
