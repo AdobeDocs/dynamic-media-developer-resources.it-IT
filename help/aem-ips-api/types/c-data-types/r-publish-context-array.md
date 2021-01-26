@@ -4,10 +4,10 @@ seo-description: Un array di contesti di pubblicazione.
 seo-title: PublishContextArray
 solution: Experience Manager
 title: PublishContextArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47aa483c-c141-499b-b58c-7b09cc9c2a4b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 13%
@@ -25,5 +25,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ` *`PublishContextArray`*` | `types:PublishContext` | Un array di contesti di pubblicazione. |
+| `*`PublishContextArray`*` | `types:PublishContext` | Un array di contesti di pubblicazione. |
 
