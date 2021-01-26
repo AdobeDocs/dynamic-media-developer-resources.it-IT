@@ -4,12 +4,12 @@ seo-description: Colore di sfondo. Specifica il colore sottrattivo per le textur
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Colore di sfondo. Specifica il colore sottrattivo per le texture e le decorazion
 
 L&#39;algoritmo di colorizzazione della texture del rendering delle immagini è abbastanza semplice: i valori dei componenti di `bgc=` vengono sottratti da quelli dei pixel della texture, `color=` vengono aggiunti e infine il risultato viene ritagliato su `0,0,0` e `255,255,255`.
 
-Per gli usi tipici della colorazione della texture, il valore di `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Scene7 Image Authoring offre strumenti semi-automatici che estraono valori di colore `bgc=` ragionevoli dalle immagini delle texture.
+Per gli usi tipici della colorazione della texture, il valore di `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Dynamic Media Image Authoring offre strumenti semi-automatici che estraono valori di colore `bgc=` ragionevoli dalle immagini delle texture.
 
 Quando un materiale texture viene applicato a un oggetto vignettatura non texture, `bgc=` viene applicato come colore di primo piano se `color=` non è specificato.
 
