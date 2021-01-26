@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: c7585cd5-6a95-43b1-8f68-c1eba868164c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` -  `{String}` un ID del componente SDK per visualizzatori usato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
+`*`componentID`*` -  `{String}` un ID del componente SDK per visualizzatori usato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
