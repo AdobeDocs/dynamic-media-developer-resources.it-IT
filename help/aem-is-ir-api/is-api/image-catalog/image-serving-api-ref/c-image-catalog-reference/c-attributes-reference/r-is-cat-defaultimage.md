@@ -4,13 +4,13 @@ seo-description: Immagine di risposta predefinita. Specifica l’immagine o la v
 seo-title: DefaultImage
 solution: Experience Manager
 title: DefaultImage
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f8f50af-15bb-4333-b227-3eba38653a7d
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 2%
 
 ---
 
