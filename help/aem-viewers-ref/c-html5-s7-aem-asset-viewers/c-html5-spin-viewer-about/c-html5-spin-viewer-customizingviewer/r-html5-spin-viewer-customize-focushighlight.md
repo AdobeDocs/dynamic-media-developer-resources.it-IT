@@ -4,10 +4,10 @@ seo-description: L'evidenziazione dello stato attivo visualizzata attorno all'el
 seo-title: Evidenziazione dello stato
 solution: Experience Manager
 title: Evidenziazione dello stato
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 81bf9937-6a26-4f69-838e-5ba41608ac09
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
