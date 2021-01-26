@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-vie
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*`  - { `String`} nuovo ID risorsa o set di file multimediali diversi esplicito, con l’aggiunta di modificatori Image Server facoltativi  `?`.
+`*`asset`*`  - { `String`} nuovo ID risorsa o set di file multimediali diversi esplicito, con l’aggiunta di modificatori Image Server facoltativi  `?`.
 
 Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore.
 
-` *`data`*` - { `JSON`} posizione del nuovo file di didascalia.
+`*`data`*` - { `JSON`} posizione del nuovo file di didascalia.
 
 Se non viene specificato, il pulsante della didascalia non è visibile nell&#39;interfaccia utente. Le didascalie specificate con questo parametro si applicano al video che compare per primo nel set di file multimediali diversi; i video successivi vengono riprodotti senza didascalie. Questo visualizzatore supporta i seguenti ID componente:
 
