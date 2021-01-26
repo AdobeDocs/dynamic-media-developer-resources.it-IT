@@ -2,12 +2,12 @@
 description: Percorso
 solution: Experience Manager
 title: Percorso
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Stringa di testo. Richiesto per i record immagine e SVG, potrebbe essere vuoto p
 
 Per un elenco completo dei formati di file immagine supportati, consultate la descrizione dell&#39;utilità Image Converter (IC).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Scene7 a piramide TIFF (PTIFF) a risoluzione multipla. L’utility IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Dynamic Media a piramide TIFF (PTIFF) a risoluzione multipla. L’utility IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
 
 ## Predefinito {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
