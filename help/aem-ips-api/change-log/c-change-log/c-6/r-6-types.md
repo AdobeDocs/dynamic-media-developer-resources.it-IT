@@ -1,15 +1,12 @@
 ---
 description: Descrive i tipi nuovi e modificati per l'API IPS versione 6.
-seo-description: Descrive i tipi nuovi e modificati per l'API IPS versione 6.
-seo-title: Tipi di dati nuovi e modificati
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
-topic: Scene7 Image Production System API
-uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
