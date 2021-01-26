@@ -4,13 +4,13 @@ seo-description: Elimina un formato immagine. Ottenere la maniglia del formato i
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 8%
 
 ---
 
@@ -34,8 +34,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il formato immagine da eliminare. |
-| ` *`imageFormatHandle`*` | `xsd:string` | Sì | La maniglia del formato immagine da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il formato immagine da eliminare. |
+| `*`imageFormatHandle`*` | `xsd:string` | Sì | La maniglia del formato immagine da eliminare. |
 
 **Output (deleteImageFormatParam)**
 
