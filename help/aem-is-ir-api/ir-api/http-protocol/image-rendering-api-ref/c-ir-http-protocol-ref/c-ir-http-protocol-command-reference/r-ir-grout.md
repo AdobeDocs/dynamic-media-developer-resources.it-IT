@@ -4,10 +4,10 @@ seo-description: Colore e spessore della tegola. Simula l'arachide per piastrell
 seo-title: malva
 solution: Experience Manager
 title: malva
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ Per il controllo massimo dell&#39;aspetto dell&#39;arachide si applicano i segue
 
 ## Proprietà {#section-de78b678245b4ffda48097c345949e77}
 
-Attributo materiale. ` *`Il `*` colore deve essere un valore di colore RGB. ` *`La `*` larghezza deve essere un valore reale pari a 0 o superiore.
+Attributo materiale. `*`Il `*` colore deve essere un valore di colore RGB. `*`La `*` larghezza deve essere un valore reale pari a 0 o superiore.
 
 Ignorato se ripeti = 4, 5, 7, 8, 9, 14 o superiore o se specificato per materiali diversi da texture ripetibili.
 
 ## Predefinito {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Se `grout=` non è specificato, il grout nell&#39;immagine non viene modificato. Se si specifica ` grout= *`color`*`, ` *`width`*` è `catalog::GroutWidth` per impostazione predefinita.
+Se `grout=` non è specificato, il grout nell&#39;immagine non viene modificato. Se si specifica ` grout= *`color`*`, `*`width`*` è `catalog::GroutWidth` per impostazione predefinita.
 
 ## Consultate anche {#section-8d472906a44943f5a8557e98f2fbc71f}
 
