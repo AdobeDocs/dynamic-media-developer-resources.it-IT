@@ -4,12 +4,12 @@ seo-description: Zoom dei dati di destinazione. Nessuna o più proprietà delle 
 seo-title: Destinazioni
 solution: Experience Manager
 title: Destinazioni
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Destinazione. *`num`*.rect è richiesto per ciascuna destinazione di zoom e deve
 
 Per le applicazioni che coinvolgono i client visualizzatore per set 360 gradi e per brochure, le destinazioni di zoom devono essere definite nello stesso record di catalogo che definisce il set di immagini. Le definizioni delle destinazioni di zoom nei record catalogo dei membri del set di immagini vengono ignorate dal visualizzatore.
 
-I visualizzatori Scene7 prevedono destinazioni di zoom nelle coordinate dell’immagine a risoluzione piena già regolate dai comandi di `catalog::Modifier`.
+I visualizzatori Dynamic Media prevedono destinazioni di zoom nelle coordinate dell’immagine a risoluzione piena già regolate dai comandi di `catalog::Modifier`.
 
 ## Proprietà {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
