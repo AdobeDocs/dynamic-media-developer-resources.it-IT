@@ -4,10 +4,10 @@ seo-description: Rimuove gli utenti da un array di gruppi.
 seo-title: removeGroupMembership
 solution: Experience Manager
 title: removeGroupMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 9%
@@ -36,8 +36,8 @@ Rimuove gli utenti da un array di gruppi.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | No | L’handle della società di cui si desidera rimuovere l’appartenenza al gruppo. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Sì | L&#39;array di handle per i gruppi da cui si desidera rimuovere la società. |
+| `*`userHandle`*` | `xsd:string` | No | L’handle della società di cui si desidera rimuovere l’appartenenza al gruppo. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sì | L&#39;array di handle per i gruppi da cui si desidera rimuovere la società. |
 
 **Output (removeGroupMembershipReturn)**
 
