@@ -4,13 +4,13 @@ seo-description: I campioni sono costituiti da una riga di miniature con pulsant
 seo-title: Campioni
 solution: Experience Manager
 title: Campioni
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
