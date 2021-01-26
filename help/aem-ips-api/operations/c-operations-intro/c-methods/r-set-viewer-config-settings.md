@@ -4,10 +4,10 @@ seo-description: Associa le impostazioni di configurazione del visualizzatore a 
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 8%
@@ -34,11 +34,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
-| ` *`name`*` | `xsd:string` | Sì | Nome risorsa. |
-| ` *`type`*` | `xsd:string` | Sì | Il tipo di risorsa a cui applicare la configurazione del visualizzatore. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Sì | Array di `ConfigSettings` applicato alla risorsa. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
+| `*`name`*` | `xsd:string` | Sì | Nome risorsa. |
+| `*`type`*` | `xsd:string` | Sì | Il tipo di risorsa a cui applicare la configurazione del visualizzatore. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sì | Array di `ConfigSettings` applicato alla risorsa. |
 
 **Output (setViewerConfigSettingsParam)**
 
