@@ -1,16 +1,14 @@
 ---
 description: Il visualizzatore di ricerca per eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o pagina per pagina, mentre l’eCatalog consente agli utenti di spostarsi nel catalogo utilizzando altri elementi dell’interfaccia utente o una modalità apposita per le miniature. Gli utenti possono inoltre effettuare lo zoom in su ogni pagina per maggiori dettagli.
 keywords: responsive
-seo-description: Il visualizzatore di ricerca per eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o pagina per pagina, mentre l’eCatalog consente agli utenti di spostarsi nel catalogo utilizzando altri elementi dell’interfaccia utente o una modalità apposita per le miniature. Gli utenti possono inoltre effettuare lo zoom in su ogni pagina per maggiori dettagli.
-seo-title: Ricerca eCatalog
 solution: Experience Manager
 title: Ricerca eCatalog
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Scene7  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno  server Adobe Scene7 in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di uno dei Adobi  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media  Adobe in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
