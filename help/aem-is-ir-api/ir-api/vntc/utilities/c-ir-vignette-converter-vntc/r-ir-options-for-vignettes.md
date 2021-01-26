@@ -4,12 +4,12 @@ seo-description: Le seguenti opzioni controllano l'elaborazione dei file di vign
 seo-title: Opzioni per le vignettature
 solution: Experience Manager
 title: Opzioni per le vignettature
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Le seguenti opzioni controllano l&#39;elaborazione dei file di vignettatura. Ven
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -piramide</span> </p></td> 
-  <td class="stentry"> <p>Crea una vignettatura piramidale. Richiesto quando le immagini di cui è stato effettuato il rendering devono essere visualizzate con i visualizzatori zoom Scene7. Per ulteriori informazioni, vedere <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Ridimensionamento vignettatura</a>. </p></td> 
+  <td class="stentry"> <p>Crea una vignettatura piramidale. Richiesto quando le immagini di cui è stato effettuato il rendering devono essere visualizzate con i visualizzatori zoom Dynamic Media. Per ulteriori informazioni, vedere <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Ridimensionamento vignettatura</a>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbnail  <span class="varname"> ival</span></span> </p></td> 
