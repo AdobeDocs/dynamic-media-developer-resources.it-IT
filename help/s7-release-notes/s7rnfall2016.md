@@ -7,9 +7,9 @@ title: Rilascio di Scene7 - Autunno 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Note aggiornate sulla versione per [!DNL Adobe Scene7] Autunno 2016 - parte dell
 * [Visualizzatori (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visualizzatori (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visualizzatori (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Generali {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Per la documentazione completa, consultate [Guida di riferimento visualizzatori]
    * I bordi neri sono visualizzati sul lato del componente VideoPlayer quando lo sfondo è impostato su bianco/trasparente sui dispositivi iPad.
    * L’ultimo fotogramma del video potrebbe essere distorto sull’iPad con iOS 7.
    * Il macroblocco occasionale può verificarsi durante la ricerca video in modalità di streaming HLS nei browser Chrome, Firefox e Internet Explorer.
-   * L&#39;immagine poster potrebbe non essere visualizzata nel browser Microsoft Edge per la prima volta dal visitatore.
-   * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
+      * L&#39;immagine poster potrebbe non essere visualizzata nel browser Microsoft Edge per la prima volta dal visitatore.
+      * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ La Guida utente si trova nella cartella dell’SDK del visualizzatore HTML5  Ado
    * L&#39;immagine poster potrebbe non essere visualizzata nel browser Microsoft Edge per la prima volta dal visitatore.
    * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
 
-## Scene7 Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utility IC - Il flag `downsample2x2` non è più supportato. Questo flag era un downsampling 2x2 di scarsa qualità che non è più utilizzato da IPS.
 * Intestazione CORS - Attualmente, l&#39;intestazione CORS è configurata per le richieste `/is/content/`.
