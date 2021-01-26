@@ -4,10 +4,10 @@ seo-description: Creare o modificare un campo di metadati. Omettete la maniglia 
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 8%
@@ -99,7 +99,7 @@ Creare o modificare un campo di metadati. Omettete la maniglia del campo opziona
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | Sì | Gestione del nuovo campo di metadati. |
+| `*`fieldHandle`*` | `xsd:string` | Sì | Gestione del nuovo campo di metadati. |
 
 ## Esempi {#section-4441c26d1f41466ba972b43dd5189e89}
 
