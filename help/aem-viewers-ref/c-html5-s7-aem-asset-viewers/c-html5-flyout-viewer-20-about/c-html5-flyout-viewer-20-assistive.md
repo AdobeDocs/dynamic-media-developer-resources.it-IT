@@ -4,10 +4,10 @@ seo-description: Tutti i componenti del visualizzatore supportano i ruoli e gli 
 seo-title: Supporto per tecnologie di assistenza
 solution: Experience Manager
 title: Supporto per tecnologie di assistenza
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9cc28ee1-378d-432e-9ecb-98054cb91179
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
