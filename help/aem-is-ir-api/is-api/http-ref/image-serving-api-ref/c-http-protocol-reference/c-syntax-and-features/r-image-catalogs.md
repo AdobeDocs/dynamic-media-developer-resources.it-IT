@@ -4,10 +4,10 @@ seo-description: Le funzioni e la sintassi dei cataloghi di immagini sono descri
 seo-title: Cataloghi delle immagini
 solution: Experience Manager
 title: Cataloghi delle immagini
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ I cataloghi di immagini offrono le seguenti funzionalità:
 
 * Consenti associazione permanente di immagini con alcuni metadati e comandi di modificatore.
 
-   Le voci nei cataloghi delle immagini sono segnalate utilizzando una notazione di scelta rapida ` *`rootId/objId`*`, dove ` *`rootId`*` identifica il catalogo immagini e ` *`objId`*` identifica un record di dati nel catalogo.
+   Le voci nei cataloghi delle immagini sono segnalate utilizzando una notazione di scelta rapida `*`rootId/objId`*`, dove `*`rootId`*` identifica il catalogo immagini e `*`objId`*` identifica un record di dati nel catalogo.
 * Specificate i valori predefiniti per alcuni attributi di richiesta, ad esempio la qualità JPEG o se applicare una filigrana.
 * Gestione di font, profili ICC, definizioni di macro e modelli di richiesta
 
 Anche se non sono definiti cataloghi di immagini specifici, tutte le funzioni dei cataloghi di immagini sono disponibili tramite il catalogo predefinito ( [!DNL default.ini]).
 
-Se ` *`rootId`*` nel percorso dell&#39;URL della richiesta corrisponde a `attribute::RootId` di un catalogo immagini specifico, tale catalogo diventerà il catalogo principale per la richiesta. Il catalogo principale fornisce gli attributi e le impostazioni predefiniti per l’intera richiesta. Se non viene trovata alcuna corrispondenza, viene utilizzato il catalogo predefinito.
+Se `*`rootId`*` nel percorso dell&#39;URL della richiesta corrisponde a `attribute::RootId` di un catalogo immagini specifico, tale catalogo diventerà il catalogo principale per la richiesta. Il catalogo principale fornisce gli attributi e le impostazioni predefiniti per l’intera richiesta. Se non viene trovata alcuna corrispondenza, viene utilizzato il catalogo predefinito.
 
 Un catalogo identificato in un comando `src=` o `mask=` fornisce i seguenti attributi e dati di catalogo al livello corrente:
 
@@ -104,7 +104,7 @@ Nello stesso livello, `src=` e `mask=` devono fare riferimento allo stesso catal
 
 Un catalogo identificato in un comando `icc=` viene utilizzato solo per cercare una voce dalla tabella del profilo ICC del catalogo. Non sono coinvolti altri attributi o dati del catalogo.
 
-Se ` *`rootId`*` viene risolto in un catalogo e ` *`objId`*` viene confrontato con un `catalog::Id` in questo catalogo, ` *`rootId/objId`*` viene effettivamente sostituito dalla voce del catalogo in modo simile a questo:
+Se `*`rootId`*` viene risolto in un catalogo e `*`objId`*` viene confrontato con un `catalog::Id` in questo catalogo, `*`rootId/objId`*` viene effettivamente sostituito dalla voce del catalogo in modo simile a questo:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
