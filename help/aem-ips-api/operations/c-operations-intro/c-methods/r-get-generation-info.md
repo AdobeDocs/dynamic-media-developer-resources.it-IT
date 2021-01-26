@@ -4,10 +4,10 @@ seo-description: Restituisce 2 diversi tipi di informazioni in base ai parametri
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 7%
@@ -39,18 +39,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`Frase codice`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| ` *`Frase codice`*` | `xsd:string` | No | Il motore utilizzato nella generazione. Consultate Stili font. |
-| ` *`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da sottoporre a query per le risorse generate. |
-| ` *`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da interrogare per le risorse e i motori utilizzati nella generazione. |
-| ` *`Frase codice`*` | `xsd:StringArray` | No | Proprietà incluse nell&#39;operazione. |
-| ` *`Frase codice`*` | `xsd:StringArray` | No | Proprietà escluse dall&#39;operazione. |
+| `*`Frase codice`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`Frase codice`*` | `xsd:string` | No | Il motore utilizzato nella generazione. Consultate Stili font. |
+| `*`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da sottoporre a query per le risorse generate. |
+| `*`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da interrogare per le risorse e i motori utilizzati nella generazione. |
+| `*`Frase codice`*` | `xsd:StringArray` | No | Proprietà incluse nell&#39;operazione. |
+| `*`Frase codice`*` | `xsd:StringArray` | No | Proprietà escluse dall&#39;operazione. |
 
 **Output (getGenerationInfoReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | Sì | Array di informazioni di generazione. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | Sì | Array di informazioni di generazione. |
 
 ## Esempi {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
