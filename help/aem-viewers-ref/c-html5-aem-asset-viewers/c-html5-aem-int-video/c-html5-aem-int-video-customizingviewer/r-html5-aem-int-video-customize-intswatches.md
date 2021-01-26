@@ -4,10 +4,10 @@ seo-description: Se i dati interattivi sono stati trasmessi al visualizzatore in
 seo-title: Campioni interattivi
 solution: Experience Manager
 title: Campioni interattivi
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
