@@ -4,12 +4,12 @@ seo-description: Si tratta del registro principale che tiene traccia di tutte le
 seo-title: Registro di accesso
 solution: Experience Manager
 title: Registro di accesso
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ Il registro di accesso è configurato in server.xml.
 
 >[!NOTE]
 >
->Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il registro di accesso potrebbe includere un determinato traffico interno: accesso al sistema di cataloghi Platform Server ( [!DNL /is-catalog/*]), condivisione della cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti nel server piattaforme, come i visualizzatori Scene7 ( [!DNL /is-viewers/*]), le richieste di traffico statico e di contenuto statico servite dal server piattaforme (ad esempio [!DNL /is-docs/*]).
+>Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il registro di accesso potrebbe includere un determinato traffico interno: accesso al sistema di cataloghi Platform Server ( [!DNL /is-catalog/*]), condivisione della cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti nel server piattaforme, come i visualizzatori Dynamic Media ( [!DNL /is-viewers/*]), le richieste di traffico statico e di contenuto statico servite dal server piattaforme (ad esempio [!DNL /is-docs/*]).
 
 Le richieste con percorsi [!DNL /is-catalog] e [!DNL /is/cache] principali devono essere sempre escluse dall&#39;analisi del traffico client.
