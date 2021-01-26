@@ -4,10 +4,10 @@ seo-description: Consente di creare una cartella.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 18%
@@ -44,14 +44,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | La Maniglia per l&#39;azienda |
-| ` *`folderPath`*` | `xsd:string` | Sì | Cartella principale utilizzata per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
+| `*`companyHandle`*` | `xsd:string` | Sì | La Maniglia per l&#39;azienda |
+| `*`folderPath`*` | `xsd:string` | Sì | Cartella principale utilizzata per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
 
 **Output (createFolderParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Sì | Gestione della nuova cartella. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestione della nuova cartella. |
 
 ## Esempi {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
