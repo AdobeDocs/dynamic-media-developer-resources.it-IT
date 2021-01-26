@@ -1,15 +1,12 @@
 ---
-description: Le vignettature sono immagini create con Scene7 Image Authoring per l’utilizzo con il rendering delle immagini.
-seo-description: Le vignettature sono immagini create con Scene7 Image Authoring per l’utilizzo con il rendering delle immagini.
-seo-title: Vignettature
+description: Le vignettature sono immagini create con Dynamic Media Image Authoring per l’utilizzo con il rendering delle immagini.
 solution: Experience Manager
 title: Vignettature
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Vignettature{#vignettes}
 
-Le vignettature sono immagini create con Scene7 Image Authoring per l’utilizzo con il rendering delle immagini.
+Le vignettature sono immagini create con Dynamic Media Image Authoring per l’utilizzo con il rendering delle immagini.
 
 IR supporta due tipi di base di vignettatura: *2D* e *3D*. Le scene delle stanze sono in genere vignettature 3D che possono rappresentare riflessi, mentre la maggior parte delle altre scene, come abbigliamento o tappezzeria, sono in genere vignettature 2D che non hanno capacità di rendering dei riflessi.
 
