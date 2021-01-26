@@ -4,10 +4,10 @@ seo-description: La classe principale del visualizzatore video è VideoViewer. V
 seo-title: Riferimento API JavaScript per il visualizzatore video
 solution: Experience Manager
 title: Riferimento API JavaScript per il visualizzatore video
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 371f6dad-e7ba-434d-9a12-dbc9b871735e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
