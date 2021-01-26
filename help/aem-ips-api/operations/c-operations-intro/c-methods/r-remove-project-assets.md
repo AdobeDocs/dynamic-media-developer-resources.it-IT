@@ -4,13 +4,13 @@ seo-description: Rimuove le risorse da un progetto. Non distrugge le risorse.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 9%
 
 ---
 
@@ -35,19 +35,19 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società con le risorse da spostare. |
-| ` *`projectHandle`*` | `xsd:string` | Sì | L’handle delle risorse del progetto da spostare. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle per le risorse da spostare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con le risorse da spostare. |
+| `*`projectHandle`*` | `xsd:string` | Sì | L’handle delle risorse del progetto da spostare. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle per le risorse da spostare. |
 
 **Output (removeProjectAssetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sì | È stato rimosso il conteggio delle risorse. |
-| ` *`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di rimuovere le risorse dal progetto. |
-| ` *`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di rimuovere le risorse dal progetto. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di rimuoverli dal progetto. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di rimuoverli dal progetto. |
+| `*`successCount`*` | `xsd:int` | Sì | È stato rimosso il conteggio delle risorse. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di rimuovere le risorse dal progetto. |
+| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di rimuovere le risorse dal progetto. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di rimuoverli dal progetto. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di rimuoverli dal progetto. |
 
 ## Esempi {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
