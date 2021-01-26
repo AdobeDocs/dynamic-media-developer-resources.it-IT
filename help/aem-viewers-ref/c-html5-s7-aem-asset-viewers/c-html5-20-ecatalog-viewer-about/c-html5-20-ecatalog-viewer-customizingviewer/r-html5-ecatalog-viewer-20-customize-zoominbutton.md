@@ -4,10 +4,10 @@ seo-description: Toccando o facendo clic su questo pulsante si ingrandisce un’
 seo-title: Pulsante Zoom in
 solution: Experience Manager
 title: Pulsante Zoom in
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 927d3719-46fa-4e05-9b17-73e2e2f4d9d6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
