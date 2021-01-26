@@ -4,10 +4,10 @@ seo-description: Imposta i valori dei dizionari di tag per un campo di tag esist
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 12%
@@ -33,9 +33,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| ` *`fieldHandle`*` | `xsd:string` | Sì | handle del campo del tag. |
-| ` *`valueArray`*` | `types:StringArray` | Sì | Un array di valori di tag che sostituiscono il dizionario esistente del campo. Le associazioni di risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`fieldHandle`*` | `xsd:string` | Sì | handle del campo del tag. |
+| `*`valueArray`*` | `types:StringArray` | Sì | Un array di valori di tag che sostituiscono il dizionario esistente del campo. Le associazioni di risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
 
 **Output (setTagFieldValuesReturn)**
 
