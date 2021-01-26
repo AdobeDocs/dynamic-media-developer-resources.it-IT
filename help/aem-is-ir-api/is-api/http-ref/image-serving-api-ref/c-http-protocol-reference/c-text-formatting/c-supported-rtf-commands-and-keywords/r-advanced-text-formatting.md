@@ -4,12 +4,12 @@ seo-description: Utilizzate i seguenti comandi per la formattazione avanzata del
 seo-title: Formattazione avanzata del testo
 solution: Experience Manager
 title: Formattazione avanzata del testo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Utilizzate i seguenti comandi per la formattazione avanzata del testo.
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Ridimensionamento verticale dei caratteri. </p> </td> 
-   <td> <p>percentuale positiva o negativa; il valore predefinito è 100; Estensione Scene7. </p> <p> <span class="codeph"> \charscaley ridimensiona  </span> anche l’interlinea se applicata con  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= mantiene  </span> sempre l'interlinea indipendentemente dalla quantità di ridimensionamento verticale dei caratteri. </p> </td> 
+   <td> <p>percentuale positiva o negativa; il valore predefinito è 100; Estensione Dynamic Media. </p> <p> <span class="codeph"> \charscaley ridimensiona  </span> anche l’interlinea se applicata con  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= mantiene  </span> sempre l'interlinea indipendentemente dalla quantità di ridimensionamento verticale dei caratteri. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ Utilizzate i seguenti comandi per la formattazione avanzata del testo.
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Abilita adattamento alla copia e imposta la dimensione font massima consentita. </p> </td> 
-   <td> <p>Dimensione del font in mezzo punto; Solo <span class="codeph"> textPs= </span>; Estensione Scene7. </p> </td> 
+   <td> <p>Dimensione del font in mezzo punto; Solo <span class="codeph"> textPs= </span>; Estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Numero massimo di righe di adattamento alla copia (limitazione morbida). </p> </td> 
-   <td> <p>0 per nessuna limitazione di linea; Solo <span class="codeph"> textPs= </span>; Estensione Scene7. </p> </td> 
+   <td> <p>0 per nessuna limitazione di linea; Solo <span class="codeph"> textPs= </span>; Estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Numero massimo di righe di testo da copiare (troncamento). </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; Estensione Scene7. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; Estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
