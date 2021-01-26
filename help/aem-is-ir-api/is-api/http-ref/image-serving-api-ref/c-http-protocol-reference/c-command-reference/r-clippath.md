@@ -4,10 +4,10 @@ seo-description: Tracciato Clip Livello. Specifica un percorso di clip per il li
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ Tracciato Clip Livello. Specifica un percorso di clip per il livello corrente.
 
 Tutte le parti del livello che non rientrano nell&#39;area definita da `clipPath=` vengono sottoposte a rendering trasparente.
 
-` *`pathName è il nome di un tracciato incorporato nell’immagine sorgente del livello. `*` Il tracciato viene trasformato automaticamente per mantenere l’allineamento relativo con il contenuto dell’immagine. Se sono specificati più ` *`pathName`*`, il server ritaglia l&#39;immagine all&#39;intersezione di tali percorsi. Qualsiasi ` *`nomePercorso`*` non trovato nell&#39;immagine di origine viene ignorato.
+`*`pathName è il nome di un tracciato incorporato nell’immagine sorgente del livello. `*` Il tracciato viene trasformato automaticamente per mantenere l’allineamento relativo con il contenuto dell’immagine. Se sono specificati più `*`pathName`*`, il server ritaglia l&#39;immagine all&#39;intersezione di tali percorsi. Qualsiasi `*`nomePercorso`*` non trovato nell&#39;immagine di origine viene ignorato.
 
 >[!NOTE]
 >
->Sono supportate solo le stringhe ASCII per ` *`pathName`*`.
+>Sono supportate solo le stringhe ASCII per `*`pathName`*`.
 
-` *``*` pathLa definizione consente di specificare dati di percorso espliciti nelle coordinate pixel del livello.
+`*``*` pathLa definizione consente di specificare dati di percorso espliciti nelle coordinate pixel del livello.
 
 Se `size=` è specificato e non 0,0, il livello viene preimpostato. In questo caso, le coordinate del tracciato sono relative all’angolo superiore sinistro del rettangolo del livello e il livello è posizionato in base a `origin=` o al suo valore predefinito. Eventuali aree del tracciato all’esterno del rettangolo del livello rimangono trasparenti.
 
@@ -52,9 +52,9 @@ Se `size=` non è specificato per un livello di colore in tinta unita o di testo
 >
 >`scale=`,  `rotate=`e  `anchor=` i comandi non sono consentiti per i livelli di colore tinta unita di ridimensionamento automatico.
 
-` *`pathDefinition `*` accetta una stringa simile al valore dell&#39; `d=` attributo dell&#39; `<path>` elemento SVG, con la differenza che le virgole vengono utilizzate invece degli spazi per separare i valori. ` *`pathDefinitionpuò includere uno o più sottotracciati a ciclo chiuso. `*` 
+`*`pathDefinition `*` accetta una stringa simile al valore dell&#39; `d=` attributo dell&#39; `<path>` elemento SVG, con la differenza che le virgole vengono utilizzate invece degli spazi per separare i valori. `*`pathDefinitionpuò includere uno o più sottotracciati a ciclo chiuso. `*` 
 
-I seguenti comandi di percorso sono supportati in ` *`pathDefinition`*`:
+I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
