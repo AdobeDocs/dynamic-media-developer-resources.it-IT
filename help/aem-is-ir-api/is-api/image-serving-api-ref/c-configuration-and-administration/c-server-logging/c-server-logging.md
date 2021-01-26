@@ -1,16 +1,13 @@
 ---
 description: Tutti i file di registro vengono scritti nella stessa cartella di registro specificata con la directory TC.
-seo-description: Tutti i file di registro vengono scritti nella stessa cartella di registro specificata con la directory TC.
-seo-title: Registrazione server
 solution: Experience Manager
 title: Registrazione server
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +22,7 @@ Importante È necessario riservare una quantità sufficiente di spazio su disco 
 
 Server piattaforme e server immagini creano i tre tipi di file di registro descritti di seguito.
 
-Altri componenti Image Server e alcuni altri pacchetti Scene7, come i visualizzatori Scene7, possono anche creare file di registro nella stessa cartella. Questi file di registro sono per uso interno di Scene7 e possono essere richiesti dal supporto di Scene7 a scopo di risoluzione dei problemi.
+Altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come i visualizzatori Dynamic Media, possono anche creare file di registro nella stessa cartella. Questi file di registro sono per uso interno di Dynamic Media e possono essere richiesti dal supporto tecnico di Dynamic Media a scopo di risoluzione dei problemi.
 
 * [Registro di accesso](c-access-log.md)
 * [Registro di traccia](c-trace-log.md)
