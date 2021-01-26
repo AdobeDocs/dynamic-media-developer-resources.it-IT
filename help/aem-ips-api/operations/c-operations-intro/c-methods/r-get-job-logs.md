@@ -4,10 +4,10 @@ seo-description: Ottiene i registri di processo specificati per la società sele
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 9%
@@ -39,19 +39,19 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | No | L&#39;azienda gestisce. |
-| ` *`userHandle`*` | `xsd:string` | No | Recupera i registri dei processi inviati da un utente specifico. |
-| ` *`sortBy`*` | `xsd:string` | No | Consente di selezionare i campi di ordinamento. |
-| ` *`sortDirection`*` | `xsd:string` | No | Ordinamento (crescente o decrescente). |
-| ` *`startDate`*` | `xsd:dateTime` | No | Data e ora dell’inizio del registro dei processi. Specifica il fuso orario con la richiesta per questo campo. |
-| ` *`endDate`*` | `xsd:dateTime` | No | Data e ora della fine del registro processi. Specifica il fuso orario con la richiesta per questo campo. |
-| ` *`numRows`*` | `xsd:int` | No | Numero massimo di righe da restituire. |
+| `*`companyHandle`*` | `xsd:string` | No | L&#39;azienda gestisce. |
+| `*`userHandle`*` | `xsd:string` | No | Recupera i registri dei processi inviati da un utente specifico. |
+| `*`sortBy`*` | `xsd:string` | No | Consente di selezionare i campi di ordinamento. |
+| `*`sortDirection`*` | `xsd:string` | No | Ordinamento (crescente o decrescente). |
+| `*`startDate`*` | `xsd:dateTime` | No | Data e ora dell’inizio del registro dei processi. Specifica il fuso orario con la richiesta per questo campo. |
+| `*`endDate`*` | `xsd:dateTime` | No | Data e ora della fine del registro processi. Specifica il fuso orario con la richiesta per questo campo. |
+| `*`numRows`*` | `xsd:int` | No | Numero massimo di righe da restituire. |
 
 **Output (getJobLogsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Sì | Array di registri di processo. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Sì | Array di registri di processo. |
 
 ## Esempi {#section-35871c94b4a44559912577efddbc46a6}
 
