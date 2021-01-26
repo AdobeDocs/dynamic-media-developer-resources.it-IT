@@ -4,10 +4,10 @@ seo-description: Consente di creare una visualizzazione predefinita che determin
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 10%
@@ -34,17 +34,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | handle della società che contiene i predefiniti per visualizzatori e le risorse. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | handle della cartella contenente le risorse. |
-| ` *`name`*` | `xsd:string` | Sì | Nome visualizzatore. |
-| ` *`type`*` | `xsd:string` | Sì | Tipo visualizzatore. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | No | Un array che contiene nomi, valori e maniglie delle immagini a cui si applicano i predefiniti. |
+| `*`companyHandle`*` | `xsd:string` | Sì | handle della società che contiene i predefiniti per visualizzatori e le risorse. |
+| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella contenente le risorse. |
+| `*`name`*` | `xsd:string` | Sì | Nome visualizzatore. |
+| `*`type`*` | `xsd:string` | Sì | Tipo visualizzatore. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Un array che contiene nomi, valori e maniglie delle immagini a cui si applicano i predefiniti. |
 
 **Output (createViewerPresetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Sì | Gestione del predefinito per il visualizzatore. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sì | Gestione del predefinito per il visualizzatore. |
 
 ## Esempi {#section-c88ea63536f3461cbe4677ba53f875dd}
 
