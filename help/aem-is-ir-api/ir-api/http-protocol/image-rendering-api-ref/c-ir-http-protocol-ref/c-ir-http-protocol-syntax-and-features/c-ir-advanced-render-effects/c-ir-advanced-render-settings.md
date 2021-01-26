@@ -1,23 +1,23 @@
 ---
-description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
-seo-description: Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+description: Lo strumento di authoring delle vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+seo-description: Lo strumento di authoring delle vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 seo-title: Impostazioni di rendering avanzate
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 22%
+source-wordcount: '633'
+ht-degree: 21%
 
 ---
 
 
 # Impostazioni di rendering avanzate{#advanced-render-settings}
 
-Lo strumento di authoring delle vignettature (parte del pacchetto Scene7 Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+Lo strumento di authoring delle vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Importo USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Utilizzate toggle. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 1. </p> </td> 
   </tr> 
   <tr> 
