@@ -4,13 +4,13 @@ seo-description: Ottiene i registri di processo per una risorsa. Gli elementi re
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 7%
 
 ---
 
@@ -39,14 +39,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società alla quale la risorsa appartiene. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa con i registri di processo da recuperare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società alla quale la risorsa appartiene. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa con i registri di processo da recuperare. |
 
 **Output (getAssetJobLogsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | Sì | Matrice registro processi. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sì | Matrice registro processi. |
 
 ## Esempi {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
