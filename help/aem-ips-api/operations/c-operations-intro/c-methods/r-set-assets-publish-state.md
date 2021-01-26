@@ -4,10 +4,10 @@ seo-description: Determina se un batch di risorse è pronto per essere pubblicat
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -40,18 +40,18 @@ Questa è la versione batch di [setAssetState](../../../operations/c-operations-
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sì | Array di valori dello stato di pubblicazione per le risorse. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sì | Array di valori dello stato di pubblicazione per le risorse. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiornate correttamente. |
-| ` *`warningCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un avviso quando l&#39;operazione ha provato ad aggiornarle. |
-| ` *`errorCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un errore quando l&#39;operazione ha provato a eliminarle. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un avviso. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un errore. |
+| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiornate correttamente. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un avviso quando l&#39;operazione ha provato ad aggiornarle. |
+| `*`errorCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un errore quando l&#39;operazione ha provato a eliminarle. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un avviso. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un errore. |
 
 ## Esempi {#section-38cfdd3436214a06a1bae16875501d51}
 
