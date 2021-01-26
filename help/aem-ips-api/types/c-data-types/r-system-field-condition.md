@@ -4,13 +4,13 @@ seo-description: Una condizione di ricerca del campo di sistema per l'operazione
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 
@@ -25,19 +25,19 @@ Per i confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`,
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ` *`field`*` | `xsd:string` | Scelta dei campi del sistema di ricerca risorse. |
-| ` *`op`*` | `xsd:string` | Scelta degli operatori di confronto delle stringhe. |
-| ` *`value`*` | `xsd:string` | Valore su cui eseguire il test. |
-| ` *`boolVal`*` | `xsd:boolean` | Valore di confronto booleano. |
-| ` *`longVal`*` | `xsd:long` | Valore di confronto lungo. |
-| ` *`minLong`*` | `xsd:long` | Limite inferiore dell&#39;intervallo lungo. |
-| ` *`maxLong`*` | `xsd:long` | Limite superiore dell&#39;intervallo lungo. |
-| ` *`doubleVal`*` | `xsd:double` | Valore di confronto doppio. |
-| ` *`minDouble`*` | `xsd:double` | Limite inferiore del doppio intervallo. |
-| ` *`maxDouble`*` | `xsd:double` | Limite superiore del doppio intervallo. |
-| ` *`dateVal`*` | `xsd:dateTime` | Valore di confronto delle date. |
-| ` *`minDate`*` | `xsd:dateTime` | Intervallo di date minimo. |
-| ` *`maxDate`*` | `xsd:dateTime` | Massimo intervallo di date. |
+| `*`field`*` | `xsd:string` | Scelta dei campi del sistema di ricerca risorse. |
+| `*`op`*` | `xsd:string` | Scelta degli operatori di confronto delle stringhe. |
+| `*`value`*` | `xsd:string` | Valore su cui eseguire il test. |
+| `*`boolVal`*` | `xsd:boolean` | Valore di confronto booleano. |
+| `*`longVal`*` | `xsd:long` | Valore di confronto lungo. |
+| `*`minLong`*` | `xsd:long` | Limite inferiore dell&#39;intervallo lungo. |
+| `*`maxLong`*` | `xsd:long` | Limite superiore dell&#39;intervallo lungo. |
+| `*`doubleVal`*` | `xsd:double` | Valore di confronto doppio. |
+| `*`minDouble`*` | `xsd:double` | Limite inferiore del doppio intervallo. |
+| `*`maxDouble`*` | `xsd:double` | Limite superiore del doppio intervallo. |
+| `*`dateVal`*` | `xsd:dateTime` | Valore di confronto delle date. |
+| `*`minDate`*` | `xsd:dateTime` | Intervallo di date minimo. |
+| `*`maxDate`*` | `xsd:dateTime` | Massimo intervallo di date. |
 
 ## Esempio {#section-347d4aabfff44530adba03d1dc0b9968}
 
