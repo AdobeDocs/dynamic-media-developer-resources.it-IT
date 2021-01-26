@@ -4,10 +4,10 @@ seo-description: Ripristina le risorse dal cestino.
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 11%
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle di una società con le risorse da ripristinare. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle per le risorse da ripristinare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle di una società con le risorse da ripristinare. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle per le risorse da ripristinare. |
 
 **Output (restoreAssetsFromTrashReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sì | Numero di risorse rimosse dal cestino. |
-| ` *`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
-| ` *`errorCount`*` | `xsd:int` | Sì | Numero di errori generati durante il tentativo di ripristinare le risorse dal cestino. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
+| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse rimosse dal cestino. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
+| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati durante il tentativo di ripristinare le risorse dal cestino. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di ripristinare le risorse dal cestino. |
 
 ## Esempi {#section-98fe0394b0634ca397c395f14f8a9358}
 
