@@ -1,15 +1,12 @@
 ---
-description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
-seo-description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
-seo-title: Esercitazione SDK per visualizzatori
+description: L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Dynamic Media  Adobe.
 solution: Experience Manager
 title: Esercitazione SDK per visualizzatori
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Esercitazione SDK visualizzatore{#viewer-sdk-tutorial}
 
-L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da  Adobe Scene7.
+L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Dynamic Media  Adobe.
 
-Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate su  Adobe Scene7 tramite l’applicazione back-end SPS (Scene7 Publishing System).
+Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate nell’Dynamic Media di  Adobe tramite l’applicazione di back-end SPS (Scene7 Publishing System).
 
 Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android e Apple iOS e computer desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
@@ -67,8 +64,8 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Ora potete aggiungere al visualizzatore pulsanti di zoom in, zoom out e reimpost
 
    Il visualizzatore zoom di base è ora completo.
 
-   Questa esercitazione sul visualizzatore illustra i principi di base di ciò che l’SDK per visualizzatori Scene7 offre. Mentre lavori con l’SDK, puoi usare i vari componenti standard per creare e personalizzare facilmente esperienze di visualizzazione avanzate per il pubblico di destinazione.
+   Questa esercitazione sul visualizzatore illustra i principi di base di ciò che l’SDK per visualizzatori Dynamic Media offre. Mentre lavori con l’SDK, puoi usare i vari componenti standard per creare e personalizzare facilmente esperienze di visualizzazione avanzate per il pubblico di destinazione.
 
