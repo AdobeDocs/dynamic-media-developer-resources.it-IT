@@ -4,10 +4,10 @@ seo-description: Il lettore video è l’area rettangolare in cui il contenuto v
 seo-title: Lettore video360
 solution: Experience Manager
 title: Lettore video360
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
