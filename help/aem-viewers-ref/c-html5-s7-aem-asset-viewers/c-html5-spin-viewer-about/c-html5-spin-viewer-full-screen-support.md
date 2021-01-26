@@ -4,10 +4,10 @@ seo-description: Il visualizzatore supporta la modalità di funzionamento a sche
 seo-title: Supporto a schermo intero
 solution: Experience Manager
 title: Supporto a schermo intero
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 124e78b2-3364-44c5-99fd-cbd2c97f16dc
 translation-type: tm+mt
-source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
