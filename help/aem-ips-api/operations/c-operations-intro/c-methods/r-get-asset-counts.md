@@ -4,10 +4,10 @@ seo-description: Ottiene le risorse e il numero di risorse associate a una socie
 seo-title: getAssetCount
 solution: Experience Manager
 title: getAssetCount
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 8%
@@ -40,13 +40,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società con le risorse da conteggiare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con le risorse da conteggiare. |
 
 **Output (getAssetCountsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | No | Un array di tipi di risorse, ciascuno con un proprio campo di conteggio, che consente la rappresentazione di più tipi di risorse per elemento dell’array. |
+| `*`countArray`*` | `types:AssetCountArray` | No | Un array di tipi di risorse, ciascuno con un proprio campo di conteggio, che consente la rappresentazione di più tipi di risorse per elemento dell’array. |
 
 ## Esempi {#section-6052a503eb3843f6adb99e200fdba280}
 
