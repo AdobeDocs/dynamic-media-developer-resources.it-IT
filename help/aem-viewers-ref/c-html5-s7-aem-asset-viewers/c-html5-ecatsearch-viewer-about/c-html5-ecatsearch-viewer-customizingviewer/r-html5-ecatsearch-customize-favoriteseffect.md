@@ -4,10 +4,10 @@ seo-description: Il visualizzatore presenta le icone Preferiti sopra la vista pr
 seo-title: Effetto Preferiti
 solution: Experience Manager
 title: Effetto Preferiti
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
