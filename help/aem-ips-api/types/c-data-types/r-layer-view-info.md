@@ -4,10 +4,10 @@ seo-description: Proprietà della visualizzazione dei livelli.
 seo-title: LayerViewInfo
 solution: Experience Manager
 title: LayerViewInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 58d26f4d-03a6-4f57-bc8e-117355c0d74c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 7%
@@ -25,7 +25,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ` *`url`*` | `xsd:string` | URL del server immagini che rappresenta il modello. Combina i campi `urlModifier` e `urlPostAp- plyModifier`. |
-| ` *`urlModifier`*` | `xsd:string` | Comandi del protocollo di trasmissione delle immagini da applicare prima della richiesta o dei comandi `urlPostApplyModifier`. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Comandi del protocollo di trasmissione delle immagini da applicare dopo `urlModifier` e richiedere i comandi. |
+| `*`url`*` | `xsd:string` | URL del server immagini che rappresenta il modello. Combina i campi `urlModifier` e `urlPostAp- plyModifier`. |
+| `*`urlModifier`*` | `xsd:string` | Comandi del protocollo di trasmissione delle immagini da applicare prima della richiesta o dei comandi `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Comandi del protocollo di trasmissione delle immagini da applicare dopo `urlModifier` e richiedere i comandi. |
 
