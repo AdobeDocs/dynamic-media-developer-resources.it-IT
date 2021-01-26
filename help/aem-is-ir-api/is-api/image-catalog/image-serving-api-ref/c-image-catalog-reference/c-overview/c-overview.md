@@ -4,12 +4,12 @@ seo-description: I cataloghi di immagini vengono utilizzati per fornire informaz
 seo-title: Panoramica
 solution: Experience Manager
 title: Panoramica
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ I file di dati del catalogo sono associati ai cataloghi di immagini in base ai r
 
 I file di attributi del catalogo devono avere un suffisso di file [!DNL .ini] e devono trovarsi nella cartella del catalogo del server piattaforme ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server della piattaforma.
 
-Questo documento descrive il formato del file catalogo immagini per il sistema Scene7 Image Server. L&#39;audience prevista è composta da programmatori esperti e sviluppatori di siti Web che desiderano sfruttare Scene7 Image Server per un&#39;applicazione Web o personalizzata.
+Questo documento descrive il formato del file catalogo immagini per il sistema Dynamic Media Image Server. L&#39;audience prevista è composta da programmatori esperti e sviluppatori di siti Web che desiderano sfruttare Dynamic Media Image Server per un&#39;applicazione Web o personalizzata.
 
-Si presume che il lettore abbia familiarità con il sistema Scene7 Image Server, con gli standard e le convenzioni generali del protocollo HTTP e con la terminologia di base per l’imaging.
+Si presume che il lettore abbia familiarità con il sistema Dynamic Media Image Server, con gli standard e le convenzioni generali del protocollo HTTP e con la terminologia di base per l’imaging.
