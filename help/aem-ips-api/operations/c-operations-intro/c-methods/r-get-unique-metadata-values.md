@@ -4,10 +4,10 @@ seo-description: Ottiene valori di campo di metadati univoci.
 seo-title: getUniqueMetadataValues
 solution: Experience Manager
 title: getUniqueMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 22%
@@ -37,14 +37,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| ` *`fieldHandle`*` | `xsd:string` | No | Consente di passare al campo di metadati. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
+| `*`fieldHandle`*` | `xsd:string` | No | Consente di passare al campo di metadati. |
 
 **Output (getUniqueMetadataValuesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`values`*` | `type:StringArray` |  |  |
+| `*`values`*` | `type:StringArray` |  |  |
 
 ## Esempi {#section-440f3bc3e5be436cb6ec26117d05f476}
 
