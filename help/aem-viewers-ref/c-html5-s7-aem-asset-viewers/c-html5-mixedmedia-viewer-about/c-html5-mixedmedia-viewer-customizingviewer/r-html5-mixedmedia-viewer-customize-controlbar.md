@@ -4,10 +4,10 @@ seo-description: La barra di controllo è l’area rettangolare che contiene e s
 seo-title: Barra di controllo
 solution: Experience Manager
 title: Barra di controllo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 7b7dccb3-6c64-4342-aac7-82c769561902
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
