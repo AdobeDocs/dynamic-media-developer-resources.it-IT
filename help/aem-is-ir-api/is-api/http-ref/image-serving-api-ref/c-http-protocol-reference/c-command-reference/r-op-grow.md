@@ -4,10 +4,10 @@ seo-description: Dilata/erode immagine. Applica un dilato morfologico (raggio > 
 seo-title: op_develop
 solution: Experience Manager
 title: op_develop
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un&#39;eruzi
  </tr> 
 </table>
 
-` *``*` radiosi in pixel rispetto all’immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
+`*``*` radiosi in pixel rispetto all’immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
 
 Utilizzata principalmente per modificare le dimensioni degli effetti livello. È utile anche per ottenere effetti speciali sui livelli di testo o di colore in tinta unita con maschere.
 
