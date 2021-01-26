@@ -4,10 +4,10 @@ seo-description: Cercate le risorse in base ai criteri specificati.
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 6%
@@ -240,8 +240,8 @@ Limita le dimensioni del set di dati con i parametri `responseFieldArray` o `exc
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | No | Numero di righe restituito da una ricerca quando i record per pagina non sono limitati. |
-| ` *`assetArray`*` | `types:AssetArray` | No | Risorse restituite dalla ricerca. |
+| `*`totalRows`*` | `xsd:int` | No | Numero di righe restituito da una ricerca quando i record per pagina non sono limitati. |
+| `*`assetArray`*` | `types:AssetArray` | No | Risorse restituite dalla ricerca. |
 
 ## Esempi {#section-725484cc09b54772a838ad2cc930b94b}
 
