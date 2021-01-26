@@ -1,15 +1,15 @@
 ---
-description: Questa documentazione spiega come amministrare il server di rendering immagini Scene7.
-seo-description: Questa documentazione spiega come amministrare il server di rendering immagini Scene7.
+description: Questa documentazione spiega come amministrare il server di rendering immagini Dynamic Media.
+seo-description: Questa documentazione spiega come amministrare il server di rendering immagini Dynamic Media.
 seo-title: Panoramica dell'amministrazione del server
 solution: Experience Manager
 title: Panoramica dell'amministrazione del server
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Panoramica sull&#39;amministrazione del server{#server-administration-overview}
 
-Questa documentazione spiega come amministrare il server di rendering immagini Scene7.
+Questa documentazione spiega come amministrare il server di rendering immagini Dynamic Media.
 
 Il rendering delle immagini è composto da due componenti principali:
 
