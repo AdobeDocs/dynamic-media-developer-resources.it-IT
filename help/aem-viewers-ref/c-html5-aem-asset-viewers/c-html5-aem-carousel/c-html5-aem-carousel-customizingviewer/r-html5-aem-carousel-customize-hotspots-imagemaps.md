@@ -4,10 +4,10 @@ seo-description: Il visualizzatore visualizza le icone dei punti attivi sopra la
 seo-title: Punti attivi e mappe immagine
 solution: Experience Manager
 title: Punti attivi e mappe immagine
-topic: Dynamic media
+topic: Dynamic Media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 1%
@@ -95,7 +95,7 @@ L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente sel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Stile del bordo della mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore in tinta unita </span>", dove <span class="codeph"> larghezza </span> è espressa in pixel, e <span class="codeph"> colore </span> è impostato come <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1/&gt; oppure <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col2"> <p> Stile del bordo della mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore in tinta unita </span>", dove <span class="codeph"> larghezza </span> è espressa in pixel, e <span class="codeph"> colore </span> è impostato come <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oppure <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
