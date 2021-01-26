@@ -4,10 +4,10 @@ seo-description: Note aggiornate sulla versione di  Adobe Scene7 autunno 2016, c
 seo-title: Rilascio di Scene7 - Autunno 2016
 solution: Experience Manager
 title: Rilascio di Scene7 - Autunno 2016
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2264'
 ht-degree: 0%
