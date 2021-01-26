@@ -4,10 +4,10 @@ seo-description: Recupera un pacchetto XMP metadati per la risorsa specificata.
 seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 17%
@@ -37,14 +37,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società con il pacchetto che si desidera restituire (ad esempio, `c|656`). |
-| ` *`assetHandle`*` | `xsd:string` | Sì | Risorsa per la quale deve essere recuperato il pacchetto XMP. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società con il pacchetto che si desidera restituire (ad esempio, `c|656`). |
+| `*`assetHandle`*` | `xsd:string` | Sì | Risorsa per la quale deve essere recuperato il pacchetto XMP. |
 
 **Output (getXMPPacketReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`compressoPacket`*` | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto. |
+| `*`compressoPacket`*` | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto. |
 
 ## Esempi {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
