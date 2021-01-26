@@ -4,10 +4,10 @@ seo-description: Spostate una cartella in un nuovo percorso.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 22%
@@ -36,15 +36,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
-| ` *`destFolderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella di destinazione. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
+| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
+| `*`destFolderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella di destinazione. |
 
 **Output (moveFolderReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella spostata. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella spostata. |
 
 ## Esempi {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
