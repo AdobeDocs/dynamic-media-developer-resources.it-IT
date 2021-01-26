@@ -4,12 +4,12 @@ seo-description: Le voci della cache vengono aggiornate automaticamente utilizza
 seo-title: Convalida cache di risposta
 solution: Experience Manager
 title: Convalida cache di risposta
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Le voci della cache diventano non valide e sono soggette a rigenerazione quando 
 
 >[!NOTE]
 >
->Le immagini Scene7 piramidali TIFF (PTIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
+>Le immagini Dynamic Media piramidali TIFF (PTIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
 
 Solo i file di immagine partecipano al processo di convalida della cache. Le modifiche apportate ai file di font o ai file di profilo ICC non causano l&#39;annullamento automatico della convalida delle voci della cache.
