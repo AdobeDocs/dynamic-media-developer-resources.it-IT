@@ -4,13 +4,13 @@ seo-description: Assegnare o aggiornare le risorse in un progetto.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '91'
+ht-degree: 16%
 
 ---
 
@@ -36,15 +36,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| ` *`projectHandle`*` | `xsd:string` | Sì | Handle del progetto. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sì | L’array di handle di risorsa da associare al progetto. |
+| `*`companyName`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`projectHandle`*` | `xsd:string` | Sì | Handle del progetto. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sì | L’array di handle di risorsa da associare al progetto. |
 
 **Output (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiunte con successo. |
+| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiunte con successo. |
 
 ## Esempi {#section-33c1a909c3dc4aa98da474c23a036596}
 
