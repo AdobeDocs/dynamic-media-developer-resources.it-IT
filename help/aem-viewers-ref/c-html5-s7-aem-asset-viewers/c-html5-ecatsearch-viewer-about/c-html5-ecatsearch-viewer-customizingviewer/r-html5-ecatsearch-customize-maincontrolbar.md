@@ -4,10 +4,10 @@ seo-description: La barra di controllo principale è l’area rettangolare dei s
 seo-title: Barra di controllo principale
 solution: Experience Manager
 title: Barra di controllo principale
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 1%
