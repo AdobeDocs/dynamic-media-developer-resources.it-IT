@@ -4,12 +4,12 @@ seo-description: Image Serving supporta la nidificazione illimitata delle richie
 seo-title: Richiesta di nidificazione e incorporazione
 solution: Experience Manager
 title: Richiesta di nidificazione e incorporazione
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Il risultato dell&#39;immagine di una richiesta IS nidificata può essere memori
 
 ## Richieste di rendering immagini incorporate {#section-69c5548db930412b9b90d9b2951a6969}
 
-Quando Scene7 Image Rendering è abilitato sul server, le richieste di rendering possono essere utilizzate come origini di livello specificandole nel comando src= (o mask=). Utilizzate la sintassi seguente:
+Quando Dynamic Media Image Rendering è abilitato sul server, le richieste di rendering possono essere utilizzate come origini di livello specificandole nel comando src= (o mask=). Utilizzate la sintassi seguente:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ Il token `fxg` fa distinzione tra maiuscole e minuscole.
 
 >[!NOTE]
 >
->Il rendering di elementi grafici FXG è disponibile solo nell&#39;ambiente ospitato Scene7 e può richiedere ulteriori licenze. Per ulteriori informazioni, contattate il supporto Scene7.
+>Il rendering di elementi grafici FXG è disponibile solo nell&#39;ambiente ospitato Dynamic Media e può richiedere ulteriori licenze. Per ulteriori informazioni, contattate il supporto tecnico Dynamic Media.
 
 *[!DNL renderRequest]* è la normale richiesta di rendering FXG, escluso il percorso principale HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Con lievi modifiche, possiamo preridimensionare l’immagine del livello 0 e mem
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporazione di richieste per il rendering delle immagini Scene7**
+**Incorporazione di richieste per il rendering delle immagini Dynamic Media**
 
-Utilizzo di un modello memorizzato in [!DNL myCatalog/myTemplate]; generate l’immagine per il livello2 del modello utilizzando Scene7 Image Rendering:
+Utilizzo di un modello memorizzato in [!DNL myCatalog/myTemplate]; generate l’immagine per il livello2 del modello utilizzando Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
