@@ -4,10 +4,10 @@ seo-description: L’area di visualizzazione principale è l’area occupata dal
 seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8395386b-4039-4a47-8d31-a341813c2647
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
