@@ -4,10 +4,10 @@ seo-description: Usato da getUsersParam/sortBy.
 seo-title: Campi di ordinamento utente
 solution: Experience Manager
 title: Campi di ordinamento utente
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df7fb1be-ab5e-4d0d-a000-ce29b45ac41f
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 4%
