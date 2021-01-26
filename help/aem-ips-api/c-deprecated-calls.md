@@ -1,15 +1,12 @@
 ---
-description: Chiamate API Image Production System e relativi parametri associati non più utilizzati.
-seo-description: Chiamate API Image Production System e relativi parametri associati non più utilizzati.
-seo-title: Chiamate obsolete
-solution: Experience Manager
 title: Chiamate obsolete
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: Chiamate API Image Production System e relativi parametri associati non più utilizzati in Dynamic Media.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Chiamate API Image Production System e relativi parametri associati non più uti
 
 ## Chiamate obsolete {#topic-654c0466e6434fe4a95953322255b08c}
 
-Chiamate API Image Production System e relativi parametri associati non più utilizzati.
+Chiamate API Image Production System e relativi parametri associati non più utilizzati in Dynamic Media.
 
 * `addMediaPortalEvent` - Obsoleto da Operazioni. Questa chiamata consente di aggiungere un evento Media Portal a IPS.
 * `getMediaPortalEvent` - Obsoleto da Operazioni. Questa chiamata consente di ottenere eventi del portale multimediale che corrispondono a criteri specifici.
