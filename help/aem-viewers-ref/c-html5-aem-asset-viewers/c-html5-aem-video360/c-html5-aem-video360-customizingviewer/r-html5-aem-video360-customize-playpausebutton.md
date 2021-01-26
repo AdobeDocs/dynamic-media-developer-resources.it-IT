@@ -4,10 +4,10 @@ seo-description: Il pulsante Riproduci/Pausa consente al lettore video di riprod
 seo-title: Pulsante Riproduci/Pausa
 solution: Experience Manager
 title: Pulsante Riproduci/Pausa
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 25bc5185-e1cc-489f-bff5-996795e9b14f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
