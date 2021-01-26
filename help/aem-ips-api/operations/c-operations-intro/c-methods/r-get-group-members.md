@@ -4,10 +4,10 @@ seo-description: Ottiene gli utenti che appartengono a una società e a un grupp
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 13%
@@ -33,14 +33,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| ` *`groupHandle`*` | `xsd:string` |  | L&#39;handle del gruppo. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`groupHandle`*` | `xsd:string` |  | L&#39;handle del gruppo. |
 
 **Output (getGroupMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`userHandleArray`*` | `type:HandleArray` | Sì | Un array di handle utente. |
+| `*`userHandleArray`*` | `type:HandleArray` | Sì | Un array di handle utente. |
 
 ## Esempi {#section-aaa340dba6b64cce9bcd8303cf999166}
 
