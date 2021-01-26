@@ -4,13 +4,13 @@ seo-description: Oggetto di memorizzazione gerarchica di file o risorse. Le cart
 seo-title: Cartella
 solution: Experience Manager
 title: Cartella
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '86'
+ht-degree: 8%
 
 ---
 
@@ -25,11 +25,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | handle della cartella. |
-| ` *`path`*` | `xsd:string` | Percorso cartella. |
-| ` *`lastModified`*` | `xsd:dateTime` | Data ultima modifica. |
-| ` *`childLastModified`*` | `xsd:dateTime` | Data ultima modifica per le sottocartelle e le risorse secondarie della cartella. |
-| ` *`permissionsSetHandle`*` | `xsd:string` | Gestione delle autorizzazioni della cartella. |
-| ` *`hasSubfolder`*` | `types:Boolean` | Determina se una cartella contiene sottocartelle. |
-| ` *`subfolderArray`*` | `types:FolderArray` | Un array di sottocartelle in una cartella. |
+| `*`folderHandle`*` | `xsd:string` | handle della cartella. |
+| `*`path`*` | `xsd:string` | Percorso cartella. |
+| `*`lastModified`*` | `xsd:dateTime` | Data ultima modifica. |
+| `*`childLastModified`*` | `xsd:dateTime` | Data ultima modifica per le sottocartelle e le risorse secondarie della cartella. |
+| `*`permissionsSetHandle`*` | `xsd:string` | Gestione delle autorizzazioni della cartella. |
+| `*`hasSubfolder`*` | `types:Boolean` | Determina se una cartella contiene sottocartelle. |
+| `*`subfolderArray`*` | `types:FolderArray` | Un array di sottocartelle in una cartella. |
 
