@@ -1,15 +1,15 @@
 ---
-description: Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Scene7 Image Rendering.
-seo-description: Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Scene7 Image Rendering.
+description: Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Dynamic Media Image Rendering.
+seo-description: Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Dynamic Media Image Rendering.
 seo-title: Sintassi e funzionalità del protocollo HTTP
 solution: Experience Manager
 title: Sintassi e funzionalità del protocollo HTTP
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Sintassi e funzionalità del protocollo HTTP{#http-protocol-syntax-and-features}
 
-Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Scene7 Image Rendering.
+Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Dynamic Media Image Rendering.
 
 * [Sintassi di base del protocollo HTTP Image Rendering](r-ir-basic-syntax.md)
 * [Panoramica del protocollo HTTP Image Rendering](c-ir-command-overview/c-ir-command-overview.md)
