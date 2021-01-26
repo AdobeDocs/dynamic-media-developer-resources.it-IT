@@ -4,10 +4,10 @@ seo-description: Le variabili di sostituzione vengono utilizzate per trasferire 
 seo-title: Variabili di sostituzione
 solution: Experience Manager
 title: Variabili di sostituzione
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ I valori delle variabili che devono essere sostituiti in richieste esterne in ge
 
 ## Variabile di percorso predefinita {#section-930d0dd12e8f49499becc9fe8df24092}
 
-La *`object`* specificata nel percorso della richiesta viene assegnata alla variabile predefinita ` *`$object`*`. &#39; ` $ *`oggetto`*$`&#39; può essere collocato ovunque nella richiesta, nel modello a cui fa riferimento la richiesta, o in una richiesta nidificata/incorporata in cui tale oggetto è consentito, incluso il valore di `src=` e `mask=`, e il percorso di una richiesta nidificata/incorporata.
+La *`object`* specificata nel percorso della richiesta viene assegnata alla variabile predefinita `*`$object`*`. &#39; ` $ *`oggetto`*$`&#39; può essere collocato ovunque nella richiesta, nel modello a cui fa riferimento la richiesta, o in una richiesta nidificata/incorporata in cui tale oggetto è consentito, incluso il valore di `src=` e `mask=`, e il percorso di una richiesta nidificata/incorporata.
 
 Ad esempio, la seguente richiesta riutilizzerà l’immagine specificata nel percorso come origine di un livello in una richiesta nidificata:
 
@@ -92,13 +92,13 @@ Equivale a
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-È possibile sostituire la definizione di ` *`$object`*` specificando in modo esplicito ` $ *`object`*=` con il valore desiderato.
+È possibile sostituire la definizione di `*`$object`*` specificando in modo esplicito ` $ *`object`*=` con il valore desiderato.
 
 La variabile di percorso predefinita viene comunemente utilizzata insieme a `template=`.
 
 ## Predefinito {#section-b02483d15529444586a2e9504805b155}
 
-Nessuno. Solo le variabili definite verranno sostituite dal server (fatta eccezione per la variabile di percorso predefinita $object, che verrà sempre sostituita). Eventuali occorrenze di ` $ *`var`*$` rimangono letterali se ` *`var`*`non è possibile trovare una corrispondenza con una definizione di variabile esistente.
+Nessuno. Solo le variabili definite verranno sostituite dal server (fatta eccezione per la variabile di percorso predefinita $object, che verrà sempre sostituita). Eventuali occorrenze di ` $ *`var`*$` rimangono letterali se `*`var`*`non è possibile trovare una corrispondenza con una definizione di variabile esistente.
 
 ## Esempi {#section-fba9393df6984247b7e30b3f93992e86}
 
