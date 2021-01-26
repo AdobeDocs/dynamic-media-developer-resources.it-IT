@@ -4,10 +4,10 @@ seo-description: Controllo cache. Consente di disattivare selettivamente la memo
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Controllo cache. Consente di disattivare selettivamente la memorizzazione nella 
  </tr> 
 </table>
 
-Se viene specificato un solo valore ` *`cacheControl`*`, questo viene applicato sia alle cache client che a quelle del server.
+Se viene specificato un solo valore `*`cacheControl`*`, questo viene applicato sia alle cache client che a quelle del server.
 
 La parola chiave `validate` consente di aggiornare le voci della cache dopo la modifica dei file immagine, senza dover attendere la scadenza automatica della voce della cache. Il comando non influisce sul caching dei client.
 
