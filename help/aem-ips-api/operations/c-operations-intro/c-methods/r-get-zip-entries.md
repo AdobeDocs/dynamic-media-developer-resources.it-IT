@@ -4,10 +4,10 @@ seo-description: Restituisce i dati del file ZIP.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 18%
@@ -39,14 +39,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il file ZIP. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | Gestire il file Zip. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il file ZIP. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestire il file Zip. |
 
 **Output (getZipEntriesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | Sì | Array di voci in un file ZIP. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Sì | Array di voci in un file ZIP. |
 
 ## Esempi {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
