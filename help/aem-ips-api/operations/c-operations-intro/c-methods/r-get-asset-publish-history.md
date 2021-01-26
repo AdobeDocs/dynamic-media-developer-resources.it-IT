@@ -4,10 +4,10 @@ seo-description: Restituisce la cronologia di pubblicazione di una risorsa.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 14%
@@ -39,14 +39,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società con la cronologia di pubblicazione della risorsa. |
-| ` *`assetHandle`*` | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione da esaminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con la cronologia di pubblicazione della risorsa. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione da esaminare. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | Sì | Cronologia di pubblicazione della risorsa. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Sì | Cronologia di pubblicazione della risorsa. |
 
 ## Esempi {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
