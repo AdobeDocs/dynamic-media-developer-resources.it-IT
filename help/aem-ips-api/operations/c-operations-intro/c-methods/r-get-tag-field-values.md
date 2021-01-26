@@ -4,10 +4,10 @@ seo-description: Ottiene tutti i valori dei dizionari di tag definiti per uno o 
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 14%
@@ -39,14 +39,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il campo del tag. |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | Sì | Un array di handle di campo per assegnare i tag ai valori da restituire. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il campo del tag. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | Sì | Un array di handle di campo per assegnare i tag ai valori da restituire. |
 
 **Output (getTagFieldValuesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`fieldArray`*` | `types:TagFieldValuesArray` | Sì | Un array di valori di tag nel dizionario per ciascun campo richiesto. |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | Sì | Un array di valori di tag nel dizionario per ciascun campo richiesto. |
 
 ## Esempi {#section-4492742614e44bb191a7d397dc1a1407}
 
