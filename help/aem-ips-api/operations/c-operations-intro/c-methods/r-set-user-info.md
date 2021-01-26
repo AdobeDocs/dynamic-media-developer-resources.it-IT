@@ -4,10 +4,10 @@ seo-description: Imposta gli attributi utente (ad esempio nome, e-mail, ruolo, e
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 14%
@@ -34,14 +34,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | No | handle utente. |
-| ` *`firstName`*` | `xsd:string` | Sì | Nome. |
-| ` *`lastName`*` | `xsd:string` | Sì | Cognome. |
-| ` *`e-mail`*` | `xsd:string` | Sì | E-mail utente. |
-| ` *`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` ha la priorità su altre impostazioni per società. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | No | Data di scadenza della password del set. |
-| ` *`isInvalid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle della società. |
+| `*`userHandle`*` | `xsd:string` | No | handle utente. |
+| `*`firstName`*` | `xsd:string` | Sì | Nome. |
+| `*`lastName`*` | `xsd:string` | Sì | Cognome. |
+| `*`e-mail`*` | `xsd:string` | Sì | E-mail utente. |
+| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` ha la priorità su altre impostazioni per società. |
+| `*`passwordExpires`*` | `xsd:dateTime` | No | Data di scadenza della password del set. |
+| `*`isInvalid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle della società. |
 
 **Output (setUserInfoReturn)**
 
