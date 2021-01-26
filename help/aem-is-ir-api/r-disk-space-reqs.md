@@ -1,15 +1,12 @@
 ---
 description: 'Oltre allo spazio necessario per installare il software, Image Server ha i seguenti requisiti di spazio su disco '
-seo-description: 'Oltre allo spazio necessario per installare il software, Image Server ha i seguenti requisiti di spazio su disco '
-seo-title: Requisiti di spazio su disco e raccomandazioni
 solution: Experience Manager
 title: Requisiti di spazio su disco e raccomandazioni
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Oltre allo spazio necessario per installare il software, Image Server ha i segue
 
 ## Requisiti di spazio su disco per le immagini sorgente {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Si consiglia di convertire tutte le immagini sorgente nel formato PTIFF (piramide TIFF) utilizzando lo strumento da riga di comando Image Converter (IC). Questa conversione assicura prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene Image Server sia in grado di elaborare tutti i formati di file sorgente accettati da IC, Scene7 non fornisce supporto per tali usi.
+Si consiglia di convertire tutte le immagini sorgente nel formato PTIFF (piramide TIFF) utilizzando lo strumento da riga di comando Image Converter (IC). Questa conversione assicura prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene Image Server sia in grado di elaborare tutti i formati di file sorgente accettati da IC, Dynamic Media non fornisce supporto per tali usi.
 
 Quando si utilizzano i file PTIFF, è possibile determinare i requisiti di spazio mediante le regole riportate di seguito.
 
