@@ -4,10 +4,10 @@ seo-description: La localizzazione delle stringhe di testo consente ai cataloghi
 seo-title: Localizzazione della stringa di testo
 solution: Experience Manager
 title: Localizzazione della stringa di testo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ La mappa di traduzione di esempio specifica che in questo caso la *`defaultStrin
 
 Più valori *`locId`* possono essere associati a ciascun *`locale`* nella mappa di traduzione. Questo consente di supportare varianti specifiche per paese o regione (ad esempio Inglese USA e Inglese Regno Unito) per selezionare *`stringElements`* mentre si gestisce la maggior parte dei contenuti con impostazioni internazionali di base comuni (ad esempio Inglese Internazionale).
 
-Per il nostro esempio, vogliamo aggiungere il supporto per l&#39;inglese specifico per gli Stati Uniti ( ` *`locId`* EUS`) e per l&#39;inglese specifico per il Regno Unito ( ` *`locId`* EUK`), per supportare l&#39;ortografia alternativa occasionale. Se l&#39;EUK o l&#39;EUS non esistessero, ci ritroveremmo di nuovo all&#39;E. Allo stesso modo, le varianti tedesche specifiche per l&#39;Austria ( `DAT`) potrebbero essere rese disponibili dove necessario, mentre restituiscono il tedesco comune *`localizedStrings`* (contrassegnato con `D`) per la maggior parte del tempo.
+Per il nostro esempio, vogliamo aggiungere il supporto per l&#39;inglese specifico per gli Stati Uniti ( `*`locId`* EUS`) e per l&#39;inglese specifico per il Regno Unito ( `*`locId`* EUK`), per supportare l&#39;ortografia alternativa occasionale. Se l&#39;EUK o l&#39;EUS non esistessero, ci ritroveremmo di nuovo all&#39;E. Allo stesso modo, le varianti tedesche specifiche per l&#39;Austria ( `DAT`) potrebbero essere rese disponibili dove necessario, mentre restituiscono il tedesco comune *`localizedStrings`* (contrassegnato con `D`) per la maggior parte del tempo.
 
 `attribute::LocaleStrMap` si presenterà così:
 
