@@ -1,15 +1,15 @@
 ---
-description: I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come 'Scene7 Image Server' nel Pannello di controllo Campaign Servizi).
-seo-description: I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come 'Scene7 Image Server' nel Pannello di controllo Campaign Servizi).
+description: I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come 'Dynamic Media Image Server' nel Pannello di controllo Campaign Servizi).
+seo-description: I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come 'Dynamic Media Image Server' nel Pannello di controllo Campaign Servizi).
 seo-title: Supervisore server
 solution: Experience Manager
 title: Supervisore server
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Supervisore server{#server-supervisor}
 
-I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come &#39;Scene7 Image Server&#39; nel Pannello di controllo Campaign Servizi).
+I componenti Image Server sono gestiti dal Server Supervisore, che è un demone Linux o Windows Service (S7Supervisore.exe, elencato come &#39;Dynamic Media Image Server&#39; nel Pannello di controllo Campaign Servizi).
 
 Oltre ad avviare e arrestare altri componenti Image Server, il Server Supervisore è responsabile della protezione dello stato di salute di questi altri componenti. In caso di arresto anomalo di un componente, questo viene riavviato automaticamente per ridurre al minimo le interruzioni del servizio.
 
