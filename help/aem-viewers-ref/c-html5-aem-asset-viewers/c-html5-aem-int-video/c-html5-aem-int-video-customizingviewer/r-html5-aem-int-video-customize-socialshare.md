@@ -4,10 +4,10 @@ seo-description: Per impostazione predefinita, lo strumento di condivisione soci
 seo-title: Condivisione social network
 solution: Experience Manager
 title: Condivisione social network
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1123e96a-581f-4c1c-ad95-9804e3235002
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%
