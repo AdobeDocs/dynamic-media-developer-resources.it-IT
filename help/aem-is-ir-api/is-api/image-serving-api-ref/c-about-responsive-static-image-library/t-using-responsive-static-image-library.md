@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Utilizzo della libreria di immagini reattive
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Per aggiungere una libreria di immagini reattive a una pagina Web e gestire le i
 
 **Per utilizzare la libreria di immagini reattive**
 
-1. In SPS, [create un predefinito per immagini](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) se intendete utilizzare la libreria di immagini reattive con dei predefiniti.
+1. In Dynamic Media Classic, [create un predefinito per immagini](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) se intendete utilizzare la libreria di immagini reattive con dei predefiniti.
 
    Quando definite i predefiniti per immagini utilizzati con la libreria di immagini reattive, non usate impostazioni che influiscano sulle dimensioni dell’immagine, ad esempio `wid=`, `hei=` o `scl=`. Non specificate alcun campo dimensione nel predefinito per immagini. Lasciateli invece come valori vuoti.
 1. Aggiungete il file JavaScript della libreria alla pagina Web.
