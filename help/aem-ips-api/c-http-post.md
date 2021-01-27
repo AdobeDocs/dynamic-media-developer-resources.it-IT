@@ -1,10 +1,10 @@
 ---
-description: Il caricamento di risorse in Scene7 Production System implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
+description: Il caricamento di risorse in Dynamic Media Classic implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
 solution: Experience Manager
 title: Caricamento delle risorse tramite POST HTTP nel servlet UploadFile
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Caricamento delle risorse tramite POST HTTP nel Servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Il caricamento di risorse in Scene7 Production System implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
+Il caricamento di risorse in Dynamic Media Classic implica una o più richieste di POST HTTP che configurano un processo per coordinare tutte le attività di registro associate ai file caricati.
 
 Utilizzate il seguente URL per accedere al Servlet UploadFile:
 
