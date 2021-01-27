@@ -8,9 +8,9 @@ title: Spin
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina Web, effettuate le segue
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Scene7  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno  server Adobe Scene7 in cui sono installati i visualizzatori IS.
+   Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di uno dei Adobi  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media  Adobe in cui sono installati i visualizzatori IS.
 
    Il percorso relativo si presenta come segue:
 
@@ -165,7 +165,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina Web, effettuate le segue
 
    Potete impostare le dimensioni statiche per il visualizzatore dichiarandolo per la classe CSS di livello principale `.s7spinviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
-   Potete inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record del predefinito per visualizzatori in Scene7 Publishing System, oppure trasmesso esplicitamente utilizzando un comando di stile.
+   Potete inserire le dimensioni in CSS direttamente nella pagina HTML, oppure in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record del predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesso esplicitamente utilizzando un comando di stile.
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, consultate [Personalizzazione del visualizzatore 360 gradi](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55).
 
@@ -178,7 +178,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina Web, effettuate le segue
    }
    ```
 
-   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Scene7 Publishing System, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comandi, come segue:
+   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```
     spinViewer.setParam("stagesize", 
