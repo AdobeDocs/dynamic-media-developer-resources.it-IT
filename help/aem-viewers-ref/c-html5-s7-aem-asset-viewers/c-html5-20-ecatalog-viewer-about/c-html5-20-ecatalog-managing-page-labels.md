@@ -5,9 +5,9 @@ title: Gestione delle etichette di pagina
 topic: Dynamic Media
 uuid: ab3df37d-113b-4762-ba9c-b92ffc41f1a2
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Nell’interfaccia utente del visualizzatore sono disponibili due posizioni per 
 È possibile definire tre tipi di etichette:
 
 * Etichette definite dall&#39;autore mediante il meccanismo di localizzazione SYMBOL.
-* Etichette definite dall’autore sul back-end, all’interno di SPS.
+* Etichette definite dall&#39;autore sul back-end, in Dynamic Media Classic.
 * Etichette generate automaticamente dal visualizzatore.
 
 Le etichette basate su SYMBOL sono definite utilizzando `MediaSet.LABEL_XX[_YY]` e `MediaSet.LABEL_DELIM` SIMBOLI come descritto in [Localizzazione di elementi dell&#39;interfaccia utente](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Potete definire tali etichette per l&#39;intero set di pagine affiancate del catalogo, nel qual caso dovrete usare una sintassi SIMBOLO breve ( `MediaSet.LABEL_XX`). Oppure, specificatelo per ciascuna pagina singolarmente utilizzando la sintassi SYMBOL completa ( `MediaSet.LABEL_XX_YY`).
 
 Quando definite le etichette per entrambe le pagine nelle pagine affiancate del catalogo, il visualizzatore concatena queste etichette in una stringa utilizzando `MediaSet.LABEL_DELIM` SYMBOL. Le etichette basate su SYMBOL hanno precedenza rispetto alle etichette definite sul backend o generate automaticamente dal visualizzatore.
 
-Le etichette definite in SPS sono memorizzate nel record UserData delle singole immagini di pagina. Come per le etichette basate su SYMBOL. Se entrambe le pagine del set di pagine affiancate del catalogo hanno delle etichette definite, vengono concatenate utilizzando `MediaSet.LABEL_DELIM` SYMBOL in modalità orizzontale. Le etichette SPS hanno la precedenza rispetto alle etichette generate automaticamente, ma vengono sostituite dalle etichette basate su SYMBOL.
+Le etichette definite in Dynamic Media Classic sono memorizzate nel record UserData delle singole immagini di pagina. Come per le etichette basate su SYMBOL. Se entrambe le pagine del set di pagine affiancate del catalogo hanno delle etichette definite, vengono concatenate utilizzando `MediaSet.LABEL_DELIM` SYMBOL in modalità orizzontale. Le etichette di Dynamic Media Classic hanno la precedenza rispetto alle etichette generate automaticamente, ma sono sostituite dalle etichette basate su SYMBOL.
 
-Le etichette generate automaticamente sono numeri sequenziali assegnati a tutte le pagine del catalogo. Le etichette generate automaticamente vengono ignorate per il set di pagine affiancate specificato se sono state definite etichette basate su SYMBOL o se sono state definite etichette SPS.
+Le etichette generate automaticamente sono numeri sequenziali assegnati a tutte le pagine del catalogo. Le etichette generate automaticamente vengono ignorate per il set di pagine affiancate specificato se sono state definite etichette basate su SYMBOL o se sono state definite etichette Dynamic Media Classic.
 
 Nel sommario è possibile disattivare la visualizzazione delle etichette generate automaticamente utilizzando il parametro `showdefault`.
