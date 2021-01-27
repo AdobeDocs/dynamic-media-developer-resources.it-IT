@@ -4,12 +4,12 @@ seo-description: Image Server offre diverse alternative per il rendering del tes
 seo-title: Formattazione del testo
 solution: Experience Manager
 title: Formattazione del testo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -48,102 +48,102 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ciascun 
   <tr> 
    <td> <p>Convertire il testo in forme arbitrarie </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Testo scorrevole lungo percorsi arbitrari </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Adattamento copia </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> Adatta <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Margini casella di testo </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Giustificazione completa del paragrafo </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ultima riga, giustificazione </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Rientro paragrafo </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\fi, \li, \ri </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Testo maiuscoletto e maiuscoletto </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\caps, \scaps </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Image Serving Colour </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Modalità anti-alias multiple </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>scorrimento del testo in alto in basso/a destra a sinistra </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\stextFlow </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supporto per Photofont® </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> Gestione dei font </td> 
   </tr> 
   <tr> 
    <td> <p>Ridimensionare automaticamente il livello per adattare il testo </p> </td> 
-   <td> <p>yes </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>text=, textId=, size= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Supporto CMYK </p> </td> 
-   <td> <p>yes </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>\cmykcolortbl, \*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Flusso di caratteri da destra a sinistra </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>\rtlch </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Disattiva ritorno a capo automatico </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Scala automaticamente il testo per adattarlo al livello (con risoluzione variabile) </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>Sì </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
@@ -152,7 +152,7 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ciascun 
 
 Le stringhe compatibili con RTF possono essere assemblate manualmente o formattando il testo desiderato in un editor di testo o in un elaboratore di testi in grado di salvare i file RTF. Il file RTF può quindi essere aperto in un editor di testo normale e il contenuto RTF del file pertinente copiato nell&#39;URL della richiesta.
 
-Alcuni elaboratori di testi generano file piuttosto grandi, che includono prerequisiti sostanziali non utilizzati da Scene7 Image Server. Si consiglia di rimuovere gli elementi RTF non utilizzati dalla stringa prima di passare la stringa ai comandi di testo.
+Alcuni elaboratori di testi generano file piuttosto grandi, che includono prerequisiti sostanziali non utilizzati da Dynamic Media Image Server. Si consiglia di rimuovere gli elementi RTF non utilizzati dalla stringa prima di passare la stringa ai comandi di testo.
 
 La codifica della lingua basata sugli standard UTF-8 e ISO è supportata nelle stringhe RTF come alternativa ai meccanismi standard di codifica dei caratteri RTF. Questo consente alle applicazioni di inviare testo non in inglese al server senza conoscere la codifica RTF.
 
