@@ -1,15 +1,12 @@
 ---
-description: A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Scene7 Publishing System o visualizza le aree esatte che corrispondono alla forma delle mappe immagine originali.
-seo-description: A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Scene7 Publishing System o visualizza le aree esatte che corrispondono alla forma delle mappe immagine originali.
-seo-title: Effetto mappa immagine
+description: A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Dynamic Media Classic o riproduce le aree esatte che corrispondono alla forma delle mappe immagine originali.
 solution: Experience Manager
 title: Effetto mappa immagine
 topic: Dynamic Media
-uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Effetto mappa immagine{#image-map-effect}
 
-A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Scene7 Publishing System o visualizza le aree esatte che corrispondono alla forma delle mappe immagine originali.
+A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Dynamic Media Classic o riproduce le aree esatte che corrispondono alla forma delle mappe immagine originali.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
