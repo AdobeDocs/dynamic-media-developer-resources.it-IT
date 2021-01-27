@@ -6,7 +6,7 @@ title: Ricerca eCatalog
 topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2179'
 ht-degree: 0%
@@ -166,7 +166,7 @@ Il percorso relativo si presenta come segue:
 
    Potete impostare le dimensioni statiche per il visualizzatore dichiarandolo per la classe CSS di livello principale `.s7ecatalogsearchviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
-   Potete inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record del predefinito per visualizzatori in Scene7 Publishing System, oppure trasmesso esplicitamente utilizzando un comando di stile.
+   Potete inserire le dimensioni in CSS direttamente nella pagina HTML, oppure in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record del predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesso esplicitamente utilizzando un comando di stile.
 
    Consultate [Personalizzazione del visualizzatore di eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con i CSS.
 
@@ -179,7 +179,7 @@ Il percorso relativo si presenta come segue:
    }
    ```
 
-   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Scene7 Publishing System, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comandi, come segue:
+   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
