@@ -1,15 +1,12 @@
 ---
-description: Il visualizzatore supporta la riproduzione di video in hosting all’esterno di SPS o AEM Dynamic Media.
-seo-description: Il visualizzatore supporta la riproduzione di video in hosting all’esterno di SPS o AEM Dynamic Media.
-seo-title: Supporto video esterno
+description: Il visualizzatore supporta la riproduzione di video in hosting all'esterno di Dynamic Media Classic o AEM Dynamic Media.
 solution: Experience Manager
 title: Supporto video esterno
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Supporto per video esterni{#external-video-support}
 
-Il visualizzatore supporta la riproduzione di video in hosting all’esterno di SPS o AEM Dynamic Media.
+Il visualizzatore supporta la riproduzione di video in hosting all&#39;esterno di Dynamic Media Classic o AEM Dynamic Media.
 
 I formati supportati per il video esterno sono MP4 in formato H.264 o M3U8 manifest per il flusso HLS.
 
