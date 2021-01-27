@@ -1,16 +1,13 @@
 ---
-description: Il visualizzatore video è un lettore video che riproduce lo streaming e il video progressivo codificati in formato H.264. Viene distribuito da Scene7 Publishing System o AEM Dynamic Media.
+description: Il visualizzatore video è un lettore video che riproduce lo streaming e il video progressivo codificati in formato H.264. Viene distribuito da Dynamic Media Classic o AEM Dynamic Media.
 keywords: responsive
-seo-description: Il visualizzatore video è un lettore video che riproduce lo streaming e il video progressivo codificati in formato H.264. Viene distribuito da Scene7 Publishing System o AEM Dynamic Media.
-seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-Il visualizzatore video è un lettore video che riproduce lo streaming e il video progressivo codificati in formato H.264. Viene distribuito da Scene7 Publishing System o AEM Dynamic Media.
+Il visualizzatore video è un lettore video che riproduce lo streaming e il video progressivo codificati in formato H.264. Viene distribuito da Dynamic Media Classic o AEM Dynamic Media.
 
 Vedere [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ Il percorso relativo si presenta come segue:
 
    Potete impostare la dimensione statica del visualizzatore dichiarandola per la classe CSS di livello principale `.s7videoviewer` in unità assolute, oppure utilizzando il modificatore `stagesize`.
 
-   Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Scene7 Publishing System o trasmesso esplicitamente utilizzando un comando di stile.
+   Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Dynamic Media Classic o trasmesso esplicitamente utilizzando un comando di stile.
 
    Consultate [Personalizzazione del visualizzatore video](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) per ulteriori informazioni sullo stile del visualizzatore mediante i CSS.
 
@@ -165,7 +162,7 @@ Il percorso relativo si presenta come segue:
    }
    ```
 
-   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Scene7 Publishing System, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
