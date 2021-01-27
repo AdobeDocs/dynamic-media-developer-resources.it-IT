@@ -5,7 +5,7 @@ solution: Experience Manager
 title: Zoom in linea
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Un percorso relativo si presenta come segue:
 
    Questo visualizzatore visualizza le miniature quando si utilizzano i set di più elementi. Sui sistemi desktop, le miniature vengono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente di scambiare la risorsa principale durante l&#39;esecuzione utilizzando l&#39;API `setAsset()`. In qualità di sviluppatore, potete controllare in che modo il visualizzatore gestisce l’area delle miniature nell’area inferiore quando la nuova risorsa dispone di un solo elemento. È possibile mantenere intatte le dimensioni del visualizzatore esterno e lasciare che la vista principale ne aumenti l’altezza e occupi l’area delle miniature. In alternativa, potete mantenere statiche le dimensioni di visualizzazione principale e comprimere l’area del visualizzatore esterno, consentendo al contenuto della pagina Web di spostarsi verso l’alto, quindi utilizzare l’area reale della pagina gratuita a sinistra dalle miniature.
 
-   Per mantenere intatti i limiti del visualizzatore esterno, definite le dimensioni della classe CSS di livello principale `.s7flyoutviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Scene7 Publishing System, oppure trasmesso in modo esplicito tramite il comando stile.
+   Per mantenere intatti i limiti del visualizzatore esterno, definite le dimensioni della classe CSS di livello principale `.s7flyoutviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML, o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesso in modo esplicito tramite il comando stile.
 
    Consultate [Personalizzazione del visualizzatore zoom in linea](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) per ulteriori informazioni sullo stile del visualizzatore con i CSS.
 
