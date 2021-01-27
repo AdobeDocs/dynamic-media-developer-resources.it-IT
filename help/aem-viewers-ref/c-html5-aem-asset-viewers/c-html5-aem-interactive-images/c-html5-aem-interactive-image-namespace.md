@@ -5,7 +5,7 @@ title: Spazio dei nomi SDK per visualizzatori
 topic: Dynamic Media
 uuid: e1639806-3052-4913-aae0-ca9a79100d0f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nell
 
 Tuttavia, alcuni casi d&#39;uso avanzati richiedono che la pagina Web ottenga un riferimento a un componente SDK interno utilizzando l&#39;API del visualizzatore `getComponent()`, quindi utilizzi tutta la flessibilità delle API dell&#39;SDK stesso.
 
-Lo spazio dei nomi utilizzato per caricare e inizializzare i componenti SDK dal visualizzatore dipende dall&#39;ambiente in cui funziona il visualizzatore. Se il visualizzatore è in esecuzione in AEM (Adobe Experience Manager), il visualizzatore carica i componenti SDK nello spazio dei nomi `s7viewers.s7sdk`. Inoltre, il visualizzatore fornito da Scene7 Publishing System carica l&#39;SDK in `s7classic.s7sdk`.
+Lo spazio dei nomi utilizzato per caricare e inizializzare i componenti SDK dal visualizzatore dipende dall&#39;ambiente in cui funziona il visualizzatore. Se il visualizzatore è in esecuzione in AEM (Adobe Experience Manager), il visualizzatore carica i componenti SDK nello spazio dei nomi `s7viewers.s7sdk`. Inoltre, il visualizzatore distribuito da Dynamic Media Classic carica l&#39;SDK in `s7classic.s7sdk`.
 
 In entrambi i casi, lo spazio nomi utilizzato dall&#39;SDK all&#39;interno del visualizzatore ha il prefisso `s7viewers` o `s7classic`. Inoltre, è diverso dallo spazio dei nomi semplice `s7sdk` utilizzato nella guida utente dell&#39;SDK o nella documentazione dell&#39;API SDK.
 
