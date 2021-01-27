@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Esercitazione SDK per visualizzatori
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 L’SDK per visualizzatori offre un set di componenti basati su JavaScript per lo sviluppo personalizzato del visualizzatore. I visualizzatori sono applicazioni basate sul Web che consentono di incorporare nelle pagine Web contenuti multimediali avanzati gestiti da Dynamic Media  Adobe.
 
-Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate nell’Dynamic Media di  Adobe tramite l’applicazione di back-end SPS (Scene7 Publishing System).
+Ad esempio, l’SDK fornisce funzioni interattive di zoom e panning. Fornisce inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate nell’Dynamic Media di  Adobe tramite l’applicazione di back-end Dynamic Media Classic.
 
 Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android e Apple iOS e computer desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
