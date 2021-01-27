@@ -1,15 +1,12 @@
 ---
-description: Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
-seo-description: Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
-seo-title: Finestra a comparsa del pannello Info
+description: Il Popup Pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Dynamic Media Classic e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
 solution: Experience Manager
 title: Finestra a comparsa del pannello Info
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Popup pannello Info{#info-panel-popup}
 
-Il popup del pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Scene7 Publishing System e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
+Il Popup Pannello Info viene visualizzato al centro dell’area del visualizzatore quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Dynamic Media Classic e se la funzione del pannello Info è configurata correttamente per il visualizzatore.
 
 Lo sfondo del pannello Info copre l’intera area del visualizzatore ed è controllato con il seguente selettore di classe CSS:
 
