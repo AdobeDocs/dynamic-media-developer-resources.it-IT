@@ -4,10 +4,10 @@ seo-description: Aggiornare le autorizzazioni della cartella.
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 15%
@@ -33,10 +33,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| ` *`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
-| ` *`updateChildren`*` | `xsd:boolean` | Sì | Determina se aggiornare gli elementi figlio con autorizzazioni impostate per la cartella di livello principale. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | Sì | L’array di aggiornamenti delle autorizzazioni da applicare alla cartella. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
+| `*`updateChildren`*` | `xsd:boolean` | Sì | Determina se aggiornare gli elementi figlio con autorizzazioni impostate per la cartella di livello principale. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Sì | L’array di aggiornamenti delle autorizzazioni da applicare alla cartella. |
 
 **Output (updateFolderPermissionsReturn)**
 
