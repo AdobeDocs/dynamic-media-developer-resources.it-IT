@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore per file multimediali diversi è un visualizzatore per contenuti multimediali. Supporta i set di file multimediali che contengono immagini, set di campioni, set 360 gradi, video e set video adattivi.
 keywords: responsive
-seo-description: Il visualizzatore per file multimediali diversi è un visualizzatore per contenuti multimediali. Supporta i set di file multimediali che contengono immagini, set di campioni, set 360 gradi, video e set video adattivi.
-seo-title: Supporti multipli
 solution: Experience Manager
 title: Supporti multipli
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Scene7  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno  server Adobe Scene7 in cui sono installati i visualizzatori IS.
+Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media Classic  Adobe e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media Classic  Adobe in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -175,7 +172,7 @@ Il percorso relativo si presenta come segue:
 
    Questo visualizzatore visualizza le miniature quando si utilizzano i set di più elementi. Sui sistemi desktop, le miniature vengono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente di scambiare la risorsa principale durante l&#39;esecuzione utilizzando l&#39;API `setAsset()`. In qualità di sviluppatore, potete controllare in che modo il visualizzatore gestisce l’area delle miniature in basso quando la nuova risorsa dispone di un solo elemento. È possibile mantenere intatte le dimensioni del visualizzatore esterno e lasciare che la vista principale ne aumenti l’altezza e occupi l’area delle miniature. In alternativa, potete mantenere statiche le dimensioni di visualizzazione principale e comprimere l’area del visualizzatore esterno, consentendo al contenuto della pagina Web di spostarsi verso l’alto e quindi utilizzare lo spazio disponibile sulla pagina gratuita che è rimasto dalle miniature.
 
-   Per mantenere intatti i limiti del visualizzatore esterno, definite le dimensioni della classe CSS di livello principale `.s7mixedmediaviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Scene7 Publishing System, oppure trasmesso in modo esplicito tramite il comando stile.
+   Per mantenere intatti i limiti del visualizzatore esterno, definite le dimensioni della classe CSS di livello principale `.s7mixedmediaviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML, o in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record di predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesso in modo esplicito tramite il comando stile.
 
    Consultate [Personalizzazione del visualizzatore di file multimediali diversi](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) per ulteriori informazioni sullo stile del visualizzatore con i CSS.
 
@@ -207,7 +204,7 @@ Il percorso relativo si presenta come segue:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Scene7 Publishing System, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comandi di questa guida, come segue:
+   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Dynamic Media Classic, oppure trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comandi di questa guida, come segue:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
