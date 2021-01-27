@@ -3,11 +3,10 @@ description: Scarica
 solution: Experience Manager
 title: Scarica
 topic: Dynamic Media
-uuid: 5899d665-b0e8-4f02-915b-55dcd2563b83
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '76'
 ht-degree: 3%
 
 ---
@@ -21,5 +20,5 @@ Il pulsante &quot;Scarica&quot; è automaticamente disponibile nell’interfacci
 
 * Un file PDF effettivo è presente nella società del cliente.
 * Il nome corrisponde al nome della risorsa e-Catalog passata al visualizzatore e include un&#39;estensione `.pdf`.
-* Il file PDF viene pubblicato in SPS (Scene7 Publishing System).
+* Il file PDF viene pubblicato in Dynamic Media Classic.
 
