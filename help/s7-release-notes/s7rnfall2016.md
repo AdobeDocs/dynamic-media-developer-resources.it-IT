@@ -1,15 +1,12 @@
 ---
 description: Note aggiornate sulla versione di  Adobe Scene7 autunno 2016, componente della soluzione Adobe Experience Manager nell'Adobe Marketing Cloud.
-seo-description: Note aggiornate sulla versione di  Adobe Scene7 autunno 2016, componente della soluzione Adobe Experience Manager nell'Adobe Marketing Cloud.
-seo-title: Rilascio di Scene7 - Autunno 2016
 solution: Experience Manager
 title: Rilascio di Scene7 - Autunno 2016
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Note aggiornate sulla versione di  Adobe Scene7 autunno 2016, componente della s
 Note aggiornate sulla versione per [!DNL Adobe Scene7] Autunno 2016 - parte della soluzione [!DNL Adobe Experience Manager] in [!DNL Adobe Marketing Cloud].
 
 * [Generali](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visualizzatori (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visualizzatori (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visualizzatori (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Generali {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Per la documentazione completa, vedere [https://docs.adobe.com/content/help/en/d
 * Funzionalità di remix video rimossa dall&#39;interfaccia utente [!DNL Adobe Scene7 Publishing System].
 * È stata aggiunta l’autenticazione a tutti i servlet Scene7 laddove necessario e possibile.
 * Correzione di bug relativi alla vista Elenco nel cestino.
-* La funzionalità utente **Create SPSAdmin** rimossa da Gestione utente a causa di problemi di sicurezza.
+* La funzionalità utente **Crea Dynamic Media Classic (Scene7) Admin** è stata rimossa dalla Gestione utente a causa di problemi di sicurezza.
 * WebAdmin FTP ora supporta l&#39;autenticazione OKTA.
 * È stata rimossa la funzione della password predefinita creata per i nuovi utenti di Media Portal.
 * Correzione di bug relativa alla password temporanea generata al momento dell&#39;aggiunta di un nuovo utente. La password non soddisfa i requisiti di password necessari.
