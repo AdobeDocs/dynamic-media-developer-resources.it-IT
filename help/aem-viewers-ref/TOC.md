@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guida di riferimento visualizzatori Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 31f2fdd45d950a8e0eae34d75abf956d305d3175
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1927'
 ht-degree: 3%
 
 ---
@@ -289,7 +289,7 @@ ht-degree: 3%
          + [Indicatore pagina](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-pageindicator.md)
          + [Visualizzazione pagina](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-pageview.md)
          + [Pulsante Pagina precedente](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-previouspagebutton.md)
-         + [Stampa](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-print.md)
+         + [Stampa](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog-search/customize-ecatalog-search/r-html5-ecatalog-viewer-20-customize-print.html#viewers-aem-assets-dmc)
          + [Pulsante Rimuovi preferito](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-removefavorite.md)
          + [Pulsante Ricerca](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-searchbutton.md)
          + [Effetto Ricerca](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-searcheffect.md)
@@ -897,8 +897,8 @@ ht-degree: 3%
          + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md)
          + [setLocalizedText](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setlocalizedtexts.md)
-         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
-         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
+         + [setParam](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparam.html#viewers-for-aem-assets-only)
+         + [setParams](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparams.html#viewers-for-aem-assets-only)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Visualizzatore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Callback evento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
