@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Gestione del colore Image Server
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Image Server include la maggior parte dei profili ICC standard  Adobe nel catalo
 |`WebCoatedGrade5`|Carta SWOP 2006 con rivestimento Web|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|Stati Uniti Web non patinata v2|USWebUnspalmato.icc|
 
-La seguente tabella si applica a *Dynamic Media Classic (Scene7) Image Serving* e *Dynamic Media* (in esecuzione in `dynamicmedia_scene7` modalità di esecuzione).
+La seguente tabella si applica a *Dynamic Media Classic Image Serving* e *Dynamic Media* (in esecuzione in `dynamicmedia_scene7` modalità di esecuzione).
 
 |Identificatore|Nome comune|Nome file|
 | | | |
