@@ -1,15 +1,12 @@
 ---
 description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
-seo-description: Tutte le funzioni esposte nell’interfaccia di base Zoom, eCatalog, Ricerca eCatalog, Zoom in linea, File multimediali diversi, Set 360 gradi, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
-seo-title: Accessibilità della tastiera e navigazione
 solution: Experience Manager
 title: Accessibilità della tastiera e navigazione
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
