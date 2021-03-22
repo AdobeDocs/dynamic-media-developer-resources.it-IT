@@ -1,15 +1,16 @@
 ---
-description: Usato da PhotoshopOptions/layerNaming.
-seo-description: Usato da PhotoshopOptions/layerNaming.
+description: Utilizzato da PhotoshopOptions/layerNaming.
+seo-description: Utilizzato da PhotoshopOptions/layerNaming.
 seo-title: Modalità di denominazione dei livelli Photoshop
 solution: Experience Manager
 title: Modalità di denominazione dei livelli Photoshop
-topic: Dynamic Media Image Production System API
 uuid: bade8ee9-766f-4c03-88d4-4d54faecd40e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # Modalità di denominazione dei livelli Photoshop{#photoshop-layer-naming-modes}
 
-Usato da PhotoshopOptions/layerNaming.
+Utilizzato da PhotoshopOptions/layerNaming.
 
 Sintassi
 
