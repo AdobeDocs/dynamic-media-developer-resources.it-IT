@@ -1,33 +1,34 @@
 ---
 description: Questa procedura mostra come installare Image Serving per la prima volta su Linux.
 seo-description: Questa procedura mostra come installare Image Serving per la prima volta su Linux.
-seo-title: Prima installazione
+seo-title: Installazione per la prima volta
 solution: Experience Manager
-title: Prima installazione
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Installazione per la prima volta
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 
-# Prima installazione{#installing-for-the-first-time}
+# Installazione per la prima volta{#installing-for-the-first-time}
 
 Questa procedura mostra come installare Image Serving per la prima volta su Linux.
 
-1. Effettuate l&#39;accesso all&#39;host del server con le autorizzazioni radice.
-1. Create la cartella [!DNL /usr/local/scene7/licenses].
+1. Accedi all&#39;host del server con le autorizzazioni root.
+1. Crea la cartella [!DNL /usr/local/scene7/licenses].
 
-   Se è disponibile il file di licenza Image Server e/o Image Rendering (con suffisso di file [!DNL .sc8]), copiatelo in questa cartella. In caso contrario, continuate con l&#39;installazione e installate il codice di licenza in un secondo momento.
-1. Decomprimete e decomprimete il file tar di distribuzione Image Server.
-1. Eseguire [!DNL ./install-is], che si trova nella cartella [!DNL Setup], per avviare l&#39;installazione guidata.
+   Se è disponibile il file di licenza Image Server e/o Image Rendering (con suffisso di file [!DNL .sc8]), copialo in questa cartella. In caso contrario, procedere con l&#39;installazione e installare la chiave di licenza in un secondo momento.
+1. Decomprimi e cancella il file tar di distribuzione Image Serving.
+1. Esegui [!DNL ./install-is], che si trova nella cartella [!DNL Setup], per avviare l&#39;installazione guidata.
 
-   Se non viene trovata alcuna chiave di licenza, vengono visualizzate istruzioni che descrivono come ottenere un file di licenza. A questo punto, oppure procedere con l’installazione di Image Server e installare il codice di licenza in un secondo momento.
-1. Quando viene visualizzato il contratto di licenza per l&#39;utente finale (EULA), leggete il contratto di licenza e immettete `y` per proseguire.
+   Se non viene trovata alcuna chiave di licenza, vengono visualizzate istruzioni che descrivono come ottenere un file di licenza. A questo punto, procedi con l&#39;installazione di Image Serving e installa la chiave di licenza in un secondo momento.
+1. Quando viene visualizzato il contratto di licenza con l’utente finale (EULA), leggere il contratto di licenza e quindi immettere `y` per procedere.
 
    Il programma di installazione visualizza i prompt elencati nella tabella seguente.
 
@@ -42,36 +43,36 @@ Questa procedura mostra come installare Image Serving per la prima volta su Linu
    <td colname="col2"> <p>Porta di ascolto amministratore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Dimensione massima cache HTTP (MB) [2000]:</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Dimensione massima della cache HTTP (MB) [2000]:</span> </p> </td> 
    <td colname="col2"> <p>Dimensione iniziale della cache di risposta principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Cartella principale cache [/usr/local/scene7/Image Server/cache]:</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Cartella principale cache [/usr/local/scene7/ImageServing/cache]:</span> </p> </td> 
    <td colname="col2"> <p>Cartella cache PS. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> ID proprietario server immagini [root]:</span> </p> </td> 
-   <td colname="col2"> <p>L’account utente in cui installare i server Image Server. </p> </td> 
+   <td colname="col2"> <p>L'account utente in cui devono essere installati i server Image Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> ID gruppo server immagini [root]:</span> </p> </td> 
-   <td colname="col2"> <p>L’account del gruppo in cui installare i server Image Server. </p> </td> 
+   <td colname="col2"> <p>L'account del gruppo in cui devono essere installati i server Image Server. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 1. Premere **[!UICONTROL Invio]** per accettare il valore predefinito o specificare un valore diverso.
 
-   Verificate che tutti i numeri di porta specificati siano univoci e che non vengano utilizzati in caso contrario su questo host.
+   Assicurati che tutti i numeri di porta specificati siano univoci e non vengano utilizzati altrimenti su questo host.
 
    >[!IMPORTANT]
    >
-   >Se viene specificato un account diverso da root, è necessario assicurarsi che le autorizzazioni di accesso per tutti i file e le cartelle che il server immagini deve leggere e/o scrivere siano impostate correttamente quando queste cartelle vengono riconfigurate nei file di configurazione.
+   >Se è specificato un account diverso da root, è necessario assicurarsi che le autorizzazioni di accesso per tutti i file e le cartelle che Image Server deve leggere e/o scrivere siano impostate correttamente quando queste cartelle vengono riconfigurate nei file di configurazione.
    >
-   >Image Server è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di rendering delle immagini sono installati in [!DNL /usr/local/Scene7/ImageRendering].
+   >Image Serving è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di Image Rendering sono installati in [!DNL /usr/local/Scene7/ImageRendering].
    >
-   >Al termine dell’installazione, la procedura guidata di installazione tenta di avviare Image Server. Se non viene trovata alcuna chiave di licenza valida, Image Server non può avviarsi. Se è presente una licenza valida e Image Server non è ancora in fase di avvio, consultare i file di registro.
+   >Verso la fine dell&#39;installazione, la procedura guidata di installazione tenta di avviare Image Server. Se non viene trovata alcuna chiave di licenza valida, Image Server non può avviarsi. Se è presente una licenza valida e Image Server non è ancora in fase di avvio, consultare i file di registro.
 
 >[!NOTE]
 >
->Se la licenza è installata dopo l’installazione di Image Server, il server immagini deve essere avviato manualmente prima di utilizzarlo.
+>Se la licenza viene installata dopo l&#39;installazione di Image Server, è necessario avviare manualmente Image Server prima dell&#39;utilizzo.
