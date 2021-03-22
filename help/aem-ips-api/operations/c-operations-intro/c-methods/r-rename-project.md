@@ -1,21 +1,22 @@
 ---
 description: Rinomina un progetto.
 seo-description: Rinomina un progetto.
-seo-title: renameProject
+seo-title: rinominaProgetto
 solution: Experience Manager
-title: renameProject
-topic: Dynamic Media Image Production System API
+title: rinominaProgetto
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '84'
+ht-degree: 17%
 
 ---
 
 
-# renameProject{#renameproject}
+# rinominaProgetto{#renameproject}
 
 Rinomina un progetto.
 
@@ -32,23 +33,23 @@ Sintassi
 
 ## Parametri {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Input (renameProjectParam)**
+**Input (rinominaProjectParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sì | Gestite la società con il progetto da rinominare. |
-| `*`projectHandle`*` | `xsd:string` | Sì | Gestite il progetto. |
-| `*`projectName`*` | `xsd:string` | Sì | Nuovo nome progetto. |
+| `*`companyName`*` | `xsd:string` | Sì | Gestisci l’azienda con il progetto che desideri rinominare. |
+| `*`projectHandle`*` | `xsd:string` | Sì | Gestisci il progetto. |
+| `*`projectName`*` | `xsd:string` | Sì | Nuovo nome del progetto. |
 
-**Output (renameProjectParam)**
+**Output (ridenominazioneProjectParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sì | L&#39;handle del progetto rinominato. |
+| `*`projectHandle`*` | `xsd:string` | Sì | La gestione del progetto rinominato. |
 
 ## Esempi {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Questo esempio di codice rinomina un progetto e restituisce l’handle del progetto.
+Questo esempio di codice rinomina un progetto e restituisce l&#39;handle di progetto.
 
 **Request Contents (Richiesta contenuto)**
 
