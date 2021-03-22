@@ -4,13 +4,14 @@ seo-description: utilizzato da PhotoshopOptions/anchor.
 seo-title: Modalità di ancoraggio Photoshop
 solution: Experience Manager
 title: Modalità di ancoraggio Photoshop
-topic: Dynamic Media Image Production System API
 uuid: 7dd313ce-7e09-4b31-9005-4c2c319e42f8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '30'
+ht-degree: 3%
 
 ---
 
