@@ -1,15 +1,16 @@
 ---
-description: Colorare l’immagine. Colora i dati dell’immagine preservando le ombre e le luci.
-seo-description: Colorare l’immagine. Colora i dati dell’immagine preservando le ombre e le luci.
+description: Colorare l'immagine. Colora i dati dell'immagine mantenendo le ombre e le luci.
+seo-description: Colorare l'immagine. Colora i dati dell'immagine mantenendo le ombre e le luci.
 seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '329'
 ht-degree: 3%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 3%
 
 # op_colorize{#op-colorize}
 
-Colorare l’immagine. Colora i dati dell’immagine preservando le ombre e le luci.
+Colorare l&#39;immagine. Colora i dati dell&#39;immagine mantenendo le ombre e le luci.
 
-` op_colorize= *`contrasto di `*[,off|norm[, *`colore`*]]`
+` op_colorize= *``*[,off|norm[, *`contrasto di colore`*]]`
 
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
@@ -28,7 +29,7 @@ Colorare l’immagine. Colora i dati dell’immagine preservando le ombre e le l
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> off  </span> </p> </td> 
-  <td class="stentry"> <p>Disattivate la compensazione automatica della luminosità. </p> </td> 
+  <td class="stentry"> <p>Disattiva la compensazione automatica della luminosità. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> norma  </span> </p> </td> 
@@ -36,46 +37,46 @@ Colorare l’immagine. Colora i dati dell’immagine preservando le ombre e le l
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> contrasto  </span> </p> </td> 
-  <td class="stentry"> <p>Intervallo di contrasto (0,100 reale); impostato su 0 per mantenere il contrasto di input. </p> </td> 
+  <td class="stentry"> <p>Intervallo di contrasto (reale 0.100); impostato su 0 per mantenere il contrasto di ingresso. </p> </td> 
  </tr> 
 </table>
 
-Il secondo argomento specifica se regolare la luminosità dell’immagine sorgente prima di colorare. Specificate `off` per disattivare la compensazione automatica della luminosità oppure `norm` per regolare automaticamente la luminosità in modo che il valore medio sia del 50% di intensità.
+Il secondo argomento specifica se la luminosità dell&#39;immagine sorgente deve essere regolata prima della colorazione. Specificare `off` per disattivare la compensazione automatica della luminosità o `norm` per regolare automaticamente la luminosità in modo che il valore medio sia a un&#39;intensità del 50%.
 
-Impostate il valore *`contrast`* su 0 per mantenere l&#39;intervallo di contrasto dell&#39;immagine di input o specificate un intervallo di contrasto desiderato con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici potrebbero essere compresi tra 30 e 70.
+Imposta il valore *`contrast`* su 0 per mantenere l&#39;intervallo di contrasto dell&#39;immagine di input o specifica un intervallo di contrasto desiderato con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici potrebbero essere compresi tra 30 e 70.
 
-Oltre alle regolazioni integrate di luminosità e contrasto, `op_brightness=` e `op_contrast=` possono essere utilizzati per perfezionare ulteriormente l&#39;effetto di colorizzazione.
+Oltre alle regolazioni integrate di luminosità e contrasto, è possibile utilizzare `op_brightness=` e `op_contrast=` per perfezionare ulteriormente l&#39;effetto di colorazione.
 
 >[!NOTE]
 >
->L’algoritmo di colorizzazione utilizza solo le informazioni sulla luminanza nei dati immagine. Questa conversione in scala di grigio è semplice e non è gestita tramite il colore. `op_colorize` produce sempre dati RGB, anche se l&#39;input è in scala di grigio o CMYK.
+>L’algoritmo di colorazione utilizza solo le informazioni sulla luminanza nei dati dell’immagine. Questa conversione in scala di grigi è semplice e non è gestita tramite colori. `op_colorize` emette sempre i dati RGB, anche se l’input è in scala di grigi o CMYK.
 
 ## Proprietà {#section-c0f8bd424b864153a1108f384939f55b}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
 
-*`color`* deve essere un valore RGB; i  *`color`* valori di grigio o CMYK non sono supportati.
+*`color`* deve essere un valore RGB; I  *`color`* valori grigio o CMYK non sono supportati.
 
 Il valore *`contrast`* viene ignorato se la compensazione della luminosità è disattivata.
 
-*`color`* si presume che esista nello spazio colore di lavoro corrispondente al tipo di pixel di  *`color`*. *`color`* viene convertita accuratamente se l’immagine del livello ha un diverso tipo di pixel al momento dell’unione.
+*`color`* si presume che esista nello spazio colore di lavoro corrispondente al tipo di pixel di  *`color`*. *`color`* viene convertito accuratamente se l&#39;immagine di livello ha un tipo di pixel diverso al momento dell&#39;unione.
 
 Le immagini CMYK vengono convertite in RGB prima dell’applicazione dell’operazione.
 
 ## Predefinito {#section-0c3ea13efbac432c8970862d223e39b3}
 
-`None`, senza colorizzazione. Il secondo e il terzo argomento vengono impostati come predefiniti su `norm,0`, per la compensazione automatica della luminosità e senza modifiche del contrasto.
+`None`, senza colorizzazione. Il secondo e il terzo argomento sono predefiniti in `norm,0`, per la compensazione automatica della luminosità e senza modifiche del contrasto.
 
 ## Esempio {#section-4c418d7b5e97409d9a448b8f08a1eab3}
 
-Regolare la luminosità e il contrasto in modo dinamico prima di colorare un livello immagine:
+Regolare dinamicamente luminosità e contrasto prima di colorare un livello immagine:
 
 ... `&op_brightness=-15&op_contrast=22&op_colorize=a0b0c0&`...
 
-Utilizzate invece la regolazione automatica della luminosità e del contrasto:
+Utilizza invece la regolazione automatica della luminosità e del contrasto:
 
 ... `&op_colorize=a0b0c0,norm,50&`...
 
 ## Consultate anche {#section-5581eb0e03014fa795e8f078c60e6c8d}
 
-[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [op_bright=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a),  [op_Contrasto=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d), Gestione  [del colore](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[colore](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [op_bright=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a),  [op_contrasto=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d), gestione  [del colore](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
