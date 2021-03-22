@@ -1,22 +1,23 @@
 ---
 description: Molti aspetti di Image Server e Image Rendering possono essere configurati manualmente modificando i file di configurazione appropriati.
 seo-description: Molti aspetti di Image Server e Image Rendering possono essere configurati manualmente modificando i file di configurazione appropriati.
-seo-title: Configurazione server
+seo-title: Configurazione del server
 solution: Experience Manager
-title: Configurazione server
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Configurazione del server
 uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
 
-# Configurazione server{#server-configuration}
+# Configurazione del server{#server-configuration}
 
 Molti aspetti di Image Server e Image Rendering possono essere configurati manualmente modificando i file di configurazione appropriati.
 
-Per ulteriori informazioni, consultate la sezione Amministrazione della documentazione di Image Server e Image Rendering. [!DNL Jconsole] può essere utilizzato in alternativa sulla porta 9999.
+Per ulteriori informazioni, consulta la sezione Amministrazione della documentazione Image Serving and Image Rendering . [!DNL Jconsole] può essere utilizzato in alternativa sulla porta 9999.
