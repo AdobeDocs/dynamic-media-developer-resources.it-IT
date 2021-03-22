@@ -1,23 +1,24 @@
 ---
-description: Matrice di dettagli del registro dei processi.
-seo-description: Matrice di dettagli del registro dei processi.
-seo-title: JobLogDetailArray
+description: Array di dettagli del registro di lavoro.
+seo-description: Array di dettagli del registro di lavoro.
+seo-title: MatriceLogDettaglioProcesso
 solution: Experience Manager
-title: JobLogDetailArray
-topic: Dynamic Media Image Production System API
+title: MatriceLogDettaglioProcesso
 uuid: 83b499df-2b0c-43a8-986a-6d728e41655f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
 
 # JobLogDetailArray{#joblogdetailarray}
 
-Matrice di dettagli del registro dei processi.
+Array di dettagli del registro di lavoro.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:JobLogDetail` | Un array di dettagli del registro dei processi. |
+| `*`elementi`*` | `types:JobLogDetail` | Matrice di dettagli del registro di lavoro. |
 
