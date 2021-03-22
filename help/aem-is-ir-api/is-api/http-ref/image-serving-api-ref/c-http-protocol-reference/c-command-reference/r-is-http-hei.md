@@ -1,15 +1,16 @@
 ---
-description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (immagine di visualizzazione) quando l'adattamento non è presente nella richiesta.
-seo-description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (immagine di visualizzazione) quando l'adattamento non è presente nella richiesta.
+description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (visualizza immagine) quando l'adattamento non è presente nella richiesta.
+seo-description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (visualizza immagine) quando l'adattamento non è presente nella richiesta.
 seo-title: hei
 solution: Experience Manager
 title: hei
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 307952bb-604f-49b4-bce3-b7a7fc7ec63b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # hei{#hei}
 
-Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine della risposta (immagine di visualizzazione) quando l&#39;adattamento non è presente nella richiesta.
+Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine della risposta (visualizza immagine) quando l&#39;adattamento non è presente nella richiesta.
 
 ` hei= *`val`*`
 
@@ -28,9 +29,9 @@ Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine della rispost
  </tr> 
 </table>
 
-Se sono specificati sia `wid=` che `scl=`, l&#39;immagine composita può essere ritagliata in base all&#39;attributo `align=`. Se è presente `fit=`, `hei=` specifica l&#39;esatta, il minimo o l&#39;altezza massima dell&#39;immagine di risposta; fare riferimento alla descrizione di ` [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)` per ulteriori dettagli.
+Se sono specificati sia `wid=` che `scl=`, l&#39;immagine composita può essere ritagliata in base all&#39;attributo `align=`. Quando `fit=` è presente, `hei=` specifica l&#39;esatta, la minima o l&#39;altezza massima dell&#39;immagine di risposta; per ulteriori informazioni, fare riferimento alla descrizione di ` [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)` .
 
-Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarsi. Se sono specificati sia `wid=` che `hei=` e `scl=` non è specificato, l&#39;immagine viene ridimensionata in modo da rientrare interamente all&#39;interno del rettangolo wid/hei, lasciando esposto il minor numero possibile di area di sfondo; in questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione in base all&#39;attributo `align=`. L&#39;area di sfondo è riempita con `bgc=`, oppure, se non è specificata con `attribute::BkgColor`.
+Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarsi. Se sono specificati sia `wid=` che `hei=` e `scl=` non è specificato, l&#39;immagine viene ridimensionata in modo da adattarsi interamente al rettangolo wid/hei, lasciando il minor spazio di sfondo possibile esposto; in questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione secondo l&#39;attributo `align=` . L&#39;area di sfondo viene riempita con `bgc=`, oppure, se non specificato con `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -38,22 +39,22 @@ Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per 
 
 ## Proprietà {#section-534923644a1e464496eeba83dedcbd3c}
 
-Visualizza attributo. Si applica indipendentemente dall’impostazione del livello corrente.
+Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Predefinito {#section-76544d34806d4124a8b173e229cba71f}
 
-Se non vengono specificati né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, se è più piccola.
+Se non vengono specificati né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita o `attribute::DefaultPix`, a seconda di quale sia la dimensione minore.
 
 ## Esempi {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Richiedete un’immagine da inserire in un rettangolo da 200x200; in alto a sinistra allinea l’immagine se non è quadrata. Ogni area di sfondo viene riempita con `attribute::BkgColor`.
+Richiedere un&#39;immagine per inserirla in un rettangolo 200x200; allineate l&#39;immagine in alto a sinistra se non è quadrata. Ogni area di sfondo viene riempita con `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-La stessa immagine, trasmessa a un’altezza fissa di 200 pixel, ma con una larghezza variabile che corrisponda alle proporzioni dell’immagine. In questo caso, l&#39;immagine restituita non ha mai aree di riempimento di sfondo. In questo caso `align=` non avrebbe alcun effetto.
+La stessa immagine, distribuita ad un&#39;altezza fissa di 200 pixel, ma con una larghezza variabile per corrispondere alle proporzioni dell&#39;immagine. In questo caso, l&#39;immagine restituita non ha mai aree di riempimento di sfondo. In questo caso `align=` non avrebbe alcun effetto.
 
 `http://server/myRootId/myImageId?hei=200`
 
 ## Consultate anche {#section-796e059e42ea4e86ab90ea3d024850ec}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)  [rGN=, attribute::DefaultPix, attribute::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [rng=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f),  [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1),  [attribute::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
