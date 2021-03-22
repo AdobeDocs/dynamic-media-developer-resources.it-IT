@@ -4,13 +4,14 @@ seo-description: Imposta o aggiorna un pacchetto di metadati XMP per una risorsa
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 17%
 
 ---
 
@@ -37,9 +38,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
-| `*`compressoPacket`*` | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto da impostare o aggiornare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto da impostare o aggiornare. |
 
 **Output (updateXMPPacketReturn)**
 
