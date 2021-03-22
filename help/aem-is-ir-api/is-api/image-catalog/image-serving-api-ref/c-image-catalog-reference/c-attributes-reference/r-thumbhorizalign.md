@@ -1,15 +1,16 @@
 ---
-description: Allineamento orizzontale per le miniature. Specifica l'allineamento orizzontale dell'immagine in miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= oppure dall'attributo DefaultThumbPix.
-seo-description: Allineamento orizzontale per le miniature. Specifica l'allineamento orizzontale dell'immagine in miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= oppure dall'attributo DefaultThumbPix.
-seo-title: ThumbHorizAlign
+description: Allineamento orizzontale per le miniature. Specifica l'allineamento orizzontale dell'immagine miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
+seo-description: Allineamento orizzontale per le miniature. Specifica l'allineamento orizzontale dell'immagine miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
+seo-title: AllineaOrizzontale
 solution: Experience Manager
-title: ThumbHorizAlign
-topic: Dynamic Media Image Serving - Image Rendering API
+title: AllineaOrizzontale
 uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # ThumbHorizAlign{#thumbhorizalign}
 
-Allineamento orizzontale per le miniature. Specifica l&#39;allineamento orizzontale dell&#39;immagine in miniatura nel rettangolo dell&#39;immagine di risposta specificato da wid= e hei= o per attributo::DefaultThumbPix.
+Allineamento orizzontale per le miniature. Specifica l&#39;allineamento orizzontale dell&#39;immagine miniatura nel rettangolo dell&#39;immagine di risposta specificato da wid= e hei= o dall&#39;attributo::DefaultThumbPix.
 
-Utilizzata solo per le richieste di miniature ( `req=tmb`).
+Utilizzato solo per le richieste di miniature ( `req=tmb`) .
 
 ## Proprietà {#section-c98f793986cd4f98a3995615e3b68f76}
 
-Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per l&#39;allineamento a sinistra, al centro e a destra.
+Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per l’allineamento a sinistra, al centro e a destra.
 
 ## Predefinito {#section-0c06f0d998cb4306868b360a06c32e5b}
 
