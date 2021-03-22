@@ -1,23 +1,24 @@
 ---
-description: Ottiene tutti gli utenti in un array.
-seo-description: Ottiene tutti gli utenti in un array.
+description: Ottiene tutti gli utenti di una matrice.
+seo-description: Ottiene tutti gli utenti di una matrice.
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
-topic: Dynamic Media Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 16%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
 
 # getAllUsers{#getallusers}
 
-Ottiene tutti gli utenti in un array.
+Ottiene tutti gli utenti di una matrice.
 
 Sintassi
 
@@ -46,10 +47,10 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4">Impostate su: 
+   <td colname="col4">Imposta su: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> includere </span> utenti non validi. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> impossibile </span> omettere utenti non validi. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> per includere utenti non validi. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> impossibile omettere utenti non validi. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +61,7 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`userArray`*` | `types:UserArray` | Sì | Array di tutti gli utenti. |
-| `*`Frase codice`*` | `Code Phrase` |  |  |
+| `*`Frase di codice`*` | `Code Phrase` |  |  |
 
 ## Esempi {#section-9c9a2d335513478da20652c1b1443731}
 
