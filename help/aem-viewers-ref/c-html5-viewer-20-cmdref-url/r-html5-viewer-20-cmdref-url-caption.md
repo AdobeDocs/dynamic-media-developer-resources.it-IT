@@ -4,12 +4,13 @@ seo-description: Parametro comune a tutti i visualizzatori.
 seo-title: didascalia
 solution: Experience Manager
 title: didascalia
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Image Server distribuisce il file WebVTT. </p> </td> 
+   <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Image Server serve il file WebVTT. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
@@ -38,7 +39,7 @@ Parametro comune a tutti i visualizzatori.
  </tbody> 
 </table>
 
-Questo visualizzatore supporta i sottotitoli codificati mediante i file WebVTT ospitati. Le didascalie specificate con questo parametro si applicano al video che compare per primo nei set di file multimediali; i video successivi vengono riprodotti senza didascalie. Le aree e i suggerimenti sovrapposti non sono supportati. Operatori di posizionamento dei cue supportati:
+Questo visualizzatore supporta i sottotitoli codificati tramite file WebVTT in hosting. I sottotitoli specificati con questo parametro si applicano al video che compare per primo nei set di file multimediali; i video successivi vengono riprodotti senza didascalie. Le aree e i suggerimenti di sovrapposizione non sono supportati. Operatori di posizionamento dei cue supportati:
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -52,38 +53,38 @@ Questo visualizzatore supporta i sottotitoli codificati mediante i file WebVTT o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
-   <td colname="col2"> <p>test align </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sinistra|destra|centro|inizio|fine  </span> </p> </td> 
-   <td colname="col4"> <p> Controlla l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> al centro </span>. </p> </td> 
+   <td colname="col2"> <p>allineamento del test </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sinistra|destra|mezzo|inizio|fine  </span> </p> </td> 
+   <td colname="col4"> <p> Controlla l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> intermedio </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>posizione testo </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> Percentuale di inserimento nel componente VideoPlayer per l’inizio del testo della didascalia. </p> <p>Il valore predefinito è <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> Percentuale di input nel componente VideoPlayer per l’inizio del testo della didascalia. </p> <p>Il valore predefinito è <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
-   <td colname="col2"> <p>dimensione linea </p> </td> 
+   <td colname="col2"> <p>dimensioni linea </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Percentuale di larghezza video utilizzata per le didascalie. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
-   <td colname="col2"> <p>posizione linea </p> </td> 
+   <td colname="col2"> <p>posizione della linea </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se viene espresso come numero intero senza segno di percentuale, corrisponde al numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se viene espresso come percentuale, il segno di percentuale è l'ultimo carattere, il testo della didascalia viene visualizzato con una percentuale in basso nell'area di visualizzazione. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se è espresso come numero intero senza segno di percentuale, si tratta del numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se è espresso come percentuale, il segno di percentuale è l’ultimo carattere, il testo della didascalia viene visualizzato in modo che la percentuale scenda nell’area di visualizzazione. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tenere presente che se esistono altre funzionalità WebVTT presenti nel file WebVTT, non sono supportate; tuttavia, i sottotitoli non verranno interrotti.
+Tieni presente che se nel file WebVTT sono presenti altre funzionalità WebVTT, queste non sono supportate; tuttavia, non interromperanno il sottotitolo.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto di sottotitoli WebVTT. Il file WebVTT è gestito da Image Server. </p> </td> 
+   <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Il file WebVTT viene gestito da Image Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
