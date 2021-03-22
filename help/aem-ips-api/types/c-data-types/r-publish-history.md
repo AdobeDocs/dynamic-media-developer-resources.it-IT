@@ -1,23 +1,24 @@
 ---
-description: Cronologia di pubblicazione di una risorsa.
-seo-description: Cronologia di pubblicazione di una risorsa.
+description: Cronologia della pubblicazione di una risorsa.
+seo-description: Cronologia della pubblicazione di una risorsa.
 seo-title: PublishHistory
 solution: Experience Manager
 title: PublishHistory
-topic: Dynamic Media Image Production System API
 uuid: 842eafd8-dc41-4df0-96b0-de14357ac495
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 
 # PublishHistory{#publishhistory}
 
-Cronologia di pubblicazione di una risorsa.
+Cronologia della pubblicazione di una risorsa.
 
 Sintassi
 
