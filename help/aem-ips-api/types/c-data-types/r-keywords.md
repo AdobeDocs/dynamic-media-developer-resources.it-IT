@@ -2,13 +2,14 @@
 description: Parole chiave
 solution: Experience Manager
 title: Parole chiave
-topic: Dynamic Media Image Production System API
 uuid: 147b7dcd-dd6d-4530-b046-18925e851eb1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 29%
+source-wordcount: '48'
+ht-degree: 25%
 
 ---
 
@@ -26,5 +27,5 @@ Sintassi
 | `*`x`*` | `xsd:int` | Posizione della parola chiave sull’asse x (in pixel). |
 | `*`y`*` | `xsd:int` | Posizione della parola chiave sull’asse y (in pixel). |
 | `*`width`*` | `xsd:int` | Larghezza parola chiave in pixel. |
-| `*`height`*` | `xsd:int` | Altezza parola chiave in pixel. |
+| `*`height`*` | `xsd:int` | Altezza della parola chiave in pixel. |
 
