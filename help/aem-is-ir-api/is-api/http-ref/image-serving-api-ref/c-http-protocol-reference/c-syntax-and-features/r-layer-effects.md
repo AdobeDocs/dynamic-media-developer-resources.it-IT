@@ -1,15 +1,16 @@
 ---
-description: Gli effetti ombra e bagliore in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (il livello principale), inclusi layer=0 e layer=comp.
-seo-description: Gli effetti ombra e bagliore in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (il livello principale), inclusi layer=0 e layer=comp.
+description: Gli effetti di ombreggiatura e bagliore dei livelli in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (livello padre), inclusi layer=0 e layer=comp.
+seo-description: Gli effetti di ombreggiatura e bagliore dei livelli in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (livello padre), inclusi layer=0 e layer=comp.
 seo-title: Effetti livello
 solution: Experience Manager
 title: Effetti livello
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 076e98de-cbbb-457b-984a-367a935b4356
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 1%
 
 # Effetti livello{#layer-effects}
 
-Gli effetti ombra e bagliore in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (il livello principale), inclusi layer=0 e layer=comp.
+Gli effetti di ombreggiatura e bagliore dei livelli in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (livello padre), inclusi layer=0 e layer=comp.
 
-I livelli degli effetti supportano una serie di attributi e comandi standard per immagini e livelli, ma non sono destinati a livelli per scopi generali e non supportano dati di immagine o testo indipendenti.
+Mentre i livelli di effetto supportano una serie di attributi e comandi standard di immagine e livello, non sono destinati a essere livelli generali e non supportano dati di immagine o testo indipendenti.
 
-È possibile collegare un numero qualsiasi di effetti di livello a un singolo livello principale.
+Un numero qualsiasi di effetti di livello può essere collegato a un singolo livello padre.
 
 ## Effetti interni ed esterni {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Gli* effetti interni vengono rappresentati sopra al livello principale e sono visibili solo nelle aree opache del livello principale. *Gli* effetti esterni vengono sottoposti a rendering dietro il livello principale (non saranno mai visibili all’interno delle aree opache del livello principale) e possono essere posizionati ovunque all’interno del quadro di composizione. Un effetto interno o esterno viene scelto assegnando un numero di livello positivo o negativo con il comando `effect=`. Il comando `effect=` controlla anche l&#39;ordine z tra più livelli di effetto collegati allo stesso livello principale.
+*Gli* effetti interni vengono sottoposti a rendering sopra il livello padre e sono visibili solo nelle aree opache del livello padre. *Gli* effetti esterni vengono sottoposti a rendering dietro il livello padre (in modo che non saranno mai visibili all’interno di aree opache del livello padre) e possono essere posizionati ovunque all’interno del quadro di composizione. Un effetto interno o esterno viene scelto assegnando un numero di livello di effetto positivo o negativo con il comando `effect=`. Il comando `effect=` controlla anche l&#39;ordine z tra più livelli di effetto collegati allo stesso livello padre.
 
-## Relazione con il livello principale {#section-eb8bfc4f754a42fc973b562821d6f2d3}
+## Relazione con il livello padre {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-I livelli degli effetti vengono ridimensionati automaticamente e posizionati in modo da coincidere con il livello principale (ovvero il livello degli effetti eredita i valori `size=` e `origin=` del livello principale). `pos=` può essere usato per spostare il livello dell’effetto dal livello principale, come generalmente richiesto per gli effetti ombra esterna e interna. Mentre per i livelli standard `pos=` specifica un offset tra le origini di questo livello e il livello 0, per i livelli di effetto `pos=` specifica l’offset tra le origini del livello di effetto e del livello principale.
+I livelli di effetto vengono dimensionati automaticamente e posizionati in modo da coincidere con il livello padre (ovvero il livello di effetto eredita i valori `size=` e `origin=` del livello padre). `pos=` può essere utilizzato per spostare il livello di effetto dal livello padre, come generalmente richiesto per gli effetti di ombreggiatura esterna e interna. Mentre per i livelli standard `pos=` specifica un offset tra le origini di questo livello e il livello 0, per i livelli di effetto `pos=` specifica l&#39;offset tra le origini del livello di effetto e il livello padre.
 
 ## Comandi e attributi supportati {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
-I livelli degli effetti accettano i comandi e gli attributi seguenti:
+I livelli di effetto accettano i comandi e gli attributi seguenti:
 
 * `blendMode=`
 * `effect=`
@@ -45,16 +46,16 @@ I livelli degli effetti accettano i comandi e gli attributi seguenti:
 * `op_noise=`
 * `pos=`
 
-Tutti gli altri comandi immagine e livello contenuti nei livelli degli effetti vengono ignorati.
+Tutti gli altri comandi immagine e livello contenuti nei livelli effetto vengono ignorati.
 
-## Macro di effetti predefinite {#section-a01e8dcc87c94495b54a6dfb21d2a718}
+## Macro degli effetti predefiniti {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-Per facilitare l’utilizzo degli effetti livello, IS fornisce due macro con il catalogo immagini predefinito, `$shadow$` e `$glow$`, che forniscono valori predefiniti per gli attributi del livello degli effetti simili agli effetti livello Photoshop. Nella tabella seguente sono elencati i comandi di effetto e la macro da utilizzare per implementare gli effetti di livello predefiniti. Naturalmente, qualsiasi attributo specificato nelle macro può essere modificato nell&#39;URL, oppure è possibile creare macro alternative per implementare effetti livello personalizzati.
+Per facilitare l’utilizzo degli effetti di livello, IS fornisce due macro con il catalogo immagini predefinito, `$shadow$` e `$glow$`, che forniscono valori predefiniti per gli attributi del livello di effetto simili agli effetti di livello Photoshop. Nella tabella seguente sono elencati i comandi di effetto e le macro da utilizzare per implementare gli effetti di livello predefiniti. Naturalmente, è possibile modificare nell&#39;URL qualsiasi attributo specificato nelle macro oppure creare macro alternative per implementare effetti di livello personalizzati.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Effetto Desiderato</b> </th> 
+   <th class="entry"> <b> Effetto desiderato</b> </th> 
    <th class="entry"> <b> Comando</b> </th> 
   </tr> 
  </thead>
@@ -80,18 +81,18 @@ Per facilitare l’utilizzo degli effetti livello, IS fornisce due macro con il 
 
 ## Esempi {#section-4c449fdf707b43858917fb271fa1fe96}
 
-Aggiungete un bordo rosso e largo tre pixel con opacità del 50% a un livello:
+Aggiungete un bordo rosso largo tre pixel con opacità del 50% a un livello:
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-Il bordo seguirà i contorni del canale alfa o della maschera dell’immagine. Se si imposta `effect=1`, il bordo viene posizionato sul bordo interno.
+Il bordo seguirà i contorni del canale o della maschera alfa dell&#39;immagine. Se si imposta `effect=1`, il bordo viene posizionato sul bordo interno.
 
-Aggiungete un’ombra esterna blu a un’immagine, utilizzando le impostazioni dell’effetto predefinito (eccetto il colore):
+Aggiungi un’ombreggiatura bluastra a un’immagine, utilizzando le impostazioni dell’effetto predefinito (tranne che per il colore):
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` aggiunge un piccolo margine ai bordi inferiore destro dell’immagine, per evitare che l’ombra esterna venga ritagliata ai limiti dell’immagine.
+`extend=` aggiunge un piccolo margine ai bordi in basso a destra dell&#39;immagine, impedendo il ritaglio dell&#39;ombreggiatura ai limiti dell&#39;immagine.
 
 ## Consultate anche {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135),  [Macro comandi%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), macro  [di comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
