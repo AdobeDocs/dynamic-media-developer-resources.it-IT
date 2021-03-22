@@ -1,23 +1,24 @@
 ---
-description: Rappresenta una società.
-seo-description: Rappresenta una società.
+description: Rappresenta un'azienda.
+seo-description: Rappresenta un'azienda.
 seo-title: Società
 solution: Experience Manager
 title: Società
-topic: Dynamic Media Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 30%
+source-wordcount: '43'
+ht-degree: 25%
 
 ---
 
 
 # Società{#company}
 
-Rappresenta una società.
+Rappresenta un&#39;azienda.
 
 Sintassi
 
@@ -25,8 +26,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Maniglia aziendale. |
+| `*`companyHandle`*` | `xsd:string` | Tratta l&#39;azienda. |
 | `*`name`*` | `xsd:string` | Il nome della società. |
-| `*`rootPath`*` | `xsd:string` | Percorso principale della società. |
-| `*`expires`*` | `xsd:dateTime` | Data e ora di scadenza della società. |
+| `*`rootPath`*` | `xsd:string` | Percorso principale dell&#39;azienda. |
+| `*`expires`*` | `xsd:dateTime` | Data e ora di scadenza dell’azienda. |
 
