@@ -4,12 +4,13 @@ seo-description: Riferimento API JavaScript per il visualizzatore Video360.
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 2f10c080-f21d-4021-b10c-cd83f731db65
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -21,17 +22,17 @@ Riferimento API JavaScript per il visualizzatore Video360.
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK per visualizzatori usato dal visualizzatore. La pagina Web può usare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Richiamate questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`. In caso contrario, il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` -  `{String}` un ID del componente SDK per visualizzatori usato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
+`*`componentID`*` :  `{String}` un ID del componente SDK per visualizzatori utilizzato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatori </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome della classe del componente SDK per visualizzatori </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -57,7 +58,7 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mutableVolume  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MABLEVolume  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MablesVolume  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> playPauseButton  </span> </p> </td> 
@@ -72,7 +73,7 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> control  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlli  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -98,9 +99,9 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Quando lavori con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Per ulteriori informazioni su un particolare componente, consultate la documentazione *HTML5 Viewer SDK API*.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione *API SDK per visualizzatori HTML5* .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
