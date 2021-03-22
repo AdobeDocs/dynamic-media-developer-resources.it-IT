@@ -1,23 +1,24 @@
 ---
-description: Array di messaggi che rispondono a uno degli URL forniti nella richiesta di annullamento validità CDN.
-seo-description: Array di messaggi che rispondono a uno degli URL forniti nella richiesta di annullamento validità CDN.
+description: Matrice di messaggi che risponde a un URL fornito nella richiesta di invalidazione del CDN.
+seo-description: Matrice di messaggi che risponde a un URL fornito nella richiesta di invalidazione del CDN.
 seo-title: OperationFaultArray
 solution: Experience Manager
 title: OperationFaultArray
-topic: Dynamic Media Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # OperationFaultArray{#operationfaultarray}
 
-Array di messaggi che rispondono a uno degli URL forniti nella richiesta di annullamento validità CDN.
+Matrice di messaggi che risponde a un URL fornito nella richiesta di invalidazione del CDN.
 
 **Supportato da**
 
@@ -37,7 +38,7 @@ Array di messaggi che rispondono a uno degli URL forniti nella richiesta di annu
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipi:OperationFault</span> </p> </td> 
-   <td> <p> Elenco dei messaggi risultanti dalla richiesta di annullamento validità CDN. </p> </td> 
+   <td> <p> Elenco dei messaggi risultanti dalla richiesta di annullamento della validità CDN. </p> </td> 
   </tr> 
  </tbody> 
 </table>
