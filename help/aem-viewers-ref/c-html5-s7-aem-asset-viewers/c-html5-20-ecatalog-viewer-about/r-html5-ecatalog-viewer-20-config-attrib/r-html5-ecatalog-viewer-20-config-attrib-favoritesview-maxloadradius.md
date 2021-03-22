@@ -2,13 +2,14 @@
 description: FavoritesView.maxloadradius
 solution: Experience Manager
 title: FavoritesView.maxloadradius
-topic: Dynamic Media
 uuid: 52347bee-2cdf-4bb4-bb6f-eefff06b82af
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostata su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostata su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Se è impostata su <span class="codeph"><span class="varname"> precaricatore</span></span>, è possibile specificare quante righe invisibili intorno all'area visibile vengono precaricate. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Se è impostato su <span class="codeph"><span class="varname"> preload</span></span>, è possibile specificare quante righe invisibili intorno all'area visibile vengono precaricate. </p> </td> 
   </tr> 
  </tbody> 
 </table>
