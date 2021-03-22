@@ -1,15 +1,16 @@
 ---
-description: Coordinate pixel. Consente di specificare le coordinate dell’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, sotto forma di un offset pixel rispetto all’angolo superiore sinistro di un’immagine o di un rettangolo di livello.
-seo-description: Coordinate pixel. Consente di specificare le coordinate dell’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, sotto forma di un offset pixel rispetto all’angolo superiore sinistro di un’immagine o di un rettangolo di livello.
-seo-title: accordo
+description: Coordinate pixel. Utilizzato per specificare le coordinate immagine, ad esempio offset immagine o parametri di ritaglio, sotto forma di offset pixel rispetto all'angolo in alto a sinistra di un'immagine o di un rettangolo di livello.
+seo-description: Coordinate pixel. Utilizzato per specificare le coordinate immagine, ad esempio offset immagine o parametri di ritaglio, sotto forma di offset pixel rispetto all'angolo in alto a sinistra di un'immagine o di un rettangolo di livello.
+seo-title: corda
 solution: Experience Manager
-title: accordo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: corda
 uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # coord{#coord}
 
-Coordinate pixel. Consente di specificare le coordinate dell’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, sotto forma di un offset pixel rispetto all’angolo superiore sinistro di un’immagine o di un rettangolo di livello.
+Coordinate pixel. Utilizzato per specificare le coordinate immagine, ad esempio offset immagine o parametri di ritaglio, sotto forma di offset pixel rispetto all&#39;angolo in alto a sinistra di un&#39;immagine o di un rettangolo di livello.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> accordo</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> corda</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>,  <span class="codeph"><span class="varname"> py</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -30,4 +31,4 @@ Coordinate pixel. Consente di specificare le coordinate dell’immagine, ad esem
  </tr> 
 </table>
 
-0,0 fa riferimento all’angolo superiore sinistro dell’immagine o del rettangolo. Aumentare i valori si sposta verso il basso a destra.
+0,0 fa riferimento all’angolo superiore sinistro dell’immagine o del rettangolo. L’aumento dei valori si sposta verso il basso a destra.
