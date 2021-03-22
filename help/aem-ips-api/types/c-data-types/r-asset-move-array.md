@@ -1,23 +1,24 @@
 ---
-description: Matrice di spostamenti delle risorse.
-seo-description: Matrice di spostamenti delle risorse.
+description: Array di spostamenti delle risorse.
+seo-description: Array di spostamenti delle risorse.
 seo-title: AssetMoveArray
 solution: Experience Manager
 title: AssetMoveArray
-topic: Dynamic Media Image Production System API
 uuid: 303948e6-9b83-4801-9c20-99dff15925ed
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 20%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
 
 # AssetMoveArray{#assetmovearray}
 
-Matrice di spostamenti delle risorse.
+Array di spostamenti delle risorse.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `type:AssetMove` | Matrice di spostamenti delle risorse. |
+| `*`elementi`*` | `type:AssetMove` | Array di spostamenti delle risorse. |
 
