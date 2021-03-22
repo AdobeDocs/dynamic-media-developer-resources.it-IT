@@ -4,12 +4,13 @@ seo-description: Genera un’immagine in miniatura per il video.
 seo-title: MediaOptions
 solution: Experience Manager
 title: MediaOptions
-topic: Dynamic Media Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
@@ -40,12 +41,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Quando è true, il primo fotogramma del video viene estratto e utilizzato come miniatura. </td> 
+   <td colname="col3"> Se true, il primo fotogramma del video viene estratto e utilizzato come immagine di anteprima. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ThumbnailOptions</span> </td> 
-   <td colname="col3">Facoltativo. Consente di scegliere un particolare fotogramma video da usare come miniatura. <p>Per specificare una miniatura, passate il tempo (in millisecondi dall’inizio del video) per il fotogramma che desiderate usare. I valori vanno da 0 alla fine del video. <p>Nota: Se si specifica l'ora in modo errato, per impostazione predefinita <span class="codeph"> generateThumbnail</span> è true. </p></p><p>Vedere <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col3">Facoltativo. Consente di scegliere un particolare fotogramma video da usare come immagine miniatura. <p>Per specificare un'immagine in miniatura, passare il tempo (in millisecondi dall'inizio del video) per il fotogramma che si desidera utilizzare. I valori variano da 0 alla fine del video. <p>Nota: Se specifichi l'ora in modo errato, per impostazione predefinita <span class="codeph"> generateThumbnail</span> restituisce true. </p></p><p>Vedere <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +63,9 @@ Sintassi
     </complexType>
 ```
 
-## Utilizzata da {#section-87cb83407198432c95eaa2db9f12f9db}
+## Utilizzato da {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Il tipo `mediaOptions` è utilizzato da:
+Il tipo `mediaOptions` viene utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
