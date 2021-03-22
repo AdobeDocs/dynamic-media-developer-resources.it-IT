@@ -1,36 +1,37 @@
 ---
-description: Utilizzate queste impostazioni del server per reindirizzare gli errori.
-seo-description: Utilizzate queste impostazioni del server per reindirizzare gli errori.
-seo-title: Reindirizzamento errore
+description: Usa queste impostazioni del server per reindirizzare gli errori.
+seo-description: Usa queste impostazioni del server per reindirizzare gli errori.
+seo-title: Reindirizzamento degli errori
 solution: Experience Manager
-title: Reindirizzamento errore
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Reindirizzamento degli errori
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 
-# Errore di reindirizzamento{#error-redirection}
+# Reindirizzamento errore{#error-redirection}
 
-Utilizzate queste impostazioni del server per reindirizzare gli errori.
+Usa queste impostazioni del server per reindirizzare gli errori.
 
 >[!NOTE]
 >
->I caratteri pipeline (|) nel percorso di rete non sono supportati per il reindirizzamento degli errori.
+>I caratteri di tubazione (|) nel percorso di rete non sono supportati per il reindirizzamento degli errori.
 
 ## PS::errorRedirect.rootUrl - Server di reindirizzamento {#section-85f22e48d68842a490b0e1191543b558}
 
-L&#39;URL principale ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) per la distribuzione secondaria Image Serving a cui reindirizzare le richieste che non vanno a buon fine localmente. Il reindirizzamento degli errori è disattivato (impostazione predefinita) quando questa impostazione è vuota o non definita.
+L’URL principale ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) per la distribuzione secondaria Image Server a cui devono essere reindirizzate le richieste con errore locale. Il reindirizzamento degli errori è disattivato (impostazione predefinita) quando questa impostazione è vuota o non definita.
 
-## PS::errorRedirect.connectTimeout - Timeout connessione di reindirizzamento {#section-3971be8f720d4b32a2cc7860b4085971}
+## PS::errorRedirect.connectTimeout - Timeout della connessione di reindirizzamento {#section-3971be8f720d4b32a2cc7860b4085971}
 
-Tempo massimo (in msec) per stabilire una connessione con il server secondario prima di restituire un errore al client.
+Tempo massimo (in msec) in cui il server attenderà che venga stabilita una connessione con il server secondario prima di restituire un errore al client.
 
 ## PS::errorRedirect.socketTimeout - Timeout risposta di reindirizzamento {#section-69d8579f748d4044bca99dfb64dd523c}
 
-Tempo massimo (in msec) in cui il server secondario deve restituire i dati prima di abbandonare la richiesta di reindirizzamento e restituire un errore al client.
+Tempo massimo (in msec) in cui il server secondario attenderà la restituzione dei dati prima di abbandonare la richiesta di reindirizzamento e restituire un errore al client.
