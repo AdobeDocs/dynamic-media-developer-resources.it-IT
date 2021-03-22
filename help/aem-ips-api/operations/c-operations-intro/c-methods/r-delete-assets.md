@@ -4,13 +4,14 @@ seo-description: Elimina più risorse.
 seo-title: deleteAssets
 solution: Experience Manager
 title: deleteAssets
-topic: Dynamic Media Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 10%
+source-wordcount: '188'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +49,7 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L’handle della società a cui appartengono le risorse. </p> </td> 
+   <td colname="col4"> <p>L'handle dell'azienda a cui appartengono le risorse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -75,38 +76,38 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Numero di risorse eliminate correttamente. </p> </td> 
+   <td colname="col4"> <p>Numero di risorse eliminate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Risorse che generavano un avviso quando l'operazione tentava di eliminarle. </p> </td> 
+   <td colname="col4"> <p>Le risorse che generavano un avviso quando l’operazione tentava di eliminarle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Risorse che hanno generato un errore durante il tentativo di eliminazione dell'operazione. </p> </td> 
+   <td colname="col4"> <p>Le risorse che generavano un errore quando l’operazione tentava di eliminarle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di dettagli associati alle risorse che generavano un avviso quando l'operazione tentava di eliminarle. </p> </td> 
+   <td colname="col4"> <p>Array di dettagli associati alle risorse che hanno generato un avviso quando l’operazione tentava di eliminarle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di dettagli associati alle risorse che generavano un errore quando l'operazione tentava di eliminarle. </p> </td> 
+   <td colname="col4"> <p>Array di dettagli associati alle risorse che hanno generato un errore quando l’operazione tentava di eliminarle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Questo esempio di codice invia un handle a una società e un array di handle di risorse in una richiesta `deleteAssetsParam` al server dei servizi Web. `deleteAssetsReturn` restituisce un conteggio di successo pari a 2, a indicare che entrambe le risorse sono state eliminate.
+Questo esempio di codice invia un handle a un&#39;azienda e una matrice di handle di risorse in una richiesta `deleteAssetsParam` al server dei servizi Web. `deleteAssetsReturn` restituisce un conteggio di successo di 2, che indica che entrambe le risorse sono state eliminate.
 
 **Request Contents (Richiesta contenuto)**
 
