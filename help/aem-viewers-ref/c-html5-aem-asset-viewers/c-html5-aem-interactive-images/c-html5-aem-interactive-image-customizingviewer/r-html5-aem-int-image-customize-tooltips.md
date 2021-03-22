@@ -1,15 +1,16 @@
 ---
-description: Sui sistemi desktop, alcuni elementi dell'interfaccia utente come i pulsanti dispongono di descrizioni comandi che vengono visualizzate al passaggio del mouse.
-seo-description: Sui sistemi desktop, alcuni elementi dell'interfaccia utente come i pulsanti dispongono di descrizioni comandi che vengono visualizzate al passaggio del mouse.
+description: Sui sistemi desktop alcuni elementi dell'interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
+seo-description: Sui sistemi desktop alcuni elementi dell'interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
 seo-title: Descrizioni comandi
 solution: Experience Manager
 title: Descrizioni comandi
-topic: Dynamic Media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '171'
 ht-degree: 5%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 5%
 
 # Descrizioni comandi{#tooltips}
 
-Sui sistemi desktop, alcuni elementi dell&#39;interfaccia utente come i pulsanti dispongono di descrizioni comandi che vengono visualizzate al passaggio del mouse.
+Sui sistemi desktop alcuni elementi dell&#39;interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di classe CSS:
+L’aspetto delle descrizioni comandi è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7tooltip
@@ -38,15 +39,15 @@ L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Raggio del bordo dello sfondo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
+   <td colname="col2"> <p> Raggio del bordo di sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p> Colore del bordo dello sfondo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore bordo  </span> </p> </td> 
+   <td colname="col2"> <p> Colore bordo sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo. </p> </td> 
   </tr> 
   <tr> 
@@ -66,9 +67,9 @@ L&#39;aspetto delle descrizioni comandi è controllato dal seguente selettore di
 
 >[!NOTE]
 >
->Se gli stili delle descrizioni comandi vengono personalizzati dall&#39;interno della pagina Web in cui sono incorporati, tutte le proprietà devono contenere la regola `!IMPORTANT`. Questo non è necessario se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
+>Nel caso in cui gli stili della descrizione comandi siano personalizzati dall’interno della pagina web di incorporamento, tutte le proprietà devono contenere la regola `!IMPORTANT` . Questo non è necessario se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
 
-Esempio: per impostare descrizioni comandi con bordo grigio con raggio di 3 pixel, sfondo nero e testo bianco in Arial, le dimensioni sono di 11 pixel:
+Esempio: per impostare descrizioni comandi con bordo grigio con raggio d’angolo di 3 pixel, sfondo nero e testo bianco in Arial, dimensioni di 11 pixel:
 
 ```
 .s7tooltip { 
