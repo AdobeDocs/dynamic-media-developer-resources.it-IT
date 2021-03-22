@@ -4,12 +4,13 @@ seo-description: Contiene le impostazioni di configurazione del server immagini.
 seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 Contiene le impostazioni di configurazione del server immagini.
 
-Quando si modifica questo file XML, è necessario mantenere una sintassi XML valida. In caso contrario, il server immagini potrebbe non avviarsi.
+Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non avviarsi.
 
-Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Per la modifica sono supportati solo i valori degli elementi elencati di seguito. Modificate qualsiasi altro contenuto di questo file solo se richiesto dal supporto tecnico di Dynamic Media.
+Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Sono supportati per la modifica solo i valori degli elementi elencati di seguito. Modifica qualsiasi altro contenuto di questo file solo se richiesto dal supporto tecnico Dynamic Media.
 
 >[!NOTE]
 >
->Non modificate la struttura di `<imageserverregistry>`, incluso l&#39;ordine degli elementi. Prestate attenzione quando modificate il file, in caso contrario il server immagini potrebbe non avviarsi.
+>Non modificare la struttura di `<imageserverregistry>`, compreso l’ordine degli elementi. Presta attenzione quando modifichi questo file, altrimenti il server immagini potrebbe non avviarsi.
 
-Di seguito sono illustrati gli elementi che possono essere modificati. Sono presenti altri elementi che non devono essere modificati. L&#39;ordine degli elementi di seguito non riflette l&#39;ordine in cui devono essere presenti nel file.
+I seguenti elementi illustrano quali elementi possono essere modificati. Sono presenti altri elementi che non devono essere modificati. L&#39;ordine degli elementi qui sotto non riflette l&#39;ordine in cui devono essere presenti nel file.
 
 ```
 <imageserverregistry>
@@ -55,4 +56,4 @@ Di seguito sono illustrati gli elementi che possono essere modificati. Sono pres
 
 ## Note {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Potrebbero essere presenti più elementi `<RootPath>` (uno per ciascuna cartella di file di dati di origine). Image Server esegue la ricerca nei percorsi principali nell’ordine specificato per trovare un particolare file sorgente.
+Possono essere presenti più elementi `<RootPath>` (uno per ogni cartella del file di dati di origine). Image Server cerca i percorsi principali nell&#39;ordine specificato per trovare un particolare file di origine.
