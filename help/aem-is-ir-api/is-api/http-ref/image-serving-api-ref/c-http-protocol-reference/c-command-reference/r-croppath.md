@@ -1,44 +1,45 @@
 ---
-description: Consente di ritagliare il rettangolo di selezione di un tracciato con nome incorporato. Questo ritaglio, a sua volta, modifica le dimensioni dell’immagine.
-seo-description: Consente di ritagliare il rettangolo di selezione di un tracciato con nome incorporato. Questo ritaglio, a sua volta, modifica le dimensioni dell’immagine.
+description: Consente di ritagliare il riquadro di delimitazione di un percorso incorporato denominato. Questo ritaglio, a sua volta, modifica le dimensioni dell'immagine.
+seo-description: Consente di ritagliare il riquadro di delimitazione di un percorso incorporato denominato. Questo ritaglio, a sua volta, modifica le dimensioni dell'immagine.
 seo-title: cropPathE
 solution: Experience Manager
 title: cropPathE
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
 
 # cropPathE{#croppathe}
 
-Consente di ritagliare il rettangolo di selezione di un tracciato con nome incorporato. Questo ritaglio, a sua volta, modifica le dimensioni dell’immagine.
+Consente di ritagliare il riquadro di delimitazione di un percorso incorporato denominato. Questo ritaglio, a sua volta, modifica le dimensioni dell&#39;immagine.
 
-`cropPathE= *`pathNamepathName `*&#42;[, *``*]`
+`cropPathE= *``*&#42;[, *`pathName`*]`
 
 <table id="table_598304852E844456AB3AC9FF1F178B71"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Nome del tracciato incorporato nell’immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName è il nome di un tracciato incorporato nell’immagine sorgente del livello. </span></span> Il tracciato viene automaticamente trasformato in base alle esigenze per mantenere l’allineamento relativo con il contenuto dell’immagine. Se è specificato più di un <span class="codeph"><span class="varname"> pathName</span></span>, il server ritaglia il rettangolo di selezione di ciascun percorso, uno alla volta. Qualsiasi <span class="codeph"><span class="varname"> nomePercorso</span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
+   <td colname="col2"> <p>Nome del percorso incorporato nell’immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName è il nome di un tracciato incorporato nell'immagine sorgente del livello. Il percorso viene automaticamente trasformato in base alle esigenze per mantenere l’allineamento relativo con il contenuto dell’immagine. Se sono specificati più <span class="codeph"><span class="varname"> pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi <span class="codeph"><span class="varname"> pathName</span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Attributo layer. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
+Attributo livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
 
-`cropPathE=` viene ignorato se nell’immagine sorgente del livello non viene trovato alcun percorso con il nome specificato o se la sorgente del livello non è un’immagine.
+`cropPathE=` viene ignorato se nell&#39;immagine sorgente del livello non viene trovato alcun percorso con il nome specificato, o se la sorgente del livello non è un&#39;immagine.
 
 ## Predefinito {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-Nessuno, per nessun ritaglio aggiuntivo del livello.
+Nessuno, senza ritaglio aggiuntivo del livello.
 
 ## Consultate anche {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
