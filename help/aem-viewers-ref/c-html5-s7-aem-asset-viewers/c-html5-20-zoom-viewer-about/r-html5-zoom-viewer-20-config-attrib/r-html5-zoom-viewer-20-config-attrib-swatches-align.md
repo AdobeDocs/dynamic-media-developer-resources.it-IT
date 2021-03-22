@@ -2,12 +2,13 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic Media
 uuid: 5cff285b-69f0-4ffe-b165-c2d1fdc8aa75
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Specifica l&#39;allineamento interno (ancoraggio) del contenitore di campioni all&#39;interno dell&#39;area del componente. Nei campioni, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di campioni. Di conseguenza, è disponibile una spaziatura tra il contenitore interno e i limiti dei componenti esterni. Questo comando specifica il modo in cui il contenitore di campioni interno viene posizionato all’interno del componente.
+Specifica l’allineamento interno (ancoraggio) del contenitore di campioni all’interno dell’area del componente. Nei campioni, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di campioni. Di conseguenza, esiste una spaziatura tra i limiti del componente interno ed esterno. Questo comando specifica il modo in cui il contenitore di campioni interno viene posizionato all’interno del componente.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
@@ -26,7 +27,7 @@ Specifica l&#39;allineamento interno (ancoraggio) del contenitore di campioni al
    <td> <p> Imposta l’allineamento dei campioni orizzontali. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td> <p><span class="codeph"> in alto|al centro|in basso</span> </p> </td> 
    <td> <p> Imposta l’allineamento dei campioni verticali. </p> </td> 
   </tr> 
  </tbody> 
