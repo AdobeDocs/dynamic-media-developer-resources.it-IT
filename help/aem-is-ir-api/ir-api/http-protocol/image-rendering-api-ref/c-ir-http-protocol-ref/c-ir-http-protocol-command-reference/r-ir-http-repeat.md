@@ -4,13 +4,14 @@ seo-description: Modalità di ripetizione texture. Specifica la modalità di rip
 seo-title: repeat
 solution: Experience Manager
 title: repeat
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 14%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
@@ -28,23 +29,23 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Piegatura casuale a 4 vie. </p> </td> 
+  <td class="stentry"> <p>Piastrelle casuali a 4 vie. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Piegatura casuale a 8 vie. </p> </td> 
+  <td class="stentry"> <p>Piastrelle casuali a 8 vie. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Piegatura diamantata. </p> </td> 
+  <td class="stentry"> <p>Piastrelle di diamanti. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Sfondo a goccia di quarto. </p> </td> 
+  <td class="stentry"> <p>Laccio da parati a goccia di quarto. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>La terza goccia di carta da parati appesa. </p> </td> 
+  <td class="stentry"> <p>Carta da parati di terza goccia appesa. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -52,11 +53,11 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Quinta carta da parati appesa. </p> </td> 
+  <td class="stentry"> <p>Quinto goccio di carta da parati appeso. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Sfondo inverso appeso. </p> </td> 
+  <td class="stentry"> <p>Serratura carta da parati inversa. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
@@ -72,11 +73,11 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>Mezza. </p> </td> 
+  <td class="stentry"> <p>A metà strada. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Mirror (bookmatch). </p> </td> 
+  <td class="stentry"> <p>Specchio (libreria). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -100,20 +101,20 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Randomizer del bordo. </p> </td> 
+  <td class="stentry"> <p>randomizzatore perimetrale. </p> </td> 
  </tr> 
 </table>
 
-Le modalità di taglio casuale (14...18) possono essere utilizzate per sintetizzare le texture da immagini che non sono facilmente ripetibili; l’algoritmo creerà texture completamente casuali o parzialmente casuali basate sull’immagine originale.
+Le modalità di taglio casuale (14...18) possono essere utilizzate per sintetizzare texture da immagini che non sono facilmente ripetibili; l&#39;algoritmo creerà texture completamente casuali o parzialmente casuali in base all&#39;immagine originale.
 
 ## Proprietà {#section-262bf540930d4890b678ea00cefe1909}
 
-Attributo materiale. Ignorata dai materiali in tinta unita, decal e cabinet.
+Attributo materiale. Ignorati da materiali a tinta unita, decal e cabinet.
 
 ## Predefinito {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, se il materiale è basato su una voce di catalogo, altrimenti  `0` (ripetizione retta).
+`catalog::Repeat`, se il materiale è basato su una voce di catalogo, altrimenti  `0` (ripetizione diretta).
 
 ## Consultate anche {#section-ac99113b64654d75a3a86e41db546269}
 
-[catalogo:Ripeti](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
+[catalogo::Ripeti](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
