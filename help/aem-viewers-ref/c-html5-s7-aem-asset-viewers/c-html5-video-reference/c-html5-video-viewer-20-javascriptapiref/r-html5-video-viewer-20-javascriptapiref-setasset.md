@@ -4,12 +4,13 @@ seo-description: Riferimento API JavaScript per il visualizzatore video.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 7543126c-5cc3-4010-ad7f-8d2e8d643133
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '143'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ Riferimento API JavaScript per il visualizzatore video.
 
 `setAsset(asset[, data])`
 
-Imposta la nuova risorsa e i dati facoltativi aggiuntivi. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di esecuzione.
+Imposta la nuova risorsa e i dati aggiuntivi facoltativi. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -35,11 +36,11 @@ Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-referenc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dati </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Oggetto JSON </span>} JSON con i seguenti campi opzionali (con distinzione tra maiuscole e minuscole): </p> <p> 
+   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} oggetto JSON con i seguenti campi facoltativi (distinzione maiuscole/minuscole): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage  </span> - Immagine da visualizzare sul primo fotogramma prima che inizi la riproduzione del video. Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> caption  </span> - posizione del nuovo file di sottotitoli codificati. Se il file non è specificato, il pulsante dei sottotitoli non è visibile nell'interfaccia utente. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> navigazione  </span> - URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere distribuito da Image Server </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage  </span> - Immagine da visualizzare sul primo fotogramma prima che il video inizi la riproduzione. Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> caption  </span> - posizione del nuovo file di sottotitoli codificati. Se il file non è specificato, il pulsante per la didascalia chiusa non è visibile nell’interfaccia utente. </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> navigazione  </span> - URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere gestito da Image Server </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
