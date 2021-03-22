@@ -1,16 +1,17 @@
 ---
 description: Questa sezione descrive gli attributi dei dati del contenuto statico.
 seo-description: Questa sezione descrive gli attributi dei dati del contenuto statico.
-seo-title: Riferimento dati per il contenuto statico
+seo-title: Riferimento dati contenuto statico
 solution: Experience Manager
-title: Riferimento dati per il contenuto statico
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Riferimento dati contenuto statico
 uuid: 1e8af0a9-bc08-4e7f-bab2-344ec644e873
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 5%
+source-wordcount: '48'
+ht-degree: 4%
 
 ---
 
