@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore Video360.
 seo-title: Video360Player.waiticon
 solution: Experience Manager
 title: Video360Player.waiticon
-topic: Dynamic Media
 uuid: c28cfba4-2bc9-4f02-9f99-7a8fa96ac592
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 32%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell'animazione del buffering (icona di attesa). </p> </td> 
+   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell’animazione del buffering (icona di attesa). </p> </td> 
   </tr> 
  </tbody> 
 </table>
