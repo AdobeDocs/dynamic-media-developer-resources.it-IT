@@ -1,15 +1,16 @@
 ---
-description: Elemento regola richiesta. Uno o più sono facoltativi nell'elemento <ruleset>.
-seo-description: Elemento regola richiesta. Uno o più sono facoltativi nell'elemento <ruleset>.
-seo-title: rule
+description: Elemento della regola di richiesta. Uno o più sono facoltativi nell’elemento <ruleset> .
+seo-description: Elemento della regola di richiesta. Uno o più sono facoltativi nell’elemento <ruleset> .
+seo-title: regola
 solution: Experience Manager
-title: rule
-topic: Dynamic Media Image Serving - Image Rendering API
+title: regola
 uuid: f7071681-e97e-4081-aeb1-093d2b23041c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # rule{#rule}
 
-Elemento regola richiesta. Uno o più sono facoltativi nell&#39;elemento `<ruleset>`.
+Elemento della regola di richiesta. Uno o più sono facoltativi nell’elemento `<ruleset>`.
 
 ## Attributi {#section-aa23349645434db99d46957a96f2e1e1}
 
@@ -25,12 +26,12 @@ Elemento regola richiesta. Uno o più sono facoltativi nell&#39;elemento `<rules
 
 ` Name=" *``*"` textOptional. Utilizzato per identificare l&#39;elemento `<rule>` nei registri di debug e nei messaggi di errore.
 
-Inoltre, gli elementi `<rule>` possono definire uno dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola corrisponde correttamente, ignorano gli attributi catalogo corrispondenti per questa richiesta.
+Inoltre, gli elementi `<rule>` possono definire uno qualsiasi dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola corrisponde correttamente, sostituiscono gli attributi di catalogo corrispondenti per questa richiesta.
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>&lt;rule&gt; attribute </p> </th> 
+   <th colname="col1" class="entry"> <p>&lt;rule&gt; attributo </p> </th> 
    <th colname="col2" class="entry"> <p>Attributo catalogo immagini corrispondente </p> </th> 
   </tr> 
  </thead>
@@ -41,7 +42,7 @@ Inoltre, gli elementi `<rule>` possono definire uno dei seguenti attributi in qu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ErrorImage  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute::ErrorImage  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attributo::ErrorImage  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Scadenza  </span> </p> </td> 
@@ -58,9 +59,9 @@ Inoltre, gli elementi `<rule>` possono definire uno dei seguenti attributi in qu
  </tbody> 
 </table>
 
-Per ulteriori informazioni, consultate la descrizione dell’attributo del catalogo di immagini corrispondente.
+Per ulteriori informazioni, consulta la descrizione dell’attributo del catalogo immagini corrispondente.
 
-L&#39;attributo Expiration sostituisce solo il valore dell&#39;attributo predefinito; viene ignorato se alla richiesta viene applicato un valore specifico `catalog::Expiration`.
+L&#39;attributo Scadenza sostituisce solo il valore dell&#39;attributo predefinito; viene ignorato se alla richiesta viene applicato un valore specifico `catalog::Expiration`.
 
 ## Dati {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -81,10 +82,10 @@ L&#39;attributo Expiration sostituisce solo il valore dell&#39;attributo predefi
 
 ## Note {#section-a27b91f9a03047c0bb7edc0967fb4216}
 
-Se vengono specificati sia `<expression>` che `<substitution>` e non vengono utilizzate le sottostringhe acquisite, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
+Se sono specificati sia `<expression>` che `<substitution>` e non vengono utilizzate le sottostringhe acquisite, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
 
-Se `<expression>` non è specificato, qualsiasi percorso corrisponderà e `<substitution>` verrà aggiunto alla fine del percorso.
+Se `<expression>` non è specificato, qualsiasi percorso corrisponderà e `<substitution>` viene aggiunto alla fine del percorso.
 
 Se `<substitution>` non è specificato, la sottostringa corrispondente viene rimossa.
 
-L&#39;applicazione `<addressfilter>` viene applicata solo quando si verifica una corrispondenza e prima dell&#39;applicazione delle regole di query.
+Il valore `<addressfilter>` viene applicato solo quando si verifica una corrispondenza e prima che vengano applicate le regole di query.
