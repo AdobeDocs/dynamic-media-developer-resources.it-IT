@@ -1,23 +1,24 @@
 ---
-description: Un array di membri di set di immagini.
-seo-description: Un array di membri di set di immagini.
+description: Matrice di membri set di immagini.
+seo-description: Matrice di membri set di immagini.
 seo-title: ImageSetMemberArray
 solution: Experience Manager
 title: ImageSetMemberArray
-topic: Dynamic Media Image Production System API
 uuid: 49dec4a7-cffb-4d15-bdac-bb3a60fca0ee
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '42'
+ht-degree: 11%
 
 ---
 
 
 # ImageSetMemberArray{#imagesetmemberarray}
 
-Un array di membri di set di immagini.
+Matrice di membri set di immagini.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ImageSetMember` | L’array di membri del set di immagini. |
+| `*`elementi`*` | `types:ImageSetMember` | Matrice di membri del set di immagini. |
 
