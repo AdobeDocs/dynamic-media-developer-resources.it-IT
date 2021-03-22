@@ -1,30 +1,31 @@
 ---
-description: Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
-seo-description: Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
+description: Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
+seo-description: Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
 seo-title: Testo
 solution: Experience Manager
 title: Testo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 21%
 
 ---
 
 
 # type{#type}
 
-Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
+Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
 
 `type=0...19`
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Sconosciuto, il server utilizza il valore predefinito </p></td> 
+  <td class="stentry"> <p>Sconosciuto, il server utilizza l'impostazione predefinita </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -52,7 +53,7 @@ Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>Smalto/Laccato </p></td> 
+  <td class="stentry"> <p>Smalto/Lacca </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -80,7 +81,7 @@ Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p></td> 
-  <td class="stentry"> <p>Pietra Naturale </p></td> 
+  <td class="stentry"> <p>Pietra naturale </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p></td> 
@@ -96,7 +97,7 @@ Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Tessuto Sheer </p></td> 
+  <td class="stentry"> <p>Tessuto </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -104,15 +105,15 @@ Tipo di superficie del materiale. Specifica il tipo di superficie del materiale.
  </tr> 
 </table>
 
-Utilizzata insieme a `gloss=` e `rough=` per controllare i comportamenti di riflessione e effetto lucido. Materiali diversi produrranno effetti diversi, anche se `gloss=` e `rough=` sono uguali.
+Utilizzato in combinazione con `gloss=` e `rough=` per controllare i comportamenti di riflessione e effetto lucido. Materiali diversi produrranno effetti diversi, anche se `gloss=` e `rough=` sono gli stessi.
 
 ## Proprietà {#section-2345b2508273426295ce8ac46182ea64}
 
-Attributo materiale. Ignorato se la vignettatura non include dati di riflesso 3D o se gli effetti lucidi sono disattivati nella vignettatura.
+Attributo materiale. Ignorato se la vignetta non include dati di riflessione 3D o se gli effetti lucentivi sono disattivati nella vignetta.
 
 ## Predefinito {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` se il materiale è basato su una voce di catalogo. Altrimenti `type=0`. Se non viene specificato, o se `type=0`, il server selezionerà un valore predefinito adatto a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
+`catalog::Type` se il materiale è basato su una voce di catalogo. Altrimenti `type=0`. Se non specificato, o se `type=0`, il server selezionerà un valore predefinito adatto a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
 
 ## Consultate anche {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
