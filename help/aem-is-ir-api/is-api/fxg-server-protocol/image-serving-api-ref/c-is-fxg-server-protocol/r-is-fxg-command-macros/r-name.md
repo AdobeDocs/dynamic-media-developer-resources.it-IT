@@ -4,13 +4,14 @@ seo-description: Nome della macro del comando.
 seo-title: name
 solution: Experience Manager
 title: name
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 699c1d24-d10a-4daa-9ee1-506b3f664fa3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '41'
+ht-degree: 9%
 
 ---
 
@@ -28,4 +29,4 @@ Nome della macro del comando.
  </tr> 
 </table>
 
-*`name`* non fa distinzione tra maiuscole e minuscole e può essere costituita da qualsiasi combinazione di lettere, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
+*`name`* non distingue tra maiuscole e minuscole e può consistere in qualsiasi combinazione di lettere, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
