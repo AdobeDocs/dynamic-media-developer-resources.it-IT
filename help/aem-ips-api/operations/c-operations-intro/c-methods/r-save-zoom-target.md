@@ -1,23 +1,24 @@
 ---
-description: Create o modificate una destinazione di zoom.
-seo-description: Create o modificate una destinazione di zoom.
+description: Crea o modifica una destinazione di zoom.
+seo-description: Crea o modifica una destinazione di zoom.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 19%
+source-wordcount: '138'
+ht-degree: 18%
 
 ---
 
 
 # saveZoomTarget{#savezoomtarget}
 
-Create o modificate una destinazione di zoom.
+Crea o modifica una destinazione di zoom.
 
 Sintassi
 
@@ -36,13 +37,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | La maniglia della società con la destinazione di zoom da salvare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia della destinazione di zoom. |
+| `*`companyHandle`*` | `xsd:string` | Sì | La maniglia dell&#39;azienda con la destinazione di zoom che si desidera salvare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia della destinazione dello zoom. |
 | `*`zoomTargetHandle`*` | `xsd:string` | No | Modifica o crea una destinazione di zoom. |
-| `*`name`*` | `xsd:string` | Sì | Nome destinazione di zoom. |
-| `*`xPosition`*` | `xsd:int` | Sì | Posizione in pixel a sinistra. |
-| `*`yPosition`*` | `xsd:int` | Sì | Posizione in pixel in alto. |
-| `*`width`*` | `xsd:int` | Sì | Zoom della larghezza di destinazione. |
+| `*`name`*` | `xsd:string` | Sì | Nome della destinazione dello zoom. |
+| `*`xPosition`*` | `xsd:int` | Sì | Posizione del pixel sinistro. |
+| `*`yPosition`*` | `xsd:int` | Sì | Posizione pixel superiore. |
+| `*`width`*` | `xsd:int` | Sì | Zoom della larghezza della destinazione. |
 | `*`height`*` | `xsd:int` | Sì | Zoom altezza destinazione. |
 | `*`Dati utente`*` | `xsd:string` | Sì | Per informazioni specifiche per il cliente. Può contenere qualsiasi tipo di dati. |
 
@@ -50,11 +51,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Sì | Consente di passare alla destinazione di zoom appena creata. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sì | Gestisci la nuova destinazione di zoom creata. |
 
 ## Esempi {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Questo esempio di codice salva una destinazione di zoom. La risposta restituisce la maniglia della destinazione di zoom.
+Questo esempio di codice salva una destinazione di zoom. La risposta restituisce la maniglia di destinazione dello zoom.
 
 **Request Contents (Richiesta contenuto)**
 
