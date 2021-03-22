@@ -1,23 +1,24 @@
 ---
-description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di annullamento validità CDN.
-seo-description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di annullamento validità CDN.
+description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di invalidazione del CDN.
+seo-description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di invalidazione del CDN.
 seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
 
 # OperationFault{#operationfault}
 
-Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di annullamento validità CDN.
+Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di invalidazione del CDN.
 
 **Supportato da**
 
@@ -27,6 +28,6 @@ Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di a
 
 | ** Nome** | ** Tipo** | ** Descrizione** |
 |---|---|---|
-| `*`code`*` | `xsd:int` | Codice di errore fornito dalla rete CDN |
-| `*`reason`*` | `xsd:string` | Messaggio di errore fornito dalla rete CDN |
+| `*`codice`*` | `xsd:int` | Codice di errore fornito dalla CDN |
+| `*`motivo`*` | `xsd:string` | Messaggio di errore fornito dalla CDN |
 
