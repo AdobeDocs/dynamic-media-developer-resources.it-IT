@@ -2,13 +2,14 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-topic: Dynamic Media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Specifica quando visualizzare il pannello delle informazioni. </p> <p>Se è impostato su <span class="codeph"> 1</span>, il pannello Info viene visualizzato quando il mouse entra nell'area della mappa immagine (nel caso in cui la mappa immagine non sia vuota, l'attributo <span class="codeph"> rollover_key</span>). </p> <p>Se è impostato su <span class="codeph"> 0</span> il pannello Info viene attivato quando si fa clic sulla mappa immagine (se la mappa immagine ha gli attributi <span class="codeph"> rollover_key</span> non vuoti e <span class="codeph"> href</span> vuoti). </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch, viene automaticamente impostato su <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Specifica quando visualizzare il pannello informazioni. </p> <p>Se è impostato su <span class="codeph"> 1</span>, il pannello informazioni viene visualizzato quando il mouse entra nell'area della mappa immagine (nel caso in cui la mappa immagine non sia vuota, l'attributo <span class="codeph"> rollover_key</span> ). </p> <p>Se è impostato su <span class="codeph"> 0</span> pannello info viene attivato quando si fa clic sulla mappa immagine (se la mappa immagine ha attributi <span class="codeph"> rollover_key</span> non vuoti e <span class="codeph"> href</span> vuoti). </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch, viene ignorato e viene automaticamente impostato su <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
