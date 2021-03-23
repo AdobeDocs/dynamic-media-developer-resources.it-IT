@@ -1,23 +1,24 @@
 ---
-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
-seo-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
+description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
+seo-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
 
 # blendMode{#blendmode}
 
-Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consultate la documentazione Photoshop.
+Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
