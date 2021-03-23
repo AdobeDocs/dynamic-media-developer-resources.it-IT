@@ -1,15 +1,16 @@
 ---
-description: Selezionare l'oggetto per posizione in pixel.
-seo-description: Selezionare l'oggetto per posizione in pixel.
-seo-title: sel
+description: Selezionare l'oggetto in base alla posizione dei pixel.
+seo-description: Selezionare l'oggetto in base alla posizione dei pixel.
+seo-title: venditrice
 solution: Experience Manager
-title: sel
-topic: Dynamic Media Image Serving - Image Rendering API
+title: venditrice
 uuid: 2a679284-9da4-44b6-b495-8e1a47296e7c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
@@ -17,30 +18,30 @@ ht-degree: 2%
 
 # sel{#sel}
 
-Selezionare l&#39;oggetto per posizione in pixel.
+Selezionare l&#39;oggetto in base alla posizione dei pixel.
 
 ` sel= *``*, *``*[, *`xylevel`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> x,y  </span> </p> </td> 
-  <td class="stentry"> <p>Scegliete le coordinate di posizione in pixel (int, int). </p> </td> 
+  <td class="stentry"> <p>Selezionare le coordinate di posizione in pixel (int, int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> level  </span> </p> </td> 
-  <td class="stentry"> <p>Livello gruppo (int). </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> livello  </span> </p> </td> 
+  <td class="stentry"> <p>Livello di gruppo (int). </p> </td> 
  </tr> 
 </table>
 
 Seleziona il gruppo o l&#39;oggetto in corrispondenza delle coordinate pixel specificate da *`x, y`* e avvia un nuovo MSS. Se nessun oggetto selezionabile si trova nella posizione di prelievo o se la posizione di prelievo non è valida, viene eseguita l&#39;azione specificata da `attribute::OnFailSel`.
 
-*`level`* specifica se selezionare il gruppo più esterno o eseguire il drill-down a un gruppo o a un oggetto nidificato. Se *`level`* non è specificato, viene selezionato il gruppo più esterno. Impostate su 1 per selezionare un livello di gruppo sotto il gruppo più esterno. Impostare su un numero elevato (ad esempio 99) per selezionare l&#39;oggetto o il gruppo più interno selezionabile.
+*`level`* specifica se selezionare il gruppo più esterno o eseguire il drill-down a un gruppo o a un oggetto nidificato. Se *`level`* non è specificato, viene selezionato il gruppo più esterno. Impostare su 1 per selezionare un livello di gruppo al di sotto del gruppo più esterno. Impostare su un numero elevato (ad esempio 99) per selezionare l&#39;oggetto o il gruppo più interno selezionabile.
 
 ## Proprietà {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-Selezione, comando; delimitatore MSS. La selezione dell&#39;oggetto è persistente finché non viene selezionato un altro oggetto, con `obj=` o `sel=`.
+comando di selezione; delimitatore MSS. La selezione dell’oggetto è permanente finché non viene selezionato un altro oggetto, sia con `obj=` che con `sel=`.
 
-*`x, y`* deve essere compreso tra 0, 0 (angolo in alto a sinistra dell’immagine) e  *`wid`*-1,  *`hei`*-1 (angolo in basso a destra dell’immagine), dove  *`wid`* ed  *`hei`* è la dimensione della vista vignettatura non ridimensionata.
+*`x, y`* deve essere compreso tra 0, 0 (angolo in alto a sinistra dell’immagine) e  *`wid`*-1,  *`hei`*-1 (angolo in basso a destra dell’immagine), dove  *`wid`* e  *`hei`* corrisponde alle dimensioni della visualizzazione della vignetta non ridimensionata.
 
 Se specificato, *`level`* deve essere uguale o superiore a 0.
 
