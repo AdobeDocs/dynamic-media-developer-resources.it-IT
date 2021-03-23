@@ -1,15 +1,16 @@
 ---
-description: Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell’immagine di risposta.
-seo-description: Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell’immagine di risposta.
+description: Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell'immagine di risposta.
+seo-description: Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell'immagine di risposta.
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bca705a-3a48-4e5e-83eb-c200b6318564
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '97'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # printRes{#printres}
 
-Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell’immagine di risposta.
+Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorporato nell&#39;immagine di risposta.
 
 `printRes= *`val`*`
 
@@ -28,14 +29,14 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
  </tr> 
 </table>
 
-La risoluzione di stampa è in genere definita dal valore della risoluzione di stampa incorporato nella vignettatura.
+La risoluzione di stampa è definita normalmente dal valore della risoluzione di stampa incorporato nella vignetta.
 
 L&#39;impostazione della risoluzione di stampa non modifica la dimensione in pixel dell&#39;immagine di risposta.
 
 ## Proprietà {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
-Può essere specificato ovunque nella richiesta.
+Può essere specificato in qualsiasi punto della richiesta.
 
 ## Predefinito {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-La risoluzione di stampa incorporata nella vignettatura.
+Risoluzione di stampa incorporata nella vignetta.
