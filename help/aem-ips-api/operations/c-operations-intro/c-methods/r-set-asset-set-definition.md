@@ -4,13 +4,14 @@ seo-description: Aggiorna la definizione del set per un set di risorse esistente
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
@@ -36,9 +37,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con il set di risorse. |
-| `*`assetHandle`*` | `xsd:string` | Sì | handle set di risorse |
-| `*`setDefinition`*` | `xsd:string` | Sì | Stringa di definizione. Vedere di seguito. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con il set di risorse. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Maniglia del set di risorse |
+| `*`setDefinition`*` | `xsd:string` | Sì | Stringa di definizione. Vedi sotto. |
 
 **Output (setAssetSetDefinitionReturn)**
 
@@ -46,25 +47,25 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## setDefinition Parameter: Informazioni su {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**setDefinition Functions**
+**Funzioni setDefinition**
 
-Specificare le funzioni di sostituzione `setDefinition` in linea. Questi problemi vengono risolti durante la ricerca di un catalogo o durante la pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}` e includono quanto segue:
+Specificare le funzioni di sostituzione `setDefinition` in linea. Questi vengono risolti durante una ricerca di catalogo o una pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}` e includono quanto segue:
 
 >[!NOTE]
 >
->I valori letterali delle maniglie negli elenchi dei parametri devono essere racchiusi tra parentesi quadre `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
+>I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Funzione di sostituzione </th> 
-   <th colname="col2" class="entry"> Restituisce la risorsa </th> 
+   <th colname="col2" class="entry"> Restituisce il valore della risorsa </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> Percorso del file principale. </td> 
+   <td colname="col2"> Percorso file principale. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
@@ -76,12 +77,12 @@ Specificare le funzioni di sostituzione `setDefinition` in linea. Questi problem
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> ID catalogo. Si applica alle risorse basate su immagini (Immagine, Vista regolata, Visualizzazione livello). <p>Per le altre risorse, restituisce l’ID del catalogo della risorsa miniatura (se presente). Se alla risorsa non è associata alcuna risorsa miniatura, la funzione restituisce una stringa vuota. </p> </td> 
+   <td colname="col2"> ID catalogo. Si applica alle risorse basate su immagini (immagine, vista regolata, vista livello). <p>Per altre risorse, restituisce l’ID catalogo della risorsa miniatura (se presente). Se alla risorsa non è associata alcuna risorsa miniatura, la funzione restituisce una stringa vuota. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinition Examples**
+**esempi setDefinition**
 
 Stringa di definizione del set di file multimediali:
 
@@ -91,7 +92,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-In fase di ricerca o pubblicazione viene risolto quanto segue:
+Risolve quanto segue al momento della ricerca o della pubblicazione:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
