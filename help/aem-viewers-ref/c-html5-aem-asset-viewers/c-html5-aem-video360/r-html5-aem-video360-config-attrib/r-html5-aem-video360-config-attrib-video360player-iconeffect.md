@@ -4,12 +4,13 @@ seo-description: Attributo di configurazione per il visualizzatore Video360.
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
-topic: Dynamic Media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 8%
 
 ---
@@ -25,11 +26,11 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra al video quando il video è in stato di pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tali casi, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione dell'iconaEffetto nella parte superiore del video quando il video è in stato di pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questi casi, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il numero massimo di volte in cui IconEffect viene visualizzato e riappare. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente all'infinito. </p> </td> 
+   <td colname="col2"> <p> Specifica il numero massimo di volte in cui viene visualizzato e rivisualizzato IconEffect. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente indefinitamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dissolvenza</span></span> </p> </td> 
@@ -37,7 +38,7 @@ Attributo di configurazione per il visualizzatore Video360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi per cui IconEffect rimane completamente visibile prima che venga automaticamente nascosto. Ovvero, il tempo dopo il completamento della dissolvenza nell'animazione e prima dell'avvio dell'animazione di dissolvenza in uscita. Impostare su <span class="codeph"> 0</span> per disabilitare il comportamento di disattivazione della funzione di disattivazione automatica. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che si nasconda automaticamente. Cioè, il tempo dopo il completamento della dissolvenza nell'animazione e prima dell'inizio della dissolvenza in uscita. Impostare su <span class="codeph"> 0</span> per disabilitare il comportamento di nascondere automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
