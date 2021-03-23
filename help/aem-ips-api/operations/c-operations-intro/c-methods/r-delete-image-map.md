@@ -4,13 +4,14 @@ seo-description: Elimina una mappa immagine.
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 10%
+source-wordcount: '105'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +41,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la mappa immagine da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene la mappa immagine da eliminare. |
 | `*`imageMapHandle`*` | `xsd:string` | Sì | La maniglia della mappa immagine da eliminare. |
 
 **Output (deleteImageMapParam)**
@@ -49,7 +50,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Questo esempio di codice elimina una mappa immagine da una società. È necessario ottenere la maniglia della mappa immagine da un’altra operazione.
+Questo esempio di codice elimina una mappa immagine da un&#39;azienda. È necessario ottenere la maniglia della mappa immagine da un’altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 
