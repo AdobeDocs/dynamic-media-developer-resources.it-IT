@@ -1,15 +1,16 @@
 ---
-description: Create una nuova mappa immagine o modificate una mappa esistente.
-seo-description: Create una nuova mappa immagine o modificate una mappa esistente.
+description: Crea una nuova mappa immagine o modifica una mappa esistente.
+seo-description: Crea una nuova mappa immagine o modifica una mappa esistente.
 seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-topic: Dynamic Media Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # saveImageMap{#saveimagemap}
 
-Create una nuova mappa immagine o modificate una mappa esistente.
+Crea una nuova mappa immagine o modifica una mappa esistente.
 
 Sintassi
 
@@ -52,13 +53,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della società con la mappa immagine da salvare. </td> 
+   <td colname="col4"> L’handle dell’azienda con la mappa immagine da salvare. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> La maniglia della risorsa immagine alla quale appartiene la mappa immagine. </td> 
+   <td colname="col4"> Il punto di manipolazione della risorsa immagine alla quale appartiene la mappa immagine. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
@@ -76,28 +77,28 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Scelta della forma della regione. </td> 
+   <td colname="col4"> Scelta della forma di regione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> regione  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Elenco delimitato da virgole di punti che definiscono la regione. </td> 
+   <td colname="col4"> Elenco di punti delimitato da virgole che definiscono la regione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> <p>Il valore <span class="codeph"> href </span> associato alla mappa immagine come specificato nell'interfaccia IPS. </p> <p>Per ottenere il valore <span class="codeph"> href </span>, fate clic sull'immagine nell'interfaccia IPS, copiate e incollate l'URL in questo elemento, quindi formattate l'URL IPS come URL corretto. Ad esempio, <span class="codeph"> &amp; </span> diventa <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Il valore <span class="codeph"> href </span> associato alla mappa immagine come specificato nell'interfaccia IPS. </p> <p>Per ottenere il valore <span class="codeph"> href </span> , fai clic sull’immagine nell’interfaccia IPS, copia e incolla l’URL in questo elemento, quindi formatta l’URL IPS come URL corretto. Ad esempio, <span class="codeph"> &amp; </span> diventa <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> posizione  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Ordine nell’elenco delle mappe immagine (asse Z). </td> 
+   <td colname="col4"> L'ordine nell'elenco delle mappe immagine (l'asse Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> abilitato  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean  </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"></td> 
