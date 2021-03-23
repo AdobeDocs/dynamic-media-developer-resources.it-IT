@@ -1,15 +1,16 @@
 ---
-description: Allineamento verticale per le miniature. Specifica l'allineamento verticale dell'immagine in miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
-seo-description: Allineamento verticale per le miniature. Specifica l'allineamento verticale dell'immagine in miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
+description: Allineamento verticale per le miniature. Specifica l'allineamento verticale dell'immagine miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
+seo-description: Allineamento verticale per le miniature. Specifica l'allineamento verticale dell'immagine miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
 seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # ThumbVertAlign{#thumbvertalign}
 
-Allineamento verticale per le miniature. Specifica l&#39;allineamento verticale dell&#39;immagine in miniatura nel rettangolo dell&#39;immagine di risposta specificato da wid= e hei= o per attributo::DefaultThumbPix.
+Allineamento verticale per le miniature. Specifica l&#39;allineamento verticale dell&#39;immagine miniatura nel rettangolo dell&#39;immagine di risposta specificato da wid= e hei= o dall&#39;attributo::DefaultThumbPix.
 
 Utilizzato solo per le richieste di miniature ( `req=tmb`).
 
 ## Proprietà {#section-f02c23248e87419caf3d95add51aea1e}
 
-Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per l&#39;allineamento superiore, centrale e inferiore.
+Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per l’allineamento superiore, centrale e inferiore.
 
 ## Predefinito {#section-30caa4e772254419ad7a3a89d440666c}
 
