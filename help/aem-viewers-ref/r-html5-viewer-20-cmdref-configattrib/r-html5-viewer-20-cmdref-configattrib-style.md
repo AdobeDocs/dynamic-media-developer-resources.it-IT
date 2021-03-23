@@ -1,21 +1,22 @@
 ---
-description: style
+description: stile
 solution: Experience Manager
-title: style
-topic: Dynamic Media
+title: stile
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 4%
+source-wordcount: '106'
+ht-degree: 3%
 
 ---
 
 
 # style{#style}
 
-Potete applicare il seguente comando sia dalla stringa di query URL che dalla configurazione. Il comando applicato nella stringa query URL ha sempre la precedenza sullo stesso comando presente nella configurazione.
+Puoi applicare il seguente comando sia dalla stringa di query URL che dalla configurazione. Il comando applicato nella stringa di query URL ha sempre la precedenza sullo stesso comando presente nella configurazione.
 
 `style= *`cssPath`*`
 
@@ -23,12 +24,12 @@ Potete applicare il seguente comando sia dalla stringa di query URL che dalla co
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il <span class="codeph"><span class="varname"> cssPath</span></span> è relativo, viene risolto rispetto alla posizione della pagina HTML del visualizzatore e al valore del parametro <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il <span class="codeph"><span class="varname"> cssPath</span></span> è relativo, viene risolto rispetto alla posizione della pagina HTML del visualizzatore e al valore del parametro <span class="codeph"> contentUrl=</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tutti i riferimenti di risorsa all&#39;interno del file CSS vengono risolti rispetto al percorso del file CSS, non alla posizione della pagina HTML chiamante.
+Tutti i riferimenti di risorse all’interno del file CSS vengono risolti rispetto al percorso del file CSS, non al percorso della pagina HTML chiamante.
 
 ## Proprietà {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
