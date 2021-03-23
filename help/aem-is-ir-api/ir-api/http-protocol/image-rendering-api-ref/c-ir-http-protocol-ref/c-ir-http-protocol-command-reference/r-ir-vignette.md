@@ -1,50 +1,51 @@
 ---
-description: Vignettatura. Specifica la vignettatura da utilizzare per questa richiesta.
-seo-description: Vignettatura. Specifica la vignettatura da utilizzare per questa richiesta.
-seo-title: vignettatura
+description: File di vignetta. Specifica la vignetta da utilizzare per la richiesta.
+seo-description: File di vignetta. Specifica la vignetta da utilizzare per la richiesta.
+seo-title: vignetta
 solution: Experience Manager
-title: vignettatura
-topic: Dynamic Media Image Serving - Image Rendering API
+title: vignetta
 uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 3%
 
 ---
 
 
-# vignettatura{#vignette}
+# vignetta{#vignette}
 
-Vignettatura. Specifica la vignettatura da utilizzare per questa richiesta.
+File di vignetta. Specifica la vignetta da utilizzare per la richiesta.
 
-`vignette=[ *``*/] *``*|[catId/] *`catIdrecIdfile`*`
+`vignette=[ *``*/] *``*|[catId/] *`catIdFile`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID catalogo materiali (associato all'attributo <span class="codeph">::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID catalogo materiale (corrispondente a <span class="codeph"> attribute::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ID vignettatura (associato a <span class="codeph"> vignettatura::Id</span>). </p></td> 
+  <td class="stentry"> <p>ID vignetta (corrispondente a <span class="codeph"> vignetta::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
-  <td class="stentry"> <p>Percorso e nome del file di vignettatura relativo. </p></td> 
+  <td class="stentry"> <p>Percorso e nome del file della vignetta relativa. </p></td> 
  </tr> 
 </table>
 
-È possibile specificare una voce di mappa di vignettatura o un file di vignettatura. Gli URL remoti non sono consentiti.
+Può specificare una voce di mappa di vignetta o un file di vignetta. Gli URL remoti non sono consentiti.
 
-`vignette=` può essere utilizzato come alternativa per specificare la vignettatura nel percorso dell’URL della richiesta. Utilizzata principalmente per specificare le vignettature tramite variabili nei modelli.
+`vignette=` può essere utilizzato come alternativa a specificare la vignetta nel percorso URL della richiesta. Utilizzato principalmente per specificare vignette tramite variabili nei modelli.
 
-Se *`catId`* non è specificato, viene utilizzato il catalogo delle sessioni.
+Se *`catId`* non è specificato, viene utilizzato il catalogo di sessione.
 
 ## Proprietà {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
-Può verificarsi ovunque nella richiesta. Sostituisce la vignettatura specificata con il percorso URL della richiesta.
+Può verificarsi in qualsiasi punto della richiesta. Sostituisce la vignetta specificata con il percorso URL della richiesta.
 
 ## Predefinito {#section-db0618d48bc84dc8abcc989550349ccc}
 
