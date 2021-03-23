@@ -1,23 +1,24 @@
 ---
-description: Elimina i valori dei metadati per una risorsa. Funziona con un array di metadati delete per impostare i valori in un batch.
-seo-description: Elimina i valori dei metadati per una risorsa. Funziona con un array di metadati delete per impostare i valori in un batch.
+description: Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
+seo-description: Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
 seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
+feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 6%
+source-wordcount: '156'
+ht-degree: 5%
 
 ---
 
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-Elimina i valori dei metadati per una risorsa. Funziona con un array di metadati delete per impostare i valori in un batch.
+Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
 
 Sintassi
 
@@ -52,7 +53,7 @@ Sintassi
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L’handle della società alla quale la cartella appartiene. </p> </td> 
+   <td colname="col4"> <p>L'handle della società a cui appartiene la cartella. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
@@ -70,7 +71,7 @@ Sintassi
    <td colname="col1"> <p>deleteArray </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Matrice di metadati da eliminare dalla risorsa. </p> </td> 
+   <td colname="col4"> <p>Array di metadati da eliminare dalla risorsa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
