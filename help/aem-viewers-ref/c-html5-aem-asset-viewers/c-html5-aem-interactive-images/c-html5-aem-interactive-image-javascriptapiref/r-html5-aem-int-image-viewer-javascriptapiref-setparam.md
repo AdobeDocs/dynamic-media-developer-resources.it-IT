@@ -4,13 +4,14 @@ seo-description: Riferimento API JavaScript per il visualizzatore di immagini vi
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: b5f01b3b-6ea8-4604-860b-edc9ccc900b3
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 3%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 3%
 
 Riferimento API JavaScript per il visualizzatore di immagini video.
 
-` setParam( *`name, value`*)`
+` setParam( *`nome, valore`*)`
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro è un&#39;opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
 Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con l&#39;oggetto JSON `config` al costruttore.
 
@@ -33,7 +34,7 @@ Vedere anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-i
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> name del parametro. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
