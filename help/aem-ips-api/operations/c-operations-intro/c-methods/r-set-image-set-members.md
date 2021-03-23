@@ -4,13 +4,14 @@ seo-description: Imposta l’elenco delle risorse associate a un set di immagini
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '144'
+ht-degree: 7%
 
 ---
 
@@ -32,7 +33,7 @@ Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e
 
 >[!NOTE]
 >
->L’utente deve disporre dell’accesso in lettura e scrittura alla risorsa set di immagini e accedere in lettura a ciascuna risorsa membro.
+>L’utente deve avere accesso in lettura e scrittura alla risorsa set di immagini e accesso in lettura a ogni risorsa membro.
 
 ## Parametri {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -52,7 +53,7 @@ Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Maniglia aziendale. </p> </td> 
+   <td colname="col4"> <p>Tratta l'azienda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -75,7 +76,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-7b87219034464aa98524178ccee27738}
 
-Questo esempio di codice utilizza un array di membri per impostare i membri di un set di immagini.
+Questo esempio di codice utilizza una matrice di membri per impostare i membri di un set di immagini.
 
 **Request Contents (Richiesta contenuto)**
 
