@@ -2,11 +2,12 @@
 description: Contiene le impostazioni di configurazione del supervisore del server.
 solution: Experience Manager
 title: SupervisorRegistry.xml
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 Contiene le impostazioni di configurazione del supervisore del server.
 
-Quando modificate questo file XML, accertatevi di mantenere una sintassi XML valida, in caso contrario il server immagini potrebbe non avviarsi.
+Durante la modifica di questo file XML, assicurarsi di mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non avviarsi.
 
-Riavviate Image Server dopo la modifica di questo file per assicurarvi che le modifiche abbiano effetto. Per la modifica sono supportati solo i valori di elemento/attributo evidenziati di seguito. Modificate tutti gli altri contenuti di questo file solo se richiesto dal supporto tecnico di Dynamic Media.
+Riavvia Image Serving dopo aver modificato questo file per assicurarti che le modifiche abbiano effetto. Per la modifica sono supportati solo i valori di elemento/attributo evidenziati di seguito. Modifica tutti gli altri contenuti di questo file solo se richiesto dal supporto tecnico Dynamic Media.
 
 ```
 <supervisor>
