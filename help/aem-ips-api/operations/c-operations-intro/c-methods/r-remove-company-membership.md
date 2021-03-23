@@ -1,23 +1,24 @@
 ---
-description: Rimuove un utente da una o più società.
-seo-description: Rimuove un utente da una o più società.
+description: Rimuove un utente da una o più aziende.
+seo-description: Rimuove un utente da una o più aziende.
 seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 9%
+source-wordcount: '116'
+ht-degree: 8%
 
 ---
 
 
 # removeCompanyMembership{#removecompanymembership}
 
-Rimuove un utente da una o più società.
+Rimuove un utente da una o più aziende.
 
 Sintassi
 
@@ -34,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L’handle dell’utente con l’iscrizione da rimuovere. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Sì | L’handle della società da cui si sta rimuovendo l’utente. |
+| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente con l&#39;iscrizione che si desidera rimuovere. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Sì | L&#39;handle della società da cui stai rimuovendo l&#39;utente. |
 
 **Output (removeCompanyMembershipReturn)**
 
@@ -43,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Questo esempio di codice rimuove un utente da una società. Omettete l&#39;handle utente facoltativo per rimuovere tutti gli utenti dalle società specificate nell&#39;array handle della società.
+Questo esempio di codice rimuove un utente da un&#39;azienda. Omettere l&#39;handle utente opzionale per rimuovere tutti gli utenti dalle società specificate nell&#39;array handle aziendale.
 
 **Request Contents (Richiesta contenuto)**
 
