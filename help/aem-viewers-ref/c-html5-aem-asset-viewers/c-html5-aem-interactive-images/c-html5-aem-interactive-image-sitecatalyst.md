@@ -1,25 +1,26 @@
 ---
-description: Supporto per il tracciamento dell'analisi
+description: Supporto per il tracciamento delle analisi
 solution: Experience Manager
-title: Supporto per il tracciamento dell'analisi
-topic: Dynamic Media
+title: Supporto per il tracciamento delle analisi
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
 
-# Supporto per il tracciamento dell&#39;analisi{#support-for-analytics-tracking}
+# Supporto per il tracciamento delle analisi{#support-for-analytics-tracking}
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per impostazione predefinita, il visualizzatore invia un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per integrarsi con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -49,7 +50,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -59,7 +60,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>l'utente attiva il punto di attivazione. </p> </td> 
+   <td colname="col2"> <p>l’utente attiva il punto attivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
