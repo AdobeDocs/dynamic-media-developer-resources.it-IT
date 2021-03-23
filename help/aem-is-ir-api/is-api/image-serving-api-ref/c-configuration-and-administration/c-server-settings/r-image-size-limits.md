@@ -1,41 +1,42 @@
 ---
-description: Usate queste impostazioni del server per impostare i limiti di dimensione immagine.
-seo-description: Usate queste impostazioni del server per impostare i limiti di dimensione immagine.
-seo-title: Limiti dimensione immagine
+description: Utilizza queste impostazioni del server per impostare i limiti di dimensione dell'immagine.
+seo-description: Utilizza queste impostazioni del server per impostare i limiti di dimensione dell'immagine.
+seo-title: Limiti delle dimensioni dell'immagine
 solution: Experience Manager
-title: Limiti dimensione immagine
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Limiti delle dimensioni dell'immagine
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 
-# Limiti dimensione immagine{#image-size-limits}
+# Limiti delle dimensioni dell&#39;immagine{#image-size-limits}
 
-Usate queste impostazioni del server per impostare i limiti di dimensione immagine.
+Utilizza queste impostazioni del server per impostare i limiti di dimensione dell&#39;immagine.
 
-## IS::MaxMessageSize - Limite dimensioni risposta {#section-bd942385d4d144cd904003695d72c85e}
+## IS::MaxMessageSize - Limite dimensione risposta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita la dimensione dei dati che il server immagini può inviare al server della piattaforma. In effetti, questo limita le dimensioni dell’immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
+Limita le dimensioni dei dati che il server immagini può inviare al server Platform. In effetti, questo limita le dimensioni dell&#39;immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
 
-## IS::MaxRenderRongPixels - Limite dimensione immagine di output {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+## IS::MaxRenderRngPixels - Limite dimensione immagine di output {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
-Limita le dimensioni delle immagini che il server immagini può produrre (escluse le immagini salvate in un file). Valore intero maggiore di 0 in milioni di pixel. Viene restituito un errore se un&#39;operazione di rendering supera il limite di dimensioni. Il valore predefinito è 16.
+Limita le dimensioni delle immagini che il server di immagini può produrre (escluse le immagini salvate nel file). Valore intero maggiore di 0 in milioni di pixel. Se un’operazione di rendering supera il limite di dimensioni, viene restituito un errore. Il valore predefinito è 16.
 
-## IS::MaxSavePixels - Limite dimensione per il salvataggio in file {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - Limite di dimensioni per il salvataggio in file {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita le dimensioni delle immagini che il server immagini scriverà nei file con il comando `req=saveToFile`. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
+Limita le dimensioni delle immagini che il server di immagini scriverà nei file con il comando `req=saveToFile`. Valore intero maggiore di 0 in milioni di pixel. Se l’operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
 
-## IS::MaxNonDsfSize - Limite dimensione per immagini di input non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
+## IS::MaxNonDsfSize - Limite di dimensioni per le immagini di input non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
-La dimensione massima (in pixel) delle immagini che non sono PTIFF che il server immagini può aprire. Image Server restituisce un errore quando si tenta di accedere a un&#39;immagine non PTIFF maggiore di questo limite.
+Dimensione massima (in Mpixel) delle immagini che non sono PTIFF che il server di immagini può aprire. Image Serving restituisce un errore quando si tenta di accedere a un&#39;immagine non PTIFF maggiore di questo limite.
 
 >[!NOTE]
 >
->Se si imposta questo valore su un valore troppo alto, la memoria del server immagini potrebbe perdere di vista e si potrebbero verificare degli errori, compresi gli arresti anomali.
+>Se si imposta questo valore su un valore troppo alto, la memoria del server di immagini potrebbe essere ridotta e si potrebbero verificare errori, compresi arresti anomali.
 
