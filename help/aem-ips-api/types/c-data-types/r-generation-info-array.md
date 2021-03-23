@@ -1,23 +1,24 @@
 ---
-description: Un array di proprietà di generazione.
-seo-description: Un array di proprietà di generazione.
+description: Matrice di proprietà di generazione.
+seo-description: Matrice di proprietà di generazione.
 seo-title: GenerationInfoArray
 solution: Experience Manager
 title: GenerationInfoArray
-topic: Dynamic Media Image Production System API
 uuid: 34124928-4177-415f-898a-e4b8bed9f95f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # GenerationInfoArray{#generationinfoarray}
 
-Un array di proprietà di generazione.
+Matrice di proprietà di generazione.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:GenerationInfo` | Un array di proprietà di generazione. |
+| `*`elementi`*` | `types:GenerationInfo` | Matrice di proprietà di generazione. |
 
