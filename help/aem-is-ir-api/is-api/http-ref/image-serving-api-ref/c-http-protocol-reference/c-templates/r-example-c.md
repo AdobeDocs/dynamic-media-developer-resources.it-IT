@@ -1,15 +1,16 @@
 ---
-description: Creare un'applicazione a livelli "carta bambola".
-seo-description: Creare un'applicazione a livelli "carta bambola".
+description: Crea un'applicazione a strati "bambola di carta".
+seo-description: Crea un'applicazione a strati "bambola di carta".
 seo-title: Esempio C
 solution: Experience Manager
 title: Esempio C
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # Esempio C{#example-c}
 
-Creare un&#39;applicazione a livelli &quot;carta bambola&quot;.
+Crea un&#39;applicazione a strati &quot;bambola di carta&quot;.
 
-Un&#39;immagine di sfondo contiene la foto di un modello o di un manichino. I record aggiuntivi nel catalogo delle immagini contengono vari capi di abbigliamento e accessori, fotografati per corrispondere al manichino in forma e dimensione.
+Un&#39;immagine di sfondo contiene la foto di un modello o di un manichino. I record aggiuntivi nel catalogo delle immagini contengono vari capi di abbigliamento e accessori, fotografati per abbinare il manichino in forma e dimensione.
 
-Ogni abbigliamento/foto accessorio viene mascherato e ritagliato fino al rettangolo di selezione della maschera per ridurre al minimo le dimensioni dell’immagine. Gli ancoraggi e le risoluzioni delle immagini vengono controllati attentamente per mantenere l&#39;allineamento tra i livelli e l&#39;immagine di sfondo, e tutte le immagini vengono aggiunte a un catalogo di immagini, con i valori appropriati memorizzati in `catalog::Resolution` e `catalog::Anchor`.
+Ogni abbigliamento/foto accessorio viene mascherato e ritagliato al riquadro di delimitazione della maschera per ridurre al minimo le dimensioni dell&#39;immagine. Gli ancoraggi e le risoluzioni delle immagini sono attentamente controllati per mantenere l&#39;allineamento tra i livelli e l&#39;immagine di sfondo; tutte le immagini vengono aggiunte a un catalogo di immagini, con i valori appropriati memorizzati in `catalog::Resolution` e `catalog::Anchor`.
 
-Oltre ai livelli, è anche necessario modificare il colore per gli elementi selezionati. I record di questi elementi sono preelaborati per rimuovere il colore originale e regolare la luminosità e il contrasto in modo adatto per il comando colorizzazione. Questa preelaborazione può essere effettuata offline, utilizzando uno strumento di modifica delle immagini come Photoshop, oppure, in casi semplici, può essere eseguita in modo invisibile aggiungendo `op_brightness=` e `op_contrast=` al campo `catalog::Modifier`.
+Oltre ai livelli, vogliamo anche modificare il colore per gli elementi selezionati. I record di questi elementi vengono preelaborati per rimuovere il colore originale e regolare la luminosità e il contrasto in modo adatto al comando di colorazione. Questa preelaborazione può essere eseguita offline, utilizzando uno strumento di modifica delle immagini come Photoshop, oppure, in casi semplici, può essere eseguita in modo banale aggiungendo `op_brightness=` e `op_contrast=` al campo `catalog::Modifier`.
 
-Questa applicazione non richiede un modello separato, perché tutti gli oggetti sono già allineati correttamente dai relativi ancoraggi di immagine ( `catalog::Anchor`) e ridimensionati ( `catalog::Resolution`). Lasciamo che sia il cliente a garantire l&#39;ordine appropriato dei livelli.
+Questa applicazione non richiede un modello separato, perché tutti gli oggetti sono già allineati correttamente dai relativi ancoraggi immagine ( `catalog::Anchor`) e ridimensionati ( `catalog::Resolution`). Lasciamo al cliente il compito di garantire un ordine appropriato dei livelli.
 
-Una tipica richiesta potrebbe essere simile alla seguente:
+Una richiesta tipica potrebbe avere questo aspetto:
 
 ```
 http://server/rootId/mannequin?&hei=400&qlt=90&
@@ -39,15 +40,15 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-È specificata solo l&#39;altezza. Questo consente all’immagine restituita di variare in larghezza a seconda delle proporzioni dell’immagine manichino, senza riempire i margini con il colore di sfondo.
+Viene specificata solo l&#39;altezza. Questo consente all’immagine restituita di variare in larghezza a seconda delle proporzioni dell’immagine del manichino, senza riempire i margini con il colore di sfondo.
 
-Non deve essere importante quale risoluzione viene specificata per ciascun livello, purché siano tutte uguali. Questa versione potrebbe non consentire la visualizzazione di dimensioni maggiori rispetto alle immagini composite. Specificando un valore di risoluzione elevato si evitano problemi correlati a tale limitazione. Tutte le operazioni di elaborazione e composizione vengono eseguite alla risoluzione ottimale per le dimensioni dell&#39;immagine richieste, per ottenere prestazioni e qualità di output ottimali.
+Non deve avere importanza quale risoluzione viene specificata per ogni livello, purché siano uguali. Questa versione potrebbe non consentire la visualizzazione di visualizzazioni più grandi delle immagini composite. Specificando un valore di risoluzione elevato si evitano problemi correlati a tale limite. Tutte le operazioni di elaborazione e composizione vengono eseguite alla risoluzione ottimale per le dimensioni dell&#39;immagine richieste, per ottenere prestazioni e qualità di output ottimali.
 
-I comandi `res=` possono essere omessi se tutte le immagini di origine hanno la stessa risoluzione a scala intera (il che è probabile nel caso di questo tipo di applicazione).
+I comandi `res=` possono essere omessi se tutte le immagini di origine hanno la stessa risoluzione a scala completa (che è probabilmente il caso per questo tipo di applicazione).
 
-È necessario specificare `rootId` per tutti i comandi `src=`, anche se sono identici a `rootId` specificati nel percorso url.
+È necessario specificare `rootId` per tutti i comandi `src=`, anche se sono uguali a `rootId` specificati nel percorso url.
 
-Se non si utilizza alcun catalogo immagini, non è possibile applicare il ridimensionamento in base alla risoluzione. In questo caso, è necessario calcolare i fattori di scala espliciti per ciascun elemento del livello, in base al rapporto tra i valori `catalog::Resolution` di ciascun livello e il valore `catalog::Resolution` del livello di sfondo. La richiesta di composizione (con un numero inferiore di livelli) potrebbe essere simile alla seguente:
+Se non si utilizza alcun catalogo di immagini, non è possibile un approccio basato sulla risoluzione al ridimensionamento. In questo caso, i fattori di scala espliciti devono essere calcolati per ogni elemento di livello, in base al rapporto tra i valori `catalog::Resolution` di ciascun livello e il valore `catalog::Resolution` del livello di sfondo. La richiesta di composizione (con meno livelli) potrebbe quindi avere questo aspetto:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&
