@@ -2,17 +2,18 @@
 description: Parametri di funzionamento
 solution: Experience Manager
 title: Parametri di funzionamento
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 
-# Parametri operazione{#operation-parameters}
+# Parametri operativi{#operation-parameters}
 
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
@@ -21,7 +22,7 @@ ht-degree: 0%
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batchGetAssetPublishContext](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -65,7 +66,7 @@ ht-degree: 0%
 * [getActivePublishContext](r-get-active-publish-contexts.md)
 * [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
-* [getAssetCount](r-get-asset-counts.md)
+* [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
 * [getAssetMetadataFields](r-get-asset-metadata-fields.md)
 * [getAssetPublishHistory](r-get-asset-publish-history.md)
@@ -100,7 +101,7 @@ ht-degree: 0%
 * [getPropertySets](r-get-property-sets.md)
 * [getPropertySetType](r-get-property-set-type.md)
 * [getPropertySetTypes](r-get-property-set-types.md)
-* [getPublishContext](r-get-publish-contexts.md)
+* [getPublishContexts](r-get-publish-contexts.md)
 * [getScheduledJobs](r-get-scheduled-jobs.md)
 * [getSearchStrings](r-get-search-strings.md)
 * [getSystemProperties](r-get-system-properties.md)
@@ -123,9 +124,9 @@ ht-degree: 0%
 * [removeGroupMembers](r-remove-group-members.md)
 * [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
-* [renameAsset](r-rename-asset.md)
-* [renameFolder](r-rename-folder.md)
-* [renameProject](r-rename-project.md)
+* [rinominaRisorsa](r-rename-asset.md)
+* [rinominaCartella](r-rename-folder.md)
+* [rinominaProgetto](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
 * [curriculumJob](r-resume-job.md)
