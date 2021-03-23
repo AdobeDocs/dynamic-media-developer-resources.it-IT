@@ -1,37 +1,38 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore carosello.
-seo-description: Riferimento API JavaScript per il visualizzatore carosello.
+description: Riferimento API JavaScript per il visualizzatore Carosello.
+seo-description: Riferimento API JavaScript per il visualizzatore Carosello.
 seo-title: getComponent**
 solution: Experience Manager
 title: getComponent**
-topic: Dynamic Media
 uuid: b5449564-c01c-4bb3-b265-b8d70e5f1b54
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
 
 # getComponent**{#getcomponent}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API JavaScript per il visualizzatore Carosello.
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK per visualizzatori usato dal visualizzatore. La pagina Web può usare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Richiamate questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`. In caso contrario, il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` -  `{String}` un ID del componente SDK per visualizzatori usato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
+`*`componentID`*` :  `{String}` un ID del componente SDK per visualizzatori utilizzato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatori </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome della classe del componente SDK per visualizzatori </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -74,9 +75,9 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
+Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto, come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
 
-Per ulteriori informazioni su un particolare componente, consultate la documentazione API SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione relativa all’API SDK per visualizzatori .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
