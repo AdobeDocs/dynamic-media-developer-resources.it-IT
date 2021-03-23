@@ -2,13 +2,14 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-topic: Dynamic Media
 uuid: 1ec6fc6a-ef53-46bf-9a14-7f7cf960a592
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 7%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Specifica la modalità di riempimento dei campioni nella visualizzazione. </p> <p> <span class="codeph">  </span> imposta l’ordine di riempimento da sinistra a destra;  <span class="codeph"> a destra  </span> inverte l’ordine in modo che la vista sia riempita in direzione da destra a sinistra e dall’alto verso il basso. Quando si imposta <span class="codeph"> auto </span>, il componente applica la modalità a destra quando l'impostazione internazionale è impostata su <span class="codeph"> "ja" </span>, altrimenti utilizza left. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra  </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il modo in cui i campioni vengono riempiti nella visualizzazione. </p> <p> <span class="codeph">  </span> imposta l'ordine di riempimento da sinistra a destra;  <span class="codeph"> a destra  </span> inverte l’ordine in modo che la visualizzazione sia riempita in direzione da destra a sinistra e dall’alto verso il basso. Quando è impostato <span class="codeph"> auto </span>, il componente applica la modalità di destra quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span> e utilizza la modalità di accesso a sinistra in caso contrario. </p> </td> 
   </tr> 
  </tbody> 
 </table>
