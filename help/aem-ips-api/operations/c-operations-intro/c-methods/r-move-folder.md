@@ -1,23 +1,24 @@
 ---
-description: Spostate una cartella in un nuovo percorso.
-seo-description: Spostate una cartella in un nuovo percorso.
+description: Spostare una cartella in un nuovo percorso.
+seo-description: Spostare una cartella in un nuovo percorso.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 22%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
 
 # moveFolder{#movefolder}
 
-Spostate una cartella in un nuovo percorso.
+Spostare una cartella in un nuovo percorso.
 
 Sintassi
 
@@ -36,15 +37,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
-| `*`destFolderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella di destinazione. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
+| `*`destFolderHandle`*` | `xsd:string` | Sì | Gestisci la cartella di destinazione. |
 
 **Output (moveFolderReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella spostata. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestisci la cartella spostata. |
 
 ## Esempi {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
