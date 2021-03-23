@@ -1,15 +1,16 @@
 ---
-description: Versioni disponibili per lingue specifiche. Restituisce un elenco delle versioni localizzate disponibili dell'ID catalogo specificate nel percorso della richiesta.
-seo-description: Versioni disponibili per lingue specifiche. Restituisce un elenco delle versioni localizzate disponibili dell'ID catalogo specificate nel percorso della richiesta.
+description: Versioni disponibili specifiche per le impostazioni internazionali. Restituisce un elenco delle versioni disponibili specifiche per le impostazioni internazionali dell’ID catalogo specificato nel percorso della richiesta.
+seo-description: Versioni disponibili specifiche per le impostazioni internazionali. Restituisce un elenco delle versioni disponibili specifiche per le impostazioni internazionali dell’ID catalogo specificato nel percorso della richiesta.
 seo-title: xlate
 solution: Experience Manager
 title: xlate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '135'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # xlate{#xlate}
 
-Versioni disponibili per lingue specifiche. Restituisce un elenco delle versioni localizzate disponibili dell&#39;ID catalogo specificate nel percorso della richiesta.
+Versioni disponibili specifiche per le impostazioni internazionali. Restituisce un elenco delle versioni disponibili specifiche per le impostazioni internazionali dell’ID catalogo specificato nel percorso della richiesta.
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -28,7 +29,7 @@ Versioni disponibili per lingue specifiche. Restituisce un elenco delle versioni
  </tr> 
 </table>
 
-Vedere [Object Id Translation](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Consulta [Traduzione ID oggetto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Ad esempio:
 
@@ -36,7 +37,7 @@ Ad esempio:
 
 La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
