@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-topic: Dynamic Media
 uuid: 5a461da2-4b08-4854-9bdc-98de208dc0fe
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 11%
+source-wordcount: '45'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica l'URL di base per il servizio e-mail Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col2"> <p> Specifica l’URL di base per il servizio e-mail Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
