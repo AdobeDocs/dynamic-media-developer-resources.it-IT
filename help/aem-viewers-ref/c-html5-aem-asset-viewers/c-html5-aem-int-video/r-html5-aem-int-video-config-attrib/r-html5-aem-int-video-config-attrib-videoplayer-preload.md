@@ -1,15 +1,16 @@
 ---
-description: Indica se il visualizzatore avvia il caricamento del contenuto video prima dell'avvio della riproduzione.
-seo-description: Indica se il visualizzatore avvia il caricamento del contenuto video prima dell'avvio della riproduzione.
+description: Indica se il visualizzatore inizia a caricare il contenuto video prima dell’avvio della riproduzione.
+seo-description: Indica se il visualizzatore inizia a caricare il contenuto video prima dell’avvio della riproduzione.
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic Media
 uuid: d080465d-7349-4671-aaa4-c49e549d1f64
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '143'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # VideoPlayer.preload{#videoplayer-preload}
 
-Indica se il visualizzatore avvia il caricamento del contenuto video prima dell&#39;avvio della riproduzione.
+Indica se il visualizzatore inizia a caricare il contenuto video prima dell’avvio della riproduzione.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]preload=0|1`
 
@@ -25,7 +26,7 @@ Indica se il visualizzatore avvia il caricamento del contenuto video prima dell&
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Se è impostato su <span class="codeph"> 1 </span> il video inizia a essere scaricato subito dopo che la risorsa è stata impostata; in caso contrario, il precaricamento viene avviato solo dopo che l’utente finale o una chiamata API ha avviato la riproduzione. </p> <p>Se impostata su <span class="codeph"> 0 </span>, alcune funzioni potrebbero non funzionare fino all'avvio della riproduzione; in particolare, l’operazione di ricerca non aggiornerà il fotogramma video. Se l’immagine poster è disattivata, il visualizzatore viene visualizzato come un’area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video potrebbe essere ignorata in alcune versioni dei browser Internet Explorer 11 ed Edge. </p> </td> 
+   <td colname="col2"> <p> Se è impostato su <span class="codeph"> 1 </span> il video inizia a essere scaricato subito dopo l’impostazione della risorsa; in caso contrario, il precaricamento viene avviato solo dopo che l’utente finale o una chiamata API ha avviato la riproduzione. </p> <p>Se impostato su <span class="codeph"> 0 </span>, alcune funzioni potrebbero non funzionare fino all'avvio della riproduzione; in particolare, l'operazione di ricerca non aggiornerà il fotogramma video. Se l’immagine poster è disabilitata, il visualizzatore viene visualizzato come un’area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video potrebbe essere ignorata in alcune versioni dei browser Internet Explorer 11 e Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
