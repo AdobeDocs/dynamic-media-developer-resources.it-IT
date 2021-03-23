@@ -1,18 +1,19 @@
 ---
-description: Descrive i parametri operativi comuni gestiti dall'API Servizio Web IPS.
+description: Descrive i parametri dell'operazione comuni gestiti dall'API del servizio Web IPS.
 solution: Experience Manager
-title: Metodi delle operazioni
-topic: Dynamic Media Image Production System API
+title: Metodi operativi
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 
-# Metodi delle operazioni{#operations-methods}
+# Metodi operativi{#operations-methods}
 
 Questa sezione descrive i parametri operativi comuni gestiti dall&#39;API del servizio Web IPS.
 
@@ -20,13 +21,13 @@ Per una descrizione completa di ciascun parametro di operazione, vedere [Paramet
 
 ## Maniglie: Informazioni su {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
-Handle fanno riferimento agli oggetti IPS restituiti da alcune operazioni API. È inoltre possibile trasmettere handle come parametri alle chiamate di operazione successive. I gestori sono tipi di dati stringa ( `xsd:string`).
+Gestisce i riferimenti agli oggetti IPS restituiti da alcune operazioni API. Puoi anche passare gli handle come parametri alle chiamate di operazione successive. I gestori sono tipi di dati stringa ( `xsd:string`).
 
-Le maniglie sono destinate a essere utilizzate solo durante una singola sessione di applicazione. Inoltre, è necessario rendere persistenti i handle, in quanto il loro formato può variare tra le versioni IPS. Quando scrivete applicazioni interattive, implementate i timeout delle sessioni ed eliminate tutti i handle tra le sessioni, in particolare dopo un aggiornamento IPS. Quando scrivete applicazioni non interattive, richiamate le operazioni appropriate per recuperare i handle ogni volta che l&#39;applicazione viene eseguita. I seguenti esempi di codice Java/Axis2 mostrano un&#39;esecuzione del codice errata e corretta:
+Le maniglie sono destinate all&#39;uso solo durante una singola sessione dell&#39;applicazione. Inoltre, devi rendere persistenti gli handle perché il loro formato può cambiare tra le versioni IPS. Quando si scrivono applicazioni interattive, si implementano i timeout delle sessioni ed eliminano tutti gli handle tra le sessioni, in particolare dopo un aggiornamento IPS. Quando si scrivono applicazioni non interattive, chiamare le operazioni appropriate per recuperare gli handle ogni volta che l&#39;applicazione viene eseguita. I seguenti esempi di codice Java/Axis2 mostrano un’esecuzione del codice errata e corretta:
 
-**Codice Handle Errato**
+**Codice di handle non corretto**
 
-Questo esempio di codice non è corretto perché contiene un valore hardcoded (555) per l&#39;handle della società.
+Questo esempio di codice non è corretto perché contiene un valore hardcoded (555) per l&#39;handle dell&#39;azienda.
 
 ```
 SearchAssetsParam searchParam = new SearchAssetsParam(); searchParam.setCompanyHandle("555");// INCORRECT 
@@ -34,9 +35,9 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-**Correggi codice di handle**
+**Codice di gestione corretto**
 
-Questo esempio di codice è corretto perché richiama `getCompanyInfo` per restituire un handle valido. Non si basa su un valore hardcoded. Utilizzate questo metodo o un&#39;altra API IPS equivalente per restituire l&#39;handle richiesto.
+Questo esempio di codice è corretto perché chiama `getCompanyInfo` per restituire un handle valido. Non si basa su un valore hardcoded. Utilizza questo metodo o un altro equivalente API IPS per restituire l’handle richiesto.
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -51,15 +52,15 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-La maggior parte delle operazioni richiede di impostare un contesto aziendale trasmettendo un parametro `companyHandle`. L&#39;handle della società è un puntatore restituito da alcune operazioni quali `getCompanyInfo`, `addCompany` e `getCompanyMembership`.
+La maggior parte delle operazioni richiede di impostare un contesto aziendale trasmettendo un parametro `companyHandle` . L&#39;handle dell&#39;azienda è un puntatore restituito da alcune operazioni quali `getCompanyInfo`, `addCompany` e `getCompanyMembership`.
 
 **userHandle**
 
-Il parametro `userHandle` è un parametro facoltativo per le operazioni che riguardano un utente specifico. Per impostazione predefinita, queste operazioni sono destinate all&#39;utente chiamante (l&#39;utente le cui credenziali vengono trasmesse per l&#39;autenticazione). Tuttavia, gli utenti admin con le autorizzazioni corrette possono specificare un altro utente. Ad esempio, l&#39;operazione `setPassword` normalmente imposta la password dell&#39;utente autenticato, ma un amministratore può utilizzare il parametro `userHandle` per impostare la password per un altro utente.
+Il parametro `userHandle` è un parametro facoltativo per le operazioni che eseguono il targeting di un utente specifico. Per impostazione predefinita, queste operazioni sono indirizzate all&#39;utente chiamante (l&#39;utente le cui credenziali vengono passate per l&#39;autenticazione). Tuttavia, gli utenti amministratori con le autorizzazioni appropriate possono specificare un altro utente. Ad esempio, l&#39;operazione `setPassword` imposta normalmente la password dell&#39;utente autenticato, ma un amministratore può utilizzare il parametro `userHandle` per impostare la password per un altro utente.
 
-Per le operazioni che richiedono un contesto aziendale (utilizzando il parametro `companyHandle`), sia gli utenti autenticati che quelli target devono essere membri della società specificata. Per le operazioni che non richiedono un contesto aziendale, gli utenti autenticati e target devono essere entrambi membri di almeno una società comune.
+Per le operazioni che richiedono un contesto aziendale (utilizzando il parametro `companyHandle` ), gli utenti autenticati e target devono essere membri della società specificata. Per le operazioni che non richiedono un contesto aziendale, gli utenti autenticati e target devono essere entrambi membri di almeno una società comune.
 
-Le seguenti operazioni possono recuperare le handle utente:
+Le seguenti operazioni possono recuperare gli handle utente:
 
 * `getUsers`
 * `getAllUsers`
@@ -70,13 +71,13 @@ Le seguenti operazioni possono recuperare le handle utente:
 
 **accessUserHandle e accessGroupHandle**
 
-Per impostazione predefinita, le operazioni che richiedono autorizzazioni di accesso (lettura, scrittura, eliminazione) operano nel contesto delle autorizzazioni dell&#39;utente chiamante. Alcune operazioni consentono di modificare questo contesto con il parametro `accessUserHandle` o `accessGroupHandle`. Il parametro `accessUserHandle` consente a un amministratore di rappresentare un altro utente. Il parametro `accessGroupHandle` consente al chiamante di funzionare nel contesto di un gruppo utente specifico.
+Per impostazione predefinita, le operazioni che richiedono autorizzazioni di accesso (lettura, scrittura, eliminazione) operano nel contesto delle autorizzazioni dell&#39;utente chiamante. Alcune operazioni consentono di modificare questo contesto con il parametro `accessUserHandle` o `accessGroupHandle` . Il parametro `accessUserHandle` consente a un amministratore di rappresentare un altro utente. Il parametro `accessGroupHandle` consente al chiamante di funzionare nel contesto di un gruppo di utenti specifico.
 
 **responseFieldArray e excludeFieldArray**
 
-Alcune operazioni consentono al chiamante di limitare i campi inclusi nella risposta. Limitando i campi è possibile ridurre il tempo e la memoria necessari per elaborare la richiesta e ridurre la dimensione dei dati della risposta. Il chiamante può richiedere un elenco specifico di campi passando un parametro `responseFieldArray` oppure con un elenco enumerato di campi esclusi tramite il parametro `excludeFieldArray`.
+Alcune operazioni consentono al chiamante di limitare quali campi sono inclusi nella risposta. La limitazione dei campi può contribuire a ridurre il tempo e la memoria necessari per elaborare la richiesta e ridurre le dimensioni dei dati di risposta. Il chiamante può richiedere un elenco specifico di campi passando un parametro `responseFieldArray` o con un elenco enumerato di campi esclusi tramite il parametro `excludeFieldArray` .
 
-Sia `responseFieldArray` che `excludeFieldArray` specificano i campi utilizzando un percorso nodo separato da `/`. Ad esempio, per specificare che `searchAssets` restituisca solo il nome, la data dell&#39;ultima modifica e i metadati di ciascuna risorsa, fare riferimento a quanto segue:
+Sia `responseFieldArray` che `excludeFieldArray` specificano i campi utilizzando un percorso del nodo separato da `/`. Ad esempio, per specificare che `searchAssets` restituisce solo il nome, la data dell’ultima modifica e i metadati di ciascuna risorsa si riferiscono ai seguenti elementi:
 
 ```
 <responseFieldArray> 
@@ -94,16 +95,16 @@ Allo stesso modo, per restituire tutti i campi (ad eccezione delle autorizzazion
 </excludeFieldArray>
 ```
 
-I percorsi dei nodi sono relativi alla radice del nodo restituito. Se si specifica un campo di tipo complesso senza alcun sottoelemento (ad esempio, `assetArray/items/imageInfo`), vengono inclusi tutti i relativi sottoelementi. Se si specifica uno o più elementi secondari in un campo di tipo complesso (ad esempio, `assetArray/items/imageInfo/originalPath`), vengono inclusi solo tali elementi secondari.
+I percorsi dei nodi sono relativi alla radice dei nodi restituiti. Se specifichi un campo di tipo complesso senza alcun sottoelemento (ad esempio, `assetArray/items/imageInfo`), vengono inclusi tutti i relativi sottoelementi. Se specifichi uno o più elementi secondari in un campo di tipo complesso (ad esempio, `assetArray/items/imageInfo/originalPath`), vengono inclusi solo tali elementi secondari.
 
-Se non si inserisce `responseFieldArray` o `excludeFieldArray` in una richiesta, vengono restituiti tutti i campi.
+Se non includi `responseFieldArray` o `excludeFieldArray` in una richiesta, vengono restituiti tutti i campi.
 
 **Lingua**
 
-A partire da IPS 4.0, l&#39;API IPS supporta l&#39;impostazione del contesto internazionale di un&#39;operazione, trasmettendo il parametro delle impostazioni internazionali `authHeader`. Se il parametro locale non è presente, verrà utilizzata l&#39;intestazione HTTP `Accept-Language`. Se questa intestazione non è presente, verranno utilizzate le impostazioni internazionali predefinite per il server IPS.
+A partire da IPS 4.0, l’API IPS supporta l’impostazione del contesto internazionale di un’operazione passando il parametro `authHeader` locale . Se il parametro locale non è presente, verrà utilizzata l’intestazione HTTP `Accept-Language`. Se questa intestazione non è presente, verranno utilizzate le impostazioni internazionali predefinite per il server IPS.
 
-Alcune operazioni utilizzano anche parametri di impostazione internazionale espliciti, che possono essere diversi dal contesto delle impostazioni internazionali dell&#39;operazione. Ad esempio, l&#39;operazione `submitJob` richiede un parametro `locale` che imposta le impostazioni internazionali utilizzate per la registrazione dei processi e le notifiche e-mail.
+Alcune operazioni utilizzano anche parametri internazionali espliciti, che possono essere diversi dal contesto internazionale delle operazioni. Ad esempio, l&#39;operazione `submitJob` richiede un parametro `locale` che imposta le impostazioni internazionali utilizzate per la registrazione dei processi e la notifica tramite e-mail.
 
-I parametri delle impostazioni internazionali utilizzano il formato `<language_code>[-<country_code>]`
+I parametri internazionali utilizzano il formato `<language_code>[-<country_code>]`
 
-Se il codice della lingua è un codice di due lettere minuscoli specificato dallo standard ISO-639 e il codice del paese opzionale è un codice di due lettere maiuscole specificato dallo standard ISO-3266. Ad esempio, la stringa per l&#39;inglese USA è `en-US`.
+Se il codice della lingua è un codice a due lettere, minuscolo, specificato dalla norma ISO-639 e il codice del paese opzionale è un codice a due lettere, maiuscolo e minuscolo specificato dalla norma ISO-3266. Ad esempio, la stringa locale per Inglese USA è `en-US`.
