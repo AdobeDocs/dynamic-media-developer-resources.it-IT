@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
-seo-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
+description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
+seo-description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 2eb19ab7-fc9f-45c1-b7a3-d06a02f8b6aa
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attributo di configurazione per visualizzatore video per file multimediali diversi.
+Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per visualizzatore video per file multimediali diver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Indica se il supporto viene riprodotto al termine della riproduzione. </p> </td> 
+   <td colname="col2"> <p>Indica se il contenuto multimediale viene riprodotto al termine della riproduzione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
