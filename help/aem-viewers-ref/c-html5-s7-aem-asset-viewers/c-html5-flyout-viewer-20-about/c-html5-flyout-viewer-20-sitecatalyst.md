@@ -1,33 +1,34 @@
 ---
-description: Il visualizzatore a comparsa supporta  tracciamento Adobe Analytics.
-seo-description: Il visualizzatore a comparsa supporta  tracciamento Adobe Analytics.
-seo-title: Supporto per  tracciamento Adobe Analytics
+description: Il visualizzatore a comparsa supporta il tracciamento predefinito di Adobe Analytics.
+seo-description: Il visualizzatore a comparsa supporta il tracciamento predefinito di Adobe Analytics.
+seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
-title: Supporto per  tracciamento Adobe Analytics
-topic: Dynamic Media
+title: Supporto per il tracciamento di Adobe Analytics
 uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
 
-# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore a comparsa supporta  tracciamento Adobe Analytics.
+Il visualizzatore a comparsa supporta il tracciamento predefinito di Adobe Analytics.
 
-## Tracciamento out-of-the-box {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento predefinito {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore a comparsa supporta il monitoraggio out-of-the-box di [!DNL Adobe Analytics]. Per abilitare il tracciamento, passate il nome corretto del predefinito della società come parametro `config2`.
+Il visualizzatore a comparsa supporta il tracciamento predefinito [!DNL Adobe Analytics]. Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
 
-Il visualizzatore invia inoltre un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
@@ -57,7 +58,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -67,15 +68,15 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>il menu a comparsa viene attivato o il livello di zoom viene modificato. </p> </td> 
+   <td colname="col2"> <p>il riquadro a comparsa viene attivato o il livello di zoom viene modificato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAN (Panning)</span> </p> </td> 
-   <td colname="col2"> <p> viene eseguito il panning di un’immagine. </p> </td> 
+   <td colname="col2"> <p> un'immagine viene pannerizzata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWATCH (Campione)</span> </p> </td> 
