@@ -1,36 +1,37 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore zoom di base.
-seo-description: Riferimento API JavaScript per il visualizzatore zoom di base.
+description: Riferimento API JavaScript per visualizzatore zoom di base.
+seo-description: Riferimento API JavaScript per visualizzatore zoom di base.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: af433f15-34a0-4867-97c5-acab47e3e008
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore zoom di base.
+Riferimento API JavaScript per visualizzatore zoom di base.
 
 ` setAsset( *`asset`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa, con i modificatori IS facoltativi aggiunti dopo "?" </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta la nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di esecuzione.
+Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -46,7 +47,7 @@ Riferimento immagine singolo:
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Modificatore nitidezza aggiunto a tutte le immagini del set:
+Modificatore di nitidezza aggiunto a tutte le immagini del set:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")
