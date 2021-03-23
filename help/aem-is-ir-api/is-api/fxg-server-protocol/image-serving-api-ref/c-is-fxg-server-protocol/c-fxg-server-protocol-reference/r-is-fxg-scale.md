@@ -1,29 +1,30 @@
 ---
-description: Scala immagine. Consente di ridimensionare un’immagine in base al fattore rispetto all’immagine a risoluzione piena.
-seo-description: Scala immagine. Consente di ridimensionare un’immagine in base al fattore rispetto all’immagine a risoluzione piena.
+description: Scala immagine. Consente di ridimensionare un'immagine in base al fattore rispetto all'immagine a risoluzione piena.
+seo-description: Scala immagine. Consente di ridimensionare un'immagine in base al fattore rispetto all'immagine a risoluzione piena.
 seo-title: scale
 solution: Experience Manager
-title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
+title: scala
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
 
 # scale{#scale}
 
-Scala immagine. Consente di ridimensionare un’immagine in base al fattore rispetto all’immagine a risoluzione piena.
+Scala immagine. Consente di ridimensionare un&#39;immagine in base al fattore rispetto all&#39;immagine a risoluzione piena.
 
-`scale= *`Factor`*`
+`scale= *`fattore`*`
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> Factor</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> fattore</span></span> </p> </td> 
   <td class="stentry"> <p>Fattore di scala (reale, &gt;0). </p></td> 
  </tr> 
 </table>
