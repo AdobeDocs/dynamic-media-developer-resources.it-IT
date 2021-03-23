@@ -1,15 +1,16 @@
 ---
-description: Tracciato Clip Livello. Specifica un percorso di clip per il livello corrente.
-seo-description: Tracciato Clip Livello. Specifica un percorso di clip per il livello corrente.
+description: Percorso clip livello. Specifica un percorso di clip per il livello corrente.
+seo-description: Percorso clip livello. Specifica un percorso di clip per il livello corrente.
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -17,42 +18,42 @@ ht-degree: 1%
 
 # clipPath{#clippath}
 
-Tracciato Clip Livello. Specifica un percorso di clip per il livello corrente.
+Percorso clip livello. Specifica un percorso di clip per il livello corrente.
 
 `clipPath= *`pathDefinition`*`
 
-`clipPathE= *`pathNamepathName `*&#42;[, *``*]`
+`clipPathE= *``*&#42;[, *`pathName`*]`
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
-  <td class="stentry"> <p>Dati percorso. </p></td> 
+  <td class="stentry"> <p>Dati del percorso. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
-  <td class="stentry"> <p>Nome del tracciato incorporato nell’immagine sorgente del livello (solo ASCII). </p></td> 
+  <td class="stentry"> <p>Nome del percorso incorporato nell’immagine sorgente del livello (solo ASCII). </p></td> 
  </tr> 
 </table>
 
-Tutte le parti del livello che non rientrano nell&#39;area definita da `clipPath=` vengono sottoposte a rendering trasparente.
+Tutte le parti del livello che non rientrano nell&#39;area definita da `clipPath=` vengono rese trasparenti.
 
-`*`pathName è il nome di un tracciato incorporato nell’immagine sorgente del livello. `*` Il tracciato viene trasformato automaticamente per mantenere l’allineamento relativo con il contenuto dell’immagine. Se sono specificati più `*`pathName`*`, il server ritaglia l&#39;immagine all&#39;intersezione di tali percorsi. Qualsiasi `*`nomePercorso`*` non trovato nell&#39;immagine di origine viene ignorato.
+`*``*` pathName è il nome di un tracciato incorporato nell&#39;immagine sorgente del livello. Il percorso viene automaticamente trasformato per mantenere l’allineamento relativo con il contenuto dell’immagine. Se sono specificati più `*`pathName`*`, il server ritaglia l&#39;immagine all&#39;intersezione di questi percorsi. Qualsiasi `*`nomePercorso`*` non trovato nell&#39;immagine di origine viene ignorato.
 
 >[!NOTE]
 >
 >Sono supportate solo le stringhe ASCII per `*`pathName`*`.
 
-`*``*` pathLa definizione consente di specificare dati di percorso espliciti nelle coordinate pixel del livello.
+`*``*` pathDefinition consente di specificare i dati espliciti del percorso nelle coordinate dei pixel del livello.
 
-Se `size=` è specificato e non 0,0, il livello viene preimpostato. In questo caso, le coordinate del tracciato sono relative all’angolo superiore sinistro del rettangolo del livello e il livello è posizionato in base a `origin=` o al suo valore predefinito. Eventuali aree del tracciato all’esterno del rettangolo del livello rimangono trasparenti.
+Se `size=` è specificato e non 0,0, il livello viene predimensionato. In questo caso, le coordinate del tracciato sono relative all&#39;angolo superiore sinistro del rettangolo di livello e il livello viene posizionato in base a `origin=` o al suo valore predefinito. Tutte le aree del tracciato all&#39;esterno del rettangolo del livello rimangono trasparenti.
 
-Se `size=` non è specificato per un livello di colore in tinta unita o di testo, il livello viene considerato ridimensionamento automatico con l’estensione del tracciato che ne determina le dimensioni. Se `origin=` non è specificato, per impostazione predefinita viene impostato su (0,0) dello spazio delle coordinate del percorso. Questo consente di specificare le coordinate del tracciato rispetto all’origine del livello 0.
+Se `size=` non è specificato per un livello di colore o testo a tinta unita, il livello viene considerato auto-dimensionamento con l&#39;estensione del tracciato che ne determina le dimensioni. Se `origin=` non è specificato, viene impostato automaticamente su (0,0) dello spazio di coordinate del percorso. Ciò consente di specificare le coordinate del percorso rispetto all&#39;origine del livello 0.
 
 >[!NOTE]
 >
->`scale=`,  `rotate=`e  `anchor=` i comandi non sono consentiti per i livelli di colore tinta unita di ridimensionamento automatico.
+>`scale=`I  `rotate=`comandi ,  `anchor=`  e non sono consentiti per il ridimensionamento automatico dei livelli a colori solidi.
 
-`*`pathDefinition `*` accetta una stringa simile al valore dell&#39; `d=` attributo dell&#39; `<path>` elemento SVG, con la differenza che le virgole vengono utilizzate invece degli spazi per separare i valori. `*`pathDefinitionpuò includere uno o più sottotracciati a ciclo chiuso. `*` 
+`*``*` pathDefinition accetta una stringa simile al valore dell&#39; `d=` attributo dell&#39; `<path>` elemento SVG, con la differenza che le virgole vengono utilizzate invece degli spazi per separare i valori. `*``*` pathDefinition può includere uno o più percorsi secondari a ciclo chiuso.
 
 I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
 
@@ -68,7 +69,7 @@ I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
   <tr valign="top"> 
    <td> <b> </b> <span class="varname"> Mx,y</span> </td> 
    <td> <p> assoluto di moveto </p> </td> 
-   <td> <p> Inizia un nuovo sottopercorso in x,y. </p> </td> 
+   <td> <p> Avvia un nuovo percorso secondario in x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> </b> <span class="varname"> mx,y</span> </td> 
@@ -85,26 +86,26 @@ I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
   </tr> 
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
-   <td> <p> assoluto di curveto </p> </td> 
-   <td> <p> Disegnate una curva Bezier dalla posizione corrente a x,y. x1,y1 è il punto di controllo all'inizio della curva e x2,y2 è il punto di controllo alla fine della curva. </p> </td> 
+   <td> <p> assoluto </p> </td> 
+   <td> <p> Disegna una curva Bezier dalla posizione corrente a x,y. x1,y1 è il punto di controllo all'inizio della curva e x2,y2 è il punto di controllo alla fine della curva. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
-   <td> <p> curveto </p> </td> 
+   <td> <p> relativo al diritto di veto </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> |  <b>z</b> </td> 
+   <td> <b> Z</b>  |  <b>z</b> </td> 
    <td> <p> closepath (Chiudi tracciato) </p> </td> 
    <td> <p> Chiude il sottotracciato corrente con una linea retta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I comandi maiuscoli indicano che i valori delle coordinate sono in posizioni in pixel assolute (rispetto all’angolo superiore sinistro del rettangolo del livello). Gli offset dei pixel seguono i comandi minuscoli relativi alla posizione corrente.
+I comandi in maiuscolo indicano che i valori delle coordinate sono in posizioni in pixel assolute (rispetto all&#39;angolo superiore sinistro del rettangolo di livello). Gli offset pixel seguono i comandi minuscoli relativi alla posizione corrente.
 
-&#39;m&#39; o &#39;M&#39; inizia sempre un nuovo sottopercorso. I sottotracciati vengono chiusi automaticamente (con una linea retta) se alla fine non è specificato &#39;Z&#39; o &#39;z&#39;.
+&#39;m&#39; o &#39;M&#39; inizia sempre un nuovo sottopercorso. I sottotracciati vengono chiusi automaticamente (con una linea retta) se alla fine non è specificato &quot;Z&quot; o &quot;z&quot;.
 
-Se un sottopercorso inizia con un moveto relativo (&#39;m&#39;), è relativo a uno dei seguenti elementi:
+Se un sottopercorso inizia con un relativo moveto (&#39;m&#39;), è relativo a uno dei seguenti elementi:
 
 * Punto iniziale del sottopercorso precedente, se chiuso con &#39;z&#39; o &#39;Z&#39;.
 * Punto finale del sottopercorso precedente, se non è stato chiuso in modo esplicito.
@@ -112,13 +113,13 @@ Se un sottopercorso inizia con un moveto relativo (&#39;m&#39;), è relativo a u
 
 ## Proprietà {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-Attributo layer. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. I livelli degli effetti li ignorano.
+Attributo livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Gli strati degli effetti li ignorano.
 
-`clipPathE=` viene ignorato se nell’immagine sorgente del livello non viene trovato alcun percorso con il nome specificato o se la sorgente del livello non è un’immagine.
+`clipPathE=` viene ignorato se nell&#39;immagine sorgente del livello non viene trovato alcun percorso con il nome specificato, o se la sorgente del livello non è un&#39;immagine.
 
 ## Predefinito {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
-Nessuno, per nessun ulteriore ritaglio del livello.
+Nessuno, per nessun ritaglio aggiuntivo del livello.
 
 ## Consultate anche {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
