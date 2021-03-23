@@ -1,15 +1,16 @@
 ---
-description: Proprietà dei dati di risposta. Valuta la richiesta corrente come se fosse una richiesta di immagine (req=img), ma invece di restituire l’immagine, il server restituisce le proprietà selezionate dell’immagine di risposta.
-seo-description: Proprietà dei dati di risposta. Valuta la richiesta corrente come se fosse una richiesta di immagine (req=img), ma invece di restituire l’immagine, il server restituisce le proprietà selezionate dell’immagine di risposta.
-seo-title: prop
+description: Proprietà dei dati di risposta. Valuta la richiesta corrente come se si trattasse di una richiesta di immagine (req=img), ma invece di restituire l'immagine, il server restituisce le proprietà selezionate dell'immagine di risposta.
+seo-description: Proprietà dei dati di risposta. Valuta la richiesta corrente come se si trattasse di una richiesta di immagine (req=img), ma invece di restituire l'immagine, il server restituisce le proprietà selezionate dell'immagine di risposta.
+seo-title: proprietà
 solution: Experience Manager
-title: prop
-topic: Dynamic Media Image Serving - Image Rendering API
+title: proprietà
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # props{#props}
 
-Proprietà dei dati di risposta. Valuta la richiesta corrente come se fosse una richiesta di immagine (req=img), ma invece di restituire l’immagine, il server restituisce le proprietà selezionate dell’immagine di risposta.
+Proprietà dei dati di risposta. Valuta la richiesta corrente come se si trattasse di una richiesta di immagine (req=img), ma invece di restituire l&#39;immagine, il server restituisce le proprietà selezionate dell&#39;immagine di risposta.
 
 ` req=props[,text|javascript|xml|{json[&id= *`reqId`*}]`
 
@@ -28,15 +29,15 @@ Proprietà dei dati di risposta. Valuta la richiesta corrente come se fosse una 
  </tr> 
 </table>
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
 `<reqHandler>` è il nome del gestore JS presente nella risposta JSONP. Sono consentiti solo caratteri a-z, A-Z e 0-9. Facoltativo. Il valore predefinito è `s7jsonResponse`.
 
-Per una descrizione della sintassi di risposta e del tipo MIME di risposta, vedere [Properties](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9). La risposta HTTP può essere memorizzata nella cache con un TTL basato su `attribute::NonImgExpiration`.
+Per una descrizione della sintassi di risposta e del tipo MIME di risposta, consulta [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) . La risposta HTTP può essere memorizzata nella cache con un TTL basato su `attribute::NonImgExpiration`.
 
-Per le richieste /is/image vengono restituite le seguenti proprietà:
+Le seguenti proprietà vengono restituite per le richieste /is/image:
 
 <table id="table_9665612ED7D24C07AAF75D953C0FEB36"> 
  <tbody> 
@@ -47,17 +48,17 @@ Per le richieste /is/image vengono restituite le seguenti proprietà:
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.bgc  </span> </p> </td> 
-   <td> <p> eccitare </p> </td> 
-   <td> <p> Colore di sfondo (vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
+   <td> <p> esasperare </p> </td> 
+   <td> <p> Colore di sfondo (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td valign="top"> <p> <span class="codeph"> image.height  </span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> Rispondi all’altezza dell’immagine in pixel </p> </td> 
+   <td> <p> Reply image height in pixel </p> </td> 
   </tr> 
   <tr> 
    <td valign="top"> <p> <span class="codeph"> image.iccEmbed  </span> </p> </td> 
-   <td> <p> boolean </p> </td> 
+   <td> <p> booleano </p> </td> 
    <td> <p> True se il profilo ICC è incorporato nell'immagine di risposta. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> IccEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -68,7 +69,7 @@ Per le richieste /is/image vengono restituite le seguenti proprietà:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.length  </span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> Dimensione risposta in pixel, esclusa l’intestazione HTTP; 0 se i dati dell'immagine di risposta non sono stati memorizzati nella cache in precedenza dal server. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>.) </p> </td> 
+   <td> <p> Dimensione della risposta in pixel, esclusa l’intestazione HTTP; 0 se i dati dell'immagine di risposta non sono stati memorizzati nella cache in precedenza dal server. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.mask  </span> </p> </td> 
@@ -78,16 +79,16 @@ Per le richieste /is/image vengono restituite le seguenti proprietà:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixTyp  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Il tipo di immagine di risposta può essere <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> o <span class="codeph"> BW </span> (per le immagini in scala di grigio). </p> </td> 
+   <td> <p> Reply image type (Tipo immagine di risposta), può essere <span class="codeph"> CMYK </span>, <span class="codeph"> RGB </span> o <span class="codeph"> BW </span> (per immagini in scala di grigio). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed  </span> </p> </td> 
-   <td> <p> boolean </p> </td> 
-   <td> <p> 1 se l’immagine di risposta incorpora dei percorsi, 0 in caso contrario. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>.) </p> </td> 
+   <td> <p> booleano </p> </td> 
+   <td> <p> 1 se l’immagine di risposta incorpora percorsi qualsiasi, 0 in caso contrario. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
-   <td> <p> real </p> </td> 
+   <td> <p> reale </p> </td> 
    <td> <p> Risoluzione di stampa (dpi) </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -98,22 +99,22 @@ Per le richieste /is/image vengono restituite le seguenti proprietà:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.type  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Mime type per l'immagine di risposta. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt= </a> </span>.) </p> </td> 
+   <td> <p> Tipo di MIME per l'immagine di risposta. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.width  </span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p> Rispondi alla larghezza dell’immagine in pixel. </p> </td> 
+   <td> <p> Rispondi alla larghezza dell'immagine in pixel. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.xmpEmbed  </span> </p> </td> 
-   <td> <p> boolean </p> </td> 
-   <td> <p> 1 se l’immagine di risposta incorpora dati xmp, 0 in caso contrario. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed= </a> </span>.) </p> </td> 
+   <td> <p> booleano </p> </td> 
+   <td> <p> 1 se l'immagine di risposta incorpora dati xmp, 0 in caso contrario. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.version  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Identificatore versione immagine. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id= </a> </span>.) </p> </td> 
+   <td> <p> Identificatore della versione dell'immagine. (Vedere <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> metadata.version  </span> </p> </td> 
@@ -135,7 +136,7 @@ Per le richieste `/is/content` vengono restituite le seguenti proprietà:
   <tr> 
    <td> <p> <span class="codeph"> path  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p>Percorso del file parzialmente risolto. (Vedere <span class="codeph"> static::Path </span>.) </p> </td> 
+   <td> <p>Percorso file parzialmente risolto. (Vedere <span class="codeph"> static::Path </span>.) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> length </span> </p> </td> 
@@ -143,19 +144,19 @@ Per le richieste `/is/content` vengono restituite le seguenti proprietà:
    <td> <p> Dimensioni del file dell'oggetto in byte </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> exit  </span> </p> </td> 
+   <td> <p> <span class="codeph"> scadenza  </span> </p> </td> 
    <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> static::Scadenza  </span> o ora predefinita in cui vivere </p> </td> 
+   <td> <p> <span class="codeph"> statico::scadenza  </span> o tempo predefinito di vita </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> lastModified  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Data/ora di modifica (da <span class="codeph"> statica::TimeStamp </span> o dal file dell'oggetto) </p> </td> 
+   <td> <p> Data/ora di modifica (da <span class="codeph"> statico::TimeStamp </span> o dal file oggetto) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> userType  </span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> static:UserType  </span> </p> </td> 
+   <td> <p> <span class="codeph"> static::UserType  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
