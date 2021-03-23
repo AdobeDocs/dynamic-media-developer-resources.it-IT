@@ -1,16 +1,17 @@
 ---
 description: Matrice di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
 seo-description: Matrice di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
-seo-title: TaskProgressArray
+seo-title: MatriceAvanzamentoAttività
 solution: Experience Manager
-title: TaskProgressArray
-topic: Dynamic Media Image Production System API
+title: MatriceAvanzamentoAttività
 uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`item`*` | `types:TaskProgress` | Elementi di avanzamento attività. L&#39;occorrenza minima è zero. L&#39;occorrenza massima è illimitata. |
+| `*`item`*` | `types:TaskProgress` | Elementi di avanzamento attività. L&#39;occorrenza minima è zero. L&#39;occorrenza massima non è delimitata. |
 
