@@ -1,15 +1,16 @@
 ---
-description: Restituisce informazioni sulla società specificata, incluso l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
-seo-description: Restituisce informazioni sulla società specificata, incluso l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
+description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
+seo-description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # getCompanyInfo{#getcompanyinfo}
 
-Restituisce informazioni sulla società specificata, incluso l&#39;handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
+Restituisce informazioni sulla società specificata, tra cui l&#39;handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
 
 Sintassi
 
@@ -50,13 +51,13 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>È necessario <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>L'handle della società di cui si desidera ottenere le informazioni. </p> </td> 
+   <td colname="col4"> <p>L'handle dell'azienda di cui si desidera ottenere le informazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>È necessario <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>Nome della società di cui si desidera ottenere le informazioni. </p> </td> 
+   <td colname="col4"> <p>Nome dell'azienda di cui si desidera ottenere le informazioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,16 +76,16 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipi:Società</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipi:Azienda</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestione e altre informazioni descrittive sulla società. </p> </td> 
+   <td colname="col4"> <p>Gestisci e altre informazioni descrittive sull'azienda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Questo esempio di codice restituisce tutte le informazioni su una società utilizzando il nome e l&#39;handle di una società. Restituisce dati simili alla risposta ricevuta al momento della creazione di una società.
+Questo esempio di codice restituisce tutte le informazioni su un&#39;azienda utilizzando un nome e un handle dell&#39;azienda. Restituisce dati simili alla risposta ricevuta al momento della creazione di una società.
 
 **Request Contents (Richiesta contenuto)**
 
