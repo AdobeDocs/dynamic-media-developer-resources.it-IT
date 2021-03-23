@@ -2,13 +2,14 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-topic: Dynamic Media
 uuid: 769ae5e4-23ee-435a-9a56-d84a32004b00
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 5%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> sinistra|centro|destra,in alto|al centro|in basso</span> </p> </td> 
-   <td colname="col2"> <p> Specifica l'allineamento orizzontale interno (o ancoraggio) del contenitore delle miniature all'interno dell'area del componente. </p> <p>Nel pannello di ricerca, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di miniature. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. </p> <p>Questo modificatore specifica in che modo il contenitore delle miniature interne viene posizionato orizzontalmente all’interno del componente. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> sinistra|centro|destra,in alto|centro|in basso</span> </p> </td> 
+   <td colname="col2"> <p> Specifica l’allineamento orizzontale interno, o ancoraggio, del contenitore miniature all’interno dell’area del componente. </p> <p>In SearchPanel, il contenitore di miniature interno viene ridimensionato in modo che venga visualizzato solo un numero intero di miniature. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. </p> <p>Questo modificatore specifica il modo in cui il contenitore miniature interno viene posizionato in orizzontale all’interno del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
