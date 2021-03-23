@@ -1,15 +1,16 @@
 ---
-description: Abilitare le intestazioni di risposta modificate per l’ultima volta. Abilita o disabilita l’inclusione dell’intestazione Ultima modifica nelle risposte HTTP memorizzabili nella cache emesse dal rendering immagine.
-seo-description: Abilitare le intestazioni di risposta modificate per l’ultima volta. Abilita o disabilita l’inclusione dell’intestazione Ultima modifica nelle risposte HTTP memorizzabili nella cache emesse dal rendering immagine.
+description: Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Rendering.
+seo-description: Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Rendering.
 seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 1%
 
 # UseLastModified{#uselastmodified}
 
-Abilitare le intestazioni di risposta modificate per l’ultima volta. Abilita o disabilita l’inclusione dell’intestazione Ultima modifica nelle risposte HTTP memorizzabili nella cache emesse dal rendering immagine.
+Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Rendering.
 
-Il server utilizza il valore più recente `vignette::TimeStamp` e `catalog::TimeStamp` di tutti i cataloghi di vignettature e materiali/record di cataloghi coinvolti in una risposta come valore dell&#39;intestazione Ultima modifica.
+Il server utilizza il valore `vignette::TimeStamp` e `catalog::TimeStamp` più recente di tutte le vignette e di tutti i cataloghi di materiali/record di catalogo coinvolti in una risposta come valore dell&#39;intestazione Last-Modified.
 
-Deve essere attivato solo se viene utilizzata una rete di caching distribuito, come Akamai, che non supporta le intestazioni dei tag.
+Deve essere abilitato solo se viene utilizzata una rete di caching distribuita, come Akamai, che non supporta le intestazioni etag.
 
 >[!NOTE]
 >
->Prestate attenzione quando usate le intestazioni Ultima modifica in un ambiente con bilanciamento del carico che coinvolge più host Image Serving/Rendering. Il caching dei client potrebbe essere ignorato e il caricamento del server potrebbe aumentare se per qualche motivo i server dispongono di timestamp diversi per le stesse voci di catalogo. Tale situazione può verificarsi come segue:
+>Presta attenzione quando utilizzi le intestazioni Last-Modified in un ambiente con bilanciamento del carico che coinvolge più host Image Serving/Rendering. La memorizzazione in cache del client potrebbe essere ignorata e il caricamento del server potrebbe aumentare se per qualche motivo i server dispongono di timestamp diversi per le stesse voci di catalogo. Tale situazione può verificarsi come segue:
 
-* Non è definito né `catalog::TimeStamp`, `vignette::TimeStamp`, né `attribute::TimeStamp`, in modo che il tempo di modifica del file [!DNL catalog.ini] sia utilizzato come impostazione predefinita per `catalog::TimeStamp`.
+* Né `catalog::TimeStamp`, `vignette::TimeStamp`, né `attribute::TimeStamp` sono definiti, in modo che l&#39;ora di modifica del file [!DNL catalog.ini] sia utilizzata come impostazione predefinita per `catalog::TimeStamp`.
 
-* Anziché condividere i file del catalogo dei materiali tramite un montaggio di rete, ogni server dispone di una propria istanza dei file del catalogo in un file system locale.
-* Due o più istanze dello stesso file [!DNL catalog.ini] hanno date di modifica diverse, probabilmente causate da una copia non corretta dei file.
+* Invece di condividere i file di catalogo del materiale tramite un montaggio di rete, ogni server ha la propria istanza dei file di catalogo su un file system locale.
+* Due o più istanze dello stesso file [!DNL catalog.ini] hanno date di modifica diverse, probabilmente a causa di una copia impropria dei file.
 
 ## Proprietà {#section-453952244193452caccfaf7f601007c1}
 
-Flag. 0 per disattivare, 1 per abilitare le intestazioni HTTP Ultima modifica.
+Bandiera. 0 per disabilitare, 1 per abilitare le intestazioni HTTP Last-Modified.
 
 ## Predefinito {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
@@ -42,4 +43,4 @@ Ereditato da `default::UseLastModified` se non definito o se vuoto.
 
 ## Consultate anche {#section-1536715169da48b0aecc4ab7326c86db}
 
-[catalogo::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) ,  [vignettatura::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
+[catalogo::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) ,  [vignetta::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
