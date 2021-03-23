@@ -1,22 +1,23 @@
 ---
-description: La classe principale del visualizzatore 360 gradi è Visualizzatore 360 gradi. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e richiamate di questa particolare classe.
-seo-description: La classe principale del visualizzatore 360 gradi è Visualizzatore 360 gradi. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e richiamate di questa particolare classe.
-seo-title: Riferimento API JavaScript per il visualizzatore 360 gradi
+description: La classe principale del Visualizzatore 360 gradi è SpinViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
+seo-description: La classe principale del Visualizzatore 360 gradi è SpinViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
+seo-title: Riferimento API di Javascript per il visualizzatore a 360 gradi
 solution: Experience Manager
-title: Riferimento API JavaScript per il visualizzatore 360 gradi
-topic: Dynamic Media
+title: Riferimento API di Javascript per il visualizzatore a 360 gradi
 uuid: c38d3336-504b-4b14-9a6a-ba8eab9e2f3e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 
-# Riferimento API Javascript per il visualizzatore 360 gradi{#javascript-api-reference-for-spin-viewer}
+# Riferimento API JavaScript per il visualizzatore 360 gradi{#javascript-api-reference-for-spin-viewer}
 
-La classe principale del visualizzatore 360 gradi è Visualizzatore 360 gradi. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e richiamate di questa particolare classe.
+La classe principale del Visualizzatore 360 gradi è SpinViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
 
-In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla classe `s7viewers.SpinViewer`.
+In tutti gli esempi seguenti, `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript che viene creato dall&#39;istanza della classe `s7viewers.SpinViewer`.
