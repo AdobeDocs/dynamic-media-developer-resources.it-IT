@@ -1,15 +1,16 @@
 ---
-description: Un processo che copia nuovamente una risorsa PDF esistente.
-seo-description: Un processo che copia nuovamente una risorsa PDF esistente.
+description: Un processo che ricompila una risorsa PDF esistente.
+seo-description: Un processo che ricompila una risorsa PDF esistente.
 seo-title: RipPdfsJob
 solution: Experience Manager
 title: RipPdfsJob
-topic: Dynamic Media Image Production System API
 uuid: 95990d53-4baf-44a2-8d84-3cab2b5c9105
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # RipPdfsJob{#rippdfsjob}
 
-Un processo che copia nuovamente una risorsa PDF esistente.
+Un processo che ricompila una risorsa PDF esistente.
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Un processo che copia nuovamente una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Gestire l'array di file PDF da estrarre. </p> </td> 
+   <td colname="col3"> <p>Gestire l’array di file PDF da copiare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -47,12 +48,12 @@ Un processo che copia nuovamente una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni di ritaglio manuale. </p> </td> 
+   <td colname="col3"> <p>Opzioni di ritaglio manuali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipi:AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni di ritaglio automatiche. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipi:OpzioniRitaglioColoreAutomatico</span> </p> </td> 
+   <td colname="col3"> <p>Opzioni di ritaglio automatico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
@@ -82,7 +83,7 @@ Un processo che copia nuovamente una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Un array di handle di progetto. </p> </td> 
+   <td colname="col3"> <p>Matrice di handle di progetto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
@@ -92,32 +93,32 @@ Un processo che copia nuovamente una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>L’URL in cui vengono caricati i file. </p> </td> 
+   <td colname="col3"> <p>URL in cui vengono caricati i file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Dettagli del processo per il processo di pubblicazione di un server di gestione immagini da eseguire al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione di image serving da eseguire dopo il completamento del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Dettagli del processo per il processo di pubblicazione di un rendering immagine da eseguire al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione di rendering di immagini da eseguire al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Dettagli del processo di pubblicazione di un video da eseguire al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione video da eseguire al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni per caricare  file Adobe InDesign nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file Adobe InDesign nel server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascherare lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza all’esterno dell’immagine oggetto. </p> <p>Facoltativo. </p> <p>Vedere<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedere<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
