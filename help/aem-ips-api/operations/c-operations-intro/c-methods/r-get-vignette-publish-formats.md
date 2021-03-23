@@ -2,13 +2,14 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-topic: Dynamic Media Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '68'
+ht-degree: 19%
 
 ---
 
@@ -30,17 +31,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
 
 **Output (getVignettePublishFormatsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | Sì | Array di formati di pubblicazione vignettatura. |
+| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | Sì | Array di formati di pubblicazione della vignetta. |
 
 ## Esempi {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Questo esempio di codice restituisce due formati di pubblicazione di vignettatura associati a una società specifica. Le informazioni vengono restituite in un array, troncato per brevità.
+Questo esempio di codice restituisce due formati di pubblicazione di vignetta associati a una specifica azienda. Le informazioni vengono restituite in una matrice, troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 
