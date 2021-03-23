@@ -1,15 +1,16 @@
 ---
 description: I campi seguenti sono riconosciuti nei file di definizione delle macro.
 seo-description: I campi seguenti sono riconosciuti nei file di definizione delle macro.
-seo-title: Definizioni macro
+seo-title: Definizioni delle macro
 solution: Experience Manager
-title: Definizioni macro
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Definizioni delle macro
 uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ I campi seguenti sono riconosciuti nei file di definizione delle macro.
 <table id="simpletable_C34D1161A6E84214AD97F79345BDB180"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-name-macro.md#reference-7430cb46507c4cc2979151ceea76781a" type="reference" format="dita" scope="local"> Nome</a></span> </p></td> 
-  <td class="stentry"> <p>Nome della macro (chiave di indice). </p></td> 
+  <td class="stentry"> <p>Nome macro (chiave indice). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> Definizione</a></span> </p></td> 
