@@ -4,12 +4,13 @@ seo-description: Parametro comune a tutti i visualizzatori.
 seo-title: config
 solution: Experience Manager
 title: config
-topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -25,12 +26,12 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini che contiene le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia al server un comando <span class="codeph"> req=userdata </span> per <span class="codeph"> configId </span> ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa URL specifica le stesse proprietà, sostituiscono i valori dal catalogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini contenente le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia un comando <span class="codeph"> req=userdata </span> per <span class="codeph"> configId </span> al server ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa URL specifica le stesse proprietà, sostituisce i valori dal catalogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tutti i comandi del visualizzatore che possono essere specificati in `catalog::UserData` prevedono se stessi `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` e `config`.
+Tutti i comandi del visualizzatore che possono essere specificati in `catalog::UserData` prevedono `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` e `config` se stessi.
 
 ## Proprietà {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -42,13 +43,13 @@ Nessuno.
 
 ## Esempio 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Un catalogo di immagini denominato 2020 contiene la voce `preset-oct`. Il campo `catalog::UserData` di questa voce del catalogo include i dati seguenti:
+Un catalogo di immagini denominato 2020 contiene la voce `preset-oct`. Il campo `catalog::UserData` di questa voce di catalogo include i dati seguenti:
 
 ```
 style=customStyle.css
 ```
 
-Caricate il visualizzatore con il comando seguente:
+Carica il visualizzatore con il seguente comando:
 
 ```
 config=2020/preset-oct
@@ -62,14 +63,14 @@ style=customStyle.css
 
 ## Esempio 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Un catalogo di immagini denominato 2019 contiene la voce `spin-oct`. Il campo `catalog::UserData` di questa voce del catalogo include i dati seguenti:
+Un catalogo di immagini denominato 2019 contiene la voce `spin-oct`. Il campo `catalog::UserData` di questa voce di catalogo include i dati seguenti:
 
 ```
 zoomStep=3 
 maxZoom=200
 ```
 
-Caricate il visualizzatore con il comando seguente:
+Carica il visualizzatore con il seguente comando:
 
 ```
 config=2019/spin-oct
@@ -89,7 +90,7 @@ Un predefinito per visualizzatori denominato `Shoppable_Banner` include i dati s
 style=etc/dam/presets/css/html5_interactiveimage.css
 ```
 
-Caricate il visualizzatore con il comando seguente:
+Carica il visualizzatore con il seguente comando:
 
 ```
 config=/etc/dam/presets/viewer/Shoppable_Banner
@@ -107,7 +108,7 @@ Un predefinito per visualizzatori denominato `Shoppable_Video_Dark` contiene i d
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-Caricate il visualizzatore con il comando seguente:
+Carica il visualizzatore con il seguente comando:
 
 ```
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
@@ -119,15 +120,15 @@ Equivale ai seguenti comandi specificati esplicitamente nell’URL:
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Esempio 5 {#section-19b988551d1d492a9079948e0b04b38f}
+## Esempio 4 {#section-19b988551d1d492a9079948e0b04b38f}
 
-Un predefinito per visualizzatori denominato `Carousel_Dotted_light` con i seguenti dati:
+Un predefinito visualizzatore denominato `Carousel_Dotted_light`:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 ```
 
-Caricate il visualizzatore con il comando seguente:
+Carica il visualizzatore con il seguente comando:
 
 ```
 config=/etc/dam/presets/viewer/Carousel_Dotted_light
