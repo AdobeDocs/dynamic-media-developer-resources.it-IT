@@ -2,12 +2,13 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-topic: Dynamic Media
 uuid: 832ebacf-d57f-4efa-ab1a-6a454f7c7a32
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '168'
 ht-degree: 2%
 
 ---
@@ -20,12 +21,12 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Controlla la direzione dell’aspetto del pannello a discesa. </p> <p>Quando è impostato su <span class="codeph"> fit-vertical</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del pulsante e tenta di eseguire il rollout del pannello a destra o a sinistra dalla posizione di base. Per ogni tentativo, il componente verifica se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi non vanno a buon fine, il componente tenta di spostare la posizione del pannello di base verso l’alto e di ripetere i tentativi di implementazione nella direzione destra e sinistra. </p> <p>Se impostato su <span class="codeph"> fit-lateral</span>, il componente utilizza una logica simile, ma sposta prima la base verso destra, provando a scorrere verso il basso e verso l'alto le direzioni. Poi sposta la base a sinistra, cercando di abbassare e di alzare le direzioni. </p> </td> 
+   <td> <p> <span class="codeph"> adatto laterale|adatta verticale</span> </p> </td> 
+   <td> <p> Controlla la direzione dell’aspetto del pannello a discesa. </p> <p>Quando è impostato su <span class="codeph"> fit-Vertical</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del relativo pulsante e cerca di eseguire il rollout del pannello a destra o a sinistra dalla posizione di base. A ogni tentativo, il componente controlla se il pannello è troncato da un contenitore esterno. Se tutti i tentativi non riescono, il componente tenta di spostare la posizione del pannello di base verso l’alto e ripetere i tentativi di rollout nella direzione destra e sinistra. </p> <p>Quando è impostato su <span class="codeph"> fit-lateral</span>, il componente utilizza una logica simile, ma sposta la base a destra prima, provando a scorrere verso il basso e verso l'alto le direzioni di rollout. Poi sposta la base a sinistra, provando giù e su le direzioni di rotolamento. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Imposta il ritardo in secondi per il timer di disattivazione automatica del menu a discesa che nasconde il pannello quando un utente è inattivo. </p> </td> 
+   <td> <p> Imposta il ritardo in secondi del timer di mascheramento automatico del menu a discesa che nasconde il pannello quando un utente è inattivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
