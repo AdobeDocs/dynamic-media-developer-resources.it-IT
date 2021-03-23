@@ -4,13 +4,14 @@ seo-description: Sposta una risorsa in una cartella specifica.
 seo-title: moveAsset
 solution: Experience Manager
 title: moveAsset
-topic: Dynamic Media Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 13%
+source-wordcount: '93'
+ht-degree: 11%
 
 ---
 
@@ -36,9 +37,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Passate alla risorsa da spostare. |
-| `*`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella di destinazione. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci la risorsa da spostare. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestisci la cartella di destinazione. |
 
 **Output (moveAssetReturn)**
 
@@ -46,7 +47,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Questo esempio di codice consente di spostare una risorsa in una cartella.
+Questo codice di esempio sposta una risorsa in una cartella.
 
 **Request Contents (Richiesta contenuto)**
 
