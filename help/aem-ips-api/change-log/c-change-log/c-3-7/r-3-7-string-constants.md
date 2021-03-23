@@ -1,20 +1,21 @@
 ---
-description: Descrive le costanti stringa nuove e modificate per l'API IPS versione 3.7.
+description: Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.7.
 solution: Experience Manager
 title: Costanti stringa nuove e modificate
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 5%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
 
 # Costanti stringa: Nuovo e modificato{#string-constants-new-and-modified}
 
-Descrive le costanti stringa nuove e modificate per l&#39;API IPS versione 3.7.
+Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.7.
 
 Sintassi
 
@@ -38,5 +39,5 @@ Sintassi
 
 **Tipi di risorse**
 
-* Aggiunto `Zip`.
+* È stato aggiunto `Zip`.
 
