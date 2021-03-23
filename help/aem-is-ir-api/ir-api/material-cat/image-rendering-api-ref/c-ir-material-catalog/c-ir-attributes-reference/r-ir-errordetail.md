@@ -4,12 +4,13 @@ seo-description: Dettagli del messaggio di errore. Specifica il livello di detta
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -26,7 +27,7 @@ Sono consentiti i seguenti valori:
 <table id="simpletable_7904444FF9F14D678F05094CA9E45664"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Solo titolo. Restituisce una breve descrizione generale dell'errore. </p></td> 
+  <td class="stentry"> <p>Solo titolo. Restituisce una breve descrizione generale dell’errore. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -34,17 +35,17 @@ Sono consentiti i seguenti valori:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Messaggio dettagliato. Fornisce informazioni dettagliate a livello di utente sull'errore. Può includere informazioni riservate, ad esempio percorsi di file. </p></td> 
+  <td class="stentry"> <p>Messaggio dettagliato. Fornisce dettagli a livello di utente sull'errore. Possono includere informazioni sensibili, ad esempio percorsi di file. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informazioni di debug complete. Aggiunge tracce stack Java quando applicabile. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge tracce di stack Java. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
 * Il livello 0 è consigliato per i server live a cui è possibile accedere pubblicamente.
-* Il livello 2 è consigliato per server di pre-produzione, controllo qualità e sviluppo di applicazioni.
-* Le informazioni di livello 3 possono essere utili per segnalare problemi al supporto tecnico Dynamic Media.
+* Il livello 2 è consigliato per server di staging, controllo qualità e sviluppo di applicazioni.
+* Le informazioni di livello 3 possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Media.
 
 ## Proprietà {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
@@ -56,4 +57,4 @@ Ereditato da `default::ErrorDetail` se non specificato o se vuoto.
 
 ## Consultate anche {#section-474e71922d194c7ca06f2aad3b30e025}
 
-[attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attributo::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
