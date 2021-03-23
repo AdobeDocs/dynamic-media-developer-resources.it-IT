@@ -1,15 +1,16 @@
 ---
-description: Durata cache client. Numero di ore fino alla scadenza. Utilizzato per gestire il caching dei client e dei server proxy.
-seo-description: Durata cache client. Numero di ore fino alla scadenza. Utilizzato per gestire il caching dei client e dei server proxy.
+description: Tempo di esecuzione della cache del client. Numero di ore fino alla scadenza. Utilizzato per gestire la memorizzazione in cache del server client e proxy.
+seo-description: Tempo di esecuzione della cache del client. Numero di ore fino alla scadenza. Utilizzato per gestire la memorizzazione in cache del server client e proxy.
 seo-title: Scadenza
 solution: Experience Manager
 title: Scadenza
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fa267728-9a36-4705-97d6-d567148fc2d7
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '158'
 ht-degree: 2%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 2%
 
 # Scadenza{#expiration}
 
-Durata cache client. Numero di ore fino alla scadenza. Utilizzato per gestire il caching dei client e dei server proxy.
+Tempo di esecuzione della cache del client. Numero di ore fino alla scadenza. Utilizzato per gestire la memorizzazione in cache del server client e proxy.
 
-Vedere ` [catalog::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce)` per informazioni dettagliate.
+Per ulteriori informazioni, vedere ` [catalog::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce)` .
 
 ## Proprietà {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-Numero reale, -2, -1, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dell’immagine di risposta. Impostate su 0 per scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita in modo efficace il caching del client. Impostare su -1 per contrassegnare come `never expire`; in questo caso, il server restituisce sempre lo stato 403 in risposta alle richieste condizionali `GET` senza verificare se il file è effettivamente cambiato. Impostare su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
+Numero reale, -2, -1, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dell&#39;immagine di risposta. Imposta su 0 per far scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita in modo efficace il caching del client. Impostare su -1 per contrassegnare come `never expire`; in questo caso il server restituisce sempre lo stato 403 in risposta alle richieste condizionali `GET` senza verificare se il file è effettivamente cambiato. Imposta su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
 
 ## Predefinito {#section-fb8ea80975034b49af7510764758f123}
 
