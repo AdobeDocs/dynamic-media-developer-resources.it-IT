@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
-seo-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
+description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+seo-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 5f7be1d4-28aa-497c-9067-853c227aa11a
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore 360 gradi.
+Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
-` setParam( *`name, value`*)`
+` setParam( *`nome, valore`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> name del parametro. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
@@ -34,9 +35,9 @@ Riferimento API JavaScript per il visualizzatore 360 gradi.
  </tbody> 
 </table>
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro è un&#39;opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto JSON `config` al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l’oggetto JSON `config` al costruttore.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
