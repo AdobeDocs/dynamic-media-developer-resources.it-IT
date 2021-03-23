@@ -1,15 +1,16 @@
 ---
-description: Elemento pattern con espressione regolare. Facoltativo negli elementi <rule>.
-seo-description: Elemento pattern con espressione regolare. Facoltativo negli elementi <rule>.
-seo-title: expression
+description: Elemento pattern con espressione regolare. Facoltativo negli elementi <rule> .
+seo-description: Elemento pattern con espressione regolare. Facoltativo negli elementi <rule> .
+seo-title: espressione
 solution: Experience Manager
-title: expression
-topic: Dynamic Media Image Serving - Image Rendering API
+title: espressione
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
@@ -29,19 +30,19 @@ Stringa di pattern con espressione regolare.
 
 ## Descrizione {#section-3245c8a531bb455d8398449f6ea63b37}
 
-L&#39;elemento `<expression>` può essere vuoto o contenere una semplice stringa di ricerca o un pattern di espressione regolare. Il pattern viene applicato all&#39;intera stringa di richiesta.
+L&#39;elemento `<expression>` può essere vuoto o contenere una stringa di ricerca semplice o un pattern di espressione regolare. Il pattern viene applicato all’intera stringa di richiesta.
 
 Una corrispondenza si verifica sempre quando `<expression>` è vuoto o non è specificato; equivale a specificare `<expression>.*</expression>`.
 
-L&#39;implementazione è basata sul pacchetto Java [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e), che fornisce una sintassi con espressione regolare simile a quella di Perl.
+L&#39;implementazione si basa sul pacchetto Java [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e), che fornisce una sintassi con espressione regolare simile a quella di Perl.
 
 ## Nota {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-La stringa di espressione non deve contenere caratteri letterali &lt; e &amp;. Questi caratteri riservati possono essere codificati rispettivamente con `&` e `<`, oppure l&#39;intera stringa può essere racchiusa in una sezione XML `CDATA`:
+La stringa di espressione non deve contenere caratteri letterali &lt; e &amp;. Questi caratteri riservati possono essere codificati rispettivamente con `&` e `<` oppure l&#39;intera stringa può essere racchiusa in una sezione XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Tutti i caratteri compresi tra i tag `<expression>` e `</expression>` vengono passati al parser di espressioni regolari, inclusi i caratteri al di fuori della sezione opzionale `CDATA`. Fare attenzione a evitare spazi bianchi aggiuntivi.
+Tutti i caratteri tra i tag `<expression>` e `</expression>` vengono passati al parser di espressioni regolari, inclusi i caratteri al di fuori della sezione opzionale `CDATA` . Presta attenzione a evitare spazi bianchi aggiuntivi.
 
 ## Consultate anche {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 
