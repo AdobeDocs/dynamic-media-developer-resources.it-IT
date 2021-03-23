@@ -1,15 +1,16 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic Media
 uuid: 2576f433-b9c2-4da1-9a51-f66b71d5df99
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 3%
 
 # VideoPlayer.playback{#videoplayer-playback}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]playback=auto|progressive`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. </p> <p>Quando si imposta <span class="codeph"> auto</span>, nella maggior parte dei browser desktop e in tutti i dispositivi iOS il visualizzatore utilizza lo streaming video HTML5 in formato HLS, e torna alla riproduzione progressiva HTML5 su alcuni sistemi come Internet Explorer e Android meno recenti. </p> <p>Quando si imposta <span class="codeph"> progressive</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente il video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità native <span class="codeph"> auto</span> e <span class="codeph"> progressive</span>, consultate la guida utente dell’SDK per visualizzatori HTML5. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatico|progressivo</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. </p> <p>Quando <span class="codeph"> auto</span> è impostato, nella maggior parte dei browser desktop e in tutti i dispositivi iOS il visualizzatore utilizza video in streaming HTML5 in formato HLS, e torna alla riproduzione progressiva HTML5 su alcuni sistemi come i vecchi Internet Explorer e Android. </p> <p>Quando si imposta <span class="codeph"> progressivo</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente i video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità native dei visualizzatori HTML5, vedere la Guida utente dell'SDK per visualizzatori HTML5.<span class="codeph"></span><span class="codeph"></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
