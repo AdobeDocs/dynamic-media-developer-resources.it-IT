@@ -2,13 +2,14 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-topic: Dynamic Media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 6%
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostata su <span class="codeph"> -1</span>, il componente precarica tutti i fotogrammi del catalogo quando è in stato di inattività. </p> <p> Se impostato su <span class="codeph"> 0</span>, il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p>Impostate <span class="codeph"><span class="varname"> precaricatore</span></span> per definire quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati in stato di inattività. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricare</span></span> </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Quando è impostato su <span class="codeph"> -1</span> il componente precarica tutti i fotogrammi del catalogo quando sono in uno stato di inattività. </p> <p> Quando è impostato su <span class="codeph"> 0</span> il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p>Impostare <span class="codeph"><span class="varname"> preload</span></span> per definire quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati in uno stato di inattività. </p> </td> 
   </tr> 
  </tbody> 
 </table>
