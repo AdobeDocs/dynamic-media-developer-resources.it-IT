@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: CallToAction.fmt
 solution: Experience Manager
 title: CallToAction.fmt
-topic: Dynamic Media
 uuid: c85160e2-431f-42af-a468-c754bfe86ecd
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # CallToAction.fmt{#calltoaction-fmt}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[CallToAction.|<containerId>_callToAction.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini. </p> <p>Se il formato specificato termina con "<span class="codeph"> -alpha</span>", il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente considera le immagini come opache. </p> </td> 
+   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini. </p> <p>Se il formato specificato termina con "<span class="codeph"> -alpha</span>", il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente considera le immagini come opache. </p> </td> 
   </tr> 
  </tbody> 
 </table>
