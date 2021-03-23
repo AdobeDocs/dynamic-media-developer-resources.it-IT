@@ -1,25 +1,26 @@
 ---
-description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (di fatto, il valore predefinito per il terzo valore del comando fmt=).
-seo-description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (di fatto, il valore predefinito per il terzo valore del comando fmt=).
-seo-title: TiffEncoding
+description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
+seo-description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
+seo-title: Codifica tiff
 solution: Experience Manager
-title: TiffEncoding
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Codifica tiff
 uuid: b9f672f8-d759-4248-8588-9fe46db1645f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # TiffEncoding{#tiffencoding}
 
-Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (di fatto, il valore predefinito per il terzo valore del comando fmt=).
+Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
 
-Impostare su 0 per nessuna compressione, 1 per LZW, 2 per deflate (ZIP) e 3 per la compressione JPEG.
+Impostare su 0 per nessuna compressione, 1 per LZW, 2 per deflate (ZIP) e 3 per compressione JPEG.
 
 ## Proprietà {#section-469f5a1225464542866f5353edd92db3}
 
