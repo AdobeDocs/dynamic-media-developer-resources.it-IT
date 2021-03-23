@@ -1,37 +1,38 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore zoom di base
-seo-description: Riferimento API JavaScript per il visualizzatore zoom di base
+description: Riferimento API JavaScript per i visualizzatori zoom di base
+seo-description: Riferimento API JavaScript per i visualizzatori zoom di base
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 3e9f4baf-4914-42a8-a1bf-5756cbbd407b
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 1%
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
 # getComponent{#getcomponent}
 
-Riferimento API JavaScript per il visualizzatore zoom di base
+Riferimento API JavaScript per i visualizzatori zoom di base
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK per visualizzatori usato dal visualizzatore. La pagina Web può usare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Richiamate questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`. In caso contrario, il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` -  `{String}` un ID del componente SDK per visualizzatori usato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
+`*`componentID`*` :  `{String}` un ID del componente SDK per visualizzatori utilizzato dal visualizzatore. Questo visualizzatore supporta i seguenti ID componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatori </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome della classe del componente SDK per visualizzatori </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -74,9 +75,9 @@ Restituisce un riferimento al componente SDK per visualizzatori usato dal visual
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo e corretto come descritto nello spazio dei nomi SDK per visualizzatori
+Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo e corretto, come descritto nello spazio dei nomi dell’SDK per visualizzatori
 
-Per ulteriori informazioni su un particolare componente, consultate la documentazione API SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione relativa all’API SDK per visualizzatori .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
