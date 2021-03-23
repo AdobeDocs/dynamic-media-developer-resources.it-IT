@@ -1,13 +1,14 @@
 ---
-description: Percorso del file immagine.
+description: Percorso file immagine.
 solution: Experience Manager
 title: Percorso
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 4%
 
 ---
@@ -15,19 +16,19 @@ ht-degree: 4%
 
 # Percorso{#path}
 
-Percorso del file immagine.
+Percorso file immagine.
 
-Percorso relativo o assoluto e nome del file immagine di origine associato a questo record catalogo. Il server utilizza le regole di risoluzione dei percorsi descritte in Gestione dei dati di origine per trovare il file di dati.
+Percorso relativo o assoluto e nome del file immagine di origine associato al record del catalogo. Per trovare il file di dati, il server utilizza le regole di risoluzione del percorso descritte in Gestione dei dati di origine .
 
 ## Proprietà {#path-properties}
 
-Stringa di testo. Obbligatorio per i record immagine, può essere vuoto per i record modello. Se specificato, deve essere un percorso di file del server immagini relativo o assoluto valido. attribute::DefaultExt viene aggiunto se non è presente alcun suffisso di file.
+Stringa di testo. Obbligatorio per i record immagine, può essere vuoto per i record modello. Se specificato, deve essere un percorso di file server di immagini relativo o assoluto valido. attribute::DefaultExt viene aggiunto se non è presente alcun suffisso di file.
 
 ## Formati di file immagine supportati {#path-supported-image-file-formats}
 
-Per un elenco completo dei formati di file supportati, fare riferimento alla descrizione dell’utility Image Converter (IC).
+Fare riferimento alla descrizione dell&#39;utilità Image Converter (IC) per un elenco completo dei formati di file supportati.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse otterranno le prestazioni migliori quando si utilizza il formato Dynamic Media a piramide TIFF (PTIFF) a risoluzione multipla. L’utility IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati di immagine in più risoluzioni diverse avranno prestazioni migliori quando si utilizza il formato multi-risoluzione TIFF (PTIFF) piramidale di Dynamic Media. L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato immagine supportato.
 
 ## Predefinito {#path-default}
 
@@ -35,6 +36,6 @@ Nessuno.
 
 ## Consultate anche {#path-seealso}
 
-[Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [attributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [attributo::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ,  [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[Utilità](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [attributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [attributo::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ,  [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->
