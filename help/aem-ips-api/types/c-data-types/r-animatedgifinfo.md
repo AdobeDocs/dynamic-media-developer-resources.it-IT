@@ -4,13 +4,14 @@ seo-description: Proprietà di una risorsa file GIF animata.
 seo-title: AnimatedGifInfo
 solution: Experience Manager
 title: AnimatedGifInfo
-topic: Dynamic Media Image Production System API
 uuid: add69c62-1139-4993-acf7-2e11e734ea83
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 
@@ -33,12 +34,12 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> OriginalPath</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Percorso del file GIF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> OriginalFile</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nome file. </p> </td> 
   </tr> 
