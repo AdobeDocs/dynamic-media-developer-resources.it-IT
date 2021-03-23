@@ -1,15 +1,16 @@
 ---
-description: Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La maggior parte non ha alcun significato per l’immagine composita e per richieste semplici e non a più livelli. Non si applicano ai livelli degli effetti.
-seo-description: Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La maggior parte non ha alcun significato per l’immagine composita e per richieste semplici e non a più livelli. Non si applicano ai livelli degli effetti.
+description: Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior parte non ha alcun significato per l'immagine composita e per richieste semplici e non a livelli. Non si applicano ai livelli di effetto.
+seo-description: Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior parte non ha alcun significato per l'immagine composita e per richieste semplici e non a livelli. Non si applicano ai livelli di effetto.
 seo-title: Comandi del livello comune
 solution: Experience Manager
 title: Comandi del livello comune
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Comandi del livello comune{#common-layer-commands}
 
-Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La maggior parte non ha alcun significato per l’immagine composita e per richieste semplici e non a più livelli. Non si applicano ai livelli degli effetti.
+Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior parte non ha alcun significato per l&#39;immagine composita e per richieste semplici e non a livelli. Non si applicano ai livelli di effetto.
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
@@ -26,18 +27,18 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La magg
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab" type="reference" format="dita" scope="local"> bgColor</a> </p></td> 
-  <td class="stentry"> <p>Specifica il colore e l’opacità dello sfondo del livello. </p></td> 
+  <td class="stentry"> <p>Specifica un colore e un'opacità di sfondo del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> estensione</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> estendere</a> </p></td> 
   <td class="stentry"> <p>Estende (o ritaglia) il rettangolo del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
-  <td class="stentry"> <p>Specifica il colore e l’opacità del livello. </p></td> 
+  <td class="stentry"> <p>Specifica il colore e l'opacità del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d" type="reference" format="dita" scope="local"> layer</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d" type="reference" format="dita" scope="local"> strato</a> </p></td> 
   <td class="stentry"> <p>Seleziona il livello e specifica l’ordine z. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -45,8 +46,8 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La magg
   <td class="stentry"> <p>Definisce una mappa immagine per questo livello. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opac</a> </p></td> 
-  <td class="stentry"> <p>Riduce l’opacità del livello. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opaca</a> </p></td> 
+  <td class="stentry"> <p>Riduce l'opacità del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> origine</a> </p></td> 
@@ -61,8 +62,8 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. La magg
   <td class="stentry"> <p>Specifica il vincolo di dimensione del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md#reference-e336facb21a644eea78c2c84c1c4576e" type="reference" format="dita" scope="local"> hide</a> </p></td> 
-  <td class="stentry"> <p>Nasconde il livello. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md#reference-e336facb21a644eea78c2c84c1c4576e" type="reference" format="dita" scope="local"> nascondere</a> </p></td> 
+  <td class="stentry"> <p>Nascondere il livello. </p></td> 
  </tr> 
 </table>
 
