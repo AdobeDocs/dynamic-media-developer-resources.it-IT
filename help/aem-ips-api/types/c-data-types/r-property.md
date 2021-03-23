@@ -1,23 +1,24 @@
 ---
-description: Una coppia nome/valore.
-seo-description: Una coppia nome/valore.
+description: Una coppia di nome e valore.
+seo-description: Una coppia di nome e valore.
 seo-title: Proprietà
 solution: Experience Manager
 title: Proprietà
-topic: Dynamic Media Image Production System API
 uuid: 3e1bcd92-cc39-4590-b495-f80b5ca92b1f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 27%
+source-wordcount: '36'
+ht-degree: 22%
 
 ---
 
 
 # Proprietà{#property}
 
-Una coppia nome/valore.
+Una coppia di nome e valore.
 
 Sintassi
 
@@ -25,6 +26,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nome proprietà. |
+| `*`name`*` | `xsd:string` | Nome della proprietà. |
 | `*`value`*` | `xsd:string` | Valore proprietà. |
 
