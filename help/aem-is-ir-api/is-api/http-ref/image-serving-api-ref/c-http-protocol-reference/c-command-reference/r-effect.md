@@ -1,38 +1,39 @@
 ---
-description: Selezionate Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associato al livello corrente.
-seo-description: Selezionate Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associato al livello corrente.
+description: Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associata al livello corrente.
+seo-description: Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associata al livello corrente.
 seo-title: effetto
 solution: Experience Manager
 title: effetto
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
 
 # effect{#effect}
 
-Selezionate Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associato al livello corrente.
+Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associata al livello corrente.
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>Numero del livello dell’effetto (numero intero non uguale a 0). </p></td> 
+  <td class="stentry"> <p>Numero del livello dell'effetto (in numero non uguale a 0). </p></td> 
  </tr> 
 </table>
 
-Tutti i comandi all’interno del nuovo segmento vengono applicati al livello dell’effetto specificato. Un segmento del livello di effetto viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
+Tutti i comandi all’interno del nuovo segmento vengono applicati al livello di effetto specificato. Un segmento di livello di effetto viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
 
-*`n`* deve essere minore di 0 per gli effetti del livello esterno (ossia gli effetti dietro il livello principale) e maggiore di 0 per gli effetti del livello interno (ossia gli effetti all’interno del livello principale). I numeri del livello dell’effetto non devono essere consecutivi.
+*`n`* deve essere minore di 0 per gli effetti del livello esterno (cioè gli effetti dietro il livello padre) e maggiore di 0 per gli effetti del livello interno (cioè gli effetti all&#39;interno del livello padre). I numeri dei livelli di effetto non devono essere consecutivi.
 
-Il numero del livello dell’effetto specifica l’ordine z, nel caso di più livelli di effetto per lo stesso livello principale. I livelli con numero superiore vengono posizionati sopra a quelli con numero inferiore.
+Il numero del livello di effetto specifica l&#39;ordine z, nel caso di più livelli di effetto per lo stesso livello padre. I livelli numerati più in alto vengono posizionati sopra i livelli numerati più in basso.
 
 I livelli degli effetti possono essere collegati a `layer=comp`.
 
