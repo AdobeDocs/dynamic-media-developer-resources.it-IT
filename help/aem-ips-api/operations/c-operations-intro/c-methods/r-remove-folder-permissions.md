@@ -4,12 +4,13 @@ seo-description: Rimuove le autorizzazioni della cartella.
 seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -45,13 +46,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della società con cartelle con le autorizzazioni da rimuovere. </td> 
+   <td colname="col4"> L'handle dell'azienda con cartelle con autorizzazioni da rimuovere. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Gestite la cartella. </td> 
+   <td colname="col4"> Gestisci la cartella. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
@@ -62,7 +63,7 @@ Sintassi
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La rimozione delle autorizzazioni viene propagata attraverso tutte le operazioni di autorizzazione delle cartelle. </li> 
      </ul> </p> <p>Quando <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
-      <li id="li_B8B78851004C43DB8CB7958E380AF510">L'operazione interessa solo la cartella specificata. </li> 
+      <li id="li_B8B78851004C43DB8CB7958E380AF510">L'operazione influisce solo sulla cartella specificata. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
