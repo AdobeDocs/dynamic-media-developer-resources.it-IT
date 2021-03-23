@@ -1,15 +1,16 @@
 ---
-description: Percorso del file immagine. Percorso relativo e nome di un file immagine di struttura o decal.
-seo-description: Percorso del file immagine. Percorso relativo e nome di un file immagine di struttura o decal.
+description: Percorso file immagine. Percorso relativo e nome di un file immagine di texture o decal.
+seo-description: Percorso file immagine. Percorso relativo e nome di un file immagine di texture o decal.
 seo-title: Percorso *
 solution: Experience Manager
 title: Percorso *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 3%
 
 # Percorso *{#path}
 
-Percorso del file immagine. Percorso relativo e nome di un file immagine di struttura o decal.
+Percorso file immagine. Percorso relativo e nome di un file immagine di texture o decal.
 
 Il server combina questo valore con `attribute::RootPath` per creare il percorso effettivo del file immagine. Può anche essere un percorso assoluto.
 
-Utilizzato per specificare il file immagine della texture per i materiali di rivestimento di texture, cabinet e finestre, nonché il file immagine RGB o RGBA per i materiali di decorazione e bordo della parete. Non tutti i materiali di rivestimento per armadietti e finestre richiedono un&#39;immagine di struttura ripetibile separata.
+Utilizzato per specificare il file immagine texture per materiali di texture, cabinet e rivestimento di finestre, e il file immagine RGB o RGBA per i materiali di decorazione e bordo muro. Non tutti i materiali di rivestimento per armadietti e finestre richiedono un&#39;immagine di texture ripetibile separata.
 
 ## Proprietà {#section-8c12ea24f21d4472be677581893e6681}
 
-Stringa di testo. Obbligatorio per materiali di texture e decantazione, opzionale per materiali di rivestimento per armadio e finestre. Se specificato, deve essere un percorso di file relativo o assoluto valido. Deve essere vuoto per i materiali in tinta unita.
+Stringa di testo. Richiesto per materiali di texture e decal, opzionale per materiali di rivestimento per armadietti e finestre. Se specificato, deve essere un percorso di file relativo o assoluto valido. Deve essere vuoto per i materiali a colori solidi.
 
 ## Formati di file supportati {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Il rendering delle immagini supporta gli stessi formati delle immagini sorgente di Dynamic Media Image Server.
+Image Rendering supporta gli stessi formati immagine sorgente di Dynamic Media Image Serving.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse si riveleranno ottimali quando si utilizza il formato Dynamic Media a piramide TIFF (PTIFF) a risoluzione multipla. Image Server include l’utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse si comportano al meglio quando si utilizza il formato multi-risoluzione TIFF (PTIFF) piramidale di Dynamic Media. Image Server include l&#39;utilità Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
-Per un elenco completo dei formati di file supportati, consultare la descrizione dell’utility IC nella documentazione di Image Server.
+Per un elenco completo dei formati di file supportati, fare riferimento alla descrizione dell&#39;utilità IC nella documentazione di Image Serving .
 
 ## Predefinito {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
@@ -41,4 +42,4 @@ Nessuno.
 
 ## Consultate anche {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [attributo::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md),  [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[Utilità](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [attributo::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md),  [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
