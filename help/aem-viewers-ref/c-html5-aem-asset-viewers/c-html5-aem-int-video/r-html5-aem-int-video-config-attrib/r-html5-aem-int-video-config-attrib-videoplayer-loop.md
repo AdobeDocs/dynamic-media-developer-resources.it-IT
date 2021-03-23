@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 6cc91f08-fff1-4b93-9807-5435335c8df5
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
