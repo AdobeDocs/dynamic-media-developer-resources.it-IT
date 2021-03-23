@@ -1,23 +1,24 @@
 ---
-description: Usato da  Illustrator/process.
-seo-description: Usato da  Illustrator/process.
-seo-title: ' processi Illustrator'
+description: Utilizzato da Illustrator/process.
+seo-description: Utilizzato da Illustrator/process.
+seo-title: Processi Illustrator
 solution: Experience Manager
-title: ' processi Illustrator'
-topic: Dynamic Media Image Production System API
+title: Processi Illustrator
 uuid: 77524dce-25f5-4b01-a729-605a93544fbb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 3%
 
 ---
 
 
-#  processi Illustrator{#illustrator-processes}
+# Processi Illustrator{#illustrator-processes}
 
-Usato da  Illustrator/process.
+Utilizzato da Illustrator/process.
 
 Sintassi
 
