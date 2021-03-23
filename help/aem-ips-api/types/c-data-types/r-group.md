@@ -4,13 +4,14 @@ seo-description: Set di utenti denominato utilizzato per assegnare le autorizzaz
 seo-title: Group (Gruppo)
 solution: Experience Manager
 title: Group (Gruppo)
-topic: Dynamic Media Image Production System API
 uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 15%
+source-wordcount: '58'
+ht-degree: 13%
 
 ---
 
@@ -25,8 +26,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | handle del gruppo. |
-| `*`companyHandle`*` | `xsd:string` | Maniglia aziendale. |
+| `*`groupHandle`*` | `xsd:string` | Maniglia di gruppo. |
+| `*`companyHandle`*` | `xsd:string` | Tratta l&#39;azienda. |
 | `*`name`*` | `xsd:string` | Nome del gruppo. |
-| `*`is SystemDefined`*` | `xsd:string` | Indica se il gruppo è definito dal sistema. |
+| `*`è SystemDefined`*` | `xsd:string` | Se il gruppo è definito dal sistema. |
 
