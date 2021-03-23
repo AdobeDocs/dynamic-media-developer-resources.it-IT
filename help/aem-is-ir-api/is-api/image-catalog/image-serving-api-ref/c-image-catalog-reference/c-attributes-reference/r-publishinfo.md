@@ -1,15 +1,16 @@
 ---
-description: Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione ecc.
-seo-description: Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione ecc.
+description: Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione, ecc.
+seo-description: Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione, ecc.
 seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 4%
 
 # PublishInfo{#publishinfo}
 
-Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione ecc.
+Stringa di annotazione del catalogo. Stringa di testo che può essere utilizzata per identificare la versione del catalogo, la data di pubblicazione, ecc.
 
-Il contenuto di questo campo viene restituito con `req=catalogprops`. Questo attributo non viene utilizzato altrimenti.
+Il contenuto di questo campo viene restituito con `req=catalogprops`. Questo attributo non viene altrimenti utilizzato.
 
 ## Proprietà {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
