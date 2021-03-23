@@ -4,12 +4,13 @@ seo-description: Richiedi convalida.
 seo-title: validate
 solution: Experience Manager
 title: validate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5322c484-2cf5-4022-9863-73fc525beb56
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 2%
 
 ---
@@ -28,13 +29,13 @@ Richiedi convalida.
  </tr> 
 </table>
 
-Analizza la stringa di richiesta come se fosse stato specificato `req=img`, ma senza sostituire le variabili e valutare gli oggetti di riferimento (immagini, profili ICC, font e così via). Se l&#39;analisi non riesce, viene restituita la risposta di errore standard. In caso contrario viene restituita la seguente proprietà:
+Analizza la stringa di richiesta come se fosse stato specificato `req=img`, ma senza sostituire le variabili e valutare gli oggetti di riferimento (immagini, profili ICC, font e così via). Se l’analisi non riesce, viene restituita la risposta di errore standard. In caso contrario viene restituita la seguente proprietà:
 
 `request.isValid=1`
 
 La risposta HTTP non è memorizzabile nella cache.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
