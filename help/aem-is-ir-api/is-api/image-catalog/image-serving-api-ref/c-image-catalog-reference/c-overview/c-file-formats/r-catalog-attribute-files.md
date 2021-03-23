@@ -1,15 +1,16 @@
 ---
-description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
-seo-description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
+description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso di file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
+seo-description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso di file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
 seo-title: File di attributi del catalogo
 solution: Experience Manager
 title: File di attributi del catalogo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # File di attributi del catalogo{#catalog-attribute-files}
 
-I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
+I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso di file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
 
-I file di attributi del catalogo sono composti da un set di record di testo, separati da un singolo `<CR>` (codice ASCII `0xD`), un singolo `<LF>` (codice ASCII `0xA`) o una coppia `<CR><LF>`. Ogni record è costituito da un nome di attributo e da uno o più valori di attributo separati da virgola:
+I file di attributi del catalogo sono costituiti da un set di record di testo separati da una singola `<CR>` (codice ASCII `0xD`), un singolo `<LF>` (codice ASCII `0xA`) o da una coppia `<CR><LF>`. Ogni record è costituito da un nome di attributo e da uno o più valori di attributo separati da virgole:
 
-`*``*= *`namevalues`*{<CR>|<LF>|<CR><LF }`
+`*``*= *`valori dei nomi`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
@@ -30,20 +31,20 @@ I file di attributi del catalogo sono composti da un set di record di testo, sep
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
-  <td class="stentry"> <p>Nome attributo. Può essere costituito da una o più lettere, numero, - e _. Senza distinzione tra maiuscole e minuscole. </p></td> 
+  <td class="stentry"> <p>Nome dell'attributo. Può essere costituito da una o più lettere, numero, - e _. Senza distinzione tra maiuscole e minuscole. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Valore attributo. Non devono includere caratteri <span class="codeph"> &lt;CR&gt;</span> o <span class="codeph"> &lt;LF&gt;</span>, a meno che non siano preceduti da una barra rovesciata, immediatamente prima del carattere della nuova riga. </p></td> 
+  <td class="stentry"> <p>Valore dell'attributo. Non devono includere caratteri <span class="codeph"> &lt;CR&gt;</span> o <span class="codeph"> &lt;LF&gt;</span>, a meno che non siano preceduti da una singola barra rovesciata immediatamente prima del carattere di nuova riga. </p></td> 
  </tr> 
 </table>
 
 Lo spazio vuoto tra i token è facoltativo.
 
-I record con nomi di attributi sconosciuti vengono ignorati dal server piattaforma.
+I record con nomi di attributi sconosciuti vengono ignorati dal server Platform.
 
 I nomi degli attributi possono essere composti da qualsiasi combinazione di lettere ASCII, numeri, nonché &quot;-&quot;, &quot;_&quot; e &quot;.&quot;.
 
-Se lo stesso nome di attributo si verifica più volte nello stesso file di attributo, prevale l&#39;ultimo.
+Se lo stesso nome attributo si verifica più di una volta nello stesso file di attributi, prevale l&#39;ultimo rilevato.
 
-Utilizzate # come primo carattere per contrassegnare qualsiasi record come commento, che il parser ignora.
+Usa # come primo carattere per contrassegnare qualsiasi record come commento, che il parser ignora.
