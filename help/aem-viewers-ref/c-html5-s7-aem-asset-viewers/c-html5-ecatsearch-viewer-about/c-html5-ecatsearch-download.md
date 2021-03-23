@@ -2,11 +2,12 @@
 description: Scarica
 solution: Experience Manager
 title: Scarica
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 Il pulsante &quot;Scarica&quot; è automaticamente disponibile nell’interfaccia utente del visualizzatore quando si verifica quanto segue:
 
-* Un file PDF effettivo è presente nella società del cliente.
-* Il nome corrisponde al nome della risorsa e-Catalog passata al visualizzatore e include un&#39;estensione `.pdf`.
+* Nella società del cliente è presente un file PDF effettivo.
+* Il nome corrisponde al nome della risorsa dell’e-catalog passata al visualizzatore e include un’estensione `.pdf`.
 * Il file PDF viene pubblicato in Dynamic Media Classic.
 
