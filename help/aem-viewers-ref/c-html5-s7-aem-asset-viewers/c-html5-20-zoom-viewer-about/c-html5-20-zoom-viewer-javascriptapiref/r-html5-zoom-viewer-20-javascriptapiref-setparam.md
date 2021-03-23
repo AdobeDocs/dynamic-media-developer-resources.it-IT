@@ -4,12 +4,13 @@ seo-description: Riferimento API JavaScript per il visualizzatore video.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 7688134f-ab85-43ce-9ff8-9965bd33acd0
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 2%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 2%
 
 Riferimento API JavaScript per il visualizzatore video.
 
-` setParam( *`name, value`*)`
+` setParam( *`nome, valore`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> name del parametro. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
@@ -34,7 +35,7 @@ Riferimento API JavaScript per il visualizzatore video.
  </tbody> 
 </table>
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro è un&#39;opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
 Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con l&#39;oggetto JSON `config` al costruttore.
 
