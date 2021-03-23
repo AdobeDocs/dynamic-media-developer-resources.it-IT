@@ -4,13 +4,14 @@ seo-description: Elimina una cartella.
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 9%
+source-wordcount: '107'
+ht-degree: 8%
 
 ---
 
@@ -40,8 +41,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società alla quale la cartella appartiene. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società a cui appartiene la cartella. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L&#39;handle della cartella da eliminare. |
 
 **Output (deleteFolderParam)**
 
@@ -49,7 +50,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-9d4617b322e8442d80e59be0f8714841}
 
-Questo codice di esempio elimina una cartella dal livello principale della società. Richiede un handle di cartella, che è necessario ottenere da un&#39;altra operazione.
+Questo codice di esempio elimina una cartella dalla radice della società. Richiede un handle di cartella, che è necessario ottenere da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 
