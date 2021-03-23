@@ -1,15 +1,16 @@
 ---
-description: L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
-seo-description: L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
+description: L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+seo-description: L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 2%
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
+L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7interactivevideoviewer
@@ -46,7 +47,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +55,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
 
 ## Esempio {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Per impostare un visualizzatore con uno sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni di 512 x 288 pixel.
+Impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e ridimensionarlo di 512 x 288 pixel.
 
 ```
 .s7interactivevideoviewer { 
