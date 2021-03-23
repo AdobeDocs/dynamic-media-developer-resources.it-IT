@@ -1,15 +1,16 @@
 ---
-description: Scala visualizzazione. Ridimensiona in scala l’immagine composita per l’inverso di vFactor.
-seo-description: Scala visualizzazione. Ridimensiona in scala l’immagine composita per l’inverso di vFactor.
+description: Vista scala. Consente di ridimensionare l'immagine composita in base all'inverso di vFactor.
+seo-description: Vista scala. Consente di ridimensionare l'immagine composita in base all'inverso di vFactor.
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 5%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 5%
 
 # scl{#scl}
 
-Scala visualizzazione. Ridimensiona in scala l’immagine composita per l’inverso di vFactor.
+Vista scala. Consente di ridimensionare l&#39;immagine composita in base all&#39;inverso di vFactor.
 
-`scl= *`InvoiceFactor`*`
+`scl= *`InventoryFactor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> InvoiceFactor</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> InventoryFactor</span> </p> </td> 
   <td class="stentry"> <p>Fattore di scala inversa (reale maggiore di 0,0). </p></td> 
  </tr> 
 </table>
 
-Non viene applicato alcun ridimensionamento quando `scl=1`. *`invFactor`* con dimensioni maggiori di 1,0 e minori di 1,0 l’immagine composita viene ingrandita.
+Non viene applicato alcun ridimensionamento quando `scl=1`. *`invFactor`* ingrandisce l&#39;immagine composita con dimensioni superiori a 1.0 e dimensioni inferiori a 1.0.
 
-Se è stato specificato `scl=` e sono presenti anche `wid=` e/o `hei=`, l&#39;immagine viene ritagliata su `wid=` e/o `hei=` dopo il ridimensionamento.
+Se è specificato `scl=` e sono presenti anche `wid=` e/o `hei=`, l&#39;immagine viene ritagliata a `wid=` e/o `hei=` dopo il ridimensionamento.
 
 >[!NOTE]
 >
@@ -38,16 +39,16 @@ Se è stato specificato `scl=` e sono presenti anche `wid=` e/o `hei=`, l&#39;im
 
 ## Proprietà {#section-60af012719db477db4a4703e9a6da5f5}
 
-Visualizza attributo. Si applica indipendentemente dall’impostazione del livello corrente.
+Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Predefinito {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se non vengono specificati né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta avrà le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, se inferiore.
+Se non vengono specificati né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta avrà le dimensioni dell&#39;immagine composita o `attribute::DefaultPix`, a seconda di quale dimensione è inferiore.
 
 ## Esempio {#section-a33f6239476a4b438d939656ad99aa76}
 
-Vedere l&#39;esempio in [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) per un&#39;applicazione comune di `scl=`.
+Vedi l&#39;esempio in [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) per un&#39;applicazione comune di `scl=`.
 
 ## Consultate anche {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [attributo::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
