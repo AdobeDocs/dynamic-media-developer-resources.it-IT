@@ -1,23 +1,24 @@
 ---
-description: Array di AssetMetadataFields. Usato da getAssetMetadataFields per restituire tutti i campi di metadati delle risorse in una singola chiamata con risultati raggruppati per tipo di risorsa.
-seo-description: Array di AssetMetadataFields. Usato da getAssetMetadataFields per restituire tutti i campi di metadati delle risorse in una singola chiamata con risultati raggruppati per tipo di risorsa.
-seo-title: AssetMetadataFieldsArray
+description: Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
+seo-description: Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
+seo-title: ArrayCampiMetadatiRisorsa
 solution: Experience Manager
-title: AssetMetadataFieldsArray
-topic: Dynamic Media Image Production System API
+title: ArrayCampiMetadatiRisorsa
 uuid: a131b234-83f3-4e3c-afa9-14314e78367f
+feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '91'
+ht-degree: 5%
 
 ---
 
 
 # AssetMetadataFieldsArray{#assetmetadatafieldsarray}
 
-Array di AssetMetadataFields. Usato da getAssetMetadataFields per restituire tutti i campi di metadati delle risorse in una singola chiamata con risultati raggruppati per tipo di risorsa.
+Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:AssetMetadataFields` | Elemento di array `AssetMetadataFields`. |
+| `*`elementi`*` | `types:AssetMetadataFields` | Elemento di matrice `AssetMetadataFields`. |
 
