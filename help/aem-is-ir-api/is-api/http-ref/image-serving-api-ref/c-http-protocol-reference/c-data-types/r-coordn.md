@@ -1,15 +1,16 @@
 ---
-description: Coordinate normalizzate. Viene usato per specificare le posizioni relative all’interno di un’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
-seo-description: Coordinate normalizzate. Viene usato per specificare le posizioni relative all’interno di un’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
+description: Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
+seo-description: Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
 seo-title: coordN
 solution: Experience Manager
 title: coordN
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # coordN{#coordn}
 
-Coordinate normalizzate. Viene usato per specificare le posizioni relative all’interno di un’immagine, ad esempio gli offset dell’immagine o i parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
+Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
 
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
@@ -26,12 +27,12 @@ Coordinate normalizzate. Viene usato per specificare le posizioni relative all�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>offset delle coordinate normalizzato in base alle dimensioni di un’immagine (reale, reale) </p></td> 
+  <td class="stentry"> <p>offset delle coordinate normalizzato in base alle dimensioni di un'immagine (reale, reale) </p></td> 
  </tr> 
 </table>
 
 I valori positivi si spostano verso il basso a destra.
 
-In molti casi, la posizione di riferimento è il centro dell’immagine. In questo caso, 0,0 corrisponde al centro dell’immagine, -0,5,-0,5 all’angolo in alto a sinistra e 0,5,0,5 all’angolo in basso a destra.
+In molti casi, la posizione di riferimento è il centro dell&#39;immagine. In questo caso, 0,0 corrisponde al centro dell’immagine, -0,5,-0,5 corrisponde all’angolo in alto a sinistra e 0,5,0,5 corrisponde all’angolo in basso a destra.
 
-Usato anche per specificare le dimensioni dell’immagine o del rettangolo in relazione alle dimensioni del livello 0. In questo caso, i valori devono essere maggiori di 0. 0 può indicare che deve essere utilizzato un valore predefinito specifico. 1,1 specifica una dimensione uguale a quella del livello 0.
+Utilizzato anche per specificare le dimensioni dell&#39;immagine o del rettangolo rispetto alle dimensioni del livello 0. In questo caso, i valori devono essere maggiori di 0. 0 può indicare che deve essere utilizzato un valore predefinito specifico. 1,1 specifica una dimensione uguale a quella del livello 0.
