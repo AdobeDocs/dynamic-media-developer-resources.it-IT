@@ -1,12 +1,13 @@
 ---
-description: La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
+description: La guida alle utilità di Image Serving contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
 solution: Experience Manager
-title: Utilità Image Server
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Utilità Image Serving
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -14,10 +15,10 @@ ht-degree: 0%
 
 # Utilità Image Server{#image-serving-utilities}
 
-La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
+La guida alle utilità di Image Serving contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
 
 * [Ubicazione dei servizi pubblici](c-location-of-utilities.md)
 * [ic](r-ic.md)
-* [ImageServer](r-imageserving.md)
+* [ImageServing](r-imageserving.md)
 * [validate](r-is-utils-validate.md)
-* [L&#39;utilità &#39;playlog&#39;](c-playlog.md)
+* [Utility &#39;playlog&#39;](c-playlog.md)
