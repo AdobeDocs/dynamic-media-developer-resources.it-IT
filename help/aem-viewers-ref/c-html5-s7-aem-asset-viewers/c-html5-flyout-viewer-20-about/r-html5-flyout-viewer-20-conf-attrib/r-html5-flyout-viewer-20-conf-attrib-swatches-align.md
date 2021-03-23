@@ -2,13 +2,14 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic Media
 uuid: 4437ee11-8675-4c11-b436-414cdbb4b2e7
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 5%
+source-wordcount: '90'
+ht-degree: 4%
 
 ---
 
@@ -17,17 +18,17 @@ ht-degree: 5%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Specifica l’allineamento interno (ancoraggio) del contenitore di campioni all’interno dell’area del componente. Nei campioni, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di campioni. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. Questo comando specifica in che modo il contenitore dei campioni interno viene posizionato all’interno del componente.
+Specifica l’allineamento interno (ancoraggio) del contenitore di campioni all’interno dell’area del componente. Nei campioni, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di campioni. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. Questo comando specifica il modo in cui il contenitore di campioni interno viene posizionato all’interno del componente.
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> sinistra|centro|destra</span> </p> </td> 
-   <td colname="col2"> <p> Imposta l’allineamento orizzontale dei campioni. </p> </td> 
+   <td colname="col2"> <p> Imposta l’allineamento dei campioni orizzontali. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Imposta l’allineamento verticale dei campioni. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> in alto|al centro|in basso</span> </p> </td> 
+   <td colname="col2"> <p> Imposta l’allineamento dei campioni verticali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
