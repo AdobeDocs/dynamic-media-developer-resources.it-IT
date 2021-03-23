@@ -1,52 +1,53 @@
 ---
-description: Utilizzate queste impostazioni del server per configurare il sistema di monitoraggio e di avvisi.
-seo-description: Utilizzate queste impostazioni del server per configurare il sistema di monitoraggio e di avvisi.
+description: Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
+seo-description: Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 seo-title: Sistema di monitoraggio e allarme
 solution: Experience Manager
 title: Sistema di monitoraggio e allarme
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 
-# Sistema di monitoraggio e allarme{#monitoring-and-alerting-system}
+# Sistema di monitoraggio e avvisi{#monitoring-and-alerting-system}
 
-Utilizzate queste impostazioni del server per configurare il sistema di monitoraggio e di avvisi.
+Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Abilita sistema di avvisi {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Attivate la notifica e-mail impostando &#39;true&#39; e configurando le impostazioni di notifica e-mail. Se si imposta `false`, tutti gli avvisi e-mail vengono disattivati. Questo può essere utile quando un server viene disattivato per la manutenzione. Booleano.
+Abilita la notifica via e-mail impostando su &quot;true&quot; e configurando le impostazioni di notifica e-mail. Se si imposta `false` si disattivano tutti gli avvisi e-mail, questo può essere utile quando si interrompe la manutenzione di un server. Booleano.
 
 ## AS::mailSender.host - Host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
-L&#39;indirizzo IP del server di posta elettronica SMTP.
+Indirizzo IP del server di posta elettronica SMTP.
 
 ## AS::mailSender.port- Porta SMTP {#section-4b25efca8fd84d5c92dafacd0555e99d}
 
-La porta di ascolto per il server di posta elettronica SMTP.
+La porta di ascolto del server di posta elettronica SMTP.
 
-## AS::monitorAlertGenerator.messageTo - Messaggio destinatario {#section-0017bbaa15434117a70900c3f1163960}
+## AS::monitorAlertGenerator.messageTo - Messaggio Destinatario {#section-0017bbaa15434117a70900c3f1163960}
 
-Uno o più indirizzi e-mail cui inviare gli avvisi. Utilizzare il punto e virgola come separatori.
+Uno o più indirizzi e-mail a cui devono essere inviati gli avvisi. Utilizzare i punti e virgola come separatori.
 
-## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
+## AS::monitorAlertGenerator.messageFrom - Mittente del messaggio {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-L&#39;indirizzo e-mail da utilizzare nel campo **[!UICONTROL From]** e-mail.
+L&#39;indirizzo e-mail che deve essere utilizzato nel campo e-mail **[!UICONTROL Da]**.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervallo di monitoraggio {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-Il sistema di monitoraggio accumulerà le condizioni di allarme durante l&#39;intervallo di allerta e invierà un messaggio e-mail di avviso contenente tutti gli avvisi accumulati alla fine di ogni intervallo. Millisecondi, valore intero, 60000 o superiore. In genere, impostate su 5 o 10 minuti.
+Il sistema di monitoraggio accumulerà le condizioni di allarme durante l&#39;intervallo di allerta e invierà un messaggio e-mail di avviso contenente tutti gli avvisi accumulati alla fine di ogni intervallo. Millisecondi, valore intero, 60000 o superiore. In genere impostato su 5 o 10 minuti.
 
-## AS::monitorAlertGenerator.heapSpaceResetInterval - Intervallo di avviso spazio heap {#section-fd5a2bf04ed44fdcaef20f77084151a8}
+## AS::monitorAlertGenerator.heapSpaceResetInterval - Intervallo di avviso dello spazio heap {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-Tempo minimo dopo un avviso di spazio di heap prima che ne venga emesso un altro. Tempo intervallo in msec. Valore intero pari o superiore a 0.
+Tempo minimo dopo un avviso di spazio heap prima che ne venga emesso un altro. Tempo di intervallo in msec. Valore intero pari o superiore a 0.
 
-## AS::monitorAlertGenerator.minTrafficForAlerts - Traffico minimo per attivare gli avvisi {#section-8b4db2d6f96642309ca35c49eb3ab230}
+## AS::monitorAlertGenerator.minTrafficForAlerts - Traffico minimo per abilitare gli avvisi {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Richieste al secondo. Se il traffico scende al di sotto di questa soglia, non verranno emessi avvisi di errore e tempi di risposta. Impostare su 0 per inviare gli avvisi relativi a tempi di risposta e errori indipendentemente dal volume di traffico. Valore reale 0 o maggiore.
+Richieste al secondo. Se il traffico scende al di sotto di questa soglia, non vengono emessi avvisi relativi a tempi di risposta e errori. Impostare su 0 per inviare gli avvisi relativi al tempo di risposta e agli errori indipendentemente dal volume di traffico. Valore reale 0 o superiore.
