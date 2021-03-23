@@ -2,13 +2,14 @@
 description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
-topic: Dynamic Media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Se è impostato su <span class="codeph"> 1</span>, il componente inserisce nel pannello a discesa gli elementi per tutte le pagine, anche per quelle per le quali non è definita l'etichetta. </p> <p>Se è impostata su <span class="codeph"> 0</span>, nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
+   <td> <p> Quando è impostato su <span class="codeph"> 1</span>, il componente inserisce nel pannello a discesa gli elementi per tutte le pagine, anche per quelle per le quali non è definita l’etichetta. </p> <p>Se è impostato su <span class="codeph"> 0</span> nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
