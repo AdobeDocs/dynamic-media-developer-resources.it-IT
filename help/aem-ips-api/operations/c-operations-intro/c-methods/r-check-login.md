@@ -1,27 +1,28 @@
 ---
-description: Controlla se un utente con una società specifica (identificata dall'handle), l'indirizzo e-mail e la password possono effettuare l'accesso.
-seo-description: Controlla se un utente con una società specifica (identificata dall'handle), l'indirizzo e-mail e la password possono effettuare l'accesso.
+description: Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l'accesso.
+seo-description: Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l'accesso.
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 10%
+source-wordcount: '171'
+ht-degree: 9%
 
 ---
 
 
 # checkLogin{#checklogin}
 
-Controlla se un utente con una società specifica (identificata dall&#39;handle), l&#39;indirizzo e-mail e la password possono effettuare l&#39;accesso.
+Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l&#39;accesso.
 
 >[!NOTE]
 >
->Se l&#39;handle della società viene omesso, questo metodo verifica il login dell&#39;utente predefinito.
+>Se l&#39;handle della società viene omesso, questo metodo controlla l&#39;accesso dell&#39;utente predefinito.
 
 ## Tipi di utenti autorizzati {#section-df8b26b550854f899948276adaca083a}
 
@@ -41,19 +42,19 @@ Controlla se un utente con una società specifica (identificata dall&#39;handle)
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | L’handle della società che contiene l’utente. |
-| `*`e-mail`*` | `xsd:string` | Sì | L&#39;indirizzo e-mail dell&#39;utente. |
-| `*`password`*` | `xsd:string` | Sì | La password dell&#39;utente. |
+| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società che contiene l&#39;utente. |
+| `*`e-mail`*` | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
+| `*`password`*` | `xsd:string` | Sì | Password dell&#39;utente. |
 
 **Output (checkLoginParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | Sì | Stato di accesso dell&#39;utente. |
+| `*`status`*` | `xsd:string` | Sì | Stato dell&#39;accesso dell&#39;utente. |
 
 ## Esempi {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Questo codice di esempio utilizza un parametro di handle della società, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* eseguire l&#39;accesso, questo metodo restituisce la stringa `ValidLogin`. Se l&#39;utente *non è in grado di eseguire l&#39;accesso*, questo metodo restituisce la stringa `InvalidLogin`.
+Questo codice di esempio utilizza un parametro di handle aziendale, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* effettuare l&#39;accesso, questo metodo restituisce la stringa `ValidLogin`. Se l&#39;utente *non è in grado di eseguire l&#39;accesso*, questo metodo restituisce la stringa `InvalidLogin`.
 
 **Request Contents (Richiesta contenuto)**
 
