@@ -4,12 +4,13 @@ seo-description: Image Serving può essere installato su Linux.
 seo-title: Installazione su Linux
 solution: Experience Manager
 title: Installazione su Linux
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ced0a4cf-42a4-45d6-8fa7-99e95f9c627f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,6 @@ ht-degree: 0%
 
 Image Serving può essere installato su Linux.
 
-* [Prima installazione](t-first-install-lin.md)
+* [Installazione per la prima volta](t-first-install-lin.md)
 * [Aggiornamento da IS 4.7.4 o successivo](t-update-lin.md)
-* [Verifica dell’installazione](t-verify-install-lin.md)
+* [Verifica dell&#39;installazione](t-verify-install-lin.md)
