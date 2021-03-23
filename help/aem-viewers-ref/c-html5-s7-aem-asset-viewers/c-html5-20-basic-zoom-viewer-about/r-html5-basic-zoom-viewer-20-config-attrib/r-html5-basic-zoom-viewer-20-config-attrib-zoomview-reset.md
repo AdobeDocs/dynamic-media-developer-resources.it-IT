@@ -2,13 +2,14 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-topic: Dynamic Media
 uuid: 3f46660f-28d4-421b-b35a-27c3bfb53579
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Ripristina la porta di visualizzazione quando la cornice (immagine) cambia. Se impostata su <span class="varname"> 0</span>, la porta di visualizzazione corrente viene mantenuta con la massima aderenza possibile, mantenendo le proporzioni della nuova immagine impostata. </p> </td> 
+   <td colname="col2"> <p> Ripristina la porta di visualizzazione quando la cornice (immagine) cambia. Se impostato su <span class="varname"> 0</span>, mantiene la porta di visualizzazione corrente con la migliore adattabilità possibile, mantenendo le proporzioni dell'immagine appena impostata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
