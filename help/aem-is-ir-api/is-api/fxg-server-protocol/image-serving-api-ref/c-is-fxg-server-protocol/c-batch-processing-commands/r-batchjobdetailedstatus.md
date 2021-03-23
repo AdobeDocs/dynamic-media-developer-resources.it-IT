@@ -1,15 +1,16 @@
 ---
-description: Recuperare lo stato dettagliato di un processo inviato.
-seo-description: Recuperare lo stato dettagliato di un processo inviato.
+description: Recupera lo stato dettagliato di un processo inviato.
+seo-description: Recupera lo stato dettagliato di un processo inviato.
 seo-title: batchjobdetailedstatus
 solution: Experience Manager
 title: batchjobdetailedstatus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a79302ce-745b-44d8-9cb6-ed8d37530197
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # batchjobdetailedstatus{#batchjobdetailedstatus}
 
-Recuperare lo stato dettagliato di un processo inviato.
+Recupera lo stato dettagliato di un processo inviato.
 
 Questo parametro:
 
@@ -30,7 +31,7 @@ Questo parametro:
 
 Restituisce:
 
-stato dettagliato del processo in formato XML; se `jobid` non è valido o il processo è stato eliminato.
+stato dettagliato del processo in formato XML; errore se `jobid` non è valido o il processo è stato eliminato.
 
 ## Esempio {#section-55f463750afe4814b5fdbaa2f1aafab4}
 
