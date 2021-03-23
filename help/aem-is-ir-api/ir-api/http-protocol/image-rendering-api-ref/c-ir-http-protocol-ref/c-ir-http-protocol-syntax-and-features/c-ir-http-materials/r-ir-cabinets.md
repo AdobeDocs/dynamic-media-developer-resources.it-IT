@@ -1,15 +1,16 @@
 ---
-description: I materiali dei cabinet specificano un file di stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche degli armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei frontali dei cabinet.
-seo-description: I materiali dei cabinet specificano un file di stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche degli armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei frontali dei cabinet.
+description: I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
+seo-description: I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
 seo-title: Scaffali
 solution: Experience Manager
 title: Scaffali
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 5%
 
 # Scaffali{#cabinets}
 
-I materiali dei cabinet specificano un file di stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche degli armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei frontali dei cabinet.
+I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
 
-[!DNL vnc] i file possono includere una texture di grana di legno ripetibile, oppure la texture può essere fornita esternamente tramite un secondo argomento a  `src=`. Alcuni file [!DNL vnc] consentono di colorare o testurizzare determinate aree dei frontali dei cabinet (generalmente utilizzati per gli stili dei cabinet laminati).
+[!DNL vnc] i file possono includere una texture di grana di legno ripetibile, oppure la texture può essere fornita esternamente tramite un secondo argomento a  `src=`. Alcuni file [!DNL vnc] consentono di colorare o testurizzare determinate aree dei frontali dei cabinet (tipicamente utilizzati per gli stili dei cabinet in laminato).
 
-I materiali del cabinet possono essere applicati solo agli oggetti del cabinet.
+I materiali del cabinet possono essere applicati solo agli oggetti del mobile.
 
 <table id="table_0B16200886FE4DFEBB1E4BE8FBA67EE4"> 
  <thead> 
@@ -34,7 +35,7 @@ I materiali del cabinet possono essere applicati solo agli oggetti del cabinet.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>file di stile del cabinet; obbligatorio. </p> </td> 
+   <td colname="col2"> <p>File in stile cabinet; obbligatorio. </p> </td> 
    <td colname="col3"> <p>Nessuno. </p> </td> 
   </tr> 
   <tr> 
@@ -44,16 +45,16 @@ I materiali del cabinet possono essere applicati solo agli oggetti del cabinet.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Risoluzione texture opzionale. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute:Resolution  </span> </p> </td> 
+   <td colname="col2"> <p>Risoluzione di texture opzionale. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attributo::Resolution  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Colora il cabinet e/o la texture. </p> </td> 
+   <td colname="col2"> <p>Colorizza l'armadio e/o la texture. </p> </td> 
    <td colname="col3"> <p>Nessuno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> Sharp=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Opzioni. </p> </td> 
    <td colname="col3"> <p>0 (nessuna nitidezza) </p> </td> 
   </tr> 
