@@ -1,23 +1,24 @@
 ---
-description: Elimina un tipo di set di proprietà e le relative proprietà e set di proprietà associate.
-seo-description: Elimina un tipo di set di proprietà e le relative proprietà e set di proprietà associate.
+description: Elimina un tipo di set di proprietà e il relativo set di proprietà e le relative proprietà associate.
+seo-description: Elimina un tipo di set di proprietà e il relativo set di proprietà e le relative proprietà associate.
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
 
 # deletePropertySetType{#deletepropertysettype}
 
-Elimina un tipo di set di proprietà e le relative proprietà e set di proprietà associate.
+Elimina un tipo di set di proprietà e il relativo set di proprietà e le relative proprietà associate.
 
 Sintassi
 
@@ -42,7 +43,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Questo esempio di codice utilizza l&#39;handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
+Questo esempio di codice utilizza l’handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
 
 **Request Contents (Richiesta contenuto)**
 
