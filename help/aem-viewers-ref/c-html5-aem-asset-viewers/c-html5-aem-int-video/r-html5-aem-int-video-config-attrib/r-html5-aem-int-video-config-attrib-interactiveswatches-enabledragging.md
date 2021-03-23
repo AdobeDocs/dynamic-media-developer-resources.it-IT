@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-topic: Dynamic Media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
 
 # InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -25,11 +26,11 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la possibilità per un utente di scorrere i campioni con il mouse o con gesti touch. </p> </td> 
+   <td colname="col2"> <p> Abilita o disabilita la possibilità per un utente di scorrere i campioni con il mouse o utilizzando movimenti touch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Si trova nell'intervallo <span class="codeph"> 0-1 </span> ed è un valore percentuale per il movimento nella direzione sbagliata della velocità effettiva. </p> <p>Se impostato su <span class="codeph"> 1 </span> si sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0 </span> non consente di spostarsi nella direzione sbagliata. </p> </td> 
+   <td colname="col2"> <p> Si trova nell'intervallo <span class="codeph"> 0-1 </span> ed è un valore percentuale del movimento nella direzione sbagliata della velocità effettiva. </p> <p>Se impostato su <span class="codeph"> 1 </span> si sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0 </span> non consente di spostarsi nella direzione sbagliata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
