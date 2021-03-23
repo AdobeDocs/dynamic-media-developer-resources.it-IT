@@ -1,15 +1,16 @@
 ---
-description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
-seo-description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
+description: Percorso file delle definizioni dei set di regole. Specifica il file contenente le definizioni del set di regole per questo catalogo di materiali.
+seo-description: Percorso file delle definizioni dei set di regole. Specifica il file contenente le definizioni del set di regole per questo catalogo di materiali.
 seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # RuleSetFile{#rulesetfile}
 
-Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo di materiali.
+Percorso file delle definizioni dei set di regole. Specifica il file contenente le definizioni del set di regole per questo catalogo di materiali.
 
 ## Proprietà {#section-e805898763824caba24abb6af1706f5c}
 
@@ -25,7 +26,7 @@ Valore stringa di testo. Percorso o percorso assoluto del file relativo alla car
 
 ## Predefinito {#section-69b1f865aa8d476bb087dc862e903ab1}
 
-Vuoto, che indica che questo catalogo di materiali non dispone di regole private per la preelaborazione delle richieste.
+Vuoto, che indica che questo catalogo di materiali non dispone di regole private di pre-elaborazione delle richieste.
 
 ## Consultate anche {#section-84ba472b7ba0457f9f607a21ab44da16}
 
