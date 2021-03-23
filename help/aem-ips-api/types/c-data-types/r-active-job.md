@@ -1,15 +1,16 @@
 ---
-description: Un processo che viene eseguito su un server. Inoltre, si tratta di un'istanza di un processo pianificato.
-seo-description: Un processo che viene eseguito su un server. Inoltre, si tratta di un'istanza di un processo pianificato.
+description: Un processo eseguito su un server. Inoltre, si tratta di un'istanza di un lavoro pianificato.
+seo-description: Un processo eseguito su un server. Inoltre, si tratta di un'istanza di un lavoro pianificato.
 seo-title: ActiveJob
 solution: Experience Manager
 title: ActiveJob
-topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 1%
 
 # ActiveJob{#activejob}
 
-Un processo che viene eseguito su un server. Inoltre, si tratta di un&#39;istanza di un processo pianificato.
+Un processo eseguito su un server. Inoltre, si tratta di un&#39;istanza di un lavoro pianificato.
 
 I posti di lavoro esistono in 3 stati:
 
-* Pianificazione dell&#39;esecuzione.
+* Pianificato per l&#39;esecuzione.
 * Attualmente in esecuzione.
-* Esecuzione completata (con informazioni già scritte in un registro processi).
+* Esecuzione completata (e con informazioni già scritte in un registro di lavoro).
 
-Specificate un valore per il tipo di processo da restituire. È possibile restituire i seguenti processi:
+Specificare un valore del tipo di processo per restituire il tipo di processo. È possibile restituire i seguenti lavori:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -48,20 +49,20 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestite l'azienda. </td> 
+   <td colname="col3"> Manda all'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestite il lavoro. </td> 
+   <td colname="col3"> Gestisci il lavoro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nome univoco per il processo. </td> 
+   <td colname="col3"> Nome univoco del processo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> OriginalName</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Nome originale del tipo <span class="codeph"> ActiveJob</span> inviato con il processo. </td> 
   </tr> 
@@ -71,9 +72,9 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
    <td colname="col3"> Scelta dei tipi di processo restituiti dal sistema. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> stato</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Scelta degli stati di processo attivi restituiti dal sistema. </td> 
+   <td colname="col3"> Scelta dello stato del lavoro attivo restituito dal sistema. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -83,12 +84,12 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Le impostazioni internazionali per i dettagli del registro dei processi e la localizzazione delle e-mail. <p>Specificare le impostazioni internazionali come <span class="codeph"> &lt;codice_lingua&gt;[-&lt;codice_paese&gt;]</span>, dove il codice della lingua è un codice di due lettere minuscoli, come specificato dallo standard ISO-639, e il codice del paese facoltativo è un codice di due lettere maiuscole, come specificato dallo standard ISO-3166. Ad esempio, la stringa per l'inglese (Stati Uniti) è: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Impostazioni internazionali per i dettagli del registro di lavoro e la localizzazione delle e-mail. <p>Specificare le impostazioni internazionali come <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, dove il codice della lingua è un codice a due lettere minuscolo come specificato dallo standard ISO-639, e il codice del paese opzionale è un codice a due lettere maiuscolo come specificato dallo standard ISO-3166. Ad esempio, la stringa locale per Inglese (Stati Uniti) è la seguente: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Descrizione del processo specificata originariamente in <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Descrizione del processo originariamente specificata in <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -98,7 +99,7 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data, ora e fuso orario per il processo attivo. </td> 
+   <td colname="col3"> Data, ora e fuso orario del processo attivo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
@@ -106,34 +107,34 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
    <td colname="col3"> Dimensione totale del processo attivo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progresso</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Avanzamento del processo (ovvero, la vicinanza del processo al completamento). </td> 
+   <td colname="col3"> Avanzamento del lavoro (ovvero, la vicinanza del processo al completamento). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Un messaggio di testo che descrive l’avanzamento del processo. </td> 
+   <td colname="col3"> Messaggio di testo che descrive l'avanzamento del processo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data, ora e fuso orario dell’ultimo aggiornamento in corso. </td> 
+   <td colname="col3"> Data, ora e fuso orario dell’ultimo aggiornamento di avanzamento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TaskProgressArray</span> </td> 
-   <td colname="col3"> Informazioni di avanzamento asincrone dell'attività. </td> 
+   <td colname="col3"> Informazioni sull’avanzamento dell’attività asincrona. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> Dettagli del processo per un processo di pubblicazione di Image Server. </td> 
+   <td colname="col3"> Dettagli del processo per un processo di pubblicazione di image serving. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageServingRenderJob</span> </td> 
-   <td colname="col3"> Dettagli del processo per un processo di pubblicazione di rendering di immagini. </td> 
+   <td colname="col3"> Dettagli del processo per un processo di pubblicazione di rendering dell’immagine. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
@@ -148,7 +149,7 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UploadUrlsJob</span> </td> 
-   <td colname="col3"> Dettagli processo per un processo URL di caricamento. </td> 
+   <td colname="col3"> Dettagli del processo per un processo di caricamento degli URL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
@@ -168,12 +169,12 @@ Specificate un valore per il tipo di processo da restituire. È possibile restit
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UploadPostJob</span> </td> 
-   <td colname="col3"> Dettagli processo per tracciamento del caricamento del desktop. </td> 
+   <td colname="col3"> Caricamento del desktop di tracciamento dei dettagli del processo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ExportJob</span> </td> 
-   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Processo di esportazione</a>. </td> 
+   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Consulta <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Processo di esportazione</a>. </td> 
   </tr> 
  </tbody> 
 </table>
