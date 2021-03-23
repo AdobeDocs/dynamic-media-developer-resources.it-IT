@@ -1,15 +1,16 @@
 ---
-description: Contiene impostazioni relative alla gestione dei cataloghi di immagini.
-seo-description: Contiene impostazioni relative alla gestione dei cataloghi di immagini.
+description: Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
+seo-description: Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
 seo-title: catalog-server.conf
 solution: Experience Manager
 title: catalog-server.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 797a43d2-18f5-4735-8b19-da231952b1a2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # catalog-server.conf{#catalog-server-conf}
 
-Contiene impostazioni relative alla gestione dei cataloghi di immagini.
+Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
 
-Questo file è un file di proprietà JAVA. Occorre fare attenzione a seguire le convenzioni appropriate; in caso contrario, il server della piattaforma potrebbe non avviarsi. Nei percorsi dei file Windows, utilizzate una doppia barra rovesciata &#39;\\&#39; o una singola barra rovesciata &#39;/&#39; invece di una barra rovesciata &#39;\&#39;. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
+Questo file è un file di proprietà JAVA. Si deve fare attenzione a seguire le convenzioni appropriate; in caso contrario, l&#39;avvio del server Platform potrebbe non riuscire. Utilizzare una barra rovesciata doppia &#39;\\&#39; o una singola barra rovesciata &#39;/&#39; invece di una barra rovesciata &#39;\&#39; nei percorsi dei file di Windows. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
 
 Le modifiche a questo file hanno effetto poco dopo il salvataggio del file.
 
-Solo le impostazioni elencate di seguito possono essere modificate in [!DNL catalog-service.conf]. Se una particolare impostazione è assente, può essere aggiunta ovunque nel file. Può essere presente una sola istanza di ciascuna impostazione.
+Solo le impostazioni elencate di seguito possono essere modificate in [!DNL catalog-service.conf]. Se una particolare impostazione è assente, può essere aggiunta in qualsiasi punto del file. Può essere presente una sola istanza di ciascuna impostazione.
 
 `catalog.rootPath=./catalog`
 
