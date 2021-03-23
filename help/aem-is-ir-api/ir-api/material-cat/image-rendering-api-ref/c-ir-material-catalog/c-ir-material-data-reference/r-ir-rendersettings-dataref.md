@@ -1,12 +1,13 @@
 ---
-description: Impostazioni di rendering avanzate. Le impostazioni di rendering avanzate sono utilizzate per controllare gli aspetti di basso livello del motore di rendering, come il tipo di nitidezza del materiale e i parametri o alcuni parametri degli algoritmi di illuminazione.
+description: Impostazioni avanzate di rendering. Le impostazioni di rendering avanzate vengono utilizzate per controllare gli aspetti di basso livello del motore di rendering, come il tipo di nitidezza del materiale e i parametri o alcuni parametri degli algoritmi di illuminazione.
 solution: Experience Manager
 title: RenderSettings
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 3%
 
 # RenderSettings{#rendersettings}
 
-Impostazioni di rendering avanzate. Le impostazioni di rendering avanzate sono utilizzate per controllare gli aspetti di basso livello del motore di rendering, come il tipo di nitidezza del materiale e i parametri o alcuni parametri degli algoritmi di illuminazione.
+Impostazioni avanzate di rendering. Le impostazioni di rendering avanzate vengono utilizzate per controllare gli aspetti di basso livello del motore di rendering, come il tipo di nitidezza del materiale e i parametri o alcuni parametri degli algoritmi di illuminazione.
 
 ## Proprietà {#section-b4c8fe595efc4838ac598659bc820607}
 
-Stringa di testo. Facoltativo per tutti i materiali. Se specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring della vignettatura (parte del pacchetto di authoring delle immagini Dynamic Media).
+Stringa di testo. Facoltativo per tutti i materiali. Se specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring delle vignette (parte del pacchetto di authoring delle immagini di Dynamic Media).
 
 ## Predefinito {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
