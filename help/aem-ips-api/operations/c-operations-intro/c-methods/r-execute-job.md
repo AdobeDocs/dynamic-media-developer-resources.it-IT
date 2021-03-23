@@ -4,13 +4,14 @@ seo-description: Esegue un processo specifico.
 seo-title: executeJob
 solution: Experience Manager
 title: executeJob
-topic: Dynamic Media Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 12%
+source-wordcount: '88'
+ht-degree: 11%
 
 ---
 
@@ -50,7 +51,7 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L'handle della società alla quale il processo appartiene. </p> </td> 
+   <td colname="col4"> <p>L'handle dell'azienda a cui appartiene il lavoro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
