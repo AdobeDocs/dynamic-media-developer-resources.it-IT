@@ -1,23 +1,24 @@
 ---
-description: Determina se una risorsa è pronta per la pubblicazione.
-seo-description: Determina se una risorsa è pronta per la pubblicazione.
+description: Determina se una risorsa è pronta per essere pubblicata.
+seo-description: Determina se una risorsa è pronta per essere pubblicata.
 seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-topic: Dynamic Media Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 10%
+source-wordcount: '114'
+ht-degree: 9%
 
 ---
 
 
 # setAssetPublishState{#setassetpublishstate}
 
-Determina se una risorsa è pronta per la pubblicazione.
+Determina se una risorsa è pronta per essere pubblicata.
 
 Sintassi
 
@@ -51,13 +52,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L'handle della società. </td> 
+   <td colname="col4"> Il manico per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Handle risorsa. </td> 
+   <td colname="col4"> Gestione risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -65,13 +66,13 @@ Sintassi
    <td colname="col3"> Sì </td> 
    <td colname="col4">Stati disponibili: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> ContrassegnatoPerPubblicazione</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
      <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
