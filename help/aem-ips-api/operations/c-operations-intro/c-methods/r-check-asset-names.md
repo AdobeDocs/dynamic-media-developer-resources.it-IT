@@ -4,12 +4,13 @@ seo-description: Controlla i conflitti degli ID IPS confrontando i nomi delle ri
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 9%
 
 ---
@@ -38,18 +39,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | L’handle della società che contiene l’utente. |
-| `*`assetNamesArray`*` | `types:StringArray` | Sì | Un array di nomi di risorse da controllare. |
+| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società che contiene l&#39;utente. |
+| `*`assetNamesArray`*` | `types:StringArray` | Sì | Matrice di nomi di risorse da controllare. |
 
 **Output (checkAssetNamesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Sì | Un array di nomi di risorse in uso. |
+| `*`inUseNameArray`*` | `types:StringArray` | Sì | Matrice di nomi di risorse in uso. |
 
 ## Esempi {#section-bc5d120d74614a63a425ca3acc337219}
 
-Questo codice di esempio richiede i nomi delle risorse in uso per una società specificata. La risposta restituisce un array di nomi di risorse in uso.
+Questo codice di esempio richiede i nomi delle risorse in uso per una società specifica. La risposta restituisce una matrice di nomi di risorse in uso.
 
 **Request Contents (Richiesta contenuto)**
 
