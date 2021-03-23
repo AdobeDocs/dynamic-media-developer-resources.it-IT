@@ -1,23 +1,24 @@
 ---
-description: Ottiene un elenco dei caratteri utilizzati in un particolare campo.
-seo-description: Ottiene un elenco dei caratteri utilizzati in un particolare campo.
+description: Ottiene un elenco dei caratteri utilizzati in un campo specifico.
+seo-description: Ottiene un elenco dei caratteri utilizzati in un campo specifico.
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 10%
+source-wordcount: '194'
+ht-degree: 9%
 
 ---
 
 
 # getUserChars{#getuserchars}
 
-Ottiene un elenco dei caratteri utilizzati in un particolare campo.
+Ottiene un elenco dei caratteri utilizzati in un campo specifico.
 
 Sintassi
 
@@ -35,28 +36,28 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`charField`*` | `xsd:string` | Sì | Determina lo stato del cestino da cercare. |
-| `*`includeInactive`*` | `xsd:boolean` | Sì | Includere o escludere utenti inattivi. Gli utenti amministratore non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Se l&#39;utente non dispone di appartenenze attive alla società, verrà restituito un errore di autorizzazione. |
+| `*`includeInactive`*` | `xsd:boolean` | Sì | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Se l&#39;utente non dispone di appartenenze attive alla società, verrà restituito un errore di autorizzazione. |
 | `*`includInvalid`*` | `xsd:boolean` | No | Includere o escludere utenti non validi. |
-| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati in base alla società. |
+| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati in base all’azienda. |
 | `*`groupHandleArray`*` | `types:HandleArray` | No | Filtra i risultati in base ai gruppi. |
-| `*`userRoleArray`*` | `types:StringArray` | No | Filtra i risultati in base al ruolo utente. |
-| `*`numChars`*` | `xsd:int` | No | Abilitare >1 carattere. |
+| `*`userRoleArray`*` | `types:StringArray` | No | Filtra i risultati in base al ruolo dell’utente. |
+| `*`numChars`*` | `xsd:int` | No | Abilita >1 carattere. |
 
 **Output (getUserCharsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Sì | Un array di prefissi di caratteri. |
+| `*`userCharsArray`*` | `types:StringArray` | Sì | Matrice di prefissi di caratteri. |
 
 ## Esempi {#section-3702f165e8b041139a6144f4a76ca25f}
 
 Questo esempio di codice restituisce:
 
-* Primi caratteri dei cognomi degli utenti di una specifica società.
+* Primi caratteri dei cognomi degli utenti di una specifica azienda.
 * Un insieme di gruppi.
-* Un set di ruoli utente.
+* Un insieme di ruoli utente.
 
-La costante stringa Campi filtro carattere utente determina il tipo di caratteri utente restituiti.
+La costante della stringa Campi filtro caratteri utente determina il tipo di caratteri utente restituiti.
 
 **Request Contents (Richiesta contenuto)**
 
