@@ -1,15 +1,16 @@
 ---
 description: Rugosità della superficie del materiale. Specifica la rugosità relativa della superficie del materiale.
 seo-description: Rugosità della superficie del materiale. Specifica la rugosità relativa della superficie del materiale.
-seo-title: grezzo
+seo-title: ruvido
 solution: Experience Manager
-title: grezzo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ruvido
 uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -24,19 +25,19 @@ Rugosità della superficie del materiale. Specifica la rugosità relativa della 
 <table id="simpletable_432E33EC87144AC7A2A8D9406F862708"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>rugosità superficie (0...100%) o -1 per selezionare la rugosità predefinita. </p> </td> 
+  <td class="stentry"> <p>Rugosità della superficie (0...100%) o -1 per selezionare la rugosità predefinita. </p> </td> 
  </tr> 
 </table>
 
-Utilizzato per controllare l&#39;effetto di rendering del riflesso 3D. Valori di rugosità inferiori producono in genere effetti di riflessione più omogenei; valori più elevati causano la randomizzazione e la dispersione dell’immagine riflessa.
+Utilizzato per controllare l&#39;effetto di rendering del riflesso 3D. Valori di rugosità inferiori producono tipicamente effetti di riflessione più uniformi; valori più alti causano la randomizzazione e la dispersione dell&#39;immagine riflessa.
 
-Ogni tipo di materiale ( `type=`) definisce un effetto di rendering minimo e massimo basato sulla rugosità. Per alcuni tipi di materiali (ad esempio la carta da parete), `rough=` non ha praticamente alcun impatto sull&#39;aspetto del riflesso, mentre per altri tipi di materiali (ad esempio pietra o ceramica) l&#39;effetto è sostanzialmente più pronunciato.
+Ogni tipo di materiale ( `type=`) definisce un effetto di rendering minimo e massimo di riflessione in base alla rugosità. Per alcuni tipi di materiale (ad esempio carta da parete), `rough=` non ha praticamente alcun impatto sull&#39;aspetto del riflesso, mentre per altri tipi di materiale (ad esempio pietra o ceramica), l&#39;effetto è sostanzialmente più pronunciato.
 
 `rough=-1` imposta la rugosità su un valore predefinito interno al server (40% per i tipi di materiale tipici).
 
 ## Proprietà {#section-515375758b254c80af576271bdb61bb8}
 
-Attributo materiale. Ignorato se la vignettatura non dispone di capacità di riflessione 3D, se all&#39;oggetto di destinazione non è associata una geometria 3D, o se l&#39;oggetto di destinazione non riflette altri oggetti nella scena.
+Attributo materiale. Ignorato se la vignetta non ha alcuna funzionalità di riflessione 3D, se all’oggetto di destinazione non è associata una geometria 3D, o se l’oggetto di destinazione non riflette altri oggetti della scena.
 
 ## Predefinito {#section-11861a5e6e8649ee988267d2707fd7cc}
 
