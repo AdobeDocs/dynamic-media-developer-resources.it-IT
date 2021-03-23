@@ -1,15 +1,16 @@
 ---
-description: Percorso del file della maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record catalogo.
-seo-description: Percorso del file della maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record catalogo.
+description: Percorso file maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record del catalogo.
+seo-description: Percorso file maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record del catalogo.
 seo-title: MaskPath
 solution: Experience Manager
 title: MaskPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -17,21 +18,21 @@ ht-degree: 3%
 
 # MaskPath{#maskpath}
 
-Percorso del file della maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record catalogo.
+Percorso file maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record del catalogo.
 
-Consente di associare maschere separate alle immagini.
+Consente di allegare maschere separate alle immagini.
 
-Il server utilizza le regole di risoluzione dei percorsi descritte in [Gestione dei dati di origine](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) per trovare il file di dati.
+Il server utilizza le regole di risoluzione del percorso descritte in [Gestione dei dati di origine](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) per trovare il file di dati.
 
 ## Proprietà {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-Valore stringa di testo. Facoltativo. Se specificato, deve essere un percorso di file del server immagini relativo o assoluto valido. `attribute::DefaultExt` viene aggiunto se non è presente alcun suffisso di file.
+Valore stringa di testo. Facoltativo. Se specificato, deve essere un percorso di file server di immagini relativo o assoluto valido. `attribute::DefaultExt` viene aggiunto se non è presente alcun suffisso di file.
 
-Se in un record di catalogo sono definite sia un&#39;immagine principale ( `catalog::Path`) che un&#39;immagine maschera ( `catalog::MaskPath`), entrambe devono avere esattamente la stessa dimensione in pixel. Le immagini delle maschere devono essere in scala di grigio a 8 bit.
+Se sia un’immagine principale ( `catalog::Path`) che un’immagine maschera ( `catalog::MaskPath`) sono definite in un record di catalogo, entrambe devono avere esattamente la stessa dimensione di pixel. Le immagini della maschera devono essere in scala di grigi a 8 bit.
 
-`mask=` nelle sostituzioni delle richieste  `catalog::MaskPath`.
+`mask=` nelle sostituzioni della richiesta  `catalog::MaskPath`.
 
-`catalog::MaskPath` sostituisce il canale alfa nell’immagine principale (  `catalog::Path`), se presente, e se il canale alfa non è associato (ovvero non è premoltiplicato). Se l&#39;immagine alfa è premoltiplicata, `catalog::MaskPath` viene ignorata e il canale alfa viene sempre utilizzato.
+`catalog::MaskPath` sostituisce il canale alfa nell’immagine principale (  `catalog::Path`), se presente, e se il canale alfa non è associato (cioè non è pre-moltiplicato). Se l&#39;immagine alfa è pre-moltiplicata, `catalog::MaskPath` viene ignorata e il canale alfa viene sempre utilizzato.
 
 ## Predefinito {#section-78533e35bfec469ba087cb68a35bb81b}
 
