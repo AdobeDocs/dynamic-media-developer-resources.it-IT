@@ -1,40 +1,41 @@
 ---
-description: Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
-seo-description: Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
-seo-title: Richiedi comandi
+description: Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
+seo-description: Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
+seo-title: Comandi di richiesta
 solution: Experience Manager
-title: Richiedi comandi
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Comandi di richiesta
 uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
 
-# Richiedi comandi{#request-commands}
+# Comandi di richiesta{#request-commands}
 
-Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
+Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache</a> </p></td> 
-  <td class="stentry"> <p>Ignora il comportamento predefinito di caching delle risposte. </p></td> 
+  <td class="stentry"> <p>Sostituisce il comportamento predefinito di memorizzazione in cache delle risposte. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> defaultImage</a> </p></td> 
-  <td class="stentry"> <p>Specifica l'immagine da utilizzare invece di un file immagine mancante. </p></td> 
+  <td class="stentry"> <p>Specifica l'immagine da utilizzare al posto di un file immagine mancante. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt</a> </p></td> 
-  <td class="stentry"> <p>Specifica il formato dell’immagine. </p></td> 
+  <td class="stentry"> <p>Specifica il formato immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
-  <td class="stentry"> <p>Imposta il profilo colore di output. </p></td> 
+  <td class="stentry"> <p>Imposta il profilo del colore di output. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
@@ -46,11 +47,11 @@ Questi comandi si applicano indipendentemente da dove sono visualizzati nella ri
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>Incorpora XMP metadati nell'immagine di risposta. </p></td> 
+  <td class="stentry"> <p>Incorpora i metadati XMP nell'immagine di risposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
-  <td class="stentry"> <p>Specifica il valore di risoluzione di stampa incorporato nell'immagine di risposta. </p></td> 
+  <td class="stentry"> <p>Specifica il valore della risoluzione di stampa incorporato nell'immagine di risposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
@@ -58,7 +59,7 @@ Questi comandi si applicano indipendentemente da dove sono visualizzati nella ri
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> quantificare</a> </p> </td> 
-  <td class="stentry"> <p>Specifica gli attributi di quantizzazione del colore per l’output in formato GIF. </p></td> 
+  <td class="stentry"> <p>Specifica gli attributi di quantizzazione del colore per l'output GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 
@@ -66,7 +67,7 @@ Questi comandi si applicano indipendentemente da dove sono visualizzati nella ri
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md#reference-29a398cc59dc4caf9acd5f69c9ba9715" type="reference" format="dita" scope="local"> resMode</a> </p></td> 
-  <td class="stentry"> <p>Specifica la modalità di ricampionamento o interpolazione dell’immagine. </p></td> 
+  <td class="stentry"> <p>Specifica la modalità di ricampionamento o interpolazione dell'immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-template.md#reference-3beccaa462a64bf0ba867e5c8fd0bd14" type="reference" format="dita" scope="local"> template</a> </p> </td> 
@@ -82,7 +83,7 @@ Questi comandi si applicano indipendentemente da dove sono visualizzati nella ri
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> imageSet</a> </p> </td> 
-  <td class="stentry"> <p>Specifica il set di immagini da utilizzare per questa richiesta. </p></td> 
+  <td class="stentry"> <p>Specifica il set di immagini da utilizzare per la richiesta. </p></td> 
  </tr> 
 </table>
 
