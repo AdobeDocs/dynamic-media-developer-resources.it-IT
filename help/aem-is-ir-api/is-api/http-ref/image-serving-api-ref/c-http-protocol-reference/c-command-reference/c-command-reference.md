@@ -4,12 +4,13 @@ seo-description: Questa sezione descrive i comandi del protocollo HTTP.
 seo-title: Riferimento comando
 solution: Experience Manager
 title: Riferimento comando
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 7%
 
 ---
@@ -19,21 +20,21 @@ ht-degree: 7%
 
 Questa sezione descrive i comandi del protocollo HTTP.
 
-**Solo** per Dynamic Media in AEM: Oltre alle impostazioni di base dell’immagine disponibili nell’interfaccia utente,  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) sono supportate numerose modifiche avanzate alle immagini che potete specificare nel campo  **Image** Modifiersfield. Questi parametri sono definiti di seguito. Tenete presente, tuttavia, che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
+**Solo** per Dynamic Media in AEM: Oltre alle impostazioni di base dell’immagine disponibili nell’interfaccia utente,  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate dell’immagine che puoi specificare nel campo  **Image** Modifiersfield. Questi parametri sono definiti di seguito. Tuttavia, tieni presente che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
 
-* Comandi di correzione colore: `icc=` e `iccEmbed=`.
-* Comandi di base per la modellazione e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
+* Comandi di correzione del colore: `icc=` e `iccEmbed=`.
+* Comandi di base per il modello e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
 * Comandi di localizzazione: `locale=` e `req=xlate`.
-* `req=set` non è disponibile per l&#39;uso generale.
+* `req=set` non è disponibile per l&#39;utilizzo generale.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servizi Dynamic Media non core: SVG, Image Rendering e Web-stampa.
+* Servizi Dynamic Media non principali: SVG, Image Rendering e Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consultate anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
+Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
@@ -50,38 +51,38 @@ Consultate anche Dynamic Media [Image Preset Options](https://experienceleague.a
 * [defaultImage](r-is-http-defaultimage.md)
 * [effetto](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [estensione](r-extend.md)
+* [estendere](r-extend.md)
 * [adatta](r-fit.md)
-* [riflettere](r-flip.md)
+* [capovolgere](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
-* [hide](r-hide.md)
+* [nascondere](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [Id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [layer](r-layer.md)
+* [strato](r-layer.md)
 * [locale](r-locale.md)
 * [map](r-map.md)
-* [mask](r-mask.md)
+* [maschera](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_bright](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
 * [op_contrasto](r-op-contrast.md)
-* [op_develop](r-op-grow.md)
-* [op_developMask](r-op-growmask.md)
-* [op_developMaskR](r-op-growmaskr.md)
+* [op_grow](r-op-grow.md)
+* [op_growMask](r-op-growmask.md)
+* [op_growMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_sound](r-op-noise.md)
+* [op_rumore](r-op-noise.md)
 * [op_saturation](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
-* [opac](r-opac.md)
+* [opaca](r-opac.md)
 * [origine](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
@@ -95,7 +96,7 @@ Consultate anche Dynamic Media [Image Preset Options](https://experienceleague.a
 * [req](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
-* [rint](r-rgn.md)
+* [rassegnare](r-rgn.md)
 * [rotate](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
