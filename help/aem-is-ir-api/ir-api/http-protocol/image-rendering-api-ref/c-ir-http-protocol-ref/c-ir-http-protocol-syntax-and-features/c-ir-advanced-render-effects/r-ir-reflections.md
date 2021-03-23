@@ -1,15 +1,16 @@
 ---
-description: Le vignettature possono essere create per includere dati di riflessione near-3D.
-seo-description: Le vignettature possono essere create per includere dati di riflessione near-3D.
+description: Le vignette possono essere create per includere dati di riflessione vicino a 3D.
+seo-description: Le vignette possono essere create per includere dati di riflessione vicino a 3D.
 seo-title: Riflessioni
 solution: Experience Manager
 title: Riflessioni
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # Riflessioni{#reflections}
 
-Le vignettature possono essere create per includere dati di riflessione near-3D.
+Le vignette possono essere create per includere dati di riflessione vicino a 3D.
 
 In tal caso, per definire le proprietà riflettenti della superficie del materiale vengono utilizzati i seguenti attributi di materiale:
 
@@ -33,16 +34,16 @@ In tal caso, per definire le proprietà riflettenti della superficie del materia
   <tr> 
    <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span> </a> </p> </td> 
    <td> <p>Lucidità superficiale </p> </td> 
-   <td> <p>Da vignettatura </p> </td> 
+   <td> <p>Da vignetta </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
-   <td> <p>Variazione della superficie (immagine in scala di grigio) </p> </td> 
+   <td> <p>Variazione della luminosità (immagine in scala di grigi) </p> </td> 
    <td> <p>Nessuno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grezza=  </span> </a> </p> </td> 
-   <td> <p>Disturbo della superficie </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grezzo=  </span> </a> </p> </td> 
+   <td> <p>rugosità della superficie </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
@@ -53,6 +54,6 @@ In tal caso, per definire le proprietà riflettenti della superficie del materia
  </tbody> 
 </table>
 
-Il renderer regola l&#39;intervallo dell&#39;attributo `gloss=` e `rough=` in base a `type=`. Alcuni tipi di materiale, come il tessuto, sono generalmente meno riflettenti rispetto ai tipi di materiale come la pietra o il metallo, e la stessa quantità di globo specificata per uno produrrà un effetto di riflessione diverso rispetto all&#39;altro. `gloss=`e la rugosità ha una gamma abbastanza ampia se non  `type=` è specificata o se è impostata su 0.
+Il renderer regola l’intervallo dell’attributo `gloss=` e `rough=` in base a `type=`. Alcuni tipi di materiale, come il tessuto, sono generalmente meno riflettenti dei tipi di materiale come la pietra o il metallo, e la stessa quantità di lucentezza specificata per uno si tradurrà in un effetto di riflessione diverso rispetto all&#39;altro. `gloss=`e la rugosità hanno una gamma abbastanza ampia se non  `type=` è specificato o è impostato su 0.
 
-`glossmap=` può essere utilizzato per controllare la lucidità di un materiale pixel per pixel.
+`glossmap=` può essere utilizzato per controllare la lucidità di un materiale in base a pixel per pixel.
