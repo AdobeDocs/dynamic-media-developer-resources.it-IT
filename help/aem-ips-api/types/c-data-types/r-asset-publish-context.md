@@ -1,23 +1,24 @@
 ---
-description: Consente di mappare una risorsa sui contesti di pubblicazione in cui è contrassegnata una risorsa per la pubblicazione.
-seo-description: Consente di mappare una risorsa sui contesti di pubblicazione in cui è contrassegnata una risorsa per la pubblicazione.
+description: Mappa una risorsa in PublishContext in cui una risorsa è contrassegnata per la pubblicazione.
+seo-description: Mappa una risorsa in PublishContext in cui una risorsa è contrassegnata per la pubblicazione.
 seo-title: AssetPublishContext
 solution: Experience Manager
 title: AssetPublishContext
-topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '78'
 ht-degree: 5%
 
 ---
 
 
-# AssetPublishContext{#assetpublishcontexts}
+# AssetPublishContexts{#assetpublishcontexts}
 
-Consente di mappare una risorsa sui contesti di pubblicazione in cui è contrassegnata una risorsa per la pubblicazione.
+Mappa una risorsa in PublishContext in cui una risorsa è contrassegnata per la pubblicazione.
 
 Sintassi
 
@@ -25,6 +26,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Consente di gestire la risorsa. |
-| `*`publishContextArray`*` | `types:PublishContextArray` | Un array di contesti di pubblicazione in cui la risorsa è contrassegnata per la pubblicazione. |
+| `*`assetHandle`*` | `xsd:string` | Gestisci la risorsa. |
+| `*`publishContextArray`*` | `types:PublishContextArray` | Matrice di contesti di pubblicazione in cui la risorsa è contrassegnata per la pubblicazione. |
 
