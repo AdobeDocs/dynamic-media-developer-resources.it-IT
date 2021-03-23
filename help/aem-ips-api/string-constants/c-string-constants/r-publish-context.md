@@ -4,13 +4,14 @@ seo-description: Utilizzato da getActivePublishContextsReturn/publishContext.
 seo-title: Contesto di pubblicazione
 solution: Experience Manager
 title: Contesto di pubblicazione
-topic: Dynamic Media Image Production System API
 uuid: 50347cd3-ce36-46d7-9b88-9da02a571768
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 35%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
 
