@@ -1,15 +1,16 @@
 ---
-description: Eliminate l’output di un processo.
-seo-description: Eliminate l’output di un processo.
+description: Elimina l'output di un processo.
+seo-description: Elimina l'output di un processo.
 seo-title: batchjobdelete
 solution: Experience Manager
 title: batchjobdelete
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # batchjobdelete{#batchjobdelete}
 
-Eliminate l’output di un processo.
+Elimina l&#39;output di un processo.
 
-Se un processo è in esecuzione, viene interrotto immediatamente e tutte le relative informazioni di elaborazione vengono eliminate. Se il processo è stato completato correttamente, il relativo file di output viene eliminato.
+Se un processo è attualmente in esecuzione, viene interrotto immediatamente e tutte le relative informazioni di elaborazione vengono eliminate. Se il processo è stato completato correttamente, il relativo file di output viene eliminato.
 
 Questo parametro:
 
@@ -32,7 +33,7 @@ Questo parametro:
 
 Restituisce:
 
-Stato del processo al momento della ricezione della richiesta di eliminazione. Errore se `jobid` non è valido o il processo è già stato eliminato.
+Stato del processo al momento della ricezione della richiesta di eliminazione, errore se `jobid` non è valido o il processo è già stato eliminato.
 
 ## Esempio {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
