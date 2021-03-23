@@ -1,15 +1,16 @@
 ---
-description: Elemento filtro indirizzo. Facoltativo negli elementi <rule> e <pathrule>.
-seo-description: Elemento filtro indirizzo. Facoltativo negli elementi <rule> e <pathrule>.
+description: Elemento filtro indirizzi. Facoltativo negli elementi <rule> e <pathrule> .
+seo-description: Elemento filtro indirizzi. Facoltativo negli elementi <rule> e <pathrule> .
 seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # addressfilter{#addressfilter}
 
-Elemento filtro indirizzo. Facoltativo negli elementi `<rule>` e `<pathrule>`.
+Elemento filtro indirizzi. Facoltativo negli elementi `<rule>` e `<pathrule>`.
 
 Sostituisce `attribute::ClientAddressFilter` quando la regola viene applicata.
 
@@ -27,15 +28,15 @@ Nessuno.
 
 ## Dati {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Elenco degli indirizzi IP separati da virgole. Ogni singolo indirizzo può includere un suffisso di netmask facoltativo per consentire la specifica degli intervalli di indirizzi IP. Vedere `attribute::ClientAddressFilter` per informazioni dettagliate.
+Elenco degli indirizzi IP separati da virgole. Ogni indirizzo individuale può includere un suffisso netmask opzionale per consentire la specifica di intervalli di indirizzi IP. Per ulteriori informazioni, vedere `attribute::ClientAddressFilter` .
 
 ## Descrizione {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-L&#39;accesso a questo catalogo immagini può essere limitato a uno o più indirizzi IP client specifici specificandoli in un elemento `<addressfilter>`. Se l&#39;indirizzo IP del client non corrisponde, viene restituito al client un errore &quot;richiesta rifiutata&quot;.
+L’accesso a questo catalogo immagini può essere limitato a uno o più indirizzi IP client specifici specificandoli in un elemento `<addressfilter>` . Se l’indirizzo IP del client non corrisponde, viene restituito al client un errore di &quot;richiesta rifiutata&quot;.
 
 L&#39;accesso non è limitato se `<addressfilter>` è vuoto o non è specificato.
 
-Se la `<expression>` nell&#39;elemento `<rule>` è assente o vuota, la `<addressfilter>` viene applicata a tutte le richieste.
+Se l’ `<expression>` nell’elemento `<rule>` è assente o vuoto, il `<addressfilter>` viene applicato a tutte le richieste.
 
 ## Consultate anche {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
