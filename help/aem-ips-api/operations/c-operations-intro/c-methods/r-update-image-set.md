@@ -4,13 +4,14 @@ seo-description: Aggiorna un set di immagini.
 seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-topic: Dynamic Media Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 16%
+source-wordcount: '92'
+ht-degree: 15%
 
 ---
 
@@ -27,16 +28,16 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il set di immagini da modificare. |
-| `*`assetHandle`*` | `xsd:string` | Ys | La maniglia del set di immagini da modificare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
 | `*`MemberArray`*` | `types:ImageSetMemberUpdateArray` | No | Ripristina i membri del set di immagini. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che funge da miniatura per il set di immagini. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
 
 **Output (updateImageSetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`sequence`*` |  |  |  |
+| `*`sequenza`*` |  |  |  |
 
 ## Esempi {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
