@@ -1,27 +1,28 @@
 ---
-description: Nome collegamento profilo. Un nome di scelta rapida per il profilo colore.
-seo-description: Nome collegamento profilo. Un nome di scelta rapida per il profilo colore.
+description: Nome collegamento profilo. Nome di scelta rapida per il profilo colore.
+seo-description: Nome collegamento profilo. Nome di scelta rapida per il profilo colore.
 seo-title: Nome
 solution: Experience Manager
 title: Nome
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 12%
 
 ---
 
 
 # Nome{#name}
 
-Nome collegamento profilo. Un nome di scelta rapida per il profilo colore.
+Nome collegamento profilo. Nome di scelta rapida per il profilo colore.
 
 ## Proprietà {#section-52a4b91bbfa045c49c9541444fad2027}
 
-Stringa di testo. Obbligatorio. Chiave indice principale per la mappa profilo ICC. Ogni valore `icc::Name` deve essere univoco all&#39;interno della tabella e non deve contenere caratteri &#39;,&#39;.
+Stringa di testo. Obbligatorio. Chiave indice principale per la mappa profilo ICC. Ogni valore `icc::Name` deve essere univoco all’interno della tabella e non deve contenere i caratteri &#39;,&#39;.
 
 ## Predefinito {#section-9d23d9b082f541b5b29b4ff92e942942}
 
