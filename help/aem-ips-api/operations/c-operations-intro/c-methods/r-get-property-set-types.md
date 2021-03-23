@@ -1,15 +1,16 @@
 ---
-description: Ottiene i tipi di set di proprietà associati alla società specificata, o i tipi di set di proprietà globali, se non è specificata alcuna società.
-seo-description: Ottiene i tipi di set di proprietà associati alla società specificata, o i tipi di set di proprietà globali, se non è specificata alcuna società.
+description: Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non viene specificata alcuna società.
+seo-description: Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non viene specificata alcuna società.
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '141'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Ottiene i tipi di set di proprietà associati alla società specificata, o i tipi di set di proprietà globali, se non è specificata alcuna società.
+Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non viene specificata alcuna società.
 
 Sintassi
 
@@ -51,7 +52,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">L'handle della società a cui sono associati i tipi di set di proprietà. <p>Ometti se vuoi restituire tipi di set di proprietà globali. </p> </td> 
+   <td colname="col4">L'handle della società a cui sono associati i tipi di set di proprietà. <p>Ometti se desideri restituire i tipi di set di proprietà globali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +61,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Sì | Un array di tipi di set di proprietà associati alla società specificata, o i tipi di set di proprietà globali, se non è stata specificata alcuna società. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | Sì | Matrice di tipi di set di proprietà associati alla società specificata o di tipi di set di proprietà globali, se non è stata specificata alcuna società. |
 
 ## Esempi {#section-280c406a90864409856aee44d4069a52}
 
