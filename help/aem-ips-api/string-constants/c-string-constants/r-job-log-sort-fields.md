@@ -1,23 +1,24 @@
 ---
-description: Usato da getJobLogsParam/sortBy
-seo-description: Usato da getJobLogsParam/sortBy
-seo-title: Campi ordinamento registro processo
+description: Utilizzato da getJobLogsParam/sortBy
+seo-description: Utilizzato da getJobLogsParam/sortBy
+seo-title: Campi di ordinamento del registro dei processi
 solution: Experience Manager
-title: Campi ordinamento registro processo
-topic: Dynamic Media Image Production System API
+title: Campi di ordinamento del registro dei processi
 uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 3%
 
 ---
 
 
-# Campi di ordinamento registro processo{#job-log-sort-fields}
+# Campi di ordinamento del registro di lavoro{#job-log-sort-fields}
 
-Usato da getJobLogsParam/sortBy
+Utilizzato da getJobLogsParam/sortBy
 
 Sintassi
 
