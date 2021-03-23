@@ -1,15 +1,16 @@
 ---
 description: Definizioni dei campi definite dall’utente per risorse specifiche.
 seo-description: Definizioni dei campi definite dall’utente per risorse specifiche.
-seo-title: MetadataField
+seo-title: CampoMetadati
 solution: Experience Manager
-title: MetadataField
-topic: Dynamic Media Image Production System API
+title: CampoMetadati
 uuid: 6156be6e-efa5-4e90-928d-2ab936668154
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 Definizioni dei campi definite dall’utente per risorse specifiche.
 
-Recuperate le definizioni dei campi tag con le operazioni `getMetadataFields` o `getAssetMetadataField`.
+Recupera le definizioni dei campi tag con le operazioni `getMetadataFields` o `getAssetMetadataField` .
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,12 +36,12 @@ Recuperate le definizioni dei campi tag con le operazioni `getMetadataFields` o 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle del campo metadati. </td> 
+   <td colname="col3"> Maniglia del campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nome campo metadati. </td> 
+   <td colname="col3"> Nome del campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -50,7 +51,7 @@ Recuperate le definizioni dei campi tag con le operazioni `getMetadataFields` o 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Valore predefinito per il campo di metadati. </td> 
+   <td colname="col3"> Valore predefinito per il campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
@@ -65,17 +66,17 @@ Recuperate le definizioni dei campi tag con le operazioni `getMetadataFields` o 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Nascondere o esporre i metadati specifici del sistema IPS. Restituito da <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> e <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col3">Nascondere o esporre metadati specifici del sistema IPS. Restituito da <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> e <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforzato</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforcement</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Flag booleano che indica se il tipo di campo di metadati è imposto (convalidato) quando il valore è impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>Flag booleano che indica se il tipo di campo metadati è applicato (convalidato) quando il valore è impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Consente di creare un set di valori enumerati condivisi a cui i tag selezionati possono puntare. </td> 
+   <td colname="col3"> Consente di creare un set di valori enumerati condivisi a cui possono fare riferimento i tag selezionati. </td> 
   </tr> 
  </tbody> 
 </table>
