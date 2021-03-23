@@ -4,18 +4,19 @@ seo-description: Utilizzato da JobLogDetial/assetType.
 seo-title: Tipi di file registro processi
 solution: Experience Manager
 title: Tipi di file registro processi
-topic: Dynamic Media Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 3%
 
 ---
 
 
-# Tipi di file registro processo{#job-log-file-types}
+# Tipi di file registro processi{#job-log-file-types}
 
 Utilizzato da JobLogDetial/assetType.
 
