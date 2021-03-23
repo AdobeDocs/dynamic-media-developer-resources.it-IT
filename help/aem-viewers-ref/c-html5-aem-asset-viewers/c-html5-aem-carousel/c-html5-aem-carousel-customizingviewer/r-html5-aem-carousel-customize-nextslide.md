@@ -1,31 +1,32 @@
 ---
-description: Toccando o facendo clic sul pulsante diapositiva successiva si sposta l’utente sulla diapositiva successiva del set di caroselli.
-seo-description: Toccando o facendo clic sul pulsante diapositiva successiva si sposta l’utente sulla diapositiva successiva del set di caroselli.
-seo-title: Diapositiva successiva
+description: Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
+seo-description: Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
+seo-title: diapositiva successiva
 solution: Experience Manager
-title: Diapositiva successiva
-topic: Dynamic Media
+title: diapositiva successiva
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
 
 
-# Diapositiva successiva{#next-slide}
+# diapositiva successiva{#next-slide}
 
-Toccando o facendo clic sul pulsante diapositiva successiva si sposta l’utente sulla diapositiva successiva del set di caroselli.
+Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Questo pulsante non viene visualizzato sui dispositivi touch. Potete ridimensionare, incarnato e posizionare questo pulsante tramite CSS.
+Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 `.s7carouselviewer .s7panrightbutton`
 
@@ -46,12 +47,12 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Posizione da destra del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione da sinistra del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
+   <td colname="col2"> <p>Posizione a sinistra del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione nella parte inferiore del bordo del visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Posizione dal fondo del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -62,15 +63,15 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spriti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursore  </span> </p> </td> 
    <td colname="col2"> <p>Tipo di cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,11 +79,11 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
 
-Esempio: per impostare un pulsante di diapositiva precedente da 60 x 60 pixel, posizionato 10 pixel dal bordo destro del visualizzatore e centrato verticalmente, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante.
+Esempio: per impostare un pulsante diapositiva precedente di 60 x 60 pixel, posizionato 10 pixel dal bordo destro del visualizzatore e centrato verticalmente, e visualizza un’immagine diversa per ciascuno dei quattro stati diversi del pulsante.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
