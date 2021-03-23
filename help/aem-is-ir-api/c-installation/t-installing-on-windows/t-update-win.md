@@ -1,15 +1,16 @@
 ---
-description: Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
-seo-description: Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
+description: Utilizzare questa procedura per aggiornare Dynamic Media Image Server.
+seo-description: Utilizzare questa procedura per aggiornare Dynamic Media Image Server.
 seo-title: Aggiornamento da IS 4.7.4 o successivo
 solution: Experience Manager
 title: Aggiornamento da IS 4.7.4 o successivo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -17,21 +18,21 @@ ht-degree: 0%
 
 # Aggiornamento da IS 4.7.4 o successivo{#updating-from-is-or-later}
 
-Utilizzate questa procedura per aggiornare Dynamic Media Image Server.
+Utilizzare questa procedura per aggiornare Dynamic Media Image Server.
 
-Se state effettuando l’aggiornamento da una versione precedente di Image Server, contattate il supporto per il processo corretto.
+Se stai eseguendo l&#39;aggiornamento da una versione precedente di Image Serving, contatta il supporto per il processo corretto.
 
 >[!NOTE]
 >
->La cartella [!DNL webapps] potrebbe essere eliminata al momento dell&#39;aggiornamento. Esegui il backup della cartella [!DNL webapps] prima dell&#39;aggiornamento.
+>La cartella [!DNL webapps] può essere eliminata al momento dell&#39;aggiornamento. Esegui il backup della cartella [!DNL webapps] prima dell&#39;aggiornamento.
 
-1. Accedete all&#39;host del server con privilegi amministrativi.
-1. Estrarre il contenuto del file zip di distribuzione Image Server.
-1. Per avviare la procedura guidata di installazione, eseguite setup/setup.exe.
-1. Fare clic su **[!UICONTROL Next]** per avanzare al contratto di licenza per l&#39;utente finale (EULA), leggere il contratto di licenza e fare clic su **[!UICONTROL Yes]**.
+1. Accedi all&#39;host del server con privilegi amministrativi.
+1. Estrarre il contenuto del file zip di distribuzione Image Serving.
+1. Esegui setup/setup.exe per avviare l&#39;installazione guidata.
+1. Fare clic su **[!UICONTROL Avanti]** per avanzare al contratto di licenza con l&#39;utente finale (EULA), leggere il contratto di licenza e fare clic su **[!UICONTROL Sì]**.
 
    Nella pagina successiva vengono visualizzate le impostazioni di configurazione precedenti.
-1. Fare clic su **[!UICONTROL Next]** per avviare l&#39;installazione dell&#39;aggiornamento.
+1. Fare clic su **[!UICONTROL Avanti]** per avviare l&#39;installazione dell&#39;aggiornamento.
 
    >[!NOTE]
    >
@@ -41,6 +42,6 @@ Se state effettuando l’aggiornamento da una versione precedente di Image Serve
 
    In alcuni casi, la procedura guidata di installazione potrebbe richiedere il riavvio del sistema.
 
-Durante un aggiornamento, il file [!DNL ImageServing/conf/server.xml] viene aggiornato alle impostazioni più recenti. Se hai modificato o aggiunto dei valori, devi salvare la [!DNL server.xml] esistente e riimplementare le modifiche dopo l&#39;aggiornamento.
+Durante un aggiornamento, il file [!DNL ImageServing/conf/server.xml] viene aggiornato alle impostazioni più recenti. Se hai modificato o aggiunto dei valori, devi salvare il [!DNL server.xml] esistente e reimplementare le modifiche dopo l&#39;aggiornamento.
 
-Dopo un&#39;installazione di aggiornamento, prendete in considerazione il riscaldamento della cache delle risposte HTTP prima di rendere attivo il server. Per ulteriori informazioni, fare riferimento alla descrizione dell&#39;utility `playlog`.
+Dopo un&#39;installazione di aggiornamento, considera il riscaldamento della cache di risposta HTTP prima di avviare il server. Per ulteriori informazioni, fare riferimento alla descrizione dell&#39;utilità `playlog` .
