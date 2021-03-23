@@ -1,29 +1,30 @@
 ---
-description: Imposta la miniatura di una o più risorse.
-seo-description: Imposta la miniatura di una o più risorse.
+description: Imposta l’immagine in miniatura per una o più risorse.
+seo-description: Imposta l’immagine in miniatura per una o più risorse.
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 12%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
-Imposta la miniatura di una o più risorse.
+Imposta l’immagine in miniatura per una o più risorse.
 
 Sintassi
 
-## Tipi di risorse miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Tipi di risorse miniature {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-I tipi di risorse in miniatura consentiti sono i seguenti:
+I tipi di risorse miniature consentiti sono costituiti dai seguenti elementi:
 
 * Immagine
 * Visualizz. modific.
@@ -42,7 +43,7 @@ I tipi di risorse in miniatura consentiti sono i seguenti:
 
 >[!NOTE]
 >
->L’utente deve disporre dell’accesso in lettura/scrittura alla risorsa di destinazione e accedere in lettura alla risorsa della miniatura.
+>L’utente deve disporre dell’accesso in lettura/scrittura alla risorsa di destinazione e di accesso in lettura alla risorsa miniatura.
 
 ## Parametri {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -59,9 +60,9 @@ I tipi di risorse in miniatura consentiti sono i seguenti:
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sì | Numero di miniature impostate correttamente. |
 | `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare le miniature. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l&#39;operazione tentava di impostare le miniature. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di applicare gli aggiornamenti. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di applicare gli aggiornamenti. |
+| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare le miniature. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
 
 ## Esempi {#section-6de69a8680c24c1486c5f01488393381}
 
