@@ -1,27 +1,28 @@
 ---
-description: Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un determinato record catalogo non contenga un valore di risoluzione del catalogo valido.
-seo-description: Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un determinato record catalogo non contenga un valore di risoluzione del catalogo valido.
+description: Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un particolare record di catalogo non contenga un valore di risoluzione del catalogo valido.
+seo-description: Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un particolare record di catalogo non contenga un valore di risoluzione del catalogo valido.
 seo-title: Risoluzione
 solution: Experience Manager
 title: Risoluzione
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
 
 # Risoluzione{#resolution}
 
-Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un determinato record di catalogo non contenga un valore valido per il catalogo::Resolution.
+Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un particolare record di catalogo non contenga un valore di catalogo valido::Resolution.
 
 ## Proprietà {#section-06d519158b9f479896f945747c670736}
 
-Numero reale, maggiore di 0. Generalmente espresso come pixel per pollice, ma può anche essere espresso in altre unità, come i pixel per metro.
+Numero reale, maggiore di 0. In genere espresso come pixel per pollice, ma può anche essere in altre unità, come i pixel per metro.
 
 ## Predefinito {#section-eea922c37c224e1dbcab3bc53ee13aca}
 
