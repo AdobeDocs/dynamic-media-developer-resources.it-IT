@@ -4,12 +4,13 @@ seo-description: Dati mappa immagine.
 seo-title: map
 solution: Experience Manager
 title: map
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 57cb0fcf-5a07-4109-bfd4-ef9aaf794b27
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 7%
 
 ---
@@ -32,22 +33,22 @@ Dati mappa immagine.
  </tr> 
 </table>
 
-Restituisce `catalog::Map` senza modifiche quando si esegue una query su una voce di catalogo semplice senza ulteriori comandi specificati (non verrà ridimensionata a `catalog::maxPix`).
+Restituisce `catalog::Map` senza modifiche quando si esegue una query su una voce di catalogo semplice senza specificare alcun comando aggiuntivo (non verrà ridimensionato in `catalog::maxPix`).
 
-Se nella richiesta sono specificati altri comandi, viene restituita una mappa immagine composita derivata dal ridimensionamento, ritaglio, rotazione e sovrapposizione di tutti i comandi `catalog::Map` e/o `map=` inclusi nella richiesta, proprio come accade con i dati immagine `req=img`.
+Se nella richiesta sono specificati altri comandi, viene restituita una mappa immagine composita, che viene derivata da ridimensionamento, ritaglio, rotazione e stratificazione di tutti i comandi `catalog::Map` e/o `map=` inclusi nella richiesta, proprio come i dati immagine sarebbero con `req=img`.
 
-Specificare `text` o omettere il secondo parametro per restituire i dati della mappa immagine sotto forma di una stringa di elemento `HTML <AREA>` con tipo MIME risposta `text/plain`.
+Specifica `text` o ometti il secondo parametro per restituire i dati della mappa immagine sotto forma di una stringa di elemento `HTML <AREA>` con tipo MIME di risposta `text/plain`.
 
-Specificate `xml` per formattare la risposta come XML invece di HTML. È possibile specificare la codifica del testo facoltativamente. Il valore predefinito è `UTF-8`.
+Specifica `xml` per formattare la risposta come XML anziché HTML. Facoltativamente, è possibile specificare la codifica del testo. Il valore predefinito è `UTF-8`.
 
-Restituisce una stringa vuota (o un elemento `<AREA>` vuoto) se non sono stati trovati dati mappa per gli oggetti catalogo specificati e/o se non rimangono elementi `<AREA>` dopo il ritaglio delle immagini.
+Restituisce una stringa vuota (o un elemento `<AREA>` vuoto) se non sono stati trovati dati mappa per gli oggetti di catalogo specificati e/o se non rimangono elementi `<AREA>` dopo il ritaglio delle immagini.
 
 La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
 `<reqHandler>` è il nome del gestore JS presente nella risposta JSONP. Sono consentiti solo caratteri a-z, A-Z e 0-9. Facoltativo. Il valore predefinito è `s7jsonResponse`.
 
-Vedere [Mappe immagine](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+Consulta [Mappe immagine](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
