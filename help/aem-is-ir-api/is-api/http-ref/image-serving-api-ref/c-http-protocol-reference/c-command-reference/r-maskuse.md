@@ -1,15 +1,16 @@
 ---
-description: Utilizzo della maschera immagine. Specifica in che modo la maschera o il canale alfa dell’immagine viene utilizzato per le operazioni sull’immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l’effetto all’area di sfondo del livello principale o all’intero rettangolo del livello principale.
-seo-description: Utilizzo della maschera immagine. Specifica in che modo la maschera o il canale alfa dell’immagine viene utilizzato per le operazioni sull’immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l’effetto all’area di sfondo del livello principale o all’intero rettangolo del livello principale.
+description: Utilizzo della maschera immagine. Specifica come la maschera o il canale alfa dell'immagine viene utilizzato per le operazioni sull'immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l'effetto all'area di sfondo del livello padre o all'intero rettangolo del livello padre.
+seo-description: Utilizzo della maschera immagine. Specifica come la maschera o il canale alfa dell'immagine viene utilizzato per le operazioni sull'immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l'effetto all'area di sfondo del livello padre o all'intero rettangolo del livello padre.
 seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c70da87-f869-495a-be50-226a4516e002
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 1%
 
 # maskUse{#maskuse}
 
-Utilizzo della maschera immagine. Specifica in che modo la maschera o il canale alfa dell’immagine viene utilizzato per le operazioni sull’immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l’effetto all’area di sfondo del livello principale o all’intero rettangolo del livello principale.
+Utilizzo della maschera immagine. Specifica come la maschera o il canale alfa dell&#39;immagine viene utilizzato per le operazioni sull&#39;immagine (ad esempio, colorize=). Se specificato in un livello di effetto, consente di applicare l&#39;effetto all&#39;area di sfondo del livello padre o all&#39;intero rettangolo del livello padre.
 
 `maskUse=norm|invert|off`
 
-Nella tabella seguente è illustrato l&#39;effetto di `maskUse=` a seconda della disponibilità e del tipo di maschera (canale alfa) associata all&#39;immagine del livello.
+La tabella seguente illustra l’effetto di `maskUse=` a seconda della disponibilità e del tipo di maschera (canale alfa) associata all’immagine del livello.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Valore</b> </th> 
    <th class="entry"> <b> Nessuna maschera</b> </th> 
-   <th class="entry"> <b> Alfa non associato (o immagine maschera separata)</b> </th> 
-   <th class="entry"> <b> Alfa associata (premoltiplicata)</b> </th> 
+   <th class="entry"> <b> Alfa non associata (o immagine maschera separata)</b> </th> 
+   <th class="entry"> <b> Alfa associata (pre-moltiplicata)</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,19 +38,19 @@ Nella tabella seguente è illustrato l&#39;effetto di `maskUse=` a seconda della
    <td> <p> <span class="codeph"> off  </span> </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
-   <td> <p> Area di primo piano dell’immagine su un rettangolo riempito di nero pieno </p> </td> 
+   <td> <p> Area in primo piano dell'immagine su rettangolo piena di nero solido </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> norma  </span> </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
-   <td> <p> Area di primo piano dell’immagine </p> </td> 
-   <td> <p> Area di primo piano dell’immagine o del livello </p> </td> 
+   <td> <p> Area in primo piano dell'immagine </p> </td> 
+   <td> <p> Area in primo piano dell'immagine o del livello </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> invertito  </span> </p> </td> 
+   <td> <p> <span class="codeph"> invertire  </span> </p> </td> 
    <td> <p> Livello nascosto </p> </td> 
-   <td> <p> Area di sfondo dell’immagine </p> </td> 
-   <td> <p> Area di sfondo dell’immagine o livello riempita con nero in tinta unita </p> </td> 
+   <td> <p> Area di sfondo dell'immagine </p> </td> 
+   <td> <p> Area di sfondo dell'immagine o del livello riempito con nero solido </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +59,7 @@ Nella tabella seguente è illustrato l&#39;effetto di `maskUse=` a seconda della
 
 Attributo immagine o livello. Si applica al livello 0 se `layer=comp`. Se specificato in un livello di effetto, il comando modifica la maschera ereditata dal livello principale.
 
-Il comportamento di `maskUse=` non è definito e non è supportato se specificato con livelli di testo o in tinta unita quando non è applicabile alcuna maschera immagine (specificato con `mask=` o `catalog::Mask`).
+Il comportamento di `maskUse=` non è definito e non è supportato se specificato con livelli di testo o di colore solido quando non è applicabile alcuna maschera immagine (specificato con `mask=` o `catalog::Mask`).
 
 ## Predefinito {#section-982dd8174641437786dcb3729ace6428}
 
@@ -66,7 +67,7 @@ Il comportamento di `maskUse=` non è definito e non è supportato se specificat
 
 ## Esempio {#section-daa371e9be5547368ff6772342acba0a}
 
-Colorare l’area di sfondo di un’immagine; il primo piano dell’immagine è definito da un’immagine maschera separata. A questo scopo, sovrapponete lo sfondo colorato dell’immagine se l’immagine non è stata modificata:
+Colorare l&#39;area di sfondo di un&#39;immagine; il primo piano dell&#39;immagine è definito da un&#39;immagine maschera separata. Questo si ottiene sovrapponendo lo sfondo colorato dell&#39;immagine se l&#39;immagine non modificata:
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 
