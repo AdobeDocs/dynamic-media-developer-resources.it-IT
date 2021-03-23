@@ -1,15 +1,16 @@
 ---
-description: Attiva e disattiva la visualizzazione della didascalia chiusa. Non è visibile se il parametro caption non è specificato. Potete usare CSS per ridimensionare, incarnato e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
-seo-description: Attiva e disattiva la visualizzazione della didascalia chiusa. Non è visibile se il parametro caption non è specificato. Potete usare CSS per ridimensionare, incarnato e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
+description: Attiva e disattiva la visualizzazione dei sottotitoli. Non è visibile se il parametro della didascalia non è specificato. È possibile utilizzare CSS per ridimensionare, skin e posizionare questo pulsante rispetto alla barra di controllo che lo contiene.
+seo-description: Attiva e disattiva la visualizzazione dei sottotitoli. Non è visibile se il parametro della didascalia non è specificato. È possibile utilizzare CSS per ridimensionare, skin e posizionare questo pulsante rispetto alla barra di controllo che lo contiene.
 seo-title: Pulsante Didascalia
 solution: Experience Manager
 title: Pulsante Didascalia
-topic: Dynamic Media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Pulsante Didascalia{#caption-button}
 
-Attiva e disattiva la visualizzazione della didascalia chiusa. Non è visibile se il parametro caption non è specificato. Potete usare CSS per ridimensionare, incarnato e posizionare il pulsante in relazione alla barra di controllo che lo contiene.
+Attiva e disattiva la visualizzazione dei sottotitoli. Non è visibile se il parametro della didascalia non è specificato. È possibile utilizzare CSS per ridimensionare, skin e posizionare questo pulsante rispetto alla barra di controllo che lo contiene.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton
@@ -43,10 +44,10 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -62,23 +63,23 @@ L&#39;aspetto del pulsante è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` e i selettori di attributi selezionati, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato in cui le didascalie sono visibili e `selected='false'` viene utilizzato quando le didascalie sono nascoste.
+>Questo pulsante supporta il selettore di attributi `state` e i selettori di attributi selezionati, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato in cui le didascalie sono visibili e `selected='false'` viene utilizzato quando le didascalie sono nascoste.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-Esempio: per impostare un pulsante per sottotitoli codificati di 28x28 pixel, posizionato quattro pixel dalla parte superiore e 68 pixel dal bordo destro della barra di controllo, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o non selezionato.
+Esempio: per impostare un pulsante per sottotitoli codificati di 28 x 28 pixel, posizionati quattro pixel dal bordo superiore e 68 pixel dal bordo destro della barra di controllo, e visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 
