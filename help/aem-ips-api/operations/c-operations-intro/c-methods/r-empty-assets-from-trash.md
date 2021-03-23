@@ -1,25 +1,26 @@
 ---
-description: Elimina le risorse dal cestino IPS.
-seo-description: Elimina le risorse dal cestino IPS.
+description: Svuota le risorse dal cestino IPS.
+seo-description: Svuota le risorse dal cestino IPS.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '260'
+ht-degree: 6%
 
 ---
 
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-Elimina le risorse dal cestino IPS.
+Svuota le risorse dal cestino IPS.
 
-Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o fino a quando non vengono eliminate dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo processo di pulizia (normalmente notturno) quando vengono infine eliminati dal sistema. Se non vengono utilizzati, le risorse vengono eliminate come parte della stessa attività di pulizia. Il timeout è configurabile (il valore predefinito è 7 giorni).
+Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o fino a quando non esauriscono il cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo lavoro di pulizia (normalmente notturno) quando vengono infine eliminati dal sistema. Se scadono dal cestino, le risorse vengono eliminate come parte della stessa attività di pulizia. Il timeout è configurabile (il valore predefinito è 7 giorni).
 
 ## Tipi di utenti autorizzati {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -37,22 +38,22 @@ Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o f
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società proprietaria delle risorse. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle che rappresentano gli elementi da svuotare dal cestino. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda proprietaria delle risorse. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Matrice di maniglie che rappresentano gli elementi da svuotare dal cestino. |
 
 **Output (emptyAssetsFromTrashParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | Sì | Numero di risorse svuotate correttamente dal cestino. |
-| `*`warningCount`*` | `xsd:Int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di svuotare le risorse dal cestino. |
-| `*`errorCount`*` | `xsd:Int` | Sì | Numero di errori generati quando l&#39;operazione tentava di svuotare le risorse dal cestino. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di svuotarle dal cestino. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di svuotarle dal cestino. |
+| `*`successCount`*` | `xsd:Int` | Sì | Numero di risorse svuotate dal cestino. |
+| `*`warningCount`*` | `xsd:Int` | Sì | Numero di avvisi generati quando l’operazione tentava di svuotare le risorse dal cestino. |
+| `*`errorCount`*` | `xsd:Int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di svuotare le risorse dal cestino. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di svuotarle dal cestino. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione tentava di svuotarle dal cestino. |
 
 ## Esempi {#section-6154a873b6c342bf92e2036280cafdcf}
 
-In questo esempio di codice vengono utilizzati l’handle della società e un array di handle della risorsa che contiene le maniglie per le risorse da svuotare dal cestino.
+Questo esempio di codice utilizza l’handle dell’azienda e una matrice di handle di risorsa che contiene gli handle per le risorse da svuotare dal cestino.
 
 **Request Contents (Richiesta contenuto)**
 
