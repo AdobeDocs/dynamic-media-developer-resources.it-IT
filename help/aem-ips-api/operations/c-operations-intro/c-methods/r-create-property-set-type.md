@@ -1,15 +1,16 @@
 ---
-description: Un tipo di set di proprietà specifica diverse impostazioni utilizzate per gestire i set di proprietà.
-seo-description: Un tipo di set di proprietà specifica diverse impostazioni utilizzate per gestire i set di proprietà.
+description: Un tipo di set di proprietà specifica le varie impostazioni utilizzate per gestire i set di proprietà.
+seo-description: Un tipo di set di proprietà specifica le varie impostazioni utilizzate per gestire i set di proprietà.
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '179'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # createPropertySetType{#createpropertysettype}
 
-Un tipo di set di proprietà specifica diverse impostazioni utilizzate per gestire i set di proprietà.
+Un tipo di set di proprietà specifica le varie impostazioni utilizzate per gestire i set di proprietà.
 
 Sintassi
 
@@ -47,7 +48,7 @@ Sintassi
 
 ## Esempi {#section-13396c9639a6475190e622eae3cdb534}
 
-Questo esempio di codice crea una proprietà impostata con un nome e un tipo specificati dalla costante `PropertySet Types`. L&#39;handle della società proprietaria del tipo di set di proprietà. Se companyHandle non viene passato e il chiamante è IpsAdmin, verrà creato un tipo di set di proprietà globale.
+Questo esempio di codice crea una proprietà impostata con un nome e un tipo specificati dalla costante `PropertySet Types`. L&#39;handle della società proprietaria del tipo di set di proprietà. Se companyHandle non viene passato e il chiamante è un IpsAdmin, verrà creato un tipo di set di proprietà globale.
 
 **Request Contents (Richiesta contenuto)**
 
