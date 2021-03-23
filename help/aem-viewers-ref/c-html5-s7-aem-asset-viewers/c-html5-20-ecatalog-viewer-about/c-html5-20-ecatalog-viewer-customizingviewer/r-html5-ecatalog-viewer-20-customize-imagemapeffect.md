@@ -1,12 +1,13 @@
 ---
-description: A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Dynamic Media Classic o riproduce le aree esatte che corrispondono alla forma delle mappe immagine originali.
+description: A seconda del valore del parametro della modalità, il visualizzatore visualizza le icone della mappa immagine sulla vista principale in luoghi in cui le mappe sono originariamente create in Dynamic Media Classic o esegue il rendering delle aree esatte che corrispondono alla forma delle mappe immagine originali.
 solution: Experience Manager
 title: Effetto mappa immagine
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 1%
 
 # Effetto mappa immagine{#image-map-effect}
 
-A seconda del valore del parametro mode, il visualizzatore visualizza le icone delle mappe immagine sopra la visualizzazione principale, nei punti in cui le mappe sono state originariamente create in Dynamic Media Classic o riproduce le aree esatte che corrispondono alla forma delle mappe immagine originali.
+A seconda del valore del parametro della modalità, il visualizzatore visualizza le icone della mappa immagine sulla vista principale in luoghi in cui le mappe sono originariamente create in Dynamic Media Classic o esegue il rendering delle aree esatte che corrispondono alla forma delle mappe immagine originali.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;icona della mappa immagine è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’icona mappa immagine è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon
@@ -28,7 +29,7 @@ L&#39;aspetto dell&#39;icona della mappa immagine è controllato dal seguente se
 
 >[!NOTE]
 >
->La classe CSS `s7mapoverlay` utilizzata in passato per definire lo stile delle icone delle mappe immagine è ora obsoleta; utilizzare invece `s7icon`.
+>La classe CSS `s7mapoverlay` utilizzata in passato per assegnare uno stile alle icone delle mappe immagine è ora obsoleta. utilizza invece `s7icon` .
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,12 +40,12 @@ L&#39;aspetto dell&#39;icona della mappa immagine è controllato dal seguente se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Immagine dell’icona della mappa immagine. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Immagine icona mappa immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -52,16 +53,16 @@ L&#39;aspetto dell&#39;icona della mappa immagine è controllato dal seguente se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dell’icona della mappa immagine in pixel. </p> </td> 
+   <td colname="col2"> <p>Altezza dell'icona della mappa immagine in pixel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L&#39;icona della mappa immagine supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati di icone di `default` e `active`.
+>L’icona della mappa immagine supporta il selettore di attributi `state` , che è possibile utilizzare per applicare interfacce diverse agli stati delle icone `default` e `active`.
 
-Esempio: impostate un’icona di mappa immagine da 28x28 pixel con un’immagine diversa per ciascuno dei due stati di icona.
+Esempio : imposta un’icona di mappa immagine da 28 x 28 pixel che mostra un’immagine diversa per ciascuno dei due stati dell’icona diversi.
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon { 
@@ -77,9 +78,9 @@ opacity: 1;
 }
 ```
 
-Vedere anche [Supporto delle mappe immagine](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Vedere anche [Supporto mappa immagine](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
-L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area della mappa immagine è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region
@@ -94,21 +95,21 @@ L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente sel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p> Colore di riempimento area mappa immagine </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Colore di riempimento area mappa immagine. </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> Colore di riempimento area mappa immagine </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Colore di riempimento area mappa immagine. </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Stile del bordo della mappa immagine. </p> <p>Specificato come <span class="codeph"> <span class="varname"> larghezza </span> colore <span class="varname"> in tinta unita </span> </span>, dove <span class="codeph"> <span class="varname"> larghezza </span> </span> è espresso in pixel e <span class="codeph"> colore <span class="varname"> </span> </span> #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Stile del bordo della regione mappa immagine. </p> <p>Specificato come <span class="codeph"> <span class="varname"> larghezza </span> tinta unita <span class="varname"> colore </span> </span>, dove <span class="codeph"> <span class="varname"> larghezza </span> </span> è espresso in pixel e <span class="codeph"> <span class="varname"> colore </span> </span> è impostato come #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostare un&#39;area mappa immagine trasparente con `1` bordo nero in pixel:
+Esempio : imposta un&#39;area mappa immagine trasparente con `1` bordo nero pixel :
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 
