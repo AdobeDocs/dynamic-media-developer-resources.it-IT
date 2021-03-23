@@ -1,23 +1,24 @@
 ---
-description: Selettore materiale decorativo. Inizia un segmento di specifica del materiale (MSS) per un materiale decale non ripetibile.
-seo-description: Selettore materiale decorativo. Inizia un segmento di specifica del materiale (MSS) per un materiale decale non ripetibile.
+description: Selettore del materiale per decalcomanie. Inizia un segmento di specifica del materiale (MSS) per un materiale decal non ripetibile.
+seo-description: Selettore del materiale per decalcomanie. Inizia un segmento di specifica del materiale (MSS) per un materiale decal non ripetibile.
 seo-title: decal
 solution: Experience Manager
 title: decal
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
 
 # decal{#decal}
 
-Selettore materiale decorativo. Inizia un segmento di specifica del materiale (MSS) per un materiale decale non ripetibile.
+Selettore del materiale per decalcomanie. Inizia un segmento di specifica del materiale (MSS) per un materiale decal non ripetibile.
 
 ` decal[= *`val`*]`
 
@@ -30,7 +31,7 @@ Selettore materiale decorativo. Inizia un segmento di specifica del materiale (M
 
 ## Proprietà {#section-4f975f78869e4c829c30cf3ca7646539}
 
-Selezione, comando; delimitatore MSS.
+comando di selezione; delimitatore MSS.
 
 ## Predefinito {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 
