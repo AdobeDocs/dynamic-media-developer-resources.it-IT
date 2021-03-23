@@ -1,29 +1,30 @@
 ---
-description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene usato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
-seo-description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene usato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
-seo-title: Video, pulsante a schermo intero
+description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
+seo-description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
+seo-title: Pulsante a schermo intero video
 solution: Experience Manager
-title: Video, pulsante a schermo intero
-topic: Dynamic Media
+title: Pulsante a schermo intero video
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
 
-# Video, pulsante a schermo intero{#video-full-screen-button}
+# Pulsante a schermo intero video{#video-full-screen-button}
 
-Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene usato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
+Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Per CSS potete ridimensionare, applicare l&#39;interfaccia e posizionare il pulsante a schermo intero, rispetto alla barra di controllo che lo contiene.
+È possibile ridimensionare, applicare uno skin e posizionare il pulsante a schermo intero, in relazione alla barra di controllo che lo contiene, tramite CSS.
 
-L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di classe CSS:
+L’aspetto del pulsante a schermo intero è controllato con il selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
@@ -39,10 +40,10 @@ L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di clas
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p> Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -58,25 +59,25 @@ L&#39;aspetto del pulsante a schermo intero è controllato dal selettore di clas
    <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta i selettori di attributi `state` e `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato &quot;a schermo intero&quot; e `selected='false'` corrisponde allo stato &quot;normale&quot;.
+>Questo pulsante supporta sia i selettori di attributi `state` che `selected` , che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato &quot;a schermo intero&quot; e `selected='false'` corrisponde allo stato &quot;normale&quot;.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante a schermo intero di 32 x 32 pixel e posizionato 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, quando selezionato o non selezionato, viene visualizzata un’immagine diversa per ciascuno dei quattro stati del pulsante.
+Per impostare un pulsante a schermo intero di 32 x 32 pixel e posizionato 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionato o non selezionato, mostra un’immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 
