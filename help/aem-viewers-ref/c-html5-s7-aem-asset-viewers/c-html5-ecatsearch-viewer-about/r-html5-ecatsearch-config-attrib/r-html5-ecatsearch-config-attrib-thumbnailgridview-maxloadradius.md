@@ -2,13 +2,14 @@
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
 title: ThumbnailGridView.maxloadradius
-topic: Dynamic Media
 uuid: e72ae5d6-574e-4f30-827c-021ce5dafcee
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 7%
 <table id="table_D29F1F6A8EC74F42A254C823435F9493"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostate su <span class="codeph"> -1</span>, le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p>Se impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Impostate <span class="codeph"><span class="varname"> precaricatore</span></span> per definire il numero di righe/colonne invisibili intorno all'area visibile precaricate. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricare</span></span> </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p>Se è impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Imposta <span class="codeph"><span class="varname"> preload</span></span> definisce quante righe/colonne invisibili intorno all'area visibile vengono precaricate. </p> </td> 
   </tr> 
  </tbody> 
 </table>
