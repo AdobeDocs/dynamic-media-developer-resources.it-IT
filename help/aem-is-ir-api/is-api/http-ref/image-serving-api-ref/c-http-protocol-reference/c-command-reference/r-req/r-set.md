@@ -4,13 +4,14 @@ seo-description: Informazioni sul set di file multimediali.
 seo-title: set
 solution: Experience Manager
 title: set
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ebd78249-45ea-47cd-8845-786070f92f21
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 9%
+source-wordcount: '148'
+ht-degree: 8%
 
 ---
 
@@ -32,7 +33,7 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
 </table>
 
-Restituisce informazioni su immagini, video, campioni e vari metadati associati al catalogo::ImageSet per la voce del catalogo immagini specificata nel percorso URL. Questa risposta è una struttura gerarchica determinata dal tipo di set fornito. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39;, viene applicata la formattazione appropriata.
+Restituisce informazioni su immagini, video, campioni e vari metadati associati al catalogo::ImageSet per la voce del catalogo immagini specificata nel percorso URL. Questa risposta è una struttura gerarchica determinata dal tipo di set fornito. La formattazione appropriata viene applicata quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39;.
 
 La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::NonImgExpiration`.
 
@@ -40,7 +41,7 @@ La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog:
 >
 >Il carattere due punti non è consentito nelle richieste req=set.
 
-Richieste che supportano il formato di risposta JSON consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSON ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
