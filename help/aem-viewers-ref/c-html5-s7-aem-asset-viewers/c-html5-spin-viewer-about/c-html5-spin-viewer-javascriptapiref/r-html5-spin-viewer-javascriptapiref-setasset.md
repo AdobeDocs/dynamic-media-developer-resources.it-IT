@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
-seo-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
+description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+seo-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore 360 gradi.
+Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
 ` setAsset( *`asset`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori Image Server facoltativi aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori opzionali Image Server aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta la nuova risorsa. Potete chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di esecuzione.
+Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -40,7 +41,7 @@ Nessuno.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Singolo riferimento a un set 360 gradi definito in un catalogo:
+Riferimento singolo a un set 360 gradi definito in un catalogo:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
