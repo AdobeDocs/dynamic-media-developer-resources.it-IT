@@ -4,12 +4,13 @@ seo-description: Restituisce cartelle e sottocartelle in una struttura ad albero
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 7%
 
 ---
@@ -33,7 +34,7 @@ Sintassi
 
 >[!NOTE]
 >
->L&#39;utente deve disporre dell&#39;accesso in lettura alla cartella per restituire i dati in essa contenuti.
+>Per restituire i dati contenuti nella cartella, l’utente deve disporre dell’accesso in lettura.
 
 ## Parametri {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -41,12 +42,12 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| `*`accessUserHandle`*` | `xsd:string` | No | Utilizzata solo dagli amministratori per rappresentare un utente specifico. |
-| `*`accessGroupHandle`*` | `xsd:string` | No | Utilizzato per filtrare in base a uno specifico gruppo, compresi quelli a cui appartiene la società. |
-| `*`folderPath`*` | `xsd:string` | No | Cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
-| `*`profondità`*` | `xsd:int` | Sì | Con un valore pari a zero si ottiene la cartella di livello principale. Qualsiasi altro valore specifica la profondità da scendere nella struttura ad albero. |
-| `*`assetTypeArray`*` | `types:StringArray` | No | Restituisce cartelle contenenti solo tipi di risorse specificati. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| `*`accessUserHandle`*` | `xsd:string` | No | Utilizzato solo dagli amministratori per rappresentare un utente specifico. |
+| `*`accessGroupHandle`*` | `xsd:string` | No | Utilizzato per filtrare in base a un gruppo specifico, compresi quelli a cui appartiene la società. |
+| `*`folderPath`*` | `xsd:string` | No | Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
+| `*`profondità`*` | `xsd:int` | Sì | Il valore zero restituisce la cartella di livello superiore. Qualsiasi altro valore specifica la profondità da scendere nell&#39;albero. |
+| `*`assetTypeArray`*` | `types:StringArray` | No | Restituisce cartelle che contengono solo tipi di risorse specificati. |
 | `*`responseFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
 | `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi da escludere nella risposta. |
 
@@ -54,12 +55,12 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folder`*` | `types:folders` | No | La gerarchia di cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`cartelle`*` | `types:folders` | No | La gerarchia delle cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Esempi {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Questo esempio di codice utilizza un handle della società e un parametro di profondità per determinare il livello di profondità che la risposta deve restituire. La risposta contiene le cartelle e gli array di sottocartelle correlati. Impostate il valore di profondità su un numero minore per eseguire ricerche più approfondite nella struttura delle cartelle.
+Questo esempio di codice utilizza un handle aziendale e un parametro di profondità per determinare il livello di profondità che la risposta deve restituire. La risposta contiene cartelle e array di sottocartelle correlati. Imposta il valore di profondità su un numero più piccolo per cercare più in profondità nella struttura delle cartelle.
 
 **Request Contents (Richiesta contenuto)**
 
