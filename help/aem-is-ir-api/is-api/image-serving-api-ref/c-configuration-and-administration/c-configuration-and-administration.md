@@ -1,15 +1,16 @@
 ---
-description: Utilizzate le informazioni presenti in questa sezione per configurare e amministrare il server immagini.
-seo-description: Utilizzate le informazioni presenti in questa sezione per configurare e amministrare il server immagini.
+description: Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
+seo-description: Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
 seo-title: Configurazione e amministrazione
 solution: Experience Manager
 title: Configurazione e amministrazione
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95cc72b9-0e99-42ff-8caf-8f3b35cb5cd2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '82'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # Configurazione e amministrazione{#configuration-and-administration}
 
-Utilizzate le informazioni presenti in questa sezione per configurare e amministrare il server immagini.
+Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
 
 * [File di configurazione del server](r-server-configuration-files/r-server-configuration-files.md)
-* [Cache dei dati](c-data-caches/c-data-caches.md)
+* [Memorizzazione in cache dei dati](c-data-caches/c-data-caches.md)
 * [Impostazioni server](c-server-settings/c-server-settings.md)
-* [Reindirizza a errore](c-redirect-on-error.md)
+* [Reindirizza all’errore](c-redirect-on-error.md)
 * [Configurazione di SVG](c-configuring-svg.md)
 * [Configurazione server](c-manual-server-configuration.md)
-* [Definizione dei caratteri SSL](r-ssl-ciphers.md)
+* [Definizione dei codici SSL](r-ssl-ciphers.md)
 * [Supervisore server](c-server-supervisor.md)
 * [Registrazione server](c-server-logging/c-server-logging.md)
 * [Monitoraggio server](c-server-monitoring/c-server-monitoring.md)
