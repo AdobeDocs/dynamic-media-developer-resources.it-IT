@@ -4,12 +4,13 @@ seo-description: Dimensione predefinita della visualizzazione.
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f5d2e4f7-f9c5-40a5-8a64-67241fcb0242
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '96'
 ht-degree: 4%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 4%
 
 Dimensione predefinita della visualizzazione.
 
-Il server vincola le immagini di risposta ad avere una larghezza e un&#39;altezza massime tali, se la richiesta non specifica esplicitamente la dimensione della visualizzazione utilizzando `wid=`, `hei=` o `scl=`.
+Il server vincola le immagini di risposta a non superare questa larghezza e altezza, se la richiesta non specifica esplicitamente la dimensione della visualizzazione utilizzando `wid=`, `hei=` o `scl=`.
 
 ## Proprietà {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-Due numeri interi, pari a 0 o superiori, separati da virgola. Larghezza e altezza in pixel. Uno o entrambi i valori possono essere impostati su 0 per mantenerli non vincolati.
+Due numeri interi, pari a 0 o superiori, separati da una virgola. Larghezza e altezza in pixel. È possibile impostare uno o entrambi i valori su 0 per mantenerli senza vincoli.
 
 Non si applica alle richieste nidificate/incorporate.
 
