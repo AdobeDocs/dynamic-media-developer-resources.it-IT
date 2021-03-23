@@ -1,12 +1,13 @@
 ---
-description: Descrive i metodi operativi nuovi e modificati per l'API IPS versione 6.
+description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 6.
 solution: Experience Manager
 title: Operazioni nuove e modificate
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Operazioni: Nuovo e modificato{#operations-new-and-modified}
 
-Descrive i metodi operativi nuovi e modificati per l&#39;API IPS versione 6.
+Descrive i metodi operativi nuovi e modificati per l’API IPS versione 6.
 
 Sintassi
 
@@ -31,25 +32,25 @@ Sintassi
 
 **Aggiunto**
 
-* Aggiunti `isHidden` e `initialTagValue` a:
+* Sono stati aggiunti `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Aggiunto `thumbAssetHandle` a:
+* È stato aggiunto `thumbAssetHandle` a:
 
    * `createImageSet`
    * `createAssetSet`
 
-   Aggiunto `companyHandle` a:
+   È stato aggiunto `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   Aggiunto `contextHandle` a:
+   È stato aggiunto `contextHandle` a:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -63,9 +64,9 @@ Sintassi
    * `getUsers`.
    * `getUserChars`.
 
-* Aggiunto `permissionArray` a `createPropertySet`.
+* È stato aggiunto `permissionArray` a `createPropertySet`.
 
-* Aggiunto `exportJob` a `submitJob`.
+* È stato aggiunto `exportJob` a `submitJob`.
 
 **Modificato**
 
@@ -79,12 +80,12 @@ Sintassi
 
 * In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
 
-* In `getUserChars`, `includeInvalid` è ora opzionale.
+* In `getUserChars`, `includeInvalid` è ora facoltativo.
 
 **Rimosso**
 
 * Rimosso `renameFiles` da `renameAsset`.
 
 * Rimosso `getXMPPanelViewDefinition`.
-* Rimosso `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
+* Rimossi `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
 
