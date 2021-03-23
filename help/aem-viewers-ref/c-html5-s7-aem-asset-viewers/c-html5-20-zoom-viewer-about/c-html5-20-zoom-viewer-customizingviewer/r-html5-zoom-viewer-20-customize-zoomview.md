@@ -1,15 +1,16 @@
 ---
-description: La vista principale è costituita dall’immagine con zoom.
-seo-description: La vista principale è costituita dall’immagine con zoom.
+description: La vista principale è costituita dall’immagine zoomabile.
+seo-description: La vista principale è costituita dall’immagine zoomabile.
 seo-title: Visualizzazione zoom
 solution: Experience Manager
 title: Visualizzazione zoom
-topic: Dynamic Media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Visualizzazione zoom{#zoom-view}
 
-La vista principale è costituita dall’immagine con zoom.
+La vista principale è costituita dall’immagine zoomabile.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7zoomviewer .s7zoomview
@@ -38,17 +39,17 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursore  </span> </p> </td> 
    <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per rendere trasparente la vista principale.
+Esempio : per rendere trasparente la visualizzazione principale.
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -56,25 +57,25 @@ Esempio: per rendere trasparente la vista principale.
 }
 ```
 
-Sui sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview`. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. Sono supportati i seguenti valori `cursortype`:
+Nei sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview` . Controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. Sono supportati i seguenti valori `cursortype`:
 
 * `default`
 
-   Visualizzato quando l’immagine non può essere ingrandita a causa di una piccola risoluzione dell’immagine, delle impostazioni del componente o di entrambi.
+   Visualizzato quando l&#39;immagine non è zoomabile a causa di una piccola risoluzione dell&#39;immagine, delle impostazioni dei componenti o di entrambe.
 
 * `zoomin`
 
-   Visualizzato quando è possibile ingrandire l’immagine.
+   Visualizzato quando l&#39;immagine può essere ingrandita.
 
 * `reset`
 
-   Visualizzata quando l’immagine è al livello di zoom massimo e può essere reimpostata allo stato iniziale.
+   Visualizzata quando l&#39;immagine è al livello di zoom massimo e può essere ripristinata al suo stato iniziale.
 
 * `drag`
 
-   Visualizzato quando l’utente esegue il panning dell’immagine con lo stato di zoom.
+   Visualizzato quando l&#39;utente fa un panning dell&#39;immagine con lo stato di zoom.
 
 * `slide`
 
-   Visualizzato quando l’utente esegue lo scambio di immagini eseguendo un passaggio del dito o un gesto di scorrimento orizzontale.
+   Visualizzato quando l’utente esegue lo scambio di immagini facendo un tocco o uno sfarfallio orizzontale.
 
