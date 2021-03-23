@@ -1,15 +1,16 @@
 ---
-description: I set di proprietà sono set di coppie nome-valore specifici dell'applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e all'oggetto è già associato un set dello stesso tipo, il nuovo set sostituirà quello esistente.
-seo-description: I set di proprietà sono set di coppie nome-valore specifici dell'applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e all'oggetto è già associato un set dello stesso tipo, il nuovo set sostituirà quello esistente.
+description: I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l'oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
+seo-description: I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l'oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '283'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # createPropertySet{#createpropertyset}
 
-I set di proprietà sono set di coppie nome-valore specifici dell&#39;applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l&#39;associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e all&#39;oggetto è già associato un set dello stesso tipo, il nuovo set sostituirà quello esistente.
+I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l&#39;associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l&#39;oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
 
 Sintassi
 
@@ -35,10 +36,10 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
-| `*`mainOwnerHandle`*` | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
-| `*`secondariaOwnerHandle`*` | `xsd:string` | No | L&#39;handle del proprietario secondario dell&#39;insieme di proprietà. |
-| `*`propertyArray`*` | `types:PropertyArray` | Sì | L&#39;array di proprietà. |
-| `*`permissionsArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
+| `*`secondarioOwnerHandle`*` | `xsd:string` | No | L&#39;handle al proprietario secondario dell&#39;insieme di proprietà. |
+| `*`propertyArray`*` | `types:PropertyArray` | Sì | Matrice di proprietà. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **Output (createPropertySetParam)**
 
