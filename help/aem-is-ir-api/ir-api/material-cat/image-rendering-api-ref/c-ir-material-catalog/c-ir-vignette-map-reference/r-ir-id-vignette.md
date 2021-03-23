@@ -1,15 +1,16 @@
 ---
-description: Identificatore di vignettatura. Valore chiave indice tramite il quale i record nel file mappa vignettatura vengono cercati dal server.
-seo-description: Identificatore di vignettatura. Valore chiave indice tramite il quale i record nel file mappa vignettatura vengono cercati dal server.
+description: Identificatore della vignetta. Valore chiave indice in base al quale i record nel file mappa vignetta vengono cercati dal server.
+seo-description: Identificatore della vignetta. Valore chiave indice in base al quale i record nel file mappa vignetta vengono cercati dal server.
 seo-title: ID
 solution: Experience Manager
 title: ID
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 7%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 7%
 
 # ID{#id}
 
-Identificatore di vignettatura. Valore chiave indice tramite il quale i record nel file mappa vignettatura vengono cercati dal server.
+Identificatore della vignetta. Valore chiave indice in base al quale i record nel file mappa vignetta vengono cercati dal server.
 
-In genere, un identificatore breve e univoco, ad esempio un numero SKU. Può trattarsi anche di una stringa più complessa che potrebbe essere simile a un percorso di file.
+In genere un identificatore breve e univoco, ad esempio un numero SKU. Può anche essere una stringa più complessa che potrebbe essere simile a un percorso di file.
 
 ## Proprietà {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Stringa di testo. Obbligatorio. Chiave di indice principale per la tabella della mappa di vignettatura. Ogni valore `vignette::Id` deve essere univoco all&#39;interno della tabella e non deve contenere caratteri &#39;,&#39;.
+Stringa di testo. Obbligatorio. Chiave indice principale per la tabella mappa vignetta. Ogni valore `vignette::Id` deve essere univoco all’interno della tabella e non deve contenere i caratteri &#39;,&#39;.
 
 ## Predefinito {#section-736d3419b19045efa00887cb595b0337}
 
