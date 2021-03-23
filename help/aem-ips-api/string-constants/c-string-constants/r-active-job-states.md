@@ -1,21 +1,22 @@
 ---
 description: Utilizzato da ActiveJobs/state.
 seo-description: Utilizzato da ActiveJobs/state.
-seo-title: Stati processo attivi
+seo-title: Stati del processo attivo
 solution: Experience Manager
-title: Stati processo attivi
-topic: Dynamic Media Image Production System API
+title: Stati del processo attivo
 uuid: 77020ada-cea6-4de2-bb90-8d5cf835c221
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '30'
+ht-degree: 3%
 
 ---
 
 
-# Stati processo attivi{#active-job-states}
+# Stati del processo attivo{#active-job-states}
 
 Utilizzato da ActiveJobs/state.
 
