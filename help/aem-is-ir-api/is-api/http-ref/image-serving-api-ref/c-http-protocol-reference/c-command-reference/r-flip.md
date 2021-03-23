@@ -1,15 +1,16 @@
 ---
-description: Capovolgi livello. Riflette il livello orizzontalmente, verticalmente o entrambi dopo l’applicazione di ritaglia= e prima di ruotare= e estendere=.
-seo-description: Capovolgi livello. Riflette il livello orizzontalmente, verticalmente o entrambi dopo l’applicazione di ritaglia= e prima di ruotare= e estendere=.
-seo-title: riflettere
+description: Capovolgi livello. Inverte il livello orizzontalmente, verticalmente o entrambi dopo aver applicato crop= e prima di rotate= ed estendi=.
+seo-description: Capovolgi livello. Inverte il livello orizzontalmente, verticalmente o entrambi dopo aver applicato crop= e prima di rotate= ed estendi=.
+seo-title: capovolgere
 solution: Experience Manager
-title: riflettere
-topic: Dynamic Media Image Serving - Image Rendering API
+title: capovolgere
 uuid: d28631f3-2198-4ba3-ab4b-578832db926e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
@@ -17,36 +18,36 @@ ht-degree: 2%
 
 # flip{#flip}
 
-Capovolgi livello. Riflette il livello orizzontalmente, verticalmente o entrambi dopo l’applicazione di ritaglia= e prima di ruotare= e estendere=.
+Capovolgi livello. Inverte il livello orizzontalmente, verticalmente o entrambi dopo aver applicato crop= e prima di rotate= ed estendi=.
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr  </span> </p> </td> 
-  <td class="stentry"> <p>Rifletti il livello in orizzontale (sinistra-destra). </p> </td> 
+  <td class="stentry"> <p>Capovolgi il livello orizzontalmente (sinistra-destra). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ud  </span> </p> </td> 
-  <td class="stentry"> <p>Rifletti il livello in verticale (verso l’alto). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fango  </span> </p> </td> 
+  <td class="stentry"> <p>Capovolgi lo strato verticalmente (verso l'alto). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lrud  </span> </p> </td> 
-  <td class="stentry"> <p>Rifletti sia in orizzontale che in verticale. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> lurido  </span> </p> </td> 
+  <td class="stentry"> <p>Capovolgi sia orizzontalmente che verticalmente. </p> </td> 
  </tr> 
 </table>
 
 Può essere applicato anche ai livelli di testo.
 
-Alcuni comandi, incluso `extend=`, si applicano implicitamente al livello 0 invece del livello composito quando è selezionato `layer=comp`. In tali scenari, tutti i comandi assegnati automaticamente al livello 0 verranno applicati prima dei comandi che si applicano a `layer=comp`. Pertanto, quando `layer=comp`, `extend=` viene applicato prima di `flip=`.
+Alcuni comandi, tra cui `extend=`, si applicano implicitamente al livello 0 invece del livello composito quando è selezionato `layer=comp`. In tali scenari, tutti i comandi assegnati automaticamente al livello 0 verranno applicati prima dei comandi che si applicano a `layer=comp`. Pertanto, quando `layer=comp`, `extend=` viene applicato prima di `flip=`.
 
 >[!NOTE]
 >
->Il livello capovolto è posizionato in base all’ancoraggio del livello; valori flip= diversi determinano posizioni diverse del livello quando l’ancoraggio non si trova al centro del livello.
+>Il livello capovolto viene posizionato in base all&#39;ancoraggio del livello; diversi valori flip= generano posizioni di livello diverse quando l’ancoraggio non si trova al centro del livello.
 
 ## Proprietà {#section-294da2af7be746b5adfc35e29ee68217}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
 
 ## Predefinito {#section-502044f81a89492198d5f12a738459ea}
 
