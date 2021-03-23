@@ -1,15 +1,16 @@
 ---
-description: Tutti gli attributi del catalogo sono facoltativi, tranne RootId del catalogo.
-seo-description: Tutti gli attributi del catalogo sono facoltativi, tranne RootId del catalogo.
+description: Tutti gli attributi del catalogo sono facoltativi, ad eccezione del catalogo RootId.
+seo-description: Tutti gli attributi del catalogo sono facoltativi, ad eccezione del catalogo RootId.
 seo-title: Riferimento attributi
 solution: Experience Manager
 title: Riferimento attributi
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 2%
 
 # Riferimento attributi{#attributes-reference}
 
-Tutti gli attributi del catalogo sono facoltativi, eccetto catalog::RootId.
+Tutti gli attributi del catalogo sono facoltativi, ad eccezione del catalogo::RootId.
 
-Tutti gli attributi sono obbligatori nel file attributo del catalogo predefinito ( [!DNL default.ini]).
+Tutti gli attributi sono richiesti nel file di attributi del catalogo predefinito ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
-* [AllowDirectUrls](r-allowdirecturls.md)
+* [AllowDirectUrl](r-allowdirecturls.md)
 * [ApplyEffectMask](r-applyeffectmask.md)
 * [AudioBitRate](r-audiobitrate.md)
 * [Bfc](r-bfc.md)
 * [BkgColor](r-bkgcolor.md)
 * [CacheValidationPolicy](r-cachevalidationpolicy.md)
-* [ClientAddressFilter](r-clientaddressfilter.md)
-* [CatalogFile](r-catalogfile.md)
-* [DefaultExpiration](r-defaultexpiration.md)
+* [FiltroIndirizzoClient](r-clientaddressfilter.md)
+* [FileCatalogo](r-catalogfile.md)
+* [ScadenzaPredefinita](r-defaultexpiration.md)
 * [DefaultExt](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
 * [DefaultImage](r-is-cat-defaultimage.md)
@@ -58,13 +59,13 @@ Tutti gli attributi sono obbligatori nel file attributo del catalogo predefinito
 * [IccProfileSrcRgb](r-iccprofilesrcrgb.md)
 * [IccRenderIntent](r-iccrenderintent.md)
 * [JpegQuality](r-jpegquality.md)
-* [Mappa lingua](r-localemap.md)
+* [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
 * [MacroFile](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
-* [PrintResolution](r-printresolution.md)
+* [StampaRisoluzione](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
 * [RequestObfuscation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
@@ -74,12 +75,12 @@ Tutti gli attributi sono obbligatori nel file attributo del catalogo predefinito
 * [RootUrl](r-rooturl.md)
 * [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
-* [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
+* [FileCatalogoStatico](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
-* [SvgCatalogFile](r-svgcatalogfile.md)
+* [FileCatalogoSvg](r-svgcatalogfile.md)
 * [SynthesizeFontStyles](r-synthesizefontstyles.md)
-* [ThumbBkgColor](r-thumbbkgcolor.md)
-* [ThumbHorizAlign](r-thumbhorizalign.md)
+* [Colore pollice](r-thumbbkgcolor.md)
+* [AllineaOrizzontale](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
 * [ThumbVertAlign](r-thumbvertalign.md)
