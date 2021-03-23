@@ -1,23 +1,24 @@
 ---
-description: Un array di informazioni su un elemento attività.
-seo-description: Un array di informazioni su un elemento attività.
+description: Matrice di informazioni su un elemento dell'attività.
+seo-description: Matrice di informazioni su un elemento dell'attività.
 seo-title: TaskItemProgressArray
 solution: Experience Manager
 title: TaskItemProgressArray
-topic: Dynamic Media Image Production System API
 uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
 # TaskItemProgressArray{#taskitemprogressarray}
 
-Un array di informazioni su un elemento attività.
+Matrice di informazioni su un elemento dell&#39;attività.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:TaskItemProgress` | Matrice di avanzamento elemento attività. L&#39;occorrenza minima è zero. Il valore Massimo non è delimitato. |
+| `*`elementi`*` | `types:TaskItemProgress` | Matrice di avanzamento dell&#39;elemento attività. L&#39;occorrenza minima è zero. Il valore massimo non è delimitato. |
 
