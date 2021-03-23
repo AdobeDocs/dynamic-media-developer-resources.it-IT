@@ -1,15 +1,16 @@
 ---
-description: Selezionare l'oggetto in base al nome. Seleziona il gruppo di vignettature specificato per nome e avvia un nuovo MSS.
-seo-description: Selezionare l'oggetto in base al nome. Seleziona il gruppo di vignettature specificato per nome e avvia un nuovo MSS.
+description: Selezionare l’oggetto in base al nome. Seleziona il gruppo di vignette specificato per nome e avvia un nuovo MSS.
+seo-description: Selezionare l’oggetto in base al nome. Seleziona il gruppo di vignette specificato per nome e avvia un nuovo MSS.
 seo-title: obj
 solution: Experience Manager
 title: obj
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # obj{#obj}
 
-Selezionare l&#39;oggetto in base al nome. Seleziona il gruppo di vignettature specificato per nome e avvia un nuovo MSS.
+Selezionare l’oggetto in base al nome. Seleziona il gruppo di vignette specificato per nome e avvia un nuovo MSS.
 
 ` obj= *`name`*`
 
@@ -28,20 +29,20 @@ Selezionare l&#39;oggetto in base al nome. Seleziona il gruppo di vignettature s
  </tr> 
 </table>
 
-I sottogruppi o i singoli oggetti possono essere selezionati utilizzando un percorso di gruppo completo (ovvero specificando il nome del gruppo o dell&#39;oggetto di destinazione preceduto da tutti i gruppi principali, separati da / (barre).
+I sottogruppi o i singoli oggetti possono essere selezionati utilizzando un percorso di gruppo completo (ovvero specificando il nome del gruppo o dell’oggetto di destinazione preceduto da tutti i gruppi principali, separati da / (barre).
 
 Se non viene trovato alcun gruppo/oggetto con il nome specificato, viene eseguita l&#39;azione specificata in `attribute::OnObjFail`.
 
 ## Proprietà {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Selezione, comando; delimitatore MSS. La selezione dell&#39;oggetto è persistente finché non viene selezionato un altro oggetto, con `obj=` o `sel=`.
+comando di selezione; delimitatore MSS. La selezione dell’oggetto è permanente finché non viene selezionato un altro oggetto, sia con `obj=` che con `sel=`.
 
-I percorsi e i nomi dei gruppi/oggetti non fanno distinzione tra maiuscole e minuscole.
+I nomi e i percorsi dei gruppi/oggetti non fanno distinzione tra maiuscole e minuscole.
 
 ## Predefinito {#section-0c322850512c4896bb551856a549440e}
 
-Il primo gruppo nella vignettatura contenente oggetti renderabili viene selezionato automaticamente all’apertura di una nuova vignettatura.
+Il primo gruppo della vignetta contenente oggetti renderizzabili viene selezionato automaticamente all’apertura di una nuova vignetta.
 
 ## Consultate anche {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b),  [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b),  [attributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
