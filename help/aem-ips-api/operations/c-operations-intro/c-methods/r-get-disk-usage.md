@@ -1,15 +1,16 @@
 ---
-description: Restituisce informazioni sulla struttura di una società (numero di file, ecc.).
-seo-description: Restituisce informazioni sulla struttura di una società (numero di file, ecc.).
+description: Restituisce informazioni sulla struttura di un'azienda (numero di file, ecc.).
+seo-description: Restituisce informazioni sulla struttura di un'azienda (numero di file, ecc.).
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # getDiskUsage{#getdiskusage}
 
-Restituisce informazioni sulla struttura di una società (numero di file, ecc.).
+Restituisce informazioni sulla struttura di un&#39;azienda (numero di file, ecc.).
 
 ## Tipi di utenti autorizzati {#authorized-user-types}
 
@@ -32,7 +33,7 @@ Restituisce informazioni sulla struttura di una società (numero di file, ecc.).
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società di cui si desidera ottenere l’utilizzo del disco. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera ottenere l&#39;utilizzo del disco. |
 
 **Output (getDiskUsageReturn)**
 
@@ -42,7 +43,7 @@ Restituisce informazioni sulla struttura di una società (numero di file, ecc.).
 
 ## Esempi {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Il nome della richiesta è fuorviante. Piuttosto che restituire semplicemente un valore scalare che riflette lo spazio su disco utilizzato da un&#39;azienda, riceve altre informazioni sulla struttura di un&#39;azienda.
+Il nome della richiesta è fuorviante. Invece di restituire semplicemente un valore scalare che riflette lo spazio su disco utilizzato da un&#39;azienda, ottiene altre informazioni anche sulla struttura di un&#39;azienda.
 
 **Request Contents (Richiesta contenuto)**
 
