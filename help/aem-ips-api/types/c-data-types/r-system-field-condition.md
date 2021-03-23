@@ -1,15 +1,16 @@
 ---
-description: Una condizione di ricerca del campo di sistema per l'operazione searchAssets.
-seo-description: Una condizione di ricerca del campo di sistema per l'operazione searchAssets.
+description: Una condizione di ricerca del campo di sistema per l’operazione searchAssets.
+seo-description: Una condizione di ricerca del campo di sistema per l’operazione searchAssets.
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 4%
 
 # SystemFieldCondition{#systemfieldcondition}
 
-Una condizione di ricerca del campo di sistema per l&#39;operazione searchAssets.
+Una condizione di ricerca del campo di sistema per l’operazione searchAssets.
 
-Per i confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, passare i parametri `min<Type>` e `max<Type>` e passare un valore `op` di `Between` o `NotBetween`.
+Per i confronti unari, passare esattamente un valore ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, passa i parametri `min<Type>` e `max<Type>` e passa un valore `op` di `Between` o `NotBetween`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -30,11 +31,11 @@ Per i confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`,
 | `*`value`*` | `xsd:string` | Valore su cui eseguire il test. |
 | `*`boolVal`*` | `xsd:boolean` | Valore di confronto booleano. |
 | `*`longVal`*` | `xsd:long` | Valore di confronto lungo. |
-| `*`minLong`*` | `xsd:long` | Limite inferiore dell&#39;intervallo lungo. |
-| `*`maxLong`*` | `xsd:long` | Limite superiore dell&#39;intervallo lungo. |
+| `*`minLong`*` | `xsd:long` | Limite inferiore di lungo intervallo. |
+| `*`maxLong`*` | `xsd:long` | Limite superiore di un lungo intervallo. |
 | `*`doubleVal`*` | `xsd:double` | Valore di confronto doppio. |
-| `*`minDouble`*` | `xsd:double` | Limite inferiore del doppio intervallo. |
-| `*`maxDouble`*` | `xsd:double` | Limite superiore del doppio intervallo. |
+| `*`minDouble`*` | `xsd:double` | Limite inferiore della doppia gamma. |
+| `*`maxDouble`*` | `xsd:double` | Limite superiore di doppio intervallo. |
 | `*`dateVal`*` | `xsd:dateTime` | Valore di confronto delle date. |
 | `*`minDate`*` | `xsd:dateTime` | Intervallo di date minimo. |
 | `*`maxDate`*` | `xsd:dateTime` | Massimo intervallo di date. |
