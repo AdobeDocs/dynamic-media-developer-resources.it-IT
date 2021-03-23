@@ -4,13 +4,14 @@ seo-description: Utilizzato da ColorManagementOptions/colorManagement.
 seo-title: Modalità di gestione del colore
 solution: Experience Manager
 title: Modalità di gestione del colore
-topic: Dynamic Media Image Production System API
 uuid: 44d0b8d6-7bfc-43f4-9ddc-179526c180f0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '30'
+ht-degree: 3%
 
 ---
 
