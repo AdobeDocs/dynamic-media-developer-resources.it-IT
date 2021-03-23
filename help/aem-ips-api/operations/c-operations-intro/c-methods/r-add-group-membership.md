@@ -1,20 +1,21 @@
 ---
-description: Aggiunge un utente a un array di gruppi.
+description: Aggiunge un utente a una matrice di gruppi.
 solution: Experience Manager
 title: addGroupMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 10%
+source-wordcount: '101'
+ht-degree: 9%
 
 ---
 
 
 # addGroupMembership{#addgroupmembership}
 
-Aggiunge un utente a un array di gruppi.
+Aggiunge un utente a una matrice di gruppi.
 
 Sintassi
 
@@ -42,13 +43,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Gestite l’utente di cui desiderate aggiungere l’iscrizione al gruppo. </p> </td> 
+   <td colname="col4"> <p>Gestisci l'utente di cui desideri aggiungere l'iscrizione al gruppo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Array di handle per i gruppi a cui si desidera che la società appartenga. </p> </td> 
+   <td colname="col4"> <p>Array di handle ai gruppi a cui si desidera che la società appartenga. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +60,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-In questo esempio viene aggiunto un gruppo a una società con `*`groupHandleArray`*`. In questo esempio viene utilizzato un solo gruppo.
+Questo esempio aggiunge un gruppo a una società con `*`groupHandleArray`*`. In questo esempio viene utilizzato un solo gruppo.
 
 **Request Contents (Richiesta contenuto)**
 
