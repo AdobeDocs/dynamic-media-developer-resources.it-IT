@@ -1,15 +1,16 @@
 ---
-description: Elemento regola richiesta. Una o più regole sono facoltative nell'elemento <ruleset>.
-seo-description: Elemento regola richiesta. Una o più regole sono facoltative nell'elemento <ruleset>.
-seo-title: rule
+description: Elemento della regola di richiesta. Una o più regole sono facoltative nell'elemento <ruleset> .
+seo-description: Elemento della regola di richiesta. Una o più regole sono facoltative nell'elemento <ruleset> .
+seo-title: regola
 solution: Experience Manager
-title: rule
-topic: Dynamic Media Image Serving - Image Rendering API
+title: regola
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '319'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # rule{#rule}
 
-Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento `<ruleset>`.
+Elemento della regola di richiesta. Una o più regole sono facoltative nell&#39;elemento `<ruleset>`.
 
 ## Attributi {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -37,17 +38,17 @@ Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> is</span> </p> </td> 
+   <td> <p> <span class="codeph"> è</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
-   <td> <p>Applicato alle richieste Image Server </p> </td> 
+   <td> <p>Applicato alle richieste di Image Server </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
-   <td> <p> <span class="filepath"> /ir/rendering/</span> </p> </td> 
+   <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
    <td> <p>Applicato alle richieste di rendering delle immagini </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> static</span> </p> </td> 
+   <td> <p> <span class="codeph"> statico</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/content/</span> </p> </td> 
    <td> <p>Applicato alle richieste di contenuto statico </p> </td> 
   </tr> 
@@ -56,7 +57,7 @@ Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento 
 
 **`Name = "text"`**: Facoltativo. Utilizzato per identificare l&#39;elemento `<rule>` nei registri di debug e nei messaggi di errore.
 
-`  *`Attributo`* ="value"`: Facoltativo. `<rule>` possono definire i seguenti attributi in qualsiasi combinazione. Se specificato e la regola corrisponde correttamente, sostituiranno gli attributi catalogo corrispondenti per questa richiesta. Il valore predefinito è `RequestType="is"`.
+`  *`Attributo`* ="value"`: Facoltativo. `<rule>` gli elementi possono definire uno dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola corrisponde correttamente, sostituiranno gli attributi di catalogo corrispondenti per questa richiesta. Il valore predefinito è `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -68,11 +69,11 @@ Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> DefaultImageMode</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> attribute::DefaultImageMode</a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> attributo::DefaultImageMode</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ErrorImage</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> attribute::ErrorImage</a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c" type="reference" format="dita" scope="local"> attributo::ErrorImage</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> Scadenza</span> </p> </td> 
@@ -88,7 +89,7 @@ Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestObfuscation</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attributo::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
@@ -105,9 +106,9 @@ Elemento regola richiesta. Una o più regole sono facoltative nell&#39;elemento 
  </tbody> 
 </table>
 
-Per ulteriori informazioni, consultate la descrizione dell’attributo del catalogo di immagini corrispondente.
+Per ulteriori informazioni, consulta la descrizione dell’attributo del catalogo immagini corrispondente.
 
-Gli attributi Expiration ignorano solo i valori attributo predefiniti. L&#39;override viene ignorato se alla richiesta viene applicato un valore specifico `catalog::Expiration`.
+Gli attributi di scadenza sovrascrivono solo i valori attributo predefiniti. L’override viene ignorato se alla richiesta viene applicato un valore specifico `catalog::Expiration`.
 
 ## Dati {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -132,10 +133,10 @@ Gli attributi Expiration ignorano solo i valori attributo predefiniti. L&#39;ove
 
 ## Note {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Se vengono specificati sia `<expression>` che `<substitution>` e non vengono utilizzate le sottostringhe acquisite, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
+Se sono specificati sia `<expression>` che `<substitution>` e non vengono utilizzate le sottostringhe acquisite, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
 
 Se `<expression>` non è specificato, qualsiasi percorso corrisponde e `<substitution>` viene aggiunto alla fine del percorso.
 
-Se `<substitution>` non è specificato, non viene eseguita alcuna trasformazione di percorso o query, ma eventuali attributi di catalogo specificati vengono sostituiti. Se `<substitution>` è vuoto, la sottostringa corrispondente viene rimossa.
+Se `<substitution>` non è specificato, non si verifica alcuna trasformazione di percorso o query, ma vengono ignorati tutti gli attributi di catalogo specificati. Se `<substitution>` è vuoto, la sottostringa corrispondente viene rimossa.
 
-L&#39;applicazione `<addressfilter>` viene applicata solo quando si verifica una corrispondenza e prima dell&#39;applicazione delle regole di query.
+Il valore `<addressfilter>` viene applicato solo quando si verifica una corrispondenza e prima che vengano applicate le regole di query.
