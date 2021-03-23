@@ -1,15 +1,16 @@
 ---
-description: Se una richiesta non può essere completata correttamente, il server restituirà un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
-seo-description: Se una richiesta non può essere completata correttamente, il server restituirà un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
+description: Se una richiesta non può essere completata correttamente, il server restituirà un'immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
+seo-description: Se una richiesta non può essere completata correttamente, il server restituirà un'immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
 seo-title: Errori
 solution: Experience Manager
 title: Errori
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a08f3f5a-3013-4d35-9612-25190a4c99fa
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 2%
 
 # Errori{#errors}
 
-Se una richiesta non può essere completata correttamente, il server restituirà un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
+Se una richiesta non può essere completata correttamente, il server restituirà un&#39;immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
 
-Il valore dello stato della risposta dipende dal tipo di errore; per la maggior parte degli errori più comuni è &#39;403&#39;. Le risposte di errore per i tipi di richieste non di immagini sono conformi al formato specificato con `req=`. (Al momento non può essere implementata in modo coerente).
+Il valore dello stato della risposta dipende dal tipo di errore; per la maggior parte degli errori comuni è &#39;403&#39;. Le risposte di errore per i tipi di richiesta non immagine sono conformi al formato specificato con `req=`. (Al momento non può essere implementato in modo coerente).
 
-La quantità di dettagli inclusa nel messaggio di errore è configurabile con `attribute::ErrorDetail`.
+La quantità di dettagli inclusi nel messaggio di errore è configurabile con `attribute::ErrorDetail`.
 
 ## Immagini di errore {#section-92e9b20b2507433daa96923abc95f777}
 
-Image Server può essere configurato per restituire i messaggi di errore sottoposti a rendering in un’immagine.
+Image Server può essere configurato per restituire i messaggi di errore sottoposti a rendering in un&#39;immagine.
 
-Per ulteriori informazioni, consultate [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) nel riferimento al catalogo immagini.
+Per ulteriori informazioni, consulta [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) nel riferimento al catalogo immagini.
 
-Se l&#39;immagine di errore viene generata correttamente, lo stato della risposta HTTP è 200. Se si verifica un errore durante l&#39;elaborazione dell&#39;immagine di errore, la risposta di errore HTTP standard e il messaggio di testo vengono restituiti al client.
+Se l’immagine di errore viene generata correttamente, lo stato della risposta HTTP è 200. Se si verifica un errore durante l’elaborazione dell’immagine di errore, la risposta di errore HTTP standard e il messaggio di testo vengono restituiti al client.
 
 ## Immagine predefinita {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-Image Server può essere configurato per sostituire un’immagine mancante con un’immagine predefinita. L&#39;immagine predefinita può essere specificata con `attribute::DefaultImage` o con il comando `defaultImage=`.
+Image Server può essere configurato in modo da sostituire un&#39;immagine mancante con un&#39;immagine predefinita. L&#39;immagine predefinita può essere specificata con il comando `attribute::DefaultImage` o `defaultImage=`.
 
 ## Consultate anche {#section-e261d7f224ca4546bb64bf8cb909db08}
 
