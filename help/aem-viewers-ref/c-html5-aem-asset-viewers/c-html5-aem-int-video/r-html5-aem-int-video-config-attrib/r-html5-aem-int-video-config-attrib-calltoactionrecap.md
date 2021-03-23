@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: callToActionRecap
 solution: Experience Manager
 title: callToActionRecap
-topic: Dynamic Media
 uuid: eda844e5-8ad2-4617-b38a-da0f7e981f68
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
 # callToActionRecap{#calltoactionrecap}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `callToActionRecap=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore mostra il pannello "call-to-action" al termine della riproduzione video. </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore mostra il pannello "Invito all’azione" al termine della riproduzione del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
