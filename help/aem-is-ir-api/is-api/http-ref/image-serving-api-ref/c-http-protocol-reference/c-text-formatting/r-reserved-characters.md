@@ -4,12 +4,13 @@ seo-description: In questa sezione sono elencati i caratteri riservati per scopi
 seo-title: Caratteri riservati
 solution: Experience Manager
 title: Caratteri riservati
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -19,10 +20,10 @@ ht-degree: 0%
 
 In questa sezione sono elencati i caratteri riservati per scopi specifici.
 
-RTF utilizza le parentesi graffe &#39; `{`&#39; e &#39; `}`&#39; come delimitatori di gruppo. Devono essere presenti in coppie e possono essere nidificati. Per visualizzare le parentesi graffe nelle stringhe di testo, utilizzare rispettivamente &#39; `\{`&#39; e &#39; `\}`&#39;.
+RTF utilizza le parentesi graffe &#39; `{`&#39; e &#39; `}`&#39; come delimitatori di gruppo. Devono essere presenti in coppie e possono essere nidificate. Per visualizzare le parentesi graffe nelle stringhe di testo, utilizzare rispettivamente &#39; `\{`&#39; e &#39; `\}`&#39;.
 
 >[!NOTE]
 >
->È necessario codificare URL per tutte le parentesi graffe utilizzate in RTF.
+>È necessario codificare con URL tutte le parentesi graffe utilizzate in RTF.
 
-Le barre rovesciate &#39;\&#39; vengono utilizzate per introdurre comandi e parole chiave RTF. Per visualizzare una barra rovesciata, utilizzare `'\\'`.
+Le barre posteriori &#39;\&#39; vengono utilizzate per introdurre comandi e parole chiave RTF. Per visualizzare una barra rovesciata, utilizza `'\\'`.
