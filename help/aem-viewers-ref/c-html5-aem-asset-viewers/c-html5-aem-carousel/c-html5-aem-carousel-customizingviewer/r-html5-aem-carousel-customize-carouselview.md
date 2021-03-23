@@ -1,29 +1,30 @@
 ---
-description: La vista principale è costituita dall'immagine del banner.
-seo-description: La vista principale è costituita dall'immagine del banner.
-seo-title: Vista carosello
+description: La vista principale è costituita dall’immagine del banner.
+seo-description: La vista principale è costituita dall’immagine del banner.
+seo-title: Vista a carosello
 solution: Experience Manager
-title: Vista carosello
-topic: Dynamic Media
+title: Vista a carosello
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
 
 
-# Vista carosello{#carousel-view}
+# Vista a carosello{#carousel-view}
 
-La vista principale è costituita dall&#39;immagine del banner.
+La vista principale è costituita dall’immagine del banner.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7carouselviewer .s7carouselview
@@ -38,13 +39,13 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per rendere trasparente la vista principale.
+Esempio : per rendere trasparente la visualizzazione principale.
 
 ```
 .s7carouselviewer .s7carouselview { 
