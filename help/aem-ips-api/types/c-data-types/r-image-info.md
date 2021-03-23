@@ -4,13 +4,14 @@ seo-description: Proprietà di una risorsa immagine.
 seo-title: ImageInfo
 solution: Experience Manager
 title: ImageInfo
-topic: Dynamic Media Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '203'
+ht-degree: 2%
 
 ---
 
@@ -33,12 +34,12 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> OriginalPath</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Percorso relativo al file originale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> OriginalFile</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Nome file. </p> </td> 
   </tr> 
@@ -55,7 +56,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Percorso della maschera dell’immagine. </p> </td> 
+   <td colname="col3"> <p>Percorso della maschera dell'immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span> </span> </td> 
@@ -75,7 +76,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Dimensione dell’immagine in byte. </p> </td> 
+   <td colname="col3"> <p>Dimensione dell'immagine in byte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
@@ -83,12 +84,12 @@ Sintassi
    <td colname="col3"> <p>Pixel per pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> palude</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>ID prodotto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Descrizione immagine. </p> </td> 
   </tr> 
@@ -115,12 +116,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parametro URL del server immagini. </p> </td> 
+   <td colname="col3"> <p>Parametro URL del server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parametri concatenati alla fine del <span class="codeph"> urlModifier</span>. Elenco di parametri che costituiscono comandi per il server immagini in formato stringa query. I valori si trovano nella guida del protocollo del server di immagini. </p> </td> 
+   <td colname="col3"> <p>Parametri concatenati alla fine del <span class="codeph"> urlModifier</span>. Elenco dei parametri del formato stringa di query che sono comandi per il server di immagini. I valori si trovano nella guida al protocollo del server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
@@ -130,12 +131,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maschere</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:MaskArray</span> </td> 
-   <td colname="col3"> <p>Matrice maschere. </p> </td> 
+   <td colname="col3"> <p>Matrice di maschere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>Array delle mappe immagine. </p> </td> 
+   <td colname="col3"> <p>Matrice di mappe immagine. </p> </td> 
   </tr> 
  </tbody> 
 </table>
