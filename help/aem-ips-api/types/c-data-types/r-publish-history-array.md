@@ -1,23 +1,24 @@
 ---
-description: Un array di storie di pubblicazione.
-seo-description: Un array di storie di pubblicazione.
+description: Matrice di storie di pubblicazione.
+seo-description: Matrice di storie di pubblicazione.
 seo-title: PublishHistoryArray
 solution: Experience Manager
 title: PublishHistoryArray
-topic: Dynamic Media Image Production System API
 uuid: ce925322-43d7-4e29-bfdb-7c29eabb3ef0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
 
 # PublishHistoryArray{#publishhistoryarray}
 
-Un array di storie di pubblicazione.
+Matrice di storie di pubblicazione.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:PublishHistory` | L’array della cronologia di pubblicazione. |
+| `*`elementi`*` | `types:PublishHistory` | Array della cronologia di pubblicazione. |
 
