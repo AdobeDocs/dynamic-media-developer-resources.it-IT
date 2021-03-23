@@ -1,23 +1,24 @@
 ---
-description: Restituisce le coordinate per il quadrilatero che racchiude il percorso Photoshop denominato.
-seo-description: Restituisce le coordinate per il quadrilatero che racchiude il percorso Photoshop denominato.
+description: Restituisce le coordinate del quadrilatero che racchiude il percorso Photoshop denominato.
+seo-description: Restituisce le coordinate del quadrilatero che racchiude il percorso Photoshop denominato.
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 15%
+source-wordcount: '104'
+ht-degree: 14%
 
 ---
 
 
 # getPhotoshopPath{#getphotoshoppath}
 
-Restituisce le coordinate per il quadrilatero che racchiude il percorso Photoshop denominato.
+Restituisce le coordinate del quadrilatero che racchiude il percorso Photoshop denominato.
 
 Sintassi
 
@@ -38,15 +39,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite la società con l’immagine con cui desiderate lavorare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Consente di passare alla risorsa immagine. |
-| `*`pathName`*` | `xsd:string` | Sì | Nome del percorso Photoshop da restituire. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci l&#39;azienda con l&#39;immagine con cui vuoi lavorare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci la risorsa immagine. |
+| `*`pathName`*` | `xsd:string` | Sì | Nome del percorso Photoshop che si desidera restituire. |
 
 **Output (getPhotoshopPathReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`prospettivaQuad`*` | `types:PerspectiveQuad` | Sì | Restituisce le coordinate dell&#39;immagine in base al percorso. Vedere [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`prospettivaQuad`*` | `types:PerspectiveQuad` | Sì | Restituisce le coordinate immagine in base al percorso. Vedere [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Esempi {#section-1f0461cbdc184c8d8925336d5279db47}
 
