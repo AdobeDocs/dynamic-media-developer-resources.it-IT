@@ -1,23 +1,24 @@
 ---
-description: I seguenti campi sono supportati per i cataloghi di contenuti statici (non immagini).
-seo-description: I seguenti campi sono supportati per i cataloghi di contenuti statici (non immagini).
+description: I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
+seo-description: I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
 seo-title: Dati di contenuto statico
 solution: Experience Manager
 title: Dati di contenuto statico
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a890ffef-55b2-4880-afa5-ced8598642d1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
 
-# Dati di contenuto statico{#static-contents-data}
+# Dati del contenuto statico{#static-contents-data}
 
-I seguenti campi sono supportati per i cataloghi di contenuti statici (non immagini).
+I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
 
 <table id="simpletable_D1DEF6268BA744AD804B9BA3D9AEE800"> 
  <tr class="strow"> 
@@ -33,12 +34,12 @@ I seguenti campi sono supportati per i cataloghi di contenuti statici (non immag
   <td class="stentry"> <p>Timestamp modifica file. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md" type="reference" format="dita" scope="local"> UserType</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md" type="reference" format="dita" scope="local"> TipoUtente</a></span> </p></td> 
   <td class="stentry"> <p>Tipo di oggetto definito dall'utente. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p></td> 
-  <td class="stentry"> <p>Proprietà definite dall’utente. </p></td> 
+  <td class="stentry"> <p>Proprietà definite dall'utente. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md" type="reference" format="dita" scope="local"> VideoBitRate</a></span> </p></td> 
@@ -46,7 +47,7 @@ I seguenti campi sono supportati per i cataloghi di contenuti statici (non immag
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md" type="reference" format="dita" scope="local"> VideoSize</a></span> </p></td> 
-  <td class="stentry"> <p>Dimensione video. </p></td> 
+  <td class="stentry"> <p>Dimensioni video. </p></td> 
  </tr> 
 </table>
 
