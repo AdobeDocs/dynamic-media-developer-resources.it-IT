@@ -1,15 +1,16 @@
 ---
-description: Scala visualizzazione. Consente di ridimensionare l’immagine di cui è stato effettuato il rendering in base al fattore di scala specificato, rispetto alla vignettatura a risoluzione piena.
-seo-description: Scala visualizzazione. Consente di ridimensionare l’immagine di cui è stato effettuato il rendering in base al fattore di scala specificato, rispetto alla vignettatura a risoluzione piena.
+description: Vista scala. Ridimensiona l'immagine renderizzata in base al fattore di scala specificato, rispetto alla vignetta a risoluzione piena.
+seo-description: Vista scala. Ridimensiona l'immagine renderizzata in base al fattore di scala specificato, rispetto alla vignetta a risoluzione piena.
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 3%
 
 # scl{#scl}
 
-Scala visualizzazione. Consente di ridimensionare l’immagine di cui è stato effettuato il rendering in base al fattore di scala specificato, rispetto alla vignettatura a risoluzione piena.
+Vista scala. Ridimensiona l&#39;immagine renderizzata in base al fattore di scala specificato, rispetto alla vignetta a risoluzione piena.
 
-`scl= *`InvoiceFactor`*`
+`scl= *`InventoryFactor`*`
 
 <table id="simpletable_EFE352FA8EF14197B6934783A2883451"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> InvoiceFactor</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> InventoryFactor</span> </span> </p></td> 
   <td class="stentry"> <p>Fattore di scala inversa (reale, 1,0 o superiore). </p></td> 
  </tr> 
 </table>
 
-Se `scl=` viene dopo `wid=` o `hei=` nell&#39;URL, tali comandi vengono annullati e `scl=` definisce le dimensioni dell&#39;immagine restituita dal server.
+Se `scl=` segue `wid=` o `hei=` nell&#39;URL, annulla tali comandi e `scl=` definisce le dimensioni dell&#39;immagine restituita dal server.
 
-Tuttavia, se `wid=` o `hei=` viene dopo `scl=` nell&#39;URL, l&#39;annullamento di `scl=` e `wid=`/ `hei=` definisce le dimensioni dell&#39;immagine restituita dal server.
+Tuttavia, se `wid=` o `hei=` viene dopo `scl=` nell&#39;URL, annullano `scl=` e `wid=`/ `hei=` definiscono le dimensioni dell&#39;immagine restituita dal server.
 
 >[!NOTE]
 >
@@ -38,13 +39,13 @@ Tuttavia, se `wid=` o `hei=` viene dopo `scl=` nell&#39;URL, l&#39;annullamento 
 
 ## Proprietà {#section-170458cbd6984bd59a3434431258b20f}
 
-Può verificarsi ovunque nella richiesta. Ignorato se `wid=` o `hei=` si verificano dopo `scl=` nella sequenza di comandi.
+Può verificarsi in qualsiasi punto della richiesta. Ignorato se `wid=` o `hei=` si verificano dopo `scl=` nella sequenza di comando.
 
 Il ridimensionamento dell&#39;immagine con `scl=` non modifica il valore della risoluzione di stampa incorporato nell&#39;immagine di risposta.
 
 ## Predefinito {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Se non vengono specificati né `wid=`, `hei=` né `scl=`, l&#39;immagine di risposta viene ridimensionata in modo da rientrare nella dimensione definita da `attribute::DefaultPix`. Se `attribute::DefaultPix` è vuoto, l&#39;immagine di risposta ha le stesse dimensioni dell&#39;immagine di visualizzazione della vignettatura.
+Se non vengono specificati né `wid=`, `hei=` né `scl=`, l&#39;immagine di risposta viene ridimensionata in modo da adattarsi alle dimensioni definite da `attribute::DefaultPix`. Se `attribute::DefaultPix` è vuoto, l&#39;immagine di risposta ha le stesse dimensioni dell&#39;immagine di visualizzazione della vignetta.
 
 ## Consultate anche {#section-cc5002a1d49340bbb5c7a5864c297621}
 
