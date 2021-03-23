@@ -1,15 +1,16 @@
 ---
-description: Nascondere l'oggetto di sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti delle finestre applicati ai rivestimenti delle finestre nella selezione corrente.
-seo-description: Nascondere l'oggetto di sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti delle finestre applicati ai rivestimenti delle finestre nella selezione corrente.
-seo-title: hide
+description: Nascondi oggetto sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti di finestre applicati ai telai di rivestimenti di finestre nella selezione corrente.
+seo-description: Nascondi oggetto sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti di finestre applicati ai telai di rivestimenti di finestre nella selezione corrente.
+seo-title: nascondere
 solution: Experience Manager
-title: hide
-topic: Dynamic Media Image Serving - Image Rendering API
+title: nascondere
 uuid: 15c01750-958a-497d-a999-cacf359bb985
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # hide{#hide}
 
-Nascondere l&#39;oggetto di sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti delle finestre applicati ai rivestimenti delle finestre nella selezione corrente.
+Nascondi oggetto sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti di finestre applicati ai telai di rivestimenti di finestre nella selezione corrente.
 
 `hide[= *`val`*]`
 
@@ -30,7 +31,7 @@ Nascondere l&#39;oggetto di sovrapposizione. Nasconde tutti gli oggetti sovrappo
 
 ## Proprietà {#section-2952fa43df0547b187b834c819c517ca}
 
-Si applica al gruppo o alla selezione di oggetti corrente. Ignorato se la selezione corrente non include oggetti di sovrapposizione o cornici per rivestimenti di finestre o se non sono visibili oggetti di sovrapposizione.
+Si applica al gruppo o alla selezione di oggetti corrente. Ignorato se la selezione corrente non include oggetti di sovrapposizione o rivestimenti di finestre o se non sono visibili oggetti di sovrapposizione.
 
 ## Predefinito {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
