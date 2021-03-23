@@ -4,12 +4,13 @@ seo-description: Imposta la mappa immagine per una risorsa.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '148'
 ht-degree: 9%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 9%
 
 Imposta la mappa immagine per una risorsa.
 
-Dovete aver già creato le mappe immagine. Le mappe immagine vengono applicate in ordine di recupero dall&#39;array. Questo significa che la seconda mappa immagine si sovrappone alla prima, la terza alla seconda e così via.
+Devi aver già creato le mappe immagine. Le mappe immagine vengono applicate in ordine di recupero dalla matrice. Questo significa che la seconda mappa immagine si sovrappone alla prima, la terza alla seconda e così via.
 
 ## Tipi di utenti autorizzati {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -36,19 +37,19 @@ Dovete aver già creato le mappe immagine. Le mappe immagine vengono applicate i
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sì | Matrice di mappe immagine predefinite. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sì | Array di mappe immagine predefinite. |
 
 **Output (setImageMapsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sì | Un array con le maniglie della mappa immagine applicate alla risorsa. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Sì | Matrice con handle di mappa immagine applicati alla risorsa. |
 
 ## Esempi {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Questo esempio di codice imposta 2 mappe immagine per una risorsa immagine. Il codice specifica il tipo di forma, la regione e l’azione eseguite quando vengono richiamate le mappe immagine. La risposta contiene un array con le maniglie delle mappe immagine.
+Questo esempio di codice imposta 2 mappe immagine per una risorsa immagine. Il codice specifica il tipo di forma, la regione e l&#39;azione eseguita quando vengono richiamate le mappe immagine. La risposta contiene un array con maniglie per le mappe immagine.
 
 **Request Contents (Richiesta contenuto)**
 
