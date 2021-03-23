@@ -1,15 +1,16 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: CallToAction.direction
 solution: Experience Manager
 title: CallToAction.direction
-topic: Dynamic Media
 uuid: fe182e8f-696d-4515-afdb-49964a374dae
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 4%
 
 # CallToAction.direction{#calltoaction-direction}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[CallToAction.|<containerId>_callToAction.]direction=auto|left|right`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Specifica la modalità di riempimento delle miniature nella visualizzazione. </p> <p>Impostare su <span class="codeph"> sinistra </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Impostato su <span class="codeph"> destra </span> inverte l'ordine in modo che la vista sia riempita in una direzione da destra a sinistra e dall'alto verso il basso. </p> <p>Impostare su <span class="codeph"> auto </span> affinché il componente applichi la modalità a destra quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span>; in caso contrario, viene utilizzato <span class="codeph"> a sinistra </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra  </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il modo in cui le miniature vengono compilate nella visualizzazione. </p> <p>Impostare su <span class="codeph"> sinistra </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Impostato su <span class="codeph"> destra </span> inverte l'ordine in modo che la visualizzazione sia riempita in una direzione da destra a sinistra e dall'alto verso il basso. </p> <p>Impostare su <span class="codeph"> auto </span> affinché il componente applichi la modalità a destra quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span>; in caso contrario, viene utilizzato <span class="codeph"> sinistro </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
