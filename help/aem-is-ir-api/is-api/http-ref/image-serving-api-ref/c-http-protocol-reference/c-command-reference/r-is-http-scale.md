@@ -1,15 +1,16 @@
 ---
-description: Scala immagine. Consente di ridimensionare l’immagine sorgente del livello in base al fattore rispetto all’immagine a risoluzione piena.
-seo-description: Scala immagine. Consente di ridimensionare l’immagine sorgente del livello in base al fattore rispetto all’immagine a risoluzione piena.
+description: Scala immagine. Consente di ridimensionare un'immagine sorgente del livello in base al fattore rispetto all'immagine a risoluzione piena.
+seo-description: Scala immagine. Consente di ridimensionare un'immagine sorgente del livello in base al fattore rispetto all'immagine a risoluzione piena.
 seo-title: scale
 solution: Experience Manager
-title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
+title: scala
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 5%
 
 ---
@@ -17,26 +18,26 @@ ht-degree: 5%
 
 # scale{#scale}
 
-Scala immagine. Consente di ridimensionare l’immagine sorgente del livello in base al fattore rispetto all’immagine a risoluzione piena.
+Scala immagine. Consente di ridimensionare un&#39;immagine sorgente del livello in base al fattore rispetto all&#39;immagine a risoluzione piena.
 
-`scale= *`Factor`*`
+`scale= *`fattore`*`
 
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> Factor</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> fattore</span> </p> </td> 
   <td class="stentry"> <p>Fattore di scala (reale, maggiore di 0,0). </p></td> 
  </tr> 
 </table>
 
-Non viene applicato alcun ridimensionamento quando `scale=1`. *`factor`* con dimensioni inferiori a 1,0 e maggiori di 1,0 l’immagine sorgente viene ingrandita.
+Non viene applicato alcun ridimensionamento quando `scale=1`. *`factor`* dimensioni inferiori a 1.0 e maggiori di 1.0 ingrandiscono l&#39;immagine sorgente.
 
 ## Proprietà {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Attributo immagine/maschera di origine. Ignorato se è stato specificato `size=` anche per il livello corrente. Ignora `res=`. Si applica al livello 0 se specificato per `layer=comp`. Ignorato se il livello non è associato a un’immagine o a una maschera.
+Attributo immagine/maschera di origine. Ignorato se è specificato `size=` anche per il livello corrente. Sostituisce `res=`. Si applica al livello 0 se specificato per `layer=comp`. Ignorato se il livello non è associato a un&#39;immagine o a una maschera.
 
 ## Predefinito {#section-26e64904362342a5a62c5f6598f330c4}
 
-Se non viene specificato, viene utilizzato `res=`. Se `res=` non è specificato, l&#39;immagine viene utilizzata senza ridimensionamento.
+Se non specificato, viene utilizzato `res=`. Se `res=` non è specificato, l&#39;immagine viene utilizzata senza ridimensionamento.
 
 ## Consultate anche {#section-61a11f30d37341d58c10df759bfff951}
 
