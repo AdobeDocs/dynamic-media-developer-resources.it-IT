@@ -1,23 +1,24 @@
 ---
-description: URL per il visualizzatore video.
-seo-description: URL per il visualizzatore video.
+description: Comando URL per il visualizzatore video.
+seo-description: Comando URL per il visualizzatore video.
 seo-title: video
 solution: Experience Manager
 title: video
-topic: Dynamic Media
 uuid: c3304518-e1bb-43d6-801b-a4ce7c0d995d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # video{#video}
 
-URL per il visualizzatore video.
+Comando URL per il visualizzatore video.
 
 ` video= *`videoURL`*`
 
@@ -32,7 +33,7 @@ URL per il visualizzatore video.
 
 ## Proprietà {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obbligatorio. (a meno che non venga utilizzato il parametro `asset`. Consultate [Supporto per video esterni](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+Obbligatorio. (A meno che non venga utilizzato il parametro `asset` . Consulta [Supporto video esterno](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Predefinito {#section-d016470e92a74f98a18c4ab3489410a5}
 
