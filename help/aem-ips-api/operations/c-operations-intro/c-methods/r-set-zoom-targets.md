@@ -1,23 +1,24 @@
 ---
-description: Imposta la destinazione di zoom associata a un’immagine di risorsa. Sovrascrive le destinazioni di zoom esistenti.
-seo-description: Imposta la destinazione di zoom associata a un’immagine di risorsa. Sovrascrive le destinazioni di zoom esistenti.
+description: Imposta la destinazione di zoom associata a un’immagine di una risorsa. Sovrascrive le destinazioni di zoom esistenti.
+seo-description: Imposta la destinazione di zoom associata a un’immagine di una risorsa. Sovrascrive le destinazioni di zoom esistenti.
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '143'
+ht-degree: 10%
 
 ---
 
 
 # setZoomTargets{#setzoomtargets}
 
-Imposta la destinazione di zoom associata a un’immagine di risorsa. Sovrascrive le destinazioni di zoom esistenti.
+Imposta la destinazione di zoom associata a un’immagine di una risorsa. Sovrascrive le destinazioni di zoom esistenti.
 
 Sintassi
 
@@ -36,9 +37,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
 | `*`assetHandle`*` | `xsd:string` | Sì | Risorsa con la destinazione di zoom da impostare. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sì | Array di definizioni delle destinazioni di zoom. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sì | Array di definizioni di destinazione dello zoom. |
 
 **Output (setZoomTargetsReturn)**
 
@@ -48,7 +49,7 @@ Sintassi
 
 ## Esempi {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Questo esempio di codice definisce un array di destinazioni di zoom per nome, posizione (asse x e y), larghezza, altezza e assegna l’array a una risorsa. La risposta contiene le maniglie delle destinazioni di zoom appena create.
+Questo esempio di codice definisce una matrice di destinazioni di zoom per nome, posizione (asse x e y), larghezza, altezza e assegna la matrice a una risorsa. La risposta contiene le maniglie delle destinazioni di zoom appena create.
 
 **Request Contents (Richiesta contenuto)**
 
