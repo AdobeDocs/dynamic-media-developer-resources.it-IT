@@ -4,13 +4,14 @@ seo-description: Elimina un processo corrente o pianificato.
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 10%
+source-wordcount: '104'
+ht-degree: 9%
 
 ---
 
@@ -38,8 +39,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società alla quale il processo appartiene. |
-| `*`jobHandle`*` | `xsd:string` | Sì | L’handle del processo da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda a cui appartiene il lavoro. |
+| `*`jobHandle`*` | `xsd:string` | Sì | L&#39;handle del processo da eliminare. |
 
 **Uscita**
 
@@ -47,7 +48,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Questo esempio di codice elimina un processo in esecuzione o pianificato per l&#39;esecuzione in IPS. Richiede un handle di processo, che è necessario ottenere da un&#39;altra operazione.
+Questo esempio di codice elimina un processo in esecuzione o pianificato per l&#39;esecuzione in IPS. Richiede un handle di lavoro, che è necessario ottenere da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 
