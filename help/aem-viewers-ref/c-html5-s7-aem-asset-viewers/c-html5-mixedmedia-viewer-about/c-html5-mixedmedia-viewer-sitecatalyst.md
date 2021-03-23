@@ -1,33 +1,34 @@
 ---
-description: Il visualizzatore per file multimediali diversi supporta  tracciamento Adobe Analytics out-of-the-box.
-seo-description: Il visualizzatore per file multimediali diversi supporta  tracciamento Adobe Analytics out-of-the-box.
-seo-title: Supporto per  tracciamento Adobe Analytics
+description: Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
+seo-description: Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
+seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
-title: Supporto per  tracciamento Adobe Analytics
-topic: Dynamic Media
+title: Supporto per il tracciamento di Adobe Analytics
 uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
 
-# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore per file multimediali diversi supporta  tracciamento Adobe Analytics out-of-the-box.
+Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
 
-## Tracciamento out-of-the-box {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento predefinito {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore per file multimediali diversi supporta il monitoraggio out-of-the-box di [!DNL Adobe Analytics]. Per abilitare il tracciamento, passate il nome corretto del predefinito della società come parametro `config2`.
+Il visualizzatore di file multimediali diversi supporta il tracciamento preconfigurato [!DNL Adobe Analytics] . Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
 
-Il visualizzatore invia inoltre un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -58,7 +59,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -68,15 +69,15 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>viene applicato lo zoom a un’immagine. </p> </td> 
+   <td colname="col2"> <p>un’immagine viene ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAN (Panning)</span> </p> </td> 
-   <td colname="col2"> <p>viene eseguito il panning di un’immagine. </p> </td> 
+   <td colname="col2"> <p>un'immagine viene pannerizzata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWATCH (Campione)</span> </p> </td> 
@@ -96,11 +97,11 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">MILESTONE (Pietra miliare)</span> </p> </td> 
-   <td colname="col2"> <p>la riproduzione raggiunge uno dei seguenti mosaici: 0%, 25%, 50%, 75% e 100%. </p> </td> 
+   <td colname="col2"> <p>la riproduzione raggiunge una delle seguenti pietre miliari: 0%, 25%, 50%, 75% e 100%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SPIN (Set a 360 gradi)</span> </p> </td> 
-   <td colname="col2"> <p>viene eseguito il spin. </p> </td> 
+   <td colname="col2"> <p>viene eseguita la rotazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
