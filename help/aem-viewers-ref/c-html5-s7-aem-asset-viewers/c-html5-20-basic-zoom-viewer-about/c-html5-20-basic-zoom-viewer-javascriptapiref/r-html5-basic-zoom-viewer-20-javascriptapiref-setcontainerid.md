@@ -1,27 +1,28 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore zoom di base.
-seo-description: Riferimento API JavaScript per il visualizzatore zoom di base.
+description: Riferimento API JavaScript per visualizzatore zoom di base.
+seo-description: Riferimento API JavaScript per visualizzatore zoom di base.
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 064ebb0c-088a-4b8b-b623-c29363232cc4
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 1%
 
 ---
 
 
 # setContainerId{#setcontainerid}
 
-Riferimento API JavaScript per il visualizzatore zoom di base.
+Riferimento API JavaScript per visualizzatore zoom di base.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l’ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
+Imposta l’ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato al momento della chiamata di questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
 
 Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con l&#39;oggetto JSON `config` al costruttore.
 
