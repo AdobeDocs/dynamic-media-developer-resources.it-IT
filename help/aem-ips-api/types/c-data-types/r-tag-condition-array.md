@@ -1,23 +1,24 @@
 ---
-description: Un array di condizioni di tag.
-seo-description: Un array di condizioni di tag.
+description: Matrice di condizioni tag.
+seo-description: Matrice di condizioni tag.
 seo-title: TagConditionArray
 solution: Experience Manager
 title: TagConditionArray
-topic: Dynamic Media Image Production System API
 uuid: 9ee3b2c5-ba56-4df0-ae80-684d04455437
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # TagConditionArray{#tagconditionarray}
 
-Un array di condizioni di tag.
+Matrice di condizioni tag.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:TagCondition` | Un array di condizioni di tag. |
+| `*`elementi`*` | `types:TagCondition` | Matrice di condizioni tag. |
 
