@@ -1,23 +1,24 @@
 ---
-description: Proprietà di un file di copertura della finestra.
-seo-description: Proprietà di un file di copertura della finestra.
+description: Proprietà di una finestra che copre il file.
+seo-description: Proprietà di una finestra che copre il file.
 seo-title: WindowCoveringInfo
 solution: Experience Manager
 title: WindowCoveringInfo
-topic: Dynamic Media Image Production System API
 uuid: 6ca5c5b2-9fb1-4ba2-b981-f1912231512c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
 # WindowCoveringInfo{#windowcoveringinfo}
 
-Proprietà di un file di copertura della finestra.
+Proprietà di una finestra che copre il file.
 
 Sintassi
 
@@ -25,11 +26,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file. |
+| `*`originalPath`*` | `xsd:string` | Percorso file. |
+| `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
-| `*`imagePath`*` | `xsd:string` | Percorso relativo all’immagine. |
-| `*`imageFile`*` | `xsd:string` | Nome del file dell’immagine di copertina della finestra. |
+| `*`imagePath`*` | `xsd:string` | Percorso relativo all&#39;immagine. |
+| `*`imageFile`*` | `xsd:string` | Nome del file della finestra che copre l&#39;immagine. |
 | `*`optimizedPath`*` | `xsd:string` | Percorso ottimizzato del file. |
 | `*`optimizedFile`*` | `xsd:string` | Nome file ottimizzato. |
 
