@@ -1,15 +1,16 @@
 ---
-description: Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di cataloghi di immagini, inclusioni di modificatori di catalogo, sostituzioni di macro e variabili, ecc, proprio come req=img.
-seo-description: Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di cataloghi di immagini, inclusioni di modificatori di catalogo, sostituzioni di macro e variabili, ecc, proprio come req=img.
-seo-title: resolve
+description: Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di catalogo immagini, inclusioni modificatori di catalogo, sostituzioni di macro e variabili, ecc, proprio come req=img.
+seo-description: Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di catalogo immagini, inclusioni modificatori di catalogo, sostituzioni di macro e variabili, ecc, proprio come req=img.
+seo-title: risolvere
 solution: Experience Manager
-title: resolve
-topic: Dynamic Media Image Serving - Image Rendering API
+title: risolvere
 uuid: bd1576a7-4802-4a87-b1c0-406f51382561
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -17,10 +18,10 @@ ht-degree: 0%
 
 # resolve{#resolve}
 
-Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di cataloghi di immagini, catalogo::inclusioni modificatori, sostituzioni di macro e variabili, ecc, proprio come req=img.
+Richiesta di debug. Questo comando di debug analizza e preelabora la richiesta, esegue ricerche di catalogo immagini, catalogo::inclusioni modificatori, sostituzioni di macro e variabili, ecc, proprio come req=img.
 
 `req=resolve`
 
-La stringa di richiesta finale viene restituita, invece dell&#39;immagine del risultato, con il tipo MIME `text/plain`.
+Al posto dell’immagine del risultato, viene restituita la stringa di richiesta finale con il tipo MIME `text/plain`.
 
 La risposta HTTP non è memorizzabile nella cache.
