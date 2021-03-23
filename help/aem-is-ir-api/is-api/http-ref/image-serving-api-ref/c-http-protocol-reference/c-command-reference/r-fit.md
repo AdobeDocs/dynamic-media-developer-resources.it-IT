@@ -1,15 +1,16 @@
 ---
-description: Modalità Adatta immagine risposta Specifica come viene calcolato il fattore di scala, che viene utilizzato per ridimensionare l'immagine composita in base all'immagine di risposta quando la dimensione della risposta è specificata con wid= e hei= e scl= non è presente.
-seo-description: Modalità Adatta immagine risposta Specifica come viene calcolato il fattore di scala, che viene utilizzato per ridimensionare l'immagine composita in base all'immagine di risposta quando la dimensione della risposta è specificata con wid= e hei= e scl= non è presente.
+description: Modalità di adattamento dell'immagine di risposta. Specifica come viene calcolato il fattore di scala, utilizzato per scalare l'immagine composita sull'immagine di risposta quando la dimensione di risposta è specificata con wid= e hei= e scl= non è presente.
+seo-description: Modalità di adattamento dell'immagine di risposta. Specifica come viene calcolato il fattore di scala, utilizzato per scalare l'immagine composita sull'immagine di risposta quando la dimensione di risposta è specificata con wid= e hei= e scl= non è presente.
 seo-title: adatta
 solution: Experience Manager
 title: adatta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 2%
 
 # adatta{#fit}
 
-Modalità Adatta immagine risposta Specifica come viene calcolato il fattore di scala, che viene utilizzato per ridimensionare l&#39;immagine composita in base all&#39;immagine di risposta quando la dimensione della risposta è specificata con wid= e hei= e scl= non è presente.
+Modalità di adattamento dell&#39;immagine di risposta. Specifica come viene calcolato il fattore di scala, utilizzato per scalare l&#39;immagine composita sull&#39;immagine di risposta quando la dimensione di risposta è specificata con wid= e hei= e scl= non è presente.
 
-` fit= *``*, *`modesta`*`
+` fit= *``*, *`scala modulare`*`
 
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mode  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fit|vincola|ritaglia|avvolgi|allunga|adatta|vfit  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modalità  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> adattamento|vincolo|ritaglio|avvolgimento|allungamento|adattamento|adattamento  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> upscale  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> aumento  </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
  </tr> 
 </table>
@@ -44,42 +45,42 @@ Nella seguente descrizione delle opzioni di modalità, si presume che *`xScale`*
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> adatta </span> </p> </td> 
-   <td colname="col2"> <p>Consente di ridimensionare l'immagine composita in modo che rientri nello spazio allocato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, con spazi bianchi minimi e nessun ritaglio. L'immagine di risposta avrà le stesse dimensioni specificate con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>. Viene applicato il valore più piccolo tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
+   <td colname="col2"> <p>Ridimensiona l'immagine composita in modo che si adatti allo spazio allocato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, con spazi bianchi minimi e nessun ritaglio. L'immagine di risposta avrà la dimensione esatta specificata con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>. Viene applicato il valore più piccolo tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> vincolare  </span> </p> </td> 
-   <td colname="col2"> <p>Consente di ridimensionare l'immagine composita come <span class="codeph"> fit </span> in modo che rientri nello spazio allocato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, ma l'immagine di risposta effettiva può essere più piccola di quanto specificato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span> per evitare spazi. Viene applicato il valore più piccolo tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vincolo  </span> </p> </td> 
+   <td colname="col2"> <p>Ridimensiona l'immagine composita come <span class="codeph"> fit </span> in modo che si adatti allo spazio allocato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, ma l'immagine di risposta effettiva può essere più piccola di quella specificata con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span> per evitare spazi bianchi. Viene applicato il valore più piccolo tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> Ritaglia </span> </p> </td> 
-   <td colname="col2"> <p>Consente di ridimensionare l'immagine composita in modo da riempire l'intera immagine di risposta, con un ritaglio minimo e senza spazi bianchi. Viene applicata la dimensione maggiore tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
+   <td colname="col2"> <p>Ridimensiona l'immagine composita in modo da riempire l'intera immagine di risposta, con un ritaglio minimo e senza spazi bianchi. Viene applicata la dimensione maggiore tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> involucro  </span> </p> </td> 
-   <td colname="col2"> <p>Consente di ridimensionare l'immagine composita come <span class="codeph"> ritaglia </span> in modo da coprire l'intera immagine di risposta, ma l'immagine di risposta effettiva potrebbe essere maggiore di quanto specificato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span> per evitare il ritaglio. Viene applicata la dimensione maggiore tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> avvolgere  </span> </p> </td> 
+   <td colname="col2"> <p>Ridimensiona l'immagine composita come <span class="codeph"> ritaglia </span> in modo che copra l'intera immagine di risposta, ma l'immagine di risposta effettiva può essere maggiore di quanto specificato con <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span> per evitare il ritaglio. Viene applicata la dimensione maggiore tra <span class="varname"> xScale </span> e <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> stretch  </span> </p> </td> 
-   <td colname="col2"> <p>Consente di ridimensionare l'immagine composita in modo indipendente in x e y per riempire l'intera immagine di risposta, senza ritaglio e senza spazi bianchi. In genere questo modifica le proporzioni dell’immagine. <span class="varname"> xScale  </span> viene utilizzato per il ridimensionamento orizzontale e  <span class="varname"> yScale  </span> per il ridimensionamento verticale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> distendere  </span> </p> </td> 
+   <td colname="col2"> <p>Ridimensiona l'immagine composita in modo indipendente in x e y per riempire l'intera immagine di risposta, senza ritaglio e senza spazi bianchi. In genere questo cambia le proporzioni dell'immagine. <span class="varname"> xScale  </span> viene utilizzato per il ridimensionamento orizzontale e  <span class="varname"> yScale  </span> per il ridimensionamento verticale. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> hfit  </span> </p> </td> 
-   <td colname="col2"> <p>Applica <span class="varname"> xScale </span> per adattare strettamente l'immagine orizzontalmente, con possibilità di ritaglio o spazi bianchi nella parte superiore e/o inferiore. Utile per applicazioni speciali. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vestibilità  </span> </p> </td> 
+   <td colname="col2"> <p>Applica <span class="varname"> xScale </span> per adattare rigorosamente l'immagine orizzontalmente, con probabile ritaglio o spazio vuoto nella parte superiore e/o inferiore. Utile per applicazioni speciali. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> adatto  </span> </p> </td> 
-   <td colname="col2"> <p>Applica <span class="varname"> yScale </span> per adattare l'immagine verticalmente, con possibilità di ritaglio o spazi bianchi a sinistra e/o a destra. Utile per applicazioni speciali. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> viziare  </span> </p> </td> 
+   <td colname="col2"> <p>Applica <span class="varname"> yScale </span> per adattare verticalmente l'immagine, con probabile ritaglio o spazio vuoto a sinistra e/o a destra. Utile per applicazioni speciali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Impostate *`upscale`* su &#39;1&#39; per consentire l&#39;ingrandimento o su &#39;0&#39; per vincolare *`xScale`*e *`yScale`* a 1:1. Se l’opzione di ridimensionamento è disattivata, se l’immagine composita è più piccola dell’immagine di risposta potrebbe essere presente degli spazi bianchi aggiuntivi.
+Imposta *`upscale`* su &#39;1&#39; per consentire l&#39;upscaling o su &#39;0&#39; per vincolare *`xScale`*e *`yScale`* a 1:1. Se l’opzione di ridimensionamento è disabilitata, potrebbe essere presente ulteriore spazio vuoto se l’immagine composita è più piccola dell’immagine di risposta.
 
-Ritaglia e spazi bianchi sono centrati per impostazione predefinita; la loro posizione può essere controllata con `align=`. Il colore e l&#39;opacità del riempimento degli spazi bianchi sono determinati da `bgc=`.
+Ritaglio e spazi bianchi sono centrati per impostazione predefinita; la loro posizione può essere controllata con `align=`. Il colore e l&#39;opacità del riempimento dello spazio vuoto sono determinati da `bgc=`.
 
 ## Proprietà {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Visualizza attributo. Si applica indipendentemente dall’impostazione del livello corrente. È inoltre necessario specificare almeno uno di `wid=` o `hei=`, altrimenti viene restituito un errore; è necessario specificare `wid=` e `hei=` affinché le modalità di adattamento funzionino come descritto. Viene restituito un errore anche quando è specificato `req=tmb`.
+Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente. È necessario specificare almeno uno dei valori `wid=` o `hei=`, altrimenti viene restituito un errore; è necessario specificare sia `wid=` che `hei=` affinché le modalità di adattamento si comportino come descritto. Viene restituito un errore anche quando è specificato `req=tmb`.
 
 ## Predefinito {#section-3a553b4b29ef447a8331d6954f3f06da}
 
