@@ -4,12 +4,13 @@ seo-description: Riferimento API JavaScript per il visualizzatore di eCatalog.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: a732461f-1b34-4ebe-9dfd-69175762e574
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 Riferimento API JavaScript per il visualizzatore di eCatalog.
 
-[!DNL ` setParam( *`name, value`*)`]
+[!DNL ` setParam( *`nome, valore`*)`]
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un’opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di [!DNL `init()`].
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro è un&#39;opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di [!DNL `init()`].
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto JSON [!DNL `config`] al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l’oggetto JSON [!DNL `config`] al costruttore.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -31,7 +32,7 @@ Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-vi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> name del parametro. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
