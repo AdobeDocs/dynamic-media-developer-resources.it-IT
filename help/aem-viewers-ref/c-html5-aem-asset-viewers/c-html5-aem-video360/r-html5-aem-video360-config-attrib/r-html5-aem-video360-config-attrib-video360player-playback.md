@@ -4,12 +4,13 @@ seo-description: Attributo di configurazione per il visualizzatore Video360.
 seo-title: Video360Player.playback
 solution: Experience Manager
 title: Video360Player.playback
-topic: Dynamic Media
 uuid: ce814963-5cb8-408e-9d57-e7b7e61e0fab
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '141'
 ht-degree: 7%
 
 ---
@@ -24,8 +25,8 @@ Attributo di configurazione per il visualizzatore Video360.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. </p> <p>Quando si imposta <span class="codeph"> auto</span>, nella maggior parte dei browser desktop e in tutti i dispositivi iOS il visualizzatore utilizza lo streaming video HTML5 in formato HLS, e torna alla riproduzione progressiva HTML5 su alcuni sistemi come Internet Explorer e Android meno recenti. </p> <p>Quando si imposta <span class="codeph"> progressive</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente il video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità native <span class="codeph"> auto</span> e <span class="codeph"> progressive</span>, consultate la guida utente dell’SDK per visualizzatori HTML5. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatico|progressivo</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. </p> <p>Quando <span class="codeph"> auto</span> è impostato, nella maggior parte dei browser desktop e in tutti i dispositivi iOS il visualizzatore utilizza video in streaming HTML5 in formato HLS, e torna alla riproduzione progressiva HTML5 su alcuni sistemi come i vecchi Internet Explorer e Android. </p> <p>Quando si imposta <span class="codeph"> progressivo</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente i video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità native dei visualizzatori HTML5, vedere la Guida utente dell'SDK per visualizzatori HTML5.<span class="codeph"></span><span class="codeph"></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -34,7 +35,7 @@ Attributo di configurazione per il visualizzatore Video360.
 
 Facoltativo. Ignorato quando il visualizzatore funziona con video esterno.
 
-Per ulteriori informazioni, vedere [Supporto per video esterni](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).
+Per ulteriori informazioni, consulta [Supporto video esterno](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) .
 
 ## Predefinito {#section-71fb773f814649b2885aefee68073641}
 
