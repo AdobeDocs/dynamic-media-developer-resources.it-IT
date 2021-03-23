@@ -1,16 +1,17 @@
 ---
 description: Opzioni del file PostScript.
 seo-description: Opzioni del file PostScript.
-seo-title: PostScriptOptions
+seo-title: OpzioniPostScript
 solution: Experience Manager
-title: PostScriptOptions
-topic: Dynamic Media Image Production System API
+title: OpzioniPostScript
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 
@@ -25,9 +26,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`process`*` | `xsd:string` | PostScript process choice. |
+| `*`processo`*` | `xsd:string` | Selezione del processo PostScript. |
 | `*`resolution`*` | `xsd:double` | Risoluzione del file. |
 | `*`colorspace`*` | `xsd:string` | Modalità spazio colore PostScript. |
-| `*`alfa`*` | `xsd:boolean` | Se rasterizzare il file in un’immagine. In tal caso, se il file originale è definito in questo modo, verrà creato uno sfondo trasparente. Generalmente utilizzato per creare logo sovrapposti. |
+| `*`alfa`*` | `xsd:boolean` | Se rasterizzare il file in un’immagine. In tal caso, creerà uno sfondo trasparente se il file originale è definito in questo modo. Generalmente utilizzato per creare loghi sovrapposti. |
 | `*`extractSearchWords`*` | `xsd:boolean` | Se estrarre le parole di ricerca dal file PostScript. |
 
