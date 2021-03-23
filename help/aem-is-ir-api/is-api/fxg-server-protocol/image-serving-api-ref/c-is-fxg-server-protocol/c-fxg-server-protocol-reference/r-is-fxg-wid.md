@@ -1,15 +1,16 @@
 ---
-description: Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (immagine di visualizzazione).
-seo-description: Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (immagine di visualizzazione).
+description: Larghezza visualizzazione. Specifica la larghezza dell'immagine di risposta (visualizza immagine).
+seo-description: Larghezza visualizzazione. Specifica la larghezza dell'immagine di risposta (visualizza immagine).
 seo-title: wid
 solution: Experience Manager
-title: wid
-topic: Dynamic Media Image Serving - Image Rendering API
+title: nudo
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # wid{#wid}
 
-Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (immagine di visualizzazione).
+Larghezza visualizzazione. Specifica la larghezza dell&#39;immagine di risposta (visualizza immagine).
 
 `wid= *`val`*`
 
@@ -32,22 +33,22 @@ Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (i
 
 Se non vengono specificati né `wid=`, `hei=`, né `scale=`, l&#39;immagine di risposta corrisponde alla dimensione di visualizzazione predefinita specificata nel file FXG.
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Dimensione visualizzazione predefinita (o DefaultPix). Fate clic su **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettete i valori di larghezza e altezza. Le dimensioni più ridotte garantiscono prestazioni migliori. Per applicare una modifica, dovete salvare le impostazioni ed eseguire una pubblicazione Image Server.
+Il rendering dei formati raster viene eseguito utilizzando la dimensione di visualizzazione predefinita (o l&#39;impostazione DefaultPix). Fai clic su **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni pubblicazione]** > **[!UICONTROL Image Server]**, quindi immetti i valori di Larghezza e Altezza. Le dimensioni più piccole offrono prestazioni migliori. Per applicare una modifica, è necessario salvare le impostazioni ed eseguire una pubblicazione di Image Server.
 
-Se applicate un comando `scale=1`, viene eseguito il rendering di una richiesta di formato raster nelle dimensioni specificate nel file FXG.
+Se si applica un comando `scale=1`, viene eseguito il rendering di una richiesta di formato raster nelle dimensioni specificate nell&#39;FXG.
 
 ## Esempio {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
 [!DNL http://server/is/agm/myRootId/myImageId?wid=200]
 
-A meno che non venga specificato un formato, l&#39;immagine viene rappresentata come file SWF. In questo caso, altezza e larghezza non hanno alcun significato, perché il file SWF in genere si espande fino alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
+A meno che non venga specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, altezza e larghezza non hanno alcun significato, perché il SWF di solito si espande fino alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
 
 * GIF
 * TIF
 * PNG
 * JPG
 * JPEG
-* GIF-alpha
-* TIF-alpha
+* GIF-alfa
+* TIF-alfa
 * PNG-alpha
 
