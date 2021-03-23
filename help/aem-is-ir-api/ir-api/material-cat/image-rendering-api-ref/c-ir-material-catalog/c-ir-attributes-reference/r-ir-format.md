@@ -4,13 +4,14 @@ seo-description: Formato immagine di risposta predefinito. Specifica il formato 
 seo-title: Formato
 solution: Experience Manager
 title: Formato
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 11%
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +22,7 @@ Formato immagine di risposta predefinito. Specifica il formato predefinito per l
 
 ## Proprietà {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Stringa di testo. Deve essere uno dei token di formato supportati dal comando `fmt=`:
+Stringa di testo. Deve essere uno dei token di formato supportati dal comando `fmt=` :
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
