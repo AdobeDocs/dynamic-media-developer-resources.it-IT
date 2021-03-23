@@ -4,13 +4,14 @@ seo-description: Tipo di richiesta. Specifica il tipo di richiesta.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -22,28 +23,28 @@ Tipo di richiesta. Specifica il tipo di richiesta.
 `req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`di nitidezza`*]`
 
 * [catalogprops](r-catalogprops.md)
-* [exists](r-exists.md)
-* [imageprop](r-imageprops.md)
+* [esiste](r-exists.md)
+* [imageprops](r-imageprops.md)
 * [imageset](r-imageset-req.md)
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
 * [map](r-map-req.md)
-* [mask](r-mask-req.md)
+* [maschera](r-mask-req.md)
 * [mbrSet](r-mbrset.md)
 * [message](r-message.md)
-* [prop](r-props.md)
-* [resolve](r-resolve.md)
+* [proprietà](r-props.md)
+* [risolvere](r-resolve.md)
 * [saveToFile](r-savetofile.md)
 * [set](r-set.md)
 * [target](r-targets.md)
-* [tmb](r-tmb.md)
-* [userdata](r-userdata.md)
+* [tam](r-tmb.md)
+* [dati utente](r-userdata.md)
 * [validate](r-is-http-validate.md)
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Salvo diversa indicazione nelle descrizioni dettagliate, il server restituirà `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text`, che in genere è il tipo predefinito, `javascript`, `xml` o `json`. I tipi MIME di risposta associati sono `text/plain`, `text/javascript`, `text/xml` e `text/javascript`, rispettivamente.
+Se non diversamente indicato nelle descrizioni dettagliate, il server restituirà `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text`, tipicamente predefinito, `javascript`, `xml` o `json`. I tipi MIME di risposta associati sono rispettivamente `text/plain`, `text/javascript`, `text/xml` e `text/javascript`.
 
-Salvo diversa indicazione, le risposte formattano la risposta come un insieme di coppie `name=value`.
+Se non diversamente indicato, le risposte formattano la risposta come un set di coppie `name=value`.
 
 Vedere [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
