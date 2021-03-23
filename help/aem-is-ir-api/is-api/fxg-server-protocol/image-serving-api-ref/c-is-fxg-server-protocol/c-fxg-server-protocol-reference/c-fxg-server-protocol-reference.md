@@ -1,25 +1,26 @@
 ---
-description: Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
-seo-description: Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
-seo-title: Riferimento del protocollo server FXG
+description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+seo-description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+seo-title: Riferimento al protocollo del server FXG
 solution: Experience Manager
-title: Riferimento del protocollo server FXG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Riferimento al protocollo del server FXG
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 5%
 
 ---
 
 
-# Riferimento del protocollo del server FXG{#fxg-server-protocol-reference}
+# Riferimento al protocollo del server FXG{#fxg-server-protocol-reference}
 
-Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
+Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
 
-* [bleedmargin](r-bleedmargin.md)
+* [margine](r-bleedmargin.md)
 * [cache](r-is-fxg-cache.md)
 * [convertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
@@ -30,7 +31,7 @@ Questo documento fornisce informazioni sui protocolli del server FXG e sulla rel
 * [markOverflowingTextFrames](r-markoverflowingtextframes.md)
 * [mediaMargin](r-mediamargin.md)
 * [pagina](r-page.md)
-* [printerMark](r-printermark.md)
+* [stampanteMark](r-printermark.md)
 * [qlt](r-is-fxg-qlt.md)
 * [quantificare](r-is-fxg-quantize.md)
 * [req](r-req-oversetstatus.md)
