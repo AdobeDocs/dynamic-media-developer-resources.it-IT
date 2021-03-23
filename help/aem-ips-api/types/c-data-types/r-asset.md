@@ -4,13 +4,14 @@ seo-description: Un oggetto o un contenitore nella gerarchia delle cartelle.
 seo-title: Risorsa
 solution: Experience Manager
 title: Risorsa
-topic: Dynamic Media Image Production System API
 uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -40,27 +41,27 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> animatedGifInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Informazioni su un file GIF animato. </td> 
+   <td colname="col3"> Dettagli su un file GIF animato. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle risorsa. </td> 
+   <td colname="col3"> Gestione risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSetInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cabinetInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:CabinetInfo</span> </td> 
-   <td colname="col3"> Proprietà per un tipo di risorsa cabinet. </td> 
+   <td colname="col3"> Proprietà per un tipo di risorsa archivio. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> created</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> creato</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data e ora di caricamento della risorsa. </td> 
+   <td colname="col3"> Data e ora del caricamento della risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createUser</span> </span> </td> 
@@ -74,12 +75,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cuePointInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excelInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -89,22 +90,22 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> flashInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> cartella</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Cartella contenente una risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Consente di passare alla cartella principale della risorsa. </td> 
+   <td colname="col3"> Gestisci la cartella principale della risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fontInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipo:fontInfo</span> </td> 
    <td colname="col3"> Proprietà per una risorsa di font. </td> 
   </tr> 
   <tr> 
@@ -114,7 +115,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -124,13 +125,13 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ipsImageUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> URL relativo che rappresenta una miniatura della risorsa. </td> 
+   <td colname="col3"> URL relativo che rappresenta una visualizzazione in miniatura della risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> javascriptInfo</span> </span> </td> 
@@ -140,12 +141,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastModified</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data e ora dell’ultima modifica apportata alla risorsa. </td> 
+   <td colname="col3"> Data e ora dell’ultima modifica della risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastModifyUser</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indirizzo e-mail dell’ultimo utente che ha modificato la risorsa. </td> 
+   <td colname="col3"> Indirizzo e-mail dell’utente che ha modificato la risorsa per l’ultima volta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerViewInfo</span> </span> </td> 
@@ -154,12 +155,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> masterVideoInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -174,7 +175,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -184,22 +185,22 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> permissions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> powerPointInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> PowerPointInfo</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> premiereExpressInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -209,28 +210,28 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> psdInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Imposta un flag che indica se una risorsa deve essere pubblicata o meno. </td> 
+   <td colname="col3"> Imposta un flag per indicare se una risorsa deve essere pubblicata o meno. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> renderingSceneInfo</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> renderSceneInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:RenderSceneInfo</span> </td> 
-   <td colname="col3"> Proprietà di una risorsa di scena di rendering. </td> 
+   <td colname="col3"> Proprietà di una risorsa scena di rendering. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> rtfInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Sottotipo di risorsa generica che supporta i valori del sottotipo (ad esempio, <span class="codeph"> AssetSet</span>). </td> 
+   <td colname="col3">Sottotipo di risorsa generico che supporta i valori dei sottotipi (ad esempio, <span class="codeph"> AssetSet</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> svgInfo</span> </span> </td> 
@@ -250,12 +251,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indica se una risorsa è nel cestino o live (consultate "Stato cestino" per i valori). </td> 
+   <td colname="col3"> Indica se una risorsa è nel cestino o live (consulta "Stato del cestino" per i valori). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Tipo di risorsa. Per i valori, vedere <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipi di risorse</a>. </td> 
+   <td colname="col3">Tipo di risorsa. Per i valori, consulta <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipi di risorse</a> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoCaptionInfo</span> </span> </td> 
@@ -264,27 +265,27 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> <p>Proprietà di una risorsa video. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerPresetInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> Proprietà di una risorsa predefinita per visualizzatori. </td> 
+   <td colname="col3"> Proprietà di una risorsa predefinita visualizzatore. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerSwfInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ViewerSwfInfo</span> </td> 
-   <td colname="col3"> Proprietà di una risorsa SWF per visualizzatori. </td> 
+   <td colname="col3"> Proprietà di una risorsa SWf visualizzatore. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> vignetteInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:VignetteInfo</span> </td> 
-   <td colname="col3"> Proprietà di una risorsa vignettatura. </td> 
+   <td colname="col3"> Proprietà di una risorsa vignetta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> watermarkInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:WatermarkInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:InformazioniFiligrana</span> </td> 
    <td colname="col3"> Proprietà di una risorsa filigrana. </td> 
   </tr> 
   <tr> 
@@ -294,7 +295,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> wordInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -309,7 +310,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 
