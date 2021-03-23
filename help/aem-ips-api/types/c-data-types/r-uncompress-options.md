@@ -1,23 +1,24 @@
 ---
-description: Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principali (Nessuno) o per estrarne e caricarne il contenuto (Non compress).
-seo-description: Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principali (Nessuno) o per estrarne e caricarne il contenuto (Non compress).
-seo-title: AnnullaComprimiOpzioni
+description: Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
+seo-description: Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
+seo-title: DecomprimiOpzioni
 solution: Experience Manager
-title: AnnullaComprimiOpzioni
-topic: Dynamic Media Image Production System API
+title: DecomprimiOpzioni
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
 
 
-# UnpressOptions{#uncompressoptions}
+# DecomprimiOpzioni{#uncompressoptions}
 
-Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principali (Nessuno) o per estrarne e caricarne il contenuto (Non compress).
+Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
 
 >[!NOTE]
 >
@@ -35,12 +36,12 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controlla l'elaborazione dei file archivio ZIP e TAR. Fornisce 2 opzioni: 
+   <td colname="col3"> <p>Controlla l'elaborazione dei file di archivio ZIP e TAR. Fornisce 2 opzioni: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno: </span> elabora come risorse primarie. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Decomprimete:</span> Estrai e elabora i contenuti. </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> elabora come risorse primarie. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Decomprimi:</span> estrae ed elabora il contenuto. </li>
      </ul><p>Nota: Le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> UnCompress</span>, non <span class="codeph"> decomprimere</span> o <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
@@ -59,9 +60,9 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse principa
     </complexType>
 ```
 
-## Utilizzata da {#section-b2a829cf5511412e968bb2000f85cc31}
+## Utilizzato da {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Il tipo `unCompressionOptions` è utilizzato da:
+Il tipo `unCompressionOptions` viene utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
