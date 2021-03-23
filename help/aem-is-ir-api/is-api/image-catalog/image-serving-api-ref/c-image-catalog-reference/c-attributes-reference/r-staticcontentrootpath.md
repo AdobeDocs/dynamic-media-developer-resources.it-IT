@@ -4,12 +4,13 @@ seo-description: Percorso principale dati contenuto statico. Percorso assoluto o
 seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 Percorso principale dati contenuto statico. Percorso assoluto o segmento di percorso relativo per la cartella principale per i dati di contenuto statico del catalogo immagini.
 
-Per ulteriori informazioni sui percorsi radice del server, vedere [Gestione dei dati di origine](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173).
+Per ulteriori informazioni sui percorsi radice del server, consulta [Gestione dei dati di origine](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) .
 
 ## Proprietà {#section-f8e3986096294b36948d43aafdc3e795}
 
-Stringa di testo. Deve essere vuoto, un segmento di percorso di file relativo valido o un percorso assoluto. Non deve includere delimitatori di elementi di percorso iniziali e finali.
+Stringa di testo. Deve essere vuoto, un segmento di percorso di file relativo valido o un percorso assoluto. Non devono includere delimitatori di elementi di percorso iniziali e finali.
 
 ## Predefinito {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
