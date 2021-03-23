@@ -2,29 +2,30 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-topic: Dynamic Media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`length`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`durata`*]`
 
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. </p> <p><span class="codeph"> Per </span> nessuna transizione, la modifica della vista principale viene eseguita istantaneamente. </p> <p><span class="codeph"> La </span> dissolvenza viene attivata per la transizione in dissolvenza incrociata in cui la vecchia immagine si dissolve e la nuova immagine si dissolve in entrata </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. </p> <p><span class="codeph"> </span> senza alcuna transizione, la visualizzazione principale cambia istantaneamente. </p> <p><span class="codeph"> </span> attiva la transizione in dissolvenza incrociata in cui la vecchia immagine si dissolve e la nuova immagine si dissolve in entrata </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> length</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> durata</span></span> </p> </td> 
    <td colname="col2"> <p> Numero di secondi necessari al completamento dell'animazione. </p> </td> 
   </tr> 
  </tbody> 
