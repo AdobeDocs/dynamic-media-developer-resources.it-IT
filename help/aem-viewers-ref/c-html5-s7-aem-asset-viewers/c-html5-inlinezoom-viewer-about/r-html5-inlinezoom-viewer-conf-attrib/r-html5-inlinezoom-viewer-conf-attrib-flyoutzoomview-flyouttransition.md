@@ -2,12 +2,13 @@
 description: FlyoutZoomView.flyouttransition
 solution: Experience Manager
 title: FlyoutZoomView.flyouttransition
-topic: Dynamic Media
 uuid: 0b94956d-9ee6-409e-9b52-29c888932a0e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
@@ -21,23 +22,23 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|dissolvenza  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto applicato quando la visualizzazione a comparsa viene visualizzata o nascosta. Con <span class="codeph"> none </span>, l'immagine a comparsa viene visualizzata istantaneamente quando viene attivata e pronta; <span class="codeph"> diapositiva </span> riproduce l'animazione della diapositiva in direzione da sinistra a destra; <span class="codeph"> dissolvenza </span> applica una transizione alfa all'immagine a comparsa. </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto applicato quando la visualizzazione a comparsa viene visualizzata o nascosta. Con <span class="codeph"> nessuno </span>, l'immagine a comparsa viene visualizzata istantaneamente quando attivata e pronta; <span class="codeph"> diapositiva </span> riproduce l'animazione della diapositiva in direzione da sinistra a destra; <span class="codeph"> dissolvenza </span> applica una transizione alfa all'immagine a comparsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Numero di secondi necessari al completamento dell'animazione della presentazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spettacolo  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Numero di secondi necessari al completamento dell'animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Il ritardo in secondi tra l'azione dell'utente che avvia l'animazione della presentazione e l'inizio della stessa animazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> vetrina  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Il ritardo in secondi tra l'azione dell'utente che avvia l'animazione della mostra e l'inizio dell'animazione della mostra stessa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nascondiglio  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Numero di secondi necessari al completamento dell'animazione Nascondi. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tempo cupo  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Numero di secondi necessari al completamento dell'animazione di nascondi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ritardo  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Il ritardo in secondi tra l'azione dell'utente che avvia l'animazione Nascondi e l'inizio dell'animazione Nascondi stessa. </p> </td> 
+   <td colname="col2"> <p> Il ritardo in secondi tra l'azione dell'utente che avvia l'animazione di default e l'inizio di nascondere l'animazione stessa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
