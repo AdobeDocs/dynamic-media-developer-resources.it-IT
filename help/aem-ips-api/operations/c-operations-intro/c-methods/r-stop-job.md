@@ -4,13 +4,14 @@ seo-description: Interrompe un processo in corso.
 seo-title: stopJob
 solution: Experience Manager
 title: stopJob
-topic: Dynamic Media Image Production System API
 uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 
@@ -38,8 +39,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`jobHandle`*` | `xsd:string` | Sì | Gestite il lavoro che desiderate interrompere. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`jobHandle`*` | `xsd:string` | Sì | Gestisci il lavoro che vuoi interrompere. |
 
 **Output (stopJobReturn0**
 
