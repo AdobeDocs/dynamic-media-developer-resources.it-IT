@@ -1,23 +1,24 @@
 ---
-description: Restituisce gli utenti di una società specificata da un handle di società.
-seo-description: Restituisce gli utenti di una società specificata da un handle di società.
+description: Restituisce gli utenti di una società specificata da un handle aziendale.
+seo-description: Restituisce gli utenti di una società specificata da un handle aziendale.
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 13%
+source-wordcount: '108'
+ht-degree: 12%
 
 ---
 
 
 # getCompanyMembers{#getcompanymembers}
 
-Restituisce gli utenti di una società specificata da un handle di società.
+Restituisce gli utenti di una società specificata da un handle aziendale.
 
 Sintassi
 
@@ -34,7 +35,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società di cui si desidera ottenere i membri. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera ottenere i membri. |
 | `*`includeInvalid`*` | `xsd:boolean` | Sì | Includi società non valide. |
 
 **Output (getCompanyMembersReturn)**
