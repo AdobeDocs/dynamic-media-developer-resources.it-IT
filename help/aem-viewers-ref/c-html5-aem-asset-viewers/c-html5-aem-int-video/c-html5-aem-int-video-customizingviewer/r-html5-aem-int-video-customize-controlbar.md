@@ -4,12 +4,13 @@ seo-description: La barra di controllo è l’area rettangolare che contiene e s
 seo-title: Barra di controllo
 solution: Experience Manager
 title: Barra di controllo
-topic: Dynamic Media
 uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ La barra di controllo è l’area rettangolare che contiene e si trova dietro tu
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra di controllo occupa sempre l’intera larghezza del visualizzatore disponibile. È possibile modificarne il colore, l’altezza e la posizione verticale in CSS, rispetto al contenitore del visualizzatore video.
+La barra di controllo occupa sempre l’intera larghezza del visualizzatore disponibile. È possibile modificarne il colore, l’altezza e la posizione verticale per CSS, rispetto al contenitore del visualizzatore video.
 
-Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di controllo:
+Il seguente selettore di classe CSS controlla l’aspetto della barra di controllo:
 
 ```
 .s7interactivevideoviewer .s7controlbar
@@ -46,7 +47,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di contr
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +55,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di contr
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un visualizzatore video con una barra di controllo grigia alta 30 pixel e nella parte superiore del contenitore del visualizzatore video.
+Per impostare un visualizzatore video con una barra di controllo grigia alta 30 pixel e posizionato nella parte superiore del contenitore del visualizzatore video.
 
 ```
 .s7interactivevideoviewer .s7controlbar {  
