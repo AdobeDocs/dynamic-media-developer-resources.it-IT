@@ -1,15 +1,16 @@
 ---
-description: Imposta campi specifici per un’immagine per una o più risorse di immagine.
-seo-description: Imposta campi specifici per un’immagine per una o più risorse di immagine.
+description: Imposta campi specifici per le immagini per una o più risorse di immagini.
+seo-description: Imposta campi specifici per le immagini per una o più risorse di immagini.
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # batchSetImageFields{#batchsetimagefields}
 
-Imposta campi specifici per un’immagine per una o più risorse di immagine.
+Imposta campi specifici per le immagini per una o più risorse di immagini.
 
 Sintassi
 
@@ -37,21 +38,21 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene le risorse immagine. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sì | L’array di aggiornamenti dei campi immagine. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sì | La matrice dei campi immagine viene aggiornata. |
 
 **Output (batchSetImageFields)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sì | Numero di campi immagine impostati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare i campi immagine. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l&#39;operazione tentava di impostare i campi immagine. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di applicare gli aggiornamenti. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di applicare gli aggiornamenti. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di impostare i campi immagine. |
+| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi immagine. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
 
 ## Esempi {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-Questo esempio imposta i dati nei campi di due immagini in un array di aggiornamento. Nell’array, le immagini sono specificate dalle relative maniglie della risorsa e contengono risoluzione in pixel, coordinate di ancoraggio per posizioni x e y e dati utente. La risposta indica che i campi per entrambe le immagini sono stati impostati correttamente.
+Questo esempio imposta i dati nei campi di due immagini in una matrice di aggiornamento. Nella matrice, le immagini sono specificate dalle relative maniglie della risorsa e contengono la risoluzione in pixel, le coordinate di ancoraggio per posizione x e y e i dati utente. La risposta indica che i campi per entrambe le immagini sono stati impostati correttamente.
 
 **Request Contents (Richiesta contenuto)**
 
