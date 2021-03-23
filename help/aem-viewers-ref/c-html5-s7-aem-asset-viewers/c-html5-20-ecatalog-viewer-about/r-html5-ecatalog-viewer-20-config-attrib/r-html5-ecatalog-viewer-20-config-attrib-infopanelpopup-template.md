@@ -2,12 +2,13 @@
 description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
-topic: Dynamic Media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> template</span></span> </p> </td> 
-   <td> <p>Il modello di contenuto in cui vengono uniti i dati restituiti dal server informazioni. </p> <p>Il modello di contenuto è un XML che segue questo DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>Il modello di contenuto in cui vengono uniti i dati restituiti dal server di informazioni. </p> <p>Il modello di contenuto è un XML che segue questa DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
@@ -30,14 +31,14 @@ ht-degree: 2%
       ]&gt;</code> </p> <p>La sintassi effettiva per il modello di contenuto è la seguente: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>In altre parole, il modello deve iniziare con l'elemento <span class="codeph"> &lt;info&gt;</span> che può contenere elementi <span class="codeph"> &lt;var&gt;</span> facoltativi predefiniti. Il contenuto del modello stesso, <span class="codeph"> TEMPLATE_CONTENT</span> è testo HTML. Inoltre, il modello di contenuto può contenere nomi di variabili racchiusi tra <span class="codeph"> $</span> che vengono sostituiti con i valori variabili restituiti dal server Info o con quelli predefiniti. </p> <p>Le variabili predefinite definite nel modello possono essere globali (se l’attributo di rollover non è impostato) o specifiche per una determinata chiave di rollover (se è presente l’attributo di rollover). </p> <p>Durante l'elaborazione dei modelli, le variabili specifiche per il passaggio del mouse sulle chiavi hanno la precedenza sulle variabili globali. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>In altre parole, il modello deve iniziare con l'elemento <span class="codeph"> &lt;info&gt;</span> che può contenere elementi <span class="codeph"> &lt;var&gt;</span> facoltativi predefiniti. Il contenuto del modello stesso, <span class="codeph"> TEMPLATE_CONTENT</span> è testo HTML. Inoltre, il modello di contenuto può contenere nomi di variabili racchiusi tra <span class="codeph"> $</span> che vengono sostituiti con i valori delle variabili restituiti dal server informazioni o con quelli predefiniti. </p> <p>Le variabili predefinite definite nel modello possono essere globali (se l’attributo rollover non è impostato) o specifiche per un determinato tasto rollover (se è presente l’attributo rollover). </p> <p>Durante l’elaborazione dei modelli le variabili specifiche per il passaggio al passaggio del mouse hanno la precedenza sulle variabili globali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Quando configurate il Popup del pannello Info, il codice HTML e JavaScript passato al pannello Info viene eseguito sul computer client. Accertatevi pertanto che il codice HTML e il codice JavaScript siano protetti.
+>Tieni presente che quando configuri Info Panel Popup, il codice HTML e il codice JavaScript passato al pannello Info viene eseguito sul computer del client. Assicurati pertanto che tali codici HTML e codice JavaScript siano protetti.
 
 ## Proprietà {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -49,6 +50,6 @@ Nessuno.
 
 ## Esempio {#section-16d184665c484964af9a22f79ff3f840}
 
-Presupponendo che la risposta del server informazioni restituisca il nome del prodotto come variabile `$1$` e che l&#39;URL dell&#39;immagine del prodotto venga restituito come variabile `$2$`.
+Supponendo che la risposta del server informazioni restituisca il nome del prodotto come variabile `$1$` e che l&#39;URL dell&#39;immagine del prodotto venga restituito come variabile `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
