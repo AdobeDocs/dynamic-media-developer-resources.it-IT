@@ -1,23 +1,24 @@
 ---
-description: Registro dei processi dopo l’esecuzione del processo.
-seo-description: Registro dei processi dopo l’esecuzione del processo.
-seo-title: JobLog
+description: Registro dei processi dopo l'esecuzione del processo.
+seo-description: Registro dei processi dopo l'esecuzione del processo.
+seo-title: Registro processi
 solution: Experience Manager
-title: JobLog
-topic: Dynamic Media Image Production System API
+title: Registro processi
 uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 3%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
 
 # JobLog{#joblog}
 
-Registro dei processi dopo l’esecuzione del processo.
+Registro dei processi dopo l&#39;esecuzione del processo.
 
 Sintassi
 
@@ -25,16 +26,16 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Maniglia aziendale. |
-| `*`jobHandle`*` | `xsd:string` | Handle processo. |
+| `*`companyHandle`*` | `xsd:string` | Tratta l&#39;azienda. |
+| `*`jobHandle`*` | `xsd:string` | Maniglia di lavoro. |
 | `*`jobName`*` | `xsd:string` | Nome processo. |
-| `*`OriginalJobName`*` | `xsd:string` | Nome originale inviato per il processo con `submitJob`. |
+| `*`originalJobName`*` | `xsd:string` | Nome originale inviato per il processo con `submitJob`. |
 | `*`submitUserEmail`*` | `xsd:string` | L’indirizzo e-mail dell’utente che ha inviato il processo. |
-| `*`logType`*` | `xsd:string` | Scelta dei tipi di registro dei processi. |
+| `*`logType`*` | `xsd:string` | Scelta dei tipi di registro processi. |
 | `*`jobSubType`*` | `xsd:string` | Informazioni aggiuntive sul processo. |
 | `*`startDate`*` | `xsd:dateTime` | Data, ora e fuso orario di inizio del processo. |
 | `*`endDate`*` | `xsd:dateTime` | Data, ora e fuso orario di fine del processo. |
-| `*`description`*` | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
+| `*`descrizione`*` | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
 | `*`fileSuccessCount`*` | `xsd:int` | Numero di file elaborati correttamente. |
 | `*`fileErrorCount`*` | `xsd:int` | Numero di file che hanno causato un errore. |
 | `*`fileWarningCount`*` | `xsd:int` | Numero di file che hanno generato un avviso. |
@@ -45,6 +46,6 @@ Sintassi
 | `*`transferErrorCount`*` | `xsd:int` | Numero di errori di trasferimento. |
 | `*`transferWarningCount`*` | `xsd:int` | Numero di avvisi di trasferimento. |
 | `*`fatalError`*` | `xsd:boolean` | Se il processo ha generato un errore irreversibile. |
-| `*`detailTotalRows`*` | `xsd:int` | Il numero totale di righe corrispondenti alla query, che può essere maggiore della dimensione di `detailArray` a causa dei limiti di dimensione della pagina. |
-| `*`detailArray`*` | `types:JobLogDetailArray` | Array di dettagli sul processo registrato. |
+| `*`detailTotalRows`*` | `xsd:int` | Il numero totale di righe che corrispondono alla query, che può essere maggiore della dimensione di `detailArray` a causa dei limiti di dimensione della pagina. |
+| `*`detailArray`*` | `types:JobLogDetailArray` | Matrice di dettagli sul processo registrato. |
 
