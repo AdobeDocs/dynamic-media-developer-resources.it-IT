@@ -4,13 +4,14 @@ seo-description: Restituisce i formati immagine, ad esempio PDF, EPS, SWF e altr
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '92'
+ht-degree: 14%
 
 ---
 
@@ -37,13 +38,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con i formati immagine che si desidera ottenere. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con i formati immagine che si desidera ottenere. |
 
 **Output (getImageFormatsParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`imageFormatArray`*` | `types:ImageFormatArray` | Sì | L’array del formato immagine. |
+| `*`imageFormatArray`*` | `types:ImageFormatArray` | Sì | Matrice di formato immagine. |
 
 ## Esempi {#section-73881e12839b4904bf3299b0920bdd0c}
 
