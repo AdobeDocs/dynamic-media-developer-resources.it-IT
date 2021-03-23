@@ -1,23 +1,24 @@
 ---
-description: Definizione della macro. Un frammento di protocollo Render Server composto da uno o più comandi completi, separati dai caratteri '&'.
-seo-description: Definizione della macro. Un frammento di protocollo Render Server composto da uno o più comandi completi, separati dai caratteri '&'.
+description: Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri '&'.
+seo-description: Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri '&'.
 seo-title: Definizione
 solution: Experience Manager
 title: Definizione
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
 
-# Definition{#definition}
+# Definizione{#definition}
 
-Definizione della macro. Un frammento di protocollo Render Server composto da uno o più comandi completi, separati dai caratteri &#39;&amp;&#39;.
+Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri &#39;&amp;&#39;.
 
 Le definizioni delle macro non possono fare riferimento ad altre macro. Le macro possono definire e utilizzare variabili personalizzate.
 
