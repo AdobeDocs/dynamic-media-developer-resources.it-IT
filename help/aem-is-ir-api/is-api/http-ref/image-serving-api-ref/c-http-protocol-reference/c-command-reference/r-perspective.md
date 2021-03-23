@@ -1,15 +1,16 @@
 ---
-description: Trasformazione prospettica. Applicate una trasformazione prospettica all’immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
-seo-description: Trasformazione prospettica. Applicate una trasformazione prospettica all’immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
+description: Trasformazione della prospettiva. Applicate una trasformazione prospettica all'immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
+seo-description: Trasformazione della prospettiva. Applicate una trasformazione prospettica all'immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
 seo-title: prospettiva
 solution: Experience Manager
 title: prospettiva
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b22d7b49-db08-48df-80bc-5b7237aea475
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # prospettiva{#perspective}
 
-Trasformazione prospettica. Applicate una trasformazione prospettica all’immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
+Trasformazione della prospettiva. Applicate una trasformazione prospettica all&#39;immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
 
 `perspective= *``*[, *`perspQuadresOptions`*]`
 
@@ -26,7 +27,7 @@ Trasformazione prospettica. Applicate una trasformazione prospettica all’immag
 <table id="simpletable_4BD38BBF53964F7D97B9E58914C97B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuad</span> </p></td> 
-  <td class="stentry"> <p>Coordinate pixel quadrilaterali in prospettiva (8 reali, separate da virgole). </p></td> 
+  <td class="stentry"> <p>Coordinate pixel quadrilaterali prospettiche (8 reali, separate da virgole). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuadN</span> </p></td> 
@@ -34,29 +35,29 @@ Trasformazione prospettica. Applicate una trasformazione prospettica all’immag
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> resOptions</span> </p></td> 
-  <td class="stentry"> <p>Opzioni di ricampionamento (vedere di seguito). </p></td> 
+  <td class="stentry"> <p>Opzioni di ricampionamento (vedi di seguito). </p></td> 
  </tr> 
 </table>
 
-*`perspQuad`* consiste di quattro valori di coordinate pixel nello spazio di coordinate composito (o livello 0), che ha origine nell’angolo superiore sinistro dell’immagine composita.
+*`perspQuad`* è costituito da quattro valori di coordinate pixel nello spazio di coordinate composito (o livello 0), che ha origine nell&#39;angolo superiore sinistro dell&#39;immagine composita.
 
-`perspQuadN` consiste di quattro valori di coordinate normalizzate,  `0.0,0.0` corrispondenti all’angolo superiore sinistro dell’immagine composita/livello 0 e  `1.0,1.0` all’angolo inferiore destro.
+`perspQuadN` è costituito da quattro valori di coordinate normalizzate,  `0.0,0.0` corrispondenti all&#39;angolo superiore sinistro dell&#39;immagine composita/layer 0 e  `1.0,1.0` all&#39;angolo inferiore destro.
 
-L&#39;immagine di input viene trasformata in modo che l&#39;angolo superiore sinistro dell&#39;immagine di input venga mappato sul valore della prima coordinata `perspQuad[N]`, sull&#39;angolo superiore destro sulla seconda coordinata, sull&#39;angolo inferiore destro sulla terza coordinata e sull&#39;angolo inferiore sinistro sulla quarta coordinata.
+L’immagine di input viene trasformata in modo che l’angolo in alto a sinistra dell’immagine di input sia mappato sul primo valore di coordinata `perspQuad[N]`, l’angolo in alto a destra sulla seconda coordinata, l’angolo in basso a destra sulla terza coordinata e l’angolo in basso a sinistra sulla quarta coordinata.
 
 >[!NOTE]
 >
->`pos=` può essere usato per posizionare ulteriormente lo strato trasformato nell’immagine composita.
+>`pos=` può essere utilizzato per posizionare ulteriormente lo strato trasformato nell&#39;immagine composita.
 
-Le coordinate quadrilaterali prospettiche possono essere collocate all’esterno dell’immagine composita.
+Le coordinate quadrilaterali prospettiche possono essere collocate al di fuori dell&#39;immagine composita.
 
-Il comportamento non è definito se il quadrilatero non è adatto per una trasformazione prospettica (ad esempio, se due o più vertici coincidono, se tre o tutti i vertici si trovano sulla stessa linea, o se il quadrilatero è autointersecante o concavo).
+Il comportamento non è definito se il quadrilatero non è adatto per una trasformazione prospettica (ad esempio, se due o più vertici coincidono, se tre o tutti i vertici si trovano sulla stessa linea, o se il quadrilatero è autointersecante o concava).
 
 ## Considerazioni sulla qualità {#section-7cc9056afa614300a9b8844d39739fc3}
 
-Mentre l&#39;implementazione predefinita produce un compromesso ragionevole tra qualità e prestazioni, a volte può essere necessario aumentare la risoluzione dell&#39;immagine sorgente per migliorare la nitidezza o ridurla per ridurre gli artefatti di alias.
+Mentre l&#39;implementazione predefinita produce un compromesso ragionevole tra qualità e prestazioni, a volte può essere necessario aumentare la risoluzione dell&#39;immagine sorgente per migliorare la nitidezza o ridurla per ridurre gli artefatti di aliasing.
 
-Se la sorgente è un&#39;immagine, utilizzate `scale=` per scegliere una risoluzione diversa (rispetto alla risoluzione completa dell&#39;immagine). Il valore `scale=` specificato viene arrotondato al livello di risoluzione PTIF superiore successivo. Nel caso di un’origine di richiesta nidificata, le dimensioni dell’immagine prodotta dalla richiesta nidificata possono essere regolate in modo da ottenere la nitidezza desiderata. Per i livelli di testo, la risoluzione dell&#39;immagine di input (il testo di cui viene eseguito il rendering) viene regolata selezionando un valore size= più grande insieme all&#39;aumento della risoluzione specificata con `textAttr=`.
+Se la sorgente è un’immagine, utilizza `scale=` per scegliere una risoluzione diversa (rispetto alla risoluzione completa dell’immagine). Il valore `scale=` specificato viene arrotondato al livello di risoluzione PTIF superiore successivo. Nel caso di una sorgente di richiesta nidificata, le dimensioni dell’immagine prodotta dalla richiesta nidificata possono essere regolate in modo da ottenere la nitidezza desiderata. Per i livelli di testo, la risoluzione dell&#39;immagine di input (il testo di cui è stato eseguito il rendering) viene regolata selezionando un valore di dimensione maggiore= e aumentando la risoluzione specificata con `textAttr=`.
 
 *`resOptions`* consente di selezionare un algoritmo di ricampionamento alternativo. Sono supportati i seguenti valori (con distinzione tra maiuscole e minuscole):
 
@@ -70,7 +71,7 @@ Se la sorgente è un&#39;immagine, utilizzate `scale=` per scegliere una risoluz
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> R1</span> </p> </td> 
-   <td> <p> Vicina più vicina. </p> </td> 
+   <td> <p> Vicino più vicino. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R2</span> </p> </td> 
@@ -78,24 +79,24 @@ Se la sorgente è un&#39;immagine, utilizzate `scale=` per scegliere una risoluz
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R3</span> </p> </td> 
-   <td> <p> Super-sampling standard (predefinito). </p> </td> 
+   <td> <p> Super-campionamento standard (predefinito). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">R3<span class="varname"> Tn</span></span> </p> </td> 
-   <td> <p> Super-sampling con jitter regolabile (<span class="varname"> n</span> deve essere un valore intero compreso tra 0 e 200). </p> </td> 
+   <td> <p> Il campionamento eccellente con tremolio regolabile (<span class="varname"> n</span> deve essere un valore intero compreso tra 0 e 200). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-818e57df0a1b4449888543bc6af77751}
 
-Livello, comando. Si applica al livello corrente o al livello 0 se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o al livello 0 se `layer=comp`. Ignorato dai livelli di effetto.
 
-`res=` viene sempre ignorata quando la prospettiva è presente nello stesso livello. `size=` viene ignorato se specificato per i livelli immagine. `size=` e  `res=` in livelli con  `perspective=` sono riservati per utilizzi futuri.
+`res=` viene sempre ignorato quando la prospettiva è presente nello stesso livello. `size=` viene ignorato quando specificato per i livelli immagine. `size=` e  `res=` nei livelli con  `perspective=` sono riservati per utilizzi futuri.
 
 ## Predefinito {#section-e35683395d514d4eb6b32924e1bf8f2f}
 
-`None`, per nessuna trasformazione prospettica.
+`None`, senza trasformazione prospettica.
 
 ## Consultate anche {#section-e5b71ac4a0724df6bf678dd354cfa51a}
 
