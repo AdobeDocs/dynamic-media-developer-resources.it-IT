@@ -1,15 +1,16 @@
 ---
-description: Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono utili anche per le immagini composite e per le semplici richieste di immagini a livelli non.
-seo-description: Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono utili anche per le immagini composite e per le semplici richieste di immagini a livelli non.
+description: Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono utili anche per le immagini composite e per le richieste di immagini semplici e non a livelli.
+seo-description: Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono utili anche per le immagini composite e per le richieste di immagini semplici e non a livelli.
 seo-title: Operazioni comuni
 solution: Experience Manager
 title: Operazioni comuni
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Operazioni comuni{#common-operations}
 
-Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono utili anche per le immagini composite e per le semplici richieste di immagini a livelli non.
+Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono utili anche per le immagini composite e per le richieste di immagini semplici e non a livelli.
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
@@ -30,7 +31,7 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono ut
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md#reference-fb6af4ecf0f842d3adfdda342834a8fd" type="reference" format="dita" scope="local"> op_colorbalance</a> </p></td> 
-  <td class="stentry"> <p>Regola il rosso, il verde e il blu in modo indipendente. </p></td> 
+  <td class="stentry"> <p>Regola in modo indipendente il rosso, il verde e il blu. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> op_colorize</a> </p></td> 
@@ -42,15 +43,15 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono ut
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-hue.md#reference-4d97f5e206114db8b09132fd6e55ec00" type="reference" format="dita" scope="local"> op_hue</a> </p></td> 
-  <td class="stentry"> <p>Sposta la tonalità di tutti i colori. </p></td> 
+  <td class="stentry"> <p>Cambia la tonalità di tutti i colori. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-invert.md#reference-5e3a8e9882a74a52acfd503cd7987828" type="reference" format="dita" scope="local"> op_invert</a> </p></td> 
-  <td class="stentry"> <p>Inverti colori. </p></td> 
+  <td class="stentry"> <p>Inverti i colori. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md#reference-763c4a890fe24bb6bb5ae9dad4e2da94" type="reference" format="dita" scope="local"> op_sound</a> </p></td> 
-  <td class="stentry"> <p>Aggiunge del rumore al livello. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md#reference-763c4a890fe24bb6bb5ae9dad4e2da94" type="reference" format="dita" scope="local"> op_rumore</a> </p></td> 
+  <td class="stentry"> <p>Aggiunge rumore al livello. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-saturation.md#reference-6b7ee05a462f4f01b1fb7108230d90d9" type="reference" format="dita" scope="local"> op_saturation</a> </p></td> 
@@ -65,8 +66,8 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono ut
   <td class="stentry"> <p>Applica la maschera di contrasto. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> riflettere</a> </p></td> 
-  <td class="stentry"> <p>Riflette il livello in orizzontale e/o in verticale. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> capovolgere</a> </p></td> 
+  <td class="stentry"> <p>Inverte il livello in orizzontale e/o verticale. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotate</a> </p></td> 
@@ -74,15 +75,15 @@ Questi comandi si applicano ai livelli di immagine, testo e tinta unita. Sono ut
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> prospettiva</a> </p></td> 
-  <td class="stentry"> <p>Trasformate il livello in prospettiva. </p></td> 
+  <td class="stentry"> <p>Trasforma il livello in prospettiva. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> clipPath</a> </p></td> 
-  <td class="stentry"> <p>Specifica le forme della clip per il livello. </p></td> 
+  <td class="stentry"> <p>Specifica le forme di clip per il livello. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath</a> </p></td> 
-  <td class="stentry"> <p>Specifica le forme della clip invertita per il livello. </p></td> 
+  <td class="stentry"> <p>Specifica le forme di clip invertite per il livello. </p></td> 
  </tr> 
 </table>
 
