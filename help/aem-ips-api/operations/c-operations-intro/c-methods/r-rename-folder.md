@@ -1,21 +1,22 @@
 ---
 description: Rinomina una cartella.
 seo-description: Rinomina una cartella.
-seo-title: renameFolder
+seo-title: rinominaCartella
 solution: Experience Manager
-title: renameFolder
-topic: Dynamic Media Image Production System API
+title: rinominaCartella
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
 
-# renameFolder{#renamefolder}
+# rinominaCartella{#renamefolder}
 
 Rinomina una cartella.
 
@@ -36,23 +37,23 @@ Sintassi
 
 ## Parametri {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (renameFolderParam)**
+**Input (rinominaFolderParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite la società con le cartelle da rinominare. |
-| `*`folderHandle`*` | `xsd:string` | Sì | Gestite la cartella. |
-| `*`folderName`*` | `xsd:string` | Sì | Nuovo nome cartella. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci l&#39;azienda con le cartelle che desideri rinominare. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestisci la cartella. |
+| `*`folderName`*` | `xsd:string` | Sì | Nuovo nome della cartella. |
 
-**Output (renameFolderReturn)**
+**Output (ridenominazioneCartellaReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sì | Consente di passare alla cartella rinominata. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Gestisci la cartella rinominata. |
 
 ## Esempi {#section-98bdd2f88d164f488676e90aba1dc864}
 
-In questo esempio di codice viene rinominata una cartella.
+Questo codice di esempio rinomina una cartella.
 
 **Request Contents (Richiesta contenuto)**
 
