@@ -1,15 +1,16 @@
 ---
-description: Informazioni immagine Digimarc. Abilita l'incorporamento Digimarc e specifica il tipo di filigrana e tutti i dati specifici per le immagini associati.
-seo-description: Informazioni immagine Digimarc. Abilita l'incorporamento Digimarc e specifica il tipo di filigrana e tutti i dati specifici per le immagini associati.
+description: Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica il tipo di filigrana ed eventuali dati specifici dell’immagine associati.
+seo-description: Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica il tipo di filigrana ed eventuali dati specifici dell’immagine associati.
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # DigimarcInfo{#digimarcinfo}
 
-Informazioni immagine Digimarc. Abilita l&#39;incorporamento Digimarc e specifica il tipo di filigrana e tutti i dati specifici per le immagini associati.
+Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica il tipo di filigrana ed eventuali dati specifici dell’immagine associati.
 
 ## Proprietà {#section-62af219e8bac422b8541841221c9ce4f}
 
@@ -25,7 +26,7 @@ Quattro valori interi, separati da virgole.
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*`Digimarc `*` embedding e specifica il tipo di filigrana:
+`*``*` typeenable Digimarc embedding e specifica il tipo di filigrana:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +59,7 @@ Quattro valori interi, separati da virgole.
  </tbody> 
 </table>
 
-`*``*` flagsis a bit field con tre valori. Impostate il bit 0 per indicare il contenuto protetto da copia, il bit 1 per indicare il contenuto con restrizioni e il bit 2 per indicare il contenuto per adulti:
+`*``*` flagsis a bit field con tre valori. Impostare il bit 0 per indicare il contenuto protetto da copia, il bit 1 per indicare il contenuto limitato e il bit 2 per indicare il contenuto per adulti:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,15 +74,15 @@ Quattro valori interi, separati da virgole.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protetto da copia. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>Limitato. </p> </td> 
+   <td> <p>Limitata. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protetto da copia, limitato. </p> </td> 
   </tr> 
   <tr> 
@@ -90,15 +91,15 @@ Quattro valori interi, separati da virgole.
   </tr> 
   <tr> 
    <td> <p><b>5</b> </p> </td> 
-   <td> <p>Copiare contenuti protetti per adulti. </p> </td> 
+   <td> <p>Copia contenuto protetto per adulti. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>Contenuto per adulti limitato. </p> </td> 
+   <td> <p>Contenuto limitato per adulti. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>Contenuto protetto da copia, limitato e maturo. </p> </td> 
+   <td> <p>Contenuti protetti da copia, limitati e maturi. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,17 +145,17 @@ L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
 
 ## Predefinito {#section-4bb97e5f79074be89cc691e73449eb43}
 
-Ereditato da attribute::DigimarcInfo se il campo non è presente o se è vuoto.
+Ereditato dall&#39;attributo::DigimarcInfo se il campo non è presente o se è vuoto.
 
 ## Esempi {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-&quot;0,0,0,0&quot; disattiva la filigrana Digimarc per questa immagine.
+&quot;0,0,0,0&quot; disabilita il watermarking Digimarc per questa immagine.
 
-&quot;1,5,0,0&quot; specifica una filigrana di base con il flag di contenuto per adulti e protetto da copia impostato.
+&quot;1,5,0,0&quot; specifica una filigrana di base con il flag di contenuto protetto da copia impostato.
 
 &quot;2,0,4567,0&quot; specifica una filigrana con un ID immagine.
 
-&quot;3,2,56483,0&quot; specifica una filigrana con un ID transazione e il flag di contenuto con restrizioni impostato.
+&quot;3,2,56483,0&quot; specifica una filigrana con un ID transazione e il flag di contenuto limitato impostato.
 
 &quot;4,0,1998,2001&quot; specifica una filigrana con anni di copyright.
 
