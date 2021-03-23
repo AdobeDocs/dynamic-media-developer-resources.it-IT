@@ -1,23 +1,24 @@
 ---
-description: Un array di metadati da eliminare dalla risorsa.
-seo-description: Un array di metadati da eliminare dalla risorsa.
+description: Matrice di metadati da eliminare dalla risorsa.
+seo-description: Matrice di metadati da eliminare dalla risorsa.
 seo-title: MetadataDeleteArray
 solution: Experience Manager
 title: MetadataDeleteArray
-topic: Dynamic Media Image Production System API
 uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
 
 # MetadataDeleteArray{#metadatadeletearray}
 
-Un array di metadati da eliminare dalla risorsa.
+Matrice di metadati da eliminare dalla risorsa.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `type:Metadata` | Un array di parametri di metadati da eliminare. |
+| `*`elementi`*` | `type:Metadata` | Matrice di parametri di metadati da eliminare. |
 
