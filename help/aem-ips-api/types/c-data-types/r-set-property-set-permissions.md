@@ -2,13 +2,14 @@
 description: SetPropertySetPermissions
 solution: Experience Manager
 title: SetPropertySetPermissions
-topic: Dynamic Media Image Production System API
 uuid: b0f1ddb3-2051-4f14-a791-f06efcbfaef2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 15%
 
 ---
 
@@ -21,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | Gestire l&#39;insieme di proprietà. |
+| `*`setHandle`*` | `xsd:string` | Gestisci l&#39;insieme di proprietà. |
 | `*`permissionsArray`*` | `types:PermissionUpdateArray` | Un array di autorizzazioni. |
 
