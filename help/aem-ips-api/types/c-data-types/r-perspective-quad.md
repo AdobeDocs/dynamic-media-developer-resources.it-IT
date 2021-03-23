@@ -4,13 +4,14 @@ seo-description: Le coordinate della posizione dell'immagine restituite dall'ope
 seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
-topic: Dynamic Media Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 16%
+source-wordcount: '88'
+ht-degree: 14%
 
 ---
 
@@ -25,18 +26,18 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Coordinata dell&#39;asse x superiore sinistro. |
+| `*`x0`*` | `xsd:double` | Coordinata dell&#39;asse x in alto a sinistra. |
 | `*`y0`*` | `xsd:double` | Coordinata dell&#39;asse y superiore sinistro. |
-| `*`x1`*` | `xsd:double` | Coordinata dell&#39;asse x superiore destro. |
-| `*`y1`*` | `xsd:double` | Coordinata dell&#39;asse y superiore destro. |
-| `*`x2`*` | `xsd:double` | Coordinata dell&#39;asse x inferiore destra. |
-| `*`y2`*` | `xsd:double` | Coordinata dell&#39;asse y inferiore destra. |
-| `*`x3`*` | `xsd:double` | Coordinata asse x in basso a sinistra. |
-| `*`y3`*` | `xsd:double` | Coordinata asse y in basso a sinistra. |
+| `*`x1`*` | `xsd:double` | Coordinata dell&#39;asse x in alto a destra. |
+| `*`y1`*` | `xsd:double` | Coordinata dell&#39;asse y superiore destra. |
+| `*`x2`*` | `xsd:double` | Coordinata dell&#39;asse x in basso a destra. |
+| `*`y2`*` | `xsd:double` | Coordinata dell&#39;asse y in basso a destra. |
+| `*`x3`*` | `xsd:double` | Coordinata dell&#39;asse x in basso a sinistra. |
+| `*`y3`*` | `xsd:double` | Coordinata dell&#39;asse y in basso a sinistra. |
 
 ## Esempio {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Il tipo `PerspectiveQuad` restituisce i dati nell&#39;ordine seguente:
+Il tipo `PerspectiveQuad` restituisce i dati in questo ordine:
 
 ```
 <complexType name="PerspectiveQuad">
