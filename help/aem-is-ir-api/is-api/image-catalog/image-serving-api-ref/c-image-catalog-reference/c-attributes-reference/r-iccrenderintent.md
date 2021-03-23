@@ -4,13 +4,14 @@ seo-description: Intento di rendering della conversione del colore. Fornisce l'i
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ Intento di rendering della conversione del colore. Fornisce l&#39;intento di ren
 
 ## Proprietà {#section-2540099fb2fc47d29b04642da4f5922a}
 
-Enum. Impostato su 0 per la percezione, 1 per la colorimetria relativa, 2 per la saturazione, 3 per la colorimetria assoluta.
+Enum. Impostato su 0 per percettivo, 1 per colorimetrico relativo, 2 per saturazione, 3 per colorimetrico assoluto.
 
 ## Predefinito {#section-61a05067905b44099c228e15de279dbd}
 
