@@ -4,13 +4,14 @@ seo-description: Consente di creare una cartella.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 18%
+source-wordcount: '129'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +22,7 @@ Consente di creare una cartella.
 
 >[!NOTE]
 >
->La nuova cartella è subordinata alla cartella Images, anche se si specifica `/` per indicare la radice della società.
+>La nuova cartella è subordinata alla cartella Images, anche se si specifica un `/` per indicare la radice della società.
 
 Sintassi
 
@@ -44,8 +45,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | La Maniglia per l&#39;azienda |
-| `*`folderPath`*` | `xsd:string` | Sì | Cartella principale utilizzata per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. |
+| `*`companyHandle`*` | `xsd:string` | Sì | La Maniglia all&#39;azienda |
+| `*`folderPath`*` | `xsd:string` | Sì | Cartella principale utilizzata per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
 
 **Output (createFolderParam)**
 
@@ -55,7 +56,7 @@ Sintassi
 
 ## Esempi {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Questo codice di esempio crea una cartella alla radice di una società. La risposta restituisce la maniglia della nuova cartella creata.
+Questo codice di esempio crea una cartella nella directory principale di un&#39;azienda. La risposta restituisce l&#39;handle della nuova cartella creata.
 
 **Request Contents (Richiesta contenuto)**
 
