@@ -1,25 +1,26 @@
 ---
-description: Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (quantità dei dati di risposta) e, indirettamente, la qualità visiva dell’immagine risultante.
-seo-description: Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (quantità dei dati di risposta) e, indirettamente, la qualità visiva dell’immagine risultante.
+description: Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (la quantità dei dati di risposta) e, indirettamente, la qualità visiva dell'immagine risultante.
+seo-description: Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (la quantità dei dati di risposta) e, indirettamente, la qualità visiva dell'immagine risultante.
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 5%
 
 ---
 
 
 # qlt{#qlt}
 
-Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (quantità dei dati di risposta) e, indirettamente, la qualità visiva dell’immagine risultante.
+Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione. Questo a sua volta varia la dimensione del file (la quantità dei dati di risposta) e, indirettamente, la qualità visiva dell&#39;immagine risultante.
 
-` qlt= *`crominanza `*[, *`qualitativa`*]`
+` qlt= *``*[, *`qualitychroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -28,17 +29,17 @@ Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livel
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> crominanza  </span> </p> </td> 
-  <td class="stentry"> <p>downsampling della cromaticità JPEG (0=normale, 1=disattivato); facoltativo, il valore predefinito è 0. </p> </td> 
+  <td class="stentry"> <p>sottocampionamento della cromaticità JPEG (0=normale, 1=disattivato); facoltativo, il valore predefinito è 0. </p> </td> 
  </tr> 
 </table>
 
-Valori *`quality`* più alti aumentano la dimensione e la qualità dei file, valori più bassi riducono le dimensioni dei file e riducono la qualità percepita dell&#39;immagine. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
+Valori più alti *`quality`* aumentano le dimensioni e la qualità dei file, valori più bassi riducono le dimensioni dei file e riducono la qualità delle immagini percepite. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
 
-Impostate il flag *`chroma`* per disabilitare il downsampling della cromaticità RGB utilizzato dai codificatori JPEG tipici. Questo può aumentare la nitidezza percepita dei bordi di un’immagine quando il bordo è definito da una modifica della tonalità anziché dalla luminosità. L&#39;impostazione di questo flag potrebbe causare un lieve aumento delle dimensioni del file. Sperimentate con questa impostazione se il testo sembra leggermente sfocato.
+Impostare il flag *`chroma`* per disabilitare il campionamento per la cromaticità RGB utilizzato dai codificatori JPEG tipici. Questo può aumentare la nitidezza percepita dei bordi in un&#39;immagine quando il bordo è definito da un cambiamento di tonalità piuttosto che di luminosità. L’impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Sperimenta questa impostazione se il testo sembra leggermente sfocato.
 
 ## Proprietà {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Attributo di richiesta. Si applica indipendentemente dall’impostazione del livello corrente. Ignorato se il formato del file immagine di output non supporta la codifica JPEG. Fare riferimento alla descrizione di `fmt=` per informazioni su quali formati di immagine di output supportano `qlt=`.
+Attributo di richiesta. Si applica indipendentemente dall&#39;impostazione del livello corrente. Ignorato se il formato del file immagine di output non supporta la codifica JPEG. Fare riferimento alla descrizione di `fmt=` per informazioni su quali formati immagine di output supportano `qlt=`.
 
 *`chroma`* viene ignorato se il tipo di pixel di output è CMYK o grigio.
 
@@ -48,14 +49,14 @@ Attributo di richiesta. Si applica indipendentemente dall’impostazione del liv
 
 ## Esempio {#section-d7d33871d401433aa51d028823eae7a9}
 
-Qualità ridotta per una trasmissione più rapida attraverso una connessione a banda larga ridotta:
+Riduzione della qualità per una trasmissione più veloce su una connessione a banda bassa:
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300`
 
-Aumenta la qualità per connessioni a larghezza di banda elevata:
+Maggiore qualità per connessioni a banda larga:
 
 `http://server/myRootId/myImageId?qlt=95,1&wid=300`
 
 ## Consultate anche {#section-0074a060bb314ddfa7f4ed23be976507}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [attribute::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [attributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
