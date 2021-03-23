@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-topic: Dynamic Media
 uuid: 935b35c3-edf2-4d05-ae21-7558f022ffbe
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Disattiva o abilita la barra del titolo dell’etichetta del capitolo video. L’ora di inizio del capitolo non viene visualizzata quando la barra del titolo è disabilitata. </p> </td> 
+   <td colname="col2"> <p> Disattiva o abilita la barra del titolo dell’etichetta del capitolo video. L'ora di inizio del capitolo non viene visualizzata quando la barra del titolo è disattivata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
