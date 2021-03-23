@@ -1,15 +1,16 @@
 ---
-description: Questa categoria di materiali comprende vernici per muri, legno e trim, auto, così come qualsiasi altra applicazione in cui le texture non sono richieste.
-seo-description: Questa categoria di materiali comprende vernici per muri, legno e trim, auto, così come qualsiasi altra applicazione in cui le texture non sono richieste.
+description: Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
+seo-description: Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
 seo-title: Colori solidi
 solution: Experience Manager
 title: Colori solidi
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # Colori solidi{#solid-colors}
 
-Questa categoria di materiali comprende vernici per muri, legno e trim, auto, così come qualsiasi altra applicazione in cui le texture non sono richieste.
+Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
 
-Ad esempio, è possibile utilizzare colori in tinta unita per variare il colore su un articolo di abbigliamento in cui non sono richiesti cambiamenti di texture, o per impostare il colore per il rifilo di plastica e la tappezzatura di un interno automobilistico. Un materiale è considerato un colore in tinta unita se nel MSS non è presente alcun valore `src=`.
+Ad esempio, è possibile utilizzare i colori solidi per variare il colore su un articolo di abbigliamento in cui non sono richiesti cambiamenti di texture, o per impostare il colore per il trim di plastica e tappeto di un interno automobilistico. Un materiale è considerato un colore solido se nel MSS non è presente alcun valore `src=`.
 
-I colori pieni possono essere applicati a tutti gli oggetti renderable.
+I colori solidi possono essere applicati a tutti gli oggetti renderizzabili.
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
