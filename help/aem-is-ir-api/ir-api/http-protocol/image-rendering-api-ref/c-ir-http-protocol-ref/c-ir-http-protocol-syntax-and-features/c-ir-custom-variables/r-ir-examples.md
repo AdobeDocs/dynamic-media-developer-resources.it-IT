@@ -1,15 +1,16 @@
 ---
-description: In questo esempio viene utilizzato Image Server per colorare un oggetto e applicare un decal contenente testo personalizzato in una delle serie di vignettature.
-seo-description: In questo esempio viene utilizzato Image Server per colorare un oggetto e applicare un decal contenente testo personalizzato in una delle serie di vignettature.
+description: In questo esempio viene utilizzato Image Serving per colorare un oggetto e applicare una decal contenente testo personalizzato in uno di un set di vignette.
+seo-description: In questo esempio viene utilizzato Image Serving per colorare un oggetto e applicare una decal contenente testo personalizzato in uno di un set di vignette.
 seo-title: Esempi
 solution: Experience Manager
 title: Esempi
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f8e4346-6efe-4f21-982d-613328bd708d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,22 +18,22 @@ ht-degree: 0%
 
 # Esempi{#examples}
 
-In questo esempio viene utilizzato Image Server per colorare un oggetto e applicare un decal contenente testo personalizzato in una delle serie di vignettature.
+In questo esempio viene utilizzato Image Serving per colorare un oggetto e applicare una decal contenente testo personalizzato in uno di un set di vignette.
 
-Le variabili IR vengono utilizzate per identificare la vignettatura, l’immagine del logo e il testo personalizzato.
+Le variabili IR vengono utilizzate per identificare la vignetta, l’immagine del logo e il testo personalizzato.
 
-Il campo `vignette::Modifier` nel record denominato *template* nella mappa di vignettatura del catalogo materiali `myCat` contiene quanto segue:
+Il campo `vignette::Modifier` nel record denominato *template* nella mappa della vignetta del catalogo dei materiali `myCat` contiene quanto segue:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Tutte le vignettature che verranno utilizzate sono elencate nella mappa di vignettatura del catalogo materiali `myCat`.
+Tutte le vignette che verranno utilizzate sono elencate nella mappa della vignetta del catalogo dei materiali `myCat`.
 
-Ora il client può effettuare la seguente richiesta per recuperare l’immagine predefinita (utilizzando le variabili definite all’inizio del modello):
+Il client ora può effettuare la seguente richiesta per recuperare l’immagine predefinita (utilizzando le variabili definite all’inizio del modello):
 
 [!DNL `https://server/myCat/template`]
 
-La richiesta seguente specifica alcuni contenuti da sottoporre a rendering:
+La richiesta seguente specifica alcuni contenuti da riprodurre:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Per informazioni sul comando Image Server `text=`, consultate la documentazione di Image Server.
+Per informazioni dettagliate sul comando Image Serving `text=` , consulta la documentazione Image Serving .
