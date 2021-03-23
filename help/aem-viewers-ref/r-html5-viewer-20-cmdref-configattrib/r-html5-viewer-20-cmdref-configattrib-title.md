@@ -1,14 +1,15 @@
 ---
-description: title, comando
+description: comando title
 solution: Experience Manager
 title: title
-topic: Dynamic Media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->Questo comando non si applica ai visualizzatori a comparsa, zoom di base, 360 gradi o immagini interattive.
+>Questo comando non si applica ai visualizzatori a comparsa, ai visualizzatori zoom di base, ai visualizzatori a 360 gradi o ai visualizzatori di immagini interattive.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
