@@ -1,15 +1,16 @@
 ---
-description: Il rendering delle immagini utilizza spazio su disco per la memorizzazione nella cache e la registrazione.
-seo-description: Il rendering delle immagini utilizza spazio su disco per la memorizzazione nella cache e la registrazione.
+description: Image Rendering consuma spazio su disco a scopo di memorizzazione in cache e registrazione.
+seo-description: Image Rendering consuma spazio su disco a scopo di memorizzazione in cache e registrazione.
 seo-title: Considerazioni sullo spazio su disco dinamico
 solution: Experience Manager
 title: Considerazioni sullo spazio su disco dinamico
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe8fd251-75fc-4c27-b58e-7b39a4f00118
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,6 @@ ht-degree: 0%
 
 # Considerazioni sullo spazio su disco dinamico{#dynamic-disk-space-considerations}
 
-Il rendering delle immagini utilizza spazio su disco per la memorizzazione nella cache e la registrazione.
+Image Rendering consuma spazio su disco a scopo di memorizzazione in cache e registrazione.
 
-Per ulteriori informazioni, consulta Registrazione e memorizzazione nella cache.
+Per ulteriori informazioni, consulta Registrazione e memorizzazione in cache .
