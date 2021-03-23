@@ -1,29 +1,30 @@
 ---
-description: È possibile configurare le cache dei dati.
-seo-description: È possibile configurare le cache dei dati.
-seo-title: Cache dei dati
+description: Puoi configurare le cache dei dati.
+seo-description: Puoi configurare le cache dei dati.
+seo-title: Memorizzazione in cache dei dati
 solution: Experience Manager
-title: Cache dei dati
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Memorizzazione in cache dei dati
 uuid: e97fad8d-b3b6-4cc2-a96c-62c96824384c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
 
-# Cache dei dati{#data-caches}
+# Cache dati{#data-caches}
 
-È possibile configurare le cache dei dati.
+Puoi configurare le cache dei dati.
 
 + [Cache dei dati di risposta](c-response-data-cache.md)
-+ [Convalida cache di risposta](c-response-cache-validation.md)
-+ [Cache dati ausiliari](c-auxiliary-data-caches.md)
++ [Convalida della cache della risposta](c-response-cache-validation.md)
++ [Memorizzazione in cache dei dati ausiliari](c-auxiliary-data-caches.md)
 + [Clustering cache](c-cache-clustering.md)
 
 ## Consultate anche {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[Cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e) server, Clustering  [cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[Cache server](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e), clustering  [cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
