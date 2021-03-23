@@ -1,15 +1,16 @@
 ---
-description: Recuperare lo stato riepilogato di un processo inviato.
-seo-description: Recuperare lo stato riepilogato di un processo inviato.
+description: Recupera lo stato riepilogato di un processo inviato.
+seo-description: Recupera lo stato riepilogato di un processo inviato.
 seo-title: batchjobbriefstatus
 solution: Experience Manager
 title: batchjobbriefstatus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # batchjobbriefstatus{#batchjobbriefstatus}
 
-Recuperare lo stato riepilogato di un processo inviato.
+Recupera lo stato riepilogato di un processo inviato.
 
 Questo parametro:
 
@@ -30,7 +31,7 @@ Questo parametro:
 
 Restituisce:
 
-Breve stato del processo in formato XML; errore se jobid non è valido o il processo è stato eliminato.
+Breve stato del processo in formato XML; errore se il jobID non è valido o il job è stato eliminato.
 
 ## Esempio {#section-806460949bb043438ad4dd4e7ab74145}
 
