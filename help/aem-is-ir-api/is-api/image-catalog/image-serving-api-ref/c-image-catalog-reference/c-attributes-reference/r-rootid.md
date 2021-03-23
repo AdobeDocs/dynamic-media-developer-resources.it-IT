@@ -1,15 +1,16 @@
 ---
-description: Identificatore catalogo. L'elemento del percorso HTTP da utilizzare per identificare il catalogo nello specificatore dell'oggetto immagine di una richiesta.
-seo-description: Identificatore catalogo. L'elemento del percorso HTTP da utilizzare per identificare il catalogo nello specificatore dell'oggetto immagine di una richiesta.
+description: Identificatore del catalogo. L’elemento del percorso HTTP da utilizzare per identificare il catalogo nell’identificatore di oggetto immagine di una richiesta.
+seo-description: Identificatore del catalogo. L’elemento del percorso HTTP da utilizzare per identificare il catalogo nell’identificatore di oggetto immagine di una richiesta.
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 5%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 5%
 
 # RootId{#rootid}
 
-Identificatore catalogo. L&#39;elemento del percorso HTTP da utilizzare per identificare il catalogo nello specificatore dell&#39;oggetto immagine di una richiesta.
+Identificatore del catalogo. L’elemento del percorso HTTP da utilizzare per identificare il catalogo nell’identificatore di oggetto immagine di una richiesta.
 
 ## Proprietà {#section-9a49da71de634378a06d2347790898a0}
 
-Valore stringa di testo. Può includere solo caratteri validi nei percorsi HTTP.
+Valore stringa di testo. Possono includere solo caratteri validi nei percorsi HTTP.
 
 ## Predefinito {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Nessuno. Ogni catalogo deve avere un valore `attribute::RootId` univoco. [!DNL default.ini] in genere ha un vuoto  `attribute::RootId`.
+Nessuno. Ogni catalogo deve avere un valore `attribute::RootId` univoco. [!DNL default.ini] tipicamente ha un vuoto  `attribute::RootId`.
 
 ## Consultate anche {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
