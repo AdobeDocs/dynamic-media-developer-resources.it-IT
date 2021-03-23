@@ -1,29 +1,30 @@
 ---
-description: I materiali di rivestimento per finestre comprendono sia rivestimenti per finestre morbidi (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e persiane).
-seo-description: I materiali di rivestimento per finestre comprendono sia rivestimenti per finestre morbidi (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e persiane).
+description: I materiali di rivestimento includono sia rivestimenti per finestre morbide (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e tendine).
+seo-description: I materiali di rivestimento includono sia rivestimenti per finestre morbide (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e tendine).
 seo-title: Rivestimenti per finestre
 solution: Experience Manager
 title: Rivestimenti per finestre
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
 
 
-# Rivestimenti finestre{#window-coverings}
+# Rivestimenti per finestre{#window-coverings}
 
-I materiali di rivestimento per finestre comprendono sia rivestimenti per finestre morbidi (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e persiane).
+I materiali di rivestimento includono sia rivestimenti per finestre morbide (tende, valance, tende per caffè), sia rivestimenti per finestre duri (tonalità e tendine).
 
-I materiali di rivestimento delle finestre specificano un *file di stile* ( [!DNL .vnw] estensione file), un file di dati speciale simile a una vignettatura, contenente maschera, illuminazione, layout e dati di texture che definiscono la copertura della finestra.
+I materiali che coprono le finestre specificano un *file di stile* ( [!DNL .vnw] estensione file), un file di dati speciale simile a una vignetta, contenente maschera, illuminazione, layout e dati di texture che definiscono la copertura della finestra.
 
-[!DNL vnw] i file non includono il colore e la texture (tessuto) per la copertura della finestra. Queste informazioni vengono specificate separatamente, in modo simile alle texture ripetibili.
+[!DNL vnw] i file non includono il colore e la texture (tessuto) per la copertura della finestra. Queste informazioni sono specificate separatamente, in modo analogo alle texture ripetibili.
 
-I materiali di rivestimento delle finestre possono essere applicati solo agli oggetti Frame che si sovrappongono.
+I materiali di rivestimento per finestre possono essere applicati solo agli oggetti telaio che ricoprono finestre, che sono oggetti sovrapposti.
 
 <table id="table_545865B054E84592BDAEDA57DBFAE9B3"> 
  <thead> 
@@ -47,20 +48,20 @@ I materiali di rivestimento delle finestre possono essere applicati solo agli og
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Risoluzione della texture. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute:Resolution  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attributo::Resolution  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Modalità di ripetizione. </p> </td> 
-   <td colname="col3"> <p>0 (ripetizione retta) </p> </td> 
+   <td colname="col3"> <p>0 (ripetizione diretta) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Colore tinta unita (o colora la texture). </p> </td> 
+   <td colname="col2"> <p>Colore solido (o colora la texture). </p> </td> 
    <td colname="col3"> <p>128 (grigio neutro) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> Sharp=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Opzioni. </p> </td> 
    <td colname="col3"> <p>0 (nessuna nitidezza) </p> </td> 
   </tr> 
