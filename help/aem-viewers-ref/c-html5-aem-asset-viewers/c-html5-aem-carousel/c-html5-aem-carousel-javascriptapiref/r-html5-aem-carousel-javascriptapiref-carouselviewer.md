@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore carosello.
-seo-description: Riferimento API JavaScript per il visualizzatore carosello.
-seo-title: CarouselViewer
+description: Riferimento API JavaScript per il visualizzatore Carosello.
+seo-description: Riferimento API JavaScript per il visualizzatore Carosello.
+seo-title: Visualizzatore carosello
 solution: Experience Manager
-title: CarouselViewer
-topic: Dynamic Media
+title: Visualizzatore carosello
 uuid: 443a5b54-b5f6-4594-810b-ce9b2ba40611
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # CarouselViewer{#carouselviewer}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API JavaScript per il visualizzatore Carosello.
 
 `CarouselViewer([config])`
 
-Crea una nuova istanza del visualizzatore carosello HTML 5.
+Crea una nuova istanza HTML 5 Carosello Viewer.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -29,12 +30,12 @@ Crea una nuova istanza del visualizzatore carosello HTML 5.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {object} oggetto di configurazione JSON  </span> facoltativo, consente a tutte le impostazioni del visualizzatore di passare al costruttore per evitare di chiamare i singoli metodi setter. Contiene le seguenti proprietà: </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {object} oggetto di configurazione JSON  </span> opzionale, consente a tutte le impostazioni del visualizzatore di passare al costruttore per evitare di chiamare i singoli metodi del setter. Contiene le seguenti proprietà: </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID del contenitore DOM (in genere un  <span class="codeph"> DIV  </span>) in cui viene inserito il visualizzatore. Quando viene chiamato questo metodo, non è necessario creare l'elemento contenitore. Tuttavia, il contenitore deve esistere quando si esegue <span class="codeph"> init() </span>. </p> <p>Obbligatorio. </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params  </span> - Oggetto  <span class="codeph"> {Object}  </span> JSON con parametri di configurazione del visualizzatore in cui il nome della proprietà è un'opzione di configurazione specifica per il visualizzatore o un modificatore SDK, e il valore di tale proprietà è un valore di impostazioni corrispondente. </p> <p>Obbligatorio. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> gestori  </span> - oggetto  <span class="codeph"> {Object}  </span> JSON con callback di eventi del visualizzatore, dove il nome della proprietà è il nome dell'evento del visualizzatore supportato e il valore della proprietà è un riferimento alla funzione JavaScript per il callback appropriato. </p> <p>Facoltativo. </p> <p>Per ulteriori informazioni sugli eventi dei visualizzatori, consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> callback di eventi </a>. </p> </li> 
-      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph"> localizedText  </span> -  <span class="codeph"> {Object}  </span> </p> <p> Oggetto JSON con dati di localizzazione. Per ulteriori informazioni sul contenuto dell'oggetto, vedere Localizzazione degli elementi dell'interfaccia utente e l'esempio. </p> <p>Facoltativo </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID del contenitore DOM (in genere un  <span class="codeph"> DIV  </span>) in cui viene inserito il visualizzatore. Quando si chiama questo metodo, non è necessario che l'elemento contenitore sia creato. Tuttavia, il contenitore deve esistere quando viene eseguito <span class="codeph"> init() </span> . </p> <p>Obbligatorio. </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params  </span> - Oggetto  <span class="codeph"> {Object}  </span> JSON con parametri di configurazione del visualizzatore in cui il nome della proprietà è un’opzione di configurazione specifica per il visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. </p> <p>Obbligatorio. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> gestori  </span> -  <span class="codeph"> {Object} oggetto  </span> JSON con callback di eventi del visualizzatore, dove il nome della proprietà è il nome dell'evento del visualizzatore supportato e il valore della proprietà è un riferimento alla funzione JavaScript per il callback appropriato. </p> <p>Facoltativo. </p> <p>Per ulteriori informazioni sugli eventi del visualizzatore, consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> callback di eventi </a> . </p> </li> 
+      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph"> localizedText  </span> -  <span class="codeph"> {Object}  </span> </p> <p> Oggetto JSON con dati di localizzazione. Per ulteriori informazioni sul contenuto dell’oggetto, consulta Localizzazione degli elementi dell’interfaccia utente e l’esempio . </p> <p>Facoltativo </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
