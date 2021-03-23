@@ -1,60 +1,61 @@
 ---
 description: Estende il livello. Aggiunge margini a un livello o ritaglia il rettangolo del livello.
 seo-description: Estende il livello. Aggiunge margini a un livello o ritaglia il rettangolo del livello.
-seo-title: estensione
+seo-title: estendere
 solution: Experience Manager
-title: estensione
-topic: Dynamic Media Image Serving - Image Rendering API
+title: estendere
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
 
 
-# extension{#extend}
+# estendi{#extend}
 
 Estende il livello. Aggiunge margini a un livello o ritaglia il rettangolo del livello.
 
-`extend= *``*, *``*, *``*, *`leftoprightbottom`*`
+`extend= *``*, *``*, *``*, *`sinistra-destra-basso`*`
 
 `extendN= *``*, *``*, *``*, *`leftNtopNrightNbottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sinistra,superiore,inferiore,destra</span></span> </p></td> 
-  <td class="stentry"> <p>Numero di pixel a cui aggiungere (o rimuovere, se il valore è negativo) i bordi sinistro, superiore, destro e inferiore del rettangolo del livello (int, int, int, int). </p></td> 
+  <td class="stentry"> <p>Numero di pixel da aggiungere a (o rimuovere da, se il valore è negativo) il bordo sinistro, superiore, destro e inferiore del bordo del livello diretto (int, int, int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN,topN,bottomN,rightN</span></span> </p></td> 
-  <td class="stentry"> <p>Quantità di spazio a cui aggiungere (o rimuovere, se il valore è negativo) il bordo sinistro, superiore, destro e inferiore del rect del livello, espressa come quantità normalizzate rispetto alle dimensioni del rect del livello originale (reale, reale, reale, reale). </p></td> 
+  <td class="stentry"> <p>Quantità di spazio da aggiungere a (o rimuovere da, se il valore è negativo) il bordo sinistro, superiore, destro e inferiore della funzione di correzione del livello, espressa come quantità normalizzate rispetto alle dimensioni della funzione di correzione del livello originale (reale, reale, reale, reale, reale). </p></td> 
  </tr> 
 </table>
 
-`extend=` viene applicato al livello  ** dopo che l’immagine è stata ritagliata (  `crop=`) e tutte le trasformazioni di livello,  `rotate=`incluse, sono state applicate.
+`extend=` viene applicato al livello  ** dopo il ritaglio dell’immagine (  `crop=`) e tutte le trasformazioni di livello, incluso  `rotate=`, sono state applicate.
 
-L&#39;area estesa viene riempita con `bgColor=`, oppure, se non viene specificata, rimane trasparente.
+L&#39;area estesa viene riempita con `bgColor=` o, se non specificato, rimane trasparente.
 
-I valori degli argomenti per `extendN=` vengono normalizzati rispetto alle dimensioni del rect del livello dopo l&#39;applicazione delle trasformazioni del livello, inclusa l&#39;applicazione di `rotate=`.
+I valori dell’argomento per `extendN=` vengono normalizzati rispetto alle dimensioni della correzione del livello dopo l’applicazione delle trasformazioni del livello, incluso `rotate=`.
 
 ## Proprietà {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-Attributo layer. Si applica al livello 0 se `layer=comp`. Ignorato dai livelli degli effetti.
+Attributo livello. Si applica al livello 0 se `layer=comp`. Ignorato dai livelli di effetto.
 
 ## Predefinito {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`, per non modificare il rettangolo del livello.
+`extend=0,0,0,0`, senza modificare il rettangolo del livello.
 
 ## Esempi {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 
-**Ritagliate un’immagine e aggiungete un bordo rosso di larghezza di 5 pixel:**
+**Ritaglia un’immagine e aggiungi un bordo rosso largo 5 pixel:**
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 
-**Scala un’immagine a 200 pixel di larghezza e aggiungi il testo del titolo a un margine di 30 pixel sopra l’immagine.**
+**Ridimensiona un’immagine a 200 pixel di larghezza e aggiungi il testo del titolo a un margine di 30 pixel sopra l’immagine.**
 
 L&#39;altezza dell&#39;immagine composita varia a seconda delle proporzioni dell&#39;immagine.
 
