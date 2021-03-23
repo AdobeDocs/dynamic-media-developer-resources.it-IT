@@ -1,15 +1,16 @@
 ---
-description: Elimina il campo di metadati di una società.
-seo-description: Elimina il campo di metadati di una società.
+description: Elimina il campo metadati di una società.
+seo-description: Elimina il campo metadati di una società.
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '111'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # deleteMetadataField{#deletemetadatafield}
 
-Elimina il campo di metadati di una società.
+Elimina il campo metadati di una società.
 
 Sintassi
 
@@ -33,8 +34,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | handle della società che contiene il campo di metadati da eliminare. |
-| `*`fieldHandle`*` | `xsd:string` | Sì | handle del campo di metadati da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il campo metadati da eliminare. |
+| `*`fieldHandle`*` | `xsd:string` | Sì | L&#39;handle del campo di metadati da eliminare. |
 
 **Output (deleteMetadataFieldParam)**
 
@@ -42,7 +43,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Questo esempio di codice elimina il campo di metadati di una società. Utilizza l&#39;handle della società e la gestione dei metadati come campi nel `deleteMetadataFieldParam` passato al server dei servizi Web IPS per eseguire questa azione.
+Questo esempio di codice elimina il campo di metadati di una società. Per eseguire questa azione, utilizza l’handle della società e la gestione dei metadati come campi nel `deleteMetadataFieldParam` passato al server dei servizi Web IPS.
 
 **Request Contents (Richiesta contenuto)**
 
@@ -55,4 +56,4 @@ Questo esempio di codice elimina il campo di metadati di una società. Utilizza 
 
 **Risposta**
 
-None.0
+Nessuno.0
