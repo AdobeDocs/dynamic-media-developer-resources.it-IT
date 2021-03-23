@@ -1,34 +1,35 @@
 ---
-description: Allineamento rendering texture. Specifica quale dei punti di origine definiti dall'oggetto vignettatura selezionato deve essere utilizzato.
-seo-description: Allineamento rendering texture. Specifica quale dei punti di origine definiti dall'oggetto vignettatura selezionato deve essere utilizzato.
+description: Allineamento del rendering della texture. Specifica quale dei punti di origine definiti dall'oggetto vignetta selezionato deve essere utilizzato.
+seo-description: Allineamento del rendering della texture. Specifica quale dei punti di origine definiti dall'oggetto vignetta selezionato deve essere utilizzato.
 seo-title: allinea
 solution: Experience Manager
 title: allinea
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 3%
 
 ---
 
 
 # align{#align}
 
-Allineamento rendering texture. Specifica quale dei punti di origine definiti dall&#39;oggetto vignettatura selezionato deve essere utilizzato.
+Allineamento del rendering della texture. Specifica quale dei punti di origine definiti dall&#39;oggetto vignetta selezionato deve essere utilizzato.
 
 `align=0|1|2|3|4|5|6`
 
 <table id="simpletable_D15233999E35488EB2F933BD72798E2F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Origine predefinita (corrispondenza centrale). </p></td> 
+  <td class="stentry"> <p>Origine predefinita (al centro della corrispondenza). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Origine corrispondenza continua. </p></td> 
+  <td class="stentry"> <p>Origine di corrispondenza continua. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
@@ -36,25 +37,25 @@ Allineamento rendering texture. Specifica quale dei punti di origine definiti da
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3,6 </p></td> 
-  <td class="stentry"> <p>Origine definita dall’utente. </p></td> 
+  <td class="stentry"> <p>Origine definita dall'utente. </p></td> 
  </tr> 
 </table>
 
 Il renderer applica la texture all&#39;oggetto in modo che il punto di ancoraggio della texture ( `anchor=`) coincida con il punto di origine specificato.
 
-Ogni oggetto può definire fino a 6 punti di origine (0,1, 3, 4, 5, 6). Se viene specificato un valore `align` ma il punto di origine corrispondente non è definito dall&#39;oggetto vignettatura, viene utilizzato il punto di origine predefinito (corrispondenza centrale).
+Ogni oggetto può definire fino a 6 punti di origine (0,1, 3, 4, 5, 6). Se viene specificato un valore `align` ma il punto di origine corrispondente non è definito dall&#39;oggetto vignetta, viene utilizzato il punto di origine predefinito (corrispondenza centrale).
 
-`align=2` specifica l&#39;allineamento casuale della texture, nel qual caso  `anchor=` viene effettivamente ignorato.
+`align=2` specifica l&#39;allineamento casuale della texture, nel qual caso  `anchor=` viene ignorato.
 
 Utilizzato principalmente per materiali di imbottitura, possibilmente per tessuti di abbigliamento, per gestire l&#39;allineamento della texture tra oggetti adiacenti.
 
 ## Proprietà {#section-350fadc87dcf4812a8a02d1c3d6697a0}
 
-Attributo materiale. Ignorato se è selezionato un oggetto frame per rivestimenti a parete, armadio, accessorio o finestre o se il materiale non è una texture ripetibile.
+Attributo materiale. Ignorato se è selezionato un oggetto struttura per rivestimenti di pareti, mobili, accessori o finestre o se il materiale non è una texture ripetibile.
 
 ## Predefinito {#section-3231c2854bae4477836b626ac208dd34}
 
-`catalog::Alignment`, se il materiale è basato su una voce di catalogo, altrimenti 0 (corrispondenza centrale).
+`catalog::Alignment`, se il materiale è basato su una voce di catalogo, altrimenti 0 (corrispondente al centro).
 
 ## Consultate anche {#section-945d1ce275df487d9d564d4043156c79}
 
