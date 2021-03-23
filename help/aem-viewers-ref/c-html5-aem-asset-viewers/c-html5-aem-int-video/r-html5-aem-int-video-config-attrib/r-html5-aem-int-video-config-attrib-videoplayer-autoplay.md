@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]autoplay=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Alcuni sistemi, ad esempio alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Tieni presente che alcuni sistemi, come alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
   </tr> 
  </tbody> 
 </table>
