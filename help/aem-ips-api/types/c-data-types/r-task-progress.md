@@ -1,15 +1,16 @@
 ---
-description: Informazioni sull'avanzamento dell'attività.
-seo-description: Informazioni sull'avanzamento dell'attività.
+description: Informazioni sull’avanzamento dell’attività.
+seo-description: Informazioni sull’avanzamento dell’attività.
 seo-title: TaskProgress
 solution: Experience Manager
 title: TaskProgress
-topic: Dynamic Media Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '149'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # TaskProgress{#taskprogress}
 
-Informazioni sull&#39;avanzamento dell&#39;attività.
+Informazioni sull’avanzamento dell’attività.
 
 Sintassi
 
@@ -40,22 +41,22 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessed</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Numero di elementi attività già elaborati. </td> 
+   <td colname="col3"> Numero di elementi dell'attività già elaborati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Numero di elementi attività in corso di elaborazione. </td> 
+   <td colname="col3"> Numero di elementi dell'attività in corso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Numero di elementi attività in sospeso (non ancora elaborati). </td> 
+   <td colname="col3"> Numero di elementi dell'attività in sospeso (non ancora elaborati). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progresso</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> % progresso (intervallo 0,0 - 1,0). </td> 
+   <td colname="col3"> % avanzamento (intervallo 0,0 - 1,0). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -70,18 +71,18 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TaskItemProgressArray</span> </td> 
-   <td colname="col3"> Array di elementi attività. </td> 
+   <td colname="col3"> Matrice di elementi dell'attività. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">I valori includono: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Sconosciuto</span>: Quando l'attività di monitoraggio passa da uno stato all'altro. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Sconosciuto</span>: Quando l'attività controlla le transizioni tra stati. </li>
      <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuovo</span>: Il monitoraggio attività è stato creato ma non ha ancora accettato le attività. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Elaborazione</span>: Il monitoraggio attività sta elaborando attivamente le attività. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Arresto</span>: Il monitoraggio attività sta arrestando un processo a causa di una richiesta di interruzione del processo. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Fatto</span>: I processi assegnati ai processi del controllo attività sono stati completati. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Elaborazione</span>: Monitoraggio attività sta elaborando attivamente le attività. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Arresto</span>: Il monitoraggio attività sta arrestando un processo a causa di una richiesta di arresto del processo. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Fatto</span>: I processi assegnati ai processi di monitoraggio attività sono stati completati. </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Non riuscito</span>: Indica un errore irreversibile. </li>
     </ul></td> 
   </tr> 
