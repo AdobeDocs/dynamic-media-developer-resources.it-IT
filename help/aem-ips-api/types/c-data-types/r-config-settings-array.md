@@ -1,23 +1,24 @@
 ---
-description: Un array di impostazioni di configurazione.
-seo-description: Un array di impostazioni di configurazione.
+description: Matrice di impostazioni di configurazione.
+seo-description: Matrice di impostazioni di configurazione.
 seo-title: ConfigSettingArray
 solution: Experience Manager
 title: ConfigSettingArray
-topic: Dynamic Media Image Production System API
 uuid: c6c5636c-a2df-4eed-8bb4-7b16a610ae4a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # ConfigSettingArray{#configsettingarray}
 
-Un array di impostazioni di configurazione.
+Matrice di impostazioni di configurazione.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ConfigSetting` | Un array di impostazioni di configurazione. |
+| `*`elementi`*` | `types:ConfigSetting` | Matrice di impostazioni di configurazione. |
 
