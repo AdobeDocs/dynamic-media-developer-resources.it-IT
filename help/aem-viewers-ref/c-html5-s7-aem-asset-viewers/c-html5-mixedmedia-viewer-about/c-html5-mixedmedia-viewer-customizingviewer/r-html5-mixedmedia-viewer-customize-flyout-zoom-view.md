@@ -1,15 +1,16 @@
 ---
-description: Nella modalità zoom in linea la vista principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sopra l’immagine statica.
-seo-description: Nella modalità zoom in linea la vista principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sopra l’immagine statica.
+description: Nella modalità zoom in linea la visualizzazione principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata nella visualizzazione a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
+seo-description: Nella modalità zoom in linea la visualizzazione principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata nella visualizzazione a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
 seo-title: Visualizzazione zoom a comparsa
 solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '292'
 ht-degree: 4%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 4%
 
 # Visualizzazione zoom a comparsa{#flyout-zoom-view}
 
-Nella modalità zoom in linea la vista principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sopra l’immagine statica.
+Nella modalità zoom in linea la visualizzazione principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata nella visualizzazione a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto della vista principale è controllato dal seguente selettore di classe CSS:
+L’aspetto della vista principale è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -38,13 +39,13 @@ L&#39;aspetto della vista principale è controllato dal seguente selettore di cl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per rendere trasparente la vista principale:
+Esempio: per rendere trasparente la visualizzazione principale:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -54,13 +55,13 @@ Esempio: per rendere trasparente la vista principale:
 
 <!--<a id="section_FD07AB77593748F99DC6C42ED20A61EC"></a>-->
 
-L&#39;aspetto del messaggio di suggerimento è controllato dal seguente selettore di classe CSS:
+L’aspetto del messaggio di suggerimento è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare lo stile del font, l&#39;aspetto delle dimensioni e l&#39;offset verticale tramite CSS. Tuttavia, l&#39;allineamento orizzontale è gestito dalla logica del visualizzatore. La sostituzione tramite CSS utilizzando le proprietà `left` o `right` non è supportata.
+È possibile configurare lo stile del font, l’aspetto delle dimensioni e l’offset verticale tramite CSS. Tuttavia, l’allineamento orizzontale è gestito dalla logica del visualizzatore. Non è supportata l’override di questa impostazione tramite CSS utilizzando le proprietà `left` o `right` .
 
 **Proprietà CSS del messaggio di suggerimento**
 
@@ -73,43 +74,43 @@ L&#39;aspetto del messaggio di suggerimento è controllato dal seguente selettor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento dello sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Raggio bordo sfondo del messaggio. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
+   <td colname="col2"> <p> Raggio del bordo dello sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p> Consente di scostarsi dal fondo della vista principale. </p> </td> 
+   <td colname="col2"> <p> Offset dal fondo della vista principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Colore del testo della punta. </p> </td> 
+   <td colname="col2"> <p>Colore testo punta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del font. </p> </td> 
+   <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Famiglia di font. </p> </td> 
+   <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
    <td colname="col2"> <p> Opacità di sfondo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-Esempio: per impostare un messaggio di suggerimento semi-trasparente con font Arial 12px bianco, l’offset di 50 pixel dal fondo della vista principale, la spaziatura e un bordo arrotondato:
+Esempio: per impostare un messaggio di suggerimento semitrasparente con font Arial 12px bianco, l’offset di 50 pixel dal fondo della vista principale, della spaziatura e di un bordo arrotondato:
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
