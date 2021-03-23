@@ -1,16 +1,17 @@
 ---
 description: Opzioni per le immagini Photoshop.
 seo-description: Opzioni per le immagini Photoshop.
-seo-title: PhotoshopOptions
+seo-title: Opzioni Photoshop
 solution: Experience Manager
-title: PhotoshopOptions
-topic: Dynamic Media Image Production System API
+title: Opzioni Photoshop
 uuid: ed97d20a-358d-4a00-93c7-4498bb2e9d35
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -38,12 +39,12 @@ Sintassi
    <td colname="col3"> Array di opzioni di livello Photoshop. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> process</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Opzioni di processo Photoshop: 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
      <li id="li_92FA27B1887B464F8C4564FD0B59793B"><span class="codeph"> Nessuno</span> </li> 
-     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> MantieniLivelli</span> </li> 
+     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> GestisciLivelli</span> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
