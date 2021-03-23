@@ -1,23 +1,24 @@
 ---
-description: Un array di aggiornamenti dello stato del contesto.
-seo-description: Un array di aggiornamenti dello stato del contesto.
+description: Matrice di aggiornamenti dello stato del contesto.
+seo-description: Matrice di aggiornamenti dello stato del contesto.
 seo-title: ContextStateUpdateArray
 solution: Experience Manager
 title: ContextStateUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 07212f37-4394-48c1-bd52-b1768950b0d4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '40'
+ht-degree: 10%
 
 ---
 
 
 # ContextStateUpdateArray{#contextstateupdatearray}
 
-Un array di aggiornamenti dello stato del contesto.
+Matrice di aggiornamenti dello stato del contesto.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`ContextStateUpdateArray`*` | `types:ContextStateUpdate` | Un array di aggiornamenti dello stato del contesto. |
+| `*`ContextStateUpdateArray`*` | `types:ContextStateUpdate` | Matrice di aggiornamenti dello stato del contesto. |
 
