@@ -4,18 +4,19 @@ seo-description: Gestisce i diritti di accesso, modifica, creazione o eliminazio
 seo-title: Autorizzazione
 solution: Experience Manager
 title: Autorizzazione
-topic: Dynamic Media Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
 
-# Permission{#permission}
+# Permesso{#permission}
 
 Gestisce i diritti di accesso, modifica, creazione o eliminazione delle risorse per gruppo.
 
@@ -25,9 +26,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | handle del gruppo. |
+| `*`groupHandle`*` | `xsd:string` | Maniglia di gruppo. |
 | `*`groupName`*` | `xsd:string` | Nome del gruppo. |
-| `*`permissionsType`*` | `xsd:string` | Scelta del tipo di autorizzazione. |
+| `*`permissionType`*` | `xsd:string` | Scelta del tipo di autorizzazione. |
 | `*`isAllowed`*` | `xsd:boolean` | Determina se l&#39;autorizzazione è consentita. |
 | `*`isOverride`*` | `xsd:boolean` | Determina se l&#39;autorizzazione sostituisce un&#39;altra. |
 
