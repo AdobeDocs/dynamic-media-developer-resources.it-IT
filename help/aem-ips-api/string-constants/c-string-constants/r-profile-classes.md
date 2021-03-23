@@ -1,21 +1,22 @@
 ---
 description: Utilizzato da IccProfileFieldUpdate/class.
 seo-description: Utilizzato da IccProfileFieldUpdate/class.
-seo-title: Classi profilo
+seo-title: Classi di profilo
 solution: Experience Manager
-title: Classi profilo
-topic: Dynamic Media Image Production System API
+title: Classi di profilo
 uuid: da73b9d9-e19e-4166-a4c4-14f7eb17e3d5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 3%
 
 ---
 
 
-# Classi profilo{#profile-classes}
+# Classi di profilo{#profile-classes}
 
 Utilizzato da IccProfileFieldUpdate/class.
 
