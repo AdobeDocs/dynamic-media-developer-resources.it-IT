@@ -1,15 +1,16 @@
 ---
-description: Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
-seo-description: Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
+description: Attributi del livello di testo. Specifica gli attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
+seo-description: Attributi del livello di testo. Specifica gli attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
 seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -17,38 +18,38 @@ ht-degree: 1%
 
 # textAttr{#textattr}
 
-Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
+Attributi del livello di testo. Specifica gli attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
 
 ` textAttr= *``*[, *``*[, *``*[, *`resantiAliasingresModewordWrap`*]]]`
 
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Consente di ridimensionare il livello di testo senza modificare le dimensioni dei font. Valori di risoluzione più elevati aumentano le dimensioni del testo renderizzato rispetto alle dimensioni del quadro; valori più piccoli riducono le dimensioni del testo. Risoluzione del testo in punti per pollice (in punti maggiore di 0). </p> </td> 
+  <td class="stentry"> <p>Consente di ridimensionare il livello di testo senza modificare le dimensioni dei font. Valori di risoluzione più elevati aumentano le dimensioni del testo renderizzato rispetto alle dimensioni dell'area di lavoro; valori più piccoli riducono le dimensioni del testo. Risoluzione del testo in punti per pollice (in numero maggiore di 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Controlla la modalità di antialiasing utilizzata dal motore di rendering del testo. </p> <p> <span class="codeph"> off | Norma | croccante | sharp | forte | liscio  </span> </p> <p> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anti-aliasing  </span> </span> </p> </td> 
+  <td class="stentry"> <p>Controlla la modalità anti-aliasing utilizzata dal motore di rendering del testo. </p> <p> <span class="codeph"> off | norma | croccante | diesis | forte | liscio  </span> </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> off  </span> </p> </td> 
-      <td class="stentry"> <p>Disattivate l’anti-alias del testo. </p> </td> 
+      <td class="stentry"> <p>Disattiva l'anti-aliasing del testo. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> norma  </span> </p> </td> 
-      <td class="stentry"> <p>Attiva la modalità standard di anti-alias del testo (impostazione predefinita). </p> </td> 
+      <td class="stentry"> <p>Attiva la modalità standard di anti-aliasing del testo (impostazione predefinita). </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> croccante  </span> </p> </td> 
-      <td class="stentry"> <p>Selezionate la modalità di antialiasing Photoshop <span class="codeph"> nitido </span> ( <span class="codeph"> solo textPs= </span>). </p> </td> 
+      <td class="stentry"> <p>Seleziona la modalità anti-aliasing Photoshop <span class="codeph"> croccante </span> ( <span class="codeph"> textPs= </span> solo). </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> sharp  </span> </p> </td> 
-      <td class="stentry"> <p>Selezionate la modalità di antialiasing Photoshop <span class="codeph"> nitido </span> ( <span class="codeph"> solo textPs= </span>). </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> acuto  </span> </p> </td> 
+      <td class="stentry"> <p>Seleziona la modalità anti-aliasing Photoshop <span class="codeph"> affilato </span> ( <span class="codeph"> textPs= </span> solo). </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> Forte </span> </p> </td> 
-      <td class="stentry"> <p>Selezionate la modalità di antialiasing Photoshop <span class="codeph"> con un carattere </span> forte ( <span class="codeph"> solo textPs= </span>). </p> </td> 
+      <td class="stentry"> <p>Seleziona la modalità anti-aliasing Photoshop <span class="codeph"> strong </span> ( <span class="codeph"> textPs= </span> solo). </p> </td> 
      </tr> 
     </table> </p> </td> 
  </tr> 
@@ -58,41 +59,41 @@ Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di 
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes  </span> </p> </td> 
-      <td class="stentry"> <p>Utilizzate la risoluzione specificata. </p> <p>Utilizzate questa opzione se il testo deve essere rappresentato in una dimensione esatta rispetto al quadro di composizione. Se la casella di testo è troppo piccola, il testo potrebbe essere ritagliato in base alle dimensioni del livello (se specificato). Si tratta dell'unica opzione <span class="varname"> resMode </span> supportata da <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilizzare la risoluzione specificata. </p> <p>Utilizzate questa opzione per eseguire il rendering del testo in una dimensione esatta rispetto al quadro di composizione. Se la casella di testo è troppo piccola, il testo può essere ritagliato in base alle dimensioni del livello (se specificato). Questa è l'unica opzione <span class="varname"> resMode </span> supportata da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes  </span> </p> </td> 
-      <td class="stentry"> <p>Regolate automaticamente la risoluzione per riempire al meglio il rect del livello con il testo. </p> <p>Consente di regolare automaticamente le dimensioni del testo in modo che la casella di testo sia riempita il più possibile, senza rischi di troncamento. Se è attivata l’opzione di ritorno a capo automatico, il testo potrebbe essere reinserito nella risoluzione finale. <span class="varname"> res  </span> viene ignorato se  <span class="codeph"> autoRes  </span> è selezionato. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Regolare automaticamente la risoluzione per riempire al meglio la correzione del livello con il testo. </p> <p>Consente di regolare automaticamente le dimensioni del testo in modo che la casella di testo venga riempita il più possibile, senza rischio di troncamento. Se è abilitato il ritorno a capo automatico, il testo può essere ritoccato alla risoluzione finale. <span class="varname"> res  </span> viene ignorato se  <span class="codeph"> autoRes  </span> è selezionato. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes  </span> </p> </td> 
-      <td class="stentry"> <p>utilizzare la risoluzione specificata; se necessario, riducetelo per evitare che il testo venga troncato sul bordo del livello. </p> <p>Utilizzate questa opzione per eseguire il rendering del testo alla risoluzione esatta specificata, a condizione che non si verifichi alcun ritaglio. In caso di ritaglio, la risoluzione viene automaticamente ridotta per assicurare che tutto il testo sia contenuto completamente all'interno della casella di testo. Se è attivata l’opzione di ritorno a capo automatico, il testo potrebbe essere reinserito nella risoluzione finale. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>utilizzare la risoluzione specificata; se necessario, riducetelo per evitare che il testo venga troncato sul bordo del livello. </p> <p>Utilizzare per eseguire il rendering del testo alla risoluzione esatta specificata, purché non si verifichi alcun ritaglio. In caso di ritaglio, la risoluzione viene automaticamente ridotta per garantire che tutto il testo sia contenuto completamente all’interno della casella di testo. Se è abilitato il ritorno a capo automatico, il testo può essere ritoccato alla risoluzione finale. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
     </table> </p> <p>Se la dimensione del livello di testo non viene specificata con size= o se viene specificata solo la larghezza, le impostazioni 'autoRes' e 'maxRes' vengono ignorate e la risoluzione specificata viene utilizzata per eseguire il rendering del testo. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Specifica la modalità di wrapping. </p> <p> <span class="codeph"> involucro | noWrap | nbWrap  </span> </p> <p> 
+  <td class="stentry"> <p>Specifica la modalità di wrapping. </p> <p> <span class="codeph"> avvolgere | noWrap | nbWrap  </span> </p> <p> 
     <table id="simpletable_FF2510E029EC41E29BC30D9FC2923EA3"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> noWrap  </span> </p> </td> 
-      <td class="stentry"> <p>Disattiva ritorno a capo automatico. </p> </td> 
+      <td class="stentry"> <p>Disattiva il ritorno a capo automatico. </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> involucro  </span> </p> </td> 
-      <td class="stentry"> <p>Abilita ritorno a capo automatico standard. </p> <p>Se necessario, interrompe le parole lunghe. <span class="codeph"> textPs= supporta  </span> solo il  <span class="codeph"> ritorno a capo  </span>. </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> avvolgere  </span> </p> </td> 
+      <td class="stentry"> <p>Attiva il ritorno a capo automatico standard. </p> <p>Se necessario, interrompe le parole lunghe. <span class="codeph"> textPs= supporta  </span> solo il  <span class="codeph"> ritorno a capo  </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap  </span> </p> </td> 
-      <td class="stentry"> <p>Abilita ritorno a capo automatico senza interruzioni. </p> <p>Non spezza mai una parola, anche se alla fine viene troncata. Generalmente utilizzato insieme a <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> per garantire che le parole lunghe non vengano mai interrotte. </p> </td> 
+      <td class="stentry"> <p>Attiva ritorno a capo automatico senza interruzioni. </p> <p>Non rompe mai una parola, anche se alla fine viene troncata. Generalmente utilizzato in combinazione con <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> per garantire che le parole lunghe non vengano mai interrotte. </p> </td> 
      </tr> 
-    </table> </p> <p>Sia <span class="codeph"> che </span> nbwrapping <span class="codeph"> vengono impostati automaticamente su bordi e trattini di parole.</span> </p> </td> 
+    </table> </p> <p>Inclusione automatica di <span class="codeph"> e </span> nbwrapping </span> su bordi e trattini delle parole.<span class="codeph"> </span></p> </td> 
  </tr> 
 </table>
 
 ## Proprietà {#section-114ca0b8585b403c873e2251478ad1d5}
 
-Attributo del livello di testo. Ignorato dai livelli di immagine, colore in tinta unita e effetto. Si applica a `layer=0` se specificato per `layer=comp`.
+Attributo livello testo. Ignorato dai livelli immagine, colore solido e effetto. Si applica a `layer=0` se specificato per `layer=comp`.
 
 ## Predefinito {#section-855230f5330b4afc8a933f00a1ed4612}
 
