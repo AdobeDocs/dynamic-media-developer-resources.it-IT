@@ -4,12 +4,13 @@ seo-description: Sono disponibili anche questi comandi.
 seo-title: Comandi vari
 solution: Experience Manager
 title: Comandi vari
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
@@ -26,8 +27,8 @@ Sono disponibili anche questi comandi.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> hide</a></span> </p></td> 
-  <td class="stentry"> <p>Nasconde gli oggetti sovrapposti selezionati. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> nascondere</a></span> </p></td> 
+  <td class="stentry"> <p>Nasconde gli oggetti di sovrapposizione selezionati. </p></td> 
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
