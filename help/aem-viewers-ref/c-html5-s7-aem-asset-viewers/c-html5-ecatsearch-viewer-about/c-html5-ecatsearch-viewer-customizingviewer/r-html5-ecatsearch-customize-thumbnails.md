@@ -4,12 +4,13 @@ seo-description: Le miniature sono costituite da una griglia di miniature con un
 seo-title: Miniature
 solution: Experience Manager
 title: Miniature
-topic: Dynamic Media
 uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '924'
 ht-degree: 2%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 Le miniature sono costituite da una griglia di miniature con una barra di scorrimento facoltativa sul lato destro per consentire lo scorrimento verticale.
 
-Le miniature vengono attivate facendo clic sul pulsante delle miniature nella barra di controllo principale. Quando le miniature sono attive, vengono visualizzate in modalità modale sovrapposte all’interfaccia utente del visualizzatore. La logica del visualizzatore ridimensiona automaticamente il contenitore delle miniature all’intera area del visualizzatore.
+Le miniature vengono attivate facendo clic sul pulsante delle miniature nella barra di controllo principale. Quando le miniature sono attive, vengono visualizzate in modalità modale sovrapposte all’interfaccia utente del visualizzatore. La logica del visualizzatore ridimensiona automaticamente il contenitore miniature all’intera area del visualizzatore.
 
-L&#39;aspetto del contenitore delle miniature è controllato dal seguente selettore di classe CSS:
+L’aspetto del contenitore miniature è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview`
 
@@ -35,32 +36,32 @@ L&#39;aspetto del contenitore delle miniature è controllato dal seguente selett
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> Offset verticale del contenitore delle miniature dalla parte superiore del visualizzatore. </p> </td> 
+   <td colname="col2"> <p> Offset verticale del contenitore miniature dalla parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
    <td colname="col2"> <p>Il margine superiore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
    <td colname="col2"> <p>Il margine sinistro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
    <td colname="col2"> <p>Il margine destro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore  </span> </p> </td> 
    <td colname="col2"> <p>Il margine inferiore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo dell’area delle miniature. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo dell'area miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare le miniature in modo che l&#39;offset dei 32 pixel venga eseguito dall&#39;alto, i margini di 5 pixel verso sinistra e verso destra e il margine di 8 pixel verso il basso, con lo sfondo `0xDDDDDD`.
+Esempio: per impostare le miniature in modo che siano offset 32 pixel dall’alto, i margini di 5 pixel a sinistra e a destra e il margine di 8 pixel sul fondo, con `0xDDDDDD` sfondo.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -85,8 +86,8 @@ La spaziatura tra le miniature è controllata dal seguente selettore di classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura orizzontale effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per la cella <span class="codeph"> .s7thumbnail </span>. La spaziatura verticale tra le miniature è uguale alla somma dei margini superiore e inferiore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura orizzontale effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per <span class="codeph"> .s7thumbcell </span>. La spaziatura verticale delle miniature è uguale alla somma del margine superiore e inferiore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +100,7 @@ Esempio: per impostare uno spazio di 10 pixel sia verticalmente che orizzontalme
 }
 ```
 
-L&#39;aspetto di una singola miniatura è controllato dal seguente selettore di classe CSS:
+L’aspetto della singola miniatura è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb`
 
@@ -124,19 +125,19 @@ L&#39;aspetto di una singola miniatura è controllato dal seguente selettore di 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sui dispositivi touch, quando viene ruotato in modalità verticale, il visualizzatore potrebbe ridimensionare le miniature fino alla metà di quanto è configurato nel caso in cui decida di dividere il set di pagine affiancate in singole pagine.
+Sui dispositivi touch, quando viene ruotato in modalità verticale, il visualizzatore può ridimensionare le miniature a metà di ciò che è configurato nel caso in cui decida di dividere il catalogo distribuito in singole pagine.
 
 >[!NOTE]
 >
->La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
-Esempio: per impostare miniature da 120 x 85 pixel, è possibile impostare uno sfondo bianco, un bordo standard grigio chiaro e un bordo grigio scuro selezionato.
+Esempio : per impostare miniature con 120 x 85 pixel, sono disponibili uno sfondo bianco, un bordo standard grigio chiaro e un bordo selezionato grigio scuro.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb { 
@@ -150,7 +151,7 @@ Esempio: per impostare miniature da 120 x 85 pixel, è possibile impostare uno s
 }
 ```
 
-L&#39;aspetto dell&#39;etichetta della miniatura è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’etichetta miniatura è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7label`
 
@@ -164,16 +165,16 @@ L&#39;aspetto dell&#39;etichetta della miniatura è controllato dal seguente sel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Nome font. </p> </td> 
+   <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del font. </p> </td> 
+   <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare le etichette in modo che utilizzino il font Helvetica 14 pixel.
+Esempio: per impostare le etichette in modo che utilizzino il font Helvetica a 14 pixel.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7label { 
@@ -182,7 +183,7 @@ Esempio: per impostare le etichette in modo che utilizzino il font Helvetica 14 
 }
 ```
 
-Se la visualizzazione contiene più miniature di quelle che possono essere inserite verticalmente, le miniature riproducono la barra di scorrimento verticale sul lato destro. L&#39;aspetto dell&#39;area della barra di scorrimento è controllato dal seguente selettore di classe CSS:
+Nel caso in cui siano presenti più miniature di quelle che possono essere inserite verticalmente nella visualizzazione, le miniature riproducono la barra di scorrimento verticale sul lato destro. L’aspetto dell’area della barra di scorrimento è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -195,25 +196,25 @@ Se la visualizzazione contiene più miniature di quelle che possono essere inser
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> L'offset verticale della barra di scorrimento dalla parte superiore dell'area delle miniature. </p> </td> 
+   <td colname="col2"> <p> Offset barra di scorrimento verticale dalla parte superiore dell'area miniature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>L'offset verticale della barra di scorrimento dal fondo dell'area delle miniature. </p> </td> 
+   <td colname="col2"> <p>Offset barra di scorrimento verticale dal fondo dell'area miniature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p> L'offset della barra di scorrimento orizzontale rispetto al bordo destro dell'area delle miniature. </p> </td> 
+   <td colname="col2"> <p> Offset della barra di scorrimento orizzontale dal bordo destro dell'area miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una barra di scorrimento larga 28 pixel e con un margine di 8 pixel rispetto all’area delle miniature, in alto, a destra e in basso.
+Esempio: per impostare una barra di scorrimento larga 28 pixel e con un margine di 8 pixel rispetto all’area delle miniature in alto, a destra e in basso.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar { 
@@ -224,7 +225,7 @@ Esempio: per impostare una barra di scorrimento larga 28 pixel e con un margine 
 }
 ```
 
-La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l’altezza della traccia. La traccia è controllata con il seguente selettore di classe CSS:
+La traccia della barra di scorrimento è l’area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l&#39;altezza del brano. La traccia viene controllata con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -237,17 +238,17 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della traccia della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della traccia della barra di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una traccia della barra di scorrimento larga 28 pixel e con sfondo grigio semi-trasparente.
+Esempio: per impostare una traccia della barra di scorrimento larga 28 pixel e con sfondo grigio semitrasparente.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -256,7 +257,7 @@ Esempio: per impostare una traccia della barra di scorrimento larga 28 pixel e c
 }
 ```
 
-La barra di scorrimento si sposta verticalmente all’interno dell’area della traccia di scorrimento. La sua posizione verticale è completamente controllata dalla logica del componente, tuttavia, l&#39;altezza delle miniature non cambia in modo dinamico a seconda della quantità di contenuto. L&#39;altezza del pollice e altri aspetti sono controllati con il seguente selettore di classe CSS:
+Il pollice della barra di scorrimento si sposta verticalmente all’interno dell’area della traccia di scorrimento. La sua posizione verticale è completamente controllata dalla logica del componente, tuttavia l’altezza della colonna non cambia dinamicamente a seconda della quantità di contenuto. L’altezza del pollice e altri aspetti sono controllati con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -269,37 +270,37 @@ La barra di scorrimento si sposta verticalmente all’interno dell’area della 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza della casella di scorrimento della barra di scorrimento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza del pollice della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riempimento superiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura superiore  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra la parte superiore della traccia della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura in basso  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura inferiore  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra il fondo della traccia della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Immagine visualizzata per un dato stato di pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Immagine visualizzata per un dato stato pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La funzione Thumb supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati della miniatura `up`, `down`, `over` e `disabled`.
+>La funzione Thumb supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati della miniatura `up`, `down`, `over` e `disabled`.
 
-Esempio: per impostare una miniatura della barra di scorrimento di 28 x 45 pixel, sono presenti margini di 10 pixel in alto e in basso e per ogni stato è disponibile un’immagine diversa.
+Esempio: per impostare un pollice della barra di scorrimento di 28 x 45 pixel, ha 10 margini pixel in alto e in basso e un’immagine diversa per ogni stato.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -324,7 +325,7 @@ Esempio: per impostare una miniatura della barra di scorrimento di 28 x 45 pixel
 }
 ```
 
-L&#39;aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento in alto e in basso è controllato con i seguenti selettori di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton`
 
@@ -341,31 +342,31 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Immagine visualizzata per un dato stato di pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Immagine visualizzata per un dato stato pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questi pulsanti supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse ai diversi stati del pulsante `up`, `down`, `over` e `disabled`.
+>Questi pulsanti supportano il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse ai diversi stati dei pulsanti `up`, `down`, `over` e `disabled`.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio: per impostare pulsanti di scorrimento con un&#39;immagine di 28 x 32 pixel e un&#39;immagine diversa per ogni stato.
+Esempio : per impostare pulsanti di scorrimento con 28 x 32 pixel e immagini diverse per ogni stato.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 
