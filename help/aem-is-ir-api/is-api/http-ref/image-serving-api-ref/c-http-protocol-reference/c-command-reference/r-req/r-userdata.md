@@ -1,15 +1,16 @@
 ---
-description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso url.
-seo-description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso url.
-seo-title: userdata
+description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso URL.
+seo-description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso URL.
+seo-title: dati utente
 solution: Experience Manager
-title: userdata
-topic: Dynamic Media Image Serving - Image Rendering API
+title: dati utente
 uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '212'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # userdata{#userdata}
 
-Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso url.
+Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso URL.
 
 `req=userdata[,text|{xml[, *`encoding`*]}|json]`
 
@@ -28,7 +29,7 @@ Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del cat
  </tr> 
 </table>
 
-Il contenuto di `catalog::UserData` viene restituito. Quando si specifica il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::UserData`vengono sostituite da terminatori di riga e un terminatore di riga singolo (CR/LF) viene aggiunto alla fine. Se il percorso dell’URL non corrisponde a una voce di catalogo valida, la risposta sarà costituita solo da un terminatore di riga singolo. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39;, viene applicata la formattazione appropriata.
+Vengono restituiti i contenuti di `catalog::UserData`. Quando si specifica il formato &quot;text&quot;, tutte le istanze di `??` in `catalog::UserData`vengono sostituite da terminatori di riga e alla fine viene aggiunto un terminatore di riga singolo (CR/LF). Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore di riga singolo. La formattazione appropriata viene applicata quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39;.
 
 Altri comandi nella stringa di richiesta vengono ignorati.
 
@@ -36,9 +37,9 @@ La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog:
 
 >[!NOTE]
 >
->Il carattere due punti non è consentito nei nomi delle chiavi delle proprietà userdata.
+>Il carattere due punti non è consentito nei nomi delle chiavi delle proprietà dati utente.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
