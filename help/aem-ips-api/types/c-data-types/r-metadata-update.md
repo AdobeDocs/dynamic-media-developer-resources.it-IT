@@ -1,15 +1,16 @@
 ---
-description: Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
-seo-description: Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
-seo-title: MetadataUpdate
+description: Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
+seo-description: Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
+seo-title: Aggiornamento metadati
 solution: Experience Manager
-title: MetadataUpdate
-topic: Dynamic Media Image Production System API
+title: Aggiornamento metadati
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # MetadataUpdate{#metadataupdate}
 
-Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
+Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
 
 >[!NOTE]
 >
->Se viene passato il campo del valore singolo, il valore del tag della risorsa verrà reimpostato sul valore del tag specificato.
+>Se viene passato il campo valore singolo, il valore del tag della risorsa verrà reimpostato sul valore tag specificato.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -37,7 +38,7 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle del campo metadati. </td> 
+   <td colname="col3"> Maniglia del campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
@@ -47,22 +48,22 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Valore dei metadati booleani (solo per i campi di tipo booleano). </td> 
+   <td colname="col3"> Valore di metadati booleani (solo per campi con tipo booleano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valore metadati lungo (solo per i campi con tipo int). </td> 
+   <td colname="col3"> Valore metadati lungo (solo per campi digitati). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valore di metadati doppio (solo per i campi con tipo mobile). </td> 
+   <td colname="col3"> Valore di metadati doppio (solo per campi con tipo mobile). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valore metadati data (solo per i campi con tipo data). </td> 
+   <td colname="col3"> Valore dei metadati della data (solo per i campi con tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
@@ -70,22 +71,22 @@ Imposta i valori di metadati per una risorsa specifica utilizzata con setAssetMe
    <td colname="col3"> <p>Aggiunge all’elenco dei valori dei tag esistenti per la risorsa. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">I campi tag a valore singolo memorizzano solo l’ultimo valore. </li> 
-      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Un campo di tag dizionario fisso restituisce un errore se il valore non è presente nel dizionario. </li> 
+      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Un campo tag dizionario fisso restituisce un errore se il valore non è presente nel dizionario. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
-   <td colname="col3">Sostituisce l’elenco di valori tag esistente per la risorsa. 
+   <td colname="col3">Sostituisce l’elenco dei valori dei tag esistenti per la risorsa. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">I campi tag a valore singolo memorizzano solo l’ultimo valore. </li> 
-     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Un campo di tag dizionario fisso restituisce un errore se il valore non è presente nel dizionario. </li> 
+     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Un campo tag dizionario fisso restituisce un errore se il valore non è presente nel dizionario. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
-   <td colname="col3"> Elimina i valori specificati dall'elenco dei valori tag della risorsa, se presente. </td> 
+   <td colname="col3"> Elimina i valori specificati dall’elenco dei valori dei tag della risorsa, se presenti. </td> 
   </tr> 
  </tbody> 
 </table>
