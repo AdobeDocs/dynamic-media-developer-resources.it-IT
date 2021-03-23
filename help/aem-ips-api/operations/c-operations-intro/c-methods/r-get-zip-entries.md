@@ -4,13 +4,14 @@ seo-description: Restituisce i dati del file ZIP.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 18%
+source-wordcount: '82'
+ht-degree: 17%
 
 ---
 
@@ -39,18 +40,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il file ZIP. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestire il file Zip. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda che contiene il file Zip. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci il file Zip. |
 
 **Output (getZipEntriesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | Sì | Array di voci in un file ZIP. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Sì | Array di voci in un file Zip. |
 
 ## Esempi {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Questo esempio di codice restituisce informazioni sul file ZIP, comprese le dimensioni compresse e non compresse.
+Questo esempio di codice restituisce informazioni sul file ZIP, incluse le dimensioni compresse e non compresse.
 
 **Request Contents (Richiesta contenuto)**
 
