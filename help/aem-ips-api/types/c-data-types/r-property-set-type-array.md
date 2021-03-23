@@ -1,23 +1,24 @@
 ---
-description: Matrice del tipo di set di proprietà.
-seo-description: Matrice del tipo di set di proprietà.
+description: Matrice di tipo set di proprietà.
+seo-description: Matrice di tipo set di proprietà.
 seo-title: PropertySetTypeArray
 solution: Experience Manager
 title: PropertySetTypeArray
-topic: Dynamic Media Image Production System API
 uuid: a35e55fe-7e61-4060-b0c2-93b551ad757d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 19%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
 
 # PropertySetTypeArray{#propertysettypearray}
 
-Matrice del tipo di set di proprietà.
+Matrice di tipo set di proprietà.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:PropertySetType` | L&#39;array del tipo di set di proprietà. |
+| `*`elementi`*` | `types:PropertySetType` | Matrice del tipo di set di proprietà. |
 
