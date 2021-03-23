@@ -1,15 +1,16 @@
 ---
-description: I dettagli di una voce del registro processi associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
-seo-description: I dettagli di una voce del registro processi associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
+description: Dettagli di una voce del registro di lavoro associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
+seo-description: Dettagli di una voce del registro di lavoro associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '131'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # AssetJobLog{#assetjoblog}
 
-I dettagli di una voce del registro processi associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
+Dettagli di una voce del registro di lavoro associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
 
 Sintassi
 
@@ -35,7 +36,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle processo. </td> 
+   <td colname="col3"> Maniglia di lavoro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -45,7 +46,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Messaggio nel registro dei processi. <p><span class="codeph"> Il campo </span> logMessageresponse è localizzato in base al campo  <span class="codeph"> </span> authHeaderlocale. </p></td> 
+   <td colname="col3">Messaggio nel registro dei processi. <p><span class="codeph"> Il campo </span> logMessage esponse è localizzato in base al campo  <span class="codeph"> </span> authHeaderlocale . </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
@@ -60,12 +61,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data processo. </td> 
+   <td colname="col3"> Data del lavoro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Matrice di messaggi del registro di processo ausiliario per ciascun registro di processo. </td> 
+   <td colname="col3"> Array di messaggi del registro di lavoro ausiliario per ciascun registro di lavoro. </td> 
   </tr> 
  </tbody> 
 </table>
