@@ -1,15 +1,16 @@
 ---
-description: URL per visualizzatore video interattivo.
-seo-description: URL per visualizzatore video interattivo.
-seo-title: interactivedata
+description: Comando URL per il visualizzatore video interattivo.
+seo-description: Comando URL per il visualizzatore video interattivo.
+seo-title: interattiva
 solution: Experience Manager
-title: interactivedata
-topic: Dynamic Media
+title: interattiva
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 4%
 
 # interactivedata{#interactivedata}
 
-URL per visualizzatore video interattivo.
+Comando URL per il visualizzatore video interattivo.
 
 `interactivedata= *`file`*`
 
-I dati interattivi consentono di associare determinate aree temporali del contenuto video ai dati del prodotto visualizzati successivamente nei campioni interattivi accanto al video. È inoltre associata al pannello call-to-action mostrato al termine della riproduzione video. Fornisce inoltre un titolo per il video interattivo visualizzato nel pannello di invito all’azione.
+I dati interattivi associano determinate aree temporali nel contenuto video ai dati del prodotto visualizzati in seguito nei campioni interattivi accanto al video. È inoltre associato nel pannello di invito all’azione mostrato al termine della riproduzione video. Fornisce inoltre un titolo per il video interattivo visualizzato nel pannello di invito all’azione.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
