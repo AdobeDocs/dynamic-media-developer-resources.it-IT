@@ -1,12 +1,13 @@
 ---
-description: Tutti i file di configurazione si trovano in install_folder/conf e possono essere modificati con la maggior parte degli editor di testo. Potrebbe essere necessario riavviare il server per rendere effettive le modifiche.
+description: Tutti i file di configurazione si trovano in install_folder/conf e sono modificabili con la maggior parte degli editor di testo. Potrebbe essere necessario riavviare il server per rendere effettive le modifiche.
 solution: Experience Manager
 title: File di configurazione del server
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # File di configurazione del server{#server-configuration-files}
 
-Tutti i file di configurazione si trovano in install_folder/conf e possono essere modificati con la maggior parte degli editor di testo. Potrebbe essere necessario riavviare il server per rendere effettive le modifiche.
+Tutti i file di configurazione si trovano in install_folder/conf e sono modificabili con la maggior parte degli editor di testo. Potrebbe essere necessario riavviare il server per rendere effettive le modifiche.
 
 >[!NOTE]
 >
->La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi che non sono descritti in questo documento. Tali proprietà sono destinate all’uso interno del server e non devono essere modificate a meno che non sia espressamente richiesto dal supporto tecnico Dynamic Media.
+>La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi non descritti in questo documento. Tali proprietà sono per uso interno del server e non devono essere modificate a meno che non sia specificamente indicato dal supporto tecnico Dynamic Media.
 
-Questo documento descrive le impostazioni per i seguenti file di configurazione:
+Questo documento illustra le impostazioni per i seguenti file di configurazione:
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
@@ -32,7 +33,7 @@ Questo documento descrive le impostazioni per i seguenti file di configurazione:
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisoreRegistry.xml</span> </p> </td> 
-   <td> <p>Configurazione del supervisore del server. </p> </td> 
+   <td> <p>Configurazione di Server Supervisore. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -52,9 +53,9 @@ Questo documento descrive le impostazioni per i seguenti file di configurazione:
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
-   <td> <p>Configurazione del server immagini. </p> </td> 
+   <td> <p>Configurazione del server di immagini. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I file di configurazione vengono descritti più dettagliatamente più avanti in questo documento.
+I file di configurazione vengono discussi più dettagliatamente più avanti in questo documento.
