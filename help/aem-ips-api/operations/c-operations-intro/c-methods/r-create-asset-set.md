@@ -1,15 +1,16 @@
 ---
-description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
-seo-description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
+description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
+seo-description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
 seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-topic: Dynamic Media Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # createAssetSet{#createassetset}
 
-Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
+Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
 
 Sintassi
 
@@ -48,13 +49,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della società che conterrà il set di risorse. </td> 
+   <td colname="col4"> L'handle della società che conterrà il set di risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> handle della cartella in cui verrà creato il nuovo set di risorse. </td> 
+   <td colname="col4"> L’handle della cartella in cui verrà creato il nuovo set di risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
@@ -72,31 +73,31 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> I parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
+   <td colname="col4"> Parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
+   <td colname="col4"> Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Funzioni di sostituzione per setDefinition**
 
-È possibile specificare le funzioni di sostituzione in linea risolte durante la ricerca nel catalogo o la pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono elencate di seguito.
+È possibile specificare le funzioni di sostituzione in linea risolte durante la ricerca o la pubblicazione del catalogo. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono enumerate di seguito.
 
 >[!NOTE]
 >
->I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi quadre `([])`. Tutto il testo esterno a una stringa di sostituzione viene copiato verbalmente nella stringa di output durante la risoluzione.
+>I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi `([])`. Tutto il testo che si trova al di fuori di una stringa di sostituzione viene copiato verbalmente nella stringa di output durante la risoluzione.
 
 | **Funzione di sostituzione** | **Restituisce** |
 |---|---|
 | `getFilePath([asset_handle>])` | Percorso del file sorgente principale della risorsa. |
 | `getCatalogId([<asset_handle>])` | ID catalogo della risorsa. |
-| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valori di metadati per la risorsa. |
-| `getThumbCatalogId([<asset_handle>])` | L’ID catalogo della risorsa (solo per le risorse basate su immagini). L’ID catalogo della risorsa miniatura associata (per altre risorse). Se una risorsa thumb associata non è disponibile, la funzione restituisce una stringa vuota. |
+| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valori metadati per la risorsa. |
+| `getThumbCatalogId([<asset_handle>])` | L’ID catalogo della risorsa (solo per le risorse basate su immagini). L’ID catalogo della risorsa miniatura associata (per altre risorse). Se una risorsa miniatura associata non è disponibile, la funzione restituisce una stringa vuota. |
 
 **Esempio di stringa setDefinition di file multimediali**
 
@@ -115,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | handle del set di risorse. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L&#39;handle del set di risorse. |
 
 ## Esempi {#section-fed53089de824d67ab96cd9103d384b4}
 
