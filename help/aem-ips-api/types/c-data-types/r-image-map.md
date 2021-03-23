@@ -1,36 +1,37 @@
 ---
-description: Eseguire il targeting per un'azione di clic nel browser.
-seo-description: Eseguire il targeting per un'azione di clic nel browser.
+description: Individua un’azione di clic nel browser.
+seo-description: Individua un’azione di clic nel browser.
 seo-title: Mappa immagine
 solution: Experience Manager
 title: Mappa immagine
-topic: Dynamic Media Image Production System API
 uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 11%
+source-wordcount: '113'
+ht-degree: 10%
 
 ---
 
 
 # Mappa immagine{#imagemap}
 
-Eseguire il targeting per un&#39;azione di clic nel browser.
+Individua un’azione di clic nel browser.
 
-Sempre associata a un’immagine. È possibile ottenere una destinazione `ImageMap` da `ImageInfo`.
+Sempre associata a un&#39;immagine. Puoi ottenere una destinazione `ImageMap` da `ImageInfo`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | Maniglia della mappa immagine. |
+| `*`imageMapHandle`*` | `xsd:string` | Maniglia mappa immagine. |
 | `*`name`*` | `xsd:string` | Nome mappa immagine. |
-| `*`regione`*` | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo di tag HTML `<area>`. |
-| `*`action`*` | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l&#39;URL `href`. |
-| `*`shapeType`*` | `xsd:boolean` | Un valore [!DNL RegionShape]. |
-| `*`position`*` | `xsd:string` | Posizione nel formato dell&#39;attributo `<area>` dell&#39;elemento HTML [!DNL coords]. Ad esempio: `coords ="0,0,84,128"`. |
-| `*`enabled`*` | `xsd:boolean` | True se la mappa immagine è abilitata. |
-| `*`lastModified`*` | `xsd:dateTime` | Data e ora dell’ultima modifica della mappa immagine. |
+| `*`regione`*` | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo tag HTML `<area>` . |
+| `*`action`*` | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l’ `href` URL. |
+| `*`shapeType`*` | `xsd:boolean` | Valore [!DNL RegionShape]. |
+| `*`position`*` | `xsd:string` | Posizione nel formato dell’attributo dell’elemento HTML `<area>` [!DNL coords] . Ad esempio: `coords ="0,0,84,128"`. |
+| `*`abilitato`*` | `xsd:boolean` | True se la mappa immagine è abilitata. |
+| `*`lastModified`*` | `xsd:dateTime` | Data e ora dell’ultima modifica apportata alla mappa immagine. |
 
