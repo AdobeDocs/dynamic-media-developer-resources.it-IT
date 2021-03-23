@@ -1,27 +1,28 @@
 ---
-description: Tipo di materiale. Tipo di superficie del materiale. Utilizzato insieme al catalogo Gloss e al catalogo Roughness per controllare gli effetti di rendering del riflesso 3D.
-seo-description: Tipo di materiale. Tipo di superficie del materiale. Utilizzato insieme al catalogo Gloss e al catalogo Roughness per controllare gli effetti di rendering del riflesso 3D.
+description: Tipo di materiale. Tipo di superficie del materiale. Utilizzato in combinazione con Gloss del catalogo e Roughness del catalogo per controllare gli effetti di rendering del riflesso 3D.
+seo-description: Tipo di materiale. Tipo di superficie del materiale. Utilizzato in combinazione con Gloss del catalogo e Roughness del catalogo per controllare gli effetti di rendering del riflesso 3D.
 seo-title: Tipo
 solution: Experience Manager
 title: Tipo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 28%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
 
 # Tipo{#type}
 
-Tipo di materiale. Tipo di superficie del materiale. Utilizzato insieme a catalog::Gloss e catalog::Roughness per controllare gli effetti di rendering del riflesso 3D.
+Tipo di materiale. Tipo di superficie del materiale. Utilizzato in combinazione con il catalogo::Gloss e catalog::Roughness per controllare gli effetti di rendering del riflesso 3D.
 
 ## Proprietà {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-Enum. Facoltativo per tutti i materiali. Ignorato se la vignettatura non dispone di funzionalità di rendering con riflesso 3D.
+Enum. Facoltativo per tutti i materiali. Ignorato se la vignetta non dispone di funzionalità di rendering di riflessi 3D.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -54,7 +55,7 @@ Enum. Facoltativo per tutti i materiali. Ignorato se la vignettatura non dispone
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Smalto/Laccato. </p> </td> 
+  <td class="stentry"> <p>Smalto/Lacca </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
@@ -108,7 +109,7 @@ Enum. Facoltativo per tutti i materiali. Ignorato se la vignettatura non dispone
 
 ## Predefinito {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; il server determinerà un predefinito appropriato in base ad altri attributi di materiale.
+0; il server determinerà un default appropriato in base ad altri attributi di materiale.
 
 ## Consultate anche {#section-a51850093b7140e683a0f8b07845843c}
 
