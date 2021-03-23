@@ -4,12 +4,13 @@ seo-description: La posizione del pulsante Aggiungi preferito è completamente g
 seo-title: Pulsante Aggiungi preferito
 solution: Experience Manager
 title: Pulsante Aggiungi preferito
-topic: Dynamic Media
 uuid: 0e2f7187-d5a9-42a4-b918-e4782d62be6c
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ La posizione del pulsante Aggiungi preferito è completamente gestita dal menu P
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L&#39;aspetto del pulsante Aggiungi preferito è controllato dal seguente selettore di classe CSS:
+L’aspetto del pulsante Aggiungi preferito è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton
@@ -32,12 +33,12 @@ L&#39;aspetto del pulsante Aggiungi preferito è controllato dal seguente selett
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -52,11 +53,11 @@ L&#39;aspetto del pulsante Aggiungi preferito è controllato dal seguente selett
 
 >[!NOTE]
 >
->Questo pulsante supporta i selettori di attributi `state` e `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato in cui un utente può aggiungere una nuova icona Preferiti facendo clic o toccando. `selected='false'` corrisponde alla modalità operativa normale quando un utente può eseguire operazioni di zoom, scorrimento e sostituzione delle pagine.
+>Questo pulsante supporta sia i selettori di attributi `state` che `selected` , che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato in cui un utente può aggiungere una nuova icona Preferiti facendo clic o toccando. `selected='false'` corrisponde alla modalità operativa normale quando un utente può eseguire lo zoom, la panoramica e lo scambio di pagine.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio: per impostare un pulsante Aggiungi preferito di 28x28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
+Esempio : per impostare un pulsante Aggiungi preferito di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati del pulsante diversi quando selezionato o non selezionato.
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton { 
