@@ -4,13 +4,14 @@ seo-description: Dati del set di immagini dal catalogo immagini. Restituisce i d
 seo-title: imageset
 solution: Experience Manager
 title: imageset
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8854e903-a85f-403a-ae3d-b7281a236262
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 7%
+source-wordcount: '193'
+ht-degree: 6%
 
 ---
 
@@ -32,11 +33,11 @@ Dati del set di immagini dal catalogo immagini. Restituisce i dati del set di im
  </tr> 
 </table>
 
-Il contenuto di `catalog::ImageSet` viene restituito senza ulteriori modifiche (ad eccezione della localizzazione delle stringhe, se applicabile), seguito da un terminatore a riga singola (CR/LF). Se il percorso dell’URL non corrisponde a una voce di catalogo valida, la risposta sarà costituita solo da un terminatore di riga singolo.
+Il contenuto di `catalog::ImageSet` viene restituito senza ulteriori modifiche (ad eccezione della localizzazione delle stringhe, se applicabile), seguito da un terminatore di riga singolo (CR/LF). Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore di riga singolo.
 
 Altri comandi nella stringa di richiesta vengono ignorati. La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::NonImgExpiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
