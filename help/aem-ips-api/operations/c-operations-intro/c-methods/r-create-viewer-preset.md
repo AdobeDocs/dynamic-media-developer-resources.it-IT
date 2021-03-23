@@ -1,23 +1,24 @@
 ---
-description: Consente di creare una visualizzazione predefinita che determina il contenuto visibile all’utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
-seo-description: Consente di creare una visualizzazione predefinita che determina il contenuto visibile all’utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
+description: Crea una visualizzazione preimpostata che determina cosa può vedere un utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
+seo-description: Crea una visualizzazione preimpostata che determina cosa può vedere un utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
+feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 10%
+source-wordcount: '199'
+ht-degree: 9%
 
 ---
 
 
 # createViewerPreset{#createviewerpreset}
 
-Consente di creare una visualizzazione predefinita che determina il contenuto visibile all’utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
+Crea una visualizzazione preimpostata che determina cosa può vedere un utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
 
 Sintassi
 
@@ -34,21 +35,21 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | handle della società che contiene i predefiniti per visualizzatori e le risorse. |
-| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella contenente le risorse. |
-| `*`name`*` | `xsd:string` | Sì | Nome visualizzatore. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società che contiene i predefiniti e le risorse per visualizzatori. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella contenente le risorse. |
+| `*`name`*` | `xsd:string` | Sì | Nome del visualizzatore. |
 | `*`type`*` | `xsd:string` | Sì | Tipo visualizzatore. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Un array che contiene nomi, valori e maniglie delle immagini a cui si applicano i predefiniti. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matrice che contiene nomi, valori e handle di immagini a cui si applicano i predefiniti. |
 
 **Output (createViewerPresetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sì | Gestione del predefinito per il visualizzatore. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sì | Gestione del predefinito al visualizzatore. |
 
 ## Esempi {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-Questo esempio di codice crea un predefinito per lettori video. La risposta restituisce una maniglia al predefinito.
+Questo esempio di codice crea un predefinito per lettore video. La risposta restituisce un handle al predefinito.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
