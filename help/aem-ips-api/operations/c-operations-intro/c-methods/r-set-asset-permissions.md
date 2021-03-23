@@ -1,15 +1,16 @@
 ---
-description: Imposta le autorizzazioni per una singola risorsa utilizzando una risorsa di autorizzazione.
-seo-description: Imposta le autorizzazioni per una singola risorsa utilizzando una risorsa di autorizzazione.
+description: Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
+seo-description: Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 7%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 7%
 
 # setAssetPermissions{#setassetpermissions}
 
-Imposta le autorizzazioni per una singola risorsa utilizzando una risorsa di autorizzazione.
+Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
 
-Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, non eredita più le autorizzazioni del relativo elemento padre a meno che non chiamiate `removeAssetPermissions`.
+Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, non eredita più le autorizzazioni del relativo elemento padre a meno che tu non chiami `removeAssetPermissions`.
 
 ## Tipi di utenti autorizzati {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -33,9 +34,9 @@ Per impostazione predefinita, le risorse ereditano le autorizzazioni della carte
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la cartella con cui desiderate lavorare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | handle della cartella. |
-| `*`permissionsArray`*` | `types:PermissionsUpdateArray` | Sì | Matrice delle autorizzazioni. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene la cartella con cui si desidera lavorare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sì | Matrice di autorizzazioni. |
 
 **Output (setAssetPermissonsReturn)**
 
