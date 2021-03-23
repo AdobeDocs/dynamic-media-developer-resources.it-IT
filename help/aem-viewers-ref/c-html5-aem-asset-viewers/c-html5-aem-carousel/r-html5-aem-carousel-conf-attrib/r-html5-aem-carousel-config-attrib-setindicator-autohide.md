@@ -2,30 +2,31 @@
 description: SetIndicator.autohide
 solution: Experience Manager
 title: SetIndicator.autohide
-topic: Dynamic Media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 4%
 
 ---
 
 
 # SetIndicator.autohide{#setindicator-autohide}
 
-` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`limit`*]`
+` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`limite`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limite</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Configura il comportamento di disattivazione automatica in base al numero di pagine e alle dimensioni del componente in fase di esecuzione. </p> <p> <span class="codeph"> 0</span> disattiva l'opzione Nascondi automatico. </p> <p> <span class="codeph"> 1 </span> abilita la funzione di disattivazione automatica. Il componente nasconde i punti se almeno una delle seguenti condizioni diventa true: </p> <p> 
+   <td colname="col2"> <p> Configura il comportamento di Nascondi automaticamente in base al numero di pagine e alle dimensioni del componente in fase di esecuzione. </p> <p> <span class="codeph"> 0</span> disattiva la funzione di nascondere automaticamente. </p> <p> <span class="codeph"> 1</span> abilita il mascheramento automatico. Il componente nasconde i punti se almeno una delle seguenti condizioni diventa vera: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">la riga con punti diventa più larga della larghezza del componente in fase di esecuzione, oppure </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">il numero di pagine impostato per questo componente supera il limite configurato dal parametro <span class="codeph"><span class="varname"> limit</span></span>. </li> 
-     </ul> </p> <p> Se si imposta <span class="codeph"><span class="varname"> limit</span></span> su <span class="codeph"> -1</span>, viene disattivata la seconda condizione di disattivazione automatica. </p> </td> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">il numero di pagine impostate per questo componente supera il limite configurato dal parametro <span class="codeph"><span class="varname"> limit</span></span> . </li> 
+     </ul> </p> <p> L'impostazione di <span class="codeph"><span class="varname"> limit</span></span> a <span class="codeph"> -1</span> disattiva la seconda condizione di auto-hide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
