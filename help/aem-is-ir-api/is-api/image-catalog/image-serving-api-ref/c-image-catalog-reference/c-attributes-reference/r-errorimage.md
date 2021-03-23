@@ -1,15 +1,16 @@
 ---
-description: Immagine della risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
-seo-description: Immagine della risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
+description: Immagine di risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
+seo-description: Immagine di risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
 seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 1%
 
 # ErrorImage{#errorimage}
 
-Immagine della risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
+Immagine di risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
 
-`attribute::ErrorImage` consente di configurare un’immagine, una voce di catalogo o un modello da restituire in caso di errore.
+`attribute::ErrorImage` consente di configurare un&#39;immagine, una voce di catalogo o un modello da restituire in caso di errore.
 
 >[!NOTE]
 >
 >Le immagini mancanti possono essere gestite anche con `attribute::DefaultImage`.
 
-È possibile configurare un modello Image Server che potrebbe rappresentare il testo del messaggio di errore nell’immagine della risposta. Le seguenti variabili predefinite possono essere incluse nel modello `$error.title`, che viene sostituito con una breve descrizione dell&#39;errore, e `$error.message`, che viene sostituito da una descrizione dell&#39;errore più dettagliata (il livello di dettaglio è configurato con `attribute::ErrorDetail`).
+È possibile configurare un modello Image Server che potrebbe eseguire il rendering del testo del messaggio di errore nell’immagine di risposta. Le seguenti variabili predefinite possono essere incluse nel modello `$error.title`, che viene sostituito da una breve descrizione dell’errore, e `$error.message`, che viene sostituito da una descrizione dell’errore più dettagliata (il livello di dettaglio è configurato con `attribute::ErrorDetail`).
 
-Se è possibile elaborare correttamente l&#39;immagine o il modello di errore, viene restituito lo stato HTTP 200. Se durante l&#39;elaborazione si verifica un errore, vengono restituiti lo stato di errore HTTP e un messaggio di testo.
+Se l’immagine/modello di errore può essere elaborato correttamente, viene restituito lo stato HTTP 200. Se si verifica un errore durante l’elaborazione, vengono restituiti lo stato di errore HTTP e un messaggio di testo.
 
 ## Proprietà {#section-f460c6c2dd1f46b29f9a79b093575f45}
 
@@ -35,11 +36,11 @@ Stringa di testo. Se specificato, deve essere un valore catalog::Id valido in un
 
 ## Predefinito {#section-2885f289e5714ddca665a6aee401967f}
 
-Ereditato da `default::ErrorImage` se non definito. Se definito ma vuoto, il comportamento dell&#39;immagine di errore è disabilitato, anche se è definito `default::ErrorImage`, e viene restituito uno stato di errore HTTP e un messaggio di testo.
+Ereditato da `default::ErrorImage` se non definito. Se definito ma vuoto, il comportamento dell’immagine di errore viene disabilitato, anche se è definito `default::ErrorImage`, e viene restituito uno stato di errore HTTP e un messaggio di testo.
 
 ## Esempio {#section-c92090abe1d247529542a8dd4960c2e6}
 
-Per ottenere immagini di risposta con il messaggio di errore rappresentato nell’immagine, è necessario innanzitutto definire il modello nel catalogo immagini. In questo caso, nel nostro catalogo immagini viene creata una voce denominata `onError`, contenente quanto segue in `catalog::Modifier`:
+Per ottenere immagini di risposta con il messaggio di errore di cui è stato eseguito il rendering nell’immagine, è necessario innanzitutto definire il modello nel catalogo immagini. In questo caso, creiamo una voce nel nostro catalogo immagini denominata `onError`, contenente quanto segue in `catalog::Modifier`:
 
 `size=300,300&bgc=ffffff&text=$error.message$`
 
@@ -47,7 +48,7 @@ Il modello è registrato con `attribute::ErrorImage`:
 
 `ErrorImage=myCatalog/onError`
 
-Per questo esempio, il testo verrà riprodotto utilizzando il font predefinito, il colore del font e la dimensione del font.
+In questo esempio, il testo verrà riprodotto utilizzando il font, il colore del font e le dimensioni del font predefiniti.
 
 ## Consultate anche {#section-bbf1f85fc0a34033bdda1dd3e4e0bbb6}
 
