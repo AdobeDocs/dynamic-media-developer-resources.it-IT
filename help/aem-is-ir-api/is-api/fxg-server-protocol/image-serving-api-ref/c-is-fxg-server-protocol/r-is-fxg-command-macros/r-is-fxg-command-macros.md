@@ -1,31 +1,32 @@
 ---
-description: Le macro di comandi forniscono collegamenti denominati per set di comandi.
-seo-description: Le macro di comandi forniscono collegamenti denominati per set di comandi.
-seo-title: Macro di comandi
+description: Le macro di comando forniscono collegamenti denominati per set di comandi.
+seo-description: Le macro di comando forniscono collegamenti denominati per set di comandi.
+seo-title: Macro di comando
 solution: Experience Manager
-title: Macro di comandi
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Macro di comando
 uuid: f90d5132-aa5b-424f-a123-838723ed891a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 
-# Macro comandi{#command-macros}
+# Macro di comando{#command-macros}
 
-Le macro di comandi forniscono collegamenti denominati per set di comandi.
+Le macro di comando forniscono collegamenti denominati per set di comandi.
 
-Le macro sono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
+Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
 
-Le macro possono essere invocate in qualsiasi punto di una richiesta dopo &#39;?&#39;, nonché ovunque all&#39;interno di un campo `catalog::Modifier`. Le macro possono rappresentare solo uno o più comandi Image Server completi, pertanto devono essere racchiusi tra separatori &#39;&amp;&#39; (tranne quando all&#39;inizio o alla fine della stringa del modificatore).
+Le macro possono essere richiamate in qualsiasi punto di una richiesta dopo &#39;?&#39;, nonché in qualsiasi punto all&#39;interno di un campo `catalog::Modifier`. Le macro possono rappresentare solo uno o più comandi Image Serving completi, pertanto devono essere racchiusi tra i separatori &#39;&amp;&#39; (tranne quando all&#39;inizio o alla fine della stringa del modificatore).
 
-Le chiamate delle macro vengono sostituite dalle relative stringhe di sostituzione nelle prime fasi dell&#39;analisi. I comandi all&#39;interno delle macro sostituiscono gli stessi comandi nella richiesta se si verificano prima della chiamata alla macro nella richiesta. Questo è diverso da `catalog::Modifier`, dove i comandi nella stringa di richiesta sostituiranno sempre i comandi nella stringa `catalog::Modifier`, indipendentemente dalla posizione nella richiesta.
+Le chiamate macro vengono sostituite dalle relative stringhe di sostituzione all&#39;inizio dell&#39;analisi. I comandi all’interno delle macro sostituiranno gli stessi comandi nella richiesta se si verificano prima della chiamata della macro nella richiesta. Questo è diverso da `catalog::Modifier`, dove i comandi nella stringa di richiesta sovrascrivono sempre i comandi nella stringa `catalog::Modifier`, indipendentemente dalla posizione nella richiesta.
 
-Le macro possono essere nidificate, con le seguenti limitazioni: una macro può essere invocata solo se è già definita al momento dell&#39;analisi della definizione della macro, apparendo in precedenza nello stesso file di definizione della macro oppure inserendo la definizione di tale macro incorporata nel file di definizione della macro predefinita.
+Le macro possono essere nidificate con le seguenti limitazioni: è possibile richiamare una macro solo se è già definita al momento dell&#39;analisi della definizione della macro, visualizzandola in precedenza nello stesso file di definizione della macro oppure inserendo la definizione di tale macro incorporata nel file di definizione della macro predefinita.
 
 Le macro possono essere utili se gli stessi attributi devono essere applicati a immagini diverse.
 
@@ -47,6 +48,6 @@ La macro viene utilizzata come segue:
 
 [!DNL http://server/cat/8243?$view$&wid=480]
 
-Poiché `wid=` è diverso per la terza richiesta, è sufficiente sostituire il valore *dopo* che la macro viene richiamata (specificando `wid=`*before* `$view$` non avrebbe alcun effetto).
+Poiché `wid=` è diverso per la terza richiesta, sovrascriviamo semplicemente il valore *dopo* la macro viene richiamata (specificare `wid=`*prima* `$view$` non avrebbe alcun effetto).
 
 + [name](r-name.md)
