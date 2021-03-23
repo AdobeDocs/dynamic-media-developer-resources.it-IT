@@ -1,40 +1,41 @@
 ---
-description: Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un'eruzione (raggio < 0) ai dati dell'immagine.
-seo-description: Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un'eruzione (raggio < 0) ai dati dell'immagine.
-seo-title: op_develop
+description: Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un'erode (raggio < 0) ai dati dell'immagine.
+seo-description: Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un'erode (raggio < 0) ai dati dell'immagine.
+seo-title: op_grow
 solution: Experience Manager
-title: op_develop
-topic: Dynamic Media Image Serving - Image Rendering API
+title: op_grow
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
 
 
-# op_develop{#op-grow}
+# op_grow{#op-grow}
 
-Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un&#39;eruzione (raggio &lt; 0) ai dati dell&#39;immagine.
+Dilata/erode immagine. Applica un dilato morfologico (raggio > 0) o un&#39;erode (raggio &lt; 0) ai dati dell&#39;immagine.
 
-`op_grow= *`radius`*`
+`op_grow= *`raggio`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilata/Raggio in pixel (numero intero -100.100). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> raggio</span></span> </p> </td> 
+  <td class="stentry"> <p>Dilata/raggio di erosione in pixel (int -100.100). </p></td> 
  </tr> 
 </table>
 
-`*``*` radiosi in pixel rispetto all’immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
+`*``*` radiosi in pixel rispetto all&#39;immagine composita. Se l’immagine è a colori, ogni componente viene elaborato in modo indipendente.
 
-Utilizzata principalmente per modificare le dimensioni degli effetti livello. È utile anche per ottenere effetti speciali sui livelli di testo o di colore in tinta unita con maschere.
+Utilizzato principalmente per modificare le dimensioni degli effetti di livello. È utile anche per ottenere effetti speciali sui livelli di testo o sui livelli a colori solidi con maschere.
 
 ## Proprietà {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Attributo layer. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
+Attributo livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
 
 ## Predefinito {#section-14c908bb87cb42acbea709effea2f964}
 
