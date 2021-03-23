@@ -2,11 +2,12 @@
 description: Crea un account utente e lo aggiunge a una o più società.
 solution: Experience Manager
 title: addUser
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '183'
 ht-degree: 12%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 12%
 
 Crea un account utente e lo aggiunge a una o più società.
 
-Quando aggiungete un utente a più società, specificate tali società in base alle relative handle aziendali in `companyHandleArray`. Questa operazione restituisce l’handle all’utente appena aggiunto.
+Quando aggiungi un utente a più società, specifica tali società in base ai relativi handle aziendali in `companyHandleArray`. Questa operazione restituisce l&#39;handle all&#39;utente appena aggiunto.
 
 ## Tipi di utenti autorizzati {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -31,20 +32,20 @@ Quando aggiungete un utente a più società, specificate tali società in base a
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`firstName`*` | `xsd:string` | Sì | Nome dell’utente. |
-| `*`lastName`*` | `xsd:string` | Sì | Cognome dell’utente. |
-| `*`e-mail`*` | `xsd:string` | Sì | L&#39;indirizzo e-mail dell&#39;utente. |
-| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` ha la priorità su altre impostazioni per società. |
+| `*`firstName`*` | `xsd:string` | Sì | Nome dell&#39;utente. |
+| `*`lastName`*` | `xsd:string` | Sì | Cognome dell&#39;utente. |
+| `*`e-mail`*` | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
+| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` sostituisce altre impostazioni per azienda. |
 | `*`password`*` | `xsd:string` | Sì | Imposta la password dell&#39;utente |
-| `*`passwordExpires`*` | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Specificate il fuso orario al momento del trasferimento della richiesta. I fusi orari sono regolati su Ora centrale. |
-| `*`isInvalid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è valido. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sì | Un array di handle della società. |
+| `*`passwordExpires`*` | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Specifica il fuso orario quando viene trasmessa la richiesta. I fusi orari sono regolati su Ora centrale. |
+| `*`isValid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è valido. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 
 **Output (addUserParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Sì | L’handle dell’utente. |
+| `*`userHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;utente. |
 
 ## Esempi {#section-2547cef622734b71919eef849960b5cb}
 
