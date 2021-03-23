@@ -1,15 +1,16 @@
 ---
-description: Descrive i valori utilizzati da vari parametri. Consultate l'elenco in questo articolo per i dettagli
-seo-description: Descrive i valori utilizzati da vari parametri. Consultate l'elenco in questo articolo per i dettagli
+description: Descrive i valori utilizzati da vari parametri. Vedi l'elenco in questo articolo per i dettagli
+seo-description: Descrive i valori utilizzati da vari parametri. Vedi l'elenco in questo articolo per i dettagli
 seo-title: Ruoli utente
 solution: Experience Manager
 title: Ruoli utente
-topic: Dynamic Media Image Production System API
 uuid: d971c6aa-981a-4e15-b268-7bd685bad03b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Ruoli utente{#user-roles}
 
-Descrive i valori utilizzati da vari parametri. Consultate l&#39;elenco in questo articolo per i dettagli
+Descrive i valori utilizzati da vari parametri. Vedi l&#39;elenco in questo articolo per i dettagli
 
 Sintassi
 
-## Utilizzata da {#section-b76ffce62661481abe2bb02adfd3f36f}
+## Utilizzato da {#section-b76ffce62661481abe2bb02adfd3f36f}
 
 * [!DNL `User/role`]
 * [!DNL `addUserParam/role`]
