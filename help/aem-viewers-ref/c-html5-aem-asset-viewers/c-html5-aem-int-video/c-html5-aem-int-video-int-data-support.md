@@ -1,15 +1,16 @@
 ---
-description: Il visualizzatore video interattivo supporta il rendering dei campioni interattivi in base ai dati interattivi passati al visualizzatore come parametro di configurazione.
-seo-description: Il visualizzatore video interattivo supporta il rendering dei campioni interattivi in base ai dati interattivi passati al visualizzatore come parametro di configurazione.
+description: Il Visualizzatore video interattivo supporta il rendering di campioni interattivi in base ai dati interattivi trasmessi al visualizzatore come parametro di configurazione.
+seo-description: Il Visualizzatore video interattivo supporta il rendering di campioni interattivi in base ai dati interattivi trasmessi al visualizzatore come parametro di configurazione.
 seo-title: Supporto dei dati interattivi
 solution: Experience Manager
 title: Supporto dei dati interattivi
-topic: Dynamic Media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -17,16 +18,16 @@ ht-degree: 0%
 
 # Supporto dei dati interattivi{#interactive-data-support}
 
-Il visualizzatore video interattivo supporta il rendering dei campioni interattivi in base ai dati interattivi passati al visualizzatore come parametro di configurazione.
+Il Visualizzatore video interattivo supporta il rendering di campioni interattivi in base ai dati interattivi trasmessi al visualizzatore come parametro di configurazione.
 
-Il campione correntemente visibile corrisponde all’area temporale del video a cui è associato. Toccando o facendo clic sul campione interattivo si attiva l’azione assegnata al campione al momento dell’authoring.
+Il campione attualmente visibile corrisponde all’area temporale del video a cui è associato. Tocca o fai clic sul campione interattivo per attivare l’azione assegnata al campione al momento dell’authoring.
 
-Un campione interattivo può attivare una visualizzazione rapida sulla pagina Web host attivando un callback JavaScript oppure reindirizzare l’utente a una pagina Web esterna.
+Il campione interattivo può attivare una Visualizzazione rapida sulla pagina Web in hosting attivando un callback JavaScript oppure reindirizzare l’utente a una pagina Web esterna.
 
-## Visualizzazione rapida {#section-7990e44f641042d2a38ba20c9413b3f8}
+## Informazioni sulla visualizzazione rapida {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in  AEM Assets - on-demand. Quando un utente attiva un tale campione, il visualizzatore esegue il callback JavaScript `quickViewActivate` e vi passa i dati del campione. È previsto che la pagina Web in cui è stato incorporato ascolti questo callback e, quando viene attivata, la pagina apre la propria implementazione Visualizzazione rapida.
+Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in AEM Assets - on-demand. Quando un utente attiva un campione di questo tipo, il visualizzatore esegue il callback JavaScript `quickViewActivate` e trasmette i dati del campione ad esso. È previsto che la pagina web di incorporamento ascolti questo callback e quando si attiva, la pagina apre la propria implementazione di Visualizzazione rapida.
 
-## Reindirizza a una pagina Web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Reindirizzare a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Campioni creati per il tipo di azione &quot;quickview&quot; in  AEM Assets - su richiesta reindirizzare l’utente a un URL esterno. A seconda delle impostazioni al momento dell’authoring, l’URL può essere aperto in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
+Campioni creati per il tipo di azione &quot;quickview&quot; in AEM Assets - su richiesta reindirizzano l’utente a un URL esterno. A seconda delle impostazioni al momento dell’authoring, l’URL può essere aperto in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
