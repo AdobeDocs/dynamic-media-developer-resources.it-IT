@@ -1,29 +1,30 @@
 ---
-description: L’area di visualizzazione principale è l’area occupata dall’immagine di zoom. In genere viene impostato per adattarsi allo schermo del dispositivo disponibile quando non vengono specificate dimensioni.
-seo-description: L’area di visualizzazione principale è l’area occupata dall’immagine di zoom. In genere viene impostato per adattarsi allo schermo del dispositivo disponibile quando non vengono specificate dimensioni.
+description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
+seo-description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
 seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-topic: Dynamic Media
 uuid: f37b8d25-4bd6-481e-88e7-98192186b177
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L’area di visualizzazione principale è l’area occupata dall’immagine di zoom. In genere viene impostato per adattarsi allo schermo del dispositivo disponibile quando non vengono specificate dimensioni.
+L&#39;area di visualizzazione principale è l&#39;area occupata dall&#39;immagine dello zoom. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7basiczoomviewer
@@ -46,7 +47,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
