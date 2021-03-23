@@ -1,15 +1,16 @@
 ---
-description: Descrive le costanti stringa nuove e modificate per l'API IPS versione 3.8.
-seo-description: Descrive le costanti stringa nuove e modificate per l'API IPS versione 3.8.
+description: Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.8.
+seo-description: Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.8.
 seo-title: Costanti stringa nuove e modificate
 solution: Experience Manager
 title: Costanti stringa nuove e modificate
-topic: Dynamic Media Image Production System API
 uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Costanti stringa: Nuovo e modificato{#string-constants-new-and-modified}
 
-Descrive le costanti stringa nuove e modificate per l&#39;API IPS versione 3.8.
+Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.8.
 
 Sintassi
 
@@ -25,13 +26,13 @@ Sintassi
 
 **Forma area**
 
-* Usato da: `ImageMap/shapeType`, `saveImageMapParam/shapeType`
+* Utilizzato da: `ImageMap/shapeType`, `saveImageMapParam/shapeType`
 
 * Valori: `Rectangle` e `Polygon`.
 
-**Pubblica stato**
+**Stato di pubblicazione**
 
-* Usato da: `searchAssetsParam/publishState` e `setAssetPublishStateParam/publishState`.
+* Utilizzato da: `searchAssetsParam/publishState` e `setAssetPublishStateParam/publishState`.
 
 * Valori: `MarkedForPublish` e `NotMarkedForPublish`.
 
@@ -39,6 +40,6 @@ Sintassi
 
 **Tipi di risorse**
 
-* Usato da: `createImageSetParam/type`.
+* Utilizzato da: `createImageSetParam/type`.
 * Valori: `InDesign` e `Flash`.
 
