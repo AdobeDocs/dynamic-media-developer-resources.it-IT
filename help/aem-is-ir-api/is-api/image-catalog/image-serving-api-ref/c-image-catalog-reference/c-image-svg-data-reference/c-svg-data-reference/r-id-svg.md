@@ -2,12 +2,13 @@
 description: ID
 solution: Experience Manager
 title: ID
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a700472c-e1eb-4eb0-95ff-7afd4ce27931
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '171'
 ht-degree: 5%
 
 ---
@@ -15,15 +16,15 @@ ht-degree: 5%
 
 # ID{#id}
 
-In genere, un identificatore breve e univoco, ad esempio un numero SKU, può contenere un qualche tipo di suffisso, ad esempio se uno SKU ha più immagini o ha varianti specifiche per le impostazioni internazionali. Può trattarsi anche di una stringa più complessa, più simile al percorso di un file, per facilitare l’adattamento dei siti Web con Image Server.
+In genere, un identificatore breve e univoco, ad esempio un numero SKU, può avere un qualche tipo di suffisso, ad esempio se un SKU ha più immagini o ha varianti specifiche per le impostazioni internazionali. Può anche essere una stringa più complessa che assomiglia più a un percorso di file, per supportare una facile ristrutturazione di siti web con Image Serving.
 
 >[!NOTE]
 >
->Le tabelle immagine e SVG vengono unite in una singola tabella al caricamento del catalogo immagini. I valori ID devono essere univoci in entrambe le tabelle. Il record SVG viene scartato se la tabella di immagini contiene un record con lo stesso valore ID. Il contenuto statico è gestito con una tabella separata; gli elementi di contenuto statico e gli elementi immagine/SVG possono quindi avere gli stessi valori ID.
+>Le tabelle immagine e SVG vengono unite in una singola tabella quando viene caricato il catalogo immagini. I valori ID devono essere univoci in entrambe le tabelle. Il record SVG viene scartato se la tabella di immagini contiene un record con lo stesso valore ID. Il contenuto statico è gestito con una tabella separata; gli elementi di contenuto statico e gli elementi immagine/SVG possono quindi avere gli stessi valori ID.
 
 ## Proprietà {#section-874a6853f67b4b229341ca76682884ae}
 
-Stringa di testo. Obbligatorio. Identificatore del record per la tabella di dati immagine/SVG o di contenuto statico. Ogni valore `catalog::Id` all&#39;interno di questo catalogo immagini/catalogo SVG o all&#39;interno di questo catalogo di contenuti statico deve essere univoco e non deve includere caratteri &#39;,&#39;.
+Stringa di testo. Obbligatorio. Identificatore del record per la tabella di dati immagine/SVG o contenuto statico. Ogni valore `catalog::Id` all&#39;interno di questo catalogo immagini/catalogo SVG o all&#39;interno di questo catalogo di contenuti statici deve essere univoco e non deve includere i caratteri &#39;,&#39;.
 
 ## Predefinito {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
