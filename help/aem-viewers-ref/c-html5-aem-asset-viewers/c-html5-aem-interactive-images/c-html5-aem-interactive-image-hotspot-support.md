@@ -1,30 +1,31 @@
 ---
-description: Supporto per i punti di attivazione
+description: Supporto per punti attivi
 solution: Experience Manager
-title: Supporto per i punti di attivazione
-topic: Dynamic Media
+title: Supporto per punti attivi
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
 
-# Supporto per punti di attivazione{#hotspot-support}
+# Supporto per punti attivi{#hotspot-support}
 
-Il visualizzatore supporta il rendering delle icone dei punti di attivazione sopra la vista principale. L’aspetto delle icone dei punti di attivazione è controllato tramite CSS come descritto nella sezione Hotspot.
+Il visualizzatore supporta il rendering delle icone dei punti attivi sopra la visualizzazione principale. L’aspetto delle icone dei punti attivi è controllato tramite CSS come descritto nella sezione Hotspot .
 
 Vedere [Punti attivi](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-I punti attivi possono attivare una funzione di visualizzazione rapida sulla pagina Web host attivando un callback JavaScript o reindirizzando un utente a una pagina Web esterna.
+Gli hotspot possono attivare una funzione di visualizzazione rapida sulla pagina web in hosting attivando un callback JavaScript o reindirizzando un utente a una pagina web esterna.
 
-## Punti di attivazione di Vista rapida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Punti attivi della visualizzazione rapida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Questi tipi di punti di attivazione devono essere creati utilizzando il tipo di azione &quot;Vista rapida&quot; in Dynamic Media, di  AEM Assets - su richiesta. Quando un utente attiva un tale punto di attivazione, il visualizzatore esegue il callback JavaScript `quickViewActivate` e vi passa i dati del punto di attivazione. È previsto che la pagina Web di incorporamento ascolti questo callback. Quando attiva la pagina, apre la propria implementazione di Vista rapida.
+Questi tipi di hotspot devono essere creati utilizzando il tipo di azione &quot;Quick View&quot; in Dynamic Media, di AEM Assets - on demand. Quando un utente attiva un punto attivo di questo tipo, il visualizzatore esegue il callback JavaScript `quickViewActivate` e trasmette i dati del punto attivo ad esso. È previsto che la pagina web di incorporamento ascolti questo callback. Quando attiva la pagina, apre la propria implementazione Visualizzazione rapida.
 
-## Reindirizza alla pagina Web esterna {#section-ef820c71251e4215800bb99c0c9ebe16}
+## Reindirizzare a una pagina Web esterna {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Punti attivi creati per il tipo di azione &quot;Vista rapida&quot; in Dynamic Media di  AEM Assets - su richiesta reindirizzano l’utente a un URL esterno. A seconda delle impostazioni effettuate durante la creazione, l’URL si apre in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
+Hotspot creati per il tipo di azione &quot;Visualizzazione rapida&quot; in Dynamic Media di AEM Assets - su richiesta reindirizzerà l’utente a un URL esterno. A seconda delle impostazioni effettuate durante l’authoring, l’URL viene aperto in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
