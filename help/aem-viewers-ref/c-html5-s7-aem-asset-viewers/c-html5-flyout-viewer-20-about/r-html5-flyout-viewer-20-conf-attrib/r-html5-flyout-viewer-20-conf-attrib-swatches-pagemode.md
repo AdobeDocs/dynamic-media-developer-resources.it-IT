@@ -2,13 +2,14 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-topic: Dynamic Media
 uuid: 67fb7f83-b7be-4f83-9bac-9772de39d35e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '73'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Quando sono attivati, i pulsanti di scorrimento consentono automaticamente ai campioni di passare all’intera lunghezza di pagina. </p> <p>Se i campioni non rientrano nell’intervallo, nell’ultima pagina viene visualizzato uno spazio vuoto aggiuntivo. Inoltre, l'ultima pagina ha lo stesso numero di celle di qualsiasi pagina precedente. </p> <p>Il passaggio di scorrimento viene ignorato e lo scorrimento del mouse viene impostato solo su pagine intere. </p> </td> 
+   <td colname="col2"> <p> Quando sono attivati, i pulsanti di scorrimento consentono automaticamente ai campioni di saltare una lunghezza di pagina intera. </p> <p>Nell’ultima pagina viene visualizzato spazio bianco aggiuntivo se i campioni non rientrano. Inoltre, l’ultima pagina ha lo stesso numero di celle di qualsiasi pagina precedente. </p> <p>Il passaggio di scorrimento viene ignorato e lo scorrimento del mouse viene impostato solo su pagine intere. </p> </td> 
   </tr> 
  </tbody> 
 </table>
