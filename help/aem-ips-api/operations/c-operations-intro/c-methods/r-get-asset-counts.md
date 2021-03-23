@@ -1,25 +1,26 @@
 ---
 description: Ottiene le risorse e il numero di risorse associate a una società specifica.
 seo-description: Ottiene le risorse e il numero di risorse associate a una società specifica.
-seo-title: getAssetCount
+seo-title: getAssetCounts
 solution: Experience Manager
-title: getAssetCount
-topic: Dynamic Media Image Production System API
+title: getAssetCounts
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '164'
+ht-degree: 7%
 
 ---
 
 
-# getAssetCount{#getassetcounts}
+# getAssetCounts{#getassetcounts}
 
 Ottiene le risorse e il numero di risorse associate a una società specifica.
 
-La `countArray` restituita è costituita da un array di `assetTypes` (tipo di dati `xsd:string`), ciascuno con un proprio campo di conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento dell&#39;array.
+Il `countArray` restituito è costituito da una matrice di `assetTypes` (tipo di dati `xsd:string`), ciascuna con il proprio campo conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento della matrice.
 Sintassi
 
 ## Tipi di utenti autorizzati {#section-6234754722184e828352f10eb18fbce9}
@@ -36,21 +37,21 @@ Sintassi
 
 ## Parametri {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**Input (getAssetCountParam)**
+**Input (getAssetCountsParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con le risorse da conteggiare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con le risorse che desideri conteggiare. |
 
 **Output (getAssetCountsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | No | Un array di tipi di risorse, ciascuno con un proprio campo di conteggio, che consente la rappresentazione di più tipi di risorse per elemento dell’array. |
+| `*`countArray`*` | `types:AssetCountArray` | No | Matrice di tipi di risorse, ciascuno con un proprio campo di conteggio, che consente la rappresentazione di più tipi di risorse per elemento dell’array. |
 
 ## Esempi {#section-6052a503eb3843f6adb99e200fdba280}
 
-Questo esempio di codice utilizza l&#39;handle della società come campo nel `getAssetCountsParam` inviato al server dei servizi Web IPS per ottenere i conteggi delle risorse.
+Questo esempio di codice utilizza l’handle dell’azienda come campo nel `getAssetCountsParam` inviato al server dei servizi Web IPS per ottenere i conteggi delle risorse.
 
 **Request Contents (Richiesta contenuto)**
 
