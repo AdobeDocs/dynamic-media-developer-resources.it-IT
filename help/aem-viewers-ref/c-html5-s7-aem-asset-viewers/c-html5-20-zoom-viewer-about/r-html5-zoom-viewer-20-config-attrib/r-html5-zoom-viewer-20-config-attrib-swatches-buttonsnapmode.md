@@ -2,13 +2,14 @@
 description: Swatches.buttomsnapmode
 solution: Experience Manager
 title: Swatches.buttomsnapmode
-topic: Dynamic Media
 uuid: 9e1aff9b-66a2-4eaa-a3ff-598504dcb1c3
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +22,15 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>Fa sì che i pulsanti si allineino accanto ai campioni. </p> </td> 
+   <td> <p>Provoca l’allineamento dei pulsanti accanto ai campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
-   <td> <p>Fa sì che i pulsanti si allineino accanto al bordo del componente. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> serpente</span> </span> </p> </td> 
+   <td> <p>Provoca l’allineamento dei pulsanti accanto al bordo del componente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
-   <td> <p>Fa sì che i pulsanti vengano rappresentati sopra ai campioni. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> sovrapposizione</span> </span> </p> </td> 
+   <td> <p>Provoca il rendering dei pulsanti sopra i campioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>
