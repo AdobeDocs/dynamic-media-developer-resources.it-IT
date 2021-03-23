@@ -1,21 +1,22 @@
 ---
 description: Utilizzato da searchAssetsParam/sortBy.
 seo-description: Utilizzato da searchAssetsParam/sortBy.
-seo-title: Campi ordinamento risorse
+seo-title: Campi di ordinamento delle risorse
 solution: Experience Manager
-title: Campi ordinamento risorse
-topic: Dynamic Media Image Production System API
+title: Campi di ordinamento delle risorse
 uuid: d7db11e4-3acf-457d-9708-64167fbea899
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '32'
+ht-degree: 3%
 
 ---
 
 
-# Campi ordinamento risorse{#asset-sort-fields}
+# Campi di ordinamento delle risorse{#asset-sort-fields}
 
 Utilizzato da searchAssetsParam/sortBy.
 
