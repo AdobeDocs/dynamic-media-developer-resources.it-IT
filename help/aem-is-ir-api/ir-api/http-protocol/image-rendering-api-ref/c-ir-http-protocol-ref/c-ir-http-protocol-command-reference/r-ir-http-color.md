@@ -1,40 +1,41 @@
 ---
-description: Colore di primo piano. Specifica il colore dei materiali in tinta unita o il colore additivo per i materiali colorabili.
-seo-description: Colore di primo piano. Specifica il colore dei materiali in tinta unita o il colore additivo per i materiali colorabili.
+description: Colore di primo piano. Specifica il colore dei materiali a colori solidi o il colore additivo per i materiali colorabili.
+seo-description: Colore di primo piano. Specifica il colore dei materiali a colori solidi o il colore additivo per i materiali colorabili.
 seo-title: color
 solution: Experience Manager
 title: color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 12%
 
 ---
 
 
 # color{#color}
 
-Colore di primo piano. Specifica il colore dei materiali in tinta unita o il colore additivo per i materiali colorabili.
+Colore di primo piano. Specifica il colore dei materiali a colori solidi o il colore additivo per i materiali colorabili.
 
 `color= *`color`*`
 
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
-  <td class="stentry"> <p>Valore colore RGB o grigio. </p></td> 
+  <td class="stentry"> <p>Valore del colore RGB o grigio. </p></td> 
  </tr> 
 </table>
 
 ## Proprietà {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-Attributo materiale. Obbligatorio per materiali in tinta unita, facoltativo per tutti gli altri materiali.
+Attributo materiale. Richiesto per i materiali a colori solidi, facoltativo per tutti gli altri materiali.
 
 ## Predefinito {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` se il materiale è basato su una voce di catalogo. In caso contrario, `none` non verrà applicato alcun colorante.
+`catalog::Color` se il materiale è basato su una voce di catalogo. In caso contrario, `none` non verrà applicato alcun colore.
 
 ## Consultate anche {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
