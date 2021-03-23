@@ -1,15 +1,16 @@
 ---
-description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento facoltativi a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono rientrare nella larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono rientrare nella larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
-seo-description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento facoltativi a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono rientrare nella larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono rientrare nella larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
+description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
+seo-description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 seo-title: Campioni
 solution: Experience Manager
 title: Campioni
-topic: Dynamic Media
 uuid: d44e775d-5253-4990-98a4-84ff50db09b9
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '513'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # Campioni{#swatches}
 
-I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento facoltativi a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono rientrare nella larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono rientrare nella larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
+I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 
 `.s7zoomviewer .s7swatches`
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto del contenitore dei campioni è controllato dal seguente selettore di classe CSS:
+L’aspetto del contenitore di campioni è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7zoomviewer .s7zoomresetbutton
@@ -63,7 +64,7 @@ Esempio: per impostare i campioni su 460 x 100 pixel.
 }
 ```
 
-La spaziatura tra le miniature dei campioni è controllata dal seguente selettore di classe CSS:
+La spaziatura tra le miniature dei campioni viene controllata con il seguente selettore di classe CSS:
 
 `.s7zoomviewer .s7swatches .s7thumbcell`
 
@@ -76,15 +77,15 @@ La spaziatura tra le miniature dei campioni è controllata dal seguente selettor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per la cella <span class="codeph"> .s7thumbnail </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Esempio**
 
-Per impostare la spaziatura su dieci pixel sia verticalmente che orizzontalmente.
+Impostare la spaziatura su dieci pixel sia verticalmente che orizzontalmente.
 
 ```
 .s7zoomviewer .s7swatches .s7thumbcell { 
@@ -92,7 +93,7 @@ Per impostare la spaziatura su dieci pixel sia verticalmente che orizzontalmente
 }
 ```
 
-L&#39;aspetto della singola miniatura è controllato dal seguente selettore di classe CSS:
+L’aspetto della singola miniatura viene controllato con il seguente selettore di classe CSS:
 
 `.s7zoomviewer .s7swatches .s7thumb`
 
@@ -105,11 +106,11 @@ L&#39;aspetto della singola miniatura è controllato dal seguente selettore di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -121,9 +122,9 @@ L&#39;aspetto della singola miniatura è controllato dal seguente selettore di c
 
 >[!NOTE]
 >
->La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
-Esempio: per impostare le miniature da 56 x 56 pixel, sono disponibili un bordo grigio chiaro predefinito e un bordo grigio scuro selezionato.
+Esempio : per impostare miniature con 56 x 56 pixel, sono disponibili un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
 
 ```
 .s7zoomviewer .s7swatches .s7thumb { 
@@ -138,7 +139,7 @@ Esempio: per impostare le miniature da 56 x 56 pixel, sono disponibili un bordo 
 }
 ```
 
-L&#39;aspetto dei pulsanti di scorrimento sinistro e destro è controllato dai seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento a sinistra e a destra è controllato con i seguenti selettori di classe CSS:
 
 `.s7zoomviewer .s7swatches .s7scrollleftbutton`
 
@@ -155,31 +156,31 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over` e `disabled`.
+>Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over` e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Esempio: per impostare pulsanti di scorrimento con 56 x 56 pixel e un&#39;immagine diversa per ogni stato.
+Esempio : per impostare pulsanti di scorrimento con 56 x 56 pixel e immagini diverse per ogni stato.
 
 ```
 .s7zoomviewer .s7swatches .s7scrollleftbutton { 
