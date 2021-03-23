@@ -1,44 +1,45 @@
 ---
-description: Evidenziazione dello stato attivo visualizzata attorno all'elemento dell'interfaccia utente del visualizzatore attivo.
-seo-description: Evidenziazione dello stato attivo visualizzata attorno all'elemento dell'interfaccia utente del visualizzatore attivo.
-seo-title: Evidenziazione dello stato
+description: Evidenziazione dello stato attivo visualizzata intorno all'elemento dell'interfaccia utente del visualizzatore mirato.
+seo-description: Evidenziazione dello stato attivo visualizzata intorno all'elemento dell'interfaccia utente del visualizzatore mirato.
+seo-title: Evidenziazione
 solution: Experience Manager
-title: Evidenziazione dello stato
-topic: Dynamic Media
+title: Evidenziazione
 uuid: 0bd36795-e663-4f0e-8310-a57c2ffae4a2
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 
-# Evidenziazione della messa a fuoco{#focus-highlight}
+# Evidenziazione messa a fuoco{#focus-highlight}
 
-Evidenziazione dello stato attivo visualizzata attorno all&#39;elemento dell&#39;interfaccia utente del visualizzatore attivo.
+Evidenziazione dello stato attivo visualizzata intorno all&#39;elemento dell&#39;interfaccia utente del visualizzatore mirato.
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-L&#39;aspetto dell&#39;evidenziazione dello stato attivo è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’evidenziazione dello stato attivo è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer *:focus
 ```
 
-**Proprietà CSS dell&#39;evidenziazione dello stato attivo**
+**Proprietà CSS dell&#39;evidenziazione**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
-   <td colname="col2"> <p> Stile evidenziazione dello stato attivo. </p> </td> 
+   <td colname="col2"> <p> Stile evidenziazione focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per disattivare l&#39;evidenziazione dello stato attivo predefinito del browser per tutti gli elementi dell&#39;interfaccia utente del visualizzatore, aggiungete il seguente selettore CSS al foglio di stile del visualizzatore:
+Esempio: per disabilitare l’evidenziazione di attivazione predefinita del browser per tutti gli elementi dell’interfaccia utente del visualizzatore, aggiungi il seguente selettore CSS al foglio di stile del visualizzatore:
 
 ```
 .s7ecatalogviewer *:focus { 
