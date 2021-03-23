@@ -4,12 +4,13 @@ seo-description: Ottiene gli utenti che appartengono a una società e a un grupp
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '100'
 ht-degree: 13%
 
 ---
@@ -33,7 +34,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
 | `*`groupHandle`*` | `xsd:string` |  | L&#39;handle del gruppo. |
 
 **Output (getGroupMembersReturn)**
@@ -44,7 +45,7 @@ Sintassi
 
 ## Esempi {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Questo esempio di codice restituisce un array di handle utente contenente tutti gli utenti appartenenti a un gruppo specifico.
+Questo esempio di codice restituisce un array di handle utente contenente tutti gli utenti che appartengono a un gruppo specifico.
 
 **Request Contents (Richiesta contenuto)**
 
