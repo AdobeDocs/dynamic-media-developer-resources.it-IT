@@ -1,15 +1,16 @@
 ---
-description: Rispondi al limite delle dimensioni dell’immagine. Larghezza e altezza massime dell'immagine di risposta che possono essere restituite al client.
-seo-description: Rispondi al limite delle dimensioni dell’immagine. Larghezza e altezza massime dell'immagine di risposta che possono essere restituite al client.
+description: Limite di dimensione dell'immagine della risposta. Larghezza e altezza massime dell'immagine di risposta che possono essere restituite al client.
+seo-description: Limite di dimensione dell'immagine della risposta. Larghezza e altezza massime dell'immagine di risposta che possono essere restituite al client.
 seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 22c5fac8-1e64-4917-8bb8-69a95ab549cb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # MaxPix{#maxpix}
 
-Rispondi al limite delle dimensioni dell’immagine. Larghezza e altezza massime dell&#39;immagine di risposta che possono essere restituite al client.
+Limite di dimensione dell&#39;immagine della risposta. Larghezza e altezza massime dell&#39;immagine di risposta che possono essere restituite al client.
 
-Il server restituisce un errore se una richiesta causerebbe un&#39;immagine di risposta la cui larghezza o altezza è maggiore di `attribute::MaxPix`.
+Il server restituisce un errore se una richiesta causa un&#39;immagine di risposta la cui larghezza o altezza è maggiore di `attribute::MaxPix`.
 
 ## Proprietà {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-Due numeri interi, maggiori di 0, separati da virgola. Larghezza e altezza in pixel. Può anche essere impostato su `0,0` per consentire qualsiasi dimensione immagine di risposta senza limitazioni.
+Due numeri interi, maggiori di 0, separati da una virgola. Larghezza e altezza in pixel. Può essere impostato anche su `0,0` per consentire qualsiasi dimensione dell&#39;immagine di risposta senza limitazioni.
 
 ## Predefinito {#section-1003537434da432fb2af100ecdbf9d72}
 
