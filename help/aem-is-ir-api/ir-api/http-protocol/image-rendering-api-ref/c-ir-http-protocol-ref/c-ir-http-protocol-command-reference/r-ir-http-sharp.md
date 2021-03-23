@@ -1,23 +1,24 @@
 ---
-description: Nitidezza della texture. Specifica la nitidezza da applicare durante il rendering del materiale.
-seo-description: Nitidezza della texture. Specifica la nitidezza da applicare durante il rendering del materiale.
-seo-title: sharp
+description: Nitidezza la texture. Specifica la nitidezza da applicare durante il rendering di questo materiale.
+seo-description: Nitidezza la texture. Specifica la nitidezza da applicare durante il rendering di questo materiale.
+seo-title: acuto
 solution: Experience Manager
-title: sharp
-topic: Dynamic Media Image Serving - Image Rendering API
+title: acuto
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
 
 
-# sharp{#sharp}
+# affilato{#sharp}
 
-Nitidezza della texture. Specifica la nitidezza da applicare durante il rendering del materiale.
+Nitidezza la texture. Specifica la nitidezza da applicare durante il rendering di questo materiale.
 
 `sharp=0|1|2|3`
 
@@ -32,7 +33,7 @@ Nitidezza della texture. Specifica la nitidezza da applicare durante il renderin
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0 nitidezza alternativa (nelle prime fasi). </p> </td> 
+  <td class="stentry"> <p>0 nitidezza alternativa (presto). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -40,13 +41,13 @@ Nitidezza della texture. Specifica la nitidezza da applicare durante il renderin
  </tr> 
 </table>
 
-`sharp=1` applica la nitidezza dopo la riproduzione del materiale;  `sharp=2` applica la nitidezza dopo il ridimensionamento iniziale della texture, ma prima che venga trasformata nella scena;  `sharp=3` applica la nitidezza sia prima che dopo la trasformazione.
+`sharp=1` applica la nitidezza dopo il rendering del materiale;  `sharp=2` applica la nitidezza dopo la scalatura iniziale della texture, ma prima che questa venga trasformata nella scena;  `sharp=3` applica la nitidezza sia prima che dopo la trasformazione.
 
-L’algoritmo di nitidezza e la quantità di nitidezza e altri parametri USM (maschera di contrasto) sono controllati dal modello di materiale predefinito fornito dalla vignettatura o con `rs=`.
+L’algoritmo di nitidezza e la quantità di nitidezza e altri parametri USM (Mascheramento non nitido) sono controllati dal modello di materiale predefinito fornito dalla vignetta o con `rs=`.
 
 ## Proprietà {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Attributo materiale. Ignorata dai materiali in tinta unita.
+Attributo materiale. Ignorato da materiali a colori solidi.
 
 ## Predefinito {#section-febfa16e65864987b4d328e2ff1df64d}
 
