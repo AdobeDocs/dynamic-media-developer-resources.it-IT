@@ -1,15 +1,16 @@
 ---
-description: Messaggio del cliente. Offre ai client la possibilità di inserire messaggi di testo brevi nel registro del server.
-seo-description: Messaggio del cliente. Offre ai client la possibilità di inserire messaggi di testo brevi nel registro del server.
+description: Messaggio client. Fornisce un meccanismo per i client per inserire messaggi di testo brevi nel registro del server.
+seo-description: Messaggio client. Fornisce un meccanismo per i client per inserire messaggi di testo brevi nel registro del server.
 seo-title: message
 solution: Experience Manager
 title: message
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # message{#message}
 
-Messaggio del cliente. Offre ai client la possibilità di inserire messaggi di testo brevi nel registro del server.
+Messaggio client. Fornisce un meccanismo per i client per inserire messaggi di testo brevi nel registro del server.
 
 `req=message&message= *`string`*`
 
@@ -28,4 +29,4 @@ Messaggio del cliente. Offre ai client la possibilità di inserire messaggi di t
  </tr> 
 </table>
 
-La risposta HTTP non è memorizzabile nella cache. Viene restituita una risposta vuota con tipo MIME `text/plain`.
+La risposta HTTP non è memorizzabile nella cache. Viene restituita una risposta vuota con il tipo MIME `text/plain`.
