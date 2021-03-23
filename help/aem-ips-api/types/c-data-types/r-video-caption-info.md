@@ -4,11 +4,13 @@ seo-description: Proprietà dei sottotitoli video
 seo-title: VideoCaptionInfo
 title: VideoCaptionInfo
 uuid: affd5019-9916-421d-8c4b-676d48bf010c
+feature: Dynamic Media Classic, SDK/API,Video
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
@@ -29,12 +31,12 @@ Proprietà dei sottotitoli video
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> OriginalPath</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Percorso relativo al video caricato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> OriginalFile</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nome del video originale. </p> </td> 
   </tr> 
