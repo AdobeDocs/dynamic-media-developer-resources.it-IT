@@ -1,21 +1,22 @@
 ---
-description: Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
-seo-description: Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
-seo-title: Riferimento del protocollo server FXG
+description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+seo-description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+seo-title: Riferimento al protocollo del server FXG
 solution: Experience Manager
-title: Riferimento del protocollo server FXG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Riferimento al protocollo del server FXG
 uuid: 368cef00-3009-4694-a014-746e4aa7df20
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
 
-# Riferimento del protocollo del server FXG{#fxg-server-protocol-reference}
+# Riferimento al protocollo del server FXG{#fxg-server-protocol-reference}
 
-Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
+Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
 
