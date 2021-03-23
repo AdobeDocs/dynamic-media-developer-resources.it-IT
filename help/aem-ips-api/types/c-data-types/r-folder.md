@@ -1,23 +1,24 @@
 ---
-description: Oggetto di memorizzazione gerarchica di file o risorse. Le cartelle possono contenere una (o più) sottocartelle.
-seo-description: Oggetto di memorizzazione gerarchica di file o risorse. Le cartelle possono contenere una (o più) sottocartelle.
+description: Oggetto di archiviazione di file o risorse gerarchici. Le cartelle possono contenere una (o più) sottocartelle.
+seo-description: Oggetto di archiviazione di file o risorse gerarchici. Le cartelle possono contenere una (o più) sottocartelle.
 seo-title: Cartella
 solution: Experience Manager
 title: Cartella
-topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 8%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
 
 # Cartella{#folder}
 
-Oggetto di memorizzazione gerarchica di file o risorse. Le cartelle possono contenere una (o più) sottocartelle.
+Oggetto di archiviazione di file o risorse gerarchici. Le cartelle possono contenere una (o più) sottocartelle.
 
 Sintassi
 
@@ -25,11 +26,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | handle della cartella. |
+| `*`folderHandle`*` | `xsd:string` | Maniglia della cartella. |
 | `*`path`*` | `xsd:string` | Percorso cartella. |
 | `*`lastModified`*` | `xsd:dateTime` | Data ultima modifica. |
 | `*`childLastModified`*` | `xsd:dateTime` | Data ultima modifica per le sottocartelle e le risorse secondarie della cartella. |
 | `*`permissionsSetHandle`*` | `xsd:string` | Gestione delle autorizzazioni della cartella. |
 | `*`hasSubfolder`*` | `types:Boolean` | Determina se una cartella contiene sottocartelle. |
-| `*`subfolderArray`*` | `types:FolderArray` | Un array di sottocartelle in una cartella. |
+| `*`subfolderArray`*` | `types:FolderArray` | Matrice di sottocartelle in una cartella. |
 
