@@ -1,23 +1,24 @@
 ---
-description: Un array di proprietà.
-seo-description: Un array di proprietà.
+description: Matrice di proprietà.
+seo-description: Matrice di proprietà.
 seo-title: PropertyArray
 solution: Experience Manager
 title: PropertyArray
-topic: Dynamic Media Image Production System API
 uuid: a28dd70f-953c-472a-9c23-020db134e1af
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 
 # PropertyArray{#propertyarray}
 
-Un array di proprietà.
+Matrice di proprietà.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:Property` | L&#39;array di proprietà. |
+| `*`elementi`*` | `types:Property` | Matrice di proprietà. |
 
