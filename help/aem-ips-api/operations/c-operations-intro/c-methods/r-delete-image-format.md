@@ -4,12 +4,13 @@ seo-description: Elimina un formato immagine. Ottenere la maniglia del formato i
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '121'
 ht-degree: 8%
 
 ---
@@ -34,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il formato immagine da eliminare. |
-| `*`imageFormatHandle`*` | `xsd:string` | Sì | La maniglia del formato immagine da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il formato immagine da eliminare. |
+| `*`imageFormatHandle`*` | `xsd:string` | Sì | Il punto di manipolazione del formato immagine che si desidera eliminare. |
 
 **Output (deleteImageFormatParam)**
 
@@ -43,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-Questo esempio di codice elimina un formato immagine da una società. Ottenete la maniglia del formato immagine da un’altra operazione.
+Questo esempio di codice elimina un formato immagine da un&#39;azienda. Ottenere la maniglia del formato immagine da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 
