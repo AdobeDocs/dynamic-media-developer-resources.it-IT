@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-topic: Dynamic Media
 uuid: 1ba6f24a-77bb-41ef-a831-a7ac817abd73
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -25,11 +26,11 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra al video quando il video viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questo caso, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita IconEffect in modo che venga visualizzato sopra al video quando il video viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questo caso, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il numero massimo di volte in cui IconEffect viene visualizzato e riappare. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente all'infinito. </p> </td> 
+   <td colname="col2"> <p> Specifica il numero massimo di volte in cui viene visualizzato e rivisualizzato IconEffect. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente indefinitamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dissolvenza</span> </span> </p> </td> 
@@ -37,7 +38,7 @@ Attributo di configurazione per il visualizzatore video.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi per cui IconEffect rimane visibile prima che venga automaticamente nascosto. ovvero il tempo dopo il completamento dell'animazione con dissolvenza in entrata e prima dell'avvio dell'animazione con dissolvenza in uscita. Un'impostazione di <span class="codeph"> 0</span> disattiva il comportamento di disattivazione automatica. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane visibile prima che si nasconda automaticamente. Cioè, il tempo dopo il completamento dell'animazione di dissolvenza in entrata e prima dell'avvio dell'animazione di dissolvenza in uscita. Un'impostazione di <span class="codeph"> 0</span> disattiva il comportamento di nascondere automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
