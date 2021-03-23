@@ -1,25 +1,26 @@
 ---
-description: Anche se i dati SVG e immagine sono molto simili, vengono conservati in tabelle separate nel catalogo immagini.
-seo-description: Anche se i dati SVG e immagine sono molto simili, vengono conservati in tabelle separate nel catalogo immagini.
-seo-title: Riferimento dati Immagine/SVG
+description: Anche se i dati immagine e SVG sono molto simili, vengono mantenuti in tabelle separate nel catalogo immagini.
+seo-description: Anche se i dati immagine e SVG sono molto simili, vengono mantenuti in tabelle separate nel catalogo immagini.
+seo-title: Riferimento dati immagine/SVG
 solution: Experience Manager
-title: Riferimento dati Immagine/SVG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Riferimento dati immagine/SVG
 uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
 
-# Riferimento dati Image/SVG{#image-svg-data-reference}
+# Riferimento dati immagine/SVG{#image-svg-data-reference}
 
-Anche se i dati SVG e immagine sono molto simili, vengono conservati in tabelle separate nel catalogo immagini.
+Anche se i dati immagine e SVG sono molto simili, vengono mantenuti in tabelle separate nel catalogo immagini.
 
-Se sono richiesti dati immagine, il percorso relativo o assoluto dei file di dati immagine che contengono gli elementi deve essere specificato in `attribute::CatalogFile`. Se sono richiesti dati SVG, il percorso relativo o assoluto dei file di dati SVG deve essere specificato in `attribute::SvgCatalogFile`.
+Se sono necessari dati immagine, il percorso relativo o assoluto dei file di dati immagine che compongono le immagini deve essere specificato in `attribute::CatalogFile`. Se sono necessari dati SVG, il percorso relativo o assoluto dei file di dati SVG deve essere specificato in `attribute::SvgCatalogFile`.
 
 * [Riferimento dati immagine](c-image-data-reference/c-image-data-reference.md)
 * [Riferimento dati SVG](c-svg-data-reference/c-svg-data-reference.md)
