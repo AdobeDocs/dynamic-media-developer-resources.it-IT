@@ -1,23 +1,24 @@
 ---
-description: Applica i flag. Specifica ulteriori opzioni di rendering.
-seo-description: Applica i flag. Specifica ulteriori opzioni di rendering.
+description: Applica dei flag. Specifica opzioni di rendering aggiuntive.
+seo-description: Applica dei flag. Specifica opzioni di rendering aggiuntive.
 seo-title: flag
 solution: Experience Manager
 title: flag
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
 
 
-# flags{#flags}
+# flag{#flags}
 
-Applica i flag. Specifica ulteriori opzioni di rendering.
+Applica dei flag. Specifica opzioni di rendering aggiuntive.
 
 `flags= *`val`*`
 
@@ -28,15 +29,15 @@ Applica i flag. Specifica ulteriori opzioni di rendering.
  </tr> 
 </table>
 
-Attualmente utilizzato solo per i materiali di armadio.
+Attualmente utilizzato solo per i materiali dei cabinet.
 
 `flags=0` (impostazione predefinita) esegue il rendering degli armadi superiori con porte solide.
 
-`flags=1` riproduce gli armadi superiori con porte in vetro (se la vignettatura è stata creata con porte in vetro).
+`flags=1` rende gli armadi superiori con porte in vetro (se la vignetta è stata creata con porte in vetro).
 
 ## Proprietà {#section-a2b00d7bb15e449ea85178acb92d8285}
 
-Attributo materiale. Ignorato se non è presente un materiale mobile o se l&#39;oggetto cabinet di destinazione non consente porte in vetro.
+Attributo materiale. Ignorato se non è un materiale mobile o se l&#39;oggetto mobile di destinazione non consente porte in vetro.
 
 ## Predefinito {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
