@@ -1,23 +1,24 @@
 ---
-description: Ottiene progetti per un gruppo di risorse correlate.
-seo-description: Ottiene progetti per un gruppo di risorse correlate.
+description: Ottiene i progetti per un gruppo di risorse correlate.
+seo-description: Ottiene i progetti per un gruppo di risorse correlate.
 seo-title: getProjects
 solution: Experience Manager
 title: getProjects
-topic: Dynamic Media Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 17%
+source-wordcount: '82'
+ht-degree: 15%
 
 ---
 
 
 # getProjects{#getprojects}
 
-Ottiene progetti per un gruppo di risorse correlate.
+Ottiene i progetti per un gruppo di risorse correlate.
 
 Sintassi
 
@@ -36,17 +37,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
 
 **Output (getProjectsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Sì | Array di progetti associati alla società. |
+| `*`projectArray`*` | `types:ProjectArray` | Sì | L&#39;array di progetti associati all&#39;azienda. |
 
 ## Esempi {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Questo esempio di codice restituisce tutti gli handle di progetto in un array di progetto.
+Questo esempio di codice restituisce tutti gli handle di progetto in una matrice di progetto.
 
 **Request Contents (Richiesta contenuto)**
 
