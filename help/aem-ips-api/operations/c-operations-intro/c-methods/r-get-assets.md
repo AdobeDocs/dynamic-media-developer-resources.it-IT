@@ -4,13 +4,14 @@ seo-description: Restituisce le risorse da IPS.
 seo-title: getAssets
 solution: Experience Manager
 title: getAssets
-topic: Dynamic Media Image Production System API
 uuid: ca06af8c-1753-4dfa-a7e6-1196ea769730
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 14%
+source-wordcount: '132'
+ht-degree: 13%
 
 ---
 
@@ -61,7 +62,7 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Impersona un utente specifico. Utilizzata solo dagli amministratori. </p> </td> 
+   <td colname="col4"> <p>Impersona un utente specifico. Utilizzato solo dagli amministratori. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -73,13 +74,13 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se esclusa, viene utilizzata la radice della società. </p> </td> 
+   <td colname="col4"> <p>Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Campi e sottocampi inclusi nella risposta. </p> </td> 
+   <td colname="col4"> <p>Campi e campi secondari inclusi nella risposta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
@@ -106,7 +107,7 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di risorse che corrispondono ai criteri del filtro. </p> </td> 
+   <td colname="col4"> <p>Array di risorse corrispondenti ai criteri del filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
