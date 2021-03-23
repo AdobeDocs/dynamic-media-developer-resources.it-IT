@@ -1,15 +1,16 @@
 ---
-description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo immagini.
-seo-description: Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo immagini.
+description: Percorso file delle definizioni dei set di regole. Specifica il file che contiene le definizioni dei set di regole per questo catalogo di immagini.
+seo-description: Percorso file delle definizioni dei set di regole. Specifica il file che contiene le definizioni dei set di regole per questo catalogo di immagini.
 seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9393e197-450a-4b7d-90ad-a6ea0204ee26
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # RuleSetFile{#rulesetfile}
 
-Percorso del file delle definizioni del set di regole. Specifica il file che contiene le definizioni del set di regole per questo catalogo immagini.
+Percorso file delle definizioni dei set di regole. Specifica il file che contiene le definizioni dei set di regole per questo catalogo di immagini.
 
 ## Proprietà {#section-e8449b2225294518a5f9ddb698f68360}
 
@@ -25,7 +26,7 @@ Valore stringa di testo. Percorso o percorso assoluto del file relativo alla car
 
 ## Predefinito {#section-20a9d535d64347abaf0233595b2ad089}
 
-Vuoto, che indica che il catalogo immagini non dispone di regole di preelaborazione per richieste private.
+Vuoto, che indica che questo catalogo di immagini non dispone di regole private di preelaborazione delle richieste.
 
 ## Consultate anche {#section-83a41bf1a953429ab6f35249e0e6c27f}
 
