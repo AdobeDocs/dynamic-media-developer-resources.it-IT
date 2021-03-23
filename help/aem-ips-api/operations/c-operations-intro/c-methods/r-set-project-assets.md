@@ -4,13 +4,14 @@ seo-description: Assegnare o aggiornare le risorse in un progetto.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
 
@@ -36,19 +37,19 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`projectHandle`*` | `xsd:string` | Sì | Handle del progetto. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sì | L’array di handle di risorsa da associare al progetto. |
+| `*`companyName`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`projectHandle`*` | `xsd:string` | Sì | Maniglia del progetto. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle di risorsa da associare al progetto. |
 
 **Output (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiunte con successo. |
+| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiunte correttamente. |
 
 ## Esempi {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Questo esempio di codice assegna una risorsa a un progetto. La richiesta restituisce un conteggio di successo di uno.
+Questo codice di esempio assegna una risorsa a un progetto. La richiesta restituisce un conteggio di successo di uno.
 
 **Request Contents (Richiesta contenuto)**
 
