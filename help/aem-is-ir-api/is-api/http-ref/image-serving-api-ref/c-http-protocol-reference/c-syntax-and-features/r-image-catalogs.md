@@ -1,15 +1,16 @@
 ---
 description: Le funzioni e la sintassi dei cataloghi di immagini sono descritte in questa sezione.
 seo-description: Le funzioni e la sintassi dei cataloghi di immagini sono descritte in questa sezione.
-seo-title: Cataloghi delle immagini
+seo-title: Cataloghi di immagini
 solution: Experience Manager
-title: Cataloghi delle immagini
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Cataloghi di immagini
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -19,19 +20,19 @@ ht-degree: 0%
 
 Le funzioni e la sintassi dei cataloghi di immagini sono descritte in questa sezione.
 
-I cataloghi di immagini offrono le seguenti funzionalità:
+I cataloghi di immagini offrono le seguenti caratteristiche:
 
-* Consenti associazione permanente di immagini con alcuni metadati e comandi di modificatore.
+* Consenti associazione persistente di immagini con determinati comandi di metadati e modificatori.
 
-   Le voci nei cataloghi delle immagini sono segnalate utilizzando una notazione di scelta rapida `*`rootId/objId`*`, dove `*`rootId`*` identifica il catalogo immagini e `*`objId`*` identifica un record di dati nel catalogo.
-* Specificate i valori predefiniti per alcuni attributi di richiesta, ad esempio la qualità JPEG o se applicare una filigrana.
-* Gestione di font, profili ICC, definizioni di macro e modelli di richiesta
+   Le voci nei cataloghi di immagini sono referenziate utilizzando una notazione di scelta rapida `*`rootId/objId`*`, dove `*`rootId`*` identifica il catalogo immagini e `*`objId`*` identifica un record di dati nel catalogo.
+* Specifica i valori predefiniti per alcuni attributi di richiesta, ad esempio la qualità JPEG o se applicare una filigrana.
+* Gestione di font, profili ICC, definizioni macro e modelli di richiesta
 
 Anche se non sono definiti cataloghi di immagini specifici, tutte le funzioni dei cataloghi di immagini sono disponibili tramite il catalogo predefinito ( [!DNL default.ini]).
 
-Se `*`rootId`*` nel percorso dell&#39;URL della richiesta corrisponde a `attribute::RootId` di un catalogo immagini specifico, tale catalogo diventerà il catalogo principale per la richiesta. Il catalogo principale fornisce gli attributi e le impostazioni predefiniti per l’intera richiesta. Se non viene trovata alcuna corrispondenza, viene utilizzato il catalogo predefinito.
+Se `*`rootId`*` nel percorso URL della richiesta corrisponde a `attribute::RootId` di un catalogo di immagini specifico, tale catalogo diventerà il catalogo principale per questa richiesta. Il catalogo principale fornisce gli attributi e le impostazioni predefiniti per l’intera richiesta. Se non viene trovata alcuna corrispondenza, viene utilizzato invece il catalogo predefinito.
 
-Un catalogo identificato in un comando `src=` o `mask=` fornisce i seguenti attributi e dati di catalogo al livello corrente:
+Un catalogo identificato in un comando `src=` o `mask=` fornisce al livello corrente i seguenti attributi e dati di catalogo:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -42,24 +43,24 @@ Un catalogo identificato in un comando `src=` o `mask=` fornisce i seguenti attr
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
-   <td> <p> l’estensione predefinita per tutti i percorsi dei file immagine nel livello corrente </p> </td> 
+   <td> <p> <span class="codeph"> attributo::DefaultExt</span> </p> </td> 
+   <td> <p> estensione predefinita per tutti i percorsi dei file immagine nel livello corrente </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::Scadenza</span> </p> </td> 
-   <td> <p> impostazione predefinita per il catalogo <span class="codeph">::Scadenza</span> o scadenza del livello corrente se non è coinvolto alcun record catalogo </p> </td> 
+   <td> <p> predefinito per il catalogo <span class="codeph">::Scadenza</span> o scadenza del livello corrente se non è coinvolto alcun record di catalogo </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
-   <td> <p> il profilo colore ICC di lavoro, l’intento di rendering e il flag di compensazione del punto nero per la richiesta e/o il livello corrente </p> </td> 
+   <td> <p> <span class="codeph"> attributo::Icc*</span> </p> </td> 
+   <td> <p> il profilo colore ICC di lavoro, l'intento di rendering e il flag di compensazione del punto nero per la richiesta e/o il livello corrente </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::RootPath</span> </p> </td> 
    <td> <p> utilizzato per tutti i percorsi di file sorgente del livello corrente </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute:Resolution</span> </p> </td> 
-   <td> <p> impostazione predefinita solo per il catalogo <span class="codeph">::Resolution</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::Resolution</span> </p> </td> 
+   <td> <p> predefinito solo per il catalogo <span class="codeph">::Resolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::Ancoraggio</span> </p> </td> 
@@ -67,14 +68,14 @@ Un catalogo identificato in un comando `src=` o `mask=` fornisce i seguenti attr
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::Scadenza</span> </p> </td> 
-   <td> <p> il valore di scadenza più piccolo di tutti i livelli viene utilizzato come valore time-to-live dell’immagine di risposta </p> </td> 
+   <td> <p> il valore di scadenza più piccolo di tutti i livelli viene utilizzato come valore time-to-live dell'immagine di risposta </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::IccProfile</span> </p> </td> 
    <td> <p> profilo colore immagine sorgente per il livello corrente </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:Mappa</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Mappa</span> </p> </td> 
    <td> <p> i dati della mappa immagine per il livello corrente </p> </td> 
   </tr> 
   <tr> 
@@ -82,29 +83,29 @@ Un catalogo identificato in un comando `src=` o `mask=` fornisce i seguenti attr
    <td> <p> impostazione predefinita per <span class="codeph"> mask=</span> per il livello corrente </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:Modificatore</span> </p> </td> 
-   <td> <p> i comandi di prefisso per il livello corrente (ogni comando nel catalogo <span class="codeph">::Modificatore</span> può essere ignorato dallo stesso comando nell'URL, se specificato per lo stesso livello) </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Modificatore</span> </p> </td> 
+   <td> <p> i comandi di prefisso per il livello corrente (ogni comando nel catalogo <span class="codeph">::Modifier</span> può essere ignorato dallo stesso comando nell'URL, se specificato per lo stesso livello) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:Percorso</span> </p> </td> 
-   <td> <p> il file immagine sorgente per il livello corrente </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Percorso</span> </p> </td> 
+   <td> <p> il file di immagine sorgente per il livello corrente </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::PostModifier</span> </p> </td> 
-   <td> <p> i comandi postfix per il livello corrente (simili al catalogo <span class="codeph">::Modificatore</span>, ma i comandi nel catalogo <span class="codeph">::PostModifier</span> prevalgono sugli stessi comandi specificati nell'URL o nel catalogo <span class="codeph">::Modificatore</span>) </p> </td> 
+   <td> <p> i comandi postfix per il livello corrente (simili a <span class="codeph"> catalog::Modifier</span>, ma i comandi nel catalogo <span class="codeph">::PostModifier</span> sovrascrivono gli stessi comandi specificati nell'URL o nel catalogo <span class="codeph">::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:Risoluzione</span> </p> </td> 
-   <td> <p> la risoluzione oggetto del livello corrente </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Risoluzione</span> </p> </td> 
+   <td> <p> la risoluzione dell'oggetto del livello corrente </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Nello stesso livello, `src=` e `mask=` devono fare riferimento allo stesso catalogo immagini (se presente).
+All’interno dello stesso livello, `src=` e `mask=` devono fare riferimento allo stesso catalogo immagini (se presente).
 
-Un catalogo identificato in un comando `icc=` viene utilizzato solo per cercare una voce dalla tabella del profilo ICC del catalogo. Non sono coinvolti altri attributi o dati del catalogo.
+Un catalogo identificato in un comando `icc=` viene utilizzato solo per cercare una voce dalla tabella del profilo ICC del catalogo. Non sono coinvolti altri attributi o dati di catalogo.
 
-Se `*`rootId`*` viene risolto in un catalogo e `*`objId`*` viene confrontato con un `catalog::Id` in questo catalogo, `*`rootId/objId`*` viene effettivamente sostituito dalla voce del catalogo in modo simile a questo:
+Se `*`rootId`*` viene risolto in un catalogo e `*`objId`*` corrisponde a `catalog::Id` in questo catalogo, `*`rootId/objId`*` viene effettivamente sostituito dalla voce di catalogo in modo simile a questa:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
