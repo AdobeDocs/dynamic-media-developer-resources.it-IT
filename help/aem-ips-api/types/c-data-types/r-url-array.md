@@ -1,23 +1,24 @@
 ---
-description: Un array di URL per annullare la validità della cache CDN.
-seo-description: Un array di URL per annullare la validità della cache CDN.
+description: Array di URL per annullare la validità della cache CDN.
+seo-description: Array di URL per annullare la validità della cache CDN.
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 
 # UrlArray{#urlarray}
 
-Un array di URL per annullare la validità della cache CDN.
+Array di URL per annullare la validità della cache CDN.
 
 **Supportato da**
 
@@ -37,7 +38,7 @@ Un array di URL per annullare la validità della cache CDN.
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> Elenco di URL da annullare. Limitato a un massimo di 1000 URL dalla definizione WSDL. </p> </td> 
+   <td> <p> Elenco di URL da annullare la validità. Limitato a un massimo di 1000 URL dalla definizione WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
