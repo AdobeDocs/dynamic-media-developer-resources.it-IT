@@ -1,23 +1,24 @@
 ---
-description: Contiene informazioni sulle condizioni di avviso o di errore generate durante un'operazione batch di risorse. I campi codice e motivo corrispondono ai campi messaggio di errore che sarebbero stati generati per l'operazione non batch equivalente.
-seo-description: Contiene informazioni sulle condizioni di avviso o di errore generate durante un'operazione batch di risorse. I campi codice e motivo corrispondono ai campi messaggio di errore che sarebbero stati generati per l'operazione non batch equivalente.
+description: Contiene informazioni sulle condizioni di avviso o di errore generate durante un’operazione batch di risorse. I campi codice e motivo corrispondono ai campi del messaggio di errore che sarebbero stati generati per l’operazione non batch equivalente.
+seo-description: Contiene informazioni sulle condizioni di avviso o di errore generate durante un’operazione batch di risorse. I campi codice e motivo corrispondono ai campi del messaggio di errore che sarebbero stati generati per l’operazione non batch equivalente.
 seo-title: AssetOperationFault
 solution: Experience Manager
 title: AssetOperationFault
-topic: Dynamic Media Image Production System API
 uuid: fb6c5482-6e16-4561-927b-e4daeb7bdd7b
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
 
 # AssetOperationFault{#assetoperationfault}
 
-Contiene informazioni sulle condizioni di avviso o di errore generate durante un&#39;operazione batch di risorse. I campi codice e motivo corrispondono ai campi messaggio di errore che sarebbero stati generati per l&#39;operazione non batch equivalente.
+Contiene informazioni sulle condizioni di avviso o di errore generate durante un’operazione batch di risorse. I campi codice e motivo corrispondono ai campi del messaggio di errore che sarebbero stati generati per l’operazione non batch equivalente.
 
 Sintassi
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Handle risorsa per l&#39;operazione non riuscita. |
-| `*`code`*` | `xsd:int` | Codice di errore operativo. |
-| `*`reason`*` | `xsd:string` | Descrizione dell&#39;errore o motivo. |
+| `*`assetHandle`*` | `xsd:string` | Handle risorsa per l’operazione non riuscita. |
+| `*`codice`*` | `xsd:int` | Codice di errore dell&#39;operazione. |
+| `*`motivo`*` | `xsd:string` | Descrizione o motivo di errore. |
 
