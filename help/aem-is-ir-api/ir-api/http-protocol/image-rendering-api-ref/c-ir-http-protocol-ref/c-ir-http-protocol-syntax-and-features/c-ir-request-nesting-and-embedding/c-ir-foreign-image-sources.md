@@ -4,25 +4,26 @@ seo-description: Image Server supporta l’accesso alle immagini sorgente su ser
 seo-title: Origini immagine straniere
 solution: Experience Manager
 title: Origini immagine straniere
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 28a17400-4807-4e14-937a-80309be53d55
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 
-# Origini immagine straniere{#foreign-image-sources}
+# Origini immagine esterne{#foreign-image-sources}
 
 Image Server supporta l’accesso alle immagini sorgente su server HTTP e FTP esterni.
 
-Per specificare un URL esterno per un comando `src=` o `mask=`; delimitate semplicemente l’intero URL incorporato con parentesi graffe:
+Per specificare un URL esterno per un comando `src=` o `mask=`; delimita semplicemente l’intero URL incorporato con parentesi graffe:
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-Sono consentiti URL assoluti completi (se è impostato `attribute::AllowDirectUrls`) e URL relativi a `attribute::RootUrl`. Si verifica un errore se un URL assoluto è incorporato e attributo: `AllowDirectUrls` è 0 oppure se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
+Sono consentiti gli URL assoluti completi (se è impostato `attribute::AllowDirectUrls`) e gli URL relativi a `attribute::RootUrl` . Si verifica un errore se un URL assoluto è incorporato e attributo: `AllowDirectUrls` è 0 oppure se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
 
-Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di cache incluse nella risposta HTTP.
+Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di memorizzazione nella cache incluse nella risposta HTTP.
