@@ -1,34 +1,35 @@
 ---
 description: Image Rendering fornisce un semplice pre-processore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 seo-description: Image Rendering fornisce un semplice pre-processore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
-seo-title: Richiesta pre-elaborazione *
+seo-title: Richiesta di pre-elaborazione *
 solution: Experience Manager
-title: Richiesta pre-elaborazione *
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Richiesta di pre-elaborazione *
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 
-# Richiesta pre-elaborazione *{#request-pre-processing}
+# Richiedi pre-elaborazione *{#request-pre-processing}
 
 Image Rendering fornisce un semplice pre-processore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 
-Le raccolte di regole (set di regole) possono essere collegate a ciascun catalogo di materiali, incluso il catalogo predefinito. Le regole sono specificate con i file in formato XML.
+Le raccolte di regole (set di regole) possono essere collegate a ciascun catalogo di materiali, incluso il catalogo predefinito. Le regole vengono specificate con file in formato XML.
 
-Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dal parser di rendering immagini, compresa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. Le regole possono essere utilizzate anche per configurare e ignorare alcune funzioni che normalmente sono controllate solo con gli attributi del catalogo, come l&#39;impostazione della dimensione predefinita dell&#39;immagine di risposta o la limitazione del servizio HTTP a indirizzi IP client specifici.
+Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dal parser Image Rendering, inclusa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. Le regole possono anche essere utilizzate per configurare e sostituire alcune funzioni che sono normalmente controllate solo con gli attributi del catalogo, ad esempio per impostare la dimensione predefinita dell’immagine di risposta o per limitare il servizio HTTP a specifici indirizzi IP del client.
 
-Le regole di pre-elaborazione delle richieste sono adatte a una serie di applicazioni, alcune delle quali sono elencate di seguito:
+Le regole di pre-elaborazione delle richieste sono adatte a diverse applicazioni, alcune delle quali sono elencate di seguito:
 
-* Implementa un meccanismo *percorsi virtuali* che consente di mappare nuovamente il percorso della richiesta su file, FTP e percorsi HTTP.
-* Disattivazione dell&#39;uso di comandi CPU per evitare abusi del server.
-* Potete controllare le impostazioni di qualità dell’immagine (come la qualità JPEG o la nitidezza) in base al percorso o al nome dell’immagine richiesti.
+* Implementa un meccanismo *percorsi virtuali* che consente di mappare nuovamente il percorso della richiesta a percorsi di file, FTP e HTTP.
+* Disabilitare l&#39;uso di comandi che richiedono un uso intensivo della CPU per evitare abusi del server.
+* Controlla le impostazioni di qualità dell&#39;immagine (come la qualità JPEG o la nitidezza) a seconda del percorso della richiesta o del nome dell&#39;immagine.
 
 Informazioni dettagliate sulla creazione, l&#39;utilizzo e la gestione dei set di regole sono disponibili in Riferimento set di regole.
 
-Vedere anche Riferimento set di regole, attributo::RuleSetFile
+Vedi anche Riferimento set di regole, attributo::RuleSetFile
