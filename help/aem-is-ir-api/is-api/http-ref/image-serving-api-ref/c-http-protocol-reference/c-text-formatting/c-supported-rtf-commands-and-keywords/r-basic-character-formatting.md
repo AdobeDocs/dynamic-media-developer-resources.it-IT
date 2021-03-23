@@ -1,23 +1,24 @@
 ---
-description: Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
-seo-description: Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
+description: Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
+seo-description: Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
 seo-title: Formattazione dei caratteri di base
 solution: Experience Manager
 title: Formattazione dei caratteri di base
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 5%
 
 ---
 
 
-# Formattazione caratteri di base{#basic-character-formatting}
+# Formattazione carattere di base{#basic-character-formatting}
 
-Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
+Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
 
 <table id="table_65415B84652F4E7497299AD90AE7C191"> 
  <thead> 
@@ -30,23 +31,23 @@ Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \plain  </span> </td> 
-   <td> <p>Reimposta la formattazione dei caratteri su quella predefinita. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> solo. </p> </td> 
+   <td> <p>Ripristina la formattazione dei caratteri predefinita. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Tipo di carattere. </p> </td> 
+   <td> <p>Carattere. </p> </td> 
    <td> <p> <span class="codeph"> \fonttbl  </span> index. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Dimensione del font. </p> </td> 
-   <td> <p>Mezzo punto; il valore predefinito è 24. </p> </td> 
+   <td> <p>Dimensione del carattere. </p> </td> 
+   <td> <p>Mezzo punto; Il valore predefinito è 24. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Colore font. </p> </td> 
-   <td> <p>Indice basato su 0 in tavola colori. </p> </td> 
+   <td> <p>Indice basato su 0 nella tabella dei colori. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \b </span> </td> 
@@ -61,12 +62,12 @@ Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
   <tr> 
    <td> <span class="codeph"> \sub  </span> </td> 
    <td> <p>Pedice. </p> </td> 
-   <td> <p>Riduce la dimensione del font. </p> </td> 
+   <td> <p>Riduce le dimensioni del font. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \super  </span> </td> 
    <td> <p>Apice. </p> </td> 
-   <td> <p>Riduce la dimensione del font. </p> </td> 
+   <td> <p>Riduce le dimensioni del font. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <span class="codeph"> \ul  </span> </td> 
@@ -81,27 +82,27 @@ Utilizzare i comandi seguenti per la formattazione di base dei caratteri.
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth  </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw  </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave  </span> </li> 
-     </ul> </p> <p>Al momento, queste vengono implementate come sottolineatura standard <span class="codeph"> \ul </span>. Tutti gli altri comandi RTF di sottolineatura vengono ignorati. </p> </td> 
+     </ul> </p> <p>Al momento queste vengono implementate come sottolineatura standard <span class="codeph"> \ul </span>. Tutti gli altri comandi di sottolineatura RTF vengono ignorati. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone  </span> </td> 
-   <td> <p>disattivazione sottolineatura </p> </td> 
+   <td> <p>disattiva sottolineatura </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ul0  </span> </td> 
-   <td> <p>disattivazione sottolineatura </p> </td> 
+   <td> <p>disattiva sottolineatura </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \Maiuscole </span> </td> 
    <td> <p>maiuscolo </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps  </span> </td> 
-   <td> <p>minuscole ("maiuscoletto") </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> solo. </p> </td> 
+   <td> <p>minuscolo ("maiuscoletto") </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only. </p> </td> 
   </tr> 
  </tbody> 
 </table>
