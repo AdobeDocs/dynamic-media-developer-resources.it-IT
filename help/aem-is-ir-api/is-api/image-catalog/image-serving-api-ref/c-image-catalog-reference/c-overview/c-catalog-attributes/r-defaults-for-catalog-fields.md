@@ -1,21 +1,22 @@
 ---
 description: I campi del catalogo utilizzano queste impostazioni predefinite.
 seo-description: I campi del catalogo utilizzano queste impostazioni predefinite.
-seo-title: Valori predefiniti per i campi catalogo
+seo-title: Valori predefiniti per i campi del catalogo
 solution: Experience Manager
-title: Valori predefiniti per i campi catalogo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Valori predefiniti per i campi del catalogo
 uuid: 8902766c-c2d9-433a-9c49-3182b063269f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
 
-# Valori predefiniti per i campi catalogo{#defaults-for-catalog-fields}
+# Valori predefiniti per i campi del catalogo{#defaults-for-catalog-fields}
 
 I campi del catalogo utilizzano queste impostazioni predefinite.
 
@@ -27,15 +28,15 @@ I campi del catalogo utilizzano queste impostazioni predefinite.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Scadenza</a></span> </p> </td> 
-   <td colname="col2"> <p>Time-to-live della cache client predefinita. </p> </td> 
+   <td colname="col2"> <p>Time-to-live predefinito della cache client. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> StampaRisoluzione</a></span> </p> </td> 
    <td colname="col2"> <p>Risoluzione di stampa predefinita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Risoluzione</a></span> </p> </td> 
-   <td colname="col2"> <p>Risoluzione predefinita dell'oggetto. </p> </td> 
+   <td colname="col2"> <p>Risoluzione dell'oggetto predefinita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
@@ -47,7 +48,7 @@ I campi del catalogo utilizzano queste impostazioni predefinite.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
-   <td colname="col2"> <p>Timestamp di modifica immagine predefinito. </p> </td> 
+   <td colname="col2"> <p>Timestamp predefinito per la modifica dell'immagine. </p> </td> 
   </tr> 
  </tbody> 
 </table>
