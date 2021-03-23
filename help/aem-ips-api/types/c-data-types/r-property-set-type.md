@@ -1,15 +1,16 @@
 ---
-description: Valori validi per i campi PropertySetType e createPropertySetTypeParam.
-seo-description: Valori validi per i campi PropertySetType e createPropertySetTypeParam.
+description: Valori validi per i campi PropertySetType e createPropertySetTypeParam .
+seo-description: Valori validi per i campi PropertySetType e createPropertySetTypeParam .
 seo-title: PropertySetType
 solution: Experience Manager
 title: PropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 83220180-3272-4552-974d-a73e6aad3483
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # PropertySetType{#propertysettype}
 
-Valori validi per i campi PropertySetType e createPropertySetTypeParam.
+Valori validi per i campi PropertySetType e createPropertySetTypeParam .
 
 I valori includono:
 
@@ -39,17 +40,17 @@ I valori includono:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Digitare handle. </td> 
+   <td colname="col3"> Maniglia di testo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Maniglia aziendale. <p>Nota:  Il tipo è globale se l'handle della società non è presente. </p></td> 
+   <td colname="col3">Tratta l'azienda. <p>Nota:  Il tipo è globale se l'handle della società non è presente. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Digitare name. </td> 
+   <td colname="col3"> Digitare il nome. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
@@ -59,7 +60,7 @@ I valori includono:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Specifica se consentire l'associazione di più istanze di set di proprietà a un oggetto di questo tipo. </td> 
+   <td colname="col3"> Se consentire l'associazione di più istanze di set di proprietà a un oggetto per questo tipo. </td> 
   </tr> 
  </tbody> 
 </table>
