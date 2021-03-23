@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
-seo-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
+description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
+seo-description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-topic: Dynamic Media
 uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Attributo di configurazione per visualizzatore video per file multimediali diversi.
+Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per visualizzatore video per file multimediali diver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume è disattivato; in caso contrario, il video viene riprodotto con il suono. Su alcuni dispositivi, l’audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span> il volume è disattivato; altrimenti, il video viene riprodotto con il suono. Su alcuni dispositivi, l'interruzione della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
