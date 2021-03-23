@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore Video360.
 seo-title: Video360Player.mutevolume
 solution: Experience Manager
 title: Video360Player.mutevolume
-topic: Dynamic Media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 17%
+source-wordcount: '74'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume è disattivato; in caso contrario, il video viene riprodotto con il suono. Su alcuni dispositivi, l’audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span> il volume è disattivato; altrimenti, il video viene riprodotto con il suono. Su alcuni dispositivi, l'interruzione della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
