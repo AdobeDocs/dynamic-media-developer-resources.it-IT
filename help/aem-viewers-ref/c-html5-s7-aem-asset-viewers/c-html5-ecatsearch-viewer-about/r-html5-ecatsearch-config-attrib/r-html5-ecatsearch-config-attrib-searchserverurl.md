@@ -2,13 +2,14 @@
 description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
-topic: Dynamic Media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> Percorso principale del servizio di ricerca. Se non viene specificato alcun dominio, viene utilizzato il dominio da cui viene distribuito il visualizzatore. </p> </td> 
+   <td colname="col2"> <p> Percorso principale del servizio di ricerca. Se non viene specificato alcun dominio, viene utilizzato il dominio da cui viene servito il visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
