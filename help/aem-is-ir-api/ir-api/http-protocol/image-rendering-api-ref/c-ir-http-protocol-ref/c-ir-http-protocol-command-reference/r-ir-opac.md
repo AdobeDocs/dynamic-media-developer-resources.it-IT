@@ -1,15 +1,16 @@
 ---
-description: Opacità. Specifica l’opacità del materiale.
-seo-description: Opacità. Specifica l’opacità del materiale.
-seo-title: opac
+description: Opacità. Specifica l'opacità del materiale.
+seo-description: Opacità. Specifica l'opacità del materiale.
+seo-title: opaca
 solution: Experience Manager
-title: opac
-topic: Dynamic Media Image Serving - Image Rendering API
+title: opaca
 uuid: 0f5b11f0-af65-4abd-947e-7a28cb8de263
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 4%
 
 # opac{#opac}
 
-Opacità. Specifica l’opacità del materiale.
+Opacità. Specifica l&#39;opacità del materiale.
 
 ` opac= *`val`*`
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>Opacità materiale (percentuale); 0...100 </p> </td> 
+  <td class="stentry"> <p>opacità del materiale (percentuale); 0...100 </p> </td> 
  </tr> 
 </table>
 
-Le seguenti combinazioni di materiale/oggetto supportano l’opacità variabile:
+Le seguenti combinazioni di materiale/oggetto supportano l&#39;opacità variabile:
 
-* Tinte piatte e texture ripetibili applicate agli oggetti sovrapposti con texture.
-* Materiali di rivestimento di finestre applicati agli oggetti telaio di copertura della finestra.
-* Decorazioni applicate a oggetti strutturabili o a oggetti murali.
+* Tinte solide e texture ripetibili applicate agli oggetti sovrapposti testurabili.
+* Materiali di rivestimento per finestre applicati agli oggetti telaio di copertura per finestre.
+* Decalli applicati a oggetti texture o a oggetti murali.
 
-Se il materiale include un&#39;immagine con un canale alfa, è possibile utilizzare `opac=` per rendere l&#39;immagine più trasparente, ma non più opaca.
+Se il materiale include un&#39;immagine con un canale alfa, `opac=` può essere utilizzato per rendere l&#39;immagine più trasparente, ma non più opaca.
 
 ## Proprietà {#section-352f7b82ede54159b6afb90ae4b559ec}
 
