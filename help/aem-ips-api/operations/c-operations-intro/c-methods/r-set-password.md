@@ -1,15 +1,16 @@
 ---
-description: Imposta la password di un utente specifico o di un utente predefinito su un valore specifico, a seconda che sia stato specificato un handle utente.
-seo-description: Imposta la password di un utente specifico o di un utente predefinito su un valore specifico, a seconda che sia stato specificato un handle utente.
+description: Imposta la password di un utente specifico o dell'utente predefinito su un valore specifico, a seconda che sia specificato un handle utente.
+seo-description: Imposta la password di un utente specifico o dell'utente predefinito su un valore specifico, a seconda che sia specificato un handle utente.
 seo-title: setPassword
 solution: Experience Manager
 title: setPassword
-topic: Dynamic Media Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '257'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # setPassword{#setpassword}
 
-Imposta la password di un utente specifico o di un utente predefinito su un valore specifico, a seconda che sia stato specificato un handle utente.
+Imposta la password di un utente specifico o dell&#39;utente predefinito su un valore specifico, a seconda che sia specificato un handle utente.
 
 La data di scadenza della password è facoltativa. Se omessa, la password non scade mai.
 
@@ -25,7 +26,7 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
 
 >[!NOTE]
 >
->*Solo* il tipo di  `IpsAdmin` utente può eseguire chiamate setPassword contro altri utenti.
+>** Solo il tipo  `IpsAdmin` utente è autorizzato a eseguire chiamate setPassword contro altri utenti.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -55,7 +56,7 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>handle utente. </p> </td> 
+   <td colname="col4"> <p>Maniglia utente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
@@ -63,14 +64,14 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Password. </p> <p>I seguenti requisiti vengono applicati alla password scelta: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
-      <li id="li_0132852AFD774659A0224C450F19418C">Per le password viene fatta distinzione tra maiuscole e minuscole. </li> 
+      <li id="li_0132852AFD774659A0224C450F19418C">Le password distinguono tra maiuscole e minuscole. </li> 
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">La lunghezza minima della password è di otto caratteri. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">La password deve contenere uno o più caratteri delle seguenti classi di caratteri: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caratteri inglesi minuscoli. Ad esempio, <span class="codeph"> a b c d e </span> e così via </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Caratteri inglesi maiuscoli. Ad esempio, <span class="codeph"> A B C D E </span> e così via. </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caratteri inglesi in minuscolo. Ad esempio, <span class="codeph"> a b c d e </span> e così via </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Caratteri inglesi in maiuscolo. Ad esempio, <span class="codeph"> A B C D E </span> e così via. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Numeri. Ad esempio, <span class="codeph"> 1 2 3 4 5 </span> e così via. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, potete usare una delle seguenti opzioni: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, puoi utilizzare una delle seguenti opzioni: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
