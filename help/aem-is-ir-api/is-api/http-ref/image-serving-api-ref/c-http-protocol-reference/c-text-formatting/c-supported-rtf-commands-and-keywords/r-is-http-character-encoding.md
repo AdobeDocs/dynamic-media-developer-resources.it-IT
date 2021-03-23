@@ -1,16 +1,17 @@
 ---
 description: Utilizzare i comandi seguenti per la codifica dei caratteri.
 seo-description: Utilizzare i comandi seguenti per la codifica dei caratteri.
-seo-title: Codifica dei caratteri
+seo-title: Codifica caratteri
 solution: Experience Manager
-title: Codifica dei caratteri
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Codifica caratteri
 uuid: 7b19b831-b40c-4f26-83a4-732c578dbbf0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -36,21 +37,21 @@ Utilizzare i comandi seguenti per la codifica dei caratteri.
   <tr> 
    <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
    <td> <p>Singolo carattere Unicode. </p> </td> 
-   <td> <p><span class="varname"> Non </span> è un numero intero con segno a 2 byte e quindi un valore Unicode maggiore di 32767 deve essere espresso come numero negativo. </p> </td> 
+   <td> <p><span class="varname"> </span> È un numero intero a 2 byte con segno e quindi un valore Unicode maggiore di 32767 deve essere espresso come numero negativo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\<span class="varname"> ucN</span></span> </td> 
-   <td> <p>Dimensione dei caratteri Unicode. </p> </td> 
-   <td> <p>Numero di byte corrispondenti a un carattere Unicode specificato. </p> </td> 
+   <td> <p>Dimensione del carattere Unicode. </p> </td> 
+   <td> <p>Numero di byte corrispondenti al carattere Unicode specificato. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch  </span> </td> 
-   <td> <p>Seguono i caratteri provenienti da un’area bassa ANSI. </p> </td> 
+   <td> <p>Seguono i caratteri provenienti da un'area bassa ANSI. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich  </span> </td> 
-   <td> <p>Seguono caratteri provenienti da un'area ANSI elevata. </p> </td> 
+   <td> <p>Seguono i caratteri provenienti da un'area ANSI elevata. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
