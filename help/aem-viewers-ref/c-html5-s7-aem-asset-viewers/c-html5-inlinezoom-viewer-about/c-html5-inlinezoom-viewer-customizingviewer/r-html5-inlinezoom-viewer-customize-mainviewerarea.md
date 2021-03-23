@@ -4,12 +4,13 @@ seo-description: L’area di visualizzazione principale è l’area occupata dal
 seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-topic: Dynamic Media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -21,9 +22,9 @@ L’area di visualizzazione principale è l’area occupata dalla vista a compar
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7flyoutviewer
@@ -46,7 +47,7 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
