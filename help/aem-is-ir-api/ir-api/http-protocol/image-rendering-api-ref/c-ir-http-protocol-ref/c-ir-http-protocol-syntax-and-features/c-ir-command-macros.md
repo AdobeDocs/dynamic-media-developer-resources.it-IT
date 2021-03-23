@@ -1,37 +1,38 @@
 ---
-description: Le macro di comandi forniscono collegamenti denominati per set di comandi.
-seo-description: Le macro di comandi forniscono collegamenti denominati per set di comandi.
-seo-title: Macro di comandi *
+description: Le macro di comando forniscono collegamenti denominati per set di comandi.
+seo-description: Le macro di comando forniscono collegamenti denominati per set di comandi.
+seo-title: Macro di comando *
 solution: Experience Manager
-title: Macro di comandi *
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Macro di comando *
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
 
 
-# Macro dei comandi *{#command-macros}
+# Macro di comando *{#command-macros}
 
-Le macro di comandi forniscono collegamenti denominati per set di comandi.
+Le macro di comando forniscono collegamenti denominati per set di comandi.
 
 `$ *[!DNL name]*$`
 
 ** *[!DNL name]* ** Nome macro
 
-Le macro sono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi dei materiali o al catalogo predefinito.
+Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di materiali o al catalogo predefinito.
 
-*[!DNL name]* non fa distinzione tra maiuscole e minuscole e può essere costituita da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
+*[!DNL name]* non distingue tra maiuscole e minuscole e può essere costituito da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
 
-Richiamare le macro in un punto qualsiasi di una richiesta dopo &#39;?&#39; o in un punto qualsiasi all&#39;interno di un campo `vignette::Modifier`. Le macro possono rappresentare solo uno o più comandi di rendering immagini completi e devono essere separate da altri comandi con separatori &#39;&amp;&#39;.
+Richiama le macro in qualsiasi punto di una richiesta dopo &#39;?&#39; o in qualsiasi punto all&#39;interno di un campo `vignette::Modifier`. Le macro possono rappresentare solo uno o più comandi Image Rendering completi e devono essere separate da altri comandi con i separatori &#39;&amp;&#39;.
 
-Le chiamate delle macro vengono sostituite dalle relative stringhe di sostituzione nelle prime fasi dell&#39;analisi. I comandi all&#39;interno delle macro sostituiscono gli stessi comandi nella richiesta se si verificano prima della chiamata alla macro nella richiesta. Ciò è diverso da `vignette::Modifier`, dove i comandi nella stringa di richiesta sostituiranno sempre i comandi nella stringa `vignette::Modifier`, indipendentemente dalla posizione nella richiesta.
+Le chiamate macro vengono sostituite dalle relative stringhe di sostituzione all&#39;inizio dell&#39;analisi. I comandi all’interno delle macro sostituiscono gli stessi comandi nella richiesta se si verificano prima della chiamata della macro nella richiesta. Questo è diverso da `vignette::Modifier`, dove i comandi nella stringa di richiesta sovrascrivono sempre i comandi nella stringa `vignette::Modifier`, indipendentemente dalla posizione nella richiesta.
 
-Le macro dei comandi non possono avere valori di argomento, ma è possibile utilizzare variabili personalizzate per trasmettere valori dalla richiesta alla macro.
+Le macro dei comandi non possono avere valori di argomento, ma è possibile utilizzare variabili personalizzate per passare i valori dalla richiesta alla macro.
 
 Le macro potrebbero non essere nidificate.
 
@@ -49,11 +50,11 @@ La macro viene utilizzata come segue:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Poiché `qlt=` è diverso per la terza richiesta, è sufficiente sostituire il valore dopo che la macro è stata richiamata (specificando `qlt=`*before* `$render$`non avrebbe avuto alcun effetto).
+Poiché `qlt=` è diverso per la terza richiesta, sovrascriviamo semplicemente il valore dopo la chiamata della macro (specificare `qlt=`*prima* `$render$`non avrebbe alcun effetto).
 
 **Consultate anche**
 
-`catalog::MacroFile`,  `catalog::Modifier`Riferimento Definizione Macro
+`catalog::MacroFile`,  `catalog::Modifier`, Riferimento alla definizione delle macro
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->
 
