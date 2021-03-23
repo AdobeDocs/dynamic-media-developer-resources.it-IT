@@ -2,12 +2,13 @@
 description: SpinView.transition
 solution: Experience Manager
 title: SpinView.transition
-topic: Dynamic Media
 uuid: d5cc319a-fb0b-41d3-a118-f00376a127e4
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -21,19 +22,19 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tempo in secondi durante il quale l'animazione per un singolo passaggio di zoom viene eseguita. </p> </td> 
+   <td colname="col2"> <p> Specifica il tempo in secondi necessario all'animazione per un singolo passaggio di zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> lenitivo</span></span> </p> </td> 
-   <td colname="col2"> <p> Crea un'illusione di accelerazione o decelerazione che rende la transizione più naturale. È possibile impostare l'andamento su una delle opzioni seguenti: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> allentamento</span></span> </p> </td> 
+   <td colname="col2"> <p> Crea un'illusione di accelerazione o decelerazione che rende la transizione più naturale. È possibile impostare l'andamento su una delle seguenti opzioni: </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
-      <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (automatico) </li> 
+      <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (auto) </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1 (lineare) </li> 
       <li id="li_7A0F9F1186604E75BAA19626A844236A"> 2 (quadratico) </li> 
       <li id="li_B8D4C40D795642AB835925582B707158"> 3 (cubico) </li> 
       <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (quartico) </li> 
       <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (chintico) </li> 
-     </ul> </p> <p>La modalità Auto utilizza sempre la transizione lineare quando lo zoom elastico è disattivato (impostazione predefinita). In caso contrario, si adatta a una delle altre funzioni di andamento in base al tempo di transizione. In altre parole, più breve è il tempo di transizione maggiore è l'utilizzo della funzione di andamento per accelerare l'effetto di accelerazione o decelerazione. </p> </td> 
+     </ul> </p> <p>La modalità automatica utilizza sempre la transizione lineare quando lo zoom elastico è disattivato (impostazione predefinita). In caso contrario, si adatta a una delle altre funzioni di allentamento in base al tempo di transizione. Cioè, più breve è il tempo di transizione più alta è la funzione di allentamento utilizzato per accelerare l'effetto di accelerazione o decelerazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
