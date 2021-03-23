@@ -1,23 +1,24 @@
 ---
-description: Un array di aggiornamenti dei membri del set di immagini.
-seo-description: Un array di aggiornamenti dei membri del set di immagini.
+description: Matrice di aggiornamenti dei membri del set di immagini.
+seo-description: Matrice di aggiornamenti dei membri del set di immagini.
 seo-title: ImageSetMemberUpdateArray
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 23d45181-1103-4e3a-89a4-984470c11728
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
 
 # ImageSetMemberUpdateArray{#imagesetmemberupdatearray}
 
-Un array di aggiornamenti dei membri del set di immagini.
+Matrice di aggiornamenti dei membri del set di immagini.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ImageSetMemberUpdate` | L’array dei membri del set di immagini viene aggiornato. |
+| `*`elementi`*` | `types:ImageSetMemberUpdate` | La matrice dei membri del set di immagini viene aggiornata. |
 
