@@ -1,15 +1,16 @@
 ---
-description: Posizione del carrello. Definisce l'offset in pollici dal punto anchor= dell'immagine decal al punto di origine decal definito dall'oggetto vignettatura di destinazione.
-seo-description: Posizione del carrello. Definisce l'offset in pollici dal punto anchor= dell'immagine decal al punto di origine decal definito dall'oggetto vignettatura di destinazione.
+description: Posizione decal. Definisce l'offset in pollici dal punto di ancoraggio= dell'immagine decal al punto di origine decal definito dall'oggetto vignetta di destinazione.
+seo-description: Posizione decal. Definisce l'offset in pollici dal punto di ancoraggio= dell'immagine decal al punto di origine decal definito dall'oggetto vignetta di destinazione.
 seo-title: pos
 solution: Experience Manager
 title: pos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f44c258d-84e9-465b-8495-ae9b96a106c3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 3%
 
 # pos{#pos}
 
-Posizione del carrello. Definisce l&#39;offset in pollici dal punto anchor= dell&#39;immagine decal al punto di origine decal definito dall&#39;oggetto vignettatura di destinazione.
+Posizione decal. Definisce l&#39;offset in pollici dal punto di ancoraggio= dell&#39;immagine decal al punto di origine decal definito dall&#39;oggetto vignetta di destinazione.
 
 `pos=x,y`
 
 <table id="simpletable_DB3B64EFB67A47AD843812324ABFAE45"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> x</span>,<span class="varname"> y</span> </p></td> 
-  <td class="stentry"> <p>Regolazione relativa della posizione nelle unità di coordinate della scena (in genere pollici) (reale, reale). </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> </p></td> 
+  <td class="stentry"> <p>Regolazione relativa della posizione nelle unità di coordinate della scena (tipicamente pollici) (reale, reale). </p></td> 
  </tr> 
 </table>
 
 ## Proprietà {#section-50371cfa4e244bc49d2295a918749258}
 
-Attributo materiale. Ignorati da materiali diversi dai decali.
+Attributo materiale. Ignorati da materiali diversi dai decals.
 
 ## Predefinito {#section-1b66efab054c45ca8d67d6a9865020f4}
 
-`pos=0,0`. Allinea il punto di ancoraggio della decadenza con l&#39;origine decal dell&#39;oggetto vignettatura.
+`pos=0,0`. Allinea il punto di ancoraggio della decal con l’origine decal dell’oggetto vignetta.
 
 ## Consultate anche {#section-7cd8139481334ed79704d628b5bbd236}
 
