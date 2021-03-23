@@ -1,23 +1,24 @@
 ---
-description: Restituisce un array di tutte le società.
-seo-description: Restituisce un array di tutte le società.
+description: Restituisce un array di tutte le aziende.
+seo-description: Restituisce un array di tutte le aziende.
 seo-title: getAllCompanies
 solution: Experience Manager
 title: getAllCompanies
-topic: Dynamic Media Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 16%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
 
 # getAllCompanies{#getallcompanies}
 
-Restituisce un array di tutte le società.
+Restituisce un array di tutte le aziende.
 
 Sintassi
 
@@ -31,17 +32,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | Sì | Impostato su true per restituire le società scadute e non scadute. |
+| `*`includeExpired`*` | `xsd:boolean` | Sì | Imposta su true per restituire le società scadute e non scadute. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | Sì | L&#39;array di aziende. |
+| `*`companyArray`*` | `types:CompanyArray` | Sì | La gamma di aziende. |
 
 ## Esempi {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Questo esempio di codice restituisce tutte le società in IPS in un array. Nota: la risposta di esempio viene troncata per ragioni di brevità.
+Questo esempio di codice restituisce tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 
