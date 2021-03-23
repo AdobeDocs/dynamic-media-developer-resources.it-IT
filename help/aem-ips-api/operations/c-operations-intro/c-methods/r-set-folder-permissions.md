@@ -4,13 +4,14 @@ seo-description: Imposta le autorizzazioni della cartella.
 seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 12%
+source-wordcount: '102'
+ht-degree: 11%
 
 ---
 
@@ -33,10 +34,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella. |
-| `*`setChildren`*` | `xsd:boolean` | Sì | Imposta le autorizzazioni per gli elementi secondari che appartengono alla cartella. |
-| `*`permissionsArray`*` | `types:PermissionUpdateArray` | Sì | Matrice delle autorizzazioni. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`folderHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
+| `*`setChildren`*` | `xsd:boolean` | Sì | Imposta le autorizzazioni per gli elementi figlio che appartengono alla cartella. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | Sì | Matrice di autorizzazioni. |
 
 **Output (setFolderPermissionsReturn)**
 
@@ -44,7 +45,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-01730da4be874553ab44e3241cdf6357}
 
-Questo esempio di codice specifica un handle della società, un handle di cartella e un array di autorizzazioni con informazioni dettagliate sulla cartella. Applica le stesse autorizzazioni per gli elementi secondari della cartella principale.
+Questo esempio di codice specifica un handle aziendale, un handle di cartella e un array di autorizzazioni con informazioni dettagliate sulla cartella. Applica le stesse autorizzazioni per gli elementi secondari della cartella principale.
 
 **Request Contents (Richiesta contenuto)**
 
