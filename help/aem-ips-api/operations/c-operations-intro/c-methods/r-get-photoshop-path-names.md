@@ -1,23 +1,24 @@
 ---
-description: Restituisce un array di nomi di percorsi Photoshop per l'immagine specificata.
-seo-description: Restituisce un array di nomi di percorsi Photoshop per l'immagine specificata.
+description: Restituisce una matrice di nomi di percorso Photoshop per l'immagine specificata.
+seo-description: Restituisce una matrice di nomi di percorso Photoshop per l'immagine specificata.
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 15%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Restituisce un array di nomi di percorsi Photoshop per l&#39;immagine specificata.
+Restituisce una matrice di nomi di percorso Photoshop per l&#39;immagine specificata.
 
 Sintassi
 
@@ -37,14 +38,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite la società che contiene l’immagine con cui desiderate lavorare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Consente di passare alla risorsa immagine. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci l&#39;azienda che contiene l&#39;immagine con cui desideri lavorare. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci la risorsa immagine. |
 
 **Output (getPhotoshopPathNamesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Sì | Un array di nomi di percorsi Photoshop in un’immagine. |
+| `*`pathNameArray`*` | `types:StringArray` | Sì | Matrice di nomi di percorsi Photoshop in un&#39;immagine. |
 
 ## Esempi {#section-6d316f14b4184d42af4ca3f717b042dd}
 
