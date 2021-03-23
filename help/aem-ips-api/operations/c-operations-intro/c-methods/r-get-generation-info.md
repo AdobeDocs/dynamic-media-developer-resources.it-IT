@@ -1,15 +1,16 @@
 ---
-description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. originatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
-seo-description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. originatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
+description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
+seo-description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # getGenerationInfo{#getgenerationinfo}
 
-Restituisce 2 diversi tipi di informazioni in base ai parametri passati. originatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
+Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 
 Sintassi
 
@@ -39,12 +40,12 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`Frase codice`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| `*`Frase codice`*` | `xsd:string` | No | Il motore utilizzato nella generazione. Consultate Stili font. |
-| `*`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da sottoporre a query per le risorse generate. |
-| `*`Frase codice`*` | `xsd:string` | No | La maniglia della risorsa da interrogare per le risorse e i motori utilizzati nella generazione. |
-| `*`Frase codice`*` | `xsd:StringArray` | No | Proprietà incluse nell&#39;operazione. |
-| `*`Frase codice`*` | `xsd:StringArray` | No | Proprietà escluse dall&#39;operazione. |
+| `*`Frase di codice`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| `*`Frase di codice`*` | `xsd:string` | No | Il motore utilizzato nella generazione. Consultare Stili dei font. |
+| `*`Frase di codice`*` | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse generate. |
+| `*`Frase di codice`*` | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse e i motori utilizzati nella sua generazione. |
+| `*`Frase di codice`*` | `xsd:StringArray` | No | Proprietà incluse nell’operazione. |
+| `*`Frase di codice`*` | `xsd:StringArray` | No | Proprietà escluse dall’operazione. |
 
 **Output (getGenerationInfoReturn)**
 
