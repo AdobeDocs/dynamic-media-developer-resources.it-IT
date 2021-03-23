@@ -1,23 +1,24 @@
 ---
-description: Un array di errori di aggiornamento del valore del tag.
-seo-description: Un array di errori di aggiornamento del valore del tag.
+description: Matrice di errori di aggiornamento del valore del tag.
+seo-description: Matrice di errori di aggiornamento del valore del tag.
 seo-title: TagValueUpdateFaultArray
 solution: Experience Manager
 title: TagValueUpdateFaultArray
-topic: Dynamic Media Image Production System API
 uuid: c0dae056-3c26-4b8e-9069-c63a8a1b719f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
 
 # TagValueUpdateFaultArray{#tagvalueupdatefaultarray}
 
-Un array di errori di aggiornamento del valore del tag.
+Matrice di errori di aggiornamento del valore del tag.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:TagValueUpdateFault` | Un array di errori di aggiornamento del valore del tag (messaggi di errore). |
+| `*`elementi`*` | `types:TagValueUpdateFault` | Matrice di errori di aggiornamento del valore del tag (messaggi di errore). |
 
