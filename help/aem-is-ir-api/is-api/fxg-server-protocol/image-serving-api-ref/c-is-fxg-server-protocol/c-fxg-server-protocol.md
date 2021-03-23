@@ -4,18 +4,19 @@ seo-description: Per manipolare un elemento grafico, potete usare punti di rifer
 seo-title: Protocollo server FXG
 solution: Experience Manager
 title: Protocollo server FXG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 86%
+source-wordcount: '293'
+ht-degree: 83%
 
 ---
 
 
-# Protocollo server FXG{#fxg-server-protocol}
+# Protocollo del server FXG{#fxg-server-protocol}
 
 Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 
@@ -24,9 +25,9 @@ Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un 
 ![](assets/wp_ref_points.png)
 
 * A. Posizioni dei punti di riferimento
-* B. Elemento grafico
-* C. Elemento grafico ruotato di 20 gradi dal punto di riferimento `northWest`
-* D. Elemento grafico ruotato di 20 gradi dal punto di riferimento `east`
+* B. Grafico A
+* C. L&#39;immagine ha ruotato di 20 gradi dal suo punto di riferimento `northWest`
+* D. L&#39;immagine ha ruotato di 20 gradi dal suo punto di riferimento `east`
 
 È richiesta la seguente sintassi:
 
