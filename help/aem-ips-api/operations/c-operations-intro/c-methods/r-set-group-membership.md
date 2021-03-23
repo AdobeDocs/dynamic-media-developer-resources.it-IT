@@ -1,15 +1,16 @@
 ---
-description: Imposta l’appartenenza a un gruppo per un utente.
-seo-description: Imposta l’appartenenza a un gruppo per un utente.
+description: Imposta l'appartenenza a un gruppo per un utente.
+seo-description: Imposta l'appartenenza a un gruppo per un utente.
 seo-title: setGroupMembership
 solution: Experience Manager
 title: setGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '110'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # setGroupMembership{#setgroupmembership}
 
-Imposta l’appartenenza a un gruppo per un utente.
+Imposta l&#39;appartenenza a un gruppo per un utente.
 
 Sintassi
 
@@ -33,9 +34,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L’handle per l’utente di cui si desidera impostare l’appartenenza al gruppo. |
-| `*`companyHandle`*` | `xsd:string` | No | Maniglia aziendale. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sì | L&#39;array di handle per i gruppi a cui l&#39;utente appartiene. |
+| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera impostare l&#39;appartenenza al gruppo. |
+| `*`companyHandle`*` | `xsd:string` | No | Tratta l&#39;azienda. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle per i gruppi a cui appartiene l&#39;utente. |
 
 **Output (setGroupMembershipReturn)**
 
@@ -43,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-67b86d259df24938896fe19061845811}
 
-Questo esempio di codice rende l’utente membro di un gruppo. Aggiungete un utente a più gruppi con l&#39;array delle maniglie del gruppo.
+Questo esempio di codice rende l&#39;utente un membro di un gruppo. Aggiungi un utente a più gruppi con l&#39;array di handle di gruppo.
 
 **Request Contents (Richiesta contenuto)**
 
