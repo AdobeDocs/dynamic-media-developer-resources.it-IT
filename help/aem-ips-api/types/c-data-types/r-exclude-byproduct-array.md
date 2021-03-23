@@ -1,23 +1,24 @@
 ---
-description: Supporta il filtro per sottoprodotto nell'operazione searchAssets.
-seo-description: Supporta il filtro per sottoprodotto nell'operazione searchAssets.
+description: Supporta il filtro per sottoprodotto nell’operazione searchAssets.
+seo-description: Supporta il filtro per sottoprodotto nell’operazione searchAssets.
 seo-title: ExcludeByproductArray
 solution: Experience Manager
 title: ExcludeByproductArray
-topic: Dynamic Media Image Production System API
 uuid: 35c97446-ca7e-465d-9575-15d9480d5a87
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
 
 # ExcludeByproductArray{#excludebyproductarray}
 
-Supporta il filtro per sottoprodotto nell&#39;operazione searchAssets.
+Supporta il filtro per sottoprodotto nell’operazione searchAssets.
 
 Sintassi
 
