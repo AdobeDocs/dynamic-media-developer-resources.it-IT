@@ -4,12 +4,13 @@ seo-description: La variabile di sostituzione viene utilizzata per trasferire i 
 seo-title: Variabili di sostituzione
 solution: Experience Manager
 title: Variabili di sostituzione
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -28,12 +29,12 @@ La variabile di sostituzione viene utilizzata per trasferire i valori dall’URL
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valore a cui impostare la variabile (stringa). </p> </td> 
+  <td class="stentry"> <p>Valore a cui deve essere impostata la variabile (stringa). </p> </td> 
  </tr> 
 </table>
 
-* Le definizioni delle variabili e i riferimenti possono verificarsi nella parte query dell’URL della richiesta.
-* Le variabili sono definite come sopra, simili ad altri comandi IS; l&#39;interlinea &#39;$&#39; identifica il comando come definizione di variabile.
-* Il nome della variabile `*`var`*` fa distinzione tra maiuscole e minuscole e può essere costituito da una combinazione di lettere, numeri, &#39;-&#39; e &#39;_&#39;.
-* Per una trasmissione HTTP sicura, il valore importante deve essere codificato nell’URL con una sola passata.
+* Nella sezione query dell’URL della richiesta possono essere presenti definizioni di variabili e riferimenti.
+* Le variabili sono definite come sopra, simili ad altri comandi IS; il comando &#39;$&#39; iniziale identifica il comando come definizione di variabile.
+* Il nome della variabile `*`var`*` fa distinzione tra maiuscole e minuscole e può essere costituito da qualsiasi combinazione di lettere, numeri, &#39;-&#39; e &#39;_&#39;.
+* Per una trasmissione HTTP sicura, il valore importante deve essere codificato con URL a passa singolo.
 
