@@ -1,54 +1,55 @@
 ---
-description: Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici per le impostazioni internazionali.
-seo-description: Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici per le impostazioni internazionali.
-seo-title: Mappa lingua
+description: Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici delle impostazioni internazionali.
+seo-description: Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici delle impostazioni internazionali.
+seo-title: LocaleMap
 solution: Experience Manager
-title: Mappa lingua
-topic: Dynamic Media Image Serving - Image Rendering API
+title: LocaleMap
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
 
 
-# Mappa lingua{#localemap}
+# LocaleMap{#localemap}
 
-Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici per le impostazioni internazionali.
+Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici delle impostazioni internazionali.
 
-`*``*&#42;['|' *`item`*]`
+`*``*&#42;['|' *`elemento`*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> item</span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> locId</span>,<span class="varname"> locSuffix</span>*[','<span class="varname"> locSuffix</span>] </p></td> 
+  <td class="stentry"> <p><span class="varname"> locId</span>, <span class="varname"> locSuffix</span>*[','<span class="varname"> locSuffix</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locId</span> </p></td> 
-  <td class="stentry"> <p>ID lingua (senza distinzione tra maiuscole e minuscole). </p></td> 
+  <td class="stentry"> <p>ID locale (senza distinzione maiuscole/minuscole). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locSuffix</span> </p></td> 
-  <td class="stentry"> <p>Suffisso delle impostazioni internazionali. </p></td> 
+  <td class="stentry"> <p>Suffisso internazionale. </p></td> 
  </tr> 
 </table>
 
-`LocaleMap` si riferisce a un numero  `locId` che può essere mappato a qualsiasi numero di  `locSuffix`.
+`LocaleMap` si riferisce a un  `locId` che può essere mappato a qualsiasi numero di  `locSuffix`.
 
-I valori *`locSuffix`* vuoti sono consentiti. *`locSuffix`* i valori devono essere ordinati nell&#39;ordine in cui devono essere cercati. Viene restituita la prima corrispondenza.
+Sono consentiti valori *`locSuffix`* vuoti. *`locSuffix`* i valori devono essere ordinati nell&#39;ordine in cui devono essere ricercati. Viene restituita la prima corrispondenza.
 
-Image Server cerca nei valori *`locId`* una corrispondenza senza distinzione tra maiuscole e minuscole con il valore `locale=` specificato nella richiesta. Se viene trovata una corrispondenza, il primo valore associato *`locSuffix`* viene aggiunto all&#39;ID catalogo originale. Se esiste già, viene utilizzato, altrimenti viene provato il valore successivo *`locSuffix`*. Se nessuno dei valori *`locSuffix`* corrisponde a una voce di catalogo, Image Server restituisce un errore o un&#39;immagine predefinita.
+Image Serving cerca nei valori *`locId`* una corrispondenza senza distinzione tra maiuscole e minuscole con il valore `locale=` specificato nella richiesta. Se viene trovata una corrispondenza, il primo valore *`locSuffix`* associato viene aggiunto all&#39;ID catalogo originale. Se questa voce di catalogo esiste viene utilizzata, altrimenti viene provato il valore successivo *`locSuffix`*. Se nessuno dei valori *`locSuffix`* corrisponde a una voce di catalogo, Image Server restituisce un errore o un&#39;immagine predefinita.
 
-Un valore vuoto *`locId`* corrisponde a stringhe vuote e sconosciute `locale=`. Questo consente di definire una regola predefinita per le lingue sconosciute.
+Un valore vuoto *`locId`* corrisponde a stringhe vuote e sconosciute `locale=`. Questo consente di definire una regola predefinita per le impostazioni internazionali sconosciute.
 
-Quando abilitata, la traduzione ID viene applicata a tutti gli ID che fanno riferimento a voci di catalogo immagini e di catalogo di contenuti statici.
+La traduzione ID, se abilitata, viene applicata a tutti gli ID che fanno riferimento a voci del catalogo immagini e del catalogo dei contenuti statici.
 
 ## Proprietà {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Uno o più elementi, separati da |, in cui ogni elemento è costituito da due o più valori stringa separati da virgole. *`locId`* e  `locale=` vengono confrontati. Senza distinzione tra maiuscole e minuscole.
+Uno o più elementi separati con |, dove ogni elemento è costituito da due o più valori stringa separati da virgole. *`locId`* e  `locale=` vengono confrontati. Senza distinzione tra maiuscole e minuscole.
 
 ## Consultate anche {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 
