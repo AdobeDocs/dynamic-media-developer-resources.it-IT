@@ -1,23 +1,24 @@
 ---
-description: Usato da getGenerationInfo/Engine.
-seo-description: Usato da getGenerationInfo/Engine.
+description: Utilizzato da getGenerationInfo/engine.
+seo-description: Utilizzato da getGenerationInfo/engine.
 seo-title: Informazioni sulla generazione
 solution: Experience Manager
 title: Informazioni sulla generazione
-topic: Dynamic Media Image Production System API
 uuid: 7e0ddd2c-25b5-4ff6-9906-bc6072f55681
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 3%
 
 ---
 
 
-# Informazioni generazione{#generation-info}
+# Informazioni di generazione{#generation-info}
 
-Usato da getGenerationInfo/Engine.
+Utilizzato da getGenerationInfo/engine.
 
 Sintassi
 
