@@ -1,15 +1,16 @@
 ---
-description: Tracciato Clip Livello Invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all’interno dell’area definita da clipXPath= vengono sottoposte a rendering trasparente.
-seo-description: Tracciato Clip Livello Invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all’interno dell’area definita da clipXPath= vengono sottoposte a rendering trasparente.
+description: Percorso clip livello invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all'interno dell'area definita da clipXPath= sono rese trasparenti.
+seo-description: Percorso clip livello invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all'interno dell'area definita da clipXPath= sono rese trasparenti.
 seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
@@ -17,28 +18,28 @@ ht-degree: 3%
 
 # clipXPath{#clipxpath}
 
-Tracciato Clip Livello Invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all’interno dell’area definita da clipXPath= vengono sottoposte a rendering trasparente.
+Percorso clip livello invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all&#39;interno dell&#39;area definita da clipXPath= sono rese trasparenti.
 
 `clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *`pathNamepathName `*&#42;[, *``*]`
+`clipXPathE= *``*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
-  <td class="stentry"> <p>Dati percorso. </p></td> 
+  <td class="stentry"> <p>Dati del percorso. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome del tracciato incorporato nell’immagine sorgente del livello (solo ASCII). </p></td> 
+  <td class="stentry"> <p>Nome del percorso incorporato nell’immagine sorgente del livello (solo ASCII). </p></td> 
  </tr> 
 </table>
 
-Per ulteriori informazioni, vedere [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), inclusa una descrizione di `*`pathName`*` e `*`pathDefinition`*`.
+Per ulteriori informazioni, consultate [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) , inclusa una descrizione di `*`pathName`*` e `*`pathDefinition`*`.
 
 ## Proprietà {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Attributo layer. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato se `clipPath=` non è specificato. Ignorato dai livelli degli effetti.
+Attributo livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato se `clipPath=` non è specificato. Ignorato dai livelli di effetto.
 
 ## Predefinito {#section-d1986aa31af14767aeb1b4a57add67f4}
 
