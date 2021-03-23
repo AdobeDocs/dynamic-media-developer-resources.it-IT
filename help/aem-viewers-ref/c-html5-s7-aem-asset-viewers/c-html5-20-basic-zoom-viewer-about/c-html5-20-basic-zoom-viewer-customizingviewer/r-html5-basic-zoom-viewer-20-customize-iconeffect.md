@@ -1,15 +1,16 @@
 ---
-description: L’indicatore di zoom è sovrapposto all’area di visualizzazione principale. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
-seo-description: L’indicatore di zoom è sovrapposto all’area di visualizzazione principale. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
-seo-title: Effetto Icona
+description: L'indicatore dello zoom viene sovrapposto all'area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
+seo-description: L'indicatore dello zoom viene sovrapposto all'area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
+seo-title: Icona, effetto
 solution: Experience Manager
-title: Effetto Icona
-topic: Dynamic Media
+title: Icona, effetto
 uuid: 113b2502-395d-4fd1-ab28-4995e8248593
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Effetto icona{#icon-effect}
 
-L’indicatore di zoom è sovrapposto all’area di visualizzazione principale. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
+L&#39;indicatore dello zoom viene sovrapposto all&#39;area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect
@@ -38,27 +39,27 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Grafica dell’indicatore di zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Grafico indicatore dello zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza indicatore zoom. </p> </td> 
+   <td colname="col2"> <p>Spessore indicatore dello zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza indicatore zoom. </p> </td> 
+   <td colname="col2"> <p>Altezza indicatore dello zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L&#39;effetto Icona supporta il selettore di attributi `media-type`, che può essere utilizzato per applicare effetti di icona diversi su dispositivi diversi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui l&#39;input del mouse viene normalmente utilizzato e `media-type='multitouch'` corrisponde ai dispositivi con ingresso touch.
+>L’effetto icona supporta il selettore di attributi `media-type` , che è possibile utilizzare per applicare diversi effetti icona su diversi dispositivi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui l&#39;input del mouse viene normalmente utilizzato e `media-type='multitouch'` corrisponde ai dispositivi con input touch.
 
 Esempio: per impostare un indicatore di zoom da 100 x 100 pixel con grafica diversa per i sistemi desktop e i dispositivi touch.
 
