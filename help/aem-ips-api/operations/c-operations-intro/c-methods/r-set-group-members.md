@@ -1,15 +1,16 @@
 ---
-description: Imposta l'appartenenza al gruppo degli utenti che appartengono a una società specifica.
-seo-description: Imposta l'appartenenza al gruppo degli utenti che appartengono a una società specifica.
+description: Imposta l'iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
+seo-description: Imposta l'iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '146'
 ht-degree: 7%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 7%
 
 # setGroupMembers{#setgroupmembers}
 
-Imposta l&#39;appartenenza al gruppo degli utenti che appartengono a una società specifica.
+Imposta l&#39;iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
 
-L&#39;operazione genera un errore di autenticazione se non si dispone dei privilegi necessari per eseguire l&#39;operazione. Questo è vero anche se uno degli utenti nell&#39;array handle utente non appartiene alla società specificata nell&#39;handle della società,
+L&#39;operazione genera un errore di autenticazione se non si dispone dei privilegi per eseguire questa operazione. Questo vale anche se uno degli utenti dell&#39;array di handle utente non appartiene alla società specificata nell&#39;handle della società,
 
 ## Tipi di utenti autorizzati {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -33,8 +34,8 @@ L&#39;operazione genera un errore di autenticazione se non si dispone dei privil
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`groupHandle`*` | `xsd:string` | Sì | handle del gruppo. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`groupHandle`*` | `xsd:string` | Sì | Maniglia di gruppo. |
 | `*`userHandleArray`*` | `types:HandleArray` | Sì | Array di handle per gli utenti di cui si desidera impostare l&#39;appartenenza al gruppo. |
 
 **Output (setGroupMembesReturn)**
@@ -43,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-Questo esempio di codice imposta l’appartenenza a un gruppo per un singolo utente.
+Questo esempio di codice imposta l&#39;appartenenza al gruppo per un singolo utente.
 
 **Request Contents (Richiesta contenuto)**
 
