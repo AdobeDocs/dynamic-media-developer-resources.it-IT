@@ -1,15 +1,16 @@
 ---
-description: Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image Rendering HTTP.
-seo-description: Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image Rendering HTTP.
+description: Questa sezione descrive la sintassi di base del protocollo HTTP Dynamic Media Image Rendering.
+seo-description: Questa sezione descrive la sintassi di base del protocollo HTTP Dynamic Media Image Rendering.
 seo-title: Sintassi di base del protocollo HTTP Image Rendering
 solution: Experience Manager
 title: Sintassi di base del protocollo HTTP Image Rendering
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Sintassi di base del protocollo HTTP Image Rendering{#image-rendering-http-protocol-basic-syntax}
 
-Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image Rendering HTTP.
+Questa sezione descrive la sintassi di base del protocollo HTTP Dynamic Media Image Rendering.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -28,24 +29,24 @@ Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image R
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> request</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/rendering[/<span class="varname"> vignettatura</span> ] [ ?<span class="varname"> modificatori</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> richiesta</span> </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vignetta</span> ] [ ?<span class="varname"> modificatori</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> server  </span> </p> </td> 
    <td colname="col2"> <p><span class="varname"> server_address</span> [:<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> vignettatura  </span> </p> </td> 
-   <td colname="col2"> <p>Identificatore di vignettatura (percorso relativo del file o voce del catalogo di vignettatura). </p> </td> 
+   <td colname="col1"> <p><span class="varname"> vignetta  </span> </p> </td> 
+   <td colname="col2"> <p>Identificatore di vignetta (percorso relativo del file o voce di catalogo di vignetta). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificatori  </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> modifier</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modificatore</span> *[ e  <span class="varname"> modificatore</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificatore </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> comando</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> comando</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> commento</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> command  </span> </p> </td> 
@@ -53,11 +54,11 @@ Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image R
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro  </span> </p> </td> 
-   <td colname="col2"> <p>Nome di una macro di comandi. </p> </td> 
+   <td colname="col2"> <p>Nome di una macro di comando. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> commento  </span> </p> </td> 
-   <td colname="col2"> <p>Stringa commento (ignorata dal server). </p> </td> 
+   <td colname="col2"> <p>Stringa di commento (ignorata dal server). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
@@ -69,21 +70,21 @@ Questa sezione descrive la sintassi di base del protocollo Dynamic Media Image R
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> value  </span> </p> </td> 
-   <td colname="col2"> <p>Comando o valore variabile. </p> </td> 
+   <td colname="col2"> <p>Valore di comando o variabile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`server`*,  *`cmdName`*,  *`macro`* e non  *`var`* fa distinzione tra maiuscole e minuscole. Il server conserva le maiuscole e le minuscole di tutti gli altri valori stringa.
+*`server`*,  *`cmdName`*,  *`macro`* e  *`var`* sono senza distinzione tra maiuscole e minuscole. Il server conserva il caso di tutti gli altri valori stringa.
 
 **Identificatore server**
 
-Il contesto radice &#39; `/ir/render`&#39; è richiesto per tutte le richieste HTTP al rendering immagine.
+Il contesto radice &#39; `/ir/render`&#39; è necessario per tutte le richieste HTTP al Image Rendering.
 
 **Commenti**
 
-I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) subito dopo il separatore di comando (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono utilizzabili per Image Server, come marche temporali, ID del database, ecc.
+I commenti possono essere incorporati nelle stringhe di richiesta in qualsiasi punto e sono identificati da un punto (.) subito dopo il separatore di comando (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono per l&#39;uso di Image Server, come timestamp, ID del database, ecc.
 
 **decodifica HTTP**
 
-Il rendering dell&#39;immagine viene eseguito per primi estratti *`object`* e *`modifiers`* dalla richiesta in entrata. *`object`* viene quindi separato in elementi di percorso che sono singolarmente decodificati HTTP. La stringa *`modifiers`* è separata in *`command`*= *`value`* e *`value`* viene quindi decodificata HTTP prima dell&#39;elaborazione specifica per il comando.
+Image Rendering estrae prima *`object`* e *`modifiers`* dalla richiesta in arrivo. *`object`* viene quindi separato in elementi di percorso che sono singolarmente decodificati tramite HTTP. La stringa *`modifiers`* è separata in coppie *`command`*= *`value`* e *`value`* viene quindi decodificata per HTTP prima dell&#39;elaborazione specifica del comando.
