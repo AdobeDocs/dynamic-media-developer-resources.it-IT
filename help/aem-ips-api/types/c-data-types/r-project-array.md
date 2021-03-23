@@ -1,23 +1,24 @@
 ---
-description: Un array di progetti.
-seo-description: Un array di progetti.
+description: Una serie di progetti.
+seo-description: Una serie di progetti.
 seo-title: ProjectArray
 solution: Experience Manager
 title: ProjectArray
-topic: Dynamic Media Image Production System API
 uuid: 5828eac9-653b-4241-bfdc-6ec5b5c0b25e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 
 # ProjectArray{#projectarray}
 
-Un array di progetti.
+Una serie di progetti.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:Project` | L&#39;array di progetto. |
+| `*`elementi`*` | `types:Project` | Matrice di progetto. |
 
