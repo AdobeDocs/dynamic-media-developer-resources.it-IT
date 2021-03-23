@@ -1,15 +1,16 @@
 ---
-description: Flash domini Web dell'applicazione.  applicazioni per Flash Adobi possono richiedere l'accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere l’accesso esplicitamente registrando il nome del dominio o dei domini applicazione di cui si fida.
-seo-description: Flash domini Web dell'applicazione.  applicazioni per Flash Adobi possono richiedere l'accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere l’accesso esplicitamente registrando il nome del dominio o dei domini applicazione di cui si fida.
+description: Flash domini web dell'applicazione. Le applicazioni di Flash Adobe possono richiedere l'accesso alle proprietà delle immagini consegnate in formato swf. Il swf deve concedere l'accesso esplicitamente registrando il nome dei domini di applicazione di cui si fida.
+seo-description: Flash domini web dell'applicazione. Le applicazioni di Flash Adobe possono richiedere l'accesso alle proprietà delle immagini consegnate in formato swf. Il swf deve concedere l'accesso esplicitamente registrando il nome dei domini di applicazione di cui si fida.
 seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # TrustedDomains *{#trusteddomains}
 
-Flash domini Web dell&#39;applicazione.  applicazioni per Flash Adobi possono richiedere l&#39;accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere l’accesso esplicitamente registrando il nome del dominio o dei domini applicazione di cui si fida.
+Flash domini web dell&#39;applicazione. Le applicazioni di Flash Adobe possono richiedere l&#39;accesso alle proprietà delle immagini consegnate in formato swf. Il swf deve concedere l&#39;accesso esplicitamente registrando il nome dei domini di applicazione di cui si fida.
 
 ## Proprietà {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Stringa contenente un elenco separato da virgole di nomi di dominio Web. Se vuoto, le applicazioni devono essere servite dallo stesso dominio del rendering delle immagini per poter accedere alle proprietà delle immagini nelle risposte in formato [!DNL swf].
+Stringa contenente un elenco separato da virgole di nomi di dominio web. Se questa opzione è vuota, le applicazioni devono essere servite dallo stesso dominio di Image Rendering per poter accedere alle proprietà delle immagini nelle risposte in formato [!DNL swf].
 
 ## Predefinito {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
