@@ -1,15 +1,16 @@
 ---
-description: Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l'area di una miniatura di output che non contiene dati immagine effettivi.
-seo-description: Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l'area di una miniatura di output che non contiene dati immagine effettivi.
-seo-title: ThumbBkgColor
+description: Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l'area di un'immagine miniatura di output che non contiene dati immagine effettivi.
+seo-description: Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l'area di un'immagine miniatura di output che non contiene dati immagine effettivi.
+seo-title: Colore pollice
 solution: Experience Manager
-title: ThumbBkgColor
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Colore pollice
 uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l&#39;area di una miniatura di output che non contiene dati immagine effettivi.
+Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l&#39;area di un&#39;immagine miniatura di output che non contiene dati immagine effettivi.
 
 Utilizzato solo per le richieste di miniature ( `req=tmb`) e quando `catalog::ThumbType` è impostato su 2 o 3.
 
