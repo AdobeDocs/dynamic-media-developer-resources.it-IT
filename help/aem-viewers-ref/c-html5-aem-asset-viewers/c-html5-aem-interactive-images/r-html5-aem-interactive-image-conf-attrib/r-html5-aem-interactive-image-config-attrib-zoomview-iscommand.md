@@ -1,23 +1,24 @@
 ---
-description: Stringa di comando Image Server applicata all’immagine di zoom.
-seo-description: Stringa di comando Image Server applicata all’immagine di zoom.
+description: Stringa di comando Image Server applicata all'immagine di zoom.
+seo-description: Stringa di comando Image Server applicata all'immagine di zoom.
 seo-title: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-topic: Dynamic Media
 uuid: 13dc11ed-52a4-45ae-bfae-ca034c8a3c87
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 7%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-Stringa di comando Image Server applicata all’immagine di zoom.
+Stringa di comando Image Server applicata all&#39;immagine di zoom.
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
@@ -25,7 +26,7 @@ Stringa di comando Image Server applicata all’immagine di zoom.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se specificate nell'URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devono essere codificate per HTTP rispettivamente come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col2"> <p> Se specificato nell'URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devono essere codificate per HTTP rispettivamente come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
