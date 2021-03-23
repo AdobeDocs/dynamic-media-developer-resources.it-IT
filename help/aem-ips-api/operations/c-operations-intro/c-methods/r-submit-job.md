@@ -4,12 +4,13 @@ seo-description: Invia un processo al sistema.
 seo-title: submitJob
 solution: Experience Manager
 title: submitJob
-topic: Dynamic Media Image Production System API
 uuid: d3a83b59-bcd7-4ae9-b1ee-e515fc3c9261
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '421'
 ht-degree: 8%
 
 ---
@@ -49,13 +50,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> <p>Maniglia aziendale. </p> </td> 
+   <td colname="col4"> <p>Tratta l'azienda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Gestite l’utente che ha inviato il processo. </p> <p> <p>Nota: Il sistema invia un'e-mail all'utente specificato da <span class="codeph"> userHandle</span>. Se <span class="codeph"> userHandle</span> non viene fornito, la persona che ha inviato il processo riceve le e-mail. </p> </p> </td> 
+   <td colname="col4"> <p>Gestisci l'utente che ha inviato il processo. </p> <p> <p>Nota: Il sistema invia un'e-mail all'utente specificato da <span class="codeph"> userHandle</span>. Se <span class="codeph"> userHandle</span> non viene fornito, la persona che ha inviato il lavoro riceve le e-mail. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -67,22 +68,22 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Le impostazioni internazionali utilizzate per i dettagli del registro dei processi e la localizzazione delle e-mail. </p> <p>Le impostazioni internazionali sono specificate come <span class="codeph"> &lt;codice_lingua&gt;</span> e <span class="codeph"> [&lt;codice_paese&gt;]</span>, dove il codice della lingua è un codice di due lettere minuscoli, come specificato dallo standard ISO-639, e il codice opzionale del paese è un codice di due lettere maiuscole, come specificato dallo standard ISO-3166. Ad esempio, la stringa per l'inglese (Stati Uniti) è: it-IT. </p> </td> 
+   <td colname="col4"> <p>Impostazioni internazionali utilizzate per i dettagli del registro di lavoro e la localizzazione delle e-mail. </p> <p>Le impostazioni internazionali sono specificate come <span class="codeph"> &lt;language_code&gt;</span> e <span class="codeph"> [&lt;country_code&gt;]</span>, dove il codice della lingua è un codice a due lettere minuscolo come specificato dallo standard ISO-639, e il codice del paese opzionale è un codice a due lettere maiuscolo come specificato dallo standard ISO-3166. Ad esempio, la stringa locale per Inglese (Stati Uniti) è la seguente: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Data e ora di esecuzione del processo. </p> <p>Nota:  Specifica il fuso orario con la richiesta. I fusi orari vengono regolati in base al fuso orario del server IPS di destinazione. </p> </td> 
+   <td colname="col4"> <p>Data e ora di esecuzione del processo. </p> <p>Nota:  Fornisci il fuso orario con la richiesta. I fusi orari vengono regolati in base al fuso orario del server IPS di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa <span class="codeph"> cron</span> che esegue il processo su base periodica. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consultate la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
+   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa <span class="codeph"> cron</span> che esegue il processo su base ricorrente. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consulta la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Descrizione del processo. </p> </td> 
@@ -91,13 +92,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ExportJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Esportate i file caricati in precedenza. </p> <p>Vedere <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
+   <td colname="col4"> <p>Esporta i file caricati in precedenza. </p> <p>Vedere <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageServingPublishJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Dettagli per un processo di pubblicazione di Image Server. </p> </td> 
+   <td colname="col4"> <p>Dettagli per un processo di pubblicazione di image serving. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
@@ -109,13 +110,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:VideoPublishJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Dettagli per un processo di pubblicazione video. </p> <p>Vedere <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
+   <td colname="col4"> <p>Dettagli per un processo di pubblicazione video. </p> <p>Consulta <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Dettagli per un processo di pubblicazione di una directory server. </p> </td> 
+   <td colname="col4"> <p>Dettagli per un processo di pubblicazione della directory del server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
@@ -148,7 +149,7 @@ Sintassi
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> AutomatedSetGenerationJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Elabora un elenco di risorse in set utilizzando gli script di set automatizzati. </p> <p>Vedere <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
@@ -160,11 +161,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Sì | Handle processo. |
+| `*`jobHandle`*` | `xsd:string` | Sì | Maniglia di lavoro. |
 
 ## Esempi {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Questo esempio di codice invia un processo di pubblicazione di immagini in IPS e restituisce un handle di processo. Scegliete solo un tipo di processo nella richiesta. Poiché `userHandle` è stato omesso, le notifiche e-mail vengono inviate all’utente che ha inviato il processo. Questo processo di esempio viene eseguito immediatamente perché `execTime` e `execSchedule` sono stati omessi.
+Questo esempio di codice invia un processo di pubblicazione a IPS e restituisce un handle di processo. Scegliere un solo tipo di processo nella richiesta. Poiché `userHandle` è stato omesso, le notifiche e-mail vengono inviate all’utente che ha inviato il processo. Questo processo di esempio viene eseguito immediatamente perché `execTime` e `execSchedule` sono stati omessi.
 
 **Request Contents (Richiesta contenuto)**
 
@@ -189,7 +190,7 @@ Questo esempio di codice invia un processo di pubblicazione di immagini in IPS e
 
 ## Note {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-È possibile specificare al massimo uno di `execTime` e `execSchedule`. Se nessuna delle due operazioni viene superata, il processo viene eseguito immediatamente. Potete utilizzare solo una delle seguenti opzioni:
+Puoi specificare al massimo uno tra `execTime` e `execSchedule`. Se non viene passato nessuno dei due, il processo viene eseguito immediatamente. Puoi utilizzare solo uno dei seguenti elementi:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
