@@ -1,24 +1,25 @@
 ---
-description: I riferimenti $var$ che si verificano ovunque all'interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con valori di definizione variabili corrispondenti.
-seo-description: I riferimenti $var$ che si verificano ovunque all'interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con valori di definizione variabili corrispondenti.
-seo-title: Elaborazione delle variabili nelle richieste esterne incorporate
+description: I riferimenti $var$ che si verificano in qualsiasi punto all'interno delle parentesi graffe di una richiesta esterna incorporata sono sostituiti dai valori di definizione della variabile corrispondenti.
+seo-description: I riferimenti $var$ che si verificano in qualsiasi punto all'interno delle parentesi graffe di una richiesta esterna incorporata sono sostituiti dai valori di definizione della variabile corrispondenti.
+seo-title: Elaborazione variabile nelle richieste esterne incorporate
 solution: Experience Manager
-title: Elaborazione delle variabili nelle richieste esterne incorporate
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Elaborazione variabile nelle richieste esterne incorporate
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 
-# Elaborazione delle variabili in richieste esterne incorporate{#variable-processing-in-embedded-foreign-requests}
+# Elaborazione delle variabili nelle richieste esterne incorporate{#variable-processing-in-embedded-foreign-requests}
 
-I riferimenti $var$ che si verificano ovunque all&#39;interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con valori di definizione variabili corrispondenti.
+I riferimenti $var$ che si verificano in qualsiasi punto all&#39;interno delle parentesi graffe di una richiesta esterna incorporata sono sostituiti dai valori di definizione della variabile corrispondenti.
 
 Questo consente di inserire richieste esterne incorporate in un modello in un catalogo immagini.
 
-I valori delle variabili che devono essere sostituiti in richieste esterne in genere devono essere codificati due volte, poiché non viene applicata alcuna codifica prima che il server tenti di trasmettere l&#39;URL esterno finale.
+I valori delle variabili che devono essere sostituiti in richieste esterne in genere devono essere codificati in doppia codifica, poiché non viene applicata alcuna nuova codifica prima che il server tenti di trasmettere l’URL esterno finale.
