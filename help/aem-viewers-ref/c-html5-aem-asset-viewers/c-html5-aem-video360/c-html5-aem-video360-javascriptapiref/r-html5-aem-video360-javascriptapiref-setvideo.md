@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore Video360
-seo-description: Riferimento API JavaScript per il visualizzatore Video360
+description: Riferimento API JavaScript per il visualizzatore video360
+seo-description: Riferimento API JavaScript per il visualizzatore video360
 seo-title: setVideo
 solution: Experience Manager
 title: setVideo
-topic: Dynamic Media
 uuid: 749aa32c-c27f-476c-954b-d4524528bccc
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '73'
 ht-degree: 4%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 4%
 
 # setVideo{#setvideo}
 
-Riferimento API JavaScript per il visualizzatore Video360
+Riferimento API JavaScript per il visualizzatore video360
 
 `setVideo(videoUrl)`
 
-Imposta un nuovo video esterno. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
+Imposta il nuovo video esterno. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -31,7 +32,7 @@ Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-referenc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} un URL assoluto per il nuovo video. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} un URL assoluto al nuovo video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
