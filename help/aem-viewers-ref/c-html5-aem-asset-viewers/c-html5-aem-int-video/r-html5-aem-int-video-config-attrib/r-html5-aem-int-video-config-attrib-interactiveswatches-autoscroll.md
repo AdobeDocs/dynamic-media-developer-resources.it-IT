@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: InteractiveSwatches.autoscroll
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-topic: Dynamic Media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]autoscroll=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la possibilità per i campioni interattivi di scorrere automaticamente insieme a ogni transizione multimediale, ad esempio durante la riproduzione video. </p> </td> 
+   <td colname="col2"> <p> Abilita o disabilita lo scorrimento automatico dei campioni interattivi insieme a ogni transizione multimediale, ad esempio durante la riproduzione di un video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
