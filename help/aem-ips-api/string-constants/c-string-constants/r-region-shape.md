@@ -1,23 +1,24 @@
 ---
-description: Usato da ImageMap/shapeType e saveImageMapParam/shapType.
-seo-description: Usato da ImageMap/shapeType e saveImageMapParam/shapType.
+description: Utilizzato da ImageMap/shapeType e saveImageMapParam/shapType.
+seo-description: Utilizzato da ImageMap/shapeType e saveImageMapParam/shapType.
 seo-title: Forma area
 solution: Experience Manager
 title: Forma area
-topic: Dynamic Media Image Production System API
 uuid: ea879108-5277-479b-afa5-fa06328c61cd
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 3%
+source-wordcount: '36'
+ht-degree: 2%
 
 ---
 
 
 # Forma regione{#region-shape}
 
-Usato da ImageMap/shapeType e saveImageMapParam/shapType.
+Utilizzato da ImageMap/shapeType e saveImageMapParam/shapType.
 
 Sintassi
 
