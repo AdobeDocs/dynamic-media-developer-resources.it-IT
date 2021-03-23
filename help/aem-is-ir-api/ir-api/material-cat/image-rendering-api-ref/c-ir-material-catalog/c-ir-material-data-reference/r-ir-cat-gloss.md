@@ -1,16 +1,17 @@
 ---
 description: Lucidità superficie Specifica la lucentezza relativa della superficie del materiale.
 seo-description: Lucidità superficie Specifica la lucentezza relativa della superficie del materiale.
-seo-title: Gloss
+seo-title: Glossario
 solution: Experience Manager
-title: Gloss
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Glossario
 uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -22,16 +23,16 @@ Lucidità superficie Specifica la lucentezza relativa della superficie del mater
 Questo valore viene utilizzato dal renderer per i seguenti scopi:
 
 * Selezionare la mappa di illuminazione quando `catalog::Illum` è -1.
-* Controlla il rendering dell&#39;effetto lucido (riflessione speculare) insieme a `catalog::Type`.
-* Controlla gli effetti di rendering del riflesso 3D insieme a `catalog::Type` e `catalog::Roughness`.
+* Controlla il rendering dell&#39;effetto lucido (riflesso speculare) in combinazione con `catalog::Type`.
+* Controlla gli effetti di rendering del riflesso 3D in combinazione con `catalog::Type` e `catalog::Roughness`.
 
 ## Proprietà {#section-ddc475c0556f4f67b4cf62bd1bcd4bf7}
 
-Numero intero. Numero percentuale nell’intervallo 0...100. Facoltativo per tutti i materiali. Utilizzata solo per le vignettature con mappe di riflessione multiple o vignettature con capacità di riflessione 3D. Lasciate vuoto o impostate su -1 se non noto o non necessario.
+Numero intero. Numero percentuale nell&#39;intervallo 0...100. Facoltativo per tutti i materiali. Utilizzato solo per vignette con mappe di riflesso multiple o vignette con capacità di riflessione 3D. Lasciare vuoto o impostare su -1 se non noto o non necessario.
 
 ## Predefinito {#section-2352721073524f1a8d461f64a363aac9}
 
-Un valore predefinito viene fornito dalla vignettatura se questo valore è impostato su -1.
+Se questo valore è impostato su -1, la vignetta fornisce un valore predefinito.
 
 ## Consultate anche {#section-0213bbdb7d6d4974a7c53822957717c1}
 
