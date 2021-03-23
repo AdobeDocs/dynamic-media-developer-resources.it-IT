@@ -4,13 +4,14 @@ seo-description: Ottiene i processi pianificati per l'esecuzione.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
@@ -38,9 +39,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società. |
-| `*`jobHandle`*` | `xsd:string` | No | Handle processo. |
-| `*`OriginalName`*` | `xsd:string` | No | Nome specificato da `submitJob`. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| `*`jobHandle`*` | `xsd:string` | No | Maniglia di lavoro. |
+| `*`originalName`*` | `xsd:string` | No | Nome specificato da `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
@@ -50,7 +51,7 @@ Sintassi
 
 ## Esempi {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Questo esempio di codice restituisce tutti i processi pianificati in un array di processi. La matrice stessa contiene informazioni dettagliate sui processi.
+Questo esempio di codice restituisce tutti i processi pianificati in una matrice di processi. La matrice stessa contiene informazioni dettagliate sui processi.
 
 **Request Contents (Richiesta contenuto)**
 
