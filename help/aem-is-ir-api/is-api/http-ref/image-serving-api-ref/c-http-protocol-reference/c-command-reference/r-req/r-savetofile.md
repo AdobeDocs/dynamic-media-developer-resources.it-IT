@@ -1,15 +1,16 @@
 ---
-description: Salva l’immagine nel file.
-seo-description: Salva l’immagine nel file.
+description: Salva l'immagine nel file.
+seo-description: Salva l'immagine nel file.
 seo-title: saveToFile
 solution: Experience Manager
 title: saveToFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # saveToFile{#savetofile}
 
-Salva l’immagine nel file.
+Salva l&#39;immagine nel file.
 
 `req=saveToFile&name= *``*[&timeout= *`filevale`*]`
 
@@ -48,7 +49,7 @@ Al completamento della richiesta di salvataggio, la richiesta restituisce divers
   <tr valign="top"> 
    <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p>Ora di creazione del file (numero di millisecondi trascorsi a partire da mezzanotte, 1 gennaio 1970 UTC/GMT). </p> </td> 
+   <td> <p>Ora di creazione del file (numero di millisecondi trascorsi dalla mezzanotte del 1° gennaio 1970 UTC/GMT ). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> pixelTotal</span> </p> </td> 
@@ -58,15 +59,15 @@ Al completamento della richiesta di salvataggio, la richiesta restituisce divers
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> </span> doneif success. </p> </td> 
+   <td> <p> <span class="codeph"> </span> doneif riuscito. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Restituisce lo stato di risposta HTTP 200 in caso di esito positivo e 403 in caso di esito negativo o di timeout della richiesta. La risposta è di tipo MIME `text/plain` e non è memorizzabile nella cache.
+Restituisce lo stato di risposta HTTP 200 in caso di esito positivo e 403 in caso di errore o timeout della richiesta. La risposta ha il tipo MIME `text/plain` e non è memorizzabile nella cache.
 
-Il salvataggio importante nei file deve essere abilitato specificando il percorso di una cartella scrivibile esistente in `attribute::SavePath`. `saveToFile=` non riesce se  `attribute::SavePath` è vuoto.
+È necessario abilitare il salvataggio importante nei file specificando il percorso di una cartella scrivibile esistente in `attribute::SavePath`. `saveToFile=` non riesce se  `attribute::SavePath` è vuoto.
 
-*`file`* è obbligatorio e deve essere un percorso relativo combinato con  `attribute::SavePath`. Image Server non crea cartelle. La cartella di destinazione deve esistere sul server e disporre delle autorizzazioni appropriate per la creazione dei file da parte di Image Server.
+*`file`* è obbligatorio e deve essere un percorso relativo combinato con  `attribute::SavePath`. Image Server non crea cartelle. La cartella di destinazione deve esistere sul server e disporre delle impostazioni di autorizzazione appropriate per la creazione dei file in Image Server.
 
-`timeout=` è facoltativo. Il timeout predefinito è 60.000 msec, o qualsiasi valore configurato con `PS::SaveTimeout`.
+`timeout=` è facoltativo. Il timeout predefinito è di 60.000 msec, o qualsiasi valore configurato con `PS::SaveTimeout`.
