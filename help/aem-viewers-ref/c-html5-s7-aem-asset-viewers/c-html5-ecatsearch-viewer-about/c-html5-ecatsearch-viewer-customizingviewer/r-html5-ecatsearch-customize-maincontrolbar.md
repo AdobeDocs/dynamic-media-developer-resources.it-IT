@@ -1,15 +1,16 @@
 ---
-description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca per eCatalog.
-seo-description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca per eCatalog.
+description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca eCatalog.
+seo-description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca eCatalog.
 seo-title: Barra di controllo principale
 solution: Experience Manager
 title: Barra di controllo principale
-topic: Dynamic Media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # Barra di controllo principale{#main-control-bar}
 
-La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca per eCatalog.
+La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore di ricerca eCatalog.
 
-Sui telefoni cellulari mantiene ancora i pulsanti Miniature, Sommario, Scarica, Stampa, Preferiti, Condivisione social network, Schermo intero e Chiudi. Tuttavia, i pulsanti Prima pagina e Ultima pagina e l’indicatore pagina vengono rimossi dalla barra di controllo principale e aggiunti alla barra di controllo secondaria. Per impostazione predefinita, la barra di controllo principale viene visualizzata nella parte superiore dell’area del visualizzatore sui sistemi desktop e sui telefoni cellulari e spostata nella parte inferiore dell’area del visualizzatore sui tablet. L’intera larghezza del visualizzatore disponibile viene sempre applicata. È possibile modificarne colore, altezza e posizione verticale nel CSS, rispetto al contenitore del visualizzatore.
+Sui telefoni cellulari, mantiene ancora i pulsanti Miniature, Sommario, Scarica, Stampa, Preferiti, Condivisione social, Schermo intero e Chiudi. Tuttavia, i pulsanti Prima pagina e Ultima pagina e l’indicatore pagina vengono rimossi dalla barra di controllo principale e aggiunti alla barra di controllo secondaria. Per impostazione predefinita, la barra di controllo principale viene visualizzata nella parte superiore dell’area del visualizzatore su sistemi desktop e telefoni cellulari e spostata nella parte inferiore dell’area del visualizzatore su tablet. Richiede sempre l’intera larghezza del visualizzatore disponibile. È possibile modificarne il colore, l’altezza e la posizione verticale nel CSS, rispetto al contenitore del visualizzatore.
 
-L&#39;aspetto della barra di controllo principale è controllato dal seguente selettore di classe CSS:
+L’aspetto della barra di controllo principale viene controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar`
 
@@ -35,24 +36,24 @@ L&#39;aspetto della barra di controllo principale è controllato dal seguente se
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione nella parte superiore del visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Posizione dalla parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione nella parte inferiore del visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Posizione dal fondo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza della barra di controllo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio**  - per impostare una barra di controllo principale grigia alta 36 pixel e posizionata nella parte superiore del contenitore del visualizzatore.
+**Esempio** : per impostare una barra di controllo principale grigia alta 36 pixel e posizionata nella parte superiore del contenitore del visualizzatore.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -62,9 +63,9 @@ L&#39;aspetto della barra di controllo principale è controllato dal seguente se
 }
 ```
 
-La barra di controllo principale supporta una funzione di scorrimento opzionale. Viene attivata se la larghezza del visualizzatore è troppo piccola e lo spazio disponibile non è sufficiente per adattarsi a tutti i pulsanti preimpostati nella barra di controllo. In questo caso, nella parte destra della barra di controllo viene visualizzato un pulsante freccia a due stati. Toccando o facendo clic su questo pulsante, tutti gli elementi della barra di controllo scorrono a sinistra o a destra, a seconda dello stato del pulsante di scorrimento. L’esempio più tipico è rappresentato dai dispositivi mobili con schermi di piccole dimensioni con orientamento verticale.
+La barra di controllo principale supporta una funzione di scorrimento facoltativa. Viene attivato se la larghezza del visualizzatore è troppo piccola e lo spazio disponibile non è sufficiente per adattarsi a tutti i pulsanti preimpostati nella barra di controllo. In questo caso, nella parte destra della barra di controllo viene visualizzato un pulsante a freccia a due stati. Tocca o fai clic su questo pulsante per scorrere tutti gli elementi della barra di controllo verso sinistra o verso destra, a seconda dello stato del pulsante di scorrimento. Questa funzione è utile soprattutto per i dispositivi mobili con piccoli schermi in orientamento verticale.
 
-La funzione di scorrimento è attivata per la barra di controllo principale ed è disattivata per la barra di controllo secondaria. La funzione viene attivata e disattivata utilizzando il seguente selettore di classe CSS:
+La funzione di scorrimento è abilitata per la barra di controllo principale ed è disabilitata per la barra di controllo secondaria. La funzione viene attivata e disattivata utilizzando il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar .s7innercontrolbarcontainer`
 
@@ -78,14 +79,14 @@ La funzione di scorrimento è attivata per la barra di controllo principale ed �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Se è impostata su <span class="codeph"> statica </span>, la funzione di scorrimento è disabilitata. </p> <p>Impostate questa proprietà su <span class="codeph"> assoluto </span> per abilitare la funzione di scorrimento. </p> </td> 
+   <td colname="col2"> <p>Quando è impostata su <span class="codeph"> statica </span> la funzione di scorrimento è disabilitata. </p> <p>Imposta questa proprietà su <span class="codeph"> assoluto </span> per abilitare la funzione di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il pulsante di scorrimento viene aggiunto a uno speciale elemento contenitore che posiziona correttamente il pulsante e consente di formattare l&#39;area intorno al pulsante in modo diverso rispetto al resto dello sfondo della barra di controllo, nel caso in cui l&#39;altezza del pulsante di scorrimento sia inferiore all&#39;altezza della barra di controllo.
+Il pulsante di scorrimento viene aggiunto a un elemento contenitore speciale che posiziona correttamente il pulsante e consente di impostare un diverso stile per l’area intorno al pulsante rispetto al resto dello sfondo della barra di controllo nel caso in cui l’altezza del pulsante di scorrimento sia inferiore all’altezza della barra di controllo.
 
-L&#39;aspetto di questo contenitore di pulsanti di scorrimento è controllato dal seguente selettore di classe CSS:
+L’aspetto di questo contenitore di pulsanti di scorrimento è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollbuttoncontainer`
 
@@ -99,18 +100,18 @@ L&#39;aspetto di questo contenitore di pulsanti di scorrimento è controllato da
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>In genere deve essere uguale o maggiore della larghezza del pulsante di scorrimento. </p> </td> 
+   <td colname="col2"> <p>Normalmente deve essere uguale o maggiore della larghezza del pulsante di scorrimento stesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del contenitore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-È possibile ridimensionare e applicare l&#39;interfaccia al pulsante di scorrimento stesso tramite CSS.
+Puoi ridimensionare e applicare lo skin al pulsante di scorrimento stesso tramite CSS.
 
-L&#39;aspetto di questo pulsante è controllato dal seguente selettore di classe CSS:
+L’aspetto di questo pulsante è controllato con il seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollleftrightbutton`
 
@@ -123,31 +124,31 @@ L&#39;aspetto di questo pulsante è controllato dal seguente selettore di classe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta i selettori di attributi `state` e `selected`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `state="selected"` corrisponde allo stato iniziale del pulsante di scorrimento quando è possibile scorrere il contenuto della barra di controllo verso sinistra; `state="default"` corrisponde allo stato di scorrimento del contenuto verso sinistra e il pulsante di scorrimento suggerisce di riportarlo allo stato iniziale.
+>Questo pulsante supporta i selettori di attributi `state` e `selected` , che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `state="selected"` corrisponde allo stato iniziale del pulsante di scorrimento quando è possibile scorrere il contenuto della barra di controllo a sinistra; `state="default"` corrisponde allo stato in cui il contenuto viene scortato completamente a sinistra e il pulsante di scorrimento suggerisce di riportarlo allo stato iniziale.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-**Esempio** : per abilitare la funzione di scorrimento nella barra di controllo principale per i telefoni cellulari, e impostare un pulsante di scorrimento di 64 x 64 pixel che visualizzi un&#39;immagine diversa per ciascuno dei 4 stati di pulsante diversi se selezionato o non selezionato:
+**Esempio** : per abilitare la funzione di scorrimento nella barra di controllo principale per i telefoni cellulari, e impostare un pulsante di scorrimento di 64 x 64 pixel che mostra un’immagine diversa per ciascuno dei 4 stati di pulsante diversi se selezionato o meno:
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
