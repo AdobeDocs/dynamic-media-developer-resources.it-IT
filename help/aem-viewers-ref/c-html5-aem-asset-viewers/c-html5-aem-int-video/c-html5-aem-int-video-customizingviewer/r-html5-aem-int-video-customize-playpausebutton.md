@@ -1,15 +1,16 @@
 ---
-description: Il pulsante Riproduci/Pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video quando un utente lo fa clic.
-seo-description: Il pulsante Riproduci/Pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video quando un utente lo fa clic.
+description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
+seo-description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
 seo-title: Pulsante Riproduci/Pausa
 solution: Experience Manager
 title: Pulsante Riproduci/Pausa
-topic: Dynamic Media
 uuid: d6dd795d-f608-4304-8221-251d0a082421
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '295'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Pulsante Riproduci/Pausa{#play-pause-button}
 
-Il pulsante Riproduci/Pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video quando un utente lo fa clic.
+Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Per CSS potete ridimensionare, applicare l&#39;interfaccia e posizionare il pulsante, rispetto alla barra di controllo che lo contiene.
+È possibile ridimensionare, applicare uno skin e posizionare il pulsante in base alla barra di controllo che lo contiene, tramite CSS.
 
-Il seguente selettore di classe CSS controlla l&#39;aspetto del pulsante:
+Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
 
 ```
 .s7interactivevideoviewer .s7playpausebutton
@@ -39,10 +40,10 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del pulsante:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -58,27 +59,27 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del pulsante:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta i selettori di attributi `state`, `selected` e `replay`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pause&quot;;
+>Questo pulsante supporta sia i selettori di attributi `state`, `selected` che `replay`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pause&quot;;
 >
->`replay='true'` è impostato quando il video ha raggiunto la fine e facendo clic sul pulsante la riproduzione viene riavviata dall&#39;inizio.
+>`replay='true'` viene impostato quando il video ha raggiunto la fine e facendo clic sul pulsante si riavvia la riproduzione dall&#39;inizio.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel; è posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo e, se selezionato o meno, visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante.
+Per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel; è posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 
