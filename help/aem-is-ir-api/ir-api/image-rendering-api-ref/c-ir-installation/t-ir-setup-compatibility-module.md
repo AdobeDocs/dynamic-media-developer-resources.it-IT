@@ -1,15 +1,16 @@
 ---
-description: È necessario configurare il modulo di compatibilità IR 3.x.
-seo-description: È necessario configurare il modulo di compatibilità IR 3.x.
-seo-title: Configurazione del modulo di compatibilità IR 3.x
+description: È necessario configurare e configurare il modulo di compatibilità IR 3.x.
+seo-description: È necessario configurare e configurare il modulo di compatibilità IR 3.x.
+seo-title: Configurazione e configurazione del modulo di compatibilità IR 3.x
 solution: Experience Manager
-title: Configurazione del modulo di compatibilità IR 3.x
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Configurazione e configurazione del modulo di compatibilità IR 3.x
 uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Configurazione e configurazione del modulo di compatibilità IR 3.x{#setup-and-configure-ir-x-compatibility-module}
 
-È necessario configurare il modulo di compatibilità IR 3.x.
+È necessario configurare e configurare il modulo di compatibilità IR 3.x.
 
 1. Interruzione `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
-1. Passate alla directory delle app Web ImageServer.
-1. Copiare il contenuto della directory [!DNL ir] nella directory [!DNL ROOT].
-1. Aprite [!DNL ROOT/WEB-INF/web.xml] in un editor di testo.
+1. Passa alla directory delle applicazioni Web ImageServer.
+1. Copia il contenuto della directory [!DNL ir] nella directory [!DNL ROOT].
+1. Apri [!DNL ROOT/WEB-INF/web.xml] in un editor di testo.
 1. Cerca la riga `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. Rimuovete il commento dai tag `<servlet>` e `<servlet-mapping>`.
-1. Riavviare `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
+1. Rimuovi il commento ai tag `<servlet>` e `<servlet-mapping>` .
+1. Riavvia `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
 **Esempio Linux**
 
@@ -35,12 +36,12 @@ ht-degree: 0%
 
 `cd WEB-INF`
 
-Quindi, modificate [!DNL web.xml]utilizzando il vostro editor preferito per rimuovere il commento dai tag `<servlet>` e `<servlet-mapping>`.
+Quindi modifica [!DNL web.xml]utilizzando il tuo editor preferito per rimuovere il commento dai tag `<servlet>` e `<servlet-mapping>`.
 
 **Esempio di Windows**
 
-Aprite Esplora risorse e passate a `C:\Program Files\Scene7\ImageServing\webapps\ir`.
+Apri Explorer e vai a `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
-Selezionate tutti i file e le cartelle e copiateli all&#39;interno di `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
+Seleziona tutti i file e le cartelle e copiali all&#39;interno di `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-Quindi, modificate il file `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`, rimuovendo i commenti dai tag `<servlet>` e `<servlet-mapping>`.
+Quindi modifica il file `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`, rimuovendo il commento dai tag `<servlet>` e `<servlet-mapping>`.
