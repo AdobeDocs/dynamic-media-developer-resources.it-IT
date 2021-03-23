@@ -1,29 +1,30 @@
 ---
-description: Timestamp di modifica immagine predefinito. Fornisce un valore predefinito per il catalogo TimeStamp.
-seo-description: Timestamp di modifica immagine predefinito. Fornisce un valore predefinito per il catalogo TimeStamp.
+description: Timestamp predefinito per la modifica dell'immagine. Fornisce un valore predefinito per TimeStamp del catalogo.
+seo-description: Timestamp predefinito per la modifica dell'immagine. Fornisce un valore predefinito per TimeStamp del catalogo.
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
 
 # TimeStamp{#timestamp}
 
-Timestamp di modifica immagine predefinito. Fornisce un valore predefinito per catalog::TimeStamp.
+Timestamp predefinito per la modifica dell&#39;immagine. Fornisce un valore predefinito per catalog::TimeStamp.
 
 Se non viene specificato, il server utilizzerà la data/ora di modifica del file [!DNL *`catalog`*.ini].
 
 ## Proprietà {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
-Valore data/ora. Può essere il numero intero di millisecondi trascorsi a partire da mezzanotte, il 1 gennaio 1970 UTC/GMT oppure un valore di stringa data/ora con uno dei seguenti formati:
+Valore data/ora. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, dal 1° gennaio 1970 UTC/GMT o un valore di stringa data/ora con uno dei seguenti formati:
 
 *`mm`*/  *`dd`*/  *`yyyy`* *`hh`*:  *`mm`*:  *`ss zzz`*
 
@@ -31,15 +32,15 @@ Valore data/ora. Può essere il numero intero di millisecondi trascorsi a partir
 
 *`hh`* è compreso tra 0 e 23.
 
-*`zzz`* è un codice del fuso orario di 3 o 4 caratteri, ad esempio  `GMT` o  `PST`. Il tempo di risparmio giornaliero deve essere contabilizzato nel codice del fuso orario (ad esempio `PST` per l&#39;ora standard del Pacifico, rispetto a `PDT` per l&#39;ora legale del Pacifico).
+*`zzz`* è un codice del fuso orario a 3 o 4 caratteri, ad esempio  `GMT` o  `PST`. Nel codice del fuso orario deve essere tenuto conto dell’ora legale (ad esempio `PST` per l&#39;ora standard del Pacifico, rispetto a `PDT` per l&#39;ora legale del Pacifico).
 
-*`offset`* è un offset del fuso orario espresso in ore o ore:minuti, rispetto al valore GMT. Ad esempio, `PDT` equivale a `GMT -7`.
+*`offset`* è un offset del fuso orario in ore o ore:minuti, relativo a GMT. Ad esempio, `PDT` equivale a `GMT -7`.
 
-Devono essere presenti tutti gli elementi dei valori data/ora formattati in stringa. Se il valore data/ora non è formattato correttamente, viene ignorato e viene utilizzata l&#39;ora di modifica del file [!DNL *`catalog`*.ini].
+Tutti gli elementi dei valori data/ora formattati in stringa devono essere presenti. Se il valore data/ora non viene formattato correttamente, viene ignorato e viene invece utilizzata l&#39;ora di modifica del file [!DNL *`catalog`*.ini].
 
 ## Predefinito {#section-ac465313c97943ed97d41ea852329177}
 
-Se vuoto o non definito, il server utilizza il tempo di modifica del file `*`catalog`*.ini`.
+Se vuoto o non definito, il server utilizza l&#39;ora di modifica del file `*`catalog`*.ini`.
 
 ## Consultate anche {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 
