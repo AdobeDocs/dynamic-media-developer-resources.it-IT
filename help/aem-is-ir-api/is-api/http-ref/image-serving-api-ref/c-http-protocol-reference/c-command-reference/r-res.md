@@ -1,15 +1,16 @@
 ---
-description: Ridimensionamento delle immagini basato sulla risoluzione. Consente di ridimensionare l’immagine in base alla risoluzione richiesta.
-seo-description: Ridimensionamento delle immagini basato sulla risoluzione. Consente di ridimensionare l’immagine in base alla risoluzione richiesta.
+description: Ridimensionamento delle immagini basato sulla risoluzione. Ridimensiona l'immagine alla risoluzione richiesta.
+seo-description: Ridimensionamento delle immagini basato sulla risoluzione. Ridimensiona l'immagine alla risoluzione richiesta.
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ab0c8329-5d40-4233-a122-8cb8ca01b500
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -17,38 +18,38 @@ ht-degree: 1%
 
 # res{#res}
 
-Ridimensionamento delle immagini basato sulla risoluzione. Consente di ridimensionare l’immagine in base alla risoluzione richiesta.
+Ridimensionamento delle immagini basato sulla risoluzione. Ridimensiona l&#39;immagine alla risoluzione richiesta.
 
 ` res= *`val`*`
 
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>risoluzione di destinazione; in genere in pixel per pollice (reale). </p> </td> 
+  <td class="stentry"> <p>risoluzione del target; tipicamente in pixel per pollice (reale). </p> </td> 
  </tr> 
 </table>
 
-Il fattore di scala è calcolato dividendo *`val`* per `catalog::Resolution`. Questo comando non influisce sulla risoluzione di stampa dell&#39;immagine di risposta.
+Il fattore di scala viene calcolato dividendo *`val`* per `catalog::Resolution`. Questo comando non influisce sulla risoluzione di stampa dell&#39;immagine di risposta.
 
-Per utilizzare questa funzione, la risoluzione delle immagini sorgente originali deve essere nota e impostata in `catalog::Resolution`. A seconda dell&#39;applicazione, le unità di risoluzione possono variare. Per texture o campioni di materiale ripetibili in 2D, come sfondi o tessuti, la risoluzione può essere espressa in pixel/pollice o in pixel/mm. Le foto e le mappe aeree possono essere meglio servite da pixel/miglia o pixel/km. In ogni caso, le unità utilizzate per `catalog::Resolution` devono essere le stesse utilizzate per `res=`.
+Per utilizzare questa funzione, la risoluzione delle immagini sorgente originali deve essere nota e impostata in `catalog::Resolution`. A seconda dell&#39;applicazione, le unità di risoluzione possono variare. Per texture 2D ripetibili o campioni di materiale, come sfondi o tessuti, la risoluzione può essere espressa in pixel/pollici o pixel/mm. Foto aeree e mappe possono essere meglio servite da pixel/miglia o pixel/km. In ogni caso, le unità utilizzate per `catalog::Resolution` devono essere uguali alle unità utilizzate per `res=`.
 
-Oltre a ottenere immagini a risoluzioni precise, `res=` può essere utilizzato anche per combinare più immagini alla stessa risoluzione, in modo che gli elementi visibili in queste immagini siano in proporzione precisa l&#39;uno all&#39;altro.
+Oltre ad ottenere immagini a risoluzioni precise, `res=` può essere utilizzato anche per combinare più immagini con la stessa risoluzione, in modo che gli elementi visibili in queste immagini siano in proporzione precisa l&#39;uno con l&#39;altro.
 
 >[!NOTE]
 >
->Normalmente, un&#39;immagine composita viene ridimensionata in base alle dimensioni della visualizzazione di destinazione (specificate da `wid=`, `hei=` o `attribute::DefaultPix`) prima che venga restituita al client. Per impedire che questo venga ridimensionato e ottenere un&#39;immagine con la risoluzione esatta specificata da `res=`, potrebbe essere necessario disattivare il ridimensionamento della vista specificando esplicitamente `scl=1`. Questo indica al server di ritagliare l&#39;immagine composita alla dimensione della visualizzazione di destinazione anziché ridimensionarla.
+>Normalmente, un&#39;immagine composita viene ridimensionata in base alle dimensioni della visualizzazione di destinazione (specificate da `wid=`, `hei=` o `attribute::DefaultPix`) prima che venga restituita al client. Per evitare questo ridimensionamento e ottenere un&#39;immagine con la risoluzione esatta specificata da `res=`, può essere necessario disabilitare la modifica in scala della visualizzazione specificando esplicitamente `scl=1`. Questo indica al server di ritagliare l&#39;immagine composita in base alle dimensioni della visualizzazione di destinazione, anziché ridimensionarla.
 
 ## Proprietà {#section-fdbd16e59cff4952a3717146bc91412e}
 
-Attributo immagine/maschera di origine. Ignorato dai livelli non associati a un’immagine o maschera sorgente. Applicato al livello 0 è specificato per `layer=comp`. Ignorato se per lo stesso livello è specificato `scale=` o `size=`.
+Attributo immagine/maschera di origine. Ignorato dai livelli non associati a un&#39;immagine sorgente o a una maschera. Applicato al livello 0 è specificato per `layer=comp`. Ignorato se per lo stesso livello è specificato `scale=` o `size=` .
 
 ## Predefinito {#section-c5f1ba6fe53d46eca32e7d0588dcdf3d}
 
-Se non viene specificato, il fattore di scala è determinato da `scale=` o `size=` oppure, se non viene specificato nessuno, l&#39;immagine viene utilizzata senza essere ridimensionata.
+Se non viene specificato, `scale=` o `size=` determina il fattore di scala oppure, se non viene specificato nessuno dei due, l&#39;immagine viene utilizzata senza ridimensionamento.
 
 ## Esempio {#section-eb06f333e08e4247971fb1b18922597b}
 
-Recuperate un’immagine di texture con una risoluzione di 12 pixel/pollice per l’utilizzo con il rendering delle immagini o l’authoring delle immagini. È possibile specificare un formato PNG senza perdita di dati e un ricampionamento di qualità migliore per ottenere la migliore qualità possibile,
+Recupera un&#39;immagine di texture a una risoluzione dell&#39;oggetto di 12 pixel/pollice per l&#39;utilizzo con Image Rendering o Image Authoring. Specifichiamo il formato PNG senza perdite e il ricampionamento di qualità migliore per la migliore qualità possibile,
 
 ` http:// *`server`*/myTexture?res=12&fmt=png&resMode=sharp`
 
