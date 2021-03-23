@@ -2,12 +2,13 @@
 description: Distribuzione video HTTPS
 solution: Experience Manager
 title: Distribuzione video HTTPS
-topic: Dynamic Media
 uuid: 7f8c1fe6-b464-4d80-9ffe-a36081825d49
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La distribuzione sicura dei video si applica solo a AEM 6.2 con l&#39;installazione di [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) e a AEM 6.1 con l&#39;installazione di [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>La distribuzione video sicura si applica solo a AEM 6.2 con l&#39;installazione di [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) e a AEM 6.1 con l&#39;installazione di [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
-A condizione che il visualizzatore funzioni nella configurazione come descritto all’inizio di questa sezione, la distribuzione video pubblicata può avvenire sia in modalità HTTPS (protetta) che HTTP (non sicura). In una configurazione predefinita, il protocollo di distribuzione video segue rigorosamente il protocollo di distribuzione della pagina Web in cui è stato incorporato. Tuttavia, è possibile imporre la distribuzione di video HTTPS senza tener conto del protocollo utilizzato dall&#39;incorporazione della pagina Web utilizzando l&#39;attributo di configurazione [VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e). L’anteprima video in modalità Autore viene sempre trasmessa in modo protetto tramite HTTPS.
+A condizione che il visualizzatore funzioni nella configurazione come descritto all’inizio di questa sezione, la distribuzione video pubblicata può avvenire sia in modalità HTTPS (protetta) che HTTP (non protetta). In una configurazione predefinita, il protocollo di consegna video segue rigorosamente il protocollo di consegna della pagina web di incorporamento. Tuttavia, è possibile forzare la distribuzione video HTTPS senza tenere conto del protocollo utilizzato incorporando la pagina web utilizzando l&#39;attributo di configurazione [VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) . L’anteprima video in modalità Autore viene sempre distribuita in modo sicuro tramite HTTPS.
 
-A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM, l&#39;attributo di configurazione `VideoPlayer.ssl` viene applicato in modo diverso, come illustrato di seguito:
+A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM, l’attributo di configurazione `VideoPlayer.ssl` viene applicato in modo diverso, come illustrato di seguito:
 
-* Se pubblicate un video Dynamic Media con un URL, aggiungete `VideoPlayer.ssl` all’URL. Ad esempio, per forzare la distribuzione sicura dei video, aggiungete `&VideoPlayer.ssl=on` alla fine del seguente esempio di URL visualizzatore:
+* Se pubblichi un video Dynamic Media con un URL, aggiungi `VideoPlayer.ssl` all’URL. Ad esempio, per forzare la distribuzione video sicura, aggiungi `&VideoPlayer.ssl=on` alla fine del seguente esempio di URL visualizzatore:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
@@ -31,7 +32,7 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM,
 
    Vedere anche [(Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
-* Se pubblicate un video Dynamic Media con codice da incorporare, aggiungete `VideoPlayer.ssl` all’elenco degli altri parametri di configurazione del visualizzatore nello snippet di codice da incorporare. Ad esempio, per imporre la distribuzione di video HTTPS, aggiungete `&VideoPlayer.ssl=on` come nell&#39;esempio seguente:
+* Se pubblichi un video Dynamic Media con codice da incorporare, aggiungi `VideoPlayer.ssl` all’elenco degli altri parametri di configurazione del visualizzatore nello snippet di codice da incorporare. Ad esempio, per forzare la distribuzione video HTTPS, aggiungi `&VideoPlayer.ssl=on` come nell’esempio seguente:
 
    ```
    <style type="text/css"> 
@@ -57,5 +58,5 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM,
    </script>
    ```
 
-   Vedere anche [(Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+   Vedere anche [(Incorporare il video in una pagina web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
 
