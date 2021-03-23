@@ -1,23 +1,24 @@
 ---
-description: Opzioni per il livello delle immagini Photoshop.
-seo-description: Opzioni per il livello delle immagini Photoshop.
-seo-title: PhotoshopLayerOptions
+description: Opzioni del livello immagine Photoshop.
+seo-description: Opzioni del livello immagine Photoshop.
+seo-title: OpzioniLivelloPhotoshop
 solution: Experience Manager
-title: PhotoshopLayerOptions
-topic: Dynamic Media Image Production System API
+title: OpzioniLivelloPhotoshop
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
-Opzioni per il livello delle immagini Photoshop.
+Opzioni del livello immagine Photoshop.
 
 Sintassi
 
@@ -28,6 +29,6 @@ Sintassi
 | `*`layerNaming`*` | `xsd:string` | Scelta delle modalità di denominazione dei livelli Photoshop. |
 | `*`ancoraggio`*` | `xsd:string` | Scelta delle modalità di ancoraggio Photoshop. |
 | `*`createTemplate`*` | `xsd:boolean` | Se creare un modello dai livelli Photoshop. |
-| `*`extractText`*` | `xsd:boolean` | Specifica se estrarre il testo come livelli di testo. |
-| `*`extensionLayers`*` | `xsd:boolean` | Consente di estendere i livelli fino alle dimensioni intere dello sfondo. |
+| `*`extractText`*` | `xsd:boolean` | Se estrarre il testo come livelli di testo. |
+| `*`extensionLayers`*` | `xsd:boolean` | Se estendere i livelli a dimensioni intere dello sfondo. |
 
