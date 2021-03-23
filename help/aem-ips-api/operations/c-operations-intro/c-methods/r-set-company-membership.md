@@ -1,23 +1,24 @@
 ---
-description: Imposta l'iscrizione di un utente in una o più società.
-seo-description: Imposta l'iscrizione di un utente in una o più società.
+description: Imposta l’iscrizione di un utente in una o più società.
+seo-description: Imposta l’iscrizione di un utente in una o più società.
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
 
 # setCompanyMembership{#setcompanymembership}
 
-Imposta l&#39;iscrizione di un utente in una o più società.
+Imposta l’iscrizione di un utente in una o più società.
 
 Sintassi
 
@@ -34,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | No | handle utente. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Array di società. |
+| `*`userHandle`*` | `xsd:sting` | No | Maniglia utente. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Array di aziende. |
 
 **Output (setCompanyMembershipParam)**
 
@@ -43,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-862c0cc32ce0407ab248028e690a8386}
 
-Questo esempio di codice aggiunge un utente a una società. Se necessario, specificate più società nell&#39;array di handle della società.
+Questo codice di esempio aggiunge un utente a un&#39;azienda. Se necessario, specifica più società nell&#39;array di gestione aziendale.
 
 **Request Contents (Richiesta contenuto)**
 
