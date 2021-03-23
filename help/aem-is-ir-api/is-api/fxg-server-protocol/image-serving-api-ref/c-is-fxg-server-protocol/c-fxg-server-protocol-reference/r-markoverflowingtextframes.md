@@ -1,23 +1,24 @@
 ---
-description: 'Visualizza cornici di testo non inserite con il segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). '
-seo-description: 'Visualizza cornici di testo non inserite con il segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). '
+description: 'Visualizza cornici di testo sovrapposte con segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). '
+seo-description: 'Visualizza cornici di testo sovrapposte con segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). '
 seo-title: markOverflowingTextFrames
 solution: Experience Manager
 title: markOverflowingTextFrames
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 68%
+source-wordcount: '193'
+ht-degree: 65%
 
 ---
 
 
 # markOverflowingTextFrames{#markoverflowingtextframes}
 
-Visualizza cornici di testo non inserite con il segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). 
+Visualizza cornici di testo sovrapposte con segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). 
 
 <table id="simpletable_F17FD29EB52043BF9000923ED5195A26"> 
  <tr class="strow"> 
@@ -26,6 +27,6 @@ Visualizza cornici di testo non inserite con il segno più. Un indicatore di tes
  </tr> 
 </table>
 
-Se si imposta il modificatore `markOverflowingTextFrames=1` tramite una chiamata URL, vengono contrassegnate tutte le cornici di testo in cui il testo viene sovrapposto con un segno più. Inoltre, nell&#39;anteprima di Dynamic Media Classic, l&#39;indicatore del testo non inserito è impostato su &quot; `TRUE`&quot; per impostazione predefinita.
+L’impostazione del modificatore `markOverflowingTextFrames=1` tramite una chiamata URL contrassegna tutte le cornici di testo in cui il testo viene sovraimpostato con un segno più. Inoltre, nell’anteprima di Dynamic Media Classic, l’indicatore di testo non inserito è impostato su &quot; `TRUE`&quot; per impostazione predefinita.
 
 Il valore predefinito è 0.
