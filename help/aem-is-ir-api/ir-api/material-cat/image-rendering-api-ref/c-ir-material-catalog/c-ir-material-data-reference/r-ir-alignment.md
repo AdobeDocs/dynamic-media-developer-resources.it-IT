@@ -1,15 +1,16 @@
 ---
-description: Allineamento della texture. Allineamento della texture applicato agli oggetti di vignettatura correlati tra loro, come le parti imbottite di un mobile. Utilizzata principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
-seo-description: Allineamento della texture. Allineamento della texture applicato agli oggetti di vignettatura correlati tra loro, come le parti imbottite di un mobile. Utilizzata principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
+description: Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
+seo-description: Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
 seo-title: Allineamento
 solution: Experience Manager
 title: Allineamento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 4%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 4%
 
 # Allineamento{#alignment}
 
-Allineamento della texture. Allineamento della texture applicato agli oggetti di vignettatura correlati tra loro, come le parti imbottite di un mobile. Utilizzata principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
+Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
 
 ## Proprietà {#section-008158477f53457e9d812d313696cfb6}
 
-Enum. Impostare su 0 per l&#39;allineamento predefinito o centrato, su 1 per l&#39;allineamento continuo, su 2 per l&#39;allineamento casuale tra le parti oppure su 3, 4, 5 o 6 per utilizzare un&#39;origine texture personalizzata. Usato solo da materiali in tessuto.
+Enum. Impostare su 0 per l&#39;allineamento predefinito o centrato, 1 per l&#39;allineamento continuo, 2 per l&#39;allineamento casuale tra parti o su 3, 4, 5 o 6 per utilizzare un&#39;origine texture personalizzata. Utilizzato solo da materiali in tessuto.
 
 ## Predefinito {#section-1aae2c85042846539caa089f3fa8fe2d}
 
