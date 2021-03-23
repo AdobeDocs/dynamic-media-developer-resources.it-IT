@@ -4,13 +4,14 @@ seo-description: Proprietà di una risorsa archivio.
 seo-title: CabinetInfo
 solution: Experience Manager
 title: CabinetInfo
-topic: Dynamic Media Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
 
@@ -25,11 +26,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso relativo all&#39;archivio originale. |
-| `*`OriginalFile`*` | `xsd:string` | Nome del cabinet. |
-| `*`fileSize`*` | `xsd:int` | Dimensione del cabinet. |
-| `*`imagePath`*` | `xsd:string` | Percorso relativo all&#39;archivio associato alla vignettatura. |
-| `*`imageFile`*` | `xsd:string` | Nome file dell&#39;archivio associato alla vignettatura. |
+| `*`originalPath`*` | `xsd:string` | Percorso relativo all&#39;archivio originale. |
+| `*`originalFile`*` | `xsd:string` | Nome del gabinetto. |
+| `*`fileSize`*` | `xsd:int` | Dimensioni del gabinetto. |
+| `*`imagePath`*` | `xsd:string` | Percorso relativo all&#39;archivio associato alla vignetta. |
+| `*`imageFile`*` | `xsd:string` | Nome file dell&#39;archivio associato alla vignetta. |
 | `*`optimizedPath`*` | `xsd:string` | Percorso dell&#39;archivio ottimizzato per IPS. |
-| `*`optimizedFile`*` | `xsd:string` | File cabinet ottimizzato per IPS. |
+| `*`optimizedFile`*` | `xsd:string` | File CAB ottimizzato per IPS. |
 
