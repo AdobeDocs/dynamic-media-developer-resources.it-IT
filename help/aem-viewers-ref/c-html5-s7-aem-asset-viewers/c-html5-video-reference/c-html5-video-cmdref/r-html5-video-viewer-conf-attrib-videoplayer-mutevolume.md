@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-topic: Dynamic Media
 uuid: 8e32b005-cf7f-4078-896c-14497340fad7
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume è disattivato; in caso contrario, il video viene riprodotto con il suono. Su alcuni dispositivi, l’audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span> il volume è disattivato; altrimenti, il video viene riprodotto con il suono. Su alcuni dispositivi, l'interruzione della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
