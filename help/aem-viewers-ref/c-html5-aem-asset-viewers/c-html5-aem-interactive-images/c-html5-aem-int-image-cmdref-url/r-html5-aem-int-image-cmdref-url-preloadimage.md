@@ -1,23 +1,24 @@
 ---
-description: URL per il visualizzatore di immagini video.
-seo-description: URL per il visualizzatore di immagini video.
+description: Comando URL per il visualizzatore di immagini video.
+seo-description: Comando URL per il visualizzatore di immagini video.
 seo-title: preloadimage
 solution: Experience Manager
 title: preloadimage
-topic: Dynamic Media
 uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
 
 # preloadimage{#preloadimage}
 
-URL per il visualizzatore di immagini video.
+Comando URL per il visualizzatore di immagini video.
 
 `preloadImage=0|1`
 
@@ -25,7 +26,7 @@ URL per il visualizzatore di immagini video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilitare (1) o disabilitare (0) la funzione di precaricamento dell’immagine. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Precarica immagine</a>. </p> </td> 
+   <td colname="col2"> <p> Abilita (1) o disabilita (0) la funzione di precaricamento immagine. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Precaricare immagine</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
