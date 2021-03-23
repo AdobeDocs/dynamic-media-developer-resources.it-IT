@@ -4,13 +4,14 @@ seo-description: Crea una mappa del sito video.
 seo-title: CreateVideoSitemapJob
 solution: Experience Manager
 title: CreateVideoSitemapJob
-topic: Dynamic Media Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
@@ -35,7 +36,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Genera la mappa del sito quando è impostata su <span class="codeph"> true</span>. <p><p>Nota: Se la configurazione di generazione del Sitemap è impostata su manuale e <span class="codeph"> forceUpdate</span> non è impostata, la mappa del sito non verrà generata. </p></p></td> 
+   <td colname="col3">Genera la mappa del sito quando è impostata su <span class="codeph"> true</span>. <p><p>Nota: Se la configurazione di generazione della mappa del sito è impostata su manuale e <span class="codeph"> forceUpdate</span> non è impostata, la mappa del sito non verrà generata. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
