@@ -1,15 +1,16 @@
 ---
-description: Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
-seo-description: Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
+description: Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
+seo-description: Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # cache{#cache}
 
-Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
+Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
 
 `cache= *`cacheControl`*`
 
@@ -38,23 +39,23 @@ Controllo cache. Consente di disattivare selettivamente la memorizzazione nella 
  </tr> 
 </table>
 
-Se viene specificato un solo valore `*`cacheControl`*`, questo viene applicato sia alle cache client che a quelle del server.
+Se viene specificato un solo valore `*`cacheControl`*`, questo viene applicato sia alla cache client che al server.
 
-La parola chiave `validate` consente di aggiornare le voci della cache dopo la modifica dei file immagine, senza dover attendere la scadenza automatica della voce della cache. Il comando non influisce sul caching dei client.
+La parola chiave `validate` consente di aggiornare le voci della cache dopo la modifica dei file immagine, senza dover attendere che la voce della cache scada automaticamente. La memorizzazione in cache del client non è interessata da questo comando.
 
-La parola chiave `update` può essere utilizzata per forzare l&#39;aggiornamento delle voci della cache lato server. Questa funzione è utile dopo che sono state modificate le risorse che non vengono tracciate direttamente dal meccanismo di convalida della cache, ad esempio quando un file di font viene modificato senza modificarne il nome o l&#39;ID di font associato.
+La parola chiave `update` può essere utilizzata per forzare l&#39;aggiornamento delle voci della cache lato server. Questa funzione è utile dopo che sono state modificate le risorse che non vengono tracciate direttamente dal meccanismo di convalida della cache, ad esempio quando un file di font viene modificato senza modificarne il nome o l’ID di font associato.
 
-Se specificato in una richiesta nidificata, `cache=on` consente il caching permanente lato server dell&#39;immagine generata dalla richiesta nidificata. Prestate attenzione a abilitare il caching per le richieste nidificate solo quando è previsto che la stessa richiesta nidificata venga richiamata ripetutamente con gli stessi parametri.
+Se specificato in una richiesta nidificata, `cache=on` abilita la memorizzazione in cache persistente lato server dell&#39;immagine generata dalla richiesta nidificata. Occorre prestare attenzione ad abilitare il caching per le richieste nidificate solo quando ci si aspetta che la stessa richiesta nidificata venga richiamata ripetutamente con esattamente gli stessi parametri.
 
 ## Proprietà {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-Attributo di richiesta. Si applica indipendentemente dall’impostazione del livello corrente. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`*viene ignorato quando la memorizzazione nella cache lato client è disabilitata dal catalogo immagini (se `catalog::Expiration` ha un valore negativo).
+Attributo di richiesta. Si applica indipendentemente dall&#39;impostazione del livello corrente. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`*viene ignorato quando la memorizzazione in cache lato client è disabilitata dal catalogo immagini (se `catalog::Expiration` ha un valore negativo).
 
 Il controllo della cache lato client ( `on` e `off` solo) è disponibile anche per le richieste di contenuto statico in [!DNL /is/content/].
 
 ## Predefinito {#section-4124b2c836e2491489b9009a92fe4f22}
 
-`cache=on,on` per richieste HTTP,  `cache=off` per richieste nidificate/incorporate,  `cache=on` per richieste di contenuto statico.
+`cache=on,on` per le richieste HTTP,  `cache=off` per le richieste nidificate/incorporate,  `cache=on` per le richieste di contenuto statico.
 
 ## Consultate anche {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
