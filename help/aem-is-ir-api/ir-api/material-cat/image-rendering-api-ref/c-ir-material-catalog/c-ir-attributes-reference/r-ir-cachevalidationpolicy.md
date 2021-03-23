@@ -1,15 +1,16 @@
 ---
-description: Criterio di convalida della cache del server. Specifica quando le voci della cache lato server vengono convalidate.
-seo-description: Criterio di convalida della cache del server. Specifica quando le voci della cache lato server vengono convalidate.
+description: Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
+seo-description: Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 3%
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-Criterio di convalida della cache del server. Specifica quando le voci della cache lato server vengono convalidate.
+Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 
-Con la convalida basata sulla scadenza, i materiali di origine e le vignettature vengono verificati periodicamente per verificare se sono stati modificati. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
+Con la convalida basata sulla scadenza, i materiali di origine e le vignette vengono controllati periodicamente per verificare se sono cambiate. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
 
-La convalida basata su catalogo è consigliata quando si utilizzano sia cataloghi di materiale che di vignettatura. La convalida basata sulla scadenza deve essere utilizzata quando alle richieste di rendering delle immagini viene fatto riferimento direttamente tramite percorso di vignettature.
+La convalida basata su catalogo è consigliata quando si utilizzano sia cataloghi di materiale che di vignette. La convalida basata sulla scadenza deve essere utilizzata quando nelle richieste di rendering delle immagini viene fatto riferimento alle vignette direttamente tramite percorso.
 
 ## Proprietà {#section-46e13cb341eb442c86e0d8292de23ea0}
 
-Enum. 0 per selezionare la convalida basata sulla scadenza. 1 per selezionare la convalida della cache basata su catalogo.
+Enum. 0 per selezionare una convalida basata sulla scadenza. 1 per selezionare la convalida della cache basata su catalogo.
 
 ## Predefinito {#section-e09f3af8b6b3497d963199988dc5345d}
 
