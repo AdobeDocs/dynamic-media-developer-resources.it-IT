@@ -1,21 +1,22 @@
 ---
 description: Utilizzato da AutoCropColorOptions/corner.
 seo-description: Utilizzato da AutoCropColorOptions/corner.
-seo-title: Angolo di ritaglio automatico
+seo-title: Angolo ritaglio automatico
 solution: Experience Manager
-title: Angolo di ritaglio automatico
-topic: Dynamic Media Image Production System API
+title: Angolo ritaglio automatico
 uuid: 684b4651-2978-4a11-b034-9423fe199b5e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 3%
 
 ---
 
 
-# Angolo di ritaglio automatico{#autocrop-corner}
+# Angolo ritaglio automatico{#autocrop-corner}
 
 Utilizzato da AutoCropColorOptions/corner.
 
