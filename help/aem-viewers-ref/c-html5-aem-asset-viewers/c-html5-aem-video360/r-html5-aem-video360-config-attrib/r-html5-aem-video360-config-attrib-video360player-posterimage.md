@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore Video360.
 seo-title: Video360Player.posterimage
 solution: Experience Manager
 title: Video360Player.posterimage
-topic: Dynamic Media
 uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 
@@ -19,18 +20,18 @@ ht-degree: 14%
 
 Attributo di configurazione per il visualizzatore Video360.
 
-` [Video360Player.|<containerId>_video360Player.]posterimage=none|[? *`isCommands`*]`
+` [Video360Player.|<containerId>_video360Player.]posterimage=none|[? *`isControls`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|[?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Modificatori Image Server che controllano l’aspetto dell’immagine poster. Se specificato nell’URL, codificate con HTTP quanto segue: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> none|[?<span class="varname"> isControls</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Modificatori Image Serving che controllano l'aspetto dell'immagine poster. Se specificato nell’URL, codifica HTTP come segue: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as  <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> Questo modificatore funziona per il contenuto video in hosting su Dynamic Media Classic o AEM Dynamic Media. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specificate <span class="codeph"> none</span> come valore dell'immagine poster. </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> come  <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> come  <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> come  <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p> Questo modificatore funziona per il contenuto video in hosting su Dynamic Media Classic o AEM Dynamic Media. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specifica <span class="codeph"> none</span> come valore dell'immagine poster. </p> </td> 
   </tr> 
  </tbody> 
 </table>
