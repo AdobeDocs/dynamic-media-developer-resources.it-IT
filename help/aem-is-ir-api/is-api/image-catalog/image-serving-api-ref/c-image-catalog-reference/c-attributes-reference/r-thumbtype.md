@@ -1,15 +1,16 @@
 ---
-description: Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record catalogo non contenga un valore ThumbType valido per il catalogo.
-seo-description: Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record catalogo non contenga un valore ThumbType valido per il catalogo.
+description: Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record di catalogo non contenga un valore ThumbType del catalogo valido.
+seo-description: Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record di catalogo non contenga un valore ThumbType del catalogo valido.
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 3%
 
 # ThumbType{#thumbtype}
 
-Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un determinato record catalogo non contenga un valore valido per il catalogo::ThumbType.
+Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record di catalogo non contenga un valore di catalogo valido::ThumbType.
 
 Utilizzato solo per le richieste di miniature ( `req=tmb`).
 
 ## Proprietà {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per i tipi di miniature *`crop`*, *`fit`* e *`texture`*.
+Enum. I valori consentiti sono 1, 2 e 3, rispettivamente per i tipi di miniatura *`crop`*, *`fit`* e *`texture`*.
 
 ## Predefinito {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-Ereditato da `default::ThumbType`se non definito o vuoto.
+Ereditato da `default::ThumbType`se non definito o se vuoto.
 
 ## Consultate anche {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
