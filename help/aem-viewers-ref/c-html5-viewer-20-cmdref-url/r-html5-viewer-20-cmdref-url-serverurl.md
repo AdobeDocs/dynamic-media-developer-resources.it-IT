@@ -4,12 +4,13 @@ seo-description: Parametro comune a tutti i visualizzatori.
 seo-title: serverUrl
 solution: Experience Manager
 title: serverUrl
-topic: Dynamic Media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -25,14 +26,14 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Percorso principale del server immagini relativo o assoluto. </p> <p> Specifica il percorso relativo o assoluto del server immagini, dal quale il visualizzatore recupera le immagini. Se il percorso non ha un'interlinea <span class="filepath"> /</span>, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Usate solo un percorso assoluto se nel visualizzatore è abilitato il modulo Condivisione e-mail. </p> </td> 
+   <td colname="col2"> <p>Percorso principale di Image Server relativo o assoluto. </p> <p> Specifica un percorso relativo o assoluto di Image Server, dal quale il visualizzatore recupera le immagini. Se il percorso non ha una <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso iniziale <span class="filepath"> /</span>, specifica un percorso assoluto sullo stesso server. </p> <p> Utilizza solo un percorso assoluto nel caso in cui il modulo Condivisione e-mail sia abilitato nel visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facoltativo. Non necessario per l&#39;utilizzo standard di SaaS (software come servizio).
+Facoltativo. Non necessario per l&#39;utilizzo standard SaaS (software as a service).
 
 ## Predefinito {#section-d411e450028c460392cb8508f8ccc5d9}
 
