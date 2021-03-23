@@ -1,15 +1,16 @@
 ---
-description: Regolate la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell’immagine composita.
-seo-description: Regolate la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell’immagine composita.
+description: Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del livello o dell'immagine composita.
+seo-description: Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del livello o dell'immagine composita.
 seo-title: op_saturation
 solution: Experience Manager
 title: op_saturation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # op_saturation{#op-saturation}
 
-Regolate la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell’immagine composita.
+Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del livello o dell&#39;immagine composita.
 
 `op_saturation= *`adj`*`
 
@@ -28,18 +29,18 @@ Regolate la saturazione. Modifica la saturazione di ciascun pixel visibile del l
  </tr> 
 </table>
 
-`op_saturation=-100` desatura completamente l’immagine.
+`op_saturation=-100` desatura completamente l&#39;immagine.
 
 ## Proprietà {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
 
 ## Predefinito {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, per non modificare la saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+`op_saturation=0`, senza alcun cambiamento nella saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
 
 ## Esempio {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipolate una fotografia a colori per ottenere un aspetto &quot;high key&quot;:
+Manipolare una fotografia a colori per ottenere un aspetto &quot;high key&quot;:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`
