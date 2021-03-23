@@ -4,12 +4,13 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic Media
 uuid: 5ab7a322-9de0-4a26-95be-b9b2ff8e5a84
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -24,8 +25,8 @@ Attributo di configurazione per il visualizzatore video.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando si imposta <span class="codeph"> auto</span>, nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza lo streaming video HTML5 in formato HLS. Riprende la riproduzione HTML5 progressiva su alcuni sistemi come Internet Explorer e Android. </p> <p>Se si specifica <span class="codeph"> progressive</span>, il visualizzatore utilizza solo la riproduzione HTML5 come supportata in modo nativo dai browser e riproduce progressivamente il video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità automatica e progressiva, consultate la guida utente dell’SDK per visualizzatori. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatico|progressivo</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando <span class="codeph"> auto</span> è impostato, nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza video in streaming HTML5 in formato HLS. Ritorna alla riproduzione progressiva HTML5 su alcuni sistemi come Internet Explorer e Android. </p> <p>Se è specificato <span class="codeph"> progressivo</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente i video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità automatica e progressiva, consulta la Guida utente dell’SDK per visualizzatori. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -34,7 +35,7 @@ Attributo di configurazione per il visualizzatore video.
 
 Facoltativo.
 
-Ignorato quando il visualizzatore funziona con video esterni. Consultate [Supporto per video esterni](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+Ignorato quando il visualizzatore funziona con video esterno. Consulta [Supporto video esterno](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Predefinito {#section-d016470e92a74f98a18c4ab3489410a5}
 
