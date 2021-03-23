@@ -1,15 +1,16 @@
 ---
-description: L’indicatore set è una serie di punti rappresentati sopra i campioni principali quando un visualizzatore viene usato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
-seo-description: L’indicatore set è una serie di punti rappresentati sopra i campioni principali quando un visualizzatore viene usato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
+description: L’indicatore set è una serie di punti sottoposti a rendering sui campioni principali quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
+seo-description: L’indicatore set è una serie di punti sottoposti a rendering sui campioni principali quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
 seo-title: Imposta indicatore
 solution: Experience Manager
 title: Imposta indicatore
-topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Imposta indicatore{#set-indicator}
 
-L’indicatore set è una serie di punti rappresentati sopra i campioni principali quando un visualizzatore viene usato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
+L’indicatore set è una serie di punti sottoposti a rendering sui campioni principali quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;indicatore del set**
+**Proprietà CSS dell’indicatore set**
 
-L&#39;aspetto del contenitore degli indicatori di set è controllato dal seguente selettore di classe CSS:
+L’aspetto del contenitore dell’indicatore set è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -38,13 +39,13 @@ L&#39;aspetto del contenitore degli indicatori di set è controllato dal seguent
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore del set. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore set. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un indicatore con uno sfondo bianco:
+Esempio: per impostare un indicatore con sfondo bianco:
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -52,7 +53,7 @@ Esempio: per impostare un indicatore con uno sfondo bianco:
 }
 ```
 
-L’aspetto di un singolo punto indicatore del set è controllato dal selettore di classe CSS:
+L’aspetto di un singolo punto indicatore del set è controllato con il selettore di classe CSS:
 
 `.s7mixedmediaviewer .s7setindicator .s7dot`
 
@@ -66,34 +67,34 @@ L’aspetto di un singolo punto indicatore del set è controllato dal selettore 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza del punto dell’indicatore del set. </p> </td> 
+   <td colname="col2"> <p>Larghezza del punto dell'indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del punto dell'indicatore del set. </p> </td> 
+   <td colname="col2"> <p>Altezza del punto indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore  </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,9 +102,9 @@ L’aspetto di un singolo punto indicatore del set è controllato dal selettore 
 
 >[!NOTE]
 >
->Il punto indicatore impostato supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla pagina corrente di miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
+>Il punto indicatore impostato supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi a stati di miniatura diversi. In particolare, `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
 
-Esempio: per impostare l’indicatore punto su 15 x 15 pixel, con due pixel per il margine orizzontale, cinque pixel per il margine superiore, un pixel per il margine inferiore, dodici pixel per il raggio, #D5D3D3 per il colore predefinito e #939393 per il colore attivo:
+Esempio: per impostare un punto indicatore a 15 x 15 pixel, con due pixel di margine orizzontale, cinque pixel di margine superiore, un margine inferiore di un pixel, un raggio di dodici pixel, #D5D3D3 colore predefinito e #939393 colore attivo:
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 
