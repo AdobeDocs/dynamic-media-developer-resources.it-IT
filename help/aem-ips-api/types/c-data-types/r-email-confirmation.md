@@ -1,18 +1,19 @@
 ---
 description: Invia un'e-mail a un destinatario designato in risposta a un'operazione cdnCacheInvalidation.
 solution: Experience Manager
-title: EmailConfirm
-topic: Dynamic Media Image Production System API
+title: EmailConfirmation
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
 
-# EmailConfirm{#emailconfirmation}
+# EmailConfirmation{#emailconfirmation}
 
 Invia un&#39;e-mail a un destinatario designato in risposta a un&#39;operazione cdnCacheInvalidation.
 
@@ -22,6 +23,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | Se true, include l&#39;account utente del servizio Web dell&#39;utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Dynamic Media. |
-| `*`ccOthersArray`*` | `types:EmailArray` | Un array di indirizzi e-mail (massimo 5) destinati a ricevere la notifica di conferma dalla rete CDN Dynamic Media. |
+| `*`ccOriginator`*` | `xsd:boolean` | Se true, include l’account utente del servizio Web dell’utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Dynamic Media. |
+| `*`ccOthersArray`*` | `types:EmailArray` | Array di indirizzi e-mail (massimo 5) designati per ricevere la notifica di conferma dal CDN di Dynamic Media. |
 
