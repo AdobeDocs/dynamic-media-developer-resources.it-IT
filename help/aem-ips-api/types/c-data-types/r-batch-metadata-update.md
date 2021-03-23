@@ -1,16 +1,17 @@
 ---
 description: Aggiorna i metadati in modalità batch.
 seo-description: Aggiorna i metadati in modalità batch.
-seo-title: BatchMetadataUpdate
+seo-title: AggiornamentoMetadatiBatch
 solution: Experience Manager
-title: BatchMetadataUpdate
-topic: Dynamic Media Image Production System API
+title: AggiornamentoMetadatiBatch
 uuid: 306e0349-64d6-4b70-9748-9431f1c799a7
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 11%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
@@ -25,6 +26,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`assetHandleArray`*` | `types:HandleArray` | Array di handle di risorsa. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Array di handle di aggiornamento di metadati. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Array di handle di risorse. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Array di handle di aggiornamento metadati. |
 
