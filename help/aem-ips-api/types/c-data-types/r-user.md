@@ -1,23 +1,24 @@
 ---
-description: Un utente di risorse e tipi nel sistema.
-seo-description: Un utente di risorse e tipi nel sistema.
+description: Utente di risorse e tipi nel sistema.
+seo-description: Utente di risorse e tipi nel sistema.
 seo-title: Utente
 solution: Experience Manager
 title: Utente
-topic: Dynamic Media Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 9%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
 
 # Utente{#user}
 
-Un utente di risorse e tipi nel sistema.
+Utente di risorse e tipi nel sistema.
 
 Sintassi
 
@@ -25,11 +26,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | handle utente. |
+| `*`userHandle`*` | `xsd:string` | Maniglia utente. |
 | `*`firstName`*` | `xsd:string` | Nome utente. |
 | `*`lastName`*` | `xsd:string` | Cognome utente. |
 | `*`e-mail`*` | `xsd:string` | indirizzo e-mail. |
-| `*`defaultRole`*` | `xsd:string` | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo utente `IpsAmin` ha la priorità su altri ruoli utente. |
-| `*`isInvalid`*` | `xsd:boolean` | Determina se l&#39;utente è valido. |
+| `*`defaultRole`*` | `xsd:string` | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, il ruolo utente `IpsAmin` esclude altri ruoli utente. |
+| `*`isValid`*` | `xsd:boolean` | Determina se l&#39;utente è valido. |
 | `*`passwordExpires`*` | `xsd:dateTime` | Imposta la data di scadenza della password. |
 
