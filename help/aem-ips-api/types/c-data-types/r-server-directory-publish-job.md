@@ -1,23 +1,24 @@
 ---
-description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory del server.
-seo-description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory del server.
+description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory server.
+seo-description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory server.
 seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-topic: Dynamic Media Image Production System API
 uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
-Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory del server.
+Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory server.
 
 Sintassi
 
