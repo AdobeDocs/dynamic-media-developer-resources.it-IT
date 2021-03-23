@@ -4,12 +4,13 @@ seo-description: Un processo pianificato per l'esecuzione.
 seo-title: ScheduledJob
 solution: Experience Manager
 title: ScheduledJob
-topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -25,32 +26,32 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Maniglia aziendale. |
-| `*`jobHandle`*` | `xsd:string` | Handle processo pianificato. |
+| `*`companyHandle`*` | `xsd:string` | Tratta l&#39;azienda. |
+| `*`jobHandle`*` | `xsd:string` | Handle di lavoro pianificato. |
 | `*`name`*` | `xsd:string` | Nome processo. |
-| `*`OriginalName`*` | `xsd:string` | Nome originale del processo pianificato. |
+| `*`originalName`*` | `xsd:string` | Nome originale del processo pianificato. |
 | `*`type`*` | `xsd:string` | Tipo di processo. |
-| `*`submitUserEmail`*` | `xsd:string` | L’indirizzo e-mail dell’utente che ha pianificato il processo. |
-| `*`locale`*` | `xsd:string` | Le impostazioni internazionali da utilizzare per i dettagli del registro dei processi e per la localizzazione delle e-mail. Le impostazioni internazionali sono specificate come `<language_code>[- <country_code>]`, dove il codice della lingua è un codice di due lettere minuscoli, come specificato dallo standard ISO-639, e il codice del paese facoltativo è un codice di due lettere maiuscole, come specificato dallo standard ISO-3166. Ad esempio, la stringa per l&#39;inglese (Stati Uniti) è: `en-US`. |
-| `*`description`*` | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
+| `*`submitUserEmail`*` | `xsd:string` | L&#39;indirizzo e-mail dell&#39;utente che ha pianificato il processo. |
+| `*`locale`*` | `xsd:string` | Impostazioni internazionali da utilizzare per i dettagli del registro di lavoro e la localizzazione delle e-mail. Le impostazioni internazionali sono specificate come `<language_code>[- <country_code>]`, dove il codice della lingua è un codice a due lettere minuscolo come specificato dallo standard ISO-639, e il codice del paese opzionale è un codice a due lettere maiuscolo come specificato dallo standard ISO-3166. Ad esempio, la stringa locale per Inglese (Stati Uniti) è la seguente: `en-US`. |
+| `*`descrizione`*` | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | Quando è pianificato l&#39;esecuzione del processo. |
-| `*`nextFireTime`*` | `xsd:dateTime` | Data, ora e fuso orario in cui verrà avviato il processo. |
+| `*`nextFireTime`*` | `xsd:dateTime` | Data, ora e fuso orario in cui verrà attivato il processo. |
 | `*`timeZone`*` | `xsd:dateTime` | Fuso orario del processo pianificato. |
 | `*`triggerState`*` | `xsd:int` | Scelta dello stato di attivazione del processo. |
-| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Dettagli del processo per un processo di pubblicazione di Image Server. |
+| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Dettagli del processo per un processo di pubblicazione di image serving. |
 | `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Dettagli del processo per un processo di rendering delle immagini. |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | Dettagli del processo per un processo di pubblicazione video. Vedere [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | Dettagli del processo per un processo di pubblicazione video. Consulta [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Dettagli del processo per un processo di pubblicazione della directory del server. |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Dettagli del processo per un processo della directory di caricamento. |
-| `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | Dettagli processo per un processo URL di caricamento. |
+| `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | Dettagli del processo per un processo di caricamento degli URL. |
 | `*`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | Consenti esportazione autorizzata di file caricati in precedenza. Vedere [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`exportJob`*` | `types:ExportJob` | Consenti esportazione autorizzata di file caricati in precedenza. Consulta [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Note {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Quando si specifica un valore per il tipo di processo in `submitJob`, il sistema restituisce un processo in base a tale tipo. È possibile restituire i seguenti processi:
+Quando si specifica un valore del tipo di processo in `submitJob`, il sistema restituisce un processo in base a tale tipo. È possibile restituire i seguenti lavori:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
