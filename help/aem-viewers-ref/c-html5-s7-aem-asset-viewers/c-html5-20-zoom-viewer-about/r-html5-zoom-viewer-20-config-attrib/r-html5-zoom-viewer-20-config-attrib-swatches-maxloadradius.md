@@ -2,13 +2,14 @@
 description: Swatches.maxloadradius
 solution: Experience Manager
 title: Swatches.maxloadradius
-topic: Dynamic Media
 uuid: cff2e7a4-ba88-4248-8e9f-ed1a3b628924
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 7%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> precaricatore</span></span> </p> </td> 
-   <td> <p>Specifica il comportamento di precaricamento del componente. Se è impostata su <span class="codeph"> -1</span> tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se impostato su <span class="codeph"> 0</span> vengono caricati solo i campioni visibili. </p> <p><span class="codeph"><span class="varname"> Il </span></span> precaricamento definisce quante righe/colonne invisibili vengono precaricate intorno all'area visibile. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> precaricare</span></span> </p> </td> 
+   <td> <p>Specifica il comportamento di precaricamento del componente. Quando è impostato su <span class="codeph"> -1</span> tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span> vengono caricati solo i campioni visibili. </p> <p><span class="codeph"><span class="varname"> </span></span> precaricare definisce quante righe/colonne invisibili vengono precaricate intorno all’area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
