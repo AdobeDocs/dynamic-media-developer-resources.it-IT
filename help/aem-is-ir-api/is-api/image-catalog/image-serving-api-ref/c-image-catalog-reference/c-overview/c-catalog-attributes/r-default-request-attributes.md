@@ -4,12 +4,13 @@ seo-description: I file di attributi del catalogo riconoscono questi attributi d
 seo-title: Attributi di richiesta predefiniti
 solution: Experience Manager
 title: Attributi di richiesta predefiniti
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ I file di attributi del catalogo riconoscono questi attributi di richiesta prede
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1" format="dita" scope="local"> DefaultPix</a></span> </p> </td> 
-   <td colname="col2"> <p> Dimensioni predefinite per le immagini di risposta. </p> </td> 
+   <td colname="col2"> <p> Dimensione predefinita per le immagini di risposta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141" format="dita" scope="local"> DefaultThumbPix</a></span> </p> </td> 
@@ -47,7 +48,7 @@ I file di attributi del catalogo riconoscono questi attributi di richiesta prede
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> Impostazioni di codifica JPEG predefinite. </p> </td> 
+   <td colname="col2"> <p> Impostazioni predefinite del codificatore JPEG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
