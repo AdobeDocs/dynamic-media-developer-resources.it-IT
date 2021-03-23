@@ -4,12 +4,13 @@ seo-description: Sottoselezione. Consente di applicare materiali diversi a diver
 seo-title: sub
 solution: Experience Manager
 title: sub
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '185'
 ht-degree: 5%
 
 ---
@@ -24,11 +25,11 @@ Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;
 <table id="simpletable_F6BF91BD2C4B47BF8A28032E392D37F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Selezionate l'intera parete. </p> </td> 
+  <td class="stentry"> <p>Selezionare l'intera parete. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Selezionare la metà superiore della parete. </p> </td> 
+  <td class="stentry"> <p>Selezionare la metà superiore del muro. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
@@ -44,17 +45,17 @@ Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Selezionare l'area del bordo inferiore della parete. </p> </td> 
+  <td class="stentry"> <p>Selezionare l'area del bordo della parete inferiore. </p> </td> 
  </tr> 
 </table>
 
-Attualmente supportato solo per gli oggetti muro. Termina un MSS precedente e avvia un nuovo MSS per il materiale da applicare alla sottoselezione specificata.
+Attualmente supportato solo per gli oggetti wall. Termina un MSS precedente e avvia un nuovo MSS per il materiale da applicare alla sottoselezione specificata.
 
-Un materiale specificato per la parete superiore o inferiore si applicherà all&#39;intera parete a meno che non sia stato specificato un altro materiale anche per l&#39;altra metà della parete.
+Un materiale specificato per la parete superiore o inferiore si applica all&#39;intera parete a meno che non sia stato specificato un materiale diverso anche per l&#39;altra metà della parete.
 
 ## Proprietà {#section-b202139d6d0847cc8d520a154104ab9d}
 
-Selezione, comando; delimitatore MSS.
+comando di selezione; delimitatore MSS.
 
 ## Predefinito {#section-5b45a167a17c451596e4c59b7d53c368}
 
