@@ -1,23 +1,24 @@
 ---
-description: Aggiorna i valori dei dizionari di tag per un campo di tag.
-seo-description: Aggiorna i valori dei dizionari di tag per un campo di tag.
+description: Aggiorna i valori del dizionario tag per un campo tag.
+seo-description: Aggiorna i valori del dizionario tag per un campo tag.
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 11%
+source-wordcount: '173'
+ht-degree: 10%
 
 ---
 
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
-Aggiorna i valori dei dizionari di tag per un campo di tag.
+Aggiorna i valori del dizionario tag per un campo tag.
 
 Sintassi
 
@@ -45,19 +46,19 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Maniglia aziendale. </td> 
+   <td colname="col4"> Tratta l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> handle del campo del tag. </td> 
+   <td colname="col4"> Maniglia del campo di tag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4">Matrice di valori dei campi di tag da aggiornare. <p>Nota:  Aggiorna solo i valori delle stringhe di tag. Non influenza le associazioni di risorse. </p> </td> 
+   <td colname="col4">Matrice di valori dei campi tag che si desidera aggiornare. <p>Nota:  Aggiorna solo i valori delle stringhe di tag. Non influisce sulle associazioni di risorse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,10 +68,10 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di aggiornare i campi tag. |
-| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di aggiornare i campi tag. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano avvisi quando l&#39;operazione tentava di aggiornare i campi tag. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | L&#39;array di dettagli associati alle risorse che generavano errori quando l&#39;operazione tentava di aggiornare i campi tag. |
+| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di aggiornare i campi tag. |
+| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di aggiornare i campi tag. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di aggiornare i campi dei tag. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di aggiornare i campi tag. |
 
 ## Esempi {#section-bb4dcf97044c4675974c9b8d27674001}
 
