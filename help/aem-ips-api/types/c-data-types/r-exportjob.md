@@ -4,12 +4,13 @@ seo-description: Tipo di processo per consentire l’esportazione autorizzata di
 seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 10%
 
 ---
@@ -47,7 +48,7 @@ ExportJob non supporta i seguenti tipi di risorse:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Specifica il tipo di <span class="codeph"> export.Valori possibili</span>: [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Specifica il tipo di <span class="codeph"> export.Possibili Valori</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Se <span class="codeph"> fmt=orig</span>, le risorse vengono esportate come originali </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564">Se <span class="codeph"> fmt=convert</span>, le risorse vengono convertite nel formato specificato nei parametri di input <span class="codeph"> is_modifer</span> o <span class="codeph"> macro</span> </li> 
@@ -56,7 +57,7 @@ ExportJob non supporta i seguenti tipi di risorse:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Specifica la stringa URL di rendering <span class="codeph"> ImageServer</span>, che viene aggiunta alla richiesta ExportJob <span class="codeph"> convert</span>. </p> <p>Per informazioni sull'invio dei modificatori IS, fare riferimento alla <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentazione IS</a>. </p> </td> 
+   <td colname="col3"> <p>Specifica la stringa URL di rendering <span class="codeph"> ImageServer</span>, che viene aggiunta alla richiesta ExportJob <span class="codeph"> convert</span>. </p> <p>Per informazioni sull'invio dei modificatori IS, fare riferimento alla <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentazione IS</a> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
@@ -71,14 +72,14 @@ ExportJob non supporta i seguenti tipi di risorse:
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> Tutto</span> </li> 
       <li id="li_59E14E7EBFA64432A5FAC15DA21A0521"> <span class="codeph"> Errore</span> </li> 
       <li id="li_BFE0B52CADD14CC1BA1AF42AB0AA1CE1"> <span class="codeph"> ErrorAndWarning</span> </li> 
-      <li id="li_BE3AA67E14FB487B8B9CD6EF3D58824C"> <span class="codeph"> JobCompletion</span> </li> 
+      <li id="li_BE3AA67E14FB487B8B9CD6EF3D58824C"> <span class="codeph"> CompletamentoProcesso</span> </li> 
       <li id="li_409C68AD0D244975BFB86B08609E0146"> <span class="codeph"> Nessuno</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Specifica l'indirizzo IP del client o del cliente che ha avviato la richiesta di esportazione. </p> <p> <p>Nota:  questo parametro non è popolato attivamente al momento ed è strettamente riservato solo per uso futuro. </p> </p> </td> 
+   <td colname="col3"> <p>Specifica l'indirizzo IP del client o del cliente che ha avviato la richiesta di esportazione. </p> <p> <p>Nota:  questo parametro non è attualmente popolato attivamente ed è strettamente riservato solo per l'utilizzo futuro. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
