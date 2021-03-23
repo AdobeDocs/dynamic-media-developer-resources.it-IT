@@ -1,31 +1,32 @@
 ---
-description: Il visualizzatore HTML5 Video360 supporta  tracciamento Adobe Analytics out-of-the-box.
-seo-description: Il visualizzatore HTML5 Video360 supporta  tracciamento Adobe Analytics out-of-the-box.
-seo-title: Supporto per  tracciamento Adobe Analytics
+description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
+seo-description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
+seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
-title: Supporto per  tracciamento Adobe Analytics
-topic: Dynamic Media
+title: Supporto per il tracciamento di Adobe Analytics
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
 
 
-# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore HTML5 Video360 supporta  tracciamento Adobe Analytics out-of-the-box.
+Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
 
-Per abilitare il tracciamento, passate il nome corretto del predefinito della società come parametro `config2`.
+Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
 
-Per impostazione predefinita, il visualizzatore invia un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -66,15 +67,15 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>quando una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>quando una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PLAY (Riproduzione)</span> </p> </td> 
-   <td colname="col2"> <p>all’avvio della riproduzione. </p> </td> 
+   <td colname="col2"> <p>all'avvio della riproduzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAUSE (Pausa)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione viene messa in pausa. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione viene sospesa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">STOP (Interruzione)</span> </p> </td> 
@@ -82,7 +83,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">MILESTONE (Pietra miliare)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione raggiunge uno dei seguenti traguardi: 0%, 25%, 50%, 75% o 100%. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione raggiunge una delle fasi principali seguenti: 0%, 25%, 50%, 75% o 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
