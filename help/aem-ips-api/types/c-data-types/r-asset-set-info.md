@@ -1,23 +1,24 @@
 ---
-description: Proprietà per i tipi di risorse AssetSet.
-seo-description: Proprietà per i tipi di risorse AssetSet.
+description: Proprietà per le risorse di tipo AssetSet.
+seo-description: Proprietà per le risorse di tipo AssetSet.
 seo-title: AssetSetInfo
 solution: Experience Manager
 title: AssetSetInfo
-topic: Dynamic Media Image Production System API
 uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 7%
 
 ---
 
 
 # AssetSetInfo{#assetsetinfo}
 
-Proprietà per i tipi di risorse AssetSet.
+Proprietà per le risorse di tipo AssetSet.
 
 Sintassi
 
