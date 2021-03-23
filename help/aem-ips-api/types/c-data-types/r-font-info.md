@@ -1,23 +1,24 @@
 ---
-description: Proprietà delle risorse dei font.
-seo-description: Proprietà delle risorse dei font.
+description: Proprietà della risorsa font.
+seo-description: Proprietà della risorsa font.
 seo-title: FontInfo
 solution: Experience Manager
 title: FontInfo
-topic: Dynamic Media Image Production System API
 uuid: 3747fef9-b065-4dc4-9c96-0ea483f1fd56
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 15%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
 
 # FontInfo{#fontinfo}
 
-Proprietà delle risorse dei font.
+Proprietà della risorsa font.
 
 Sintassi
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del font. |
-| `*`OriginalFile`*` | `xsd:string` | Nome font. |
-| `*`fileSize`*` | `xsd:int` | Dimensione del font. |
+| `*`originalPath`*` | `xsd:string` | Percorso carattere. |
+| `*`originalFile`*` | `xsd:string` | Nome carattere. |
+| `*`fileSize`*` | `xsd:int` | Dimensione del carattere. |
 
