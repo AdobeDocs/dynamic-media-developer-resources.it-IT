@@ -4,13 +4,14 @@ seo-description: Elimina una risorsa.
 seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-topic: Dynamic Media Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '105'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +41,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società alla quale la cartella appartiene. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società a cui appartiene la cartella. |
 | `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa da eliminare. |
 
 **Output (deleteAssetParam)**
@@ -49,7 +50,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-d5657289f5234bb0a613dcf691507958}
 
-Questo codice di esempio elimina qualsiasi tipo di risorsa da una società specifica. Richiede un handle di risorsa, che deve essere ottenuto da un&#39;altra operazione.
+Questo codice di esempio elimina qualsiasi tipo di risorsa da una società specifica. Richiede un handle di risorsa, che è necessario ottenere da un’altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 
