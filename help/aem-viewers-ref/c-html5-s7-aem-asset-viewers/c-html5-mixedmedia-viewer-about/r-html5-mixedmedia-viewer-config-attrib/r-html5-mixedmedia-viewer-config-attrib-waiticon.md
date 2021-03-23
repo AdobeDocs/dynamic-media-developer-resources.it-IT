@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
-seo-description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
+description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
+seo-description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Attributo di configurazione per visualizzatore video per file multimediali diversi.
+Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per visualizzatore video per file multimediali diver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell'animazione del buffering (icona di attesa). </p> </td> 
+   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell’animazione del buffering (icona di attesa). </p> </td> 
   </tr> 
  </tbody> 
 </table>
