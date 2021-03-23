@@ -1,15 +1,16 @@
 ---
-description: Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
-seo-description: Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
+description: Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
+seo-description: Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # cache{#cache}
 
-Controllo cache. Consente di disattivare selettivamente la memorizzazione nella cache lato client (browser, server proxy, sistemi di cache di rete) e la memorizzazione nella cache interna del server della piattaforma.
+Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache nella cache interna di Platform Server.
 
 `&cache= *`cacheControl`*`
 
@@ -38,8 +39,8 @@ Controllo cache. Consente di disattivare selettivamente la memorizzazione nella 
  </tr> 
 </table>
 
-Se viene specificato un solo valore *`cacheControl`*, questo viene applicato sia alle cache client che a quelle del server.
+Se viene specificato un solo valore *`cacheControl`*, questo viene applicato sia alle cache client che a quelle server.
 
-Attributo di richiesta. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`* viene ignorato quando la memorizzazione nella cache sul lato client è disabilitata dal catalogo immagini (se  `catalog::Expiration` ha un valore negativo).
+Attributo di richiesta. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`* viene ignorato quando la memorizzazione in cache lato client è disabilitata dal catalogo immagini (se  `catalog::Expiration` presenta un valore negativo).
 
 Il valore predefinito è `cache=on,on`.
