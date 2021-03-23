@@ -1,28 +1,29 @@
 ---
-description: Rimuove gli utenti da un array di gruppi.
-seo-description: Rimuove gli utenti da un array di gruppi.
+description: Rimuove gli utenti da una matrice di gruppi.
+seo-description: Rimuove gli utenti da una matrice di gruppi.
 seo-title: removeGroupMembership
 solution: Experience Manager
 title: removeGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 8%
 
 ---
 
 
 # removeGroupMembership{#removegroupmembership}
 
-Rimuove gli utenti da un array di gruppi.
+Rimuove gli utenti da una matrice di gruppi.
 
 **Differenze tra i comandi Rimuovi**
 
 * `removeGroupMembers`: Rimuove più utenti da un gruppo.
-* `removeGroupMembership`: Rimuove un singolo utente da un array di gruppi.
+* `removeGroupMembership`: Rimuove un singolo utente da una matrice di gruppi.
 
 ## Tipi di utenti autorizzati {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
@@ -36,8 +37,8 @@ Rimuove gli utenti da un array di gruppi.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L’handle della società di cui si desidera rimuovere l’appartenenza al gruppo. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sì | L&#39;array di handle per i gruppi da cui si desidera rimuovere la società. |
+| `*`userHandle`*` | `xsd:string` | No | L&#39;handle della società di cui si desidera rimuovere l&#39;iscrizione al gruppo. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle per i gruppi da cui si desidera rimuovere la società. |
 
 **Output (removeGroupMembershipReturn)**
 
