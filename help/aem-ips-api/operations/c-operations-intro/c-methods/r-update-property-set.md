@@ -4,13 +4,14 @@ seo-description: Utilizza una matrice di proprietà per aggiornare un set di pro
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 11%
+source-wordcount: '102'
+ht-degree: 10%
 
 ---
 
@@ -39,7 +40,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Sì | Gestire l&#39;insieme di proprietà. |
+| `*`setHandle`*` | `xsd:string` | Sì | Gestisci l&#39;insieme di proprietà. |
 | `*`replaceProperties`*` | `xsd:string` | No | Impostare su `true` per sostituire le proprietà. |
 | `*`propertyArray`*` | `types:PropertyArray` | Sì | Array di proprietà aggiornate per l&#39;insieme di proprietà. |
 
@@ -49,7 +50,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-Questo esempio di codice aggiorna un set di proprietà con proprietà nell&#39;array delle proprietà.
+Questo codice di esempio aggiorna un set di proprietà con proprietà nell&#39;array di proprietà.
 
 **Request Contents (Richiesta contenuto)**
 
