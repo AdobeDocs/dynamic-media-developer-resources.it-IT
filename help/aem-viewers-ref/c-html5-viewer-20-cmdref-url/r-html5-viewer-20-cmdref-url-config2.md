@@ -4,13 +4,14 @@ seo-description: Parametro comune a tutti i visualizzatori.
 seo-title: config2
 solution: Experience Manager
 title: config2
-topic: Dynamic Media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 19%
+source-wordcount: '50'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +30,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Nome del predefinito di configurazione <span class="keyword">  Adobe Analytics</span>. </p> </td> 
+   <td colname="col2"> <p> Nome del predefinito di configurazione <span class="keyword"> Adobe Analytics</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
