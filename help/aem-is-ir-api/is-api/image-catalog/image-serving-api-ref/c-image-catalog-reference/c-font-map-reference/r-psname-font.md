@@ -1,29 +1,30 @@
 ---
-description: Nome font PostScript. Il nome del carattere PostScript.
-seo-description: Nome font PostScript. Il nome del carattere PostScript.
+description: Nome della faccia del font Postscript. Il nome del font Postscript.
+seo-description: Nome della faccia del font Postscript. Il nome del font Postscript.
 seo-title: PsName
 solution: Experience Manager
 title: PsName
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 8%
+source-wordcount: '82'
+ht-degree: 7%
 
 ---
 
 
 # PsName{#psname}
 
-Nome font PostScript. Il nome del carattere PostScript.
+Nome della faccia del font Postscript. Il nome del font Postscript.
 
-Al momento, solo il renderer FXG può fare riferimento ai font in base ai nomi PostScript.
+Al momento, solo il modulo di rendering FXG può fare riferimento ai font in base ai loro nomi Postscript.
 
 ## Proprietà {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei font. Lo stesso valore `font::PsName` può verificarsi solo una volta nello stesso file di mappa dei font.
+Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei font. Lo stesso valore `font::PsName` può verificarsi una sola volta nello stesso file di mappa dei font.
 
 ## Predefinito {#section-c5903d5340e740b69ec0150d2303a893}
 
@@ -31,4 +32,4 @@ Nessuno.
 
 ## Consultate anche {#section-0051fb6bbdb14b47886dc44d61b78cf8}
 
-[font:Name](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
+[font::Name](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
