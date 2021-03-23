@@ -1,15 +1,16 @@
 ---
-description: Dimensioni predefinite dell’immagine di rendering. Il server vincola le immagini di risposta ad avere una larghezza e un'altezza non superiori a quelle indicate, se la richiesta non specifica esplicitamente la dimensione della visualizzazione utilizzando wid= o hei=.
-seo-description: Dimensioni predefinite dell’immagine di rendering. Il server vincola le immagini di risposta ad avere una larghezza e un'altezza non superiori a quelle indicate, se la richiesta non specifica esplicitamente la dimensione della visualizzazione utilizzando wid= o hei=.
+description: Dimensione predefinita dell'immagine di rendering. Il server vincola le immagini di risposta a non superare questa larghezza e altezza, se la richiesta non specifica esplicitamente la dimensione di visualizzazione utilizzando wid= o hei=.
+seo-description: Dimensione predefinita dell'immagine di rendering. Il server vincola le immagini di risposta a non superare questa larghezza e altezza, se la richiesta non specifica esplicitamente la dimensione di visualizzazione utilizzando wid= o hei=.
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 27574811-a920-4e54-8635-5a643b8655ef
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # DefaultPix{#defaultpix}
 
-Dimensioni predefinite dell’immagine di rendering. Il server vincola le immagini di risposta ad avere una larghezza e un&#39;altezza non superiori a quelle indicate, se la richiesta non specifica esplicitamente la dimensione della visualizzazione utilizzando wid= o hei=.
+Dimensione predefinita dell&#39;immagine di rendering. Il server vincola le immagini di risposta a non superare questa larghezza e altezza, se la richiesta non specifica esplicitamente la dimensione di visualizzazione utilizzando wid= o hei=.
 
 ## Proprietà {#section-9dc5474fc75842308796ab6440b29611}
 
-Due numeri interi, pari a 0 o superiori, separati da virgola. Larghezza e altezza in pixel. Uno o entrambi i valori possono essere impostati su 0 per mantenerli non vincolati.
+Due numeri interi, pari a 0 o superiori, separati da una virgola. Larghezza e altezza in pixel. È possibile impostare uno o entrambi i valori su 0 per mantenerli senza vincoli.
 
 Non applicabile alle richieste nidificate/incorporate.
 
