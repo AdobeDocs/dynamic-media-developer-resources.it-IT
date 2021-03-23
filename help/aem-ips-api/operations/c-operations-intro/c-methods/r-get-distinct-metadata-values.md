@@ -1,23 +1,24 @@
 ---
-description: Restituisce tutti i valori per un campo di metadati.
-seo-description: Restituisce tutti i valori per un campo di metadati.
+description: Restituisce tutti i valori di un campo di metadati.
+seo-description: Restituisce tutti i valori di un campo di metadati.
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 19%
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
-Restituisce tutti i valori per un campo di metadati.
+Restituisce tutti i valori di un campo di metadati.
 
 Sintassi
 
@@ -37,14 +38,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società per la quale si desidera ottenere i dati. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda per la quale desideri ottenere i dati. |
 | `*`metadataKey`*` | `xsd:string` | Sì | Chiave metadati nella notazione del punto. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | Sì | Valori del campo di metadati richiesto. |
+| `*`valueArray`*` | `types:ValueArray` | Sì | Valori del campo metadati richiesto. |
 
 ## Esempi {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
