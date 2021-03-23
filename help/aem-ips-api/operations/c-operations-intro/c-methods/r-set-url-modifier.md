@@ -4,12 +4,13 @@ seo-description: Imposta i comandi del protocollo Image Server o Image Rendering
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 5%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 Imposta i comandi del protocollo Image Server o Image Rendering per la risorsa specificata. Questi comandi modificano la rappresentazione della risorsa senza distruggerla.
 
-Per Image Server, i comandi nel parametro `urlModifier` vengono pubblicati nel campo del catalogo modificatore e applicati prima di qualsiasi comando specificato nell’URL della richiesta. I comandi in `urlPostApplyModifier` verranno pubblicati nel campo del catalogo `PostModifier` e ignoreranno eventuali comandi presenti nell&#39;URL della richiesta o in `urlModifier`. Per il rendering delle immagini, i comandi in `urlModifier` e `urlPostApplyModifier` vengono concatenati e pubblicati nel campo del catalogo modificatori.
+Per Image Server, i comandi nel parametro `urlModifier` vengono pubblicati nel campo del catalogo dei modificatori e applicati prima di qualsiasi comando specificato nell’URL della richiesta. I comandi in `urlPostApplyModifier` verranno pubblicati nel campo di catalogo `PostModifier` e sostituiranno eventuali comandi nell’URL della richiesta o in `urlModifier`. Per Image Rendering, i comandi in `urlModifier` e `urlPostApplyModifier` vengono concatenati e pubblicati nel campo del catalogo modificatore.
 
 ## Tipi di utenti autorizzati {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -36,10 +37,10 @@ Per Image Server, i comandi nel parametro `urlModifier` vengono pubblicati nel c
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
-| `*`urlModifier`*` | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare prima dei comandi `urlPostApplyModifier` richiesti. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare dopo `urlModifier` e richiedere i comandi. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
+| `*`urlModifier`*` | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare prima della richiesta o dei comandi `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare dopo i comandi `urlModifier` e richiedere. |
 
 **Output (setUrlModifierReturn)**
 
