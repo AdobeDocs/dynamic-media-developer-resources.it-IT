@@ -1,39 +1,40 @@
 ---
-description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo superiore sinistro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic su un pulsante o tocca un pulsante e contiene singoli strumenti di condivisione.
-seo-description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo superiore sinistro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic su un pulsante o tocca un pulsante e contiene singoli strumenti di condivisione.
-seo-title: Condivisione social network
+description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo in alto a sinistra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+seo-description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo in alto a sinistra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+seo-title: Quota sociale
 solution: Experience Manager
-title: Condivisione social network
-topic: Dynamic Media
+title: Quota sociale
 uuid: 6d463eb1-c6bf-4f1c-90e4-b5ef1e5a1538
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# Condivisione social network{#social-share}
+# Condivisione social{#social-share}
 
-Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell&#39;angolo superiore sinistro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic su un pulsante o tocca un pulsante e contiene singoli strumenti di condivisione.
+Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell&#39;angolo in alto a sinistra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posizione e le dimensioni dello strumento di condivisione mediante social network nell&#39;interfaccia utente del visualizzatore sono controllate dai seguenti elementi:
+La posizione e le dimensioni dello strumento di social sharing nell&#39;interfaccia utente del visualizzatore sono controllate con i seguenti elementi:
 
 ```
 .s7ecatalogsearchviewer .s7socialshare
 ```
 
-**Proprietà CSS dello strumento di condivisione mediante social network**
+**Proprietà CSS dello strumento di social sharing**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> L'offset dalla parte superiore della barra di controllo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
+   <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin=left  </span> </p> </td> 
@@ -41,16 +42,16 @@ La posizione e le dimensioni dello strumento di condivisione mediante social net
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza dello strumento di condivisione mediante social network. </p> </td> 
+   <td colname="col2"> <p> Larghezza dello strumento di condivisione social network. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dello strumento di condivisione mediante social network. </p> </td> 
+   <td colname="col2"> <p>Altezza dello strumento di condivisione social network. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: configurate uno strumento di condivisione social network che si posiziona a quattro pixel dalla parte superiore e cinque pixel dalla parte destra del contenitore del visualizzatore e viene ridimensionato a 28 x 28 pixel.
+Esempio : configura uno strumento di condivisione social network che si posiziona a quattro pixel dalla parte superiore e a cinque pixel dalla parte destra del contenitore del visualizzatore e viene ridimensionato a 28 x 28 pixel.
 
 ```
 .s7ecatalogsearchviewer .s7socialshare { 
@@ -60,7 +61,7 @@ margin-left: 10px; width:28px;
 }
 ```
 
-L&#39;aspetto del pulsante dello strumento di condivisione mediante social network è controllato dal seguente selettore di classe CSS:
+L&#39;aspetto del pulsante dello strumento di social sharing è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7socialshare .s7socialbutton
@@ -71,23 +72,23 @@ L&#39;aspetto del pulsante dello strumento di condivisione mediante social netwo
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio: impostare un pulsante dello strumento di condivisione mediante social network che visualizzi un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+Esempio : imposta un pulsante dello strumento di condivisione social network che mostra un’immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7ecatalogsearchviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -104,24 +105,24 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-L&#39;aspetto del pannello che contiene le singole icone di condivisione mediante social network è controllato dal seguente selettore di classe CSS:
+L&#39;aspetto del pannello che contiene le singole icone di condivisione social è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Proprietà CSS del pannello Condivisione social network**
+**Proprietà CSS del pannello di condivisione social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostare un pannello con colore trasparente:
+Esempio: imposta un pannello con colore trasparente:
 
 ```
 .s7ecatalogsearchviewer .s7socialshare .s7socialsharepanel { 
