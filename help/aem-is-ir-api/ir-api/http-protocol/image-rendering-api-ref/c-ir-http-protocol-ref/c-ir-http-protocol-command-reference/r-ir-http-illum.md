@@ -1,33 +1,34 @@
 ---
-description: Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui deve essere eseguito il rendering di questo materiale.
-seo-description: Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui deve essere eseguito il rendering di questo materiale.
+description: Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
+seo-description: Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
 seo-title: illum
 solution: Experience Manager
 title: illum
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
 
 # illum{#illum}
 
-Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui deve essere eseguito il rendering di questo materiale.
+Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
 
 `illum=-1|0|1|2`
 
-Se la mappa di illuminazione specificata non è disponibile nella vignettatura di destinazione, viene usata la mappa disponibile più vicina.
+Se la mappa di illuminazione specificata non è disponibile nella vignetta di destinazione, viene invece utilizzata la mappa disponibile più vicina.
 
 `illum=-1` specifica che la mappa di illuminazione viene selezionata automaticamente in base al  `gloss=` valore.
 
 ## Proprietà {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-Attributo materiale. Ignorato se la vignettatura non definisce più mappe di illuminazione.
+Attributo materiale. Ignorato se la vignetta non definisce più mappe di illuminazione.
 
 ## Predefinito {#section-c96ecfb232074e80b6a29076f5199403}
 
