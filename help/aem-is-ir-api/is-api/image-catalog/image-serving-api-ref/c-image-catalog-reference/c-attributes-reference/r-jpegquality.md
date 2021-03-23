@@ -4,12 +4,13 @@ seo-description: Attributi di codifica JPEG predefiniti. Specifica gli attributi
 seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c256c44c-2807-4a0c-b6e4-3de0a828feda
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -21,7 +22,7 @@ Attributi di codifica JPEG predefiniti. Specifica gli attributi predefiniti per 
 
 ## Proprietà {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Numero intero e flag, separati da virgola. Il primo valore è compreso nell’intervallo 1.100 e definisce la qualità. Il secondo valore può essere 0 per il comportamento normale, o 1 per disattivare il downsampling della cromaticità RGB generalmente utilizzato dagli encoder JPEG.
+Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1.100 e definisce la qualità. Il secondo valore può essere 0 per il comportamento normale, o 1 per disabilitare il campionamento al ribasso della cromaticità RGB solitamente utilizzato dagli encoder JPEG.
 
 ## Predefinito {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
