@@ -4,12 +4,13 @@ seo-description: Parametro comune a tutti i visualizzatori.
 seo-title: contentUrl
 solution: Experience Manager
 title: contentUrl
-topic: Dynamic Media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '100'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il percorso di base per i file CSS personalizzati, qualsiasi contenuto di sottotitoli codificati o contenuto di navigazione. </p> <p>Se il percorso non ha un'interlinea <span class="filepath"> /</span>, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Non influenza il caricamento del file CSS predefinito quando non si specifica un comando di stile. </p> </td> 
+   <td colname="col2"> <p>Specifica il percorso di base per i file CSS personalizzati, per qualsiasi contenuto di sottotitoli o per il contenuto di navigazione. </p> <p>Se il percorso non ha una <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso iniziale <span class="filepath"> /</span>, specifica un percorso assoluto sullo stesso server. </p> <p> Non influisce sul caricamento del file CSS predefinito quando non si specifica un comando di stile. </p> </td> 
   </tr> 
  </tbody> 
 </table>
