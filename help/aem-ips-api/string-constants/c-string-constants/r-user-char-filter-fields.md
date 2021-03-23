@@ -1,23 +1,24 @@
 ---
-description: Utilizzati da getUsersParam e getUserCharsParam/charField.
-seo-description: Utilizzati da getUsersParam e getUserCharsParam/charField.
+description: Utilizzato da getUsersParam e getUserCharsParam/charField.
+seo-description: Utilizzato da getUsersParam e getUserCharsParam/charField.
 seo-title: Campi filtro caratt. utente
 solution: Experience Manager
 title: Campi filtro caratt. utente
-topic: Dynamic Media Image Production System API
 uuid: b8137f42-d7f6-4545-ac7a-7d94a59c40c3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 3%
+source-wordcount: '39'
+ht-degree: 2%
 
 ---
 
 
 # Campi filtro carattere utente{#user-char-filter-fields}
 
-Utilizzati da getUsersParam e getUserCharsParam/charField.
+Utilizzato da getUsersParam e getUserCharsParam/charField.
 
 Sintassi
 
