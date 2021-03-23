@@ -1,28 +1,29 @@
 ---
-description: I seguenti campi sono riconosciuti nei file delle mappe dei font.
-seo-description: I seguenti campi sono riconosciuti nei file delle mappe dei font.
-seo-title: Mappe font
+description: I campi seguenti sono riconosciuti nei file di mappa dei font.
+seo-description: I campi seguenti sono riconosciuti nei file di mappa dei font.
+seo-title: Mappe dei font
 solution: Experience Manager
-title: Mappe font
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Mappe dei font
 uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 
-# Mappe font{#font-maps}
+# Mappe carattere{#font-maps}
 
-I seguenti campi sono riconosciuti nei file delle mappe dei font.
+I campi seguenti sono riconosciuti nei file di mappa dei font.
 
 <table id="simpletable_D04FFCE02C7140E38D58FB2C916EABF3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md" type="reference" format="dita" scope="local"> Grassetto</a></span> </p></td> 
-  <td class="stentry"> <p>Flag grassetto (tasto indice secondario). </p></td> 
+  <td class="stentry"> <p>Flag di faccia in grassetto (tasto indice secondario). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md" type="reference" format="dita" scope="local"> Corsivo</a></span> </p></td> 
@@ -34,14 +35,14 @@ I seguenti campi sono riconosciuti nei file delle mappe dei font.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76" type="reference" format="dita" scope="local"> Nome</a></span> </td> 
-  <td class="stentry"> <p>Nome del volto del font (chiave di indice primaria). </p></td> 
+  <td class="stentry"> <p>Nome della faccia del carattere (chiave dell'indice principale). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md" type="reference" format="dita" scope="local"> PsName</a></span> </p></td> 
-  <td class="stentry"> <p>Nome del carattere PostScript (per il rendering FXG). </p></td> 
+  <td class="stentry"> <p>Nome del font Postscript (per il rendering FXG). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> FontPath</a></span> </p></td> 
-  <td class="stentry"> <p>Percorso del file del font principale. </p></td> 
+  <td class="stentry"> <p>Percorso file di font principale. </p></td> 
  </tr> 
 </table>
