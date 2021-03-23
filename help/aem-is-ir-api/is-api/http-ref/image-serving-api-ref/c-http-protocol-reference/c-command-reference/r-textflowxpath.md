@@ -4,12 +4,13 @@ seo-description: Area di esclusione del flusso di testo. Specifica una o più ar
 seo-title: textFlowXPath
 solution: Experience Manager
 title: textFlowXPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ce833ae7-e774-4954-a521-b6247e75f6eb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 5%
 
 ---
@@ -24,11 +25,11 @@ Area di esclusione del flusso di testo. Specifica una o più aree da escludere d
 <table id="simpletable_7E0EA48AEBB5426CBE948FCA18882C66"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Dati percorso. </p></td> 
+  <td class="stentry"> <p>Dati del percorso. </p></td> 
  </tr> 
 </table>
 
-Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, vedere [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d). Se non viene specificata alcuna definizione di percorso, `textFlowXPath=` viene ignorato.
+Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, consulta [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) . Se non viene specificata alcuna definizione del percorso, `textFlowXPath=` viene ignorato.
 
 ## Proprietà {#section-cd1ebb151d4a405fbfc508d46522d686}
 
