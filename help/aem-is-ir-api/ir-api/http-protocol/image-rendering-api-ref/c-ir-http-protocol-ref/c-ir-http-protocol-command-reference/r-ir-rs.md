@@ -1,15 +1,16 @@
 ---
-description: Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
-seo-description: Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
+description: Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
+seo-description: Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '141'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # rs{#rs}
 
-Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
+Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
 
 `rs= *`val`*`
 
@@ -28,7 +29,7 @@ Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanz
  </tr> 
 </table>
 
-Utilizzato per ottimizzare l’aspetto del rendering. Usate la funzione di rendering dello strumento di authoring delle vignettature (parte del pacchetto Dynamic Media Image Authoring) per creare le stringhe delle impostazioni di rendering.
+Utilizzato per ottimizzare l&#39;aspetto del rendering. Utilizza la funzione di rendering dello strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) per creare stringhe di impostazioni di rendering.
 
 ## Proprietà {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -40,7 +41,7 @@ Attributo materiale.
 
 ## Esempio {#section-47e4811882574441a4d517e42a35f352}
 
-Dopo alcuni esperimenti con l’authoring delle immagini, viene determinato che Maschera di contrasto (USM) fornisce la giusta quantità di nitidezza per l’applicazione e il materiale in questione. La stringa delle impostazioni di rendering che configura USM viene copiata nel comando `rs=` da usare con questo materiale:
+Dopo una certa sperimentazione nell&#39;authoring delle immagini, viene determinato che l&#39;applicazione di Mascheramento intelligente (USM) fornisce la giusta quantità di nitidezza per l&#39;applicazione e il materiale specificati. La stringa delle impostazioni di rendering che configura USM viene copiata nel comando `rs=` da utilizzare con questo materiale:
 
 `…&rs=U2V20W50X2&…`
 
