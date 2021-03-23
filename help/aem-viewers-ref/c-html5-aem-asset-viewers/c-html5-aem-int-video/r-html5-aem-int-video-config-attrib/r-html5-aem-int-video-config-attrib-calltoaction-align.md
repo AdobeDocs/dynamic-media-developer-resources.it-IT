@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-topic: Dynamic Media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # CallToAction.align{#calltoaction-align}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[CallToAction.|<containerId>_callToAction.]align=left|center|right`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sinistra|centro|destra</span> </p> </td> 
-   <td colname="col2"> <p> Specifica l’allineamento orizzontale interno (o ancoraggio) del contenitore delle miniature all’interno dell’area del componente. </p> <p>Nella chiamata all’azione, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di miniature. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. </p> <p>Questo modificatore specifica in che modo il contenitore delle miniature interne viene posizionato orizzontalmente all’interno del componente. </p> </td> 
+   <td colname="col2"> <p> Specifica l’allineamento orizzontale interno (o ancoraggio) del contenitore miniature all’interno dell’area del componente. </p> <p>In call-to-action, il contenitore di miniature interno viene ridimensionato in modo che venga visualizzato solo un numero intero di miniature. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. </p> <p>Questo modificatore specifica il modo in cui il contenitore miniature interno viene posizionato in orizzontale all’interno del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
