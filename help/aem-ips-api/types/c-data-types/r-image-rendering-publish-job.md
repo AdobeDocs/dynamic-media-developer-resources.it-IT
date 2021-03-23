@@ -1,23 +1,24 @@
 ---
-description: Pubblica i file nei server di rendering delle immagini.
-seo-description: Pubblica i file nei server di rendering delle immagini.
+description: Pubblica i file sui server di rendering delle immagini.
+seo-description: Pubblica i file sui server di rendering delle immagini.
 seo-title: ImageRenderingPublishJob
 solution: Experience Manager
 title: ImageRenderingPublishJob
-topic: Dynamic Media Image Production System API
 uuid: 46dd5df4-2d20-444a-b5c3-200a74509798
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
 
 # ImageRenderingPublishJob{#imagerenderingpublishjob}
 
-Pubblica i file nei server di rendering delle immagini.
+Pubblica i file sui server di rendering delle immagini.
 
 Sintassi
 
@@ -27,5 +28,5 @@ Sintassi
 |---|---|---|
 | `*`emailSetting`*` | `xsd:string` | Scelta delle impostazioni e-mail. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL per inviare un avviso di completamento. |
-| `*`contextHandle`*` | `xsd:string` | Consente di passare al contesto di pubblicazione. |
+| `*`contextHandle`*` | `xsd:string` | Gestisci il contesto di pubblicazione. |
 
