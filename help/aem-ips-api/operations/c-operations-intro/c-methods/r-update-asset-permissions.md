@@ -4,13 +4,14 @@ seo-description: Aggiorna le autorizzazioni delle risorse.
 seo-title: updateAssetPermissons
 solution: Experience Manager
 title: updateAssetPermissons
-topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 18%
+source-wordcount: '67'
+ht-degree: 16%
 
 ---
 
@@ -33,9 +34,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Maniglia aziendale. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Handle risorsa. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Sì | Autorizzazioni che desiderate applicare alla risorsa. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Sì | Autorizzazioni da applicare alla risorsa. |
 
 **Output (updateAssetPermissionsReturn)**
 
