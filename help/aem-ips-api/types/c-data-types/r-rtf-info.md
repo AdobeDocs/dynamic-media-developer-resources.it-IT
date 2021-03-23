@@ -4,13 +4,14 @@ seo-description: Proprietà di una risorsa file RTF.
 seo-title: RTFInfo
 solution: Experience Manager
 title: RTFInfo
-topic: Dynamic Media Image Production System API
 uuid: cd7744bd-d033-4095-82c7-2a7b7db7e97f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file. |
+| `*`originalPath`*` | `xsd:string` | Percorso file. |
+| `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
 
