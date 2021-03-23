@@ -1,25 +1,26 @@
 ---
-description: Supporto per  tracciamento Adobe Analytics
+description: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
-title: Supporto per  tracciamento Adobe Analytics
-topic: Dynamic Media
+title: Supporto per il tracciamento di Adobe Analytics
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# Supporto per  tracciamento Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Per impostazione predefinita, il visualizzatore invia un’unica richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per poter essere integrato con i sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback come necessario. Il codice seguente è un esempio di tale funzione handler:
+Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -66,15 +67,15 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>quando una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>quando una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PLAY (Riproduzione)</span> </p> </td> 
-   <td colname="col2"> <p>all’avvio della riproduzione. </p> </td> 
+   <td colname="col2"> <p>all'avvio della riproduzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAUSE (Pausa)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione viene messa in pausa. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione viene sospesa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">STOP (Interruzione)</span> </p> </td> 
@@ -82,7 +83,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">MILESTONE (Pietra miliare)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione raggiunge uno dei seguenti traguardi: 0%, 25%, 50%, 75% o 100%. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione raggiunge una delle fasi principali seguenti: 0%, 25%, 50%, 75% o 100%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
