@@ -2,13 +2,14 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-topic: Dynamic Media
 uuid: adea34ca-adbe-465e-8991-f39a7a81d611
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Specifica se consentire una modifica nella direzione di rotazione in caso di set 360 gradi 2D. </p> <p>Se impostato su <span class="codeph"> 1 </span>, il componente identifica la direzione di trascinamento o di scorrimento principale (orizzontale o verticale) all'inizio del gesto. Dopo di che, mantiene quella direzione fino alla fine del gesto. Ad esempio, se l’utente avvia una rotazione orizzontale e successivamente decide di continuare il movimento di trascinamento in direzione verticale, il componente non esegue una rotazione verticale; considera invece solo lo spostamento orizzontale del mouse o del passaggio del dito. </p> <p>Un valore di <span class="codeph"> 0 </span> consente a un utente di cambiare la direzione di rotazione in qualsiasi momento durante il movimento. L’impostazione non ha alcun effetto se il set 360 gradi è 1D. </p> </td> 
+   <td colname="col2"> <p> Specifica se consentire una modifica nella direzione di rotazione in caso di set di rotazione 2D. </p> <p>Quando è impostato su <span class="codeph"> 1 </span>, il componente identifica la direzione di trascinamento o scorrimento principale (orizzontale o verticale) all'inizio del gesto. Dopodiché, mantiene quella direzione fino alla fine del gesto. Ad esempio, se l’utente avvia una rotazione orizzontale e decide di continuare il movimento di trascinamento in direzione verticale, il componente non esegue una rotazione verticale; invece, considera solo il movimento orizzontale del mouse o del ronzio. </p> <p>Un valore di <span class="codeph"> 0 </span> consente a un utente di cambiare la direzione di centrifuga in qualsiasi momento durante l'avanzamento del gesto. L'impostazione non ha alcun effetto se il set 360 gradi è 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>
