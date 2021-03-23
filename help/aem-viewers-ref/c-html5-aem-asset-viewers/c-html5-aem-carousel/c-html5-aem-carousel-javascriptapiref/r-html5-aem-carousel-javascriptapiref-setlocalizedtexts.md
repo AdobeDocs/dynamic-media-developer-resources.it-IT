@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore carosello.
-seo-description: Riferimento API JavaScript per il visualizzatore carosello.
+description: Riferimento API JavaScript per il visualizzatore Carosello.
+seo-description: Riferimento API JavaScript per il visualizzatore Carosello.
 seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-topic: Dynamic Media
 uuid: f69d3232-dd7c-41b5-87a0-146b8fb1bdb1
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 2%
 
 # setLocalizedText{#setlocalizedtexts}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API JavaScript per il visualizzatore Carosello.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-Imposta i valori SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
+Imposta i valori SYMBOL di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> Oggetto JSON {<span class="codeph"> Object</span>} con dati di localizzazione. </p> <p>Per ulteriori informazioni, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localizzazione di elementi dell'interfaccia utente</a>. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere anche la <i>Guida utente dell'SDK per visualizzatori</i>. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} JSON con dati di localizzazione. </p> <p>Per ulteriori informazioni, consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> . </p> <p>Per ulteriori informazioni sul contenuto dell’oggetto, consulta anche la <i>Guida utente dell’SDK per visualizzatori</i> e l’esempio . </p> </td> 
   </tr> 
  </tbody> 
 </table>
