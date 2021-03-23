@@ -1,13 +1,15 @@
 ---
-description: Alcuni contenuti visualizzati dal visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell'interfaccia utente e un messaggio di informazione visualizzato dalla visualizzazione a comparsa zoom al momento del caricamento.
-seo-description: Alcuni contenuti visualizzati dal visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell'interfaccia utente e un messaggio di informazione visualizzato dalla visualizzazione a comparsa zoom al momento del caricamento.
-seo-title: Localizzazione degli elementi dell'interfaccia utente
-title: Localizzazione degli elementi dell'interfaccia utente
+description: Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
+seo-description: Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
+seo-title: Localizzazione degli elementi dell’interfaccia utente
+title: Localizzazione degli elementi dell’interfaccia utente
 uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -15,13 +17,13 @@ ht-degree: 0%
 
 # Localizzazione degli elementi dell&#39;interfaccia utente{#localization-of-user-interface-elements}
 
-Alcuni contenuti visualizzati dal visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell&#39;interfaccia utente e un messaggio di informazione visualizzato dalla visualizzazione a comparsa zoom al momento del caricamento.
+Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. A ciascun SIMBOLO è associato un valore di testo predefinito per le impostazioni internazionali inglesi ( `"en"`) fornito con il visualizzatore out-of-the-box, e possono inoltre essere impostati valori definiti dall&#39;utente per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. A qualsiasi SYMBOL è associato un valore di testo predefinito per un’impostazione internazionale inglese ( `"en"`) fornito con il visualizzatore predefinito e possono essere impostati valori definiti dall’utente per tutte le impostazioni internazionali necessarie.
 
-All&#39;avvio del visualizzatore, controlla le impostazioni internazionali correnti per verificare se esiste un valore definito dall&#39;utente per ciascun SIMBOLO supportato per tali impostazioni internazionali. In caso affermativo, utilizza il valore definito dall’utente; in caso contrario, torna al testo predefinito.
+All&#39;avvio del visualizzatore, controlla le impostazioni internazionali correnti per vedere se esiste un valore definito dall&#39;utente per ogni SYMBOL supportato per tali impostazioni internazionali. In caso affermativo, utilizza il valore definito dall’utente; in caso contrario, torna al testo predefinito preconfigurato.
 
-I dati di localizzazione definiti dall&#39;utente possono essere passati al visualizzatore come oggetto JSON di localizzazione. Tale oggetto contiene l&#39;elenco delle impostazioni internazionali supportate, i valori di testo SYMBOL per ciascuna impostazione internazionale e le impostazioni internazionali predefinite.
+I dati di localizzazione definiti dall&#39;utente possono essere trasmessi al visualizzatore come oggetto JSON di localizzazione. Tale oggetto contiene l&#39;elenco delle impostazioni internazionali supportate, i valori di testo SYMBOL per ciascuna impostazione internazionale e le impostazioni internazionali predefinite.
 
 Un esempio di tale oggetto di localizzazione è il seguente:
 
@@ -37,11 +39,11 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto localization definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell’esempio precedente, l’oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione di due elementi dell’interfaccia utente in ciascuna impostazione internazionale.
 
-Il codice della pagina Web deve trasmettere l&#39;oggetto di localizzazione al costruttore del visualizzatore, come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. Un&#39;opzione alternativa consiste nel passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
+Il codice della pagina web deve passare l’oggetto di localizzazione al costruttore del visualizzatore, come valore del campo `localizedTexts` dell’oggetto di configurazione. Un&#39;opzione alternativa consiste nel passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)` .
 
-Sono supportati i seguenti SIMBOLI:
+Sono supportati i seguenti SYMBOL:
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -53,11 +55,11 @@ Sono supportati i seguenti SIMBOLI:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
+   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello superiore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>Descrizione del ruolo ARIA per il componente di visualizzazione principale. </p> </td> 
+   <td colname="col2"> <p>Descrizione del ruolo ARIA per il componente visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
