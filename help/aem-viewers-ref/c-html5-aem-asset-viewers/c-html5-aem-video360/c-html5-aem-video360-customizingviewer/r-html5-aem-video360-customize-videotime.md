@@ -1,29 +1,30 @@
 ---
-description: L'ora video è la visualizzazione numerica che mostra l'ora e la durata correnti del video attualmente in riproduzione.
-seo-description: L'ora video è la visualizzazione numerica che mostra l'ora e la durata correnti del video attualmente in riproduzione.
+description: L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
+seo-description: L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
 seo-title: Ora video
 solution: Experience Manager
 title: Ora video
-topic: Dynamic Media
 uuid: f8ba615f-661a-4750-bdf7-559650d464af
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
 
-# Ora video{#video-time}
+# Tempo video{#video-time}
 
-L&#39;ora video è la visualizzazione numerica che mostra l&#39;ora e la durata correnti del video attualmente in riproduzione.
+L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La famiglia di font dell&#39;ora video, la dimensione del font e il colore del font sono tra le proprietà che CSS può controllare. Può anche essere posizionato, rispetto alla barra di controllo che lo contiene, tramite CSS.
+La famiglia di font, la dimensione del font e il colore del font dell’ora video sono tra le proprietà che CSS può controllare. Può anche essere posizionato tramite CSS rispetto alla barra di controllo che lo contiene.
 
-L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’ora del video è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7videotime
@@ -39,11 +40,11 @@ L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CS
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> La larghezza del controllo del tempo video. Questa proprietà è necessaria per il corretto funzionamento di Internet Explorer 8 o versione successiva. </p> </td> 
+   <td colname="col2"> <p> La larghezza del controllo del tempo video. Questa proprietà è necessaria per il corretto funzionamento di Internet Explorer 8 o versioni successive. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -51,16 +52,16 @@ L&#39;aspetto del tempo video è controllato dal seguente selettore di classe CS
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>La dimensione del font da utilizzare per il testo di visualizzazione dell'ora. </p> </td> 
+   <td colname="col2"> <p>Dimensione del font da utilizzare per il testo visualizzato in base all'ora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Il colore del font da utilizzare per il testo di visualizzazione dell'ora. </p> </td> 
+   <td colname="col2"> <p>Il colore del font da utilizzare per il testo visualizzato in base all'ora. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : imposta il tempo video su grigio chiaro (esadecimale  `#BBBBBB`), con dimensioni pari a 12 pixel, 15 pixel nella parte superiore della barra di controllo e 80 pixel dai bordi superiore e destro della barra di controllo.
+**Esempio**  - Imposta il tempo video su grigio chiaro (esadecimale  `#BBBBBB`), dimensionato a 12 pixel, posizionato 15 pixel dalla parte superiore della barra di controllo e 80 pixel dai bordi superiore e destro della barra di controllo.
 
 ```
 .s7video360viewer .s7videotime { 
