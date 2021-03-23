@@ -1,23 +1,24 @@
 ---
-description: Un array di aggiornamenti dello stato di pubblicazione.
-seo-description: Un array di aggiornamenti dello stato di pubblicazione.
+description: Matrice di aggiornamenti dello stato di pubblicazione.
+seo-description: Matrice di aggiornamenti dello stato di pubblicazione.
 seo-title: PublishStateUpdateArray
 solution: Experience Manager
 title: PublishStateUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 5dc4102b-a89b-46c9-a057-51172752c5e4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # PublishStateUpdateArray{#publishstateupdatearray}
 
-Un array di aggiornamenti dello stato di pubblicazione.
+Matrice di aggiornamenti dello stato di pubblicazione.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:PublishStateUpdate` | L’array di aggiornamenti dello stato di pubblicazione. |
+| `*`elementi`*` | `types:PublishStateUpdate` | Array di aggiornamenti dello stato di pubblicazione. |
 
