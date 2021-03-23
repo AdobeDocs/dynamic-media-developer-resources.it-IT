@@ -1,25 +1,26 @@
 ---
-description: I dati delle proprietà vengono restituiti in risposta ai seguenti tipi req= imageprop e prop.
-seo-description: I dati delle proprietà vengono restituiti in risposta ai seguenti tipi req= imageprop e prop.
+description: I dati della proprietà vengono restituiti in risposta ai seguenti req= types imageprops e prop.
+seo-description: I dati della proprietà vengono restituiti in risposta ai seguenti req= types imageprops e prop.
 seo-title: Proprietà
 solution: Experience Manager
 title: Proprietà
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 5%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
 
 # Proprietà{#properties}
 
-I dati delle proprietà vengono restituiti in risposta ai seguenti tipi req=: imageprop e prop.
+I dati della proprietà vengono restituiti in risposta ai seguenti tipi req=: immagini e proprietà.
 
-I dati di risposta sono formattati per essere leggibili come proprietà Java. Una tipica risposta delle proprietà di testo ha questa struttura generale:
+I dati di risposta vengono formattati in modo da essere leggibili come proprietà Java. Una risposta tipica delle proprietà di testo ha questa struttura generale:
 
 `#S7Z OK`
 
@@ -31,7 +32,7 @@ I dati di risposta sono formattati per essere leggibili come proprietà Java. Un
 
 ` *[!DNL propertyValue]*` può essere vuoto. Lo spazio vuoto è facoltativo all&#39;inizio e alla fine di ogni riga e prima e dopo il separatore &#39;=&#39;. Le virgolette singole o doppie possono essere utilizzate per racchiudere i valori stringa, ma non sono obbligatorie.
 
-I valori stringa possono contenere caratteri di escape stile JAVA, ad esempio `\n`, `\t`, `\:`. Oppure `\\`.
+I valori stringa possono contenere caratteri di escape in stile JAVA, ad esempio `\n`, `\t`, `\:`. Oppure `\\`.
 
 **Consultate anche**
 
