@@ -1,15 +1,16 @@
 ---
-description: L’indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all'interno del set.
-seo-description: L’indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all'interno del set.
+description: L'indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
+seo-description: L'indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
 seo-title: Imposta indicatore
 solution: Experience Manager
 title: Imposta indicatore
-topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Imposta indicatore{#set-indicator}
 
-L’indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all&#39;interno del set.
+L&#39;indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;indicatore del set**
+**Proprietà CSS dell’indicatore set**
 
-L&#39;aspetto del contenitore degli indicatori di set è controllato dal seguente selettore di classe CSS:
+L’aspetto del contenitore dell’indicatore set è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7carouselviewer .s7setindicator
@@ -38,17 +39,17 @@ L&#39;aspetto del contenitore degli indicatori di set è controllato dal seguent
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore del set. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore set. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L&#39;indicatore set supporta il selettore di attributi mode, che può essere utilizzato per applicare stili diversi per le modalità di funzionamento punteggiate e numeriche. In particolare, `mode="numeric"` corrisponde alla modalità operativa numerica; `mode="dotted"` corrisponde allo stato predefinito del punto.
+>L&#39;indicatore set supporta il selettore di attributi della modalità, che può essere utilizzato per applicare stili diversi per le modalità di funzionamento punteggiate e numeriche. In particolare, `mode="numeric"` corrisponde alla modalità operativa numerica; `mode="dotted"` corrisponde allo stato predefinito del punto.
 
-Esempio: per impostare un indicatore con uno sfondo bianco:
+Esempio: per impostare un indicatore con sfondo bianco:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -56,7 +57,7 @@ Esempio: per impostare un indicatore con uno sfondo bianco:
 }
 ```
 
-L&#39;aspetto di un singolo punto indicatore del set è controllato dal selettore di classe CSS. Si applica agli elementi sia in modalità di operazione punteggiata che numerica.
+L’aspetto di un singolo punto indicatore del set è controllato con il selettore di classe CSS. Si applica agli elementi sia in modalità di funzionamento punteggiata che numerica.
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -70,34 +71,34 @@ L&#39;aspetto di un singolo punto indicatore del set è controllato dal selettor
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza del punto dell’indicatore del set. </p> </td> 
+   <td colname="col2"> <p>Larghezza del punto dell'indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del punto dell'indicatore del set. </p> </td> 
+   <td colname="col2"> <p>Altezza del punto indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore  </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
   <tr> 
@@ -113,11 +114,11 @@ L&#39;aspetto di un singolo punto indicatore del set è controllato dal selettor
    <td colname="col2"> <p>Colore del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allineamento verticale  </span> </p> </td> 
    <td colname="col2"> <p>Allineamento verticale dell'indice del banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del testo per l'indice del banner. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,9 +126,9 @@ L&#39;aspetto di un singolo punto indicatore del set è controllato dal selettor
 
 >[!NOTE]
 >
->Gli indicatori di set supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde all&#39;elemento corrente nell&#39;insieme; `state="unselected"` corrisponde allo stato predefinito dell&#39;elemento.
+>Gli elementi degli indicatori impostati supportano il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde all’elemento corrente nel set; `state="unselected"` corrisponde allo stato predefinito dell&#39;elemento.
 
-Esempio: per impostare un indicatore in modalità punteggiata per i sistemi desktop affinché vengano posizionati a 20 pixel dal fondo del visualizzatore. I punti non selezionati sono neri con trasparenza del 50%, 15 x 15 pixel con angoli arrotondati di 7 pixel. I punti selezionati sono neri con trasparenza 90%, 18 x 18 pixel con angoli arrotondati 9 pixel. Lo spazio tra i punti è di 5 pixel.
+Esempio: per impostare un indicatore in modalità punteggiata per i sistemi desktop da posizionare a 20 pixel dal fondo del visualizzatore. I punti non selezionati sono neri con trasparenza del 50%, 15 x 15 pixel con angoli arrotondati di 7 pixel. I punti selezionati sono neri con trasparenza del 90%, 18 x 18 pixel con angoli arrotondati di 9 pixel. La spaziatura tra i punti è di 5 pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
