@@ -1,23 +1,24 @@
 ---
-description: Proprietà di una risorsa file di impostazioni PDF.
-seo-description: Proprietà di una risorsa file di impostazioni PDF.
+description: Le proprietà di una risorsa file di impostazioni PDF.
+seo-description: Le proprietà di una risorsa file di impostazioni PDF.
 seo-title: PdfSettingsInfo
 solution: Experience Manager
 title: PdfSettingsInfo
-topic: Dynamic Media Image Production System API
 uuid: abbcf82d-5b6e-4f2c-8940-88ea8651aa40
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
 
 # PdfSettingsInfo{#pdfsettingsinfo}
 
-Proprietà di una risorsa file di impostazioni PDF.
+Le proprietà di una risorsa file di impostazioni PDF.
 
 Sintassi
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file. |
+| `*`originalPath`*` | `xsd:string` | Percorso file. |
+| `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
 
