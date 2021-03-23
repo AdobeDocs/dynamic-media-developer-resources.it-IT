@@ -1,34 +1,35 @@
 ---
-description: Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata su catalogo o sulla scadenza, come selezionata con l'attributo CacheValidationPolicy (in default.ini o nel file .ini di un catalogo immagini specifico).
-seo-description: Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata su catalogo o sulla scadenza, come selezionata con l'attributo CacheValidationPolicy (in default.ini o nel file .ini di un catalogo immagini specifico).
-seo-title: Convalida cache di risposta
+description: Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata sul catalogo o sulla scadenza, come selezionato con l'attributo CacheValidationPolicy (in default.ini o il file .ini di un catalogo di immagini specifico).
+seo-description: Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata sul catalogo o sulla scadenza, come selezionato con l'attributo CacheValidationPolicy (in default.ini o il file .ini di un catalogo di immagini specifico).
+seo-title: Convalida della cache della risposta
 solution: Experience Manager
-title: Convalida cache di risposta
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Convalida della cache della risposta
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 
-# Convalida cache risposta{#response-cache-validation}
+# Convalida della cache di risposta{#response-cache-validation}
 
-Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata su catalogo o sulla scadenza, come selezionata con l&#39;attributo::CacheValidationPolicy (in default.ini o nel file .ini di un catalogo immagini specifico).
+Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata su catalogo o su scadenza, come selezionato con attributo::CacheValidationPolicy (in default.ini o nel file .ini di un catalogo di immagini specifico).
 
-Con la convalida basata su catalogo, una voce cache esistente viene considerata obsoleta se `catalog::LastModified` (o `attribute::LastModified`, o se il tempo di modifica del file [!DNL catalog.ini] è più recente rispetto al momento in cui è stata creata la voce della cache.
+Con la convalida basata su catalogo, una voce cache esistente viene considerata obsoleta se `catalog::LastModified` (o `attribute::LastModified`, o l’ora di modifica del file [!DNL catalog.ini]) è più recente del momento in cui è stata creata la voce cache.
 
-Con la convalida basata sulla scadenza, una voce della cache diventa obsoleta dopo 5 minuti dalla convalida più recente. In entrambi i casi, il server convalida le voci della cache scadenti controllando le date dei file di tutti i file di immagine coinvolti nella creazione della richiesta. Se le date del file non sono cambiate, l&#39;indicatore di data e ora della voce della cache viene aggiornato e la data memorizzata nella cache viene considerata valida.
+Con la convalida basata sulla scadenza, una voce della cache diventa obsoleta dopo 5 minuti dalla convalida più recente. In entrambi i casi, il server convalida le voci della cache non aggiornate controllando le date dei file di tutti i file di immagine coinvolti nella creazione della richiesta. Se le date del file non sono state modificate, la marca temporale della voce cache viene aggiornata e la data cache viene considerata valida.
 
-Per le applicazioni tipiche che coinvolgono principalmente immagini registrate nei cataloghi di immagini, la convalida basata su catalogo offre un vantaggio in termini di prestazioni. Le applicazioni che non richiedono cataloghi di immagini devono utilizzare la convalida della cache basata sulla scadenza. A tal fine, è possibile impostare `attribute::cacheValidationPolicy=0` in [!DNL default.ini] e `1` in tutti i file di catalogo immagini specifici.
+Per le applicazioni tipiche che coinvolgono principalmente immagini registrate nei cataloghi di immagini, la convalida basata su catalogo fornisce un vantaggio in termini di prestazioni. Le applicazioni che non richiedono cataloghi di immagini devono utilizzare la convalida della cache basata sulla scadenza. Un modo per farlo è impostare `attribute::cacheValidationPolicy=0` in [!DNL default.ini] e `1` in tutti i file di catalogo immagini specifici.
 
 Le voci della cache diventano non valide e sono soggette a rigenerazione quando una voce del catalogo coinvolta nella richiesta cambia in modo tale da causare probabilmente una modifica dell&#39;immagine di risposta. Ad esempio, il contenuto di `catalog::Modifier` cambia.
 
 >[!NOTE]
 >
->Le immagini Dynamic Media piramidali TIFF (PTIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
+>Le immagini TIFF a piramide di Dynamic Media (PTIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica dei file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
 
-Solo i file di immagine partecipano al processo di convalida della cache. Le modifiche apportate ai file di font o ai file di profilo ICC non causano l&#39;annullamento automatico della convalida delle voci della cache.
+Solo i file di immagine partecipano al processo di convalida della cache. Le modifiche ai file di font o ai file di profilo ICC non causano l’annullamento automatico della validità delle voci della cache.
