@@ -1,15 +1,16 @@
 ---
-description: Impostazioni di rendering avanzate predefinite. Impostazione predefinita per le impostazioni RenderSettings del catalogo.
-seo-description: Impostazioni di rendering avanzate predefinite. Impostazione predefinita per le impostazioni RenderSettings del catalogo.
+description: Impostazioni di rendering avanzate predefinite. Predefinito per le impostazioni RenderSettings del catalogo.
+seo-description: Impostazioni di rendering avanzate predefinite. Predefinito per le impostazioni RenderSettings del catalogo.
 seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 5%
 
 # RenderSettings{#rendersettings}
 
-Impostazioni di rendering avanzate predefinite. Impostazione predefinita per il catalogo::RenderSettings.
+Impostazioni di rendering avanzate predefinite. Predefinito per catalogo::RenderSettings.
 
 ## Proprietà {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Stringa di testo. Se specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring della vignettatura (parte del pacchetto di authoring delle immagini Dynamic Media).
+Stringa di testo. Se specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring delle vignette (parte del pacchetto di authoring delle immagini di Dynamic Media).
 
 ## Predefinito {#section-4e76784aeecd4f09a33124aded7406cb}
 
