@@ -1,27 +1,28 @@
 ---
 description: Rinomina una risorsa.
 seo-description: Rinomina una risorsa.
-seo-title: renameAsset
+seo-title: rinominaRisorsa
 solution: Experience Manager
-title: renameAsset
-topic: Dynamic Media Image Production System API
+title: rinominaRisorsa
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '186'
 ht-degree: 6%
 
 ---
 
 
-# renameAsset{#renameasset}
+# rinominareAsset{#renameasset}
 
 Rinomina una risorsa.
 
 >[!NOTE]
 >
->Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato per corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono modificati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione dell&#39;API.
+>Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato in modo che corrisponda al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione API.
 
 ## Tipi di utenti autorizzati {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -38,22 +39,22 @@ Rinomina una risorsa.
 
 ## Parametri {#section-ef95a994106841e0ab346dd4cf672258}
 
-**Input (renameAssetParam)**
+**Input (ridenominazioneAssetParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società alla quale la risorsa appartiene. |
-| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa da rinominare. |
-| `*`newName`*` | `xsd:string` | Sì | Il nuovo nome della risorsa. |
-| `*`validateName`*` | `xsd:boolean` | Sì | Se `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, il nuovo nome viene controllato per verificare la presenza di un&#39;univocità globale e `renameAsset` genera un errore se non è univoco. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società a cui appartiene il cespite. |
+| `*`assetHandle`*` | `xsd:string` | Sì | Il handle della risorsa da rinominare. |
+| `*`newName`*` | `xsd:string` | Sì | Nuovo nome della risorsa. |
+| `*`validateName`*` | `xsd:boolean` | Sì | Se il `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, il nuovo nome viene controllato per l’univocità globale e `renameAsset` genera un errore se non è univoco. |
 
-**Output (renameAssetReturn)**
+**Output (rinominareAssetReturn)**
 
-L&#39;API IPS non restituisce una risposta per questa operazione. Per informazioni su questo elemento, vedere la descrizione dell&#39;elemento `<ns1:validateName>`.
+L&#39;API IPS non restituisce una risposta per questa operazione. Vedi la descrizione dell&#39;elemento `<ns1:validateName>` per le avvertenze su questo elemento.
 
 ## Esempi {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-Questo esempio di codice rinomina una risorsa
+Questo codice di esempio rinomina una risorsa
 
 **Request Contents (Richiesta contenuto)**
 
