@@ -4,13 +4,14 @@ seo-description: Risoluzione delle miniature. Specifica la risoluzione dell'ogge
 seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10bbad31-a0fd-4ed3-b708-87822777acdd
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 5%
 
 Risoluzione delle miniature. Specifica la risoluzione dell&#39;oggetto per l&#39;immagine in miniatura.
 
-Utilizzata solo se `catalog::ThumbType=3`.
+Utilizzato solo se `catalog::ThumbType=3`.
 
 ## Proprietà {#section-ee5cae086a3d4875805fa8a08756a586}
 
-Valore numero reale maggiore di 0. Devono avere le stesse unità di `catalog::Resolution`.
+Valore numero reale maggiore di 0. Deve avere le stesse unità di `catalog::Resolution`.
 
 ## Predefinito {#section-f0e453fc8a7c451db21961c084eecabd}
 
@@ -31,4 +32,4 @@ Valore numero reale maggiore di 0. Devono avere le stesse unità di `catalog::Re
 
 ## Consultate anche {#section-eb716bf647614db083020fe8ce453751}
 
-[catalogo:ThumbType](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03) ,  [catalogo::Resolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1),  [attributo::ThumbRes](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbres.md#reference-ac36cbbd0c8c433ebf7f515e54846501),  [req=tmb](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Ridimensionamento  [delle miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)
+[catalog:ThumbType](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03) ,  [catalog::Resolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1),  [attributo::ThumbRes](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbres.md#reference-ac36cbbd0c8c433ebf7f515e54846501),  [req=tmb](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [Thumbnail Scaling](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)
