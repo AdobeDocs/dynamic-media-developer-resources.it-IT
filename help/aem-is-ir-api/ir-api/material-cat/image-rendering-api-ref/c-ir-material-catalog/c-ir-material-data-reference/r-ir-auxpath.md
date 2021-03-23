@@ -1,15 +1,16 @@
 ---
-description: Percorso del file di dati. Percorso e nome relativi per i file di dati non immagine associati a questa immagine.
-seo-description: Percorso del file di dati. Percorso e nome relativi per i file di dati non immagine associati a questa immagine.
+description: Percorso file dati. Percorso relativo e nome per i file di dati non di immagine associati a questa immagine.
+seo-description: Percorso file dati. Percorso relativo e nome per i file di dati non di immagine associati a questa immagine.
 seo-title: AuxPath
 solution: Experience Manager
 title: AuxPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95d28f8d-27ec-480a-a62a-7e5e8fbfb3fb
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 3%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 3%
 
 # AuxPath{#auxpath}
 
-Percorso del file di dati. Percorso e nome relativi per i file di dati non immagine associati a questa immagine.
+Percorso file dati. Percorso relativo e nome per i file di dati non di immagine associati a questa immagine.
 
 Il server combina questo valore con attribute::RootPath per creare il percorso effettivo del file. Può anche essere un percorso di file assoluto.
 
-Utilizzato per specificare un file di stile del cabinet per un materiale del cabinet o una finestra che copre un file di stile per una finestra che copre il materiale. Lasciate vuoto per tutti gli altri materiali.
+Utilizzato per specificare un file di stile del cabinet per un materiale del mobile o un file di stile della finestra che copre il materiale della finestra. Lasciare vuoto per tutti gli altri materiali.
 
 ## Proprietà {#section-4268350054b7421da0ce0327f0731a52}
 
-Valore stringa di testo. Se specificato, deve essere un percorso di file relativo o assoluto valido. Richiesto per materiali di armadio e rivestimenti per finestre. Deve essere vuoto per tutti gli altri materiali.
+Valore stringa di testo. Se specificato, deve essere un percorso di file relativo o assoluto valido. Richiesto per materiali per armadietti e materiali per rivestimenti per finestre. Deve essere vuoto per tutti gli altri materiali.
 
 ## Predefinito {#section-287005c2d8e948fa958f69ba7b90b437}
 
