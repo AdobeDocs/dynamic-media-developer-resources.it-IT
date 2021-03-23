@@ -1,23 +1,24 @@
 ---
-description: Riavvia un processo in pausa.
-seo-description: Riavvia un processo in pausa.
+description: Riavvia un lavoro in pausa.
+seo-description: Riavvia un lavoro in pausa.
 seo-title: curriculumJob
 solution: Experience Manager
 title: curriculumJob
-topic: Dynamic Media Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
 
 # curriculumJob{#resumejob}
 
-Riavvia un processo in pausa.
+Riavvia un lavoro in pausa.
 
 Sintassi
 
@@ -38,10 +39,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con il processo da riavviare. |
-| `*`jobHandle`*` | `xsd:string` | Sì | handle per il processo in pausa. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con il processo che si desidera riavviare. |
+| `*`jobHandle`*` | `xsd:string` | Sì | Maniglia del processo sospeso. |
 
-**Output (curriculumRitorno)**
+**Output (curriculumJobReturn)**
 
 L&#39;API IPS non restituisce una risposta per questa operazione.
 
