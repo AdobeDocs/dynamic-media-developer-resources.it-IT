@@ -1,43 +1,44 @@
 ---
-description: Sono supportati quattro tipi generali di vignettatura di produzione.
-seo-description: Sono supportati quattro tipi generali di vignettatura di produzione.
-seo-title: Ridimensionamento vignettatura
+description: Sono supportati quattro tipi generali di vignette di produzione.
+seo-description: Sono supportati quattro tipi generali di vignette di produzione.
+seo-title: Ridimensionamento della vignetta
 solution: Experience Manager
-title: Ridimensionamento vignettatura
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Ridimensionamento della vignetta
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 
-# Ridimensionamento vignettatura{#vignette-scaling}
+# Scala vignetta{#vignette-scaling}
 
-Sono supportati quattro tipi generali di vignettatura di produzione.
+Sono supportati quattro tipi generali di vignette di produzione.
 
 * Risoluzione singola
 
-   Consigliato solo quando è certa che è necessaria una sola dimensione immagine di rendering.
-* Multi-risoluzione
+   Consigliato solo quando è certo che è necessaria una sola dimensione dell’immagine di rendering.
+* Multirisoluzione
 
-   Consigliato quando sono note tutte le dimensioni di immagine di rendering desiderate. Fornisce una qualità migliore e un rendering più rapido rispetto alle vignettature a risoluzione singola e a piramide, perché non è necessario ridimensionare l&#39;immagine dopo il rendering.
+   Si consiglia quando sono note tutte le dimensioni di rendering desiderate dell&#39;immagine. Offre una qualità migliore e un rendering più rapido rispetto alle vignette a risoluzione singola e a piramide, perché l&#39;immagine non deve essere ridimensionata dopo il rendering.
 * Piramide
 
-   Ideale per tutti gli usi, consigliato quando sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando viene utilizzato il visualizzatore zoom Dynamic Media.
+   Ottimizzazione dello scopo, consigliata quando sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando si utilizza il visualizzatore zoom Dynamic Media.
 * Piramide con una o più risoluzioni aggiuntive
 
-   Fornisce alta qualità per dimensioni specifiche, garantendo al contempo flessibilità e supporto del visualizzatore zoom.
+   Offre un&#39;alta qualità per dimensioni specifiche, garantendo al contempo flessibilità e supporto ai visualizzatori zoom.
 
-Ogni risoluzione viene salvata nella vignettatura di produzione come visualizzazione indipendente con larghezza e altezza dell’immagine.
+In effetti, ogni risoluzione viene salvata nella vignetta di produzione come vista indipendente con la propria larghezza e altezza dell&#39;immagine.
 
-Le dimensioni di visualizzazione di una vignettatura a risoluzione singola vengono specificate con `-width` o `-height` oppure con entrambi. Se vengono specificati entrambi i valori, la vignettatura verrà ridimensionata in modo che nessuna dimensione sia maggiore della dimensione specificata. Se non viene specificato alcun valore, la vignettatura di output avrà le stesse dimensioni della vignettatura di input. Non verrà applicato alcun ingrandimento; se la dimensione specificata è maggiore della dimensione della vignettatura di input, la vignettatura di output avrà la stessa dimensione della vignettatura di input.
+Le dimensioni di visualizzazione di una vignetta a risoluzione singola sono specificate con `-width` o `-height` o con entrambe. Se vengono specificati entrambi i valori, la vignetta verrà ridimensionata in modo che nessuna delle due dimensioni sia maggiore della dimensione specificata. Se non viene specificato nessuno dei due valori, la vignetta di output avrà la stessa dimensione della vignetta di input. Non sarà applicato alcun aumento; se la dimensione specificata è maggiore della dimensione della vignetta di input, la vignetta di output avrà la stessa dimensione della vignetta di input.
 
-Le stesse regole si applicano alle vignettature a più risoluzioni, con il primo livello di risoluzione che viene ridimensionato come una vignettatura a risoluzione singola. Le risoluzioni aggiuntive vengono specificate con valori separati da virgola aggiuntivi per `-width` o `-height`. I valori non devono essere ordinati. Se `-width` specifica più valori, `-height` deve fornire solo un singolo valore, e viceversa, in caso contrario viene restituito un errore.
+Le stesse regole si applicano alle vignette a risoluzione multipla, con il primo livello di risoluzione dimensionato come una vignetta a risoluzione singola. Le risoluzioni aggiuntive vengono specificate con valori separati da virgole aggiuntivi per `-width` o `-height`. Non è necessario ordinare i valori. Se `-width` specifica più valori, `-height` deve fornire un solo valore e viceversa, in caso contrario viene restituito un errore.
 
-Per creare una vignettatura piramidale, specificate `-pyramid`. Il livello di risoluzione più elevato di una simile vignettatura è determinato esattamente come per una vignettatura a risoluzione singola. I livelli di risoluzione aggiuntivi vengono determinati automaticamente ridimensionando ogni livello a 0,5 volte il livello precedente, con il livello più piccolo non superiore a 128x128 pixel.
+Viene creata una vignetta a piramide specificando `-pyramid`. Il livello di risoluzione più elevato di una vignetta di questo tipo è determinato esattamente come per una vignetta a risoluzione singola. I livelli di risoluzione aggiuntivi vengono determinati automaticamente ridimensionando ogni livello a 0,5x il livello precedente, con il livello più piccolo non superiore a 128x128 pixel.
 
-È possibile specificare livelli di risoluzione aggiuntivi per una vignettatura piramidale, come per una vignettatura a più risoluzioni.
+È possibile specificare livelli di risoluzione aggiuntivi per una vignetta a piramide, come per una vignetta a più risoluzioni.
