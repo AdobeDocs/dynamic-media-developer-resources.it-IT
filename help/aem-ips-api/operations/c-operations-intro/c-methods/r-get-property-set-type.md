@@ -1,15 +1,16 @@
 ---
-description: Ottiene un tipo di set di proprietà utilizzando un handle per una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con la maniglia al tipo e al tipo di proprietà.
-seo-description: Ottiene un tipo di set di proprietà utilizzando un handle per una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con la maniglia al tipo e al tipo di proprietà.
+description: Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle al tipo e al tipo di proprietà.
+seo-description: Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle al tipo e al tipo di proprietà.
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # getPropertySetType{#getpropertysettype}
 
-Ottiene un tipo di set di proprietà utilizzando un handle per una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con la maniglia al tipo e al tipo di proprietà.
+Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l&#39;handle al tipo e al tipo di proprietà.
 
 Sintassi
 
@@ -39,7 +40,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
+| `*`companyHandle`*` | `xsd:string` | No | Il manico per l&#39;azienda. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
 | `*`name`*` | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
 
 **Output (getPropertySetTypeReturn)**
@@ -61,7 +62,7 @@ Sintassi
    <td colname="col4">La struttura del tipo che contiene: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
      <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Maniglia. </li> 
-     <li id="li_6004406A0D1341648A714FF3C61E4004">Digitare name. </li> 
+     <li id="li_6004406A0D1341648A714FF3C61E4004">Digitare il nome. </li> 
      <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">Tipo di proprietà. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">Valore che indica se il tipo consente più tipi di proprietà. </li> 
     </ul> </td> 
@@ -71,7 +72,7 @@ Sintassi
 
 ## Esempi {#section-1b57199415e34a8fa449f864f8895b14}
 
-Questo esempio di codice restituisce un tipo di proprietà impostato per nome.
+Questo esempio di codice restituisce un set di proprietà per nome.
 
 **Request Contents (Richiesta contenuto)**
 
