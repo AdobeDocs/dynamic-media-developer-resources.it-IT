@@ -1,15 +1,16 @@
 ---
-description: Risoluzione di stampa. Risoluzione di stampa per l'immagine a dimensione intera.
-seo-description: Risoluzione di stampa. Risoluzione di stampa per l'immagine a dimensione intera.
-seo-title: PrintResolution
+description: Risoluzione di stampa. Risoluzione di stampa per l'immagine full-size.
+seo-description: Risoluzione di stampa. Risoluzione di stampa per l'immagine full-size.
+seo-title: StampaRisoluzione
 solution: Experience Manager
-title: PrintResolution
-topic: Dynamic Media Image Serving - Image Rendering API
+title: StampaRisoluzione
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 6%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 6%
 
 # PrintResolution{#printresolution}
 
-Risoluzione di stampa. Risoluzione di stampa per l&#39;immagine a dimensione intera.
+Risoluzione di stampa. Risoluzione di stampa per l&#39;immagine full-size.
 
 Questo valore viene incorporato nell&#39;intestazione dell&#39;immagine di risposta, a meno che non venga sostituito con `printRes=`.
 
 ## Proprietà {#section-de3c1f73da7b43208beeec841c1778c1}
 
-Numero intero maggiore di 0. Espressa in punti per pollice. Facoltativo.
+Numero intero maggiore di 0. Espresso in punti per pollice. Facoltativo.
 
 ## Predefinito {#section-0cac992554ec4247ab05f70d9840a045}
 
@@ -31,4 +32,4 @@ Numero intero maggiore di 0. Espressa in punti per pollice. Facoltativo.
 
 ## Consultate anche {#section-0593faefffe341c5ab8a4aa5da589a04}
 
-[attribute::PrintResolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-printresolution.md#reference-a53c6850077148c9bd88a8c5c1c400c5) ,  [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [printRes=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491)
+[attributo::PrintResolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-printresolution.md#reference-a53c6850077148c9bd88a8c5c1c400c5) ,  [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [printRes=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491)
