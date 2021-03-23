@@ -1,15 +1,16 @@
 ---
-description: Restituisce le risorse in base a un array di nomi di risorse.
-seo-description: Restituisce le risorse in base a un array di nomi di risorse.
+description: Restituisce le risorse in base a una matrice di nomi di risorse.
+seo-description: Restituisce le risorse in base a una matrice di nomi di risorse.
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '231'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # getAssetsByName{#getassetsbyname}
 
-Restituisce le risorse in base a un array di nomi di risorse.
+Restituisce le risorse in base a una matrice di nomi di risorse.
 
 Sintassi
 
@@ -34,7 +35,7 @@ Sintassi
 
 >[!NOTE]
 >
->Restituisce solo le risorse a cui l&#39;utente ha accesso in lettura.
+>Restituisce solo le risorse a cui l’utente ha accesso in lettura.
 
 ## Parametri {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -54,13 +55,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L'handle della società. </td> 
+   <td colname="col4"> Il manico per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Fornisce l'accesso come altro utente. Disponibile solo per gli amministratori. </td> 
+   <td colname="col4"> Fornisce l'accesso come un altro utente. Disponibile solo per gli amministratori. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
@@ -93,10 +94,10 @@ Sintassi
    <td colname="col4"> Array di sottotipi di risorse consentiti per le risorse recuperate. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> rigorosoSubTypeCheck</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> narrowSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se <span class="codeph"> false</span>, vengono incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se <span class="codeph"> false</span>, vengono incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
