@@ -1,14 +1,15 @@
 ---
-description: sovrapposizione campioni
+description: sovrapposizione
 solution: Experience Manager
-title: sovrapposizione campioni
-topic: Dynamic Media
+title: sovrapposizione
 uuid: 2226a368-5db5-42a1-94be-b219560e3891
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il layout del visualizzatore sui dispositivi touch. Quando il parametro è impostato su <span class="codeph"> 1 </span>, il visualizzatore mostra i campioni sotto la vista principale sul desktop; sui dispositivi touch, i campioni vengono sovrapposti sulla vista principale. </p> <p>Quando il parametro è impostato su <span class="codeph"> 0 </span>, i campioni vengono visualizzati sotto la visualizzazione principale su tutti i tipi di dispositivi. </p> </td> 
+   <td colname="col2"> <p>Specifica il layout del visualizzatore sui dispositivi touch. Quando il parametro è impostato su <span class="codeph"> 1 </span>, il visualizzatore mostra i campioni sotto la vista principale sul desktop; sui dispositivi touch, i campioni vengono sovrapposti sulla vista principale. </p> <p>Quando il parametro è impostato su <span class="codeph"> 0 </span>, i campioni vengono sottoposti a rendering sotto la vista principale su tutti i tipi di dispositivi. </p> </td> 
   </tr> 
  </tbody> 
 </table>
