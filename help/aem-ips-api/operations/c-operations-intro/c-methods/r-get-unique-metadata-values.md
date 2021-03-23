@@ -4,13 +4,14 @@ seo-description: Ottiene valori di campo di metadati univoci.
 seo-title: getUniqueMetadataValues
 solution: Experience Manager
 title: getUniqueMetadataValues
-topic: Dynamic Media Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 22%
+source-wordcount: '71'
+ht-degree: 19%
 
 ---
 
@@ -37,8 +38,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| `*`fieldHandle`*` | `xsd:string` | No | Consente di passare al campo di metadati. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
+| `*`fieldHandle`*` | `xsd:string` | No | Gestisci il campo dei metadati. |
 
 **Output (getUniqueMetadataValuesReturn)**
 
@@ -48,7 +49,7 @@ Sintassi
 
 ## Esempi {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-Questo esempio di codice utilizza una maniglia del campo per restituire valori di metadati specifici.
+Questo esempio di codice utilizza un handle di campo per restituire valori di metadati specifici.
 
 **Request Contents (Richiesta contenuto)**
 
