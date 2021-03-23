@@ -4,12 +4,13 @@ seo-description: Informazioni utente Digimarc. Specifica le informazioni utente 
 seo-title: DigimarcId
 solution: Experience Manager
 title: DigimarcId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 3%
 
 ---
@@ -25,11 +26,11 @@ Cinque o sei numeri interi separati da virgola. Il terzo e il quarto numero non 
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-`creator-id` e `creator-pin` vengono forniti da Digimarc al momento dell&#39;acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
+I `creator-id` e `creator-pin` vengono forniti da Digimarc al momento dell’acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
 
-`durability` specifica l&#39;intensità di incorporamento della filigrana Digimarc. Può essere 1, 2, 3 o 4, con 1 che indica una durata più debole e 4 la durata più elevata.
+`durability` specifica la forza di incorporamento della filigrana Digimarc. Può essere 1, 2, 3, o 4, con 1 che indica la resistenza più debole e 4 quella più forte.
 
-Impostate `chroma` su 1 per codificare la filigrana nei dati di crominanza dell&#39;immagine oppure su 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l’output delle immagini in scala di grigio.
+Imposta `chroma` su 1 per codificare la filigrana nei dati di crominanza dell’immagine o su 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l’output delle immagini in scala di grigi.
 
 ## Predefinito {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
@@ -37,7 +38,7 @@ Ereditato da `default::DigimarcId` se non definito o se vuoto.
 
 ## Esempio {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
-Specificate un ID creatore Digimarc di prova con durata impostata su 4.
+Specifica un ID creatore Digimarc di prova con durabilità impostata su 4.
 
 `DigimarcId= 404407,32,,,4`
 
