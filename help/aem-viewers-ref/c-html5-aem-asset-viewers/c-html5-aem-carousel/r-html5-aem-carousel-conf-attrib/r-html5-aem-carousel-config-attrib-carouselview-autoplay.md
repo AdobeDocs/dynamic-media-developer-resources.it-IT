@@ -1,23 +1,24 @@
 ---
-description: Attributo di configurazione per il visualizzatore carosello.
-seo-description: Attributo di configurazione per il visualizzatore carosello.
+description: Attributo di configurazione per il visualizzatore Carosello.
+seo-description: Attributo di configurazione per il visualizzatore Carosello.
 seo-title: CarouselView.autoplay
 solution: Experience Manager
 title: CarouselView.autoplay
-topic: Dynamic Media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
 
 # CarouselView.autoplay{#carouselview-autoplay}
 
-Attributo di configurazione per il visualizzatore carosello.
+Attributo di configurazione per il visualizzatore Carosello.
 
 `[CarouselView.|<containerId>_carouselView.]autoplay=[0|1][,duration][,direction]`
 
@@ -25,7 +26,7 @@ Attributo di configurazione per il visualizzatore carosello.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,durata][,direzione]</span> </p> </td> 
-   <td colname="col2"> <p> Specifica l'attivazione/disattivazione, la durata di visualizzazione di ciascun banner nel carosello e la direzione del ciclo automatico. </p> <p>Impostare su <span class="codeph"> 0</span> per il ciclo automatico disattivato. </p> <p>Impostate <span class="codeph"> 1</span> per l'attivazione automatica del loop con durata di transizione in secondi controllata da <span class="codeph"> durata</span>. </p> <p>La direzione del ciclo automatico è controllata con la direzione <span class="codeph"></span>. La direzione <span class="codeph"></span> ha un intervallo compreso tra <span class="codeph"> 1</span> da destra a sinistra e <span class="codeph"> 0</span> da sinistra a destra. </p> </td> 
+   <td colname="col2"> <p> Specifica l'attivazione/disattivazione, la durata di visualizzazione di ciascun banner nel carosello e la direzione del ciclo automatico. </p> <p>Impostare su <span class="codeph"> 0</span> per il ciclo automatico disattivato. </p> <p>Imposta <span class="codeph"> 1</span> per l'attivazione automatica del ciclo con la durata della transizione in secondi controllata da <span class="codeph"> duration</span>. </p> <p>La direzione del ciclo automatico è controllata con <span class="codeph"> direzione</span>. La <span class="codeph"> direzione</span> ha un intervallo compreso tra <span class="codeph"> 1</span> da destra a sinistra e <span class="codeph"> 0</span> da sinistra a destra. </p> </td> 
   </tr> 
  </tbody> 
 </table>
