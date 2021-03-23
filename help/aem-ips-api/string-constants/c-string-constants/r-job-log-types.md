@@ -1,23 +1,24 @@
 ---
-description: Usato da JobLogDetail/logType e JobLog/logType.
-seo-description: Usato da JobLogDetail/logType e JobLog/logType.
-seo-title: Tipi di registro processo
+description: Utilizzato da JobLogDetail/logType e JobLog/logType.
+seo-description: Utilizzato da JobLogDetail/logType e JobLog/logType.
+seo-title: Tipi di log dei processi
 solution: Experience Manager
-title: Tipi di registro processo
-topic: Dynamic Media Image Production System API
+title: Tipi di log dei processi
 uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 3%
+source-wordcount: '39'
+ht-degree: 2%
 
 ---
 
 
-# Tipi di registro processi{#job-log-types}
+# Tipi di log dei processi{#job-log-types}
 
-Usato da JobLogDetail/logType e JobLog/logType.
+Utilizzato da JobLogDetail/logType e JobLog/logType.
 
 Sintassi
 
