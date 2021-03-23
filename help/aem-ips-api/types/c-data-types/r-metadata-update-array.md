@@ -1,23 +1,24 @@
 ---
-description: Un array di aggiornamenti di metadati.
-seo-description: Un array di aggiornamenti di metadati.
+description: Matrice di aggiornamenti dei metadati.
+seo-description: Matrice di aggiornamenti dei metadati.
 seo-title: MetadataUpdateArray
 solution: Experience Manager
 title: MetadataUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 2d79e7a0-b8bd-4746-a5d7-b742913ebc20
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # MetadataUpdateArray{#metadataupdatearray}
 
-Un array di aggiornamenti di metadati.
+Matrice di aggiornamenti dei metadati.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:MetadataUpdate` | Array di aggiornamenti di metadati. |
+| `*`elementi`*` | `types:MetadataUpdate` | Array di aggiornamenti dei metadati. |
 
