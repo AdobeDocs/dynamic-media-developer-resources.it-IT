@@ -1,15 +1,16 @@
 ---
-description: Regolare il contrasto. Regola il contrasto dell’immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
-seo-description: Regolare il contrasto. Regola il contrasto dell’immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
+description: Regolare il contrasto. Regola il contrasto dell'immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
+seo-description: Regolare il contrasto. Regola il contrasto dell'immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
 seo-title: op_contrasto
 solution: Experience Manager
 title: op_contrasto
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # op_contrasto{#op-contrast}
 
-Regolare il contrasto. Regola il contrasto dell’immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
+Regolare il contrasto. Regola il contrasto dell&#39;immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
 
 `op_contrast= *`adj`*`
 
@@ -30,16 +31,16 @@ Regolare il contrasto. Regola il contrasto dell’immagine aumentando la luminos
 
 ## Proprietà {#section-d319ed55057344eab0a3c93f720acdbf}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
+Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
 
 ## Predefinito {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, per nessun cambiamento di contrasto. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+`op_contrast=0`, senza modifiche di contrasto. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
 
 ## Esempio {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-Per ridurre il contrasto e la nitidezza di un livello di immagine di qualità superiore e ottenere una corrispondenza visiva con una foto di sfondo di bassa qualità:
+Riduci il contrasto e la nitidezza di un livello di immagine di qualità superiore per adattarlo visivamente a una foto di sfondo di bassa qualità:
 
 ... `&op_blur=3&op_contrast=-12&`
 
-In una versione futura è possibile utilizzare la luminosità media dell’immagine anziché una luminosità fissa del 50%.
+Una versione futura potrebbe utilizzare la luminosità mediana dell&#39;immagine invece di una luminosità fissa del 50%.
