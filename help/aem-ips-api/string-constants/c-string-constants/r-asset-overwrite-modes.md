@@ -1,16 +1,17 @@
 ---
 description: Utilizzato da setCompanySettingsParam/overwriteMode.
 seo-description: Utilizzato da setCompanySettingsParam/overwriteMode.
-seo-title: Modalità di sovrascrittura risorse
+seo-title: Modalità di sovrascrittura delle risorse
 solution: Experience Manager
-title: Modalità di sovrascrittura risorse
-topic: Dynamic Media Image Production System API
+title: Modalità di sovrascrittura delle risorse
 uuid: 2d683c94-3ed7-4d2f-ae97-8e722582bca0
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '32'
+ht-degree: 3%
 
 ---
 
