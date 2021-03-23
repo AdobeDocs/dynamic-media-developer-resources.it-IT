@@ -2,13 +2,14 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-topic: Dynamic Media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Il numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, potete ridurre il numero di elementi visibili nel menu a discesa nel caso in cui il contenitore esterno lo ritagli. </p> <p>Se impostato su <span class="codeph"> 0</span>, il componente mostra il maggior numero possibile di elementi, dato il contenitore a cui è aggiunto. </p> </td> 
+   <td> <p>Numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, è possibile ridurre il numero di elementi visibili nel menu a discesa nel caso in cui vengano ritagliati dal contenitore esterno. </p> <p>Se è impostato su <span class="codeph"> 0</span>, il componente mostra il maggior numero possibile di elementi, dato il contenitore a cui viene aggiunto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
