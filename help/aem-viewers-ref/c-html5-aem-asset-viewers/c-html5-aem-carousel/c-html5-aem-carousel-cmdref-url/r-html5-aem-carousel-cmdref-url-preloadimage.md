@@ -1,23 +1,24 @@
 ---
-description: URL, comando per il visualizzatore carosello.
-seo-description: URL, comando per il visualizzatore carosello.
+description: Comando URL per il visualizzatore Carosello.
+seo-description: Comando URL per il visualizzatore Carosello.
 seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
-topic: Dynamic Media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
 
 # preloadimage**{#preloadimage}
 
-URL, comando per il visualizzatore carosello.
+Comando URL per il visualizzatore Carosello.
 
 `preloadImage=0|1`
 
@@ -25,7 +26,7 @@ URL, comando per il visualizzatore carosello.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilitare (<span class="codeph"> 1</span>) o disabilitare (<span class="codeph"> 0</span>) la funzione di precaricamento dell'immagine. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Precarica immagine</a>. </p> </td> 
+   <td colname="col2"> <p> Abilita (<span class="codeph"> 1</span>) o disabilita (<span class="codeph"> 0</span>) la funzione di precaricamento immagine. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Precaricare immagine</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
