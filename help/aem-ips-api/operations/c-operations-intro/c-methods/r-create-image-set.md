@@ -4,12 +4,13 @@ seo-description: Crea un set di immagini.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '150'
 ht-degree: 12%
 
 ---
@@ -32,7 +33,7 @@ Sintassi
 
 >[!NOTE]
 >
->L&#39;utente deve disporre dell&#39;accesso in lettura/scrittura alla cartella di destinazione.
+>L’utente deve disporre dell’accesso in lettura/scrittura alla cartella di destinazione.
 
 ## Parametri {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -40,11 +41,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società a cui appartiene il set di immagini. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella. |
-| `*`name`*` | `xsd:string` | Sì | Nome set di immagini. |
-| `*`type`*` | `xsd:string` | Sì | Tipo set di immagini. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | Gestione della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società a cui appartiene il set di immagini. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L&#39;handle della cartella. |
+| `*`name`*` | `xsd:string` | Sì | Nome del set di immagini. |
+| `*`type`*` | `xsd:string` | Sì | Tipo di set di immagini. |
+| `*`thumbAssetHandle`*` | `xsd:string` | No | Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
 
 **Uscita**
 
@@ -54,7 +55,7 @@ Sintassi
 
 ## Esempi {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Questo esempio di codice crea un set di immagini specificato da società, cartella, nome e tipo. La risposta è una maniglia della risorsa del set di immagini appena creato.
+Questo esempio di codice crea un set di immagini specificato da società, cartella, nome e tipo. La risposta è un handle di risorsa del set di immagini appena creato.
 
 **Request Contents (Richiesta contenuto)**
 
