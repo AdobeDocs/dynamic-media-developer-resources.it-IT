@@ -2,17 +2,18 @@
 description: Registro delle modifiche
 solution: Experience Manager
 title: Registro delle modifiche
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
 
 
-# Change log{#change-log}
+# Cambia registro{#change-log}
 
 * [Versione 6.0](c-change-log/c-6/c-6.md)
 * [Versione 4.5](c-change-log/c-4-5/c-4-5.md)
