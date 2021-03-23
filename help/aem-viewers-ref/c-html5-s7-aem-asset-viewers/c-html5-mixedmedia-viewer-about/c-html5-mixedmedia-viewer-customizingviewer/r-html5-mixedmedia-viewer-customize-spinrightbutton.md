@@ -1,29 +1,30 @@
 ---
-description: Toccando o facendo clic su questo pulsante, l’immagine viene ruotata a destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio sullo schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Potete ridimensionare, incarnato e posizionare il pulsante utilizzando CSS.
-seo-description: Toccando o facendo clic su questo pulsante, l’immagine viene ruotata a destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio sullo schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Potete ridimensionare, incarnato e posizionare il pulsante utilizzando CSS.
-seo-title: Pulsante Spin a destra
+description: Tocca o fai clic su questo pulsante per ruotare l’immagine verso destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
+seo-description: Tocca o fai clic su questo pulsante per ruotare l’immagine verso destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
+seo-title: Pulsante a destra
 solution: Experience Manager
-title: Pulsante Spin a destra
-topic: Dynamic Media
+title: Pulsante a destra
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
 
 
-# Pulsante destro del mouse{#spin-right-button}
+# Pulsante a destra ruota{#spin-right-button}
 
-Toccando o facendo clic su questo pulsante, l’immagine viene ruotata a destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio sullo schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Potete ridimensionare, incarnato e posizionare il pulsante utilizzando CSS.
+Tocca o fai clic su questo pulsante per ruotare l’immagine verso destra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Proprietà CSS dei pulsanti di rotazione**
 
-Il pulsante viene aggiunto a un contenitore interno controllato da DIV con il selettore di classe CSS:
+Il pulsante viene aggiunto a un contenitore interno controllato da DIV con il selettore di classi CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons
@@ -43,10 +44,10 @@ Il pulsante viene aggiunto a un contenitore interno controllato da DIV con il se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +65,7 @@ Il pulsante viene aggiunto a un contenitore interno controllato da DIV con il se
  </tbody> 
 </table>
 
-L&#39;aspetto di questo pulsante all&#39;interno del contenitore è controllato dal selettore di classe CSS:
+L’aspetto di questo pulsante all’interno del contenitore è controllato con il selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panrightbutton
@@ -84,10 +85,10 @@ L&#39;aspetto di questo pulsante all&#39;interno del contenitore è controllato 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -95,31 +96,31 @@ L&#39;aspetto di questo pulsante all&#39;interno del contenitore è controllato 
    <td colname="col2"> <p>Posizione dal bordo inferiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Consultate <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-Esempio: per impostare un pulsante di rotazione a destra di 28x28 pixel, posizionato sul bordo destro del contenitore interno e che visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante:
+Esempio: per impostare un pulsante di rotazione a destra di 28 x 28 pixel, posizionato sul bordo destro del contenitore interno, che visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panrightbutton { 
