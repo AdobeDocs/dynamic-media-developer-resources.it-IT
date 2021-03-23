@@ -1,23 +1,24 @@
 ---
-description: Ottiene le appartenenze di un utente in un array di società.
-seo-description: Ottiene le appartenenze di un utente in un array di società.
+description: Ottiene le appartenenze di un utente in una matrice aziendale.
+seo-description: Ottiene le appartenenze di un utente in una matrice aziendale.
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 13%
 
 ---
 
 
 # getCompanyMembership{#getcompanymembership}
 
-Ottiene le appartenenze di un utente in un array di società.
+Ottiene le appartenenze di un utente in una matrice aziendale.
 
 Sintassi
 
@@ -46,11 +47,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sì | Matrice di appartenenze aziendali. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sì | Array di appartenenze aziendali. |
 
 ## Esempi {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Questo esempio di codice prende una maniglia utente e ottiene tutte le appartenenze della società dell&#39;utente in un array. La risposta è stata troncata per brevità.
+Questo esempio di codice prende un handle utente e ottiene tutte le appartenenze dell&#39;utente in un array. La risposta è stata troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 
