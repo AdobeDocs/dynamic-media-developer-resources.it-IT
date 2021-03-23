@@ -1,29 +1,30 @@
 ---
-description: Il contenuto dell’intero modificatore parte della stringa di richiesta, incluso il suffisso di blocco facoltativo, può essere oscurato applicando la codifica standard base64.
-seo-description: Il contenuto dell’intero modificatore parte della stringa di richiesta, incluso il suffisso di blocco facoltativo, può essere oscurato applicando la codifica standard base64.
-seo-title: Oscuramento della richiesta
+description: Il contenuto dell'intera parte dei modificatori della stringa di richiesta, incluso il suffisso di blocco opzionale, può essere oscurato applicando la codifica standard base64.
+seo-description: Il contenuto dell'intera parte dei modificatori della stringa di richiesta, incluso il suffisso di blocco opzionale, può essere oscurato applicando la codifica standard base64.
+seo-title: Offuscamento della richiesta
 solution: Experience Manager
-title: Oscuramento della richiesta
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Offuscamento della richiesta
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
 
 
-# Oscuramento della richiesta{#request-obfuscation}
+# Offuscamento della richiesta{#request-obfuscation}
 
-Il contenuto dell’intero modificatore parte della stringa di richiesta, incluso il suffisso di blocco facoltativo, può essere oscurato applicando la codifica standard base64.
+Il contenuto dell&#39;intera parte dei modificatori della stringa di richiesta, incluso il suffisso di blocco opzionale, può essere oscurato applicando la codifica standard base64.
 
-Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato. Se la decodifica non riesce, la richiesta viene rifiutata. Se sono applicati sia il blocco della richiesta che l&#39;oscuramento della richiesta, il suffisso del blocco deve essere generato e aggiunto prima della codifica base64.
+Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato. Se la decodifica non riesce, la richiesta viene rifiutata. Se vengono applicati sia il blocco della richiesta che l&#39;offuscamento della richiesta, il suffisso di blocco deve essere generato e aggiunto prima della codifica base64.
 
 >[!IMPORTANT]
 >
->Se si abilita questa funzione, tenere presente che esistono alcune limitazioni all&#39;utilizzo che includono:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Last Published]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Al momento, lo streaming video HLS non funziona quando **[!UICONTROL Richiedi]** oscuramento e  **[!UICONTROL Richiedi]** blocco sono abilitati.<br>- Al momento, alcuni visualizzatori Dynamic Media non funzionano quando  **[!UICONTROL Richiedi]** oscuramento e  **[!UICONTROL Richiedi]** blocco sono attivati.
+>Se abiliti questa funzione, tieni presente che sono presenti alcune limitazioni all’utilizzo della funzionalità che includono:<br>- L’interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultimo pubblicazione]**. Tuttavia, questo effetto non interessa la pubblicazione.<br>- Attualmente, lo streaming video HLS non funziona quando **[!UICONTROL l&#39;offuscamento della richiesta]** e il  **[!UICONTROL blocco della richiesta]** sono abilitati.<br>- Al momento, alcuni visualizzatori Dynamic Media non funzionano quando  **[!UICONTROL l’offuscamento della richiesta]** e il  **[!UICONTROL blocco della]** richiesta sono attivati.
 
 ## Esempio {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -33,8 +34,8 @@ codifica in:
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-Prima che la richiesta sia offuscata, è necessario che tutte le occorrenze di &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; nelle stringhe dei valori siano precedute dalla codifica &#39;%xx&#39;. In caso contrario, non è necessario codificare http-encode la parte *modificatori* della richiesta prima o dopo l&#39;offuscamento, anche se viene applicato il blocco della richiesta, poiché la codifica base64 è sicura per la trasmissione http.
+Prima che la richiesta sia offuscata, è necessario eseguire l’escape delle occorrenze di &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; nelle stringhe di valori utilizzando la codifica &#39;%xx&#39;. Non è necessario altrimenti codificare la parte *modificatori* della richiesta prima o dopo l&#39;offuscamento, anche se viene applicato il blocco della richiesta, poiché la codifica base64 è sicura per la trasmissione http.
 
 ## Consultate anche {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
-[Codifica](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7) HTTP,  [Blocco](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c) richieste,  [attributo::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)
+[Codifica](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7) HTTP,  [Blocco richieste](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c),  [attributo::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)
