@@ -1,23 +1,24 @@
 ---
-description: Mostra oggetto sovrapposizione. Rende visibili tutti gli oggetti sovrapposti precedentemente nascosti (inclusi gli oggetti cornice per rivestimenti di finestre) nella selezione corrente.
-seo-description: Mostra oggetto sovrapposizione. Rende visibili tutti gli oggetti sovrapposti precedentemente nascosti (inclusi gli oggetti cornice per rivestimenti di finestre) nella selezione corrente.
+description: Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
+seo-description: Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
 seo-title: show
 solution: Experience Manager
 title: show
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
 
 # show{#show}
 
-Mostra oggetto sovrapposizione. Rende visibili tutti gli oggetti sovrapposti precedentemente nascosti (inclusi gli oggetti cornice per rivestimenti di finestre) nella selezione corrente.
+Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
 
 `Show[= *`val`*]`
 
@@ -34,7 +35,7 @@ Ignorato se la selezione corrente non include oggetti di sovrapposizione o se no
 
 ## Predefinito {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Nessuno, per nessuna modifica nella visibilità dell&#39;oggetto.
+Nessuno, per nessuna modifica nella visibilità degli oggetti.
 
 ## Consultate anche {#section-2a1a37a35dfb41758897164e14f0105f}
 
