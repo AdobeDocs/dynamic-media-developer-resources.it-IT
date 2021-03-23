@@ -1,15 +1,16 @@
 ---
-description: Risoluzione del materiale. Specifica la risoluzione dell'immagine di trama o decallo ripetibile.
-seo-description: Risoluzione del materiale. Specifica la risoluzione dell'immagine di trama o decallo ripetibile.
+description: Risoluzione del materiale. Specifica la risoluzione della texture o dell'immagine decal ripetibili.
+seo-description: Risoluzione del materiale. Specifica la risoluzione della texture o dell'immagine decal ripetibili.
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -17,22 +18,22 @@ ht-degree: 3%
 
 # res{#res}
 
-Risoluzione del materiale. Specifica la risoluzione dell&#39;immagine di trama o decallo ripetibile.
+Risoluzione del materiale. Specifica la risoluzione della texture o dell&#39;immagine decal ripetibili.
 
 ` res= *`val`*`
 
 <table id="simpletable_2004B804D46E43C090E59BBFF8144598"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>Risoluzione; unità di risoluzione del materiale (in genere pixel per pollice) (reali). </p> </td> 
+  <td class="stentry"> <p>Risoluzione; unità di risoluzione del materiale (in genere pixel per pollice) (reale). </p> </td> 
  </tr> 
 </table>
 
-Nel caso di un materiale decal, `size=` prevale se sono specificati sia `size=` che `res=`.
+Nel caso di un materiale decal, prevale `size=` se sono specificati sia `size=` che `res=`.
 
 ## Proprietà {#section-6a458ddc202f46e0b668c9f040a65cef}
 
-Attributo materiale. Ignorata dai materiali in tinta unita. Solo per rivestimenti di armadio e finestre solo se viene utilizzata anche una texture.
+Attributo materiale. Ignorato da materiali a colori solidi. Solo con materiali di rivestimento per mobili e finestre solo se viene utilizzata anche una texture.
 
 ## Predefinito {#section-ee4088a994014df59105fc1dbb2aa042}
 
