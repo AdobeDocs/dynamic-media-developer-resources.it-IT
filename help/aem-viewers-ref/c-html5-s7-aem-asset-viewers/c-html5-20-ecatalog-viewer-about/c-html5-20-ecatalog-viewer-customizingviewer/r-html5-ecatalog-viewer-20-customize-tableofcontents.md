@@ -4,12 +4,13 @@ seo-description: Il sommario è un pulsante situato nella barra di controllo pri
 seo-title: Sommario
 solution: Experience Manager
 title: Sommario
-topic: Dynamic Media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Il sommario è un pulsante situato nella barra di controllo principale. Quando a
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-In base alla configurazione, l&#39;elenco può contenere tutte le pagine presenti nel catalogo o solo quelle con etichette esplicite definite. Sui sistemi desktop, se l&#39;elenco è più lungo dello spazio disponibile sullo schermo, viene visualizzata una barra di scorrimento a destra.
+In base alla configurazione, l’elenco può contenere tutte le pagine presenti nel catalogo o solo quelle che hanno etichette esplicite definite. Nei sistemi desktop, se l’elenco è più lungo dello spazio disponibile sullo schermo, viene visualizzata una barra di scorrimento a destra.
 
-La posizione e le dimensioni del pulsante del sommario nell&#39;interfaccia utente del visualizzatore sono controllate dal seguente selettore di classe CSS:
+La posizione e le dimensioni del pulsante del sommario nell’interfaccia utente del visualizzatore vengono controllate con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents
@@ -34,11 +35,11 @@ La posizione e le dimensioni del pulsante del sommario nell&#39;interfaccia uten
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> L'offset dalla parte superiore della barra di controllo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
+   <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
    <td colname="col2"> <p> La distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo, se si tratta del primo pulsante di una riga. </p> </td> 
   </tr> 
   <tr> 
@@ -50,23 +51,23 @@ La posizione e le dimensioni del pulsante del sommario nell&#39;interfaccia uten
    <td colname="col2"> <p> Altezza del pulsante del sommario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio: impostare un pulsante del sommario posizionato a 4 pixel dal basso e a 43 pixel dalla sinistra della barra di controllo principale; le dimensioni sono di 28x28 pixel e per ciascuno dei quattro stati del pulsante viene visualizzata un’immagine diversa:
+Esempio: impostare un pulsante sommario posizionato a 4 pixel dal basso e a 43 pixel dalla sinistra della barra di controllo principale; le dimensioni sono di 28 x 28 pixel e per ciascuno dei quattro stati del pulsante viene visualizzata un’immagine diversa:
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -88,7 +89,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-L&#39;aspetto del pannello a discesa è controllato dal seguente selettore di classe CSS:
+L’aspetto del pannello a discesa è controllato con il seguente selettore di classe CSS:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel
@@ -99,25 +100,25 @@ L&#39;aspetto del pannello a discesa è controllato dal seguente selettore di cl
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pannello a discesa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
    <td colname="col2"> <p> Offset interno tra i bordi del pannello e il contenuto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
-   <td colname="col2"> <p> Ombra esterna intorno al pannello. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ombra  </span> </p> </td> 
+   <td colname="col2"> <p> Ombreggiatura intorno al pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->non è possibile controllare le dimensioni o la posizione del pannello a discesa dal CSS; il componente gestisce il layout a livello di programmazione.
+>Non è possibile controllare le dimensioni o la posizione del pannello a discesa da CSS; il componente gestisce il layout a livello di programmazione.
 
-Esempio: impostate un pannello a discesa con sfondo nero semi-trasparente, un margine di 5 pixel intorno al contenuto e un’ombra esterna:
+Esempio : configura un pannello a discesa con sfondo nero semitrasparente, un margine di 5 pixel intorno al contenuto e un’ombra esterna:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel { 
@@ -127,30 +128,30 @@ Esempio: impostate un pannello a discesa con sfondo nero semi-trasparente, un ma
 }
 ```
 
-L&#39;aspetto e il comportamento dei singoli elementi sono controllati dal seguente selettore di classe CSS:
+L’aspetto e l’aspetto dei singoli elementi sono controllati dal seguente selettore di classi CSS:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
 ```
 
-**Proprietà CSS dell&#39;elemento**
+**Proprietà CSS dell’elemento**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Nome font. </p> </td> 
+   <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del font. </p> </td> 
+   <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dell'elemento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col2"> <p>Altezza dell'oggetto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -158,9 +159,9 @@ L&#39;aspetto e il comportamento dei singoli elementi sono controllati dal segue
 
 >[!NOTE]
 >
->La voce dell&#39;elenco a discesa supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati degli elementi selezionati e al passaggio del mouse.
+>La voce dell’elenco a discesa supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse agli stati degli elementi selezionati e al passaggio del mouse.
 
-Esempio: imposta un elemento a discesa con un carattere Helvetica da 14 pixel e un&#39;altezza di 19 pixel. Quando è selezionato, un elemento ha uno sfondo grigio scuro al passaggio del mouse e uno sfondo grigio chiaro:
+Esempio: imposta un elemento a discesa con un carattere Helvetica da 14 pixel e un&#39;altezza di 19 pixel. Quando è selezionato, un elemento presenta uno sfondo grigio scuro al passaggio del mouse e uno sfondo grigio chiaro:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -176,27 +177,27 @@ background-color: rgb(178, 178, 178);
 }
 ```
 
-Un elemento che mostra l&#39;indice della pagina è controllato dal seguente selettore di classe CSS:
+Un elemento che mostra l’indice della pagina è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index
 ```
 
-**Proprietà CSS dell&#39;indice pagina**
+**Proprietà CSS dell’indice della pagina**
 
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza minima  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza minima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza massima elemento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza massima  </span> </p> </td> 
+   <td colname="col2"> <p> Larghezza massima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura destra  </span> </p> </td> 
-   <td colname="col2"> <p> Distanza tra l'indice della pagina e l'etichetta della pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
+   <td colname="col2"> <p> Distanza tra l’indice della pagina e l’etichetta della pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -205,7 +206,7 @@ Un elemento che mostra l&#39;indice della pagina è controllato dal seguente sel
 >
 >È possibile nascondere completamente l&#39;indice della pagina impostando `display:none` per la classe CSS `s7index`.
 
-Esempio 1: impostare un indice di pagina con una larghezza minima di 40 pixel, una larghezza massima di 70 pixel e un margine di 5 pixel sul lato destro:
+Esempio 1: imposta un indice di pagina con una larghezza minima di 40 pixel, una larghezza massima di 70 pixel e un margine di 5 pixel sul lato destro:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -223,28 +224,28 @@ display: none;
 }
 ```
 
-L&#39;etichetta della pagina è controllata dal seguente selettore di classe CSS:
+L’etichetta della pagina è controllata con il seguente selettore di classe CSS:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7label
 ```
 
-**Proprietà CSS dell&#39;etichetta pagina**
+**Proprietà CSS dell’etichetta di pagina**
 
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza minima  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza minima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza massima elemento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza massima  </span> </p> </td> 
+   <td colname="col2"> <p> Larghezza massima dell’elemento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostare un indice di pagina con una larghezza minima di 40 pixel e una larghezza massima di 240 pixel:
+Esempio: imposta un indice di pagina con una larghezza minima di 40 pixel e una larghezza massima di 240 pixel:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7label { 
@@ -253,7 +254,7 @@ max-width: 240px;
 }
 ```
 
-Se nel pannello a discesa sono presenti più elementi che possono essere inseriti verticalmente e il sistema è un desktop, il componente esegue il rendering di una barra di scorrimento verticale sul lato destro del pannello. L&#39;aspetto dell&#39;area della barra di scorrimento è controllato dal seguente selettore di classe CSS:
+Nel caso in cui siano presenti più elementi di quelli che possono essere inseriti verticalmente nel pannello a discesa e il sistema sia un desktop, il componente esegue il rendering di una barra di scorrimento verticale sul lato destro del pannello. L’aspetto dell’area della barra di scorrimento è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -264,25 +265,25 @@ Se nel pannello a discesa sono presenti più elementi che possono essere inserit
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p> Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> L’offset verticale della barra di scorrimento dalla parte superiore dell’area del pannello. </p> </td> 
+   <td colname="col2"> <p> Offset della barra di scorrimento verticale dalla parte superiore dell’area del pannello. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p> L’offset verticale della barra di scorrimento dal fondo dell’area del pannello. </p> </td> 
+   <td colname="col2"> <p> Offset della barra di scorrimento verticale dal fondo dell'area del pannello. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p> L’offset della barra di scorrimento orizzontale rispetto al bordo destro dell’area del pannello. </p> </td> 
+   <td colname="col2"> <p> Offset della barra di scorrimento orizzontale dal bordo destro dell'area del pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostare una barra di scorrimento larga 28 pixel e priva di un margine per l’area superiore, destra o inferiore del pannello:
+Esempio: imposta una barra di scorrimento larga 28 pixel e priva di un margine per l’area superiore, destra o inferiore del pannello:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar { 
@@ -293,7 +294,7 @@ Esempio: impostare una barra di scorrimento larga 28 pixel e priva di un margine
 }
 ```
 
-La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l’altezza della traccia. La traccia è controllata con il seguente selettore di classe CSS:
+La traccia della barra di scorrimento è l’area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l&#39;altezza del brano. La traccia viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
@@ -304,17 +305,17 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza della traccia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza del binario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo della traccia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo del brano. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostate una traccia per la barra di scorrimento larga 28 pixel e con sfondo grigio semi-trasparente:
+Esempio: imposta una traccia della barra di scorrimento larga 28 pixel e con sfondo grigio semitrasparente:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -323,48 +324,48 @@ Esempio: impostate una traccia per la barra di scorrimento larga 28 pixel e con 
 }
 ```
 
-La barra di scorrimento si sposta verticalmente all’interno dell’area della traccia di scorrimento. La sua posizione verticale è controllata dalla logica del componente. Tuttavia, l&#39;altezza delle miniature non cambia in modo dinamico a seconda della quantità di contenuto. Potete configurare l&#39;altezza della miniatura e altri aspetti con il seguente selettore di classe CSS:
+Il pollice della barra di scorrimento si sposta verticalmente all’interno dell’area della traccia di scorrimento. La sua posizione verticale è controllata dalla logica del componente. Tuttavia, l’altezza della miniatura non cambia dinamicamente a seconda della quantità di contenuto. Puoi configurare l’altezza del pollice e altri aspetti con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**Proprietà CSS della casella di scorrimento**
+**Proprietà CSS della barra di scorrimento**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Altezza pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col2"> <p>L'altezza del pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riempimento superiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura superiore  </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura verticale tra la parte superiore della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura in basso  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura inferiore  </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra il fondo della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per un dato stato di pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per un dato stato pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La casella di controllo supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati dei pollici `up`, `down`, `over` e `disabled`.
+>La funzione Thumb supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati del pollice `up`, `down`, `over` e `disabled`.
 
-Esempio: impostare una casella di scorrimento di 28x45 pixel, con margini di 10 pixel in alto e in basso e un&#39;immagine diversa per ogni stato:
+Esempio: imposta un pollice della barra di scorrimento di 28 x 45 pixel, presenta 10 margini pixel in alto e in basso e presenta immagini diverse per ogni stato:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -389,7 +390,7 @@ Esempio: impostare una casella di scorrimento di 28x45 pixel, con margini di 10 
 }
 ```
 
-L&#39;aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato con i seguenti selettori di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton
@@ -399,38 +400,38 @@ L&#39;aspetto dei pulsanti di scorrimento superiore e inferiore è controllato d
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`; al contrario, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`; invece, la logica del visualizzatore li posiziona automaticamente.
 
-**Proprietà CSS del pulsante di scorrimento verso l&#39;alto e verso il basso**
+**Proprietà CSS del pulsante di scorrimento verso l’alto e verso il basso**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> Posizionare all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati del pulsante `up`, `down`, `over` e `disabled`.
+>Il pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati del pulsante `up`, `down`, `over` e `disabled`.
 
-La descrizione del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio: impostare pulsanti di scorrimento da 28x32 pixel con grafica diversa per ogni stato:
+Esempio: impostare pulsanti di scorrimento con 28 x 32 pixel e immagini diverse per ogni stato:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 
