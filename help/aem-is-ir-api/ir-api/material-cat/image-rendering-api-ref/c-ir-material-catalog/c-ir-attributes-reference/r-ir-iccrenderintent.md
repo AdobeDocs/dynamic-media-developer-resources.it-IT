@@ -4,12 +4,13 @@ seo-description: Intento di rendering della conversione del colore. Fornisce l'i
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -21,11 +22,11 @@ Intento di rendering della conversione del colore. Fornisce l&#39;intento di ren
 
 ## Proprietà {#section-0a38c60e1525426185616c42824aee2c}
 
-Enum. Impostato su 0 per la percezione, 1 per la colorimetria relativa, 2 per la saturazione, 3 per la colorimetria assoluta. Mantenete vuoto o impostate su qualsiasi altro valore per utilizzare l’intento di rendering predefinito definito nel profilo colore.
+Enum. Impostato su 0 per percettivo, 1 per colorimetrico relativo, 2 per saturazione, 3 per colorimetrico assoluto. Mantieni vuoto o impostato su qualsiasi altro valore per utilizzare l’intento di rendering predefinito definito nel profilo colore.
 
 ## Predefinito {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Ereditato da `default::IccRenderIntent`se non definito. Se vuoto, viene applicato il colorimetrico relativo.
+Ereditato da `default::IccRenderIntent`se non definito. Se vuoto, viene applicato il valore &quot;colorimetrico relativo&quot;.
 
 ## Consultate anche {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
