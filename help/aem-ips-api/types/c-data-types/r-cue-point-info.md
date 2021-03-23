@@ -4,13 +4,14 @@ seo-description: Proprietà di una risorsa file CuePoint.
 seo-title: CuePointInfo
 solution: Experience Manager
 title: CuePointInfo
-topic: Dynamic Media Image Production System API
 uuid: 0a1f7235-cbb9-4643-88de-31ada3cef2e5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file CuePoint. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file CuePoint. |
+| `*`originalPath`*` | `xsd:string` | Percorso file CuePoint. |
+| `*`originalFile`*` | `xsd:string` | Nome file CuePoint. |
 | `*`fileSize`*` | `xsd:int` | Dimensione del file CuePoint. |
 
