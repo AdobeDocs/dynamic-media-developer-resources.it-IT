@@ -4,13 +4,14 @@ seo-description: Imposta gli attributi utente (ad esempio nome, e-mail, ruolo, e
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 14%
+source-wordcount: '123'
+ht-degree: 13%
 
 ---
 
@@ -34,14 +35,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | handle utente. |
+| `*`userHandle`*` | `xsd:string` | No | Maniglia utente. |
 | `*`firstName`*` | `xsd:string` | Sì | Nome. |
 | `*`lastName`*` | `xsd:string` | Sì | Cognome. |
 | `*`e-mail`*` | `xsd:string` | Sì | E-mail utente. |
-| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo per un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` ha la priorità su altre impostazioni per società. |
+| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` sostituisce altre impostazioni per azienda. |
 | `*`passwordExpires`*` | `xsd:dateTime` | No | Data di scadenza della password del set. |
-| `*`isInvalid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle della società. |
+| `*`isValid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 
 **Output (setUserInfoReturn)**
 
