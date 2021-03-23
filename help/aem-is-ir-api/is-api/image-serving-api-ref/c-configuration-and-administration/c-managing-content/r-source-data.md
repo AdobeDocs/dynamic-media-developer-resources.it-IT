@@ -1,15 +1,16 @@
 ---
-description: I file di dati sorgente Image Server includono file di immagini e maschere, font e profili ICC.
-seo-description: I file di dati sorgente Image Server includono file di immagini e maschere, font e profili ICC.
+description: I file di dati di origine di Image Server includono file immagine e maschera, font e profili ICC.
+seo-description: I file di dati di origine di Image Server includono file immagine e maschera, font e profili ICC.
 seo-title: Dati di origine
 solution: Experience Manager
 title: Dati di origine
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # Dati di origine{#source-data}
 
-I file di dati sorgente Image Server includono file di immagini e maschere, font e profili ICC.
+I file di dati di origine di Image Server includono file immagine e maschera, font e profili ICC.
 
-Tutti i file di dati di origine devono essere accessibili al server immagini. Image Server offre diverse alternative per specificare la posizione dei file di dati:
+Tutti i file di dati di origine devono essere accessibili al server di immagini. Image Serving fornisce una serie di alternative per specificare la posizione dei file di dati:
 
 `*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
@@ -34,20 +35,20 @@ Tutti i file di dati di origine devono essere accessibili al server immagini. Im
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> catalogPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> catalogo::Path|catalogo::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> catalogo::Path|catalog::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> percorso e nome del file immagine relativo specificati in una richiesta HTTP Image Server</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> percorso e nome del file immagine relativo specificati in una richiesta HTTP di Image Server</span> </p></td> 
  </tr> 
 </table>
 
-Il server combina i segmenti di percorso da destra a sinistra finché non viene definito un percorso di file assoluto.
+Il server combina i segmenti di percorso da destra a sinistra fino a quando non viene stabilito un percorso di file assoluto.
 
 Tutti i segmenti `*`rootPath`*` possono essere vuoti, relativi o assoluti.
 
-`*``*` catalogPathis un percorso/nome file assoluto o relativo. `*``*` requestPathdeve essere un percorso/nome di file relativo.
+`*``*` catalogPath un percorso/nome file assoluto o relativo. `*``*` requestPathdeve essere un percorso/nome di file relativo.
 
-`Multiple IS::RootPath` i valori possono essere definiti in ImageServerRegistry.xml (o tramite l&#39;interfaccia di amministrazione). Questo consente la distribuzione dei file di dati di origine tra più file system. Il server immagini proverà a utilizzare percorsi alternativi nell’ordine specificato fino a quando il file di dati non viene trovato.
+`Multiple IS::RootPath` I valori possono essere definiti in ImageServerRegistry.xml (o tramite l&#39;interfaccia di amministrazione). Ciò consente la distribuzione dei file di dati di origine su più file system. Il server immagini proverà percorsi alternativi nell&#39;ordine specificato fino a quando il file di dati non viene trovato.
 
-Nuovi file di dati di qualsiasi tipo possono essere aggiunti in qualsiasi momento senza arrestare il server.
+È possibile aggiungere nuovi file di dati di qualsiasi tipo in qualsiasi momento senza interrompere il server.
