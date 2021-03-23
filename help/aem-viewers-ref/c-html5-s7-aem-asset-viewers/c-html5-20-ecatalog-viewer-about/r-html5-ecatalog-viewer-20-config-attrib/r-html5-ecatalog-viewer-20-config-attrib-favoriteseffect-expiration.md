@@ -2,13 +2,14 @@
 description: FavoritesEffect.expiration
 solution: Experience Manager
 title: FavoritesEffect.expiration
-topic: Dynamic Media
 uuid: 7d78a9b5-6daf-47cb-a220-aa2d8c1a5634
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> giorni</span></span> </p> </td> 
-   <td colname="col2"> <p> Numero di giorni in cui la raccolta dei preferiti viene conservata nel sistema del cliente prima della scadenza. Ogni volta che un utente visita il catalogo e apporta una modifica ai preferiti, ad esempio aggiungendo o rimuovendo, il timer di scadenza viene reimpostato. </p> </td> 
+   <td colname="col2"> <p> Numero di giorni in cui la raccolta dei preferiti viene conservata nel sistema del cliente prima della loro scadenza. Ogni volta che un utente visita il catalogo e apporta una modifica ai preferiti, ad esempio aggiungendo o rimuovendo, il timer di scadenza viene reimpostato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
