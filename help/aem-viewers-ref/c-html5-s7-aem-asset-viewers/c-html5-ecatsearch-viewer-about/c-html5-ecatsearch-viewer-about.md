@@ -1,14 +1,15 @@
 ---
-description: Il visualizzatore di ricerca per eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o pagina per pagina, mentre l’eCatalog consente agli utenti di spostarsi nel catalogo utilizzando altri elementi dell’interfaccia utente o una modalità apposita per le miniature. Gli utenti possono inoltre effettuare lo zoom in su ogni pagina per maggiori dettagli.
-keywords: responsive
+description: Il visualizzatore di ricerca eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o in base alla pagina, mentre l’eCatalog consente agli utenti di navigare nel catalogo utilizzando altri elementi dell’interfaccia utente o la modalità miniature dedicate. Gli utenti possono inoltre effettuare lo zoom in di ogni pagina per maggiori dettagli.
+keywords: reattivo
 solution: Experience Manager
 title: Ricerca eCatalog
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 0%
 
 # Ricerca eCatalog{#ecatalog-search}
 
-Il visualizzatore di ricerca per eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o pagina per pagina, mentre l’eCatalog consente agli utenti di spostarsi nel catalogo utilizzando altri elementi dell’interfaccia utente o una modalità apposita per le miniature. Gli utenti possono inoltre effettuare lo zoom in su ogni pagina per maggiori dettagli.
+Il visualizzatore di ricerca eCatalog è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modo diffuso o in base alla pagina, mentre l’eCatalog consente agli utenti di navigare nel catalogo utilizzando altri elementi dell’interfaccia utente o la modalità miniature dedicate. Gli utenti possono inoltre effettuare lo zoom in di ogni pagina per maggiori dettagli.
 
-Questo visualizzatore funziona con i cataloghi e supporta mappe immagine facoltative e strumenti di condivisione per social network. Sono disponibili strumenti di zoom, strumenti di navigazione del catalogo, supporto a schermo intero, miniature e un pulsante di chiusura opzionale. Il visualizzatore supporta anche strumenti di condivisione per social network, Stampa, Download e Preferiti. È progettato per funzionare su computer desktop e dispositivi mobili.
+Questo visualizzatore funziona con gli ecatalogs e supporta mappe immagine opzionali e strumenti di condivisione social network. Dispone di strumenti di zoom, strumenti di navigazione del catalogo, supporto a schermo intero, miniature e un pulsante di chiusura opzionale. Il visualizzatore supporta anche strumenti di condivisione social network, Stampa, Download e Preferiti. È progettato per funzionare su desktop e dispositivi mobili.
 
-L’utente può effettuare anche una ricerca basata su parole chiave o frasi sui contenuti del catalogo.
+L’utente può inoltre eseguire una ricerca basata su parole chiave o frasi sul contenuto del catalogo.
 
 >[!NOTE]
 >
@@ -28,7 +29,7 @@ L’utente può effettuare anche una ricerca basata su parole chiave o frasi sui
 
 Tipo di visualizzatore 513.
 
-Vedere [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -36,17 +37,17 @@ Vedere [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-pre
 
 ## Utilizzo del visualizzatore di eCatalog {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore di ricerca per eCatalog rappresenta un file JavaScript principale e un set di file helper (un solo codice JavaScript include tutti i componenti SDK per visualizzatori utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
+Il visualizzatore di ricerca eCatalog rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
-Potete usare il visualizzatore di ricerca per eCatalog in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i visualizzatori IS o in modalità incorporata, in cui viene integrata nella pagina Web di destinazione tramite l’API documentata.
+È possibile utilizzare il visualizzatore di ricerca per eCatalog in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, dove viene integrata nella pagina Web di destinazione utilizzando un’API documentata.
 
-La configurazione e l’interfaccia sono simili a quelle degli altri visualizzatori. L’associazione di interfacce viene realizzata tramite CSS personalizzato.
+La configurazione e lo skin sono simili a quelli degli altri visualizzatori. Tutta la skin viene ottenuta tramite CSS personalizzati.
 
-Consultate [Riferimento comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interazione con il visualizzatore di ricerca per eCatalog {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interazione con il visualizzatore di ricerca eCatalog {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Il visualizzatore di ricerca per eCatalog supporta i seguenti gesti touch, comuni ad altre applicazioni mobili.
+Il visualizzatore di ricerca per eCatalog supporta i seguenti gesti touch comuni ad altre applicazioni mobili.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -57,55 +58,55 @@ Il visualizzatore di ricerca per eCatalog supporta i seguenti gesti touch, comun
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Tocco singolo </p> </td> 
-   <td colname="col2"> <p> Seleziona una nuova miniatura nei campioni. </p> </td> 
+   <td colname="col1"> <p>Singolo tocco </p> </td> 
+   <td colname="col2"> <p> Seleziona la nuova miniatura nei campioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doppio tocco </p> </td> 
-   <td colname="col2"> <p> Esegue lo zoom di un livello fino al raggiungimento dell'ingrandimento massimo. Il doppio tocco successivo ripristina lo stato di visualizzazione iniziale del visualizzatore. </p> </td> 
+   <td colname="col2"> <p> Esegue lo zoom di un livello fino a raggiungere l'ingrandimento massimo. Il doppio tocco successivo ripristina lo stato di visualizzazione iniziale del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pizzico </p> </td> 
-   <td colname="col2"> <p>Effettua lo zoom in o zoom out. </p> </td> 
+   <td colname="col2"> <p>Ingrandisce o riduce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scorrimento o scorrimento orizzontale </p> </td> 
-   <td colname="col2"> <p>Consente di scorrere l’elenco delle pagine del catalogo se viene utilizzata una transizione per una cornice diapositiva. </p> </td> 
+   <td colname="col1"> <p>Scorrimento orizzontale o rapido </p> </td> 
+   <td colname="col2"> <p>Consente di scorrere l'elenco delle pagine del catalogo se viene utilizzata una transizione di cornice diapositiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento o scorrimento verticale </p> </td> 
-   <td colname="col2"> <p>Quando l'immagine è in stato di ripristino, esegue uno scorrimento nativo della pagina. </p> <p>Quando le miniature sono attive, scorre l’elenco delle miniature. </p> </td> 
+   <td colname="col2"> <p>Quando l’immagine è in uno stato di ripristino, esegue uno scorrimento nativo della pagina. </p> <p>Quando le miniature sono attive, scorre l’elenco delle miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-È possibile attivare un effetto realistico di animazione di ribaltamento pagina per spostarsi tra le pagine del catalogo. In questi casi, un utente può tenere premuto e trascinare un angolo di pagina e riflettere la pagina.
+È possibile abilitare un effetto di animazione realistico di inversione della pagina per la navigazione tra le pagine del catalogo. In questi casi, un utente può tenere premuto e trascinare un angolo di pagina e capovolgere la pagina.
 
-Questo visualizzatore supporta anche l&#39;input touch e l&#39;input del mouse sui dispositivi Windows con touch screen e mouse. Questo supporto, tuttavia, è limitato solo ai browser Web Chrome, Internet Explorer 11 e Edge.
+Questo visualizzatore supporta anche l&#39;input touch e l&#39;input del mouse su dispositivi Windows con touch screen e mouse. Questo supporto, tuttavia, è limitato solo ai browser web Chrome, Internet Explorer 11 e Edge.
 
-## Strumenti di condivisione per social media con il visualizzatore di ricerca per eCatalog {#section-eb575084a99647c3a9591f439f40b412}
+## Strumenti per la condivisione di social media con il visualizzatore di ricerca eCatalog {#section-eb575084a99647c3a9591f439f40b412}
 
-Il visualizzatore di ricerca per eCatalog supporta gli strumenti di condivisione mediante social network Sono disponibili come pulsante nella barra di controllo principale, che si espande in una barra degli strumenti di condivisione quando un utente vi fa clic o vi tocca.
+Il visualizzatore di ricerca per eCatalog supporta gli strumenti di condivisione per social network Sono disponibili come pulsante nella barra di controllo principale che si espande in una barra degli strumenti di condivisione quando un utente vi fa clic o vi tocca.
 
-La barra degli strumenti di condivisione contiene icone per ciascun tipo di canale di condivisione supportato, che include Facebook, Twitter, condivisione e-mail, condivisione del codice da incorporare e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorpora o collega, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando viene chiamato Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di protezione del browser Web.
+La barra degli strumenti di condivisione contiene icone per ogni tipo di canale di condivisione supportato che includono Facebook, Twitter, condivisione e-mail, condivisione del codice da incorporare e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
-La funzione di ricerca del visualizzatore è disponibile come icona a forma di vetro nella barra degli strumenti principale. Toccando o facendo clic sull’icona si attiva il pannello di ricerca con un campo di input. Dopo aver immesso una parola chiave o una frase e aver premuto Invio, il visualizzatore riproduce i risultati della ricerca nel pannello ed evidenzia le parole trovate nella vista principale.
+La funzione Ricerca del visualizzatore è disponibile come icona a forma di vetro nella barra degli strumenti principale. Tocca o fai clic sull’icona per attivare il pannello Ricerca con un campo di input. Dopo aver inserito una parola chiave o una frase e aver premuto Invio, il visualizzatore esegue il rendering dei risultati della ricerca nel pannello ed evidenzia le parole trovate nella vista principale.
 
 ## Incorporazione del visualizzatore di ricerca per eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Diverse pagine Web hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina Web fornisce un collegamento che, quando viene fatto clic su di essa, apre il visualizzatore in una finestra browser separata. In altri casi, è necessario incorporare il visualizzatore direttamente nella pagina di hosting. In quest&#39;ultimo caso, la pagina Web potrebbe avere un layout di pagina statico oppure utilizzare un design reattivo che viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni di finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a comparsa, dimensione fissa e incorporazione reattiva del design.
+Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e design reattivo.
 
 **Informazioni sulla modalità a comparsa**
 
-In modalità pop-up, il visualizzatore viene aperto in una finestra o in una scheda separata del browser Web. Richiede l&#39;intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato, o se l&#39;orientamento di un dispositivo mobile viene modificato.
+In modalità pop-up, il visualizzatore viene aperto in una finestra o scheda separata del browser Web. Prende l&#39;intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o se viene modificato l&#39;orientamento di un dispositivo mobile.
 
-La modalità a comparsa è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando la chiamata `window.open()` JavaScript, l&#39;elemento HTML configurato correttamente `A` o qualsiasi altro metodo appropriato.
+La modalità pop-up è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` una chiamata JavaScript, un elemento `A` HTML configurato correttamente o qualsiasi altro metodo appropriato.
 
-Si consiglia di utilizzare una pagina HTML out-of-the-box per la modalità operativa a comparsa. In questo caso, si chiama [!DNL eCatalogSearchViewer.html] e si trova nella sottocartella [!DNL html5/] della distribuzione standard dei visualizzatori IS:
+Si consiglia di utilizzare una pagina HTML predefinita per la modalità operativa a comparsa. In questo caso, si chiama [!DNL eCatalogSearchViewer.html] e si trova all’interno della sottocartella [!DNL html5/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
-Potete ottenere la personalizzazione visiva applicando CSS personalizzato.
+Puoi ottenere la personalizzazione visiva applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
@@ -113,36 +114,36 @@ Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in 
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
-**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporazione reattiva**
+**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento della progettazione reattiva**
 
-In modalità incorporata, il visualizzatore viene aggiunto alla pagina Web esistente, che potrebbe già presentare contenuti per clienti non correlati al visualizzatore. In genere, il visualizzatore occupa solo una parte del patrimonio immobiliare di una pagina Web.
+Nella modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente, che potrebbe avere già alcuni contenuti del cliente non correlati al visualizzatore. Il visualizzatore normalmente occupa solo una parte del patrimonio immobiliare di una pagina web.
 
-I casi d’uso principali sono le pagine Web orientate per desktop o dispositivi tablet, nonché le pagine reattive progettate che adattano automaticamente il layout in base al tipo di dispositivo.
+I casi d’uso principali sono le pagine web orientate ai desktop o ai dispositivi tablet, nonché le pagine responsive progettate che regolano automaticamente il layout in base al tipo di dispositivo.
 
-L’incorporamento a dimensione fissa viene utilizzato quando il visualizzatore non ne modifica la dimensione dopo il caricamento iniziale. Questa è la scelta migliore per le pagine Web con layout statico.
+L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa è la scelta migliore per le pagine web con layout statico.
 
-L&#39;incorporazione reattiva della progettazione presuppone che il visualizzatore debba ridimensionare in fase di esecuzione in seguito alla modifica delle dimensioni del suo contenitore `DIV`. L’esempio più comune è l’aggiunta di un visualizzatore a una pagina Web con layout di pagina flessibile.
+L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-In modalità di incorporazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina Web ridimensiona il contenitore `DIV`. Se la pagina Web imposta solo la larghezza del contenitore `DIV`, lasciando senza restrizioni l’altezza, il visualizzatore sceglie automaticamente l’altezza in base alle proporzioni della risorsa utilizzata. Questa funzione assicura che la risorsa si adatti perfettamente alla vista senza riempimenti laterali. Questo caso di utilizzo è il più comune per le pagine Web che utilizzano framework di layout reattivi come Bootstrap, Foundation e così via.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivo come Bootstrap, Foundation e così via.
 
-In caso contrario, se la pagina Web imposta sia la larghezza che l’altezza per il contenitore del visualizzatore `DIV`, il visualizzatore riempie solo tale area e ha le stesse dimensioni del layout della pagina Web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser Web.
+In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore compila solo quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
 **Incorporazione a dimensione fissa**
 
-Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operazioni:
+Per aggiungere il visualizzatore a una pagina web, effettua le seguenti operazioni:
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 1. Definizione del contenitore DIV.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 
-   Per creare un visualizzatore è necessario aggiungere un tag script nell&#39;intestazione HTML. Prima di poter utilizzare l&#39;API del visualizzatore, accertatevi di includere [!DNL eCatalogSearchViewer.js]. Il file [!DNL eCatalogSearchViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard dei visualizzatori IS:
+   La creazione di un visualizzatore richiede l’aggiunta di un tag script nell’intestazione HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL eCatalogSearchViewer.js]. Il file [!DNL eCatalogSearchViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di uno dei Adobi  e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media  Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di Adobe e viene servito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Media di Adobe in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -152,11 +153,11 @@ Il percorso relativo si presenta come segue:
 
 1. Definizione del contenitore DIV.
 
-   Aggiungete un elemento DIV vuoto alla pagina in cui desiderate visualizzare il visualizzatore. L&#39;ID dell&#39;elemento DIV deve essere definito perché l&#39;ID viene passato successivamente all&#39;API del visualizzatore.
+   Aggiungi un elemento DIV vuoto alla pagina in cui desideri che appaia il visualizzatore. L’ID dell’elemento DIV deve essere definito perché viene passato successivamente all’API del visualizzatore.
 
-   Il segnaposto DIV è un elemento posizionato, il che significa che la proprietà `position` CSS è impostata su `relative` o `absolute`.
+   Il segnaposto DIV è un elemento posizionato, il che significa che la proprietà CSS `position` è impostata su `relative` o `absolute`.
 
-   Esempio di un elemento DIV segnaposto definito:
+   Di seguito è riportato un esempio di elemento DIV segnaposto definito:
 
    ```
    <div id="s7viewer" style="position:relative"></div>
@@ -164,13 +165,13 @@ Il percorso relativo si presenta come segue:
 
 1. Impostazione delle dimensioni del visualizzatore
 
-   Potete impostare le dimensioni statiche per il visualizzatore dichiarandolo per la classe CSS di livello principale `.s7ecatalogsearchviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
+   È possibile impostare la dimensione statica del visualizzatore dichiarandola per la classe CSS di livello superiore `.s7ecatalogsearchviewer` in unità assolute o utilizzando il modificatore `stagesize`.
 
-   Potete inserire le dimensioni in CSS direttamente nella pagina HTML, oppure in un file CSS del visualizzatore personalizzato, che verrà successivamente assegnato a un record del predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesso esplicitamente utilizzando un comando di stile.
+   Puoi inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS per visualizzatori personalizzati, che viene poi assegnato a un record predefinito per visualizzatori in Dynamic Media Classic, o passato esplicitamente utilizzando un comando stile.
 
-   Consultate [Personalizzazione del visualizzatore di eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con i CSS.
+   Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta [Personalizzazione del visualizzatore di eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
-   Di seguito è riportato un esempio di definizione di una dimensione visualizzatore statica in una pagina HTML:
+   Di seguito è riportato un esempio di definizione delle dimensioni di un visualizzatore statico nella pagina HTML:
 
    ```
    #s7viewer.s7ecatalogsearchviewer { 
@@ -179,7 +180,7 @@ Il percorso relativo si presenta come segue:
    }
    ```
 
-   Potete impostare il modificatore `stagesize` nel record del predefinito per visualizzatori in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   Puoi impostare il modificatore `stagesize` nel record predefinito del visualizzatore in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params`, o come chiamata API come descritto nella sezione Riferimento comandi , come segue:
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
@@ -188,13 +189,13 @@ Il percorso relativo si presenta come segue:
 
 1. Inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi descritti qui sopra, potete creare un&#39;istanza della classe `s7viewers.eCatalogSearchViewer`, trasmettere tutte le informazioni di configurazione al relativo costruttore e chiamare il metodo `init()` su un&#39;istanza di visualizzatore. Le informazioni di configurazione vengono trasmesse al costruttore come oggetto JSON. Come minimo, questo oggetto ha il campo `containerId` che contiene il nome dell&#39;ID contenitore del visualizzatore e l&#39;oggetto JSON nidificato `params` con i parametri di configurazione supportati dal visualizzatore. In questo caso, l&#39;oggetto `params` deve avere almeno l&#39;URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. L&#39;API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
+   Una volta completati i passaggi precedenti, crea un’istanza della classe `s7viewers.eCatalogSearchViewer`, passa tutte le informazioni di configurazione al relativo costruttore e chiama il metodo `init()` su un’istanza di visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Come minimo, questo oggetto ha il campo `containerId` che contiene il nome dell’ID contenitore visualizzatore e l’oggetto JSON nidificato `params` con i parametri di configurazione supportati dal visualizzatore. In questo caso, l’oggetto `params` deve avere almeno l’URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
 
-   È importante che il contenitore del visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser ritardano la creazione del DOM fino alla fine della pagina Web. Per garantire la massima compatibilità, tuttavia, chiamare il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()`.
+   È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, tuttavia, chiama il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()` .
 
-   Allo stesso modo, l&#39;elemento contenitore non deve necessariamente far parte del layout della pagina Web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina Web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l&#39;elemento contenitore non deve necessariamente far parte del layout della pagina web appena fatto. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un&#39;istanza visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()`. L&#39;esempio presuppone che `eCatalogSearchViewer` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://s7d1.scene7.com/is/image/` è l&#39;URL del server immagini e `Viewers/Pluralist` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un&#39;istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()` . L’esempio presuppone che `eCatalogSearchViewer` sia l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://s7d1.scene7.com/is/image/` è l&#39;URL di Image Server e `Viewers/Pluralist` è la risorsa:
 
    ```
    <script type="text/javascript"> 
@@ -209,7 +210,7 @@ Il percorso relativo si presenta come segue:
    </script>
    ```
 
-   Il codice seguente è un esempio completo di una pagina Web banale che incorpora il visualizzatore di ricerca per eCatalog con una dimensione fissa:
+   Il codice seguente è un esempio completo di una pagina web banale che incorpora il visualizzatore di ricerca eCatalog con dimensioni fisse:
 
    ```
    <!DOCTYPE html> 
@@ -239,9 +240,9 @@ Il percorso relativo si presenta come segue:
    </html>
    ```
 
-**Incorporazione responsive con altezza illimitata**
+**Incorporazione di design reattivo con altezza illimitata**
 
-Con l&#39;incorporazione reattiva della progettazione, la pagina Web dispone in genere di un layout flessibile che specifica le dimensioni runtime del contenitore del visualizzatore `DIV`. In questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di assumere il 40% delle dimensioni della finestra del browser Web, lasciando senza restrizioni l&#39;altezza. Il codice HTML della pagina Web risultante sarà simile al seguente:
+Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina web consenta al contenitore del visualizzatore `DIV` di assumere il 40% delle dimensioni della finestra del browser Web, lasciando senza limitazioni l’altezza. Il codice HTML della pagina web risultante avrà un aspetto simile al seguente:
 
 ```
 <!DOCTYPE html> 
@@ -259,13 +260,13 @@ Con l&#39;incorporazione reattiva della progettazione, la pagina Web dispone in 
 </html>
 ```
 
-L’aggiunta del visualizzatore a tale pagina è simile all’incorporamento a dimensione fissa, con l’unica differenza che non è necessario definire in modo esplicito le dimensioni del visualizzatore.
+L’aggiunta del visualizzatore a una pagina di questo tipo è simile all’incorporazione a dimensione fissa, con l’unica differenza che non è necessario definire in modo esplicito le dimensioni del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 1. Definizione del contenitore DIV.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi indicati sopra sono uguali a quelli con incorporamento a dimensione fissa. Aggiungete il contenitore `DIV` al &quot;porta&quot; `DIV` esistente. Il codice seguente è un esempio completo. Potete vedere come cambiano le dimensioni del visualizzatore quando viene ridimensionato il browser e come le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione a dimensione fissa. Aggiungi il contenitore `DIV` al &quot; holder&quot; esistente `DIV`. Il codice seguente è un esempio completo. Puoi vedere come cambia la dimensione del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```
 <!DOCTYPE html> 
@@ -296,13 +297,13 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-Nella pagina degli esempi seguente sono illustrati i casi di utilizzo più reali di incorporamento reattivo con altezza illimitata del progetto:
+La pagina degli esempi seguenti illustra casi d’uso più reali di incorporamento dinamico del design con altezza illimitata:
 
-[Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **Incorporazione di dimensioni flessibili con larghezza e altezza definite**
 
-In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina Web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot; holder&quot; `DIV` e le centra nella finestra del browser. Inoltre, la pagina Web imposta la dimensione dell&#39;elemento `HTML` e `BODY` su 100%:
+In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot; holder&quot; `DIV` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` su 100%:
 
 ```
 <!DOCTYPE html> 
@@ -328,7 +329,7 @@ height: 60%;
 </html>
 ```
 
-I passaggi di incorporazione rimanenti sono identici a quelli per l’incorporamento reattivo di progetti con altezza illimitata. L’esempio risultante è il seguente:
+I passaggi rimanenti per l’incorporazione sono identici a quelli per l’incorporazione di progetti reattivi con altezza illimitata. L’esempio risultante è il seguente:
 
 ```
 <!DOCTYPE html> 
@@ -367,11 +368,11 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-**Incorporazione tramite l&#39;API basata su Setter**
+**Incorporazione tramite API basate su Setter**
 
-Invece di utilizzare l&#39;inizializzazione basata su JSON è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. Con questo costruttore API non accetta parametri e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
+Invece di utilizzare l&#39;inizializzazione basata su JSON è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. Con tale costruttore API non accetta alcun parametro e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
 
-L&#39;esempio seguente mostra l&#39;incorporamento di dimensioni fisse con l&#39;API basata su setter:
+L’esempio seguente mostra l’incorporazione di dimensioni fisse con API basata su setter:
 
 ```
 <!DOCTYPE html> 
