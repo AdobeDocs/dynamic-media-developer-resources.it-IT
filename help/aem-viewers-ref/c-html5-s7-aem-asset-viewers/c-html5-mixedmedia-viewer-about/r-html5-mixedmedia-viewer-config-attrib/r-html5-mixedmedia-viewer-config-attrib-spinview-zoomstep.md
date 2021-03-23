@@ -2,13 +2,14 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-topic: Dynamic Media
 uuid: 103097e9-7e6d-413c-a6a8-b8a15665348c
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '90'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +22,11 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura le azioni di zoom in e zoom out necessarie per aumentare o ridurre la risoluzione di un fattore di due. La modifica della risoluzione per ogni azione di zoom è di 2^1 per passaggio. Impostare su <span class="codeph"> 0</span> per eseguire lo zoom a risoluzione completa con una singola azione di zoom. </p> </td> 
+   <td colname="col2"> <p> Configura le azioni di zoom in e zoom out necessarie per aumentare o ridurre la risoluzione di un fattore di due. La modifica della risoluzione per ogni azione di zoom è di 2^1 per passo. Impostare su <span class="codeph"> 0</span> per ingrandire la risoluzione completa con una singola azione di zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> limit</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica la risoluzione di zoom massima, relativa all’immagine a risoluzione piena. Il valore predefinito è <span class="codeph"> 1.0</span>, che non consente lo zoom oltre la risoluzione completa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> limite</span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica la risoluzione massima dello zoom rispetto all'immagine a risoluzione piena. Il valore predefinito è <span class="codeph"> 1.0</span>, che non consente lo zoom oltre la risoluzione completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
