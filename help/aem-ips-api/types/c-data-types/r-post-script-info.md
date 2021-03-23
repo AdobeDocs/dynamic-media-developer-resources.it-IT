@@ -2,13 +2,14 @@
 description: PostScriptInfo
 solution: Experience Manager
 title: PostScriptInfo
-topic: Dynamic Media Image Production System API
 uuid: 2f41a26c-ba97-4b4f-b2fa-f0e0cbc0b4ab
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 35%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +22,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file. |
+| `*`originalPath`*` | `xsd:string` | Percorso file. |
+| `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
 
