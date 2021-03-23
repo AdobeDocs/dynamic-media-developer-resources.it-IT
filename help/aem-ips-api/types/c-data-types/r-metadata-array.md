@@ -1,23 +1,24 @@
 ---
-description: Un array di metadati.
-seo-description: Un array di metadati.
+description: Matrice di metadati.
+seo-description: Matrice di metadati.
 seo-title: MetadataArray
 solution: Experience Manager
 title: MetadataArray
-topic: Dynamic Media Image Production System API
 uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 14%
+source-wordcount: '35'
+ht-degree: 11%
 
 ---
 
 
 # MetadataArray{#metadataarray}
 
-Un array di metadati.
+Matrice di metadati.
 
 Sintassi
 
@@ -35,7 +36,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipo:Metadati</span> </p> </td> 
-   <td colname="col3"> <p>Un array di metadati. </p> </td> 
+   <td colname="col3"> <p>Matrice di metadati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
