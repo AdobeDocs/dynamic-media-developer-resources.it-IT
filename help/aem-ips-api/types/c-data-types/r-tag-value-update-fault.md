@@ -1,23 +1,24 @@
 ---
-description: Errore restituito quando un aggiornamento del valore di tag non riesce.
-seo-description: Errore restituito quando un aggiornamento del valore di tag non riesce.
+description: L’errore viene generato quando un aggiornamento del valore del tag non riesce.
+seo-description: L’errore viene generato quando un aggiornamento del valore del tag non riesce.
 seo-title: TagValueUpdateFault
 solution: Experience Manager
 title: TagValueUpdateFault
-topic: Dynamic Media Image Production System API
 uuid: e557c7da-2366-4f97-a354-c2d603aa996f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
 
 # TagValueUpdateFault{#tagvalueupdatefault}
 
-Errore restituito quando un aggiornamento del valore di tag non riesce.
+L’errore viene generato quando un aggiornamento del valore del tag non riesce.
 
 Sintassi
 
@@ -26,6 +27,6 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`value`*` | `xsd:string` | Valore del tag per il quale l&#39;aggiornamento non è riuscito. |
-| `*`code`*` | `xsd:int` | Numero codice errore. |
-| `*`reason`*` | `xsd:string` | Messaggio di errore (testo normale). |
+| `*`codice`*` | `xsd:int` | Numero del codice di errore. |
+| `*`motivo`*` | `xsd:string` | Messaggio di errore (testo normale). |
 
