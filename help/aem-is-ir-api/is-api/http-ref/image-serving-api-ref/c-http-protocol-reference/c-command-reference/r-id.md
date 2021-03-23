@@ -1,15 +1,16 @@
 ---
-description: Versione immagine/metadati Quando si lavora con contenuti che si modificano frequentemente, i server nelle reti di caching come Akamai, nelle cache del browser e nelle cache dei server proxy aziendali possono memorizzare le risposte Image Server che potrebbero essere non aggiornate per periodi di tempo.
-seo-description: Versione immagine/metadati Quando si lavora con contenuti che si modificano frequentemente, i server nelle reti di caching come Akamai, nelle cache del browser e nelle cache dei server proxy aziendali possono memorizzare le risposte Image Server che potrebbero essere non aggiornate per periodi di tempo.
+description: Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequentemente, i server in reti di caching come Akamai, cache del browser e cache del server proxy aziendale possono memorizzare le risposte Image Server che potrebbero non essere aggiornate per periodi di tempo.
+seo-description: Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequentemente, i server in reti di caching come Akamai, cache del browser e cache del server proxy aziendale possono memorizzare le risposte Image Server che potrebbero non essere aggiornate per periodi di tempo.
 seo-title: Id
 solution: Experience Manager
 title: Id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -17,28 +18,28 @@ ht-degree: 2%
 
 # Id{#id}
 
-Versione immagine/metadati Quando si lavora con contenuti che si modificano frequentemente, i server nelle reti di caching come Akamai, nelle cache del browser e nelle cache dei server proxy aziendali possono memorizzare le risposte Image Server che potrebbero essere non aggiornate per periodi di tempo.
+Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequentemente, i server in reti di caching come Akamai, cache del browser e cache del server proxy aziendale possono memorizzare le risposte Image Server che potrebbero non essere aggiornate per periodi di tempo.
 
 ` id= *`val`*`
 
 <table id="simpletable_3A6EBDA15B004636804E1ACEF952479A"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> val  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Stringa della versione. </p> </td> 
+  <td class="stentry"> <p>Stringa di versione. </p> </td> 
  </tr> 
 </table>
 
-Image Serving include un meccanismo di controllo delle versioni che consente di ridurre la possibilità che un’applicazione utilizzi una voce cache obsoleta. Questo meccanismo prevede l&#39;utilizzo di `req=props` per ottenere le stringhe dell&#39;identificatore di versione per i dati immagine e i metadati (ad esempio, mappe immagine o dati di destinazione di zoom). La stringa dell’identificatore di versione viene quindi aggiunta alle richieste di Image Server memorizzabili nella cache con il comando `id=`.
+Image Serving include un meccanismo di controllo delle versioni che può aiutare a ridurre la possibilità che un&#39;applicazione utilizzi una voce cache obsoleta. Questo meccanismo prevede l&#39;utilizzo di `req=props` per ottenere le stringhe dell&#39;identificatore di versione per i dati immagine e i metadati (come la mappa immagine o i dati di destinazione dello zoom). La stringa dell&#39;identificatore di versione viene quindi aggiunta alle richieste Image Serving memorizzabili nella cache con il comando `id=` .
 
-Quando un&#39;immagine sorgente o i metadati cambiano, cambia anche il valore ID versione corrispondente. L&#39;inclusione di un ID versione aggiornato con il comando `id=` garantisce che non sarà più possibile accedere alle vecchie voci della cache.
+Quando un&#39;immagine sorgente o i metadati cambiano, cambia anche il valore dell&#39;ID versione corrispondente. L’inclusione di un valore ID versione aggiornato con il comando `id=` garantisce che non sarà più possibile accedere alle vecchie voci di cache.
 
-Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ciascun tipo `req=`:
+Nella tabella seguente sono elencate le stringhe relative all’identificatore di versione da utilizzare per ciascun tipo `req=`:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> <b> identificatore versione da req=props</b> </th> 
+   <th class="entry"> <b> identificatore di versione da req=props</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -51,7 +52,7 @@ Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di vers
    <td> <p> metadata.version </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> mask </p> </td> 
+   <td> <p> maschera </p> </td> 
    <td> <p> image.version </p> </td> 
   </tr> 
   <tr> 
@@ -59,11 +60,11 @@ Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di vers
    <td> <p> metadata.version </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> tmb </p> </td> 
+   <td> <p> tam </p> </td> 
    <td> <p> image.version </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> userdata </p> </td> 
+   <td> <p> dati utente </p> </td> 
    <td> <p> metadata.version </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +74,7 @@ Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di vers
  </tbody> 
 </table>
 
-`req=` i tipi non elencati sopra dispongono di un TTL breve (  `attribute::NonImgExpiration`) o le loro risposte non sono affatto memorizzabili nella cache; non vi è alcun vantaggio nell&#39;includere  `id=` tali richieste.
+`req=` i tipi non elencati sopra dispongono di un TTL breve (  `attribute::NonImgExpiration`) o le loro risposte non sono affatto memorizzabili in cache; non vi è alcun vantaggio nell&#39;includere  `id=` tali richieste.
 
 ## Proprietà {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -85,8 +86,8 @@ Nessuno.
 
 ## Esempio {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Vedere la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), ad esempio l&#39;utilizzo.
+Per esempio, vedere la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) .
 
-## Vedere anche {#section-6b4befb47202415195a68516f60e9988}
+## Vedere Anche {#section-6b4befb47202415195a68516f60e9988}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3),  [catalogo::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a),  [attributo::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3),  [catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a),  [attribute::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
