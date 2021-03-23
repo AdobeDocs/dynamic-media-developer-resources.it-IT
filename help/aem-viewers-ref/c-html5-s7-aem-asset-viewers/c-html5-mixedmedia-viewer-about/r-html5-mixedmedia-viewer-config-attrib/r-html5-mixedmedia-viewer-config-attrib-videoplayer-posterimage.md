@@ -2,31 +2,32 @@
 description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-topic: Dynamic Media
 uuid: 28663f44-11cb-4522-bd12-d6bec17b4173
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 3%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 
 
 # VideoPlayer.posterimage{#videoplayer-posterimage}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisCommands`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisControls`*]`
 
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> L'immagine da visualizzare sul primo fotogramma prima dell'inizio della riproduzione del video, risolta in base a <span class="codeph"> serverurl</span>. Se specificato nell’URL, codificate con HTTP quanto segue: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isControls</span>]</span> </p> </td> 
+   <td colname="col2"> <p> L'immagine da visualizzare sul primo fotogramma prima dell'inizio della riproduzione del video, risolta in base a <span class="codeph"> serverurl</span>. Se specificato nell’URL, codifica HTTP come segue: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as  <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Se il valore <span class="codeph"><span class="varname"> image_id</span></span> viene omesso, il componente tenta di utilizzare l'immagine poster predefinita per la risorsa in questione. </p> <p>Quando il video viene specificato come percorso, l’ID catalogo predefinito per immagini poster viene derivato dal percorso video come la coppia <span class="codeph"> catalog_id/image_id</span> in cui <span class="codeph"> catalog_id</span> corrisponde al primo token nel percorso e <span class="codeph"> image_id</span> è il nome del video con l’estensione rimossa. Se l'immagine con tale ID non esiste, l'immagine poster non viene visualizzata. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specificate <span class="codeph"> none</span> come valore dell'immagine poster. Se sono specificati solo i <span class="codeph"><span class="varname"> isCommands</span></span>, i comandi vengono applicati all'immagine poster predefinita prima della visualizzazione dell'immagine. </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> come  <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> come  <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> come  <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>Se il valore <span class="codeph"><span class="varname"> image_id</span></span> viene omesso, il componente tenta di utilizzare l’immagine poster predefinita per la risorsa in questione. </p> <p>Quando il video è specificato come percorso, l’ID catalogo predefinito per le immagini miniatura viene derivato dal percorso video come la coppia <span class="codeph"> catalog_id/image_id</span> in cui <span class="codeph"> catalog_id</span> corrisponde al primo token nel percorso e <span class="codeph"> image_id</span> è il nome del video con l’estensione rimossa. Se l'immagine con quell'ID non esiste, l'immagine poster non viene visualizzata. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specifica <span class="codeph"> none</span> come valore dell'immagine poster. Se sono specificati solo i comandi <span class="codeph"><span class="varname"> isControls</span></span>, i comandi vengono applicati all'immagine poster predefinita prima della visualizzazione dell'immagine. </p> </td> 
   </tr> 
  </tbody> 
 </table>
