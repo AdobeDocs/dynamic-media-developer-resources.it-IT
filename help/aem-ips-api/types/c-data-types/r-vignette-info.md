@@ -1,23 +1,24 @@
 ---
-description: Proprietà di una risorsa vignettatura.
-seo-description: Proprietà di una risorsa vignettatura.
+description: Proprietà di una risorsa vignetta.
+seo-description: Proprietà di una risorsa vignetta.
 seo-title: VignetteInfo
 solution: Experience Manager
 title: VignetteInfo
-topic: Dynamic Media Image Production System API
 uuid: 86406541-f117-49a3-909b-bde63d8e9eef
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 
 
 # VignetteInfo{#vignetteinfo}
 
-Proprietà di una risorsa vignettatura.
+Proprietà di una risorsa vignetta.
 
 Sintassi
 
@@ -25,10 +26,10 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`OriginalPath`*` | `xsd:string` | Percorso del file. |
-| `*`OriginalFile`*` | `xsd:string` | Nome file. |
+| `*`originalPath`*` | `xsd:string` | Percorso del file. |
+| `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
-| `*`imagePath`*` | `xsd:string` | Percorso dell’immagine. |
+| `*`imagePath`*` | `xsd:string` | Percorso dell&#39;immagine. |
 | `*`imageFile`*` | `xsd:string` |  |
 | `*`optimizedPath`*` | `xsd:string` | Percorso ottimizzato del file. |
 | `*`optimizedFile`*` | `xsd:string` | Nome file ottimizzato. |
