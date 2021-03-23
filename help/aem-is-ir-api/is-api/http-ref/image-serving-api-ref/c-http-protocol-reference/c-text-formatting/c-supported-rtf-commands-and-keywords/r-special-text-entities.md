@@ -1,15 +1,16 @@
 ---
-description: Per formattare il testo, utilizzate le seguenti entità speciali.
-seo-description: Per formattare il testo, utilizzate le seguenti entità speciali.
-seo-title: Entità testo speciali
+description: Quando si formatta il testo, utilizzare le seguenti entità speciali.
+seo-description: Quando si formatta il testo, utilizzare le seguenti entità speciali.
+seo-title: Entità di testo speciali
 solution: Experience Manager
-title: Entità testo speciali
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Entità di testo speciali
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # Entità testo speciale{#special-text-entities}
 
-Per formattare il testo, utilizzate le seguenti entità speciali.
+Quando si formatta il testo, utilizzare le seguenti entità speciali.
 
 <table id="table_CFEB845C1B9A475CA52ECDFA9BB59A9D"> 
  <thead> 
@@ -35,7 +36,7 @@ Per formattare il testo, utilizzate le seguenti entità speciali.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \line  </span> </td> 
-   <td> <p>Interruzione di riga. </p> </td> 
+   <td> <p>Interruzione di linea. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -45,12 +46,12 @@ Per formattare il testo, utilizzate le seguenti entità speciali.
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;parentesi graffa;  </span> </td> 
-   <td> <p>Parentesi aperta ricci. </p> </td> 
+   <td> <p>Parentesi graffa aperta riccia. </p> </td> 
    <td> <p>La parentesi deve essere codificata per HTTP. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;parentesi graffa;  </span> </td> 
-   <td> <p>Staffa di chiusura riccio. </p> </td> 
+   <td> <p>Parentesi graffa chiusa. </p> </td> 
    <td> <p>La parentesi deve essere codificata per HTTP. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +61,7 @@ Per formattare il testo, utilizzate le seguenti entità speciali.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Trattino unificatore. </p> </td> 
+   <td> <p>Trattino infrangente. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
