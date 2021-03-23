@@ -1,23 +1,24 @@
 ---
-description: URL per il visualizzatore video.
-seo-description: URL per il visualizzatore video.
+description: Comando URL per il visualizzatore video.
+seo-description: Comando URL per il visualizzatore video.
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-topic: Dynamic Media
 uuid: 551338fe-8fc6-4045-8205-4cf102782f8d
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '61'
+ht-degree: 6%
 
 ---
 
 
 # videoServerUrl{#videoserverurl}
 
-URL per il visualizzatore video.
+Comando URL per il visualizzatore video.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -25,7 +26,7 @@ URL per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Percorso principale del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui viene distribuita la pagina. Si applica la risoluzione standard del percorso URI. </p> </td> 
+   <td colname="col2"> <p> Il percorso principale del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui viene distribuita la pagina. Si applica la risoluzione standard del percorso URI. </p> </td> 
   </tr> 
  </tbody> 
 </table>
