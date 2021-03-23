@@ -1,25 +1,26 @@
 ---
-description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati dai caratteri '&'.
-seo-description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati dai caratteri '&'.
+description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati da caratteri "&".
+seo-description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati da caratteri "&".
 seo-title: Definizione
 solution: Experience Manager
 title: Definizione
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
 
 
-# Definition{#definition}
+# Definizione{#definition}
 
-Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati dai caratteri &#39;&amp;&#39;.
+Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati da caratteri &quot;&amp;&quot;.
 
-Le definizioni delle macro possono richiamare altre macro, ma è necessario definire le macro prima di poterle fare riferimento. Pertanto, una definizione di macro può richiamare una macro che si verifica in precedenza nello stesso file di definizione della macro. Oppure, potrebbe richiamare una macro dal catalogo predefinito, partendo dal presupposto che la definizione della macro richiamante non sia nello stesso file. Le macro possono definire e utilizzare variabili personalizzate.
+Le definizioni delle macro possono richiamare altre macro, ma le macro devono essere definite prima di poter essere referenziate. Pertanto, una definizione di macro può richiamare una macro che si verifica prima nello stesso file di definizione della macro. In alternativa, potrebbe richiamare una macro dal catalogo predefinito, partendo dal presupposto che la definizione della macro richiamante non si trovi nello stesso file. Le macro possono definire e utilizzare variabili personalizzate.
 
 ## Proprietà {#section-31514bdf04474c53a3a1fd5a52417bb9}
 
