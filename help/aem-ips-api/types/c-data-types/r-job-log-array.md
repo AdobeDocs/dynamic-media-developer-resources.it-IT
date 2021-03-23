@@ -1,23 +1,24 @@
 ---
-description: Un array di registri di processo.
-seo-description: Un array di registri di processo.
+description: Matrice di registri di lavoro.
+seo-description: Matrice di registri di lavoro.
 seo-title: JobLogArray
 solution: Experience Manager
 title: JobLogArray
-topic: Dynamic Media Image Production System API
 uuid: 92b9d0ce-80e5-4bfb-b604-74e690bedc1c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # JobLogArray{#joblogarray}
 
-Un array di registri di processo.
+Matrice di registri di lavoro.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:JobLog` | Array di registri di processo. |
+| `*`elementi`*` | `types:JobLog` | Matrice di registri di lavoro. |
 
