@@ -1,23 +1,24 @@
 ---
-description: Un array di voci ZIP.
-seo-description: Un array di voci ZIP.
+description: Matrice di voci ZIP.
+seo-description: Matrice di voci ZIP.
 seo-title: ZipEntryArray
 solution: Experience Manager
 title: ZipEntryArray
-topic: Dynamic Media Image Production System API
 uuid: 530ad406-b23c-4cee-a23e-141cf78818c0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
 # ZipEntryArray{#zipentryarray}
 
-Un array di voci ZIP.
+Matrice di voci ZIP.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ZipEntry` | Un array di voci ZIP. |
+| `*`elementi`*` | `types:ZipEntry` | Matrice di voci ZIP. |
 
