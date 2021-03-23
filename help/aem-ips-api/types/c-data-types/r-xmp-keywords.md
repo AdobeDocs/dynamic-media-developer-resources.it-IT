@@ -1,23 +1,24 @@
 ---
-description: Le parole chiave estensibili della piattaforma di metadati di una risorsa.
-seo-description: Le parole chiave estensibili della piattaforma di metadati di una risorsa.
-seo-title: XmpKeywords
+description: Parole chiave per piattaforma di metadati estensibili di una risorsa.
+seo-description: Parole chiave per piattaforma di metadati estensibili di una risorsa.
+seo-title: Parole chiave Xmp
 solution: Experience Manager
-title: XmpKeywords
-topic: Dynamic Media Image Production System API
+title: Parole chiave Xmp
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 14%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
 
 # XmpKeywords{#xmpkeywords}
 
-Le parole chiave estensibili della piattaforma di metadati di una risorsa.
+Parole chiave per piattaforma di metadati estensibili di una risorsa.
 
 Sintassi
 
@@ -35,7 +36,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Elenco separato da virgole di parole chiave che vengono unite nel nodo di proprietà XMP <span class="codeph"> dc:subject=</span>. Se una virgola viene visualizzata in uno dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
+   <td colname="col3"> <p>Elenco di parole chiave separate da virgola che vengono unite nel nodo di proprietà <span class="codeph"> dc:subject=</span> XMP. Se una virgola viene visualizzata in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
