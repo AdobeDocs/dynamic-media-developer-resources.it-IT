@@ -4,13 +4,14 @@ seo-description: Colore di sfondo. Specifica il colore sottrattivo per le textur
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 7%
+source-wordcount: '177'
+ht-degree: 6%
 
 ---
 
@@ -24,19 +25,19 @@ Colore di sfondo. Specifica il colore sottrattivo per le texture e le decorazion
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> color</span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>Valore colore RGB o grigio. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Valore del colore RGB o grigio. </p></td> 
  </tr> 
 </table>
 
-L&#39;algoritmo di colorizzazione della texture del rendering delle immagini è abbastanza semplice: i valori dei componenti di `bgc=` vengono sottratti da quelli dei pixel della texture, `color=` vengono aggiunti e infine il risultato viene ritagliato su `0,0,0` e `255,255,255`.
+L&#39;algoritmo di colorazione della texture di Image Rendering è abbastanza semplice: i valori dei componenti di `bgc=` vengono sottratti da quelli dei pixel della texture, viene aggiunto `color=` e infine il risultato viene ritagliato su `0,0,0` e `255,255,255`.
 
-Per gli usi tipici della colorazione della texture, il valore di `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Dynamic Media Image Authoring offre strumenti semi-automatici che estraono valori di colore `bgc=` ragionevoli dalle immagini delle texture.
+Per gli usi tipici della colorazione della texture, il valore per `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Dynamic Media Image Authoring fornisce strumenti semi-automatici che estraggono valori di colore ragionevoli `bgc=` dalle immagini di texture.
 
-Quando un materiale texture viene applicato a un oggetto vignettatura non texture, `bgc=` viene applicato come colore di primo piano se `color=` non è specificato.
+Quando un materiale di texture viene applicato a un oggetto vignetta non testurizzabile, `bgc=` viene applicato come colore di primo piano se `color=` non è specificato.
 
 ## Proprietà {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Attributo materiale. Ignorata dai materiali in tinta unita e cabinet.
+Attributo materiale. Ignorato da colori solidi e materiali per armadietti.
 
 ## Predefinito {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
