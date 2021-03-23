@@ -1,23 +1,24 @@
 ---
-description: Creare o modificare un campo di metadati. Omettete la maniglia del campo opzionale per creare un nuovo campo di metadati.
-seo-description: Creare o modificare un campo di metadati. Omettete la maniglia del campo opzionale per creare un nuovo campo di metadati.
+description: Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
+seo-description: Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 8%
+source-wordcount: '243'
+ht-degree: 7%
 
 ---
 
 
 # saveMetadataField{#savemetadatafield}
 
-Creare o modificare un campo di metadati. Omettete la maniglia del campo opzionale per creare un nuovo campo di metadati.
+Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
 
 >[!NOTE]
 >
@@ -48,7 +49,7 @@ Creare o modificare un campo di metadati. Omettete la maniglia del campo opziona
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L'handle della società. </td> 
+   <td colname="col4"> Il manico per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -84,13 +85,13 @@ Creare o modificare un campo di metadati. Omettete la maniglia del campo opziona
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nascondere o esporre i metadati specifici del sistema IPS. </td> 
+   <td colname="col4"> Nascondere o esporre metadati specifici del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforzato</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforcement</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Flag booleano che indica se il campo di metadati viene applicato (convalidato) quando il valore viene impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Flag booleano che indica se il campo metadati è applicato (convalidato) quando il valore è impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,11 +100,11 @@ Creare o modificare un campo di metadati. Omettete la maniglia del campo opziona
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sì | Gestione del nuovo campo di metadati. |
+| `*`fieldHandle`*` | `xsd:string` | Sì | Gestione del nuovo campo metadati. |
 
 ## Esempi {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Questo esempio di codice crea un nuovo campo di metadati vincolato dalle costanti di stringa Tipo risorsa e Tipi di campo metadati. Se l&#39;elemento `fieldHandle` ha un valore di handle di campo valido, i valori dei metadati vengono modificati e viene visualizzata la stessa handle di campo specificata nella richiesta.
+Questo esempio di codice crea un nuovo campo metadati vincolato dalle costanti di stringa Tipo di risorsa e Tipi di campi metadati . Se l&#39;elemento `fieldHandle` ha un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
 
 **Request Contents (Richiesta contenuto)**
 
