@@ -1,15 +1,16 @@
 ---
-description: Imposta i valori di metadati per una risorsa. Funziona con una serie di aggiornamenti di metadati per impostare i valori in un batch.
-seo-description: Imposta i valori di metadati per una risorsa. Funziona con una serie di aggiornamenti di metadati per impostare i valori in un batch.
+description: Imposta i valori dei metadati per una risorsa. Funziona con un array di aggiornamenti dei metadati per impostare i valori in un batch.
+seo-description: Imposta i valori dei metadati per una risorsa. Funziona con un array di aggiornamenti dei metadati per impostare i valori in un batch.
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
+feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '153'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # setAssetMetadata{#setassetmetadata}
 
-Imposta i valori di metadati per una risorsa. Funziona con una serie di aggiornamenti di metadati per impostare i valori in un batch.
+Imposta i valori dei metadati per una risorsa. Funziona con un array di aggiornamenti dei metadati per impostare i valori in un batch.
 
 Sintassi
 
@@ -41,8 +42,8 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con la risorsa da aggiornare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia della risorsa. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamenti di metadati. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamento metadati. |
 
 **Output (setAssetMetadataReturn)**
 
