@@ -1,15 +1,16 @@
 ---
-description: Filtri che consentono di definire criteri di ricerca per rendere più efficienti le ricerche.
-seo-description: Filtri che consentono di definire criteri di ricerca per rendere più efficienti le ricerche.
+description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
+seo-description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 seo-title: SearchFilter
 solution: Experience Manager
 title: SearchFilter
-topic: Dynamic Media Image Production System API
 uuid: 85a434d3-51a5-4e68-901e-70585c0e8b20
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # SearchFilter{#searchfilter}
 
-Filtri che consentono di definire criteri di ricerca per rendere più efficienti le ricerche.
+Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 
 Sintassi
 
@@ -33,17 +34,17 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> cartella</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Specificate la cartella in cui desiderate eseguire la ricerca. Lasciate vuoto per effettuare ricerche all’interno e all’intera società. </td> 
+   <td colname="col3"> Specifica la cartella da cercare. Lascia vuoto per cercare in tutta l’azienda. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSottocartelle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Impostate su: 
+   <td colname="col3">Imposta su: 
     <ul id="ul_BD8686943BD14D05A21C00192D4D70D3"> 
-     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> Vero</span>: Per cercare nella cartella denominata e in tutte le sottocartelle. </li> 
-     <li id="li_10A581F98B4847ED8EBE4AECC3AD70A8"><span class="codeph"> False</span>: Per cercare solo nella cartella denominata. </li> 
+     <li id="li_B6A6DE5AAEFF4A80A8413B4785A88222"><span class="codeph"> True</span>: Per cercare la cartella denominata e tutte le sottocartelle. </li> 
+     <li id="li_10A581F98B4847ED8EBE4AECC3AD70A8"><span class="codeph"> False</span>: Per cercare solo la cartella denominata. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -54,49 +55,49 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3"> Specificate un tipo di risorsa da escludere da una ricerca. Ad esempio, image. </td> 
+   <td colname="col3"> Specifica un tipo di risorsa da escludere da una ricerca. Ad esempio, immagine. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Elenco dei sottotipi di risorse da restituire in una ricerca. Ad esempio, per un <span class="codeph"> AssetSet</span>, potete cercare il sottotipo <span class="codeph"> MediaType</span>. </td> 
+   <td colname="col3">Elenco dei sottotipi di risorse che dovranno essere restituiti in una ricerca. Ad esempio, per un <span class="codeph"> AssetSet</span>, è possibile cercare il sottotipo <span class="codeph"> MediaType</span> . </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> rigorosoSubTypeCheck</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> narrowSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Flag booleano facoltativo che specifica se restituire risorse senza sottotipo quando viene passato <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se true, vengono restituite solo le risorse con uno dei sottotipi specificati. </p> <p>Se è false, vengono restituite anche le risorse senza sottotipo. </p> <p>I valori predefiniti sono falsi. </p> </td> 
+   <td colname="col3"> <p>Flag booleano facoltativo che specifica se restituire risorse senza sottotipo quando viene passato <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se true, vengono restituite solo le risorse con uno dei sottotipi specificati. </p> <p>Se false, vengono restituite anche le risorse senza sottotipo. </p> <p>Le impostazioni predefinite sono false. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Impostate su: 
+   <td colname="col3">Imposta su: 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
-     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> Vero</span>: Per restituire solo le risorse originali. </li> 
+     <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>: Per restituire solo le risorse originali. </li> 
      <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>: Per restituire il contenuto generato. Ad esempio, immagini da un PDF caricato. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestite il progetto da cercare. </td> 
+   <td colname="col3"> Gestisci il progetto da cercare. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Specificate: 
+   <td colname="col3">Specifica: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> </span> ContrassegnatoPerPubblicazione per restituire solo le risorse pubblicate. </li> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> </span> MarkedForPublishper restituire solo le risorse pubblicate. </li> 
      <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> </span> NotMarkedForPublishper restituire solo le risorse non pubblicate. </li> 
-    </ul> <p>Nota: Lasciate vuoto per cercare i tipi di stato pubblicati <i>all</i>. </p> </td> 
+    </ul> <p>Nota: Lascia vuoto per cercare i tipi di stato pubblicati <i>all</i> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Specificate: 
+   <td colname="col3">Specifica: 
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
-     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> È possibile restituire </span> tutte le risorse indipendentemente dal loro stato di cestino. </li> 
-     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> </span> NotInTrashper restituire risorse 'normali'. </li> 
-     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> In </span> Trashper restituire le risorse dal cestino. </li> 
+     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> </span> È possibile restituire le risorse indipendentemente dal loro stato di rifiuto. </li> 
+     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> </span> NotInTrashto restituisce risorse 'normali'. </li> 
+     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> </span> InTrashper restituire le risorse dal cestino. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
