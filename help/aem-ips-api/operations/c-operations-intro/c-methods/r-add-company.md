@@ -2,11 +2,12 @@
 description: Aggiunge una società al sistema.
 solution: Experience Manager
 title: addCompany
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '177'
 ht-degree: 8%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 8%
 
 Aggiunge una società al sistema.
 
-Invia il nome della società da aggiungere al sistema e, facoltativamente, invia l’indicazione della scadenza della società.
+Invia il nome della società da aggiungere al sistema e, facoltativamente, invia se la società scade.
 
-Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo `*`companyInfo`*` contenente un handle della società e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando si richiama questa operazione, il sistema ottiene un tipo `*`companyInfo`*` che contiene un handle della società e campi descrittivi. Se il nome società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 
@@ -44,13 +45,13 @@ Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo `*`
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Nome della società da aggiungere. </p> </td> 
+   <td colname="col4"> <p>Nome dell'azienda da aggiungere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Data di scadenza della società. Specifica il fuso orario con la richiesta per questo campo. I fusi orari sono regolati su Ora centrale. </p> </td> 
+   <td colname="col4"> <p>Data di scadenza dell’azienda. Specifica il fuso orario con la richiesta per questo campo. I fusi orari sono regolati su Ora centrale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,14 +72,14 @@ Quando viene richiamata l&#39;operazione, al sistema viene assegnato un tipo `*`
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestione a nome, percorso principale, data di scadenza e ora della nuova società. </p> </td> 
+   <td colname="col4"> <p>Gestisci nome e nome, percorso principale, data di scadenza e ora della nuova società. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Questo esempio illustra una richiesta di aggiunta di una società al sistema IPS e la risposta con informazioni dettagliate sulla società aggiunta necessaria per eseguire altre operazioni.
+Questo esempio illustra una richiesta di aggiunta di una società al sistema IPS e la risposta che descrive le informazioni sulla società aggiunta necessarie per eseguire altre operazioni.
 
 **Request Contents (Richiesta contenuto)**
 
