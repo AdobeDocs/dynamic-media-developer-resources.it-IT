@@ -1,15 +1,16 @@
 ---
-description: Percorso del file delle definizioni delle macro. Specifica il file che contiene le definizioni delle macro per questo catalogo immagini.
-seo-description: Percorso del file delle definizioni delle macro. Specifica il file che contiene le definizioni delle macro per questo catalogo immagini.
+description: Percorso file delle definizioni delle macro. Specifica il file contenente le definizioni delle macro per questo catalogo di immagini.
+seo-description: Percorso file delle definizioni delle macro. Specifica il file contenente le definizioni delle macro per questo catalogo di immagini.
 seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a383b00a-47f8-4c1c-9fd0-0701d8f78b18
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # MacroFile{#macrofile}
 
-Percorso del file delle definizioni delle macro. Specifica il file che contiene le definizioni delle macro per questo catalogo immagini.
+Percorso file delle definizioni delle macro. Specifica il file contenente le definizioni delle macro per questo catalogo di immagini.
 
 ## Proprietà {#section-e55829aecc3a412f9121a73d70f83a1a}
 
