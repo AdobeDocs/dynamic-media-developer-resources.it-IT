@@ -1,25 +1,26 @@
 ---
-description: TTL cache client per le risposte non basate su immagini. Fornisce l'intervallo di scadenza per alcune risposte non basate su immagini.
-seo-description: TTL cache client per le risposte non basate su immagini. Fornisce l'intervallo di scadenza per alcune risposte non basate su immagini.
+description: TTL della cache client per le risposte non basate su immagini. Fornisce l'intervallo di scadenza per alcune risposte non basate su immagini.
+seo-description: TTL della cache client per le risposte non basate su immagini. Fornisce l'intervallo di scadenza per alcune risposte non basate su immagini.
 seo-title: NonImgExpiration
 solution: Experience Manager
 title: NonImgExpiration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 19b37bd4-f7cf-4b5f-be1a-b2d9fda5b4b1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
 
 # NonImgExpiration{#nonimgexpiration}
 
-TTL cache client per le risposte non basate su immagini. Fornisce l&#39;intervallo di scadenza per alcune risposte non basate su immagini.
+TTL della cache client per le risposte non basate su immagini. Fornisce l&#39;intervallo di scadenza per alcune risposte non basate su immagini.
 
-Fornisce l&#39;intervallo di scadenza per alcune risposte non basate su immagini, comprese quelle inviate in risposta ai comandi seguenti:
+Fornisce l&#39;intervallo di scadenza per alcune risposte non basate su immagini, incluse quelle inviate in risposta ai seguenti comandi:
 
 * `req=imageset`
 * `req=catalogprops`
@@ -29,13 +30,13 @@ Fornisce l&#39;intervallo di scadenza per alcune risposte non basate su immagini
 
 ## Proprietà {#section-d37e3113f4b1468b86b5a14e80d94c83}
 
-Numero reale, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dei dati di risposta. Impostate su 0 per scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita il caching client per le risposte immagine predefinite. Impostare su -1 per contrassegnare come *non scade mai*.
+Numero reale, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dei dati di risposta. Imposta su 0 per far scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita in modo efficace la memorizzazione in cache del client per le risposte alle immagini predefinite. Imposta su -1 per contrassegnare come *non scade*.
 
 ## Predefinito {#section-96981360c0234b7f824d2ff7c25a7954}
 
 Ereditato da `default::NonImgExpiration` se non definito o se vuoto.
 
-TTL (Time-To-Live) è la durata prima della scadenza della cache. Il valore predefinito TTL è 6 minuti.
+TTL (Time-to-Live) è la durata prima della scadenza della cache. Il TTL predefinito è 6 minuti.
 
 ## Consultate anche {#section-4549c5594a5547beb8b129ec8d0e6aa6}
 
