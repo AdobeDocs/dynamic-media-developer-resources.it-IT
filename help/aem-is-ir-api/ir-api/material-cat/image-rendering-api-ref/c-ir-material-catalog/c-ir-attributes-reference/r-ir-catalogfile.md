@@ -1,15 +1,16 @@
 ---
-description: Percorso del file di dati del catalogo. Specifica il file che contiene i dati materiali per questo catalogo.
-seo-description: Percorso del file di dati del catalogo. Specifica il file che contiene i dati materiali per questo catalogo.
-seo-title: CatalogFile
+description: Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
+seo-description: Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
+seo-title: FileCatalogo
 solution: Experience Manager
-title: CatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
+title: FileCatalogo
 uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # CatalogFile{#catalogfile}
 
-Percorso del file di dati del catalogo. Specifica il file che contiene i dati materiali per questo catalogo.
+Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
 
 ## Proprietà {#section-81eaf83ed4d3405f8ba95671bd303584}
 
