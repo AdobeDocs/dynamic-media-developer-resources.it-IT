@@ -1,15 +1,16 @@
 ---
-description: Usate queste impostazioni del server per il servizio Catalogo immagini.
-seo-description: Usate queste impostazioni del server per il servizio Catalogo immagini.
+description: Utilizza queste impostazioni del server per il servizio catalogo immagini.
+seo-description: Utilizza queste impostazioni del server per il servizio catalogo immagini.
 seo-title: Servizio catalogo immagini
 solution: Experience Manager
 title: Servizio catalogo immagini
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 0%
 
 # Servizio catalogo immagini{#image-catalog-service}
 
-Usate queste impostazioni del server per il servizio Catalogo immagini.
+Utilizza queste impostazioni del server per il servizio catalogo immagini.
 
 ## CS::catalog.rootPath - Cartella catalogo immagini {#section-02d107f157384b18835f884f24fea3aa}
 
-Posizione della cartella del catalogo immagini (in cui devono trovarsi tutti i file [!DNL catalog.ini]). Può essere un percorso assoluto di file o un percorso relativo a *[!DNL install_folder]*. Il server controlla continuamente questa cartella e carica o ricarica i cataloghi quando viene rilevato un nuovo file catalogo principale (con suffisso di file [!DNL .ini]) o quando viene modificata l&#39;ultima modifica di un file catalogo principale esistente.
+Posizione della cartella del catalogo delle immagini (in cui devono trovarsi tutti i file [!DNL catalog.ini]). Può essere un percorso assoluto di file o un percorso relativo a *[!DNL install_folder]*. Il server controlla continuamente questa cartella e carica o ricarica i cataloghi quando viene rilevato un nuovo file di catalogo principale (con suffisso di file [!DNL .ini]) o quando è cambiata l&#39;ultima modifica di un file di catalogo principale esistente.
 
-## CS::catalog.cacheRoot - Cartella cache catalogo {#section-73e499c3a5974f1aa4251e70272ff503}
+## CS::catalog.cacheRoot - Cartella cache del catalogo {#section-73e499c3a5974f1aa4251e70272ff503}
 
-Cartella principale per la cache del sistema di catalogo. Può essere impostato sullo stesso valore di una delle cartelle in `PS::cache.rootPaths`. Prima di modificare questa impostazione, è necessario creare manualmente la cartella.
+Cartella principale per la cache del sistema di catalogo. Può essere impostato sullo stesso di una delle cartelle in `PS::cache.rootPaths`. La cartella deve essere creata manualmente prima di modificare questa impostazione.
 
-## CS::catalog.changeWaitTime - Ritardo analisi file catalogo {#section-7348065bcc124cb68ea947bf1b9b0845}
+## CS::catalog.modificationWaitTime - Ritardo di analisi dei file del catalogo {#section-7348065bcc124cb68ea947bf1b9b0845}
 
-Tempo in msec che il servizio catalogo attende dopo che un file [!DNL catalog.ini] è stato modificato fino a quando non carica i file del catalogo secondario. Questo ritardo garantisce che tutti i file di catalogo secondari siano aggiornati prima che il servizio di catalogo tenti di caricarli. Valore intero in msec.
+Tempo in msec in cui il servizio catalogo attende dopo la modifica di un file [!DNL catalog.ini] fino al caricamento dei file di catalogo secondari. Questo ritardo garantisce che tutti i file di catalogo secondari siano aggiornati prima che il servizio di catalogo tenti di caricarli. Valore intero in msec.
 
-## CS::catalog.refreshInterval - Frequenza controllo file catalogo {#section-517fefc1d8784777a1026abec8630d58}
+## CS::catalog.refreshInterval - Frequenza di controllo del file del catalogo {#section-517fefc1d8784777a1026abec8630d58}
 
-Frequenza con cui il servizio catalogo controllerà la presenza di modifiche ai cataloghi di immagini. Valore intero in msec.
+Frequenza con cui il servizio catalogo verificherà la presenza di modifiche ai cataloghi di immagini. Valore intero in msec.
