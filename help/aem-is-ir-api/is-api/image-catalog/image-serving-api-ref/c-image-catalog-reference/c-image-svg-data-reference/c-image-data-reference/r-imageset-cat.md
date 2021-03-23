@@ -1,12 +1,13 @@
 ---
-description: Dati del set di immagini. Fornisce un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
+description: Dati del set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 2%
 
 ---
@@ -14,15 +15,15 @@ ht-degree: 2%
 
 # Set di immagini{#imageset}
 
-Dati del set di immagini. Fornisce un meccanismo per definire set di immagini ordinati e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
+Dati del set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
 
-Un set di immagini è composto da un elenco di elementi ordinati e separati da virgole, ciascuno dei quali è composto da uno o più elementi secondari (ID immagine, ID campioni, percorsi di file multimediali, etichette ecc.), separati da punti e virgola e/o due punti.
+Un set di immagini è costituito da un elenco ordinato e separato da virgole di elementi, con ogni elemento composto da uno o più elementi secondari (ID immagine, ID campione, percorsi dei file multimediali, etichette, ecc.), separati da punti e virgola e/o due punti.
 
-Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per delimitare alcuni contenuti (ad esempio, valori di colore) o per indicare set nidificati. Le parentesi o le parentesi utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verificherà un errore di analisi del catalogo.
+Le parentesi graffe `{ }` e `( )` possono essere utilizzate per delimitare determinati contenuti (ad esempio i valori di colore) o per indicare set nidificati. Le parentesi o parentesi utilizzate in questo modo non devono essere codificate e devono sempre apparire come coppie corrispondenti, altrimenti si verifica un errore di analisi del catalogo.
 
 >[!NOTE]
 >
->I seguenti caratteri vengono utilizzati come delimitatori di set e devono essere codificati per HTTP quando compaiono nel set come parte di valori id o stringa:
+>I seguenti caratteri vengono utilizzati come delimitatori impostati e devono essere codificati in HTTP quando compaiono nel set come parte dei valori id o stringa:
 >
 >* `,`
 >* `;`
@@ -34,17 +35,17 @@ Le parentesi graffe `{ }` e le parentesi `( )` possono essere utilizzate per del
 
 
 
-Per ulteriori informazioni sulla struttura e l’utilizzo dei set di immagini, consultate la documentazione dei visualizzatori Image Server.
+Per ulteriori informazioni sulla struttura e sull’utilizzo dei set di immagini, consulta la documentazione Image Serving Viewers .
 
 Il server restituisce il contenuto di questo campo senza modifiche in risposta a una richiesta `req=imageset`.
 
 ## Set standard {#section-5ecc8ffee7224668b63f601383665564}
 
-Le seguenti definizioni di set sono supportate in modo nativo da Image Server e l’accesso con alcuni visualizzatori richiede l’analisi, la convalida e l’elaborazione lato server del set. Ogni tipo di set può essere identificato specificando il valore corrispondente in `catalog::AssetType`.
+Le seguenti definizioni di set sono supportate in modo nativo da Image Serving e l&#39;accesso con alcuni visualizzatori prevede l&#39;analisi, la convalida e l&#39;elaborazione lato server del set. Ogni tipo di set può essere identificato specificando il valore corrispondente in `catalog::AssetType`.
 
 **Set di campioni di base**
 
-Ogni elemento in un set di campioni di base è costituito da un riferimento a un record di immagine e da un riferimento separato facoltativo a un record di immagine utilizzato come campione.
+Ogni elemento di un set di campioni di base è costituito da un riferimento a un record di immagine e da un riferimento separato facoltativo a un record di immagine utilizzato come campione.
 
 | `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemSwatchItem`*]` |
 |---|---|
@@ -52,15 +53,15 @@ Ogni elemento in un set di campioni di base è costituito da un riferimento a un
 | `*`campione`*` | `*`swatchId`*|solidColorSpecifier` |
 | `*`imageId`*` | Riferimento immagine IS (catalog/id) |
 | `*`swatchId`*` | Riferimento immagine IS (catalog/id) |
-| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rgbblabel`*]'}'` |
-| `*`rggbb`*` | Valore del colore RGB esadecimale a 6 cifre per i campioni in tinta unita |
-| `*`label`*` | Etichetta di testo opzionale per i campioni in tinta unita |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rgbblable`*]'}'` |
+| `*`rggbb`*` | Valore di colore RGB esadecimale a 6 cifre per i campioni di colore a tinta unita |
+| `*`label`*` | Etichetta di testo opzionale per i campioni a colori pieni |
 
 **Set di campioni gerarchici**
 
-Ogni elemento di un set di campioni gerarchico può essere costituito da un elemento campione di base o da un riferimento a un record di set di campioni (per tali elementi sono necessari dei campioni).
+Ogni elemento in un set di campioni gerarchico può essere costituito da un elemento campione di base o da un riferimento a un record set di campioni (per tali elementi sono necessari campioni).
 
-| `*`hierarchySwatchSet`*` | `*``* &#42;[ ',' *`gerarchicoSwatchItemgerarchicoSwatchItem`* ]` |
+| `*`hierarchySwatchSet`*` | `*``* &#42;[ ',' *`hierarchySwatchItemHierarchicalSwatchItem`* ]` |
 |---|---|
 | `*`hierarchySwatchItem`*` | `*``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
 | `*`basicSwatchSetId`*` | Riferimento IS (catalogo/id) a un record di catalogo che definisce un set di campioni di base |
@@ -71,18 +72,18 @@ Un set 360 gradi di base è costituito da un semplice elenco di ID immagine.
 
 *`basicSpinSet imageId`*  *`[ ';'`  *`imageId`* `]`
 
-**Set 360 gradi bidimensionali**
+**Set 360 gradi a due dimensioni**
 
-Ogni elemento in un set 360 gradi bidimensionale può essere costituito da un’immagine semplice, un riferimento a un set 360 gradi di base o un set 360 gradi di base in linea delimitato da parentesi graffe. È possibile utilizzare le parentesi al posto delle parentesi graffe.
+Ogni elemento di un set 360 gradi bidimensionale può essere costituito da un’immagine semplice, un riferimento a un set 360 gradi di base o un set 360 gradi di base in linea delimitato da parentesi graffe. Le parentesi possono essere utilizzate al posto delle parentesi graffe.
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetSpinSetId`*` |
 | `*`basicSpinSetId`*` | Riferimento IS (catalogo/id) a un record di catalogo che definisce un set 360 gradi di base |
 
 **Set di pagine**
 
-Ogni elemento in un set di pagine può essere costituito da un massimo di tre immagini di pagina separate da due punti.
+Ogni elemento di un set di pagine può essere costituito da un massimo di tre immagini di pagina separate da due punti.
 
 | `*`pageSet`*` | `*``* &#42;[ , *`pageItemItem`* ]` |
 |---|---|
@@ -90,40 +91,40 @@ Ogni elemento in un set di pagine può essere costituito da un massimo di tre im
 
 **Set di file multimediali**
 
-Ogni elemento di un set di file multimediali può essere costituito da un’immagine, un set di campioni di base, un set di campioni gerarchico, un set 360 gradi di base, un set 360 gradi bidimensionale, un set di pagine o una risorsa video. Ogni elemento del set di file multimediali può contenere anche un identificatore di campioni e di tipi opzionale.
+Ogni elemento di un set di file multimediali può essere costituito da un’immagine, un set di campioni di base, un set di campioni gerarchico, un set 360 gradi di base, un set 360 gradi bidimensionale, un set di pagine o una risorsa video. Ogni elemento del set di file multimediali può anche contenere un campione e un identificatore di tipo facoltativi.
 
-| `*`mediaSet`*` | `*``* &#42;[ , *`item`* ]` |
+| `*`mediaSet`*` | `*``* &#42;[ , *`elemento`* ]` |
 |---|---|
-| `*`item`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRemixItemsetItemIDReserved`* ] ] ]` |
+| `*`item`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemRipristinaItemItemsetItemIDreserve`* ] ] ]` |
 | `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
-| `*`remixItem`*` | `*``* ; *`recutswatchId`*` |
-| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`RecuperaElemento`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdentityId`* ]` |
 | `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
 | `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
 | `*`swatchId`*` | ID immagine IS |
-| `*`video`*` | Percorso file video/animazione o ID catalogo statico |
-| `*`remix`*` | Percorso del file XML della definizione del remix o ID del catalogo statico |
+| `*`video`*` | Percorso file video/animazione o id catalogo statico |
+| `*`ricuperare`*` | Percorso del file XML di definizione del file o ID del catalogo statico |
 | `*`imageId`*` | ID immagine IS |
-| `*`setId`*` | Riferimento IS a immagine, set 360 gradi o set di cataloghi |
-| `*`inlineSet`*` | Set di immagini, set 360 gradi o eCatalog in linea |
+| `*`setId`*` | Riferimento IS a un set di immagini, spin o ecatalog |
+| `*`inlineSet`*` | Set di immagini, spin o ecatalog in linea |
 | `*`riservato`*` | Riservato per uso futuro |
 
 **Set video**
 
-Un set video consiste in un semplice elenco di ID video in cui ogni ID fa riferimento a una voce nel catalogo dei contenuti statici.
+Un set video è costituito da un semplice elenco di id video in cui ogni id fa riferimento a una voce nel catalogo dei contenuti statici.
 
 *`videoSet videoId`*  *`[ ,`  *`videoId`* `]`
 
 ## Proprietà {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Stringa di testo. Elenco separato da virgole di valori `catalog::Id`, percorsi di file assoluto del server immagini o percorsi di file relativi a `attribute::RootPath`. È possibile fare riferimento più volte alla stessa immagine nel set. Il record del catalogo di definizione può essere visualizzato nel set in qualsiasi posizione.
+Stringa di testo. Elenco separato da virgole di valori `catalog::Id`, percorsi di file Image Server assoluti o percorsi di file relativi a `attribute::RootPath`. È possibile fare riferimento alla stessa immagine più di una volta nel set. Il record del catalogo di definizione può essere visualizzato nel set in qualsiasi posizione.
 
-Questo campo partecipa alla localizzazione delle stringhe di testo. Oltre alle stringhe *`label`* (parte di *`solidColorSpecifier`*), tutti i campi delimitati sono localizzati se includono almeno un token di localizzazione &#39; `^loc=…^`&#39;. Per ulteriori informazioni, consultare [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in *HTTP Protocol Reference*.
+Questo campo partecipa alla localizzazione delle stringhe di testo. Oltre alle stringhe *`label`* (parte di *`solidColorSpecifier`*), tutti i campi delimitati vengono localizzati se includono almeno un token di localizzazione &#39; `^loc=…^`&#39;. Per ulteriori informazioni, consulta [Localizzazione delle stringhe di testo](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in *Riferimento al protocollo HTTP* .
 
 ## Predefinito {#section-c3a60e360393478284f0f2d2da5b963b}
 
 Nessuno.
 
-## Vedere anche {#section-4c99c44f99074aa0a4ed90ba183bbc25}
+## Vedere Anche {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), traduzione [ ID ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) oggetto, localizzazione [ delle stringhe di ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo, documentazione dei visualizzatori Image Server
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), traduzione [ ID ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) oggetto, localizzazione [ stringa di ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo, documentazione dei visualizzatori Image Server
