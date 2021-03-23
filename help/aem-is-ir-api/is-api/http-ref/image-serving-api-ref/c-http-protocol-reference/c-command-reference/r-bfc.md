@@ -1,15 +1,16 @@
 ---
-description: Conversione formato browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
-seo-description: Conversione formato browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
+description: Conversione del formato del browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
+seo-description: Conversione del formato del browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
 seo-title: bfc
 solution: Experience Manager
 title: bfc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 4%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 4%
 
 # bfc{#bfc}
 
-Conversione formato browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
+Conversione del formato del browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
 
 `bfc=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
-  <td class="stentry"> <p>Specifica se la funzionalità di conversione del formato del browser che converte le immagini JPEG o PNG in formati di file specifici per il browser più piccoli è true ( <span class="codeph"> in </span>) o false ( <span class="codeph"> in </span> in assenza di conversione del formato specifica per il browser). </p> </td> 
+  <td class="stentry"> <p>Specifica se la funzionalità di conversione del formato del browser, che converte le immagini JPEG o PNG in formati di file specifici del browser più piccoli, è true ( <span class="codeph"> in </span>) o false ( <span class="codeph"> off </span> per nessuna conversione del formato specifica del browser). </p> </td> 
  </tr> 
 </table>
 
 ## Proprietà {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
-Attributo di richiesta. Non ha effetto se non viene richiesto un file JPEG o PNG.
+Attributo di richiesta. Non ha effetto se non si richiede un file JPEG o PNG.
 
 ## Predefinito {#section-ecc2385ed8c0408cbab3f5cf9c079dad}
 
