@@ -2,13 +2,14 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-topic: Dynamic Media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 8%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Impostate questa opzione su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare le pagine affiancate come una pagina separata se utilizzato su un dispositivo mobile con orientamento verticale. Impostate questa opzione su <span class="codeph"> solid</span> per visualizzare sempre le pagine affiancate come immagini in tinta unita, indipendentemente dall'orientamento del dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diviso|solido</span> </p> </td> 
+   <td colname="col2"> <p>Impostato su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare gli spread a pagina doppia come una pagina separata quando viene utilizzato sul dispositivo mobile con orientamento verticale. Impostato su <span class="codeph"> solid</span> per visualizzare sempre gli spread a pagina doppia come immagine solida, indipendentemente dall'orientamento del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
