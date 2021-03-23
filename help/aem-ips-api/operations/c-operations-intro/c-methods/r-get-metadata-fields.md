@@ -1,23 +1,24 @@
 ---
-description: Ottiene i campi di metadati definiti dall’utente associati a una risorsa.
-seo-description: Ottiene i campi di metadati definiti dall’utente associati a una risorsa.
+description: Ottiene i campi di metadati definiti dall'utente associati a una risorsa.
+seo-description: Ottiene i campi di metadati definiti dall'utente associati a una risorsa.
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
+feature: Dynamic Media Classic, SDK/API, Metadati
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 12%
+source-wordcount: '113'
+ht-degree: 11%
 
 ---
 
 
 # getMetadataFields{#getmetadatafields}
 
-Ottiene i campi di metadati definiti dall’utente associati a una risorsa.
+Ottiene i campi di metadati definiti dall&#39;utente associati a una risorsa.
 
 Sintassi
 
@@ -44,11 +45,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`Frase codice`*` | `Code Phrase` |  |  |
+| `*`Frase di codice`*` | `Code Phrase` |  |  |
 
 ## Esempi {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Questo esempio di codice restituisce le risorse di metadati per il tipo e la società specificati. La risposta contiene un array di campi di metadati in un array di campi. Non tutte le risorse hanno gli stessi metadati. L&#39;utente IPS definisce il campo di metadati della risorsa.
+Questo esempio di codice restituisce le risorse di metadati per il tipo e la società specificati. La risposta contiene un array di campi di metadati in una matrice di campi. Non tutte le risorse hanno gli stessi metadati. L’utente IPS definisce il campo metadati della risorsa.
 
 **Request Contents (Richiesta contenuto)**
 
