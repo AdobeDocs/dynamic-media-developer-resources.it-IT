@@ -1,24 +1,25 @@
 ---
-description: Il rendering delle immagini è configurato con il fileinstall_folder/conf/ImageRendering.conf.
-seo-description: Il rendering delle immagini è configurato con il fileinstall_folder/conf/ImageRendering.conf.
+description: Image Rendering è configurato con fileinstall_folder/conf/ImageRendering.conf.
+seo-description: Image Rendering è configurato con fileinstall_folder/conf/ImageRendering.conf.
 seo-title: Configurazione e configurazione del rendering delle immagini
 solution: Experience Manager
 title: Configurazione e configurazione del rendering delle immagini
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ce76282d-d942-4378-b083-41c95ba97980
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 
-# Configurazione e configurazione del rendering delle immagini{#setup-and-configure-image-rendering}
+# Configurare e configurare Image Rendering{#setup-and-configure-image-rendering}
 
-Il rendering delle immagini è configurato con il fileinstall_folder/conf/ImageRendering.conf.
+Image Rendering è configurato con fileinstall_folder/conf/ImageRendering.conf.
 
-Per ulteriori informazioni, consulta la sezione Configurazione della documentazione. Solo in Windows, è possibile accedere a questo file anche dal menu Start: **[!UICONTROL menu Start]** > **[!UICONTROL Programmi]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifica file di configurazione del rendering delle immagini]**.
+Per ulteriori informazioni, consulta la sezione Configurazione della documentazione . Solo per Windows, è possibile accedere a questo file anche dal menu di avvio: **[!UICONTROL Menu Start]** > **[!UICONTROL Programmi]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifica file di configurazione del rendering delle immagini]**.
 
-Per arrestare e avviare il rendering delle immagini, consultate la documentazione di Image Server. Il rendering delle immagini non può essere interrotto separatamente o avviato da Image Server.
+Per interrompere e avviare il rendering delle immagini, consulta la documentazione di Image Serving . Il rendering dell&#39;immagine non può essere arrestato separatamente o avviato da Image Serving.
