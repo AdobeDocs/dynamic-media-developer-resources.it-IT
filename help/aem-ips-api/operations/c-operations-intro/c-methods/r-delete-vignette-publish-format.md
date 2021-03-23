@@ -1,23 +1,24 @@
 ---
-description: Elimina un formato di pubblicazione di vignettatura.
-seo-description: Elimina un formato di pubblicazione di vignettatura.
+description: Elimina un formato di pubblicazione della vignetta.
+seo-description: Elimina un formato di pubblicazione della vignetta.
 seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 12%
+source-wordcount: '88'
+ht-degree: 11%
 
 ---
 
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-Elimina un formato di pubblicazione di vignettatura.
+Elimina un formato di pubblicazione della vignetta.
 
 ## Tipi di utenti autorizzati {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
@@ -32,8 +33,8 @@ Elimina un formato di pubblicazione di vignettatura.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società alla quale appartiene la vignettatura. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | Sì | L’handle del formato di pubblicazione della vignettatura da eliminare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;impugnatura dell&#39;azienda alla quale appartiene la vignetta. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Sì | L&#39;handle del formato di pubblicazione della vignetta da eliminare. |
 
 **Output (deleteVignettePublishFormatParam)**
 
@@ -41,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Questo esempio di codice elimina un formato di pubblicazione della vignettatura specificato dalla relativa maniglia.
+Questo esempio di codice elimina un formato di pubblicazione della vignetta specificato dal relativo handle.
 
 **Request Contents (Richiesta contenuto)**
 
