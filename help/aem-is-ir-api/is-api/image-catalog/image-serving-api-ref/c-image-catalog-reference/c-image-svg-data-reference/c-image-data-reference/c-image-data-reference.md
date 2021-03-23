@@ -4,13 +4,14 @@ seo-description: Questa sezione descrive gli attributi dei dati immagine.
 seo-title: Riferimento dati immagine
 solution: Experience Manager
 title: Riferimento dati immagine
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 20%
+source-wordcount: '58'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +31,7 @@ Questa sezione descrive gli attributi dei dati immagine.
 * [Modificatore](r-modifier-cat.md)
 * [Percorso](r-path-cat.md)
 * [PostModifier](r-postmodifier-cat.md)
-* [PrintResolution](r-printresolution-cat.md)
+* [StampaRisoluzione](r-printresolution-cat.md)
 * [Risoluzione](r-resolution-cat.md)
 * [Dimensione](r-size-cat.md)
 * [Destinazioni](r-targets-cat.md)
@@ -38,4 +39,4 @@ Questa sezione descrive gli attributi dei dati immagine.
 * [ThumbType](r-thumbtype-cat.md)
 * [TimeStamp](r-timestamp-cat.md)
 * [Dati utente](r-userdata-cat.md)
-* [UserType](r-usertype-cat.md)
+* [TipoUtente](r-usertype-cat.md)
