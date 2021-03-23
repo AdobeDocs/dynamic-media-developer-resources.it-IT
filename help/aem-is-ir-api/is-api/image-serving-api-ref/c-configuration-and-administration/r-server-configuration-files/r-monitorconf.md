@@ -1,15 +1,16 @@
 ---
-description: Contiene le impostazioni per il sistema di monitoraggio/allarme.
-seo-description: Contiene le impostazioni per il sistema di monitoraggio/allarme.
+description: Contiene le impostazioni per il sistema di monitoraggio/avviso.
+seo-description: Contiene le impostazioni per il sistema di monitoraggio/avviso.
 seo-title: monitor.conf
 solution: Experience Manager
 title: monitor.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31949797-df2c-4b7c-841b-4c623299a228
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # monitor.conf{#monitor-conf}
 
-Contiene le impostazioni per il sistema di monitoraggio/allarme.
+Contiene le impostazioni per il sistema di monitoraggio/avviso.
 
-Questo file è un file di proprietà JAVA. Occorre fare attenzione a seguire le convenzioni appropriate; in caso contrario, il server della piattaforma potrebbe non avviarsi. In particolare, nei percorsi dei file Windows deve essere utilizzata una doppia barra rovesciata &#39;\\&#39; o una singola barra rovesciata &#39;/&#39;, invece di una barra rovesciata &#39;\&#39;, poiché la barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
+Questo file è un file di proprietà JAVA. Si deve fare attenzione a seguire le convenzioni appropriate; in caso contrario, l&#39;avvio del server Platform potrebbe non riuscire. In particolare, è necessario utilizzare una barra rovesciata doppia &#39;\\&#39; o una singola barra rovesciata &#39;/&#39; invece di una barra rovesciata &#39;\&#39; nei percorsi dei file Windows, poiché la barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
 
 Le modifiche a questo file hanno effetto poco dopo il salvataggio del file.
 
