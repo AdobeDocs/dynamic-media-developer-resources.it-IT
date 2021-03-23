@@ -4,12 +4,13 @@ seo-description: Il numero del livello determina anche l’ordine z.
 seo-title: Ordine dei livelli
 solution: Experience Manager
 title: Ordine dei livelli
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -19,4 +20,4 @@ ht-degree: 0%
 
 Il numero del livello determina anche l’ordine z.
 
-Il livello 0 (il livello di sfondo) è obbligatorio; gli altri numeri dei livelli non devono essere consecutivi e verranno disegnati sopra al livello di sfondo, in ordine crescente di numero del livello. Il livello con il numero di livello più alto viene rappresentato sopra e non viene mai incluso da altri livelli.
+È necessario il livello 0 (il livello di sfondo); altri numeri di livello non devono essere consecutivi e saranno disegnati sopra il livello di sfondo, in ordine di numero di livello ascendente. Il livello con il numero di livelli più alto viene rappresentato in alto e non viene mai bloccato da altri livelli.
