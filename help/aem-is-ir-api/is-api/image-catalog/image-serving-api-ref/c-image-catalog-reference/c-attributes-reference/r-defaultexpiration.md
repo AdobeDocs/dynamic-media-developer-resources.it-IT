@@ -1,15 +1,16 @@
 ---
-description: TTL cache client per le risposte immagine predefinite. Fornisce l’intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un’immagine predefinita specificata con defaultImage= o attribute DefaultImage).
-seo-description: TTL cache client per le risposte immagine predefinite. Fornisce l’intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un’immagine predefinita specificata con defaultImage= o attribute DefaultImage).
-seo-title: DefaultExpiration
+description: TTL della cache client per le risposte immagine predefinite. Fornisce l'intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un'immagine predefinita specificata con defaultImage= o attributo DefaultImage).
+seo-description: TTL della cache client per le risposte immagine predefinite. Fornisce l'intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un'immagine predefinita specificata con defaultImage= o attributo DefaultImage).
+seo-title: ScadenzaPredefinita
 solution: Experience Manager
-title: DefaultExpiration
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ScadenzaPredefinita
 uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 2%
 
 # DefaultExpiration{#defaultexpiration}
 
-TTL cache client per le risposte immagine predefinite. Fornisce l’intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un’immagine predefinita specificata con defaultImage= o attribute::DefaultImage).
+TTL della cache client per le risposte immagine predefinite. Fornisce l&#39;intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un&#39;immagine predefinita specificata con defaultImage= o attribute::DefaultImage).
 
-Applicata solo quando l&#39;immagine predefinita non è associata a un record catalogo o quando il record catalogo immagini predefinito non fornisce un valore specifico `catalog::Expiration`.
+Applicato solo quando l&#39;immagine predefinita non è associata a un record di catalogo o quando il record di catalogo immagini predefinito non fornisce un valore specifico `catalog::Expiration`.
 
 ## Proprietà {#section-e564512476604fd7b964f9f2903d6d33}
 
-Numero reale, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dei dati di risposta. Impostate su 0 per scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita il caching client per le risposte immagine predefinite. Impostare su `-1` per contrassegnare come `never expire`.
+Numero reale, 0 o superiore. Numero di ore fino alla scadenza dalla generazione dei dati di risposta. Imposta su 0 per far scadere sempre l&#39;immagine di risposta immediatamente, il che disabilita in modo efficace la memorizzazione in cache del client per le risposte alle immagini predefinite. Impostare su `-1` per contrassegnare come `never expire`.
 
 ## Predefinito {#section-131cd32c2e214391857dba5af321f8cd}
 
 Ereditato da `default::DefaultExpiration` se non definito o se vuoto.
 
-TTL (Time-To-Live) è la durata prima della scadenza della cache. Il valore predefinito TTL è 1 ora.
+TTL (Time-to-Live) è la durata prima della scadenza della cache. Il TTL predefinito è 1 ora.
 
 ## Consultate anche {#section-d8642c22e3d947129367dd76366963d6}
 
