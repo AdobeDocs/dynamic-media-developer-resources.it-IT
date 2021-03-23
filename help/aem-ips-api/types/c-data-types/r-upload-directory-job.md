@@ -4,12 +4,13 @@ seo-description: Carica i file dalle directory del server specificate su base pe
 seo-title: UploadDirectoryJob
 solution: Experience Manager
 title: UploadDirectoryJob
-topic: Dynamic Media Image Production System API
 uuid: 6e6ae415-7c54-4bbb-aa98-ff9a77d956b0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -34,8 +35,8 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:AutoColorOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni di ritaglio automatico delle immagini (basate sul colore). </p> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:OpzioniColoreAutomatico</span> </td> 
+   <td colname="col3"> <p>Opzioni di ritaglio automatico delle immagini (in base al colore). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
@@ -50,12 +51,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ColorManagementOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che potete specificare durante un caricamento. Il set influisce sulla modalità di gestione del colore per il caricamento. </p> </td> 
+   <td colname="col3"> <p>Opzioni che puoi specificare durante un caricamento. Il set influisce sulla modalità di gestione del colore per il caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Specifica se creare una maschera durante il caricamento. </p> </td> 
+   <td colname="col3"> <p>Se creare una maschera durante il caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
@@ -70,22 +71,22 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:IllustratorOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare  file Illustrator nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file Illustrator nel server di immagini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSottocartelle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Specifica se includere sottocartelle durante il caricamento. </p> </td> 
+   <td colname="col3"> <p>Indica se includere le sottocartelle durante il caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:InDesignOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare  file InDesign sul server. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file InDesign sul server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>Mascherare lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza all’esterno dell’immagine oggetto. </p> <p>Facoltativo. </p> <p>Vedere <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedere <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -95,22 +96,22 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura del video. </p> <p>Consulta <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sovrascrivere</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Opzioni di sovrascrittura caricamento file. </p> </td> 
+   <td colname="col3"> <p>Opzioni di sovrascrittura del caricamento del file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PDFOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare file PDF nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file PDF nel server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare file Photoshop nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file Photoshop nel server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -120,32 +121,32 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageRendingPublishJob</span> </td> 
-   <td colname="col3"> <p>Dettagli per un processo di pubblicazione di rendering immagine che viene eseguito al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli per un processo di pubblicazione di rendering delle immagini eseguito al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> <p>Dettagli per un processo di pubblicazione di Image Server eseguito al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli per un processo di pubblicazione di image serving che viene eseguito dopo il completamento del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Indica se caricare solo i file. </p> </td> 
+   <td colname="col3"> <p>Se caricare solo i file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PostScriptOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni per caricare i file PostScript nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per il caricamento di file Post Script nel server di immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:VideoPublishJob</span> </td> 
-   <td colname="col3"> <p>Dettagli per un processo di pubblicazione video eseguito al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli per un processo di pubblicazione video che viene eseguito al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Controlla la conservazione di eventuali definizioni di ritaglio esistenti. Il valore predefinito è true. </p> </td> 
+   <td colname="col3"> <p>Controlla la conservazione di qualsiasi definizione di coltura esistente. Predefinito su true. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -174,31 +175,31 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:AnnullaCompressOptions</span> </td> 
-   <td colname="col3"> <p>Estrarre ed elaborare il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:DecomprimiOpzioni</span> </td> 
+   <td colname="col3"> <p>Estrai ed elabora il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni di maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Usate queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> unSharpMaskOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:UnSharpMaskOptions</span> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni della maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Utilizza queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Consulta <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnSharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Un’ulteriore opzione di metadati per tutti gli elementi del processo di caricamento </p> </td> 
+   <td colname="col3"> <p>Opzione di metadati aggiuntiva per tutti gli elementi del processo di caricamento </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Note {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Per `CropOptions`, potete scegliere solo una delle opzioni seguenti:
+Per `CropOptions`, puoi scegliere solo una delle seguenti opzioni:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Per `PublishJob`, potete scegliere solo una delle opzioni seguenti:
+Per `PublishJob`, puoi scegliere solo una delle seguenti opzioni:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
