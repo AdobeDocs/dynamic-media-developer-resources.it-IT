@@ -4,12 +4,13 @@ seo-description: Tipo di richiesta. Specifica il tipo di richiesta.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c8ff9c3-9f39-46a8-bd38-8e0c5ab0f548
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -31,19 +32,19 @@ Tipo di richiesta. Specifica il tipo di richiesta.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> validate</span> </p> </td> 
-   <td colname="col2"> <p> Restituisce eventuali errori durante il rendering del file fxg con i modificatori url forniti. </p> </td> 
+   <td colname="col2"> <p> Restituisce eventuali errori durante il rendering della fxg con i modificatori url forniti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contents</span> </p> </td> 
-   <td colname="col2"> <p> Restituisce l'elenco xml di tutti gli elementi con un valore attributo <span class="codeph"> s7:element</span> e un elenco di tutte le pagine del documento fxg. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sommario</span> </p> </td> 
+   <td colname="col2"> <p> Restituisce l'elenco xml di tutti gli elementi con un valore di attributo <span class="codeph"> s7:element</span> e un elenco di tutte le pagine del documento fxg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> overversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Restituisce un elenco XML di cui gli elementi <span class="codeph"> &lt;RichText/&gt;</span> sono ignorati. </p> <p>Restituisce un elenco xml di elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> che vengono impostati per l'elaborazione sul lato client. Verranno restituiti solo gli elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> che sono stati impostati come non inseriti. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> elementidis un  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> attributo obbligatorio quando si utilizza  <span class="+ topic/ph pr-d/codeph codeph"> req=overetstatus</span>. Non vengono elencati tutti gli elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> non inseriti in un overset senza <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>. Ogni elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> dell'elenco ha il <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> e il rettangolo di selezione della cornice di testo non inserita. L'attributo <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indica l'indice di testo nel brano fino al quale il testo è stato adattato alla cornice. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatussi applica solo agli  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi nel file FXG richiesto. Non elenca gli elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> di qualsiasi FXG incorporato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
+   <td colname="col2"> <p>Restituisce un elenco XML di cui gli elementi <span class="codeph"> &lt;RichText/&gt;</span> sono sovraimpostati. </p> <p>Restituisce un elenco xml di elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> che vengono impostati per l'elaborazione sul lato client. Verranno restituiti solo gli elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> che sono stati superati. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> elementidis un  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> attributo obbligatorio quando si utilizza  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Non sono elencati gli elementi sovraimpostati <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> senza <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>. Ogni elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> dell’elenco ha il <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> e il riquadro di delimitazione della cornice di testo non impostata. L'attributo <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indica l'indice di testo nel brano fino al quale il testo è stato in grado di adattarsi alla cornice. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatusonly si applica agli  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi nell'FXG richiesto. Non elencherà alcun elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> da alcun FXG incorporato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> exists</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,testo|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificatore univoco della richiesta reqId </p> <p>Restituisce una singola proprietà denominata catalogRecord.exists. Il valore della proprietà è impostato su "1" se la voce di catalogo specificata esiste nel catalogo predefinito o dell'immagine, altrimenti è impostata su "0". le richieste req=exists rispetto al contesto /is/content indicheranno la presenza o l'assenza di un record specificato nel catalogo dei contenuti statici. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> esiste</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificatore univoco della richiesta reqId </p> <p>Restituisce una singola proprietà denominata catalogRecord.exists. Il valore della proprietà è impostato su "1" se la voce di catalogo specificata esiste nell'immagine o nel catalogo predefinito, altrimenti è impostata su "0". le richieste req=exists rispetto al contesto /is/content indicheranno la presenza o l'assenza di un record specificato nel catalogo dei contenuti statici. </p> </td> 
   </tr> 
  </tbody> 
 </table>
