@@ -1,25 +1,26 @@
 ---
-description: Crea un’immagine a più livelli con più livelli di testo e immagine.
-seo-description: Crea un’immagine a più livelli con più livelli di testo e immagine.
+description: Crea un’immagine a livelli che può avere più livelli di testo e immagine.
+seo-description: Crea un’immagine a livelli che può avere più livelli di testo e immagine.
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 9%
+source-wordcount: '212'
+ht-degree: 8%
 
 ---
 
 
 # createTemplate{#createtemplate}
 
-Crea un’immagine a più livelli con più livelli di testo e immagine.
+Crea un’immagine a livelli che può avere più livelli di testo e immagine.
 
-Il parametro `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima dei comandi forniti dall’utente nell’URL. Il parametro `urlPostApplyModifier` specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni fornite dall&#39;utente in conflitto.
+Il parametro `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il parametro `urlPostApplyModifier` specifica i comandi del protocollo applicati dopo eventuali comandi URL, che sovrascriveranno eventuali impostazioni in conflitto fornite dall&#39;utente.
 
 ## Tipi di utenti autorizzati {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -35,22 +36,22 @@ Il parametro `urlModifier` specifica i comandi del protocollo Image Server memor
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | La società a cui appartiene il modello. |
-| `*`folderHandle`*` | `xsd:string` | Sì | handle della cartella che rappresenta la cartella in cui risiede il modello. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Società a cui appartiene il modello. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L&#39;handle di cartella che rappresenta la cartella in cui si trova il modello. |
 | `*`name`*` | `xsd:string` | Sì | Nome del modello. |
 | `*`type`*` | `xsd:string` | Sì | Tipo di modello. |
-| `*`urlModifier`*` | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall’utente sull’URL. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Specifica i comandi del protocollo applicati dopo eventuali comandi URL, che ignoreranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
+| `*`urlModifier`*` | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Specifica i comandi di protocollo applicati dopo eventuali comandi URL, che sostituiranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
 
 **Output (createTemplateParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del modello. |
+| `*`assetHandle`*` | `xsd:string` | Sì | L&#39;handle del modello. |
 
 ## Esempi {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome `APIcreateTemplate`, un `urlModifier` e un `urlPostApplyModifier`. La risposta restituisce l’handle al modello appena creato.
+Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome `APIcreateTemplate`, un `urlModifier` e un `urlPostApplyModifier`. La risposta restituisce l&#39;handle al modello appena creato.
 
 **Request Contents (Richiesta contenuto)**
 
