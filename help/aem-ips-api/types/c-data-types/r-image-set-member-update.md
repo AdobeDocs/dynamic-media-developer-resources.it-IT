@@ -1,15 +1,16 @@
 ---
-description: 'All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse RenderSet e Catalog '
-seo-description: 'All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse RenderSet e Catalog '
+description: 'All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog '
+seo-description: 'All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog '
 seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
-topic: Dynamic Media Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
+feature: Dynamic Media Classic, SDK/API, Set di immagini
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse di immagine RenderSet e Catalog:
+All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog:
 
-* Per `RenderSet`, `pageReset` indica l&#39;inizio di un nuovo gruppo di viste/campioni di rendering.
+* Per `RenderSet`, `pageReset` indica l&#39;inizio di un nuovo gruppo di visualizzazione/campioni di rendering.
 
-* Per Catalogo, `pageReset` indica l&#39;inizio di una nuova visualizzazione di pagina. In genere, ci sono 2 immagini di pagina per visualizzazione pagina, ma è possibile avere più o meno.
+* Per Catalogo, `pageReset` indica l’inizio di una nuova visualizzazione di pagina. In genere, ci sono 2 immagini di pagina per visualizzazione di pagina, ma è possibile avere più o meno.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -37,7 +38,7 @@ All’interno di questo tipo, il campo pageReset è significativo per i tipi di 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle risorsa nell’array di membri del set di immagini. </td> 
+   <td colname="col3"> Handle di risorsa nell’array di membri del set di immagini. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
