@@ -1,15 +1,16 @@
 ---
-description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
-seo-description: Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
-seo-title: Punti attivi e mappe immagine
+description: Il visualizzatore visualizza le icone dei punti attivi sopra la visualizzazione principale nei luoghi in cui i punti attivi sono stati originariamente creati in Dynamic Media di AEM Assets - on-demand.
+seo-description: Il visualizzatore visualizza le icone dei punti attivi sopra la visualizzazione principale nei luoghi in cui i punti attivi sono stati originariamente creati in Dynamic Media di AEM Assets - on-demand.
+seo-title: Hotspot e mappe immagine
 solution: Experience Manager
-title: Punti attivi e mappe immagine
-topic: Dynamic Media
+title: Hotspot e mappe immagine
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Punti attivi e mappe immagine{#hotspots-and-image-maps}
 
-Il visualizzatore visualizza le icone dei punti attivi sopra la vista principale, nei punti in cui i punti attivi erano originariamente creati in Dynamic Media di  AEM Assets - su richiesta.
+Il visualizzatore visualizza le icone dei punti attivi sopra la visualizzazione principale nei luoghi in cui i punti attivi sono stati originariamente creati in Dynamic Media di AEM Assets - on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;icona del punto di attivazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’icona del punto attivo è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7icon
@@ -38,25 +39,25 @@ L&#39;aspetto dell&#39;icona del punto di attivazione è controllato dal seguent
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Grafica dell'icona del punto di attivazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Immagine icona punto attivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>Posizionarsi all'interno dello sprite della grafica, se vengono utilizzati gli spriti CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Posizionare all’interno dello sprite dell’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza icona punto di attivazione. </p> </td> 
+   <td colname="col2"> <p>Larghezza icona punto attivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza icona punto di attivazione. </p> </td> 
+   <td colname="col2"> <p>Altezza icona punto attivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: impostate un’icona di un punto attivo da 56x56 pixel che mostra un’immagine diversa per ciascuno dei due stati di icona:
+Esempio : imposta un’icona punto attivo da 56 x 56 pixel che mostra un’immagine diversa per ciascuno dei due stati dell’icona:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -71,9 +72,9 @@ Esempio: impostate un’icona di un punto attivo da 56x56 pixel che mostra un’
 
 <!--<a id="section_26D0B8444D1F42D493793FF54968C0B9"></a>-->
 
-**Proprietà CSS dell&#39;area della mappa immagine**
+**Proprietà CSS dell’area mappa immagine**
 
-L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area della mappa immagine è controllato con il seguente selettore di classe CSS:
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
@@ -86,21 +87,21 @@ L&#39;aspetto dell&#39;area della mappa immagine è controllato dal seguente sel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di riempimento area mappa immagine. </p> <p>Specificare questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di riempimento area mappa immagine </p> <p>Specificate questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col2"> <p>Colore di riempimento area mappa immagine. </p> <p>Specificare questo colore nei formati <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Stile del bordo della mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore in tinta unita </span>", dove <span class="codeph"> larghezza </span> è espressa in pixel, e <span class="codeph"> colore </span> è impostato come <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> oppure <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Stile del bordo della regione mappa immagine. Deve essere specificato come " <span class="codeph"> larghezza </span> <span class="codeph"> colore solido </span>", dove <span class="codeph"> larghezza </span> è espressa in pixel, e <span class="codeph"> colore </span> è impostato come <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: imposta un&#39;area di mappa immagine trasparente con un bordo nero di un pixel:
+Esempio: imposta un&#39;area mappa immagine trasparente con un bordo nero da un pixel:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 
