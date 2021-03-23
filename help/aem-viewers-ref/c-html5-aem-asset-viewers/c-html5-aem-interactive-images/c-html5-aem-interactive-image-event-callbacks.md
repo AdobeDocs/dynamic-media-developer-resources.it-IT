@@ -1,13 +1,14 @@
 ---
-description: Callback evento
+description: Callback degli eventi
 solution: Experience Manager
-title: Callback evento
-topic: Dynamic Media
+title: Callback degli eventi
 uuid: 4a3dc8d7-2eb3-4244-849b-01d1314e43f2
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 1%
 
 # Callback evento{#event-callbacks}
 
-Il visualizzatore supporta le callback di eventi JavaScript utilizzate dalla pagina Web per monitorare il processo di inizializzazione del visualizzatore o il comportamento di runtime.
+Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del comportamento di runtime.
 
-I gestori di callback vengono assegnati trasmettendo i nomi degli eventi e le corrispondenti funzioni del gestore con la proprietà `handlers` all&#39;oggetto JSON `config` nel costruttore del visualizzatore. In alternativa, è possibile utilizzare il metodo `setHandlers()` API.
+I gestori di callback vengono assegnati passando i nomi degli eventi e le corrispondenti funzioni del gestore con la proprietà `handlers` all&#39;oggetto JSON `config` nel costruttore del visualizzatore. In alternativa, è possibile utilizzare il metodo API `setHandlers()`.
 
-Gli eventi dei visualizzatori supportati includono quanto segue:
+Gli eventi del visualizzatore supportati includono:
 
 <table id="table_D4A2035B65B140F882F550B711BD3160"> 
  <thead> 
@@ -31,24 +32,24 @@ Gli eventi dei visualizzatori supportati includono quanto segue:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> initComplete  </span> </p> </td> 
-   <td colname="col2"> <p>Attiva quando l'inizializzazione del visualizzatore è completa e vengono creati tutti i componenti interni, in modo che sia possibile utilizzare l'API <span class="codeph"> getComponent() </span>. Il gestore di callback non accetta argomenti. </p> </td> 
+   <td colname="col2"> <p>Attiva quando l'inizializzazione del visualizzatore è completa e vengono creati tutti i componenti interni, in modo da poter utilizzare l'API <span class="codeph"> getComponent() </span>. Il gestore di callback non accetta argomenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 
-   <td colname="col2"> <p> Attiva ogni volta che si verifica un evento all’interno del visualizzatore che può essere gestito da un sistema di tracciamento eventi, ad esempio  Adobe Analytics. Il gestore di callback accetta gli argomenti seguenti: </p> <p> 
+   <td colname="col2"> <p> Attiva ogni volta che un evento si verifica all’interno del visualizzatore e può essere gestito da un sistema di tracciamento degli eventi, ad esempio Adobe Analytics. L'handler di callback accetta i seguenti argomenti: </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String}  </span> - attualmente non utilizzato. </p> </li> 
       <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String}  </span> - attualmente non utilizzato. </p> </li> 
       <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String}  </span> - un nome di istanza del componente SDK del visualizzatore che ha attivato l'evento. </p> </li> 
-      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timeStamp {Number}  </span> - data e ora dell'evento. </p> </li> 
-      <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String}  </span> - payload di eventi. </p> </li> 
+      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timeStamp {Number}  </span> - timestamp evento. </p> </li> 
+      <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String}  </span> - payload evento. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> Viene attivato quando l'utente attiva un punto attivo a cui sono associati i dati della vista rapida. Il gestore di callback accetta l’argomento seguente: </p> <p> 
+   <td colname="col2"> <p> Attiva quando l'utente attiva un punto attivo a cui sono associati i dati di Visualizzazione rapida. L'handler di callback accetta il seguente argomento: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
-      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> - un oggetto JSON contenente dati dalla definizione del punto di attivazione. Il campo <span class="codeph"> sku </span> è obbligatorio, mentre altri campi sono facoltativi e dipendono dalla definizione del punto di attivazione di origine. </p> </li> 
+      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> dati {Object}  </span> - un oggetto JSON contenente dati dalla definizione del punto attivo. Il campo <span class="codeph"> SKU </span> è obbligatorio, mentre altri campi sono facoltativi e dipendono dalla definizione del punto attivo di origine. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
