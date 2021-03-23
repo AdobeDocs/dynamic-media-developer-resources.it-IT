@@ -1,25 +1,26 @@
 ---
-description: La classe principale del visualizzatore di ricerca per eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-description: La classe principale del visualizzatore di ricerca per eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-title: Riferimento API Javascript per il visualizzatore di ricerche per eCatalog
+description: La classe principale del visualizzatore di ricerca eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+seo-description: La classe principale del visualizzatore di ricerca eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+seo-title: Riferimento API JavaScript per il visualizzatore di ricerca per eCatalog
 solution: Experience Manager
-title: Riferimento API Javascript per il visualizzatore di ricerche per eCatalog
-topic: Dynamic Media
+title: Riferimento API JavaScript per il visualizzatore di ricerca per eCatalog
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 
-# Riferimento API Javascript per il visualizzatore di ricerca per eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
+# Riferimento API Javascript per visualizzatore di ricerca eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
 
-La classe principale del visualizzatore di ricerca per eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+La classe principale del visualizzatore di ricerca eCatalog è eCatalogSearchViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
 
-In tutti gli esempi seguenti, `<instance>` rappresenta il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui viene creata un&#39;istanza dalla classe `s7viewers.eCatalogSearchViewer`.
+In tutti gli esempi seguenti, `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript che viene creato dall&#39;istanza della classe `s7viewers.eCatalogSearchViewer`.
 
 * [disporre](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
