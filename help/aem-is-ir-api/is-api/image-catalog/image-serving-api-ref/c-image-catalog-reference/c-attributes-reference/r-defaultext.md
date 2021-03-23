@@ -4,12 +4,13 @@ seo-description: Suffisso predefinito del file immagine. Aggiunto al valore del 
 seo-title: DefaultExt
 solution: Experience Manager
 title: DefaultExt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aa245d18-15cc-41cb-a49d-757d74fe6231
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '171'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 Suffisso predefinito del file immagine. Aggiunto al valore del campo catalogo::Path (o catalogo::MaskPath) se il percorso non include un suffisso di file
 
-Un suffisso di file è costituito da un punto e da uno o più caratteri tra il punto e la fine della stringa. Il suffisso viene aggiunto al percorso http, se il percorso non si risolve in una voce di catalogo e se l&#39;ultimo elemento del percorso non include un suffisso di file.
+Un suffisso di file è costituito da un punto e da uno o più caratteri tra il punto e la fine della stringa. Il suffisso viene aggiunto al percorso http se il percorso non corrisponde a una voce di catalogo e se l&#39;ultimo elemento del percorso non include un suffisso di file.
 
 ## Proprietà {#section-b024e6450b414ccc8b83a48a3b4e00f9}
 
