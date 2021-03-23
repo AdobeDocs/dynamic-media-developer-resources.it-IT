@@ -1,29 +1,30 @@
 ---
-description: Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Deve essere il colore dominante medio nell’immagine della texture.
-seo-description: Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Deve essere il colore dominante medio nell’immagine della texture.
+description: Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Dovrebbe essere il colore dominante medio nell'immagine della texture.
+seo-description: Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Dovrebbe essere il colore dominante medio nell'immagine della texture.
 seo-title: BaseColor
 solution: Experience Manager
 title: BaseColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
 
 # BaseColor{#basecolor}
 
-Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Deve essere il colore dominante medio nell’immagine della texture.
+Colore immagine dominante. Colore sottrattivo, utilizzato per la colorazione della texture. Dovrebbe essere il colore dominante medio nell&#39;immagine della texture.
 
-È inoltre possibile utilizzare `BaseColor`come colore di riempimento se un materiale di texture che non ha `catalog::Color` viene applicato a un oggetto di vignettatura non texture.
+È inoltre possibile utilizzare `BaseColor`come colore di riempimento se un materiale di texture privo di `catalog::Color` viene applicato a un oggetto vignetta non testurizzabile.
 
 ## Proprietà {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-Colore. Ignorata dai materiali in tinta unita e cabinet.
+Colore. Ignorato da colori solidi e materiali per armadietti.
 
 ## Predefinito {#section-ca1813a6fcb24645b5835af0891b279d}
 
