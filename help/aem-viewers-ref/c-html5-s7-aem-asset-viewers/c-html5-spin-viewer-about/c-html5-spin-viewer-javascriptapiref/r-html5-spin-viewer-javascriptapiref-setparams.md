@@ -1,15 +1,16 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
-seo-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
+description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+seo-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: f0eedfbd-eb32-49db-bca4-cc7b14d5495e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '115'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # setParams{#setparams}
 
-Riferimento API JavaScript per il visualizzatore 360 gradi.
+Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
 ` setParams( *`params`*)`
 
@@ -25,14 +26,14 @@ Riferimento API JavaScript per il visualizzatore 360 gradi.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valore, coppie di parametri separate da  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value coppie di parametri separate con  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento metodo è identica a una stringa di query URL. Rappresenta cioè coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale con UTF8. Prima di chiamare `init()`, questo parametro deve essere chiamato.
+Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di interrogazione URL. In altre parole, rappresenta coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto JSON `config` al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l’oggetto JSON `config` al costruttore.
 
 Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
