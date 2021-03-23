@@ -1,53 +1,54 @@
 ---
-description: Utilizzate queste impostazioni del server per le cache del server.
-seo-description: Utilizzate queste impostazioni del server per le cache del server.
+description: Utilizza queste impostazioni del server per le cache del server.
+seo-description: Utilizza queste impostazioni del server per le cache del server.
 seo-title: Cache server
 solution: Experience Manager
 title: Cache server
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 
-# Cache server{#server-caches}
+# Cache del server{#server-caches}
 
-Utilizzate queste impostazioni del server per le cache del server.
+Utilizza queste impostazioni del server per le cache del server.
 
-## PS::cache.rootPaths - Cache Data Folders {#section-f0aa808304d74ecdb0c3644f11906c53}
+## PS::cache.rootPaths - Cartelle dati cache {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Le cartelle principali per la cache del disco del server piattaforma. Uno o più percorsi di file o percorsi assoluti relativi a *[!DNL install_folder]*, separati da punto e virgola (;). I dati per la cache delle risposte HTTP verranno distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si troveranno nella cartella cache primaria (la prima cartella dell&#39;elenco).
+Le cartelle principali per la cache del disco del server Platform. Uno o più percorsi di file assoluti o percorsi relativi a *[!DNL install_folder]*, separati da punto e virgola (;). I dati per la cache di risposta HTTP verranno distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si troveranno nella cartella cache primaria (la prima cartella nell’elenco).
 
-## PS::cache.maxSize - Dimensione cache dati di risposta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
+## PS::cache.maxSize - Response Data Cache Size {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-La dimensione massima della cache delle risposte HTTP, in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (Vedere [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se vengono specificate più cartelle di dati della cache, i dati della cache verranno distribuiti in modo uniforme su tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è espresso in byte.
+Dimensione massima della cache di risposta HTTP in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (Consulta [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se vengono specificate più cartelle di dati della cache, i dati della cache verranno distribuiti in modo uniforme in tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è espresso in byte.
 
-## PS::cache.maxEntries - Cache dati di risposta Numero massimo di voci {#section-5603e327e90542a5b50aeeb27b080410}
+## PS::cache.maxEntries - Voci massime cache dati di risposta {#section-5603e327e90542a5b50aeeb27b080410}
 
-Il numero di voci allocate per l&#39;indice della cache delle risposte HTTP in memoria.
+Il numero di voci allocate per l&#39;indice della cache di risposta HTTP nella memoria.
 
 >[!NOTE]
 >
->In Linux, assicurarsi che i nodi i siano allocati sufficienti per la partizione della cache per evitare di esaurire i nodi.
+>Su Linux, assicurati che siano allocati sufficienti i-nodi per la partizione di cache per evitare di esaurire i-nodes.
 
 ## IS::TempDirectory - Cartella dei file temporanei del server di immagini {#section-42ea1e7a68c444878f7245c5bbcb1672}
 
-Il server immagini a volte deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*.
+Talvolta, il server di immagini deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*.
 
 >[!NOTE]
 >
->Prima di modificare questa impostazione è necessario creare la nuova cartella. Accertatevi che le autorizzazioni di accesso siano impostate in modo che il server immagini disponga del controllo completo della cartella.
+>È necessario creare la nuova cartella prima di modificare questa impostazione. Assicurati che le autorizzazioni di accesso siano impostate in modo che Image Server abbia il controllo completo della cartella.
 
-## SV::temp - Cartella file temporanei supervisore server {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
+## SV::temp - Cartella dei file temporanei del supervisore del server {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-Il supervisore del server a volte deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Il valore predefinito è [!DNL *[!DNL install_folder]*/temp].
+Talvolta, il Server Supervisore deve salvare i dati intermedi sul disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Valori predefiniti in [!DNL *[!DNL install_folder]*/temp].
 
 >[!NOTE]
 >
->Prima di modificare questa impostazione è necessario creare la nuova cartella. Accertatevi che le autorizzazioni di accesso siano impostate in modo che il Garante server abbia il controllo completo della cartella.
+>È necessario creare la nuova cartella prima di modificare questa impostazione. Assicurati che le autorizzazioni di accesso siano impostate in modo che il Server Supervisore abbia il controllo completo della cartella.
 
