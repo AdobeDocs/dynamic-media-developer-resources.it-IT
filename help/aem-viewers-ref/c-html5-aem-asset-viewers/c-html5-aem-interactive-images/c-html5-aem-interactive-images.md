@@ -1,15 +1,16 @@
 ---
-description: Interactive Image Viewer è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un'esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto di attivazione sull'immagine del banner e passare a una pagina di visualizzazione rapida o di dettaglio del prodotto sul sito Web. È progettato per funzionare su computer desktop e dispositivi mobili.
-seo-description: Interactive Image Viewer è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un'esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto di attivazione sull'immagine del banner e passare a una pagina di visualizzazione rapida o di dettaglio del prodotto sul sito Web. È progettato per funzionare su computer desktop e dispositivi mobili.
+description: Il visualizzatore di immagini interattive è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto attivo sull'immagine del banner e venire reindirizzato a una pagina di dettagli di visualizzazione rapida o del prodotto sul sito web. È progettato per funzionare su desktop e dispositivi mobili.
+seo-description: Il visualizzatore di immagini interattive è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto attivo sull'immagine del banner e venire reindirizzato a una pagina di dettagli di visualizzazione rapida o del prodotto sul sito web. È progettato per funzionare su desktop e dispositivi mobili.
 seo-title: Immagine interattiva
 solution: Experience Manager
 title: Immagine interattiva
-topic: Dynamic Media
 uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Immagine interattiva{#interactive-image}
 
-Interactive Image Viewer è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un&#39;esperienza &quot;banner acquistabile&quot;. In altre parole, l&#39;utente può selezionare un punto di attivazione sull&#39;immagine del banner e passare a una pagina di visualizzazione rapida o di dettaglio del prodotto sul sito Web. È progettato per funzionare su computer desktop e dispositivi mobili.
+Il visualizzatore di immagini interattive è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza &quot;banner acquistabile&quot;. In altre parole, l&#39;utente può selezionare un punto attivo sull&#39;immagine del banner e venire reindirizzato a una pagina di dettagli di visualizzazione rapida o del prodotto sul sito web. È progettato per funzionare su desktop e dispositivi mobili.
 
 >[!NOTE]
 >
@@ -33,60 +34,60 @@ Il tipo di visualizzatore è 508.
 
 Vedere [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Utilizzo del visualizzatore immagini interattivo {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilizzo del visualizzatore di immagini interattive {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore immagini interattivo rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il visualizzatore di immagini interattive rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
-Il visualizzatore immagini interattivo può essere utilizzato solo in modalità incorporata, dove viene integrato nella pagina Web di destinazione tramite l’API documentata.
+Il visualizzatore di immagini interattive può essere utilizzato solo in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
-La configurazione e l’interfaccia sono simili a quelle degli altri visualizzatori descritti in questa guida. L’associazione di interfacce viene realizzata tramite CSS personalizzato.
+La configurazione e lo skin sono simili a quelli degli altri visualizzatori descritti in questa Guida. Tutta la skin viene ottenuta tramite CSS personalizzati.
 
-Consultate [Riferimento comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interazione con il visualizzatore immagini interattivo {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interazione con il visualizzatore di immagini interattive {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-L’interazione supportata dal visualizzatore di immagini video è l’attivazione dei punti di attivazione sui sistemi desktop. Questa attivazione si verifica su dispositivi touch con un solo tocco.
+L’interazione supportata dal visualizzatore di immagini video è l’attivazione dei punti attivi sui sistemi desktop. Questa attivazione si verifica su dispositivi touch con un solo tocco e clic.
 
-Il visualizzatore è completamente accessibile tramite tastiera.
+Il visualizzatore è completamente accessibile da tastiera.
 
-Vedere [Accessibilità e navigazione da tastiera](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporazione del visualizzatore immagini interattivo {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione di un visualizzatore di immagini interattive {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Interactive Image Viewer è progettato per essere incorporato nella pagina host. Una pagina Web di questo tipo può avere un layout statico, oppure essere &quot;reattiva&quot; e visualizzata in modo diverso su dispositivi diversi o per diverse dimensioni di finestra del browser.
+Il visualizzatore di immagini interattive è progettato per essere incorporato nella pagina di hosting. Una pagina web di questo tipo può avere un layout statico o può essere &quot;reattiva&quot; e può essere visualizzata in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser.
 
 Per soddisfare queste esigenze, il visualizzatore supporta due modalità di funzionamento principali: incorporazione a dimensione fissa e incorporazione reattiva.
 
-**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporazione reattiva**
+**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento della progettazione reattiva**
 
-In modalità incorporata, il visualizzatore viene aggiunto alla pagina Web esistente. Questa pagina Web potrebbe già avere del contenuto cliente non correlato al visualizzatore. In genere, il visualizzatore occupa solo una parte del patrimonio immobiliare di una pagina Web.
+Nella modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente. Questa pagina web potrebbe avere già alcuni contenuti del cliente non correlati al visualizzatore. Il visualizzatore normalmente occupa solo una parte del patrimonio immobiliare di una pagina web.
 
-I casi d’uso principali sono le pagine Web orientate per computer desktop o dispositivi tablet e le pagine reattive progettate per regolare automaticamente il layout in base al tipo di dispositivo.
+I casi d’uso principali sono le pagine web orientate ai desktop o ai dispositivi tablet e le pagine responsive progettate che regolano automaticamente il layout in base al tipo di dispositivo.
 
-L’incorporamento a dimensione fissa viene utilizzato quando il visualizzatore non ne modifica la dimensione dopo il caricamento iniziale. Questa è la scelta migliore per le pagine Web con layout statico.
+L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa è la scelta migliore per le pagine web con layout statico.
 
-L&#39;incorporazione reattiva della progettazione presuppone che il visualizzatore debba ridimensionare in fase di esecuzione in seguito alla modifica delle dimensioni del suo contenitore `DIV`. L’esempio più comune è l’aggiunta di un visualizzatore a una pagina Web con layout di pagina flessibile.
+L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-In modalità di incorporazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina Web ridimensiona il contenitore `DIV`. Se la pagina Web imposta solo la larghezza del contenitore `DIV`, lasciando senza restrizioni l’altezza, il visualizzatore sceglie automaticamente l’altezza in base alle proporzioni della risorsa utilizzata. Questa funzione assicura che la risorsa si adatti perfettamente alla vista senza riempimenti laterali. Questo caso di utilizzo è il più comune per le pagine Web che utilizzano framework di layout reattivi per la progettazione Web come Bootstrap, Foundation e così via.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione web reattivo come Bootstrap, Foundation e così via.
 
-In caso contrario, se la pagina Web imposta sia la larghezza che l’altezza per il contenitore del visualizzatore `DIV`, il visualizzatore riempie solo tale area. Segue anche la dimensione fornita dal layout della pagina Web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser Web.
+In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore riempie solo quell’area. Segue anche le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
 **Incorporazione a dimensione fissa**
 
-Per aggiungere il visualizzatore a una pagina Web, effettuate le seguenti operazioni:
+Per aggiungere il visualizzatore a una pagina web, effettua le seguenti operazioni:
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 1. Definizione del contenitore `DIV`.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 
-   Per creare un visualizzatore è necessario aggiungere un tag script nell&#39;intestazione HTML. Prima di poter utilizzare l&#39;API del visualizzatore, accertatevi di includere [!DNL InterativeImage.js]. Il file [!DNL InteractiveImage.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard dei visualizzatori IS:
+   La creazione di un visualizzatore richiede l’aggiunta di un tag script nell’intestazione HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL InterativeImage.js]. Il file [!DNL InteractiveImage.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js]
 
-Potete utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media Classic  Adobe e viene distribuito dallo stesso dominio. In caso contrario, specificate un percorso completo per uno dei server Dynamic Media Classic  Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media Classic di Adobe e viene servito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Media Classic di Adobe in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -96,16 +97,16 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->È consigliabile fare riferimento solo al file JavaScript del visualizzatore principale `include` nella pagina. Non dovete fare riferimento ad altri file JavaScript nel codice della pagina Web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fate riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore.  Adobe non conserva sul server versioni precedenti del visualizzatore secondario `includes`.
+>Dovresti fare riferimento solo al file JavaScript del visualizzatore principale `include` nella pagina. Non devi fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
 >
 >
->Di conseguenza, inserendo un riferimento diretto a qualsiasi codice JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina, si interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione di prodotto.
+>Di conseguenza, l’inserimento di un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del contenitore `DIV`.
 
-   Aggiungete un elemento `DIV` vuoto alla pagina in cui desiderate visualizzare il visualizzatore. L&#39;ID dell&#39;elemento `DIV` deve essere definito perché l&#39;ID viene passato successivamente all&#39;API del visualizzatore. La dimensione del DIV è specificata tramite CSS.
+   Aggiungi un elemento `DIV` vuoto alla pagina in cui desideri visualizzare il visualizzatore. L’ID dell’elemento `DIV` deve essere definito, perché viene passato successivamente all’API del visualizzatore. La dimensione del DIV è specificata tramite CSS.
 
-   Il segnaposto `DIV` è un elemento posizionato, il che significa che la proprietà `position` CSS è impostata su `relative` o `absolute`.
+   Il segnaposto `DIV` è un elemento posizionato, il che significa che la proprietà CSS `position` è impostata su `relative` o `absolute`.
 
    Di seguito è riportato un esempio di un elemento segnaposto definito `DIV`:
 
@@ -115,13 +116,13 @@ Il percorso relativo si presenta come segue:
 
 1. Impostazione delle dimensioni del visualizzatore
 
-   Potete impostare le dimensioni statiche per il visualizzatore dichiarandolo per la classe CSS di livello principale `.s7interactiveimage` in unità assolute oppure utilizzando il modificatore `stagesize`.
+   È possibile impostare la dimensione statica del visualizzatore dichiarandola per la classe CSS di livello superiore `.s7interactiveimage` in unità assolute o utilizzando il modificatore `stagesize`.
 
-   Potete inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato, che verrà quindi assegnato a un record di predefinito per visualizzatori in  AEM Assets - su richiesta, o trasmesso esplicitamente tramite il comando `style`.
+   Puoi inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS per visualizzatori personalizzati, che viene poi assegnato a un record predefinito per visualizzatori in AEM Assets - on-demand, o passato esplicitamente utilizzando il comando `style` .
 
-   Per ulteriori informazioni sullo stile del visualizzatore con i CSS, consultate [Video](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
+   Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta [Video](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
-   Di seguito è riportato un esempio di definizione di una dimensione visualizzatore statica nella pagina HTML:
+   Di seguito è riportato un esempio di definizione delle dimensioni di un visualizzatore statico nella pagina HTML:
 
    ```
    #s7viewer.s7interactiveimage { 
@@ -130,7 +131,7 @@ Il percorso relativo si presenta come segue:
    }
    ```
 
-   Potete trasmettere esplicitamente il modificatore `stagesize` con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   Puoi passare esplicitamente il modificatore `stagesize` con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comandi , come segue:
 
    ```
    interactiveImage.setParam("stagesize", "1174,500");
@@ -140,13 +141,13 @@ Il percorso relativo si presenta come segue:
 
 1. Creazione e inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi descritti qui sopra, potete creare un&#39;istanza della classe `s7viewers.InteractiveImage`, trasmettere tutte le informazioni di configurazione al relativo costruttore e chiamare il metodo `init()` su un&#39;istanza di visualizzatore. Le informazioni di configurazione vengono trasmesse al costruttore come oggetto JSON. Come minimo, questo oggetto deve avere un campo `containerId` contenente il nome dell&#39;ID contenitore del visualizzatore e un oggetto JSON nidificato `params` con i parametri di configurazione supportati dal visualizzatore. In questo caso, l&#39;oggetto `params` deve avere almeno l&#39;URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. L&#39;API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
+   Una volta completati i passaggi precedenti, crea un’istanza della classe `s7viewers.InteractiveImage`, passa tutte le informazioni di configurazione al relativo costruttore e chiama il metodo `init()` su un’istanza di visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Come minimo, questo oggetto deve avere un campo `containerId` che contiene il nome dell’ID del contenitore del visualizzatore e un oggetto JSON nidificato `params` con i parametri di configurazione supportati dal visualizzatore. In questo caso, l’oggetto `params` deve avere almeno l’URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
 
-   È importante che il contenitore del visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser ritardano la creazione del DOM fino alla fine della pagina Web. Per garantire la massima compatibilità, chiamare il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()`.
+   È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()` .
 
-   Allo stesso tempo, l&#39;elemento contenitore non deve necessariamente far parte del layout della pagina Web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina Web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web per ora. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un&#39;istanza visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()`. L&#39;esempio presuppone che `interactiveImage` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` è l&#39;URL del server immagini e `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un&#39;istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()` . L’esempio presuppone che `interactiveImage` sia l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` è l&#39;URL di Image Server e `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` è la risorsa:
 
    ```
    <script type="text/javascript"> 
@@ -160,7 +161,7 @@ Il percorso relativo si presenta come segue:
    </script> 
    ```
 
-   Il codice seguente è un esempio completo di una pagina Web banale che incorpora il visualizzatore di immagini video con una dimensione fissa:
+   Il codice seguente è un esempio completo di una pagina web banale che incorpora il Visualizzatore immagini video con dimensioni fisse:
 
    ```
    <!DOCTYPE html> 
@@ -189,9 +190,9 @@ Il percorso relativo si presenta come segue:
    </html> 
    ```
 
-**Incorporazione responsive con altezza illimitata**
+**Incorporazione di design reattivo con altezza illimitata**
 
-Con l&#39;incorporazione reattiva della progettazione, la pagina Web dispone in genere di un layout flessibile che specifica le dimensioni runtime del contenitore del visualizzatore `DIV`. Ad esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% della dimensione della finestra del browser Web. E la sua altezza è lasciata illimitata. Il codice HTML della pagina Web sarà simile al seguente:
+Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta al contenitore del visualizzatore `DIV` di assumere il 40% delle dimensioni della finestra del browser Web. E la sua altezza è lasciata senza restrizioni. Il codice HTML della pagina web sarà simile al seguente:
 
 ```
 <!DOCTYPE html> 
@@ -209,13 +210,13 @@ Con l&#39;incorporazione reattiva della progettazione, la pagina Web dispone in 
 </html> 
 ```
 
-L’aggiunta del visualizzatore a tale pagina è simile alla procedura per l’incorporamento a dimensione fissa. L’unica differenza è che non è necessario definire in modo esplicito le dimensioni del visualizzatore.
+L’aggiunta del visualizzatore a una pagina di questo tipo è simile alla procedura per l’incorporazione a dimensione fissa. L’unica differenza è che non è necessario definire esplicitamente la dimensione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 1. Definizione del contenitore `DIV`.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi indicati sopra sono uguali a quelli con l&#39;incorporamento a dimensione fissa. Aggiungete il contenitore `DIV` alla `"holder"` `DIV` esistente. Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Aggiungi il contenitore `DIV` al `"holder"` `DIV` esistente. Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```
 <!DOCTYPE html> 
@@ -245,13 +246,13 @@ var interactiveImage = new s7viewers.InteractiveImage({
 </html> 
 ```
 
-La pagina degli esempi seguente illustra gli usi più reali dell’incorporamento reattivo di design con altezza illimitata:
+La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorporazione di design reattivo a altezza illimitata:
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html)
 
-**Dimensioni flessibili Incorporamento con larghezza e altezza definite**
+**Dimensione flessibile Incorporamento con definizione di larghezza e altezza**
 
-In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina Web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. Inoltre, la pagina Web imposta la dimensione dell&#39;elemento `HTML` e `BODY` su 100%.
+In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` al 100%.
 
 ```
 <!DOCTYPE html> 
@@ -277,7 +278,7 @@ height: 60%;
 </html> 
 ```
 
-Gli altri passaggi di incorporamento sono identici ai passaggi utilizzati per l&#39;incorporamento reattivo con altezza illimitata. L’esempio risultante è il seguente:
+Gli altri passaggi di incorporamento sono identici ai passaggi utilizzati per l’incorporazione reattiva con altezza illimitata. L’esempio risultante è il seguente:
 
 ```
 <!DOCTYPE html> 
@@ -315,11 +316,11 @@ var interactiveImage = new s7viewers.InteractiveImage({
 </html> 
 ```
 
-**Incorporazione tramite l&#39;API basata su Setter**
+**Incorporazione tramite API basate su Setter**
 
-Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. L&#39;utilizzo di questo costruttore di API non accetta parametri e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
+Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non accetta alcun parametro e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
 
-L&#39;esempio seguente illustra l&#39;utilizzo dell&#39;incorporamento a dimensione fissa con l&#39;API basata su setter:
+L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
 
 ```
 <!DOCTYPE html> 
