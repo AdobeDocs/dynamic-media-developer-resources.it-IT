@@ -4,13 +4,14 @@ seo-description: Sospende un processo attivo.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-topic: Dynamic Media Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 15%
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -38,8 +39,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| `*`jobHandle`*` | `xsd:string` | Sì | Passate al processo da mettere in pausa. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
+| `*`jobHandle`*` | `xsd:string` | Sì | Gestisci il processo che desideri mettere in pausa. |
 
 **Output (PauseJobReturn)**
 
