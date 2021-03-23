@@ -1,20 +1,21 @@
 ---
-description: Aggiunge nuovi valori di tag al dizionario di un campo di tag esistente.
+description: Aggiunge nuovi valori tag al dizionario di un campo tag esistente.
 solution: Experience Manager
 title: addTagFieldValues
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 12%
+source-wordcount: '97'
+ht-degree: 11%
 
 ---
 
 
 # addTagFieldValues{#addtagfieldvalues}
 
-Aggiunge nuovi valori di tag al dizionario di un campo di tag esistente.
+Aggiunge nuovi valori tag al dizionario di un campo tag esistente.
 
 Sintassi
 
@@ -30,9 +31,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene il campo del tag. |
-| `*`fieldHandle`*` | `xsd:string` | Sì | handle del campo tag da modificare. |
-| `*`valueArray`*` | `xsd:string` | Sì | Un array di valori di tag da aggiungere al dizionario esistente del campo. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società contenente il campo tag. |
+| `*`fieldHandle`*` | `xsd:string` | Sì | L’handle del campo tag da modificare. |
+| `*`valueArray`*` | `xsd:string` | Sì | Matrice di valori tag da aggiungere al dizionario esistente del campo. |
 
 **Output (addTagFieldValuesParam)**
 
