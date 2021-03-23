@@ -4,12 +4,13 @@ seo-description: Tipo di dati della stringa di testo.
 seo-title: Stringa di testo
 solution: Experience Manager
 title: Stringa di testo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d37ff12d-5c7a-4bb5-af61-44de85a86aa0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -19,4 +20,4 @@ ht-degree: 0%
 
 Tipo di dati della stringa di testo.
 
-I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga caratteri `<CR>`, `<LF>` o `<TAB>`. È possibile utilizzare come delimitatori le virgolette singole o doppie. Se vengono utilizzate le virgolette, queste devono essere racchiuse all&#39;interno della stringa utilizzando due virgolette consecutive (ad es.: Speciale di questo mese).
+I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga caratteri `<CR>`, `<LF>` o `<TAB>`. È possibile utilizzare come delimitatori virgolette singole o doppie. Se si utilizzano le virgolette, queste devono essere precedute da due virgolette consecutive (ad esempio: Questo mese speciale).
