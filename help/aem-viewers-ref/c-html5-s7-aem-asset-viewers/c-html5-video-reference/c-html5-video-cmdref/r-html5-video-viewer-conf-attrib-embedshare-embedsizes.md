@@ -4,13 +4,14 @@ seo-description: Attributo di configurazione per il visualizzatore video.
 seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-topic: Dynamic Media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
@@ -19,23 +20,23 @@ ht-degree: 11%
 
 Attributo di configurazione per il visualizzatore video.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza `*, *``*[,0|1][; *``*, *`altezza larghezza`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`larghezza larghezza altezza`*[,0|1]]`
 
-Specifica un elenco di dimensioni di incorporamento per la casella combinata delle dimensioni nella finestra di dialogo modale di condivisione incorpora.
+Specifica un elenco di dimensioni da incorporare per la casella combinata dimensioni nella finestra di dialogo modale di condivisione da incorporare.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Incorpora larghezza. </p> </td> 
+   <td colname="col2"> <p> Larghezza da incorporare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorpora altezza. </p> </td> 
+   <td colname="col2"> <p>Altezza da incorporare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Specifica se la voce di elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
+   <td colname="col2"> <p> Specifica se la voce dell'elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
