@@ -1,15 +1,16 @@
 ---
-description: Percorso radice dei dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignettatura, texture, immagine e ICC a cui fa riferimento questo catalogo immagini.
-seo-description: Percorso radice dei dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignettatura, texture, immagine e ICC a cui fa riferimento questo catalogo immagini.
+description: Percorso radice dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignetta, texture, immagine e ICC a cui fa riferimento questo catalogo di immagini.
+seo-description: Percorso radice dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignetta, texture, immagine e ICC a cui fa riferimento questo catalogo di immagini.
 seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # RootPath *{#rootpath}
 
-Percorso radice dei dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignettatura, texture, immagine e ICC a cui fa riferimento questo catalogo immagini.
+Percorso radice dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignetta, texture, immagine e ICC a cui fa riferimento questo catalogo di immagini.
 
 ## Proprietà {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Stringa di testo. Deve essere vuoto, un segmento di percorso valido relativo all&#39;impostazione di configurazione del server di rendering immagini `ir.resourceRootPaths` oppure un percorso di file assoluto valido. Non deve includere delimitatori di elementi di percorso iniziali e finali.
+Stringa di testo. Deve essere vuoto, un segmento di percorso valido relativo all&#39;impostazione di configurazione del server Image Rendering `ir.resourceRootPaths` o un percorso di file assoluto valido. Non devono includere delimitatori di elementi di percorso iniziali e finali.
 
 ## Predefinito {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 
