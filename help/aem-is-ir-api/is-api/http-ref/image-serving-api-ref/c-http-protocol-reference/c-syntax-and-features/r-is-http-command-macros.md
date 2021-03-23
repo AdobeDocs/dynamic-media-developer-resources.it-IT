@@ -1,23 +1,24 @@
 ---
-description: Le macro di comandi forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
-seo-description: Le macro di comandi forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
-seo-title: Macro di comandi
+description: Le macro di comando forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
+seo-description: Le macro di comando forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
+seo-title: Macro di comando
 solution: Experience Manager
-title: Macro di comandi
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Macro di comando
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
 
 
-# Macro comandi{#command-macros}
+# Macro di comando{#command-macros}
 
-Le macro di comandi forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
+Le macro di comando forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
 
 `$ *`name`*$`
 
@@ -28,15 +29,15 @@ Le macro di comandi forniscono collegamenti denominati per set di comandi. Le ma
  </tr> 
 </table>
 
-`*`Il `*` nome non fa distinzione tra maiuscole e minuscole e può essere composto da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
+`*`I nomi `*` non sono sensibili all’uso di maiuscole e minuscole e possono essere costituiti da qualsiasi combinazione di lettere ASCII, numeri, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caratteri.
 
-Le macro possono essere invocate in qualsiasi punto di una richiesta dopo &#39;?&#39;, nonché ovunque all&#39;interno di un campo `catalog::Modifier` o `catalog::PostModifier`. Le macro possono rappresentare solo uno o più comandi Image Server completi e devono essere separate da altri comandi con separatori &#39;&amp;&#39;.
+Le macro possono essere richiamate in qualsiasi punto di una richiesta dopo &#39;?&#39;, nonché in qualsiasi punto all&#39;interno di un campo `catalog::Modifier` o `catalog::PostModifier`. Le macro possono rappresentare solo uno o più comandi Image Serving completi e devono essere separate da altri comandi con i separatori &#39;&amp;&#39;.
 
-Le chiamate delle macro vengono sostituite dalle relative stringhe di sostituzione nelle prime fasi dell&#39;analisi. I comandi all&#39;interno delle macro sostituiscono gli stessi comandi nella richiesta se si verificano prima della chiamata alla macro nella richiesta. Questo è diverso da `catalog::Modifier`, dove i comandi nella stringa di richiesta sostituiranno sempre i comandi nella stringa `catalog::Modifier`, indipendentemente dalla posizione nella richiesta.
+Le chiamate macro vengono sostituite dalle relative stringhe di sostituzione all&#39;inizio dell&#39;analisi. I comandi all’interno delle macro sostituiranno gli stessi comandi nella richiesta se si verificano prima della chiamata della macro nella richiesta. Questo è diverso da `catalog::Modifier`, dove i comandi nella stringa di richiesta sovrascrivono sempre i comandi nella stringa `catalog::Modifier`, indipendentemente dalla posizione nella richiesta.
 
-Le macro dei comandi non possono avere valori di argomento, ma è possibile utilizzare variabili personalizzate per trasmettere valori dalla richiesta alla macro.
+Le macro dei comandi non possono avere valori di argomento, ma è possibile utilizzare variabili personalizzate per passare i valori dalla richiesta alla macro.
 
-Le macro possono essere nidificate, con le seguenti limitazioni: È possibile richiamare una macro solo se è già definita al momento dell&#39;analisi della definizione della macro, visualizzandola in precedenza nello stesso file di definizione della macro oppure inserendo la definizione di tale macro incorporata nel file di definizione della macro predefinita.
+Le macro possono essere nidificate con le seguenti limitazioni: È possibile richiamare una macro solo se è già definita al momento dell&#39;analisi della definizione della macro, visualizzandola in precedenza nello stesso file di definizione della macro oppure inserendo la definizione di tale macro incorporata nel file di definizione della macro predefinita.
 
 ## Esempio {#section-2f73d36ac8d64254a03bae5afeae2fb9}
 
@@ -52,7 +53,7 @@ La macro viene utilizzata come segue:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-Poiché `wid=` è diverso per la terza richiesta, è sufficiente sostituire il valore *dopo* che la macro viene richiamata (specificando `wid=`*before* `$view$` non avrebbe alcun effetto).
+Poiché `wid=` è diverso per la terza richiesta, sovrascriviamo semplicemente il valore *dopo* la macro viene richiamata (specificare `wid=`*prima* `$view$` non avrebbe alcun effetto).
 
 ## Consultate anche {#section-8cdba0ed2480444ca61e719e54f8871c}
 
