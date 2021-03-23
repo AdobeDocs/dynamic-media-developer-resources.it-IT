@@ -1,23 +1,24 @@
 ---
-description: Tipo e valore per un set di proprietà.
-seo-description: Tipo e valore per un set di proprietà.
+description: Tipo e valore di un set di proprietà.
+seo-description: Tipo e valore di un set di proprietà.
 seo-title: PropertySet
 solution: Experience Manager
 title: PropertySet
-topic: Dynamic Media Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
 
 # PropertySet{#propertyset}
 
-Tipo e valore per un set di proprietà.
+Tipo e valore di un set di proprietà.
 
 Sintassi
 
@@ -25,7 +26,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | Handle del set di proprietà. |
-| `*`typeHandle`*` | `xsd:string` | Gestire il tipo di set di proprietà. |
+| `*`setHandle`*` | `xsd:string` | Maniglia del set di proprietà. |
+| `*`typeHandle`*` | `xsd:string` | Gestisci il tipo di set di proprietà. |
 | `*`propertyArray`*` | `types:PropertyArray` | Coppia nome-valore. Può contenere zero elementi. |
 
