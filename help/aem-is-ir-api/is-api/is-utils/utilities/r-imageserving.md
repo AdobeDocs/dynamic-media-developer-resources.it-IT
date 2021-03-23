@@ -1,15 +1,16 @@
 ---
 description: Script di controllo Image Server. Questo script viene utilizzato per avviare, arrestare o riavviare Image Server Supervisore, che a sua volta avvia, arresta o riavvia tutti gli altri componenti Image Server.
 seo-description: Script di controllo Image Server. Questo script viene utilizzato per avviare, arrestare o riavviare Image Server Supervisore, che a sua volta avvia, arresta o riavvia tutti gli altri componenti Image Server.
-seo-title: ImageServer
+seo-title: ImageServing
 solution: Experience Manager
-title: ImageServer
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ImageServing
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -35,23 +36,23 @@ Script di controllo Image Server. Questo script viene utilizzato per avviare, ar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
-   <td colname="col2"> <p> Avviate il Server Supervisore e tutti gli altri componenti Image Server. </p> </td> 
+   <td colname="col2"> <p> Avviare il Server Supervisore e tutti gli altri componenti Image Server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
-   <td colname="col2"> <p> Arrestate tutti i componenti Image Server, incluso il server di supervisione. </p> </td> 
+   <td colname="col2"> <p> Arresta tutti i componenti Image Server, incluso il server di monitoraggio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Riavvia </span> </p> </td> 
-   <td colname="col2"> <p>Riavviate tutti i componenti Image Server, incluso il server di sorveglianza. </p> </td> 
+   <td colname="col2"> <p>Riavvia tutti i componenti di Image Server, incluso il Server Supervisore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riavvio { ps | is | svg }  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riavvia { ps | | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Riavvia Tomcat/Platform Server, Image Server o SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Restituisce informazioni sull’utilizzo del tempo di attività e della memoria corrente per Image Server, Tomcat/Platform Server e SVGserver, oppure lo stato solo per il server specificato; se il Server Supervisore non è in esecuzione, viene restituito un messaggio informativo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stato [ ps | | svg ]  </span> </p> </td> 
+   <td colname="col2"> <p>Restituisce informazioni sull'utilizzo della memoria in tempo utile e corrente per Image Server, Tomcat/Platform Server e SVGserver oppure lo stato solo per il server specificato; se non è in esecuzione, viene restituito un messaggio informativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
