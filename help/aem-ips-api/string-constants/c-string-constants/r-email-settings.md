@@ -1,27 +1,28 @@
 ---
-description: Descrive i valori utilizzati da vari parametri di input. Consultate l'elenco in questo articolo per i dettagli.
-seo-description: Descrive i valori utilizzati da vari parametri di input. Consultate l'elenco in questo articolo per i dettagli.
+description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
+seo-description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
 seo-title: Impostazioni e-mail
 solution: Experience Manager
 title: Impostazioni e-mail
-topic: Dynamic Media Image Production System API
 uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
 
 # Impostazioni e-mail{#email-settings}
 
-Descrive i valori utilizzati da vari parametri di input. Consultate l&#39;elenco in questo articolo per i dettagli.
+Descrive i valori utilizzati da vari parametri di input. Vedi l&#39;elenco in questo articolo per i dettagli.
 
 Sintassi
 
-## Utilizzata da {#section-7f81d4ca6f104877afa64ed1e25c79fb}
+## Utilizzato da {#section-7f81d4ca6f104877afa64ed1e25c79fb}
 
 * [!DNL `ImageServingPublishJob/emailSetting`]
 * [!DNL `ImageRenderingPublishJob/emailSetting`]
