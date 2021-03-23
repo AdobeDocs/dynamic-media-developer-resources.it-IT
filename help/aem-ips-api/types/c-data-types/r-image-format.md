@@ -1,23 +1,24 @@
 ---
-description: Set non strutturato con nome di impostazioni di output immagine.
-seo-description: Set non strutturato con nome di impostazioni di output immagine.
+description: Set di impostazioni di output dell'immagine senza nome strutturato.
+seo-description: Set di impostazioni di output dell'immagine senza nome strutturato.
 seo-title: ImageFormat
 solution: Experience Manager
 title: ImageFormat
-topic: Dynamic Media Image Production System API
 uuid: d3ad7058-781e-4b5b-84b5-7da6bcc77cd8
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
 
 # ImageFormat{#imageformat}
 
-Set non strutturato con nome di impostazioni di output immagine.
+Set di impostazioni di output dell&#39;immagine senza nome strutturato.
 
 Non è un tipo di risorsa.
 
@@ -25,7 +26,7 @@ Non è un tipo di risorsa.
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | Handle del formato immagine. |
+| `*`imageFormatHandle`*` | `xsd:string` | Maniglia del formato immagine. |
 | `*`name`*` | `xsd:string` | Nome del formato immagine. |
-| `*`urlModifier`*` | `xsd:string` | URL del server immagini che rappresenta il formato immagine. |
+| `*`urlModifier`*` | `xsd:string` | URL del server di immagini che rappresenta il formato immagine. |
 
