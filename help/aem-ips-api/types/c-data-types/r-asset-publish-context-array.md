@@ -2,13 +2,14 @@
 description: AssetPublishContextArray
 solution: Experience Manager
 title: AssetPublishContextArray
-topic: Dynamic Media Image Production System API
 uuid: b16ba13e-24e4-4dcb-b96c-3d3b1a8a5652
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '15'
-ht-degree: 26%
+source-wordcount: '24'
+ht-degree: 16%
 
 ---
 
@@ -21,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`AssetPublishContextArray`*` | `types:AssetPublishContext` | Un array di contesti di pubblicazione di risorse. |
+| `*`AssetPublishContextArray`*` | `types:AssetPublishContext` | Matrice di contesti di pubblicazione delle risorse. |
 
