@@ -2,12 +2,13 @@
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
-topic: Dynamic Media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
@@ -21,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>Il modello URL del server informazioni viene utilizzato per recuperare le coppie chiave/valore per la sostituzione della variabile nel modello di contenuto del pannello Info. Il modello specificato in genere contiene i segnaposto delle macro che vengono sostituiti con i dati effettivi prima dell'invio della richiesta al server. </p> <p><span class="codeph"> $1$</span> viene sostituito con il valore di rollover che ha attivato l'attivazione di  <span class="codeph"> </span> InfoPanelPopupactivate. </p> <p><span class="codeph"> $2$</span> viene sostituito con il numero di sequenza del fotogramma corrente nel set di immagini. </p> <p><span class="codeph"> $3$</span> viene sostituito con il primo elemento percorso specificato nel nome del set padre dell'elemento corrente. In genere corrisponde all’ID del catalogo. </p> <p><span class="codeph"> $4$</span> viene sostituito con il seguente elemento nel percorso e corrisponde all’ID della risorsa. La sintassi di richiesta del server di informazioni effettiva dipende dal server di informazioni e varia da server a server. Ad esempio, di seguito è riportato un tipico modello di richiesta server Dynamic Media Info: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>Il modello URL di Info server viene utilizzato per recuperare coppie chiave/valore per la sostituzione della variabile nel modello di contenuto del pannello informazioni. Il modello specificato in genere contiene i segnaposto macro che vengono sostituiti con i dati effettivi prima che la richiesta venga inviata al server. </p> <p><span class="codeph"> $1$</span> viene sostituito con il valore di rollover che ha attivato l'attivazione di  <span class="codeph"> </span> InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> viene sostituito con il numero di sequenza del fotogramma corrente nel set di immagini. </p> <p><span class="codeph"> $3$</span> viene sostituito con il primo elemento percorso specificato nel nome del set padre dell'elemento corrente. In genere corrisponde all’ID del catalogo. </p> <p><span class="codeph"> $4$</span> viene sostituito con l’elemento seguente nel percorso e corrisponde all’ID risorsa. La sintassi effettiva della richiesta del server di informazioni è dipendente dal server di informazioni e varia da server a server. Ad esempio, il seguente è un tipico modello di richiesta server di informazioni Dynamic Media: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Quando configurate il Popup del pannello Info, il codice HTML e JavaScript passato al pannello Info viene eseguito sul computer client. Accertatevi pertanto che il codice HTML e il codice JavaScript siano protetti.
+>Tieni presente che quando configuri Info Panel Popup, il codice HTML e il codice JavaScript passato al pannello Info viene eseguito sul computer del client. Assicurati pertanto che tali codici HTML e codice JavaScript siano protetti.
 
 ## Proprietà {#section-71356e3c13244e62b0582980d9d05328}
 
