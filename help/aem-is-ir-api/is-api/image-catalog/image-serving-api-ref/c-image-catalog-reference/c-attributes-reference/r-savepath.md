@@ -4,12 +4,13 @@ seo-description: Percorso principale per saveToFile=. Percorso relativo per la c
 seo-title: SavePath
 solution: Experience Manager
 title: SavePath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -27,7 +28,7 @@ Stringa di testo. Deve essere vuoto o un percorso di cartella relativo valido. S
 
 ## Predefinito {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Ereditato da `default::SavePath` se non definito. Il salvataggio in file è disattivato se il valore risolto è vuoto.
+Ereditato da `default::SavePath` se non definito. Il salvataggio in file viene disattivato se il valore risolto è vuoto.
 
 ## Consultate anche {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 
