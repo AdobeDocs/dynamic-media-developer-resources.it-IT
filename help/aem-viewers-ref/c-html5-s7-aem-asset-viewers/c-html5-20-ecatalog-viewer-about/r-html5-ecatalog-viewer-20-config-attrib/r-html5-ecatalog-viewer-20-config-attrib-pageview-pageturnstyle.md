@@ -2,12 +2,13 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-topic: Dynamic Media
 uuid: 3192d810-fb30-44ae-9939-98e890c76e5c
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -17,25 +18,25 @@ ht-degree: 2%
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
 
-Controlla l&#39;aspetto del componente quando un `PageView.frametransition` è impostato su `turn` o su `auto` nei sistemi desktop.
+Controlla l’aspetto del componente quando un `PageView.frametransition` è impostato su `turn` o su `auto` sui sistemi desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> Larghezza in pixel dell’ombra del separatore di pagina che separa le pagine sinistra e destra del set di pagine affiancate. Controlla anche la larghezza dell’ombra esterna visualizzata accanto alla pagina di tornitura. </p> </td> 
+   <td colname="col2"> <p> Larghezza in pixel dell’ombreggiatura del divisore di pagina che separa le pagine sinistra e destra nel set di pagine affiancate. Controlla anche la larghezza dell'ombreggiatura in esecuzione visualizzata accanto alla pagina di tornitura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> Colore ombra in formato RRGGBB. </p> </td> 
+   <td colname="col2"> <p> Colore dell'ombra in formato RRGGBB. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>Opacità dell'ombra nell'intervallo compreso tra <span class="codeph"> 0</span> e <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>L'opacità dell'ombreggiatura nell'intervallo compreso tra <span class="codeph"> 0</span> e <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Flag (<span class="codeph"> 0</span> o <span class="codeph"> 1</span>) che attiva e disattiva il bordo intorno alla pagina di attivazione. </p> </td> 
+   <td colname="col2"> <p> Flag (<span class="codeph"> 0</span> o <span class="codeph"> 1</span>) che attiva e disattiva il bordo intorno alla pagina di accensione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -43,7 +44,7 @@ Controlla l&#39;aspetto del componente quando un `PageView.frametransition` è i
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> Colore del riempimento in tinta unita dell’area del componente utilizzata durante l’animazione del giro di pagina, in formato RRGGBB. </p> </td> 
+   <td colname="col2"> <p> Colore del riempimento a tinta unita dell’area del componente utilizzata durante l’animazione del giro della pagina, in formato RRGGBB. </p> </td> 
   </tr> 
  </tbody> 
 </table>
