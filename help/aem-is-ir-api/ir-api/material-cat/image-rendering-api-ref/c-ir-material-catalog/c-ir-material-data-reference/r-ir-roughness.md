@@ -1,27 +1,28 @@
 ---
-description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato insieme a Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering dei riflessi 3D.
-seo-description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato insieme a Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering dei riflessi 3D.
-seo-title: Disturbo
+description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato in combinazione con Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering di riflesso 3D.
+seo-description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato in combinazione con Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering di riflesso 3D.
+seo-title: Rugosità
 solution: Experience Manager
-title: Disturbo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Rugosità
 uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 
-# Disturbo{#roughness}
+# Roughness{#roughness}
 
-Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato insieme a catalog::Type e catalog::Gloss per controllare gli effetti di rendering del riflesso 3D.
+Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato in combinazione con catalog::Type e catalog::Gloss per controllare gli effetti di rendering del riflesso 3D.
 
 ## Proprietà {#section-70c3f2394fd8477ca83a369448907971}
 
-Numero intero. Valore percentuale nell&#39;intervallo 0...100. Facoltativo per tutti i materiali. Utilizzata solo per le vignettature con mappe di riflessione multiple o vignettature con capacità di riflessione 3D. Lasciate vuoto o impostate su -1 se non noto o non necessario.
+Numero intero. Valore percentuale nell&#39;intervallo 0...100. Facoltativo per tutti i materiali. Utilizzato solo per vignette con mappe di riflesso multiple o vignette con capacità di riflessione 3D. Lasciare vuoto o impostare su -1 se non noto o non necessario.
 
 ## Predefinito {#section-c6d5c0613a8745ddbd9f43c8c90b1580}
 
