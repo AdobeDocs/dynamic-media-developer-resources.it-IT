@@ -1,19 +1,20 @@
 ---
-description: getPublishContext
+description: getPublishContexts
 solution: Experience Manager
-title: getPublishContext
-topic: Dynamic Media Image Production System API
+title: getPublishContexts
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 16%
 
 ---
 
 
-# getPublishContext{#getpublishcontexts}
+# getPublishContexts{#getpublishcontexts}
 
 Sintassi
 
@@ -56,15 +57,15 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Gestite l'azienda. </td> 
+   <td colname="col4"> Manda all'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Tipo di contesto di pubblicazione da restituire. Include: 
+   <td colname="col4">Il tipo di contesto di pubblicazione che desideri restituire. Include: 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServer</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> Video</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
@@ -77,7 +78,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`publishContextArray`*` | tipi:PublishContextArray | Sì | Un array di contesti di pubblicazione per una società, filtrati in base al tipo di contesto, se necessario. |
+| `*`publishContextArray`*` | tipi:PublishContextArray | Sì | Array di contesti di pubblicazione per una società, filtrati per tipo di contesto, se necessario. |
 
 ## Esempi {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
