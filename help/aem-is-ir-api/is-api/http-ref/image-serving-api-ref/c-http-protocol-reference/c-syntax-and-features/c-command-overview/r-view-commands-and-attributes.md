@@ -1,52 +1,53 @@
 ---
-description: Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
-seo-description: Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
-seo-title: Visualizza, comandi
+description: Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
+seo-description: Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
+seo-title: Visualizza comandi
 solution: Experience Manager
-title: Visualizza, comandi
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Visualizza comandi
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # Visualizza comandi{#view-commands}
 
-Questi comandi si applicano indipendentemente da dove sono visualizzati nella richiesta.
+Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
 
 <table id="simpletable_A423F1CD30EC4DE9AD15C4514F169FC9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7" type="reference" format="dita" scope="local"> allinea</a> </p> </td> 
-  <td class="stentry"> <p>Allinea la vista all’immagine composita. </p></td> 
+  <td class="stentry"> <p>Allinea la visualizzazione con l'immagine composita. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc</a> </p> </td> 
-  <td class="stentry"> <p>Imposta il colore di sfondo della vista. </p></td> 
+  <td class="stentry"> <p>Imposta il colore di sfondo della visualizzazione. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> adatta</a> </p></td> 
-  <td class="stentry"> <p>Adatta la vista all’immagine composita. </p></td> 
+  <td class="stentry"> <p>Adatta la visualizzazione all'immagine composita. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96" type="reference" format="dita" scope="local"> hei</a> </p> </td> 
-  <td class="stentry"> <p>Imposta l’altezza della visualizzazione. </p></td> 
+  <td class="stentry"> <p>Imposta l'altezza della visualizzazione. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> rect</a> </p></td> 
   <td class="stentry"> <p>Specifica il rettangolo di visualizzazione finale. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rint</a> </p> </td> 
-  <td class="stentry"> <p>Specifica un'area di interesse per l'immagine composita. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rassegnare</a> </p> </td> 
+  <td class="stentry"> <p>Specifica un'area di interesse nell'immagine composita. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc" type="reference" format="dita" scope="local"> scl</a> </p></td> 
-  <td class="stentry"> <p>Imposta l’immagine composita per visualizzare il fattore di scala. </p></td> 
+  <td class="stentry"> <p>Imposta l'immagine composita per visualizzare il fattore di scala. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47" type="reference" format="dita" scope="local"> wid</a> </p></td> 
