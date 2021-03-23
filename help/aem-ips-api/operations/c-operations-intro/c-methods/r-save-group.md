@@ -1,23 +1,24 @@
 ---
-description: Creare o modificare un gruppo.
-seo-description: Creare o modificare un gruppo.
+description: Crea o modifica un gruppo.
+seo-description: Crea o modifica un gruppo.
 seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
-topic: Dynamic Media Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 17%
+source-wordcount: '105'
+ht-degree: 16%
 
 ---
 
 
 # saveGroup{#savegroup}
 
-Creare o modificare un gruppo.
+Crea o modifica un gruppo.
 
 Sintassi
 
@@ -33,7 +34,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con il gruppo da salvare. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società con il gruppo che si desidera salvare. |
 | `*`groupHandle`*` | `xsd:string` | No | L&#39;handle del gruppo. |
 | `*`name`*` | `xsd:string` | Sì | Nome del gruppo. |
 | `*`isSystemDefined`*` | `xsd:boolean` | Sì | `false` è il valore predefinito. |
@@ -42,7 +43,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Sì | handle del gruppo. |
+| `*`groupHandle`*` | `xsd:string` | Sì | Maniglia di gruppo. |
 
 ## Esempi {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
