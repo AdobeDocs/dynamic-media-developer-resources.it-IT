@@ -1,15 +1,16 @@
 ---
-description: Dati con bitrate multiplo.
-seo-description: Dati con bitrate multiplo.
+description: Dati a più bit rate.
+seo-description: Dati a più bit rate.
 seo-title: mbrSet
 solution: Experience Manager
 title: mbrSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 829c44ce-c66a-49a9-ba69-9e8e94ef8921
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # mbrSet{#mbrset}
 
-Dati con bitrate multiplo.
+Dati a più bit rate.
 
 `req=mbrSet[,text|xml[, *``*]][&fmt= *`encodingfmtType`*]`
 
@@ -32,16 +33,16 @@ Dati con bitrate multiplo.
  </tr> 
 </table>
 
-Restituisce una risposta di testo o xml che contiene un elenco di URL (e di bitrate corrispondenti) che corrispondono a voci video valide in set di video associate all’ID del percorso di rete.
+Restituisce un testo o una risposta xml che contiene un elenco di URL (e dei bit rate corrispondenti) corrispondenti a voci video valide nel set di video associato all&#39;ID del percorso netto.
 
-Il precedente requisito per cui una voce video valida contiene un valore per `catalog::VideoBitRate` è ora stato semplificato. La voce può contenere un valore per `catalog::VideoBitRate`*o* `catalog::AudioBitRate`*o* `catalog::TotalStreamBitRate`. Affinché la voce video sia valida, è necessario definire solo una di queste opzioni. Tenete presente che i requisiti per `catalog::Path` e un&#39;estensione di file video valida non sono cambiati.
+Il precedente requisito per cui una voce video valida contiene un valore per `catalog::VideoBitRate` è stato semplificato. La voce può contenere un valore per `catalog::VideoBitRate`*o* `catalog::AudioBitRate`*o* `catalog::TotalStreamBitRate`. Per rendere valida la voce video, è necessario definire solo una di queste. Tieni presente che i requisiti per `catalog::Path` e un’estensione file video valida non sono cambiati.
 
-Le risposte sono destinate al consumo da parte di Apple e dei server di streaming Flash e sono quindi strutturalmente conformi a tali specifiche. Gli URL vengono generati utilizzando i prefissi `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
+Le risposte sono destinate al consumo da parte di Apple e Flash Streaming Server e sono quindi strutturalmente conformi a tali specifiche. Gli URL vengono generati utilizzando i prefissi `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
 
 Le risposte m3u8 contengono solo file mp4 se presenti nel set video. Se non sono presenti file mp4, queste risposte contengono solo file f4v. Se non sono presenti file mp4 o f4v, la risposta è vuota.
 
-Le risposte f4m contengono solo file f4v se sono presenti nel set video. Se non sono presenti file f4v, queste risposte contengono solo file mp4. Se non sono presenti file f4v né file mp4, la risposta è vuota.
+Le risposte f4m contengono file f4v solo se sono presenti nel set di video. Se non sono presenti file f4v, queste risposte contengono solo file mp4. Se non sono presenti file f4v né file mp4, la risposta è vuota.
 
-I bitrate visualizzati nelle risposte f4m/m3u8 corrispondono ai valori in `catalog::TotalStreamBitRate` (convertiti in unità appropriate). Se `catalog::TotalStreamBitRate` non è definito, viene utilizzata la somma di `catalog::VideoBitRate` e `catalog::AudioBitRate`.
+I bit rate visualizzati nelle risposte f4m/m3u8 corrispondono ai valori in `catalog::TotalStreamBitRate` (convertiti in unità appropriate). Se `catalog::TotalStreamBitRate` non è definito, viene utilizzata la somma di `catalog::VideoBitRate` e `catalog::AudioBitRate`.
 
 La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::NonImgExpiration`.
