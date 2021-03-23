@@ -4,12 +4,13 @@ seo-description: Profilo colore di output.
 seo-title: icc
 solution: Experience Manager
 title: icc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95a05fe5-d6b3-4118-aab4-4664ccee2850
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> profile</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> profilo</span></span> </p></td> 
   <td class="stentry"> <p>Profilo colore ICC. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -36,15 +37,15 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
  </tr> 
 </table>
 
-*`profile`* specifica il profilo dello spazio colore di output in cui deve essere convertita l’immagine di cui è stato effettuato il rendering, se è diversa dal profilo di lavoro. *`profile`* deve essere un percorso valido  `icc::Name` definito nella mappa del profilo ICC di un catalogo di immagini o di un catalogo predefinito, oppure un percorso relativo a un file di profilo (in genere con  [!DNL .icc]o  [!DNL .icm] suffisso).
+*`profile`* specifica il profilo dello spazio colore di output in cui deve essere convertita l&#39;immagine renderizzata se è diversa dal profilo di lavoro. *`profile`* deve essere un percorso valido  `icc::Name` definito nella mappa del profilo ICC di un catalogo di immagini o di un catalogo predefinito oppure un percorso relativo a un file di profilo (in genere con  [!DNL .icc]o  [!DNL .icm] suffisso).
 
 >[!NOTE]
 >
->*`profile`* può non includere caratteri &#39;,&#39;, anche se con codifica HTTP.
+>*`profile`* potrebbero non includere caratteri &#39;,&#39;, anche se codificati per HTTP.
 
-*`renderIntent`* consente di sovrascrivere l&#39;intento di rendering predefinito.
+*`renderIntent`* consente di ignorare l’intento di rendering predefinito.
 
-*`blackpointComp`* attiva la compensazione dei punti neri se il profilo di output supporta questa funzione.
+*`blackpointComp`* abilita la compensazione dei punti neri se il profilo di output supporta questa funzione.
 
 >[!NOTE]
 >
@@ -52,11 +53,11 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
 
 ## Proprietà {#section-b4042623a8ea40248c11b2153e5906b1}
 
-Può verificarsi ovunque nella richiesta. Se il tipo di immagine specificato con `fmt=` non corrisponde a *`profile`*, viene restituito un errore.
+Può verificarsi in qualsiasi punto della richiesta. Se il tipo di immagine specificato con `fmt=` non corrisponde a *`profile`*, viene restituito un errore.
 
 *`renderIntent`* e  *`blackpointComp`* vengono ignorati se non sono compatibili con il profilo ICC specificato.
 
-È più probabile che i profili dei dispositivi di output CMYK supportino intenti di rendering diversi.
+I profili dispositivo di output CMYK supportano più probabilità di intenti di rendering diversi.
 
 ## Predefinito {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
