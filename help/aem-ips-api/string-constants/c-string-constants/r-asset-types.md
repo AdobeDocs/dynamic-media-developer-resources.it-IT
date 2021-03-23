@@ -1,27 +1,28 @@
 ---
-description: Descrive i valori utilizzati da vari parametri di input. Consultate l'elenco in questo articolo per i dettagli.
-seo-description: Descrive i valori utilizzati da vari parametri di input. Consultate l'elenco in questo articolo per i dettagli.
+description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
+seo-description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
 seo-title: Tipi di risorse
 solution: Experience Manager
 title: Tipi di risorse
-topic: Dynamic Media Image Production System API
 uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '64'
+ht-degree: 10%
 
 ---
 
 
 # Tipi di risorse{#asset-types}
 
-Descrive i valori utilizzati da vari parametri di input. Consultate l&#39;elenco in questo articolo per i dettagli.
+Descrive i valori utilizzati da vari parametri di input. Vedi l&#39;elenco in questo articolo per i dettagli.
 
 Sintassi
 
-## Utilizzata da {#section-2d471a1b240b4f5794454f0e5fcc5206}
+## Utilizzato da {#section-2d471a1b240b4f5794454f0e5fcc5206}
 
 * [!DNL `Input(searchAssetsParam)/assetTypeArray`]
 * [!DNL `Asset/type`]
