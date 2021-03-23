@@ -1,15 +1,16 @@
 ---
-description: La guida API di Image Serving contiene informazioni sulla configurazione e l’utilizzo dell’API di Image Server.
-seo-description: La guida API di Image Serving contiene informazioni sulla configurazione e l’utilizzo dell’API di Image Server.
-seo-title: API Image Serving
+description: La guida API di Image Serving contiene informazioni sulla configurazione e sull’utilizzo dell’API di Image Serving.
+seo-description: La guida API di Image Serving contiene informazioni sulla configurazione e sull’utilizzo dell’API di Image Serving.
+seo-title: API di Image Serving
 solution: Experience Manager
-title: API Image Serving
-topic: Dynamic Media Image Serving - Image Rendering API
+title: API di Image Serving
 uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # API Image Server{#image-serving-api}
 
-La guida API di Image Serving contiene informazioni sulla configurazione e l’utilizzo dell’API di Image Server.
+La guida API di Image Serving contiene informazioni sulla configurazione e sull’utilizzo dell’API di Image Serving.
 
-* [Destinatari](c-intended-audience.md)
-* [Componenti per Image Server](r-components.md)
+* [Pubblico previsto](c-intended-audience.md)
+* [Componenti Image Serving](r-components.md)
 * [Configurazione e amministrazione](c-configuration-and-administration/c-configuration-and-administration.md)
