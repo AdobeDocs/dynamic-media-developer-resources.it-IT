@@ -1,15 +1,16 @@
 ---
-description: URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi.
-seo-description: URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi.
+description: URL principale per gli URL relativi delle immagini. Specifica l'URL principale per gli URL immagine relativi.
+seo-description: URL principale per gli URL relativi delle immagini. Specifica l'URL principale per gli URL immagine relativi.
 seo-title: RootUrl
 solution: Experience Manager
 title: RootUrl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 173ce99a-f87e-4700-a28a-1a87b8c55b85
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 3%
 
 # RootUrl{#rooturl}
 
-URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi.
+URL principale per gli URL relativi delle immagini. Specifica l&#39;URL principale per gli URL immagine relativi.
 
 `attribute::RootUrl` viene utilizzato invece di  `attribute::RootPath` quando un  `src=` valore  `mask=` o è racchiuso tra {parentesi graffe} o (parentesi).
 
 ## Proprietà {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
-Valore stringa di testo. Percorso principale dell&#39;URL assoluto, incluso l&#39;identificatore del protocollo principale. Sono supportati i seguenti protocolli: HTTP, HTTPS e FTP.
+Valore stringa di testo. Percorso radice URL assoluto, incluso l&#39;identificatore del protocollo iniziale. Sono supportati i seguenti protocolli: HTTP, HTTPS e FTP.
 
 ## Predefinito {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 
-Ereditato da `default::RootUrl` se non definito. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo immagini.
+Ereditato da `default::RootUrl` se non definito. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo di immagini.
 
 ## Consultate anche {#section-ade4789086df4e76ae041cd4acfa2f85}
 
