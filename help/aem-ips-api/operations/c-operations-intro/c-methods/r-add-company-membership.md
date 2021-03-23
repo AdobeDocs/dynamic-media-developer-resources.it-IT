@@ -2,12 +2,13 @@
 description: Aggiunge un utente a una o più società.
 solution: Experience Manager
 title: addCompanyMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 11%
 
 ---
 
@@ -31,8 +32,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L’handle per l’utente di cui si desidera aggiungere l’iscrizione. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di società a cui si sta aggiungendo l&#39;utente. |
+| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera aggiungere l&#39;iscrizione. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di aziende a cui aggiungere l’utente. |
 
 **Output (addCompanyMembershipReturn)**
 
@@ -40,7 +41,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-5469f88bac7047cca131faa6b021e437}
 
-In questo esempio viene utilizzato `*`companyHandleArray`*` per aggiungere un utente a una singola società.
+In questo esempio viene utilizzato `*`companyHandleArray`*` per aggiungere un utente a una singola azienda.
 
 **Request Contents (Richiesta contenuto)**
 
