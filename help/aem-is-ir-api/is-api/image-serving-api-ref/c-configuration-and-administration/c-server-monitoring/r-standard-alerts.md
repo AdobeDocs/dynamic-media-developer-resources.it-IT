@@ -4,12 +4,13 @@ seo-description: Gli avvisi standard vengono inviati con un messaggio e-mail con
 seo-title: Avvisi standard
 solution: Experience Manager
 title: Avvisi standard
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3294434-a44b-4742-9d77-a6945760d33c
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -24,16 +25,16 @@ La tabella seguente descrive ogni tipo di avviso standard.
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Tipo avviso</b> </th> 
-   <th class="entry"> <b>ID titolo</b> </th> 
+   <th class="entry"> <b>Tipo di avviso</b> </th> 
+   <th class="entry"> <b>Id Titolo</b> </th> 
    <th class="entry"> <b>Descrizione</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p>Richiesta bloccata </p> </td> 
-   <td> <p>Lock </p> </td> 
-   <td> <p>Inviato quando una richiesta non riesce a restituire una risposta al client entro la soglia specificata. Può essere indicativo delle richieste appese, che possono causare la riduzione del pool di thread Java. </p> </td> 
+   <td> <p>Blocca </p> </td> 
+   <td> <p>Inviato quando una richiesta non riesce a restituire una risposta al client entro la soglia specificata. Può essere indicativo delle richieste Hung, che possono causare l'implementazione del pool di thread Java. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Alta concorrenza </p> </td> 
@@ -42,18 +43,18 @@ La tabella seguente descrive ogni tipo di avviso standard.
   </tr> 
   <tr> 
    <td> <p>Traffico minimo </p> </td> 
-   <td> <p>Traf </p> </td> 
-   <td> <p>Generato quando il tasso di richiesta globale scende al di sotto della soglia specificata. In genere indica un problema di comunicazione con il server (ad es. quando un server viene scollegato). </p> </td> 
+   <td> <p>Traccia </p> </td> 
+   <td> <p>Generato quando il tasso di richiesta complessivo scende al di sotto della soglia specificata. In genere indica un problema di comunicazione del server (ad esempio quando un server viene scollegato). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Frequenza errori </p> </td> 
    <td> <p>Errore </p> </td> 
-   <td> <p>Emessa quando la frequenza media delle risposte di errore HTTP durante l’intervallo di campionamento supera la soglia specificata. Può essere indicativo di problemi di configurazione, immagini mancanti o errori di programmazione del sito Web o del database. </p> </td> 
+   <td> <p>Inviato quando la frequenza media delle risposte agli errori HTTP durante l’intervallo di campionamento supera la soglia specificata. Può essere indicativo di problemi di configurazione, immagini mancanti o errori di programmazione o database del sito web. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tempo di risposta </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>Inviato quando il tempo medio di elaborazione della richiesta durante l’intervallo di campionamento cresce al di sopra della soglia specificata. In genere indica una condizione di sovraccarico temporaneo o permanente del server o del sistema di memorizzazione delle immagini di back-end. </p> <p>Le risposte agli errori non vengono prese in considerazione quando si calcola il tempo medio di risposta. </p> </td> 
+   <td> <p>Inviato quando il tempo medio di elaborazione della richiesta durante l’intervallo di campionamento cresce al di sopra della soglia specificata. In genere indica una condizione di sovraccarico temporaneo o persistente del server o del sistema di archiviazione delle immagini di backend. </p> <p>Le risposte agli errori non vengono prese in considerazione quando si calcola il tempo medio di risposta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
