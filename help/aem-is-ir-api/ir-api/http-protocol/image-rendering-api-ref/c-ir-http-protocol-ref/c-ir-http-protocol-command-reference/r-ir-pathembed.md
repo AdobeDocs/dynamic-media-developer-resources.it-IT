@@ -1,15 +1,16 @@
 ---
-description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignettatura devono essere inclusi nell'immagine di risposta.
-seo-description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignettatura devono essere inclusi nell'immagine di risposta.
+description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignetta devono essere inclusi nell'immagine di risposta.
+seo-description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignetta devono essere inclusi nell'immagine di risposta.
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d40ea1b5-f2d3-4f81-b96f-abb4eb7eb2b3
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 3%
 
 # pathEmbed{#pathembed}
 
-Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignettatura devono essere inclusi nell&#39;immagine di risposta.
+Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignetta devono essere inclusi nell&#39;immagine di risposta.
 
 `pathEmbed=0|1`
 
 ## Proprietà {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Attributo di richiesta. Ignorato se la vignettatura non contiene dati sui percorsi. Se necessario, i dati dei percorsi vengono ridimensionati su `wid=` e/o `hei=`.
+Attributo di richiesta. Ignorato se la vignetta non contiene dati di percorsi. Se necessario, i dati dei percorsi vengono ridimensionati su `wid=` e/o `hei=` .
 
-Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporazione del percorso. Fare riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l&#39;incorporamento dei percorsi.
+Ignorato se il formato immagine di output non supporta l’incorporazione del percorso. Fare riferimento alla descrizione di `fmt=` per un elenco dei formati immagine di output che supportano l&#39;incorporazione del percorso.
 
 ## Predefinito {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, per non incorporare tracciati nelle immagini di output.
+`pathEmbed=0`, per non incorporare percorsi nelle immagini di output.
 
 ## Consultate anche {#section-4e6151658c384b6f9d0446f55dde7b7f}
 
