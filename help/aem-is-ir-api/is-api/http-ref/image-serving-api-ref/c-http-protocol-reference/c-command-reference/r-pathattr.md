@@ -1,15 +1,16 @@
 ---
-description: Attributi del testo sul tracciato.
-seo-description: Attributi del testo sul tracciato.
+description: Attributi del testo sul percorso.
+seo-description: Attributi del testo sul percorso.
 seo-title: pathAttr
 solution: Experience Manager
 title: pathAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b0ca5821-ee08-4c18-919d-775b75f19acd
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # pathAttr{#pathattr}
 
-Attributi del testo sul tracciato.
+Attributi del testo sul percorso.
 
 ` pathAttr= *``*[, *``*[, *`directionstartPosendPos`*]]`
 
@@ -28,23 +29,23 @@ Attributi del testo sul tracciato.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>Posizione iniziale testo sul percorso (0.0...1.0 reale). </p> </td> 
+  <td class="stentry"> <p>Posizione iniziale testo sul percorso (reale 0.0...1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
-  <td class="stentry"> <p>Posizione finale del testo sul percorso (0.0...&lt;2.0). </p> </td> 
+  <td class="stentry"> <p>Posizione finale del testo sul percorso (reale 0.0...&lt;2.0). </p> </td> 
  </tr> 
 </table>
 
 Specificare `norm` per disegnare il testo partendo dal primo vertice del tracciato e `reverse` per disegnare il testo nella direzione opposta, partendo dall&#39;ultimo vertice.
 
-*`startPos`* e  *`endPos`* consentire la regolazione della posizione sul tracciato in cui verrà disegnato il testo. 0,0 corrisponde al primo vertice del tracciato e 1,0 all’ultimo vertice; i valori intermedi indicano la distanza lungo il percorso tra il primo e l’ultimo vertice.
+*`startPos`* e  *`endPos`* consentire la regolazione del punto in cui verrà tracciato il testo. 0,0 corrisponde al primo vertice del percorso e 1,0 all’ultimo vertice; i valori intermedi esprimono la distanza lungo il percorso tra il primo e l&#39;ultimo vertice.
 
 ## Proprietà {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Attributo layer. Ignorato se il livello non include i comandi `textPs=` e `textPath=`.
+Attributo livello. Ignorato se il livello non include i comandi `textPs=` e `textPath=`.
 
-*`startPos`* deve essere maggiore o uguale a 0 e minore di 1.0.  *`endPos`* deve essere maggiore  *`startPos`* e minore o uguale a 1.0 se applicato a un tracciato aperto, o minore o uguale a (  *`startPos`* + 1.0) se applicato a un tracciato chiuso.
+*`startPos`* deve essere maggiore o uguale a 0 e minore di 1.0.  *`endPos`* deve essere maggiore  *`startPos`* e minore o uguale a 1.0 se applicato a un percorso aperto, o minore o uguale a (  *`startPos`* + 1.0) se applicato a un percorso chiuso.
 
 ## Predefinito {#section-3e757970885c45e7b6100e78dc08626f}
 
