@@ -2,18 +2,19 @@
 description: Appartenenza alla società
 solution: Experience Manager
 title: Appartenenza alla società
-topic: Dynamic Media Image Production System API
 uuid: 005e01d0-178b-44a9-ad50-67c47beba421
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 19%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 
 
-# CompanyMembership{#companymembership}
+# Appartenenza alla società{#companymembership}
 
 Sintassi
 
@@ -21,7 +22,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`company`*` | `types:Company` |  |
-| `*`role`*` | `xsd:string` |  |
-| `*`isActive`*` | `xsd:boolean` | Imposta lo stato dell&#39;utente per ogni società a cui appartiene. |
+| `*`azienda`*` | `types:Company` |  |
+| `*`ruolo`*` | `xsd:string` |  |
+| `*`isActive`*` | `xsd:boolean` | Imposta lo stato dell’utente per ogni società a cui appartiene. |
 
