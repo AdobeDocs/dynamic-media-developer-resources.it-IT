@@ -4,12 +4,13 @@ seo-description: Ottiene i dettagli di un registro dei processi aziendali.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '231'
 ht-degree: 8%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 8%
 
 Ottiene i dettagli di un registro dei processi aziendali.
 
-Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `locale`.
+Il campo di risposta `logMessage` viene localizzato in base al campo `authHeader` `locale` .
 
 ## Tipi di utenti autorizzati {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -50,7 +51,7 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della società a cui appartiene il registro dei processi. </td> 
+   <td colname="col4"> L'handle della società a cui appartiene il job log. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -59,16 +60,16 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col4"> Un handle per un processo attivo o completato. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> OriginalName</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nome originale del registro processi. </td> 
+   <td colname="col4"> Nome originale del job log. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o più costanti Log Type. Se presente, verranno restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
+   <td colname="col4"> Una o più costanti del tipo di log. Se presente, verranno restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
@@ -80,13 +81,13 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Numero di pagina di <span class="codeph"> recordsPerPage</span>-result da restituire. Il valore predefinito è 1. </td> 
+   <td colname="col4">Numero di pagina dei risultati di <span class="codeph"> recordsPerPage</span> da restituire. Il valore predefinito è 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Uno dei valori costanti del campo ordinamento dettagli processo (Date o LogType). Il valore predefinito è Data. </p> </td> 
+   <td colname="col4"> <p>Uno dei valori costanti del campo di ordinamento dettagli processo (Data o tipo di log). Il valore predefinito è Data. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
@@ -101,11 +102,11 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:JobLogArray` | Sì | Array di registri di processo. |
+| `*`jobLogArray`*` | `types:JobLogArray` | Sì | Array di registri di lavoro. |
 
 ## Esempi {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Questo esempio di codice restituisce tutti i dettagli del registro dei processi per una società specifica. La prima matrice contiene i dettagli standard del registro dei processi. Un array incorporato restituisce informazioni aggiuntive sul processo.
+Questo esempio di codice restituisce tutti i dettagli del registro di lavoro per una società specifica. La prima matrice contiene i dettagli del registro di lavoro standard. Una matrice incorporata restituisce informazioni aggiuntive sul processo.
 
 **Request Contents (Richiesta contenuto)**
 
