@@ -4,12 +4,13 @@ seo-description: Stringa modificatore richiesta prefisso. Nessuno o più comandi
 seo-title: Modificatore
 solution: Experience Manager
 title: Modificatore
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 7%
 
 ---
@@ -21,7 +22,7 @@ Stringa modificatore richiesta prefisso. Nessuno o più comandi Image Server sep
 
 Utilizzato per modificare in modo permanente le immagini e memorizzare il corpo dei modelli.
 
-I comandi in questo campo vengono sostituiti dagli stessi comandi nella richiesta o nel modello a cui viene fatto riferimento e dai comandi in `catalog::PostModifier`
+I comandi in questo campo vengono ignorati dagli stessi comandi nella richiesta o nel modello a cui si fa riferimento per questo record e dai comandi in `catalog::PostModifier`
 
 Le macro sono consentite in `catalog::Modifier`, purché siano definite nello stesso catalogo o nel catalogo predefinito. È possibile utilizzare anche variabili personalizzate.
 
