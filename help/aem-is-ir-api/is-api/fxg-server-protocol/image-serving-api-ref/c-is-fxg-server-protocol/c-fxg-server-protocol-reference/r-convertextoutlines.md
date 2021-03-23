@@ -4,12 +4,13 @@ seo-description: Convertire il testo in un file PDF in contorni.
 seo-title: convertTextToOutlines
 solution: Experience Manager
 title: convertTextToOutlines
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
@@ -26,6 +27,6 @@ Convertire il testo in un file PDF in contorni.
  </tr> 
 </table>
 
-Utilizzare il comando URL `convertTextToOutlines=1` per modificare tutto il testo di un file PDF in tracciati contornati.
+Usa il comando URL `convertTextToOutlines=1` per modificare tutto il testo di un file PDF in percorsi delineati.
 
-Quando un effetto viene applicato al testo in un file PDF, ad esempio convertendo il testo in contorni, l’immagine finale sottoposta a rendering viene ridotta o &quot;appiattita&quot; in dimensioni.
+Quando viene applicato un effetto al testo in un file PDF, ad esempio la conversione del testo in contorni, l&#39;immagine finale sottoposta a rendering viene ridotta o &quot;appiattita&quot; in dimensioni.
