@@ -4,18 +4,19 @@ seo-description: Proprietà catalogo immagini. Restituisce gli attributi comuni 
 seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '237'
 ht-degree: 6%
 
 ---
 
 
-# catalog ogprops{#catalogprops}
+# catalogprops{#catalogprops}
 
 Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo immagini specificato nel percorso della richiesta.
 
@@ -28,9 +29,9 @@ Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo imma
  </tr> 
 </table>
 
-Omettete l&#39;ID catalogo per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]). La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
+Ometti l’ID catalogo per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]). La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
+Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -47,48 +48,48 @@ Vengono restituiti i seguenti valori di proprietà:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
-   <td> <p> eccitare </p> </td> 
-   <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
+   <td> <p> esasperare </p> </td> 
+   <td> <p> <span class="codeph"> attributo::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::defaultExt</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::DefaultExt</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultThumbPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::DefaultThumbPix</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.expires</span> </p> </td> 
-   <td> <p> real </p> </td> 
+   <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
+   <td> <p> reale </p> </td> 
    <td> <p> <span class="codeph"> attributo::Scadenza</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
-   <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExpiration</span> </p> </td> 
+   <td> <p> reale </p> </td> 
+   <td> <p> <span class="codeph"> attributo::DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
-   <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute::NonImgExpiration</span> </p> </td> 
+   <td> <p> reale </p> </td> 
+   <td> <p> <span class="codeph"> attributo::NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span> o, se non presente, l'ora dell'ultima modifica del  <span class="varname"> catalogo</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> attributo::LastModified</span> o, se non presente, l'ultima ora di modifica del  <span class="varname"> catalogo</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
-   <td> <p> int,bool </p> </td> 
-   <td> <p> <span class="codeph"> attribute::JpegQuality</span> </p> </td> 
+   <td> <p> int,booleano </p> </td> 
+   <td> <p> <span class="codeph"> attributo::JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
@@ -108,16 +109,16 @@ Vengono restituiti i seguenti valori di proprietà:
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ResMode</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::ResMode</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
-   <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute:Resolution</span> </p> </td> 
+   <td> <p> reale </p> </td> 
+   <td> <p> <span class="codeph"> attributo::Resolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
-   <td> <p> eccitare </p> </td> 
+   <td> <p> esasperare </p> </td> 
    <td> <p> <span class="codeph"> attributo::ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
@@ -127,13 +128,13 @@ Vengono restituiti i seguenti valori di proprietà:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
-   <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbRes</span> </p> </td> 
+   <td> <p> reale </p> </td> 
+   <td> <p> <span class="codeph"> attributo::ThumbRes</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
@@ -141,7 +142,7 @@ Vengono restituiti i seguenti valori di proprietà:
    <td> <p> <span class="codeph"> attributo::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo:filigrana</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::filigrana</span> </p> </td> 
    <td> <p> string </p> </td> 
    <td> <p> <span class="codeph"> attributo::Filigrana</span> </p> </td> 
   </tr> 
