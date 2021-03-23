@@ -1,12 +1,13 @@
 ---
-description: Descrive i tipi nuovi e modificati per l'API IPS versione 6.
+description: Descrive i tipi nuovi e modificati per l’API IPS versione 6.
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Tipi di dati: Nuovo e modificato{#data-types-new-and-modified}
 
-Descrive i tipi nuovi e modificati per l&#39;API IPS versione 6.
+Descrive i tipi nuovi e modificati per l’API IPS versione 6.
 
 Sintassi
 
@@ -40,19 +41,19 @@ Sintassi
 
 **Aggiunto**
 
-* Aggiunto `numUrls` a `UploadUrlsJob`.
+* È stato aggiunto `numUrls` a `UploadUrlsJob`.
 
 * Aggiunto `fileName` a `Asset.`
 
-* Aggiunto `isHidden` a `MetadataField`.
+* È stato aggiunto `isHidden` a `MetadataField`.
 
-* Aggiunto `taskState` a `TaskProgress`.
+* È stato aggiunto `taskState` a `TaskProgress`.
 
-* Aggiunto `exportJob` a `ActiveJob` e `ScheduledJob`.
+* Sono stati aggiunti `exportJob` a `ActiveJob` e `ScheduledJob`.
 
 * Sono stati aggiunti `optmizedPath` e `optimizedFile` a `PsdInfo`.
 
-* Aggiunto `contextHandle` a:
+* È stato aggiunto `contextHandle` a:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
