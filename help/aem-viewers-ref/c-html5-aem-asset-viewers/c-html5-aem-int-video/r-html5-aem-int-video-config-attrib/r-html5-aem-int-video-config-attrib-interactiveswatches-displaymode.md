@@ -1,31 +1,32 @@
 ---
-description: Attributo di configurazione per il visualizzatore video interattivo.
-seo-description: Attributo di configurazione per il visualizzatore video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
+seo-description: Attributo di configurazione per Visualizzatore video interattivo.
 seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-topic: Dynamic Media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Attributo di configurazione per il visualizzatore video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continue|Segmento</span> </p> </td> 
-   <td colname="col2"> <p> Compila continuamente i campioni interattivi con le miniature, indipendentemente dai bordi del segmento o, consentendo allo spazio vuoto di osservare i bordi del segmento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> segmento continuo</span> </p> </td> 
+   <td colname="col2"> <p> Popola continuamente i campioni interattivi con miniature indipendentemente dai bordi dei segmenti o, consente allo spazio vuoto di annotare i bordi dei segmenti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
