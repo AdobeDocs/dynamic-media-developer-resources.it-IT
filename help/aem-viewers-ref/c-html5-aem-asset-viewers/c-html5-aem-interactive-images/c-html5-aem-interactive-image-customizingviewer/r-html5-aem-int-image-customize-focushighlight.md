@@ -1,29 +1,30 @@
 ---
-description: L'evidenziazione dello stato attivo visualizzata attorno all'elemento dell'interfaccia utente del visualizzatore mirato è controllata dal selettore di classe CSS.
-seo-description: L'evidenziazione dello stato attivo visualizzata attorno all'elemento dell'interfaccia utente del visualizzatore mirato è controllata dal selettore di classe CSS.
-seo-title: Evidenziazione dello stato
+description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
+seo-description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
+seo-title: Evidenziazione
 solution: Experience Manager
-title: Evidenziazione dello stato
-topic: Dynamic Media
+title: Evidenziazione
 uuid: 56600f9c-c51e-40a4-93b6-a43902ef5ff1
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
 
-# Evidenziazione della messa a fuoco{#focus-highlight}
+# Evidenziazione messa a fuoco{#focus-highlight}
 
-L&#39;evidenziazione dello stato attivo visualizzata attorno all&#39;elemento dell&#39;interfaccia utente del visualizzatore mirato è controllata dal selettore di classe CSS.
+L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Proprietà CSS**
 
-L&#39;aspetto è controllato dal seguente selettore di classe CSS:
+L’aspetto viene controllato con il seguente selettore di classe CSS:
 
 ```
 .s7interactiveimage *:focus
@@ -39,12 +40,12 @@ L&#39;aspetto è controllato dal seguente selettore di classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
-   <td colname="col2"> <p>Stile evidenziazione dello stato attivo. </p> </td> 
+   <td colname="col2"> <p>Stile evidenziazione focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per disattivare l&#39;evidenziazione dello stato attivo predefinito del browser per tutti gli elementi dell&#39;interfaccia utente del visualizzatore, aggiungete il seguente selettore CSS al foglio di stile del visualizzatore:
+Esempio: per disattivare l’evidenziazione dello stato attivo predefinito del browser per tutti gli elementi dell’interfaccia utente del visualizzatore, aggiungi il seguente selettore CSS al foglio di stile del visualizzatore:
 
 ```
 .s7interactiveimage *:focus { 
