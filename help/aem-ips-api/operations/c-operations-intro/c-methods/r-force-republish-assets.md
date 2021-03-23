@@ -1,15 +1,16 @@
 ---
-description: Ripristina lo stato di pubblicazione di una o più risorse per obbligare la risorsa a essere ripubblicata nel processo di pubblicazione successivo.
-seo-description: Ripristina lo stato di pubblicazione di una o più risorse per obbligare la risorsa a essere ripubblicata nel processo di pubblicazione successivo.
+description: Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
+seo-description: Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-topic: Dynamic Media Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '191'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Ripristina lo stato di pubblicazione di una o più risorse per obbligare la risorsa a essere ripubblicata nel processo di pubblicazione successivo.
+Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
 
 Sintassi
 
@@ -48,25 +49,25 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestite la società che contiene le risorse da reimpostare. </p> </td> 
+   <td colname="col4"> <p>Gestisci l’azienda contenente le risorse da reimpostare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di distribuzione. Il valore predefinito è <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di consegna. Predefinito su <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per distribuire la risorsa vengono sincronizzati per garantire che sia corrente. Questo parametro viene utilizzato per risolvere le condizioni di gara che potrebbero verificarsi in caso di aggiornamenti simultanei allo stesso record. Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per elaborare la risorsa vengono sincronizzati per garantirne l’aggiornamento. Questo parametro viene utilizzato per risolvere le condizioni di corsa che potrebbero verificarsi in caso di aggiornamenti simultanei vicini allo stesso record. Valori predefiniti in <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:HandleArray</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Array di handle per risorse il cui stato di pubblicazione deve essere reimpostato. </p> </td> 
+   <td colname="col4"> <p>Array di handle per le risorse il cui stato di pubblicazione deve essere reimpostato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
