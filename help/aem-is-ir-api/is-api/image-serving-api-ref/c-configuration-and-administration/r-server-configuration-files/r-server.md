@@ -4,12 +4,13 @@ seo-description: Contiene le impostazioni del server della piattaforma.
 seo-title: server.xml
 solution: Experience Manager
 title: server.xml
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Contiene le impostazioni del server della piattaforma.
 
-Durante la modifica di questo file XML, è necessario mantenere una sintassi XML valida, in caso contrario il server della piattaforma potrebbe non avviarsi.
+Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti il server Platform potrebbe non avviarsi.
 
-Affinché le modifiche abbiano effetto, il server piattaforma deve essere riavviato dopo la modifica di questo file.
+Affinché le modifiche abbiano effetto, Platform Server deve essere riavviato dopo aver modificato questo file.
 
-Nel diagramma seguente sono illustrate le impostazioni che possono essere modificate in questo file. Per una descrizione di queste impostazioni, fare riferimento alle sezioni corrispondenti presenti in precedenza nel documento. Nota che questo diagramma non è una rappresentazione completa di [!DNL server.xml].
+Il diagramma seguente illustra quali impostazioni possono essere modificate in questo file. Per una descrizione di queste impostazioni, fare riferimento alle sezioni corrispondenti presenti in questo documento. Tieni presente che questo diagramma non è una rappresentazione completa di [!DNL server.xml].
 
 ```
 <Server>
