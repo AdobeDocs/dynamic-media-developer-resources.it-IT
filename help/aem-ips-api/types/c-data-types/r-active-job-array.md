@@ -1,23 +1,24 @@
 ---
-description: Un array di processi attivi.
-seo-description: Un array di processi attivi.
+description: Matrice di processi attivi.
+seo-description: Matrice di processi attivi.
 seo-title: ActiveJobArray
 solution: Experience Manager
 title: ActiveJobArray
-topic: Dynamic Media Image Production System API
 uuid: 05b01068-ba54-45f8-8c26-ec462df768e2
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
 
 # ActiveJobArray{#activejobarray}
 
-Un array di processi attivi.
+Matrice di processi attivi.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ActiveJob` | Matrice di processi attivi. |
+| `*`elementi`*` | `types:ActiveJob` | Array di processi attivi. |
 
