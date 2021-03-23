@@ -2,12 +2,13 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-topic: Dynamic Media
 uuid: 7c63a7c5-ac75-485d-94ac-d1e133fbe44f
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 3%
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`Sensibilità `*[, *`xSensibilità`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *``*[, *`Sensibilitàx`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensibilità</span>[,  <span class="varname"> Sensibilità</span> y]</span> </p> </td> 
-   <td colname="col2"> <p> Controlla la sensibilità della rotazione orizzontale e verticale eseguita mediante trascinamento del mouse o passaggio del dito. </p> <p> <span class="codeph"> </span> xSensitivityimposta quante rotazioni di prodotto orizzontali vengono effettuate se l'utente trascina il mouse in orizzontale da un lato all'altro della vista. Ad esempio, tre significa che l’utente vede tre rotazioni complete per un gesto di trascinamento completo. </p> <p>Analogamente, <span class="codeph"> ySensitive</span> controlla la sensibilità della rotazione verticale. Un valore pari a 1 indica che un trascinamento verticale completo modifica l’angolo di visualizzazione dal piano di rotazione superiore a quello più in basso (o viceversa). </p> <p>Se si imposta un valore negativo per <span class="codeph"> ySensitive</span>, la direzione della rotazione verticale viene invertita. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Sensibilità</span>[,  <span class="varname"> sensibilità</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Controlla la sensibilità della rotazione orizzontale e verticale eseguita con un trascinamento del mouse o un passaggio del mouse. </p> <p> <span class="codeph"> </span> xSensitivityimposta quante rotazioni di prodotto orizzontali vengono effettuate se l'utente trascina il mouse in orizzontale da un lato all'altro della visualizzazione. Ad esempio, tre significa che l’utente visualizza tre giri completi per un gesto di trascinamento completo. </p> <p>Allo stesso modo, <span class="codeph"> Sensibilità</span> controlla la sensibilità della rotazione verticale. Un valore pari a 1 indica che un trascinamento verticale completo cambia l’angolo di visualizzazione dal piano di rotazione più in alto a quello più in basso (o viceversa). </p> <p>Impostando un valore negativo per <span class="codeph"> ySensitive</span> si inverte la direzione della rotazione verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
