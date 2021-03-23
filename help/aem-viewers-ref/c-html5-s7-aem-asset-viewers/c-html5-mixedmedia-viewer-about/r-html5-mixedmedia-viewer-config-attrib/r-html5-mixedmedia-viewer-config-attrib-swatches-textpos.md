@@ -2,13 +2,14 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-topic: Dynamic Media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +23,8 @@ ht-degree: 8%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l’etichetta rispetto alla miniatura del campione. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Quando si specifica <span class="codeph"> tooltip</span>, non viene disegnata alcuna etichetta. </p> </td> 
+   <td> <p> <span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comandi</span> </p> </td> 
+   <td> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine di miniatura del campione. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Quando si specifica <span class="codeph"> tooltip</span>, non viene disegnata alcuna etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
