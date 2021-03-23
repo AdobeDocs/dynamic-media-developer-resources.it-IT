@@ -1,12 +1,13 @@
 ---
-description: Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
+description: Le operazioni e i tipi di dati nuovi o modificati disponibili nella versione beta WSDL non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
 solution: Experience Manager
 title: Uso limitato
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Uso limitato{#restricted-use}
 
-Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
+Le operazioni e i tipi di dati nuovi o modificati disponibili nella versione beta WSDL non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
 
-Tali operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione dagli aggiornamenti di sistema successivi.
+Queste operazioni e questi tipi sono soggetti a disabilitazione, modifica o rimozione con gli aggiornamenti successivi del sistema.
 
 **Nuovi tipi**
 
@@ -33,11 +34,11 @@ Tali operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione dag
 **Nuove operazioni**
 
 * applyMetadataTemplate
-* batchGetAssetPublishContext
+* batchGetAssetPublishContexts
 * createCompanyMetadata
 * deleteCompanyMetadata
 * getCompanyMetadata
-* getPublishContext
+* getPublishContexts
 * listCompanyMetadata
 * removeMask
 * removePropertySetPermissions
@@ -52,58 +53,58 @@ Tali operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione dag
 
 **Tipi modificati**
 
-* Modificato `ActiveJob` per includere un tipo `createVideoSitemapJob`
+* È stato modificato `ActiveJob` per includere un tipo `createVideoSitemapJob`
 
-* Modificato `ScheduledJob` per includere un tipo `createVideoSitemapJob`
+* È stato modificato `ScheduledJob` per includere un tipo `createVideoSitemapJob`
 
-* Modificato `ImageServingPublishJob` per includere un `contextHandle` facoltativo
+* È stato modificato `ImageServingPublishJob` in modo da includere un `contextHandle` facoltativo
 
-* Modificato `ImageRenderingPublishJob` per includere un `contextHandle` facoltativo
+* È stato modificato `ImageRenderingPublishJob` in modo da includere un `contextHandle` facoltativo
 
-* Modificato `MetadataField` per includere un `initialTagField` facoltativo
+* È stato modificato `MetadataField` in modo da includere un `initialTagField` facoltativo
 
-* Modificato `MetadataCondition` per includere e il parametro opzionale `caseSensitive`
+* È stato modificato `MetadataCondition` per includere e il parametro opzionale `caseSensitive`
 
-* Modificato `PropertySet` per includere un `PermissionArray` facoltativo come `permissions`
+* È stato modificato `PropertySet` in modo da includere un `PermissionArray` facoltativo come `permissions`
 
-* Modificato `UploadDirectoryJob` per includere i parametri opzionali `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride`
+* Modificato `UploadDirectoryJob` per includere i parametri facoltativi `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride`
 
-* Modificato `VideoPublishJob` per includere un `contextHandle` facoltativo
+* È stato modificato `VideoPublishJob` in modo da includere un `contextHandle` facoltativo
 
 **Operazioni modificate**
 
-* Modificato `createAssetSet` per includere un `thumbAssetHandle` facoltativo
+* È stato modificato `createAssetSet` in modo da includere un `thumbAssetHandle` facoltativo
 
-* Modificato `createImageSet` per includere un `thumbAssetHandle` facoltativo
+* È stato modificato `createImageSet` in modo da includere un `thumbAssetHandle` facoltativo
 
-* Modificato `createMetadataField` per includere un parametro opzionale `initialTagValue`
+* È stato modificato `createMetadataField` per includere un parametro opzionale `initialTagValue`
 
-* Modificato `createPropertySet` per includere un `PermissionUpdateArray` facoltativo come `permissionArray`
+* È stato modificato `createPropertySet` in modo da includere un `PermissionUpdateArray` facoltativo come `permissionArray`
 
-* Modificato `getImageServingPublishSettings` per includere un parametro opzionale `contextHandle`
+* È stato modificato `getImageServingPublishSettings` per includere un parametro opzionale `contextHandle`
 
-* Modificato `getImageRenderingPublishSettings` per includere un parametro opzionale `contextHandle`
+* È stato modificato `getImageRenderingPublishSettings` per includere un parametro opzionale `contextHandle`
 
-* Modificato `searchAssetsByFullText` per includere una serie di parametri opzionali:
+* È stata modificata `searchAssetsByFullText` per includere una serie di parametri facoltativi:
 
-   * `SearchFilter` as,  `filters` parametro
+   * `SearchFilter` come  `filters` parametro
 
    * `sortBy`
    * `sortDirection`
 
-* Modificato `searchAssetsByMetadata` per includere una serie di parametri opzionali:
+* È stata modificata `searchAssetsByMetadata` per includere una serie di parametri facoltativi:
 
-   * `SearchFilter` as,  `filters` parametro
+   * `SearchFilter` come  `filters` parametro
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` sequenza di sette parametri
 
-* Modificato `setAssetPublishState` per includere un `HandleArray` facoltativo come `contextHandleArray`
+* È stato modificato `setAssetPublishState` in modo da includere un `HandleArray` facoltativo come `contextHandleArray`
 
-* Modificato `setImageServingPublishSettings` per includere un parametro opzionale `contextHandle`
+* È stato modificato `setImageServingPublishSettings` per includere un parametro opzionale `contextHandle`
 
-* Modificato `setImageRenderingPublishSettings` per includere un parametro opzionale `contextHandle`
+* È stato modificato `setImageRenderingPublishSettings` per includere un parametro opzionale `contextHandle`.
 
-* Modificato `submitJob` per includere un tipo di processo `createVideoSitemap` facoltativo
+* È stato modificato `submitJob` per includere un tipo di processo `createVideoSitemap` facoltativo
 
