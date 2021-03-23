@@ -1,32 +1,33 @@
 ---
-description: Le impostazioni di questa sezione si applicano alle risposte al set di file multimediali ottenute dal modificatore req=set.
-seo-description: Le impostazioni di questa sezione si applicano alle risposte al set di file multimediali ottenute dal modificatore req=set.
-seo-title: Risposte ai set di file multimediali
+description: Le impostazioni in questa sezione si applicano alle risposte del set di file multimediali ottenute dal modificatore req=set .
+seo-description: Le impostazioni in questa sezione si applicano alle risposte del set di file multimediali ottenute dal modificatore req=set .
+seo-title: Risposte al set di file multimediali
 solution: Experience Manager
-title: Risposte ai set di file multimediali
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Risposte al set di file multimediali
 uuid: 9fa6a38a-cd1f-499b-a2b6-e1a9a6c69ed0
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 
-# Risposte ai set di file multimediali{#media-set-responses}
+# Risposte al set di file multimediali{#media-set-responses}
 
-Le impostazioni di questa sezione si applicano alle risposte al set di file multimediali ottenute dal modificatore req=set.
+Le impostazioni in questa sezione si applicano alle risposte del set di file multimediali ottenute dal modificatore req=set .
 
 ## PS::fvctx.useCatalogRecordValidation - Criterio di memorizzazione nella cache {#section-9accb087d16548a988993bb30395a6f6}
 
-Questa proprietà controlla il criterio di caching quando si determina se è necessario rigenerare la risposta recuperata dalla cache. Se la proprietà è disabilitata, per la convalida viene utilizzata la marca temporale del file [!DNL catalog.ini]. Se la proprietà è abilitata, per la convalida viene utilizzata la marca temporale `catalog::LastModified` più recente di tutti i record a cui si fa riferimento.
+Questa proprietà controlla il criterio di caching quando si determina se è necessario rigenerare o meno la risposta recuperata dalla cache. Se la proprietà è disabilitata, per la convalida viene utilizzata la marca temporale del file [!DNL catalog.ini] . Se la proprietà è abilitata, per la convalida viene utilizzata la marca temporale più recente `catalog::LastModified` di tutti i record a cui si fa riferimento.
 
 ## PS::fvctx.nestingLimit - Limite di nidificazione {#section-280210341f1647fea02590e7069934d2}
 
 La profondità massima di nidificazione di qualsiasi risposta `req=set`. Se questa profondità viene superata, viene restituito un errore.
 
-## PS::fvctx.brochureLimit - Limite brochure {#section-fe36e47db49244cea7f07e9dd3639440}
+## PS::fvctx.brochureLimit - Limite della brochure {#section-fe36e47db49244cea7f07e9dd3639440}
 
-Il numero massimo di brochure di e-Catalog nella risposta `req=set` che contiene tutti i metadati associati. Una volta superato tale limite, tutte le mappe private e i dati utente associati alla brochure vengono eliminati.
+Il numero massimo di brochure dell&#39;e-catalog nella risposta `req=set` che contiene tutti i metadati associati. Una volta superato questo limite, vengono soppresse tutte le mappe private e i dati utente associati alla voce della brochure.
