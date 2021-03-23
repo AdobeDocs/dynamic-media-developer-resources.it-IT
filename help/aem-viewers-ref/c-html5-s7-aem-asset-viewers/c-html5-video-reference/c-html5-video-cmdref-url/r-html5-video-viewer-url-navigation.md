@@ -1,27 +1,28 @@
 ---
-description: URL per il visualizzatore video.
-seo-description: URL per il visualizzatore video.
-seo-title: navigation
+description: Comando URL per il visualizzatore video.
+seo-description: Comando URL per il visualizzatore video.
+seo-title: navigazione
 solution: Experience Manager
-title: navigation
-topic: Dynamic Media
+title: navigazione
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
 
 # navigation{#navigation}
 
-URL per il visualizzatore video.
+Comando URL per il visualizzatore video.
 
 ` navigation= *`file`*`
 
-Il visualizzatore supporta la navigazione dei capitoli video mediante file WebVTT ospitati. Gli operatori di posizionamento dei cue non sono supportati.
+Il visualizzatore supporta la navigazione dei capitoli video tramite file WebVTT in hosting. Gli operatori di posizionamento dei cue non sono supportati.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
