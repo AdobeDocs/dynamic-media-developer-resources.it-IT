@@ -1,22 +1,23 @@
 ---
-description: Un avviso di priorità viene inviato quando lo spazio di heap gratuito Java è al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta dei rifiuti Java.
-seo-description: Un avviso di priorità viene inviato quando lo spazio di heap gratuito Java è al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta dei rifiuti Java.
-seo-title: Avviso priorità spazio heap
+description: Viene inviato un avviso di priorità quando lo spazio di heap Java gratuito si trova al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java.
+seo-description: Viene inviato un avviso di priorità quando lo spazio di heap Java gratuito si trova al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java.
+seo-title: Avviso prioritario spazio di heap
 solution: Experience Manager
-title: Avviso priorità spazio heap
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Avviso prioritario spazio di heap
 uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 
-# Avviso priorità spazio heap{#heap-space-priority-alert}
+# Avviso prioritario spazio heap{#heap-space-priority-alert}
 
-Un avviso di priorità viene inviato quando lo spazio di heap gratuito Java è al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta dei rifiuti Java.
+Viene inviato un avviso di priorità quando lo spazio di heap Java gratuito si trova al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java.
 
-Gli avvisi ripetuti devono essere risolti aumentando lo spazio di heap Java. Le occorrenze successive di questa condizione non generano un avviso e-mail finché il periodo di ritardo specificato con `AS::monitorAlertGenerator.heapSpaceResetInterval` non è scaduto.
+Gli avvisi ripetuti devono essere risolti aumentando lo spazio di heap Java. Le occorrenze successive di questa condizione non generano un avviso e-mail fino alla scadenza del periodo di ritardo specificato con `AS::monitorAlertGenerator.heapSpaceResetInterval`.
