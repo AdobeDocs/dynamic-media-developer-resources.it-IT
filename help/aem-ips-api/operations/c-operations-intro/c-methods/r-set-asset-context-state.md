@@ -1,23 +1,24 @@
 ---
-description: Impostate o aggiornate lo stato di pubblicazione per una o più risorse. Potete impostare stati di pubblicazione separati per ciascun contesto di pubblicazione di una società.
-seo-description: Impostate o aggiornate lo stato di pubblicazione per una o più risorse. Potete impostare stati di pubblicazione separati per ciascun contesto di pubblicazione di una società.
+description: Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
+seo-description: Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 8%
 
 ---
 
 
 # setAssetsContextState{#setassetscontextstate}
 
-Impostate o aggiornate lo stato di pubblicazione per una o più risorse. Potete impostare stati di pubblicazione separati per ciascun contesto di pubblicazione di una società.
+Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
 
 ## Tipi di utenti autorizzati {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -41,8 +42,8 @@ Impostate o aggiornate lo stato di pubblicazione per una o più risorse. Potete 
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestite l&#39;azienda. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sì | Un array di risorse e relativi nuovi stati di pubblicazione. |
+| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sì | Array di risorse e relativi nuovi stati di pubblicazione. |
 
 **Output (setAssetsContexStateReturn)**
 
@@ -51,7 +52,7 @@ Impostate o aggiornate lo stato di pubblicazione per una o più risorse. Potete 
 | `*`successCount`*` | `xsd:int` | Sì | Numero di risorse modificate. |
 | `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di modificare le risorse. |
 | `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di modificare le risorse. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di errori generati dalle risorse quando l&#39;operazione tentava di modificarli. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di errori generati dalle risorse quando l’operazione tentava di modificarli. |
 
 ## Esempi {#section-283a073f3cb14bcda5abed863c538aa4}
 
