@@ -1,15 +1,16 @@
 ---
-description: URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi. l'attributo RootUrl viene utilizzato al posto dell'attributo RootPath quando un valore src= è racchiuso tra parentesi graffe }.
-seo-description: URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi. l'attributo RootUrl viene utilizzato al posto dell'attributo RootPath quando un valore src= è racchiuso tra parentesi graffe }.
+description: URL principale per gli URL relativi delle immagini. Specifica l'URL principale per gli URL immagine relativi. L'attributo RootUrl viene utilizzato al posto dell'attributo RootPath quando un valore src= è racchiuso tra { parentesi graffe }.
+seo-description: URL principale per gli URL relativi delle immagini. Specifica l'URL principale per gli URL immagine relativi. L'attributo RootUrl viene utilizzato al posto dell'attributo RootPath quando un valore src= è racchiuso tra { parentesi graffe }.
 seo-title: RootUrl *
 solution: Experience Manager
 title: RootUrl *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # RootUrl *{#rooturl}
 
-URL principale per URL immagine relativi. Specifica l’URL principale per gli URL immagine relativi. attribute::RootUrl viene utilizzato invece di attribute::RootPath quando un valore src= è racchiuso tra { parentesi graffe }.
+URL principale per gli URL relativi delle immagini. Specifica l&#39;URL principale per gli URL immagine relativi. attribute::RootUrl viene utilizzato al posto dell’attributo::RootPath quando un valore src= è racchiuso tra { parentesi graffe }.
 
 ## Proprietà {#section-69cd0f71ea614770a8778c745d23197a}
 
-Valore stringa di testo. Percorso principale dell&#39;URL assoluto, incluso l&#39;identificatore del protocollo principale. Sono supportati i seguenti protocolli: HTTP, HTTPS e FTP.
+Valore stringa di testo. Percorso radice URL assoluto, incluso l&#39;identificatore del protocollo iniziale. Sono supportati i seguenti protocolli: HTTP, HTTPS e FTP.
 
 ## Predefinito {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Ereditato da `default::RootUrl` se non definito. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo di materiali.
+Ereditato da `default::RootUrl` se non definito. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo dei materiali.
 
 ## Consultate anche {#section-e33bbe7034b24367b68f9142718a8be1}
 
