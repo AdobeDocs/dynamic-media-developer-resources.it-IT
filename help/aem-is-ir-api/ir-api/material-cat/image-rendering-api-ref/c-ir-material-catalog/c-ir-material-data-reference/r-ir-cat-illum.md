@@ -1,15 +1,16 @@
 ---
-description: Selettore mappa di illuminazione. Consente una selezione esplicita della mappa di illuminazione da utilizzare per il rendering di questo materiale.
-seo-description: Selettore mappa di illuminazione. Consente una selezione esplicita della mappa di illuminazione da utilizzare per il rendering di questo materiale.
+description: Selettore mappa illuminazione. Consente di selezionare esplicitamente la mappa di illuminazione da utilizzare per il rendering di questo materiale.
+seo-description: Selettore mappa illuminazione. Consente di selezionare esplicitamente la mappa di illuminazione da utilizzare per il rendering di questo materiale.
 seo-title: Illum
 solution: Experience Manager
 title: Illum
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 
 # Illum{#illum}
 
-Selettore mappa di illuminazione. Consente una selezione esplicita della mappa di illuminazione da utilizzare per il rendering di questo materiale.
+Selettore mappa illuminazione. Consente di selezionare esplicitamente la mappa di illuminazione da utilizzare per il rendering di questo materiale.
 
 ## Proprietà {#section-162bcf562ca844ccba9e81e267508cca}
 
-Enum. Impostare su -1 per la selezione automatica della mappa di illuminazione in base al valore del catalogo::Gloss.
+Enum. Imposta su -1 per la selezione automatica della mappa di illuminazione in base al valore del catalogo::Gloss.
 
-Impostare su 0, 1 o 2 per selezionare la mappa di illuminazione A, B o C. Il renderer sceglierà la mappa di illuminazione più vicina disponibile nella vignettatura.
+Impostare su 0, 1 o 2 per selezionare la mappa di illuminazione A, B o C. Il renderer sceglierà la mappa di illuminazione più vicina disponibile nella vignetta.
 
 ## Predefinito {#section-ac386d31ef90423b8a367010a60bddc7}
 
