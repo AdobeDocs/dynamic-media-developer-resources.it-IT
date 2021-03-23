@@ -1,13 +1,14 @@
 ---
-description: Callback evento
+description: Callback degli eventi
 solution: Experience Manager
-title: Callback evento
-topic: Dynamic Media
+title: Callback degli eventi
 uuid: 15d9e064-c076-4f6d-9222-d2c51160b60c
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -15,20 +16,20 @@ ht-degree: 0%
 
 # Callback evento{#event-callbacks}
 
-Il visualizzatore supporta le callback di eventi JavaScript utilizzate dalla pagina Web per monitorare il processo di inizializzazione del visualizzatore o il comportamento di runtime.
+Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del comportamento di runtime.
 
-I gestori di callback vengono assegnati trasmettendo i nomi degli eventi e le corrispondenti funzioni del gestore con la proprietà `handlers` all&#39;oggetto JSON `config` nel costruttore del visualizzatore. In alternativa, è possibile utilizzare il metodo `setHandlers()` API.
+I gestori di callback vengono assegnati passando i nomi degli eventi e le corrispondenti funzioni del gestore con la proprietà `handlers` all&#39;oggetto JSON `config` nel costruttore del visualizzatore. In alternativa, è possibile utilizzare il metodo API `setHandlers()`.
 
-Gli eventi dei visualizzatori supportati includono quanto segue:
+Gli eventi del visualizzatore supportati includono:
 
-* `initComplete` - viene attivato quando l&#39;inizializzazione del visualizzatore è completa e vengono creati tutti i componenti interni, in modo che sia possibile utilizzare l&#39; `getComponent()` API. Il gestore di callback non accetta argomenti.
+* `initComplete` - viene attivato quando l’inizializzazione del visualizzatore è completa e vengono creati tutti i componenti interni, in modo da poter utilizzare l’ `getComponent()` API. Il gestore di callback non accetta argomenti.
 
-* `trackEvent` - viene attivato ogni volta che si verifica un evento all&#39;interno del visualizzatore che può essere gestito da un sistema di tracciamento eventi, come  Adobe Analytics. Il gestore di callback accetta gli argomenti seguenti:
+* `trackEvent` - viene attivato ogni volta che si verifica un evento all’interno del visualizzatore che può essere gestito da un sistema di tracciamento degli eventi, ad esempio Adobe Analytics. L&#39;handler di callback accetta i seguenti argomenti:
 
    * `objID {String}` attualmente non utilizzato.
    * `compClass {String}` attualmente non utilizzato.
    * `instName {String}` un nome di istanza del componente SDK per visualizzatori che ha attivato l’evento.
-   * `timeStamp {Number}` data e ora dell’evento.
-   * `eventInfo {String}` payload di eventi.
+   * `timeStamp {Number}` marca temporale dell&#39;evento.
+   * `eventInfo {String}` payload dell’evento.
 
 Vedere anche [FlyoutViewer](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md#reference-b99bb25606444f46b27529ff3e960b1e) e [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-sethandlers.md#reference-74e9acb1cd0047d5bd60eea5fa5c8692).
