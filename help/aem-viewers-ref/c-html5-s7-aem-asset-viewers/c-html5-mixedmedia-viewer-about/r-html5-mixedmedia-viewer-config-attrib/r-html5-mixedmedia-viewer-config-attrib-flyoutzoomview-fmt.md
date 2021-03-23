@@ -1,15 +1,16 @@
 ---
-description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini.
-seo-description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini.
+description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
+seo-description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
 seo-title: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-topic: Dynamic Media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini.
+Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -25,7 +26,7 @@ Specifica il formato immagine utilizzato dal componente per caricare le immagini
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alpha</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente ha uno sfondo bianco. Per renderlo completamente trasparente, impostate la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> trasparente</span>. </p> </td> 
+   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alpha</span>, il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente dispone di uno sfondo bianco. Pertanto, per renderlo completamente trasparente, imposta la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> trasparente</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
