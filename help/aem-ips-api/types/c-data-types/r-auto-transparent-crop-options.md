@@ -1,15 +1,16 @@
 ---
 description: Opzioni utilizzate per ritagliare automaticamente le immagini in base alla trasparenza.
 seo-description: Opzioni utilizzate per ritagliare automaticamente le immagini in base alla trasparenza.
-seo-title: AutoTransparentCropOptions
+seo-title: OpzioniRitaglioAutomaticoTrasparente
 solution: Experience Manager
-title: AutoTransparentCropOptions
-topic: Dynamic Media Image Production System API
+title: OpzioniRitaglioAutomaticoTrasparente
 uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '65'
 ht-degree: 6%
 
 ---
@@ -35,10 +36,10 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> tolleranza</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Rimuove lo spazio bianco dai bordi dell’immagine in base alla trasparenza. Utilizzi: 
+   <td colname="col3">Rimuove lo spazio bianco dai bordi delle immagini in base alla trasparenza. Utilizza: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 per far corrispondere esattamente i colori. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 per consentire il maggior numero di differenze di colore. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 per abbinare esattamente i colori. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 per consentire la maggior parte delle differenze di colore. </li>
     </ul></td> 
   </tr> 
  </tbody> 
