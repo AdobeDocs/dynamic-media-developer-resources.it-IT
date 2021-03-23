@@ -1,15 +1,16 @@
 ---
-description: Image Serving supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità con SVG 1.1.
-seo-description: Image Serving supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità con SVG 1.1.
+description: Image Serving supporta file SVG (Scalable Vector Graphics) come dati di origine. È richiesta la conformità a SVG 1.1.
+seo-description: Image Serving supporta file SVG (Scalable Vector Graphics) come dati di origine. È richiesta la conformità a SVG 1.1.
 seo-title: Supporto SVG
 solution: Experience Manager
 title: Supporto SVG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -17,47 +18,47 @@ ht-degree: 0%
 
 # Supporto SVG{#svg-support}
 
-Image Serving supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità con SVG 1.1.
+Image Serving supporta file SVG (Scalable Vector Graphics) come dati di origine. È richiesta la conformità a SVG 1.1.
 
-Image Serving riconosce solo i contenuti SVG statici; animazioni, script e altri contenuti interattivi non sono supportati.
+Image Serving riconosce solo i contenuti statici SVG; animazioni, script e altri contenuti interattivi non sono supportati.
 
-SVG può essere specificato ovunque siano consentiti i file immagine (percorso URL, `src=` e `mask=`). Una volta rasterizzato il contenuto del file SVG, questo viene gestito come un’immagine.
+È possibile specificare SVG ovunque siano consentiti i file immagine (percorso URL, `src=` e `mask=`). Una volta rasterizzato il contenuto del file SVG, questo viene gestito come un’immagine.
 
-Come per le immagini, i file SVG possono essere specificati come voci di catalogo immagini o come percorsi di file relativi.
+Analogamente alle immagini, i file SVG possono essere specificati come voci di catalogo immagini o come percorsi di file relativi.
 
 ## Variabili di sostituzione {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` le variabili di sostituzione possono essere incluse nel file SVG negli  `<text>` elementi stringa valore e in qualsiasi attributo di elemento.
+` $ *[!DNL var]*$` le variabili di sostituzione possono essere incluse nel file SVG negli  `<text>` elementi delle stringhe di valore e in qualsiasi attributo di elemento.
 
-Le variabili importanti nella parte query delle richieste Image Server incorporate non vengono sostituite direttamente. Al contrario, alla richiesta vengono aggiunte tutte le definizioni di variabili disponibili, che consentono a Image Server di sostituire le variabili durante l’analisi della richiesta.
+Le variabili importanti nella sezione query delle richieste incorporate di Image Serving non vengono sostituite direttamente. Al contrario, tutte le definizioni di variabili disponibili vengono aggiunte alla richiesta, il che consente a Image Serving di sostituire le variabili quando la richiesta viene analizzata.
 
-Per ulteriori informazioni, vedere [Variabili di sostituzione](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a).
+Per ulteriori informazioni, consulta [Variabili di sostituzione](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) .
 
 ## Riferimenti immagine {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Le immagini possono essere inserite in SVG utilizzando l&#39;elemento `<image>`. Le immagini a cui fa riferimento l&#39;attributo `xlink::href` dell&#39;elemento `<image>` devono essere richieste di trasmissione di immagini valide. Gli URL esterni non sono consentiti.
+Le immagini possono essere inserite in SVG utilizzando l’elemento `<image>` . Le immagini a cui fa riferimento l&#39;attributo `xlink::href` dell&#39;elemento `<image>` devono essere richieste di servizio immagini valide. Gli URL esterni non sono consentiti.
 
-Specificate una richiesta di Image Server completa, a partire da `http://`, oppure un URL relativo, a partire da `/is/image`. Se viene specificato un percorso HTTP completo, il nome del dominio verrà rimosso dal percorso per la conversione al formato relativo. L&#39;utilizzo di un percorso HTTP completo potrebbe risultare vantaggioso, in quanto consente l&#39;anteprima del file con un renderer SVG di terze parti.
-
->[!NOTE]
->
->Il supporto per il rendering delle immagini in questa versione di Image Server è limitato. Le immagini di riferimento provenienti da SVG devono essere utilizzate solo in situazioni in cui i tradizionali meccanismi di generazione dei livelli e di tempiazione di Image Server non sono sufficienti per ottenere il risultato desiderato. In nessun caso è consigliabile usare SVG per generare composizioni con più immagini.
+Specifica una richiesta completa di Image Server, a partire da `http://`, o un URL relativo, a partire da `/is/image`. Se viene specificato un percorso HTTP completo, il nome di dominio verrà rimosso dal percorso per la conversione nel formato relativo. L’utilizzo di un percorso HTTP completo potrebbe risultare vantaggioso, in quanto consente l’anteprima del file con un modulo di rendering SVG di terze parti.
 
 >[!NOTE]
 >
->Al momento, le immagini incorporate in SVG non vengono ridimensionate automaticamente. Accertatevi che tutti gli scaffali delle immagini includano i comandi Image Serving necessari per impostare le dimensioni desiderate (ad es. `wid=`). Se le dimensioni dell&#39;immagine non sono impostate in modo esplicito, verrà applicato `attribute::DefaultPix`.
+>Il supporto per il rendering delle immagini in questa versione di Image Serving è limitato. Le immagini di riferimento provenienti da SVG devono essere utilizzate solo in situazioni in cui i meccanismi tradizionali di modellazione e stratificazione di Image Serving non sono sufficienti per ottenere il risultato desiderato. In nessun caso SVG deve essere utilizzato per generare compositi con più immagini.
+
+>[!NOTE]
+>
+>Al momento le immagini incorporate in SVG non vengono ridimensionate automaticamente. Assicurati che tutti gli hrefs dell&#39;immagine includano i comandi Image Serving necessari per impostare le dimensioni dell&#39;immagine desiderate (ad esempio `wid=`). Se le dimensioni dell’immagine non sono impostate esplicitamente, verrà applicato `attribute::DefaultPix`.
 
 ## Gestione del colore {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Tutti i valori di colore incorporati nei file SVG e passati ai modelli SVG tramite variabili di sostituzione si presume siano presenti nello spazio colore `sRgb`.
+Tutti i valori di colore incorporati nei file SVG e passati ai modelli SVG tramite variabili di sostituzione si presumono presenti nello spazio di colore `sRgb`.
 
-Non viene eseguita alcuna conversione del colore quando le immagini vengono incorporate nel file SVG. Per garantire la fedeltà dei colori, specificate `icc=sRgb` per tutte le richieste di immagini incorporate.
+Non viene eseguita alcuna conversione del colore quando le immagini sono incorporate nell’SVG. Per garantire la fedeltà del colore, assicurati di specificare `icc=sRgb` per tutte le richieste di immagini incorporate.
 
 Dopo la rasterizzazione, l&#39;immagine SVG partecipa alla gestione del colore come qualsiasi altra immagine.
 
 ## Esempio {#section-036cdd45abd449849ee00a8f21788c28}
 
-Il seguente modello SVG illustra i riferimenti immagine e l’utilizzo di variabili.
+Il seguente modello SVG illustra i riferimenti alle immagini e l’uso delle variabili.
 
 `<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
 
@@ -67,11 +68,11 @@ Questo modello SVG può essere utilizzato come segue:
 
 ## Restrizioni {#section-daa5eccd07204aaf993be41e87822d54}
 
-I file SVG devono essere indipendenti e non devono fare riferimento ad alcun file o risorsa secondario, ad eccezione delle immagini esterne a cui si fa riferimento con le richieste Image Server o Image Rendering (vedi sopra).
+I file SVG devono essere autonomi e non devono fare riferimento a file o risorse secondari, ad eccezione delle immagini esterne a cui si fa riferimento con le richieste Image Server o Image Rendering (vedi sopra).
 
-Viene eseguito il rendering solo del contenuto statico. Animazione, funzioni interattive, come pulsanti, ecc. può essere presente ma non può essere rappresentato come previsto.
+Viene eseguito il rendering solo del contenuto statico. Animazione, funzioni interattive, come pulsanti, ecc. può essere presente ma non può essere reso come previsto.
 
-Al momento non sono supportate le specifiche di colore basate sul profilo ICC.
+Le specifiche dei colori basate sul profilo ICC non sono al momento supportate.
 
 `<script>` gli elementi possono essere presenti ma vengono sempre ignorati.
 
