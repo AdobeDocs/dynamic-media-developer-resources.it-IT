@@ -4,13 +4,14 @@ seo-description: Restituisce i membri di un gruppo.
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 14%
 
 ---
 
@@ -37,18 +38,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L’handle dell’utente. |
-| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società. |
+| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente. |
+| `*`companyHandle`*` | `xsd:string` | No | Il manico per l&#39;azienda. |
 
 **Output (getGroupMembershipReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | Sì | Array di gruppi. |
+| `*`groupArray`*` | `types:GroupArray` | Sì | Matrice di gruppi. |
 
 ## Esempi {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Questo esempio di codice restituisce tutti i membri di un gruppo. Poiché le maniglie della società e dell’utente sono facoltative, l’operazione può restituire tutti i membri di tutti i gruppi.
+Questo esempio di codice restituisce tutti i membri di un gruppo. Poiché gli handle dell&#39;azienda e dell&#39;utente sono facoltativi, l&#39;operazione può restituire tutti i membri di tutti i gruppi.
 
 **Request Contents (Richiesta contenuto)**
 
