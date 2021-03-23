@@ -1,29 +1,30 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
-seo-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
+description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+seo-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 6ed57f8f-5a5e-4dfa-9ab5-0f724603a0bf
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 
 
 # setContainerId{#setcontainerid}
 
-Riferimento API JavaScript per il visualizzatore 360 gradi.
+Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l’ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
+Imposta l’ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato al momento della chiamata di questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con l&#39;oggetto JSON `config` al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l’oggetto JSON `config` al costruttore.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
