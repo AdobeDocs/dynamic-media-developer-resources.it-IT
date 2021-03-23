@@ -1,15 +1,16 @@
 ---
-description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner del carosello. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
-seo-description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner del carosello. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
+description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner carosello. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+seo-description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner carosello. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-topic: Dynamic Media
 uuid: 0e796f75-36a6-4961-9980-b634ab50c7ff
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L’area di visualizzazione principale è l’area occupata dall’immagine del banner del carosello. In genere è impostata per adattarsi allo schermo del dispositivo disponibile quando non sono specificate dimensioni.
+L’area di visualizzazione principale è l’area occupata dall’immagine del banner carosello. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;area visualizzatore principale**
+**Proprietà CSS dell’area visualizzatore principale**
 
-L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7carouselviewer
@@ -46,13 +47,13 @@ L&#39;aspetto dell&#39;area di visualizzazione è controllato dal seguente selet
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un visualizzatore con uno sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni di 1174 x 500 pixel.
+Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni a 1174 x 500 pixel.
 
 ```
 .s7carouselviewer { 
