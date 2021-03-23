@@ -1,21 +1,23 @@
 ---
-description: Esclude il video principale dal set video adattivo.
-seo-description: Esclude il video principale dal set video adattivo.
+description: Esclude il video principale dal set di video adattivi.
+seo-description: Esclude il video principale dal set di video adattivi.
 seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-Esclude il video principale dal set video adattivo.
+Esclude il video principale dal set di video adattivi.
 
 Sintassi
 
@@ -33,7 +35,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Esclude il file video principale dal set video adattivo. </p> <p>Il valore predefinito è true. </p> </td> 
+   <td colname="col3"> <p>Esclude il file video principale dal set video adattivo. </p> <p>Predefinito su true. </p> </td> 
   </tr> 
  </tbody> 
 </table>
