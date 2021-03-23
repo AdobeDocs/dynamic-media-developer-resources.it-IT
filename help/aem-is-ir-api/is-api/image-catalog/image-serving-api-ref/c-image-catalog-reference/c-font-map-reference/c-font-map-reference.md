@@ -1,27 +1,28 @@
 ---
-description: Se per un catalogo immagini è necessaria una mappa di font, il percorso relativo o assoluto del file della mappa di font deve essere specificato nell'attributo FontMapFile.
-seo-description: Se per un catalogo immagini è necessaria una mappa di font, il percorso relativo o assoluto del file della mappa di font deve essere specificato nell'attributo FontMapFile.
+description: Se è necessaria una mappa dei font per un catalogo di immagini, il percorso relativo o assoluto del file di mappa dei font deve essere specificato nell'attributo FontMapFile.
+seo-description: Se è necessaria una mappa dei font per un catalogo di immagini, il percorso relativo o assoluto del file di mappa dei font deve essere specificato nell'attributo FontMapFile.
 seo-title: Riferimento mappa font
 solution: Experience Manager
 title: Riferimento mappa font
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
 
 
-# Riferimento mappa font{#font-map-reference}
+# Riferimento mappa carattere{#font-map-reference}
 
-Se per un catalogo immagini è necessaria una mappa di font, il percorso relativo o assoluto del file della mappa di font deve essere specificato in attribute::FontMapFile.
+Se è necessaria una mappa dei font per un catalogo di immagini, il percorso relativo o assoluto del file di mappa dei font deve essere specificato in attribute::FontMapFile.
 
-Le voci presenti nella mappa font di un catalogo di immagini specifico sovrascriveranno le voci presenti nella mappa font del catalogo predefinito.
+Le voci nella mappa dei font di un catalogo di immagini specifico sovrascriveranno le voci nella mappa dei font del catalogo predefinito.
 
-Image Serving supporta  font Type 1, OpenType e TrueType degli Adobi.
+Image Server supporta i font Adobe Type 1, OpenType e TrueType.
 
 `textPs=` supporta anche i font CID, ATC e bitmap.
 
