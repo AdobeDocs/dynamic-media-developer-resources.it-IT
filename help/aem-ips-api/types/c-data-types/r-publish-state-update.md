@@ -4,13 +4,14 @@ seo-description: Parametri utilizzati per aggiornare lo stato di pubblicazione d
 seo-title: PublishStateUpdate
 solution: Experience Manager
 title: PublishStateUpdate
-topic: Dynamic Media Image Production System API
 uuid: b08acff6-2861-41aa-8e25-cecf7e36ad53
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '52'
+ht-degree: 7%
 
 ---
 
@@ -25,6 +26,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Handle risorsa. |
+| `*`assetHandle`*` | `xsd:string` | Gestione risorse. |
 | `*`publishState`*` | `xsd:string` | Nuovo stato di pubblicazione. |
 
