@@ -1,23 +1,24 @@
 ---
-description: Un array di stringhe.
-seo-description: Un array di stringhe.
+description: Matrice di stringhe.
+seo-description: Matrice di stringhe.
 seo-title: StringArray
 solution: Experience Manager
 title: StringArray
-topic: Dynamic Media Image Production System API
 uuid: d7be5c7b-6086-47bd-ac0d-84b375f2df2f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 20%
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
 
 
 # StringArray{#stringarray}
 
-Un array di stringhe.
+Matrice di stringhe.
 
 Sintassi
 
@@ -25,5 +26,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `xsd:string` | Un array di stringhe. |
+| `*`elementi`*` | `xsd:string` | Matrice di stringhe. |
 
