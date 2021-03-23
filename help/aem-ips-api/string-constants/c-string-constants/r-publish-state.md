@@ -1,23 +1,24 @@
 ---
-description: Usato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
-seo-description: Usato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
-seo-title: Pubblica stato
+description: Utilizzato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
+seo-description: Utilizzato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
+seo-title: Stato di pubblicazione
 solution: Experience Manager
-title: Pubblica stato
-topic: Dynamic Media Image Production System API
+title: Stato di pubblicazione
 uuid: cebc16ed-ffee-47a5-a9c7-6d61da07e03f
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '42'
 ht-degree: 2%
 
 ---
 
 
-# Pubblica stato{#publish-state}
+# Stato di pubblicazione{#publish-state}
 
-Usato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
+Utilizzato da searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
 
 Sintassi
 
