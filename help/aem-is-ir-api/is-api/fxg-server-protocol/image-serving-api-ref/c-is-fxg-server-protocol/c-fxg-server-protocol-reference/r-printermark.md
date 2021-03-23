@@ -1,27 +1,28 @@
 ---
-description: Visualizzare gli indicatori di stampa. Specifica come visualizzare gli indicatori di stampa.
-seo-description: Visualizzare gli indicatori di stampa. Specifica come visualizzare gli indicatori di stampa.
-seo-title: printerMark
+description: Visualizza gli indicatori della stampante. Specifica come visualizzare i segni della stampante.
+seo-description: Visualizza gli indicatori della stampante. Specifica come visualizzare i segni della stampante.
+seo-title: stampanteMark
 solution: Experience Manager
-title: printerMark
-topic: Dynamic Media Image Serving - Image Rendering API
+title: stampanteMark
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 29%
+source-wordcount: '134'
+ht-degree: 27%
 
 ---
 
 
-# printerMark{#printermark}
+# stampanteMark{#printermark}
 
-Visualizzare gli indicatori di stampa. Specifica come visualizzare gli indicatori di stampa.
+Visualizza gli indicatori della stampante. Specifica come visualizzare i segni della stampante.
 
-` printerMark= *`trim `*, *`marksbleed `*, *`marksregistration `*, *`markscolor `*, *`barspage `*, *``*, *`informationstyleline `*, *`Weight Layer incorporato`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`markscolor registrazione `*, *`markscolor `*, *`barspage `*, *``*, *`informazioni `*, *`stilelinepesatura livello incorporato`*`
 
-I diversi indicatori possono essere disattivati o attivati. È inoltre possibile controllare lo stile degli indicatori di stampa.
+I diversi contrassegni possono essere disattivati o attivati. È inoltre possibile controllare lo stile dei segni della stampante.
 
 Di seguito sono riportati i valori validi:
 
@@ -57,8 +58,8 @@ Di seguito sono riportati i valori validi:
   <td class="stentry"> <p>Predefinito </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>spessore linea= </p></td> 
-  <td class="stentry"> <p>Qualsiasi valore compreso tra 0,125 e 2,0, entrambi i valori inclusi. </p></td> 
+  <td class="stentry"> <p>line weight= </p></td> 
+  <td class="stentry"> <p>Qualsiasi valore compreso tra 0,125 e 2,0, entrambi compresi. </p></td> 
   <td class="stentry"> <p>Il valore predefinito è 0.25. </p></td> 
  </tr> 
  <tr class="strow"> 
