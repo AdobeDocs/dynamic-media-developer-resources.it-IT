@@ -4,13 +4,14 @@ seo-description: Informazioni sull'avanzamento dell'elemento dell'attività.
 seo-title: TaskItemProgress
 solution: Experience Manager
 title: TaskItemProgress
-topic: Dynamic Media Image Production System API
 uuid: 7cca2ad9-c8f9-4dff-a055-d03fa2c50cec
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
@@ -25,8 +26,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`itemName`*` | `xsd:string` | Nome dell’elemento in fase di elaborazione. |
+| `*`itemName`*` | `xsd:string` | Nome dell&#39;elemento in fase di elaborazione. |
 | `*`progress`*` | `xsd:double` | Avanzamento completato %. |
-| `*`progressMessage`*` | `xsd:string` | Messaggio di processo. |
-| `*`lastProgressUpdate`*` | `xsd:dateTime` | Ora dell’ultimo aggiornamento. |
+| `*`progressMessage`*` | `xsd:string` | Messaggio del processo. |
+| `*`lastProgressUpdate`*` | `xsd:dateTime` | Ora dell&#39;ultimo aggiornamento. |
 
