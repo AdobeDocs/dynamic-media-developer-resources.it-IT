@@ -4,12 +4,13 @@ seo-description: Imposta i metadati delle risorse utilizzando la modalità batch
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
+feature: Dynamic Media Classic, SDK/API, Metadata.Gestione delle risorse
+role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 11%
 
 ---
@@ -36,7 +37,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società di cui si desidera impostare i metadati in un’operazione batch. |
+| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera impostare i metadati in un&#39;operazione batch. |
 | `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Sì | Array di aggiornamenti di metadati applicati alle risorse. |
 
 **Output (batchSetAssetMetadataParam)**
@@ -45,9 +46,9 @@ Sintassi
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sì | Numero di metadati impostati correttamente. |
 | `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare i metadati. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l&#39;operazione tentava di impostare i metadati. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | L’array di dettagli associati alle risorse che generano avvisi quando l’operazione tenta di impostare in batch i metadati per le risorse. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | L’array di dettagli associati alle risorse che generano errori quando l’operazione tentava di impostare in batch i metadati per le risorse. |
+| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i metadati. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano avvisi quando l’operazione tentava di impostare in batch i metadati per le risorse. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano errori quando l’operazione tentava di impostare in batch i metadati per le risorse. |
 
 ## Esempi {#section-2de798ac920e4b47b971b1729a64395b}
 
