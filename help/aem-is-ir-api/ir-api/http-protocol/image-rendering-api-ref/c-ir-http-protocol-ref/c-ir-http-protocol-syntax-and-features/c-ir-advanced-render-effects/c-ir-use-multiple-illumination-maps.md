@@ -1,16 +1,13 @@
 ---
 description: Alcune applicazioni possono richiedere una mappa di illuminazione diversa per diversi tipi di materiali.
-seo-description: Alcune applicazioni possono richiedere una mappa di illuminazione diversa per diversi tipi di materiali.
-seo-title: Utilizzo di mappe di illuminazione multipla
 solution: Experience Manager
 title: Utilizzo di mappe di illuminazione multipla
-uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
