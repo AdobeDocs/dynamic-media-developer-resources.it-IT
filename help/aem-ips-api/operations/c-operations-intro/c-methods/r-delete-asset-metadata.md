@@ -1,17 +1,14 @@
 ---
 description: Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
-seo-description: Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
-seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
-uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
 feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
