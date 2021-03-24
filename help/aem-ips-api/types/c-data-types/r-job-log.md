@@ -1,17 +1,14 @@
 ---
 description: Registro dei processi dopo l'esecuzione del processo.
-seo-description: Registro dei processi dopo l'esecuzione del processo.
-seo-title: Registro processi
 solution: Experience Manager
 title: Registro processi
-uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 2%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
