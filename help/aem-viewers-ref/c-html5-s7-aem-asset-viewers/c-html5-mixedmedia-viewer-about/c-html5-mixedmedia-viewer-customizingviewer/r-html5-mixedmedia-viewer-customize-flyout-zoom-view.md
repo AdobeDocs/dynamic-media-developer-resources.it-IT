@@ -1,17 +1,14 @@
 ---
 description: Nella modalità zoom in linea la visualizzazione principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata nella visualizzazione a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
-seo-description: Nella modalità zoom in linea la visualizzazione principale è costituita dall’immagine statica, dall’immagine ingrandita visualizzata nella visualizzazione a comparsa sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
-seo-title: Visualizzazione zoom a comparsa
 solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
