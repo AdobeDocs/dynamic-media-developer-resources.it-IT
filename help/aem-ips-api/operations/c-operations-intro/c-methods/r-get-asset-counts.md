@@ -1,17 +1,14 @@
 ---
 description: Ottiene le risorse e il numero di risorse associate a una società specifica.
-seo-description: Ottiene le risorse e il numero di risorse associate a una società specifica.
-seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 7%
+source-wordcount: '150'
+ht-degree: 8%
 
 ---
 
