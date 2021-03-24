@@ -1,16 +1,13 @@
 ---
 description: Documentazione degli attributi di configurazione per il visualizzatore di immagini interattive.
-seo-description: Documentazione degli attributi di configurazione per il visualizzatore di immagini interattive.
-seo-title: Riferimento comando - Attributi di configurazione
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
