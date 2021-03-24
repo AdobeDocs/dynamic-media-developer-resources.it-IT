@@ -1,16 +1,13 @@
 ---
 description: I componenti Image Serving sono gestiti dal Server Supervisore, che è un daemon Linux o Windows Service (S7Supervisore.exe, elencato come 'Dynamic Media Image Serving' nel Pannello di controllo Campaign Servizi).
-seo-description: I componenti Image Serving sono gestiti dal Server Supervisore, che è un daemon Linux o Windows Service (S7Supervisore.exe, elencato come 'Dynamic Media Image Serving' nel Pannello di controllo Campaign Servizi).
-seo-title: Supervisore server
 solution: Experience Manager
 title: Supervisore server
-uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
