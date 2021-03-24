@@ -1,17 +1,14 @@
 ---
 description: Opzioni per le immagini Photoshop.
-seo-description: Opzioni per le immagini Photoshop.
-seo-title: Opzioni Photoshop
 solution: Experience Manager
 title: Opzioni Photoshop
-uuid: ed97d20a-358d-4a00-93c7-4498bb2e9d35
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
