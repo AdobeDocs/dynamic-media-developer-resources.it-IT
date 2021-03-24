@@ -1,16 +1,13 @@
 ---
 description: Regolare l'opacità dell'immagine. Consente di ridurre l’opacità in primo piano di un livello immagine, testo, colore solido o effetto.
-seo-description: Regolare l'opacità dell'immagine. Consente di ridurre l’opacità in primo piano di un livello immagine, testo, colore solido o effetto.
-seo-title: opaca
 solution: Experience Manager
 title: opaca
-uuid: 268279bd-d777-4afe-b175-841af7e55406
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
