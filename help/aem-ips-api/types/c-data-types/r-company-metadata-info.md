@@ -1,17 +1,14 @@
 ---
 description: Contiene informazioni su un oggetto di metadati aziendale come ID, nome e tipo.
-seo-description: Contiene informazioni su un oggetto di metadati aziendale come ID, nome e tipo.
-seo-title: CompanyMetadataInfo
 solution: Experience Manager
 title: CompanyMetadataInfo
-uuid: 5a69a995-979a-4919-a506-42b2cbfa4657
 feature: Dynamic Media Classic, SDK/API, Metadati
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '43'
+ht-degree: 9%
 
 ---
 
