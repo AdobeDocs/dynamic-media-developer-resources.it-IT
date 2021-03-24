@@ -1,16 +1,13 @@
 ---
 description: Utilizza queste impostazioni del server per configurare le soglie di avviso.
-seo-description: Utilizza queste impostazioni del server per configurare le soglie di avviso.
-seo-title: Soglie di allarme
 solution: Experience Manager
 title: Soglie di allarme
-uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -50,6 +47,6 @@ Valore intero 1 o superiore. Un intervallo tipico è da 20 a 50, a seconda della
 
 ## AS::monitorAlertGenerator.lockedThreshold - Soglia richieste bloccate {#section-012a1c9937d445708380339279c62d80}
 
-Specifica il numero di secondi in cui una richiesta deve essere in sospeso prima che venga considerata bloccata o bloccata. Viene emesso un avviso di richiesta bloccata se alla fine di un intervallo di media almeno una richiesta è rimasta in sospeso per un periodo di tempo superiore a quello specificato. Valore intero positivo in msec.
+Specifica il numero di secondi in cui una richiesta deve essere in sospeso prima che venga considerata bloccata o bloccata. Viene emesso un avviso di richiesta bloccata se alla fine di un intervallo di tempo medio almeno una richiesta è rimasta in sospeso per un periodo di tempo superiore a quello specificato. Valore intero positivo in msec.
 
 Per tenere conto di richieste di rendering complesse e di richieste che richiedono l’ottenimento di dati da server HTTP esterni, si consiglia di impostare questo valore su almeno 30 secondi (a meno che tale condizione non venga rilevata da questo avviso).
