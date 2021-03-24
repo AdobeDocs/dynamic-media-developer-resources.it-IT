@@ -1,16 +1,13 @@
 ---
 description: Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
-seo-description: Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
-seo-title: FileCatalogo
 solution: Experience Manager
 title: FileCatalogo
-uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '68'
 ht-degree: 2%
 
 ---
