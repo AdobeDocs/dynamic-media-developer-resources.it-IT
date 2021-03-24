@@ -1,16 +1,13 @@
 ---
 description: Image Serving consente di combinare qualsiasi numero di livelli di immagine, testo e colore solido in un'immagine composita.
-seo-description: Image Serving consente di combinare qualsiasi numero di livelli di immagine, testo e colore solido in un'immagine composita.
-seo-title: Panoramica sul livello
 solution: Experience Manager
 title: Panoramica sul livello
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
