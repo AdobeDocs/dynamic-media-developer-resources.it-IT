@@ -1,16 +1,13 @@
 ---
 description: Questi comandi si applicano ai livelli immagine, oltre ai comandi più comuni del livello.
-seo-description: Questi comandi si applicano ai livelli immagine, oltre ai comandi più comuni del livello.
-seo-title: Comandi del livello immagine
 solution: Experience Manager
 title: Comandi del livello immagine
-uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
