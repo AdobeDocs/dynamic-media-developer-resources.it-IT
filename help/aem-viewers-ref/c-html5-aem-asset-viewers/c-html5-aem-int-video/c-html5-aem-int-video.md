@@ -1,16 +1,13 @@
 ---
 description: Interactive Video Viewer è un lettore video che riproduce in streaming e video progressivo codificato in formato H.264.
-seo-description: Interactive Video Viewer è un lettore video che riproduce in streaming e video progressivo codificato in formato H.264.
-seo-title: Video interattivo
 solution: Experience Manager
 title: Video interattivo
-uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
