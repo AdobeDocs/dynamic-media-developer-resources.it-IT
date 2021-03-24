@@ -1,19 +1,16 @@
 ---
-description: Visualizzate la guida di riferimento API di Dynamic Media Image Serving.
-seo-description: Visualizzate la guida di riferimento API di Dynamic Media Image Serving.
-seo-title: Riferimento API Image Serving
-title: Riferimento API Image Serving
-uuid: 144e6012-fdc9-4840-8245-6d4a4a009d9c
+description: Visualizza la Guida di riferimento API di Dynamic Media Image Serving.
+title: Riferimento API di Image Serving
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
 
-# Riferimento API Image Server{#image-serving-api-reference}
+# Riferimento API di Image Serving{#image-serving-api-reference}
 
-Visualizzate la guida di riferimento API di Dynamic Media Image Serving.
+Visualizza la Guida di riferimento API di Dynamic Media Image Serving.
 
