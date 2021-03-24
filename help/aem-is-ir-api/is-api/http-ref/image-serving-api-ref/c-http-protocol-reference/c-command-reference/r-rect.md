@@ -1,17 +1,14 @@
 ---
 description: Rettangolo di visualizzazione finale. Consente di smontare l'immagine della vista finale in più strisce o piastrelle, che possono essere consegnate separatamente e riassemblate dal cliente senza problemi, senza artefatti lungo i bordi.
-seo-description: Rettangolo di visualizzazione finale. Consente di smontare l'immagine della vista finale in più strisce o piastrelle, che possono essere consegnate separatamente e riassemblate dal cliente senza problemi, senza artefatti lungo i bordi.
-seo-title: rect
 solution: Experience Manager
 title: rect
-uuid: c4830fc5-d102-4789-8753-0a660d4a557e
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
