@@ -1,16 +1,13 @@
 ---
 description: Testo livello (compatibile con Adobe Photoshop). Specifica il corpo del testo per un livello di testo.
-seo-description: Testo livello (compatibile con Adobe Photoshop). Specifica il corpo del testo per un livello di testo.
-seo-title: textPs
 solution: Experience Manager
 title: textPs
-uuid: 45e587b6-8dc8-408c-ade6-d70025fd1117
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
