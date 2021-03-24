@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore di eCatalog.
-seo-description: Riferimento API JavaScript per il visualizzatore di eCatalog.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: 142381e4-aa3c-46dd-a0bd-4e090d0003e4
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '129'
 ht-degree: 2%
 
 ---
