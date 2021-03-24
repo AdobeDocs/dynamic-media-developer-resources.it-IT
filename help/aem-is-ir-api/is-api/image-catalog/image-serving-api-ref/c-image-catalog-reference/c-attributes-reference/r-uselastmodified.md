@@ -1,16 +1,13 @@
 ---
 description: Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Serving.
-seo-description: Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Serving.
-seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-uuid: 9dae4f15-4323-4f68-917f-6d72ae52c753
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
