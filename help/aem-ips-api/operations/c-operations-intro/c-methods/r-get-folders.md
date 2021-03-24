@@ -1,16 +1,13 @@
 ---
 description: Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della cartella. La risposta getFolders restituisce un massimo di 100.000 cartelle.
-seo-description: Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della cartella. La risposta getFolders restituisce un massimo di 100.000 cartelle.
-seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '244'
 ht-degree: 7%
 
 ---
