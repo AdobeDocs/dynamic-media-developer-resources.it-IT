@@ -1,17 +1,14 @@
 ---
 description: Set di utenti denominato utilizzato per assegnare le autorizzazioni.
-seo-description: Set di utenti denominato utilizzato per assegnare le autorizzazioni.
-seo-title: Group (Gruppo)
 solution: Experience Manager
 title: Group (Gruppo)
-uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
