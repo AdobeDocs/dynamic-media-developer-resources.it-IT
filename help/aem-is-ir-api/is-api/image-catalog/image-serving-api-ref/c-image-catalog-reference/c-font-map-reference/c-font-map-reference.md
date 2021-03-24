@@ -1,16 +1,13 @@
 ---
 description: Se è necessaria una mappa dei font per un catalogo di immagini, il percorso relativo o assoluto del file di mappa dei font deve essere specificato nell'attributo FontMapFile.
-seo-description: Se è necessaria una mappa dei font per un catalogo di immagini, il percorso relativo o assoluto del file di mappa dei font deve essere specificato nell'attributo FontMapFile.
-seo-title: Riferimento mappa font
 solution: Experience Manager
 title: Riferimento mappa font
-uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '109'
 ht-degree: 2%
 
 ---
