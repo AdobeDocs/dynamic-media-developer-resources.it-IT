@@ -1,17 +1,14 @@
 ---
 description: Aggiorna i metadati in modalità batch.
-seo-description: Aggiorna i metadati in modalità batch.
-seo-title: AggiornamentoMetadatiBatch
 solution: Experience Manager
 title: AggiornamentoMetadatiBatch
-uuid: 306e0349-64d6-4b70-9748-9431f1c799a7
 feature: Dynamic Media Classic, SDK/API, Metadati
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '36'
+ht-degree: 11%
 
 ---
 
