@@ -1,17 +1,14 @@
 ---
 description: Riferimento API JavaScript per i visualizzatori zoom di base
-seo-description: Riferimento API JavaScript per i visualizzatori zoom di base
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: 3e9f4baf-4914-42a8-a1bf-5756cbbd407b
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
