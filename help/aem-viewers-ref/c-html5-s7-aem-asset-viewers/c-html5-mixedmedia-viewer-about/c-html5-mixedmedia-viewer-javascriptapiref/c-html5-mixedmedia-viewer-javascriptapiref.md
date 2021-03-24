@@ -1,16 +1,13 @@
 ---
 description: La classe principale del visualizzatore di file multimediali diversi è MixedMediaViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-description: La classe principale del visualizzatore di file multimediali diversi è MixedMediaViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-title: Riferimento API Javascript per il visualizzatore di file multimediali diversi
 solution: Experience Manager
 title: Riferimento API Javascript per il visualizzatore di file multimediali diversi
-uuid: 8a416e62-3ae1-4539-8757-d68f99ea1d1a
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
