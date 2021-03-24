@@ -1,17 +1,14 @@
 ---
 description: Gli effetti di ombreggiatura e bagliore dei livelli in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (livello padre), inclusi layer=0 e layer=comp.
-seo-description: Gli effetti di ombreggiatura e bagliore dei livelli in stile Photoshop vengono implementati utilizzando sottolivelli speciali (livelli di effetto) che possono essere collegati a qualsiasi livello (livello padre), inclusi layer=0 e layer=comp.
-seo-title: Effetti livello
 solution: Experience Manager
 title: Effetti livello
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 2%
 
 ---
 
