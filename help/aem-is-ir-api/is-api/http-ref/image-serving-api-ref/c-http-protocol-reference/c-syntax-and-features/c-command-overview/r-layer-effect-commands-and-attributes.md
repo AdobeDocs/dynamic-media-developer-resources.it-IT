@@ -1,16 +1,13 @@
 ---
 description: Questi comandi possono essere utilizzati per definire gli effetti di livello, ad esempio gli effetti di ombreggiatura o bagliore. I livelli degli effetti ignorano tutti gli altri comandi.
-seo-description: Questi comandi possono essere utilizzati per definire gli effetti di livello, ad esempio gli effetti di ombreggiatura o bagliore. I livelli degli effetti ignorano tutti gli altri comandi.
-seo-title: Comandi dell'effetto livello
 solution: Experience Manager
 title: Comandi dell'effetto livello
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
