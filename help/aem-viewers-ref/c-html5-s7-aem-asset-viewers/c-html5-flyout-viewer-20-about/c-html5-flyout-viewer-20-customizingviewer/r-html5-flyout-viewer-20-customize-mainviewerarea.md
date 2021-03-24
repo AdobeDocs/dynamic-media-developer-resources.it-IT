@@ -1,16 +1,13 @@
 ---
 description: L’area di visualizzazione principale è l’area occupata dalla vista a comparsa e dai campioni.
-seo-description: L’area di visualizzazione principale è l’area occupata dalla vista a comparsa e dai campioni.
-seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '102'
 ht-degree: 2%
 
 ---
