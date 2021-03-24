@@ -1,17 +1,14 @@
 ---
 description: Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l'accesso.
-seo-description: Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l'accesso.
-seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '152'
+ht-degree: 11%
 
 ---
 
