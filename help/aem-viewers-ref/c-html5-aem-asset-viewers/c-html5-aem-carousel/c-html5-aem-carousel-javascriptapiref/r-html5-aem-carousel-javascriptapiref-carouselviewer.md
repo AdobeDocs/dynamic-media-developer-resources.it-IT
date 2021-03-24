@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore Carosello.
-seo-description: Riferimento API JavaScript per il visualizzatore Carosello.
-seo-title: Visualizzatore carosello
 solution: Experience Manager
 title: Visualizzatore carosello
-uuid: 443a5b54-b5f6-4594-810b-ce9b2ba40611
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
