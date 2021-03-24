@@ -1,16 +1,13 @@
 ---
 description: Il contenuto dell'intera parte dei modificatori della stringa di richiesta, incluso il suffisso di blocco opzionale, può essere oscurato applicando la codifica standard base64.
-seo-description: Il contenuto dell'intera parte dei modificatori della stringa di richiesta, incluso il suffisso di blocco opzionale, può essere oscurato applicando la codifica standard base64.
-seo-title: Offuscamento della richiesta
 solution: Experience Manager
 title: Offuscamento della richiesta
-uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
