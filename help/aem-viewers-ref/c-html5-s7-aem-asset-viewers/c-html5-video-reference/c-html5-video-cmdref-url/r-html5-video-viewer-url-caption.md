@@ -1,17 +1,14 @@
 ---
 description: Comando URL per il visualizzatore video.
-seo-description: Comando URL per il visualizzatore video.
-seo-title: didascalia
 solution: Experience Manager
 title: didascalia
-uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 9%
+source-wordcount: '206'
+ht-degree: 10%
 
 ---
 
