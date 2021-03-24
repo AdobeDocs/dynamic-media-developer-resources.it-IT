@@ -1,17 +1,14 @@
 ---
 description: Aggiorna i valori del dizionario tag per un campo tag.
-seo-description: Aggiorna i valori del dizionario tag per un campo tag.
-seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 10%
+source-wordcount: '164'
+ht-degree: 11%
 
 ---
 
