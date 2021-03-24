@@ -1,17 +1,14 @@
 ---
 description: Campo di metadati restituito da searchAssets.
-seo-description: Campo di metadati restituito da searchAssets.
-seo-title: Metadati
 solution: Experience Manager
 title: Metadati
-uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
 feature: Dynamic Media Classic, SDK/API, Metadati
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 11%
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
