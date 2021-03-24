@@ -1,16 +1,13 @@
 ---
 description: I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
-seo-description: I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
-seo-title: Scaffali
 solution: Experience Manager
 title: Scaffali
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
