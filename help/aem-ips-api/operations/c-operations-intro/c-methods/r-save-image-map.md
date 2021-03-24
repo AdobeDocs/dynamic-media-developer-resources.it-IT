@@ -1,17 +1,14 @@
 ---
 description: Crea una nuova mappa immagine o modifica una mappa esistente.
-seo-description: Crea una nuova mappa immagine o modifica una mappa esistente.
-seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 7%
+source-wordcount: '260'
+ht-degree: 8%
 
 ---
 
