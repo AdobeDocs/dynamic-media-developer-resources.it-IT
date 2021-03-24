@@ -1,17 +1,14 @@
 ---
 description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore Video360 vengono effettuate creando un CSS personalizzato.
 keywords: reattivo
-seo-description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore Video360 vengono effettuate creando un CSS personalizzato.
-seo-title: Personalizzazione del visualizzatore video360
 solution: Experience Manager
 title: Personalizzazione del visualizzatore video360
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
