@@ -1,16 +1,13 @@
 ---
 description: La classe principale di Interactive Image Viewer è InteractiveImage. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-description: La classe principale di Interactive Image Viewer è InteractiveImage. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-title: Riferimento API JavaScript per il visualizzatore di immagini interattive
 solution: Experience Manager
 title: Riferimento API JavaScript per il visualizzatore di immagini interattive
-uuid: 952c85b7-556c-4f58-aa65-003b0de70fd2
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
