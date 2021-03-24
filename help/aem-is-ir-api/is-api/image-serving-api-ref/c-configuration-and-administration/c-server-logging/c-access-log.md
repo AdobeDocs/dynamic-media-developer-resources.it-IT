@@ -1,16 +1,13 @@
 ---
 description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Image Rendering, se abilitato, scrive i dati del registro di accesso nello stesso file.
-seo-description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Image Rendering, se abilitato, scrive i dati del registro di accesso nello stesso file.
-seo-title: Registro di accesso
 solution: Experience Manager
 title: Registro di accesso
-uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
