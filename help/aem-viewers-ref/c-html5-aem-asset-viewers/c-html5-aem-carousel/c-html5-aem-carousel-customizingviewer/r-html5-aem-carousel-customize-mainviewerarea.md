@@ -1,17 +1,14 @@
 ---
 description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner carosello. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-description: L’area di visualizzazione principale è l’area occupata dall’immagine del banner carosello. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-uuid: 0e796f75-36a6-4961-9980-b634ab50c7ff
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
