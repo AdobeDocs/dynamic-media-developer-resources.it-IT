@@ -3,11 +3,10 @@ description: Il visualizzatore di ricerca eCatalog è un visualizzatore di catal
 keywords: reattivo
 solution: Experience Manager
 title: Ricerca eCatalog
-uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '2191'
 ht-degree: 0%
