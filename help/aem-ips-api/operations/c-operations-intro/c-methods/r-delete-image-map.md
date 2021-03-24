@@ -1,17 +1,14 @@
 ---
 description: Elimina una mappa immagine.
-seo-description: Elimina una mappa immagine.
-seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 9%
+source-wordcount: '100'
+ht-degree: 10%
 
 ---
 
