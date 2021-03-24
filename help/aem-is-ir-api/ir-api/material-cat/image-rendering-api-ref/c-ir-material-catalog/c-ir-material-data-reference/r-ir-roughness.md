@@ -1,17 +1,14 @@
 ---
 description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato in combinazione con Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering di riflesso 3D.
-seo-description: Rugosità della superficie. Specifica la lucentezza relativa della superficie del materiale. Utilizzato in combinazione con Tipo catalogo e Gloss catalogo per controllare gli effetti di rendering di riflesso 3D.
-seo-title: Rugosità
 solution: Experience Manager
 title: Rugosità
-uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
