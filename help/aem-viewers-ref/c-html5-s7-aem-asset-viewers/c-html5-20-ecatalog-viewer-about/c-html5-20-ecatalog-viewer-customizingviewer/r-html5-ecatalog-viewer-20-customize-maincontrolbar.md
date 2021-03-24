@@ -1,16 +1,13 @@
 ---
 description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore eCatalog.
-seo-description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore eCatalog.
-seo-title: Barra di controllo principale
 solution: Experience Manager
 title: Barra di controllo principale
-uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
