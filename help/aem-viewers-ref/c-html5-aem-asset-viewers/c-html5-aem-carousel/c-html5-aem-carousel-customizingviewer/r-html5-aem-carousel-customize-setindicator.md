@@ -1,16 +1,13 @@
 ---
 description: L'indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
-seo-description: L'indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
-seo-title: Imposta indicatore
 solution: Experience Manager
 title: Imposta indicatore
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
