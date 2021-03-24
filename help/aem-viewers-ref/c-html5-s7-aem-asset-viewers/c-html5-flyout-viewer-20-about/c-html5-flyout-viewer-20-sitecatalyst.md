@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore a comparsa supporta il tracciamento predefinito di Adobe Analytics.
-seo-description: Il visualizzatore a comparsa supporta il tracciamento predefinito di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
