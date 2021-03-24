@@ -1,16 +1,13 @@
 ---
 description: Il sommario è un pulsante situato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
-seo-description: Il sommario è un pulsante situato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
-seo-title: Sommario
 solution: Experience Manager
 title: Sommario
-uuid: 3513dd02-6c51-42fc-a1a8-afca378aabc6
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
