@@ -1,16 +1,13 @@
 ---
 description: Nella sequenza di comando modificatore URL o catalogo, una sequenza di definizione del livello inizia con il comando layer= e termina con un altro comando layer= , un comando effect= o la fine dell'URL.
-seo-description: Nella sequenza di comando modificatore URL o catalogo, una sequenza di definizione del livello inizia con il comando layer= e termina con un altro comando layer= , un comando effect= o la fine dell'URL.
-seo-title: Specifica dei livelli
 solution: Experience Manager
 title: Specifica dei livelli
-uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
