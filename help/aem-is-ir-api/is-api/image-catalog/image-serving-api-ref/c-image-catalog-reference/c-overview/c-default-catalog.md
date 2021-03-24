@@ -1,16 +1,13 @@
 ---
 description: Il catalogo predefinito fornisce valori predefiniti per tutti gli attributi del catalogo per tutti i cataloghi di immagini.
-seo-description: Il catalogo predefinito fornisce valori predefiniti per tutti gli attributi del catalogo per tutti i cataloghi di immagini.
-seo-title: Catalogo predefinito
 solution: Experience Manager
 title: Catalogo predefinito
-uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
