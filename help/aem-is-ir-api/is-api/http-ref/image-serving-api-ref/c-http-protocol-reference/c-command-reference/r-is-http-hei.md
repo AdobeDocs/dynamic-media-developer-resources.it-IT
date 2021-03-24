@@ -1,17 +1,14 @@
 ---
 description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (visualizza immagine) quando l'adattamento non è presente nella richiesta.
-seo-description: Altezza visualizzazione. Specifica l'altezza dell'immagine della risposta (visualizza immagine) quando l'adattamento non è presente nella richiesta.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 307952bb-604f-49b4-bce3-b7a7fc7ec63b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 4%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 
