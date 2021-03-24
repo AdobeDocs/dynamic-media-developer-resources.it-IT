@@ -1,16 +1,13 @@
 ---
 description: Comando URL per il visualizzatore video.
-seo-description: Comando URL per il visualizzatore video.
-seo-title: navigazione
 solution: Experience Manager
 title: navigazione
-uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '63'
 ht-degree: 7%
 
 ---
