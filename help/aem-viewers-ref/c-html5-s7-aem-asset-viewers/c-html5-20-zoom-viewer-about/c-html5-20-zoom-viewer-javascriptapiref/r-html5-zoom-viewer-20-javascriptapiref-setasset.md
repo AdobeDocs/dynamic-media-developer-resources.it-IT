@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore video.
-seo-description: Riferimento API JavaScript per il visualizzatore video.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: f106b3d4-880e-4ba3-ae47-a005af5c0f1b
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
