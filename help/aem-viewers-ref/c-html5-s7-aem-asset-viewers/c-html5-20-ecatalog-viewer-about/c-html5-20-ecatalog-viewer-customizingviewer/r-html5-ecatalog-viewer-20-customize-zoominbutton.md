@@ -1,17 +1,14 @@
 ---
 description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: Pulsante Zoom in
 solution: Experience Manager
 title: Pulsante Zoom in
-uuid: 927d3719-46fa-4e05-9b17-73e2e2f4d9d6
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
