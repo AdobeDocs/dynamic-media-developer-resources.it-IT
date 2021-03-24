@@ -1,16 +1,13 @@
 ---
 description: Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
-seo-description: Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
-seo-title: Installazione per la prima volta
 solution: Experience Manager
 title: Installazione per la prima volta
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
