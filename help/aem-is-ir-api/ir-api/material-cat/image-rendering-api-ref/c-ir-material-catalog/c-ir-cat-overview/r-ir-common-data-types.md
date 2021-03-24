@@ -1,16 +1,13 @@
 ---
 description: Gli attributi e i campi del catalogo possono contenere dati di uno dei seguenti tipi.
-seo-description: Gli attributi e i campi del catalogo possono contenere dati di uno dei seguenti tipi.
-seo-title: Tipi di dati comuni
 solution: Experience Manager
 title: Tipi di dati comuni
-uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
