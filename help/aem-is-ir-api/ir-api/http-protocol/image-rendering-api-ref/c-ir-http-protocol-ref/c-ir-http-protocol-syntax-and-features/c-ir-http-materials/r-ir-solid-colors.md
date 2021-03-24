@@ -1,17 +1,14 @@
 ---
 description: Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
-seo-description: Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
-seo-title: Colori solidi
 solution: Experience Manager
 title: Colori solidi
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
