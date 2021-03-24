@@ -1,17 +1,14 @@
 ---
 description: Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
-seo-description: Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
-seo-title: show
 solution: Experience Manager
 title: show
-uuid: 31255529-9277-40d9-9c57-205d22479600
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
