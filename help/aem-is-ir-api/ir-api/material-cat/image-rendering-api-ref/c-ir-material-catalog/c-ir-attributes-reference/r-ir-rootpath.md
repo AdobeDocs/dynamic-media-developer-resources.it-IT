@@ -1,17 +1,14 @@
 ---
 description: Percorso radice dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignetta, texture, immagine e ICC a cui fa riferimento questo catalogo di immagini.
-seo-description: Percorso radice dati di origine. Valore stringa di testo. Percorso assoluto o segmento di percorso relativo per la cartella principale per tutti i file di dati vignetta, texture, immagine e ICC a cui fa riferimento questo catalogo di immagini.
-seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
