@@ -1,16 +1,13 @@
 ---
 description: Alcuni contenuti visualizzati dal Visualizzatore zoom di base sono soggetti a localizzazione, compresi i pulsanti zoom e un pulsante a schermo intero.
-seo-description: Alcuni contenuti visualizzati dal Visualizzatore zoom di base sono soggetti a localizzazione, compresi i pulsanti zoom e un pulsante a schermo intero.
-seo-title: Localizzazione degli elementi dell’interfaccia utente
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-uuid: 842970d9-0882-4163-8c49-3ea35d372d35
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
