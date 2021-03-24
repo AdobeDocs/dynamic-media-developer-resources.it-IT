@@ -1,16 +1,13 @@
 ---
 description: Proprietà immagine di origine. Restituisce le proprietà selezionate del file immagine o della voce di catalogo specificate nel percorso URL.
-seo-description: Proprietà immagine di origine. Restituisce le proprietà selezionate del file immagine o della voce di catalogo specificate nel percorso URL.
-seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '334'
 ht-degree: 4%
 
 ---
