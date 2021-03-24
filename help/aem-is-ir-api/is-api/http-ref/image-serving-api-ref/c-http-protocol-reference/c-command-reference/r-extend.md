@@ -1,16 +1,13 @@
 ---
 description: Estende il livello. Aggiunge margini a un livello o ritaglia il rettangolo del livello.
-seo-description: Estende il livello. Aggiunge margini a un livello o ritaglia il rettangolo del livello.
-seo-title: estendere
 solution: Experience Manager
 title: estendere
-uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
