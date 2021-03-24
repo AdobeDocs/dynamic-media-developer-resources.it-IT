@@ -1,16 +1,13 @@
 ---
 description: L'indicatore di rotazione viene sovrapposto all'area di visualizzazione di rotazione. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
-seo-description: L'indicatore di rotazione viene sovrapposto all'area di visualizzazione di rotazione. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
-seo-title: Effetto icona a forma di ruota
 solution: Experience Manager
 title: Effetto icona a forma di ruota
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
