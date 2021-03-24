@@ -1,16 +1,13 @@
 ---
 description: Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
-seo-description: Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
-seo-title: Definizione dei codici SSL
 solution: Experience Manager
 title: Definizione dei codici SSL
-uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
