@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per visualizzatore zoom di base.
-seo-description: Riferimento API JavaScript per visualizzatore zoom di base.
-seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-uuid: 34a2ea4e-5493-41fa-92bf-5cebe66f6370
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
