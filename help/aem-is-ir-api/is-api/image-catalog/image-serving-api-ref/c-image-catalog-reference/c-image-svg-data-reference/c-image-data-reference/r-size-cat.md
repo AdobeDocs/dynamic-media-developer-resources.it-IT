@@ -1,17 +1,14 @@
 ---
 description: Dimensione immagine. Dimensione dei pixel dell'immagine a risoluzione piena a cui fa riferimento il percorso del catalogo.
-seo-description: Dimensione immagine. Dimensione dei pixel dell'immagine a risoluzione piena a cui fa riferimento il percorso del catalogo.
-seo-title: Dimensione
 solution: Experience Manager
 title: Dimensione
-uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 9%
 
 ---
 
