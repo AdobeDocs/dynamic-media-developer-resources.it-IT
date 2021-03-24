@@ -1,16 +1,13 @@
 ---
 description: Rispondi alla larghezza dell'immagine. Specifica la scala dell'immagine renderizzata in modo che l'immagine di risposta non sia più alta del valore specificato, mantenendo le proporzioni dell'immagine.
-seo-description: Rispondi alla larghezza dell'immagine. Specifica la scala dell'immagine renderizzata in modo che l'immagine di risposta non sia più alta del valore specificato, mantenendo le proporzioni dell'immagine.
-seo-title: wid
 solution: Experience Manager
-title: nudo
-uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
+title: wid
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
