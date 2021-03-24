@@ -1,16 +1,13 @@
 ---
 description: I file degli attributi del catalogo riconoscono questi attributi comuni delle miniature.
-seo-description: I file degli attributi del catalogo riconoscono questi attributi comuni delle miniature.
-seo-title: Attributi comuni delle miniature
 solution: Experience Manager
 title: Attributi comuni delle miniature
-uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
