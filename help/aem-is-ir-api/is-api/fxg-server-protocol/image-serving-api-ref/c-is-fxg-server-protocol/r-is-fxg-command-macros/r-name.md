@@ -1,17 +1,14 @@
 ---
 description: Nome della macro del comando.
-seo-description: Nome della macro del comando.
-seo-title: name
 solution: Experience Manager
 title: name
-uuid: 699c1d24-d10a-4daa-9ee1-506b3f664fa3
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
