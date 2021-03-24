@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore di eCatalog.
-seo-description: Riferimento API JavaScript per il visualizzatore di eCatalog.
-seo-title: disporre
 solution: Experience Manager
 title: disporre
-uuid: b2073d03-a0a0-4f55-a350-7336ddcf031d
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
