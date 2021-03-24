@@ -1,17 +1,14 @@
 ---
 description: Recupera un pacchetto di metadati XMP per la risorsa specificata.
-seo-description: Recupera un pacchetto di metadati XMP per la risorsa specificata.
-seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
-uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
