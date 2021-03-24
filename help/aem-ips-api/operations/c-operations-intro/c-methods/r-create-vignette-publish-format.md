@@ -1,17 +1,14 @@
 ---
 description: Crea un nuovo formato di pubblicazione per una vignetta.
-seo-description: Crea un nuovo formato di pubblicazione per una vignetta.
-seo-title: createVignettePublishFormat
 solution: Experience Manager
 title: createVignettePublishFormat
-uuid: 834ebe6a-e105-4075-8004-172237980933
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 13%
+source-wordcount: '525'
+ht-degree: 14%
 
 ---
 
