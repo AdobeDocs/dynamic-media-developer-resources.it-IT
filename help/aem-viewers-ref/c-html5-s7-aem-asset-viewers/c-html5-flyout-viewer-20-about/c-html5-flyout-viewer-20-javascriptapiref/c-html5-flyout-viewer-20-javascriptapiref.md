@@ -1,16 +1,13 @@
 ---
 description: La classe principale del Visualizzatore a comparsa è FlyoutViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-description: La classe principale del Visualizzatore a comparsa è FlyoutViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-title: Riferimento API JavaScript per il visualizzatore a comparsa
 solution: Experience Manager
 title: Riferimento API JavaScript per il visualizzatore a comparsa
-uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
