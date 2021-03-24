@@ -1,17 +1,14 @@
 ---
 description: L'area di visualizzazione principale è l'area occupata dalla vista principale e dai campioni. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-description: L'area di visualizzazione principale è l'area occupata dalla vista principale e dai campioni. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
