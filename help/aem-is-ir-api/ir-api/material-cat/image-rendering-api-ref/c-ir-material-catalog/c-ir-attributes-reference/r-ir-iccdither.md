@@ -1,17 +1,14 @@
 ---
 description: Dithering della conversione del colore. Specifica se la dithering deve essere utilizzata per migliorare la qualità percettiva delle conversioni di colore quando non viene effettuata alcuna selezione esplicita con icc=.
-seo-description: Dithering della conversione del colore. Specifica se la dithering deve essere utilizzata per migliorare la qualità percettiva delle conversioni di colore quando non viene effettuata alcuna selezione esplicita con icc=.
-seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
