@@ -1,16 +1,13 @@
 ---
 description: Se necessario, è possibile disinstallare Image Rendering.
-seo-description: Se necessario, è possibile disinstallare Image Rendering.
-seo-title: Disinstallazione del rendering delle immagini
 solution: Experience Manager
 title: Disinstallazione del rendering delle immagini
-uuid: ffabd01e-8653-491f-bddc-4ea6fcde0b43
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
