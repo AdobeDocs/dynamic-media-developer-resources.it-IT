@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore di eCatalog
-seo-description: Riferimento API JavaScript per il visualizzatore di eCatalog
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: e06e2943-d2cc-4eaf-9fd4-4225bb7a7469
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
