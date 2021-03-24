@@ -1,17 +1,14 @@
 ---
 description: Modalità di ricampionamento. Seleziona l'algoritmo di ricampionamento e/o interpolazione da utilizzare per scalare l'immagine renderizzata alle dimensioni specificate con wid=, hei= o scl=.
-seo-description: Modalità di ricampionamento. Seleziona l'algoritmo di ricampionamento e/o interpolazione da utilizzare per scalare l'immagine renderizzata alle dimensioni specificate con wid=, hei= o scl=.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 12%
+source-wordcount: '184'
+ht-degree: 13%
 
 ---
 
