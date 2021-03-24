@@ -1,16 +1,13 @@
 ---
 description: Utilità di convalida immagine. Questa utilità della riga di comando verifica i file immagine per assicurarsi che siano validi e che possano essere letti senza difficoltà da Image Serving.
-seo-description: Utilità di convalida immagine. Questa utilità della riga di comando verifica i file immagine per assicurarsi che siano validi e che possano essere letti senza difficoltà da Image Serving.
-seo-title: validate
 solution: Experience Manager
 title: validate
-uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
