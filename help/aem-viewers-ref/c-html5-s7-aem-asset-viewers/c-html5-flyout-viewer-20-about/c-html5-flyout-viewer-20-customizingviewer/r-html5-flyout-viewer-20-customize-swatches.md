@@ -1,16 +1,13 @@
 ---
 description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra.
-seo-description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra.
-seo-title: Campioni
 solution: Experience Manager
 title: Campioni
-uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
