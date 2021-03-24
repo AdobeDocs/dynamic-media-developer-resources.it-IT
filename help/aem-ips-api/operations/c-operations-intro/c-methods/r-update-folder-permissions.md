@@ -1,17 +1,14 @@
 ---
 description: Aggiorna le autorizzazioni della cartella.
-seo-description: Aggiorna le autorizzazioni della cartella.
-seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 14%
+source-wordcount: '79'
+ht-degree: 15%
 
 ---
 
