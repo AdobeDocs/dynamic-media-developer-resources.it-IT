@@ -1,17 +1,14 @@
 ---
 description: Comando URL per il visualizzatore Video360.
-seo-description: Comando URL per il visualizzatore Video360.
-seo-title: video
 solution: Experience Manager
 title: video
-uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
