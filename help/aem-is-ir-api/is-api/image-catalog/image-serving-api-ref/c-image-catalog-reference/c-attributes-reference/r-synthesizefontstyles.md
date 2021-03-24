@@ -1,17 +1,14 @@
 ---
 description: Abilita varianti di font sintetizzate. Controlla se il server deve generare una risposta di errore o sintetizzare uno stile di font grassetto, corsivo o grassetto/corsivo se tale stile è richiesto ma non è disponibile nella mappa dei font.
-seo-description: Abilita varianti di font sintetizzate. Controlla se il server deve generare una risposta di errore o sintetizzare uno stile di font grassetto, corsivo o grassetto/corsivo se tale stile è richiesto ma non è disponibile nella mappa dei font.
-seo-title: SynthesizeFontStyles
 solution: Experience Manager
 title: SynthesizeFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
