@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore Video360.
-seo-description: Riferimento API JavaScript per il visualizzatore Video360.
-seo-title: disporre
 solution: Experience Manager
 title: disporre
-uuid: bdecadb1-4e77-43d5-9da5-80e5101efb36
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
