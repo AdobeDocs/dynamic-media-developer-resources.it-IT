@@ -1,17 +1,14 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore 360 gradi
-seo-description: Riferimento API JavaScript per il visualizzatore 360 gradi
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 50db47ee-c1bb-4e45-bfcf-fae0fff6e0e8
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
