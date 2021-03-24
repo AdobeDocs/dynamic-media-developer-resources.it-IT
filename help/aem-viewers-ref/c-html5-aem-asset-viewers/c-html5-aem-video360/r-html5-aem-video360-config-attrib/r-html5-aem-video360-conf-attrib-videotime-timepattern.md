@@ -1,16 +1,13 @@
 ---
 description: Attributo di configurazione per il visualizzatore Video360.
-seo-description: Attributo di configurazione per il visualizzatore Video360.
-seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-uuid: fe145e6f-742e-44fc-b225-187a86b6700e
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
