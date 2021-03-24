@@ -1,17 +1,14 @@
 ---
 description: Nitidezza immagine risposta predefinita. Specifica se rendere più nitide le immagini di risposta se vengono ridimensionate prima della codifica.
-seo-description: Nitidezza immagine risposta predefinita. Specifica se rendere più nitide le immagini di risposta se vengono ridimensionate prima della codifica.
-seo-title: Nitidezza
 solution: Experience Manager
 title: Nitidezza
-uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
