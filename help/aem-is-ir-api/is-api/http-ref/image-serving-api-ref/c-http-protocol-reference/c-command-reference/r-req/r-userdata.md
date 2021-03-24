@@ -1,16 +1,13 @@
 ---
 description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso URL.
-seo-description: Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del catalogo immagini specificata nel percorso URL.
-seo-title: dati utente
 solution: Experience Manager
 title: dati utente
-uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '193'
 ht-degree: 6%
 
 ---
