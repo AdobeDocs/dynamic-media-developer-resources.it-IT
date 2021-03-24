@@ -1,17 +1,14 @@
 ---
 description: Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica il tipo di filigrana ed eventuali dati specifici dell’immagine associati.
-seo-description: Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica il tipo di filigrana ed eventuali dati specifici dell’immagine associati.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 11%
+source-wordcount: '238'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +79,7 @@ Quattro valori interi, separati da virgole.
    <td> <p>Limitata. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protetto da copia, limitato. </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +118,7 @@ L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
@@ -131,7 +128,7 @@ L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID transazione. </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
