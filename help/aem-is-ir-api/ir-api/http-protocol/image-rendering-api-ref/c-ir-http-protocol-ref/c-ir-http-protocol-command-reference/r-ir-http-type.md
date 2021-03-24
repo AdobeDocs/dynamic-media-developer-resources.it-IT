@@ -1,16 +1,13 @@
 ---
 description: Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
-seo-description: Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
-seo-title: Testo
 solution: Experience Manager
 title: Testo
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '164'
 ht-degree: 21%
 
 ---
