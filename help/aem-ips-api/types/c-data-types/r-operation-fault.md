@@ -1,17 +1,14 @@
 ---
 description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di invalidazione del CDN.
-seo-description: Messaggio di dettaglio che risponde a uno degli URL forniti nella richiesta di invalidazione del CDN.
-seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
