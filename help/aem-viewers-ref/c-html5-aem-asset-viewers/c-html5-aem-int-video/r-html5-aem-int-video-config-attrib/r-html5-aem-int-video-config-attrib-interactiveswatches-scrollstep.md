@@ -1,17 +1,14 @@
 ---
 description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-title: InteractiveSwatches.scrollstep
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
