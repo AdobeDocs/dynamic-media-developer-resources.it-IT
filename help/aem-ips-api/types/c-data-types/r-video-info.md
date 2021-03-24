@@ -1,16 +1,13 @@
 ---
 description: Proprietà delle risorse video.
-seo-description: Proprietà delle risorse video.
-seo-title: VideoInfo
 solution: Experience Manager
 title: VideoInfo
-uuid: c90f2a56-64ff-4f04-bfed-739e33d9a319
 feature: Dynamic Media Classic, SDK/API,Video
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '69'
 ht-degree: 8%
 
 ---
