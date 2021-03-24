@@ -1,16 +1,13 @@
 ---
 description: Caricare la cache del server. Esegue la richiesta come req=img, ma invece di restituire l'immagine, il server restituisce la lunghezza dell'immagine di risposta (image.length), formattata come dati di testo con tipo MIME text/plain.
-seo-description: Caricare la cache del server. Esegue la richiesta come req=img, ma invece di restituire l'immagine, il server restituisce la lunghezza dell'immagine di risposta (image.length), formattata come dati di testo con tipo MIME text/plain.
-seo-title: loadcache
 solution: Experience Manager
 title: loadcache
-uuid: 44f0db05-2323-4aa2-853c-f78e656a4308
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
