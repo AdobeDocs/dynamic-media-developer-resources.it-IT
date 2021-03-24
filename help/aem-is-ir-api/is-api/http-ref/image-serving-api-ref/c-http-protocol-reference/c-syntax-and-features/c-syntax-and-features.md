@@ -1,17 +1,14 @@
 ---
 description: Gli argomenti di questa sezione descrivono la sintassi e le funzioni dei protocolli HTTP.
-seo-description: Gli argomenti di questa sezione descrivono la sintassi e le funzioni dei protocolli HTTP.
-seo-title: Sintassi e caratteristiche
 solution: Experience Manager
 title: Sintassi e caratteristiche
-uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
 
