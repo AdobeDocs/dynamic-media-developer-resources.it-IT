@@ -1,16 +1,13 @@
 ---
 description: Il pulsante a schermo intero consente al lettore video di entrare o uscire dalla modalità a schermo intero quando un utente lo fa clic.
-seo-description: Il pulsante a schermo intero consente al lettore video di entrare o uscire dalla modalità a schermo intero quando un utente lo fa clic.
-seo-title: Pulsante Schermo intero
 solution: Experience Manager
 title: Pulsante Schermo intero
-uuid: c6b90158-8658-49f1-86c3-c3dd00fe9070
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
