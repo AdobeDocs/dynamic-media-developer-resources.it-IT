@@ -1,17 +1,14 @@
 ---
 description: Valori colore. È possibile specificare valori di colore utilizzando una notazione esadecimale, un elenco di valori di componente separati da virgole o decimali.
-seo-description: Valori colore. È possibile specificare valori di colore utilizzando una notazione esadecimale, un elenco di valori di componente separati da virgole o decimali.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 13%
+source-wordcount: '439'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +44,7 @@ Valori colore. È possibile specificare valori di colore utilizzando una notazio
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> ex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>valore di colore RGB esadecimale a sei cifre (RRGGBB) </p></td> 
+  <td class="stentry"> <p>valore di colore esadecimale RGB a sei cifre (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> ex8</span> </span> </p> </td> 
@@ -63,7 +60,7 @@ I valori dei componenti decimali per i colori RGB sono compresi nell’intervall
 
 I valori dei componenti di colore sono considerati indipendenti dal valore alfa (non pre-moltiplicato).
 
-Tutti i valori di colore, i prefissi e i suffissi non fanno distinzione tra maiuscole e minuscole.
+Tutti i valori di colore, i prefissi e i suffissi non sono sensibili all’uso di maiuscole e minuscole.
 
 Il suffisso di tipo &quot;k&quot; è necessario per i valori di colore CMYK. Facoltativamente, è possibile specificare un suffisso di tipo per i valori di colore RGB e grigio.
 
