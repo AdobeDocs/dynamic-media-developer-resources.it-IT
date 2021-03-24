@@ -1,17 +1,14 @@
 ---
 description: Il visualizzatore a 360 gradi è un visualizzatore di immagini che fornisce una visualizzazione dell’immagine a 360 gradi o anche una visualizzazione multidimensionale, se si utilizza un set 360 gradi appropriato. È dotato di strumenti di zoom e rotazione, supporto a schermo intero e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 keywords: reattivo
-seo-description: Il visualizzatore a 360 gradi è un visualizzatore di immagini che fornisce una visualizzazione dell’immagine a 360 gradi o anche una visualizzazione multidimensionale, se si utilizza un set 360 gradi appropriato. È dotato di strumenti di zoom e rotazione, supporto a schermo intero e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
-seo-title: Spin
 solution: Experience Manager
-title: Centrifuga
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+title: Spin
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
