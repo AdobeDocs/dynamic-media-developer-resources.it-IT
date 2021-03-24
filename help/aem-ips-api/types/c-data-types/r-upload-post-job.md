@@ -1,16 +1,13 @@
 ---
 description: Utilizza getActiveJobs per tenere traccia dei caricamenti del desktop.
-seo-description: Utilizza getActiveJobs per tenere traccia dei caricamenti del desktop.
-seo-title: UploadPostJob
 solution: Experience Manager
 title: UploadPostJob
-uuid: 172f47c7-685a-4014-9c30-dacd78733655
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '473'
 ht-degree: 6%
 
 ---
