@@ -1,17 +1,14 @@
 ---
 description: Immagine di risposta predefinita. Specifica l'immagine o la voce di catalogo da utilizzare nel caso in cui non sia possibile trovare un file di immagine e defaultImage= non sia specificato nella richiesta.
-seo-description: Immagine di risposta predefinita. Specifica l'immagine o la voce di catalogo da utilizzare nel caso in cui non sia possibile trovare un file di immagine e defaultImage= non sia specificato nella richiesta.
-seo-title: DefaultImage
 solution: Experience Manager
 title: DefaultImage
-uuid: 6f8f50af-15bb-4333-b227-3eba38653a7d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 1%
+source-wordcount: '179'
+ht-degree: 2%
 
 ---
 
