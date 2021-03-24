@@ -1,17 +1,14 @@
 ---
 description: quantizzazione del colore. Specifica gli attributi di quantizzazione del colore per la conversione dell'output GIF.
-seo-description: quantizzazione del colore. Specifica gli attributi di quantizzazione del colore per la conversione dell'output GIF.
-seo-title: quantificare
 solution: Experience Manager
 title: quantificare
-uuid: 624cdc45-51f2-4b18-a658-311770974521
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
