@@ -1,17 +1,14 @@
 ---
 description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-seo-title: Area visualizzatore principale
 solution: Experience Manager
 title: Area visualizzatore principale
-uuid: 666328fe-1819-43a6-a2c2-ba63ac798700
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 2%
 
 ---
 
