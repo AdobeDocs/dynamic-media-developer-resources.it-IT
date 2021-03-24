@@ -1,16 +1,13 @@
 ---
 description: Questa sezione fornisce istruzioni per avviare e arrestare Image Serving in Windows e Linux.
-seo-description: Questa sezione fornisce istruzioni per avviare e arrestare Image Serving in Windows e Linux.
-seo-title: Avvio e arresto di Image Serving
 solution: Experience Manager
 title: Avvio e arresto di Image Serving
-uuid: 1b9f90a1-5ce4-49ed-b412-32d0c914b333
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
