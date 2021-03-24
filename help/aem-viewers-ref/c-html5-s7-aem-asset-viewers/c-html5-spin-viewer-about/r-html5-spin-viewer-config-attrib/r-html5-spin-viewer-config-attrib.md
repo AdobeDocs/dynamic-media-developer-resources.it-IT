@@ -1,16 +1,13 @@
 ---
 description: Documentazione degli attributi di configurazione per il visualizzatore a 360 gradi.
-seo-description: Documentazione degli attributi di configurazione per il visualizzatore a 360 gradi.
-seo-title: Riferimento comando - Attributi di configurazione
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-uuid: ba60da44-d30d-459f-b3d8-5cf3ea4bcbdb
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
