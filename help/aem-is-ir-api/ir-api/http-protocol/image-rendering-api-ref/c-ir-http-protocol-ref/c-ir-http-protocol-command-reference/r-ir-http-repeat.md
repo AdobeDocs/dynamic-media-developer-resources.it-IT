@@ -1,17 +1,14 @@
 ---
 description: Modalità di ripetizione texture. Specifica la modalità di ripetizione per i materiali di texture ripetibili.
-seo-description: Modalità di ripetizione texture. Specifica la modalità di ripetizione per i materiali di texture ripetibili.
-seo-title: repeat
 solution: Experience Manager
 title: repeat
-uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '162'
+ht-degree: 14%
 
 ---
 
