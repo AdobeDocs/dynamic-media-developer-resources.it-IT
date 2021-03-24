@@ -1,16 +1,13 @@
 ---
 description: Timestamp modifica file. Specifica la data/ora dell'ultima modifica apportata ai file di immagine e/o dati allegati al record del catalogo.
-seo-description: Timestamp modifica file. Specifica la data/ora dell'ultima modifica apportata ai file di immagine e/o dati allegati al record del catalogo.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
