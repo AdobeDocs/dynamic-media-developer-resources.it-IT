@@ -1,16 +1,13 @@
 ---
 description: Se il formato xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
-seo-description: Se il formato xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
-seo-title: Proprietà XML
 solution: Experience Manager
 title: Proprietà XML
-uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
