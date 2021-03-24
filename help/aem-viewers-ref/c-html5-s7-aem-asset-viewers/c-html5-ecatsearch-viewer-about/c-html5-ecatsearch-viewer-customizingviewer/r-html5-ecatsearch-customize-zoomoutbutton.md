@@ -1,17 +1,14 @@
 ---
 description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: Pulsante Zoom out
 solution: Experience Manager
 title: Pulsante Zoom out
-uuid: cf1c62eb-e0a4-413d-93d3-3aed31e9a444
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 1%
 
 ---
 
