@@ -1,16 +1,13 @@
 ---
 description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
-seo-description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
-seo-title: KnockoutBackgroundOptions
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-uuid: 1486d646-f42a-4ed4-9450-313950969c39
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '174'
 ht-degree: 2%
 
 ---
