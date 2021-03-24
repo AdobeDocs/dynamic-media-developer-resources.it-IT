@@ -1,16 +1,13 @@
 ---
 description: L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
-seo-description: L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
-seo-title: Ora video
 solution: Experience Manager
 title: Ora video
-uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
