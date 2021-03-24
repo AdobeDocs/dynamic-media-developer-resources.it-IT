@@ -1,17 +1,14 @@
 ---
 description: Il visualizzatore visualizza le icone Preferiti nella vista principale, in punti in cui è stato originariamente aggiunto dall’utente.
-seo-description: Il visualizzatore visualizza le icone Preferiti nella vista principale, in punti in cui è stato originariamente aggiunto dall’utente.
-seo-title: Effetto Preferiti
 solution: Experience Manager
 title: Effetto Preferiti
-uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
