@@ -2,11 +2,10 @@
 description: Scarica
 solution: Experience Manager
 title: Scarica
-uuid: 73f012dc-4fd0-4460-87d8-3079bcd7a9de
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
