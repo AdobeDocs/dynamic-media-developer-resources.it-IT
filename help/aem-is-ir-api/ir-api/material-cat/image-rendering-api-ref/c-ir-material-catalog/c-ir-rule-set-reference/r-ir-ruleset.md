@@ -1,17 +1,14 @@
 ---
 description: Elemento contenitore regole. Un file di set di regole valido contiene un elemento <ruleset>.
-seo-description: Elemento contenitore regole. Un file di set di regole valido contiene un elemento <ruleset>.
-seo-title: ruleset
 solution: Experience Manager
 title: ruleset
-uuid: 92e691ac-079e-4f84-9142-80e0c603cfc3
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '40'
+ht-degree: 7%
 
 ---
 
