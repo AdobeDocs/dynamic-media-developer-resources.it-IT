@@ -1,17 +1,14 @@
 ---
 description: Imposta i comandi del protocollo Image Server o Image Rendering per la risorsa specificata. Questi comandi modificano la rappresentazione della risorsa senza distruggerla.
-seo-description: Imposta i comandi del protocollo Image Server o Image Rendering per la risorsa specificata. Questi comandi modificano la rappresentazione della risorsa senza distruggerla.
-seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 5%
+source-wordcount: '184'
+ht-degree: 6%
 
 ---
 
