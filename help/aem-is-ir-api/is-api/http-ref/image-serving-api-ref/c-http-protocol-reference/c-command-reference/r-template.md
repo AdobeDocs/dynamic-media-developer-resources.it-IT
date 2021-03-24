@@ -1,24 +1,21 @@
 ---
 description: Modello di composizione. Consente di specificare un modello di composizione posizionato in un catalogo diverso dal catalogo principale.
-seo-description: Modello di composizione. Consente di specificare un modello di composizione posizionato in un catalogo diverso dal catalogo principale.
-seo-title: template
 solution: Experience Manager
 title: template
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
 
 # template{#template}
 
-Modello di composizione. Consente di specificare un modello di composizione posizionato in un catalogo diverso dal catalogo principale.
+Modello di composizione. Consente di specificare un modello di composizione in un catalogo diverso dal catalogo principale.
 
 `template= *`template`*`
 
@@ -31,7 +28,7 @@ Modello di composizione. Consente di specificare un modello di composizione posi
 
 *`template`* deve essere una voce di catalogo immagini con il corpo del modello contenuto in  `catalog::Modifier`.
 
-Quando `template=` è presente, l&#39;oggetto specificato nel percorso della richiesta non verrà applicato come origine per il livello 0, ma può essere referenziato come `src=` o `mask=` in qualsiasi punto del modello utilizzando la variabile di percorso predefinita `$object$` come valore `src=`. `catalog::Modifier` dell&#39;oggetto specificato nel percorso della richiesta viene applicato solo in connessione con la sostituzione di  `$object$` all&#39;interno del modello, mentre  `catalog::PostModifier` viene sempre applicato.
+Quando `template=` è presente, l&#39;oggetto specificato nel percorso della richiesta non viene applicato come origine per il livello 0. Tuttavia, è possibile farvi riferimento come `src=` o `mask=` in qualsiasi punto del modello utilizzando la variabile di percorso predefinita `$object$` come valore `src=`. `catalog::Modifier` dell’oggetto specificato nel percorso della richiesta viene applicato solo con la sostituzione di all’ `$object$` interno del modello, mentre  `catalog::PostModifier` viene sempre applicato.
 
 Il livello 0 è definito nel corpo del modello e può essere un livello di richiesta di immagine, colore solido, testo o nidificato o incorporato.
 
