@@ -1,16 +1,13 @@
 ---
 description: Dopo l'installazione sarà necessario configurare i servizi per l'esecuzione sotto l'altro account utente.
-seo-description: Dopo l'installazione sarà necessario configurare i servizi per l'esecuzione sotto l'altro account utente.
-seo-title: Installazione in un account utente diverso da quello dell'amministratore
 solution: Experience Manager
 title: Installazione in un account utente diverso da quello dell'amministratore
-uuid: c5944515-c378-45c3-bc18-3261133ba009
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
