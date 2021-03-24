@@ -1,16 +1,13 @@
 ---
 description: Rimuove le autorizzazioni della cartella.
-seo-description: Rimuove le autorizzazioni della cartella.
-seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
-uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '117'
 ht-degree: 9%
 
 ---
