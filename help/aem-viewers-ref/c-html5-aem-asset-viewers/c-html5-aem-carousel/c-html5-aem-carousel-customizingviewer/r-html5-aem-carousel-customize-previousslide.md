@@ -1,16 +1,13 @@
 ---
 description: Toccando o facendo clic su questo pulsante si ritorna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Toccando o facendo clic su questo pulsante si ritorna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: diapositiva precedente
 solution: Experience Manager
 title: diapositiva precedente
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
