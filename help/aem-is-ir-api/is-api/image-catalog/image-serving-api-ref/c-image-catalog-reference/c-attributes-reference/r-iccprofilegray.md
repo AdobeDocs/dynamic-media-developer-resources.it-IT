@@ -1,17 +1,14 @@
 ---
 description: Profilo colore di output predefinito in scala di grigi. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta in scala di grigi quando non è specificato alcuno spazio colore di output con icc= e per alcuni valori di colore in scala di grigi specificati con vari comandi Image Serving, ad esempio color=.
-seo-description: Profilo colore di output predefinito in scala di grigi. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta in scala di grigi quando non è specificato alcuno spazio colore di output con icc= e per alcuni valori di colore in scala di grigi specificati con vari comandi Image Serving, ad esempio color=.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: a7d40114-f91f-4637-bb49-5b06b9ce846d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
