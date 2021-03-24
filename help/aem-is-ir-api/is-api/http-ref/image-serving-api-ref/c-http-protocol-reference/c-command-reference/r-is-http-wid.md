@@ -1,16 +1,13 @@
 ---
 description: Larghezza visualizzazione. Specifica la larghezza dell'immagine della risposta (visualizza immagine) quando fit= non è presente nella richiesta.
-seo-description: Larghezza visualizzazione. Specifica la larghezza dell'immagine della risposta (visualizza immagine) quando fit= non è presente nella richiesta.
-seo-title: wid
 solution: Experience Manager
-title: nudo
-uuid: 30aeeea0-c8c9-40b9-a244-2802a7102dd6
+title: wid
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
