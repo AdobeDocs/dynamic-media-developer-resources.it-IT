@@ -1,16 +1,13 @@
 ---
 description: Il clustering della cache consente a più server con carico bilanciato di scambiare voci di cache nella cache di risposta primaria e nella cache di dati secondaria (per le richieste nidificate/incorporate), con il potenziale di aumentare significativamente la reattività del server eliminando la necessità di generare la stessa voce di cache su più server.
-seo-description: Il clustering della cache consente a più server con carico bilanciato di scambiare voci di cache nella cache di risposta primaria e nella cache di dati secondaria (per le richieste nidificate/incorporate), con il potenziale di aumentare significativamente la reattività del server eliminando la necessità di generare la stessa voce di cache su più server.
-seo-title: Clustering cache
 solution: Experience Manager
 title: Clustering cache
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
