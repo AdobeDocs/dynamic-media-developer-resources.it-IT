@@ -1,16 +1,13 @@
 ---
 description: La visualizzazione principale consiste nell’immagine statica, nell’immagine ingrandita mostrata nella visualizzazione a comparsa sopra l’immagine statica e nel messaggio di suggerimento visualizzato sopra l’immagine statica.
-seo-description: La visualizzazione principale consiste nell’immagine statica, nell’immagine ingrandita mostrata nella visualizzazione a comparsa sopra l’immagine statica e nel messaggio di suggerimento visualizzato sopra l’immagine statica.
-seo-title: Visualizzazione zoom a comparsa
 solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
