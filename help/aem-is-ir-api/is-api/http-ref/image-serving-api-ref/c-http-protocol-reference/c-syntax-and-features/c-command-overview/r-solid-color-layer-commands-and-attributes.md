@@ -1,16 +1,13 @@
 ---
 description: Questi comandi si applicano ai livelli di colore solido, oltre ai comandi di livello comuni.
-seo-description: Questi comandi si applicano ai livelli di colore solido, oltre ai comandi di livello comuni.
-seo-title: Comandi a livello di colore solido
 solution: Experience Manager
 title: Comandi a livello di colore solido
-uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
