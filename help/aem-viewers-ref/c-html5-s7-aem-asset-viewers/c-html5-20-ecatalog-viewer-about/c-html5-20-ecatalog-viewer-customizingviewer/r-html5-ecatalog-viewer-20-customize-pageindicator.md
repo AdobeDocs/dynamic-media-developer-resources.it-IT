@@ -1,17 +1,14 @@
 ---
 description: L’indicatore della pagina visualizza l’indice della pagina corrente e il conteggio totale delle pagine. Appare nella barra di controllo principale sui sistemi desktop e tablet, sui telefoni cellulari viene aggiunto alla barra di controllo secondaria. L’indicatore di pagina può essere ridimensionato, skin e posizionato tramite CSS.
-seo-description: L’indicatore della pagina visualizza l’indice della pagina corrente e il conteggio totale delle pagine. Appare nella barra di controllo principale sui sistemi desktop e tablet, sui telefoni cellulari viene aggiunto alla barra di controllo secondaria. L’indicatore di pagina può essere ridimensionato, skin e posizionato tramite CSS.
-seo-title: Indicatore di pagina
 solution: Experience Manager
 title: Indicatore di pagina
-uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 1%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
