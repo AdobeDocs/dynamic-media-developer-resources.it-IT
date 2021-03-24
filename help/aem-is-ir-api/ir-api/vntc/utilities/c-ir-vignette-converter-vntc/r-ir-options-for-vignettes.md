@@ -1,16 +1,13 @@
 ---
 description: Le seguenti opzioni controllano l'elaborazione dei file di vignetta. Vengono ignorati se sourceFile non è una vignetta.
-seo-description: Le seguenti opzioni controllano l'elaborazione dei file di vignetta. Vengono ignorati se sourceFile non è una vignetta.
-seo-title: Opzioni per le vignette
 solution: Experience Manager
 title: Opzioni per le vignette
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
