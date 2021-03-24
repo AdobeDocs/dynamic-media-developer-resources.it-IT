@@ -1,17 +1,14 @@
 ---
 description: Attributo di configurazione per il visualizzatore Video360.
-seo-description: Attributo di configurazione per il visualizzatore Video360.
-seo-title: Video360Player.singleclick
 solution: Experience Manager
 title: Video360Player.singleclick
-uuid: 2972405c-5c89-45d0-a542-19c7463901b4
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 11%
+source-wordcount: '82'
+ht-degree: 9%
 
 ---
 
