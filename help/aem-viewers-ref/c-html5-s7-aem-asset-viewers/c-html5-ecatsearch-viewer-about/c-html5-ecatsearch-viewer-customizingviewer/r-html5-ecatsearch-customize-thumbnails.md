@@ -1,17 +1,14 @@
 ---
 description: Le miniature sono costituite da una griglia di miniature con una barra di scorrimento facoltativa sul lato destro per consentire lo scorrimento verticale.
-seo-description: Le miniature sono costituite da una griglia di miniature con una barra di scorrimento facoltativa sul lato destro per consentire lo scorrimento verticale.
-seo-title: Miniature
 solution: Experience Manager
 title: Miniature
-uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 2%
+source-wordcount: '902'
+ht-degree: 1%
 
 ---
 
