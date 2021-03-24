@@ -1,17 +1,14 @@
 ---
 description: Descrive i tipi di dati nuovi e modificati per l’API IPS versione 3.8.
-seo-description: Descrive i tipi di dati nuovi e modificati per l’API IPS versione 3.8.
-seo-title: Tipi di dati nuovi e modificati
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
-uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 1%
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
