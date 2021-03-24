@@ -1,16 +1,13 @@
 ---
 description: La documentazione di riferimento per le API di rendering delle immagini contiene informazioni sull’impostazione e l’utilizzo dell’API di rendering delle immagini di Dynamic Media.
-seo-description: La documentazione di riferimento per le API di rendering delle immagini contiene informazioni sull’impostazione e l’utilizzo dell’API di rendering delle immagini di Dynamic Media.
-seo-title: API di rendering delle immagini
 solution: Experience Manager
 title: API di rendering delle immagini
-uuid: 14e283bb-451c-4b6e-bd73-32488dcd93b6
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
