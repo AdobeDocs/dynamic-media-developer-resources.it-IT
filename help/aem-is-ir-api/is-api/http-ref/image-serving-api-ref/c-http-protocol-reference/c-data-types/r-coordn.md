@@ -1,16 +1,13 @@
 ---
 description: Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
-seo-description: Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
