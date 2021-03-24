@@ -1,16 +1,13 @@
 ---
 description: Questo documento descrive il catalogo dei materiali per il rendering delle immagini di Dynamic Media.
-seo-description: Questo documento descrive il catalogo dei materiali per il rendering delle immagini di Dynamic Media.
-seo-title: Introduzione
 solution: Experience Manager
 title: Introduzione
-uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
