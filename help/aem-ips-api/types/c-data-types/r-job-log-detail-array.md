@@ -1,17 +1,14 @@
 ---
 description: Array di dettagli del registro di lavoro.
-seo-description: Array di dettagli del registro di lavoro.
-seo-title: MatriceLogDettaglioProcesso
 solution: Experience Manager
 title: MatriceLogDettaglioProcesso
-uuid: 83b499df-2b0c-43a8-986a-6d728e41655f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
