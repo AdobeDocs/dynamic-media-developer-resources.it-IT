@@ -1,16 +1,13 @@
 ---
 description: Image Serving supporta la nidificazione illimitata delle richieste di Image Server, l’incorporazione di richieste di Image Rendering e l’incorporazione di immagini recuperate da server stranieri. Solo le immagini di livello e le maschere di livello supportano questi meccanismi.
-seo-description: Image Serving supporta la nidificazione illimitata delle richieste di Image Server, l’incorporazione di richieste di Image Rendering e l’incorporazione di immagini recuperate da server stranieri. Solo le immagini di livello e le maschere di livello supportano questi meccanismi.
-seo-title: Nidificazione e incorporazione delle richieste
 solution: Experience Manager
 title: Nidificazione e incorporazione delle richieste
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
