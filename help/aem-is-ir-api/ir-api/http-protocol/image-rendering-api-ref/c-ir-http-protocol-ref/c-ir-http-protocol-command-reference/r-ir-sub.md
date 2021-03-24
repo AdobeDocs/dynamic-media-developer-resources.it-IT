@@ -1,17 +1,14 @@
 ---
 description: Sottoselezione. Consente di applicare materiali diversi a diverse aree dell'oggetto o del gruppo selezionato, nonché di rimuovere i materiali precedentemente applicati.
-seo-description: Sottoselezione. Consente di applicare materiali diversi a diverse aree dell'oggetto o del gruppo selezionato, nonché di rimuovere i materiali precedentemente applicati.
-seo-title: sub
 solution: Experience Manager
 title: sub
-uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 5%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 
