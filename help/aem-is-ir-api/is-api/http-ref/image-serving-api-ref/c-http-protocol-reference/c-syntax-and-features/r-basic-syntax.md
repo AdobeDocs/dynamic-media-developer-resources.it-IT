@@ -1,16 +1,13 @@
 ---
 description: La sintassi di base del protocollo HTTP è la seguente.
-seo-description: La sintassi di base del protocollo HTTP è la seguente.
-seo-title: Sintassi di base del protocollo HTTP Image Server
 solution: Experience Manager
 title: Sintassi di base del protocollo HTTP Image Server
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 1%
 
 # Sintassi di base del protocollo HTTP Image Server{#image-serving-http-protocol-basic-syntax}
 
-La sintassi di base del protocollo HTTP è la seguente.
+La sintassi di base del protocollo HTTP è la seguente:
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ La sintassi di base del protocollo HTTP è la seguente.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome di una macro di comando. </p></td> 
+  <td class="stentry"> <p>Nome di una macro di comando.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> commento</span> </span> </p></td> 
-  <td class="stentry"> <p>Stringa di commento (ignorata dal server). </p></td> 
+  <td class="stentry"> <p>Stringa di commento (ignorata dal server).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Uno dei nomi di comando o attributo supportati. </p></td> 
+  <td class="stentry"> <p>Uno dei nomi di comando o attributo supportati.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome di una variabile personalizzata. </p></td> 
+  <td class="stentry"> <p>Nome di una variabile personalizzata.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ Image Serving estrae prima *`object`* e *`modifiers`* dalla richiesta in arrivo.
 
 ## Commenti {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-I commenti possono essere incorporati nelle stringhe di richiesta in qualsiasi punto e sono identificati da un punto(.) subito dopo il separatore dei comandi (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono per l&#39;uso di Image Server, come timestamp, ID del database, ecc.
+I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto(.) subito dopo il separatore dei comandi (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono per l’uso di Image Serving, ad esempio timestamp e ID del database.
 
 ## Consultate anche {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
