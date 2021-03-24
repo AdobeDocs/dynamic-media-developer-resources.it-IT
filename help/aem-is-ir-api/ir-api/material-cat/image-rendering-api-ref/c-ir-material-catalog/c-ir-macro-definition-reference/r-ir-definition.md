@@ -1,17 +1,14 @@
 ---
 description: Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri '&'.
-seo-description: Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri '&'.
-seo-title: Definizione
 solution: Experience Manager
 title: Definizione
-uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
