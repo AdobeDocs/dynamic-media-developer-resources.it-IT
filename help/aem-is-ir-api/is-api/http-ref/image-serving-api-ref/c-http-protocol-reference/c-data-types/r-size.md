@@ -1,16 +1,13 @@
 ---
 description: Dimensione dei pixel. Utilizzato per specificare le dimensioni dell'immagine o del rettangolo in pixel.
-seo-description: Dimensione dei pixel. Utilizzato per specificare le dimensioni dell'immagine o del rettangolo in pixel.
-seo-title: size
 solution: Experience Manager
 title: size
-uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
