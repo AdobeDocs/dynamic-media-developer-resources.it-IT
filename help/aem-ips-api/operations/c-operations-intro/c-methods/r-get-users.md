@@ -1,17 +1,14 @@
 ---
 description: Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
-seo-description: Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
-seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 9%
 
 ---
 
