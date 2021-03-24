@@ -1,17 +1,14 @@
 ---
 description: I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l'oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
-seo-description: I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l'oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '222'
+ht-degree: 7%
 
 ---
 
