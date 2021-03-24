@@ -1,17 +1,14 @@
 ---
 description: Percorso del file di dati della mappa della vignetta. Specifica il file contenente la mappa di vignetta per questo catalogo di immagini.
-seo-description: Percorso del file di dati della mappa della vignetta. Specifica il file contenente la mappa di vignetta per questo catalogo di immagini.
-seo-title: VignetteMapFile
 solution: Experience Manager
 title: VignetteMapFile
-uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
