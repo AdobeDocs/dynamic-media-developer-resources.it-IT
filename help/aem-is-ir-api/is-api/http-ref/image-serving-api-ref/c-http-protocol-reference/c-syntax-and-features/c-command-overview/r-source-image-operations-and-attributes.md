@@ -1,16 +1,13 @@
 ---
 description: Questi comandi si applicano alle immagini sorgente utilizzate in richieste semplici o nei livelli immagine, nonché alle maschere collegate ai livelli di colore solido.
-seo-description: Questi comandi si applicano alle immagini sorgente utilizzate in richieste semplici o nei livelli immagine, nonché alle maschere collegate ai livelli di colore solido.
-seo-title: Operazioni immagine sorgente
 solution: Experience Manager
 title: Operazioni immagine sorgente
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 1%
 
 ---
