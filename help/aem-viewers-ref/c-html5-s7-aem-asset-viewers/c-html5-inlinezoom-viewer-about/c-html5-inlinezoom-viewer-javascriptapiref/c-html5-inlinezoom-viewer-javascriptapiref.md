@@ -1,16 +1,13 @@
 ---
 description: La classe principale del visualizzatore zoom in linea è FlyoutViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-description: La classe principale del visualizzatore zoom in linea è FlyoutViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e chiamate di questa particolare classe.
-seo-title: Riferimento API JavaScript per visualizzatore zoom in linea
 solution: Experience Manager
 title: Riferimento API JavaScript per visualizzatore zoom in linea
-uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
