@@ -1,16 +1,13 @@
 ---
 description: Ancoraggio immagine Definisce il punto di ancoraggio del rettangolo dell’immagine, del colore solido o del riquadro di delimitazione del testo, prima di applicare le trasformazioni (crop=, scale=, rotate=, flip=). Funge anche da centro di rotazione per rotate=.
-seo-description: Ancoraggio immagine Definisce il punto di ancoraggio del rettangolo dell’immagine, del colore solido o del riquadro di delimitazione del testo, prima di applicare le trasformazioni (crop=, scale=, rotate=, flip=). Funge anche da centro di rotazione per rotate=.
-seo-title: ancoraggio
 solution: Experience Manager
 title: ancoraggio
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
