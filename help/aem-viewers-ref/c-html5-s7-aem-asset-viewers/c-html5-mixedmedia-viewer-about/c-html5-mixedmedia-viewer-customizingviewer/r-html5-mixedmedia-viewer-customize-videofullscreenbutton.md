@@ -1,16 +1,13 @@
 ---
 description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
-seo-description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando l’utente fa clic su di esso. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
-seo-title: Pulsante a schermo intero video
 solution: Experience Manager
 title: Pulsante a schermo intero video
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
