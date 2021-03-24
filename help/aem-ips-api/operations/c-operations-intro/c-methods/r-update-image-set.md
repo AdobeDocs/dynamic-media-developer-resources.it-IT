@@ -1,17 +1,14 @@
 ---
 description: Aggiorna un set di immagini.
-seo-description: Aggiorna un set di immagini.
-seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 feature: Dynamic Media Classic, SDK/API, Set di immagini
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 15%
+source-wordcount: '87'
+ht-degree: 16%
 
 ---
 
