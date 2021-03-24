@@ -1,16 +1,13 @@
 ---
 description: I livelli sono composti nell'ordine specificato dal comando layer=, dove i livelli numerati più alti nascondono quelli numerati più in basso.
-seo-description: I livelli sono composti nell'ordine specificato dal comando layer=, dove i livelli numerati più alti nascondono quelli numerati più in basso.
-seo-title: Il quadro di composizione
 solution: Experience Manager
 title: Il quadro di composizione
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
