@@ -1,17 +1,14 @@
 ---
 description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
-seo-description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
-seo-title: Codifica tiff
 solution: Experience Manager
 title: Codifica tiff
-uuid: b9f672f8-d759-4248-8588-9fe46db1645f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
