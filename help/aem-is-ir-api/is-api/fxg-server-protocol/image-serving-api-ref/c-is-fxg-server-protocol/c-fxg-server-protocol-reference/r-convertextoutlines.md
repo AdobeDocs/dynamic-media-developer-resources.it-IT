@@ -1,16 +1,13 @@
 ---
 description: Convertire il testo in un file PDF in contorni.
-seo-description: Convertire il testo in un file PDF in contorni.
-seo-title: convertTextToOutlines
 solution: Experience Manager
 title: convertTextToOutlines
-uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
