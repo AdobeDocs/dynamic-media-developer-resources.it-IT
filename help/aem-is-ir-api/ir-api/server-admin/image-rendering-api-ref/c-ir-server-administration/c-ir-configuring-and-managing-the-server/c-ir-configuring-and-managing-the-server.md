@@ -1,16 +1,13 @@
 ---
 description: Questa sezione contiene informazioni utili per configurare e gestire il server di rendering delle immagini.
-seo-description: Questa sezione contiene informazioni utili per configurare e gestire il server di rendering delle immagini.
-seo-title: Configurazione e gestione del server
 solution: Experience Manager
 title: Configurazione e gestione del server
-uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
