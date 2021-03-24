@@ -1,17 +1,14 @@
 ---
 description: Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
-seo-description: Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
