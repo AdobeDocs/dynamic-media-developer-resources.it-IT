@@ -1,16 +1,13 @@
 ---
 description: Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: Pulsante Ripristina zoom
 solution: Experience Manager
 title: Pulsante Ripristina zoom
-uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
