@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
-seo-description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: b5ab903b-3365-45e3-9542-c290c6c42670
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
