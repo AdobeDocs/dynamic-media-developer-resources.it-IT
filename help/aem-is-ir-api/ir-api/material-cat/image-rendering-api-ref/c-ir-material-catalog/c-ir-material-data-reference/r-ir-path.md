@@ -1,16 +1,13 @@
 ---
 description: Percorso file immagine. Percorso relativo e nome di un file immagine di texture o decal.
-seo-description: Percorso file immagine. Percorso relativo e nome di un file immagine di texture o decal.
-seo-title: Percorso *
 solution: Experience Manager
 title: Percorso *
-uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
