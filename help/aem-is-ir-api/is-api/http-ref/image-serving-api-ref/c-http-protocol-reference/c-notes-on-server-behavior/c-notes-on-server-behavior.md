@@ -1,16 +1,13 @@
 ---
 description: È necessario considerare diversi aspetti relativi al comportamento dei server.
-seo-description: È necessario considerare diversi aspetti relativi al comportamento dei server.
-seo-title: Note sul comportamento del server
 solution: Experience Manager
 title: Note sul comportamento del server
-uuid: cca17322-4058-43cc-b022-ef8df52c0888
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
