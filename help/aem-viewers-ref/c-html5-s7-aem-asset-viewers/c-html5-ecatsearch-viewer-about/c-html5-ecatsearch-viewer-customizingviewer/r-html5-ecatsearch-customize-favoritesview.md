@@ -1,17 +1,14 @@
 ---
 description: La vista Preferiti è costituita da una colonna di miniature.
-seo-description: La vista Preferiti è costituita da una colonna di miniature.
-seo-title: Vista Preferiti
 solution: Experience Manager
 title: Vista Preferiti
-uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
