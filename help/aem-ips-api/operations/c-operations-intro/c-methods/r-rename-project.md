@@ -1,17 +1,14 @@
 ---
 description: Rinomina un progetto.
-seo-description: Rinomina un progetto.
-seo-title: rinominaProgetto
 solution: Experience Manager
 title: rinominaProgetto
-uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 17%
+source-wordcount: '80'
+ht-degree: 18%
 
 ---
 
