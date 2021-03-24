@@ -1,17 +1,14 @@
 ---
 description: Stringa di comando Image Server applicata a tutte le miniature.
-seo-description: Stringa di comando Image Server applicata a tutte le miniature.
-seo-title: FavoritesView.iscommand
 solution: Experience Manager
 title: FavoritesView.iscommand
-uuid: be3d49d1-d5d2-4ecd-bc8f-fe5f80204c76
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
