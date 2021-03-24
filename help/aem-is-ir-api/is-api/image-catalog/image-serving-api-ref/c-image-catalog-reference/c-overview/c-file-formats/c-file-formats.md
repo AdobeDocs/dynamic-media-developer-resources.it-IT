@@ -1,17 +1,14 @@
 ---
 description: Tutti i file di catalogo sono file di testo normale.
-seo-description: Tutti i file di catalogo sono file di testo normale.
-seo-title: Formati di file
 solution: Experience Manager
 title: Formati di file
-uuid: d0d35682-e794-4571-87e6-f54ac57126c7
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 13%
+source-wordcount: '37'
+ht-degree: 10%
 
 ---
 
