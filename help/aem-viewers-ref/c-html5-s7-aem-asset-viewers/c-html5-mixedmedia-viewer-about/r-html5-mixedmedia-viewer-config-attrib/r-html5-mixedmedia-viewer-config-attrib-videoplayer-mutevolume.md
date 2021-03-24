@@ -1,17 +1,14 @@
 ---
 description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
-seo-description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
-seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
