@@ -1,16 +1,13 @@
 ---
 description: Alcuni contenuti visualizzati dal visualizzatore a comparsa sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e i messaggi informativi visualizzati dalla visualizzazione a comparsa al momento del caricamento.
-seo-description: Alcuni contenuti visualizzati dal visualizzatore a comparsa sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e i messaggi informativi visualizzati dalla visualizzazione a comparsa al momento del caricamento.
-seo-title: Localizzazione degli elementi dell’interfaccia utente
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
