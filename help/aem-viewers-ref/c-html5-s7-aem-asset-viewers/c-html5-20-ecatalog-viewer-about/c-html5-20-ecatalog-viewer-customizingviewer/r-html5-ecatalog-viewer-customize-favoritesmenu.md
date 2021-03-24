@@ -1,16 +1,13 @@
 ---
 description: L'elenco a discesa del menu Preferiti viene visualizzato nella barra dei controlli. È costituito da un pulsante e da un pannello che si espande quando un utente fa clic o tocca un pulsante. Il pannello contiene i singoli strumenti Preferiti.
-seo-description: L'elenco a discesa del menu Preferiti viene visualizzato nella barra dei controlli. È costituito da un pulsante e da un pannello che si espande quando un utente fa clic o tocca un pulsante. Il pannello contiene i singoli strumenti Preferiti.
-seo-title: Menu Preferiti
 solution: Experience Manager
 title: Menu Preferiti
-uuid: 816e614d-8253-49a8-b57e-0b57b44db535
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
