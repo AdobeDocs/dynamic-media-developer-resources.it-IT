@@ -1,16 +1,13 @@
 ---
 description: Dimensione del carrello. Specifica le dimensioni di un materiale decal.
-seo-description: Dimensione del carrello. Specifica le dimensioni di un materiale decal.
-seo-title: size
 solution: Experience Manager
 title: size
-uuid: b82f3429-3d84-4707-8126-d390239df9a2
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
