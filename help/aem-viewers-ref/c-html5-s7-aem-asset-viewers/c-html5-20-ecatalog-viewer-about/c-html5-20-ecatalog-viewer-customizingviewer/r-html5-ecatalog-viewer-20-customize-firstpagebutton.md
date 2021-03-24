@@ -1,16 +1,13 @@
 ---
 description: Tocca o fai clic su questo pulsante per passare alla prima pagina del catalogo. Questo pulsante appare nella barra di controllo principale sui sistemi desktop e tablet; sui telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per passare alla prima pagina del catalogo. Questo pulsante appare nella barra di controllo principale sui sistemi desktop e tablet; sui telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: Pulsante Prima pagina
 solution: Experience Manager
 title: Pulsante Prima pagina
-uuid: fd164899-505c-448b-8dba-7581d97d87b6
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
