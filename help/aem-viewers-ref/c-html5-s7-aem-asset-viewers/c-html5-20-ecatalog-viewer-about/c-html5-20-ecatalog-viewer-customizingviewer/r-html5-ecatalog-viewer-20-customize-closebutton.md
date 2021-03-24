@@ -1,17 +1,14 @@
 ---
 description: Tocca o fai clic su questo pulsante per chiudere la pagina web che la contiene. Questo pulsante viene visualizzato solo se il parametro Closebutton è impostato su 1. Questo pulsante non è disponibile sui sistemi desktop. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per chiudere la pagina web che la contiene. Questo pulsante viene visualizzato solo se il parametro Closebutton è impostato su 1. Questo pulsante non è disponibile sui sistemi desktop. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
-seo-title: Pulsante Chiudi
 solution: Experience Manager
 title: Pulsante Chiudi
-uuid: b0de1600-6b02-4b59-aac6-ade0ec6dc087
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 1%
 
 ---
 
