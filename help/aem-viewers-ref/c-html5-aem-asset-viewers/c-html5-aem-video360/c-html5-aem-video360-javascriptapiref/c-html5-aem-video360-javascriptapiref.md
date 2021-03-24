@@ -1,16 +1,13 @@
 ---
 description: La classe principale di Video360Viewer è Video360Viewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-description: La classe principale di Video360Viewer è Video360Viewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
-seo-title: Riferimento API JavaScript per il visualizzatore video360
 solution: Experience Manager
 title: Riferimento API JavaScript per il visualizzatore video360
-uuid: 3c700c45-c3a1-4ff2-899d-702bf2e4d230
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
