@@ -1,16 +1,13 @@
 ---
 description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati da caratteri "&".
-seo-description: Definizione della macro. Un frammento di protocollo Image Server composto da uno o più comandi completi, separati da caratteri "&".
-seo-title: Definizione
 solution: Experience Manager
 title: Definizione
-uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
