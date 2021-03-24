@@ -1,16 +1,13 @@
 ---
 description: Tempo predefinito della cache del client per la durata. Fornisce un intervallo di scadenza predefinito nel caso in cui un particolare record di catalogo non contenga un valore di scadenza del catalogo o della vignetta valido, oppure se l'accesso diretto a un file di vignetta o a un file di materiale non avviene tramite un record di catalogo.
-seo-description: Tempo predefinito della cache del client per la durata. Fornisce un intervallo di scadenza predefinito nel caso in cui un particolare record di catalogo non contenga un valore di scadenza del catalogo o della vignetta valido, oppure se l'accesso diretto a un file di vignetta o a un file di materiale non avviene tramite un record di catalogo.
-seo-title: Scadenza
 solution: Experience Manager
 title: Scadenza
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 2%
 
 ---
