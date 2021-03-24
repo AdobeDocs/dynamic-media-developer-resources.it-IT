@@ -1,17 +1,14 @@
 ---
 description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-title: VideoScrubber.timepattern
 solution: Experience Manager
 title: VideoScrubber.timepattern
-uuid: dc2e7b18-abd7-4b53-a0c4-268ec9cf3cb4
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
