@@ -1,16 +1,13 @@
 ---
 description: I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
-seo-description: I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
-seo-title: Campioni principali
 solution: Experience Manager
 title: Campioni principali
-uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
