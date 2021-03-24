@@ -1,17 +1,14 @@
 ---
 description: Bandiera di facciata. Specifica se il file di font a cui fa riferimento questo record della mappa dei font deve essere utilizzato quando richiesto dal comando RTF grassetto (\b).
-seo-description: Bandiera di facciata. Specifica se il file di font a cui fa riferimento questo record della mappa dei font deve essere utilizzato quando richiesto dal comando RTF grassetto (\b).
-seo-title: Grassetto
 solution: Experience Manager
 title: Grassetto
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
