@@ -1,16 +1,13 @@
 ---
 description: In questo documento vengono utilizzate le seguenti convenzioni.
-seo-description: In questo documento vengono utilizzate le seguenti convenzioni.
-seo-title: Convenzioni documento
 solution: Experience Manager
 title: Convenzioni documento
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ In questo documento vengono utilizzate le seguenti convenzioni.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>letterale </p> </td> 
-  <td class="stentry"> <p>Nelle sezioni di sintassi, il testo non corsivo è letterale; questo non si applica allo spazio vuoto e ai simboli [ ] { } | </p> </td> 
+  <td class="stentry"> <p>Nelle sezioni di sintassi, il testo non corsivo è letterale. Questa regola non si applica allo spazio vuoto e ai simboli [ ] { } | </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>"letterale" </p> </td> 
