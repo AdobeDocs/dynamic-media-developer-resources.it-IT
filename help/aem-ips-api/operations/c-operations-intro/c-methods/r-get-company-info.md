@@ -1,17 +1,14 @@
 ---
 description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
-seo-description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
-seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 5%
+source-wordcount: '175'
+ht-degree: 6%
 
 ---
 
