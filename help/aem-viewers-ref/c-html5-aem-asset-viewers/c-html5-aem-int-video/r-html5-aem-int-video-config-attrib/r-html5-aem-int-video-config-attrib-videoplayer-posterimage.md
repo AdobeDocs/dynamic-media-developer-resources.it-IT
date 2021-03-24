@@ -1,16 +1,13 @@
 ---
 description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-description: Attributo di configurazione per Visualizzatore video interattivo.
-seo-title: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-uuid: 6b21179c-a227-4194-8640-0fcf73ee80e9
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
