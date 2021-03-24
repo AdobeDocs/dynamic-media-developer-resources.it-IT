@@ -1,17 +1,14 @@
 ---
 description: Utilizzato da IccProfileFieldUpdate/class.
-seo-description: Utilizzato da IccProfileFieldUpdate/class.
-seo-title: Classi di profilo
 solution: Experience Manager
 title: Classi di profilo
-uuid: da73b9d9-e19e-4166-a4c4-14f7eb17e3d5
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 3%
+source-wordcount: '21'
+ht-degree: 4%
 
 ---
 
