@@ -1,16 +1,13 @@
 ---
 description: Tocca o fai clic su questo pulsante per ruotare l’immagine a sinistra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
-seo-description: Tocca o fai clic su questo pulsante per ruotare l’immagine a sinistra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
-seo-title: Pulsante a sinistra
 solution: Experience Manager
 title: Pulsante a sinistra
-uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
