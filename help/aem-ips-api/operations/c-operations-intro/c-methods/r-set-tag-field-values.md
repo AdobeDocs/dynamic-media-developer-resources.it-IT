@@ -1,17 +1,14 @@
 ---
 description: Imposta i valori del dizionario tag per un campo tag esistente.
-seo-description: Imposta i valori del dizionario tag per un campo tag esistente.
-seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 11%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
