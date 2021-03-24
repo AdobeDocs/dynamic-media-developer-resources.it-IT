@@ -1,17 +1,14 @@
 ---
 description: Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
-seo-description: Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
-seo-title: Configurazione e amministrazione
 solution: Experience Manager
 title: Configurazione e amministrazione
-uuid: 95cc72b9-0e99-42ff-8caf-8f3b35cb5cd2
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
