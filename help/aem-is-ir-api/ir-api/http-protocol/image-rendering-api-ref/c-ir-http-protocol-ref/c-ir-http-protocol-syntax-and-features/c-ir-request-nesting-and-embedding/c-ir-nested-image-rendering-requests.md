@@ -1,16 +1,13 @@
 ---
 description: Per le applicazioni avanzate è possibile utilizzare il risultato di un'operazione di rendering come immagine di materiale, proprio come un'immagine ottenuta da Image Serving.
-seo-description: Per le applicazioni avanzate è possibile utilizzare il risultato di un'operazione di rendering come immagine di materiale, proprio come un'immagine ottenuta da Image Serving.
-seo-title: Richieste di rendering immagini nidificate
 solution: Experience Manager
 title: Richieste di rendering immagini nidificate
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
