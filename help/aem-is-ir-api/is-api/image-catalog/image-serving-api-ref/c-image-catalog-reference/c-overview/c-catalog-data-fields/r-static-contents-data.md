@@ -1,17 +1,14 @@
 ---
 description: I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
-seo-description: I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
-seo-title: Dati di contenuto statico
 solution: Experience Manager
 title: Dati di contenuto statico
-uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 3%
+source-wordcount: '65'
+ht-degree: 4%
 
 ---
 
