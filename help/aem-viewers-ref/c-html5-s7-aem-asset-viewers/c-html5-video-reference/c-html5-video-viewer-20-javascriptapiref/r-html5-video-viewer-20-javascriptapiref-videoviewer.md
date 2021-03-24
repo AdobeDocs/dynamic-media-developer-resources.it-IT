@@ -1,16 +1,13 @@
 ---
 description: Riferimento API JavaScript per il visualizzatore video.
-seo-description: Riferimento API JavaScript per il visualizzatore video.
-seo-title: Visualizzatore video
 solution: Experience Manager
 title: Visualizzatore video
-uuid: ad180d92-3e5c-4ded-b82b-79c23aa5c597
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
