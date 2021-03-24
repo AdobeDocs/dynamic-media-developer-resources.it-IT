@@ -1,16 +1,13 @@
 ---
 description: Il passaggio 2 delle trasformazioni del livello immagine viene modificato come segue per le miniature (ad esempio, se req=tmb).
-seo-description: Il passaggio 2 delle trasformazioni del livello immagine viene modificato come segue per le miniature (ad esempio, se req=tmb).
-seo-title: Ridimensionamento delle miniature
 solution: Experience Manager
 title: Ridimensionamento delle miniature
-uuid: df935d40-84c6-4018-9e41-faef4653ff1f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
