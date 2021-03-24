@@ -1,16 +1,13 @@
 ---
 description: Image Serving supporta un semplice meccanismo di preelaborazione delle richieste basato su regole di corrispondenza e sostituzione delle espressioni regolari.
-seo-description: Image Serving supporta un semplice meccanismo di preelaborazione delle richieste basato su regole di corrispondenza e sostituzione delle espressioni regolari.
-seo-title: Riferimento set di regole
 solution: Experience Manager
 title: Riferimento set di regole
-uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
