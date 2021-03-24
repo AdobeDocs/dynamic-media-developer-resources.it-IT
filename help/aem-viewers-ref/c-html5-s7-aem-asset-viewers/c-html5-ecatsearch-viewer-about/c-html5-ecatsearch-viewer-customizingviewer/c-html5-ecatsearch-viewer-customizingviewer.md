@@ -1,17 +1,14 @@
 ---
 description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore di ricerca eCatalog vengono effettuate creando un CSS personalizzato.
 keywords: reattivo
-seo-description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore di ricerca eCatalog vengono effettuate creando un CSS personalizzato.
-seo-title: Personalizzazione del visualizzatore di ricerca eCatalog
 solution: Experience Manager
 title: Personalizzazione del visualizzatore di ricerca eCatalog
-uuid: a715399b-7b02-4656-8257-4c390c6f629c
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
