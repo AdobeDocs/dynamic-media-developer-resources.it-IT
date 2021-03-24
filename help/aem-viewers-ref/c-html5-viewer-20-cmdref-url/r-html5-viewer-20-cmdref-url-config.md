@@ -1,16 +1,13 @@
 ---
 description: Parametro comune a tutti i visualizzatori.
-seo-description: Parametro comune a tutti i visualizzatori.
-seo-title: config
 solution: Experience Manager
 title: config
-uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -100,7 +97,7 @@ Equivale ai seguenti comandi specificati esplicitamente nell’URL:
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## Esempio 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## Esempio 5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
 Un predefinito per visualizzatori denominato `Shoppable_Video_Dark` contiene i dati seguenti:
 
