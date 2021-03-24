@@ -1,17 +1,14 @@
 ---
 description: Il server può essere configurato per inviare avvisi e-mail quando vengono superate determinate prestazioni o soglie di errore. Il sistema controlla collettivamente tutte le applicazioni web distribuite sul server.
-seo-description: Il server può essere configurato per inviare avvisi e-mail quando vengono superate determinate prestazioni o soglie di errore. Il sistema controlla collettivamente tutte le applicazioni web distribuite sul server.
-seo-title: Monitoraggio server
 solution: Experience Manager
 title: Monitoraggio server
-uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
