@@ -1,16 +1,13 @@
 ---
 description: Image Server scrive i record in questo file di registro per registrare avvisi ed errori e tenere un record degli eventi di avvio e arresto.
-seo-description: Image Server scrive i record in questo file di registro per registrare avvisi ed errori e tenere un record degli eventi di avvio e arresto.
-seo-title: Registro server immagini
 solution: Experience Manager
 title: Registro server immagini
-uuid: 5a1a54bd-5553-43a4-9cd6-182ba474c2d0
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
