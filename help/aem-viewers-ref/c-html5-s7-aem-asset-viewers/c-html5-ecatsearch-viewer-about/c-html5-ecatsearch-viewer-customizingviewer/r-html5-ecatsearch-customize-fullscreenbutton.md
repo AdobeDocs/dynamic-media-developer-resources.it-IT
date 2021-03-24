@@ -1,16 +1,13 @@
 ---
 description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando l’utente fa clic su di esso. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo. È possibile ridimensionare, applicare uno skin e posizionare il pulsante in modo CSS.
-seo-description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando l’utente fa clic su di esso. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo. È possibile ridimensionare, applicare uno skin e posizionare il pulsante in modo CSS.
-seo-title: Pulsante Schermo intero
 solution: Experience Manager
 title: Pulsante Schermo intero
-uuid: f3b4d5b5-56ec-4169-ba7d-92bdd51a9e83
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
