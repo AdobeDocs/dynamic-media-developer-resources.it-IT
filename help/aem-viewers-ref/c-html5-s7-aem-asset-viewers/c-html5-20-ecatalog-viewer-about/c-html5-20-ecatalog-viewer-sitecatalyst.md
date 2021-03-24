@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore di eCatalog supporta il tracciamento di Adobe Analytics.
-seo-description: Il visualizzatore di eCatalog supporta il tracciamento di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: a96b6655-4a11-490c-8f66-3633f0ae0fee
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '206'
 ht-degree: 3%
 
 ---
