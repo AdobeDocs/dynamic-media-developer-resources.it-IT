@@ -1,16 +1,13 @@
 ---
 description: Lo zoom esegue la destinazione dei dati dal catalogo immagini. Restituisce i dati di destinazione dello zoom per la voce del catalogo immagini specificata nel percorso URL.
-seo-description: Lo zoom esegue la destinazione dei dati dal catalogo immagini. Restituisce i dati di destinazione dello zoom per la voce del catalogo immagini specificata nel percorso URL.
-seo-title: target
 solution: Experience Manager
 title: target
-uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '189'
 ht-degree: 6%
 
 ---
