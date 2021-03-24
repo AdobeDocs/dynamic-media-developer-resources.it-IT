@@ -1,17 +1,14 @@
 ---
 description: Utilizzato da JobLogDetial/assetType.
-seo-description: Utilizzato da JobLogDetial/assetType.
-seo-title: Tipi di file registro processi
 solution: Experience Manager
 title: Tipi di file registro processi
-uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 3%
+source-wordcount: '25'
+ht-degree: 4%
 
 ---
 
