@@ -1,17 +1,14 @@
 ---
 description: I campioni colore sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I campioni colore sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
-seo-description: I campioni colore sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I campioni colore sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
-seo-title: Campioni colore
 solution: Experience Manager
 title: Campioni colore
-uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
