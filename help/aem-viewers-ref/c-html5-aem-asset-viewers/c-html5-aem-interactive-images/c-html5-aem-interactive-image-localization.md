@@ -1,15 +1,12 @@
 ---
 description: Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
-seo-description: Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
-seo-title: Localizzazione degli elementi dell’interfaccia utente
 title: Localizzazione degli elementi dell’interfaccia utente
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
