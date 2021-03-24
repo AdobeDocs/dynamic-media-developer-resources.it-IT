@@ -1,17 +1,14 @@
 ---
 description: Zoom Viewer è un visualizzatore di immagini che visualizza un’immagine zoomabile. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. È dotato di strumenti di zoom, supporto a schermo intero, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 keywords: reattivo
-seo-description: Zoom Viewer è un visualizzatore di immagini che visualizza un’immagine zoomabile. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. È dotato di strumenti di zoom, supporto a schermo intero, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
-seo-title: Zoom
 solution: Experience Manager
 title: Zoom
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
