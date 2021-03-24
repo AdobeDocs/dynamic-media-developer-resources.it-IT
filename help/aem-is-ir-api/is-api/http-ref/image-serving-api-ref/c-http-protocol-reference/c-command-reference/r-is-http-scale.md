@@ -1,16 +1,13 @@
 ---
 description: Scala immagine. Consente di ridimensionare un'immagine sorgente del livello in base al fattore rispetto all'immagine a risoluzione piena.
-seo-description: Scala immagine. Consente di ridimensionare un'immagine sorgente del livello in base al fattore rispetto all'immagine a risoluzione piena.
-seo-title: scale
 solution: Experience Manager
-title: scala
-uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+title: scale
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '114'
 ht-degree: 5%
 
 ---
