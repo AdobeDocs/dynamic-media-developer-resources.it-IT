@@ -1,17 +1,14 @@
 ---
 description: Selezione della gestione degli errori di selezione. Specifica l'azione da eseguire se il comando sel= ha esito negativo perché la posizione del pixel specificata non si trova nell'area della maschera di un oggetto selezionabile.
-seo-description: Selezione della gestione degli errori di selezione. Specifica l'azione da eseguire se il comando sel= ha esito negativo perché la posizione del pixel specificata non si trova nell'area della maschera di un oggetto selezionabile.
-seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 
