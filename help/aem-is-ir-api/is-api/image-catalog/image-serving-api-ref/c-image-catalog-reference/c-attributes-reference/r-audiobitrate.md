@@ -1,17 +1,14 @@
 ---
 description: Bitrate audio. Valore lungo che rappresenta il bit rate audio della risorsa video.
-seo-description: Bitrate audio. Valore lungo che rappresenta il bit rate audio della risorsa video.
-seo-title: AudioBitRate
 solution: Experience Manager
 title: AudioBitRate
-uuid: cdcfd6b9-e0ce-4a00-b80b-4bfc4fad4b9c
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 16%
+source-wordcount: '71'
+ht-degree: 15%
 
 ---
 
