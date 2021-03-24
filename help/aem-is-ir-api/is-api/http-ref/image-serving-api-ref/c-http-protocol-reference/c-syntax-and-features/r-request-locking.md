@@ -1,16 +1,13 @@
 ---
 description: Per ridurre le possibilità di manomissione delle richieste, viene fornito un semplice impianto di blocco.
-seo-description: Per ridurre le possibilità di manomissione delle richieste, viene fornito un semplice impianto di blocco.
-seo-title: Blocco della richiesta
 solution: Experience Manager
 title: Blocco della richiesta
-uuid: 03239376-1e40-48d2-a396-c276802854ed
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
