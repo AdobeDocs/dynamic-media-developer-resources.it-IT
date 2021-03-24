@@ -1,16 +1,13 @@
 ---
 description: Le opzioni seguenti controllano l'elaborazione dei file di stile dell'archivio. Vengono ignorati se sourceFile non è un file di stile archivio o se è specificato -info.
-seo-description: Le opzioni seguenti controllano l'elaborazione dei file di stile dell'archivio. Vengono ignorati se sourceFile non è un file di stile archivio o se è specificato -info.
-seo-title: Opzioni per i file di stile dell'archivio
 solution: Experience Manager
 title: Opzioni per i file di stile dell'archivio
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
