@@ -1,17 +1,14 @@
 ---
 description: Restituisce le definizioni dei campi di metadati per i tipi di risorse specificati.
-seo-description: Restituisce le definizioni dei campi di metadati per i tipi di risorse specificati.
-seo-title: CampiMetadatiRisorsa
 solution: Experience Manager
 title: CampiMetadatiRisorsa
-uuid: aefb734c-7609-4227-ae2c-48a1469740ec
 feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
