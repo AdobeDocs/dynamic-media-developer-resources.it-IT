@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore Carosello è un carosello di immagini banner non zoomabili con punti attivi o aree geografiche selezionabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "carosello acquistabile" in cui gli utenti possono selezionare un punto attivo o una regione sull’immagine del banner e venire reindirizzati a una pagina Quickview o dettagli prodotto sul sito web del cliente. È progettato per funzionare su desktop e dispositivi mobili.
-seo-description: Il visualizzatore Carosello è un carosello di immagini banner non zoomabili con punti attivi o aree geografiche selezionabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "carosello acquistabile" in cui gli utenti possono selezionare un punto attivo o una regione sull’immagine del banner e venire reindirizzati a una pagina Quickview o dettagli prodotto sul sito web del cliente. È progettato per funzionare su desktop e dispositivi mobili.
-seo-title: Carosello
 solution: Experience Manager
 title: Carosello
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
