@@ -1,17 +1,14 @@
 ---
 description: Proprietà delle risorse della scena di rendering.
-seo-description: Proprietà delle risorse della scena di rendering.
-seo-title: RenderSceneInfo
 solution: Experience Manager
 title: RenderSceneInfo
-uuid: 1b93713e-9da0-441b-9ee0-434a405284c2
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '31'
+ht-degree: 12%
 
 ---
 
