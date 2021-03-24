@@ -1,17 +1,14 @@
 ---
 description: Sposta una risorsa in una cartella specifica.
-seo-description: Sposta una risorsa in una cartella specifica.
-seo-title: moveAsset
 solution: Experience Manager
 title: moveAsset
-uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
 feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 11%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
