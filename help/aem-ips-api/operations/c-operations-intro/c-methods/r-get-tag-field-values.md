@@ -1,17 +1,14 @@
 ---
 description: Ottiene tutti i valori dei dizionari di tag definiti per uno o più campi di tag.
-seo-description: Ottiene tutti i valori dei dizionari di tag definiti per uno o più campi di tag.
-seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 13%
+source-wordcount: '92'
+ht-degree: 15%
 
 ---
 
