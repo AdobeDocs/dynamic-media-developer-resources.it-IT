@@ -1,17 +1,14 @@
 ---
 description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
-seo-description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
-seo-title: Evidenziazione
 solution: Experience Manager
 title: Evidenziazione
-uuid: cf5acb11-168e-4303-a637-d959687a0548
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 1%
 
 ---
 
