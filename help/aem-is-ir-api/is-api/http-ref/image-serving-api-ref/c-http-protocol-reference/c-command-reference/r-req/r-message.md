@@ -1,16 +1,13 @@
 ---
 description: Messaggio client. Fornisce un meccanismo per i client per inserire messaggi di testo brevi nel registro del server.
-seo-description: Messaggio client. Fornisce un meccanismo per i client per inserire messaggi di testo brevi nel registro del server.
-seo-title: message
 solution: Experience Manager
 title: message
-uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
