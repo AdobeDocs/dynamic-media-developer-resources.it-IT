@@ -1,16 +1,13 @@
 ---
 description: Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Ciò include i pulsanti di spostamento delle diapositive.
-seo-description: Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Ciò include i pulsanti di spostamento delle diapositive.
-seo-title: Localizzazione degli elementi dell’interfaccia utente
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
