@@ -1,16 +1,13 @@
 ---
 description: Image Serving fornisce un meccanismo per tradurre gli ID oggetti esterni in ID oggetto (catalogo) specifici per le impostazioni internazionali. L’applicazione principale consiste nel fornire contenuto specifico per le impostazioni internazionali e contenuto condiviso tra più impostazioni internazionali senza che l’applicazione client debba conoscere gli ID oggetto specifici per le impostazioni internazionali.
-seo-description: Image Serving fornisce un meccanismo per tradurre gli ID oggetti esterni in ID oggetto (catalogo) specifici per le impostazioni internazionali. L’applicazione principale consiste nel fornire contenuto specifico per le impostazioni internazionali e contenuto condiviso tra più impostazioni internazionali senza che l’applicazione client debba conoscere gli ID oggetto specifici per le impostazioni internazionali.
-seo-title: Traduzione ID oggetto
 solution: Experience Manager
 title: Traduzione ID oggetto
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---
