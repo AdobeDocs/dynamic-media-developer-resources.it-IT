@@ -1,16 +1,13 @@
 ---
 description: Il visualizzatore zoom di base supporta il tracciamento di Adobe Analytics.
-seo-description: Il visualizzatore zoom di base supporta il tracciamento di Adobe Analytics.
-seo-title: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
