@@ -1,16 +1,13 @@
 ---
 description: I server IS possono essere configurati per il failover su server alternativi per le richieste che coinvolgono un'immagine sorgente che non può essere aperta o letta correttamente.
-seo-description: I server IS possono essere configurati per il failover su server alternativi per le richieste che coinvolgono un'immagine sorgente che non può essere aperta o letta correttamente.
-seo-title: Reindirizza all’errore
 solution: Experience Manager
 title: Reindirizza all’errore
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
