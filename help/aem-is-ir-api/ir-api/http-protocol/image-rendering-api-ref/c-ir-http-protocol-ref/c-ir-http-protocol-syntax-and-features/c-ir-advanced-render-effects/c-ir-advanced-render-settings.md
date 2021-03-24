@@ -1,17 +1,14 @@
 ---
 description: Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering delle vignette.
-seo-description: Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering delle vignette.
-seo-title: Impostazioni di rendering avanzate
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 22%
 
 ---
 
@@ -56,14 +53,14 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Importo USM (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Raggio USM (pixel). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -77,7 +74,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modalità di ridimensionamento. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -134,7 +131,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Campioni/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 1. </p> </td> 
   </tr> 
