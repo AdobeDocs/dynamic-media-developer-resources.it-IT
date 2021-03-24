@@ -1,17 +1,14 @@
 ---
 description: La vista principale è costituita dall’immagine statica, dall’immagine ingrandita mostrata nella visualizzazione a comparsa, dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
-seo-description: La vista principale è costituita dall’immagine statica, dall’immagine ingrandita mostrata nella visualizzazione a comparsa, dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
-seo-title: Visualizzazione zoom a comparsa
 solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '631'
+ht-degree: 2%
 
 ---
 
