@@ -1,16 +1,13 @@
 ---
 description: Questo pulsante attiva e disattiva la visualizzazione dei sottotitoli codificati. Non è visibile se il parametro della didascalia non è specificato.
-seo-description: Questo pulsante attiva e disattiva la visualizzazione dei sottotitoli codificati. Non è visibile se il parametro della didascalia non è specificato.
-seo-title: Pulsante Didascalia
 solution: Experience Manager
 title: Pulsante Didascalia
-uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
