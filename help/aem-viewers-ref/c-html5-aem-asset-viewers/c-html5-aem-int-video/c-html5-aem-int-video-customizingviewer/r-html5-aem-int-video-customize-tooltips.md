@@ -1,17 +1,14 @@
 ---
 description: Sui sistemi desktop alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
-seo-description: Sui sistemi desktop alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
-seo-title: Descrizioni comandi
 solution: Experience Manager
 title: Descrizioni comandi
-uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
 
