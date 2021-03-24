@@ -1,17 +1,14 @@
 ---
 description: Spazio colore predefinito in scala di grigi. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta in scala di grigi quando con icc= non è specificato alcuno spazio colore di output.
-seo-description: Spazio colore predefinito in scala di grigi. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta in scala di grigi quando con icc= non è specificato alcuno spazio colore di output.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
