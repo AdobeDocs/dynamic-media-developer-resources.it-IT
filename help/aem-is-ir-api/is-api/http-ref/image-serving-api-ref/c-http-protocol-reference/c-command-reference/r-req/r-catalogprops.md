@@ -1,16 +1,13 @@
 ---
 description: Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo immagini specificato nel percorso della richiesta.
-seo-description: Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo immagini specificato nel percorso della richiesta.
-seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 6%
 
 ---
@@ -29,7 +26,7 @@ Proprietà catalogo immagini. Restituisce gli attributi comuni del catalogo imma
  </tr> 
 </table>
 
-Ometti l’ID catalogo per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]). La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
+Per recuperare le proprietà predefinite del catalogo ( [!DNL default.ini]), omette l’ID del catalogo. La risposta HTTP può essere memorizzata nella cache con TTL basato su `attribute::NonImgExpiration`.
 
 Le richieste che supportano il formato di risposta JSONP ti consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=` :
 
