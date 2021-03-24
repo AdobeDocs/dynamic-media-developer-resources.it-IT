@@ -2,11 +2,10 @@
 description: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
