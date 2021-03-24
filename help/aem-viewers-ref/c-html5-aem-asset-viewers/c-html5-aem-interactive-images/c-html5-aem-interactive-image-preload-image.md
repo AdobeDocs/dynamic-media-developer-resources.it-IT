@@ -1,16 +1,13 @@
 ---
 description: L’immagine di precaricamento è un’immagine di anteprima della risorsa statica che si carica subito dopo aver chiamato il metodo init() e viene visualizzata mentre vengono scaricate le librerie SDK del visualizzatore, le informazioni sulla risorsa e sul predefinito. Lo scopo dell’immagine precaricata è quello di migliorare visivamente il tempo di caricamento del visualizzatore e presentare rapidamente i contenuti all’utente.
-seo-description: L’immagine di precaricamento è un’immagine di anteprima della risorsa statica che si carica subito dopo aver chiamato il metodo init() e viene visualizzata mentre vengono scaricate le librerie SDK del visualizzatore, le informazioni sulla risorsa e sul predefinito. Lo scopo dell’immagine precaricata è quello di migliorare visivamente il tempo di caricamento del visualizzatore e presentare rapidamente i contenuti all’utente.
-seo-title: Immagine precaricata
 solution: Experience Manager
 title: Immagine precaricata
-uuid: cb5db16d-b496-40e4-b8ef-5573c42d2850
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
