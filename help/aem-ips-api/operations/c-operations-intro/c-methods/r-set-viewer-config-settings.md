@@ -1,17 +1,14 @@
 ---
 description: Associa le impostazioni di configurazione del visualizzatore a una risorsa. Può essere un predefinito per visualizzatori o la risorsa sorgente per il visualizzatore.
-seo-description: Associa le impostazioni di configurazione del visualizzatore a una risorsa. Può essere un predefinito per visualizzatori o la risorsa sorgente per il visualizzatore.
-seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-uuid: d83d866e-9243-479f-9b33-727aad8158e5
 feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 8%
+source-wordcount: '112'
+ht-degree: 9%
 
 ---
 
