@@ -1,16 +1,13 @@
 ---
 description: Maschera affilata. Maschera definizione dettagli il livello o l'immagine di visualizzazione finale, dopo tutte le proporzioni, se layer=comp.
-seo-description: Maschera affilata. Maschera definizione dettagli il livello o l'immagine di visualizzazione finale, dopo tutte le proporzioni, se layer=comp.
-seo-title: op_usm
 solution: Experience Manager
 title: op_usm
-uuid: c647e063-2405-489b-b14d-a70638ac8af7
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
