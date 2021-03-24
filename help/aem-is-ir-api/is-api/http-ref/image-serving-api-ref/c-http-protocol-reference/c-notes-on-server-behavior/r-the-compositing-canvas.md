@@ -1,16 +1,13 @@
 ---
 description: Se req=img, la dimensione del quadro di composizione è determinata interamente dalle dimensioni del livello 0.
-seo-description: Se req=img, la dimensione del quadro di composizione è determinata interamente dalle dimensioni del livello 0.
-seo-title: Il quadro di composizione
 solution: Experience Manager
 title: Il quadro di composizione
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
