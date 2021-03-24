@@ -1,16 +1,13 @@
 ---
 description: Crea una nuova risorsa derivata da una risorsa immagine sorgente principale esistente.
-seo-description: Crea una nuova risorsa derivata da una risorsa immagine sorgente principale esistente.
-seo-title: createDeriedAsset
 solution: Experience Manager
 title: createDeriedAsset
-uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Sviluppatore,Amministratore
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '272'
 ht-degree: 7%
 
 ---
