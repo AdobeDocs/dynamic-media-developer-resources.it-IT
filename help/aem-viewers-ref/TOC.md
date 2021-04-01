@@ -1,10 +1,10 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includere immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 3%
