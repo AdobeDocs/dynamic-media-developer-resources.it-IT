@@ -4,14 +4,14 @@ solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
+exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 10%
 
 ---
-
 
 # createPropertySetType{#createpropertysettype}
 
@@ -62,4 +62,3 @@ Questo esempio di codice crea una proprietà impostata con un nome e un tipo spe
    <typeHandle>pt|10801</typeHandle>
 </createPropertySetTypeReturn>
 ```
-
