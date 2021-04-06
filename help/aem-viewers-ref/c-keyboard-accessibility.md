@@ -5,13 +5,12 @@ title: Accesso facilitato alla tastiera e navigazione
 feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Sviluppatore, Business Practices
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
-
 
 # Accessibilità e navigazione da tastiera{#keyboard-accessibility-and-navigation}
 
@@ -25,7 +24,7 @@ Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCat
 
 Un utente finale può navigare tra gli elementi dell&#39;interfaccia utente del visualizzatore utilizzando i tasti **[!UICONTROL Tab]** e **[!UICONTROL Maiusc+Tab]**. Se si utilizza **[!UICONTROL Tab]**, lo stato attivo diventa attivo per il successivo elemento dell’interfaccia utente nell’ordine di tabulazione; l&#39;utilizzo di **[!UICONTROL Maiusc+Tab]** riporta lo stato attivo sull&#39;elemento dell&#39;interfaccia utente precedente. L&#39;attraversamento della messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
 
-A seconda del sistema operativo e delle impostazioni del browser Web, l’elemento dell’interfaccia utente attivo può ricevere un’indicazione visiva dell’attivazione. Ad esempio, l’indicatore visivo può essere un bordo sottile rappresentato intorno all’elemento dell’interfaccia utente.
+A seconda del sistema operativo e delle impostazioni del browser Web, l’elemento dell’interfaccia utente attivo riceve un’indicazione visiva di focus. Ad esempio, l’indicatore visivo può essere un bordo sottile rappresentato intorno all’elemento dell’interfaccia utente.
 
 È possibile disabilitare o personalizzare tale messa a fuoco evidenziata nel CSS del visualizzatore. Nel sommario di questo sistema della Guida, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione *nome del visualizzatore*** >** Evidenziazione dello stato attivo **.
 
@@ -133,4 +132,3 @@ Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente d
   </tr> 
  </tbody> 
 </table>
-
