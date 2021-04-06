@@ -4,9 +4,9 @@ user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includere immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 5e310a76c215136da6bd2afe16d3d3c889fa3ab8
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 3%
 
 ---
@@ -22,19 +22,18 @@ ht-degree: 3%
    + [Note sulla versione dei visualizzatori (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Note sulla versione dei visualizzatori (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archivia {#archive}
-      + [Archivio delle note sulla versione](c-release-notes/c-archive/c-archive.md)
-         + [Note sulla versione dei visualizzatori (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-         + [Note sulla versione dei visualizzatori (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-         + [Note sulla versione dei visualizzatori (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-         + [Note sulla versione dei visualizzatori (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-         + [Note sulla versione dei visualizzatori (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
-         + [Note sulla versione dei visualizzatori (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
-         + [Note sulla versione dei visualizzatori (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
-         + [Note sulla versione dei visualizzatori (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
-         + [Note sulla versione dei visualizzatori (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
-         + [Note sulla versione dei visualizzatori (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
-         + [Note sulla versione dei visualizzatori (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
-         + [Note sulla versione dei visualizzatori (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [Note sulla versione dei visualizzatori (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+      + [Note sulla versione dei visualizzatori (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+      + [Note sulla versione dei visualizzatori (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+      + [Note sulla versione dei visualizzatori (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+      + [Note sulla versione dei visualizzatori (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Note sulla versione dei visualizzatori (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [Note sulla versione dei visualizzatori (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [Note sulla versione dei visualizzatori (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Note sulla versione dei visualizzatori (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Note sulla versione dei visualizzatori (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Note sulla versione dei visualizzatori (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Note sulla versione dei visualizzatori (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Note sulla compatibilità](c-compatibility-notes.md)
 + [Accesso facilitato alla tastiera e navigazione](c-keyboard-accessibility.md)
 + [Tutorial SDK per visualizzatori](c-tutorial.md)
