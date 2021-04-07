@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Vista a carosello
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
+exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
 
 ---
-
 
 # Vista a carosello{#carousel-view}
 
@@ -49,4 +49,3 @@ Esempio : per rendere trasparente la visualizzazione principale.
  background-color: transparent; 
 }
 ```
-
