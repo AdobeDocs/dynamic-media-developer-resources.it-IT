@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setContainerId
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
+exl-id: 32636cf9-3dc7-4299-a7b7-cf803ca36514
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 3%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -43,4 +43,3 @@ Nessuno.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
