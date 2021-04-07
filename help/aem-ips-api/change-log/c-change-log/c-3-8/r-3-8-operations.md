@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Operazioni nuove e modificate
 feature: Dynamic Media Classic, SDK/API
 role: Sviluppatore,Amministratore
+exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
 
 ---
-
 
 # Operazioni: Nuovo e modificato{#operations-new-and-modified}
 
@@ -38,4 +38,3 @@ Sintassi
 **getJobLogs**
 
 * Il parametro opzionale `userHandle` consente di recuperare i registri di lavoro inviati da un utente specifico.
-
