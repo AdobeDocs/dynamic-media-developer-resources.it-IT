@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Sviluppatore, Business Practices
+exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Riferimento comando - Attributi di configurazione{#command-reference-configuration-attributes}
 
