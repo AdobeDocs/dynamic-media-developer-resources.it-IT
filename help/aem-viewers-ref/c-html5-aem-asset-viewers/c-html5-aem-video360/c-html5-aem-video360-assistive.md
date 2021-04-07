@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Supporto tecnologico per assistenza
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360,Accessibilità
 role: Sviluppatore, Business Practices
+exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Supporto della tecnologia di assistenza{#assistive-technology-support}
 
