@@ -4,14 +4,14 @@ solution: Experience Manager
 title: getComponent
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Sviluppatore, Business Practices
+exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -121,4 +121,3 @@ Per ulteriori informazioni su un particolare componente, consulta la documentazi
 } 
 })
 ```
-
