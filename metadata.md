@@ -2,13 +2,14 @@
 cloud: Experience Cloud
 description: Dynamic Media Classic
 solution: Dynamic Media Classic
-type: Documentazione
+product: adobe dynamic media classic
+type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.it-IT
 index: true
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
