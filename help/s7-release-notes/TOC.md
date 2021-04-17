@@ -3,17 +3,17 @@ title: Note sulla versione di Adobe Dynamic Media Classic
 description: '"Note sulla versione per Adobe Dynamic Media Classic, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud."'
 author: Rick Brough
 cloud: Experience Cloud
-product: Dynamic Media Classic
+product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Media Classic
-role: Sviluppatore, Business Practices
+role: Developer,Business Practitioner
 user-guide-description: Note aggiornate sulla versione di Adobe Dynamic Media Classic, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 22%
 
 ---
 
