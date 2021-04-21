@@ -2,8 +2,8 @@
 description: Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Analytics.
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

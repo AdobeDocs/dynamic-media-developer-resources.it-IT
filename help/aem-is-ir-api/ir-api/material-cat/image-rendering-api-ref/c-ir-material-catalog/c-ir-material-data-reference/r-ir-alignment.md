@@ -2,8 +2,8 @@
 description: Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
 solution: Experience Manager
 title: Allineamento
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

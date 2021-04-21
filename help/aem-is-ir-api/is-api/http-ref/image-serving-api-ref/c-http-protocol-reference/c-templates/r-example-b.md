@@ -2,8 +2,8 @@
 description: Requisiti simili all'esempio A, ma utilizzare uno sfondo a colori solidi e consentire la variazione dell'altezza del composito per adattarsi alle immagini con proporzioni diverse.
 solution: Experience Manager
 title: Esempio B
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

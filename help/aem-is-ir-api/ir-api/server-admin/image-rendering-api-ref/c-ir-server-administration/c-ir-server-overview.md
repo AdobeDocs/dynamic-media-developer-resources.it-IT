@@ -2,8 +2,8 @@
 description: Questa documentazione spiega come amministrare il server Dynamic Media Image Rendering .
 solution: Experience Manager
 title: Panoramica sull'amministrazione del server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

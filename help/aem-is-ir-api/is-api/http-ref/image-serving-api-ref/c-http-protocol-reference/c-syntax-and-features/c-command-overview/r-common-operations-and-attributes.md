@@ -2,8 +2,8 @@
 description: Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono utili anche per le immagini composite e per le richieste di immagini semplici e non a livelli.
 solution: Experience Manager
 title: Operazioni comuni
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

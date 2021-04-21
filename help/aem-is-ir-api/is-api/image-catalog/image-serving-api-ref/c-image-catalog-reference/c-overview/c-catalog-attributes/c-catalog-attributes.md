@@ -2,8 +2,8 @@
 description: Gli attributi descritti in questa sezione sono riconosciuti nei file di attributi del catalogo.
 solution: Experience Manager
 title: Attributi del catalogo
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

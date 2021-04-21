@@ -2,8 +2,8 @@
 description: Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
 solution: Experience Manager
 title: Lettore video
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

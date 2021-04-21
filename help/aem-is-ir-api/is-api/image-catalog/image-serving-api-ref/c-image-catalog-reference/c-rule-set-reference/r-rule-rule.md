@@ -2,8 +2,8 @@
 description: Elemento della regola di richiesta. Una o più regole sono facoltative nell'elemento <ruleset> .
 solution: Experience Manager
 title: regola
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

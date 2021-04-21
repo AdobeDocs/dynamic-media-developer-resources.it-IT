@@ -2,8 +2,8 @@
 description: Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questo include pulsanti zoom, pulsanti di rotazione, controlli video, pulsante Chiudi a schermo intero e pulsanti di scorrimento campione.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

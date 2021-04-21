@@ -2,8 +2,8 @@
 description: È possibile utilizzare Image Server per gestire il contenuto non immagini nei cataloghi e distribuirlo tramite un contesto /is/content separato.
 solution: Experience Manager
 title: Distribuzione di contenuti statici (non immagine)
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

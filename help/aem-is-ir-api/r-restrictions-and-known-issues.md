@@ -2,8 +2,8 @@
 description: Ci sono alcune restrizioni e problemi noti che devono essere presi in considerazione quando si utilizza Dynamic Media Image Serving.
 solution: Experience Manager
 title: Restrizioni e problemi noti
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

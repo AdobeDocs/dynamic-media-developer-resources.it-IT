@@ -2,8 +2,8 @@
 description: Matrice di messaggi che risponde a un URL fornito nella richiesta di invalidazione del CDN.
 solution: Experience Manager
 title: OperationFaultArray
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

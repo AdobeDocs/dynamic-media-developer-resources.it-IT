@@ -2,8 +2,8 @@
 description: Se una richiesta non può essere completata correttamente, il server restituirà un'immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
 solution: Experience Manager
 title: Errori
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

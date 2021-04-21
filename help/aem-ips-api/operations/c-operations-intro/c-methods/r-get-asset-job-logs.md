@@ -2,8 +2,8 @@
 description: Ottiene i registri dei processi per una risorsa. Gli elementi restituiti nella matrice contengono informazioni dettagliate su ogni voce nel registro di lavoro per la risorsa. Il campo di risposta logMessage viene localizzato in base al campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

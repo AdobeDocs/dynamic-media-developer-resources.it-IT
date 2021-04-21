@@ -2,8 +2,8 @@
 description: Aggiungi del rumore. Aggiunge un rumore casuale ai dati dell’immagine in primo piano o in primo piano di un livello di effetto.
 solution: Experience Manager
 title: op_rumore
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

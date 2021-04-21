@@ -2,8 +2,8 @@
 description: Elemento pattern di espressione regolare. Facoltativo negli elementi <rule> .
 solution: Experience Manager
 title: espressione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

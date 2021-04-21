@@ -2,8 +2,8 @@
 description: Il server può essere configurato per inviare avvisi e-mail quando vengono superate determinate prestazioni o soglie di errore. Il sistema controlla collettivamente tutte le applicazioni web distribuite sul server.
 solution: Experience Manager
 title: Monitoraggio server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

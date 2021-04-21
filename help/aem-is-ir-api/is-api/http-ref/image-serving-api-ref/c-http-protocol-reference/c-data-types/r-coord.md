@@ -2,8 +2,8 @@
 description: Coordinate pixel. Utilizzato per specificare le coordinate immagine, ad esempio offset immagine o parametri di ritaglio, sotto forma di offset pixel rispetto all'angolo in alto a sinistra di un'immagine o di un rettangolo di livello.
 solution: Experience Manager
 title: corda
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

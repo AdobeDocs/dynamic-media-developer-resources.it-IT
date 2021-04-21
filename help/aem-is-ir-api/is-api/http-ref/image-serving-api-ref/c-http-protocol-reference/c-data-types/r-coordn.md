@@ -2,8 +2,8 @@
 description: Coordinate normalizzate. Utilizzato per specificare le posizioni relative all’interno di un’immagine, ad esempio offset immagine o parametri di ritaglio, normalizzati in base alle dimensioni dell’immagine.
 solution: Experience Manager
 title: coordN
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

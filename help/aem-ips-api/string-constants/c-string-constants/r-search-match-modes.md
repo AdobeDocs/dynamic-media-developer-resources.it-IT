@@ -2,8 +2,8 @@
 description: Utilizzato da searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode e searchAssetsParam/metadataMatchMode.
 solution: Experience Manager
 title: Modalità di ricerca
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

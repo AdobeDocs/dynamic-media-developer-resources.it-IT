@@ -2,8 +2,8 @@
 description: Solo per sviluppatori di Scene 7. Consulta la sezione Attributi del catalogo di riferimento del catalogo dei materiali di rendering delle immagini .
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

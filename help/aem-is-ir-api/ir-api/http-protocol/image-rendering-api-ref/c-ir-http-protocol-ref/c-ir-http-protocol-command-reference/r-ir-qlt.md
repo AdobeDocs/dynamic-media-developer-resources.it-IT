@@ -2,8 +2,8 @@
 description: Qualità jpeg. Specifica gli attributi di codifica JPEG per controllare il livello di compressione.
 solution: Experience Manager
 title: qlt
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

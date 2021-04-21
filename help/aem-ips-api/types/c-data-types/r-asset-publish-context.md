@@ -2,8 +2,8 @@
 description: Mappa una risorsa in PublishContext in cui una risorsa è contrassegnata per la pubblicazione.
 solution: Experience Manager
 title: AssetPublishContext
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

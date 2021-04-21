@@ -2,8 +2,8 @@
 description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 solution: Experience Manager
 title: Evidenziazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

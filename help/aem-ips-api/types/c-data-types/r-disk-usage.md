@@ -2,8 +2,8 @@
 description: Statistiche sullo spazio su disco per una risorsa o una cartella.
 solution: Experience Manager
 title: Utilizzo disco
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

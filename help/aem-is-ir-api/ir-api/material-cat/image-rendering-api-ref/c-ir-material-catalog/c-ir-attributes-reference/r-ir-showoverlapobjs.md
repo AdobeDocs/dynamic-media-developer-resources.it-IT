@@ -2,8 +2,8 @@
 description: Mostra oggetti sovrapposti. Specifica se gli oggetti di sovrapposizione devono essere inizialmente visualizzati o nascosti.
 solution: Experience Manager
 title: ShowOverlapObjs
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

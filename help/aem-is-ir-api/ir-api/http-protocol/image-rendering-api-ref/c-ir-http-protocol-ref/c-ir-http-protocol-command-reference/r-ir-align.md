@@ -2,8 +2,8 @@
 description: Allineamento del rendering della texture. Specifica quale dei punti di origine definiti dall'oggetto vignetta selezionato deve essere utilizzato.
 solution: Experience Manager
 title: allinea
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

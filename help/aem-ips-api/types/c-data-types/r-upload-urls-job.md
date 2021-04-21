@@ -2,8 +2,8 @@
 description: Carica gli URL dal percorso in cui desideri ottenere i file.
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Dati del set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic, SDK/API, Set di immagini
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

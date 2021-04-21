@@ -2,8 +2,8 @@
 description: Identificatore del catalogo. L’elemento del percorso HTTP da utilizzare per identificare questo catalogo nel qualificatore di oggetti vignetta, materiale o profilo ICC nelle richieste HTTP.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

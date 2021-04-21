@@ -2,8 +2,8 @@
 description: Di seguito è riportato l'elenco delle parole chiave e dei comandi supportati dal motore di testo Scene 7 Image Serving.
 solution: Experience Manager
 title: Comandi e parole chiave RTF supportati
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

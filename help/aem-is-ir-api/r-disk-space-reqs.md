@@ -2,8 +2,8 @@
 description: 'Oltre allo spazio necessario per l''installazione del software, Image Server ha i seguenti requisiti di spazio su disco '
 solution: Experience Manager
 title: Requisiti e raccomandazioni per lo spazio su disco
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

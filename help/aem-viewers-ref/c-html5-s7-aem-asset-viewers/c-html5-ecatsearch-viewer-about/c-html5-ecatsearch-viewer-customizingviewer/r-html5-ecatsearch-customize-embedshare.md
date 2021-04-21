@@ -2,8 +2,8 @@
 description: Lo strumento di condivisione di incorporamento è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
 title: Quota di incorporamento
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

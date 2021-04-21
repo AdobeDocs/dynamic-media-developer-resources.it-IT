@@ -2,8 +2,8 @@
 description: Le seguenti opzioni controllano l'elaborazione dei file di vignetta. Vengono ignorati se sourceFile non è una vignetta.
 solution: Experience Manager
 title: Opzioni per le vignette
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

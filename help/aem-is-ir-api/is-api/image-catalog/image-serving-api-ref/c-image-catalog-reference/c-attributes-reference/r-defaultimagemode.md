@@ -2,8 +2,8 @@
 description: Modalità immagine predefinita. Seleziona la modalità di applicazione dell’immagine predefinita quando le immagini specificate nella richiesta non vengono trovate.
 solution: Experience Manager
 title: DefaultImageMode
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

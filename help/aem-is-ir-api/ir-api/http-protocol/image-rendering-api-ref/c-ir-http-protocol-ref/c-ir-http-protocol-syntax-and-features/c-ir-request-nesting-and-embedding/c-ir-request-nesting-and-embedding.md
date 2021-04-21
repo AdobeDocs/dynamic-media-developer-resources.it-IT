@@ -2,8 +2,8 @@
 description: Image Rendering consente di incorporare richieste Image Server e richieste HTTP a server stranieri per recuperare immagini di materiale utilizzate per texture e decals ripetibili.
 solution: Experience Manager
 title: Nidificazione e incorporamento delle richieste *
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

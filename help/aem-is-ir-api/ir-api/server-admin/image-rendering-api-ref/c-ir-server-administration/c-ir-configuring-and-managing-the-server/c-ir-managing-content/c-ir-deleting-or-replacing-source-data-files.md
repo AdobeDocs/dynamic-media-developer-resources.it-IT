@@ -2,8 +2,8 @@
 description: I file di vignetta possono essere sostituiti o eliminati mentre il server è attivo utilizzando il comando req=release immediatamente prima della sovrascrittura del file.
 solution: Experience Manager
 title: Eliminazione o sostituzione dei file di dati di origine
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

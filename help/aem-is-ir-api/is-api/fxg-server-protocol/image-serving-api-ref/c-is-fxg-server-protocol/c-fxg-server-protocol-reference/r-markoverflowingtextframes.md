@@ -2,8 +2,8 @@
 description: 'Visualizza cornici di testo sovrapposte con segno più. Un indicatore di testo in eccesso mostra quando il testo eccede lo spazio allocato al testo in una cornice di testo (o nell’ultima cornice di testo nel caso di testo in più cornici concatenate). Questo indicatori è una casella rossa contenente un segno più (+). '
 solution: Experience Manager
 title: markOverflowingTextFrames
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

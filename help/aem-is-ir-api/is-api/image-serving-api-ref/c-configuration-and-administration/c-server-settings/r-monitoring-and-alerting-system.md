@@ -2,8 +2,8 @@
 description: Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 solution: Experience Manager
 title: Sistema di monitoraggio e allarme
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

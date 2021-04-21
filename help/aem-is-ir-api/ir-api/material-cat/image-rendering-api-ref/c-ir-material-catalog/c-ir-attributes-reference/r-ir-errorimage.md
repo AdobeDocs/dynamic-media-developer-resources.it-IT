@@ -2,8 +2,8 @@
 description: Immagine di risposta di errore. Image Rendering restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore. L'attributo ErrorImage consente di configurare un'immagine da restituire in caso di errore.
 solution: Experience Manager
 title: ErrorImage *
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

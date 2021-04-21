@@ -2,8 +2,8 @@
 description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso di file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
 solution: Experience Manager
 title: File di attributi del catalogo
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

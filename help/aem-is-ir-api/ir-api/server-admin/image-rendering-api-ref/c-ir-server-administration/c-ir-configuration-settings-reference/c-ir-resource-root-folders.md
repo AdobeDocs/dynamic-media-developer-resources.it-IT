@@ -2,8 +2,8 @@
 description: Elenco di percorsi, delimitati da punti e virgola, fungono da radice per tutti i file di dati con percorsi di file relativi.
 solution: Experience Manager
 title: Cartelle radice delle risorse (ir.resourceRootPaths)
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

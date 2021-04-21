@@ -2,8 +2,8 @@
 description: Riferimento API JavaScript per il visualizzatore video interattivo.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 24d8d11d-4688-4ca0-92ae-824a5e984a10
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

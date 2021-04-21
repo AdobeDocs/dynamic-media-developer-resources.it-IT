@@ -2,8 +2,8 @@
 description: Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle al tipo e al tipo di proprietà.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

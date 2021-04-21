@@ -2,8 +2,8 @@
 description: I livelli sono composti nell'ordine specificato dal comando layer=, dove i livelli numerati più alti nascondono quelli numerati più in basso.
 solution: Experience Manager
 title: Il quadro di composizione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

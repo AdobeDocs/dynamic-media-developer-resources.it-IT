@@ -2,8 +2,8 @@
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 title: serverUrl
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

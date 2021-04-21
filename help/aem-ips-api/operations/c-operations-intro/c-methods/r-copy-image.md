@@ -2,8 +2,8 @@
 description: Crea una copia di una risorsa immagine esistente. Per generare la nuova copia vengono applicati i comandi del protocollo Image Server specificati
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

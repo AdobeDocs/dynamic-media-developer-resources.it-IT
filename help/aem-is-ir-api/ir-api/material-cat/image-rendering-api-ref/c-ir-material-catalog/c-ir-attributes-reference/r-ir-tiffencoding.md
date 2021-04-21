@@ -2,8 +2,8 @@
 description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
 solution: Experience Manager
 title: Codifica tiff
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

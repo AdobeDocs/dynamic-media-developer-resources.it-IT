@@ -2,8 +2,8 @@
 description: Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior parte non ha alcun significato per l'immagine composita e per richieste semplici e non a livelli. Non si applicano ai livelli di effetto.
 solution: Experience Manager
 title: Comandi del livello comune
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

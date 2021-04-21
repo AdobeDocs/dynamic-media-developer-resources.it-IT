@@ -2,8 +2,8 @@
 description: Compensazione del punto nero. Specifica se la compensazione del punto nero deve essere applicata alle conversioni di colore quando non viene effettuata alcuna selezione esplicita con icc=.
 solution: Experience Manager
 title: IccBlackPointCompensation
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

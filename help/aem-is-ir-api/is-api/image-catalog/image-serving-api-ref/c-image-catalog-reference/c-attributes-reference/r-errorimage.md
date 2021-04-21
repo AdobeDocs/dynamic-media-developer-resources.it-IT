@@ -2,8 +2,8 @@
 description: Immagine di risposta di errore. Image Server restituisce normalmente uno stato di errore con un messaggio di testo quando si verifica un errore.
 solution: Experience Manager
 title: ErrorImage
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

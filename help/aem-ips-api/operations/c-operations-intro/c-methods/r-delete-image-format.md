@@ -2,8 +2,8 @@
 description: Elimina un formato immagine. Ottenere la maniglia del formato immagine da saveImageFormat.
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

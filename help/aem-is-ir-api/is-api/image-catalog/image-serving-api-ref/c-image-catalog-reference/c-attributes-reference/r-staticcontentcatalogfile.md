@@ -2,8 +2,8 @@
 description: Percorsi file di dati del catalogo del contenuto statico. Specifica i file che contengono i dati del contenuto statico per questo catalogo.
 solution: Experience Manager
 title: FileCatalogoStatico
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

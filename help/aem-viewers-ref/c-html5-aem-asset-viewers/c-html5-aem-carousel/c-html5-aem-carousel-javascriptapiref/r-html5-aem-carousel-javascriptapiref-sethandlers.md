@@ -2,8 +2,8 @@
 description: Riferimento API JavaScript per il visualizzatore carosello
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d269627a-e2f8-4ca6-96a1-a7dce312e06e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

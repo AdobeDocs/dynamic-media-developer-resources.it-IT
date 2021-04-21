@@ -2,8 +2,8 @@
 description: Supporto per il tracciamento di Adobe Analytics
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Restituisce le definizioni dei campi di metadati per i tipi di risorse specificati.
 solution: Experience Manager
 title: CampiMetadatiRisorsa
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

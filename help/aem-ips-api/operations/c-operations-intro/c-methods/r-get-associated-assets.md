@@ -2,8 +2,8 @@
 description: Ottiene le risorse associate a una risorsa specificata e i dettagli sulla relativa relazione.
 solution: Experience Manager
 title: getAssociatedAssets
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

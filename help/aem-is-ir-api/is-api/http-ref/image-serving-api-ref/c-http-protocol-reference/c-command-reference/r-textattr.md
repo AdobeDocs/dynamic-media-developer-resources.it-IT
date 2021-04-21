@@ -2,8 +2,8 @@
 description: Attributi del livello di testo. Specifica gli attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
 solution: Experience Manager
 title: textAttr
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

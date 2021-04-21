@@ -2,8 +2,8 @@
 description: Aggiorna i metadati in modalità batch.
 solution: Experience Manager
 title: AggiornamentoMetadatiBatch
-feature: Dynamic Media Classic, SDK/API, Metadati
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

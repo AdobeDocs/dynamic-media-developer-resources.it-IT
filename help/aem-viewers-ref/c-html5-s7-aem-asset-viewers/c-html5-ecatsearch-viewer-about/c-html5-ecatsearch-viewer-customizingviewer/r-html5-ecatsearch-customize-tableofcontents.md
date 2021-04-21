@@ -2,8 +2,8 @@
 description: Il sommario è un pulsante situato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
 solution: Experience Manager
 title: Sommario
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

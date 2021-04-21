@@ -2,8 +2,8 @@
 description: Questa documentazione illustra i problemi di amministrazione del server e descrive le impostazioni di configurazione per Dynamic Media Image Rendering.
 solution: Experience Manager
 title: Prefazione di amministrazione del server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

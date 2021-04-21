@@ -2,8 +2,8 @@
 description: Abilita le intestazioni di risposta modificate più di recente. Abilita o disabilita l’inclusione dell’intestazione Last-Modified nelle risposte HTTP memorizzabili nella cache emesse da Image Rendering.
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

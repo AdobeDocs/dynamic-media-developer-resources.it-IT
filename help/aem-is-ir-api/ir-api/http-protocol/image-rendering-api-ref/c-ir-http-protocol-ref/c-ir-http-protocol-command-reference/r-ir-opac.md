@@ -2,8 +2,8 @@
 description: Opacità. Specifica l'opacità del materiale.
 solution: Experience Manager
 title: opaca
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt

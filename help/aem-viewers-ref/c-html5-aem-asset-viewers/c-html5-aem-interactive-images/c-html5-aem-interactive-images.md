@@ -2,8 +2,8 @@
 description: Il visualizzatore di immagini interattive è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto attivo sull'immagine del banner e venire reindirizzato a una pagina di dettagli di visualizzazione rapida o del prodotto sul sito web. È progettato per funzionare su desktop e dispositivi mobili.
 solution: Experience Manager
 title: Immagine interattiva
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

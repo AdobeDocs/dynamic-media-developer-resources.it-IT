@@ -2,8 +2,8 @@
 description: Se il testo è specificato come formato di risposta, i dati di risposta vengono formattati in modo da essere leggibili come proprietà Java.
 solution: Experience Manager
 title: Proprietà testo (Java)
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Trasformazione della prospettiva. Applicate una trasformazione prospettica all'immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree dello strato rimangono trasparenti.
 solution: Experience Manager
 title: prospettiva
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

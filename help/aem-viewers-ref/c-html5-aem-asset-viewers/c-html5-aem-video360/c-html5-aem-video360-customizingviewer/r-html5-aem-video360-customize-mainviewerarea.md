@@ -2,8 +2,8 @@
 description: L'area di visualizzazione principale è l'area occupata dal video 360. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

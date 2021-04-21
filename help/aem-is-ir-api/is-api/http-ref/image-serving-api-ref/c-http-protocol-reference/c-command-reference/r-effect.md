@@ -2,8 +2,8 @@
 description: Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associata al livello corrente.
 solution: Experience Manager
 title: effetto
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

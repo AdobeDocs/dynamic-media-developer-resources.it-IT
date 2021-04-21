@@ -2,8 +2,8 @@
 description: Tocca o fai clic su questo pulsante per portare l’utente all’ultima pagina del catalogo. Questo pulsante appare nella barra di controllo principale sui sistemi desktop e tablet; sui telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Ultima pagina
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

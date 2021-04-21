@@ -2,8 +2,8 @@
 description: I modelli possono essere utilizzati per ridurre la lunghezza e la complessità delle richieste che compongono più livelli di immagine o che includono testo in formato rtf.
 solution: Experience Manager
 title: Modelli
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

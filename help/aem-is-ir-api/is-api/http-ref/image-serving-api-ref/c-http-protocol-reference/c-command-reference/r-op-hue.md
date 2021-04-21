@@ -2,8 +2,8 @@
 description: Regola la tonalità. Sposta la tonalità di ciascun pixel visibile del livello o dell'immagine composita in base alla quantità specificata.
 solution: Experience Manager
 title: op_hue
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

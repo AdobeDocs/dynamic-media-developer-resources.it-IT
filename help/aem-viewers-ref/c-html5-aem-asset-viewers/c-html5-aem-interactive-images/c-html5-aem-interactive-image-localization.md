@@ -1,8 +1,8 @@
 ---
 description: Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione a comparsa al momento del caricamento.
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

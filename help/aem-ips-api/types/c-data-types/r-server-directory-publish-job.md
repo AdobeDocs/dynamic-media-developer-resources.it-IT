@@ -2,8 +2,8 @@
 description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory server.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

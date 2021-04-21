@@ -2,8 +2,8 @@
 description: Controlla i conflitti degli ID IPS confrontando i nomi delle risorse con tutti i nomi dello spazio dei nomi del catalogo Image Serving/Image Rendering di una società.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

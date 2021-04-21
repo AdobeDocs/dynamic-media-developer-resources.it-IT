@@ -2,8 +2,8 @@
 description: I file di dati del catalogo possono avere qualsiasi nome e suffisso di file (eccetto .ini). Possono essere mantenuti rapidamente utilizzando applicazioni che supportano file di dati di testo delimitati da tabulazioni, come Microsoft Excel e Access.
 solution: Experience Manager
 title: File di dati del catalogo
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

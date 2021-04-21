@@ -3,8 +3,8 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore video360
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

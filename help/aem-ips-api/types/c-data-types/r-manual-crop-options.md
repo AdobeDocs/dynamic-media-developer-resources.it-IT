@@ -2,8 +2,8 @@
 description: Opzioni di ritaglio manuale per le immagini.
 solution: Experience Manager
 title: OpzioniRitaglioManuale
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

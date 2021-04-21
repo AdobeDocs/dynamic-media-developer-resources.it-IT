@@ -2,8 +2,8 @@
 description: Utilizzato da searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
 solution: Experience Manager
 title: Ordina direzioni
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

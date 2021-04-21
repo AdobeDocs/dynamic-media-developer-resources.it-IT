@@ -2,8 +2,8 @@
 description: L’area di visualizzazione principale è l’area occupata dai campioni interattivi. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Sposta più risorse in modo indipendente l’una dall’altra. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

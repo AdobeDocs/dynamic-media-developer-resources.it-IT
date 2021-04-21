@@ -2,8 +2,8 @@
 description: Se i dati interattivi sono stati passati al visualizzatore in configurazione, il pannello campioni interattivi viene visualizzato accanto al contenuto video. È costituito da un banner nella parte superiore che esegue il rendering del testo, ad esempio "Click to View", una colonna di uno o più campioni interattivi e due pulsanti di scorrimento (disponibili solo sui sistemi desktop).
 solution: Experience Manager
 title: Campioni interattivi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

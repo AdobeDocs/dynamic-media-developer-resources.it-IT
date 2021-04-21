@@ -2,8 +2,8 @@
 description: I file di dati di origine del rendering delle immagini includono file di vignetta, file di materiale (immagini per texture e decali ripetibili, armadio e finestre che coprono file di stile) e profili ICC.
 solution: Experience Manager
 title: Dati di origine
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

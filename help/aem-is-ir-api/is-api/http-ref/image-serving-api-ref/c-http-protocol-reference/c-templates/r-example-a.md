@@ -2,8 +2,8 @@
 description: Crea un modello a dimensione fissa con un’immagine di sfondo statica, un’immagine variabile allineata con lo sfondo al centro a sinistra e ridimensionata per non superare l’80% della larghezza e dell’altezza dello sfondo e un livello di testo con testo verticale centrato sul bordo destro dell’area di lavoro.
 solution: Experience Manager
 title: Esempio A
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

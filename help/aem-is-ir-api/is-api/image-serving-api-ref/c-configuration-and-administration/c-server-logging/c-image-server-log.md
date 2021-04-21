@@ -2,8 +2,8 @@
 description: Image Server scrive i record in questo file di registro per registrare avvisi ed errori e tenere un record degli eventi di avvio e arresto.
 solution: Experience Manager
 title: Registro server immagini
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

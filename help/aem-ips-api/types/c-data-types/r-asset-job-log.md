@@ -2,8 +2,8 @@
 description: Dettagli di una voce del registro di lavoro associata a una particolare risorsa. Dati restituiti da getAssetJobLogs.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

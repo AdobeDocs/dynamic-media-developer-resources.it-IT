@@ -2,8 +2,8 @@
 description: Ancoraggio immagine Definisce il punto di ancoraggio del rettangolo dell’immagine, del colore solido o del riquadro di delimitazione del testo, prima di applicare le trasformazioni (crop=, scale=, rotate=, flip=). Funge anche da centro di rotazione per rotate=.
 solution: Experience Manager
 title: ancoraggio
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

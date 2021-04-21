@@ -2,8 +2,8 @@
 description: Le texture ripetibili includono materiali interni ed esterni, come tessuti (sia per abbigliamento che per tappezzeria), rivestimenti per pavimenti da parete a parete, sfondi, materiali di controsoffitto, texture di grana di legno, tetti e materiali di rivestimento, e qualsiasi altra texture generica.
 solution: Experience Manager
 title: Trame ripetibili
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

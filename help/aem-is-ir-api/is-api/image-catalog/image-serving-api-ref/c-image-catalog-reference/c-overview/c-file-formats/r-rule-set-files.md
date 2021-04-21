@@ -2,8 +2,8 @@
 description: I file dei set di regole sono file di testo in formato XML e devono rispettare gli standard e le convenzioni appropriati.
 solution: Experience Manager
 title: File set di regole
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

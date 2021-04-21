@@ -2,8 +2,8 @@
 description: Attiva e disattiva la visualizzazione dei sottotitoli. Non è visibile se il parametro della didascalia non è specificato. È possibile utilizzare CSS per ridimensionare, skin e posizionare questo pulsante rispetto alla barra di controllo che lo contiene.
 solution: Experience Manager
 title: Pulsante Didascalia
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

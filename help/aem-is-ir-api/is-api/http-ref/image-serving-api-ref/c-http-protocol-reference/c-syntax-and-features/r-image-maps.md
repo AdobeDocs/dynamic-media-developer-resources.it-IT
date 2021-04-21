@@ -2,8 +2,8 @@
 description: IS fornisce meccanismi per semplificare l'uso delle mappe immagine HTML. Anche i visualizzatori basati su JAVA e basati su Flash in IS includono un supporto limitato per le mappe immagine.
 solution: Experience Manager
 title: Mappe immagine
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

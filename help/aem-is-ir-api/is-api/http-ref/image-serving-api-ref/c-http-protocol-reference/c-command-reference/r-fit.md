@@ -2,8 +2,8 @@
 description: Modalità di adattamento dell'immagine di risposta. Specifica come viene calcolato il fattore di scala, utilizzato per scalare l'immagine composita sull'immagine di risposta quando la dimensione di risposta è specificata con wid= e hei= e scl= non è presente.
 solution: Experience Manager
 title: adatta
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

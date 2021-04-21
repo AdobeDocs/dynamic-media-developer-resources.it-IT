@@ -2,8 +2,8 @@
 description: Raggruppa i file in set utilizzando una matrice di elenchi di handle di risorsa.
 solution: Experience Manager
 title: AttivitàGenerazioneAutomatizzata
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

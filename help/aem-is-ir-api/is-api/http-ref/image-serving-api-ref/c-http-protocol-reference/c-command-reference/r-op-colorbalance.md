@@ -2,8 +2,8 @@
 description: Regolare il bilanciamento del colore. Regola il valore di ciascun componente di colore RGB separatamente.
 solution: Experience Manager
 title: op_colorbalance
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

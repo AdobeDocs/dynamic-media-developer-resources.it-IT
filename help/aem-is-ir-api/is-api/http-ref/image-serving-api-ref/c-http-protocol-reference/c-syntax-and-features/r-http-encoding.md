@@ -2,8 +2,8 @@
 description: I valori dei comandi devono essere codificati in http utilizzando %xx sequenze di escape, in modo che le stringhe di valori non includano i caratteri riservati '=', '&' e '%'.
 solution: Experience Manager
 title: Codifica HTTP di Image Server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

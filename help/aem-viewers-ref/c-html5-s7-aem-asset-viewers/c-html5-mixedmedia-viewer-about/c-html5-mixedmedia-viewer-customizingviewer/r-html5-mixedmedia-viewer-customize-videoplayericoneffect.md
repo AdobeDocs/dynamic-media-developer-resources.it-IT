@@ -2,8 +2,8 @@
 description: L’icona di riproduzione viene sovrapposta all’area di visualizzazione video. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
 solution: Experience Manager
 title: Effetto icona lettore video
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

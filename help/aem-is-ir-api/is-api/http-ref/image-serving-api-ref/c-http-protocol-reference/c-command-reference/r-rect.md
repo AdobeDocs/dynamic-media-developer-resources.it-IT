@@ -2,8 +2,8 @@
 description: Rettangolo di visualizzazione finale. Consente di smontare l'immagine della vista finale in più strisce o piastrelle, che possono essere consegnate separatamente e riassemblate dal cliente senza problemi, senza artefatti lungo i bordi.
 solution: Experience Manager
 title: rect
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

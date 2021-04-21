@@ -2,8 +2,8 @@
 description: Risoluzione di stampa predefinita. Fornisce una risoluzione di stampa predefinita nel caso in cui un particolare record di catalogo non contenga un valore PrintResolution di catalogo valido.
 solution: Experience Manager
 title: StampaRisoluzione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

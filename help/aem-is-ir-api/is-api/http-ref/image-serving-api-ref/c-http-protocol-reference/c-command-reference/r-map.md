@@ -2,8 +2,8 @@
 description: Dati mappa immagine. Fornisce i dati della mappa immagine per questo livello. Ignora tutti i dati della mappa del catalogo per questo livello.
 solution: Experience Manager
 title: map
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

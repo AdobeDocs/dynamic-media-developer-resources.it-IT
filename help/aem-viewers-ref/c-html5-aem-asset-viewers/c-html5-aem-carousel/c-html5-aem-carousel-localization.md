@@ -2,8 +2,8 @@
 description: Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Ciò include i pulsanti di spostamento delle diapositive.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

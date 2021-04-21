@@ -2,8 +2,8 @@
 description: Risorse che appartengono a un set di immagini.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic, SDK/API, Set di immagini
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Se JavaScript™ è specificato come formato di risposta, i dati di risposta vengono formattati per essere analizzati come file di inclusione JavaScript™.
 solution: Experience Manager
 title: Proprietà JavaScript™
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

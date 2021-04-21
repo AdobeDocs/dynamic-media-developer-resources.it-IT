@@ -2,8 +2,8 @@
 description: Tipo di materiale. Tipo di superficie del materiale. Utilizzato in combinazione con Gloss del catalogo e Roughness del catalogo per controllare gli effetti di rendering del riflesso 3D.
 solution: Experience Manager
 title: Tipo
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

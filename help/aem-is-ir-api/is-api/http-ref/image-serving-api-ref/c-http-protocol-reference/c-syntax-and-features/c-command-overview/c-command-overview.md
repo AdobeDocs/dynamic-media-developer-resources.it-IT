@@ -2,8 +2,8 @@
 description: I comandi supportati da Image Serving sono elencati di seguito, raggruppati per categoria approssimativa. Fare riferimento alle descrizioni dei comandi specifiche per i dettagli relativi all'utilizzo e all'applicabilità.
 solution: Experience Manager
 title: Panoramica del comando del protocollo HTTP Image Server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

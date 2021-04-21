@@ -2,8 +2,8 @@
 description: Supporto per punti attivi
 solution: Experience Manager
 title: Supporto per punti attivi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

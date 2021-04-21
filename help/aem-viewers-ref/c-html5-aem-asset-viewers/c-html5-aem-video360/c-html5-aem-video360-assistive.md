@@ -2,8 +2,8 @@
 description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
 title: Supporto tecnologico per assistenza
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360,Accessibilità
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video,Accessibility
+role: Developer,Business Practitioner
 exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

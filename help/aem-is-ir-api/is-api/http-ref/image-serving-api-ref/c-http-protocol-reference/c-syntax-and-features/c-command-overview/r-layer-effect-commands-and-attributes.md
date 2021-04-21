@@ -2,8 +2,8 @@
 description: Questi comandi possono essere utilizzati per definire gli effetti di livello, ad esempio gli effetti di ombreggiatura o bagliore. I livelli degli effetti ignorano tutti gli altri comandi.
 solution: Experience Manager
 title: Comandi dell'effetto livello
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

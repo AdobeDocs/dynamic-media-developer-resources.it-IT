@@ -2,8 +2,8 @@
 description: Percorso del file delle metriche dei font. Percorso e nome di un file delle metriche dei font, incluso il suffisso del file.
 solution: Experience Manager
 title: MetricsPath
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

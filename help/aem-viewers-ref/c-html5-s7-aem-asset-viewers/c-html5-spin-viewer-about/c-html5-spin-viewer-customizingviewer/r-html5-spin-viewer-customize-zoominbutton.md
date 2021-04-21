@@ -2,8 +2,8 @@
 description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari al fine di salvare lo schermo immobiliare. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Zoom in
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

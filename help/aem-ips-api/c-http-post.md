@@ -2,8 +2,8 @@
 description: Il caricamento delle risorse in Dynamic Media Classic comporta una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
 solution: Experience Manager
 title: Caricamento delle risorse tramite POST HTTP nel servlet UploadFile
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

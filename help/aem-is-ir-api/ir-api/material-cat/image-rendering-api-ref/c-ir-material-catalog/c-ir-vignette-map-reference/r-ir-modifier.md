@@ -2,8 +2,8 @@
 description: Stringa del modificatore della richiesta. Nessuno o più comandi Image Rendering separati da caratteri '&'. Utilizzato per memorizzare modelli e modificatori da applicare ogni volta che viene effettuata una richiesta per questa voce di mappa di vignetta.
 solution: Experience Manager
 title: Modificatore
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

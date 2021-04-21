@@ -2,8 +2,8 @@
 description: Lucidità della superficie materiale. Specifica la lucentezza relativa della superficie del materiale. Utilizzato per selezionare la mappa di illuminazione e controllare il rendering degli effetti lucenti e riflessi 3D.
 solution: Experience Manager
 title: lucentezza
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

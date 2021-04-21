@@ -2,8 +2,8 @@
 description: Elimina un progetto da una società. I collegamenti tra le risorse e il progetto non funzionano, ma le risorse non vengono eliminate da IPS.
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

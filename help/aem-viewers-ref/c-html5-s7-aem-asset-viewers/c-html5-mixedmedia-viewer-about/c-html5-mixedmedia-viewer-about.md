@@ -3,8 +3,8 @@ description: Il visualizzatore di file multimediali diversi è un visualizzatore
 keywords: reattivo
 solution: Experience Manager
 title: Supporti multipli
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

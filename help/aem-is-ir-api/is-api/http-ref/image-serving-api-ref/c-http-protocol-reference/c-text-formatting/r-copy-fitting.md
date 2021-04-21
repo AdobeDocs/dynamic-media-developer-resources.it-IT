@@ -2,8 +2,8 @@
 description: textPs= implementa un algoritmo proprietario di adattamento alla copia che regola automaticamente le dimensioni del carattere per riempire in modo ottimale l'area di testo con del testo, riducendo al minimo lo spazio aggiuntivo nella parte inferiore evitando al contempo l'overflow.
 solution: Experience Manager
 title: Adattamento copia
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

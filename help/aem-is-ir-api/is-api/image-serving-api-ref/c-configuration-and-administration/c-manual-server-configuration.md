@@ -2,8 +2,8 @@
 description: Molti aspetti di Image Server e Image Rendering possono essere configurati manualmente modificando i file di configurazione appropriati.
 solution: Experience Manager
 title: Configurazione del server
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

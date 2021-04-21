@@ -2,8 +2,8 @@
 description: Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
 solution: Experience Manager
 title: DecomprimiOpzioni
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

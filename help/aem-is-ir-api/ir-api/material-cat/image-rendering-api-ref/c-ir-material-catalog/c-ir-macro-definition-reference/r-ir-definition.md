@@ -2,8 +2,8 @@
 description: Definizione della macro. Frammento di protocollo Render Server costituito da uno o più comandi completi, separati da caratteri '&'.
 solution: Experience Manager
 title: Definizione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

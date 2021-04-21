@@ -2,8 +2,8 @@
 description: Il server controlla continuamente la cartella del catalogo e ricarica automaticamente un catalogo di immagini, inclusi i file di dati del catalogo associati, quando rileva che il file di attributi del catalogo principale è stato modificato.
 solution: Experience Manager
 title: Aggiornamento dei cataloghi di immagini
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

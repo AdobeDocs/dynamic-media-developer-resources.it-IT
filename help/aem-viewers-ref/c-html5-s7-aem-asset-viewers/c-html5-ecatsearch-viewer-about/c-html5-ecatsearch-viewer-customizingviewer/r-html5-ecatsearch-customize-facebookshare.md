@@ -2,8 +2,8 @@
 description: Lo strumento di condivisione Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
 title: Condivisione Facebook
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

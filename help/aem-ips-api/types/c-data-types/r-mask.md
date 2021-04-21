@@ -2,8 +2,8 @@
 description: Maschera parte di un'immagine. La maschera è sempre associata all'immagine. Ottieni una maschera da ImageInfo.
 solution: Experience Manager
 title: Maschera
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

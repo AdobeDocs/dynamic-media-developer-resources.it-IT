@@ -2,8 +2,8 @@
 description: Modello di composizione. Consente di specificare un modello di composizione posizionato in un catalogo diverso dal catalogo principale.
 solution: Experience Manager
 title: template
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

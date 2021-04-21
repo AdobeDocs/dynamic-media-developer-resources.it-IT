@@ -2,8 +2,8 @@
 description: Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 solution: Experience Manager
 title: Supporto a schermo intero
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

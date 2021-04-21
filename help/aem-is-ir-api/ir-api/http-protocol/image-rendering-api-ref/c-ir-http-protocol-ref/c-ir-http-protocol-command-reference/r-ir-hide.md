@@ -2,8 +2,8 @@
 description: Nascondi oggetto sovrapposizione. Nasconde tutti gli oggetti sovrapposti o i rivestimenti di finestre applicati ai telai di rivestimenti di finestre nella selezione corrente.
 solution: Experience Manager
 title: nascondere
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

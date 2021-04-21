@@ -2,8 +2,8 @@
 description: Colore di sfondo predefinito per le miniature. Valore RGB utilizzato per riempire l'area di un'immagine miniatura di output che non contiene dati immagine effettivi.
 solution: Experience Manager
 title: Colore pollice
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

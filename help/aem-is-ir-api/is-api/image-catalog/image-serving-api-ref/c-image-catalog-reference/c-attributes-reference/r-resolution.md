@@ -2,8 +2,8 @@
 description: Risoluzione dell'oggetto predefinita. Fornisce una risoluzione predefinita dell'oggetto nel caso in cui un particolare record di catalogo non contenga un valore di risoluzione del catalogo valido.
 solution: Experience Manager
 title: Risoluzione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

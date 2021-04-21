@@ -2,8 +2,8 @@
 description: Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un particolare record di catalogo non contenga un valore di risoluzione del catalogo valido.
 solution: Experience Manager
 title: Risoluzione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

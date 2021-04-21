@@ -2,8 +2,8 @@
 description: Riferimento API JavaScript per il visualizzatore di immagini video.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: ef307acb-2ff0-46df-a06b-8dbac2e412f9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Dopo l'installazione sarà necessario configurare i servizi per l'esecuzione sotto l'altro account utente.
 solution: Experience Manager
 title: Installazione in un account utente diverso da quello dell'amministratore
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

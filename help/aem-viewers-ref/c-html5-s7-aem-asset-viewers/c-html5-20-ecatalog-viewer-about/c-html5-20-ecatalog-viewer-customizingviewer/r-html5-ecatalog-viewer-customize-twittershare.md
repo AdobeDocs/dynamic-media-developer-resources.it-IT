@@ -2,8 +2,8 @@
 description: Lo strumento di condivisione Twitter è costituito da un pulsante aggiunto al pannello Condivisione social . Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
 title: Condividi su Twitter
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

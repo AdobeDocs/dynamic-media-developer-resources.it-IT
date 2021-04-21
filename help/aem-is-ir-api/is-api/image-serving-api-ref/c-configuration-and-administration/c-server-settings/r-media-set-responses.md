@@ -2,8 +2,8 @@
 description: Le impostazioni in questa sezione si applicano alle risposte del set di file multimediali ottenute dal modificatore req=set .
 solution: Experience Manager
 title: Risposte al set di file multimediali
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

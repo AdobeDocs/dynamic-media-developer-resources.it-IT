@@ -2,8 +2,8 @@
 description: Solo per uso interno. Gli utenti devono fare riferimento alla sezione Riferimento catalogo immagini di Image Server - Riferimento attributi .
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

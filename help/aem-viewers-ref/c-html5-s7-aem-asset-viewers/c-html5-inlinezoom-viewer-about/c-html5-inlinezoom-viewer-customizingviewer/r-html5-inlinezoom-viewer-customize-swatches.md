@@ -2,8 +2,8 @@
 description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra.
 solution: Experience Manager
 title: Campioni
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

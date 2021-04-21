@@ -3,8 +3,8 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore video interattivo
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

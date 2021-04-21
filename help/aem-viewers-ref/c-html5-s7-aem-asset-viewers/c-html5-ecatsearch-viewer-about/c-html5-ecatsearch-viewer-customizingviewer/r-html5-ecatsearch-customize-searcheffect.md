@@ -2,8 +2,8 @@
 description: Il visualizzatore visualizza le aree dei risultati della ricerca sulla visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
 solution: Experience Manager
 title: Effetto Ricerca
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

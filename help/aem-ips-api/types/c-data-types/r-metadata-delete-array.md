@@ -2,8 +2,8 @@
 description: Matrice di metadati da eliminare dalla risorsa.
 solution: Experience Manager
 title: MetadataDeleteArray
-feature: Dynamic Media Classic, SDK/API, Metadati
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

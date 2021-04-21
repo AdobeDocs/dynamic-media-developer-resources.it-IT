@@ -2,8 +2,8 @@
 description: Per impostazione predefinita, lo strumento di social sharing è visualizzato nell'angolo in alto a destra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 solution: Experience Manager
 title: Quota sociale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

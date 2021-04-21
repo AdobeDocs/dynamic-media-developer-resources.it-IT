@@ -2,8 +2,8 @@
 description: Documentazione degli attributi di configurazione per il visualizzatore a comparsa
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

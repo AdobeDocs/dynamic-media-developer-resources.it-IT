@@ -2,8 +2,8 @@
 description: Alcuni contenuti visualizzati nel Visualizzatore video sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequentemente, i server in reti di caching come Akamai, cache del browser e cache del server proxy aziendale possono memorizzare le risposte Image Server che potrebbero non essere aggiornate per periodi di tempo.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

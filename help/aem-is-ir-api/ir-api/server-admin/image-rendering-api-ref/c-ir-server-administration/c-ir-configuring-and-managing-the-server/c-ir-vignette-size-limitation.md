@@ -2,8 +2,8 @@
 description: Image Rendering applica una limitazione di due Megapixel per le vignette non piramidali.
 solution: Experience Manager
 title: Limitazione della dimensione della vignetta
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

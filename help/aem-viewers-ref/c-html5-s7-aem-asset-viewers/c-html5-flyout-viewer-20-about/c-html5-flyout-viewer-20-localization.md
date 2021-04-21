@@ -2,8 +2,8 @@
 description: Alcuni contenuti visualizzati dal visualizzatore a comparsa sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e i messaggi informativi visualizzati dalla visualizzazione a comparsa al momento del caricamento.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

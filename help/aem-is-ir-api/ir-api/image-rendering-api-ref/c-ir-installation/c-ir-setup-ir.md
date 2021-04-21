@@ -2,8 +2,8 @@
 description: Image Rendering è configurato con fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 title: Configurazione e configurazione del rendering delle immagini
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

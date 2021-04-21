@@ -2,8 +2,8 @@
 description: L’area di visualizzazione principale è l’area occupata dalla vista a comparsa e dai campioni.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

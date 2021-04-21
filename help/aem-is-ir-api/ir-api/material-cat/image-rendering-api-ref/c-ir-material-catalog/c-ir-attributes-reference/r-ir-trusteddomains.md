@@ -2,8 +2,8 @@
 description: Flash domini web dell'applicazione. Le applicazioni di Flash Adobe possono richiedere l'accesso alle proprietà delle immagini consegnate in formato swf. Il swf deve concedere l'accesso esplicitamente registrando il nome dei domini di applicazione di cui si fida.
 solution: Experience Manager
 title: TrustedDomains *
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Prefisso URL del server di streaming Apple. Prefisso URL server di streaming Apple utilizzato per generare risposte m3u8 a velocità di bit con req=mbrSet.
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

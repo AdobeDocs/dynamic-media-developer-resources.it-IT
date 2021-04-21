@@ -2,8 +2,8 @@
 description: Lo strumento Stampa è costituito da un pulsante aggiunto alla barra di controllo e dalla finestra di dialogo modale visualizzata quando lo strumento è attivato.
 solution: Experience Manager
 title: Stampa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

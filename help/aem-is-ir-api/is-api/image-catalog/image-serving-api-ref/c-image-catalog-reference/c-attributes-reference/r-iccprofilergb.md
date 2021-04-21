@@ -2,8 +2,8 @@
 description: Profilo colore di uscita predefinito RGB. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta RGB quando non è specificato alcuno spazio colore di output con icc= e per alcuni valori colore RGB specificati con vari comandi Image Serving, ad esempio color=.
 solution: Experience Manager
 title: IccProfileRgb
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

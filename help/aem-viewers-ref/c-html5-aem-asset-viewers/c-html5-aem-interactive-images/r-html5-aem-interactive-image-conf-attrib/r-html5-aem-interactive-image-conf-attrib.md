@@ -2,8 +2,8 @@
 description: Documentazione degli attributi di configurazione per il visualizzatore di immagini interattive.
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

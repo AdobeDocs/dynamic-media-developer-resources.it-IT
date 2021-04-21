@@ -2,8 +2,8 @@
 description: Ottiene i registri di lavoro specificati per la società selezionata. Puoi ordinare in base a caratteri, direzione, date di inizio e fine e numero di righe.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

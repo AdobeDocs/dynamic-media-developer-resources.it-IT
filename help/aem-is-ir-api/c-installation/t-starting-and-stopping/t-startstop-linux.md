@@ -2,8 +2,8 @@
 description: Ci sono due opzioni per avviare o arrestare Image Serving su Linux.
 solution: Experience Manager
 title: Avvio o arresto su Linux
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

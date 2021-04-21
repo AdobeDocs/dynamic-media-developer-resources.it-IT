@@ -2,8 +2,8 @@
 description: Timestamp modifica file. Specifica la data/ora dell'ultima modifica apportata ai file di immagine e/o dati allegati al record del catalogo.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Profilo colore di input predefinito in scala di grigi. Specifica il nome del profilo colore ICC da utilizzare per le immagini sorgente in scala di grigi che non incorporano un profilo colore e per alcuni valori di colore in scala di grigi specificati con vari comandi Image Serving, ad esempio color=.
 solution: Experience Manager
 title: IccProfileSrcGray
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

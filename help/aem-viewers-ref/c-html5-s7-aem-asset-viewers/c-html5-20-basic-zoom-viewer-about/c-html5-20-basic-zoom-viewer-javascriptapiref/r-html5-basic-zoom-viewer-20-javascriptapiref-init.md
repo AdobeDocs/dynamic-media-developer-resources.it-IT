@@ -2,8 +2,8 @@
 description: Riferimento API JavaScript per visualizzatore zoom di base.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

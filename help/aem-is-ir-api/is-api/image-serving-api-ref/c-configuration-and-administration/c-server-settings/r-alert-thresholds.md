@@ -2,8 +2,8 @@
 description: Utilizza queste impostazioni del server per configurare le soglie di avviso.
 solution: Experience Manager
 title: Soglie di allarme
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

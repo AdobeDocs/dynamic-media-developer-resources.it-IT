@@ -2,8 +2,8 @@
 description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all'utente di cercare in modo dinamico qualsiasi posizione temporale all'interno del video attualmente in riproduzione.
 solution: Experience Manager
 title: Scorrimento video
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 0829933f-a90b-4066-9904-748f2a727169
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

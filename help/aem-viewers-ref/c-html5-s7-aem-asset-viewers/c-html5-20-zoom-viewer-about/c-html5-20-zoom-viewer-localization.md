@@ -2,8 +2,8 @@
 description: Alcuni contenuti visualizzati dal visualizzatore video sono soggetti a localizzazione, inclusi pulsanti di zoom e un pulsante a schermo intero.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

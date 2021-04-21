@@ -2,8 +2,8 @@
 description: Crea una nuova risorsa derivata da una risorsa immagine sorgente principale esistente.
 solution: Experience Manager
 title: createDeriedAsset
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Le voci della cache vengono aggiornate automaticamente utilizzando la convalida della cache basata sul catalogo o sulla scadenza, come selezionato con l'attributo CacheValidationPolicy (in default.ini o il file .ini di un catalogo di immagini specifico).
 solution: Experience Manager
 title: Convalida della cache della risposta
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

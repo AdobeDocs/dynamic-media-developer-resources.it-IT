@@ -2,8 +2,8 @@
 description: Risoluzione. Risoluzione delle immagini "nel mondo reale", in genere espressa in pixel per pollice, ma anche in altre unità, come i pixel per metro.
 solution: Experience Manager
 title: Risoluzione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

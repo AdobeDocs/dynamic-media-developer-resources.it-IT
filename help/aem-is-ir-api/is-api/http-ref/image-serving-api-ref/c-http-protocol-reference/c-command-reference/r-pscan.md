@@ -2,8 +2,8 @@
 description: Scansione JPEG progressiva. Il formato JPEG progressivo visualizza un'immagine in modo da mostrare inizialmente una foto sfocata/di bassa qualità nella sua interezza. Man mano che la scansione continua, diventa più chiara man mano che i dati dell'immagine vengono scaricati completamente. Questo parametro consente di impostare il numero di scansioni necessarie (3, 4 o 5) per l'intera immagine da visualizzare.
 solution: Experience Manager
 title: pscan
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

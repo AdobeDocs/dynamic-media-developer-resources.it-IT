@@ -2,8 +2,8 @@
 description: Viene inviato un avviso di priorità quando lo spazio di heap Java gratuito si trova al di sotto della soglia specificata immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java.
 solution: Experience Manager
 title: Avviso prioritario spazio di heap
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

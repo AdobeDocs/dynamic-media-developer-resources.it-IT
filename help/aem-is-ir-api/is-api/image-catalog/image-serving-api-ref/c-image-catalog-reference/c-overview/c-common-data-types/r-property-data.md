@@ -2,8 +2,8 @@
 description: I dati della proprietà sono costituiti da una stringa di testo che rappresenta una o più proprietà.
 solution: Experience Manager
 title: Dati proprietà
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

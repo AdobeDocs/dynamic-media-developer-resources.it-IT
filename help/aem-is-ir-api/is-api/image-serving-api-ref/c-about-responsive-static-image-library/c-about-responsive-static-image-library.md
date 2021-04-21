@@ -2,8 +2,8 @@
 description: La libreria di immagini reattive è un modulo JavaScript che regola dinamicamente la qualità delle immagini servite da Dynamic Media e incorporate in pagine web reattive. Inoltre, offre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering dinamico dei risultati da Smart Crop e Smart Swatch.
 solution: Experience Manager
 title: Informazioni sulla libreria di immagini reattive
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

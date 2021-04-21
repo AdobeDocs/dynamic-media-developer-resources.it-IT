@@ -2,7 +2,7 @@
 description: Imposta i metadati delle risorse utilizzando la modalità batch.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt

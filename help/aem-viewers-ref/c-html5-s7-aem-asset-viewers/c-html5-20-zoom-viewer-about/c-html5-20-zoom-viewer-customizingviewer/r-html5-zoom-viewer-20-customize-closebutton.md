@@ -2,8 +2,8 @@
 description: Tocca o fai clic su questo pulsante per chiudere la pagina web che la contiene. Questo pulsante viene visualizzato solo se il parametro Closebutton è impostato su 1. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Chiudi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: TTL della cache client per le risposte immagine predefinite. Fornisce l'intervallo di scadenza per le risposte immagine predefinite (risposte che restituiscono un'immagine predefinita specificata con defaultImage= o attributo DefaultImage).
 solution: Experience Manager
 title: ScadenzaPredefinita
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

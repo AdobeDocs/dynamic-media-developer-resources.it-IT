@@ -2,8 +2,8 @@
 description: La barra di controllo secondaria è l’area rettangolare contenente i pulsanti Prima e Ultima pagina e un indicatore di pagina quando è resa disponibile in CSS.
 solution: Experience Manager
 title: Barra di controllo secondaria
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

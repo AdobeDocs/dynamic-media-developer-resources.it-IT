@@ -2,8 +2,8 @@
 description: L’SDK per visualizzatori fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare contenuti rich media serviti da Adobe Dynamic Media nelle pagine web.
 solution: Experience Manager
 title: Tutorial SDK per visualizzatori
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Questi comandi si applicano alle immagini sorgente utilizzate in richieste semplici o nei livelli immagine, nonché alle maschere collegate ai livelli di colore solido.
 solution: Experience Manager
 title: Operazioni immagine sorgente
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

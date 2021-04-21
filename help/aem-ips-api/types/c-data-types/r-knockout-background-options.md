@@ -2,8 +2,8 @@
 description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

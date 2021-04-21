@@ -2,8 +2,8 @@
 description: I materiali di decorazione includono i costrutti di abbigliamento come appliqués, stampe di t-shirt e loghi ricamati o stampati, nonché oggetti piatti non ripetibili e non ripetibili utilizzati in applicazioni interne o esterne, come tappeti di superficie, arte appesa a muro, segni e così via.
 solution: Experience Manager
 title: Decorazioni
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

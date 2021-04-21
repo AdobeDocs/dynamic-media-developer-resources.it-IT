@@ -3,8 +3,8 @@ description: Personalizzazione del visualizzatore a comparsa
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore a comparsa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

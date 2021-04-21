@@ -3,8 +3,8 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore Carosello
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Le variabili di sostituzione vengono utilizzate per trasferire i valori dall’URL della richiesta ai modelli di composizione memorizzati nei cataloghi di immagini. Le variabili possono anche essere utilizzate per trasmettere lo stesso valore in posizioni diverse in una richiesta complessa.
 solution: Experience Manager
 title: Variabili di sostituzione
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

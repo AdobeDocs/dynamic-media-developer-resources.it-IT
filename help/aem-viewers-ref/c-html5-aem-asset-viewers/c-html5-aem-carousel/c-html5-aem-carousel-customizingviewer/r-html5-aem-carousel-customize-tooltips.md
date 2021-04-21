@@ -2,8 +2,8 @@
 description: Sui sistemi desktop alcuni elementi dell'interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
 solution: Experience Manager
 title: Descrizioni comandi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

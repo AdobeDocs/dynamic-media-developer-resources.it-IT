@@ -2,8 +2,8 @@
 description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

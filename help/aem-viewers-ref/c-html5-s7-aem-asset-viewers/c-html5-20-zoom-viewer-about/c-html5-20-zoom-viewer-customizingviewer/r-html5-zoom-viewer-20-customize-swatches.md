@@ -2,8 +2,8 @@
 description: I campioni sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 solution: Experience Manager
 title: Campioni
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

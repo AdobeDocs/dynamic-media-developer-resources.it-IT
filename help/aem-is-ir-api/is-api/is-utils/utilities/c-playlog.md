@@ -2,8 +2,8 @@
 description: L'utility playlog può essere utilizzata per generare anticipatamente i contenuti per la cache di risposta HTTP.
 solution: Experience Manager
 title: Utility 'playlog'
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

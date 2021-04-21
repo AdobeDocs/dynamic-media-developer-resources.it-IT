@@ -2,8 +2,8 @@
 description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop del file di immagine sorgente di livello 0 devono essere inclusi nell'immagine di risposta.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

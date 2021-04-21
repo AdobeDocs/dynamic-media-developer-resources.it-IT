@@ -2,8 +2,8 @@
 description: Se per un catalogo di materiali sono necessari dati di materiale, il percorso relativo o assoluto del file di dati di materiale deve essere specificato nell'attributo CatalogFile.
 solution: Experience Manager
 title: Riferimento ai dati materiali
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

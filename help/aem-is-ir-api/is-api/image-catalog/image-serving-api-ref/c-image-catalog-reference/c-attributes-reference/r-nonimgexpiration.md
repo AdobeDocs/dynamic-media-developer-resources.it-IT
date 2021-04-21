@@ -2,8 +2,8 @@
 description: TTL della cache client per le risposte non basate su immagini. Fornisce l'intervallo di scadenza per alcune risposte non basate su immagini.
 solution: Experience Manager
 title: NonImgExpiration
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

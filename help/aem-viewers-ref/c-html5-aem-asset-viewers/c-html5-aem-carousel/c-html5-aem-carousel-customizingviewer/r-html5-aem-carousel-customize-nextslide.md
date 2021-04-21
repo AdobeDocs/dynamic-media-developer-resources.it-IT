@@ -2,8 +2,8 @@
 description: Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
 solution: Experience Manager
 title: diapositiva successiva
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

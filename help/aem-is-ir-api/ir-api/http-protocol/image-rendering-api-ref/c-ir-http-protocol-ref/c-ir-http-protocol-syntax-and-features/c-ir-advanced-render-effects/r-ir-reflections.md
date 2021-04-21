@@ -2,8 +2,8 @@
 description: Le vignette possono essere create per includere dati di riflessione vicino a 3D.
 solution: Experience Manager
 title: Riflessioni
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

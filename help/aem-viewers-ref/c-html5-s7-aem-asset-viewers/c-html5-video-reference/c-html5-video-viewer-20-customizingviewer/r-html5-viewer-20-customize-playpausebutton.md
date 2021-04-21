@@ -2,8 +2,8 @@
 description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
 solution: Experience Manager
 title: Pulsante Riproduci/Pausa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

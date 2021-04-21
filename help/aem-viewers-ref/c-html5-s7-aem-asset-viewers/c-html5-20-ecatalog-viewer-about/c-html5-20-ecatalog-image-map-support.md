@@ -2,8 +2,8 @@
 description: Il visualizzatore di eCatalog supporta il rendering delle icone delle mappe immagine sopra la vista principale.
 solution: Experience Manager
 title: Supporto mappa immagine
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

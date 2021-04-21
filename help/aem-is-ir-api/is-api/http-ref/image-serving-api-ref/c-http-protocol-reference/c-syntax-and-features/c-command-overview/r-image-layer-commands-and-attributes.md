@@ -2,8 +2,8 @@
 description: Questi comandi si applicano ai livelli immagine, oltre ai comandi più comuni del livello.
 solution: Experience Manager
 title: Comandi del livello immagine
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

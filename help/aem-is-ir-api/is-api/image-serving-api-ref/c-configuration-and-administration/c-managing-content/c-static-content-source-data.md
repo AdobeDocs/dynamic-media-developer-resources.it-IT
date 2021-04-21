@@ -2,8 +2,8 @@
 description: I file di dati di origine del contenuto statico sono accessibili solo da Platform Server.
 solution: Experience Manager
 title: Dati origine contenuto statici
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, amministratore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

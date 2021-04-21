@@ -2,8 +2,8 @@
 description: Utilità di convalida immagine. Questa utilità della riga di comando verifica i file immagine per assicurarsi che siano validi e che possano essere letti senza difficoltà da Image Serving.
 solution: Experience Manager
 title: validate
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

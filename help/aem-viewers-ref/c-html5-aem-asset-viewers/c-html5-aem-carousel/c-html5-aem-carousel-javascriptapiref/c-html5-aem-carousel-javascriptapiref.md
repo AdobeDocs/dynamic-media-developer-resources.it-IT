@@ -2,8 +2,8 @@
 description: La classe principale del visualizzatore Carosello è CarouselViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
 solution: Experience Manager
 title: Riferimento API JavaScript per il visualizzatore carosello
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 58e01a97-0761-4569-8a2e-77b17a55521d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

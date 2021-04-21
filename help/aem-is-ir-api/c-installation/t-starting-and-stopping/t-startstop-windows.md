@@ -2,8 +2,8 @@
 description: Esistono diversi meccanismi per avviare/arrestare Image Server e Platform Server su Windows
 solution: Experience Manager
 title: Avvio o arresto in Windows
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Impostare il margine del supporto. Imposta il margine del supporto impostato nel file PDF.
 solution: Experience Manager
 title: mediaMargin
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Identificatore della vignetta. Valore chiave indice in base al quale i record nel file mappa vignetta vengono cercati dal server.
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

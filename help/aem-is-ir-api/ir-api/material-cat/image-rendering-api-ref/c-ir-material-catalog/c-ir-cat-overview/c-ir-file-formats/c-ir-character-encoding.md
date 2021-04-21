@@ -2,8 +2,8 @@
 description: Image Rendering supporta cataloghi di materiali con codifica ISO-8859-1 e UTF-8.
 solution: Experience Manager
 title: Codifica caratteri
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

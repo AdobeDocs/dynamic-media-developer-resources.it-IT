@@ -2,8 +2,8 @@
 description: Image Serving fornisce un meccanismo per recuperare una risposta testuale gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati al catalogo ImageSet per un particolare record.
 solution: Experience Manager
 title: Richieste set di file multimediali
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

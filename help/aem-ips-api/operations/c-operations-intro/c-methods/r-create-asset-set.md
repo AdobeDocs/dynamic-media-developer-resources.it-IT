@@ -2,8 +2,8 @@
 description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

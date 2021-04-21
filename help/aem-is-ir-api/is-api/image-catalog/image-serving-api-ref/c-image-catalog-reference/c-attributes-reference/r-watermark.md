@@ -2,8 +2,8 @@
 description: Selettore filigrana. Specifica l'ID del catalogo del record del catalogo da utilizzare come immagine o modello di filigrana.
 solution: Experience Manager
 title: Filigrana
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

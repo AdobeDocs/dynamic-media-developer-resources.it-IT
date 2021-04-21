@@ -2,7 +2,7 @@
 description: Utilizzato da ViewerPresetInfo.
 solution: Experience Manager
 title: Tipo visualizzatore
-feature: Dynamic Media Classic, SDK/API,Visualizzatori
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt

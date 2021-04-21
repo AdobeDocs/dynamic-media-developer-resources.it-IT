@@ -2,8 +2,8 @@
 description: Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering delle vignette.
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore, Business Practices
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

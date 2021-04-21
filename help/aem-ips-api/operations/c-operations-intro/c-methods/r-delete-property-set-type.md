@@ -2,8 +2,8 @@
 description: Elimina un tipo di set di proprietà e il relativo set di proprietà e le relative proprietà associate.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Sviluppatore,Amministratore
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

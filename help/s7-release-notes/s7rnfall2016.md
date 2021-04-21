@@ -3,7 +3,7 @@ description: '"Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016, pa
 solution: Experience Manager
 title: Rilascio di Scene7 - Autunno 2016
 feature: Dynamic Media Classic
-role: Sviluppatore, Business Practices
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
