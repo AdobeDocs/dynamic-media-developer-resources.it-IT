@@ -2,16 +2,15 @@
 description: Formato immagine di risposta.
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
+source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '914'
 ht-degree: 3%
 
 ---
-
 
 # fmt{#fmt}
 
@@ -19,53 +18,54 @@ Formato immagine di risposta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alfa | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alfa | tif | web-alpha | Web
 
 | *`format`* | Descrizione |
-|---|---| 
-| `jpeg` | JPEG in perdita |
-| `jpg` | JPG in perdita |
-| `pjpeg` | JPEG progressivo |
-| `png` | PNG senza perdita a 24 bit |
-| `png8` | PNG senza perdita a 8 bit |
-| `png-alpha` | PNG senza perdita a 24 bit con canale alfa |
-| `png8-alpha` | PNG senza perdita a 8 bit con canale alfa |
-| `tif` | TIFF |
-| `tif-alpha` | TIFF con canale alfa |
-| `pdf` | Immagine incorporata in PDF |
+|---|---|
+| `avif-alpha` | AVIF senza perdita e senza perdita con canale alfa <br><br>*Data del rilascio per questo formato:* <br><b>Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 24 maggio 2021<br><b>Asia-Pacifico</b> - 24 giugno 2021 |
+| `avif` | AVIF <br><br>*Rilascio cronologico per questo formato:*<br><b> Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 24 maggio 2021<br><b>Asia-Pacifico</b> - 24 giugno 2021 |
 | `eps` | PostScript incapsulato binario non compresso |
-| `gif` | GIF con 2-256 colori |
-| `gif-alpha` | GIF a 2-256 colori più trasparenza basata su colore chiave |
-| `swf` | File JPEG con perdita incorporato in un file swf AS2 di Adobe |
-| `swf-alpha` | JPEG in perdita e una maschera con deflazione compressa incorporata in un file swf AS2 in Adobe |
-| `swf3` | File JPEG con perdita incorporato in un file swf AS3 di Adobe |
-| `swf3-alpha` | JPEG con perdita e una maschera compressa in deflazione incorporata in un file swf AS3 di Adobe. **Nota**: i formati swf e swf-alpha sono più utilizzati per le applicazioni ActionScript 2 (Flash Player 8 e versioni precedenti). Si consiglia l&#39;utilizzo di swf3 e swf3-alpha per le applicazioni ActionScript3 (Flash Player 9 e versioni successive) |
-| `m3u8` | Formato manifesto server di streaming Apple |
 | `f4m` | Formato manifesto del server di streaming Flash |
-| `webp` | WebP in perdita e senza perdita |
-| `webp-alpha` | WebP perdente e senza perdita con canale alfa |
-| `jpeg2000` | JPEG 2000 senza perdite e perdite |
+| `gif-alpha` | GIF a 2-256 colori più trasparenza basata su colore chiave |
+| `gif` | GIF con 2-256 colori |
+| `jpeg` | JPEG in perdita |
 | `jpeg2000-alpha` | JPEG 2000 senza perdite e perdite con canale alfa |
-| `jpegxr` | JPEG XR con perdita di dati e perdite |
+| `jpeg2000` | JPEG 2000 senza perdite e perdite |
 | `jpegxr-alpha` | JPEG XR Perdita e senza perdita con canale alfa |
+| `jpegxr` | JPEG XR con perdita di dati e perdite |
+| `jpg` | JPG in perdita |
+| `m3u8` | Formato manifesto server di streaming Apple |
+| `pdf` | Immagine incorporata in PDF |
+| `pjpeg` | JPEG progressivo |
+| `png-alpha` | PNG senza perdita a 24 bit con canale alfa |
+| `png` | PNG senza perdita a 24 bit |
+| `png8-alpha` | PNG senza perdita a 8 bit con canale alfa |
+| `png8` | PNG senza perdita a 8 bit |
+| `swf-alpha` | JPEG in perdita e una maschera con deflazione compressa incorporata in un file swf AS2 in Adobe |
+| `swf` | File JPEG con perdita incorporato in un file swf AS2 di Adobe |
+| `swf3-alpha` | JPEG con perdita e una maschera compressa in deflazione incorporata in un file swf AS3 di Adobe. **Nota:** i formati swf e swf-alpha sono più utilizzati per le applicazioni ActionScript 2 (Flash Player 8 e versioni precedenti). I formati swf3 e swf3-alpha sono consigliati per l&#39;uso nelle applicazioni ActionScript3 (Flash Player 9 e versioni successive) |
+| `swf3` | File JPEG con perdita incorporato in un file swf AS3 di Adobe |
+| `tif-alpha` | TIFF con canale alfa |
+| `tif` | TIFF |
+| `webp-alpha` | WebP perdente e senza perdita con canale alfa |
+| `webp` | WebP in perdita e senza perdita |
 
-
-| *`pixelType`* — rgb | grigio | cmyk |
+| *`pixelType`* - rgb | grigio | cmyk |
 | *`pixelType`* | Descrizione |
 |---|---|
-| `rgb` | Restituire i dati immagine RGB. |
-| `gray` | Restituisce i dati immagine in scala di grigi. |
 | `cmyk` | Restituisci i dati immagine CMYK. |
+| `gray` | Restituisce i dati immagine in scala di grigi. |
+| `rgb` | Restituire i dati immagine RGB. |
 
-| *`compression`* — none | lzw | zip | jpeg | scemo | senza perdite |
+| *`compression`* – none | lzw | zip | jpeg | scemo | senza perdite |
 | *`compression`* | Descrizione |
 |---|---|
-| `none` | Non compresso |
-| `lzw` | Compressione LZW (Lempel-Ziv-Welch) (senza perdita) |
-| `zip` | Compressione &quot;Deflate&quot; (senza perdita) |
 | `jpeg` | Compressione JPEG (con perdita) |
 | `lossy` | Compressione WebP, JPEG 2000 e JPEG XR (con perdita) |
 | `lossless` | Compressione WebP, JPEG 2000 e JPEG XR (senza perdita) |
+| `lzw` | Compressione LZW (Lempel-Ziv-Welch) (senza perdita) |
+| `none` | Non compresso |
+| `zip` | Compressione &quot;Deflate&quot; (senza perdita) |
 
 * *`format`* specifica il formato di codifica dell’immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione di risposta HTTP.
 * *`pixelType`* può essere utilizzato per effettuare la conversione dello spazio colore in uscita quando non  `icc=` è specificato.
@@ -148,7 +148,7 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pix
    <td colname="col5"> <p> <span class="codeph"> quantize=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p>web, webp-alpha </p> </td> 
+   <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
@@ -164,6 +164,13 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pix
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p>No </p> </td> 
+   <td> <p>Come sopra. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
    <td> <p>Come sopra. </p> </td> 
@@ -183,7 +190,7 @@ Attributo di richiesta. Si applica indipendentemente dall&#39;impostazione del l
 
 ## Esempi {#section-b93222e652df404a84c69025247f07df}
 
-**Richiedi un&#39;anteprima piccola e di bassa qualità in formato JPEG (predefinito):**
+**Richiedi un&#39;anteprima di immagini di piccole dimensioni e di bassa qualità in formato JPEG (predefinito):**
 
 ` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
 
