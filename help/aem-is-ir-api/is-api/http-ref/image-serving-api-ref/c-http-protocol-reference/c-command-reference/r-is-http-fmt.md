@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
+source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 3%
@@ -22,8 +22,8 @@ Formato immagine di risposta.
 
 | *`format`* | Descrizione |
 |---|---|
-| `avif-alpha` | AVIF senza perdita e senza perdita con canale alfa <br><br>*Data del rilascio per questo formato:* <br><b>Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 24 maggio 2021<br><b>Asia-Pacifico</b> - 24 giugno 2021 |
-| `avif` | AVIF <br><br>*Rilascio cronologico per questo formato:*<br><b> Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 24 maggio 2021<br><b>Asia-Pacifico</b> - 24 giugno 2021 |
+| `avif-alpha` | AVIF senza perdita e senza perdita con canale alfa <br><br>*Data del rilascio per questo formato:* <br><b>Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 28 giugno 2021<br><b>Asia-Pacifico</b> - 29 giugno 2021 |
+| `avif` | AVIF <br><br>*Rilascio cronologico per questo formato:*<br><b> Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 28 giugno 2021<br><b>Asia-Pacifico</b> - 29 giugno 2021 |
 | `eps` | PostScript incapsulato binario non compresso |
 | `f4m` | Formato manifesto del server di streaming Flash |
 | `gif-alpha` | GIF a 2-256 colori più trasparenza basata su colore chiave |
