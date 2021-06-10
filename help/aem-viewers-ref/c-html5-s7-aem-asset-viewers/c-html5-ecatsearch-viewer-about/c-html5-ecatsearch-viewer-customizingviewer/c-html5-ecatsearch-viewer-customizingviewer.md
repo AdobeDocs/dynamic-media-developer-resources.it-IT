@@ -3,16 +3,15 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore di ricerca eCatalog
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
+source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore di ricerca di eCatalog{#customizing-ecatalog-search-viewer}
 
@@ -186,7 +185,7 @@ Di seguito è riportata la documentazione di riferimento relativa agli elementi 
 * [Scarica](r-html5-ecatsearch-customize-download.md)
 * [Condivisione e-mail](r-html5-ecatsearch-customize-emailshare.md)
 * [Quota di incorporamento](r-html5-ecatsearch-customize-embedshare.md)
-* [Condivisione Facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Condivisione facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Effetto Preferiti](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menu Preferiti](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Vista Preferiti](r-html5-ecatsearch-customize-favoritesview.md)
@@ -206,7 +205,7 @@ Di seguito è riportata la documentazione di riferimento relativa agli elementi 
 * [Indicatore di pagina](r-html5-ecatsearch-customize-pageindicator.md)
 * [Vista a pagina](r-html5-ecatsearch-customize-pageview.md)
 * [Pulsante Pagina precedente](r-html5-ecatsearch-customize-previouspagebutton.md)
-* [Stampa](r-html5-ecatalog-viewer-20-customize-print.md)
+* [Stampa](r-html5-ecatsearch-customize-print.md)
 * [Pulsante Rimuovi preferito](r-html5-ecatsearch-customize-removefavorite.md)
 * [Pulsante Ricerca](r-html5-ecatsearch-customize-searchbutton.md)
 * [Effetto Ricerca](r-html5-ecatsearch-customize-searcheffect.md)
@@ -217,9 +216,8 @@ Di seguito è riportata la documentazione di riferimento relativa agli elementi 
 * [Miniature](r-html5-ecatsearch-customize-thumbnails.md)
 * [Pulsante Miniature](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Descrizioni comandi](r-html5-ecatsearch-customize-tooltips.md)
-* [Condividi su Twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Condivisione twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Pulsante Visualizza tutti i Preferiti](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Pulsante Zoom in](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Pulsante Zoom out](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [Pulsante Ripristina zoom](r-html5-ecatsearch-customize-zoomresetbutton.md)
-
