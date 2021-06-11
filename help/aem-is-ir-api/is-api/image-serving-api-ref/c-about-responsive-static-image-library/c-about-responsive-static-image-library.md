@@ -2,16 +2,15 @@
 description: La libreria di immagini reattive è un modulo JavaScript che regola dinamicamente la qualità delle immagini servite da Dynamic Media e incorporate in pagine web reattive. Inoltre, offre una migliore qualità delle immagini sui dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering dinamico dei risultati da Smart Crop e Smart Swatch.
 solution: Experience Manager
 title: Informazioni sulla libreria di immagini reattive
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
+source-git-commit: 417fd2540c15762356dfb60aa7eb635ee5f74d13
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
-
 
 # Informazioni sulla libreria di immagini reattive{#about-responsive-image-library}
 
@@ -40,13 +39,13 @@ Il caso d’uso più semplice della libreria di immagini reattive è quello di d
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso d’uso in una pagina web. In base a Bootstrap CSS, la cella di layout a cui viene aggiunta l’immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi sono i valori esatti che vengono passati come punti di interruzione alla libreria di immagini reattive. Dynamic Media garantisce l'utilizzo efficiente della larghezza di banda di rete del cliente. Inoltre, assicura che l'immagine venga visualizzata nelle dimensioni richieste, dato il layout della pagina web corrente, senza artefatti visivi derivanti dal ridimensionamento del browser lato client. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensiona la finestra del browser in modo da raggiungere diversi punti di interruzione del layout e monitora il traffico di rete. </p> <p>I casi d’uso più avanzati includono l’associazione di diversi predefiniti immagine, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
+   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso d’uso in una pagina web. In base a Bootstrap CSS, la cella di layout a cui viene aggiunta l’immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi valori sono esattamente ciò che viene passato come punti di interruzione alla libreria di immagini reattive. Dynamic Media garantisce l'utilizzo efficiente della larghezza di banda di rete del cliente. Inoltre, assicura che l'immagine venga visualizzata nelle dimensioni richieste, dato il layout della pagina web corrente, senza artefatti visivi derivanti dal ridimensionamento del browser lato client. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensionare la finestra del browser in modo da raggiungere diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>I casi d’uso più avanzati includono l’associazione di diversi predefiniti immagine, comandi Image Server o entrambi con valori di punti di interruzione diversi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>In questo esempio vengono utilizzati predefiniti per immagini di diversa qualità e formato per diverse dimensioni dei punti di interruzione. Per un piccolo punto di interruzione, viene applicato un predefinito di bassa qualità che forza Image Serving a restituire l'immagine GIF compressa solo a sei colori. Un punto di interruzione medio utilizza un predefinito per immagini configurato per JPEG con compressione elevata. Il punto di interruzione più grande è associato a un predefinito per immagini di alta qualità che utilizza PNG senza perdita di dati. Questo metodo garantisce la trasmissione di immagini di alta qualità a tali dispositivi, partendo dal presupposto che i dispositivi con schermi più grandi abbiano una larghezza di banda e una potenza di elaborazione maggiori. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensiona la finestra del browser Web da più grande a più piccola e osserva come la qualità dell’immagine si riduce. </p> </td> 
+   <td colname="col2"> <p>In questo esempio vengono utilizzati predefiniti per immagini di diversa qualità e formato per diverse dimensioni dei punti di interruzione. Per un piccolo punto di interruzione, viene applicato un predefinito di bassa qualità che forza Image Serving a restituire l'immagine GIF compressa solo a sei colori. Un punto di interruzione medio utilizza un predefinito per immagini configurato per JPEG con compressione elevata. Il punto di interruzione più grande è associato a un predefinito per immagini di alta qualità che utilizza PNG senza perdita di dati. Questo metodo garantisce la trasmissione di immagini di alta qualità a tali dispositivi, partendo dal presupposto che i dispositivi con schermi più grandi abbiano una larghezza di banda e una potenza di elaborazione maggiori. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensionare la finestra del browser Web da più grande a più piccola e notare il degrado della qualità dell’immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -71,10 +70,9 @@ Il caso d’uso più semplice della libreria di immagini reattive è quello di d
 
 **Requisiti minimi del browser client**
 
-* Microsoft® Windows® 7 o versione successiva; Mac OS X 10.8 o versione successiva.
+* Microsoft® Windows® 7 o versione successiva; macOS X 10.8 o versione successiva
 * Firefox 23, Safari 6, Chrome 29, IE 9 o versione successiva.
 * iOS 6 o versione successiva
 * Certificato su iPhone3GS o versioni successive e iPad2 o versioni successive (solo browser nativi).
-* Sistema operativo Android 2.3 o successivo.
+* Android™ OS 2.3 o successivo.
 * Internet Explorer su dispositivi mobili non è attualmente supportato.
-
