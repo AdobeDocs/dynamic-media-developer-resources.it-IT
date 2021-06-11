@@ -2,13 +2,12 @@
 description: Interactive Video Viewer è un lettore video che riproduce in streaming e video progressivo codificato in formato H.264.
 solution: Experience Manager
 title: Video interattivo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Il tipo di visualizzatore è 510.
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
-e
+E
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
 
@@ -35,7 +34,7 @@ Vedere [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md#c
 
 ## Utilizzo del visualizzatore video interattivo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore video interattivo rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il visualizzatore video interattivo rappresenta un file JavaScript principale e un set di file helper scaricati dal visualizzatore in fase di esecuzione. Un singolo JavaScript è incluso con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS.
 
 Il visualizzatore video interattivo può essere utilizzato in modalità pop-up utilizzando la pagina HTML pronta per la produzione fornita con i visualizzatori Image Server. Può essere utilizzato anche in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -47,21 +46,21 @@ Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di 
 
 Interactive Video Viewer fornisce una serie di controlli standard dell’interfaccia utente per la riproduzione video, come un pulsante Play/Pause, uno scorrimento video, una bolla del tempo video, un indicatore del tempo di riproduzione/totale, il controllo del volume, il pulsante a schermo intero e l’interruttore per i sottotitoli. Tutti questi controlli sono raggruppati in una barra di controllo direttamente sotto la vista principale.
 
-Tenere presente che sui dispositivi touch il controllo del volume è nascosto dall&#39;interfaccia utente, in quanto è possibile controllare il volume utilizzando solo i pulsanti hardware del dispositivo.
+Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia utente, perché è possibile controllare il volume solo utilizzando i pulsanti hardware del dispositivo.
 
 Quando il visualizzatore funziona in modalità pop-up, nell’interfaccia utente non è disponibile un pulsante a schermo intero.
 
-Il visualizzatore mostra un pannello con campioni interattivi a destra dell’area di visualizzazione video. L’elenco dei campioni avanza automaticamente durante la riproduzione del video, in modo che vengano visualizzati i campioni corrispondenti all’area video corrente. Quando si tocca o fai clic su un campione, viene attivata un’azione associata al campione durante l’authoring. A seconda di come è stato configurato, il trigger può reindirizzare a una pagina diversa del sito web o restituire informazioni di prodotto alla logica della pagina web, che a sua volta può attivare l’apertura di una Visualizzazione rapida che mostra il contenuto del prodotto correlato.
+Il visualizzatore mostra un pannello con campioni interattivi a destra dell’area di visualizzazione video. L’elenco dei campioni avanza automaticamente durante la riproduzione del video, in modo che vengano visualizzati i campioni corrispondenti all’area video corrente. Quando si tocca o fai clic su un campione, viene attivata un’azione associata al campione durante l’authoring. A seconda della modalità di configurazione, il trigger può reindirizzare a una pagina diversa del sito web. Oppure, può restituire le informazioni di prodotto alla logica della pagina web, che a sua volta può attivare l&#39;apertura di una Visualizzazione rapida che mostra il contenuto del prodotto correlato.
 
-È possibile navigare rapidamente nel contenuto video quando si attiva il filtro video. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo e la descrizione del capitolo su roll over (o su un singolo tocco su sistemi touch). Il cliente può &quot;cercare&quot; un capitolo specifico facendo clic su un marcatore capitolo o toccando una bolla di descrizione capitolo.
+È possibile navigare rapidamente nel contenuto video quando si attiva il filtro video. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo e la descrizione del capitolo sul rollover (o su un singolo tocco sui sistemi touch). Il cliente può &quot;cercare&quot; un capitolo specifico facendo clic su un marcatore capitolo o toccando una bolla di descrizione capitolo.
 
-Il visualizzatore supporta anche una varietà di strumenti di condivisione dei social media. Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente vi fa clic o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione e-mail, condivisione del codice di incorporamento e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
+Il visualizzatore supporta anche vari strumenti di condivisione dei social media. Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente vi fa clic o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione di e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
 Il visualizzatore è completamente accessibile da tastiera. Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporazione di un visualizzatore video interattivo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Il visualizzatore video interattivo è progettato per essere incorporato nella pagina di hosting. Una pagina web di questo tipo può avere un layout statico o può essere &quot;reattiva&quot; e può essere visualizzata in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser.
+Il visualizzatore video interattivo è incorporato nella pagina di hosting. Una pagina web di questo tipo può avere un layout statico o può essere &quot;reattiva&quot; e può essere visualizzata in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser.
 
 Per soddisfare queste esigenze, il visualizzatore supporta due modalità di funzionamento principali: incorporazione a dimensione fissa e incorporazione reattiva.
 
@@ -71,11 +70,11 @@ Nella modalità incorporata, il visualizzatore viene aggiunto alla pagina web es
 
 I casi d’uso principali sono le pagine web orientate ai desktop o ai dispositivi tablet, nonché le pagine responsive progettate che regolano automaticamente il layout in base al tipo di dispositivo.
 
-L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa è la scelta migliore per le pagine web con layout statico.
+L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa funzionalità è la scelta migliore per le pagine web con layout statico.
 
-L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
+L’incorporazione di design reattivo presuppone che il visualizzatore debba essere ridimensionato in fase di runtime in seguito alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione web reattivo come Bootstrap, Foundation e così via.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione web reattivo come Bootstrap e Foundation.
 
 In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore compila solo quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
@@ -104,7 +103,7 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->Dovresti fare riferimento solo al file JavaScript del visualizzatore principale `include` nella pagina. Non devi fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fai riferimento solo al file JavaScript del visualizzatore principale `include` sulla tua pagina. Non fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
 >
 >
 >Di conseguenza, l’inserimento di un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
@@ -127,7 +126,7 @@ Il percorso relativo si presenta come segue:
 
    È possibile impostare la dimensione statica del visualizzatore dichiarandola per la classe CSS di livello superiore `.s7interactivevideoviewer` in unità assolute o utilizzando il modificatore `stagesize`.
 
-   Puoi inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS per visualizzatori personalizzati, che viene poi assegnato a un record predefinito per visualizzatori in AEM Assets - on-demand, o passato esplicitamente utilizzando il comando `style` .
+   Puoi inserire le dimensioni nei CSS direttamente nella pagina HTML. In alternativa, puoi inserirlo in un file CSS per visualizzatori personalizzati, che viene poi assegnato a un record predefinito per visualizzatori in AEM Assets - on-demand, o passato esplicitamente utilizzando il comando `style` .
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta [Personalizzazione del visualizzatore video interattivo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) .
 
@@ -156,7 +155,7 @@ Il percorso relativo si presenta come segue:
 
    È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()` .
 
-   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web appena fatto. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Ciò che accade, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso modo, l’elemento contenitore non fa necessariamente parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Ciò che accade, il caricamento del visualizzatore riprende automaticamente.
 
    Di seguito è riportato un esempio di creazione di un&#39;istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()` . L&#39;esempio presuppone quanto segue:
 
@@ -285,7 +284,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 **Incorporazione reattiva con definizione di larghezza e altezza**
 
-In caso di incorporamento dinamico con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` al 100%.
+Se è definito un incorporamento dinamico con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` al 100%.
 
 ```
 <!DOCTYPE html> 
