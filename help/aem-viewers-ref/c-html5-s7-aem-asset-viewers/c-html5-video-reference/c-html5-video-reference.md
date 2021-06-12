@@ -3,16 +3,15 @@ description: Il visualizzatore video è un lettore video che riproduce in stream
 keywords: reattivo
 solution: Experience Manager
 title: Video
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
-
 
 # Video{#video}
 
@@ -60,7 +59,7 @@ Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-acces
 
 Il visualizzatore video supporta gli strumenti di condivisione dei social media Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente fa clic o tocca su di essa.
 
-La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione e-mail, condivisione del codice di incorporamento e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Anche quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente.
+La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione di e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Anche quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente.
 
 Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
@@ -285,7 +284,7 @@ La pagina degli esempi seguenti illustra l’utilizzo più reale di elementi di 
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Incorporazione responsive con larghezza e altezza definite**
 
@@ -385,4 +384,3 @@ videoViewer.init();
 </body> 
 </html> 
 ```
-
