@@ -3,16 +3,15 @@ description: Il visualizzatore zoom in linea è un visualizzatore di immagini. V
 keywords: reattivo
 solution: Experience Manager
 title: Zoom in linea
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
-
 
 # Zoom in linea{#inline-zoom}
 
@@ -174,7 +173,7 @@ Un percorso relativo si presenta come segue:
 
    Puoi vedere il comportamento con un’area di visualizzazione esterna fissa nella pagina di esempio seguente. Quando si passa da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
    Per rendere statiche le dimensioni di visualizzazione principali, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. Inoltre, è necessario ignorare la dimensione fissa definita per la classe CSS di livello principale `.s7flyoutviewer` nel CSS del visualizzatore predefinito, impostandola su `auto`.
 
@@ -193,7 +192,7 @@ Un percorso relativo si presenta come segue:
 
    La pagina di esempio seguente mostra il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando si passa da un set all’altro, la visualizzazione principale rimane statica e il contenuto della pagina web si sposta in verticale:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
    Inoltre, il CSS del visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
 
@@ -332,7 +331,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Incorporazione di dimensioni flessibili con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 
@@ -438,4 +437,3 @@ inlineZoomViewer.init();
 </body> 
 </html>
 ```
-
