@@ -3,18 +3,17 @@ description: Il visualizzatore a 360 gradi è un visualizzatore di immagini che 
 keywords: reattivo
 solution: Experience Manager
 title: Spin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
 
-
-# Spin{#spin}
+# Centrifuga{#spin}
 
 Il visualizzatore a 360 gradi è un visualizzatore di immagini che fornisce una visualizzazione dell’immagine a 360 gradi o anche una visualizzazione multidimensionale, se si utilizza un set 360 gradi appropriato. È dotato di strumenti di zoom e rotazione, supporto a schermo intero e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 
@@ -296,7 +295,7 @@ La pagina degli esempi seguenti illustra casi d’uso più reali di incorporamen
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Incorporazione di dimensioni flessibili con larghezza e altezza definite**
 
@@ -394,4 +393,3 @@ spinViewer.init();
 </body> 
 </html>
 ```
-
