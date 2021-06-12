@@ -3,16 +3,15 @@ description: Il visualizzatore a comparsa è un visualizzatore di immagini. Most
 keywords: reattivo
 solution: Experience Manager
 title: A comparsa
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9b60330f-5348-431d-9682-cf97aace3679
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
-
 
 # A comparsa{#flyout}
 
@@ -150,7 +149,7 @@ Un percorso relativo si presenta come segue:
 
    Puoi vedere il comportamento con un’area di visualizzazione esterna fissa nella pagina di esempio seguente. Quando si passa da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
    Per rendere statiche le dimensioni di visualizzazione principali, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. Inoltre, è necessario ignorare la dimensione fissa definita per la classe CSS di livello principale `.s7flyoutviewer` nel CSS del visualizzatore predefinito, impostandola su `auto`.
 
@@ -169,7 +168,7 @@ Un percorso relativo si presenta come segue:
 
    La pagina di esempio seguente mostra il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando si passa da un set all’altro, la visualizzazione principale rimane statica e il contenuto della pagina web si sposta in verticale:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Inoltre, il CSS del visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
 
@@ -303,7 +302,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Incorporazione di dimensioni flessibili con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 
@@ -405,4 +404,3 @@ flyoutViewer.init();
 </body> 
 </html>
 ```
-
