@@ -3,16 +3,15 @@ description: Il visualizzatore di file multimediali diversi è un visualizzatore
 keywords: reattivo
 solution: Experience Manager
 title: Supporti multipli
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2673'
+source-wordcount: '2662'
 ht-degree: 0%
 
 ---
-
 
 # Supporti multipli{#mixed-media}
 
@@ -188,7 +187,7 @@ Il percorso relativo si presenta come segue:
 
    Puoi vedere il comportamento con un’area di visualizzazione esterna fissa nella pagina di esempio seguente. Quando si passa da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
    Per rendere statiche le dimensioni di visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7mixedmediaviewer .s7container` o utilizzando il modificatore `stagesize`.
 
@@ -203,7 +202,7 @@ Il percorso relativo si presenta come segue:
 
    La pagina di esempio seguente mostra il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando si passa da un set all’altro, la visualizzazione principale rimane statica e il contenuto della pagina web si sposta in verticale:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    Puoi impostare il modificatore `stagesize` nel record predefinito del visualizzatore in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` oppure come chiamata API come descritto nella sezione Riferimento comandi di questa Guida, come segue:
 
@@ -330,7 +329,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Incorporazione di dimensioni flessibili con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 
@@ -429,4 +428,3 @@ mixedMediaViewer.init();
 </body> 
 </html>
 ```
-
