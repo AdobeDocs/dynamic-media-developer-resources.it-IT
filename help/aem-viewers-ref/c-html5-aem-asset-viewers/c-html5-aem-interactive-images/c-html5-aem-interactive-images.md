@@ -2,16 +2,15 @@
 description: Il visualizzatore di immagini interattive è un visualizzatore che visualizza una singola immagine non zoomabile con punti attivi cliccabili. Lo scopo di questo visualizzatore è quello di implementare un’esperienza "banner acquistabile". In altre parole, l'utente può selezionare un punto attivo sull'immagine del banner e venire reindirizzato a una pagina di dettagli di visualizzazione rapida o del prodotto sul sito web. È progettato per funzionare su desktop e dispositivi mobili.
 solution: Experience Manager
 title: Immagine interattiva
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1733'
 ht-degree: 0%
 
 ---
-
 
 # Immagine interattiva{#interactive-image}
 
@@ -25,7 +24,7 @@ Il tipo di visualizzatore è 508.
 
 ## URL demo {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## Requisiti di sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -245,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorporazione di design reattivo a altezza illimitata:
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 **Dimensione flessibile Incorporamento con definizione di larghezza e altezza**
 
@@ -343,4 +342,3 @@ interactiveImage.init();
 </body> 
 </html> 
 ```
-
