@@ -2,16 +2,15 @@
 description: Questi comandi si applicano ai livelli immagine, oltre ai comandi più comuni del livello.
 solution: Experience Manager
 title: Comandi del livello immagine
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
-
 
 # Comandi del livello immagine{#image-layer-commands}
 
@@ -23,4 +22,3 @@ Questi comandi si applicano ai livelli immagine, oltre ai comandi più comuni de
   <td class="stentry"> <p>Specifica l'immagine di origine. </p></td> 
  </tr> 
 </table>
-
