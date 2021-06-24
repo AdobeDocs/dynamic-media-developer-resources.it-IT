@@ -2,18 +2,17 @@
 description: Larghezza visualizzazione. Specifica la larghezza dell'immagine di risposta (visualizza immagine).
 solution: Experience Manager
 title: wid
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
-
-# wid{#wid}
+# nudo{#wid}
 
 Larghezza visualizzazione. Specifica la larghezza dell&#39;immagine di risposta (visualizza immagine).
 
@@ -48,4 +47,3 @@ A meno che non venga specificato un formato, l&#39;immagine viene riprodotta com
 * GIF-alfa
 * TIF-alfa
 * PNG-alpha
-
