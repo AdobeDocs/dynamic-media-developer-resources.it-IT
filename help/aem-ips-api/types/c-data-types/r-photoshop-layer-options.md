@@ -2,18 +2,17 @@
 description: Opzioni del livello immagine Photoshop.
 solution: Experience Manager
 title: OpzioniLivelloPhotoshop
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---
 
-
-# PhotoshopLayerOptions{#photoshoplayeroptions}
+# OpzioniLivelloPhotoshop{#photoshoplayeroptions}
 
 Opzioni del livello immagine Photoshop.
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`createTemplate`*` | `xsd:boolean` | Se creare un modello dai livelli Photoshop. |
 | `*`extractText`*` | `xsd:boolean` | Se estrarre il testo come livelli di testo. |
 | `*`extensionLayers`*` | `xsd:boolean` | Se estendere i livelli a dimensioni intere dello sfondo. |
-
