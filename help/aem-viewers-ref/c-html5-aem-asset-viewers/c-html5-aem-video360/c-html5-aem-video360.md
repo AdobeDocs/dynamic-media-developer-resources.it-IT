@@ -2,16 +2,15 @@
 description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce video in streaming e progressivo a 360 codificati nel formato H.264, forniti da Dynamic Media Classic o AEM Dynamic Media.
 solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
-
 
 # Video360{#video}
 
@@ -35,7 +34,7 @@ Il tipo di visualizzatore è 517.
 
 Vedere [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Utilizzo del visualizzatore Video360 {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilizzo del visualizzatore video360 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Il visualizzatore HTML5 Video360 rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore HTML5 utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
 
@@ -53,7 +52,7 @@ Il contenuto video a 360° richiede impostazioni di codifica più elevate rispet
 
 Tuttavia, il servizio video codificato con impostazioni di alta qualità richiede una connessione a banda larga elevata sul dispositivo dell&#39;utente finale.
 
-## Interazione con il visualizzatore Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interazione con il visualizzatore video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 Il visualizzatore HTML5 Video360 fornisce una serie di controlli standard dell&#39;interfaccia utente per la riproduzione video, come il pulsante di riproduzione/pausa, la bolla video dello scorrimento, l&#39;indicatore del tempo di riproduzione/totale, il controllo del volume e il pulsante a schermo intero. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell&#39;interfaccia utente del visualizzatore.
 
@@ -61,7 +60,7 @@ Tenere presente che sui dispositivi touch il controllo del volume è nascosto da
 
 Quando il visualizzatore funziona in modalità pop-up, nell’interfaccia utente non è disponibile un pulsante a schermo intero.
 
-Il visualizzatore supporta anche una varietà di strumenti di condivisione dei social media. Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente vi fa clic o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione e-mail, condivisione del codice di incorporamento e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
+Il visualizzatore supporta anche una varietà di strumenti di condivisione dei social media. Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente vi fa clic o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione di e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
 Il visualizzatore supporta la riproduzione di 360 video su cuffie VR (come Oculus Go e Oculus Rift), montaggi VR HMD (a testa montata) (come il cartone Google) e dispositivi non-VR abilitati (come browser desktop, tablet e telefoni cellulari non collegati ai montaggi VR HMD).
 
@@ -400,4 +399,3 @@ video360Viewer.init();
 </body> 
 </html>
 ```
-
