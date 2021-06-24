@@ -2,16 +2,15 @@
 description: Crea un nuovo formato di pubblicazione per una vignetta.
 solution: Experience Manager
 title: createVignettePublishFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d58e1290-8a79-4129-99ce-776b919dea13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 14%
 
 ---
-
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
@@ -153,4 +152,3 @@ Questo codice crea il formato di pubblicazione della vignetta. La richiesta di c
    <vignetteFormatHandle>v|21|282</vignetteFormatHandle>
 </createVignettePublishFormatReturn>
 ```
-
