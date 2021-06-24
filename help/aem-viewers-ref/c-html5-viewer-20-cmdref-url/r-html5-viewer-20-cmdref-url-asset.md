@@ -2,18 +2,17 @@
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 title: asset
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
 
-# asset{#asset}
+# risorsa{#asset}
 
 Parametro comune a tutti i visualizzatori.
 
