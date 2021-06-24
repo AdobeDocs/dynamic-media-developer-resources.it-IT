@@ -2,18 +2,17 @@
 description: La maggior parte dei materiali può essere colorata dinamicamente.
 solution: Experience Manager
 title: Materiali coloranti
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 95b13a57-f10b-4ff2-90fd-507e69cb2b04
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
-
-# Materiali di colorazione{#colorizing-materials}
+# Materiali coloranti{#colorizing-materials}
 
 La maggior parte dei materiali può essere colorata dinamicamente.
 
