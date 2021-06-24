@@ -2,18 +2,17 @@
 description: L'immagine esiste.
 solution: Experience Manager
 title: esiste
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 810453f0-7b35-4eed-8b23-6b59a8300c50
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 10%
 
 ---
 
-
-# exists{#exists}
+# esiste{#exists}
 
 L&#39;immagine esiste.
 
