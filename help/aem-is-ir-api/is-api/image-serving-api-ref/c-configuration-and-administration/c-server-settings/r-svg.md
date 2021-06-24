@@ -2,22 +2,21 @@
 description: Le impostazioni in questa sezione devono essere considerate solo se è richiesto il rendering SVG.
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
-
 
 # SVG{#svg}
 
 Le impostazioni in questa sezione devono essere considerate solo se è richiesto il rendering SVG.
 
-## SV::SvgHeapSize - Dimensione heap SVG {#section-59ab17681daa4be8b5d794713e1a504e}
+## SV::SvgHeapSize - SVG Heap Size {#section-59ab17681daa4be8b5d794713e1a504e}
 
 Dimensione dell’heap Java per il modulo di rendering SVG. Il valore predefinito è &quot;200m&quot; (200 Mbyte).
 
@@ -39,7 +38,7 @@ Porta utilizzata per SvgRender per ottenere immagini dal server Platform da inco
 
 Importante Per il corretto funzionamento del componente SVGRender, questa opzione di configurazione deve essere impostata sullo stesso valore di `TC::PsPort`.
 
-## PS::svgProvider.fontRoot - Cartella dei file di font SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - Cartella File di font SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
 Specifica dove verranno trovati i file di font necessari per il rendering del testo SVG; in genere uno dei percorsi specificati in `IS::RootPaths`. Il valore predefinito è [!DNL *[!DNL install_folder]*/images].
 
@@ -50,4 +49,3 @@ Configura la porta sulla quale il server di immagini e il componente SVGRender c
 >[!NOTE]
 >
 >Per il corretto funzionamento del componente SVGRender, è necessario specificare lo stesso numero di porta per `SVG::SVGRender.port` e `IS::SVGTcpPort`.
-
