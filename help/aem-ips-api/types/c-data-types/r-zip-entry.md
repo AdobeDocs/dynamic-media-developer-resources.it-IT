@@ -2,16 +2,15 @@
 description: Una voce in un file ZIP.
 solution: Experience Manager
 title: ZipEntry
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 10%
 
 ---
-
 
 # ZipEntry{#zipentry}
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`lastModified`*` | `xsd:dateTime` | Data e ora dell’ultima modifica. |
 | `*`compressedSize`*` | `xsd:long` | Dimensione compressa. |
 | `*`uncompressedSize`*` | `xsd:long` | Dimensione non compressa. |
-
