@@ -2,18 +2,17 @@
 description: 'Scene 7 Image Serving è costituito dai seguenti componenti '
 solution: Experience Manager
 title: Componenti Image Serving
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
 
-
-# Componenti Image Server{#image-serving-components}
+# Componenti Image Serving{#image-serving-components}
 
 Scene 7 Image Serving è costituito dai seguenti componenti:
 
