@@ -2,24 +2,23 @@
 description: Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 solution: Experience Manager
 title: Accesso facilitato alla tastiera e navigazione
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
-# Accessibilità e navigazione da tastiera{#keyboard-accessibility-and-navigation}
+# Accesso facilitato alla tastiera e navigazione{#keyboard-accessibility-and-navigation}
 
 Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Carosello, Dimensionale (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Accessibilità e navigazione da tastiera {#topic-f5650e9493404e55a3627c8d1366b861}
+## Accesso facilitato alla tastiera e navigazione {#topic-f5650e9493404e55a3627c8d1366b861}
 
 Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Carosello, Dimensionale (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 
