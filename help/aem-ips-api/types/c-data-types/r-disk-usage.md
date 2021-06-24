@@ -2,18 +2,17 @@
 description: Statistiche sullo spazio su disco per una risorsa o una cartella.
 solution: Experience Manager
 title: Utilizzo disco
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
 
-
-# DiskUsage{#diskusage}
+# Utilizzo disco{#diskusage}
 
 Statistiche sullo spazio su disco per una risorsa o una cartella.
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`imageCount`*` | `xsd:int` | Numero di immagini memorizzate. |
 | `*`diskSpaceUsage`*` | `xsd:long` | Lato totale del file in kilobyte. |
 | `*`lastModified`*` | `xsd:dateTime` | Data, ora e fuso orario dell&#39;ultima modifica apportata al tipo `DiskUsage`. |
-
