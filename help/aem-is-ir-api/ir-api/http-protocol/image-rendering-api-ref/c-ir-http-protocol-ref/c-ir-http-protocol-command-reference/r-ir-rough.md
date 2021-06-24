@@ -2,18 +2,17 @@
 description: Rugosità della superficie del materiale. Specifica la rugosità relativa della superficie del materiale.
 solution: Experience Manager
 title: ruvido
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
-
-# grezzo{#rough}
+# ruvido{#rough}
 
 Rugosità della superficie del materiale. Specifica la rugosità relativa della superficie del materiale.
 
