@@ -2,16 +2,15 @@
 description: Dimensioni video. Consente di specificare le dimensioni associate a ciascun record video.
 solution: Experience Manager
 title: VideoSize
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e70db18f-a8fd-4e47-85e3-a0f1f9a945d9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
-
 
 # VideoSize{#videosize}
 
