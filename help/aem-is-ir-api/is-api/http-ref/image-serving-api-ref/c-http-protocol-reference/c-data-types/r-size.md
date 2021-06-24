@@ -2,16 +2,15 @@
 description: Dimensione dei pixel. Utilizzato per specificare le dimensioni dell'immagine o del rettangolo in pixel.
 solution: Experience Manager
 title: size
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # size{#size}
 
