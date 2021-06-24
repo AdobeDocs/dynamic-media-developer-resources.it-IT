@@ -2,16 +2,15 @@
 description: Utilizzare queste impostazioni del server per eseguire il debug della registrazione delle tracce.
 solution: Experience Manager
 title: Debug_trace logging
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
-
 
 # Debug_trace logging{#debug-trace-logging}
 
@@ -33,7 +32,7 @@ Nome della cartella e del file di base per i file di registro di Server Supervis
 
 Il livello di log può essere 1, 2, 3 o 4. Il valore predefinito è 2.
 
-## IS::Log - Percorso file di registro di debug Image Server {#section-73a3f09b77f2446c9f82207b7d8aec39}
+## IS::Log - Percorso file di log di debug del server di immagini {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
 Nome della cartella e del file di base per i file di registro di traccia di Image Server. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. ImageServer aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima dell&#39;eventuale suffisso di file). Si consiglia di inviare i file di registro di Image Server alla stessa cartella dei file di registro di Platform Server ( `PS::LogFolder`) per sfruttare la gestione dei file di registro implementata da Platform Server (vedere `PS::LogDays`).
 
@@ -55,6 +54,6 @@ Il livello 4 registra tutti i messaggi ricevuti dal server Platform.
 
 I livelli 3 e 4 devono essere utilizzati solo a scopo di debug, in quanto i file di log possono diventare molto grandi.
 
-## IS::TraceStatsInterval - Intervallo di log delle statistiche del server di immagini {#section-1d8df96d61044e33a5b2b2b0309c2d59}
+## IS::TraceStatsInterval - Intervallo di log delle statistiche del server di immagine {#section-1d8df96d61044e33a5b2b2b0309c2d59}
 
 Image Server scrive le statistiche della memoria nel file di log di traccia nell&#39;intervallo specificato da questa impostazione. L&#39;intervallo valido è compreso tra 5 e 86.400 secondi.
