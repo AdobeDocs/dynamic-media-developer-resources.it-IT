@@ -3,11 +3,10 @@ cloud: Experience Cloud
 user-guide-title: API di Dynamic Media Image Production System
 feature-set: Experience Manager Assets
 user-guide-description: L’API del servizio Web IPS (Image Production System) consente alle applicazioni esterne e agli sviluppatori di terze parti di accedere in modo programmatico alle risorse e alle funzionalità IPS.
-translation-type: tm+mt
 source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -248,7 +247,7 @@ ht-degree: 2%
    + [GenerationAttributeArray](types/c-data-types/r-generation-attribute-array.md)
    + [GenerationInfo](types/c-data-types/r-generation-info.md)
    + [GenerationInfoArray](types/c-data-types/r-generation-info-array.md)
-   + [Group](types/c-data-types/r-group.md) (Gruppo)
+   + [Group (Gruppo)](types/c-data-types/r-group.md)
    + [GroupArray](types/c-data-types/r-group-array.md)
    + [HandleArray](types/c-data-types/r-handle-array.md)
    + [IccProfileFieldUpdate](types/c-data-types/r-icc-profile-field-update.md)
