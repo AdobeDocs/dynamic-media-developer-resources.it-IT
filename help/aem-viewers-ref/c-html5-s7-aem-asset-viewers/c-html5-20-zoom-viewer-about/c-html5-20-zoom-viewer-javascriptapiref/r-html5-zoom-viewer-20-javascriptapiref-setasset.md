@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore video.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fc94f30-e330-4c8a-b6da-d870e4f8e4ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -67,4 +66,3 @@ Modificatore di nitidezza aggiunto a tutte le immagini del set:
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample?op_sharpen=1")
 ```
-
