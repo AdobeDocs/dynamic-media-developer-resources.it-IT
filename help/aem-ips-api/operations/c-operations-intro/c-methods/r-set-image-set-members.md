@@ -2,16 +2,15 @@
 description: Imposta l’elenco delle risorse associate a un set di immagini.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API, Set di immagini
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 8%
 
 ---
-
 
 # setImageSetMembers{#setimagesetmembers}
 
