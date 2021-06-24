@@ -2,16 +2,15 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3cb91483-de8c-4d5c-9b46-7026c5001f3a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.align{#swatches-align}
 
