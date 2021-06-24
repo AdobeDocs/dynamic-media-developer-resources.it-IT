@@ -2,16 +2,15 @@
 description: Timestamp predefinito per la modifica dell'immagine. Fornisce un valore predefinito per TimeStamp del catalogo.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
