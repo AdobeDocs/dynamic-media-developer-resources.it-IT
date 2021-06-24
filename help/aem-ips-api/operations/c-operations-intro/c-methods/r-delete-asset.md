@@ -2,16 +2,15 @@
 description: Elimina una risorsa.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 9%
+source-wordcount: '99'
+ht-degree: 10%
 
 ---
-
 
 # deleteAsset{#deleteasset}
 
