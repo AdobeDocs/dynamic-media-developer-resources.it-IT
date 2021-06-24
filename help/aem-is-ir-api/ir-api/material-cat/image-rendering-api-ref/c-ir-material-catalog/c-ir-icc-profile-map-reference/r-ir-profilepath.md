@@ -2,16 +2,15 @@
 description: Percorso file profilo. Percorso e nome del file del profilo colore ICC, incluso il suffisso di file.
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
-
 
 # ProfilePath{#profilepath}
 
