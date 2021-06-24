@@ -2,16 +2,15 @@
 description: Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
 solution: Experience Manager
 title: Comandi di richiesta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
-
 
 # Comandi di richiesta{#request-commands}
 
@@ -83,4 +82,3 @@ Questi comandi si applicano indipendentemente da dove nella richiesta compaiono.
   <td class="stentry"> <p>Specifica il set di immagini da utilizzare per la richiesta. </p></td> 
  </tr> 
 </table>
-
