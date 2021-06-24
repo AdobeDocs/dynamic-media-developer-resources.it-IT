@@ -2,16 +2,15 @@
 description: Proprietà di una risorsa file di trasformazione XML.
 solution: Experience Manager
 title: XslInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 39fc2c37-80e8-42f5-aef1-9dca57bf8cff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
-
 
 # XslInfo{#xslinfo}
 
@@ -26,4 +25,3 @@ Sintassi
 | `*`originalPath`*` | `xsd:string` | Percorso file. |
 | `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
-
