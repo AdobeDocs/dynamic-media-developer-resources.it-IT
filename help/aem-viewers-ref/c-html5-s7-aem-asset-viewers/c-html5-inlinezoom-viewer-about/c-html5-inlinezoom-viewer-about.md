@@ -39,7 +39,7 @@ La configurazione e lo skin sono simili a quelli degli altri visualizzatori. Puo
 
 Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interazione con visualizzatore zoom in linea {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interazione con il visualizzatore zoom in linea {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 Il visualizzatore zoom in linea supporta gesti touch e touch singoli comuni ad altre applicazioni mobili.
 
@@ -72,7 +72,7 @@ Questo visualizzatore è completamente accessibile da tastiera.
 
 Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporazione del visualizzatore zoom in linea {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione di un visualizzatore zoom in linea {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento cliccabile che apre il visualizzatore in una finestra separata del browser. In altri casi, potrebbe essere necessario incorporare il visualizzatore direttamente nella pagina di hosting. In quest’ultimo caso, la pagina web può avere layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e incorporamento dinamico.
 
