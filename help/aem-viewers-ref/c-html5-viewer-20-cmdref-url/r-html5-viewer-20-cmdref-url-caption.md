@@ -2,18 +2,17 @@
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 title: didascalia
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
 
-# caption{#caption}
+# didascalia{#caption}
 
 Parametro comune a tutti i visualizzatori.
 
