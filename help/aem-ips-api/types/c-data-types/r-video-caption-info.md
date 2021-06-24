@@ -1,16 +1,15 @@
 ---
 description: Proprietà dei sottotitoli video
 title: VideoCaptionInfo
-feature: Dynamic Media Classic,SDK/API,Video
+feature: Dynamic Media Classic, SDK/API,Video
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
-
 
 # VideoCaptionInfo{#videocaptioninfo}
 
@@ -44,4 +43,3 @@ Proprietà dei sottotitoli video
   </tr> 
  </tbody> 
 </table>
-
