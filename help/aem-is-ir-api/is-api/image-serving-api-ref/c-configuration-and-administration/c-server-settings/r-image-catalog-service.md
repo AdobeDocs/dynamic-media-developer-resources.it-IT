@@ -2,16 +2,15 @@
 description: Utilizza queste impostazioni del server per il servizio catalogo immagini.
 solution: Experience Manager
 title: Servizio catalogo immagini
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Servizio catalogo immagini{#image-catalog-service}
 
