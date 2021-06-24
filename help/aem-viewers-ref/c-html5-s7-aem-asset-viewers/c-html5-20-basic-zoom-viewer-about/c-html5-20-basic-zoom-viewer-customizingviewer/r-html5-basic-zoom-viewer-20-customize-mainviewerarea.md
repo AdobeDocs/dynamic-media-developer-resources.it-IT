@@ -2,16 +2,15 @@
 description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
-
 
 # Area visualizzatore principale{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impost
  height: 288px;  
 }
 ```
-
