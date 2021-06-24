@@ -52,7 +52,7 @@ Il visualizzatore è completamente accessibile da tastiera.
 
 Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporazione del visualizzatore carosello {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione del visualizzatore Carosello {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Informazioni sulla modalità a comparsa**
 
