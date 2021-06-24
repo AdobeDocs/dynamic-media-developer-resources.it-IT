@@ -2,16 +2,15 @@
 description: Matrice di destinazioni di zoom.
 solution: Experience Manager
 title: ZoomTargetArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
-
 
 # ZoomTargetArray{#zoomtargetarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:ZoomTarget` | Array di destinazioni di zoom. |
-
