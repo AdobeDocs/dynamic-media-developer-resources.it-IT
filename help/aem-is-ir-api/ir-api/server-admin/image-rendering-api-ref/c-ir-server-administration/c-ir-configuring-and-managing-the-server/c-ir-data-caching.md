@@ -2,16 +2,15 @@
 description: Image Rendering sfrutta le funzioni di memorizzazione in cache di Image Server per salvare i dati immagine di risposta, i dati intermedi per le richieste nidificate/incorporate e i dati immagine di origine (come le texture) ottenuti da un'origine esterna.
 solution: Experience Manager
 title: Memorizzazione in cache dei dati
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c7be9254-0dd4-4ec3-8448-86a18b9bea0d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # Memorizzazione in cache dei dati{#data-caching}
 
