@@ -2,13 +2,12 @@
 description: Attributo di configurazione per il visualizzatore Video360.
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: f00b2539-3159-487a-b0fa-9589b694c2e6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
