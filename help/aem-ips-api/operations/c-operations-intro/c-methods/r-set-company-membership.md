@@ -2,16 +2,15 @@
 description: Imposta l’iscrizione di un utente in una o più società.
 solution: Experience Manager
 title: setCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 12%
 
 ---
-
 
 # setCompanyMembership{#setcompanymembership}
 
