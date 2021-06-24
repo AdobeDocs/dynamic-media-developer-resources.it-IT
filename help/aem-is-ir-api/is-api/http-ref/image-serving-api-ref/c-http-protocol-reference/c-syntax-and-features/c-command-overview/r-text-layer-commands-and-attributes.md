@@ -2,18 +2,17 @@
 description: Questi comandi si applicano ai livelli di testo, oltre ai comandi di livello comuni.
 solution: Experience Manager
 title: Comandi del livello testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 1%
 
 ---
 
-
-# Comandi del livello di testo{#text-layer-commands}
+# Comandi del livello testo{#text-layer-commands}
 
 Questi comandi si applicano ai livelli di testo, oltre ai comandi di livello comuni.
 
@@ -51,4 +50,3 @@ Questi comandi si applicano ai livelli di testo, oltre ai comandi di livello com
   <td class="stentry"> <p>Fornisce testo di livello al modulo di rendering di testo tradizionale. </p></td> 
  </tr> 
 </table>
-
