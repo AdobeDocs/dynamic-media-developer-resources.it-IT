@@ -2,16 +2,15 @@
 description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
-
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
@@ -84,4 +83,3 @@ Il tipo `KnockoutBackgroundOptions` viene utilizzato da:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
