@@ -2,16 +2,15 @@
 description: Scarica
 solution: Experience Manager
 title: Scarica
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fb01371b-0aa6-4591-8523-120c217cf45d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
-
 
 # Scarica{#download}
 
@@ -82,4 +81,3 @@ background-image:url(images/v2/Dowmload_dark_down.png);
 background-image:url(images/v2/Dowmload_dark_disabled.png); 
 }
 ```
-
