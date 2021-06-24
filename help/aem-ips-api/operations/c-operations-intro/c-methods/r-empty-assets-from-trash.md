@@ -2,16 +2,15 @@
 description: Svuota le risorse dal cestino IPS.
 solution: Experience Manager
 title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
-
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
@@ -73,4 +72,3 @@ Questo esempio di codice utilizza l’handle dell’azienda e una matrice di han
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
