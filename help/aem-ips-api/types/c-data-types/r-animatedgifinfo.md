@@ -2,16 +2,15 @@
 description: Proprietà di una risorsa file GIF animata.
 solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
-
 
 # AnimatedGifInfo{#animatedgifinfo}
 
@@ -57,4 +56,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
