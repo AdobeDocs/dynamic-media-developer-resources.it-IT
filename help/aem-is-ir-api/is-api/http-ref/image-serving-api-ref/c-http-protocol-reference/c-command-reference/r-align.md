@@ -2,18 +2,17 @@
 description: Allinea immagine con vista. Allinea l'immagine composita (possibilmente dopo il ridimensionamento, se è specificato anche scl=) all'interno del rettangolo di visualizzazione definito da wid= e hei=.
 solution: Experience Manager
 title: allinea
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 1%
 
 ---
 
-
-# align{#align}
+# allinea{#align}
 
 Allinea immagine con vista. Allinea l&#39;immagine composita (possibilmente dopo il ridimensionamento, se è specificato anche scl=) all&#39;interno del rettangolo di visualizzazione definito da wid= e hei=.
 
