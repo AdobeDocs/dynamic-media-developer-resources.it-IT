@@ -2,16 +2,15 @@
 description: Elemento filtro indirizzi. Facoltativo negli elementi <rule> e <pathrule> .
 solution: Experience Manager
 title: addressfilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 4%
 
 ---
-
 
 # addressfilter{#addressfilter}
 
