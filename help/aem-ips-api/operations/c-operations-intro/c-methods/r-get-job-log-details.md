@@ -2,16 +2,15 @@
 description: Ottiene i dettagli di un registro dei processi aziendali.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 9%
 
 ---
-
 
 # getJobLogDetails{#getjoblogdetails}
 
@@ -152,4 +151,3 @@ Questo esempio di codice restituisce tutti i dettagli del registro di lavoro per
    </jobLogArray>
 </getJobLogDetailsReturn>
 ```
-
