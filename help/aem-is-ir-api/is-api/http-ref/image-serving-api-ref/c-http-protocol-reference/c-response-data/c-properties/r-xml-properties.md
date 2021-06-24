@@ -2,16 +2,15 @@
 description: Se il formato xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
 solution: Experience Manager
 title: Proprietà XML
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # Proprietà XML{#xml-properties}
 
@@ -44,4 +43,3 @@ L’elemento `<prop-group>` viene utilizzato come contenitore più esterno e per
 >[!NOTE]
 >
 >È possibile specificare la codifica dei caratteri per alcuni tipi `req=`. Per ulteriori informazioni, fare riferimento alla descrizione del comando `req=`specifico.
-
