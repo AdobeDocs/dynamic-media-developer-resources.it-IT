@@ -2,13 +2,12 @@
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 4%
 
 ---
