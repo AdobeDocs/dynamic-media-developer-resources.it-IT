@@ -2,18 +2,17 @@
 description: Le proprietà di una risorsa modello.
 solution: Experience Manager
 title: InfoModello
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '43'
+ht-degree: 9%
 
 ---
 
-
-# TemplateInfo{#templateinfo}
+# InfoModello{#templateinfo}
 
 Le proprietà di una risorsa modello.
 
@@ -26,4 +25,3 @@ I modelli sono definizioni di livello parametrizzate che creano un&#39;immagine 
 | `*`url`*` | `xsd:string` | URL del server di immagini che rappresenta il modello. |
 | `*`urlModifier`*` | `xsd:string` |  |
 | `*`urlPostApplyModifier`*` | `xsd:string` |  |
-
