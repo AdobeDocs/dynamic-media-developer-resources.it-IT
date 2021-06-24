@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +37,3 @@ Nessuno.
 ```
 <instance>.init()
 ```
-
