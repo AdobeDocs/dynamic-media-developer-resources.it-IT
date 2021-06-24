@@ -2,18 +2,17 @@
 description: Immagine miniatura. Richiede i dati immagine formattati e dimensionati utilizzando i criteri delle miniature del catalogo.
 solution: Experience Manager
 title: tam
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9bdcc1c4-fe2b-4316-a472-07a533f105a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-
-# tmb{#tmb}
+# tam{#tmb}
 
 Immagine miniatura. Richiede i dati immagine formattati e dimensionati utilizzando i criteri delle miniature del catalogo.
 
