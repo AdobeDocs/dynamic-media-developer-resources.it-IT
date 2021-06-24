@@ -2,16 +2,15 @@
 description: Informazioni sull’avanzamento dell’attività.
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 2%
 
 ---
-
 
 # TaskProgress{#taskprogress}
 
@@ -85,4 +84,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
