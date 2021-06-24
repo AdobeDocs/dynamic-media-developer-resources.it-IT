@@ -2,16 +2,15 @@
 description: L’area di visualizzazione principale è l’area occupata dalla vista a comparsa e dai campioni.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
-
 
 # Area visualizzatore principale{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Esempio: per impostare un visualizzatore a comparsa con sfondo bianco ( `#FFFFFF
  height: 500px;  
 }
 ```
-
