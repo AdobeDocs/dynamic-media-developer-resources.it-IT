@@ -2,16 +2,15 @@
 description: Elemento pattern di espressione regolare. Facoltativo negli elementi <rule> .
 solution: Experience Manager
 title: espressione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
-
 
 # espressione{#expression}
 
