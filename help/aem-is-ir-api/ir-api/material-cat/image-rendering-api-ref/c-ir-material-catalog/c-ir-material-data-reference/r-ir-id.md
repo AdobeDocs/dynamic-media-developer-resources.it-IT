@@ -2,16 +2,15 @@
 description: Identificatore del record del catalogo. Valore chiave in base al quale i record di materiale vengono analizzati dal server di rendering. In genere un identificatore di materiale breve e univoco, ad esempio un numero SKU.
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 8%
+source-wordcount: '86'
+ht-degree: 9%
 
 ---
-
 
 # ID{#id}
 
