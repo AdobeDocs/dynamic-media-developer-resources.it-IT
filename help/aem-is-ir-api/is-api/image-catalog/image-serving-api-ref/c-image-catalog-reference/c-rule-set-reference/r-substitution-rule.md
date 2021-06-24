@@ -2,18 +2,17 @@
 description: Elemento della stringa di sostituzione. Facoltativo negli elementi <rule> .
 solution: Experience Manager
 title: sostituzione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
 
-
-# substitution{#substitution}
+# sostituzione{#substitution}
 
 Elemento della stringa di sostituzione. Facoltativo negli elementi `<rule>`.
 
