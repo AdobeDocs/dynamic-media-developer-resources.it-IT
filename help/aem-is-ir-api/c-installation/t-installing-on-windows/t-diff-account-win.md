@@ -2,18 +2,17 @@
 description: Dopo l'installazione sarà necessario configurare i servizi per l'esecuzione sotto l'altro account utente.
 solution: Experience Manager
 title: Installazione in un account utente diverso da quello dell'amministratore
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 20bb00cb-3af6-4573-bbff-8c4f984ed2ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-
-# Installazione in un account utente diverso da amministratore{#installing-under-a-different-user-account-than-administrator}
+# Installazione in un account utente diverso da quello dell&#39;amministratore{#installing-under-a-different-user-account-than-administrator}
 
 Dopo l&#39;installazione sarà necessario configurare i servizi per l&#39;esecuzione sotto l&#39;altro account utente.
 
