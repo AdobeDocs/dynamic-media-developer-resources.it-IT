@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore di eCatalog.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e7775a65-67bf-4ad6-8e51-1fdf141946bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +37,3 @@ Nessuno.
 ```
 \<instance>.init()
 ```
-
