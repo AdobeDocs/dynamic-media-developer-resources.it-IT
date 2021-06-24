@@ -2,16 +2,15 @@
 description: Rinomina un progetto.
 solution: Experience Manager
 title: rinominaProgetto
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 19%
 
 ---
-
 
 # rinominaProgetto{#renameproject}
 
@@ -65,4 +64,3 @@ Questo esempio di codice rinomina un progetto e restituisce l&#39;handle di prog
    <projectHandle>p|6|ProjectTestAPI</projectHandle>
 </renameProjectReturn>
 ```
-
