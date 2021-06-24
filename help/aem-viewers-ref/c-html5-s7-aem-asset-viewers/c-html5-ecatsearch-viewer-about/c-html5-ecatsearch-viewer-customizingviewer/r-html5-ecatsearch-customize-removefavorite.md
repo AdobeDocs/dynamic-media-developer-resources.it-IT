@@ -2,16 +2,15 @@
 description: La posizione del pulsante Rimuovi preferito è completamente gestita dal menu Preferiti.
 solution: Experience Manager
 title: Pulsante Rimuovi preferito
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4bf4b055-598c-41b9-bc98-c51926c4785f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
-
 
 # Pulsante Rimuovi preferito{#remove-favorite-button}
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/RemoveFavoriteButton_dark_over.png);
 background-image:url(images/v2/RemoveFavoriteButton_dark_disabled.png); 
 }
 ```
-
