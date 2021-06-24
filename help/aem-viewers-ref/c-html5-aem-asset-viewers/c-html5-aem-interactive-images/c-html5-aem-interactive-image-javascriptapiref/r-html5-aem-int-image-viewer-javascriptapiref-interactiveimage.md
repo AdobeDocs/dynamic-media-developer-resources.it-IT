@@ -2,13 +2,12 @@
 description: Riferimento API JavaScript per il visualizzatore di immagini video.
 solution: Experience Manager
 title: InteractiveImage
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Developer,Business Practitioner
 exl-id: 165de14f-0031-4969-9671-5da310d44c28
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '178'
 ht-degree: 3%
 
 ---
