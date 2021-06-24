@@ -2,16 +2,15 @@
 description: Swatches.enabledragging
 solution: Experience Manager
 title: Swatches.enabledragging
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7ffdc886-5631-429f-84b4-4b32b715713d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
-
 
 # Swatches.enabledragging{#swatches-enabledragging}
 
