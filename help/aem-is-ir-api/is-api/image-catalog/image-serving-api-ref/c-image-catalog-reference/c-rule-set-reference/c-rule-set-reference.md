@@ -2,16 +2,15 @@
 description: Image Serving supporta un semplice meccanismo di preelaborazione delle richieste basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 solution: Experience Manager
 title: Riferimento set di regole
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
-
 
 # Riferimento set di regole{#rule-set-reference}
 
@@ -110,7 +109,7 @@ La corrispondenza semplice delle stringhe funziona per applicazioni molto sempli
 
 Per facilitare modifiche complesse all’URL, le sottostringhe possono essere acquisite nell’espressione racchiudendo la sottostringa con parentesi (...). Le sottostringhe acquisite vengono numerate in sequenza a partire da 1 in base alla posizione della parentesi iniziale. Le sottostringhe acquisite possono essere inserite nella sostituzione utilizzando ` $ *`n`*`, dove *`n`* è il numero di sequenza della sottostringa acquisita.
 
-## Gestione dei file dei set di regole {#section-0598a608e4044bb4805fe93ceebe10a9}
+## Gestione dei file set di regole {#section-0598a608e4044bb4805fe93ceebe10a9}
 
 È possibile allegare un file set di regole a ciascun catalogo di immagini con l&#39;attributo di catalogo `attribute::RuleSetFile`. Anche se è possibile modificare il file del set di regole in qualsiasi momento, il server di immagini riconosce le modifiche solo quando il catalogo di immagini associato viene ricaricato. Questo ricaricamento avviene quando il server della piattaforma viene avviato o riavviato e ogni volta che il file del catalogo principale, che ha un suffisso di file [!DNL .ini], viene modificato o &quot;toccato&quot; per modificare la data del file.
 
