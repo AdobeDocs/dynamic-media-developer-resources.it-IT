@@ -2,16 +2,15 @@
 description: Questa versione (Image Serving 6.6.1 e Image Rendering 6.6.1) sostituisce Image Serving 6.5.3 e Image Rendering 6.5.3.
 solution: Experience Manager
 title: Informazioni su questa versione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Informazioni su questa versione{#about-this-release}
 
@@ -32,4 +31,3 @@ Questa versione (Image Serving 6.6.1 e Image Rendering 6.6.1) sostituisce Image 
 ## Correzione bug {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
 * È stato risolto un problema a causa del quale l&#39;opzione `\qc` RTF seguita da uno spazio impediva il rendering di una richiesta.
-
