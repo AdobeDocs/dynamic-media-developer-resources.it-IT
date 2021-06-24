@@ -2,16 +2,15 @@
 description: Requisiti simili all'esempio A, ma utilizzare uno sfondo a colori solidi e consentire la variazione dell'altezza del composito per adattarsi alle immagini con proporzioni diverse.
 solution: Experience Manager
 title: Esempio B
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Esempio B{#example-b}
 
@@ -37,4 +36,3 @@ Le origini del livello 0 e del livello 1 vengono posizionate al centro a destra 
 L&#39;illustrazione seguente mostra il risultato composito per diverse proporzioni dell&#39;immagine e diverse stringhe di testo.
 
 ![](assets/exampleb.png)
-
