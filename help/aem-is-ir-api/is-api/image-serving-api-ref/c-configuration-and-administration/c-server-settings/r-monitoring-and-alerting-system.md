@@ -2,18 +2,17 @@
 description: Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 solution: Experience Manager
 title: Sistema di monitoraggio e allarme
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-
-# Sistema di monitoraggio e avvisi{#monitoring-and-alerting-system}
+# Sistema di monitoraggio e allarme{#monitoring-and-alerting-system}
 
 Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 
@@ -29,7 +28,7 @@ Indirizzo IP del server di posta elettronica SMTP.
 
 La porta di ascolto del server di posta elettronica SMTP.
 
-## AS::monitorAlertGenerator.messageTo - Messaggio Destinatario {#section-0017bbaa15434117a70900c3f1163960}
+## AS::monitorAlertGenerator.messageTo - Message Recipient {#section-0017bbaa15434117a70900c3f1163960}
 
 Uno o più indirizzi e-mail a cui devono essere inviati gli avvisi. Utilizzare i punti e virgola come separatori.
 
