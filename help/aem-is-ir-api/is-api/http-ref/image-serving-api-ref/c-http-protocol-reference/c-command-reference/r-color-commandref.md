@@ -2,16 +2,15 @@
 description: Colore livello. Specifica il colore di primo piano e l'opacità dei livelli di colore e effetto a tinta unita e il colore di riempimento della casella di testo per i livelli di testo.
 solution: Experience Manager
 title: color
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
-
 
 # color{#color}
 
