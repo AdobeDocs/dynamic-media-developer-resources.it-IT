@@ -2,18 +2,17 @@
 description: La guida alle utilità di Image Serving contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
 solution: Experience Manager
 title: Utilità Image Serving
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
-# Utilità Image Server{#image-serving-utilities}
+# Utilità Image Serving{#image-serving-utilities}
 
 La guida alle utilità di Image Serving contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
 
