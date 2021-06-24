@@ -2,16 +2,15 @@
 description: Invia un processo al sistema.
 solution: Experience Manager
 title: submitJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 8%
 
 ---
-
 
 # submitJob{#submitjob}
 
@@ -195,4 +194,3 @@ Puoi specificare al massimo uno tra `execTime` e `execSchedule`. Se non viene pa
 * `serverDirectoryPublishJob`
 * `uploadDirectoryJob`
 * `uploadUrlsJob`
-
