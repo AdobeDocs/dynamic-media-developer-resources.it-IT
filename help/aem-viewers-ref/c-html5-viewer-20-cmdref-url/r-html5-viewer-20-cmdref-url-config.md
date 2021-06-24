@@ -2,13 +2,12 @@
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 title: config
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
