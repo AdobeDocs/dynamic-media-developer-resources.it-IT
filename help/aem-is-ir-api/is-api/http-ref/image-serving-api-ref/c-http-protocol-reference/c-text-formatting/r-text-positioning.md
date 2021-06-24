@@ -2,16 +2,15 @@
 description: Il modulo di rendering text= posiziona il testo in modo fondamentalmente diverso dal modulo di rendering textPs= quando viene applicato a livelli predefiniti (ovvero quando è specificato anche size=).
 solution: Experience Manager
 title: Posizionamento del testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 092444bf-9964-4d97-b06e-3add033da284
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
-
 
 # Posizionamento del testo{#text-positioning}
 
