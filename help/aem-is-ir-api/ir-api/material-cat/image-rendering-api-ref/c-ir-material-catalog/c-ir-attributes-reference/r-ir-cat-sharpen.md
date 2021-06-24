@@ -2,18 +2,17 @@
 description: Nitidezza immagine risposta predefinita. Specifica se rendere più nitide le immagini di risposta se vengono ridimensionate prima della codifica.
 solution: Experience Manager
 title: Nitidezza
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
-# Più nitido {#sharpen}
+# Nitidezza{#sharpen}
 
 Nitidezza immagine risposta predefinita. Specifica se rendere più nitide le immagini di risposta se vengono ridimensionate prima della codifica.
 
