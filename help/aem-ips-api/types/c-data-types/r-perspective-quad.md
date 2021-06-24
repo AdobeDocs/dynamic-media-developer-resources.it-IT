@@ -2,16 +2,15 @@
 description: Le coordinate della posizione dell'immagine restituite dall'operazione getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 16%
 
 ---
-
 
 # PerspectiveQuad{#perspectivequad}
 
