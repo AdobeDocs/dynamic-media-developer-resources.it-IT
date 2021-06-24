@@ -2,18 +2,17 @@
 description: Utilizza queste impostazioni del server per configurare le soglie di avviso.
 solution: Experience Manager
 title: Soglie di allarme
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-
-# Soglie di avviso{#alert-thresholds}
+# Soglie di allarme{#alert-thresholds}
 
 Utilizza queste impostazioni del server per configurare le soglie di avviso.
 
@@ -25,7 +24,7 @@ Viene emesso un avviso di tempo di risposta quando il tempo medio di elaborazion
 >
 >Per questo avviso non vengono considerate le richieste con stato di risposta 4xx o 5xx.
 
-## AS::monitorAlertGenerator.maxErrorRate - Soglia del tasso di risposta degli erroriAS::monitorAlertGenerator.maxErrorRate - Tasso di risposta degli errori {#section-76ba77fd3102419395e0f86719a1f3ec}
+## AS::monitorAlertGenerator.maxErrorRate - Soglia del tasso di risposta degli erroriAS::monitorAlertGenerator.maxErrorRate - Frequenza di risposta degli errori {#section-76ba77fd3102419395e0f86719a1f3ec}
 
 Viene generato un avviso di errore quando il rapporto tra le risposte di errore HTTP e le risposte di errore totali nell’intervallo di campionamento supera la soglia specificata.
 
