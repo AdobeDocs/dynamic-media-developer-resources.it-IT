@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Personalizzazione del visualizzatore di ricerca di eCatalog{#customizing-ecatalog-search-viewer}
+# Personalizzazione del visualizzatore di ricerca eCatalog{#customizing-ecatalog-search-viewer}
 
 Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore di ricerca eCatalog vengono effettuate creando un CSS personalizzato.
 
@@ -31,7 +31,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7ecatalogsearchviewer`
 
-## Creazione di CSS adattabili {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creazione di CSS reattivi {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Ciò include, ma non è limitato a, diversi layout di pagina web, dimensioni degli elementi dell’interfaccia utente e risoluzione dell’immagine.
 
