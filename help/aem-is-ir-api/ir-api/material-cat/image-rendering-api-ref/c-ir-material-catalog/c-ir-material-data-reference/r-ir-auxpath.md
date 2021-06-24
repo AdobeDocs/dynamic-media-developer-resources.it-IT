@@ -2,16 +2,15 @@
 description: Percorso file dati. Percorso relativo e nome per i file di dati non di immagine associati a questa immagine.
 solution: Experience Manager
 title: AuxPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 55f82596-72f0-48c4-9b3a-f10ea5f610f1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # AuxPath{#auxpath}
 
