@@ -2,14 +2,13 @@
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
