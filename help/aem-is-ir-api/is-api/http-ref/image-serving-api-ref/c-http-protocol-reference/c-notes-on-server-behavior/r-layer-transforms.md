@@ -2,18 +2,17 @@
 description: Le trasformazioni vengono applicate alle immagini sorgente e ai livelli di testo.
 solution: Experience Manager
 title: Trasformazioni dei livelli
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5758d07c-bb84-4ab1-bf77-f59cf93f5e90
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-
-# Trasformazioni livello{#layer-transforms}
+# Trasformazioni dei livelli{#layer-transforms}
 
 Le trasformazioni vengono applicate alle immagini sorgente e ai livelli di testo.
 
