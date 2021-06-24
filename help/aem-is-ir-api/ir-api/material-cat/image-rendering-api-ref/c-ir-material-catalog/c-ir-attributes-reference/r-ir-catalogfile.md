@@ -2,18 +2,17 @@
 description: Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
 solution: Experience Manager
 title: FileCatalogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
-
-# CatalogFile{#catalogfile}
+# FileCatalogo{#catalogfile}
 
 Percorso del file di dati del catalogo. Specifica il file contenente i dati del materiale per questo catalogo.
 
