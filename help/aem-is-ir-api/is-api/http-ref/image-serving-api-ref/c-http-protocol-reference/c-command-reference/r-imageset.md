@@ -2,16 +2,15 @@
 description: Set di immagini. Specifica un valore del set di immagini da utilizzare per la generazione della risposta req=set.
 solution: Experience Manager
 title: imageSet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 8%
 
 ---
-
 
 # imageSet{#imageset}
 
