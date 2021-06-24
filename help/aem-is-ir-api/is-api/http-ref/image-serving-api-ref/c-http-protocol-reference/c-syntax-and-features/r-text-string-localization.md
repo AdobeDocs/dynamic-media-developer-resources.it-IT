@@ -2,16 +2,15 @@
 description: La localizzazione delle stringhe di testo consente ai cataloghi di immagini di contenere più rappresentazioni specifiche delle impostazioni internazionali per lo stesso valore stringa.
 solution: Experience Manager
 title: Localizzazione della stringa di testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
-
 
 # Localizzazione della stringa di testo{#text-string-localization}
 
@@ -156,4 +155,3 @@ La tabella seguente descrive l’output di alcune combinazioni rappresentative *
   </tr> 
  </tbody> 
 </table>
-
