@@ -2,16 +2,15 @@
 description: Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 solution: Experience Manager
 title: Supporto a schermo intero
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 36e0b787-ddf0-49f6-8d43-c06b68fec15c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # Supporto a schermo intero{#full-screen-support}
 
