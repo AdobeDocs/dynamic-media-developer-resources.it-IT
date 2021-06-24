@@ -2,16 +2,15 @@
 description: Valori colore. È possibile specificare valori di colore utilizzando una notazione esadecimale, un elenco di valori di componente separati da virgole o decimali.
 solution: Experience Manager
 title: color
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 14%
 
 ---
-
 
 # color{#color}
 
