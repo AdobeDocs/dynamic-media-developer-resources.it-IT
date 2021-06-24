@@ -2,16 +2,15 @@
 description: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1f54ef2-4ed4-4fb6-9913-98bf194f9afc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
