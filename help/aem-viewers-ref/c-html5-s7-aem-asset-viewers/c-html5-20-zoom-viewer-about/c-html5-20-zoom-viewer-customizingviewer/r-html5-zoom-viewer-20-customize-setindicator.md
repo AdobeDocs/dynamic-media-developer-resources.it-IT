@@ -2,16 +2,15 @@
 description: L’indicatore set è una serie di punti sottoposti a rendering sui campioni quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
 solution: Experience Manager
 title: Imposta indicatore
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
-
 
 # Imposta indicatore{#set-indicator}
 
@@ -118,4 +117,3 @@ Esempio: per impostare un punto indicatore a 15 x 15 pixel, con due pixel di mar
  background-color:#939393;  
 }
 ```
-
