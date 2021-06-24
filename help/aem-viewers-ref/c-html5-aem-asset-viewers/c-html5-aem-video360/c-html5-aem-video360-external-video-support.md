@@ -2,16 +2,15 @@
 description: Il visualizzatore supporta la riproduzione di video in hosting al di fuori di Dynamic Media Classic o AEM Dynamic Media.
 solution: Experience Manager
 title: Supporto video esterno
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: b592f03b-92ab-47d8-96a6-87982fedc901
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # Supporto video esterno{#external-video-support}
 
