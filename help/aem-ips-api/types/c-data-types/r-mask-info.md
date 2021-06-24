@@ -2,16 +2,15 @@
 description: Proprietà del file della maschera.
 solution: Experience Manager
 title: MaskInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '26'
+ht-degree: 15%
 
 ---
-
 
 # MaskInfo{#maskinfo}
 
@@ -25,4 +24,3 @@ Sintassi
 |---|---|---|
 | `*`maskPath`*` | `xsd:string` | Percorso file maschera. |
 | `*`maskFile`*` | `xsd:string` | Nome del file della maschera. |
-
