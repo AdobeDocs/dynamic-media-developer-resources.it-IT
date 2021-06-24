@@ -2,22 +2,21 @@
 description: Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della cartella. La risposta getFolders restituisce un massimo di 100.000 cartelle.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 7%
 
 ---
-
 
 # getFolders{#getfolders}
 
 Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della cartella. La risposta getFolders restituisce un massimo di 100.000 cartelle.
 
-## Finalità delle cartelle {#section-66e344d5333f42f1b060a0cba25935c3}
+## Scopo delle cartelle {#section-66e344d5333f42f1b060a0cba25935c3}
 
 Una cartella consente di organizzare sottocartelle e risorse. Tutti i nomi delle cartelle e delle risorse devono essere univoci. Le cartelle e le risorse che condividono lo stesso nome causano un conflitto di namespace, anche se si trovano in gerarchie di cartelle diverse.
 Sintassi
@@ -94,4 +93,3 @@ Questo esempio di codice restituisce un array contenente tutte le cartelle di un
    </folderArray>
 </getFoldersReturn>
 ```
-
