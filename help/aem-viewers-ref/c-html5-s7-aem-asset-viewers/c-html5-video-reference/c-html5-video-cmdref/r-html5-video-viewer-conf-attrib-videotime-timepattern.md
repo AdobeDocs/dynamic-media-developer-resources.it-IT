@@ -2,16 +2,15 @@
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1fe2876c-c59a-4e0c-b429-34cc3244d920
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
-
 
 # VideoTime.timepattern{#videotime-timepattern}
 
@@ -41,4 +40,3 @@ Facoltativo.
 ```
 timepattern=h:mm:ss
 ```
-
