@@ -2,16 +2,15 @@
 description: Percorso principale dati contenuto statico. Percorso assoluto o segmento di percorso relativo per la cartella principale per i dati di contenuto statico del catalogo immagini.
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 55ca44cd-4330-47e6-94cc-58c078d34bbd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
-
 
 # StaticContentRootPath{#staticcontentrootpath}
 
