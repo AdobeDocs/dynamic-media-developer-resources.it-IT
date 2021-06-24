@@ -2,18 +2,17 @@
 description: I cataloghi di immagini forniscono informazioni sulle immagini e sui dati di supporto, come font e profili ICC, al server.
 solution: Experience Manager
 title: Riferimento al catalogo delle immagini
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-
-# Riferimento catalogo immagini{#image-catalog-reference}
+# Riferimento al catalogo delle immagini{#image-catalog-reference}
 
 I cataloghi di immagini forniscono informazioni sulle immagini e sui dati di supporto, come font e profili ICC, al server.
 
