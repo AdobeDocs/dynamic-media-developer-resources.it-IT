@@ -2,16 +2,15 @@
 description: Percorso clip livello invertito. Specifica un percorso di clip di esclusione per il livello corrente. Tutte le parti del livello che si trovano all'interno dell'area definita da clipXPath= sono rese trasparenti.
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 4%
 
 ---
-
 
 # clipXPath{#clipxpath}
 
