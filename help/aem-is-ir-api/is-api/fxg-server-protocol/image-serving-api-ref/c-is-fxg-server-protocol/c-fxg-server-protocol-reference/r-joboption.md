@@ -2,16 +2,15 @@
 description: Applica le opzioni di lavoro PDF. Un file di opzioni di lavoro o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o i predefiniti PDF in InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
-
 
 # joboption{#joboption}
 
@@ -81,4 +80,3 @@ Sono attualmente supportate le seguenti opzioni:
   <td class="stentry"> <p>Standard di conformità. </p></td> 
  </tr> 
 </table>
-
