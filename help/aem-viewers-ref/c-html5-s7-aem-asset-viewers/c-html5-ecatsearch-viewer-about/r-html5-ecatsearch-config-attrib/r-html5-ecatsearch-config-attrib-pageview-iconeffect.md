@@ -2,16 +2,15 @@
 description: PageView.iconEffect
 solution: Experience Manager
 title: PageView.iconEffect
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eb2196cb-b771-4828-8390-cd9e3fe6c57e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 4%
 
 ---
-
 
 # PageView.iconEffect{#pageview-iconeffect}
 
