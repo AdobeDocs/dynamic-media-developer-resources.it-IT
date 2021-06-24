@@ -2,16 +2,15 @@
 description: L'area di visualizzazione principale è occupata dal video. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
-
 
 # Area visualizzatore principale{#main-viewer-area}
 
@@ -55,4 +54,3 @@ Per impostare un visualizzatore video con sfondo bianco (#FFFFFF) e impostarne l
  height: 288px;  
 }
 ```
-
