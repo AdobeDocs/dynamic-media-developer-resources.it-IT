@@ -2,16 +2,15 @@
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
-
 
 # SocialShare.bearing{#socialshare-bearing}
 
@@ -41,4 +40,3 @@ Facoltativo.
 ```
 bearing=left
 ```
-
