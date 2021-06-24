@@ -2,16 +2,15 @@
 description: Matrice di utilizzo del disco.
 solution: Experience Manager
 title: DiskUsageArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
-
 
 # DiskUsageArray{#diskusagearray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:DiskUsage` | Array di utilizzo del disco. |
-
