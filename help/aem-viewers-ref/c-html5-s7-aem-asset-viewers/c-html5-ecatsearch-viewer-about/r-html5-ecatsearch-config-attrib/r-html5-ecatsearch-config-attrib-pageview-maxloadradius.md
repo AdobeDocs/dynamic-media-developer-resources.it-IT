@@ -2,16 +2,15 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf769b2d-be4e-4d93-9620-00a438157693
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
-
 
 # PageView.maxloadradius{#pageview-maxloadradius}
 
