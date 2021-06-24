@@ -2,16 +2,15 @@
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
-
 
 # VideoPlayer.loop{#videoplayer-loop}
 
@@ -41,4 +40,3 @@ Facoltativo.
 ```
 loop=1
 ```
-
