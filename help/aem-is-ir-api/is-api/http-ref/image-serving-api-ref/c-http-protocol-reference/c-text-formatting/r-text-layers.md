@@ -2,16 +2,15 @@
 description: textPs= supporta una serie di diversi modelli di utilizzo descritti in questa sezione.
 solution: Experience Manager
 title: Livelli di testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
-
 
 # Livelli di testo{#text-layers}
 
@@ -60,7 +59,7 @@ I seguenti comandi RTF vengono ignorati:
 
 `\vertal*`
 
-## Testo a ridimensionamento automatico nel percorso {#section-d26685e7085847efaaeba64b9cb5ed9f}
+## Ridimensionamento automatico del testo nel percorso {#section-d26685e7085847efaaeba64b9cb5ed9f}
 
 `textFlowPath=` insieme a  `textPs=` può essere utilizzato per definire una o più aree in cui il testo deve essere scorrevole. `textFlowXPath=` possono essere specificate facoltativamente per escludere il testo dallo scorrimento in una o più aree. Se `size=` non è specificato, il livello di testo risultante si ridimensiona automaticamente e le dimensioni del livello sono determinate dal riquadro di delimitazione del testo effettivamente sottoposto a rendering.
 
@@ -86,7 +85,7 @@ I seguenti comandi RTF vengono ignorati per `textFlowPath=`:
 
 `\marg*`
 
-## Testo con ridimensionamento automatico sul percorso {#section-7ce6b9b26b354ba381e4378703154062}
+## Ridimensionamento automatico del testo sul percorso {#section-7ce6b9b26b354ba381e4378703154062}
 
 `textPath=` definisce uno o più percorsi in cui  `textPs=` deve essere eseguito il rendering del testo specificato con. Se `size=` non è specificato, il livello di testo risultante si ridimensiona automaticamente. La dimensione del livello è determinata dal riquadro di delimitazione del testo effettivo renderizzato.
 
@@ -102,7 +101,7 @@ I seguenti comandi RTF vengono ignorati:
 
 Qualsiasi testo dopo il primo `\par` o `\line` viene ignorato.
 
-## Testo di dimensioni predefinite sul percorso {#section-a3bbbc5187f448b192e53d27e2c53f2f}
+## Testo predimensionato sul percorso {#section-a3bbbc5187f448b192e53d27e2c53f2f}
 
 Se `size=` è specificato insieme a `textPath=`, la dimensione del livello è predeterminata. (0,0) dello spazio di coordinate pixel utilizzato per definire i percorsi si trova nell&#39;angolo superiore sinistro del rettangolo di livello.
 
