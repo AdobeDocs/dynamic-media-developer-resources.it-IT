@@ -2,13 +2,12 @@
 description: Comando URL per il visualizzatore video.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 7%
 
 ---
