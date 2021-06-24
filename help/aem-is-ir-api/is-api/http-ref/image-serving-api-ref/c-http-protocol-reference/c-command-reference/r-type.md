@@ -2,18 +2,17 @@
 description: Filtro del tipo di contenuto statico. Specifica una stringa di filtro per il contenuto statico distribuito tramite /is/content.
 solution: Experience Manager
 title: Testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
-
-# type{#type}
+# Testo{#type}
 
 Filtro del tipo di contenuto statico. Specifica una stringa di filtro per il contenuto statico distribuito tramite /is/content.
 
