@@ -2,16 +2,15 @@
 description: Ottiene i set di proprietà associati a un handle di tipo.
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 15%
 
 ---
-
 
 # getPropertySets{#getpropertysets}
 
@@ -86,4 +85,3 @@ Questo esempio di codice restituisce i set di proprietà del proprietario princi
    </setArray>
 </getPropertySetsReturn>
 ```
-
