@@ -3,16 +3,15 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore di eCatalog
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3c451400-4f44-4887-a045-46b064570b01
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore di eCatalog{#customizing-ecatalog-viewer}
 
@@ -32,7 +31,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7ecatalogviewer`
 
-## Creazione di CSS adattabili {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creazione di CSS reattivi {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Ciò include, ma non è limitato a, diversi layout di pagina web, dimensioni degli elementi dell’interfaccia utente e risoluzione dell’immagine.
 
