@@ -2,16 +2,15 @@
 description: Le miniature sono costituite da una griglia di miniature con una barra di scorrimento facoltativa sul lato destro per consentire lo scorrimento verticale.
 solution: Experience Manager
 title: Miniature
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 1%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
-
 
 # Miniature{#thumbnails}
 
@@ -399,4 +398,3 @@ Esempio : per impostare pulsanti di scorrimento con 28 x 32 pixel e immagini div
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
