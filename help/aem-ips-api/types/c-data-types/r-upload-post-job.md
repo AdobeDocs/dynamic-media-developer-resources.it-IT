@@ -2,16 +2,15 @@
 description: Utilizza getActiveJobs per tenere traccia dei caricamenti del desktop.
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 6%
+source-wordcount: '471'
+ht-degree: 7%
 
 ---
-
 
 # UploadPostJob{#uploadpostjob}
 
@@ -175,4 +174,3 @@ Consulta anche [Caricamento delle risorse tramite POST HTTP in corso...](../../c
   </tr> 
  </tbody> 
 </table>
-
