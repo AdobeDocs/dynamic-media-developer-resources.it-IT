@@ -2,16 +2,15 @@
 description: Ottiene i processi pianificati per l'esecuzione.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 18%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -78,4 +77,3 @@ Questo esempio di codice restituisce tutti i processi pianificati in una matrice
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
