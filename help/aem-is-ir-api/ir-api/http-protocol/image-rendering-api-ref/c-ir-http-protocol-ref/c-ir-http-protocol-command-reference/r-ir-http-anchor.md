@@ -2,16 +2,15 @@
 description: Ancoraggio immagine (punto attivo). Specifica il punto di ancoraggio della texture (punto attivo) della texture o del materiale decal ripetibili.
 solution: Experience Manager
 title: ancoraggio
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ea2c5dce-6eb1-4f05-80bd-7336deb08b9e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
-
 
 # ancoraggio{#anchor}
 
