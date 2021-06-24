@@ -2,16 +2,15 @@
 description: Dati del set di immagini dal catalogo immagini. Restituisce i dati del set di immagini per la voce del catalogo immagini specificata nel percorso URL.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API, Set di immagini
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
-
 
 # imageset{#imageset}
 
