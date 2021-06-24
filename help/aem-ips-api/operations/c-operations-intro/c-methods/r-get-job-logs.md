@@ -2,16 +2,15 @@
 description: Ottiene i registri di lavoro specificati per la società selezionata. Puoi ordinare in base a caratteri, direzione, date di inizio e fine e numero di righe.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 9%
+source-wordcount: '189'
+ht-degree: 10%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -86,4 +85,3 @@ Questo esempio di codice restituisce i registri di lavoro IPS per una società s
    </jobLogArray>
 </getJobLogsReturn>
 ```
-
