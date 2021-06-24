@@ -2,16 +2,15 @@
 description: Percorso file mappa profilo ICC. Specifica il file che contiene la mappa del profilo ICC per questo catalogo immagini.
 solution: Experience Manager
 title: IccProfileMapFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 595a89e3-dc8d-49f1-80fe-83dee9da466a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 5%
 
 ---
-
 
 # IccProfileMapFile{#iccprofilemapfile}
 
