@@ -2,18 +2,17 @@
 description: Registro dei processi dopo l'esecuzione del processo.
 solution: Experience Manager
 title: Registro processi
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 3%
 
 ---
 
-
-# JobLog{#joblog}
+# Registro processi{#joblog}
 
 Registro dei processi dopo l&#39;esecuzione del processo.
 
@@ -45,4 +44,3 @@ Sintassi
 | `*`fatalError`*` | `xsd:boolean` | Se il processo ha generato un errore irreversibile. |
 | `*`detailTotalRows`*` | `xsd:int` | Il numero totale di righe che corrispondono alla query, che può essere maggiore della dimensione di `detailArray` a causa dei limiti di dimensione della pagina. |
 | `*`detailArray`*` | `types:JobLogDetailArray` | Matrice di dettagli sul processo registrato. |
-
