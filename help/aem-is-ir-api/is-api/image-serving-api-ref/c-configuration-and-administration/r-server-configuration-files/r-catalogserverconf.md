@@ -2,16 +2,15 @@
 description: Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
 solution: Experience Manager
 title: catalog-server.conf
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # catalog-server.conf{#catalog-server-conf}
 
