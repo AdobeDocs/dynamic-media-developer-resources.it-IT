@@ -2,18 +2,17 @@
 description: Se necessario, è possibile disinstallare Image Rendering.
 solution: Experience Manager
 title: Disinstallazione del rendering delle immagini
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d9a874ee-4d12-42f3-962b-832fb0ec2727
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
-
-# Disinstallazione di Image Rendering{#uninstalling-image-rendering}
+# Disinstallazione del rendering delle immagini{#uninstalling-image-rendering}
 
 Se necessario, è possibile disinstallare Image Rendering.
 
