@@ -2,16 +2,15 @@
 description: Altezza visualizzazione. Specifica l'altezza dell'immagine di risposta.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 3%
 
 ---
-
 
 # hei{#hei}
 
@@ -48,4 +47,3 @@ A meno che non venga specificato un formato, l&#39;immagine viene riprodotta com
 * GIF-alfa
 * TIF-alfa
 * PNG-alpha
-
