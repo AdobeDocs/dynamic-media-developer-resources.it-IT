@@ -2,16 +2,15 @@
 description: Restituisce i membri di un gruppo.
 solution: Experience Manager
 title: getGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 16%
 
 ---
-
 
 # getGroupMembership{#getgroupmembership}
 
@@ -64,4 +63,3 @@ Questo esempio di codice restituisce tutti i membri di un gruppo. Poiché gli ha
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
