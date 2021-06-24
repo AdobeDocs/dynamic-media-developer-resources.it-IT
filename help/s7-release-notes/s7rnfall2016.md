@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Rilascio di Scene7 - Autunno 2016
 feature: Dynamic Media Classic
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
-
 
 # Rilascio di Scene7 - Autunno 2016{#scene-fall-release}
 
@@ -346,8 +345,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
    * L&#39;immagine miniatura potrebbe non essere visualizzata nel browser Microsoft Edge per la prima volta.
    * L&#39;immagine poster può nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
 
-## Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2} di Dynamic Media
+## Image Serving 6.3.2 e Image Rendering 6.3.2 di Dynamic Media {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utility IC - Il flag `downsample2x2` non è più supportato. Questo flag era un downsampler 2x2 di scarsa qualità che non è più utilizzato da IPS.
 * Intestazione CORS - Attualmente, l’intestazione CORS è configurata per le richieste `/is/content/`.
-
