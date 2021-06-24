@@ -2,16 +2,15 @@
 description: Versioni disponibili specifiche per le impostazioni internazionali. Restituisce un elenco delle versioni disponibili specifiche per le impostazioni internazionali dell’ID catalogo specificato nel percorso della richiesta.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 13%
 
 ---
-
 
 # xlate{#xlate}
 
