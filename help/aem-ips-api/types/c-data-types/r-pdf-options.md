@@ -2,16 +2,15 @@
 description: Opzioni del file PDF.
 solution: Experience Manager
 title: PDFOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 6%
 
 ---
-
 
 # PDFOptions{#pdfoptions}
 
@@ -29,4 +28,3 @@ Sintassi
 | `*`pdfCatalog`*` | `xsd:boolean` | Se combinare un PDF a più pagine in un eCatalog dopo il rendering (l’impostazione predefinita è true). |
 | `*`extractSearchWords`*` | `xsd:boolean` | Se estrarre parole di ricerca dal file PDF. |
 | `*`extractLinks`*` | `xsd:boolean` | Se estrarre collegamenti PDF in mappe immagine assegnate alle pagine rasterizzate all’interno di IPS. |
-
