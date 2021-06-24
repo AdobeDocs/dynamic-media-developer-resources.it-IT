@@ -2,16 +2,15 @@
 description: Ottiene valori di campo di metadati univoci.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 21%
+source-wordcount: '63'
+ht-degree: 22%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -66,4 +65,3 @@ Questo esempio di codice utilizza un handle di campo per restituire valori di me
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
