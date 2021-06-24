@@ -2,16 +2,15 @@
 description: Ottiene tutte le impostazioni di configurazione del visualizzatore associate alla risorsa specificata.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 16%
+source-wordcount: '75'
+ht-degree: 17%
 
 ---
-
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
@@ -41,4 +40,3 @@ Sintassi
 |---|---|---|---|
 | `*`type`*` | `xsd:string` | Sì | Tipo di visualizzatore a cui si applicano le impostazioni di configurazione. |
 | `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Sì | Array di impostazioni di configurazione del visualizzatore. |
-
