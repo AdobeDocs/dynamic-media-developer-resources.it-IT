@@ -2,16 +2,15 @@
 description: Percorso file delle definizioni delle macro. Specifica il file contenente le definizioni delle macro per questo catalogo di materiali.
 solution: Experience Manager
 title: MacroFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # MacroFile{#macrofile}
 
