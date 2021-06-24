@@ -2,16 +2,15 @@
 description: Gli esempi seguenti mostrano un esempio di comandi di testo e di come influiscono sul testo.
 solution: Experience Manager
 title: Esempi di codifica RTF
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c35aa7-aa8b-49af-a9ea-4bc704e4eebd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Esempi di codifica RTF{#rtf-encoding-examples}
 
@@ -53,6 +52,6 @@ Gli esempi seguenti mostrano un esempio di comandi di testo e di come influiscon
 
 ![](assets/rtf09.png)
 
-## Vedere Anche {#section-e702276fd0e847779cb75a6ccb92fbc8}
+## Vedi anche {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
 [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), codifica  [HTTP](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7), specifica  [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
