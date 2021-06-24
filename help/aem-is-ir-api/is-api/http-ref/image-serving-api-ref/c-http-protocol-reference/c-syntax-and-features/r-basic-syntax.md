@@ -2,16 +2,15 @@
 description: La sintassi di base del protocollo HTTP è la seguente.
 solution: Experience Manager
 title: Sintassi di base del protocollo HTTP Image Server
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
-
 
 # Sintassi di base del protocollo HTTP Image Server{#image-serving-http-protocol-basic-syntax}
 
@@ -72,7 +71,7 @@ La sintassi di base del protocollo HTTP è la seguente:
 
 Il contesto [!DNL /is/image] principale è necessario per tutte le richieste HTTP a Image Server.
 
-## Decodifica HTTP {#section-20922baccd804d2d986b44ce9a183a7d}
+## decodifica HTTP {#section-20922baccd804d2d986b44ce9a183a7d}
 
 Image Serving estrae prima *`object`* e *`modifiers`* dalla richiesta in arrivo. *`object`* viene quindi separato in elementi di percorso che sono singolarmente decodificati tramite HTTP. La stringa *`modifiers`* è separata in coppie *`command`*= *`value`* e *`value`* viene quindi decodificata per HTTP prima dell&#39;elaborazione specifica del comando.
 
