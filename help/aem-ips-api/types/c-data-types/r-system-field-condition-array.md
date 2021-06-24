@@ -2,16 +2,15 @@
 description: Matrice di condizioni del campo di sistema.
 solution: Experience Manager
 title: SystemFieldConditionArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
-
 
 # SystemFieldConditionArray{#systemfieldconditionarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:SystemFieldConditions` | Matrice di condizioni del campo di sistema. |
-
