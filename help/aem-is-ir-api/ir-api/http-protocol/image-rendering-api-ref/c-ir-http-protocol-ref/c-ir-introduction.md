@@ -2,16 +2,15 @@
 description: Questo documento descrive il protocollo HTTP per il rendering delle immagini di Dynamic Media.
 solution: Experience Manager
 title: Introduzione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # Introduzione{#introduction}
 
