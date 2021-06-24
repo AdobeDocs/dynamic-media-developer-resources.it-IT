@@ -2,16 +2,15 @@
 description: Vista scala. Consente di ridimensionare l'immagine composita in base all'inverso di vFactor.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
-
 
 # scl{#scl}
 
