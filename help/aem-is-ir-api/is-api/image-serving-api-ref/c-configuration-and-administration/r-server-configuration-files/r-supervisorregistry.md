@@ -2,16 +2,15 @@
 description: Contiene le impostazioni di configurazione del supervisore del server.
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
@@ -68,4 +67,3 @@ Riavvia Image Serving dopo aver modificato questo file per assicurarti che le mo
     </servers>
 </supervisor>
 ```
-
