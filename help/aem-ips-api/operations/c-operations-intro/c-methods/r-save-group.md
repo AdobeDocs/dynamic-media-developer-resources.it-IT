@@ -2,16 +2,15 @@
 description: Crea o modifica un gruppo.
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 17%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -63,4 +62,3 @@ Questo esempio di codice crea un gruppo che appartiene a una società specifica.
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
