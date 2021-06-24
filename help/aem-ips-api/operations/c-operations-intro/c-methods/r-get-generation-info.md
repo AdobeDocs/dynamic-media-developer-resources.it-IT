@@ -2,16 +2,15 @@
 description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 8%
 
 ---
-
 
 # getGenerationInfo{#getgenerationinfo}
 
@@ -78,4 +77,3 @@ Questo esempio di codice restituisce informazioni sulle risorse generate da una 
    </generationArray>
 </getGenerationInfoReturn>
 ```
-
