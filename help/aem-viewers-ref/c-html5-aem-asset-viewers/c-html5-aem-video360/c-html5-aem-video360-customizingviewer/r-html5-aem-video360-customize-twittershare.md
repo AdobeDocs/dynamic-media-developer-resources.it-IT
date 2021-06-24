@@ -1,21 +1,20 @@
 ---
-description: Lo strumento di condivisione Twitter è costituito da un pulsante aggiunto al pannello Condivisione social . Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+description: Lo strumento di condivisione twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condividi su Twitter
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: Condivisione twitter
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Condivisione Twitter{#twitter-share}
+# Condivisione twitter{#twitter-share}
 
-Lo strumento di condivisione Twitter è costituito da un pulsante aggiunto al pannello Condivisione social . Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+Lo strumento di condivisione twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -56,7 +55,7 @@ L&#39;aspetto del pulsante di condivisione Twitter è controllato con il seguent
 
 La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un pulsante di condivisione Twitter di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati diversi del pulsante:
+**Esempio** : per impostare un pulsante di condivisione Twitter di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7video360viewer .s7twittershare { 
