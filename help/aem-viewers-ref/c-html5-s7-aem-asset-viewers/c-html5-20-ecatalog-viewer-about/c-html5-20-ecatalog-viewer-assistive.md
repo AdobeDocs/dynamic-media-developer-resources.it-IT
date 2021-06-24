@@ -2,18 +2,17 @@
 description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
 title: Supporto tecnologico per assistenza
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog,Accessibility
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog,Accessibilità
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46ccea4e-4314-453e-a987-68644467ab12
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-
-# Supporto della tecnologia di assistenza{#assistive-technology-support}
+# Supporto tecnologico per assistenza{#assistive-technology-support}
 
 Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 
