@@ -2,16 +2,15 @@
 description: Le operazioni e i tipi di dati nuovi o modificati disponibili nella versione beta WSDL non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
 solution: Experience Manager
 title: Uso limitato
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Uso limitato{#restricted-use}
 
@@ -107,4 +106,3 @@ Queste operazioni e questi tipi sono soggetti a disabilitazione, modifica o rimo
 * È stato modificato `setImageRenderingPublishSettings` per includere un parametro opzionale `contextHandle`.
 
 * È stato modificato `submitJob` per includere un tipo di processo `createVideoSitemap` facoltativo
-
