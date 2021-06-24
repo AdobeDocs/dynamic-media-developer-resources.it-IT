@@ -2,22 +2,21 @@
 description: Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Analytics.
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
-
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
 Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Analytics.
 
-## Tracciamento predefinito {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento preconfigurato {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 Il visualizzatore di ricerca per eCatalog supporta il tracciamento preconfigurato [!DNL Adobe Analytics] . Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
 
@@ -93,4 +92,3 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
  </tbody> 
 </table>
-
