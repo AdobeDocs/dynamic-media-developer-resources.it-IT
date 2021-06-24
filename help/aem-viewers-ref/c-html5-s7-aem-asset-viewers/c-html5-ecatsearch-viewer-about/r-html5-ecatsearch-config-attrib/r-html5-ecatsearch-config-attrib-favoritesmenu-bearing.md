@@ -2,16 +2,15 @@
 description: Specifica la direzione dell'animazione diapositiva per il contenitore pulsanti.
 solution: Experience Manager
 title: FavoritesMenu.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
-
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
