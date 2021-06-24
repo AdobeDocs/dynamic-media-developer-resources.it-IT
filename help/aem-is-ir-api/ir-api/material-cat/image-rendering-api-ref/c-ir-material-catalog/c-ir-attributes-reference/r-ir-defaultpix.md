@@ -2,16 +2,15 @@
 description: Dimensione predefinita dell'immagine di rendering. Il server vincola le immagini di risposta a non superare questa larghezza e altezza, se la richiesta non specifica esplicitamente la dimensione di visualizzazione utilizzando wid= o hei=.
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
-
 
 # DefaultPix{#defaultpix}
 
