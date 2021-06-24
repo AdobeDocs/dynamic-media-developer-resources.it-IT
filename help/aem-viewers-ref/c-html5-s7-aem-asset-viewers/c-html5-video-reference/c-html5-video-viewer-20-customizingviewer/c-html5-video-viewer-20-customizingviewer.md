@@ -3,16 +3,15 @@ description: Personalizzazione del visualizzatore video
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore video
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore video{#customizing-video-viewer}
 
@@ -32,7 +31,7 @@ Quando crei un CSS personalizzato, ricorda che il visualizzatore assegna la clas
 
 `#<containerId>.s7videoviewer`
 
-## Creazione di CSS adattabili {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
+## Creazione di CSS reattivi {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
 
 È possibile eseguire il targeting di dispositivi diversi in CSS per rendere il contenuto visualizzato in modo diverso a seconda del dispositivo di un utente. Questo targeting include, ma non è limitato a, diverse dimensioni degli elementi dell&#39;interfaccia utente e risoluzione dell&#39;immagine.
 
