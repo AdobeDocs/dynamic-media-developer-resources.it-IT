@@ -2,18 +2,16 @@
 description: Image Rendering genera intestazioni di risposta HTTP/1.1.
 solution: Experience Manager
 title: Dati di risposta del protocollo HTTP
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f25d76d1-215e-4286-88f3-7402ceb07858
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-
-# dati di risposta del protocollo HTTP{#http-protocol-response-data}
+# Dati di risposta del protocollo HTTP{#http-protocol-response-data}
 
 Image Rendering genera intestazioni di risposta HTTP/1.1.
-
