@@ -2,16 +2,15 @@
 description: Solo per sviluppatori di Scene 7. Consulta la sezione Attributi del catalogo di riferimento del catalogo dei materiali di rendering delle immagini .
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b0fe5d2-2779-417f-a5fe-577def2e0158
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
-
 
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
 | `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sì | Solo per sviluppatori di Scene 7. |
 | `*`contextHandle`*` | `xsd:string` | No | Gestisci il contesto di pubblicazione. |
-
