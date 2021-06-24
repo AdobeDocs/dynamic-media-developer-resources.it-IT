@@ -2,16 +2,15 @@
 description: Percorso file mappa carattere. Specifica il file contenente la mappa dei font per questo catalogo di immagini.
 solution: Experience Manager
 title: FontMapFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e922d51b-f92e-4cbc-a7c1-5e54e44afd50
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # FontMapFile{#fontmapfile}
 
