@@ -2,18 +2,17 @@
 description: Image Serving supporta le conversioni dello spazio colore in base ai profili dello spazio colore conformi alle specifiche ICC (International Color Consortium).
 solution: Experience Manager
 title: Gestione del colore Image Serving
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
 
-
-# Gestione del colore Image Server{#image-serving-color-management}
+# Gestione del colore Image Serving{#image-serving-color-management}
 
 Image Serving supporta le conversioni dello spazio colore in base ai profili dello spazio colore conformi alle specifiche ICC (International Color Consortium).
 
