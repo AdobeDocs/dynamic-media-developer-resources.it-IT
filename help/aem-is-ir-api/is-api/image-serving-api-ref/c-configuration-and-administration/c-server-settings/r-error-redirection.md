@@ -2,18 +2,17 @@
 description: Usa queste impostazioni del server per reindirizzare gli errori.
 solution: Experience Manager
 title: Reindirizzamento degli errori
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a184e113-9708-412f-9b71-d75a35629adf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-
-# Reindirizzamento errore{#error-redirection}
+# Reindirizzamento degli errori{#error-redirection}
 
 Usa queste impostazioni del server per reindirizzare gli errori.
 
