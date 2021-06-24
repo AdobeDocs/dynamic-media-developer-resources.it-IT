@@ -2,16 +2,15 @@
 description: Risposta all'altezza dell'immagine. Specifica la scala dell'immagine renderizzata in modo che l'altezza dell'immagine di risposta non sia maggiore del valore specificato, mantenendo le proporzioni dell'immagine.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
-
 
 # hei{#hei}
 
