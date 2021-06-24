@@ -2,18 +2,17 @@
 description: Filtro indirizzo IP client. Consente di specificare uno o più indirizzi IP o intervalli di indirizzi.
 solution: Experience Manager
 title: FiltroIndirizzoClient
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 028cef35-2862-452c-872c-b953e8ccb195
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '133'
+ht-degree: 3%
 
 ---
 
-
-# ClientAddressFilter{#clientaddressfilter}
+# FiltroIndirizzoClient{#clientaddressfilter}
 
 Filtro indirizzo IP client. Consente di specificare uno o più indirizzi IP o intervalli di indirizzi.
 
