@@ -2,16 +2,15 @@
 description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 6%
 
 ---
-
 
 # getCompanyInfo{#getcompanyinfo}
 
@@ -104,4 +103,3 @@ Questo esempio di codice restituisce tutte le informazioni su un&#39;azienda uti
    </ns1:companyInfo>
 </ns1:getCompanyInfoReturn>
 ```
-
