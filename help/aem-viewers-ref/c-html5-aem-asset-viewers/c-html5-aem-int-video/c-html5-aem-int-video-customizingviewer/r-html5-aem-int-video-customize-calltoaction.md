@@ -2,13 +2,12 @@
 description: Il pannello Azioni Invito all'azione viene visualizzato al termine del video e visualizza tutti i campioni interattivi associati a quel particolare video.
 solution: Experience Manager
 title: Invito all'azione
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 1%
 
 ---
@@ -31,7 +30,7 @@ Il seguente selettore di classe CSS controlla l’aspetto del colore di sfondo n
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## Proprietà CSS del colore di sfondo della chiamata al pannello azioni {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## Proprietà CSS del colore di sfondo dell’invito al pannello azioni {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -60,7 +59,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’intestazione ne
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## Proprietà CSS della chiamata all&#39;intestazione del pannello azioni {#css-properties-of-the-call-to-action-panel-header}
+## Proprietà CSS della chiamata all’intestazione del pannello azioni {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
