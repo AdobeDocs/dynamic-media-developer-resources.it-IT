@@ -3,16 +3,15 @@ description: eCatalog Viewer è un visualizzatore di cataloghi che visualizza le
 keywords: reattivo
 solution: Experience Manager
 title: eCatalog
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
-
 
 # eCatalog{#ecatalog}
 
@@ -32,7 +31,7 @@ Questo visualizzatore funziona con gli ecatalogs e supporta mappe immagine opzio
 
 [http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
-## Utilizzo del visualizzatore di eCatalog {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilizzo del visualizzatore eCatalog {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Il visualizzatore eCatalog rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
@@ -89,7 +88,7 @@ Il visualizzatore eCatalog supporta gli strumenti di condivisione social network
 
 La barra degli strumenti di condivisione contiene icone per ogni tipo di canale di condivisione supportato che includono Facebook, Twitter, condivisione e-mail, condivisione del codice da incorporare e condivisione dei collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
-## Incorporamento del visualizzatore di eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione del visualizzatore eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e design reattivo.
 
@@ -398,4 +397,3 @@ eCatalogViewer.init();
 </body> 
 </html>
 ```
-
