@@ -2,18 +2,17 @@
 description: Il visualizzatore visualizza le aree dei risultati della ricerca sulla visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
 solution: Experience Manager
 title: Effetto Ricerca
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
 
-
-# Effetto ricerca{#search-effect}
+# Effetto Ricerca{#search-effect}
 
 Il visualizzatore visualizza le aree dei risultati della ricerca sulla visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
 
@@ -47,4 +46,3 @@ Esempio: per impostare le aree dei risultati della ricerca con un riempimento gi
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
