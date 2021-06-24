@@ -2,16 +2,15 @@
 description: Proprietà di una risorsa immagine.
 solution: Experience Manager
 title: ImageInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '195'
 ht-degree: 3%
 
 ---
-
 
 # ImageInfo{#imageinfo}
 
@@ -137,4 +136,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
