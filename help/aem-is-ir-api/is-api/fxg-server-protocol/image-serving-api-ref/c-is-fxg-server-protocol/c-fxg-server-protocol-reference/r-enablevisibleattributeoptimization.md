@@ -2,16 +2,15 @@
 description: Abilita l'ottimizzazione di FXG.
 solution: Experience Manager
 title: enableVisibleAttributeOptimization
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a643694e-f6a2-424e-8f6e-3dbb4cdc41b3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
-
 
 # enableVisibleAttributeOptimization{#enablevisibleattributeoptimization}
 
