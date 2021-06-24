@@ -2,18 +2,17 @@
 description: Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
 solution: Experience Manager
 title: Formattazione dei caratteri di base
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 5%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
-
-# Formattazione carattere di base{#basic-character-formatting}
+# Formattazione dei caratteri di base{#basic-character-formatting}
 
 Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
 
@@ -103,4 +102,3 @@ Utilizzare i seguenti comandi per la formattazione di base dei caratteri.
   </tr> 
  </tbody> 
 </table>
-
