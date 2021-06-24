@@ -2,22 +2,21 @@
 description: Il visualizzatore a 360 gradi supporta il tracciamento di Adobe Analytics.
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 30762700-6d69-4299-9492-57893232abe1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
-
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
 Il visualizzatore a 360 gradi supporta il tracciamento di Adobe Analytics.
 
-## Tracciamento predefinito {#section-d06145cfa2b9491bb485b599368d466e}
+## Tracciamento preconfigurato {#section-d06145cfa2b9491bb485b599368d466e}
 
 Il visualizzatore a 360 gradi supporta il tracciamento predefinito di Adobe Analytics.
 
@@ -83,4 +82,3 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
  </tbody> 
 </table>
-
