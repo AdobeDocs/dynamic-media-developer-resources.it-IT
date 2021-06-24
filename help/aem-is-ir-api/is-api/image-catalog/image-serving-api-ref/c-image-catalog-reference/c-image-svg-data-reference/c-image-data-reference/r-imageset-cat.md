@@ -2,18 +2,17 @@
 description: Dati del set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API, Set di immagini
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
 
-
-# Set di immagini{#imageset}
+# ImageSet{#imageset}
 
 Dati del set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e gli attributi di controllo utilizzati dai visualizzatori Dynamic Media.
 
@@ -125,6 +124,6 @@ Questo campo partecipa alla localizzazione delle stringhe di testo. Oltre alle s
 
 Nessuno.
 
-## Vedere Anche {#section-4c99c44f99074aa0a4ed90ba183bbc25}
+## Vedi anche {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
 [req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), traduzione [ ID ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) oggetto, localizzazione [ stringa di ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) testo, documentazione dei visualizzatori Image Server
