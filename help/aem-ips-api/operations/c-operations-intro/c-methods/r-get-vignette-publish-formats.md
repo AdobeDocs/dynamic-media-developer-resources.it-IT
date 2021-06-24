@@ -2,16 +2,15 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 19%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
@@ -64,4 +63,3 @@ Questo esempio di codice restituisce due formati di pubblicazione di vignetta as
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
