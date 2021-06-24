@@ -2,16 +2,15 @@
 description: Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering delle vignette.
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 22%
 
 ---
-
 
 # Impostazioni di rendering avanzate{#advanced-render-settings}
 
@@ -23,7 +22,7 @@ Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Imag
 
 Queste impostazioni vengono controllate in modo interattivo nell’authoring delle immagini. È possibile applicare le stesse impostazioni in Image Rendering utilizzando il comando `rs=` (o con il valore `catalog::RenderSettings`). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio per variare la saturazione delle luci o il contrasto nelle ombre.
 
-## Valori delle impostazioni di rendering avanzate (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Valori Advanced Render Setting (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -60,7 +59,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Raggio USM (pixel). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -131,7 +130,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Campioni/Pixel. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 1. </p> </td> 
   </tr> 
