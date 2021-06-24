@@ -2,16 +2,15 @@
 description: Nome collegamento profilo. Nome di scelta rapida per il profilo colore.
 solution: Experience Manager
 title: Nome
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6ee166db-09a8-4804-926f-8b1ebddb3c77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 13%
 
 ---
-
 
 # Nome{#name}
 
