@@ -2,18 +2,17 @@
 description: sovrapposizione
 solution: Experience Manager
 title: sovrapposizione
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
-
-# swatchoverlay{#swatchoverlay}
+# sovrapposizione{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
