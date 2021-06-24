@@ -2,16 +2,15 @@
 description: Informazioni utente Digimarc. Specifica le informazioni utente per l'incorporamento Digimarc.
 solution: Experience Manager
 title: DigimarcId
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # DigimarcId{#digimarcid}
 
