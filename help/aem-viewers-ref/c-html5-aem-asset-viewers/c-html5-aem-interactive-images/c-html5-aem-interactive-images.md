@@ -30,7 +30,7 @@ Il tipo di visualizzatore è 508.
 
 Vedere [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Utilizzo del visualizzatore di immagini interattive {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilizzo del visualizzatore di immagini interattivo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Il visualizzatore di immagini interattive rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
@@ -40,7 +40,7 @@ La configurazione e lo skin sono simili a quelli degli altri visualizzatori desc
 
 Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interazione con il visualizzatore di immagini interattive {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interazione con il visualizzatore di immagini interattivo {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 L’interazione supportata dal visualizzatore di immagini video è l’attivazione dei punti attivi sui sistemi desktop. Questa attivazione si verifica su dispositivi touch con un solo tocco e clic.
 
