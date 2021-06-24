@@ -2,16 +2,15 @@
 description: Restituisce un'area ritagliata per un'immagine in base al colore di sfondo o alla trasparenza.
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 13%
 
 ---
-
 
 # getAutoCropRect{#getautocroprect}
 
@@ -82,5 +81,5 @@ Sintassi
 >[!MORELIKETHIS]
 >
 >* [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [OpzioniRitaglioAutomaticoTrasparente](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [OpzioniRitaglioAutomaticoTrasparente](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
