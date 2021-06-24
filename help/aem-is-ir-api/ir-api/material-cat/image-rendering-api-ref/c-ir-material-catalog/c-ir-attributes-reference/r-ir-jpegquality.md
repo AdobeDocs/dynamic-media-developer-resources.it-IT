@@ -2,16 +2,15 @@
 description: Qualità di codifica JPEG predefinita. Specifica l'impostazione di qualità predefinita per le immagini di risposta con codifica JPEG.
 solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
-
 
 # JpegQuality{#jpegquality}
 
