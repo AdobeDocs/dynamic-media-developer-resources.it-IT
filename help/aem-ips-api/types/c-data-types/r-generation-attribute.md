@@ -2,16 +2,15 @@
 description: Una coppia nome-valore che contiene informazioni su un passaggio di generazione delle risorse. Vedi getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
-
 
 # GenerationAttribute{#generationattribute}
 
@@ -25,4 +24,3 @@ Sintassi
 |---|---|---|
 | `*`name`*` | `xsd:string` | Nome dell&#39;attributo. |
 | `*`value`*` | `xsd:string` | Valore dell&#39;attributo. |
-
