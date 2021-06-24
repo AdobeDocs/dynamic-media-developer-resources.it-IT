@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 61d5b791-12bd-444a-add1-5537c71881fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -43,4 +42,3 @@ Nessuno.
 ```
 <instance>.setParams("SpinView.zoomstep=2,3&SpinView.iscommand=op_sharpen%3d1")
 ```
-
