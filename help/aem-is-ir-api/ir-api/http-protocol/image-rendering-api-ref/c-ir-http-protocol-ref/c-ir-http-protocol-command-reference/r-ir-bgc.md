@@ -2,16 +2,15 @@
 description: Colore di sfondo. Specifica il colore sottrattivo per le texture e le decorazioni colorabili.
 solution: Experience Manager
 title: bgc
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 6%
 
 ---
-
 
 # bgc{#bgc}
 
