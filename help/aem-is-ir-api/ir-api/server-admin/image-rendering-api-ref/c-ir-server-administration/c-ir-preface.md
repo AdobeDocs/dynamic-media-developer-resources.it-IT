@@ -2,16 +2,15 @@
 description: Questa documentazione illustra i problemi di amministrazione del server e descrive le impostazioni di configurazione per Dynamic Media Image Rendering.
 solution: Experience Manager
 title: Prefazione di amministrazione del server
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # Prefazione di amministrazione del server{#server-administration-preface}
 
@@ -51,4 +50,3 @@ Gli elementi descritti in questa documentazione sono spesso preceduti dai seguen
   <td class="stentry"> <p>Un nome con il prefisso "default::" fa riferimento a un attributo del catalogo immagini predefinito. </p></td> 
  </tr> 
 </table>
-
