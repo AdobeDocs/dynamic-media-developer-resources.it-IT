@@ -2,16 +2,15 @@
 description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
 solution: Experience Manager
 title: Tipi di risorse
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
-
 
 # Tipi di risorse{#asset-types}
 
@@ -77,4 +76,3 @@ Sintassi
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-
