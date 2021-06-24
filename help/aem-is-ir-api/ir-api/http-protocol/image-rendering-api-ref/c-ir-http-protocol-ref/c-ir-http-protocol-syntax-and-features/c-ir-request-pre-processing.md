@@ -2,18 +2,17 @@
 description: Image Rendering fornisce un semplice pre-processore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 solution: Experience Manager
 title: Richiesta di pre-elaborazione *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-
-# Richiedi pre-elaborazione *{#request-pre-processing}
+# Richiesta di pre-elaborazione *{#request-pre-processing}
 
 Image Rendering fornisce un semplice pre-processore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 
