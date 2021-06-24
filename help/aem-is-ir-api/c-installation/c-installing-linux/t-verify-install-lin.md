@@ -2,16 +2,15 @@
 description: Dopo aver installato Image Serving su Linux, verifica l'installazione.
 solution: Experience Manager
 title: Verifica dell'installazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 273478ab-f245-48ef-a125-fb738054484e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Verifica dell&#39;installazione{#verifying-the-installation}
 
@@ -37,4 +36,3 @@ Image Server è installato come daemon Linux.
 
 Nelle risposte, verifica la presenza di elementi che iniziano con &quot; `imageServer.`&quot;, il che indica che Platform Server è in grado di comunicare con successo con il server immagini.
 >Puoi eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.
-
