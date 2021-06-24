@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
 title: setLocalizedText
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 840c7e13-8998-4479-b0fc-f96a615a0a58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 2%
 
 ---
-
 
 # setLocalizedText{#setlocalizedtexts}
 
@@ -41,4 +40,3 @@ Nessuno.
 ```
 <instance>.setLocalizedTexts({"en":{"CloseButton.TOOLTIP":"Close"},"fr":{"CloseButton.TOOLTIP":"Fermer"},defaultLocale:"en"})
 ```
-
