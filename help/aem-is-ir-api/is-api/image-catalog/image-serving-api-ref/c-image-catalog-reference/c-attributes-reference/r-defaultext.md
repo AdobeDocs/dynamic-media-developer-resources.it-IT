@@ -2,16 +2,15 @@
 description: Suffisso predefinito del file immagine. Aggiunto al valore del campo Percorso catalogo (o MaskPath catalogo) se il percorso non include un suffisso di file
 solution: Experience Manager
 title: DefaultExt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 43b3e5b8-6374-458d-8503-8e04c8c84233
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
-
 
 # DefaultExt{#defaultext}
 
