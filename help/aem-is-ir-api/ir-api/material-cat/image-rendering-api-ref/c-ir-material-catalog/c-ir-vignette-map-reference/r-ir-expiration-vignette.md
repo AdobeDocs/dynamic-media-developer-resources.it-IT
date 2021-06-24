@@ -2,16 +2,15 @@
 description: Tempo di esecuzione della cache del client. Numero di ore fino alla scadenza. Utilizzato per gestire la memorizzazione in cache del server client e proxy.
 solution: Experience Manager
 title: Scadenza
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5717d568-467e-495b-b963-9b3d42e866a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---
-
 
 # Scadenza{#expiration}
 
