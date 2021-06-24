@@ -2,16 +2,15 @@
 description: Matrice di URL per il caricamento delle risorse.
 solution: Experience Manager
 title: UploadUrlArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af931740-48da-47c4-af03-349517f4e2a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
-
 
 # UploadUrlArray{#uploadurlarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:UploadUrl` | Matrice di URL per il caricamento delle risorse. |
-
