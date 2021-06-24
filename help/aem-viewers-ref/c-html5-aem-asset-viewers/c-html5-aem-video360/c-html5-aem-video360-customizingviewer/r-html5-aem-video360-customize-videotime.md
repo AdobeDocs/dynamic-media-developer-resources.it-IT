@@ -2,18 +2,17 @@
 description: L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
 solution: Experience Manager
 title: Ora video
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: 78657fd2-e805-4047-be0a-592143025986
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-# Tempo video{#video-time}
+# Ora video{#video-time}
 
 L’ora del video è la visualizzazione numerica che mostra l’ora e la durata correnti del video in riproduzione.
 
