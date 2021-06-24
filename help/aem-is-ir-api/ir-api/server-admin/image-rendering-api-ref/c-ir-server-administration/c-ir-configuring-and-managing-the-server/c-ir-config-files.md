@@ -2,16 +2,15 @@
 description: Le impostazioni di configurazione Image Rendering sono memorizzate nel file di configurazione Platform Server.
 solution: Experience Manager
 title: File di configurazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 44ffebae-4933-455b-a902-4f6e7bb69184
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # File di configurazione{#configuration-files}
 
