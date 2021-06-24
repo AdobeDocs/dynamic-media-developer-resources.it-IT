@@ -2,16 +2,15 @@
 description: Scadenza
 solution: Experience Manager
 title: Scadenza
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
-
 
 # Scadenza{#expiration}
 
