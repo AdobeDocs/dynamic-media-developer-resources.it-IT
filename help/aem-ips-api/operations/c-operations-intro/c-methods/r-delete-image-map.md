@@ -2,16 +2,15 @@
 description: Elimina una mappa immagine.
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 10%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
