@@ -2,16 +2,15 @@
 description: Questa categoria di materiali comprende vernici per pareti, legno e trim, automotive e qualsiasi altra applicazione in cui le texture non sono richieste.
 solution: Experience Manager
 title: Colori solidi
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
-
 
 # Colori solidi{#solid-colors}
 
@@ -37,4 +36,3 @@ I colori solidi possono essere applicati a tutti gli oggetti renderizzabili.
   </tr> 
  </tbody> 
 </table>
-
