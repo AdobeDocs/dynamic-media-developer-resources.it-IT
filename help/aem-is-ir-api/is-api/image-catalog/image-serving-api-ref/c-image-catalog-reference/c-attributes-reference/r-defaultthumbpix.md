@@ -2,16 +2,15 @@
 description: Dimensione predefinita miniatura. Utilizzato al posto dell'attributo DefaultPix per le richieste di miniature (req=tmb).
 solution: Experience Manager
 title: DefaultThumbPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c1413da0-a68d-4345-928f-b532991966a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
-
 
 # DefaultThumbPix{#defaultthumbpix}
 
