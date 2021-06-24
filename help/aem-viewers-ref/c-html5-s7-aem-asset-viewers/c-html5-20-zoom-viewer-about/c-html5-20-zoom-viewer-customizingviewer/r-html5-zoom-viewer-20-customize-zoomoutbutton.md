@@ -2,16 +2,15 @@
 description: Tocca o fai clic su questo pulsante per ingrandire un’immagine nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari al fine di salvare lo schermo immobiliare. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Zoom out
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1502aab5-1839-48c5-a4d2-439605bbeb6e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
-
 
 # Pulsante Zoom out{#zoom-out-button}
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomOutButton_dark_down.png);
 background-image:url(images/v2/ZoomOutButton_dark_disabled.png); 
 }
 ```
-
