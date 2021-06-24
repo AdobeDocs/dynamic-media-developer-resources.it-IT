@@ -2,16 +2,15 @@
 description: Descrive i tipi di dati nuovi e modificati per l’API IPS versione 4.5.
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # Tipi di dati: Nuovo e modificato{#data-types-new-and-modified}
 
@@ -49,4 +48,3 @@ Sintassi
 
 * `MetadataUpdate`
 * `UploadUrlsJob` richiede un  `urlArray` e aggiunge un  `numUrls` conteggio facoltativo
-
