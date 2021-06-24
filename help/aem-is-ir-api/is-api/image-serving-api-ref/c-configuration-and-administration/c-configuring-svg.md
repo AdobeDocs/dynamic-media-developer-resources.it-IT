@@ -2,16 +2,15 @@
 description: Il componente SvgRender è un’applicazione Java indipendente.
 solution: Experience Manager
 title: Configurazione di SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
-
 
 # Configurazione di SVG{#configuring-svg}
 
