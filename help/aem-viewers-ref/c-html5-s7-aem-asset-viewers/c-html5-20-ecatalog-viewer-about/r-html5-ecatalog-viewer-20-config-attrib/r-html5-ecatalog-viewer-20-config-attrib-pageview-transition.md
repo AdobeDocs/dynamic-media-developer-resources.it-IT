@@ -2,16 +2,15 @@
 description: PageView.transition
 solution: Experience Manager
 title: PageView.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aa12a210-88d9-4b96-b598-6967496ac668
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
-
 
 # PageView.transition{#pageview-transition}
 
