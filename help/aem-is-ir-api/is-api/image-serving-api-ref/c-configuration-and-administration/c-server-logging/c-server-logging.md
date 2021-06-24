@@ -2,16 +2,15 @@
 description: Tutti i file di log vengono scritti nella stessa cartella di log specificata con la directory TC.
 solution: Experience Manager
 title: Registrazione server
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
-
 
 # Registrazione server{#server-logging}
 
