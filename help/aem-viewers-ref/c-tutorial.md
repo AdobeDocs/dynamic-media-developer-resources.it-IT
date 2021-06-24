@@ -40,7 +40,7 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
    >
    >Puoi completare questa esercitazione senza dover scaricare il pacchetto SDK per visualizzatori, in quanto l’SDK viene caricato in remoto. Tuttavia, il pacchetto Visualizzatore include ulteriori esempi e una guida di riferimento API che sarà utile quando crei i tuoi visualizzatori.
 
-## Carica l&#39;SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Caricare l’SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Per iniziare, crea una nuova pagina per sviluppare il visualizzatore zoom di base che stai per creare.
 
@@ -144,7 +144,7 @@ Ora aggiungi stile al visualizzatore.
 
 Ora verranno inclusi i componenti `Container` e `ZoomView`.
 
-## Inclusione di Container e ZoomView {#section-1a01730663154a508b88cc40c6f35539}
+## Incluso contenitore e visualizzazione zoom {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Crea un visualizzatore effettivo includendo i componenti `Container` e `ZoomView`.
 
