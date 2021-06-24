@@ -2,18 +2,17 @@
 description: I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
 solution: Experience Manager
 title: Dati di contenuto statico
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 4%
 
 ---
 
-
-# Dati del contenuto statico{#static-contents-data}
+# Dati di contenuto statico{#static-contents-data}
 
 I campi seguenti sono supportati per i cataloghi di contenuti statici (non immagini).
 
@@ -47,4 +46,3 @@ I campi seguenti sono supportati per i cataloghi di contenuti statici (non immag
   <td class="stentry"> <p>Dimensioni video. </p></td> 
  </tr> 
 </table>
-
