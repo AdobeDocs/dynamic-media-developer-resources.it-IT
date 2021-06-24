@@ -2,16 +2,15 @@
 description: Percorso file maschera. Percorso e nome relativi o assoluti per un file immagine maschera associato a questo record del catalogo.
 solution: Experience Manager
 title: MaskPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 3%
 
 ---
-
 
 # MaskPath{#maskpath}
 
