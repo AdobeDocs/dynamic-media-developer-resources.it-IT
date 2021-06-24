@@ -2,16 +2,15 @@
 description: Individua un’azione di clic nel browser.
 solution: Experience Manager
 title: Mappa immagine
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 10%
 
 ---
-
 
 # Mappa immagine{#imagemap}
 
@@ -31,4 +30,3 @@ Sempre associata a un&#39;immagine. Puoi ottenere una destinazione `ImageMap` da
 | `*`position`*` | `xsd:string` | Posizione nel formato dell’attributo dell’elemento HTML `<area>` [!DNL coords] . Ad esempio: `coords ="0,0,84,128"`. |
 | `*`abilitato`*` | `xsd:boolean` | True se la mappa immagine è abilitata. |
 | `*`lastModified`*` | `xsd:dateTime` | Data e ora dell’ultima modifica apportata alla mappa immagine. |
-
