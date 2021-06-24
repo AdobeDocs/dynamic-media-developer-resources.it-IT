@@ -2,18 +2,17 @@
 description: L’immagine di precaricamento è un’immagine di anteprima della risorsa statica che si carica subito dopo aver chiamato il metodo init() e viene visualizzata mentre vengono scaricate le librerie SDK del visualizzatore, le informazioni sulla risorsa e sul predefinito. Lo scopo dell’immagine precaricata è quello di migliorare visivamente il tempo di caricamento del visualizzatore e presentare rapidamente i contenuti all’utente.
 solution: Experience Manager
 title: Immagine precaricata
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Developer,Business Practitioner
 exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Precarica immagine{#preload-image}
+# Immagine precaricata{#preload-image}
 
 L’immagine di precaricamento è un’immagine di anteprima della risorsa statica che si carica subito dopo aver chiamato il metodo init() e viene visualizzata mentre vengono scaricate le librerie SDK del visualizzatore, le informazioni sulla risorsa e sul predefinito. Lo scopo dell’immagine precaricata è quello di migliorare visivamente il tempo di caricamento del visualizzatore e presentare rapidamente i contenuti all’utente.
 
