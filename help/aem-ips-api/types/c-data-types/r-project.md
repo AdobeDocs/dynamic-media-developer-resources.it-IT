@@ -2,16 +2,15 @@
 description: Set di risorse denominate.
 solution: Experience Manager
 title: Progetto
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 24%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
-
 
 # Progetto{#project}
 
@@ -25,4 +24,3 @@ Sintassi
 |---|---|---|
 | `*`project Handle`*` | `xsd:string` | Maniglia del progetto. |
 | `*`name`*` | `xsd:string` | Nome progetto. |
-
