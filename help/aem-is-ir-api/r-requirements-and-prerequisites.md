@@ -2,16 +2,15 @@
 description: Prima di utilizzare Dynamic Media Image Serving, assicurati che il sistema soddisfi i requisiti di sistema.
 solution: Experience Manager
 title: Requisiti di sistema e prerequisiti
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Requisiti di sistema e prerequisiti{#system-requirements-and-prerequisites}
 
@@ -53,7 +52,7 @@ a
 
 `<ip address> <fully qualified hostname>`
 
-## Software del server {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
+## Software server {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
 Dynamic Media Image Serving richiede il seguente software server.
 
@@ -70,4 +69,3 @@ Dynamic Media Image Serving richiede il seguente software server.
 **Nota:** per utilizzare Image Server su Windows, è necessario installare Microsoft Visual Studio 2010 ridistribuibile. Il ridistribuibile è disponibile nel seguente percorso:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
-
