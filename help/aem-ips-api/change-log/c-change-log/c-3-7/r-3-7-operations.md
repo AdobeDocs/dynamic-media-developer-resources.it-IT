@@ -2,16 +2,15 @@
 description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 3.7.
 solution: Experience Manager
 title: Operazioni nuove e modificate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # Operazioni: Nuovo e modificato{#operations-new-and-modified}
 
@@ -52,4 +51,3 @@ Sintassi
 
 * Sono stati aggiunti `excludeFieldArray` e `getUniqueMetadataValues`.
 * È stato impostato `fieldHandle` un parametro obbligatorio.
-
