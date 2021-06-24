@@ -2,18 +2,17 @@
 description: Opzioni del file PostScript.
 solution: Experience Manager
 title: OpzioniPostScript
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fd2093b5-9856-4f31-8853-1027194a71df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 8%
 
 ---
 
-
-# PostScriptOptions{#postscriptoptions}
+# OpzioniPostScript{#postscriptoptions}
 
 Opzioni del file PostScript.
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`colorspace`*` | `xsd:string` | Modalità spazio colore PostScript. |
 | `*`alfa`*` | `xsd:boolean` | Se rasterizzare il file in un’immagine. In tal caso, creerà uno sfondo trasparente se il file originale è definito in questo modo. Generalmente utilizzato per creare loghi sovrapposti. |
 | `*`extractSearchWords`*` | `xsd:boolean` | Se estrarre le parole di ricerca dal file PostScript. |
-
