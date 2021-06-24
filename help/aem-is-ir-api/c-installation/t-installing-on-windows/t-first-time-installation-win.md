@@ -2,16 +2,15 @@
 description: Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
 solution: Experience Manager
 title: Installazione per la prima volta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
-
 
 # Installazione per la prima volta{#installing-for-the-first-time}
 
