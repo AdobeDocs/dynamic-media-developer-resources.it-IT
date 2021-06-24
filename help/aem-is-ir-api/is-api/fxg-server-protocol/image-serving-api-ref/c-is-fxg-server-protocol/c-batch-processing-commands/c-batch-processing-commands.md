@@ -2,16 +2,15 @@
 description: I comandi seguenti comprendono l'API di elaborazione batch esposta da PlatformServer.
 solution: Experience Manager
 title: Comandi di elaborazione batch
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # Comandi di elaborazione batch{#batch-processing-commands}
 
