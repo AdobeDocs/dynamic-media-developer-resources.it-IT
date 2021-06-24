@@ -2,16 +2,15 @@
 description: Descrive i parametri dell'operazione comuni gestiti dall'API del servizio Web IPS.
 solution: Experience Manager
 title: Metodi operativi
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Metodi operativi{#operations-methods}
 
@@ -19,7 +18,7 @@ Questa sezione descrive i parametri operativi comuni gestiti dall&#39;API del se
 
 Per una descrizione completa di ciascun parametro di operazione, vedere [Parametri di operazione](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Maniglie: Informazioni su {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Maniglie: Informazioni {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 Gestisce i riferimenti agli oggetti IPS restituiti da alcune operazioni API. Puoi anche passare gli handle come parametri alle chiamate di operazione successive. I gestori sono tipi di dati stringa ( `xsd:string`).
 
