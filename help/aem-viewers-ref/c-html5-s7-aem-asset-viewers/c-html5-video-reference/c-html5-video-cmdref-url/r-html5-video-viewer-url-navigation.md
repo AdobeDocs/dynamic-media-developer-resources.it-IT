@@ -2,18 +2,17 @@
 description: Comando URL per il visualizzatore video.
 solution: Experience Manager
 title: navigazione
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
-
-# navigation{#navigation}
+# navigazione{#navigation}
 
 Comando URL per il visualizzatore video.
 
@@ -43,4 +42,3 @@ Nessuno.
 ```
 navigation=Scene7SharedAssets/adobe_qbc_final_nc
 ```
-
