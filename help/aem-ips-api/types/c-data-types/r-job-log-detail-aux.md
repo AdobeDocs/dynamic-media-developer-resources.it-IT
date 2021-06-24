@@ -2,16 +2,15 @@
 description: Contiene messaggi supplementari associati al messaggio del registro di lavoro principale (JobDetail). Include avvisi e altri dettagli associati alle risorse attualmente elaborate.
 solution: Experience Manager
 title: JobLogDetailAux
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 789736c5-d74d-4970-9665-b43e316aca69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
-
 
 # JobLogDetailAux{#joblogdetailaux}
 
@@ -26,4 +25,3 @@ Sintassi
 | `*`logMessage`*` | `xsd:string` | Un messaggio ausiliario. |
 | `*`logType`*` | `xsd:string` | Tipo di log: `IPSJobLog.gcUploadWarning` o `IPSJobLog.gcUploadError`. |
 | `*`dateCreated`*` | `xsd:dateTime` | Data di creazione del registro di lavoro ausiliario. |
-
