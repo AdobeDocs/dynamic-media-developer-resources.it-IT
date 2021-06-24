@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per visualizzatore zoom di base.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -49,4 +48,3 @@ Modificatore di nitidezza aggiunto a tutte le immagini del set:
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")
 ```
-
