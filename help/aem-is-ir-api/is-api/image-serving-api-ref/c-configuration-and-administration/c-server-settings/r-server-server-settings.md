@@ -2,16 +2,15 @@
 description: Utilizza queste impostazioni del server per configurare il server.
 solution: Experience Manager
 title: Server
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Server{#server}
 
