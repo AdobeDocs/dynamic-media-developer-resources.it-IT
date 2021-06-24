@@ -2,18 +2,17 @@
 description: Spazio dei nomi dell’SDK per visualizzatori
 solution: Experience Manager
 title: Spazio dei nomi dell’SDK per visualizzatori
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1f12c9d-9b00-44ee-bd91-76a4d882fecf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-
-# Spazio dei nomi SDK del visualizzatore{#viewer-sdk-namespace}
+# Spazio dei nomi dell’SDK per visualizzatori{#viewer-sdk-namespace}
 
 Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte dall’API del visualizzatore stesso.
 
@@ -44,4 +43,3 @@ The same code for the viewer served from Dynamic Media Classic looks like the fo
 } 
 });
 ```
-
