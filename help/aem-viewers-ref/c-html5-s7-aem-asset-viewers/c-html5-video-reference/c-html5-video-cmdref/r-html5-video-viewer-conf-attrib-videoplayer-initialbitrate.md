@@ -2,16 +2,15 @@
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
 title: VideoPlayer.initialbitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 83f2af31-e2dc-430c-b9ae-563cdcd20954
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
-
 
 # VideoPlayer.initialbitrate{#videoplayer-initialbitrate}
 
@@ -41,4 +40,3 @@ Facoltativo.
 ```
 initialbitrate=600
 ```
-
