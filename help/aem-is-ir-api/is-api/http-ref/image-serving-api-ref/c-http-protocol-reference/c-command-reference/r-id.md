@@ -2,16 +2,15 @@
 description: Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequentemente, i server in reti di caching come Akamai, cache del browser e cache del server proxy aziendale possono memorizzare le risposte Image Server che potrebbero non essere aggiornate per periodi di tempo.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
-
 
 # Id{#id}
 
@@ -85,6 +84,6 @@ Nessuno.
 
 Per esempio, vedere la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) .
 
-## Vedere Anche {#section-6b4befb47202415195a68516f60e9988}
+## Vedi anche {#section-6b4befb47202415195a68516f60e9988}
 
 [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3),  [catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a),  [attribute::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
