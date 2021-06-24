@@ -2,16 +2,15 @@
 description: Pubblica i metadati sul server di metadati.
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # MetadataPublishJobType{#metadatapublishjobtype}
 
@@ -37,4 +36,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
