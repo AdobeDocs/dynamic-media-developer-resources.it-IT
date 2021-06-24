@@ -2,16 +2,15 @@
 description: Restituisce i dati del file ZIP.
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 18%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -75,4 +74,3 @@ Questo esempio di codice restituisce informazioni sul file ZIP, incluse le dimen
    </zipArray>
 </getZipEntriesReturn>
 ```
-
