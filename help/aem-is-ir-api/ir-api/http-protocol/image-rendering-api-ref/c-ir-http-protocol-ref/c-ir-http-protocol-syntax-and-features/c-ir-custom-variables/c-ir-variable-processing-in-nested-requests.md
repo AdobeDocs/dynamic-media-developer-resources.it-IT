@@ -2,16 +2,15 @@
 description: I riferimenti $var$ possono verificarsi ovunque all'interno delle parentesi graffe di una richiesta Image Server o Image Rendering nidificata, inclusa a sinistra del '?' separazione del percorso dalla query.
 solution: Experience Manager
 title: Elaborazione delle variabili nelle richieste nidificate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fa82ec48-aeec-4cd9-8d2e-cf9c913c67a7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
-
 
 # Elaborazione delle variabili nelle richieste nidificate{#variable-processing-in-nested-requests}
 
