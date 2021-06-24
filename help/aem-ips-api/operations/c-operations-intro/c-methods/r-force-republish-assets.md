@@ -2,16 +2,15 @@
 description: Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 8%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -89,4 +88,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
