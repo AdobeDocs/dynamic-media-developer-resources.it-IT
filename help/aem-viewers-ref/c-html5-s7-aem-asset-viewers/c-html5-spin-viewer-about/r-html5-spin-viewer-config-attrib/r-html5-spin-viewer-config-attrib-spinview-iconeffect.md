@@ -2,16 +2,15 @@
 description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e84336da-7f33-4fa9-b881-93b9db4bae8b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 4%
 
 ---
-
 
 # SpinView.iconeffect{#spinview-iconeffect}
 
