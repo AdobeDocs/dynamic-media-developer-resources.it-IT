@@ -2,16 +2,15 @@
 description: Le macro di comando forniscono collegamenti denominati per set di comandi. Le macro sono definite in file di definizione macro separati, che possono essere allegati ai cataloghi di immagini o al catalogo predefinito.
 solution: Experience Manager
 title: Macro di comando
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
-
 
 # Macro di comando{#command-macros}
 
