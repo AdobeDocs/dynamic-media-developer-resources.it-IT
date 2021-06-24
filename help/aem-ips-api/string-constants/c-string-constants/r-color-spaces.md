@@ -2,16 +2,15 @@
 description: Utilizzato da IccProfileFieldUpdate/colorSpace e IccProfileFieldUpdate/pcsType.
 solution: Experience Manager
 title: Spazi colore
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f2989963-e0d4-42b8-9807-a63d43728540
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 3%
+source-wordcount: '25'
+ht-degree: 4%
 
 ---
-
 
 # Spazi colore{#color-spaces}
 
@@ -45,4 +44,3 @@ Sintassi
 * [!DNL `DCLR`]
 * [!DNL `ECLR`]
 * [!DNL `FCLR`]
-
