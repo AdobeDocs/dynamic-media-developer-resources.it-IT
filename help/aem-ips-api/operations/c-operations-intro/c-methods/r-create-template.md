@@ -2,16 +2,15 @@
 description: Crea un’immagine a livelli che può avere più livelli di testo e immagine.
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 9%
 
 ---
-
 
 # createTemplate{#createtemplate}
 
@@ -70,4 +69,3 @@ Questo esempio di codice crea un modello in una cartella specificata da un handl
    <assetHandle>a|153393|2|2061</assetHandle>
 </createTemplateReturn>
 ```
-
