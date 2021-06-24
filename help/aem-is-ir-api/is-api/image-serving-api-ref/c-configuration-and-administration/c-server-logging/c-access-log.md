@@ -2,16 +2,15 @@
 description: Si tratta del registro principale che tiene traccia di tutte le richieste HTTP effettuate al server Platform. Image Rendering, se abilitato, scrive i dati del registro di accesso nello stesso file.
 solution: Experience Manager
 title: Registro di accesso
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e7f9d935-cb98-404c-8922-6420a4217733
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
-
 
 # Registro di accesso{#access-log}
 
