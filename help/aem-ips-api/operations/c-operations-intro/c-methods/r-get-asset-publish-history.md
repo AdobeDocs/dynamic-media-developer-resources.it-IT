@@ -2,16 +2,15 @@
 description: Restituisce la cronologia di pubblicazione di una risorsa.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 14%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -66,4 +65,3 @@ Questo esempio di codice restituisce la cronologia di pubblicazione di una risor
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
