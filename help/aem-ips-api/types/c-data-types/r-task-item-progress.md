@@ -2,16 +2,15 @@
 description: Informazioni sull'avanzamento dell'elemento dell'attività.
 solution: Experience Manager
 title: TaskItemProgress
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 568a5601-b928-447d-8297-01139f36cf73
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
-
 
 # TaskItemProgress{#taskitemprogress}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`progress`*` | `xsd:double` | Avanzamento completato %. |
 | `*`progressMessage`*` | `xsd:string` | Messaggio del processo. |
 | `*`lastProgressUpdate`*` | `xsd:dateTime` | Ora dell&#39;ultimo aggiornamento. |
-
