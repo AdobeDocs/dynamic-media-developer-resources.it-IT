@@ -2,16 +2,15 @@
 description: Restituisce cartelle e sottocartelle in una struttura ad albero gerarchica. La risposta getFolderTree è limitata a un massimo di 100.000 cartelle
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 7%
 
 ---
-
 
 # getFolderTree{#getfoldertree}
 
@@ -132,4 +131,3 @@ Questo esempio di codice utilizza un handle aziendale e un parametro di profondi
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
