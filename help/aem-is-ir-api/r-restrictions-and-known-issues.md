@@ -2,16 +2,15 @@
 description: Ci sono alcune restrizioni e problemi noti che devono essere presi in considerazione quando si utilizza Dynamic Media Image Serving.
 solution: Experience Manager
 title: Restrizioni e problemi noti
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
-
 
 # Restrizioni e problemi noti{#restrictions-and-known-issues}
 
@@ -56,7 +55,7 @@ Ci sono alcune restrizioni e problemi noti che devono essere presi in consideraz
 
 La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagine, se già rilevata. Se si esegue una modifica sufficiente a un&#39;immagine primaria, la libreria Digimarc potrebbe comunque essere in grado di riconoscere che la filigrana è stata applicata. Tuttavia, potrebbe non essere in grado di leggere tali informazioni. Questo si traduce in una nuova immagine in cui non è possibile ottenere le informazioni Digimarc originali applicate all&#39;immagine originale. Image Serving può ora applicare la filigrana Digimarc definita nel catalogo aziendale.
 
-## Restrizioni applicabili sia al Image Server che al rendering delle immagini {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## Restrizioni applicabili sia al servizio immagini che al rendering delle immagini {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
 * Image Server e Image Rendering potrebbero non sfruttare appieno tutte le CPU quando sono disponibili più di 4 CPU. Simula il traffico su questi computer per vedere quanto è vantaggioso con più di 4 CPU.
 * Gli URL remoti che restituiscono un reindirizzamento (stati HTTP 301, 302 o 303) vengono rifiutati.
@@ -151,6 +150,6 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 
    Aggiungi una marca temporale o un altro identificatore univoco alla stringa di richiesta, ad esempio `"&.ts=currentTime`.
 
-## Restrizioni applicabili solo alle utility {#section-906a6b2378154b3da122b2332983f7a5}
+## Restrizioni applicabili solo ai servizi di pubblica utilità {#section-906a6b2378154b3da122b2332983f7a5}
 
 `ImageConvert`a volte si blocca con un errore di segmentazione quando viene interrotto con un  `control-c`.
