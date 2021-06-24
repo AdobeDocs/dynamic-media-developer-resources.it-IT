@@ -2,16 +2,15 @@
 description: Mappa di traduzione stringa. Si riferisce a un locId che può essere mappato a qualsiasi numero di internalLocId.
 solution: Experience Manager
 title: LocaleStrMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
-
 
 # LocaleStrMap{#localestrmap}
 
