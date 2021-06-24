@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## Incorporazione tramite API basate su setter {#section-44e014925f24418b900696003855c0a9}
+## Incorporazione tramite API basata su setter {#section-44e014925f24418b900696003855c0a9}
 
 Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non accetta alcun parametro e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
 
