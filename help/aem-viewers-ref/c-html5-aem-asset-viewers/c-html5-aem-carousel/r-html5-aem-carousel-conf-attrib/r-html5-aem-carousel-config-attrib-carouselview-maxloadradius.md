@@ -2,13 +2,12 @@
 description: CarouselView.maxloadradius
 solution: Experience Manager
 title: CarouselView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Developer,Business Practitioner
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
