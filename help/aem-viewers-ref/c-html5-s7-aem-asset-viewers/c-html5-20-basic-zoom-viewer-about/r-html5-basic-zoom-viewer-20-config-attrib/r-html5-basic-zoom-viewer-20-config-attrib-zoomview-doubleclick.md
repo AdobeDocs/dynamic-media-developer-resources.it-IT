@@ -2,16 +2,15 @@
 description: ZoomView.doubleclick
 solution: Experience Manager
 title: ZoomView.doubleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 38c90d7f-ddbc-4123-b90d-02f9cabd785c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
-
 
 # ZoomView.doubleclick{#zoomview-doubleclick}
 
