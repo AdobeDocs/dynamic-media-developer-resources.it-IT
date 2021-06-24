@@ -2,16 +2,15 @@
 description: Ottiene informazioni su un utente. Utilizza l’indirizzo e-mail e la password di un utente di sistema come credenziali per autorizzare la richiesta. In caso contrario, l'operazione ottiene informazioni sull'utente predefinito.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 10%
 
 ---
-
 
 # getUserInfo{#getuserinfo}
 
@@ -71,4 +70,3 @@ Questo esempio di codice restituisce informazioni per l&#39;utente IPS predefini
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
