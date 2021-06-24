@@ -63,7 +63,7 @@ La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di 
 
 Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
-## Incorporamento del visualizzatore video {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporamento di un visualizzatore video {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il visualizzatore direttamente nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: a comparsa, incorporazione a dimensione fissa e incorporazione responsive della progettazione.
 
