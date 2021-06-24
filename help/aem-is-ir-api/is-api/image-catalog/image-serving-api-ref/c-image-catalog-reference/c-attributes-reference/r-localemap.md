@@ -2,16 +2,15 @@
 description: Mappa di traduzione ID. Specifica le regole utilizzate per tradurre gli ID immagine generici in ID specifici delle impostazioni internazionali.
 solution: Experience Manager
 title: LocaleMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
-
 
 # LocaleMap{#localemap}
 
