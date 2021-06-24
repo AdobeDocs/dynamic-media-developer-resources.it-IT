@@ -2,18 +2,17 @@
 description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo in alto a sinistra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 solution: Experience Manager
 title: Quota sociale
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-
-# Condivisione social{#social-share}
+# Quota sociale{#social-share}
 
 Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell&#39;angolo in alto a sinistra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 
@@ -126,4 +125,3 @@ Esempio: imposta un pannello con colore trasparente:
  background-color: transparent; 
 }
 ```
-
