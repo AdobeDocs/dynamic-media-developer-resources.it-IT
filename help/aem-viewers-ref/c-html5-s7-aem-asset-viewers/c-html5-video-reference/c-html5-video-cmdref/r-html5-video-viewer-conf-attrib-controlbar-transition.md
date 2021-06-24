@@ -2,16 +2,15 @@
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
-
 
 # ControlBar.transition{#controlbar-transition}
 
@@ -49,4 +48,3 @@ Facoltativo.
 ```
 transition=none
 ```
-
