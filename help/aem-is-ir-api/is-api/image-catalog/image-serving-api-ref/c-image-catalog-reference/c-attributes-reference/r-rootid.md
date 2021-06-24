@@ -2,16 +2,15 @@
 description: Identificatore del catalogo. L’elemento del percorso HTTP da utilizzare per identificare il catalogo nell’identificatore di oggetto immagine di una richiesta.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
-
 
 # RootId{#rootid}
 
