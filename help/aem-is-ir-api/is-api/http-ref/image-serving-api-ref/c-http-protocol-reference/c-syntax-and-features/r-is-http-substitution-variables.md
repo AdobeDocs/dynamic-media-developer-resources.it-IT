@@ -2,16 +2,15 @@
 description: Le variabili di sostituzione vengono utilizzate per trasferire i valori dall’URL della richiesta ai modelli di composizione memorizzati nei cataloghi di immagini. Le variabili possono anche essere utilizzate per trasmettere lo stesso valore in posizioni diverse in una richiesta complessa.
 solution: Experience Manager
 title: Variabili di sostituzione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Variabili di sostituzione{#substitution-variables}
 
@@ -64,13 +63,13 @@ Inoltre, tutte le definizioni ` $ *`var`*=` dall&#39;url o `catalog::Modifier` v
 
 Indipendentemente dal livello di nidificazione, solo la codifica HTTP a passo singolo deve essere applicata ai valori delle variabili che devono essere sostituiti in qualsiasi punto delle richieste Image Rendering nidificate o Image Serving o delle relative stringhe `catalog::Modifier` associate.
 
-## Elaborazione delle variabili nelle richieste esterne incorporate {#section-314e39a9aefb46faa737fd137897d1b0}
+## Elaborazione variabile nelle richieste esterne incorporate {#section-314e39a9aefb46faa737fd137897d1b0}
 
 ` $ *``*$` i riferimenti che si verificano in qualsiasi punto delle parentesi graffe di una richiesta esterna incorporata sono sostituiti dai valori di definizione della variabile corrispondenti. Questo consente di inserire richieste esterne incorporate in un modello in un catalogo immagini.
 
 I valori delle variabili che devono essere sostituiti in richieste esterne in genere devono essere codificati in doppia codifica, poiché non viene applicata alcuna nuova codifica prima che il server tenti di trasmettere l’URL esterno finale.
 
-## Elaborazione variabile nei file SVG {#section-a8359f9909764142b6a18ae778dca913}
+## Elaborazione variabile in file SVG {#section-a8359f9909764142b6a18ae778dca913}
 
 ` $ *``*$` i riferimenti varici possono verificarsi nei file SVG nei valori di attributo e nelle  `<text>` stringhe. Image Server le sostituisce con le definizioni ` $ *`var`*=` corrispondenti note al livello di nidificazione della richiesta in cui è specificato il file SVG.
 
