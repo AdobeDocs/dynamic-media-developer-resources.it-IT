@@ -2,16 +2,15 @@
 description: Il catalogo predefinito fornisce valori predefiniti per tutti gli attributi del catalogo per tutti i cataloghi di immagini.
 solution: Experience Manager
 title: Catalogo predefinito
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
-
 
 # Catalogo predefinito{#default-catalog}
 
@@ -26,4 +25,3 @@ Per il corretto funzionamento di Platform Server, il file degli attributi del ca
 >[!NOTE]
 >
 >Tutti i file di attributi del catalogo eccetto [!DNL default.ini] devono contenere un valore `attribute::RootId` univoco. `attribute::RootId` in  [!DNL default.ini] deve essere vuoto.
-
