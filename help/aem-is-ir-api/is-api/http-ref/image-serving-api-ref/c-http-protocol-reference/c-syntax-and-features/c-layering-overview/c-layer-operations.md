@@ -2,18 +2,17 @@
 description: Oltre al dimensionamento (size=) e al posizionamento (pos=) dei livelli relativi al livello 0 e alla specifica dell'ordine di composizione (l'ordine z) con il comando layer=, i livelli possono essere ruotati (rotate=) e capovolti (flip=).
 solution: Experience Manager
 title: Operazioni a livello
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-
-# Operazioni livello{#layer-operations}
+# Operazioni a livello{#layer-operations}
 
 Oltre al dimensionamento (size=) e al posizionamento (pos=) dei livelli relativi al livello 0 e alla specifica dell&#39;ordine di composizione (l&#39;ordine z) con il comando layer=, i livelli possono essere ruotati (rotate=) e capovolti (flip=).
 
