@@ -2,16 +2,15 @@
 description: Consente di creare una cartella.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 16%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -71,4 +70,3 @@ Questo codice di esempio crea una cartella nella directory principale di un&#39;
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-
