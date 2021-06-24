@@ -2,16 +2,15 @@
 description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '175'
 ht-degree: 2%
 
 ---
-
 
 # VideoPlayer.posterimage{#videoplayer-posterimage}
 
