@@ -2,16 +2,15 @@
 description: Il visualizzatore visualizza le icone Preferiti nella vista principale, in punti in cui è stato originariamente aggiunto dall’utente.
 solution: Experience Manager
 title: Effetto Preferiti
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
-
 
 # Effetto Preferiti{#favorites-effect}
 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
