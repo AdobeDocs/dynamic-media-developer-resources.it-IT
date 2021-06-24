@@ -2,18 +2,17 @@
 description: I campi seguenti sono riconosciuti nei file di immagini e dati SVG.
 solution: Experience Manager
 title: Dati Image_SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
-# Image_SVG data{#image-svg-data}
+# Dati Image_SVG{#image-svg-data}
 
 I campi seguenti sono riconosciuti nei file di immagini e dati SVG.
 
@@ -127,4 +126,3 @@ I campi seguenti sono riconosciuti nei file di immagini e dati SVG.
   </tr> 
  </tbody> 
 </table>
-
