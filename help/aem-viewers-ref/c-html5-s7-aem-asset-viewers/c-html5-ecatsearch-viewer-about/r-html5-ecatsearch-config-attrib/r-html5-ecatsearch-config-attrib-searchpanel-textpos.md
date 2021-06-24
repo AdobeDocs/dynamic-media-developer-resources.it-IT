@@ -2,16 +2,15 @@
 description: SearchPanel.textpos
 solution: Experience Manager
 title: SearchPanel.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5422763c-68cd-4662-b2aa-9f45275ced6a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
-
 
 # SearchPanel.textpos{#searchpanel-textpos}
 
