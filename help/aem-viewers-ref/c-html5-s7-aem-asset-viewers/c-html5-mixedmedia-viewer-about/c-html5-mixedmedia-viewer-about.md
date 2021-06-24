@@ -43,7 +43,7 @@ L’attività di configurazione e skin del visualizzatore è simile a quella di 
 
 Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interazione con il visualizzatore di file multimediali diversi {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interazione con i visualizzatori di file multimediali diversi {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 Il visualizzatore di file multimediali diversi supporta gesti touch e touch singoli comuni ad altre applicazioni mobili. Quando il visualizzatore non è in grado di elaborare il gesto di scorrimento rapido di un utente, inoltra l’evento al browser web per eseguire un scorrimento nativo della pagina. Questa funzionalità consente a un utente di navigare nella pagina anche se il visualizzatore occupa la maggior parte dell’area dello schermo del dispositivo.
 
@@ -110,7 +110,7 @@ Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in 
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## Informazioni sull&#39;incorporazione di dimensioni fisse e design reattivo {#section-ec86b100ba5943d0b16694268520bbde}
+## Informazioni sull’incorporazione di dimensioni fisse e design reattivo {#section-ec86b100ba5943d0b16694268520bbde}
 
 Nella modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente, che potrebbe avere già alcuni contenuti del cliente non correlati al visualizzatore. Il visualizzatore normalmente occupa solo una parte del patrimonio immobiliare di una pagina web.
 
@@ -124,7 +124,7 @@ Nella modalità di incorporamento della progettazione reattiva, il visualizzator
 
 In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore compila solo quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
-## Incorporamento a dimensione fissa {#section-17d162f76ffa4804b27928f51e7bea1d}
+## Incorporazione a dimensione fissa {#section-17d162f76ffa4804b27928f51e7bea1d}
 
 Per aggiungere il visualizzatore a una pagina web, effettua le seguenti operazioni:
 
@@ -268,7 +268,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Incorporazione reattiva a altezza illimitata {#section-056cb574713c4d07be6d07cf3c598839}
+## Incorporazione reattiva con altezza illimitata {#section-056cb574713c4d07be6d07cf3c598839}
 
 Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta al contenitore del visualizzatore `DIV` di assumere il 40% delle dimensioni della finestra del browser Web, lasciando senza limitazioni l’altezza. Il codice HTML della pagina web sarà simile al seguente:
 
