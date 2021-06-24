@@ -2,18 +2,17 @@
 description: Per aggiungere una libreria di immagini reattive a una pagina web e gestire le immagini esistenti con la libreria, completa i passaggi seguenti.
 solution: Experience Manager
 title: Utilizzo di una libreria di immagini reattive
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-
-# Utilizzo della libreria di immagini reattive{#using-responsive-image-library}
+# Utilizzo di una libreria di immagini reattive{#using-responsive-image-library}
 
 Per aggiungere una libreria di immagini reattive a una pagina web e gestire le immagini esistenti con la libreria, completa i passaggi seguenti.
 
