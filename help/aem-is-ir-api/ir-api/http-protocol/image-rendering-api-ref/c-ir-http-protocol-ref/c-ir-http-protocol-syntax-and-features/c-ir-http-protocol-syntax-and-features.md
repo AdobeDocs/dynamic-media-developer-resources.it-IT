@@ -2,16 +2,15 @@
 description: Questa sezione descrive la sintassi del protocollo HTTP e le funzioni per Dynamic Media Image Rendering.
 solution: Experience Manager
 title: Sintassi e funzionalità del protocollo HTTP
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 62707e37-0bf0-4e72-807c-8a68dfe0067e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
-
 
 # Sintassi e funzionalità del protocollo HTTP{#http-protocol-syntax-and-features}
 
