@@ -2,16 +2,15 @@
 description: Direzione di rendering del testo. Specifica l'angolo in cui il testo specificato con textPs= viene disposto ed eseguito il rendering nella casella di testo (definita con size= o textFlowPath=).
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 5%
 
 ---
-
 
 # textAngle{#textangle}
 
