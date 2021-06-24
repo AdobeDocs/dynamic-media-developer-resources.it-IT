@@ -2,18 +2,17 @@
 description: Allineamento orizzontale per le miniature. Specifica l'allineamento orizzontale dell'immagine miniatura nel rettangolo dell'immagine di risposta specificato da wid= e hei= o dall'attributo DefaultThumbPix.
 solution: Experience Manager
 title: AllineaOrizzontale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9a51f92a-ffb9-4460-a910-9f2fefe3eae5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
 
-
-# ThumbHorizAlign{#thumbhorizalign}
+# AllineaOrizzontale{#thumbhorizalign}
 
 Allineamento orizzontale per le miniature. Specifica l&#39;allineamento orizzontale dell&#39;immagine miniatura nel rettangolo dell&#39;immagine di risposta specificato da wid= e hei= o dall&#39;attributo::DefaultThumbPix.
 
