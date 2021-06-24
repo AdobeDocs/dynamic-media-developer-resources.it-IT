@@ -1,21 +1,20 @@
 ---
-description: Lo strumento di condivisione Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+description: Lo strumento di condivisione facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condivisione Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: Condivisione facebook
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 792d53de-5561-48bb-85d7-fbf3b6377673
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
+# Condivisione facebook{#facebook-share}
 
-# Condivisione Facebook{#facebook-share}
-
-Lo strumento di condivisione Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+Lo strumento di condivisione facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -56,7 +55,7 @@ L&#39;aspetto del pulsante di condivisione Facebook è controllato con il seguen
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-Esempio : per impostare un pulsante di condivisione Facebook di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
+Esempio: per impostare un pulsante di condivisione Facebook di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7ecatalogsearchviewer .s7facebookshare { 
@@ -76,4 +75,3 @@ background-image:url(images/v2/FacebookShare_dark_down.png);
 background-image:url(images/v2/FacebookShare_dark_disabled.png); 
 }
 ```
-
