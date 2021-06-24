@@ -2,14 +2,13 @@
 description: Riferimento API JavaScript per il visualizzatore video interattivo.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 47fbfd39-a1f4-4deb-b064-306ca9fd3ae7
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
