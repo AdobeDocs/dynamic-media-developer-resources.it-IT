@@ -2,16 +2,15 @@
 description: Profilo colore di input predefinito CMYK. Specifica il nome del profilo colore ICC da utilizzare per le immagini di materiale CMYK che non incorporano un profilo colore.
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 09be34c8-facc-40c3-ba15-c48bd93b3be1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
-
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
