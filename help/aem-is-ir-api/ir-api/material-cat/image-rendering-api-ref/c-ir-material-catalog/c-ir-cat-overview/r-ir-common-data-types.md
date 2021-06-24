@@ -2,16 +2,15 @@
 description: Gli attributi e i campi del catalogo possono contenere dati di uno dei seguenti tipi.
 solution: Experience Manager
 title: Tipi di dati comuni
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9af44474-0512-452a-af9e-48918e9da6ca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # Tipi di dati comuni{#common-data-types}
 
