@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per visualizzatori di file multimediali diversi.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 200805ca-20e5-4d3a-90ba-2511e71705ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -41,4 +40,3 @@ Nessuno.
 ```
 <instance>.setParams("ZoomView.zoomstep=2,3&ZoomView.iscommand=op_sharpen%3d1")
 ```
-
