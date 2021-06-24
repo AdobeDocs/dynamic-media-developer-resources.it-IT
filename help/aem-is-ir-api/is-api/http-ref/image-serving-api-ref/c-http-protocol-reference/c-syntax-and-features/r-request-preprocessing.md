@@ -2,18 +2,17 @@
 description: Image Serving fornisce un semplice preprocessore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 solution: Experience Manager
 title: Pre-elaborazione delle richieste
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-
-# Richiedi preelaborazione{#request-preprocessing}
+# Pre-elaborazione delle richieste{#request-preprocessing}
 
 Image Serving fornisce un semplice preprocessore di richiesta basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 
