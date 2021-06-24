@@ -2,16 +2,15 @@
 description: Tipo opzionale che consente di scegliere un particolare fotogramma video da usare come immagine miniatura.
 solution: Experience Manager
 title: ThumbnailOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
-
 
 # ThumbnailOptions{#thumbnailoptions}
 
@@ -47,4 +46,3 @@ Sintassi
       </sequence>
 </complexType>
 ```
-
