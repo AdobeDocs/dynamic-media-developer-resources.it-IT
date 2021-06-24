@@ -2,16 +2,15 @@
 description: Modalità offuscamento richieste. Specifica il tipo di offuscamento da applicare alle richieste valide.
 solution: Experience Manager
 title: RequestObfuscation
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c330c8de-9539-442f-a52a-786f882873cf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
-
 
 # RequestObfuscation{#requestobfuscation}
 
