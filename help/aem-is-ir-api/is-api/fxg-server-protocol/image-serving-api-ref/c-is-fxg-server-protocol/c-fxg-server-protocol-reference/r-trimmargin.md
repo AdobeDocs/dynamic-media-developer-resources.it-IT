@@ -2,16 +2,15 @@
 description: Imposta il margine di taglio. Imposta il margine di trim impostato nel file PDF.
 solution: Experience Manager
 title: trimMargin
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: dc6e31f8-d3be-44d3-8342-a4ef4b3fd61b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # trimMargin{#trimmargin}
 
