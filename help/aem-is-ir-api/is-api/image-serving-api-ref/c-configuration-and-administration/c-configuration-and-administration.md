@@ -2,16 +2,15 @@
 description: Utilizza le informazioni presenti in questa sezione per configurare e amministrare il server di immagini.
 solution: Experience Manager
 title: Configurazione e amministrazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '62'
 ht-degree: 3%
 
 ---
-
 
 # Configurazione e amministrazione{#configuration-and-administration}
 
