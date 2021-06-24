@@ -2,16 +2,15 @@
 description: AssetPublishContextArray
 solution: Experience Manager
 title: AssetPublishContextArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9eefcc8a-4779-4d03-8290-d1482fa09f58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 16%
+source-wordcount: '22'
+ht-degree: 18%
 
 ---
-
 
 # AssetPublishContextArray{#assetpublishcontextarray}
 
@@ -22,4 +21,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`AssetPublishContextArray`*` | `types:AssetPublishContext` | Matrice di contesti di pubblicazione delle risorse. |
-
