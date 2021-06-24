@@ -2,16 +2,15 @@
 description: Aggiorna le impostazioni di configurazione del visualizzatore SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 11%
+source-wordcount: '66'
+ht-degree: 12%
 
 ---
-
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
