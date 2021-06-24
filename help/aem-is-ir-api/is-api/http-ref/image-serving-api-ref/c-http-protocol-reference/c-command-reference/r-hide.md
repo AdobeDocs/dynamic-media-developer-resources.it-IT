@@ -2,18 +2,17 @@
 description: Nascondi livello. Consente di nascondere un livello senza rimuoverlo dalla stringa di richiesta.
 solution: Experience Manager
 title: nascondere
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf70af48-53d6-4c4a-9d16-3696bbfe86ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 4%
 
 ---
 
-
-# hide{#hide}
+# nascondere{#hide}
 
 Nascondi livello. Consente di nascondere un livello senza rimuoverlo dalla stringa di richiesta.
 
