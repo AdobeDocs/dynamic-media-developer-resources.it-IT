@@ -2,18 +2,17 @@
 description: Callback degli eventi
 solution: Experience Manager
 title: Callback degli eventi
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Callback evento{#event-callbacks}
+# Callback degli eventi{#event-callbacks}
 
 Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del comportamento di runtime.
 
