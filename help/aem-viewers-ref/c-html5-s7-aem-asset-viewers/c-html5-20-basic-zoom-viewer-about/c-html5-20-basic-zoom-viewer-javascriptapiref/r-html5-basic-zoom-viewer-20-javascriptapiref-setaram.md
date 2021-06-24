@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per visualizzatore zoom di base.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5a34ad67-3a4c-408c-8e20-bbab87bbd470
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 2%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -47,4 +46,3 @@ Nessuno.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
