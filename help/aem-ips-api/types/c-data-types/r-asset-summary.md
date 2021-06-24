@@ -2,16 +2,15 @@
 description: Risultati della ricerca di metadati contenenti informazioni riepilogate su una risorsa.
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
-
 
 # AssetSummary{#assetsummary}
 
@@ -35,4 +34,3 @@ Sintassi
 | `*`metadataArray`*` | `types:MetadataArray` | Array di valori di metadati associati alla risorsa. |
 | `*`punteggio`*` | `xsd:double` | Definisce la precisione in caso di ricerca per similarità (0 = nessuna corrispondenza, 1 = corrispondenza esatta). |
 | `*`scoreDetail`*` | `xsd:string` | Contiene informazioni dettagliate su aree simili a seguito di una ricerca per similarità. |
-
