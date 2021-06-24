@@ -2,16 +2,15 @@
 description: Comando URL per il visualizzatore video.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 945c32e0-a67b-4c27-b661-26510615d757
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 6%
 
 ---
-
 
 # videoServerUrl{#videoserverurl}
 
@@ -41,4 +40,3 @@ Facoltativo. Non necessario per l’utilizzo standard di SaaS.
 ```
 videoServerUrl=http://s7d1.scene7.com/is/content/
 ```
-
