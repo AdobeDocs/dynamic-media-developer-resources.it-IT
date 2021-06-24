@@ -2,16 +2,15 @@
 description: La visualizzazione principale consiste nell’immagine statica, nell’immagine ingrandita mostrata nella visualizzazione a comparsa sopra l’immagine statica e nel messaggio di suggerimento visualizzato sopra l’immagine statica.
 solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
-
 
 # Visualizzazione zoom a comparsa{#flyout-zoom-view}
 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
