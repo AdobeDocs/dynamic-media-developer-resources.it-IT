@@ -2,16 +2,15 @@
 description: Tocca o fai clic su questo pulsante per ripristinare il visualizzatore tra la visualizzazione principale e le miniature. Questo pulsante viene visualizzato nella barra di controllo principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Miniature
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
-
 
 # Pulsante Miniature{#thumbnails-button}
 
@@ -99,4 +98,3 @@ background-image:url(images/v2/ThumbnailPageButton_dark_over.png);
 background-image:url(images/v2/ThumbnailPageButton_dark_disabled.png); 
 }
 ```
-
