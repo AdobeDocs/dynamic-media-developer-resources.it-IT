@@ -3,16 +3,15 @@ description: Personalizzazione del visualizzatore a comparsa
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore a comparsa
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b7898044-5178-4cdf-ab52-9996a61a3a35
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore a comparsa{#customizing-flyout-viewer}
 
@@ -32,7 +31,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7flyoutviewer`
 
-## Creazione di CSS adattabili {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creazione di CSS reattivi {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Ciò include, ma non è limitato a, diversi layout di pagina web, dimensioni degli elementi dell’interfaccia utente e risoluzione dell’immagine.
 
