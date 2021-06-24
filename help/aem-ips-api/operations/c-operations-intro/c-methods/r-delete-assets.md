@@ -2,16 +2,15 @@
 description: Elimina più risorse.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 9%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -127,4 +126,3 @@ Questo esempio di codice invia un handle a un&#39;azienda e una matrice di handl
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
