@@ -2,16 +2,15 @@
 description: Crea una mappa del sito video.
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 7%
 
 ---
-
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
@@ -37,4 +36,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
