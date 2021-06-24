@@ -2,16 +2,15 @@
 description: Descrive le modifiche alle autorizzazioni.
 solution: Experience Manager
 title: PermissionUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
-
 
 # PermissionUpdate{#permissionupdate}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`permissionType`*` | `xsd:string` | Tipo di autorizzazione. |
 | `*`isAllowed`*` | `xsd:boolean` | Determina se l&#39;aggiornamento delle autorizzazioni è consentito. |
 | `*`isOverride`*` | `xsd:boolean` | Determina se l&#39;autorizzazione sostituisce un&#39;altra. |
-
