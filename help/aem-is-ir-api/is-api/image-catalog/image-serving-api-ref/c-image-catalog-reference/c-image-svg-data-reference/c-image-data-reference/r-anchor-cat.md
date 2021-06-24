@@ -2,16 +2,15 @@
 description: Ancoraggio immagine Punto di origine quando l'immagine viene utilizzata come livello in un modello o immagine composita.
 solution: Experience Manager
 title: Ancoraggio
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 5%
 
 ---
-
 
 # Ancoraggio{#anchor}
 
