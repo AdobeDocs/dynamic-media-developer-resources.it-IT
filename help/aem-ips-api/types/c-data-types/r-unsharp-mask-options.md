@@ -2,18 +2,17 @@
 description: Impostazioni che migliorano la nitidezza delle immagini per file TIF piramidali ottimizzati.
 solution: Experience Manager
 title: OpzioniMascheraDiDiscesa
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 9%
 
 ---
 
-
-# UnSharpMaskOptions{#unsharpmaskoptions}
+# OpzioniMascheraDiDiscesa{#unsharpmaskoptions}
 
 Impostazioni che migliorano la nitidezza delle immagini per file TIF piramidali ottimizzati.
 
