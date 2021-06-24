@@ -2,16 +2,15 @@
 description: I campi del catalogo utilizzano queste impostazioni predefinite.
 solution: Experience Manager
 title: Valori predefiniti per i campi del catalogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Valori predefiniti per i campi del catalogo{#defaults-for-catalog-fields}
 
@@ -49,4 +48,3 @@ I campi del catalogo utilizzano queste impostazioni predefinite.
   </tr> 
  </tbody> 
 </table>
-
