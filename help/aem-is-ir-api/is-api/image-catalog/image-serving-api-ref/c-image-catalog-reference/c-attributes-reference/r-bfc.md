@@ -2,16 +2,15 @@
 description: Conversione del formato del browser. Specifica se la funzionalità di conversione del formato del browser è attivata o disattivata.
 solution: Experience Manager
 title: Bfc
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
-
 
 # Bfc{#bfc}
 
