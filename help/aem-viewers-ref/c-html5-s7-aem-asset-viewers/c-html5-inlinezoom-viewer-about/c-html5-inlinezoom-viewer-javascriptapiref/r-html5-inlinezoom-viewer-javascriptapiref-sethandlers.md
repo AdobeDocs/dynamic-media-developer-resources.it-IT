@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per visualizzatore zoom in linea.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 233fadf5-4b09-406d-959b-c2c9c4524021
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -45,4 +44,3 @@ Nessuno.
 } 
 })
 ```
-
