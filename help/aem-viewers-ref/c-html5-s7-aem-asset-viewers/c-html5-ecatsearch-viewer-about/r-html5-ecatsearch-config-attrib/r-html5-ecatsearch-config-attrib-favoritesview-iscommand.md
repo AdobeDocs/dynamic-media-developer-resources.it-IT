@@ -2,16 +2,15 @@
 description: Stringa di comando Image Server applicata a tutte le miniature.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
-
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
