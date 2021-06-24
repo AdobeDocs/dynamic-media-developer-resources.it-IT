@@ -2,18 +2,17 @@
 description: Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Ripristina zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2ec91f8f-d1e7-454a-8792-9525895527af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
-
-# Pulsante di ripristino dello zoom{#zoom-reset-button}
+# Pulsante Ripristina zoom{#zoom-reset-button}
 
 Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
