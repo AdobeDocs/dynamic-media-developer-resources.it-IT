@@ -2,16 +2,15 @@
 description: Crea una copia di una risorsa immagine esistente. Per generare la nuova copia vengono applicati i comandi del protocollo Image Server specificati
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
-
 
 # copyImage{#copyimage}
 
@@ -119,4 +118,3 @@ Il codice di esempio copia un’immagine specificata da società, risorsa, handl
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
