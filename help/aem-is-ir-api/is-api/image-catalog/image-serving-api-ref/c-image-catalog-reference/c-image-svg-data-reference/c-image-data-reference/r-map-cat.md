@@ -2,16 +2,15 @@
 description: Dati mappa immagine. Nessuno o più elementi HTML completi <AREA>, ordinati in modalità front-to-back.
 solution: Experience Manager
 title: Mappa
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 5%
 
 ---
-
 
 # Mappa{#map}
 
