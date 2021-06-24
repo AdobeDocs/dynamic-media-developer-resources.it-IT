@@ -2,13 +2,12 @@
 description: CarouselView.iscommand
 solution: Experience Manager
 title: CarouselView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Developer,Business Practitioner
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
