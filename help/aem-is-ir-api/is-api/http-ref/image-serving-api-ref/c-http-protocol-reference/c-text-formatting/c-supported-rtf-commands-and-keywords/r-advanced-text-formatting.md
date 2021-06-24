@@ -2,16 +2,15 @@
 description: Utilizzare i seguenti comandi per la formattazione avanzata del testo.
 solution: Experience Manager
 title: Formattazione testo avanzata
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
-
 
 # Formattazione testo avanzata{#advanced-text-formatting}
 
@@ -103,4 +102,3 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
   </tr> 
  </tbody> 
 </table>
-
