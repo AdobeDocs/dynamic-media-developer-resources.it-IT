@@ -2,16 +2,15 @@
 description: Contiene le impostazioni per il sistema di monitoraggio/avviso.
 solution: Experience Manager
 title: monitor.conf
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 09c30680-dd9f-4744-b5ec-105721058883
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # monitor.conf{#monitor-conf}
 
@@ -31,4 +30,3 @@ Le modifiche a questo file hanno effetto poco dopo il salvataggio del file.
   <td class="stentry"> <p> monitorAlertGenerator.maxAverageResponseTime=200 </p> <p> monitorAlertGenerator.maxErrorRate=0.05 </p> <p> monitorAlertGenerator.minRequestRate=0.0 </p> <p> monitorAlertGenerator.minFreeHeapSpace=52428800 </p> <p> monitorAlertGenerator.maxOverlap=20 </p> <p> monitorAlertGenerator.lockedThreshold=60000 </p> </td> 
  </tr> 
 </table>
-
