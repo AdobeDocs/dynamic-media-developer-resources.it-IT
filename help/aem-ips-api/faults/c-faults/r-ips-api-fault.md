@@ -2,14 +2,13 @@
 description: ipsApiFault
 solution: Experience Manager
 title: ipsApiFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
 exl-id: 48be47f6-4c1c-4f19-afa7-f643e504c287
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 25%
+source-wordcount: '30'
+ht-degree: 26%
 
 ---
 
