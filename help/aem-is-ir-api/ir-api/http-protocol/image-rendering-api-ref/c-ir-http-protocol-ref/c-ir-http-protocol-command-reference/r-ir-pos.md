@@ -2,16 +2,15 @@
 description: Posizione decal. Definisce l'offset in pollici dal punto di ancoraggio= dell'immagine decal al punto di origine decal definito dall'oggetto vignetta di destinazione.
 solution: Experience Manager
 title: pos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
-
 
 # pos{#pos}
 
