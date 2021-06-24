@@ -2,16 +2,15 @@
 description: Restituisce i contesti di pubblicazione per le risorse contrassegnate per la pubblicazione.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 13%
 
 ---
-
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
@@ -102,4 +101,3 @@ Sintassi
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
