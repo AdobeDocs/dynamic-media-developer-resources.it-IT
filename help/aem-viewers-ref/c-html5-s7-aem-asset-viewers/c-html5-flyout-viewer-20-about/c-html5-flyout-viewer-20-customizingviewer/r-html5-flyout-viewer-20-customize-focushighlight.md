@@ -2,18 +2,17 @@
 description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 solution: Experience Manager
 title: Evidenziazione
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2cb2e719-ee56-45e5-a509-7e13bb3c2165
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '85'
 ht-degree: 1%
 
 ---
 
-
-# Evidenziazione messa a fuoco{#focus-highlight}
+# Evidenziazione{#focus-highlight}
 
 L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 
@@ -49,4 +48,3 @@ Esempio: per disattivare l’evidenziazione dello stato attivo predefinito del b
  outline: none; 
 }
 ```
-
