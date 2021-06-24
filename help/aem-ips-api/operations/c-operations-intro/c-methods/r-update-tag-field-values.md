@@ -2,16 +2,15 @@
 description: Aggiorna i valori del dizionario tag per un campo tag.
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6de49217-2d15-49d9-9357-b058b2564686
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 11%
 
 ---
-
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
@@ -120,4 +119,3 @@ Sintassi
    </errorDetailArray>
 </updateTagFieldValuesReturn>
 ```
-
