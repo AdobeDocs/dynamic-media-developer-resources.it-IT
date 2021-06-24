@@ -2,16 +2,15 @@
 description: Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
-
 
 # setAssetsContextState{#setassetscontextstate}
 
@@ -116,4 +115,3 @@ Questo esempio di codice imposta lo stato di pubblicazione di una risorsa utiliz
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
