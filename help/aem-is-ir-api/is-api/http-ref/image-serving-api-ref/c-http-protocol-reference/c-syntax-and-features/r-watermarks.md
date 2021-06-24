@@ -2,16 +2,15 @@
 description: Image Serving implementa una semplice struttura di watermarking visiva.
 solution: Experience Manager
 title: Filigrane
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: e744be3f-9753-4513-8f37-055fa03077cc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
-
 
 # Filigrane{#watermarks}
 
@@ -23,7 +22,7 @@ La filigrana viene abilitata impostando `attribute::Watermark` su una voce di ca
 
 Le filigrane non vengono applicate alle immagini restituite in risposta a richieste di miniature ( `req=tmb`) e a determinate richieste dei visualizzatori Dynamic Media.
 
-## Ridimensionamento e allineamento {#section-89ef9e5926ae438abbd8e70332749b76}
+## Scala e allineamento {#section-89ef9e5926ae438abbd8e70332749b76}
 
 Quando viene specificata una filigrana, il server genera prima l&#39;immagine composita (l&#39; *immagine di destinazione*) a cui deve essere applicata la filigrana (prima di applicare le trasformazioni di visualizzazione). Il server genera quindi l&#39;immagine composita per la filigrana come qualsiasi altra immagine (l&#39; *immagine filigrana*).
 
