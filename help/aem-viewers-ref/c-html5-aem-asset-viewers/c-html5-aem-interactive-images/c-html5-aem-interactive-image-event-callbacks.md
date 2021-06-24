@@ -2,18 +2,17 @@
 description: Callback degli eventi
 solution: Experience Manager
 title: Callback degli eventi
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Developer,Business Practitioner
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
-# Callback evento{#event-callbacks}
+# Callback degli eventi{#event-callbacks}
 
 Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del comportamento di runtime.
 
