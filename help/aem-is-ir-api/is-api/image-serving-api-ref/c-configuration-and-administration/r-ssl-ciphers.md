@@ -2,18 +2,17 @@
 description: Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
 solution: Experience Manager
 title: Definizione dei codici SSL
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-
-# Definizione dei crittografi SSL{#defining-ssl-ciphers}
+# Definizione dei codici SSL{#defining-ssl-ciphers}
 
 Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
 
