@@ -2,16 +2,15 @@
 description: Image Serving supporta file SVG (Scalable Vector Graphics) come dati di origine. È richiesta la conformità a SVG 1.1.
 solution: Experience Manager
 title: Supporto SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # Supporto SVG{#svg-support}
 
