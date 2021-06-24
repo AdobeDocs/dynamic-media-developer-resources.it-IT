@@ -2,16 +2,15 @@
 description: La barra di controllo principale è l’area rettangolare dei sistemi desktop e dei tablet che contengono tutti i controlli dell’interfaccia utente (ad eccezione dei pulsanti Pagina grande) disponibili per il visualizzatore eCatalog.
 solution: Experience Manager
 title: Barra di controllo principale
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
-
 
 # Barra di controllo principale{#main-control-bar}
 
@@ -184,4 +183,3 @@ La descrizione comando del pulsante può essere localizzata. Per ulteriori infor
  background-image:url(images/v2/ControlBarRightButton_dark_disabled_touch.png); 
 }
 ```
-
