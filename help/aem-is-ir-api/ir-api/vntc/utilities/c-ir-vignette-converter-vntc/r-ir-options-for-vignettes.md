@@ -2,16 +2,15 @@
 description: Le seguenti opzioni controllano l'elaborazione dei file di vignetta. Vengono ignorati se sourceFile non è una vignetta.
 solution: Experience Manager
 title: Opzioni per le vignette
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Opzioni per le vignette{#options-for-vignettes}
 
@@ -59,4 +58,3 @@ Le seguenti opzioni controllano l&#39;elaborazione dei file di vignetta. Vengono
   <td class="stentry"> <p>Una o più larghezze di vignetta di uscita in pixel. Ignorato se è specificato <span class="codeph"> -info</span> . <span class="varname"> </span> ivalmay be 0, che denota l'altezza della vignetta di input. Per informazioni dettagliate, consulta <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Ridimensionamento vignetta</a> . </p></td> 
  </tr> 
 </table>
-
