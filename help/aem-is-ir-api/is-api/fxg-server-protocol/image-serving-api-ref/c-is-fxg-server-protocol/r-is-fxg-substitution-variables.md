@@ -2,16 +2,15 @@
 description: La variabile di sostituzione viene utilizzata per trasferire i valori dall’URL della richiesta ai modelli FXG memorizzati sul server.
 solution: Experience Manager
 title: Variabili di sostituzione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # Variabili di sostituzione{#substitution-variables}
 
@@ -34,4 +33,3 @@ La variabile di sostituzione viene utilizzata per trasferire i valori dall’URL
 * Le variabili sono definite come sopra, simili ad altri comandi IS; il comando &#39;$&#39; iniziale identifica il comando come definizione di variabile.
 * Il nome della variabile `*`var`*` fa distinzione tra maiuscole e minuscole e può essere costituito da qualsiasi combinazione di lettere, numeri, &#39;-&#39; e &#39;_&#39;.
 * Per una trasmissione HTTP sicura, il valore importante deve essere codificato con URL a passa singolo.
-
