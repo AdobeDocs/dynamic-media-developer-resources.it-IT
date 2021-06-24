@@ -2,16 +2,15 @@
 description: Tipo di miniatura predefinito. Fornisce un valore predefinito per il tipo di miniatura nel caso in cui un particolare record di catalogo non contenga un valore ThumbType del catalogo valido.
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
-
 
 # ThumbType{#thumbtype}
 
