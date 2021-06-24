@@ -2,16 +2,15 @@
 description: Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior parte non ha alcun significato per l'immagine composita e per richieste semplici e non a livelli. Non si applicano ai livelli di effetto.
 solution: Experience Manager
 title: Comandi del livello comune
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c95d198c-757f-405e-ba08-094cd402c929
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 1%
 
 ---
-
 
 # Comandi del livello comune{#common-layer-commands}
 
@@ -63,4 +62,3 @@ Questi comandi si applicano ai livelli immagine, testo e tinta unita. La maggior
   <td class="stentry"> <p>Nascondere il livello. </p></td> 
  </tr> 
 </table>
-
