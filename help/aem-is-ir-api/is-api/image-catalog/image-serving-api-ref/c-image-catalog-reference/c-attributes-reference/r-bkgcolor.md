@@ -2,16 +2,15 @@
 description: Colore di sfondo predefinito. Valore RGB utilizzato per compilare un'area dell'immagine di risposta che non contiene dati immagine effettivi.
 solution: Experience Manager
 title: BkgColor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 7%
 
 ---
-
 
 # BkgColor{#bkgcolor}
 
