@@ -2,16 +2,15 @@
 description: Formato immagine di risposta predefinito. Specifica il formato predefinito per le immagini di risposta.
 solution: Experience Manager
 title: Formato
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
-
 
 # Formato{#format}
 
