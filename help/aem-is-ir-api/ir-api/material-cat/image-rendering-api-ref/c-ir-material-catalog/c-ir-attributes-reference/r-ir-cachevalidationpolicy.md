@@ -2,16 +2,15 @@
 description: Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 solution: Experience Manager
 title: CacheValidationPolicy
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
-
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
