@@ -2,16 +2,15 @@
 description: Utilizzato da searchAssetReturn/trashState.
 solution: Experience Manager
 title: Stato del cestino
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f37d7380-127e-48ef-808f-5aa36bf2c665
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 4%
+source-wordcount: '19'
+ht-degree: 5%
 
 ---
-
 
 # Stato del cestino{#trash-state}
 
@@ -24,4 +23,3 @@ Sintassi
 * [!DNL `NotInTrash`]
 * [!DNL `InTrash`]
 * [!DNL `InEmptiedTrash`]
-
