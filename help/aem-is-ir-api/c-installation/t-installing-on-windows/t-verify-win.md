@@ -2,16 +2,15 @@
 description: Dopo aver installato Dynamic Media Image Serving, è necessario verificare l'installazione.
 solution: Experience Manager
 title: Verifica dell'installazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 3fcb1f20-8334-497e-8b3e-9097751ca5c1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Verifica dell&#39;installazione{#verifying-the-installation}
 
@@ -28,4 +27,3 @@ Image Server è installato come servizio Windows.
 
 Verifica la presenza di &quot; `imageServer.`&quot; elementi nella risposta, che indicano che Image Server è in ascolto.
 >Puoi eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.
-
