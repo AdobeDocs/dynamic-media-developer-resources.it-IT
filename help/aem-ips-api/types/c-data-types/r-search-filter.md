@@ -2,16 +2,15 @@
 description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 solution: Experience Manager
 title: SearchFilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
-
 
 # SearchFilter{#searchfilter}
 
@@ -99,4 +98,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
