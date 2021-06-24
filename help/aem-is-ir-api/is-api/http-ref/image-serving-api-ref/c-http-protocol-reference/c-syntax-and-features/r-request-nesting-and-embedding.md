@@ -2,18 +2,17 @@
 description: Image Serving supporta la nidificazione illimitata delle richieste di Image Server, l’incorporazione di richieste di Image Rendering e l’incorporazione di immagini recuperate da server stranieri. Solo le immagini di livello e le maschere di livello supportano questi meccanismi.
 solution: Experience Manager
 title: Nidificazione e incorporazione delle richieste
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
-
-# Nidificazione e incorporamento delle richieste{#request-nesting-and-embedding}
+# Nidificazione e incorporazione delle richieste{#request-nesting-and-embedding}
 
 Image Serving supporta la nidificazione illimitata delle richieste di Image Server, l’incorporazione di richieste di Image Rendering e l’incorporazione di immagini recuperate da server stranieri. Solo le immagini di livello e le maschere di livello supportano questi meccanismi.
 
@@ -106,7 +105,7 @@ I seguenti comandi FXG vengono ignorati quando specificati nelle richieste nidif
 * `iccEmbed=`
 * `cache=`
 
-## Origini immagine esterne {#section-84e83ecfcd1a43748cdfc7a6f8c04cb8}
+## Origini immagine straniere {#section-84e83ecfcd1a43748cdfc7a6f8c04cb8}
 
 Image Server supporta l&#39;accesso alle immagini sorgente su server HTTP esterni.
 
