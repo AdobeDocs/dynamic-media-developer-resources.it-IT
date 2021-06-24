@@ -2,16 +2,15 @@
 description: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4adba865-0b03-469e-a88c-2c3982422a68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
-
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
