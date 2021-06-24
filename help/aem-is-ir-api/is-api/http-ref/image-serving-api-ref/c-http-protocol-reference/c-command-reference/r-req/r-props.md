@@ -2,18 +2,17 @@
 description: Proprietà dei dati di risposta. Valuta la richiesta corrente come se si trattasse di una richiesta di immagine (req=img), ma invece di restituire l'immagine, il server restituisce le proprietà selezionate dell'immagine di risposta.
 solution: Experience Manager
 title: proprietà
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 2%
 
 ---
 
-
-# props{#props}
+# proprietà{#props}
 
 Proprietà dei dati di risposta. Valuta la richiesta corrente come se si trattasse di una richiesta di immagine (req=img), ma invece di restituire l&#39;immagine, il server restituisce le proprietà selezionate dell&#39;immagine di risposta.
 
@@ -157,4 +156,3 @@ Per le richieste `/is/content` vengono restituite le seguenti proprietà:
   </tr> 
  </tbody> 
 </table>
-
