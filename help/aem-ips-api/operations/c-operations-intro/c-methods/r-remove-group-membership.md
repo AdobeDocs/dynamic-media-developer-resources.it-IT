@@ -2,16 +2,15 @@
 description: Rimuove gli utenti da una matrice di gruppi.
 solution: Experience Manager
 title: removeGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 9%
 
 ---
-
 
 # removeGroupMembership{#removegroupmembership}
 
