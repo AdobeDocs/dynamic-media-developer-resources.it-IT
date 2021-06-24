@@ -2,16 +2,15 @@
 description: Ottiene un elenco dei caratteri utilizzati in un campo specifico.
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 10%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -79,4 +78,3 @@ La costante della stringa Campi filtro caratteri utente determina il tipo di car
    </userCharsArray>
 </getUserCharsReturn>
 ```
-
