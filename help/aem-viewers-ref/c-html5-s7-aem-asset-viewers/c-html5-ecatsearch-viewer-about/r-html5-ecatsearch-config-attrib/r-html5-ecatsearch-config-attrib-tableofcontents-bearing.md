@@ -2,16 +2,15 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
-
 
 # TableOfContents.bearing{#tableofcontents-bearing}
 
