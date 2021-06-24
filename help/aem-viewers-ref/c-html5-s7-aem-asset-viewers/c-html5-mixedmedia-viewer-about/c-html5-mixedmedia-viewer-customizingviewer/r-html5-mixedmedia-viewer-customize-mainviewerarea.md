@@ -2,16 +2,15 @@
 description: L'area di visualizzazione principale è l'area occupata dalla vista principale e dai campioni. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
-
 
 # Area visualizzatore principale{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impost
  height: 288px;  
 }
 ```
-
