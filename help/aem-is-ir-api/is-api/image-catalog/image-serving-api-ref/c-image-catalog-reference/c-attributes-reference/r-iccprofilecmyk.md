@@ -2,16 +2,15 @@
 description: Profilo colore di output predefinito CMYK. Specifica il nome del profilo colore ICC da utilizzare per le immagini di risposta CMYK quando non è specificato alcuno spazio colore di output con icc= e per alcuni valori di colore CMYK specificati con vari comandi Image Serving, ad esempio color=.
 solution: Experience Manager
 title: IccProfileCmyk
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2bf83cf5-3fc9-42aa-a143-4b56e43ee4d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
-
 
 # IccProfileCmyk{#iccprofilecmyk}
 
