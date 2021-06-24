@@ -2,16 +2,15 @@
 description: La vista Preferiti è costituita da una colonna di miniature.
 solution: Experience Manager
 title: Vista Preferiti
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
-
 
 # Vista Preferiti{#favorites-view}
 
@@ -149,4 +148,3 @@ Esempio: per impostare etichette con un carattere Helvetica da 14 pixel.
  font-size: 14px; 
 }
 ```
-
