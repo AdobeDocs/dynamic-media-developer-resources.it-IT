@@ -2,18 +2,17 @@
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
 title: disporre
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c19466a8-9fc5-440c-8bb1-c4528937a522
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
-
-# dispose{#dispose}
+# disporre{#dispose}
 
 Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
@@ -40,4 +39,3 @@ Nessuno.
 ```
 <instance>.dispose()
 ```
-
