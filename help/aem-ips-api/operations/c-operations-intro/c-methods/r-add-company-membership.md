@@ -2,16 +2,15 @@
 description: Aggiunge un utente a una o più società.
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 11%
 
 ---
-
 
 # addCompanyMembership{#addcompanymembership}
 
