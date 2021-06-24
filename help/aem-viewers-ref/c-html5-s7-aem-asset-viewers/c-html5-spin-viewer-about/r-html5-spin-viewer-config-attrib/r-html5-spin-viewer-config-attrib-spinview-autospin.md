@@ -2,16 +2,15 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 5%
 
 ---
-
 
 # SpinView.autospin{#spinview-autospin}
 
