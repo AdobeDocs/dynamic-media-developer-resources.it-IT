@@ -2,16 +2,15 @@
 description: Dettagli di avviso o di errore per un aggiornamento dell'uso in un'operazione batchSetAssetMetadata.
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 6%
 
 ---
-
 
 # SetMetadataFault{#setmetadatafault}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`fieldHandle`*` | `xsd:string` | L&#39;handle del campo metadati il cui valore è stato impostato in modo non corretto. |
 | `*`codice`*` | `xsd:int` | Codice di errore. |
 | `*`motivo`*` | `xsd:string` | Descrizione errore (testo normale). |
-
