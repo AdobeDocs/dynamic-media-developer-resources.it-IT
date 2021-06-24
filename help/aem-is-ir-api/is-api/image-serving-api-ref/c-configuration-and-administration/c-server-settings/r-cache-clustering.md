@@ -2,16 +2,15 @@
 description: Utilizza queste impostazioni del server per il clustering cache.
 solution: Experience Manager
 title: Clustering cache
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # Clustering cache{#cache-clustering}
 
