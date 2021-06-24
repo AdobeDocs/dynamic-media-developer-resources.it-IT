@@ -2,16 +2,15 @@
 description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
 solution: Experience Manager
 title: Riferimento al protocollo del server FXG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
-
 
 # Riferimento al protocollo del server FXG{#fxg-server-protocol-reference}
 
