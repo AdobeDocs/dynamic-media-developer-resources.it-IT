@@ -2,16 +2,15 @@
 description: PageView.enableHD
 solution: Experience Manager
 title: PageView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
-
 
 # PageView.enableHD{#pageview-enablehd}
 
@@ -73,4 +72,3 @@ Di seguito sono riportati i risultati previsti quando utilizzi questo attributo 
   </tr> 
  </tbody> 
 </table>
-
