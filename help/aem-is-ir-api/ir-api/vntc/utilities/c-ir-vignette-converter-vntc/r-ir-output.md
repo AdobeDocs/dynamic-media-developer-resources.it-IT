@@ -2,18 +2,17 @@
 description: vntc genera dati di testo che vengono inviati a stderr o al file di log.
 solution: Experience Manager
 title: Uscita
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
-
-# Output{#output}
+# Uscita{#output}
 
 vntc genera dati di testo che vengono inviati a stderr o al file di log.
 
@@ -143,4 +142,3 @@ Vengono generate le seguenti proprietà:
   <td class="stentry"> <p>Messaggio di avviso (ad esempio se è specificato <span class="codeph"> -imagemap</span> ma non sono presenti dati mappa nella vignetta). </p></td> 
  </tr> 
 </table>
-
