@@ -2,16 +2,15 @@
 description: Matrice di membri set di immagini.
 solution: Experience Manager
 title: ImageSetMemberArray
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API, Set di immagini
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 364f9a58-2128-4d1c-bdad-1ae2677e8e48
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
-
 
 # ImageSetMemberArray{#imagesetmemberarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:ImageSetMember` | Matrice di membri del set di immagini. |
-
