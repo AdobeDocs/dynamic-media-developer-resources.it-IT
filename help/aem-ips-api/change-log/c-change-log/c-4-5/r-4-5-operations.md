@@ -2,16 +2,15 @@
 description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 4.5.
 solution: Experience Manager
 title: Operazioni nuove e modificate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # Operazioni: Nuovo e modificato{#operations-new-and-modified}
 
@@ -47,4 +46,3 @@ Sintassi
 * `searchAssets`
 * 
 * Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso dall&#39;operazione `renameAsset`. Il percorso del file virtuale viene modificato in modo che corrisponda al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione API.
-
