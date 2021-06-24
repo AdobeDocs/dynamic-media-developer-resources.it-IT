@@ -2,16 +2,15 @@
 description: Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 8%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -122,4 +121,3 @@ Questo esempio di codice crea un nuovo campo metadati vincolato dalle costanti d
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
