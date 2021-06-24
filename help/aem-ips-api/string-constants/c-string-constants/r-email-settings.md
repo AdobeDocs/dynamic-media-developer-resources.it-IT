@@ -2,16 +2,15 @@
 description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
 solution: Experience Manager
 title: Impostazioni e-mail
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
-
 
 # Impostazioni e-mail{#email-settings}
 
@@ -35,4 +34,3 @@ Sintassi
 * [!DNL `ErrorAndWarning`]
 * [!DNL `JobCompletion`]
 * [!DNL `None`]
-
