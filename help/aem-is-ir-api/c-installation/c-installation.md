@@ -2,16 +2,15 @@
 description: È necessario installare Image Serving prima di poterlo utilizzare.
 solution: Experience Manager
 title: Installazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 2%
 
 ---
-
 
 # Installazione{#installation}
 
