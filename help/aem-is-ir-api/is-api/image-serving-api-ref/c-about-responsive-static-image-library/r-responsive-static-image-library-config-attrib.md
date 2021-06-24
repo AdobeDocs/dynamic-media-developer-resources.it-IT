@@ -2,16 +2,15 @@
 description: Gli attributi di configurazione sono definiti come attributi direttamente su un elemento IMG gestito dalla libreria di immagini reattive. Ogni immagine può avere un proprio set di attributi.
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
-
 
 # Riferimento comando - Attributi di configurazione{#command-reference-configuration-attributes}
 
@@ -100,4 +99,3 @@ L’elemento immagine associato invia un evento `s7responsiveViewer` durante il 
            } 
         });
 ```
-
