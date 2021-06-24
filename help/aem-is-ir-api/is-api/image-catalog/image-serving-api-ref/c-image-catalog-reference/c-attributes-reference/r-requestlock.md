@@ -2,16 +2,15 @@
 description: Modalità di blocco della richiesta. Specifica il tipo di blocco della richiesta che deve essere incluso nelle richieste.
 solution: Experience Manager
 title: RequestLock
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
-
 
 # RequestLock{#requestlock}
 
