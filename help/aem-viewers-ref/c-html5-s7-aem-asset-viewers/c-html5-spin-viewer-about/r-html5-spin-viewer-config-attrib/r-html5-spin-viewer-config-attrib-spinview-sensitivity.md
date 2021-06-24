@@ -2,16 +2,15 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
