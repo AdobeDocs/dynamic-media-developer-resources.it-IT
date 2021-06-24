@@ -2,16 +2,15 @@
 description: Proprietà di una risorsa file XML.
 solution: Experience Manager
 title: XmlInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1cf9bea9-6279-4b2a-a0cc-81cc71fb601d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
-
 
 # XmlInfo{#xmlinfo}
 
@@ -26,4 +25,3 @@ Sintassi
 | `*`originalPath`*` | `xsd:string` | Percorso file. |
 | `*`originalFile`*` | `xsd:string` | Nome file. |
 | `*`fileSize`*` | `xsd:int` | Dimensione file. |
-
