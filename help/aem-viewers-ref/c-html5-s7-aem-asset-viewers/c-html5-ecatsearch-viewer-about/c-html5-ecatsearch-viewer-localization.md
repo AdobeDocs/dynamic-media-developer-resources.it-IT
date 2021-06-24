@@ -2,18 +2,17 @@
 description: 'Alcuni contenuti visualizzati nel visualizzatore di eCatalog sono soggetti a localizzazione: pulsanti zoom, pulsanti di modifica della pagina, pulsante miniatura, pulsante a schermo intero, pulsante Chiudi e pulsanti della barra di scorrimento.'
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
-
-# Localizzazione degli elementi dell&#39;interfaccia utente{#localization-of-user-interface-elements}
+# Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
 Alcuni contenuti visualizzati nel visualizzatore di eCatalog sono soggetti a localizzazione: pulsanti zoom, pulsanti di modifica della pagina, pulsante miniatura, pulsante a schermo intero, pulsante Chiudi e pulsanti della barra di scorrimento.
 
@@ -295,11 +294,11 @@ Sono supportati i seguenti SYMBOL (supponendo che containerId sia l’ID del con
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante di condivisione Facebook. </p> </td> 
+   <td colname="col2"> <p>Pulsante di condivisione facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante di condivisione Twitter. </p> </td> 
+   <td colname="col2"> <p>Pulsante di condivisione twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Stampa.TOOLTIP  </span> </p> </td> 
@@ -444,4 +443,3 @@ Sono supportati i seguenti SYMBOL (supponendo che containerId sia l’ID del con
   </tr> 
  </tbody> 
 </table>
-
