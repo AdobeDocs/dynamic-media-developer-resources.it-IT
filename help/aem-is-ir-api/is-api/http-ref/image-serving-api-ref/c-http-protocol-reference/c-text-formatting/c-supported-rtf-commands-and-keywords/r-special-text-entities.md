@@ -2,18 +2,17 @@
 description: Quando si formatta il testo, utilizzare le seguenti entità speciali.
 solution: Experience Manager
 title: Entità di testo speciali
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---
 
-
-# Entità testo speciale{#special-text-entities}
+# Entità di testo speciali{#special-text-entities}
 
 Quando si formatta il testo, utilizzare le seguenti entità speciali.
 
@@ -68,4 +67,3 @@ Quando si formatta il testo, utilizzare le seguenti entità speciali.
   </tr> 
  </tbody> 
 </table>
-
