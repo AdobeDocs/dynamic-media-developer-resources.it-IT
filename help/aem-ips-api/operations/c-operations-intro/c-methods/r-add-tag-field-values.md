@@ -2,16 +2,15 @@
 description: Aggiunge nuovi valori tag al dizionario di un campo tag esistente.
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
