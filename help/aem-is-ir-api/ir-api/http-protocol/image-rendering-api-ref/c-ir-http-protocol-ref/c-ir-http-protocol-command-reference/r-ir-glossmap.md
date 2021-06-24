@@ -2,18 +2,17 @@
 description: Immagine mappa Gloss. Consente il controllo pixel per pixel della lucidità di una texture, carta da parati/bordo o decal ripetibili.
 solution: Experience Manager
 title: mappa lucida
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 922fc527-be19-4d7a-b265-7bdb1de80990
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
 
-
-# glossmap{#glossmap}
+# mappa lucida{#glossmap}
 
 Immagine mappa Gloss. Consente il controllo pixel per pixel della lucidità di una texture, carta da parati/bordo o decal ripetibili.
 
