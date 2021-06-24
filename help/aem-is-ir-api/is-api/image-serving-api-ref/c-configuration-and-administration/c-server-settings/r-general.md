@@ -2,16 +2,15 @@
 description: Impostazioni generali del server
 solution: Experience Manager
 title: Generali
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
-
 
 # Generali{#general}
 
@@ -21,15 +20,15 @@ Impostazioni generali del server
 
 Specifica la porta di ascolto principale per Platform Server. Questa porta viene utilizzata anche per accedere alla documentazione e alle pagine di esempio per Image Serving, Image Rendering e i visualizzatori Dynamic Media (se installati).
 
-## IS::CacheServerUrl - Url radice del servizio di memorizzazione in cache {#section-bcca227a1f91453b834db4ea050968e2}
+## IS::CacheServerUrl - Url radice del servizio di caching {#section-bcca227a1f91453b834db4ea050968e2}
 
 Specifica il percorso principale HTTP per consentire l&#39;accesso al servizio di caching da parte del server di immagini. Deve essere impostato su [!DNL http://localhost:TC::PsPort /is/cache/secondary], con il numero di porta corrispondente a `TC::PsPort`.
 
-## IS::RemoteUrlDefaultExpiration - TTL predefinito dell&#39;origine immagine remota {#section-e4c31228b459492cacd2f482d9575f71}
+## IS::RemoteUrlDefaultExpiration - TTL predefinito Image Source remoto {#section-e4c31228b459492cacd2f482d9575f71}
 
 TTL per le immagini memorizzate nella cache ottenute tramite HTTP da un&#39;origine remota utilizzando il costrutto `src={…}`. Utilizzato solo quando il server remoto non include un&#39;intestazione Expiration nella risposta HTTP. Valore intero in secondi.
 
-## IS::RemoteUrlTimeout - Timeout origine immagine remota {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout - Timeout Image Source remoto {#section-437646c479cc4bea81dae42100a3c50a}
 
 Il momento in cui Image Server attenderà che un server remoto distribuisca il file immagine richiesto tramite HTTP prima di restituire un errore. Valore intero in secondi.
 
