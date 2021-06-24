@@ -2,16 +2,15 @@
 description: Regolare il contrasto. Regola il contrasto dell'immagine aumentando la luminosità dei pixel con una luminosità superiore al 50% e riducendo la luminosità dei pixel con una luminosità inferiore al 50%.
 solution: Experience Manager
 title: op_contrasto
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
-
 
 # op_contrasto{#op-contrast}
 
