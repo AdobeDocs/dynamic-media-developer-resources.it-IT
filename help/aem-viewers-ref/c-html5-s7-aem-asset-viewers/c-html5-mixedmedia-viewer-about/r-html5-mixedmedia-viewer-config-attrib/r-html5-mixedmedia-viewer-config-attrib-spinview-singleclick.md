@@ -2,16 +2,15 @@
 description: SpinView.singleclick
 solution: Experience Manager
 title: SpinView.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 18c5c21d-af31-4b1c-ab8b-c04d08650123
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.singleclick{#spinview-singleclick}
 
