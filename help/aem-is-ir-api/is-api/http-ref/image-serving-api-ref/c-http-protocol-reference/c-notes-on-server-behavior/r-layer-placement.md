@@ -2,16 +2,15 @@
 description: I livelli vengono posizionati allineando l'origine del livello (origin=) con l'origine del livello di sfondo a un offset specificato da pos=.
 solution: Experience Manager
 title: Posizionamento livello
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
-
 
 # Posizionamento livello{#layer-placement}
 
@@ -24,4 +23,3 @@ Se l’origine del livello non è specificata esplicitamente per un livello imma
 1. Se non è definito alcun ancoraggio immagine, l’origine del livello viene posizionata al centro del rettangolo del livello (dopo l’applicazione di `extend=`).
 
 ![](assets/layerplacement.png)
-
