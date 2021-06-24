@@ -2,16 +2,15 @@
 description: Utilità di convalida immagine. Questa utilità della riga di comando verifica i file immagine per assicurarsi che siano validi e che possano essere letti senza difficoltà da Image Serving.
 solution: Experience Manager
 title: validate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # validate{#validate}
 
@@ -78,4 +77,3 @@ Tutti i file immagine non PTIFF devono passare la convalida prima che il file si
   <td class="stentry"> <p>Restituisce le informazioni sulla versione per questa utility. Specifica senza altre opzioni. </p> </td> 
  </tr> 
 </table>
-
