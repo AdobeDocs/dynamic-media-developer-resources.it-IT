@@ -3,13 +3,12 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore di immagini interattive
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Developer,Business Practitioner
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7interactiveimage`
 
-## Creazione di CSS adattabili {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creazione di CSS reattivi {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Sono inclusi, ma senza limitazioni, layout diversi, dimensioni degli elementi dell’interfaccia utente e risoluzione delle immagini.
 
@@ -168,6 +167,6 @@ background-position: -0px -0px; width: 56px; height: 56px;
 * Per rimuovere un pulsante dall’interfaccia utente, aggiungi `display:none` alla relativa classe CSS.
 * È possibile utilizzare vari formati per il valore del colore supportato da CSS. Se hai bisogno di trasparenza, utilizza il formato `rgba(R,G,B,A)`. In caso contrario, è possibile utilizzare il formato `#RRGGBB`.
 
-## Elementi comuni dell&#39;interfaccia utente {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementi comuni dell’interfaccia utente {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Di seguito è riportata la documentazione di riferimento relativa agli elementi dell’interfaccia utente applicabili al visualizzatore di immagini video:
