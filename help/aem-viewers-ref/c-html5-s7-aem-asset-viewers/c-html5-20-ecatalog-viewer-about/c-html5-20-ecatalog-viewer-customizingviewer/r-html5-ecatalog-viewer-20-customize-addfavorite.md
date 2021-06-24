@@ -2,16 +2,15 @@
 description: La posizione del pulsante Aggiungi preferito è completamente gestita dal menu Preferiti.
 solution: Experience Manager
 title: Pulsante Aggiungi preferito
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 1%
 
 ---
-
 
 # Pulsante Aggiungi preferito{#add-favorite-button}
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/AddFavoriteButton_dark_over.png);
 background-image:url(images/v2/AddFavoriteButton_dark_disabled.png); 
 }
 ```
-
