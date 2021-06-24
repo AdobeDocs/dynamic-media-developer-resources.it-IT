@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore a comparsa.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -67,4 +66,3 @@ Modificatore di nitidezza aggiunto a tutte le immagini del set:
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")
 ```
-
