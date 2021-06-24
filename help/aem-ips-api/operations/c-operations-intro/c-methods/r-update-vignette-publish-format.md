@@ -2,16 +2,15 @@
 description: Aggiorna le impostazioni del formato di pubblicazione della vignetta.
 solution: Experience Manager
 title: updateVignettePublishFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '439'
 ht-degree: 20%
 
 ---
-
 
 # updateVignettePublishFormat{#updatevignettepublishformat}
 
@@ -81,4 +80,3 @@ Questo esempio di codice aggiorna un formato di pubblicazione della vignetta e r
    <vignetteFormatHandle>v|21|283</vignetteFormatHandle>
 </updateVignettePublishFormatReturn>
 ```
-
