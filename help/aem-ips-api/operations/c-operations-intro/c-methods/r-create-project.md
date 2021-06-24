@@ -2,16 +2,15 @@
 description: Crea un nuovo progetto.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -61,4 +60,3 @@ Questo esempio di codice crea un progetto denominato `ApiTestProject` in una soc
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
