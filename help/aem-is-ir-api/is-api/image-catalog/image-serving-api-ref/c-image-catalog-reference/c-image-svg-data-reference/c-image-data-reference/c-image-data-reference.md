@@ -2,16 +2,15 @@
 description: Questa sezione descrive gli attributi dei dati immagine.
 solution: Experience Manager
 title: Riferimento dati immagine
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 20%
+source-wordcount: '45'
+ht-degree: 22%
 
 ---
-
 
 # Riferimento dati immagine{#image-data-reference}
 
@@ -22,7 +21,7 @@ Questa sezione descrive gli attributi dei dati immagine.
 * [DigimarcInfo](r-digimarcinfo-cat.md)
 * [Scadenza](r-expiration-cat.md)
 * [ID](r-id-cat.md)
-* [Set di immagini](r-imageset-cat.md)
+* [ImageSet](r-imageset-cat.md)
 * [Mappa](r-map-cat.md)
 * [MaskPath](r-maskpath-cat.md)
 * [Modificatore](r-modifier-cat.md)
