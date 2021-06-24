@@ -2,16 +2,15 @@
 description: Restituisce una matrice di nomi di percorso Photoshop per l'immagine specificata.
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 16%
+source-wordcount: '82'
+ht-degree: 17%
 
 ---
-
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
@@ -65,4 +64,3 @@ Sintassi
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
