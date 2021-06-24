@@ -2,22 +2,21 @@
 description: Inoltra l’elenco di URL fornito al provider Dynamic Media CDN (Content Distribution Network) per invalidare la cache esistente delle risposte HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
-
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
 Inoltra l’elenco di URL fornito al provider Dynamic Media CDN (Content Distribution Network) per invalidare la cache esistente delle risposte HTTP.
 
-## cdnCacheInvalidation: Informazioni su {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation: Informazioni {#section-4f70d2bc79d64288b961836ab17e9690}
 
 L’annullamento della validità della cache CDN forza la riconvalida di tutte le richieste HTTP per questi URL rispetto ai dati pubblicati correnti sulla rete Dynamic Media dopo che questa richiesta di invalidazione è stata elaborata tramite la rete CDN. Eventuali URL non collegati alla struttura URL del servizio Dynamic Media e che corrispondono direttamente all’ID radice della società Dynamic Media assegnato al momento della creazione della società genereranno un errore API per l’intera richiesta. Anche gli URL non validi che la CDN non supporta e che considera non validi genereranno un errore API per l’intera richiesta.
 
@@ -126,4 +125,3 @@ Questo esempio richiede l’annullamento della validità di quattro URL nella ca
    <errorCount>0</errorCount>
 </cdnCacheInvalidationReturn>
 ```
-
