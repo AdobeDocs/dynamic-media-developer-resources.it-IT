@@ -2,16 +2,15 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 86a3f04f-6593-4778-a8a4-1ec19800ceeb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
-
 
 # ImageMapEffect.mode{#imagemapeffect-mode}
 
