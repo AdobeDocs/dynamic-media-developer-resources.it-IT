@@ -2,16 +2,15 @@
 description: Tocca o fai clic su questo pulsante per passare alla pagina precedente del catalogo. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Pagina precedente grande
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 51c2fe1a-c14e-4a87-887b-f97546a517a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
-
 
 # Pulsante Pagina precedente grande{#large-previous-page-button}
 
@@ -97,4 +96,3 @@ background-image:url(images/v2/LeftButton_dark_down.png);
 background-image:url(images/v2/LeftButton_dark_disabled.png); 
 }
 ```
-
