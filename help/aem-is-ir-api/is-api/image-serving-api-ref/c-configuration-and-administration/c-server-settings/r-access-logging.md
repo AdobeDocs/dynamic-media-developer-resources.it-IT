@@ -2,18 +2,17 @@
 description: Utilizza queste impostazioni del server per accedere alla registrazione.
 solution: Experience Manager
 title: Registrazione degli accessi
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
 
-
-# Accedere alla registrazione{#access-logging}
+# Registrazione degli accessi{#access-logging}
 
 Utilizza queste impostazioni del server per accedere alla registrazione.
 
@@ -31,7 +30,7 @@ La cartella in cui il server Platform scrive i file di registro. Può essere un 
 
 È necessario mantenere il numero di giorni di file di registro. I nuovi file di registro vengono creati ogni giorno a mezzanotte. Al momento, il server eliminerà tutti i file presenti nella cartella del file di registro che sono più vecchi del numero specificato di giorni, inclusi quelli scritti dal server di immagini o dal server di rendering. Il valore predefinito è 10.
 
-## TC::prefix - Access Log File Name {#section-1003856323b844049632710a5a056aa7}
+## TC::prefisso - Nome file di log di accesso {#section-1003856323b844049632710a5a056aa7}
 
 Prefisso nome per il file in cui vengono scritti i dati del registro di accesso. Alla stringa specificata vengono aggiunte la data e il suffisso del file ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]). Il nome del file di log di accesso deve essere diverso da quello del file di log di traccia. Il valore predefinito è &quot; `access-`&quot;.
 
