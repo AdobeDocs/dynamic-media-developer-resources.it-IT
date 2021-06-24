@@ -2,18 +2,17 @@
 description: L'indicatore dello zoom viene sovrapposto all'area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
 solution: Experience Manager
 title: Icona, effetto
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
 
-
-# Effetto icona{#icon-effect}
+# Icona, effetto{#icon-effect}
 
 L&#39;indicatore dello zoom viene sovrapposto all&#39;area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
 
@@ -72,4 +71,3 @@ Esempio: per impostare un indicatore di zoom da 100 x 100 pixel con grafica dive
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
