@@ -2,18 +2,17 @@
 description: Selezionare l'oggetto in base alla posizione dei pixel.
 solution: Experience Manager
 title: venditrice
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
 
-
-# sel{#sel}
+# venditrice{#sel}
 
 Selezionare l&#39;oggetto in base alla posizione dei pixel.
 
