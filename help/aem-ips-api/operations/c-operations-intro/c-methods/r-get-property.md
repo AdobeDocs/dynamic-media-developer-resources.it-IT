@@ -2,16 +2,15 @@
 description: Ottiene i valori stringa delle proprietà di sistema relative a Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # getProperty{#getproperty}
 
@@ -73,4 +72,3 @@ Questo esempio di codice utilizza una costante stringa Proprietà IPS per restit
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
