@@ -2,16 +2,15 @@
 description: Profilo colore di ingresso predefinito RGB. Specifica il nome del profilo colore ICC da utilizzare per le immagini sorgente RGB che non incorporano un profilo colore e per alcuni valori colore RGB specificati con vari comandi Image Serving, ad esempio color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dfcbd9fe-e696-46e3-abbf-497dc55fe855
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
-
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
