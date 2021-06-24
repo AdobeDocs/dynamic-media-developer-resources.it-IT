@@ -2,16 +2,15 @@
 description: Ottiene le risorse e il numero di risorse associate a una società specifica.
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 8%
 
 ---
-
 
 # getAssetCounts{#getassetcounts}
 
@@ -74,4 +73,3 @@ Questo esempio di codice utilizza l’handle dell’azienda come campo nel `getA
    </countArray>
 </getAssetCountsReturn>
 ```
-
