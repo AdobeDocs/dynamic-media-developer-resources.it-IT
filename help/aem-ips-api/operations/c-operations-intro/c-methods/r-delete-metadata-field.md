@@ -2,16 +2,15 @@
 description: Elimina il campo metadati di una società.
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 8%
 
 ---
-
 
 # deleteMetadataField{#deletemetadatafield}
 
