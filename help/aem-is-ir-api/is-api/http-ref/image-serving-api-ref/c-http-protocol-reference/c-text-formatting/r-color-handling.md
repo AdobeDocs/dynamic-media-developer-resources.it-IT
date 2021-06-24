@@ -2,16 +2,15 @@
 description: La specifica RTF consente valori di colore RGB specificati con &bsol;colortbl. Ogni componente è fornito separatamente con i comandi &bsol;rosso, &bsol;verde e &bsol;blu.
 solution: Experience Manager
 title: Trattamento del colore
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # Trattamento del colore{#color-handling}
 
