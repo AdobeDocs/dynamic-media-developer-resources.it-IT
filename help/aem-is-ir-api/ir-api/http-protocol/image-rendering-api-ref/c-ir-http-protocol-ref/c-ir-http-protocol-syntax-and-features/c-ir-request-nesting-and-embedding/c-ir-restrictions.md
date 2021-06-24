@@ -2,16 +2,15 @@
 description: Alcune restrizioni si applicano alla nidificazione e all’incorporazione.
 solution: Experience Manager
 title: Restrizioni
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ac2fd40b-a2f6-4f6f-9d10-3da3d701042b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Restrizioni{#restrictions}
 
