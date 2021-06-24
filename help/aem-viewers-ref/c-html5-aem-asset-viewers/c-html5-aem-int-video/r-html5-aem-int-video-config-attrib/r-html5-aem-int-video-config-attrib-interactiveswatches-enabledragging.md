@@ -2,13 +2,12 @@
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 5%
 
 ---
