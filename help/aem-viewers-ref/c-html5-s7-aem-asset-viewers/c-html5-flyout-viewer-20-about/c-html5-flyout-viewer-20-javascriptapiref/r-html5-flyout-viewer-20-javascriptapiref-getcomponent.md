@@ -2,16 +2,15 @@
 description: Riferimento API JavaScript per il visualizzatore a comparsa
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 618d34af-32d0-45bd-928d-7a4e084edbe6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -73,4 +72,3 @@ Per ulteriori informazioni su un particolare componente, consulta la documentazi
 } 
 })
 ```
-
