@@ -2,16 +2,15 @@
 description: Consente di ritagliare il riquadro di delimitazione di un percorso incorporato denominato. Questo ritaglio, a sua volta, modifica le dimensioni dell'immagine.
 solution: Experience Manager
 title: cropPathE
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
-
 
 # cropPathE{#croppathe}
 
