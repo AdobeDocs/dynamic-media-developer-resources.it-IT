@@ -2,16 +2,15 @@
 description: Visualizza colore di sfondo. Specifica il colore di sfondo per l'immagine composita (visualizzazione immagine).
 solution: Experience Manager
 title: bgc
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '178'
 ht-degree: 3%
 
 ---
-
 
 # bgc{#bgc}
 
