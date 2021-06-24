@@ -2,16 +2,15 @@
 description: Colore materiale. Il colore principale per i materiali a colori solidi e il colore additivo per i materiali a texture colorata.
 solution: Experience Manager
 title: Colore
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 9%
 
 ---
-
 
 # Colore{#color}
 
