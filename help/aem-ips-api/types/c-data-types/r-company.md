@@ -2,16 +2,15 @@
 description: Rappresenta un'azienda.
 solution: Experience Manager
 title: Società
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 25%
+source-wordcount: '37'
+ht-degree: 27%
 
 ---
-
 
 # Società{#company}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`name`*` | `xsd:string` | Il nome della società. |
 | `*`rootPath`*` | `xsd:string` | Percorso principale dell&#39;azienda. |
 | `*`expires`*` | `xsd:dateTime` | Data e ora di scadenza dell’azienda. |
-
