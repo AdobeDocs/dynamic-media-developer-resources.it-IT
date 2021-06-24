@@ -2,18 +2,17 @@
 description: Distribuzione di contenuti statici (non immagini)
 solution: Experience Manager
 title: Distribuzione di contenuti statici (non immagini)
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
 
-
-# Distribuzione di contenuto statico (non immagine){#serving-static-non-image-content}
+# Distribuzione di contenuti statici (non immagini){#serving-static-non-image-content}
 
 Image Serving fornisce un meccanismo per gestire i contenuti non immagine nei cataloghi e distribuirli tramite un `context /is/content` separato. Il meccanismo consente di configurare il TTL per ogni elemento separatamente.
 
@@ -112,7 +111,7 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
  </tbody> 
 </table>
 
-## Filtro del contenuto statico {#section-896c37cf68bc446eb0766fb378898262}
+## Filtrare il contenuto statico {#section-896c37cf68bc446eb0766fb378898262}
 
 Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Presupponendo che il contenuto statico sia dotato dei valori `catalog::UserType`appropriati, il client può aggiungere il comando `type=` alla richiesta. Image Serving confronterà il valore fornito con il comando `type=` con il valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituirà un errore invece di contenuti potenzialmente inappropriati.
 
