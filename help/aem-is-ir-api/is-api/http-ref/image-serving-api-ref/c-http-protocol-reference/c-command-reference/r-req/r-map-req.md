@@ -2,16 +2,15 @@
 description: Dati mappa immagine.
 solution: Experience Manager
 title: map
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 7%
 
 ---
-
 
 # map{#map}
 
