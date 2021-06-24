@@ -2,16 +2,15 @@
 description: Proprietà di una destinazione Zoom.
 solution: Experience Manager
 title: Destinazione di zoom
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 13%
 
 ---
-
 
 # Destinazione di zoom{#zoomtarget}
 
@@ -32,4 +31,3 @@ Sintassi
 | `*`Dati utente`*` | `xsd:string` | Dati utente associati alla destinazione Zoom. |
 | `*`position`*` | `xsd:int` | Consente di ordinare le destinazioni di zoom associate a una risorsa in base alla posizione |
 | `*`lastModified`*` | `xsd:dateTime` | Data dell’ultima modifica. |
-
