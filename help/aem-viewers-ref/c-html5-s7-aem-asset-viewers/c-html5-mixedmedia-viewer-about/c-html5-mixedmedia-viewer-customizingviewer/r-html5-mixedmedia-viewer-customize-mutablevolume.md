@@ -2,16 +2,15 @@
 description: Il controllo del volume mutabile viene inizialmente visualizzato come un pulsante che consente all'utente di disattivare o disattivare l'audio del lettore video.
 solution: Experience Manager
 title: Volume variabile
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
-
 
 # Volume variabile{#mutable-volume}
 
@@ -231,4 +230,3 @@ left:9px;
 background-image:url(images/volumeKnob.png); 
 }
 ```
-
