@@ -2,16 +2,15 @@
 description: Formato immagine di risposta. Specifica il formato di codifica dell’immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione di risposta HTTP.
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
+exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 3%
 
 ---
-
 
 # fmt{#fmt}
 
