@@ -2,18 +2,17 @@
 description: In questo documento vengono utilizzate le seguenti convenzioni.
 solution: Experience Manager
 title: Convenzioni documento
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-
-# Convenzioni del documento{#document-conventions}
+# Convenzioni documento{#document-conventions}
 
 In questo documento vengono utilizzate le seguenti convenzioni.
 
@@ -87,4 +86,3 @@ In questo documento vengono utilizzate le seguenti convenzioni.
   <td class="stentry"> <p>Lo spazio vuoto (spazi o schede) non è consentito nelle richieste HTTP. Questo documento utilizza occasionalmente lo spazio vuoto tra gli elementi sintattici solo per chiarezza. </p> </td> 
  </tr> 
 </table>
-
