@@ -2,16 +2,15 @@
 description: Gli avvisi standard vengono inviati con un messaggio e-mail consolidato al termine dell’intervallo di media configurato.
 solution: Experience Manager
 title: Avvisi standard
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eb691988-9f03-463f-bed5-2c230431f537
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Avvisi standard{#standard-alerts}
 
@@ -55,4 +54,3 @@ La tabella seguente descrive ogni tipo di avviso standard.
   </tr> 
  </tbody> 
 </table>
-
