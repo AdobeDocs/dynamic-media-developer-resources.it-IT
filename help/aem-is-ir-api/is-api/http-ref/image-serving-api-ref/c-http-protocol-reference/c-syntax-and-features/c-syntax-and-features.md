@@ -2,23 +2,22 @@
 description: Gli argomenti di questa sezione descrivono la sintassi e le funzioni dei protocolli HTTP.
 solution: Experience Manager
 title: Sintassi e caratteristiche
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 44981754-017b-4293-9d44-7611b7a470c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
-
 
 # Sintassi e caratteristiche{#syntax-and-features}
 
 Gli argomenti di questa sezione descrivono la sintassi e le funzioni dei protocolli HTTP.
 
 * [Sintassi di base del protocollo HTTP Image Server](r-basic-syntax.md)
-* [Panoramica del comando del protocollo HTTP Image Server](c-command-overview/c-command-overview.md)
+* [Comando del protocollo HTTP Image Server   panoramica](c-command-overview/c-command-overview.md)
 * [Panoramica sul livello](c-layering-overview/c-layering-overview.md)
 * [Operazioni a livello](c-layering-overview/c-layer-operations.md)
 * [Effetti livello](r-layer-effects.md)
