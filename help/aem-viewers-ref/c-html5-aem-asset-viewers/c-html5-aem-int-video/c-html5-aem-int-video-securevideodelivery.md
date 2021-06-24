@@ -2,13 +2,12 @@
 description: Distribuzione video HTTPS
 solution: Experience Manager
 title: Distribuzione video HTTPS
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
