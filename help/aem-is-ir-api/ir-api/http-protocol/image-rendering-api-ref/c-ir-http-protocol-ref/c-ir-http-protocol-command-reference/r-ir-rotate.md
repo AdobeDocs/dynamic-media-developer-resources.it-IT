@@ -2,18 +2,17 @@
 description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione per i materiali.
 solution: Experience Manager
 title: rotate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
 
-
-# rotate{#rotate}
+# ruotare{#rotate}
 
 Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione per i materiali.
 
