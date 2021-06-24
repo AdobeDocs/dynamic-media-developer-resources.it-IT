@@ -2,16 +2,15 @@
 description: Lo strumento di condivisione e-mail è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
 title: Condivisione e-mail
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2987'
 ht-degree: 1%
 
 ---
-
 
 # Condivisione e-mail{#email-share}
 
@@ -1474,4 +1473,3 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
-
