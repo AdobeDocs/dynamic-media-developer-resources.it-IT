@@ -2,16 +2,15 @@
 description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
-
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
