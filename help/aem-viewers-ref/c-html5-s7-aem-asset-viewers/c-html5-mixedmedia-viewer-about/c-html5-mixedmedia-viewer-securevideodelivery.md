@@ -2,16 +2,15 @@
 description: Distribuzione video HTTPS
 solution: Experience Manager
 title: Distribuzione video HTTPS
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
-
 
 # Distribuzione video HTTPS{#https-video-delivery}
 
@@ -58,4 +57,3 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM,
    ```
 
    Vedere anche [(Incorporare il video in una pagina web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
