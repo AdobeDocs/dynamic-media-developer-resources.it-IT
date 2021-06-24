@@ -2,16 +2,15 @@
 description: Timestamp di modifica predefinito. Fornisce un valore predefinito per TimeStamp e TimeStamp del catalogo. Se non viene specificato, il server utilizzerà la data/ora di modifica del file catalog.ini.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
