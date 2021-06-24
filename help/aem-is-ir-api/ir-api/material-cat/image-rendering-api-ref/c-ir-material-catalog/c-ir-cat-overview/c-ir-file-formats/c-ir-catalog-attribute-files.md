@@ -2,16 +2,15 @@
 description: I file di attributi del catalogo possono avere qualsiasi nome, ma devono avere un suffisso di file .ini. Possono essere facilmente mantenuti utilizzando qualsiasi editor di testo.
 solution: Experience Manager
 title: File di attributi del catalogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # File di attributi del catalogo{#catalog-attribute-files}
 
@@ -37,4 +36,3 @@ I file di attributi del catalogo sono costituiti da un set di record di testo, s
 * I nomi degli attributi possono essere composti da qualsiasi combinazione di lettere ASCII, numeri, nonché &quot;-&quot;, &quot;_&quot; e &quot;.&quot;
 * Se lo stesso nome attributo si verifica più di una volta nello stesso file di attributi, prevale l&#39;ultimo rilevato.
 * Utilizzare &#39;#&#39; come primo carattere per contrassegnare qualsiasi record come commento ignorato dal parser.
-
