@@ -3,16 +3,15 @@ description: Il visualizzatore di ricerca eCatalog è un visualizzatore di catal
 keywords: reattivo
 solution: Experience Manager
 title: Ricerca eCatalog
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
-
 
 # Ricerca eCatalog{#ecatalog-search}
 
@@ -34,7 +33,7 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 [https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
 
-## Utilizzo del visualizzatore di eCatalog {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilizzo del visualizzatore eCatalog {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Il visualizzatore di ricerca eCatalog rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
@@ -83,7 +82,7 @@ Il visualizzatore di ricerca per eCatalog supporta i seguenti gesti touch comuni
 
 Questo visualizzatore supporta anche l&#39;input touch e l&#39;input del mouse su dispositivi Windows con touch screen e mouse. Questo supporto, tuttavia, è limitato solo ai browser web Chrome, Internet Explorer 11 e Edge.
 
-## Strumenti per la condivisione di social media con il visualizzatore di ricerca eCatalog {#section-eb575084a99647c3a9591f439f40b412}
+## Strumenti per la condivisione di social media con il visualizzatore di ricerca per eCatalog {#section-eb575084a99647c3a9591f439f40b412}
 
 Il visualizzatore di ricerca per eCatalog supporta gli strumenti di condivisione per social network Sono disponibili come pulsante nella barra di controllo principale che si espande in una barra degli strumenti di condivisione quando un utente vi fa clic o vi tocca.
 
@@ -91,7 +90,7 @@ La barra degli strumenti di condivisione contiene icone per ogni tipo di canale 
 
 La funzione Ricerca del visualizzatore è disponibile come icona a forma di vetro nella barra degli strumenti principale. Tocca o fai clic sull’icona per attivare il pannello Ricerca con un campo di input. Dopo aver inserito una parola chiave o una frase e aver premuto Invio, il visualizzatore esegue il rendering dei risultati della ricerca nel pannello ed evidenzia le parole trovate nella vista principale.
 
-## Incorporazione del visualizzatore di ricerca per eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione del visualizzatore di ricerca eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e design reattivo.
 
@@ -398,4 +397,3 @@ eCatalogSearchViewer.init();
 </body> 
 </html>
 ```
-
