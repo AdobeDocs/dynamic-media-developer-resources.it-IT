@@ -2,16 +2,15 @@
 description: Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale decal.
 solution: Experience Manager
 title: Dimensione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 4%
 
 ---
-
 
 # Dimensione{#size}
 
