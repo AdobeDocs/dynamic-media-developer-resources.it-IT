@@ -3,16 +3,15 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore zoom di base
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9cbce980-83fd-40a7-8bcd-f9bc4dd477a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore zoom di base{#customizing-basic-zoom-viewer}
 
