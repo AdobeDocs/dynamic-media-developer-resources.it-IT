@@ -2,18 +2,17 @@
 description: Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale sui sistemi desktop e sui tablet. Sui telefoni cellulari, questo pulsante appare nel centro in basso sopra l'immagine. Tuttavia, non viene visualizzato quando l'immagine è in uno stato di ripristino. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Ripristina zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d5aa9e9d-4d7e-428c-a43f-d2b4c9e59777
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-
-# Pulsante di ripristino dello zoom{#zoom-reset-button}
+# Pulsante Ripristina zoom{#zoom-reset-button}
 
 Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale sui sistemi desktop e sui tablet. Sui telefoni cellulari, questo pulsante appare nel centro in basso sopra l&#39;immagine. Tuttavia, non viene visualizzato quando l&#39;immagine è in uno stato di ripristino. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
