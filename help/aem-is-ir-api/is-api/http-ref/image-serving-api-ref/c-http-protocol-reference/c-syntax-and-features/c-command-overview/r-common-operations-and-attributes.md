@@ -2,16 +2,15 @@
 description: Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono utili anche per le immagini composite e per le richieste di immagini semplici e non a livelli.
 solution: Experience Manager
 title: Operazioni comuni
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
-
 
 # Operazioni comuni{#common-operations}
 
@@ -83,4 +82,3 @@ Questi comandi si applicano ai livelli immagine, testo e colore solido. Sono uti
   <td class="stentry"> <p>Specifica le forme di clip invertite per il livello. </p></td> 
  </tr> 
 </table>
-
