@@ -2,16 +2,15 @@
 description: Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
 solution: Experience Manager
 title: DecomprimiOpzioni
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 5%
 
 ---
-
 
 # DecomprimiOpzioni{#uncompressoptions}
 
@@ -64,4 +63,3 @@ Il tipo `unCompressionOptions` viene utilizzato da:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
