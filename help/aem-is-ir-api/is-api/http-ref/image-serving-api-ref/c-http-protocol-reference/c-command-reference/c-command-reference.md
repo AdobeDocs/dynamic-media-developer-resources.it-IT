@@ -2,16 +2,15 @@
 description: Questa sezione descrive i comandi del protocollo HTTP.
 solution: Experience Manager
 title: Riferimento comando
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 7%
 
 ---
-
 
 # Riferimento comando{#command-reference}
 
@@ -107,6 +106,6 @@ Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.ado
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [type](r-type.md)
+* [Testo](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
