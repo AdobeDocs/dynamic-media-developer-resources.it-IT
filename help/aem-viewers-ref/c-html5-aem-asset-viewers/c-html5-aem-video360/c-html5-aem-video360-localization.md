@@ -2,18 +2,17 @@
 description: Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# Localizzazione degli elementi dell&#39;interfaccia utente{#localization-of-user-interface-elements}
+# Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
 Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 
@@ -175,7 +174,7 @@ Sono supportati i seguenti SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante di condivisione di Facebook. </p> </td> 
+   <td colname="col2"> <p>Pulsante di condivisione Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
