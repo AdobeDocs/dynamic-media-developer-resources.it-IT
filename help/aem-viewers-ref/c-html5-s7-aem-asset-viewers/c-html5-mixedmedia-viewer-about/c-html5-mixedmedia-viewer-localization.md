@@ -2,18 +2,17 @@
 description: Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questo include pulsanti zoom, pulsanti di rotazione, controlli video, pulsante Chiudi a schermo intero e pulsanti di scorrimento campione.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# Localizzazione degli elementi dell&#39;interfaccia utente{#localization-of-user-interface-elements}
+# Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
 Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questo include pulsanti zoom, pulsanti di rotazione, controlli video, pulsante Chiudi a schermo intero e pulsanti di scorrimento campione.
 
@@ -183,4 +182,3 @@ Sono supportati i seguenti SYMBOL:
   </tr> 
  </tbody> 
 </table>
-
