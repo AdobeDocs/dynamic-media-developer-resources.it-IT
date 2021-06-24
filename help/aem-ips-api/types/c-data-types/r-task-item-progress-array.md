@@ -2,16 +2,15 @@
 description: Matrice di informazioni su un elemento dell'attività.
 solution: Experience Manager
 title: TaskItemProgressArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
-
 
 # TaskItemProgressArray{#taskitemprogressarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `types:TaskItemProgress` | Matrice di avanzamento dell&#39;elemento attività. L&#39;occorrenza minima è zero. Il valore massimo non è delimitato. |
-
