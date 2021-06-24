@@ -2,18 +2,17 @@
 description: L'icona di riproduzione viene sovrapposta all'area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
 solution: Experience Manager
 title: Icona, effetto
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
-
-# Effetto icona{#icon-effect}
+# Icona, effetto{#icon-effect}
 
 L&#39;icona di riproduzione viene sovrapposta all&#39;area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
 
@@ -65,4 +64,3 @@ background-image: url(images/playIcon.png);
 background-image: url(images/replayIcon.png); 
 }
 ```
-
