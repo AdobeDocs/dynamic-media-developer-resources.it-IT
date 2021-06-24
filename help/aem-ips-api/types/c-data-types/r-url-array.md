@@ -2,16 +2,15 @@
 description: Array di URL per annullare la validità della cache CDN.
 solution: Experience Manager
 title: UrlArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 8%
 
 ---
-
 
 # UrlArray{#urlarray}
 
@@ -39,4 +38,3 @@ Array di URL per annullare la validità della cache CDN.
   </tr> 
  </tbody> 
 </table>
-
