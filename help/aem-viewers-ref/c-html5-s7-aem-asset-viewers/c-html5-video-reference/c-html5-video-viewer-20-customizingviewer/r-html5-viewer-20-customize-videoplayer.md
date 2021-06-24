@@ -2,16 +2,15 @@
 description: Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
 solution: Experience Manager
 title: Lettore video
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 1%
 
 ---
-
 
 # Lettore video{#video-player}
 
@@ -141,4 +140,3 @@ Esempio: per impostare un’animazione buffering su una larghezza di 101 pixel e
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
