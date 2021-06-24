@@ -2,18 +2,17 @@
 description: Tocca o fai clic su questo pulsante per passare alla pagina successiva del catalogo. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante Pagina successiva grande
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8147cdf8-298c-4713-a5a5-b34674f6b2c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
 
-
-# Pulsante grande pagina successiva{#large-next-page-button}
+# Pulsante Pagina successiva grande{#large-next-page-button}
 
 Tocca o fai clic su questo pulsante per passare alla pagina successiva del catalogo. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 
@@ -97,4 +96,3 @@ background-image:url(images/v2/RightButton_dark_down.png);
 background-image:url(images/v2/RightButton_dark_disabled.png); 
 }
 ```
-
