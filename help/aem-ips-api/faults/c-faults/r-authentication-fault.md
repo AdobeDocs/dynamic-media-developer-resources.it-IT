@@ -2,16 +2,15 @@
 description: Generato quando un utente non può essere autenticato.
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fce5c227-9291-4d17-801f-4ef4b8d43eb4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
-
 
 # authenticationFault{#authenticationfault}
 
