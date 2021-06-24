@@ -2,16 +2,15 @@
 description: Ottiene le stringhe di ricerca, le parole chiave e altre informazioni su una risorsa. La risposta contiene informazioni aggiuntive sulla risorsa.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 14%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
-
 
 # getSearchStrings{#getsearchstrings}
 
