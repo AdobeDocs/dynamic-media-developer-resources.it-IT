@@ -2,16 +2,15 @@
 description: Selezionare l’oggetto in base al nome. Seleziona il gruppo di vignette specificato per nome e avvia un nuovo MSS.
 solution: Experience Manager
 title: obj
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 17387203-f7a7-4876-a15b-2084894f981d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
-
 
 # obj{#obj}
 
