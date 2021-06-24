@@ -2,16 +2,15 @@
 description: Un processo che ricompila una risorsa PDF esistente.
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
-
 
 # RipPdfsJob{#rippdfsjob}
 
@@ -133,4 +132,3 @@ Le scelte per `*PublishJob` includono:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-
