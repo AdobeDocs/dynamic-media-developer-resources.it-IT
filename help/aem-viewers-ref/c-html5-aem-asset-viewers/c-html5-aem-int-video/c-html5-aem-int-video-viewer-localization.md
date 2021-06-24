@@ -2,18 +2,17 @@
 description: Alcuni contenuti visualizzati nel Visualizzatore video interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non è in grado di essere riprodotto.
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Localizzazione degli elementi dell&#39;interfaccia utente{#localization-of-user-interface-elements}
+# Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
 Alcuni contenuti visualizzati nel Visualizzatore video interattivo sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non è in grado di essere riprodotto.
 
@@ -155,11 +154,11 @@ Sono supportati i seguenti SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante di condivisione Facebook. </p> </td> 
+   <td colname="col2"> <p>Pulsante di condivisione facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante di condivisione Twitter. </p> </td> 
+   <td colname="col2"> <p>Pulsante di condivisione twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
