@@ -2,16 +2,15 @@
 description: Risoluzione predefinita delle miniature. Fornisce un valore predefinito per la risoluzione dell'oggetto miniatura nel caso in cui un particolare record di catalogo non contenga un valore ThumbRes di catalogo valido.
 solution: Experience Manager
 title: ThumbRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
-
 
 # ThumbRes{#thumbres}
 
