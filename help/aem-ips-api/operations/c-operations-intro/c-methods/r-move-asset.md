@@ -2,16 +2,15 @@
 description: Sposta una risorsa in una cartella specifica.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
-
 
 # moveAsset{#moveasset}
 
