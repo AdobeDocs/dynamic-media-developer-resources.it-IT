@@ -2,18 +2,17 @@
 description: Rinomina una risorsa.
 solution: Experience Manager
 title: rinominaRisorsa
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 6%
 
 ---
 
-
-# rinominareAsset{#renameasset}
+# rinominaRisorsa{#renameasset}
 
 Rinomina una risorsa.
 
