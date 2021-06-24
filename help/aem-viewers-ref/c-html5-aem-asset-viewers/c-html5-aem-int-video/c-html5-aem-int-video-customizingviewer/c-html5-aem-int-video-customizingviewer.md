@@ -3,13 +3,12 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore video interattivo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,Business Practitioner
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -36,7 +35,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7interactivevideoviewer`
 
-## Creazione di CSS adattabili {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creazione di CSS reattivi {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere la visualizzazione del contenuto diversa a seconda del dispositivo di un utente o di un particolare layout di pagina web. Sono inclusi, ma senza limitazioni, layout diversi, dimensioni degli elementi dell’interfaccia utente e risoluzione delle immagini.
 
