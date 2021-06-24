@@ -2,16 +2,15 @@
 description: Gestione degli errori di selezione degli oggetti. Specifica l'azione da eseguire se il comando obj= non riesce perché il percorso specificato non può essere corrispondente nella gerarchia degli oggetti vignetta.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
-
 
 # OnFailObj{#onfailobj}
 
