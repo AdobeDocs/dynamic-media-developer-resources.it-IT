@@ -2,16 +2,15 @@
 description: File materiale. Specifica i dati del materiale, sotto forma di un singolo riferimento al catalogo del materiale o come uno o due file di dati immagine o materiale, separati da una virgola.
 solution: Experience Manager
 title: src
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
-
 
 # src{#src}
 
