@@ -2,16 +2,15 @@
 description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 20618017-2f73-4951-baa9-2063a0f4efcb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
-
 
 # InfoPanelPopup.template{#infopanelpopup-template}
 
