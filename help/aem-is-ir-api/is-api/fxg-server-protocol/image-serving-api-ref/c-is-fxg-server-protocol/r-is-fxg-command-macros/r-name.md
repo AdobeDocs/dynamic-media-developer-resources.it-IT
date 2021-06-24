@@ -2,16 +2,15 @@
 description: Nome della macro del comando.
 solution: Experience Manager
 title: name
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 8%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
-
 
 # name{#name}
 
