@@ -2,16 +2,15 @@
 description: Dimensione predefinita della visualizzazione.
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
-
 
 # DefaultPix{#defaultpix}
 
