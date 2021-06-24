@@ -2,16 +2,15 @@
 description: Pubblica tutte le immagini, i modelli e i set 360 gradi contrassegnati come pronti per la pubblicazione in una directory server.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---
-
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
@@ -25,4 +24,3 @@ Sintassi
 |---|---|---|
 | `*`emailSettings`*` | `xsd:string` | Scelta delle impostazioni e-mail. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL per inviare un avviso di completamento. |
-
