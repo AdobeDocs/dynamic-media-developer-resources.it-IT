@@ -2,16 +2,15 @@
 description: Opzioni per un file Adobe Illustrator.
 solution: Experience Manager
 title: IllustratorOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`resolution`*` | `xsd:string` | Risoluzione del file. |
 | `*`colorSpace`*` | `xsd:string` | Spazio colore di destinazione. |
 | `*`alfa`*` | `xsd:boolean` | Se rasterizzare il file in un’immagine. In tal caso, crea uno sfondo trasparente se il file originale è definito in questo modo per creare loghi sovrapposti. |
-
