@@ -2,16 +2,15 @@
 description: Sui sistemi desktop alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
 solution: Experience Manager
 title: Descrizioni comandi
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 829fdb7f-d9b1-449a-ad2d-88aa435fcaa2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 6%
 
 ---
-
 
 # Descrizioni comandi{#tooltips}
 
@@ -78,4 +77,3 @@ Esempio: per impostare descrizioni comandi con bordo grigio con raggio angolo 3p
  font-size: 11px; 
 }
 ```
-
