@@ -2,16 +2,15 @@
 description: Il visualizzatore consente di inviare il contenuto del catalogo a una stampante.
 solution: Experience Manager
 title: Funzione di stampa
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
-
 
 # Funzione di stampa{#print-feature}
 
@@ -24,4 +23,3 @@ La qualità della stampa può essere regolata utilizzando il parametro di config
 >[!NOTE]
 >
 >La funzione Stampa è disponibile solo sui sistemi desktop, ad eccezione di Internet Explorer 9.
-
