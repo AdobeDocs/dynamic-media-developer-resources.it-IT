@@ -2,16 +2,15 @@
 description: Nome della faccia del font Postscript. Il nome del font Postscript.
 solution: Experience Manager
 title: PsName
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 8%
 
 ---
-
 
 # PsName{#psname}
 
