@@ -2,16 +2,15 @@
 description: Set di utenti denominato utilizzato per assegnare le autorizzazioni.
 solution: Experience Manager
 title: Group (Gruppo)
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 14%
 
 ---
-
 
 # Group (Gruppo){#group}
 
@@ -27,4 +26,3 @@ Sintassi
 | `*`companyHandle`*` | `xsd:string` | Tratta l&#39;azienda. |
 | `*`name`*` | `xsd:string` | Nome del gruppo. |
 | `*`è SystemDefined`*` | `xsd:string` | Se il gruppo è definito dal sistema. |
-
