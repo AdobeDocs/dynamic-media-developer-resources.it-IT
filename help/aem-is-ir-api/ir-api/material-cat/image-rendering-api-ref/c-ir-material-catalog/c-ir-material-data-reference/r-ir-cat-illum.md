@@ -2,16 +2,15 @@
 description: Selettore mappa illuminazione. Consente di selezionare esplicitamente la mappa di illuminazione da utilizzare per il rendering di questo materiale.
 solution: Experience Manager
 title: Illum
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
-
 
 # Illum{#illum}
 
