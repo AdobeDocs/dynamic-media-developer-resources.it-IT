@@ -2,16 +2,15 @@
 description: Testo del livello. Specifica il testo e la formattazione del contenuto per un livello di testo.
 solution: Experience Manager
 title: Testo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 4%
 
 ---
-
 
 # Testo{#text}
 
