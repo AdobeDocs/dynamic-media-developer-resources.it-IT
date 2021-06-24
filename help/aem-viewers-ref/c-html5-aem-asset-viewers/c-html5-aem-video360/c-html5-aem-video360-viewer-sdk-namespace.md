@@ -2,18 +2,17 @@
 description: Spazio dei nomi dell’SDK per visualizzatori
 solution: Experience Manager
 title: Spazio dei nomi dell’SDK per visualizzatori
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-# Spazio dei nomi SDK del visualizzatore{#viewer-sdk-namespace}
+# Spazio dei nomi dell’SDK per visualizzatori{#viewer-sdk-namespace}
 
 Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte dall’API del visualizzatore stesso.
 
