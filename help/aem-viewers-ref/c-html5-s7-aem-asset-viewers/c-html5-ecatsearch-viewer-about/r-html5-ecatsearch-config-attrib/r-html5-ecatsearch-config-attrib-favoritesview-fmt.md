@@ -2,16 +2,15 @@
 description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9ec5ed03-1d8f-4e67-a9a3-bdf160b105c5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
-
 
 # FavoritesView.fmt{#favoritesview-fmt}
 
