@@ -2,16 +2,15 @@
 description: Profilo colore di output.
 solution: Experience Manager
 title: icc
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 4%
 
 ---
-
 
 # icc{#icc}
 
