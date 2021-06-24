@@ -2,16 +2,15 @@
 description: Il visualizzatore di ricerca per eCatalog supporta il rendering delle icone delle mappe immagine sopra la vista principale.
 solution: Experience Manager
 title: Supporto mappa immagine
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
-
 
 # Supporto mappa immagine{#image-map-support}
 
@@ -21,7 +20,7 @@ L&#39;aspetto delle icone della mappa viene controllato tramite CSS come descrit
 
 Le mappe immagine eseguono una delle tre azioni seguenti: reindirizzare a una pagina Web esterna, all’attivazione a comparsa del pannello Info e ai collegamenti ipertestuali interni.
 
-## Reindirizzare a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Reindirizzamento a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
 L’attributo `href` della mappa immagine ha un URL per la risorsa esterna, specificato esplicitamente o racchiuso in una delle funzioni di modello JavaScript supportate: `loadProduct()`, `loadProductCW()` e `loadProductPW()`.
 
@@ -35,7 +34,7 @@ In questo esempio, lo stesso URL viene racchiuso con la funzione `loadProduct()`
 
 Tieni presente che quando aggiungi il codice JavaScript all’attributo `HREF` della mappa immagine, il codice viene eseguito sul computer del client. Assicurati pertanto che il codice JavaScript sia protetto.
 
-## Attivazione popup pannello informazioni {#section-7aa036420af646d1ad8cdc388add0b57}
+## Attivazione a comparsa del pannello Info {#section-7aa036420af646d1ad8cdc388add0b57}
 
 Per lavorare con i pannelli Info, per una mappa immagine è impostato l’attributo `ROLLOVER_KEY` . Inoltre, imposta l’attributo `href` contemporaneamente, altrimenti l’elaborazione dell’URL esterno interferisce con l’attivazione a comparsa del pannello Info.
 
