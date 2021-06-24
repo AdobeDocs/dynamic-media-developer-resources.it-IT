@@ -2,16 +2,15 @@
 description: Utilizzato da setCompanySettingsParam/overwriteMode.
 solution: Experience Manager
 title: Modalità di sovrascrittura delle risorse
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1a62026c-bad1-4459-8fe6-a94b87939ce1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 4%
 
 ---
-
 
 # Modalità di sovrascrittura delle risorse{#asset-overwrite-modes}
 
@@ -25,4 +24,3 @@ Sintassi
 * [!DNL `OverwriteAnyExt`]
 * [!DNL `OverwriteFullNameAnyFolder`]
 * [!DNL `OverwriteAnyExtAnyFolder`]
-
