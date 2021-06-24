@@ -2,18 +2,17 @@
 description: Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
 solution: Experience Manager
 title: Aggiornamento metadati
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
 
-
-# MetadataUpdate{#metadataupdate}
+# Aggiornamento metadati{#metadataupdate}
 
 Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetMetadata. Descrive le modifiche da apportare ai metadati.
 
@@ -87,4 +86,3 @@ Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetM
   </tr> 
  </tbody> 
 </table>
-
