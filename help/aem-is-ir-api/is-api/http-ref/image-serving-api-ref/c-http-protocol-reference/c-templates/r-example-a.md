@@ -2,16 +2,15 @@
 description: Crea un modello a dimensione fissa con un’immagine di sfondo statica, un’immagine variabile allineata con lo sfondo al centro a sinistra e ridimensionata per non superare l’80% della larghezza e dell’altezza dello sfondo e un livello di testo con testo verticale centrato sul bordo destro dell’area di lavoro.
 solution: Experience Manager
 title: Esempio A
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Esempio A{#example-a}
 
@@ -53,4 +52,3 @@ Qualsiasi immagine può essere utilizzata per l&#39;immagine di sfondo e l&#39;i
 L&#39;illustrazione seguente mostra il risultato composito per le diverse proporzioni dell&#39;immagine di livello 1 e diverse stringhe di testo.
 
 ![](assets/exampleausing.png)
-
