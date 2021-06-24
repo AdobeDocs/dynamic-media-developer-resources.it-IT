@@ -2,13 +2,12 @@
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
