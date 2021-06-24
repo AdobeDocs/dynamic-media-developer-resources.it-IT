@@ -2,16 +2,15 @@
 description: Cerca le risorse in base ai criteri specificati.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 6%
 
 ---
-
 
 # searchAssets{#searchassets}
 
@@ -19,7 +18,7 @@ Cerca le risorse in base ai criteri specificati.
 
 Sintassi
 
-## searchAssets: Informazioni su {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets: Informazioni {#section-4ad74f12eb754768bf85bd235a7e25f0}
 
 `searchAssets` è il metodo principale per recuperare le risorse IPS. Questo metodo viene utilizzato per vari scopi, ad esempio per sfogliare la gerarchia delle cartelle o trovare una risorsa specifica per nome.
 
@@ -272,4 +271,3 @@ Questo esempio di codice cerca le risorse di immagini che appartengono a una soc
     </assetArray>
 </searchAssetsReturn>
 ```
-
