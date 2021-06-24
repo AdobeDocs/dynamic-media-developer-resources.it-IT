@@ -3,16 +3,15 @@ description: Personalizzazione del visualizzatore zoom in linea
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore zoom in linea
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8818bee3-dcdb-4a36-bddb-14dd10d0ea52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore zoom in linea{#customizing-inline-zoom-viewer}
 
@@ -45,7 +44,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7flyoutviewer`
 
-## Creazione di CSS adattabili {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Creazione di CSS reattivi {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Ciò include, ma non è limitato a, diversi layout di pagina web, dimensioni degli elementi dell’interfaccia utente e risoluzione dell’immagine.
 
