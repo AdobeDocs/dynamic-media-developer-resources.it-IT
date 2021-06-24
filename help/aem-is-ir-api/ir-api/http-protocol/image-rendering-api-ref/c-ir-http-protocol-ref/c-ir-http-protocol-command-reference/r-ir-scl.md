@@ -2,16 +2,15 @@
 description: Vista scala. Ridimensiona l'immagine renderizzata in base al fattore di scala specificato, rispetto alla vignetta a risoluzione piena.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
-
 
 # scl{#scl}
 
