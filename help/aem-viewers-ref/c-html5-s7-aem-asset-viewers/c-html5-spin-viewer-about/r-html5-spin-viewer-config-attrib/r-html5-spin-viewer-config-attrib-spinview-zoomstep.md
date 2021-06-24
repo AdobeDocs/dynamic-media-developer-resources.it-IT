@@ -2,16 +2,15 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 919477d0-87d9-4cf7-a7c8-0fbb68c6ff96
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 4%
 
 ---
-
 
 # SpinView.zoomstep{#spinview-zoomstep}
 
