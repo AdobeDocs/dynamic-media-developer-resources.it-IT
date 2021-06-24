@@ -2,16 +2,15 @@
 description: Un processo eseguito su un server. Inoltre, si tratta di un'istanza di un lavoro pianificato.
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
-
 
 # ActiveJob{#activejob}
 
@@ -175,4 +174,3 @@ Specificare un valore del tipo di processo per restituire il tipo di processo. Ã
   </tr> 
  </tbody> 
 </table>
-
