@@ -2,16 +2,15 @@
 description: Matrice di metadati.
 solution: Experience Manager
 title: MetadataArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadati
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1833237d-4ef9-4899-8d14-317db350b223
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
-
 
 # MetadataArray{#metadataarray}
 
@@ -37,4 +36,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
