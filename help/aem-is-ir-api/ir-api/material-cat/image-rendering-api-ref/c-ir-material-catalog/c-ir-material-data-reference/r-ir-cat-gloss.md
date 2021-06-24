@@ -2,18 +2,17 @@
 description: Lucidità superficie Specifica la lucentezza relativa della superficie del materiale.
 solution: Experience Manager
 title: Glossario
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 72c5d2f9-a7e6-4ad3-aebe-6a1b1fa5453f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
-# Gloss{#gloss}
+# Glossario{#gloss}
 
 Lucidità superficie Specifica la lucentezza relativa della superficie del materiale.
 
