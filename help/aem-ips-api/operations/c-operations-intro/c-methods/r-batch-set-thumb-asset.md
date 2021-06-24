@@ -2,16 +2,15 @@
 description: Imposta l’immagine in miniatura per una o più risorse.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 12%
 
 ---
-
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
@@ -85,4 +84,3 @@ I tipi di risorse miniature consentiti sono costituiti dai seguenti elementi:
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-
