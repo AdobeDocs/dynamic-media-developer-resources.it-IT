@@ -2,16 +2,15 @@
 description: stageSize
 solution: Experience Manager
 title: stageSize
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # stageSize{#stagesize}
 
