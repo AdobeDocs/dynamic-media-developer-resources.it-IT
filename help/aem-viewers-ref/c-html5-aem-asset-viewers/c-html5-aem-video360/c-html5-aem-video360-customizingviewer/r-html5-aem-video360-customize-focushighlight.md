@@ -2,18 +2,17 @@
 description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 solution: Experience Manager
 title: Evidenziazione
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# Evidenziazione messa a fuoco{#focus-highlight}
+# Evidenziazione{#focus-highlight}
 
 L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
 
