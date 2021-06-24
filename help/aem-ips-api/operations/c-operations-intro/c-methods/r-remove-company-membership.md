@@ -2,16 +2,15 @@
 description: Rimuove un utente da una o più aziende.
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 9%
 
 ---
-
 
 # removeCompanyMembership{#removecompanymembership}
 
