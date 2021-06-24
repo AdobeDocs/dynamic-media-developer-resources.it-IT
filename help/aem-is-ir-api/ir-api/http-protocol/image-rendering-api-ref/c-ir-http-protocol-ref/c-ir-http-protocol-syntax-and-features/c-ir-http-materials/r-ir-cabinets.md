@@ -2,16 +2,15 @@
 description: I materiali dei cabinet specificano un file stile cabinet (estensione .vnc), un file di dati speciale contenente rappresentazioni fotografiche di armadi insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei fronti dei cabinet.
 solution: Experience Manager
 title: Scaffali
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 5%
 
 ---
-
 
 # Scaffali{#cabinets}
 
@@ -62,4 +61,3 @@ I materiali del cabinet possono essere applicati solo agli oggetti del mobile.
   </tr> 
  </tbody> 
 </table>
-
