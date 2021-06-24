@@ -2,16 +2,15 @@
 description: Array utilizzato per designare l’autore o un elenco di fino a 5 indirizzi e-mail per ricevere la notifica di conferma.
 solution: Experience Manager
 title: EmailArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
-
 
 # EmailArray{#emailarray}
 
@@ -24,4 +23,3 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `*`elementi`*` | `xsd:string` | indirizzi e-mail. |
-
