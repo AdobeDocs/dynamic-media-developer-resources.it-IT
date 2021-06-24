@@ -2,16 +2,15 @@
 description: Elemento filtro indirizzi. Facoltativo negli elementi <rule> . Sostituisce l'attributo ClientAddressFilter quando la regola viene applicata.
 solution: Experience Manager
 title: addressfilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
-
 
 # addressfilter{#addressfilter}
 
@@ -35,6 +34,6 @@ Se l’ `<expression>` nell’elemento `<rule>` è assente o vuoto, il `<address
 
 `localhost` fa sempre parte implicita della  `ClientAddressFilter` definizione, anche se non esplicitamente specificata. Le richieste provenienti da `localhost` non vengono mai rifiutate, indipendentemente dalla specifica `ClientAddressFilter`.
 
-## SeeaAltra {#section-02056065e0c042e1b155b2f3e5b84ef7}
+## SeeaAnche {#section-02056065e0c042e1b155b2f3e5b84ef7}
 
 [attributo::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
