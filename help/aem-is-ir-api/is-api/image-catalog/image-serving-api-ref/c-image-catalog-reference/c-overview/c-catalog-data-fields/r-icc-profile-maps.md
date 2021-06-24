@@ -2,16 +2,15 @@
 description: I campi seguenti sono riconosciuti nei file di mappa del profilo colore ICC.
 solution: Experience Manager
 title: Mappe del profilo ICC
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Mappe del profilo ICC{#icc-profile-maps}
 
@@ -27,4 +26,3 @@ I campi seguenti sono riconosciuti nei file di mappa del profilo colore ICC.
   <td class="stentry"> <p>Percorso file profilo colore ICC. </p></td> 
  </tr> 
 </table>
-
