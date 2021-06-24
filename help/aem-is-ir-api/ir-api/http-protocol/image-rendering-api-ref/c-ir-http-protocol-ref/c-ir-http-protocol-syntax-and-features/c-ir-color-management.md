@@ -2,16 +2,15 @@
 description: Image Rendering supporta le conversioni dello spazio colore in base ai profili dello spazio colore conformi alle specifiche ICC (International Color Consortium).
 solution: Experience Manager
 title: Gestione del colore del rendering delle immagini *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
-
 
 # Gestione del colore del rendering delle immagini *{#image-rendering-color-management}
 
@@ -69,7 +68,7 @@ Il profilo colore associato all’immagine renderizzata può essere incorporato 
 
 Se `icc=` non è specificato, viene incorporato il profilo ICC per lo spazio colore di lavoro. Se la gestione del colore è disabilitata e non è stato specificato alcun profilo con `icc=`, non viene incorporato alcun profilo.
 
-## ICC, profili {#section-afeb76068b5042adb83261638e450140}
+## Profili ICC {#section-afeb76068b5042adb83261638e450140}
 
 Tutti i profili di colore utilizzati dal server devono essere conformi alla specifica ICC. I file di profilo ICC hanno in genere un suffisso di file [!DNL .icc] o [!DNL .icm] e si trovano in co-posizione con file di dati di materiale.
 
