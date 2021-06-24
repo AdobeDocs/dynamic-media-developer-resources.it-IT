@@ -2,16 +2,15 @@
 description: Visualizza trasformazione per immagini
 solution: Experience Manager
 title: Visualizza trasformazione per immagini
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fc20cbc2-9d66-4c52-80c2-9ba7c3b54744
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
-
 
 # Visualizza trasformazione per immagini{#view-transform-for-images}
 
