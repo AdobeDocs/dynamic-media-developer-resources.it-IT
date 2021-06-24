@@ -2,18 +2,17 @@
 description: Riferimento API JavaScript per il visualizzatore a comparsa.
 solution: Experience Manager
 title: disporre
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf38d481-d8cc-400c-9017-bcb3471f2a10
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
-
-# dispose{#dispose}
+# disporre{#dispose}
 
 Riferimento API JavaScript per il visualizzatore a comparsa.
 
@@ -40,4 +39,3 @@ Nessuno.
 ```
 <instance>.dispose()
 ```
-
