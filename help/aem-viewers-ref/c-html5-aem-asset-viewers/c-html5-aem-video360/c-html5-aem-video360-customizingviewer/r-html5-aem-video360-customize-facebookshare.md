@@ -1,21 +1,20 @@
 ---
-description: Lo strumento di condivisione Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+description: Lo strumento di condivisione facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l'utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condivisione Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: Condivisione facebook
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
 role: Developer,Business Practitioner
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Condivisione Facebook{#facebook-share}
+# Condivisione facebook{#facebook-share}
 
-Lo strumento di condivisione Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+Lo strumento di condivisione facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando si fa clic sul pulsante, l&#39;utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
