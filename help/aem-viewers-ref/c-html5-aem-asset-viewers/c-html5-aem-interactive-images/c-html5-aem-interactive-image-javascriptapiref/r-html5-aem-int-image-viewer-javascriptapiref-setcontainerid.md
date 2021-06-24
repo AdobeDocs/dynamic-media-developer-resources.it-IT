@@ -2,14 +2,13 @@
 description: Riferimento API JavaScript per il visualizzatore di immagini video.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
 role: Developer,Business Practitioner
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
