@@ -2,16 +2,15 @@
 description: La vista principale è costituita dall’immagine zoomabile.
 solution: Experience Manager
 title: Visualizzazione zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Visualizzazione zoom{#zoom-view}
 
@@ -75,4 +74,3 @@ Nei sistemi desktop il componente supporta il selettore di attributi `cursortype
 * `slide`
 
    Visualizzato quando l’utente esegue lo scambio di immagini facendo un tocco o uno sfarfallio orizzontale.
-
