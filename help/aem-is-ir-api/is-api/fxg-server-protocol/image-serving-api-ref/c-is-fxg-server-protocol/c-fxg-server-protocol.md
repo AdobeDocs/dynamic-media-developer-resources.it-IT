@@ -2,18 +2,17 @@
 description: Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 solution: Experience Manager
 title: Protocollo server FXG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 84%
+source-wordcount: '274'
+ht-degree: 85%
 
 ---
 
-
-# Protocollo del server FXG{#fxg-server-protocol}
+# Protocollo server FXG{#fxg-server-protocol}
 
 Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 
@@ -37,4 +36,3 @@ Il valore predefinito è none. Il valore `inherit` passa il valore `s7:reference
 >per usare un punto di riferimento ma non produrre alcuno spostamento nell’oggetto dopo che è stato manipolato, aggiornare i valori x e y dell’oggetto dopo averlo manipolato.
 
 Quando si usa un valore`s7:referencePoint`   con dei gruppi (o tracciati, elementi linea o altri elementi che non hanno definizioni specifiche di larghezza e altezza), il valore è applicabile al rettangolo di selezione cumulativo del gruppo. Ad esempio, il punto superiore sinistro del rettangolo di selezione di tutti gli oggetti del gruppo agisce da punto di riferimento `northWest` (nord ovest) per il gruppo; il punto inferiore destro agisce invece da punto di riferimento `southEast` (sud est).
-
