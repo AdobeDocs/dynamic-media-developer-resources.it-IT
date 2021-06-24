@@ -2,16 +2,15 @@
 description: Questo documento descrive il catalogo dei materiali per il rendering delle immagini di Dynamic Media.
 solution: Experience Manager
 title: Introduzione
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introduzione{#introduction}
 
@@ -91,4 +90,3 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
   <td class="stentry"> <p>Lo spazio vuoto (spazi o schede) non è consentito nelle richieste HTTP. Questo documento utilizza occasionalmente lo spazio vuoto tra gli elementi sintattici solo per chiarezza. </p> </td> 
  </tr> 
 </table>
-
