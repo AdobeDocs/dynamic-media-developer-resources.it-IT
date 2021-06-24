@@ -2,18 +2,17 @@
 description: Comando URL per il visualizzatore video.
 solution: Experience Manager
 title: didascalia
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a9af3335-ae18-4399-9014-47ec0306a087
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 10%
 
 ---
 
-
-# caption{#caption}
+# didascalia{#caption}
 
 Comando URL per il visualizzatore video.
 
@@ -86,4 +85,3 @@ Nessuno.
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
 ```
-
