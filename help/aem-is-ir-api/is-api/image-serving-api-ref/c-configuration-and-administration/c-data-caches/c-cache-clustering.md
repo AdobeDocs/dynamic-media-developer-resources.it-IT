@@ -2,16 +2,15 @@
 description: Il clustering della cache consente a più server con carico bilanciato di scambiare voci di cache nella cache di risposta primaria e nella cache di dati secondaria (per le richieste nidificate/incorporate), con il potenziale di aumentare significativamente la reattività del server eliminando la necessità di generare la stessa voce di cache su più server.
 solution: Experience Manager
 title: Clustering cache
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
 
 # Clustering cache{#cache-clustering}
 
@@ -32,4 +31,3 @@ Il cluster di cache può funzionare in una delle due configurazioni di base:
 * Quando `PS::cacheCluster.updateLocalCache` è disabilitato, i dati provenienti da altri server non vengono copiati nella cache locale.
 
    Questo moltiplica lo spazio su disco disponibile per i dati della cache. Tuttavia, aumenta il traffico tra i server peer e riduce i tempi di risposta generali. Utilizza questa configurazione solo quando visualizzi percentuali di hit della cache basse.
-
