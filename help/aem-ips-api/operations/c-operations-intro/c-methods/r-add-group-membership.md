@@ -2,16 +2,15 @@
 description: Aggiunge un utente a una matrice di gruppi.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 9%
+source-wordcount: '99'
+ht-degree: 10%
 
 ---
-
 
 # addGroupMembership{#addgroupmembership}
 
