@@ -2,16 +2,15 @@
 title: Chiamate obsolete
 description: Chiamate API di Image Production System e i relativi parametri associati che non vengono più utilizzati in Dynamic Media.
 solution: Experience Manager
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f6711780-9a96-4a61-9066-8d83316758c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Chiamate obsolete{#deprecated-calls}
 
@@ -24,4 +23,3 @@ Chiamate API di Image Production System e i relativi parametri associati che non
 * `addMediaPortalEvent` - Operazioni obsolete. Questa chiamata ti consente di aggiungere un evento Media Portal all’IPS.
 * `getMediaPortalEvent` - Operazioni obsolete. Questa chiamata ti consente di ottenere eventi del portale multimediale che corrispondono a criteri specifici.
 * `getCdnCacheInvalidationStatus` - Operazioni obsolete. Questa API è ora deprecata perché l’ API `cdnCacheInvalidation` invalida la cache quasi immediatamente (~5 secondi). Di conseguenza, non è più necessario eseguire il polling per lo stato di invalidazione.
-
