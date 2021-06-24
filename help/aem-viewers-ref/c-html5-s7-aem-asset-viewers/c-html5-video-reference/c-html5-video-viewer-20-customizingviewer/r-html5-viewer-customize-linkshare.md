@@ -2,16 +2,15 @@
 description: Lo strumento di condivisione dei collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
 title: Condivisione collegamenti
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
-
 
 # Condivisione collegamenti{#link-share}
 
@@ -713,4 +712,3 @@ Esempio: per impostare il collegamento di condivisione su una larghezza di 450 p
     width: 450px; 
 }
 ```
-
