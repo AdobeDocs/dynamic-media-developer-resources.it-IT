@@ -2,16 +2,15 @@
 description: Tipo di processo per consentire l’esportazione autorizzata di file caricati in precedenza.
 solution: Experience Manager
 title: ExportJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 10%
 
 ---
-
 
 # ExportJob{#exportjob}
 
@@ -89,4 +88,3 @@ is_modifer = &fmt=png
 macro=$test$ 
 output_file = fileToExport.tiff
 ```
-
