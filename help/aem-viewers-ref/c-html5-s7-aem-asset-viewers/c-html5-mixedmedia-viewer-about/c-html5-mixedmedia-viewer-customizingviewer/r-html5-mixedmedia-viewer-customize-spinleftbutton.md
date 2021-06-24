@@ -2,18 +2,17 @@
 description: Tocca o fai clic su questo pulsante per ruotare l’immagine a sinistra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
 solution: Experience Manager
 title: Pulsante a sinistra
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 1%
 
 ---
 
-
-# Pulsante a sinistra girevole{#spin-left-button}
+# Pulsante a sinistra{#spin-left-button}
 
 Tocca o fai clic su questo pulsante per ruotare l’immagine a sinistra nella vista principale. Questo pulsante non viene visualizzato sui telefoni cellulari per risparmiare spazio su schermo. Inoltre, il pulsante è nascosto quando viene utilizzato un set 360 gradi multidimensionale. Puoi ridimensionare, skin e posizionare il pulsante utilizzando CSS.
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
