@@ -2,18 +2,17 @@
 description: Se è necessaria una mappa del profilo ICC per un catalogo di immagini, il percorso relativo o assoluto del file di mappa del profilo deve essere specificato nell'attributo IccProfileMapFile.
 solution: Experience Manager
 title: Riferimento alla mappa del profilo ICC
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f6b75a15-55b4-44e7-a409-2eaed4e752c5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-
-# Riferimento mappa profilo ICC{#icc-profile-map-reference}
+# Riferimento alla mappa del profilo ICC{#icc-profile-map-reference}
 
 Se è necessaria una mappa del profilo ICC per un catalogo di immagini, il percorso relativo o assoluto del file di mappa del profilo deve essere specificato nell&#39;attributo::IccProfileMapFile.
 
