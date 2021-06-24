@@ -2,18 +2,17 @@
 description: I materiali di decorazione includono i costrutti di abbigliamento come appliqués, stampe di t-shirt e loghi ricamati o stampati, nonché oggetti piatti non ripetibili e non ripetibili utilizzati in applicazioni interne o esterne, come tappeti di superficie, arte appesa a muro, segni e così via.
 solution: Experience Manager
 title: Decorazioni
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
-
-# Decals{#decals}
+# Decorazioni{#decals}
 
 I materiali di decorazione includono i costrutti di abbigliamento come appliqués, stampe di t-shirt e loghi ricamati o stampati, nonché oggetti piatti non ripetibili e non ripetibili utilizzati in applicazioni interne o esterne, come tappeti di superficie, arte appesa a muro, segni e così via.
 
@@ -69,4 +68,3 @@ Viene eseguito il rendering di un’ombra esterna se il materiale di decal defin
   </tr> 
  </tbody> 
 </table>
-
