@@ -2,16 +2,15 @@
 description: Un oggetto o un contenitore nella gerarchia delle cartelle.
 solution: Experience Manager
 title: Risorsa
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
-
 
 # Risorsa{#asset}
 
@@ -312,4 +311,3 @@ Sintassi
   </tr> 
  </tbody> 
 </table>
-
