@@ -2,16 +2,15 @@
 description: Restituisce le risorse in base a una matrice di nomi di risorse.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,Gestione risorse
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 9%
+source-wordcount: '219'
+ht-degree: 10%
 
 ---
-
 
 # getAssetsByName{#getassetsbyname}
 
@@ -155,4 +154,3 @@ Questo esempio di codice restituisce due risorse di tipo immagine.
    </assetArray>
 </getAssetsByNameReturn>
 ```
-
