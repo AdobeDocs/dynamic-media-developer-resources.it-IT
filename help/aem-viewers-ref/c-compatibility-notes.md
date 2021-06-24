@@ -2,13 +2,12 @@
 description: Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 solution: Experience Manager
 title: Note sulla compatibilità
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizzatori,SDK/API
 role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -35,11 +34,11 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 * Perdita di memoria visibile con i visualizzatori Zoom ed eCatalog. La navigazione ripetuta attraverso i frame causa l&#39;arresto anomalo del browser.
 * Se si tocca due volte un visualizzatore, l’intera pagina viene ingrandita invece che solo il visualizzatore e viene abilitata la funzione di ridimensionamento lato browser.
 
-## Galassia S4 {#section-7effabfea75b488399e0f71cab4ce76b}
+## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
 * Dispositivo rilevato come tablet in modalità verticale con schermo intero selezionato nelle impostazioni del browser.
 
-## Nexus galattico {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
+## Nexus galassico {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
 * Se si tocca due volte un visualizzatore, l’intera pagina viene ingrandita invece che solo il visualizzatore e viene attivata la modifica in scala sul lato browser.
 
