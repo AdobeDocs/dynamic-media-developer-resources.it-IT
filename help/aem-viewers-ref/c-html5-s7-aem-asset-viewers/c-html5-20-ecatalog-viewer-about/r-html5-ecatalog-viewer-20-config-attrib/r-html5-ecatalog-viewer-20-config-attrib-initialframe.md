@@ -2,18 +2,17 @@
 description: Frame iniziale
 solution: Experience Manager
 title: Frame iniziale
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
-
-# InitialFrame{#initialframe}
+# Frame iniziale{#initialframe}
 
 ` initialFrame= *`frame`*`
 
@@ -41,4 +40,3 @@ Se specificato nell’URL del visualizzatore.
 ```
 initialFrame=2
 ```
-
