@@ -2,16 +2,15 @@
 description: Questi comandi si applicano ai livelli di colore solido, oltre ai comandi di livello comuni.
 solution: Experience Manager
 title: Comandi a livello di colore solido
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e7a14c5f-9479-4df0-beef-c5792dcc5a25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
-
 
 # Comandi a livello di colore solido{#solid-color-layer-commands}
 
@@ -23,4 +22,3 @@ Questi comandi si applicano ai livelli di colore solido, oltre ai comandi di liv
   <td class="stentry"> <p>Specifica una maschera di livello opzionale. </p></td> 
  </tr> 
 </table>
-
