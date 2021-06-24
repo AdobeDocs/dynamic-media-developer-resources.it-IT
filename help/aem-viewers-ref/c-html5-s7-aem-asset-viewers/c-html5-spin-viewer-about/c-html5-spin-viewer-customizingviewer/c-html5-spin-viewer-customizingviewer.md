@@ -3,16 +3,15 @@ description: Tutte le personalizzazioni visive e la maggior parte delle personal
 keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore a 360 gradi
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eb2ad4ee-933f-408d-955e-be9bb7484192
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
-
 
 # Personalizzazione del visualizzatore a 360 gradi{#customizing-spin-viewer}
 
@@ -36,7 +35,7 @@ Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe 
 
 `#<containerId>.s7spinviewer`
 
-## Creazione di CSS adattabili {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Creazione di CSS reattivi {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Ciò include, ma non è limitato a, diversi layout di pagina web, dimensioni degli elementi dell’interfaccia utente e risoluzione dell’immagine.
 
