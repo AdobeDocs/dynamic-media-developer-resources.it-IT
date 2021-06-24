@@ -2,16 +2,15 @@
 description: Metadati XMP. Restituisce i metadati XMP associati all'immagine specificata nel percorso della richiesta.
 solution: Experience Manager
 title: xmp
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
-
 
 # xmp{#xmp}
 
