@@ -2,16 +2,15 @@
 description: Aggiorna il campo immagine associato a una risorsa immagine.
 solution: Experience Manager
 title: ImageFieldUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
-
 
 # ImageFieldUpdate{#imagefieldupdate}
 
@@ -28,4 +27,3 @@ Sintassi
 | `*`anchorX`*` | `xsd:int` | Ancoraggio immagine asse X. |
 | `*`anchorY`*` | `xsd:int` | Ancoraggio immagine asse Y. |
 | `*`Dati utente`*` | `xsd:string` | Valore del campo di metadati `userData` pubblicato nel campo del catalogo dei dati utente del server di immagini. |
-
