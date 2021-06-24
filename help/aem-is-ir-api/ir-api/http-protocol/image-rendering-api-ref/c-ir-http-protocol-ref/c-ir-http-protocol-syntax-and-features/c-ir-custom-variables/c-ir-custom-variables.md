@@ -2,16 +2,15 @@
 description: La porzione query delle richieste e delle stringhe modificatori di vignetta può includere variabili definite dall'utente.
 solution: Experience Manager
 title: Variabili personalizzate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
-
 
 # Variabili personalizzate{#custom-variables}
 
