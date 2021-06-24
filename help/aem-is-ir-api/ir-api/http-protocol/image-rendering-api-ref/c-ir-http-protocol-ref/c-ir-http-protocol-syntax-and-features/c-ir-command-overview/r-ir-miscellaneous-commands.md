@@ -2,16 +2,15 @@
 description: Sono disponibili anche questi comandi.
 solution: Experience Manager
 title: Comandi vari
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Comandi vari{#miscellaneous-commands}
 
@@ -34,4 +33,3 @@ Sono disponibili anche questi comandi.
   <td class="stentry"></td> 
  </tr> 
 </table>
-
