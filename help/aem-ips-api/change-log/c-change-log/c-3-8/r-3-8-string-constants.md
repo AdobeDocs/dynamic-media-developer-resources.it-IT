@@ -2,13 +2,12 @@
 description: Descrive le costanti stringa nuove e modificate per l’API IPS versione 3.8.
 solution: Experience Manager
 title: Costanti stringa nuove e modificate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 3%
 
 ---
