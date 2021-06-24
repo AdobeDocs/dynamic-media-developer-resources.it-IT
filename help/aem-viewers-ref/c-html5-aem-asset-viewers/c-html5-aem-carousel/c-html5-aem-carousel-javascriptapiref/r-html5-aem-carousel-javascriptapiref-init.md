@@ -2,13 +2,12 @@
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
 role: Developer,Business Practitioner
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
