@@ -2,16 +2,15 @@
 description: ZoomView.frametransition
 solution: Experience Manager
 title: ZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 5%
 
 ---
-
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
