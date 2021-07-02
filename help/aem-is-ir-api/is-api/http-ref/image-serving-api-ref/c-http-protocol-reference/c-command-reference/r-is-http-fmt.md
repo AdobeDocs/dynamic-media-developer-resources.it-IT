@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
+source-git-commit: 770822631ccfd0f13d3f8f1f982eb29b56dd2d24
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,8 @@ Formato immagine di risposta.
 
 | *`format`* | Descrizione |
 |---|---|
-| `avif-alpha` | AVIF senza perdita e senza perdita con canale alfa <br><br>*Data del rilascio per questo formato:* <br><b>Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 13 agosto 2021<br><b>Asia-Pacifico</b> - 29 giugno 2021 |
-| `avif` | AVIF <br><br>*Rilascio cronologico per questo formato:*<br><b> Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 13 agosto 2021<br><b>Asia-Pacifico</b> - 29 giugno 2021 |
+| `avif-alpha` | AVIF senza perdita e senza perdita con canale alfa <br><br>*Data del rilascio per questo formato:* <br><b>Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 13 agosto 2021<br><b>Asia-Pacifico</b> - Disponibile ora |
+| `avif` | AVIF <br><br>*Rilascio cronologico per questo formato:*<br><b> Nord America</b> - Disponibile ora<br><b>Europa, Medio Oriente, Africa</b> - 13 agosto 2021<br><b>Asia-Pacifico</b> - Disponibile ora |
 | `eps` | PostScript incapsulato binario non compresso |
 | `f4m` | Formato manifesto del server di streaming Flash |
 | `gif-alpha` | GIF a 2-256 colori più trasparenza basata su colore chiave |
