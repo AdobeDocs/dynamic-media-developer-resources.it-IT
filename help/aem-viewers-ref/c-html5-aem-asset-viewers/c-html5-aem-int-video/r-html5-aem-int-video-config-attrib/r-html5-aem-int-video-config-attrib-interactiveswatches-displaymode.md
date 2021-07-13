@@ -3,9 +3,9 @@ description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 8%
