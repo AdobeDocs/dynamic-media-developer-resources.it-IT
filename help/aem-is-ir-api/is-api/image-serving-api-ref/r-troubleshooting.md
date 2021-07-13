@@ -3,9 +3,9 @@ description: Questa sezione contiene soluzioni ai problemi che si sono verificat
 solution: Experience Manager
 title: Risoluzione dei problemi
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 1%
