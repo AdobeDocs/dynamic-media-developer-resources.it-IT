@@ -3,9 +3,9 @@ description: Il visualizzatore a 360 gradi supporta il tracciamento di Adobe Ana
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
