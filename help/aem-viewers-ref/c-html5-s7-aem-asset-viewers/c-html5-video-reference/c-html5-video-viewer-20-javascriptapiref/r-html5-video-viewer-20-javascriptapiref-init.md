@@ -3,9 +3,9 @@ description: Riferimento API JavaScript per il visualizzatore video.
 solution: Experience Manager
 title: init
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Avvia l&#39;inizializzazione del visualizzatore video. A questo punto, l’eleme
 
 Se l&#39;elemento contenitore non è ancora parte del layout della pagina web, ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnato a esso, il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
-Chiamare questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
+Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
