@@ -3,9 +3,9 @@ description: Attributo di configurazione per il visualizzatore video per file mu
 solution: Experience Manager
 title: VideoPlayer.mutevolume
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 7%
