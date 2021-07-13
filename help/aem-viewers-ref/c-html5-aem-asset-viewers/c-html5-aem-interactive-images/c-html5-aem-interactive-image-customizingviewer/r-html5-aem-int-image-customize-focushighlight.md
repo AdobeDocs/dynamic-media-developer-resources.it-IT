@@ -3,9 +3,9 @@ description: L’evidenziazione dello stato attivo visualizzata intorno all’el
 solution: Experience Manager
 title: Evidenziazione
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 1%
