@@ -3,9 +3,9 @@ description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: CallToAction.direction
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
