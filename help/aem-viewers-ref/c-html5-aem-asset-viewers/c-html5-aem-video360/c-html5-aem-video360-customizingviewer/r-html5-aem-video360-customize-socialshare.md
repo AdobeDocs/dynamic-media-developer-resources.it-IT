@@ -3,9 +3,9 @@ description: Per impostazione predefinita, lo strumento di social sharing è vis
 solution: Experience Manager
 title: Quota sociale
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
