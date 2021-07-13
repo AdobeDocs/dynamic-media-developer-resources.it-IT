@@ -3,9 +3,9 @@ description: La classe principale del visualizzatore zoom in linea è FlyoutView
 solution: Experience Manager
 title: Riferimento API JavaScript per visualizzatore zoom in linea
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
