@@ -4,9 +4,9 @@ keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore zoom di base
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9cbce980-83fd-40a7-8bcd-f9bc4dd477a8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 0%
@@ -184,4 +184,4 @@ background-position: -0px -560px;
 
 ## Elementi comuni dell&#39;interfaccia utente {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
-Di seguito è riportata la documentazione di riferimento relativa agli elementi dell’interfaccia utente applicabili al visualizzatore zoom di base:
+Di seguito è riportata la documentazione di riferimento relativa agli elementi dell’interfaccia utente per i visualizzatori zoom di base:
