@@ -7,9 +7,9 @@ product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
+role: Developer,User
 user-guide-description: Note aggiornate sulla versione di Adobe Dynamic Media Classic, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud.
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 22%
