@@ -3,9 +3,9 @@ description: Visualizzatori solo per AEM Assets
 solution: Experience Manager
 title: Visualizzatori solo per AEM Assets
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f0668991-8619-4670-bc69-85a7a96893dd
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 5%
