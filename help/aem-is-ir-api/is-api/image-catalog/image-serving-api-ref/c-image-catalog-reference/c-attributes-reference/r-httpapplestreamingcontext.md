@@ -3,9 +3,9 @@ description: Prefisso URL del server di streaming Apple. Prefisso URL server di 
 solution: Experience Manager
 title: HttpAppleStreamingContext
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 7%
