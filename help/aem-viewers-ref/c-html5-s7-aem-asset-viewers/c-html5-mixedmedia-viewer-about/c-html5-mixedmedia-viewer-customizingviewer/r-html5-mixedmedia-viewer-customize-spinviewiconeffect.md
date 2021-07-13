@@ -3,9 +3,9 @@ description: L'indicatore di rotazione viene sovrapposto all'area di visualizzaz
 solution: Experience Manager
 title: Effetto icona a forma di ruota
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
