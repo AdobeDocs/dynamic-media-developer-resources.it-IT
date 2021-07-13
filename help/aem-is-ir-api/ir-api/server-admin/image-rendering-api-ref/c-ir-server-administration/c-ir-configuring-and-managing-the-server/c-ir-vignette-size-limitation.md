@@ -3,9 +3,9 @@ description: Image Rendering applica una limitazione di due Megapixel per le vig
 solution: Experience Manager
 title: Limitazione della dimensione della vignetta
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
