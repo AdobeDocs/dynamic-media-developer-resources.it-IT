@@ -3,9 +3,9 @@ description: Tipo di risorsa. Utilizzato per identificare il tipo di set pubblic
 solution: Experience Manager
 title: AssetType
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 84530842-4d2a-402a-b94b-45356cec5dc1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 13%
