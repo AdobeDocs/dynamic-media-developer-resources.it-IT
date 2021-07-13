@@ -3,9 +3,9 @@ description: Sui sistemi desktop alcuni elementi dell'interfaccia utente, come i
 solution: Experience Manager
 title: Descrizioni comandi
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f47ad399-dcf0-4860-81a3-31ff42cea648
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 6%
