@@ -3,9 +3,9 @@ description: Tocca o fai clic su questo pulsante per ripristinare un’immagine 
 solution: Experience Manager
 title: Pulsante Ripristina zoom
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2ec91f8f-d1e7-454a-8792-9525895527af
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
