@@ -3,9 +3,9 @@ description: Tocca o fai clic su questo pulsante per ripristinare il visualizzat
 solution: Experience Manager
 title: Pulsante Miniature
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ddd976ca-6043-4930-8ce6-f58fad226ff3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
