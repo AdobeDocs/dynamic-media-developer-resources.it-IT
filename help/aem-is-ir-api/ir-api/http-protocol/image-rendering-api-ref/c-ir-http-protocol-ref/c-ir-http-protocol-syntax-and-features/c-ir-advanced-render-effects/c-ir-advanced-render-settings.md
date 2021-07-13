@@ -3,9 +3,9 @@ description: Lo strumento di authoring delle vignette (parte del pacchetto Dynam
 solution: Experience Manager
 title: Impostazioni di rendering avanzate
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 22%
@@ -52,7 +52,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Importo USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Campionamento esteso: Frequenza casuale. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>Il valore predefinito è 5. </p> </td> 
   </tr> 
