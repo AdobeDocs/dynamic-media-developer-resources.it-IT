@@ -3,9 +3,9 @@ description: Tocca o fai clic su questo pulsante per ingrandire un’immagine ne
 solution: Experience Manager
 title: Pulsante Zoom in
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4900ab1e-1a68-4fc3-ae73-905f050d70e2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 1%
