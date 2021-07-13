@@ -3,9 +3,9 @@ description: Il pulsante a schermo intero consente al lettore video di entrare o
 solution: Experience Manager
 title: Pulsante Schermo intero
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
