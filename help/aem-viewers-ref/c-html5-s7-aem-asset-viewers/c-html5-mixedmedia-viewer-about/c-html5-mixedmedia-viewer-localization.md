@@ -3,9 +3,9 @@ description: Alcuni contenuti visualizzati dal visualizzatore di file multimedia
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
