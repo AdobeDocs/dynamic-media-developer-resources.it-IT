@@ -3,9 +3,9 @@ description: L’ora del video è la visualizzazione numerica che mostra l’ora
 solution: Experience Manager
 title: Ora video
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
