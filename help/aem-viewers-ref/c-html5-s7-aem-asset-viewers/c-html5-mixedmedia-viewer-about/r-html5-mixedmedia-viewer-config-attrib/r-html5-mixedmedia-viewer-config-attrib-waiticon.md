@@ -3,9 +3,9 @@ description: Attributo di configurazione per il visualizzatore video per file mu
 solution: Experience Manager
 title: VideoPlayer.waiticon
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 13%
