@@ -3,9 +3,9 @@ description: Questa procedura mostra come installare Image Serving per la prima 
 solution: Experience Manager
 title: Installazione per la prima volta
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f27e6b27-641c-4a88-9ed0-94ada9ba75a9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
