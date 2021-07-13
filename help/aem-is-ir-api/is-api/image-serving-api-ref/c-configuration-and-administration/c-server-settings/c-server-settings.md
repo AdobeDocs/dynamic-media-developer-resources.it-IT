@@ -3,9 +3,9 @@ description: Questa sezione descrive tutte le impostazioni di configurazione mod
 solution: Experience Manager
 title: Impostazioni server
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 4%
