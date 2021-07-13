@@ -3,9 +3,9 @@ description: L'elenco a discesa del menu Preferiti viene visualizzato nella barr
 solution: Experience Manager
 title: Menu Preferiti
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
