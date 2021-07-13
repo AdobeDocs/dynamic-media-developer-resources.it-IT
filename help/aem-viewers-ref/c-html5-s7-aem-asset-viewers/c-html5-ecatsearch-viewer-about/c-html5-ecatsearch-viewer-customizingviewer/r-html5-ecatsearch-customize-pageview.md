@@ -3,9 +3,9 @@ description: La vista principale è costituita dall’immagine del catalogo. È 
 solution: Experience Manager
 title: Vista a pagina
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
