@@ -3,9 +3,9 @@ description: Il visualizzatore visualizza le icone dei punti attivi sopra la vis
 solution: Experience Manager
 title: Hotspot e mappe immagine
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
