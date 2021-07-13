@@ -3,9 +3,9 @@ description: Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 12%
@@ -117,7 +117,7 @@ L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
@@ -127,7 +127,7 @@ L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID transazione. </p> </td> 
    <td> <p>Non utilizzato. </p> </td> 
   </tr> 
