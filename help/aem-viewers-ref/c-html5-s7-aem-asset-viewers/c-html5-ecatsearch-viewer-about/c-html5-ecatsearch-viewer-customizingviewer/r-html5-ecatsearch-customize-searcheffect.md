@@ -3,9 +3,9 @@ description: Il visualizzatore visualizza le aree dei risultati della ricerca su
 solution: Experience Manager
 title: Effetto Ricerca
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%
