@@ -3,9 +3,9 @@ title: Installazione di più visualizzatori Dynamic Media sullo stesso server
 description: Istruzioni per l’installazione dell’API dei visualizzatori Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Visualizzatori,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 1%
