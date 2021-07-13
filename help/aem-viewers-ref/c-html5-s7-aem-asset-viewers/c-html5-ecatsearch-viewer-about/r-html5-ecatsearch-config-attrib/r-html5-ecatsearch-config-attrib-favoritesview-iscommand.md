@@ -3,9 +3,9 @@ description: Stringa di comando Image Server applicata a tutte le miniature.
 solution: Experience Manager
 title: FavoritesView.iscommand
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 7%
