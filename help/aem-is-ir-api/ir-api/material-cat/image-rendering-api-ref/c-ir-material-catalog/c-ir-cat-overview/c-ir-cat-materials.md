@@ -3,9 +3,9 @@ description: Per informazioni sui materiali utilizzati da Image Rendering, veder
 solution: Experience Manager
 title: Materiali
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6c1b8a9b-ac32-42df-a59a-05933b614907
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 0%
