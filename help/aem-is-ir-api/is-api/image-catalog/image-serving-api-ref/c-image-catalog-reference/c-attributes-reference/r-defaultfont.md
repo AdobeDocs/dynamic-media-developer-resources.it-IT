@@ -3,9 +3,9 @@ description: Nome font predefinito. Specifica il font da utilizzare se una richi
 solution: Experience Manager
 title: DefaultFont
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6ca7f540-a01a-483d-99b7-50e2915861cf
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 6%
