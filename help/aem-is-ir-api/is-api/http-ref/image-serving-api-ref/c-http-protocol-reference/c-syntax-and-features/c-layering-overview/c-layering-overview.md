@@ -3,9 +3,9 @@ description: Image Serving consente di combinare qualsiasi numero di livelli di 
 solution: Experience Manager
 title: Panoramica sul livello
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 31cb1f6a-74c7-4bae-8504-61649a66a970
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
