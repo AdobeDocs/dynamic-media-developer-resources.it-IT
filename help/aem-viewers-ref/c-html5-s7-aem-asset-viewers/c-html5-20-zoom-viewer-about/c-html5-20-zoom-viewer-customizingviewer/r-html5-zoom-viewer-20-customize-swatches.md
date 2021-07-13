@@ -3,9 +3,9 @@ description: I campioni sono costituiti da una riga di miniature con pulsanti di
 solution: Experience Manager
 title: Campioni
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
