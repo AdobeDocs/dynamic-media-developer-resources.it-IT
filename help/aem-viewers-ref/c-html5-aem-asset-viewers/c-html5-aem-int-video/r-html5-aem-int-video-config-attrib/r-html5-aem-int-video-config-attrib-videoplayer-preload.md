@@ -3,9 +3,9 @@ description: Indica se il visualizzatore inizia a caricare il contenuto video pr
 solution: Experience Manager
 title: VideoPlayer.preload
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: afabbfde-e003-4fee-a4ef-0fc4c43fd960
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
