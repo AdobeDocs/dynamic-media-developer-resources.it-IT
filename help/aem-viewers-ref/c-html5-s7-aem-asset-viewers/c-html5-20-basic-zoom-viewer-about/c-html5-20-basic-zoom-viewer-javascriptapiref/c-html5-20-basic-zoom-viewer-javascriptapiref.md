@@ -3,9 +3,9 @@ description: La classe principale del Visualizzatore zoom di base è BasicZoomVi
 solution: Experience Manager
 title: Riferimento API per i visualizzatori zoom di base di Javascript
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d01c2efc-34f3-4719-ad7a-8da35dfa06ef
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
