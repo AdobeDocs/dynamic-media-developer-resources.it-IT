@@ -3,9 +3,9 @@ description: Riferimento API JavaScript per visualizzatori di file multimediali 
 solution: Experience Manager
 title: setLocalizedText
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 19bc61be-4321-434a-ae2c-4576c7799c0a
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
