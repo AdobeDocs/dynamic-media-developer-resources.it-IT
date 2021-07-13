@@ -3,9 +3,9 @@ description: L'area di visualizzazione principale è l'area occupata dall'immagi
 solution: Experience Manager
 title: Area visualizzatore principale
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
