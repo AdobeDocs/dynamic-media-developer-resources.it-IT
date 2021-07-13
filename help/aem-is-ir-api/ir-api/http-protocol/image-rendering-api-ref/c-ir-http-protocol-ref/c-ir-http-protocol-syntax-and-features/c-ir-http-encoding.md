@@ -3,9 +3,9 @@ description: I valori dei comandi devono essere codificati in http utilizzando %
 solution: Experience Manager
 title: Codifica HTTP del rendering delle immagini
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
