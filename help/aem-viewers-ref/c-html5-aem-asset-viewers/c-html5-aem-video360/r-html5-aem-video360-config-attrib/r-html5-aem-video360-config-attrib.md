@@ -3,9 +3,9 @@ description: Documentazione sugli attributi di configurazione per il visualizzat
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
