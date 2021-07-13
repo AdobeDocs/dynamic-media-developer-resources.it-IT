@@ -3,9 +3,9 @@ description: Il visualizzatore di immagini interattive è un visualizzatore che 
 solution: Experience Manager
 title: Immagine interattiva
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
