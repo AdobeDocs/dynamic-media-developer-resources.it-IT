@@ -3,9 +3,9 @@ description: Tempo di esecuzione della cache del client. Numero di ore fino alla
 solution: Experience Manager
 title: Scadenza
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
