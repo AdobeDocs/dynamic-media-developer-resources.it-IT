@@ -3,9 +3,9 @@ description: L'icona di riproduzione viene sovrapposta all'area di visualizzazio
 solution: Experience Manager
 title: Icona, effetto
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
