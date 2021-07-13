@@ -3,9 +3,9 @@ description: Alcuni contenuti visualizzati dal visualizzatore sono soggetti a lo
 solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
