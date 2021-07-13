@@ -3,9 +3,9 @@ description: Utilità di conversione immagine.
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 1%
@@ -288,7 +288,7 @@ Nella tabella seguente sono elencati i formati di file immagine e le opzioni di 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grigio | grigioA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> non compresso | compressi </p> </td> 
    <td> <p> Solo immagine unita; i livelli e i canali aggiuntivi vengono ignorati. </p> </td> 
   </tr> 
@@ -309,7 +309,7 @@ Nella tabella seguente sono elencati i formati di file immagine e le opzioni di 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grigio | grigioA | indicizzato </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> non compresso | ZIP | LZW | JPEG | RUOLO CITTADINO | CCITT G3 | CCITT G4 | Packbit </p> </td> 
    <td> <p> Ad eccezione del primo canale alfa associato, i canali aggiuntivi vengono ignorati. </p> </td> 
   </tr> 
