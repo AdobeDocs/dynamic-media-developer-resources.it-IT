@@ -3,9 +3,9 @@ description: La vista principale è costituita dall’immagine di rotazione quan
 solution: Experience Manager
 title: Visualizzazione a 360 gradi
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 1%
