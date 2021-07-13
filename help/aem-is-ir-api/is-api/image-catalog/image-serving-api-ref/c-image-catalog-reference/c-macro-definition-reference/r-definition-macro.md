@@ -3,9 +3,9 @@ description: Definizione della macro. Un frammento di protocollo Image Server co
 solution: Experience Manager
 title: Definizione
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5b8815f5-c8e0-43e1-828c-2e389388cdde
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
