@@ -3,9 +3,9 @@ description: L’icona di riproduzione viene sovrapposta all’area di visualizz
 solution: Experience Manager
 title: Effetto icona lettore video
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1e0bd97f-20e9-41e6-95fc-d693644152da
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%
