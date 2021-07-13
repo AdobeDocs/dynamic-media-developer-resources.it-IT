@@ -3,9 +3,9 @@ description: Documentazione degli attributi di configurazione per il visualizzat
 solution: Experience Manager
 title: Riferimento comando - Attributi di configurazione
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
