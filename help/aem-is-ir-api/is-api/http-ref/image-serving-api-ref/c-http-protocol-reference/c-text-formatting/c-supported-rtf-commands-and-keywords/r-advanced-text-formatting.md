@@ -3,9 +3,9 @@ description: Utilizzare i seguenti comandi per la formattazione avanzata del tes
 solution: Experience Manager
 title: Formattazione testo avanzata
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
