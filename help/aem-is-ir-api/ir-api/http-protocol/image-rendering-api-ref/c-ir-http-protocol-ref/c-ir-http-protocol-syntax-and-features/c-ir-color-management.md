@@ -3,9 +3,9 @@ description: Image Rendering supporta le conversioni dello spazio colore in base
 solution: Experience Manager
 title: Gestione del colore del rendering delle immagini *
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
