@@ -4,9 +4,9 @@ keywords: reattivo
 solution: Experience Manager
 title: Personalizzazione del visualizzatore di ricerca eCatalog
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 0%
