@@ -3,9 +3,9 @@ description: Riferimento API JavaScript per visualizzatori di file multimediali 
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 1%
