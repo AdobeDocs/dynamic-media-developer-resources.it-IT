@@ -3,9 +3,9 @@ description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 title: SocialShare.bearing
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f34d6954-01c5-49e0-94d4-fd577c57956e
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 2%
