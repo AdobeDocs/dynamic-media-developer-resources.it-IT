@@ -4,9 +4,9 @@ keywords: reattivo
 solution: Experience Manager
 title: A comparsa
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
