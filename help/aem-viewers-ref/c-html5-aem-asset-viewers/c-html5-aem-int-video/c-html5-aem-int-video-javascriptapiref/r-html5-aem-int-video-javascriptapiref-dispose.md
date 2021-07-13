@@ -3,9 +3,9 @@ description: Riferimento API JavaScript per il visualizzatore video interattivo.
 solution: Experience Manager
 title: disporre
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
