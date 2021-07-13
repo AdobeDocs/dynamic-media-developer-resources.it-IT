@@ -3,8 +3,8 @@ description: Lo strumento Stampa è costituito da un pulsante aggiunto alla barr
 solution: Experience Manager
 title: Stampa
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
-role: Developer,Business Practitioner
-source-git-commit: 8b9b87328c26e0d316c9ee09c8f4407d40efab69
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 1%
