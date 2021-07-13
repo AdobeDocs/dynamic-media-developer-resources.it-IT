@@ -3,9 +3,9 @@ description: Ancoraggio immagine Punto di origine quando l'immagine viene utiliz
 solution: Experience Manager
 title: Ancoraggio
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 5%
