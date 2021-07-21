@@ -3,9 +3,9 @@ description: Impostazioni che migliorano la nitidezza delle immagini per file TI
 solution: Experience Manager
 title: OpzioniMascheraDiDiscesa
 feature: Dynamic Media Classic,SDK/API,Gestione risorse
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 9%
