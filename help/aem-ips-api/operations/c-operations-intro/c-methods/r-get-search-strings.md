@@ -3,9 +3,9 @@ description: Ottiene le stringhe di ricerca, le parole chiave e altre informazio
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 15%
