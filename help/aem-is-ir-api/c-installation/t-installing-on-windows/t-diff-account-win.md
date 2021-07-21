@@ -3,9 +3,9 @@ description: Dopo l'installazione sarà necessario configurare i servizi per l'e
 solution: Experience Manager
 title: Installazione in un account utente diverso da quello dell'amministratore
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 20bb00cb-3af6-4573-bbff-8c4f984ed2ae
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
