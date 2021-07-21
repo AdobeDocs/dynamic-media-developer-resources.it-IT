@@ -3,9 +3,9 @@ description: Determina il motore di generazione e il tipo di risorsa generato da
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 6%
