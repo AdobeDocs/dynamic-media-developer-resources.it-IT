@@ -3,9 +3,9 @@ description: Descrive i tipi di dati nuovi e modificati per l’API IPS versione
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
