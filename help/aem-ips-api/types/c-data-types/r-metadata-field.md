@@ -3,9 +3,9 @@ description: Definizioni dei campi definite dall’utente per risorse specifiche
 solution: Experience Manager
 title: CampoMetadati
 feature: Dynamic Media Classic, SDK/API, Metadati
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 2%
