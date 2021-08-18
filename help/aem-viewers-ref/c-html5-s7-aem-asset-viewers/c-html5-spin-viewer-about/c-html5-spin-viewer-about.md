@@ -6,9 +6,9 @@ title: Spin
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di 
 
 ## Interazione con il visualizzatore a 360 gradi {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Il visualizzatore a 360 gradi supporta i seguenti gesti di contatto comuni ad altre applicazioni mobili. Quando il visualizzatore non è in grado di elaborare il gesto di scorrimento rapido di un utente, inoltra l’evento al browser web per eseguire un scorrimento nativo della pagina. Questo consente all’utente di navigare nella pagina anche se il visualizzatore occupa la maggior parte dell’area dello schermo del dispositivo.
+Il visualizzatore a 360 gradi supporta i seguenti gesti di contatto comuni ad altre applicazioni mobili. Quando il visualizzatore non è in grado di elaborare il gesto di scorrimento rapido di un utente, inoltra l’evento al browser web per eseguire un scorrimento nativo della pagina. Questa funzionalità consente all’utente di navigare nella pagina anche se il visualizzatore occupa la maggior parte dell’area dello schermo del dispositivo.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -61,11 +61,11 @@ Il visualizzatore a 360 gradi supporta i seguenti gesti di contatto comuni ad al
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento orizzontale o rapido </p> </td> 
-   <td colname="col2"> <p> Se l'immagine è in uno stato di reset, gira in orizzontale attraverso il set. </p> <p> Se l'immagine viene ingrandita, l'immagine viene spostata in orizzontale. Se l’immagine viene spostata sul bordo della visualizzazione e lo scorrimento viene ancora eseguito in quella direzione, il movimento esegue uno scorrimento nativo della pagina. </p> </td> 
+   <td colname="col2"> <p> Se lo stato dell’immagine è reimpostato, l’immagine passa attraverso il set in orizzontale. </p> <p> Se l'immagine viene ingrandita, l'immagine viene spostata in orizzontale. Se l’immagine viene spostata sul bordo della visualizzazione e lo scorrimento viene ancora eseguito in quella direzione, il movimento esegue uno scorrimento nativo della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento o scorrimento verticale </p> </td> 
-   <td colname="col2"> <p> Se l’immagine è in uno stato di ripristino, cambia l’angolo di visualizzazione verticale nel caso in cui venga utilizzato un set 360 gradi multidimensionale. In un set 360 gradi monodimensionale o quando un set 360 gradi multidimensionale si trova sull’ultimo o sul primo asse, in modo che lo scorrimento verticale non comporti una modifica dell’angolo di visualizzazione verticale, il movimento esegue uno scorrimento nativo della pagina. </p> <p> Se l'immagine viene ingrandita, l'immagine viene spostata verticalmente. Se l’immagine viene spostata sul bordo della visualizzazione e lo scorrimento viene ancora eseguito in quella direzione, il movimento esegue uno scorrimento nativo della pagina. </p> </td> 
+   <td colname="col2"> <p> Se lo stato dell’immagine è reimpostato, cambia l’angolo di visualizzazione verticale nel caso in cui venga utilizzato un set 360 gradi multidimensionale. In un set 360 gradi monodimensionale, il movimento esegue uno scorrimento nativo della pagina. Oppure, quando un set 360 gradi multidimensionale si trova sull’ultimo o sul primo asse in modo che lo scorrimento verticale non provochi una modifica dell’angolo di visualizzazione verticale, il movimento esegue anche uno scorrimento nativo della pagina. </p> <p> Se l'immagine viene ingrandita, l'immagine viene spostata verticalmente. Se l’immagine viene spostata sul bordo della visualizzazione e lo scorrimento viene ancora eseguito in quella direzione, il movimento esegue uno scorrimento nativo della pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ Nella modalità incorporata, il visualizzatore viene aggiunto alla pagina web es
 
 I casi d’uso principali sono le pagine web orientate ai desktop o ai dispositivi tablet, nonché le pagine di progettazione reattiva che regolano automaticamente il layout in base al tipo di dispositivo.
 
-L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa è la scelta migliore per le pagine web con layout statico.
+L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa azione è la scelta migliore per le pagine web con layout statico.
 
-L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
+L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione reattiva come Bootstrap, Foundation e così via.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione reattiva come Bootstrap o Foundation.
 
 In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore compila solo quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio può essere l’incorporazione del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
@@ -141,7 +141,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    >[!NOTE]
    >
-   >Dovresti fare riferimento solo al file JavaScript del visualizzatore principale `include` nella pagina. Non devi fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
+   >Fai riferimento solo al file JavaScript del visualizzatore principale `include` sulla tua pagina. Non fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
    >
    >
    >Di conseguenza, l’inserimento di un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
@@ -162,7 +162,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    È possibile impostare la dimensione statica del visualizzatore dichiarandola per la classe CSS di livello superiore `.s7spinviewer` in unità assolute o utilizzando il modificatore `stagesize`.
 
-   Puoi inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS per visualizzatori personalizzati, che viene poi assegnato a un record predefinito per visualizzatori in Dynamic Media Classic, o passato esplicitamente utilizzando un comando stile.
+   Puoi inserire le dimensioni in CSS direttamente nella pagina HTML o in un file CSS del visualizzatore personalizzato. In seguito viene assegnato a un record predefinito visualizzatore in Dynamic Media Classic o passato esplicitamente utilizzando un comando stile.
 
    Consulta [Personalizzazione del visualizzatore a 360 gradi](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) per ulteriori informazioni sullo stile del visualizzatore con CSS.
 
@@ -175,7 +175,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
    }
    ```
 
-   Puoi impostare il modificatore `stagesize` nel record predefinito del visualizzatore in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params`, o come chiamata API come descritto nella sezione Riferimento comandi , come segue:
+   Puoi impostare il modificatore `stagesize` nel record predefinito del visualizzatore in Dynamic Media Classic. Oppure, puoi passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params`, o come chiamata API come descritto nella sezione Riferimento comandi , come segue:
 
    ```
     spinViewer.setParam("stagesize", 
@@ -190,7 +190,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()` .
 
-   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web per ora. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` ad esso assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` ad esso assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
 
    Di seguito è riportato un esempio di creazione di un&#39;istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()` . L’esempio presuppone che `spinViewer` sia l’istanza del visualizzatore, che `s7viewer` sia il nome del segnaposto `DIV`, che [!DNL http://s7d1.scene7.com/is/image/] sia l’URL di Image Server e che la risorsa sia [!DNL Scene7SharedAssets/SpinSet_Sample].
 
@@ -295,11 +295,11 @@ La pagina degli esempi seguenti illustra casi d’uso più reali di incorporamen
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporazione di dimensioni flessibili con larghezza e altezza definite**
 
-In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot; holder&quot; `DIV` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` su 100%:
+Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot; holder&quot; `DIV` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` su 100%:
 
 ```
 <!DOCTYPE html> 
