@@ -5,9 +5,9 @@ title: Video interattivo
 feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Interactive Video Viewer è un lettore video che riproduce in streaming e video progressivo codificato in formato H.264.
 
-Il visualizzatore mostra anche i campioni di prodotto interattivi accanto al contenuto video. Sono supportati sia i set video singoli che quelli adattivi. È progettato per funzionare sia sui browser web desktop che mobili che supportano video HTML5. Il visualizzatore supporta i sottotitoli codificati opzionali visualizzati sopra il contenuto video, la navigazione nei capitoli video e gli strumenti di condivisione social network. Lo scopo di questo visualizzatore è quello di aiutarti a implementare un’esperienza &quot;video acquistabile&quot;. In altre parole, gli utenti possono selezionare un campione associato a una particolare area geografica del video e venire reindirizzati a una visualizzazione rapida o a una pagina di dettagli del prodotto sul sito web del cliente.
+Il visualizzatore mostra anche i campioni di prodotto interattivi accanto al contenuto video. Sono supportati sia i set video singoli che quelli adattivi. È progettato per funzionare sia sui browser web desktop che mobili che supportano video HTML5. Il visualizzatore supporta i sottotitoli codificati opzionali visualizzati sopra il contenuto video, la navigazione nei capitoli video e gli strumenti di condivisione social network. Lo scopo di questo visualizzatore è quello di aiutarti a implementare un’esperienza &quot;video acquistabile&quot;. In altre parole, gli utenti possono selezionare un campione associato a una particolare area temporale video e venire reindirizzati a una visualizzazione rapida o a una pagina di dettagli del prodotto sul sito web del cliente.
 
 Il tipo di visualizzatore è 510.
 
@@ -50,9 +50,9 @@ Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia 
 
 Quando il visualizzatore funziona in modalità pop-up, nell’interfaccia utente non è disponibile un pulsante a schermo intero.
 
-Il visualizzatore mostra un pannello con campioni interattivi a destra dell’area di visualizzazione video. L’elenco dei campioni avanza automaticamente durante la riproduzione del video, in modo che vengano visualizzati i campioni corrispondenti all’area video corrente. Quando si tocca o fai clic su un campione, viene attivata un’azione associata al campione durante l’authoring. A seconda della modalità di configurazione, il trigger può reindirizzare a una pagina diversa del sito web. Oppure, può restituire le informazioni di prodotto alla logica della pagina web, che a sua volta può attivare l&#39;apertura di una Visualizzazione rapida che mostra il contenuto del prodotto correlato.
+Il visualizzatore mostra un pannello con campioni interattivi a destra dell’area di visualizzazione video. L’elenco dei campioni avanza automaticamente durante la riproduzione del video, in modo che vengano visualizzati i campioni corrispondenti all’area video corrente. Quando si tocca o fai clic su un campione, viene attivata un’azione associata al campione durante l’authoring. A seconda della modalità di configurazione, il trigger può reindirizzare a una pagina diversa del sito web. Oppure, può restituire le informazioni di prodotto alla logica della pagina web, che a sua volta può attivare l&#39;apertura di una visualizzazione rapida che mostra il contenuto del prodotto correlato.
 
-È possibile navigare rapidamente nel contenuto video quando si attiva il filtro video. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo e la descrizione del capitolo sul rollover (o su un singolo tocco sui sistemi touch). Il cliente può &quot;cercare&quot; un capitolo specifico facendo clic su un marcatore capitolo o toccando una bolla di descrizione capitolo.
+È possibile navigare rapidamente nel contenuto video quando il capitolo video è attivato. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo e la descrizione del capitolo sul rollover (o su un singolo tocco sui sistemi touch). Il cliente può &quot;cercare&quot; un capitolo specifico facendo clic su un marcatore capitolo o toccando una bolla di descrizione capitolo.
 
 Il visualizzatore supporta anche vari strumenti di condivisione dei social media. Sono disponibili come un singolo pulsante nell’interfaccia utente che si espande in una barra degli strumenti di condivisione quando l’utente vi fa clic o vi tocca. La barra degli strumenti di condivisione contiene un&#39;icona per ogni tipo di canale di condivisione supportato come Facebook, Twitter, condivisione di e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando si attivano gli strumenti di condivisione e-mail, incorporamento o collegamento, il visualizzatore visualizza una finestra di dialogo modale con un modulo di immissione dati corrispondente. Quando si chiamano Facebook o Twitter, il visualizzatore reindirizzerà l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione viene attivato, la riproduzione video viene messa in pausa automaticamente. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
@@ -280,7 +280,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Posizione demo alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Posizione demo alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporazione reattiva con definizione di larghezza e altezza**
 
