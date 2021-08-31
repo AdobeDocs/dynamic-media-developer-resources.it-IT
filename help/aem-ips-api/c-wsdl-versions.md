@@ -2,12 +2,12 @@
 description: Il servizio Web IPS è supportato da un set di documenti WSDL (Web Services Description Language) a cui si accede da qualsiasi installazione IPS in cui è installato il componente Servizio Web IPS. Ogni versione dell’API IPS include un nuovo file WSDL che fa riferimento a uno spazio dei nomi XML di destinazione con versione. Sono supportate anche le versioni precedenti dello spazio dei nomi WSDL per consentire la compatibilità con le applicazioni esistenti.
 solution: Experience Manager
 title: Versioni WSDL del servizio Web IPS
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Per elaborare una richiesta, imposta l&#39;intestazione HTTP SOAPAction sul nome
 
 **Formato del messaggio**
 
-Lo stile document/literal viene utilizzato per tutti i messaggi di input e output con tipi basati sul linguaggio di definizione dello schema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) e specificato nel file WSDL. Tutti i tipi richiedono nomi qualificati utilizzando il valore dello spazio dei nomi di destinazione specificato nel file WSDL.
+Lo stile document/literal viene utilizzato per tutti i messaggi di input e output con tipi basati sul linguaggio di definizione dello schema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) e specificato nel file WSDL. Tutti i tipi richiedono nomi qualificati utilizzando il valore dello spazio dei nomi di destinazione specificato nel file WSDL.
 
 **Richiedi autenticazione**
 
