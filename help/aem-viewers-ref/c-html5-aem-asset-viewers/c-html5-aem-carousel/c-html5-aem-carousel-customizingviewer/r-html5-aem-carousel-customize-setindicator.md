@@ -1,13 +1,13 @@
 ---
+title: Imposta indicatore
 description: L'indicatore set è una serie di punti sottoposti a rendering nella parte inferiore del visualizzatore. Mostra la posizione corrente all’interno del set.
 solution: Experience Manager
-title: Imposta indicatore
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ L’aspetto del contenitore dell’indicatore set è controllato con il seguente
 >
 >L&#39;indicatore set supporta il selettore di attributi della modalità, che può essere utilizzato per applicare stili diversi per le modalità di funzionamento punteggiate e numeriche. In particolare, `mode="numeric"` corrisponde alla modalità operativa numerica; `mode="dotted"` corrisponde allo stato predefinito del punto.
 
-Esempio: per impostare un indicatore con sfondo bianco:
+Ad esempio, supponi di voler impostare un indicatore di set con sfondo bianco:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ L’aspetto di un singolo punto indicatore del set è controllato con il seletto
 >
 >Gli elementi degli indicatori impostati supportano il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde all’elemento corrente nel set; `state="unselected"` corrisponde allo stato predefinito dell&#39;elemento.
 
-Esempio: per impostare un indicatore in modalità punteggiata per i sistemi desktop da posizionare a 20 pixel dal fondo del visualizzatore. I punti non selezionati sono neri con trasparenza del 50%, 15 x 15 pixel con angoli arrotondati di 7 pixel. I punti selezionati sono neri con trasparenza del 90%, 18 x 18 pixel con angoli arrotondati di 9 pixel. La spaziatura tra i punti è di 5 pixel.
+Ad esempio, si supponga di voler impostare un indicatore di set in modalità punteggiata per i sistemi desktop. Desideri che sia posizionato a 20 pixel dal fondo del visualizzatore. Inoltre, vuoi che i punti non selezionati siano neri con una trasparenza del 50%, 15 x 15 pixel con sette angoli arrotondati. I punti selezionati sono neri con trasparenza del 90%, 18 x 18 pixel con angoli arrotondati di nove pixel. Lo spazio tra i punti è di cinque pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

@@ -2,12 +2,12 @@
 description: Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 solution: Experience Manager
 title: Note sulla compatibilità
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 * `IntialBitRate` Il modificatore è supportato solo con riproduzione software HLS e Flash HDS. Non funziona quando la riproduzione utilizza il lettore nativo.
 * Riproduzione progressiva OGG e WebM non supportata.
 * Il ridimensionamento del browser causa la visualizzazione del lettore video con dimensioni errate (incluse le impostazioni di visualizzazione del Pannello di controllo Campaign Windows®).
-* La ricerca video che utilizza lo streaming HLS su Safari non è coerente.
+* Le ricerche video che utilizzano lo streaming HLS su Safari non sono coerenti.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 o successivo: Le impostazioni del plug-in Internet impediscono la riproduzione del video del Flash.
-* La ricerca video che utilizza lo streaming HLS su Safari non è coerente.
+* Le ricerche video che utilizzano lo streaming HLS su Safari non sono coerenti.
 * Impossibile cercare di terminare il video su Safari 6 utilizzando lo streaming HLS.

@@ -1,13 +1,13 @@
 ---
+title: Vista a carosello
 description: La vista principale è costituita dall’immagine del banner.
 solution: Experience Manager
-title: Vista a carosello
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---

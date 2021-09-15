@@ -1,14 +1,14 @@
 ---
+title: stile
 description: stile
 solution: Experience Manager
-title: stile
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 

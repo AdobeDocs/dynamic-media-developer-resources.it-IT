@@ -1,14 +1,14 @@
 ---
+title: didascalia
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
-title: didascalia
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 5%
+source-wordcount: '261'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,12 @@ Questo visualizzatore supporta i sottotitoli codificati tramite file WebVTT in h
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>posizione della linea </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se è espresso come numero intero senza segno di percentuale, si tratta del numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se è espresso come percentuale, il segno di percentuale è l’ultimo carattere, il testo della didascalia viene visualizzato in modo che la percentuale scenda nell’area di visualizzazione. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Determina la posizione della linea sulla pagina. </p> <p>Se è espresso come numero intero senza segno di percentuale, si tratta del numero di righe dall'alto in cui viene visualizzato il testo. </p> <p>Se è espresso come percentuale - il segno di percentuale è l’ultimo carattere - viene visualizzato il testo della didascalia che corrisponde a una percentuale in basso nell’area di visualizzazione. </p> <p>Il valore predefinito è <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tieni presente che se nel file WebVTT sono presenti altre funzionalità WebVTT, queste non sono supportate; tuttavia, non interromperanno il sottotitolo.
+Se nel file WebVTT sono presenti altre funzionalità WebVTT, queste non sono supportate; tuttavia, non disturbano i sottotitoli.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

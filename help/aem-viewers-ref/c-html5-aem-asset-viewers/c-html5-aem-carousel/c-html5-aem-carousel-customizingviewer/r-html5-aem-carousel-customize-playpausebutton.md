@@ -1,13 +1,13 @@
 ---
+title: Pulsante PlayPause
 description: Il pulsante Riproduci/Pausa consente all’utente di sospendere o riprendere il comportamento di riproduzione automatica carosello.
 solution: Experience Manager
-title: Pulsante PlayPause
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
 
-Esempio: per impostare un pulsante di pausa di riproduzione di 28 x 28 pixel, che è posizionato 17 pixel dal fondo e 12 pixel dal bordo sinistro del visualizzatore, e che visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante quando è selezionato o meno.
+Ad esempio, si supponga di voler impostare un pulsante di pausa di riproduzione di 28 x 28 pixel. Il pulsante deve essere posizionato a 17 pixel dal basso e a 12 pixel dal bordo sinistro del visualizzatore. Inoltre, se selezionato o non selezionato, viene visualizzata un’immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

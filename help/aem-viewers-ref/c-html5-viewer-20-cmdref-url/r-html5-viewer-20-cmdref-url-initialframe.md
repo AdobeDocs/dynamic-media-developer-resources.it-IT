@@ -1,14 +1,14 @@
 ---
+title: initialFrame
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
-title: initialFrame
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ Parametro comune a tutti i visualizzatori.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Indice basato su zero della pagina all’interno della pagina di estensione quando il dispositivo è in orientamento verticale. In un ambiente "da sinistra a destra" <span class="codeph"> 0</span> significa "pagina a sinistra" e <span class="codeph"> 1</span> significa "pagina a destra". In "da destra a sinistra" è l'opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non viene specificato, per impostazione predefinita viene utilizzato <span class="codeph"> 0</span>. Ignorato quando il dispositivo è con orientamento orizzontale. </p> </td> 
+   <td colname="col2"> <p>Indice basato su zero della pagina all’interno della pagina di estensione quando il dispositivo è in orientamento verticale. Per un ambiente "da sinistra a destra", <span class="codeph"> 0</span> significa "pagina a sinistra" e <span class="codeph"> 1</span> significa "pagina a destra". Per un ambiente "da destra a sinistra", si verifica l’opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non viene specificato, per impostazione predefinita viene utilizzato <span class="codeph"> 0</span>. Ignorato quando il dispositivo è con orientamento orizzontale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

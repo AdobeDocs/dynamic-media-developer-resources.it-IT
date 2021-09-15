@@ -1,20 +1,20 @@
 ---
-description: Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
-solution: Experience Manager
 title: diapositiva successiva
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+description: Quando si seleziona il pulsante di diapositiva successiva, l'utente passa alla diapositiva successiva del set carosello.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
 
 # diapositiva successiva{#next-slide}
 
-Tocca o fai clic sul pulsante Avanti per spostare l’utente nella diapositiva successiva del set carosello.
+Quando si seleziona il pulsante di diapositiva successiva, l&#39;utente passa alla diapositiva successiva del set carosello.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
 
-Esempio: per impostare un pulsante diapositiva precedente di 60 x 60 pixel, posizionato 10 pixel dal bordo destro del visualizzatore e centrato verticalmente, e visualizza un’immagine diversa per ciascuno dei quattro stati diversi del pulsante.
+Ad esempio, si supponga di voler impostare un pulsante diapositiva precedente di 60 x 60 pixel. Il pulsante deve essere posizionato a dieci pixel dal bordo destro del visualizzatore e centrato verticalmente. E volete che visualizzi un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
