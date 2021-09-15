@@ -2,13 +2,13 @@
 description: Tipo di processo per consentire l’esportazione autorizzata di file caricati in precedenza.
 solution: Experience Manager
 title: ExportJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 10%
+source-wordcount: '206'
+ht-degree: 11%
 
 ---
 
@@ -53,7 +53,7 @@ ExportJob non supporta i seguenti tipi di risorse:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Specifica la stringa URL di rendering <span class="codeph"> ImageServer</span>, che viene aggiunta alla richiesta ExportJob <span class="codeph"> convert</span>. </p> <p>Per informazioni sull'invio dei modificatori IS, fare riferimento alla <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentazione IS</a> . </p> </td> 
+   <td colname="col3"> <p>Specifica la stringa URL di rendering <span class="codeph"> ImageServer</span>, che viene aggiunta alla richiesta ExportJob <span class="codeph"> convert</span>. </p> <p>Per informazioni sull'invio dei modificatori IS, fare riferimento alla <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> documentazione IS</a> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 

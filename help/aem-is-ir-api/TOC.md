@@ -4,7 +4,7 @@ user-guide-title: API di Dynamic Media Image Serving e Rendering
 breadcrumb-title: API di Dynamic Media Image Serving e Rendering
 feature-set: Experience Manager Assets
 user-guide-description: Documentazione sulle API IS (Image Serving) e IR (Image Rendering) e sulle tecnologie correlate.
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 9%
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # API di Dynamic Media Image Serving e Rendering {#image-serving-api}
 
-+ [Pagina principale dell’API Image Server e Image Rendering di Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
++ [Pagina principale dell’API Image Server e Image Rendering di Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [Informazioni su questa versione](r-about-this-release.md)
 + [Requisiti di sistema e prerequisiti](r-requirements-and-prerequisites.md)
 + [Requisiti e raccomandazioni per lo spazio su disco](r-disk-space-reqs.md)
