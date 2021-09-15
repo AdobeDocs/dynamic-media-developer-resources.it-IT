@@ -1,14 +1,14 @@
 ---
+title: init
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Riferimento API JavaScript per il visualizzatore Carosello.
 
 Avvia l&#39;inizializzazione del visualizzatore Carosello. A questo punto, l’elemento DOM contenitore deve essere creato in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web, ad esempio potrebbe essere nascosto utilizzando lo stile `display:none`, il visualizzatore sospende il processo di inizializzazione. Viene sospeso fino al momento in cui la pagina web riporta l’elemento contenitore al layout, nel quale riprende automaticamente il caricamento del visualizzatore.
 
 Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 

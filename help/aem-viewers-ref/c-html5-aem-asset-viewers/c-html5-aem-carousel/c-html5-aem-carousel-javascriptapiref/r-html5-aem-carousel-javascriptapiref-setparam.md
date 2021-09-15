@@ -1,14 +1,14 @@
 ---
+title: setParam
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
-title: setParam
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 0829933f-a90b-4066-9904-748f2a727169
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +29,14 @@ Vedere anche [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-ht
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

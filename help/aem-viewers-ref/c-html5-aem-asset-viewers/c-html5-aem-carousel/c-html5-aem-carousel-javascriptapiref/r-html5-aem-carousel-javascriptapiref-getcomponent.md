@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
-title: getComponent**
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 Riferimento API JavaScript per il visualizzatore Carosello.
 
@@ -71,13 +71,13 @@ Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal v
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto, come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
+Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
 
 Per ulteriori informazioni su un particolare componente, consulta la documentazione relativa all’API SDK per visualizzatori .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` Un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

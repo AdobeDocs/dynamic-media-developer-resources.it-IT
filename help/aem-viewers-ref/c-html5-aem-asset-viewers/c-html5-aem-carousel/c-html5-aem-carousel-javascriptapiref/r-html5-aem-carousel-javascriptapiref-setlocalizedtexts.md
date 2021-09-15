@@ -1,14 +1,14 @@
 ---
+title: setLocalizedText
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
-title: setLocalizedText
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 8ffb8960-187a-43ab-8081-7dfd95d4c75d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

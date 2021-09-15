@@ -1,14 +1,14 @@
 ---
+title: Visualizzatore carosello
 description: Riferimento API JavaScript per il visualizzatore Carosello.
 solution: Experience Manager
-title: Visualizzatore carosello
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Riferimento API JavaScript per il visualizzatore Carosello.
 
 `CarouselViewer([config])`
 
-Crea una nuova istanza HTML 5 Carosello Viewer.
+Crea un&#39;istanza HTML 5 Carosello Viewer.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
