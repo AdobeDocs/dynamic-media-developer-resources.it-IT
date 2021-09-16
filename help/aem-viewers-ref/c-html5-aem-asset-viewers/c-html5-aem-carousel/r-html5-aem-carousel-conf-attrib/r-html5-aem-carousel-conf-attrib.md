@@ -1,13 +1,13 @@
 ---
+title: Riferimento comando - Attributi di configurazione
 description: Documentazione degli attributi di configurazione per il visualizzatore Carosello.
 solution: Experience Manager
-title: Riferimento comando - Attributi di configurazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Alcuni comandi di configurazione possono essere preceduti dal nome di classe o d
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-che significa che è possibile utilizzare questo comando come:
+In tal caso, puoi utilizzare questo comando:
 
 * `fmt` (sintassi breve)
 * `CarouselView.fmt` (qualificato con il nome della classe del componente)

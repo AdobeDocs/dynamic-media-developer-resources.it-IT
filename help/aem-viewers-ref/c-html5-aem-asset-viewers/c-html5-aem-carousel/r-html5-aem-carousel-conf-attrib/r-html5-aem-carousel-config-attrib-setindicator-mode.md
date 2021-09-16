@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.mode
 description: SetIndicator.mode
 solution: Experience Manager
-title: SetIndicator.mode
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numerico|punteggiato</span> </p> </td> 
-   <td colname="col2"> <p> Configura lo stile di rendering dell'indicatore del set. </p> <p>Se è impostato su <span class="codeph"> dotted</span> il componente esegue il rendering di indicatori identici per tutte le pagine. </p> <p>Se impostato su <span class="codeph"> numerico</span>, inserisce un numero di pagina basato su 1 all'interno di ciascun elemento indicatore. </p> <p>La modalità operativa <span class="codeph"> numerica</span> non è supportata per i dispositivi in grado di inviare dati touch. Il componente utilizza invece <span class="codeph"> dotted</span> su tali dispositivi. </p> </td> 
+   <td colname="col2"> <p> Configura lo stile di rendering dell'indicatore del set. </p> <p>Se è impostato su <span class="codeph"> punteggiato </span>, il componente esegue il rendering di indicatori identici per tutte le pagine. </p> <p>Se impostato su <span class="codeph"> numerico</span>, inserisce un numero di pagina basato su 1 all'interno di ciascun elemento indicatore. </p> <p>La modalità operativa <span class="codeph"> numerica</span> non è supportata sui dispositivi con input touch. Il componente utilizza invece <span class="codeph"> dotted</span> su tali dispositivi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

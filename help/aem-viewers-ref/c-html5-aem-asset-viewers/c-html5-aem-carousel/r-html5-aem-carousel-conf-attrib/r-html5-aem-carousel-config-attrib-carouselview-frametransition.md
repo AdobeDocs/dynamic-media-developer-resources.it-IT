@@ -1,14 +1,14 @@
 ---
+title: CarouselView.frametransition
 description: CarouselView.frametransition
 solution: Experience Manager
-title: CarouselView.frametransition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 5%
+source-wordcount: '95'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza|diapositiva  </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il tipo di effetto applicato alla modifica del fotogramma. <span class="codeph"> nessuno  </span> significa nessuna transizione; il cambiamento avviene all'istante. </p> <p> <span class="codeph"> dissolvenza  </span> significa transizione in dissolvenza incrociata tra fotogrammi vecchi e nuovi. </p> <p> <span class="codeph"> La diapositiva  </span> attiva la transizione in cui la vecchia cornice scorre dalla vista e la nuova cornice si trova. </p> </td> 
+   <td colname="col2"> <p>Specifica il tipo di effetto applicato alla modifica del fotogramma. Ad esempio, <span class="codeph"> none </span> significa nessuna transizione; il cambiamento avviene all'istante. E, </p> <p> <span class="codeph"> dissolvenza  </span> significa transizione in dissolvenza incrociata tra fotogrammi vecchi e nuovi. Infine, </p> <p> <span class="codeph"> La diapositiva  </span> attiva la transizione in cui la vecchia cornice scorre dalla vista e la nuova cornice si trova. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata  </span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spaziatura  </span> </span> </p> </td> 
-   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione <span class="codeph"> diapositiva </span>, ha l'intervallo tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
+   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione <span class="codeph"> diapositiva </span>, ha l'intervallo compreso tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

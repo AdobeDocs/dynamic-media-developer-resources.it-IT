@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Attributo di configurazione per il visualizzatore Carosello.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
