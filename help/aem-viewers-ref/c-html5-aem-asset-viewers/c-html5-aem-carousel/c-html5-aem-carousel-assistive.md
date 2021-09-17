@@ -1,13 +1,13 @@
 ---
+title: Supporto tecnologico per assistenza
 description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
-title: Supporto tecnologico per assistenza
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello,Accessibilità
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners,Accessibility
 role: Developer,User
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Per impostazione predefinita, l’elemento visualizzatore di livello principale 
 
 I pulsanti hanno il ruolo `button` e il testo descrittivo impostato con l&#39;attributo `aria-label` . Il valore dell&#39;attributo `aria-label` viene popolato dal valore del simbolo di localizzazione del pulsante. Quando un pulsante è disabilitato, l&#39;attributo `aria-disabled` viene impostato di conseguenza.
 
-I pulsanti che consentono di spostarsi tra le diapositive carosello presentano etichette che vengono aggiornate in fase di esecuzione a seconda della diapositiva attualmente selezionata. Il modello per l’etichetta di questo pulsante è impostato con il simbolo di localizzazione `CAROUSELVIEWER_TOOLTIP_GOTO` .
+I pulsanti che consentono di spostarsi tra le diapositive carosello presentano etichette che vengono aggiornate in fase di esecuzione a seconda della diapositiva attualmente selezionata. Il modello per l’etichetta di questi pulsanti è impostato con il simbolo di localizzazione `CAROUSELVIEWER_TOOLTIP_GOTO`.
 
 La vista principale ha il ruolo `application`. Una breve descrizione della vista principale è fornita in `aria-roledescription`, con il valore definito dal simbolo di localizzazione `ROLE_DESCRIPTION` del componente di visualizzazione principale corrispondente. I suggerimenti per la navigazione degli utenti tramite tastiera vengono forniti utilizzando `aria-describedby`, il testo per il suggerimento di utilizzo proviene dal simbolo di localizzazione `USAGE_HINT` . Se una risorsa ha un’etichetta definita nel campo UserData , l’attributo `aria-label` viene impostato con il valore di tale etichetta.
 

@@ -1,20 +1,20 @@
 ---
-description: Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Ciò include i pulsanti di spostamento delle diapositive.
-solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Banner carosello
+description: Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Questo contenuto include i pulsanti di spostamento delle diapositive.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
-Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Ciò include i pulsanti di spostamento delle diapositive.
+Alcuni contenuti visualizzati nel visualizzatore carosello sono soggetti a localizzazione. Questo contenuto include i pulsanti di spostamento delle diapositive.
 
 Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. A qualsiasi SYMBOL è associato un valore di testo predefinito per un’impostazione internazionale inglese ( `"en"`) fornito con il visualizzatore predefinito e possono essere impostati valori definiti dall’utente per tutte le impostazioni internazionali necessarie.
 
@@ -66,7 +66,7 @@ Sono supportati i seguenti SYMBOL:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> Etichetta ARIA per l’elemento visualizzatore di livello superiore. </p> </td> 
+   <td colname="col2"> <p> Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 
