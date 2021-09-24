@@ -1,13 +1,13 @@
 ---
+title: Icona, effetto
 description: L'icona di riproduzione viene sovrapposta all'area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
 solution: Experience Manager
-title: Icona, effetto
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ L’aspetto dell’icona di riproduzione viene controllato con il seguente selet
  </tbody> 
 </table>
 
-L’effetto icona supporta il selettore di attributi `state`. `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e  `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
+L’effetto icona supporta il selettore di attributi `state`. L&#39;attributo `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 

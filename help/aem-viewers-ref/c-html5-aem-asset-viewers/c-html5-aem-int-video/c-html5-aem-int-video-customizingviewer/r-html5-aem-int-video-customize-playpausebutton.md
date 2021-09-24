@@ -1,13 +1,13 @@
 ---
+title: Pulsante Riproduci/Pausa
 description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
 solution: Experience Manager
-title: Pulsante Riproduci/Pausa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -69,13 +69,13 @@ Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
 >
 >Questo pulsante supporta sia i selettori di attributi `state`, `selected` che `replay`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pause&quot;;
 >
->`replay='true'` viene impostato quando il video ha raggiunto la fine e facendo clic sul pulsante si riavvia la riproduzione dall&#39;inizio.
+>L&#39;attributo `replay='true'` viene impostato quando il video ha raggiunto la fine e la selezione del pulsante riavvia la riproduzione dall&#39;inizio.
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel; è posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
+Per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel e posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo. Infine, mostra un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o non selezionati.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

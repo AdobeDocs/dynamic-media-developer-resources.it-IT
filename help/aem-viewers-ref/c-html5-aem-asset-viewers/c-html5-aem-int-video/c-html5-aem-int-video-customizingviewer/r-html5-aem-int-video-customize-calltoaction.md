@@ -1,11 +1,11 @@
 ---
+title: Invito all'azione
 description: Il pannello Azioni Invito all'azione viene visualizzato al termine del video e visualizza tutti i campioni interattivi associati a quel particolare video.
 solution: Experience Manager
-title: Invito all'azione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 1%
@@ -191,7 +191,7 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del pulsante Chiudi 
 
 ## Esempio {#example-3}
 
-Per impostare un pulsante di riproduzione di 28 x 28 pixel; posizionati a 20 pixel dall&#39;alto e dal bordo destro dell&#39;intestazione; visualizza un&#39;immagine diversa per ciascuno dei quattro stati del pulsante; prende l’immagine dall’immagine spritica del componente:
+Per impostare un pulsante di riproduzione di 28 x 28 pixel. Il pulsante deve essere posizionato a 20 pixel dalla parte superiore e dal bordo destro dell’intestazione. E deve visualizzare un&#39;immagine diversa per ciascuno dei quattro stati del pulsante; prende l’immagine dall’immagine spritica del componente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della cella miniatura 
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Proprietà CSS della miniatura nel pannello di invito all’azione: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Proprietà CSS della cella miniatura nell’invito al pannello azioni: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’etichetta della
 
 ## Esempio {#example-7}
 
-Per impostare le etichette che utilizzano un colore bianco, allinearle al centro a 15 pixel e utilizzare un font Arial:
+Per impostare le etichette che utilizzano un colore bianco, allinearle al centro a 15 pixel e utilizzare un font Arial®:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

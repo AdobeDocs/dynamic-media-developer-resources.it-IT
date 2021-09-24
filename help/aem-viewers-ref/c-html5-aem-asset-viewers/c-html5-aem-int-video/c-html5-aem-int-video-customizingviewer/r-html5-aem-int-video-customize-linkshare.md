@@ -1,13 +1,13 @@
 ---
+title: Condivisione collegamenti
 description: Lo strumento di condivisione dei collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condivisione collegamenti
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata con il seguente selettore di classe CSS:
+Sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo attiva è controllata con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un’intestazione della finestra di dialogo con spaziatura, icona 22 x 12 pixel, titolo in grassetto a 16 punti e un pulsante Chiudi a 28 x 28 pixel posizionato a due pixel dalla parte superiore e a due pixel dalla parte destra del contenitore della finestra di dialogo:
+**Esempio** : per impostare un’intestazione della finestra di dialogo con spaziatura, icona 22 x 12 pixel, con titolo in grassetto a 16 punti. Infine, un pulsante Chiudi da 28 x 28 pixel posizionato a due pixel dalla parte superiore e a due pixel dalla parte destra del contenitore della finestra di dialogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 >
 >Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ L’area della finestra di dialogo principale (tra l’intestazione e il piè di
 }
 ```
 
-All’interno di un contenitore controllato dal seguente selettore di classe CSS, il contenuto del modulo, ad esempio etichette e campi di input, risiede:
+Tutto il contenuto del modulo, ad esempio etichette e campi di input, risiede all’interno di un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ All’interno di un contenitore controllato dal seguente selettore di classe CSS
  </tbody> 
 </table>
 
-**Esempio** : per impostare il contenuto del modulo in modo che abbia una spaziatura di 10 pixel:
+**Esempio** : per impostare il contenuto del modulo con una spaziatura di dieci pixel:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 

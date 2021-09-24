@@ -1,13 +1,13 @@
 ---
+title: Campioni interattivi
 description: Se i dati interattivi sono stati passati al visualizzatore in configurazione, il pannello campioni interattivi viene visualizzato accanto al contenuto video. È costituito da un banner nella parte superiore che esegue il rendering del testo, ad esempio "Click to View", una colonna di uno o più campioni interattivi e due pulsanti di scorrimento (disponibili solo sui sistemi desktop).
 solution: Experience Manager
-title: Campioni interattivi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
@@ -62,11 +62,11 @@ La posizione e l’orientamento in fase di esecuzione del pannello campioni inte
 * Per eseguire il rendering orizzontale dei campioni interattivi nella parte inferiore del visualizzatore, impostate l’altezza su un valore in pixel assoluto; da sinistra e dal basso a 0 px; larghezza, destra e dall&#39;alto verso l&#39;auto.
 * Per eseguire il rendering verticale dei campioni interattivi a destra del contenuto video, impostate la larghezza su un pixel assoluto; da destra e dall&#39;alto a 0px; altezza, sinistra e inferiore a automatica.
 
-È possibile utilizzare i marcatori CSS insieme a questo stile per ottenere un posizionamento adattivo del pannello dei campioni interattivi.
+Con questo stile è possibile utilizzare i marcatori CSS per ottenere un posizionamento adattivo del pannello campioni interattivi.
 
 ## Esempio {#example}
 
-Per impostare un pannello di campioni interattivi da visualizzare in orizzontale nella parte inferiore del visualizzatore su dispositivi touch con orientamento orizzontale e in verticale a destra del contenuto video in tutti gli altri casi:
+Impostazione di un pannello di campioni interattivi per il rendering orizzontale nella parte inferiore del visualizzatore su dispositivi touch con orientamento orizzontale. E, per mostrarlo verticalmente a destra del contenuto video in tutti gli altri casi:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ Il seguente selettore di classe CSS controlla la spaziatura tra le miniature dei
 
 ## Esempio {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Per impostare la spaziatura verticale su 10 pixel:
+Per impostare la spaziatura verticale su dieci pixel:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’etichetta di mi
 
 ## Esempio {#section-eb141eb6c1154183baa69796edb90536}
 
-Per impostare le etichette in modo che utilizzino un carattere Helvetica con allineamento a sinistra, bianco, 12 pixel e bordo inferiore:
+Per impostare le etichette in modo che utilizzino un carattere allineato a sinistra, bianco, 12 pixel, in Helvetica® e un bordo inferiore:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

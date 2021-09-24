@@ -1,13 +1,13 @@
 ---
+title: Scorrimento video
 description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all'utente di cercare in modo dinamico qualsiasi posizione temporale all'interno del video attualmente in riproduzione.
 solution: Experience Manager
-title: Scorrimento video
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente a
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La manopola di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile scuotere lo scrubber video. modifica l’altezza e la posizione verticale di CSS.
+La manopola di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile skin lo scorrimento video e modificarne l&#39;altezza e la posizione verticale, tramite CSS.
 
 L’aspetto generale dello scorrimento video è controllato con il seguente selettore di classe CSS:
 
@@ -158,7 +158,7 @@ Il seguente selettore di classe CSS controlla la bolla temporale riprodotta:
 
 È possibile localizzare la descrizione comandi per lo scorrimento video. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
 
-**Esempio** : per impostare un visualizzatore video con uno scorrimento video con colori di traccia personalizzati alti 10 pixel e posizionati 10 pixel e 35 pixel dai bordi superiore e sinistro della barra di controllo.
+**Esempio** : per impostare un visualizzatore video con uno scorrimento video e con colori di traccia personalizzati alti dieci pixel. Posizionarlo a dieci pixel e a 35 pixel dai bordi superiore e sinistro della barra di controllo.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Quando si abilita il filtro video con il parametro `navigation` , le posizioni dei capitoli vengono visualizzate come marcatori sulla traccia di scorrimento video.
+Quando il marcatore capitolo video è abilitato con il parametro `navigation`, le posizioni dei capitoli vengono visualizzate come marcatori sulla traccia di scorrimento video.
 
 Il marcatore capitolo video è controllato dal seguente selettore di classe CSS:
 
@@ -430,7 +430,7 @@ La descrizione del capitolo video è controllata dal seguente selettore di class
  </tbody> 
 </table>
 
-**Esempio** : per impostare la descrizione del capitolo video utilizzando un carattere Verdana grigio scuro, 11 pixel, con sfondo grigio chiaro; Altezza della riga di 5 pixel, spaziatura orizzontale di 12 pixel, spaziatura superiore di 12 pixel e spaziatura inferiore di 9 pixel.
+**Esempio**  - Per impostare la descrizione del capitolo video utilizzando un carattere Verdana grigio scuro, 11 pixel, con sfondo grigio chiaro. Altezza di cinque pixel, spaziatura orizzontale di 12 pixel, spaziatura superiore di 12 pixel e spaziatura inferiore di nove pixel.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -463,7 +463,7 @@ Il connettore cuneo nella parte inferiore della bolla del capitolo è controllat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
-   <td colname="col2"> <p> Definisce solo un margine inferiore negativo. Deve avere lo stesso valore di <span class="codeph"> bordo-larghezza </span>. </p> </td> 
+   <td colname="col2"> <p> Definisce solo un margine inferiore negativo. Deve avere lo stesso valore di <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
