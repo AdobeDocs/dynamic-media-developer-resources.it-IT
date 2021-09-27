@@ -1,13 +1,13 @@
 ---
+title: Supporto tecnologico per assistenza
 description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
-title: Supporto tecnologico per assistenza
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi,Accessibilità
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Le miniature hanno il ruolo `dialog` con l’attributo `aria-label` controllato 
 
 I componenti che visualizzano i campioni hanno il ruolo `listbox` con l’attributo `aria-label` impostato sul valore del simbolo di localizzazione `LABEL` di quel componente. I singoli campioni hanno il ruolo `option` con gli attributi `aria-setsize` e `aria-posinset` per descrivere la posizione del campione nel set. Se è selezionato un campione, l’attributo `aria-selected` viene impostato su `true`.
 
-Gli elenchi a discesa sono attivati dai pulsanti con l’attributo aggiuntivo `aria-haspopup` impostato su `true` e l’attributo `aria-controls` che fa riferimento all’elemento del pannello a discesa effettivo. Il pannello a discesa stesso ha il ruolo `menu` con elementi secondari con il ruolo `menuitem`. Per ogni voce di menu è specificato l&#39;attributo `aria-label` .
+Gli elenchi a discesa sono attivati dai pulsanti con l’attributo aggiuntivo `aria-haspopup` impostato su `true` e l’attributo `aria-controls` che fa riferimento all’elemento del pannello a discesa effettivo. Il pannello a discesa stesso ha il ruolo `menu` con i sottoelementi con il ruolo `menuitem`. Per ogni voce di menu è specificato l&#39;attributo `aria-label` .
 
 Le finestre di dialogo modali hanno il ruolo `dialog`. L&#39;attributo `aria-labelledby` fa riferimento all&#39;elemento di intestazione della finestra di dialogo.

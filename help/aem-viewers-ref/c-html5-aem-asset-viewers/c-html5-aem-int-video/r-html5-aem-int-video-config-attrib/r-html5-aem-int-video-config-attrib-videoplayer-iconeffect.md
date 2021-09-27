@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.iconeffect
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
-title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione dell'iconaEffetto nella parte superiore del video quando il video è in stato di pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questi casi, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione dell'iconaEffetto nella parte superiore del video quando il video è in stato di pausa. In alcuni dispositivi vengono utilizzati controlli nativi. In questi casi, il modificatore <span class="codeph"> iconeffect</span> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 

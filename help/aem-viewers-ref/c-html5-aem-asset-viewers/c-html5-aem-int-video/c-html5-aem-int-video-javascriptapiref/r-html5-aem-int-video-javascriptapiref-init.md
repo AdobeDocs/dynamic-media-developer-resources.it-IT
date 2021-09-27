@@ -1,13 +1,13 @@
 ---
+title: init
 description: Riferimento API JavaScript per il visualizzatore video interattivo.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 5fcc7dcd-a9a8-4a87-9c8d-42717ced8ae9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Riferimento API JavaScript per il visualizzatore video interattivo.
 
 Avvia l&#39;inizializzazione di Interactive Video Viewer. A questo punto, l’elemento DOM contenitore deve essere creato in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web, ad esempio potrebbe essere nascosto utilizzando lo stile `display:none` ad esso assegnato, il visualizzatore sospende il processo di inizializzazione. Lo fa fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questo evento, il caricamento del visualizzatore riprende automaticamente.
 
 Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 

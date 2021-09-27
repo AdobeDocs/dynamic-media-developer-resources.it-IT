@@ -1,13 +1,13 @@
 ---
+title: Supporto per il tracciamento di Adobe Analytics
 description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrarsi con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 

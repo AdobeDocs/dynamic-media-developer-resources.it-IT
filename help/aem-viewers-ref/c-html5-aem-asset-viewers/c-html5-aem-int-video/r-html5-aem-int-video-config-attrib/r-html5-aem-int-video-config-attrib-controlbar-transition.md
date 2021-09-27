@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video interattivi
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto che verrà utilizzato per visualizzare/nascondere la barra di controllo e il relativo contenuto. </p> <p>Impostare su <span class="codeph"> none</span> per mostrare/nascondere istantaneamente. </p> <p>Impostare su <span class="codeph"> dissolvenza</span> per fornire un effetto graduale di dissolvenza in entrata/uscita. Non supportato da Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per visualizzare/nascondere la barra di controllo e il relativo contenuto. </p> <p>Impostare su <span class="codeph"> none</span> per mostrare/nascondere istantaneamente. </p> <p>Impostare su <span class="codeph"> dissolvenza</span> per fornire un effetto graduale di dissolvenza in entrata/uscita. Non supportato da Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> ritardare</span></span> </p> </td> 
