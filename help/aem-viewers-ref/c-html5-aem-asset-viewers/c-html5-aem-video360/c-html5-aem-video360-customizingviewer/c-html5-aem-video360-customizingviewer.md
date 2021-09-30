@@ -1,14 +1,14 @@
 ---
+title: Personalizzazione del visualizzatore video360
 description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore Video360 vengono effettuate creando un CSS personalizzato.
 keywords: reattivo
 solution: Experience Manager
-title: Personalizzazione del visualizzatore video360
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Il file CSS personalizzato deve contenere le stesse dichiarazioni di classe di q
 
 Un modo alternativo per fornire regole CSS personalizzate è quello di utilizzare stili incorporati direttamente sulla pagina web o in una delle regole CSS esterne collegate.
 
-Quando crei un CSS personalizzato, ricorda che il visualizzatore assegna la classe `.s7video360viewer` al suo elemento DOM contenitore. Se utilizzi un file CSS esterno passato con il comando `style=`, utilizza la classe `.s7video360viewer` come classe principale nel selettore discendente per le regole CSS. Se stai utilizzando stili incorporati nella pagina web, qualifica inoltre questo selettore con un ID dell’elemento DOM del contenitore come segue:
+Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe `.s7video360viewer` al suo elemento DOM contenitore. Se utilizzi un file CSS esterno passato con il comando `style=`, utilizza la classe `.s7video360viewer` come classe principale nel selettore discendente per le regole CSS. Se esegui stili incorporati nella pagina web, qualifica anche questo selettore con un ID dell’elemento DOM contenitore come segue:
 
 `#<containerId>.s7video360viewer`
 
 ## Creazione di CSS reattivi {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere la visualizzazione del contenuto diversa a seconda del dispositivo di un utente o di un particolare layout di pagina web. Sono inclusi, ma senza limitazioni, layout diversi, dimensioni degli elementi dell’interfaccia utente e risoluzione delle immagini.
+È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere la visualizzazione del contenuto diversa a seconda del dispositivo di un utente o di un particolare layout di pagina web. Questo metodo include, ma non è limitato a, diversi layout, dimensioni degli elementi dell&#39;interfaccia utente e risoluzione dell&#39;immagine.
 
-Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. Puoi utilizzarli in modo indipendente o insieme.
+Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. È possibile utilizzare marcatori o query in modo indipendente o insieme.
 
 **Marcatori CSS**
 
-Per facilitare la creazione di CSS adattabili, il visualizzatore supporta i marcatori CSS. Si tratta di classi CSS speciali che vengono assegnate dinamicamente all’elemento contenitore del visualizzatore di livello principale in base alle dimensioni del visualizzatore in fase di esecuzione e al tipo di input utilizzato sul dispositivo corrente.
+Per aiutare a creare CSS reattivi, il visualizzatore supporta i marcatori CSS. Questi marcatori sono classi CSS speciali assegnate dinamicamente all’elemento contenitore del visualizzatore di livello principale. Si basano sulle dimensioni del visualizzatore in fase di esecuzione e sul tipo di input utilizzato sul dispositivo corrente.
 
 Il primo gruppo di marcatori CSS include le classi `.s7size_large`, `.s7size_medium` e `.s7size_small`. Vengono applicati in base all’area in fase di esecuzione del contenitore del visualizzatore. Se l&#39;area del visualizzatore è uguale o maggiore delle dimensioni di un monitor desktop comune, viene utilizzato `.s7size_large`; se l&#39;area è vicina a un dispositivo tablet comune, viene assegnato `.s7size_medium` . Per le aree simili agli schermi dei telefoni cellulari, viene impostato `.s7size_small`. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diversi.
 
-Il secondo gruppo di Marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` è impostato se il dispositivo corrente dispone di capacità di input touch; in caso contrario,  `.s7mouseinput` viene utilizzato. Questi marker sono destinati principalmente a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di ingresso, perché normalmente l&#39;input touch richiede elementi più grandi. Tieni presente che se il dispositivo dispone sia di input del mouse che di funzionalità touch, `.s7touchinput` viene impostato e il visualizzatore esegue il rendering di un’interfaccia utente touch.
+Il secondo gruppo di Marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. Il marcatore `.s7touchinput` viene impostato se il dispositivo corrente dispone di capacità di input touch; in caso contrario, viene utilizzato `.s7mouseinput`. Questi marker sono destinati principalmente a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di ingresso, perché normalmente l&#39;input touch richiede elementi più grandi. Nel caso in cui il dispositivo sia dotato sia di funzionalità di input del mouse che di tocco, `.s7touchinput` viene impostato e il visualizzatore esegue il rendering di un’interfaccia utente touch.
 
 Il seguente esempio CSS imposta la dimensione del pulsante di riproduzione/pausa su 28x28 pixel sui sistemi con input del mouse e 56x56 pixel sui dispositivi touch. Inoltre, nasconde completamente il pulsante se le dimensioni del visualizzatore vengono ridotte in modo significativo:
 
@@ -61,7 +61,7 @@ Il seguente esempio CSS imposta la dimensione del pulsante di riproduzione/pausa
 }
 ```
 
-Per eseguire il targeting di dispositivi con densità di pixel diversa è necessario utilizzare query multimediali CSS. Il seguente blocco di query per contenuti multimediali conterrebbe CSS specifici per le schermate ad alta densità:
+Per eseguire il targeting di dispositivi con densità di pixel diversa, è necessario utilizzare query multimediali CSS. Il seguente blocco di query per contenuti multimediali conterrebbe CSS specifici per le schermate ad alta densità:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -126,7 +126,7 @@ Non è necessario duplicare l’intero CSS del visualizzatore in ogni query mult
 
 ## Sprite CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Molti elementi dell’interfaccia utente del visualizzatore sono formattati utilizzando immagini bitmap e hanno più di un diverso stato visivo. Un buon esempio è un pulsante che normalmente ha almeno 3 stati diversi: &quot;su&quot;, &quot;sopra&quot; e &quot;giù&quot;. Ogni stato richiede l&#39;assegnazione di una propria immagine bitmap.
+Molti elementi dell’interfaccia utente del visualizzatore sono formattati utilizzando immagini bitmap e hanno più di un diverso stato visivo. Un buon esempio è un pulsante che normalmente ha almeno tre stati diversi: &quot;su&quot;, &quot;sopra&quot; e &quot;giù&quot;. Ogni stato richiede l&#39;assegnazione di una propria immagine bitmap.
 
 Con un approccio classico allo stile, il CSS avrebbe un riferimento separato al singolo file di immagine sul server per ogni stato dell’elemento dell’interfaccia utente. Di seguito è riportato un esempio di CSS per lo stile di un pulsante a schermo intero:
 
@@ -171,7 +171,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 L’inconveniente di questo approccio è che l’utente finale si trova in una situazione di sfarfallio o di ritardo nella risposta dell’interfaccia utente quando l’elemento viene interagito per la prima volta. Questa azione si verifica perché l’immagine per il nuovo stato elemento non è ancora stata scaricata. Inoltre, questo approccio può avere un leggero impatto negativo sulle prestazioni a causa di un aumento del numero di chiamate HTTP al server.
 
-Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatta riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, la proprietà `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale. Di seguito è riportato un esempio di stile dello stesso pulsante a schermo intero precedente basato su &quot;sprite&quot;:
+Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatto riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, la proprietà `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale. Di seguito è riportato un esempio di stile dello stesso pulsante a schermo intero precedente basato su &quot;sprite&quot;:
 
 ```
 .s7video360viewer .s7fullscreenbutton[state][selected]{ 

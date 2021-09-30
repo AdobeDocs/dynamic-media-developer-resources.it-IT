@@ -2,12 +2,12 @@
 description: Requisiti simili all'esempio A, ma utilizzare uno sfondo a colori solidi e consentire la variazione dell'altezza del composito per adattarsi alle immagini con proporzioni diverse.
 solution: Experience Manager
 title: Esempio B
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ Requisiti simili all&#39;esempio A, ma utilizzare uno sfondo a colori solidi e c
  </tr> 
 </table>
 
-L&#39;immagine viene posizionata nel livello 0 e il valore di altezza di `size=` è impostato su 0, il che determina l&#39;altezza effettiva in base all&#39;altezza dell&#39;immagine dopo averla ridimensionata a 800 pixel di larghezza.
+L&#39;immagine viene inserita nel livello 0 e il valore di altezza di `size=` è impostato su 0. Questa impostazione determina l’altezza effettiva in base all’altezza dell’immagine dopo averla ridimensionata a 800 pixel di larghezza.
 
-`extend=` aggiunge 100 pixel in alto e in basso e 200 pixel a destra.
+La variabile `extend=` aggiunge 100 pixel all’inizio e alla fine e 200 pixel a destra.
 
 Le origini del livello 0 e del livello 1 vengono posizionate al centro a destra dell&#39;area di composizione, in modo da ottenere la posizione del testo desiderata.
 
-L&#39;illustrazione seguente mostra il risultato composito per diverse proporzioni dell&#39;immagine e diverse stringhe di testo.
+L&#39;immagine seguente mostra il risultato composito per diverse proporzioni dell&#39;immagine e diverse stringhe di testo.
 
-![](assets/exampleb.png)
+![Immagine B di esempio](assets/exampleb.png)

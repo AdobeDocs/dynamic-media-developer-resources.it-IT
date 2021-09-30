@@ -1,14 +1,14 @@
 ---
+title: Protocollo server FXG
 description: Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 solution: Experience Manager
-title: Protocollo server FXG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 85%
+source-wordcount: '268'
+ht-degree: 69%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 85%
 
 Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 
-Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` e `southeast`. Ad esempio, con il punto di riferimento center potete ruotare un elemento grafico di 45 gradi attorno al suo centro. Questa illustrazione mostra dove si trovano i punti di riferimento, un elemento grafico, tale elemento ruotato di 20 gradi rispetto al punto di riferimento `northWest` (nord ovest) e ruotato di 20 gradi rispetto al punto di riferimento `east` (est).
+Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` e `southeast`. Ad esempio, utilizzando il punto di riferimento centrale, è possibile ruotare un elemento grafico di 45° al centro. L&#39;immagine seguente mostra dove si trovano i punti di riferimento, un&#39;immagine, l&#39;immagine ha ruotato di 20° rispetto al suo punto di riferimento `northWest` e l&#39;immagine ha ruotato di 20° rispetto al suo punto di riferimento `east`.
 
-![](assets/wp_ref_points.png)
+![Immagine dei punti di riferimento](assets/wp_ref_points.png)
 
 * A. Posizioni dei punti di riferimento
 * B. Grafico A
-* C. L&#39;immagine ha ruotato di 20 gradi dal suo punto di riferimento `northWest`
-* D. L&#39;immagine ha ruotato di 20 gradi dal suo punto di riferimento `east`
+* C. L&#39;immagine ha ruotato di 20° dal suo punto di riferimento `northWest`
+* D. L&#39;immagine ha ruotato di 20° dal suo punto di riferimento `east`
 
 È richiesta la seguente sintassi:
 

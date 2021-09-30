@@ -1,13 +1,13 @@
 ---
+title: Callback degli eventi
 description: Callback degli eventi
 solution: Experience Manager
-title: Callback degli eventi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Gli eventi del visualizzatore supportati includono:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> Attiva quando l'utente attiva un punto attivo a cui sono associati i dati di Visualizzazione rapida. L'handler di callback accetta il seguente argomento: </p> <p> 
+   <td colname="col2"> <p> Attiva quando l'utente attiva un punto attivo a cui sono associati i dati di Quickview. L'handler di callback accetta il seguente argomento: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> dati {Object}  </span> - un oggetto JSON contenente dati dalla definizione del punto attivo. Il campo <span class="codeph"> SKU </span> è obbligatorio, mentre altri campi sono facoltativi e dipendono dalla definizione del punto attivo di origine. </p> </li> 
      </ul> </p> </td> 

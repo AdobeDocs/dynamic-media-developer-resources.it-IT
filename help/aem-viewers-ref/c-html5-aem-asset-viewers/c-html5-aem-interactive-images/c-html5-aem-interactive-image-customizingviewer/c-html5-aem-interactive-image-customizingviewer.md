@@ -1,14 +1,14 @@
 ---
+title: Personalizzazione del visualizzatore di immagini interattive
 description: Tutte le personalizzazioni visive e la maggior parte delle personalizzazioni del comportamento per il visualizzatore di immagini interattive vengono effettuate creando un CSS personalizzato.
 keywords: reattivo
 solution: Experience Manager
-title: Personalizzazione del visualizzatore di immagini interattive
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Il file CSS personalizzato deve contenere le stesse dichiarazioni di classe di q
 
 Il modo alternativo per fornire regole CSS personalizzate consiste nell’utilizzare stili incorporati direttamente sulla pagina web o in una delle regole CSS esterne collegate.
 
-Quando crei CSS personalizzati, ricorda che il visualizzatore assegna la classe `.s7interactiveimage` al suo elemento DOM contenitore. Se utilizzi un file CSS esterno passato con il comando `style=`, utilizza la classe `.s7interactiveimage` come classe principale nel selettore discendente per le regole CSS. Se aggiungi stili incorporati nella pagina web, qualifica inoltre questo selettore con un ID dell’elemento DOM del contenitore come segue:
+Durante la creazione di CSS personalizzati, ricorda che il visualizzatore assegna la classe `.s7interactiveimage` al suo elemento DOM contenitore. Se utilizzi un file CSS esterno passato con il comando `style=`, utilizza la classe `.s7interactiveimage` come classe principale nel selettore discendente per le regole CSS. Se aggiungi stili incorporati nella pagina web, qualifica anche questo selettore con un ID dell’elemento DOM del contenitore come segue:
 
 `#<containerId>.s7interactiveimage`
 
 ## Creazione di CSS reattivi {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Sono inclusi, ma senza limitazioni, layout diversi, dimensioni degli elementi dell’interfaccia utente e risoluzione delle immagini.
+È possibile indirizzare diversi dispositivi e dimensioni di incorporamento in CSS per rendere diversa la visualizzazione del contenuto, a seconda del dispositivo di un utente o di un particolare layout di pagina web. Questa tecnica include, ma non si limita a, diversi layout, dimensioni degli elementi dell’interfaccia utente e risoluzione delle immagini.
 
-Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. Puoi utilizzarli in modo indipendente o insieme.
+Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. Puoi utilizzare questi marker o query in modo indipendente o insieme.
 
 **Marcatori CSS**
 
-Per facilitare la creazione di CSS adattabili, il visualizzatore supporta i marcatori CSS. Si tratta di classi CSS speciali che vengono assegnate dinamicamente all’elemento contenitore del visualizzatore di livello principale. Si basano sulle dimensioni del visualizzatore runtime e sul tipo di input utilizzato sul dispositivo corrente.
+Per aiutare a creare CSS reattivi, il visualizzatore supporta i marcatori CSS. Questi marcatori sono classi CSS speciali assegnate dinamicamente all’elemento contenitore del visualizzatore di livello principale. Si basano sulle dimensioni del visualizzatore runtime e sul tipo di input utilizzato sul dispositivo corrente.
 
 Il primo gruppo di marcatori CSS contiene le classi `.s7size_large`, `.s7size_medium` e `.s7size_small` . Vengono applicati in base all’area di runtime del contenitore del visualizzatore. Ad esempio, se l’area del visualizzatore è uguale o maggiore delle dimensioni di un monitor desktop comune, utilizza `.s7size_large`. Se l&#39;area è vicina a un dispositivo tablet comune, assegna `.s7size_medium`. Per aree simili agli schermi dei telefoni cellulari, utilizza `.s7size_small`. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diversi.
 
-Il secondo gruppo di marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. Il marcatore CSS `.s7touchinput` viene impostato se il dispositivo corrente è in grado di toccare l’input. In caso contrario, viene utilizzato `.s7mouseinput`. Questi marker sono destinati principalmente a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di ingresso, perché normalmente l&#39;input touch richiede elementi più grandi.
+Il secondo gruppo di marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. Il marcatore CSS `.s7touchinput` viene impostato se il dispositivo corrente dispone di input touch. In caso contrario, viene utilizzato `.s7mouseinput`. Questi marker sono destinati principalmente a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di ingresso, perché normalmente l&#39;input touch richiede elementi più grandi.
 
 Il seguente esempio CSS imposta le dimensioni del pulsante zoom in su 28 x 28 pixel sui sistemi con input del mouse e su 56 x 56 pixel sui dispositivi di input touch. Se il visualizzatore è ancora più piccolo, è impostato su 20 x 20 pixel.
 
@@ -62,7 +62,7 @@ Il seguente esempio CSS imposta le dimensioni del pulsante zoom in su 28 x 28 pi
 }
 ```
 
-Per eseguire il targeting di dispositivi con densità di pixel diversa è necessario utilizzare query multimediali CSS. Il seguente blocco di query per contenuti multimediali conterrebbe CSS specifici per le schermate ad alta densità:
+Per eseguire il targeting di dispositivi con densità di pixel diversa, è necessario utilizzare query multimediali CSS. Il seguente blocco di query per contenuti multimediali conterrebbe CSS specifici per le schermate ad alta densità:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -142,7 +142,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 L’inconveniente di questo approccio è che l’utente finale si trova in una situazione di sfarfallio o di ritardo nella risposta dell’interfaccia utente quando l’elemento viene interagito per la prima volta. Questa azione si verifica perché l’immagine per il nuovo stato elemento non è ancora stata scaricata. Inoltre, questo approccio può avere un leggero impatto negativo sulle prestazioni a causa di un aumento del numero di chiamate HTTP al server.
 
-Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatta riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, la proprietà `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale.
+Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatto riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, la proprietà `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale.
 
 Di seguito è riportato un esempio basato su &quot;sprite&quot; di stile dello stesso pulsante di zoom in precedente:
 

@@ -1,13 +1,13 @@
 ---
+title: Tutorial SDK per visualizzatori
 description: L’SDK per visualizzatori fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare contenuti rich media serviti da Adobe Dynamic Media nelle pagine web.
 solution: Experience Manager
-title: Tutorial SDK per visualizzatori
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ L’SDK per visualizzatori fornisce un set di componenti basati su JavaScript pe
 
 Ad esempio, l’SDK fornisce funzioni interattive di zoom e panoramica. Offre inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate su Adobe Dynamic Media tramite l’applicazione back-end Dynamic Media Classic.
 
-Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi e desktop Android e Apple iOS, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza significa che puoi fornire un unico flusso di lavoro per tutte le piattaforme supportate.
+Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android™ e Apple iOS e desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza significa che puoi fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
-L’SDK è costituito dai componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare uno stile a questi componenti tramite CSS e componenti non dell’interfaccia utente con un certo tipo di ruolo di supporto, ad esempio il recupero e l’analisi o il tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che puoi specificare in diversi modi, ad esempio come coppie `name=value` nell’URL.
+L’SDK è costituito dai componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare uno stile a questi componenti tramite CSS e componenti non dell’interfaccia utente con un certo tipo di ruolo di supporto, ad esempio il recupero e l’analisi o il tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che puoi specificare in vari modi, ad esempio come coppie `name=value` nell’URL.
 
 Questa esercitazione include il seguente ordine di attività per creare un visualizzatore zoom di base:
 
@@ -38,13 +38,13 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
 
    >[!NOTE]
    >
-   >Puoi completare questa esercitazione senza dover scaricare il pacchetto SDK per visualizzatori, in quanto l’SDK viene caricato in remoto. Tuttavia, il pacchetto Visualizzatore include ulteriori esempi e una guida di riferimento API che sarà utile quando crei i tuoi visualizzatori.
+   >Puoi completare questa esercitazione senza dover scaricare il pacchetto SDK per visualizzatori, perché l’SDK viene caricato in remoto. Tuttavia, il pacchetto Visualizzatore include ulteriori esempi e una guida di riferimento API che può aiutarti a creare i tuoi visualizzatori.
 
 ## Caricare l’SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Per iniziare, crea una nuova pagina per sviluppare il visualizzatore zoom di base che stai per creare.
 
-   Considera questo il codice bootstrap (o loader) per impostare un&#39;applicazione SDK vuota. Apri l’editor di testo preferito e incolla il seguente codice HTML:
+   Considera questa nuova pagina il codice Bootstrap (o loader) utilizzato per impostare un&#39;applicazione SDK vuota. Apri l’editor di testo preferito e incolla il seguente codice HTML:
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
    </html>
    ```
 
-   Aggiungi il seguente codice JavaScript all&#39;interno del tag `script` per inizializzare `ParameterManager`. Questo aiuta a preparare la creazione e l&#39;istanziazione di componenti SDK all&#39;interno della funzione `initViewer` :
+   Aggiungi il seguente codice JavaScript all&#39;interno del tag `script` in modo che inizializzi il `ParameterManager`. In questo modo puoi prepararti a creare e creare un’istanza di componenti SDK all’interno della funzione `initViewer` :
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
 
 1. Salva il file come modello vuoto. Puoi utilizzare qualsiasi nome file desiderato.
 
-   Utilizzerai questo file modello vuoto come riferimento quando creerai nuovi visualizzatori in futuro. Questo modello funziona localmente e quando viene servito da un server web.
+   Questo file modello vuoto verrà utilizzato come riferimento quando creerai qualsiasi visualizzatore in futuro. Questo modello funziona localmente e quando viene servito da un server web.
 
-Ora aggiungi stile al visualizzatore.
+Ora aggiungi stile al tuo visualizzatore.
 
 ## Aggiunta di stile al visualizzatore {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ Ora aggiungi stile al visualizzatore.
    </style>
    ```
 
-Ora verranno inclusi i componenti `Container` e `ZoomView`.
+Ora includi i componenti `Container` e `ZoomView`.
 
 ## Incluso contenitore e visualizzazione zoom {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
    var container, zoomView;
    ```
 
-1. Inserisci quanto segue all’interno della funzione `initViewer` per definire alcuni modificatori e creare un’istanza dei rispettivi componenti:
+1. Inserisci quanto segue all’interno della funzione `initViewer` in modo da poter definire alcuni modificatori e creare un’istanza dei rispettivi componenti:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -207,9 +207,9 @@ Ora verranno inclusi i componenti `Container` e `ZoomView`.
 
 1. Visualizza l’anteprima della pagina per visualizzare gli elementi creati. La pagina avrà un aspetto simile al seguente:
 
-   ![](assets/viewer-1.jpg)
+   ![Esempio di visualizzatore un’immagine](assets/viewer-1.jpg)
 
-Ora aggiungerai i componenti `MediaSet` e `Swatches` al visualizzatore.
+Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
 
 ## Aggiunta di componenti MediaSet e Campioni al visualizzatore {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ Ora aggiungerai i componenti `MediaSet` e `Swatches` al visualizzatore.
 
    Il visualizzatore ora si presenta come la seguente immagine. Prova a ridimensionare la finestra del browser del visualizzatore e osserva il comportamento risultante.
 
-   ![](assets/viewer-2.jpg)
+   ![Esempio di visualizzatore due immagini](assets/viewer-2.jpg)
 
-Ora è possibile aggiungere pulsanti di zoom in, zoom out e di ripristino dello zoom al visualizzatore.
+Adesso aggiungi i pulsanti zoom in, zoom out e zoom reset al tuo visualizzatore.
 
 ## Aggiunta di pulsanti al visualizzatore {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ Ora è possibile aggiungere pulsanti di zoom in, zoom out e di ripristino dello 
     }
    ```
 
-1. Visualizza l’anteprima del visualizzatore. Il risultato sarà il seguente:
+1. Visualizza l’anteprima del visualizzatore. Dovrebbe essere simile al seguente:
 
-   ![](assets/viewer-3.jpg)
+   ![Esempio di visualizzatore tre immagini](assets/viewer-3.jpg)
 
-   Ora configurerai i campioni in modo che siano allineati verticalmente a destra.
+   Ora configura i campioni in modo che siano allineati verticalmente a destra.
 
 ## Configurazione verticale dei campioni {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Puoi configurare i modificatori direttamente sull’istanza `ParameterManager` .
 
-   Aggiungi quanto segue nella parte superiore della funzione `initViewer` per configurare il layout del pollice `Swatches` come riga singola:
+   Aggiungi quanto segue nella parte superiore della funzione `initViewer` in modo da poter configurare il layout del pollice `Swatches` come una singola riga:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -383,9 +383,9 @@ Ora è possibile aggiungere pulsanti di zoom in, zoom out e di ripristino dello 
    }
    ```
 
-1. Visualizza l’anteprima del visualizzatore. Il risultato sarà il seguente:
+1. Visualizza l’anteprima del visualizzatore. Si presenta così:
 
-   ![](assets/viewer-4.jpg)
+   ![Esempio di visualizzatore quattro immagini](assets/viewer-4.jpg)
 
    Il visualizzatore zoom di base è ora completo.
 

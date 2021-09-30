@@ -1,14 +1,14 @@
 ---
+title: ZoomView.enableHD
 description: ZoomView.enableHD
 solution: Experience Manager
-title: ZoomView.enableHD
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>. Influisce sui dispositivi con display ad alta densità come iPhone4 e dispositivi simili. Se attivo, il componente limita le dimensioni della richiesta di immagine IS come se il dispositivo avesse un rapporto di pixel di <span class="codeph"> 1</span>, riducendo così la larghezza di banda. </p> </td> 
+   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>. Influisce sui dispositivi con display ad alta densità come iPhone4 e dispositivi simili. Se attivo, il componente limita le dimensioni della richiesta di immagine IS come se il dispositivo avesse un rapporto di pixel di <span class="codeph"> 1</span>, riducendo la larghezza di banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> numero</span></span> </p> </td> 

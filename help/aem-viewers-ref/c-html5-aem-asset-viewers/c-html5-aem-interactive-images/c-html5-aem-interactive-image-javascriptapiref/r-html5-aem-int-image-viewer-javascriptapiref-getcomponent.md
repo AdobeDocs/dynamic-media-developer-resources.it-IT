@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Riferimento API JavaScript per il visualizzatore di immagini video.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
@@ -55,13 +55,13 @@ Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal v
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto, come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
+Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
 
 Per ulteriori informazioni su un particolare componente, consulta la documentazione relativa all’API SDK per visualizzatori .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` Un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

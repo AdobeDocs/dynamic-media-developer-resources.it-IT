@@ -1,13 +1,13 @@
 ---
+title: Supporto per il tracciamento delle analisi
 description: Supporto per il tracciamento delle analisi
 solution: Experience Manager
-title: Supporto per il tracciamento delle analisi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Immagini interattive
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 2%
 
 ---

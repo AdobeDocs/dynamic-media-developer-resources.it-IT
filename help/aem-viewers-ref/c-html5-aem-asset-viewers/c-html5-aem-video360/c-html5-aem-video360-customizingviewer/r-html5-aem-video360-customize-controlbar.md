@@ -1,20 +1,20 @@
 ---
-description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante di riproduzione/pausa, i controlli del volume e così via.
-solution: Experience Manager
 title: Barra di controllo
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, come il pulsante di riproduzione/pausa e i controlli del volume.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # Barra di controllo{#control-bar}
 
-La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante di riproduzione/pausa, i controlli del volume e così via.
+La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, come il pulsante di riproduzione/pausa e i controlli del volume.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

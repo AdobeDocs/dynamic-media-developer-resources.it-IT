@@ -1,13 +1,13 @@
 ---
+title: Quota di incorporamento
 description: Lo strumento di condivisione di incorporamento è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Quota di incorporamento
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ L&#39;aspetto del pulsante di condivisione di incorporamento è controllato con 
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-**Esempio** : per impostare un pulsante di condivisione di incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
+**Esempio** : per impostare un pulsante di condivisione di incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti diversi:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata con il seguente selettore di classe CSS:
+La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay
@@ -284,7 +284,7 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-**Esempio** : per impostare l’intestazione della finestra di dialogo con spaziatura, icona 24 x 14 pixel, titolo in grassetto a 16 punti e pulsante di chiusura a 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore di dialogo:
+**Esempio** : per impostare l’intestazione della finestra di dialogo con spaziatura, l’icona 24 x 14 pixel e un titolo in grassetto a 16 punti. Infine, un pulsante Chiudi 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore di dialogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 >
 >Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -712,7 +712,7 @@ Il testo del codice di incorporamento effettivo è controllato con il seguente s
  </tbody> 
 </table>
 
-**Esempio** : per impostare il codice di incorporamento per utilizzare il wrapping di  `break-word` parole:
+**Esempio** : per configurare il codice di incorporamento per l’utilizzo del wrapping di  `break-word` parole:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Il testo del codice di incorporamento effettivo è controllato con il seguente s
 }
 ```
 
-L’etichetta e l’elenco a discesa delle dimensioni di incorporamento si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
+L’etichetta e l’elenco a discesa Dimensione da incorporare si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 
 >[!NOTE]
 >
->La casella combinata supporta il selettore di attributi `expanded` con possibili valori di `true` e `false`. `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite di incorporamento, quindi deve assumere tutta la larghezza disponibile. `false` viene utilizzato quando nella casella combinata è selezionata l’opzione per le dimensioni personalizzate, quindi dovrebbe ridursi per consentire lo spazio per i campi di input personalizzati di larghezza e altezza.
+>La casella combinata supporta il selettore di attributi `expanded` con possibili valori di `true` e `false`. Il valore `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni di incorporamento predefinite, pertanto deve avere tutta la larghezza disponibile. Il valore `false` viene utilizzato quando l’opzione Dimensione personalizzata è selezionata nella casella combinata, quindi dovrebbe ridursi per consentire lo spazio per i campi di input di larghezza e altezza personalizzati.
 
 **Esempio** : per impostare la casella combinata Dimensione incorporamento su una larghezza di 300 pixel quando viene visualizzata una voce predefinita e di 110 pixel di larghezza quando viene visualizzata una dimensione personalizzata:
 
@@ -894,7 +894,7 @@ La casella combinata ha un pulsante &quot;a discesa&quot; a destra ed è control
 }
 ```
 
-Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all’apertura della casella combinata è controllato con il seguente selettore di classe CSS:
+Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all’apertura della casella combinata viene controllato con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -985,7 +985,7 @@ Un segno di spunta visualizzato a sinistra dell’elemento selezionato all’int
 }
 ```
 
-Quando l&#39;opzione &quot;Dimensione personalizzata&quot; è selezionata nella casella combinata Dimensione incorporamento, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
+Quando nella casella combinata Dimensione personalizzata è selezionata l’opzione &quot;Dimensione personalizzata&quot;, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all’utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel
