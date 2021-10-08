@@ -1,13 +1,13 @@
 ---
+title: Distribuzione video HTTPS
 description: Distribuzione video HTTPS
 solution: Experience Manager
-title: Distribuzione video HTTPS
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >HTTP Secure Video Delivery applies only to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-A condizione che il visualizzatore funzioni nella configurazione come descritto all’inizio di questa sezione, la distribuzione video pubblicata può avvenire sia in modalità HTTPS (protetta) che HTTP (non protetta). In una configurazione predefinita, il protocollo di consegna video segue rigorosamente il protocollo di consegna della pagina web di incorporamento. Tuttavia, è possibile forzare la distribuzione video HTTPS senza tenere conto del protocollo utilizzato incorporando la pagina web utilizzando l&#39;attributo di configurazione [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) . L’anteprima video in modalità Autore viene sempre distribuita in modo sicuro tramite HTTPS.
+Se il visualizzatore funziona in configurazione come descritto all’inizio di questa sezione, la distribuzione video pubblicata può avvenire sia in modalità HTTPS (sicura) che HTTP (non sicura). In una configurazione predefinita, il protocollo di consegna video segue rigorosamente il protocollo di consegna della pagina web di incorporamento. Tuttavia, è possibile forzare la distribuzione video HTTPS senza tenere conto del protocollo utilizzato incorporando la pagina web utilizzando l&#39;attributo di configurazione [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) . L’anteprima video in modalità Autore viene sempre distribuita in modo sicuro tramite HTTPS.
 
-A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in AEM, l’attributo di configurazione `Video360Player.ssl` viene applicato in modo diverso, come illustrato di seguito:
+A seconda del metodo di pubblicazione dei video di Dynamic Media utilizzato in Adobe Experience Manager, l’attributo di configurazione `Video360Player.ssl` viene applicato in modo diverso, come illustrato di seguito:
 
 * Se pubblichi un video Dynamic Media con un URL, aggiungi `Video360Player.ssl` all’URL. Ad esempio, per forzare la distribuzione video sicura, aggiungi `&Video360Player.ssl=on` alla fine del seguente esempio di URL visualizzatore:
 

@@ -1,14 +1,14 @@
 ---
+title: Video360Player.autoplay
 description: Attributo di configurazione per il visualizzatore Video360.
 solution: Experience Manager
-title: Video360Player.autoplay
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Tieni presente che alcuni sistemi, come alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Alcuni sistemi, come alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
   </tr> 
  </tbody> 
 </table>

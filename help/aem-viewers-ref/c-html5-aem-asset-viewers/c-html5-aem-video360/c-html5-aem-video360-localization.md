@@ -1,20 +1,20 @@
 ---
-description: Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
-solution: Experience Manager
 title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+description: Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Tali contenuti includono le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
-Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Questo include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
+Alcuni contenuti visualizzati dal visualizzatore sono soggetti a localizzazione. Tali contenuti includono le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 
 Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. A qualsiasi SIMBOLO è associato un valore di testo predefinito per le impostazioni internazionali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
@@ -54,7 +54,7 @@ Sono supportati i seguenti SYMBOL:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello superiore. </p> </td> 
+   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 

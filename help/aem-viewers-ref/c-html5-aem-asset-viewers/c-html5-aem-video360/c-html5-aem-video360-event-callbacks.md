@@ -1,13 +1,13 @@
 ---
+title: Callback degli eventi
 description: Callback degli eventi
 solution: Experience Manager
-title: Callback degli eventi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Gli eventi del visualizzatore supportati includono:
 
    * `objID {String}` attualmente non utilizzato.
    * `compClass {String}` attualmente non utilizzato.
-   * `instName {String}` un nome di istanza del componente SDK per visualizzatori HTML5 che ha attivato l’evento.
+   * `instName {String}` un nome di istanza del componente SDK del visualizzatore HTML5 che ha attivato l’evento.
    * `timeStamp {Number}` marca temporale dell&#39;evento.
    * `eventInfo {String}` payload dell’evento.
 

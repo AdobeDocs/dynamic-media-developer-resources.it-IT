@@ -1,13 +1,13 @@
 ---
+title: Pulsante Riproduci/Pausa
 description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo fa clic.
 solution: Experience Manager
-title: Pulsante Riproduci/Pausa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
 >
 >Questo pulsante supporta sia i selettori di attributi `state`, `selected` che `replay`, che possono essere utilizzati per applicare interfacce diverse a diversi stati del pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pause&quot;;
 >
->`replay='true'` viene impostato quando il video ha raggiunto la fine e facendo clic sul pulsante si riavvia la riproduzione dall&#39;inizio.
+>Il selettore di attributi `replay='true'` viene impostato quando il video ha raggiunto la fine e la selezione del pulsante riavvia la riproduzione dall&#39;inizio.
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
 
-**Esempio** : per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel; è posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
+**Esempio** : per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel. Posizionare sei pixel dal bordo superiore e sinistro della barra di controllo. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
 
 ```
 .s7video360viewer .s7playpausebutton { 

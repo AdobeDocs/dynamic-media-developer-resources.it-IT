@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Riferimento API JavaScript per il visualizzatore Video360.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -95,13 +95,13 @@ Restituisce un riferimento al componente SDK per visualizzatori utilizzato dal v
  </tbody> 
 </table>
 
-Quando lavori con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Quando lavori con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Per ulteriori informazioni su un particolare componente, consulta la documentazione *API SDK per visualizzatori HTML5* .
+Per ulteriori informazioni su un particolare componente, consulta la documentazione relativa all’ *API SDK per visualizzatori HTML5* .
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+Il `{Object}` è un riferimento al componente SDK per visualizzatori. Il metodo restituisce `null` se il `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,30 +1,30 @@
 ---
+title: Spazio dei nomi dell’SDK per visualizzatori
 description: Spazio dei nomi dell’SDK per visualizzatori
 solution: Experience Manager
-title: Spazio dei nomi dell’SDK per visualizzatori
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Spazio dei nomi dell’SDK per visualizzatori{#viewer-sdk-namespace}
 
-Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte dall’API del visualizzatore stesso.
+Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Di solito, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte dall’API del visualizzatore stesso.
 
-Tuttavia, alcuni casi d’uso avanzati richiedono che la pagina web ottenga un riferimento a un componente SDK interno utilizzando l’ API visualizzatore `getComponent()` e quindi utilizzi tutta la flessibilità delle API dell’SDK stesso.
+Tuttavia, alcuni casi d’uso avanzati richiedono che la pagina web faccia riferimento a un componente SDK interno utilizzando l’ API del visualizzatore `getComponent()` e quindi che utilizzi tutta la flessibilità delle API dell’SDK stesso.
 
-Lo spazio dei nomi utilizzato dal visualizzatore per caricare e inizializzare i componenti SDK dipende dall’ambiente in cui opera il visualizzatore. Se il visualizzatore è in esecuzione in AEM (Adobe Experience Manager), il visualizzatore carica i componenti SDK nello spazio dei nomi `s7viewers.s7sdk` . Allo stesso modo, il visualizzatore servito da Dynamic Media Classic carica l&#39;SDK in `s7classic.s7sdk`.
+Lo spazio dei nomi utilizzato dal visualizzatore per caricare e inizializzare i componenti SDK dipende dall’ambiente in cui opera il visualizzatore. Se il visualizzatore è in esecuzione in Adobe Experience Manager, il visualizzatore carica i componenti SDK nello spazio dei nomi `s7viewers.s7sdk` . Allo stesso modo, il visualizzatore servito da Dynamic Media Classic carica l&#39;SDK in `s7classic.s7sdk`.
 
 In entrambi i casi, lo spazio dei nomi utilizzato dall’SDK all’interno del visualizzatore ha `s7viewers` o `s7classic` come prefisso. Inoltre, è diverso dallo spazio dei nomi semplice `s7sdk` utilizzato nella Guida utente SDK o nella documentazione API SDK.
 
 Per questo motivo, è importante utilizzare uno spazio dei nomi SDK completo quando scrivi un codice di applicazione personalizzato che comunica con i componenti del visualizzatore interni.
 
-Ad esempio, se prevedi di ascoltare l’evento `StatusEvent.NOTF_VIEW_READY` e il visualizzatore viene servito da AEM, il tipo di evento completo è `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` e il codice del listener di eventi è simile al seguente:
+Ad esempio, se prevedi di ascoltare l’evento `StatusEvent.NOTF_VIEW_READY` e il visualizzatore viene servito dall’Experience Manager, il tipo di evento completo è `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` e il codice del listener di eventi è simile al seguente:
 
 ```
 <instance>.setHandlers({ 

@@ -1,20 +1,20 @@
 ---
+title: Video360 player
 description: Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
 solution: Experience Manager
-title: Lettore video360
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Lettore video360{#video-player}
 
-Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
+The video player is the rectangular area where the video content is displayed within the viewer.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -26,13 +26,13 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 .s7video360viewer .s7video360player
 ```
 
-**Proprietà CSS del lettore video**
+**CSS properties of the video player**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Background color of the main view. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ L’aspetto dell’animazione di buffering è controllato con il seguente selett
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza icona animazione. </p> </td> 
+   <td colname="col2"> <p> Animation icon width. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 

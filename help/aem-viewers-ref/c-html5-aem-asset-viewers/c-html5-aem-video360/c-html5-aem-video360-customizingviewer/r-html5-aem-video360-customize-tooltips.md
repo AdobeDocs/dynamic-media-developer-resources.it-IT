@@ -1,20 +1,20 @@
 ---
-description: Sui sistemi desktop alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
-solution: Experience Manager
 title: Descrizioni comandi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+description: Sui sistemi desktop, alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Descrizioni comandi{#tooltips}
 
-Sui sistemi desktop alcuni elementi dell&#39;interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
+Sui sistemi desktop, alcuni elementi dell&#39;interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ L’aspetto delle descrizioni dei comandi è controllato dal seguente selettore 
 
 >[!NOTE]
 >
->Nel caso in cui gli stili della descrizione comandi siano personalizzati dall’interno della pagina web di incorporamento, tutte le proprietà devono contenere la regola `!IMPORTANT` . Questo non è necessario se le descrizioni comandi sono personalizzate all’interno del file CSS del visualizzatore.
+>Nel caso in cui gli stili della descrizione comandi siano personalizzati dall’interno della pagina web di incorporamento, tutte le proprietà devono contenere la regola `!IMPORTANT` . Questa regola non è necessaria se le descrizioni comandi sono personalizzate all’interno del file CSS del visualizzatore.
 
-Esempio: per impostare descrizioni comandi con bordo grigio con raggio dell’angolo di tre pixel, sfondo nero e testo bianco in Arial, 11 pixel:
+Esempio: per impostare descrizioni comandi con bordo grigio con raggio dell’angolo di tre pixel, sfondo nero e testo bianco in Arial®, 11 pixel:
 
 ```
 .s7tooltip { 

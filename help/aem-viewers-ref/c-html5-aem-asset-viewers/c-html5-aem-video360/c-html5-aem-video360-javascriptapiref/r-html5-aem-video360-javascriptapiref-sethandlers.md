@@ -1,14 +1,14 @@
 ---
+title: setHandlers
 description: Riferimento API JavaScript per il visualizzatore video360
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 90775d4a-386b-4b56-b75e-8afafe749645
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

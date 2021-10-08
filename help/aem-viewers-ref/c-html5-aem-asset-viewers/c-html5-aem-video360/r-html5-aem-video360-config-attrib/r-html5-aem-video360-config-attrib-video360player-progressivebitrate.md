@@ -1,14 +1,14 @@
 ---
+title: Video360Player.progressivebitrate
 description: Attributo di configurazione per il visualizzatore Video360.
 solution: Experience Manager
-title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Specifica in kbit per secondo (o kbps) il bit rate video desiderato da riprodurre da un set video adattivo nel caso in cui il sistema corrente non supporti la riproduzione video adattiva. </p> <p>Il componente raccoglie il flusso video con il bit rate più vicino possibile (ma non superiore) al valore specificato. Se tutti i flussi video del set video adattivo hanno una qualità superiore rispetto al valore specificato, la logica sceglie il bit rate con la qualità più bassa. </p> </td> 
+   <td colname="col2"> <p> Specifies in kilobits per second (or Kbps), the desired video bit rate to play from an Adaptive Video Set in case the current system does not support adaptive video playback. </p> <p>Il componente raccoglie il flusso video con il bit rate più vicino possibile (ma non superiore) al valore specificato. If all video streams in the Adaptive Video Set have higher quality than the specified value, the logic chooses the bit rate with the lowest quality. </p> </td> 
   </tr> 
  </tbody> 
 </table>

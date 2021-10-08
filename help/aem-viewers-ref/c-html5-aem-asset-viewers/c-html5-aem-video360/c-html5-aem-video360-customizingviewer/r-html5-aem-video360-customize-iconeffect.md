@@ -1,24 +1,24 @@
 ---
-description: L'icona di riproduzione viene sovrapposta all'area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
+title: Icon effect
+description: L'icona di riproduzione viene sovrapposta all'area di visualizzazione principale. It displays when the video is paused, or when the end of the video is reached, and it also depends on the iconeffect parameter.
 solution: Experience Manager
-title: Icona, effetto
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
 
-# Icona, effetto{#icon-effect}
+# Icon effect{#icon-effect}
 
-L&#39;icona di riproduzione viene sovrapposta all&#39;area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
+The play icon is overlaid on the main view area. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspetto dell’icona di riproduzione viene controllato con il seguente selettore di classe CSS:
+The appearance of the play icon is controlled with the following CSS class selector:
 
 ```
 .s7video360viewer . s7video360player .s7iconeffect
@@ -30,7 +30,7 @@ L’aspetto dell’icona di riproduzione viene controllato con il seguente selet
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per l’icona di riproduzione. </p> </td> 
+   <td colname="col2"> <p> The displayed image for the play icon. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
@@ -42,14 +42,14 @@ L’aspetto dell’icona di riproduzione viene controllato con il seguente selet
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dell'icona di riproduzione. </p> </td> 
+   <td colname="col2"> <p>The height of the play icon. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’effetto icona supporta il selettore di attributi `state`. `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e  `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
+L’effetto icona supporta il selettore di attributi `state`. Il selettore di attributi `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
 
-**Esempio**  - Imposta un&#39;icona di riproduzione di 100 x 100 pixel.
+**Example** - Setup a 100 x 100 pixel play icon.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

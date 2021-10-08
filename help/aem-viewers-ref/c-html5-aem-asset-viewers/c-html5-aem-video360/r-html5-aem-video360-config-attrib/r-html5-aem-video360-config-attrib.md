@@ -1,13 +1,13 @@
 ---
+title: Riferimento comando - Attributi di configurazione
 description: Documentazione sugli attributi di configurazione per il visualizzatore Video360.
 solution: Experience Manager
-title: Riferimento comando - Attributi di configurazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Alcuni comandi di configurazione possono essere preceduti dal nome di classe o d
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-che significa che è possibile utilizzare questo comando come:
+Ciò significa che è possibile utilizzare questo comando nei seguenti modi:
 
 * `playback` (sintassi breve)
 * `VideoPlayer.playback` (qualificato con il nome della classe del componente)

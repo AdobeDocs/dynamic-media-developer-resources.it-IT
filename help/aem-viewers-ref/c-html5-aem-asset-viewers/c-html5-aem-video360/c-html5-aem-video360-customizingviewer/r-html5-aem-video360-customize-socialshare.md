@@ -1,20 +1,20 @@
 ---
-description: Per impostazione predefinita, lo strumento di social sharing è visualizzato nell'angolo in alto a destra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
-solution: Experience Manager
 title: Quota sociale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video VR 360
+description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Quota sociale{#social-share}
 
-Per impostazione predefinita, lo strumento di social sharing è visualizzato nell&#39;angolo in alto a destra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell&#39;angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
