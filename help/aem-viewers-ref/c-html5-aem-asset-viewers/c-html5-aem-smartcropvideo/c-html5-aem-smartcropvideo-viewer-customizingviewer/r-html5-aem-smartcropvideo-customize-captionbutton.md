@@ -1,13 +1,13 @@
 ---
+title: Pulsante Didascalia
 description: Questo pulsante attiva e disattiva la visualizzazione dei sottotitoli codificati. Non è visibile se il parametro della didascalia non è specificato.
 solution: Experience Manager
-title: Pulsante Didascalia
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazion
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante per sottotitoli codificati di 28 x 28 pixel, posizionati quattro pixel dal bordo superiore e 68 pixel dal bordo destro della barra di controllo, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
+Per impostare un pulsante per sottotitoli codificati di 28 x 28 pixel. È posizionato a quattro pixel dalla parte superiore e a 68 pixel dal bordo destro della barra di controllo. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

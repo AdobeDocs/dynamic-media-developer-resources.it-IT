@@ -1,13 +1,13 @@
 ---
+title: Condivisione collegamenti
 description: Lo strumento di condivisione dei collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condivisione collegamenti
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata con il seguente selettore di classe CSS:
+La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un’intestazione della finestra di dialogo con spaziatura, l’icona 22 x 12 pixel, il titolo in grassetto a 16 punti e un pulsante Chiudi a 28 x 28 pixel posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore della finestra di dialogo:
+Esempio: per impostare un’intestazione della finestra di dialogo con spaziatura, icona 22 x 12 pixel e titolo in grassetto a 16 punti. Infine, un pulsante Chiudi da 28 x 28 pixel posizionato due pixel dall’alto e due pixel dalla destra del contenitore della finestra di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 >
 >Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button

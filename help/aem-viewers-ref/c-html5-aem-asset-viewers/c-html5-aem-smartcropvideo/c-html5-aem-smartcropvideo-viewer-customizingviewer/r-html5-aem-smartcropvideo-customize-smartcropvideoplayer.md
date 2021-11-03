@@ -1,11 +1,11 @@
 ---
+title: Lettore video
 description: Il lettore video di ritaglio avanzato è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
 solution: Experience Manager
-title: Lettore video
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
  </tbody> 
 </table>
 
-Esempio: per impostare un testo di sottotitoli codificati a 14 pixel, grigio chiaro, Arial, su uno sfondo nero semitrasparente:
+Esempio: per impostare un testo di sottotitoli codificati a 14 pixel, grigio chiaro, Arial®, su uno sfondo nero semitrasparente:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

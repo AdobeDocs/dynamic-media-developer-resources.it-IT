@@ -1,13 +1,13 @@
 ---
+title: Localizzazione degli elementi dell’interfaccia utente
 description: Alcuni contenuti visualizzati dal Visualizzatore video di ritaglio avanzato sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 solution: Experience Manager
-title: Localizzazione degli elementi dell’interfaccia utente
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sono supportati i seguenti SYMBOL:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> Etichetta ARIA per l’elemento visualizzatore di livello superiore. </p> </td> 
+   <td colname="col2"> <p> Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 

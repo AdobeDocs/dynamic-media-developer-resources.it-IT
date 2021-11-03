@@ -1,12 +1,12 @@
 ---
+title: Video di ritaglio avanzato
 description: Smart Crop Video Viewer è un lettore video che riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto Smart Crop. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: reattivo
 solution: Experience Manager
-title: Video di ritaglio avanzato
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Vedi [Riferimento comando comune a tutti i visualizzatori - Attributi di configu
 
 ## Interazione con il visualizzatore video di ritaglio avanzato {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Smart Crop Video Viewer fornisce un set di controlli standard dell’interfaccia utente per la riproduzione video, come un pulsante di riproduzione/pausa, una bolla di tempo video per lo scorrimento video, un indicatore del tempo di riproduzione/totale, il controllo del volume, il pulsante a schermo intero e l’interruttore per la didascalia chiusa. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell’interfaccia utente del visualizzatore.
+Il visualizzatore video Smart Crop fornisce una serie di controlli standard dell’interfaccia utente per la riproduzione video, ad esempio:
+
+* Pulsante Riproduci/Pausa.
+* Bolla temporale video di scorrimento video.
+* Indicatore tempo/tempo totale riprodotto.
+* Controllo del volume.
+* Pulsante Schermo intero.
+* Icona della didascalia chiusa.
+
+Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell’interfaccia utente del visualizzatore.
 
 Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia utente, perché è possibile controllare il volume solo utilizzando i pulsanti hardware.
 

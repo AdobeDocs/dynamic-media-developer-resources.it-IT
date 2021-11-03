@@ -1,11 +1,11 @@
 ---
+title: Supporto per il tracciamento di Adobe Analytics
 description: Il visualizzatore video Smart Crop supporta il tracciamento predefinito di Adobe Analytics.
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al se
 
 ## Tracciamento personalizzato {#section-ab10bd7caf184721a366cf3953071934}
 
-Per integrare con sistemi di analisi di terze parti è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 

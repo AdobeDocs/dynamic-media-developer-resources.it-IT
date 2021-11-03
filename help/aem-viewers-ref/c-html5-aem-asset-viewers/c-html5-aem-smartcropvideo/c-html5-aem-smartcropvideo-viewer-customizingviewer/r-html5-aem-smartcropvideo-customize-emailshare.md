@@ -1,13 +1,13 @@
 ---
+title: Condivisione e-mail
 description: Lo strumento di condivisione e-mail è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Condivisione e-mail
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata con il seguente selettore di classe CSS:
+La sovrapposizione di sfondo che copre una pagina web quando la finestra di dialogo è attiva viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -282,7 +282,7 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura, icona 24 x 17 pixel, titolo in grassetto 16 pt e pulsante di chiusura 28 x 28 pixel posizionato 2 pixel dalla parte superiore e 2 pixel dalla parte destra del contenitore di dialogo:
+Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura, icona 24 x 17 pixel e titolo in grassetto 16 pt. Infine, un pulsante Chiudi da 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ Il pulsante Invia e-mail è controllato con il seguente selettore di classe CSS:
 >
 >Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può co
 
 Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un piè di pagina di una finestra di dialogo con il pulsante Annulla 64 x 34 e un pulsante Invia e-mail 82 x 34, con il colore del testo e il colore dello sfondo diversi per ogni stato del pulsante:
+Esempio: per impostare un piè di pagina di una finestra di dialogo con il pulsante Annulla 64 x 34 e un pulsante Invia e-mail 82 x 34. Infine, il colore del testo e il colore dello sfondo sono diversi per ogni stato del pulsante:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -757,7 +757,7 @@ Il campo di input &quot;A&quot; è più stretto perché assegna spazio per il pu
  </tbody> 
 </table>
 
-Esempio: per impostare un modulo con un bordo grigio di un pixel con nove pixel di spaziatura intorno a tutti i campi di input; avere lo stesso bordo in rosso per i campi che non possono essere convalidati, avere un campo di input &quot;To&quot; largo 250 pixel e il resto dei campi di input largo 300 pixel:
+Esempio: per impostare un modulo con un bordo grigio di un pixel con nove pixel di spaziatura intorno a tutti i campi di input. Per avere lo stesso bordo in rosso per i campi con errore di convalida, per avere un campo di input &quot;To&quot; largo 250 pixel e il resto dei campi di input largo 300 pixel:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Esempio: per impostare un modulo con un bordo grigio di un pixel con nove pixel 
 }
 ```
 
-Il campo di input del messaggio e-mail è inoltre controllato con:
+Il campo di input del messaggio e-mail è controllato anche con:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1210,11 +1210,11 @@ Quando un utente immette dati di input non corretti e la convalida in linea non 
 
 >[!NOTE]
 >
->Questo messaggio supporta `state` selettore di attributi con i seguenti valori possibili: `verifyerror`, `senderror`e `sendsuccess`. `verifyerror` è impostato quando viene visualizzato un messaggio a causa di un errore di convalida dell’input in linea; `senderror` è impostato quando un servizio e-mail di backend segnala un errore; `sendsuccess` viene impostato quando l’e-mail viene inviata correttamente. In questo modo è possibile assegnare al messaggio uno stile diverso a seconda dello stato della finestra di dialogo.
+>Questo messaggio supporta `state` selettore di attributi con i seguenti valori possibili: `verifyerror`, `senderror`e `sendsuccess`. Il valore `verifyerror` viene impostato quando viene visualizzato un messaggio a causa di un errore di convalida dell’input in linea. Il valore `senderror` viene impostato quando un servizio e-mail di backend segnala un errore. La `sendsuccess` viene impostato quando l’e-mail viene inviata correttamente. In questo modo è possibile assegnare al messaggio uno stile diverso a seconda dello stato della finestra di dialogo.
 
 Il messaggio di errore può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un messaggio per l’utilizzo di un font a dieci punti in grassetto, avere un’altezza di riga di 25 pixel, spaziatura di 20 pixel a sinistra, utilizzare un’icona a forma di punto esclamativo, testo rosso in caso di errore e nessuna icona e testo verde in caso di successo:
+Esempio: per impostare un messaggio in modo che utilizzi un font a dieci punti in grassetto, hai un’altezza di riga di 25 pixel e una spaziatura di 20 pixel a sinistra. Inoltre, utilizza un&#39;icona a forma di punto esclamativo, testo rosso in caso di errore e nessuna icona e testo verde in caso di esito positivo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

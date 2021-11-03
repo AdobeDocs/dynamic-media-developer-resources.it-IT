@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.iconeffect
 description: Attributo di configurazione per Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.iconeffect
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Abilita IconEffect in modo che venga visualizzato sopra al video quando il video viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tal caso, il <span class="codeph"> iconEffetto</span> Il modificatore viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita IconEffect in modo che venga visualizzato sopra al video quando il video viene messo in pausa. In alcuni dispositivi vengono utilizzati controlli nativi. In tal caso, il <span class="codeph"> iconEffetto</span> Il modificatore viene ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 

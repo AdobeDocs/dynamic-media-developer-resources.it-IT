@@ -1,11 +1,11 @@
 ---
+title: Riferimento comando - Attributi di configurazione
 description: Documentazione degli attributi di configurazione per Smart Crop Video Viewer.
 solution: Experience Manager
-title: Riferimento comando - Attributi di configurazione
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puoi impostare qualsiasi comando di configurazione nell’URL. In alternativa, p
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-che significa che questo comando viene utilizzato nel modo seguente:
+Ciò significa che questo comando viene utilizzato nel modo seguente:
 
 * `playback` (sintassi breve)
 * `SmartCropVideoPlayer.playback` (qualificato con il nome della classe del componente)

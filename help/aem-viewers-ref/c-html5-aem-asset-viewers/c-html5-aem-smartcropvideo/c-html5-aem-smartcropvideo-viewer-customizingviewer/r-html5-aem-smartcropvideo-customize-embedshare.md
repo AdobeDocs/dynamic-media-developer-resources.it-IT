@@ -1,13 +1,13 @@
 ---
+title: Quota di incorporamento
 description: Lo strumento di condivisione di incorporamento è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
 solution: Experience Manager
-title: Quota di incorporamento
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ L&#39;aspetto del pulsante di condivisione di incorporamento è controllato con 
 
 La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante di condivisione di incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
+Esempio: per impostare un pulsante Incorpora condivisione che sia di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata con il seguente selettore di classe CSS:
+La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay
@@ -284,7 +284,7 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura, icona 24 x 14 pixel, titolo in grassetto a 16 punti e pulsante di chiusura a 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore di dialogo:
+Esempio: per impostare un’intestazione della finestra di dialogo con spaziatura, icona 24 x 14 pixel, titolo in grassetto a 16 punti e pulsante Chiudi a 28 x 28 pixel. Infine, posiziona due pixel dalla parte superiore e due pixel dalla parte destra del contenitore della finestra di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 >
 >Il pulsante Annulla supporta la `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-Inoltre, entrambi i pulsanti condividono la stessa classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Se l’altezza di questo contenitore sembra essere maggiore dell’area della fi
  </tbody> 
 </table>
 
-Esempio: per impostare il contenuto del modulo con una spaziatura di dieci pixel:
+Esempio: per impostare il contenuto di un modulo con una spaziatura di dieci pixel:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -720,7 +720,7 @@ Esempio: per impostare il codice di incorporamento da utilizzare `break-word` ri
 }
 ```
 
-L’etichetta e l’elenco a discesa delle dimensioni di incorporamento si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
+L’etichetta e l’elenco a discesa Dimensione da incorporare si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 
 >[!NOTE]
 >
->La casella combinata supporta la `expanded` selettore di attributi con possibili valori di `true` e `false`. `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite di incorporamento, quindi deve assumere tutta la larghezza disponibile. `false` viene utilizzato quando nella casella combinata è selezionata l’opzione per le dimensioni personalizzate, quindi dovrebbe ridursi per consentire lo spazio per i campi di input personalizzati di larghezza e altezza.
+>La casella combinata supporta la `expanded` selettore di attributi con possibili valori di `true` e `false`. La `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite di incorporamento, quindi deve prendere tutta la larghezza disponibile. La `false` viene utilizzato quando nella casella combinata è selezionata l’opzione per le dimensioni personalizzate, quindi dovrebbe ridursi per consentire lo spazio per i campi di input personalizzati di larghezza e altezza.
 
 Esempio: per impostare la casella combinata Dimensione incorporamento su una larghezza di 300 pixel quando viene visualizzata una voce predefinita e larga 110 pixel quando viene visualizzata una dimensione personalizzata:
 
@@ -892,7 +892,7 @@ Esempio: per impostare un pulsante &quot;a discesa&quot; su 28 x 28 pixel e otte
 }
 ```
 
-Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all’apertura della casella combinata è controllato con il seguente selettore di classe CSS:
+Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all’apertura della casella combinata viene controllato con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -983,7 +983,7 @@ Esempio: per impostare l’icona del segno di spunta su 25 x 25 pixel:
 }
 ```
 
-Quando l&#39;opzione &quot;Dimensione personalizzata&quot; è selezionata nella casella combinata Dimensione incorporamento, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
+Quando l&#39;opzione &quot;Dimensione personalizzata&quot; è selezionata nella casella combinata Dimensione incorporamento, la finestra di dialogo visualizza due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel

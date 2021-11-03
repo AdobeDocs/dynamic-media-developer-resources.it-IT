@@ -1,14 +1,14 @@
 ---
+title: Personalizzazione del visualizzatore video di ritaglio avanzato
 description: Personalizzazione del visualizzatore video di ritaglio avanzato
 keywords: reattivo
 solution: Experience Manager
-title: Personalizzazione del visualizzatore video di ritaglio avanzato
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Il file CSS personalizzato deve contenere le stesse dichiarazioni di classe di q
 
 Un modo alternativo per fornire regole CSS personalizzate è quello di utilizzare stili incorporati direttamente sulla pagina web o in una delle regole CSS esterne collegate.
 
-Quando crei CSS personalizzati ricorda che il visualizzatore assegna `.s7smartcropvideoviewer` all&#39;elemento DOM contenitore. Se utilizzi un file CSS esterno passato con `style=` comando, utilizza `.s7smartcropvideoviewer` Classe come classe padre nel selettore discendente per le regole CSS. Se incorpori stili nella pagina web, qualifica inoltre questo selettore con un ID dell’elemento DOM del contenitore come segue:
+Quando crei CSS personalizzati, ricorda che il visualizzatore assegna `.s7smartcropvideoviewer` all&#39;elemento DOM contenitore. Se utilizzi un file CSS esterno passato con `style=` comando, utilizza `.s7smartcropvideoviewer` Classe come classe padre nel selettore discendente per le regole CSS. Se incorpori stili nella pagina web, qualifica anche questo selettore con un ID dell’elemento DOM del contenitore come segue:
 
 `#<containerId>.s7smartcropvideoviewer`
 
@@ -35,17 +35,17 @@ Quando crei CSS personalizzati ricorda che il visualizzatore assegna `.s7smartcr
 
 È possibile eseguire il targeting di dispositivi diversi in CSS per rendere il contenuto visualizzato in modo diverso a seconda del dispositivo di un utente. Questo targeting include, ma non è limitato a, diverse dimensioni degli elementi dell&#39;interfaccia utente e risoluzione dell&#39;immagine.
 
-Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. Puoi utilizzarli in modo indipendente o insieme.
+Il visualizzatore supporta due meccanismi per creare CSS adattabili: Marcatori CSS e query multimediali CSS standard. Potete usare questi due meccanismi in modo indipendente o insieme.
 
 **Marcatori CSS**
 
-Per facilitare la creazione di CSS adattabili, il visualizzatore supporta marcatori CSS che assegnano in modo dinamico classi CSS speciali all’elemento contenitore visualizzatore di livello superiore in base alle dimensioni del visualizzatore in fase di esecuzione e al tipo di input utilizzato sul dispositivo corrente.
+Per facilitare la creazione di CSS adattabili, il visualizzatore supporta marcatori CSS che assegnano in modo dinamico classi CSS speciali all’elemento contenitore di visualizzatori di primo livello. Questa assegnazione si basa sulle dimensioni del visualizzatore in fase di esecuzione e sul tipo di input utilizzato sul dispositivo corrente.
 
-Il primo gruppo di marcatori CSS include `.s7size_large`, `.s7size_medium`e `.s7size_small` classi. Vengono applicati in base all’area di runtime del contenitore del visualizzatore. Se l&#39;area di visualizzazione è uguale o maggiore delle dimensioni di un monitor desktop comune `.s7size_large` è utilizzato; se l&#39;area è vicina alle dimensioni di un dispositivo tablet comune `.s7size_medium` è assegnato. Per aree simili agli schermi dei telefoni cellulari `.s7size_small` è impostato. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diversi.
+Il primo gruppo di marcatori CSS include `.s7size_large`, `.s7size_medium`e `.s7size_small` classi. Vengono applicati in base all’area di runtime del contenitore del visualizzatore. Se l&#39;area di visualizzazione è uguale o maggiore delle dimensioni di un monitor desktop comune `.s7size_large` è utilizzato; se l&#39;area è vicina alle dimensioni di un dispositivo tablet comune `.s7size_medium` è assegnato. per aree simili agli schermi dei telefoni cellulari, `.s7size_small` è impostato. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diversi.
 
-Il secondo gruppo di marcatori CSS include `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` è impostato se il dispositivo corrente dispone di capacità di input touch; altrimenti, `.s7mouseinput` viene utilizzato. Questi marcatori sono destinati a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di input, perché normalmente l&#39;input touch richiede elementi più grandi. Nel caso in cui il dispositivo sia dotato di funzionalità di input del mouse e touch, `.s7touchinput` è impostato e il visualizzatore esegue il rendering di un’interfaccia utente touch.
+Il secondo gruppo di marcatori CSS include `.s7mouseinput` e `.s7touchinput`. Il marcatore `.s7touchinput` è impostato se il dispositivo corrente dispone di capacità di input touch; altrimenti, `.s7mouseinput` viene utilizzato. Questi marcatori sono destinati a creare elementi di input dell&#39;interfaccia utente con diverse dimensioni dello schermo per diversi tipi di input, perché normalmente l&#39;input touch richiede elementi più grandi. Nel caso in cui il dispositivo sia dotato di funzionalità di input del mouse e touch, `.s7touchinput` è impostato e il visualizzatore esegue il rendering di un’interfaccia utente touch.
 
-Il seguente esempio CSS imposta la dimensione del pulsante di riproduzione/pausa su 28 x 28 pixel sui sistemi con input del mouse e 56 x 56 pixel sui dispositivi touch. Inoltre, nasconde completamente il pulsante se la dimensione del visualizzatore diventa davvero piccola:
+Il seguente esempio CSS imposta la dimensione del pulsante di riproduzione/pausa su 28 x 28 pixel sui sistemi con input del mouse e 56 x 56 pixel sui dispositivi touch. Inoltre, nasconde completamente il pulsante se le dimensioni del visualizzatore diventano piccole:
 
 ```
 .s7smartcropvideoviewer.s7mouseinput .s7playpausebutton { 
@@ -61,7 +61,7 @@ Il seguente esempio CSS imposta la dimensione del pulsante di riproduzione/pausa
 }
 ```
 
-Per eseguire il targeting dei dispositivi con una densità di pixel diversa, utilizza le query multimediali CSS. Il seguente blocco di query per file multimediali conterrà CSS specifici per le schermate ad alta densità:
+Per eseguire il targeting dei dispositivi con una densità di pixel diversa, utilizza le query multimediali CSS. Il seguente blocco di query per contenuti multimediali conterrebbe CSS specifici per le schermate ad alta densità:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -69,7 +69,7 @@ Per eseguire il targeting dei dispositivi con una densità di pixel diversa, uti
 }
 ```
 
-L’utilizzo dei marcatori CSS è il modo più flessibile per creare CSS reattivi, in quanto consente di eseguire il targeting non solo delle dimensioni dello schermo del dispositivo, ma anche delle dimensioni effettive del visualizzatore, il che può essere utile per i layout di pagina di progettazione reattiva.
+L’utilizzo dei marcatori CSS è il modo più flessibile per creare CSS adattabili. Questa flessibilità consente di eseguire il targeting non solo delle dimensioni dello schermo del dispositivo, ma anche di quelle effettive del visualizzatore, il che può essere utile per i layout reattivi delle pagine di progettazione.
 
 Utilizza il file CSS del visualizzatore predefinito come esempio di approccio a marcatori CSS.
 
@@ -124,7 +124,7 @@ Non è necessario duplicare l’intero CSS del visualizzatore in ogni query mult
 
 ## Sprite CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Molti elementi dell’interfaccia utente del visualizzatore sono formattati utilizzando immagini bitmap e hanno più di un diverso stato visivo. Un buon esempio è un pulsante che normalmente ha almeno 3 stati diversi: &quot;su&quot;, &quot;sopra&quot; e &quot;giù&quot;. Ogni stato richiede l&#39;assegnazione di una propria immagine bitmap.
+Molti elementi dell’interfaccia utente del visualizzatore sono formattati utilizzando immagini bitmap e hanno più di un diverso stato visivo. Un buon esempio è un pulsante che normalmente ha almeno tre stati diversi: &quot;su&quot;, &quot;sopra&quot; e &quot;giù&quot;. Ogni stato richiede l&#39;assegnazione di una propria immagine bitmap.
 
 Con un approccio classico allo stile, il CSS avrebbe un riferimento separato al singolo file di immagine sul server per ogni stato dell’elemento dell’interfaccia utente. Di seguito è riportato un esempio di CSS per lo stile di un pulsante a schermo intero:
 
@@ -169,7 +169,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 L’inconveniente di questo approccio è che l’utente finale si trova in una situazione di sfarfallio o di ritardo nella risposta dell’interfaccia utente quando l’elemento viene interagito per la prima volta. Questa azione si verifica perché l’immagine per il nuovo stato elemento non è ancora stata scaricata. Inoltre, questo approccio può avere un leggero impatto negativo sulle prestazioni a causa di un aumento del numero di chiamate HTTP al server.
 
-Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatta riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, il `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale. Di seguito è riportato un esempio basato su &quot;sprite&quot; di stile dello stesso pulsante a schermo intero dall’alto:
+Gli spriti CSS è un approccio diverso in cui l’immagine per tutti gli stati degli elementi viene combinata in un singolo file PNG denominato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento specificato posizionato uno dopo l&#39;altro. Quando si crea lo stile di un elemento dell’interfaccia utente con sprites, viene fatto riferimento alla stessa immagine sprite per tutti gli stati diversi del CSS. Inoltre, il `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. In genere, i visualizzatori lo dispongono di una sovrapposizione verticale. Di seguito è riportato un esempio basato su &quot;sprite&quot; di stile dello stesso pulsante a schermo intero dall’alto:
 
 ```
 .s7smartcropvideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Note generali sullo stile e consigli {#section-097418bd618740bba36352629e4d88e1}
 
-* Tutti i percorsi delle risorse esterne all’interno dei CSS vengono risolti rispetto alla posizione CSS non alla posizione della pagina HTML del visualizzatore. Ricorda di tenere conto di questa regola quando copi il CSS predefinito in una posizione diversa. Copia le risorse predefinite o i percorsi di aggiornamento all’interno del CSS personalizzato.
+* Tutti i percorsi delle risorse esterne all’interno dei CSS vengono risolti rispetto alla posizione CSS non alla posizione della pagina HTML del visualizzatore. Ricorda questa regola quando copi il CSS predefinito in una posizione diversa. Copia le risorse predefinite o i percorsi di aggiornamento all’interno del CSS personalizzato.
 * Il formato preferito per le immagini bitmap è PNG.
 * L’immagine bitmap viene assegnata agli elementi dell’interfaccia utente tramite `background-image` proprietà.
 * La `width` e `height` le proprietà di un elemento dell’interfaccia utente ne definiscono la dimensione logica. Dimensione della bitmap passata a `background-image` non influisce sulle dimensioni logiche.

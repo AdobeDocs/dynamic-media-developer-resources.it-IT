@@ -1,11 +1,11 @@
 ---
+title: Riferimento comando - URL
 description: Documentazione di riferimento dei comandi per Smart Crop Video Viewer.
 solution: Experience Manager
-title: Riferimento comando - URL
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puoi impostare qualsiasi comando di configurazione nell’URL. In alternativa, p
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-che significa che questo comando viene utilizzato nel modo seguente:
+Ciò significa che questo comando viene utilizzato nel modo seguente:
 
 * `playback` (sintassi breve)
 * `SmartCropVideoPlayer.playback` (qualificato con il nome della classe del componente)

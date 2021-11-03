@@ -1,13 +1,13 @@
 ---
+title: Scorrimento video
 description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all'utente di cercare in modo dinamico qualsiasi posizione temporale all'interno del video attualmente in riproduzione.
 solution: Experience Manager
-title: Scorrimento video
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente a
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La manopola di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile scuotere lo scrubber video. modifica l’altezza e la posizione verticale di CSS.
+La manopola di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile eseguire lo scorrimento del video, modificarne l&#39;altezza e la posizione verticale tramite CSS.
 
 L’aspetto generale dello scorrimento video è controllato con il seguente selettore di classe CSS:
 
@@ -158,7 +158,7 @@ Il seguente selettore di classe CSS controlla la bolla temporale riprodotta:
 
 È possibile localizzare la descrizione comandi per lo scorrimento video. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-**Esempio** - Per impostare un visualizzatore video con uno scorrimento video con colori di traccia personalizzati alti 10 pixel e posizionati a 10 pixel e 35 pixel dai bordi superiore e sinistro della barra di controllo.
+**Esempio** - Per impostare un visualizzatore video con uno scorrimento video con colori di traccia personalizzati alti dieci pixel. Infine, posizionarlo a 10 pixel e 35 pixel dai bordi superiore e sinistro della barra di controllo.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 
