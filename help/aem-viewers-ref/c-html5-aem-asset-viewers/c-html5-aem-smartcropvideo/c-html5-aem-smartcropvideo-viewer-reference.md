@@ -1,19 +1,19 @@
 ---
-title: Video di ritaglio avanzato
+title: Visualizzatore video di ritaglio avanzato
 description: Smart Crop Video Viewer è un lettore video che riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto Smart Crop. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: reattivo
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# Video{#video}
+# Video di ritaglio avanzato{#smart-crop-video}
 
 Smart Crop Video Viewer è un lettore video che riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto Smart Crop. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Media.
 
@@ -74,7 +74,7 @@ Gli strumenti di condivisione non sono disponibili in modalità a schermo intero
 
 ## Incorporazione di un visualizzatore video di ritaglio avanzato {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il visualizzatore direttamente nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: a comparsa, incorporazione a dimensione fissa e incorporazione responsive della progettazione.
+Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando selezionato, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il visualizzatore direttamente nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: a comparsa, incorporazione a dimensione fissa e incorporazione responsive della progettazione.
 
 L’incorporazione di più video sulla stessa pagina è supportata sui tablet e sui dispositivi mobili. Di solito, è possibile riprodurre un solo video alla volta. Quando un utente inizia a riprodurre un video e poi prova a riprodurre un altro video, il primo video viene messo in pausa automaticamente. Il video messo in pausa automaticamente ricorda il tempo di riproduzione corrente, in modo che l&#39;utente possa sempre tornare ad esso e riprendere la riproduzione. L&#39;unica eccezione questa regola è nel browser Chrome su dispositivi Android™ 4.x, che può riprodurre video in parallelo.
 
