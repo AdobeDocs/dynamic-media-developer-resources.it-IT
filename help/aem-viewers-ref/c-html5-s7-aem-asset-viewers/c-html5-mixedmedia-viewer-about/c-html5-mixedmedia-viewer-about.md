@@ -3,12 +3,12 @@ description: Il visualizzatore di file multimediali diversi è un visualizzatore
 keywords: reattivo
 solution: Experience Manager
 title: Supporti multipli
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Il visualizzatore di file multimediali diversi è un visualizzatore di contenuti
 
 Una miniatura nella parte inferiore del visualizzatore rappresenta ogni elemento del set di file multimediali, insieme al relativo indicatore del tipo di risorsa. Quando viene selezionato un elemento set di campioni, viene visualizzata una riga secondaria di campioni per consentire la selezione della variazione di colore all’interno del set di campioni. Le immagini e gli elementi set di campioni supportano lo zoom in modalità continua o in linea; i set 360 gradi supportano sia lo zoom che la rotazione. I video e i set di video adattivi supportano tutti i controlli di riproduzione di base, purché sul contenuto video siano visualizzati eventuali sottotitoli codificati opzionali. Un utente può passare in qualsiasi momento alla modalità a schermo intero facendo clic sul pulsante a schermo intero. Il visualizzatore dispone di un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 
-Il visualizzatore di file multimediali diversi utilizza la riproduzione video in streaming HTML5 in formato HLS nella configurazione predefinita ogni volta che il sistema sottostante lo supporta. Nei sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione video progressiva HTML5.
+Il visualizzatore di file multimediali diversi utilizza la riproduzione video in streaming HTML5 in formato HLS nella configurazione predefinita ogni volta che il sistema sottostante lo supporta. Nei sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione progressiva dei video HTML5.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Il visualizzatore di file multimediali diversi utilizza la riproduzione video in
 
 Tipo di visualizzatore 505.
 
-Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Vedi [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -41,7 +41,7 @@ Il visualizzatore di file multimediali diversi rappresenta un file JavaScript pr
 
 L’attività di configurazione e skin del visualizzatore è simile a quella di altri visualizzatori. Tutta la skin viene ottenuta tramite CSS personalizzati.
 
-Consulta [Riferimento ai comandi comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento ai comandi comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Vedi [Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interazione con i visualizzatori di file multimediali diversi {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -61,11 +61,11 @@ Il visualizzatore di file multimediali diversi supporta gesti touch e touch sing
   </tr> 
   <tr> 
    <td colname="col1"> <p>Doppio tocco </p> </td> 
-   <td colname="col2"> <p>In modalità <span class="codeph"> zoom continua </span>, lo zoom viene ingrandito di un livello fino a raggiungere l'ingrandimento massimo; il doppio tocco successivo viene reimpostato sullo stato iniziale. </p> </td> 
+   <td colname="col2"> <p>All'interno <span class="codeph"> continuo </span> in modalità zoom, esegue lo zoom di un livello fino a raggiungere l’ingrandimento massimo; il doppio tocco successivo viene reimpostato sullo stato iniziale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tocco e tenere premuto </p> </td> 
-   <td colname="col2"> <p> In modalità zoom in linea <span class="codeph">, attiva l'immagine ingrandita.</span> </p> </td> 
+   <td colname="col2"> <p> All'interno <span class="codeph"> inline </span> modalità zoom, attiva l’immagine ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pizzico </p> </td> 
@@ -86,19 +86,19 @@ Il visualizzatore supporta anche l’input touch e il mouse su dispositivi Windo
 
 Questo visualizzatore è completamente accessibile da tastiera.
 
-Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Vedi [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporazione di un visualizzatore di file multimediali diversi {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, quando fai clic su di essa, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e design reattivo.
+Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento che, se selezionato, apre il visualizzatore in una finestra separata del browser. In altri casi, è necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout di pagina statico o utilizzare un design reattivo che viene visualizzato in modo diverso su diversi dispositivi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: incorporazione a dimensione fissa e design reattivo.
 
 ## Informazioni sulla modalità a comparsa {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 In modalità pop-up, il visualizzatore viene aperto in una finestra o scheda separata del browser Web. Prende l&#39;intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o se viene modificato l&#39;orientamento di un dispositivo mobile.
 
-La modalità pop-up è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` una chiamata JavaScript, un elemento `A` HTML configurato correttamente o qualsiasi altro metodo appropriato.
+La modalità pop-up è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` Chiamata JavaScript configurata correttamente `A` Elemento HTML o qualsiasi altro metodo appropriato.
 
-Si consiglia di utilizzare una pagina HTML predefinita per la modalità operativa a comparsa. In questo caso, si chiama [!DNL MixedMediaViewer.html] e si trova all’interno della sottocartella [!DNL html5/] della distribuzione standard IS-Viewers:
+Si consiglia di utilizzare una pagina HTML predefinita per la modalità operativa a comparsa. In questo caso, si chiama [!DNL MixedMediaViewer.html] e si trova all&#39;interno del [!DNL html5/] sottocartella della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 
@@ -120,9 +120,9 @@ L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore 
 
 L’incorporazione di design reattivo presuppone che il visualizzatore debba ridimensionare in fase di runtime in risposta alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione reattiva come Bootstrap o Foundation.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza restrizioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione reattiva come Bootstrap o Foundation.
 
-In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore compila solo quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
+In caso contrario, se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore riempie solo quell’area e ha le stesse dimensioni del layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
 ## Incorporazione a dimensione fissa {#section-17d162f76ffa4804b27928f51e7bea1d}
 
@@ -135,11 +135,11 @@ Per aggiungere il visualizzatore a una pagina web, effettua le seguenti operazio
 
 1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 
-   La creazione di un visualizzatore richiede l’aggiunta di un tag script nell’intestazione HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL MixedMediaViewer.js]. Il file [!DNL MixedMediaViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
+   La creazione di un visualizzatore richiede l’aggiunta di un tag script nell’intestazione di HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL MixedMediaViewer.js]. La [!DNL MixedMediaViewer.js] si trova sotto [!DNL html5/js/] sottocartella della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media Classic di Adobe e viene servito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Media Classic di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene servito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
 Il percorso relativo si presenta come segue:
 
@@ -149,16 +149,16 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->Fai riferimento solo al file JavaScript del visualizzatore principale `include` sulla tua pagina. Non fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria HTML5 SDK `Utils.js` caricata dal visualizzatore dal percorso contestuale `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o librerie di visualizzatori runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fai riferimento solo al visualizzatore principale JavaScript `include` nella pagina. Non fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso contestuale (cosiddetto SDK consolidato) `include`). Il motivo è che la posizione di `Utils.js` Per librerie di visualizzatori runtime simili, sono gestite completamente dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
 >
 >
->Di conseguenza, l’inserimento di un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
+>Di conseguenza, è possibile inserire un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe le funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del contenitore DIV.
 
    Aggiungi un elemento DIV vuoto alla pagina in cui desideri che appaia il visualizzatore. L’ID dell’elemento DIV deve essere definito perché viene passato successivamente all’API del visualizzatore. La dimensione del DIV è specificata tramite CSS.
 
-   Il segnaposto DIV è un elemento posizionato, il che significa che la proprietà CSS `position` è impostata su `relative` o `absolute`.
+   Il segnaposto DIV è un elemento posizionato, il che significa che il `position` La proprietà CSS è impostata su `relative` o `absolute`.
 
    Assicurati che la funzione a schermo intero funzioni correttamente in Internet Explorer. Controlla che non ci siano altri elementi nel DOM con un ordine di impilamento più alto del tuo segnaposto DIV.
 
@@ -170,11 +170,11 @@ Il percorso relativo si presenta come segue:
 
 1. Impostazione delle dimensioni del visualizzatore
 
-   Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi. Nei sistemi desktop, le miniature vengono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente lo scambio della risorsa principale durante il runtime utilizzando l’API `setAsset()`. In qualità di sviluppatore, puoi controllare come il visualizzatore gestisce l’area delle miniature in basso, quando la nuova risorsa ha un solo elemento. È possibile mantenere intatta la dimensione del visualizzatore esterno e lasciare che la vista principale aumenti la sua altezza e occupare l&#39;area delle miniature. Oppure, puoi mantenere statiche le dimensioni della visualizzazione principale e comprimere l’area del visualizzatore esterno, lasciando che il contenuto della pagina web si muova verso l’alto. Quindi, utilizza la proprietà immobiliare della pagina libera che è lasciata dalle miniature.
+   Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi. Nei sistemi desktop, le miniature vengono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente lo scambio della risorsa principale durante il runtime utilizzando `setAsset()` API. In qualità di sviluppatore, puoi controllare come il visualizzatore gestisce l’area delle miniature in basso, quando la nuova risorsa ha un solo elemento. È possibile mantenere intatta la dimensione del visualizzatore esterno e lasciare che la vista principale aumenti la sua altezza e occupare l&#39;area delle miniature. Oppure, puoi mantenere statiche le dimensioni della visualizzazione principale e comprimere l’area del visualizzatore esterno, lasciando che il contenuto della pagina web si muova verso l’alto. Quindi, utilizza la proprietà immobiliare della pagina libera che è lasciata dalle miniature.
 
-   Per mantenere intatti i limiti del visualizzatore esterno, definisci le dimensioni della classe CSS di livello superiore `.s7mixedmediaviewer` in unità assolute. Le dimensioni in CSS possono essere posizionate direttamente sulla pagina HTML o in un file CSS per visualizzatori personalizzati e successivamente assegnate a un record predefinito per visualizzatori in Dynamic Media Classic, oppure trasmesse esplicitamente utilizzando il comando di stile.
+   Per mantenere intatti i limiti del visualizzatore esterno, definisci le dimensioni per `.s7mixedmediaviewer` classe CSS di primo livello in unità assolute. Le dimensioni in CSS possono essere posizionate direttamente sulla pagina HTML o in un file CSS per visualizzatori personalizzati e successivamente assegnate a un record predefinito per visualizzatori in Dynamic Media Classic oppure trasmesse in modo esplicito utilizzando il comando stile.
 
-   Consulta [Personalizzazione del visualizzatore di file multimediali diversi](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) per ulteriori informazioni sullo stile del visualizzatore con i CSS.
+   Vedi [Personalizzazione del visualizzatore di file multimediali diversi](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) per ulteriori informazioni sullo stile del visualizzatore con CSS.
 
    Di seguito è riportato un esempio di definizione delle dimensioni statiche del visualizzatore esterno in una pagina HTML:
 
@@ -189,9 +189,9 @@ Il percorso relativo si presenta come segue:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Per rendere statiche le dimensioni di visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7mixedmediaviewer .s7container` o utilizzando il modificatore `stagesize`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per l&#39;interno `Container` Componente SDK che utilizza `.s7mixedmediaviewer .s7container` Selettore CSS, o utilizzando `stagesize` modificatore.
 
-   Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente interno `Container` SDK in modo che l’area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
+   Di seguito è riportato un esempio di definizione della dimensione del visualizzatore per l’interno `Container` Componente SDK in modo che l’area di visualizzazione principale non cambi le sue dimensioni quando si cambia risorsa:
 
    ```
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -204,7 +204,7 @@ Il percorso relativo si presenta come segue:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   Puoi impostare il modificatore `stagesize` nel record predefinito del visualizzatore in Dynamic Media Classic, oppure passarlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params`. Oppure, come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come segue:
+   È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in Dynamic Media Classic, oppure trasmettilo esplicitamente con il codice di inizializzazione del visualizzatore con `params` raccolta. Oppure, come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come segue:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -214,13 +214,13 @@ Il percorso relativo si presenta come segue:
 
 1. Creazione e inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi precedenti, crea un’istanza della classe `s7viewers.MixedMediaViewer`, passa tutte le informazioni di configurazione al relativo costruttore e chiama il metodo `init()` su un’istanza di visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Come minimo, questo oggetto deve avere il campo `containerId` che contiene il nome dell’ID del contenitore del visualizzatore e l’oggetto JSON nidificato `params` con i parametri di configurazione supportati dal visualizzatore. In questo caso, l’oggetto `params` deve avere almeno l’URL Image Server passato come proprietà `serverUrl` , l’URL del server video passato come proprietà `videoserverurl` e la risorsa iniziale come parametro `asset` . L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
+   Una volta completati i passaggi precedenti, crea un’istanza di `s7viewers.MixedMediaViewer` , passare tutte le informazioni di configurazione al relativo costruttore e chiamare `init()` su un’istanza di visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Come minimo, questo oggetto deve avere `containerId` campo che contiene il nome dell’ID contenitore visualizzatore e nidificato `params` Oggetto JSON con parametri di configurazione supportati dal visualizzatore. In questo caso, il `params` L&#39;oggetto deve avere almeno l&#39;URL Image Server passato come `serverUrl` , l&#39;URL del server video viene passato come `videoserverurl` e la risorsa iniziale come `asset` parametro . L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una sola riga di codice.
 
-   È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento body `onload()` .
+   È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il `init()` metodo immediatamente prima della chiusura `BODY` o sul corpo `onload()` evento.
 
-   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un&#39;istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()` . L’esempio presuppone che `mixedMediaViewer` sia l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; [!DNL http://s7d1.scene7.com/is/image/] è l&#39;URL di Image Server; [!DNL http://s7d1.scene7.com/is/content/] è l&#39;URL del server video; e [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] è la risorsa:
+   Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo . L&#39;esempio presuppone `mixedMediaViewer` è l’istanza visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; [!DNL http://s7d1.scene7.com/is/image/] è l’URL di Image Server; [!DNL http://s7d1.scene7.com/is/content/] è l’URL del server video; e [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] è la risorsa:
 
 ```
 <script type="text/javascript"> 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Incorporazione reattiva con altezza illimitata {#section-056cb574713c4d07be6d07cf3c598839}
 
-Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta al contenitore del visualizzatore `DIV` di assumere il 40% delle dimensioni della finestra del browser Web, lasciando senza limitazioni l’altezza. Il codice HTML della pagina web sarà simile al seguente:
+Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per prendere il 40% delle dimensioni della finestra del browser web, lasciando la sua altezza senza restrizioni. Il codice HTML della pagina web sarà simile al seguente:
 
 ```
 <!DOCTYPE html> 
@@ -294,7 +294,7 @@ L’aggiunta del visualizzatore a una pagina di questo tipo è simile alla proce
 1. Definizione del contenitore DIV.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Aggiungi il contenitore DIV al DIV esistente `"holder"`. Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Aggiungi il DIV del contenitore all’esistente `"holder"` DIV Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```
 <!DOCTYPE html> 
@@ -333,7 +333,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 ## Incorporazione di dimensioni flessibili con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 
-Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni degli elementi `HTML` e `BODY` al 100%.
+Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
 
 ```
 <!DOCTYPE html> 
@@ -400,7 +400,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Incorporazione tramite API basate su Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non accetta alcun parametro e i parametri di configurazione vengono specificati utilizzando i metodi `setContainerId()`, `setParam()` e `setAsset()` API con chiamate JavaScript separate.
+Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizzare l&#39;API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non richiede alcun parametro e i parametri di configurazione specificati utilizzano `setContainerId()`, `setParam()`e `setAsset()` Metodi API, con chiamate JavaScript separate.
 
 L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
 

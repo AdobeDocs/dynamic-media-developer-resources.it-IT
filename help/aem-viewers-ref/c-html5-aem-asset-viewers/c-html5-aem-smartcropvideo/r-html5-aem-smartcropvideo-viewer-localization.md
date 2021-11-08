@@ -2,10 +2,10 @@
 title: Localizzazione degli elementi dell’interfaccia utente
 description: Alcuni contenuti visualizzati dal Visualizzatore video di ritaglio avanzato sono soggetti a localizzazione. Questo contenuto include le descrizioni comandi degli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
