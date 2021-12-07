@@ -4,8 +4,7 @@ description: Lo strumento di condivisione e-mail è costituito da un pulsante ag
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 1%
@@ -1214,7 +1213,7 @@ Quando un utente immette dati di input non corretti e la convalida in linea non 
 
 Il messaggio di errore può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un messaggio in modo che utilizzi un font a dieci punti in grassetto, hai un’altezza di riga di 25 pixel e una spaziatura di 20 pixel a sinistra. Inoltre, utilizza un&#39;icona a forma di punto esclamativo, testo rosso in caso di errore e nessuna icona e testo verde in caso di esito positivo:
+Esempio: per impostare un messaggio in modo che utilizzi un font a dieci punti in grassetto, l’altezza della riga è di 25 pixel e la spaziatura a sinistra è di 20 pixel. Inoltre, utilizza un&#39;icona a forma di punto esclamativo, testo rosso in caso di errore e nessuna icona e testo verde in caso di esito positivo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
