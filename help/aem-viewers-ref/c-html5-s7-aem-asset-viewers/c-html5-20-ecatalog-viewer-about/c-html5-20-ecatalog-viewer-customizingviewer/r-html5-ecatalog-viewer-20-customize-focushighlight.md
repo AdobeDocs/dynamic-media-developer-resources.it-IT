@@ -1,13 +1,13 @@
 ---
+title: Evidenziazione
 description: Evidenziazione dello stato attivo visualizzata intorno all'elemento dell'interfaccia utente del visualizzatore mirato.
 solution: Experience Manager
-title: Evidenziazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5737d7-1295-46a9-9b84-c43269e5a914
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ L’aspetto dell’evidenziazione dello stato attivo è controllato con il segue
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
    <td colname="col2"> <p> Stile evidenziazione focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per disabilitare l’evidenziazione di attivazione predefinita del browser per tutti gli elementi dell’interfaccia utente del visualizzatore, aggiungi il seguente selettore CSS al foglio di stile del visualizzatore:
+Esempio: per disattivare l’evidenziazione dello stato attivo predefinito del browser per tutti gli elementi dell’interfaccia utente del visualizzatore, aggiungi il seguente selettore CSS al foglio di stile del visualizzatore:
 
 ```
 .s7ecatalogviewer *:focus { 

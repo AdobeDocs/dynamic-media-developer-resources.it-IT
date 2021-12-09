@@ -1,13 +1,13 @@
 ---
+title: Indicatore di pagina
 description: L’indicatore della pagina visualizza l’indice della pagina corrente e il conteggio totale delle pagine. Appare nella barra di controllo principale sui sistemi desktop e tablet, sui telefoni cellulari viene aggiunto alla barra di controllo secondaria. L’indicatore di pagina può essere ridimensionato, skin e posizionato tramite CSS.
 solution: Experience Manager
-title: Indicatore di pagina
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ L’aspetto dell’indicatore di pagina è controllato dal seguente selettore di
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -57,17 +57,17 @@ L’aspetto dell’indicatore di pagina è controllato dal seguente selettore di
    <td colname="col2"> <p>Colore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un indicatore di pagina di 56 x 28 pixel, centrato in orizzontale e posizionato 4 pixel dal fondo della barra di controllo principale, e utilizzare un carattere Helvetica da 14 pixel.
+Esempio: per impostare un indicatore di pagina di 56 x 28 pixel, centrato in orizzontale e posizionato 4 pixel dal fondo della barra di controllo principale, e utilizzare un font Helvetica® da 14 pixel.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

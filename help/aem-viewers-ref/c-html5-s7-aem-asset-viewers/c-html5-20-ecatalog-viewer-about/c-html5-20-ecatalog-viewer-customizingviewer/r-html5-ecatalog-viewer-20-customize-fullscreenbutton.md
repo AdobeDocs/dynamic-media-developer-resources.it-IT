@@ -1,13 +1,13 @@
 ---
+title: Pulsante Schermo intero
 description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando è selezionato dall’utente. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo. È possibile ridimensionare, applicare uno skin e posizionare il pulsante in modo CSS.
 solution: Experience Manager
-title: Pulsante Schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante a schermo intero di 28 x 28 pixel, posizionato 4 pixel dal fondo e 5 pixel dal bordo destro della barra di controllo principale, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno.
+Esempio: per impostare un pulsante a schermo intero che sia di 28 x 28 pixel e sia posizionato 4 pixel dal fondo e 5 pixel dal bordo destro della barra di controllo principale. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

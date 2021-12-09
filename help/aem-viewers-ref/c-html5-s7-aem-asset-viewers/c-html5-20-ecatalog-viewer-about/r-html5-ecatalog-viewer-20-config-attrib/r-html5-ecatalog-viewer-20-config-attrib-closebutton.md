@@ -1,14 +1,14 @@
 ---
+title: Pulsante Chiudi
 description: Pulsante Chiudi
 solution: Experience Manager
-title: Pulsante Chiudi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Impostare su <span class="codeph"> 1 </span> per abilitare la visualizzazione del pulsante Chiudi. Oppure, impostare su <span class="codeph"> 0 </span> per nascondere il pulsante Chiudi. </p> <p>Il pulsante Chiudi è supportato solo sui dispositivi touch; non può essere visualizzato sui sistemi desktop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Imposta su <span class="codeph"> 1 </span> per attivare la visualizzazione del pulsante Chiudi. Oppure, impostate su <span class="codeph"> 0 </span> per nascondere il pulsante Chiudi. </p> <p>Il pulsante Chiudi è supportato solo sui dispositivi touch; non può essere visualizzato sui sistemi desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>

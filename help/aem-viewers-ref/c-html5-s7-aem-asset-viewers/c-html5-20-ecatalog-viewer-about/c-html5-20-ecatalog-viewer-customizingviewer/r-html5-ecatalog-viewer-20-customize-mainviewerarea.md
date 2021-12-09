@@ -1,13 +1,13 @@
 ---
+title: Area visualizzatore principale
 description: L'area di visualizzazione principale è l'area occupata dall'immagine del catalogo. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
 solution: Experience Manager
-title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni di 512 x 288 pixel.
+Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e le sue dimensioni 512 x 288 pixel.
 
 ```
 .s7ecatalogviewer { 

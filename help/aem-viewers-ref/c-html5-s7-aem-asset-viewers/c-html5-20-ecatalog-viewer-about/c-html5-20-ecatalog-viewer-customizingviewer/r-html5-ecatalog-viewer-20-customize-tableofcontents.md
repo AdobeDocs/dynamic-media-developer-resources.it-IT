@@ -1,20 +1,20 @@
 ---
-description: Il sommario è un pulsante situato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
-solution: Experience Manager
 title: Sommario
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+description: Il sommario è un pulsante posizionato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Sommario{#table-of-contents}
 
-Il sommario è un pulsante situato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
+Il sommario è un pulsante posizionato nella barra di controllo principale. Quando attivato, viene visualizzato un pannello a discesa con un elenco di indici ed etichette di pagina.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,11 +31,11 @@ La posizione e le dimensioni del pulsante del sommario nell’interfaccia utente
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> La distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo, se si tratta del primo pulsante di una riga. </p> </td> 
   </tr> 
   <tr> 
@@ -47,11 +47,11 @@ La posizione e le dimensioni del pulsante del sommario nell’interfaccia utente
    <td colname="col2"> <p> Altezza del pulsante del sommario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,11 +59,11 @@ La posizione e le dimensioni del pulsante del sommario nell’interfaccia utente
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: impostare un pulsante sommario posizionato a 4 pixel dal basso e a 43 pixel dalla sinistra della barra di controllo principale; le dimensioni sono di 28 x 28 pixel e per ciascuno dei quattro stati del pulsante viene visualizzata un’immagine diversa:
+Esempio: per impostare un pulsante del sommario posizionato a 4 pixel dal basso e a 43 pixel dalla sinistra della barra di controllo principale. Le dimensioni sono 28 x 28 pixel e per ciascuno dei quattro stati dei pulsanti viene visualizzata un’immagine diversa:
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -96,15 +96,15 @@ L’aspetto del pannello a discesa è controllato con il seguente selettore di c
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pannello a discesa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p> Offset interno tra i bordi del pannello e il contenuto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ombra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ombra </span> </p> </td> 
    <td colname="col2"> <p> Ombreggiatura intorno al pannello. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Esempio : configura un pannello a discesa con sfondo nero semitrasparente, un ma
 }
 ```
 
-L’aspetto e l’aspetto dei singoli elementi sono controllati dal seguente selettore di classi CSS:
+L’aspetto del singolo elemento viene controllato con il seguente selettore di classe CSS:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
@@ -135,19 +135,19 @@ L’aspetto e l’aspetto dei singoli elementi sono controllati dal seguente sel
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza dell'oggetto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,9 +155,9 @@ L’aspetto e l’aspetto dei singoli elementi sono controllati dal seguente sel
 
 >[!NOTE]
 >
->La voce dell’elenco a discesa supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse agli stati degli elementi selezionati e al passaggio del mouse.
+>La voce dell’elenco a discesa supporta la `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse agli stati degli elementi selezionati e al passaggio del mouse.
 
-Esempio: imposta un elemento a discesa con un carattere Helvetica da 14 pixel e un&#39;altezza di 19 pixel. Quando è selezionato, un elemento presenta uno sfondo grigio scuro al passaggio del mouse e uno sfondo grigio chiaro:
+Esempio: imposta un elemento a discesa con un carattere Helvetica® da 14 pixel e un&#39;altezza di 19 pixel. Quando è selezionato, un elemento presenta uno sfondo grigio scuro al passaggio del mouse e uno sfondo grigio chiaro:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,15 +184,15 @@ Un elemento che mostra l’indice della pagina è controllato con il seguente se
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza minima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza minima </span> </p> </td> 
    <td colname="col2"> <p> Larghezza minima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza massima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza massima </span> </p> </td> 
    <td colname="col2"> <p> Larghezza massima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro </span> </p> </td> 
    <td colname="col2"> <p> Distanza tra l’indice della pagina e l’etichetta della pagina. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Un elemento che mostra l’indice della pagina è controllato con il seguente se
 
 >[!NOTE]
 >
->È possibile nascondere completamente l&#39;indice della pagina impostando `display:none` per la classe CSS `s7index`.
+>È possibile nascondere completamente l&#39;indice della pagina impostando `display:none` per `s7index` Classe CSS.
 
 Esempio 1: imposta un indice di pagina con una larghezza minima di 40 pixel, una larghezza massima di 70 pixel e un margine di 5 pixel sul lato destro:
 
@@ -231,11 +231,11 @@ L’etichetta della pagina è controllata con il seguente selettore di classe CS
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza minima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza minima </span> </p> </td> 
    <td colname="col2"> <p> Larghezza minima dell’elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza massima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza massima </span> </p> </td> 
    <td colname="col2"> <p> Larghezza massima dell’elemento. </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Nel caso in cui siano presenti più elementi di quelli che possono essere inseriti verticalmente nel pannello a discesa e il sistema sia un desktop, il componente esegue il rendering di una barra di scorrimento verticale sul lato destro del pannello. L’aspetto dell’area della barra di scorrimento è controllato con il seguente selettore di classe CSS:
+Se nel pannello a discesa sono presenti più elementi di quelli che possono essere inseriti verticalmente e il sistema è un desktop, il componente esegue il rendering di una barra di scorrimento verticale sul lato destro del pannello. L’aspetto dell’area della barra di scorrimento è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -261,19 +261,19 @@ Nel caso in cui siano presenti più elementi di quelli che possono essere inseri
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Offset della barra di scorrimento verticale dalla parte superiore dell’area del pannello. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Offset della barra di scorrimento verticale dal fondo dell'area del pannello. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Offset della barra di scorrimento orizzontale dal bordo destro dell'area del pannello. </p> </td> 
   </tr> 
  </tbody> 
@@ -301,11 +301,11 @@ La traccia della barra di scorrimento è l’area compresa tra i pulsanti di sco
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del binario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del brano. </p> </td> 
   </tr> 
  </tbody> 
@@ -331,27 +331,27 @@ Il pollice della barra di scorrimento si sposta verticalmente all’interno dell
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>L'altezza del pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura superiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura superiore </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura verticale tra la parte superiore della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura inferiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura inferiore </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra il fondo della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un dato stato pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -359,7 +359,7 @@ Il pollice della barra di scorrimento si sposta verticalmente all’interno dell
 
 >[!NOTE]
 >
->La funzione Thumb supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati del pollice `up`, `down`, `over` e `disabled`.
+>Il pollice supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi al `up`, `down`, `over`e `disabled` stati del pollice.
 
 Esempio: imposta un pollice della barra di scorrimento di 28 x 45 pixel, presenta 10 margini pixel in alto e in basso e presenta immagini diverse per ogni stato:
 
@@ -396,26 +396,26 @@ L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato con
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`; invece, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`e `right` proprietà; invece, la logica del visualizzatore li posiziona automaticamente.
 
 **Proprietà CSS del pulsante di scorrimento verso l’alto e verso il basso**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -423,9 +423,9 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
 
 >[!NOTE]
 >
->Il pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati del pulsante `up`, `down`, `over` e `disabled`.
+>Il pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi al `up`, `down`, `over`e `disabled` stati dei pulsanti.
 
-La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
 Esempio: impostare pulsanti di scorrimento con 28 x 32 pixel e immagini diverse per ogni stato:
 

@@ -1,13 +1,13 @@
 ---
+title: Barra di controllo secondaria
 description: La barra di controllo secondaria è l’area rettangolare contenente i pulsanti Prima e Ultima pagina e un indicatore di pagina quando è resa disponibile in CSS.
 solution: Experience Manager
-title: Barra di controllo secondaria
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -31,11 +31,11 @@ L’aspetto della barra di controllo secondaria è controllato con il seguente s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posizione dalla parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal fondo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ L’aspetto della barra di controllo secondaria è controllato con il seguente s
    <td colname="col2"> <p>Altezza della barra di controllo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo secondaria. </p> </td> 
   </tr> 
  </tbody> 
