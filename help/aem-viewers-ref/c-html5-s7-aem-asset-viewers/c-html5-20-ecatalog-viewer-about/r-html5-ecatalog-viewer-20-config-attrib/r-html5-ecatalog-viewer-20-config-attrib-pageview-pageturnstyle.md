@@ -1,22 +1,22 @@
 ---
+title: PageView.pageturnstyle
 description: PageView.pageturnstyle
 solution: Experience Manager
-title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Controlla l’aspetto del componente quando un `PageView.frametransition` è impostato su `turn` o su `auto` sui sistemi desktop.
+Controlla l’aspetto del componente quando un `PageView.frametransition` è impostato su `turn` o `auto` sui sistemi desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +30,11 @@ Controlla l’aspetto del componente quando un `PageView.frametransition` è imp
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>L'opacità dell'ombreggiatura nell'intervallo compreso tra <span class="codeph"> 0</span> e <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>opacità dell'ombreggiatura nell'intervallo di <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Flag (<span class="codeph"> 0</span> o <span class="codeph"> 1</span>) che attiva e disattiva il bordo intorno alla pagina di accensione. </p> </td> 
+   <td colname="col2"> <p> Il flag (o <span class="codeph"> 0</span> o <span class="codeph"> 1</span>), che attiva e disattiva il bordo intorno all’attivazione della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

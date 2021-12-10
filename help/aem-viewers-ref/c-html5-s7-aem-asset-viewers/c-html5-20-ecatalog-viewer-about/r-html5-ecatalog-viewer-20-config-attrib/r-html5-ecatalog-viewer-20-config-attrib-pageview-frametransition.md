@@ -1,13 +1,13 @@
 ---
+title: PageView.frametransition
 description: PageView.frametransition
 solution: Experience Manager
-title: PageView.frametransition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 026c2fc5-0460-481c-aca9-ddd25371779c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 3%
    <td colname="col1"> <p> <span class="codeph"> diapositiva|girare|auto</span> </p> </td> 
    <td colname="col2"> <p> Specifica il tipo di effetto applicato alla modifica del fotogramma. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> </span> consente di attivare una transizione in cui la vecchia cornice scorre fuori dalla vista e la nuova cornice scorre nella visualizzazione. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> </span> attiva l’effetto di capovolgimento della pagina quando un utente può trascinare uno dei quattro angoli di visualizzazione ed eseguire un capovolgimento interattivo della pagina. </p> <p>Quando si utilizza <span class="codeph"> volta</span>, l’aspetto del componente viene controllato con il modificatore <span class="codeph"> pageturnstyle</span> e la classe CSS <span class="codeph"> .s7pagedivider</span> viene ignorata. </p> <p>Nota:  <p><span class="codeph"> </span> l’animazione a turnino non è supportata in Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> </span> imposta automaticamente la transizione del fotogramma di turno sui sistemi desktop e la transizione della diapositiva sui dispositivi touch. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> diapositiva</span> attiva una transizione in cui la vecchia cornice scorre fuori dalla vista e la nuova cornice scivola nella vista. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> girare</span> attiva un effetto di inversione della pagina quando un utente può trascinare uno dei quattro angoli di visualizzazione ed eseguire un'operazione di capovolgimento della pagina interattiva. </p> <p>Quando <span class="codeph"> girare</span> viene utilizzato per controllare l’aspetto del componente con <span class="codeph"> pageturnstyle</span> modificatore e <span class="codeph"> .s7pagedivider</span> La classe CSS viene ignorata. </p> <p>Nota:  <p><span class="codeph"> girare</span> animazione non supportata in Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> auto</span> imposta la transizione del fotogramma di turno sui sistemi desktop e la transizione della diapositiva sui dispositivi touch. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durata</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica la durata in secondi di un effetto di transizione <span class="codeph"> slide</span> o <span class="codeph"> volta</span>. </p> </td> 
+   <td colname="col2"> <p>Specifica la durata in secondi di un <span class="codeph"> diapositiva</span> o <span class="codeph"> girare</span> effetto di transizione. </p> </td> 
   </tr> 
  </tbody> 
 </table>

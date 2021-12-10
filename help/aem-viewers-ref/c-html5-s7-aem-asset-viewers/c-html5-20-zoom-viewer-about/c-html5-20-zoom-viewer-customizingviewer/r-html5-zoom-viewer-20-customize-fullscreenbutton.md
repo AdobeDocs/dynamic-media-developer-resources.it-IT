@@ -1,14 +1,14 @@
 ---
+title: Pulsante Schermo intero
 description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando è selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità a schermo intero nativa. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
-title: Pulsante Schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Esempio: per impostare un pulsante a schermo intero di 32 x 32 pixel, posizionato sei pixel dal bordo superiore e destro del visualizzatore, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno:
+Esempio: per impostare un pulsante a schermo intero che sia di 32 x 32 pixel e posizionato sei pixel dal bordo superiore e destro del visualizzatore. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o non selezionati:
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

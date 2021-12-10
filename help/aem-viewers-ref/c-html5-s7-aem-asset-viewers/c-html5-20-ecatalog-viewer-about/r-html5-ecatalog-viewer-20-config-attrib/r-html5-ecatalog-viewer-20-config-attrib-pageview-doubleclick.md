@@ -1,14 +1,14 @@
 ---
+title: PageView.doubleclick
 description: PageView.doubleclick
 solution: Experience Manager
-title: PageView.doubleclick
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d53a8723-d710-4722-b1a7-c88d3b9d270b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_942C8BDBDE1B441596987E9E971202E7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura delle azioni di doppio clic/tocco per lo zoom. Impostando su <span class="codeph"> none </span> si disattiva lo zoom con doppio clic o tocco. Se è impostato su <span class="codeph"> zoom </span> facendo clic sull'immagine si ingrandisce un solo passaggio di zoom; CTRL+clic consente di ingrandire un passaggio di zoom. Se si imposta il valore <span class="codeph"> reset </span> , si farà clic sull'immagine per ripristinare lo zoom al livello iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il reset se il fattore di zoom corrente è pari o superiore al limite specificato, altrimenti viene applicato lo zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura delle azioni di doppio clic/tocco per lo zoom. Impostazione su <span class="codeph"> nessuno </span> disabilita lo zoom con doppio clic o tocco. Se impostato su <span class="codeph"> zoom </span> facendo clic sull'immagine si ingrandisce un passaggio di zoom; CTRL+clic consente di ingrandire un passaggio di zoom. Impostazione su <span class="codeph"> reset </span> fa sì che un singolo clic sull'immagine reimposti lo zoom al livello di zoom iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il reset se il fattore di zoom corrente è pari o superiore al limite specificato, altrimenti viene applicato lo zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Facoltativo.
 
 ## Predefinito {#section-814d6bc6a0834005a0a72c7040e45693}
 
-`reset` su computer desktop;  `zoomReset` su dispositivi touch.
+`reset` su computer desktop; `zoomReset` su dispositivi touch.
 
 ## Esempio {#section-986e7672f3694b7aa7572fb4428172ca}
 

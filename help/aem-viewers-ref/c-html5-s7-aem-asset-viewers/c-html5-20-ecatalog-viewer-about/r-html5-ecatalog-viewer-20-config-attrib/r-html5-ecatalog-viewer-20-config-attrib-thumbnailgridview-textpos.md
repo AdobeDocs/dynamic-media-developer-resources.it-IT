@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.textpos
 description: ThumbnailGridView.textpos
 solution: Experience Manager
-title: ThumbnailGridView.textpos
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comandi</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine in miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica <span class="codeph"> tooltip</span>, il testo dell'etichetta viene visualizzato come una descrizione mobile dell'immagine miniatura. Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
+   <td> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine in miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> Il testo dell’etichetta viene visualizzato come una descrizione mobile dell’immagine miniatura. Imposta su <span class="codeph"> nessuno</span> per disattivare l'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

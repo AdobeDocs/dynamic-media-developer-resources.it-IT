@@ -1,14 +1,14 @@
 ---
+title: ImageMapEffect.mode
 description: ImageMapEffect.mode
 solution: Experience Manager
-title: ImageMapEffect.mode
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 86a3f04f-6593-4778-a8a4-1ec19800ceeb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 <table id="table_4A3D7D66D76A403199303155318D0DE1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> icona|regione|auto|nessuno  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> icona|regione|auto|nessuno </span> </p> </td> 
    <td colname="col2"> <p>Specifica l'aspetto della mappa immagine. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> le icone  </span> mappa icone sono visualizzate in modo statico sui dispositivi desktop e touch. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> area  </span> esegue il rendering delle aree mappa immagine; sul desktop, sono sempre visibili sul roll over e sui dispositivi touch. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto  </span> sui sistemi desktop, le aree della mappa immagine vengono visualizzate in roll over e su dispositivi touch le icone della mappa sono sempre visibili. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none  </span> disabilita le mappe immagine. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> icona </span> le icone delle mappe sono visualizzate in modo statico sui dispositivi desktop e touch. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> regione </span> esegue il rendering delle aree della mappa immagine; sul desktop, sono sempre visibili su rollover e su dispositivi touch. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto </span> sui sistemi desktop, le aree della mappa immagine vengono visualizzate sul rollover e sui dispositivi touch le icone della mappa sono sempre visibili. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> nessuno </span> disabilita le mappe immagine. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
