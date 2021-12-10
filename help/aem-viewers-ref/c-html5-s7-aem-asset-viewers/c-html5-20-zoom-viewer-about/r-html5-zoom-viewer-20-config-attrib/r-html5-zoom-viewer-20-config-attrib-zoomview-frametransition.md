@@ -1,34 +1,34 @@
 ---
+title: ZoomView.frametransition
 description: ZoomView.frametransition
 solution: Experience Manager
-title: ZoomView.frametransition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 5%
 
 ---
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *``*[, *`spaziatura tra le durate`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`durata`*[, *`spaziatura`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|dissolvenza|diapositiva  </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il tipo di effetto applicato alla modifica del fotogramma. <span class="codeph"> nessuno  </span> significa nessuna transizione; il cambiamento del frame avviene istantaneamente. <span class="codeph"> dissolvenza  </span> significa transizione in dissolvenza incrociata tra fotogrammi vecchi e nuovi. <span class="codeph"> La diapositiva  </span> attiva la transizione in cui la vecchia cornice scorre dalla vista e la nuova cornice si trova. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|dissolvenza|diapositiva </span> </p> </td> 
+   <td colname="col2"> <p>Specifica il tipo di effetto applicato alla modifica del fotogramma. Attributo <span class="codeph"> nessuno </span> non rappresenta alcuna transizione; il cambiamento avviene all'istante. Attributo <span class="codeph"> dissolvenza </span> significa transizione in dissolvenza incrociata tra fotogrammi vecchi e nuovi. Attributo <span class="codeph"> diapositiva </span> attiva la transizione in cui la vecchia cornice scorre fuori dalla vista e la nuova cornice scorre dentro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica la durata (in secondi) dell'effetto di transizione <span class="codeph"> dissolvenza </span> o <span class="codeph"> diapositiva </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata </span> </span> </p> </td> 
+   <td colname="col2"> <p>Specifica la durata (in secondi) di <span class="codeph"> dissolvenza </span> o <span class="codeph"> diapositiva </span> effetto di transizione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spaziatura  </span> </span> </p> </td> 
-   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione <span class="codeph"> diapositiva </span>, ha l'intervallo tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spaziatura </span> </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura tra fotogrammi adiacenti <span class="codeph"> diapositiva </span> transizione, ha l'intervallo da <span class="codeph"> 0 </span> attraverso <span class="codeph"> 1 </span> ed è relativo alla larghezza del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

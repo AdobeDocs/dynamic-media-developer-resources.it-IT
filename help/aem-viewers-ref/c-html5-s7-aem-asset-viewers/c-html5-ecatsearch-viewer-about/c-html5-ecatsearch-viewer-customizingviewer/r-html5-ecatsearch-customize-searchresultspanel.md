@@ -1,13 +1,13 @@
 ---
+title: Pannello dei risultati di ricerca
 description: Il pannello dei risultati della ricerca è costituito dalla casella di immissione ricerca nella parte superiore e dall’area principale in cui vengono visualizzati i messaggi informativi o i risultati della ricerca.
 solution: Experience Manager
-title: Pannello dei risultati di ricerca
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Il pannello dei risultati della ricerca è costituito dalla casella di immission
 
 **Proprietà CSS dell’area visualizzatore principale**
 
-Quando il pannello è attivo, l’interfaccia utente del visualizzatore viene coperta da un riempimento semitrasparente. Il colore e l&#39;opacità di questo riempimento vengono controllati con il seguente selettore di classe CSS:
+Quando il pannello è attivo, l’interfaccia utente del visualizzatore è coperta da un riempimento semitrasparente. Il colore e l&#39;opacità di questo riempimento sono controllati dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -35,11 +35,11 @@ Quando il pannello è attivo, l’interfaccia utente del visualizzatore viene co
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore della sovrapposizione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
    <td colname="col2"> <p>Opacità del colore. </p> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ Il pannello dei risultati della ricerca occupa sempre l’altezza di tutti i vis
  </tbody> 
 </table>
 
-Esempio: per impostare un pannello dei risultati di ricerca di 250 pixel su punti di interruzione di grandi e medie dimensioni e utilizzare un pannello di dimensioni complete su un punto di interruzione di piccole dimensioni:
+Esempio: per impostare un pannello dei risultati di ricerca a 250 pixel su punti di interruzione di grandi e medie dimensioni e utilizzare un pannello a dimensione piena su un punto di interruzione di piccole dimensioni:
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -84,7 +84,7 @@ La parte superiore del pannello dei risultati della ricerca è dedicata alla cas
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura intorno alla casella di input. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,19 +105,19 @@ Il campo di input della ricerca è controllato dal seguente selettore di classe 
    <td colname="col2"> <p>Altezza del campo di input della ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura sinistra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura sinistra </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna tra i limiti del campo di input e il testo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo del campo di input della ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p>Margine del campo di immissione ricerca </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,33 +144,33 @@ Il pulsante di ricerca a sinistra del campo di input di ricerca sotto forma di &
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di immissione ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di immissione ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>L’URL dell’immagine a icona "vetro". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dimensione di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dimensione di sfondo </span> </p> </td> 
    <td colname="col2"> <p>La dimensione dell'icona "vetro". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo del pulsante di input di ricerca. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p>Margine del pulsante di immissione ricerca. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un pulsante di ricerca con l’icona &quot;vetro&quot; da 26 x 26 pixel; Dimensioni di 30 pixel con bordo di 1 pixel:
+Esempio: per impostare un pulsante di ricerca con l&#39;icona &quot;vetro&quot; da 26 x 26 pixel; Dimensioni di 30 pixel con bordo di 1 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ Esempio: per impostare un pulsante di ricerca con l’icona &quot;vetro&quot; da
 }
 ```
 
-Il pannello dei risultati della ricerca può visualizzare un messaggio di testo quando la funzione viene chiamata per la prima volta. Inoltre, mostra all’utente un messaggio quando la ricerca non ha restituito alcun risultato. In tutti i casi, il testo viene visualizzato nella parte principale del pannello dei risultati della ricerca ed è controllato dal seguente selettore di classe CSS:
+Il pannello dei risultati della ricerca può visualizzare un messaggio di testo quando la funzione viene chiamata per la prima volta. Inoltre, mostra un messaggio quando la ricerca di un utente non ha restituito alcun risultato. In tutti i casi, il testo viene visualizzato nella parte principale del pannello dei risultati della ricerca ed è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -198,15 +198,15 @@ Il pannello dei risultati della ricerca può visualizzare un messaggio di testo 
    <td colname="col2"> <p> Colore del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome del font del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>Allineamento orizzontale del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del testo del font. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ Il pannello dei risultati della ricerca può visualizzare un messaggio di testo 
 
 >[!NOTE]
 >
->Questo pannello di testo supporta il selettore di attributi `state` , che può essere utilizzato per applicare stili diversi a messaggi di testo diversi. In particolare, `state='prompt'` corrisponde al prompt di testo visualizzato quando il pannello viene chiamato per la prima volta; `state='results'` corrisponde al testo con informazioni sugli hit di ricerca; e `state='no_results'` corrisponde al testo visualizzato quando la query di ricerca non ha restituito alcun risultato.
+>Questo pannello di testo supporta `state` selettore di attributi, che può essere utilizzato per applicare stili diversi a messaggi di testo diversi. In particolare, `state='prompt'` corrisponde al prompt di testo visualizzato quando il pannello viene chiamato per la prima volta. La `state='results'` corrisponde al testo con informazioni sugli hit di ricerca. Infine, la `state='no_results'` corrisponde al testo visualizzato quando la query di ricerca non ha restituito alcun risultato.
 
-Il testo del messaggio può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Il testo del messaggio può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio : per impostare un pannello di testo che utilizza un font grigio da 18 pixel:
+Esempio: per impostare un pannello di testo che utilizza un font grigio da 18 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ I risultati della ricerca vengono rappresentati come una singola colonna o una s
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p> Dimensione del margine verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma dei margini superiore e inferiore impostati per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una spaziatura di 10 pixel:
+Esempio: per impostare la spaziatura tra dieci pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,21 +263,21 @@ L’aspetto delle singole miniature è controllato con il seguente selettore di 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per impostare miniature da 215 x 129 pixel, sono disponibili un bordo grigio chiaro predefinito e un bordo grigio scuro selezionato:
+Esempio: per impostare miniature da 215 x 129 pixel, sono disponibili un bordo grigio chiaro predefinito e un bordo grigio scuro selezionato:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -298,21 +298,21 @@ L’aspetto dell’etichetta miniatura è controllato con il seguente selettore 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome del font del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del testo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare etichette che utilizzano font da 12 pixel, grigio, Helvetica:
+Esempio: per impostare etichette che utilizzano font da 12 pixel, grigio, Helvetica®:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,19 +336,19 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,11 +356,11 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati dei pulsanti `"up"`, `"down"`, `"over"` e `"disabled"`.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a `"up"`, `"down"`, `"over"`e `"disabled"` stati dei pulsanti.
 
-Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) .
+Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio : per impostare un pulsante di scorrimento verso l’alto di 125 x 35 pixel e con immagini diverse per ogni stato:
+Esempio: per impostare un pulsante di scorrimento verso l’alto di 125 x 35 pixel e con immagini diverse per ogni stato:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

@@ -1,13 +1,13 @@
 ---
+title: Vista Preferiti
 description: La vista Preferiti è costituita da una colonna di miniature.
 solution: Experience Manager
-title: Vista Preferiti
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ La posizione e l&#39;altezza della vista Preferiti vengono gestite dalla vista. 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della vista Preferiti. </p> </td> 
   </tr> 
   <tr> 
@@ -61,13 +61,13 @@ La spaziatura tra le miniature Preferiti è controllata dal seguente selettore d
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p> Dimensione del margine verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine superiore e inferiore impostato per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una spaziatura di 10 pixel.
+Esempio: per impostare una spaziatura di dieci pixel.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -86,7 +86,7 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,9 +102,9 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
 
 >[!NOTE]
 >
->La miniatura supporta il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall’utente. `state="default"` corrisponde al resto delle miniature. E `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall’utente. Quando `state="default"` corrisponde al resto delle miniature. E `state="over"` viene utilizzato al passaggio del mouse.
 
-Esempio : per impostare miniature con 75 x 75 pixel, sono disponibili un bordo grigio chiaro predefinito e un bordo grigio scuro selezionato.
+Esempio : per impostare miniature con 75 x 75 pixel, sono disponibili un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ L’aspetto dell’etichetta miniatura è controllato con il seguente selettore 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare etichette con un carattere Helvetica da 14 pixel.
+Esempio: per impostare etichette con un carattere Helvetica® da 14 pixel.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

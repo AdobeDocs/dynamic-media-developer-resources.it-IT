@@ -1,14 +1,14 @@
 ---
+title: Zoom
 description: Zoom Viewer è un visualizzatore di immagini che visualizza un’immagine zoomabile. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. È dotato di strumenti di zoom, supporto a schermo intero, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 keywords: reattivo
 solution: Experience Manager
-title: Zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore 
 
 La modalità di incorporamento della progettazione reattiva presuppone che il ridimensionamento del visualizzatore sia necessario durante il runtime a causa della modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web con layout flessibile.
 
-Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza restrizioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa logica assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivo come Bootstrap, Foundation e così via.
+Nella modalità di incorporamento della progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando senza restrizioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa logica assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivo come Bootstrap e Foundation.
 
 Se la pagina web imposta sia la larghezza che l’altezza del contenitore del visualizzatore `DIV`, il visualizzatore riempie quell’area e ha le stesse dimensioni fornite dalla pagina web. Ad esempio, incorporando il visualizzatore in una sovrapposizione modale, la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
@@ -143,7 +143,7 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->Dovresti fare riferimento solo al visualizzatore principale JavaScript `include` nella pagina. Non devi fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso contestuale (cosiddetto SDK consolidato) `include`). Il motivo è che la posizione di `Utils.js` Per librerie di visualizzatori runtime simili, sono gestite completamente dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fai riferimento solo al visualizzatore principale JavaScript `include` nella pagina. Non fare riferimento a file JavaScript aggiuntivi nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso contestuale (cosiddetto SDK consolidato) `include`). Il motivo è che la posizione di `Utils.js` Per librerie di visualizzatori runtime simili, sono gestite completamente dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non conserva le versioni precedenti del visualizzatore secondario `includes` sul server.
 >
 >
 >Di conseguenza, è possibile inserire un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe le funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
@@ -164,7 +164,7 @@ Il percorso relativo si presenta come segue:
 
    Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi, quando le miniature dei sistemi desktop vengono posizionate sotto la visualizzazione principale. Allo stesso tempo, il visualizzatore consente lo scambio della risorsa principale in fase di esecuzione utilizzando `setAsset()` API. In qualità di sviluppatore, puoi controllare come il visualizzatore gestisce l’area delle miniature in basso, quando la nuova risorsa ha un solo elemento. È possibile mantenere intatta la dimensione del visualizzatore esterno e lasciare che la vista principale aumenti la sua altezza e occupare l&#39;area delle miniature. In alternativa, è possibile mantenere statiche le dimensioni della visualizzazione principale e comprimere l’area del visualizzatore esterno, lasciando che il contenuto della pagina web si muova verso l’alto e utilizzare il relè immobiliare a schermo libero dalle miniature.
 
-   Per mantenere intatti i limiti del visualizzatore esterno, definisci le dimensioni del `.s7zoomviewer` classe CSS di primo livello in unità assolute. Le dimensioni in CSS possono essere posizionate direttamente sulla pagina HTML o in un file CSS per visualizzatori personalizzati, che viene successivamente assegnato a un record predefinito visualizzatore in Dynamic Media Classic o passato esplicitamente utilizzando un comando stile.
+   Per mantenere intatti i limiti del visualizzatore esterno, definisci le dimensioni del `.s7zoomviewer` classe CSS di primo livello in unità assolute. Il dimensionamento nei CSS può essere inserito direttamente nella pagina HTML. Oppure può essere inserito in un file CSS per visualizzatori personalizzati, che viene successivamente assegnato a un record predefinito per visualizzatori in Dynamic Media Classic o passato esplicitamente utilizzando un comando stile.
 
    Vedi [Personalizzazione del visualizzatore zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con CSS.
 
@@ -196,7 +196,7 @@ Il percorso relativo si presenta come segue:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in Dynamic Media Classic, oppure puoi trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con il `params` raccolta o come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come segue:
+   È possibile impostare `stagesize` nel record predefinito visualizzatore in Dynamic Media Classic. Oppure, puoi passarlo esplicitamente con il codice di inizializzazione del visualizzatore con il `params` raccolta o come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come segue:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ Il percorso relativo si presenta come segue:
 
    È importante che il contenitore visualizzatore venga aggiunto al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al suo ID. Alcuni browser rinviano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il `init()` metodo immediatamente prima della chiusura `BODY` o sul corpo `onload()` evento.
 
-   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web per ora. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
 
    Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo . Questo esempio presuppone `zoomViewer` è l’istanza del visualizzatore, `s7viewer` è il nome del segnaposto DIV, `http://s7d1.scene7.com/is/image/` è l’URL di Image Server e `Scene7SharedAssets/ImageSet-Views-Sample` è la risorsa.
 
@@ -320,7 +320,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 ## Incorporamento a dimensioni flessibili con larghezza e altezza definite {#section-3674e6c032594441a6576b7fb1de6e64}
 
-In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e centralo nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
+Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e centralo nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
 
 ```
 <!DOCTYPE html> 

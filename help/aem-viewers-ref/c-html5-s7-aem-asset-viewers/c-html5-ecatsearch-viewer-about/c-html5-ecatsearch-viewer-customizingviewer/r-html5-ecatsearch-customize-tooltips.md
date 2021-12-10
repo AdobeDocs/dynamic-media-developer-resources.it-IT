@@ -1,20 +1,20 @@
 ---
-description: Sui sistemi desktop alcuni elementi dell'interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
-solution: Experience Manager
 title: Descrizioni comandi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+description: Sui sistemi desktop, alcuni elementi dell'interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 6%
 
 ---
 
 # Descrizioni comandi{#tooltips}
 
-Sui sistemi desktop alcuni elementi dell&#39;interfaccia utente come i pulsanti hanno descrizioni comandi che vengono visualizzate al passaggio del mouse.
+Sui sistemi desktop, alcuni elementi dell&#39;interfaccia utente, come i pulsanti, dispongono di descrizioni comandi visualizzate al passaggio del mouse.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,15 +35,15 @@ L’aspetto delle descrizioni comandi è controllato dal seguente selettore di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo di sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore bordo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore bordo </span> </p> </td> 
    <td colname="col2"> <p> Colore bordo sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ L’aspetto delle descrizioni comandi è controllato dal seguente selettore di c
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome font testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ L’aspetto delle descrizioni comandi è controllato dal seguente selettore di c
 
 >[!NOTE]
 >
->Nel caso in cui gli stili della descrizione comandi siano personalizzati dall’interno della pagina web di incorporamento, tutte le proprietà devono contenere la regola `!IMPORTANT` . Questo non è necessario se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
+>Nel caso in cui gli stili della descrizione comandi siano personalizzati dall’interno della pagina web di incorporamento, tutte le proprietà devono contenere `!IMPORTANT` regola. Questa regola non è necessaria se le descrizioni comandi sono personalizzate nel file CSS del visualizzatore.
 
-Esempio: per impostare descrizioni comandi con bordo grigio con raggio d’angolo 3px, sfondo nero e testo bianco scritto con Arial, dimensioni 11 pixel:
+Esempio: per impostare descrizioni comandi con bordo grigio con raggio d’angolo di 3 pixel, sfondo nero e testo bianco scritto con Arial®, dimensioni di 11 pixel:
 
 ```
 .s7tooltip { 
