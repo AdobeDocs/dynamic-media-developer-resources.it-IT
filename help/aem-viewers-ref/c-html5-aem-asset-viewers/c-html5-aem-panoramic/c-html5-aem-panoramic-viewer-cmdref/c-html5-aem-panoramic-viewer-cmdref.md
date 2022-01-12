@@ -4,9 +4,9 @@ description: Documentazione degli attributi di configurazione per il visualizzat
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Documentazione degli attributi di configurazione per il visualizzatore panoramic
 
 Qualsiasi comando di configurazione può essere impostato in URL o utilizzando `setParam()` e/o `setParams()` Metodi API. Qualsiasi attributo di configurazione può essere specificato anche nel record di configurazione lato server.
 
-Alcuni comandi di configurazione possono essere preceduti dal nome di classe o di istanza del componente SDK HTML5 corrispondente. Un nome di istanza del componente è dinamico e dipende dall’ID dell’elemento DOM del contenitore del visualizzatore passato a `setContainerId()` Metodo API. La documentazione includerà il prefisso facoltativo per tali comandi. Ad esempio: `vrrender` Il comando sarà documentato come segue:
+Alcuni comandi di configurazione possono essere preceduti dal nome di classe o di istanza del componente SDK HTML5 corrispondente. Un nome di istanza del componente è dinamico e dipende dall’ID dell’elemento DOM del contenitore del visualizzatore passato a `setContainerId()` Metodo API. La documentazione includerà il prefisso facoltativo per tali comandi. Ad esempio: `vrrender` Il comando è documentato come segue:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

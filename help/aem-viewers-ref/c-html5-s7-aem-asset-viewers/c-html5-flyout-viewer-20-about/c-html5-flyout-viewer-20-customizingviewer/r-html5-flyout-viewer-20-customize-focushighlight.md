@@ -1,20 +1,20 @@
 ---
-description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
-solution: Experience Manager
 title: Evidenziazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+description: L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata dal selettore di classi CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 2cb2e719-ee56-45e5-a509-7e13bb3c2165
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
 
 # Evidenziazione{#focus-highlight}
 
-L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata con il selettore delle classi CSS.
+L’evidenziazione dello stato attivo visualizzata intorno all’elemento dell’interfaccia utente del visualizzatore mirato è controllata dal selettore di classi CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ L’aspetto viene controllato con il seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
    <td colname="col2"> <p>Stile evidenziazione focus. </p> </td> 
   </tr> 
  </tbody> 

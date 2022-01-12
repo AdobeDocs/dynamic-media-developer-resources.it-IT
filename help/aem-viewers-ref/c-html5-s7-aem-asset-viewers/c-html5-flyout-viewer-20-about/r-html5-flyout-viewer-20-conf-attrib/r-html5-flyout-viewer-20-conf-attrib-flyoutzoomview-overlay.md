@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Controlla l'aspetto dell'evidenziazione della vista principale quando il riquadro a comparsa è attivo. Quando è impostata su <span class="codeph"> 0</span>, l'area attualmente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti dal modificatore <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> CSS (a seconda del valore del modificatore <span class="codeph"> highlightMode</span>). Quando è impostato su <span class="codeph"> 1</span> il componente entra in modalità "inverse" dove l'area correntemente visualizzata è completamente trasparente (nel caso in cui <span class="codeph"> highlightMode</span> sia impostato su <span class="codeph"> highlight</span>) o formattata con <span class="codeph"> .s7cursor</span> il nome della classe CSS (nel caso in cui sia impostato <span class="codeph"> highlight mode</span>) a <span class="codeph"> cursore</span>), ma l'area circostante viene riempita utilizzando gli stili forniti da <span class="codeph"> .s7overlay</span> nome della classe CSS. </p> </td> 
+   <td colname="col2"> <p> Controlla l'aspetto dell'evidenziazione della vista principale quando il riquadro a comparsa è attivo. Quando è impostato su <span class="codeph"> 0</span>, l’area attualmente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti da <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> Nomi di classe CSS (a seconda del valore di <span class="codeph"> evidenziatore</span> modificatore). Quando è impostato su <span class="codeph"> 1</span> il componente entra in modalità "inverso", dove l’area correntemente visualizzata è completamente trasparente (nel caso <span class="codeph"> evidenziatore</span> è impostato su <span class="codeph"> highlight</span>) o con stili <span class="codeph"> .s7cursor</span> Nome della classe CSS (nel caso <span class="codeph"> evidenziatore</span> è impostato su <span class="codeph"> cursore</span>), ma l'area circostante è riempita con gli stili forniti da <span class="codeph"> Sovrapposizione .s7</span> Nome della classe CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>

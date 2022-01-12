@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. Il <span class="codeph"> none</span> sta per nessuna transizione, la modifica della vista principale avviene istantaneamente. La <span class="codeph"> dissolvenza</span> attiva la transizione in dissolvenza incrociata in cui la vecchia immagine si dissolve e la nuova immagine si dissolve in entrata </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto applicato alla vista principale in caso di modifica della risorsa. La <span class="codeph"> nessuno</span> sta per nessuna transizione, il cambiamento della vista principale avviene all'istante. La <span class="codeph"> dissolvenza</span> attiva la transizione in dissolvenza incrociata in cui la vecchia immagine si dissolve e la nuova immagine si dissolve in entrata </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durata</span></span> </p> </td> 

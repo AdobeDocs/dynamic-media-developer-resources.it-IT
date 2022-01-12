@@ -1,20 +1,20 @@
 ---
-description: La vista principale è costituita dall’immagine statica, dall’immagine ingrandita mostrata nella visualizzazione a comparsa, dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
-solution: Experience Manager
 title: Visualizzazione zoom a comparsa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+description: La vista principale è costituita dall’immagine statica e dall’immagine ingrandita mostrata nella vista a comparsa. È inoltre costituito dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sopra l’immagine statica.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
 
 # Visualizzazione zoom a comparsa{#flyout-zoom-view}
 
-La vista principale è costituita dall’immagine statica, dall’immagine ingrandita mostrata nella visualizzazione a comparsa, dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sull’immagine statica.
+La vista principale è costituita dall’immagine statica e dall’immagine ingrandita mostrata nella vista a comparsa. È inoltre costituito dall’area di navigazione evidenziata visualizzata sull’immagine statica e dal messaggio di suggerimento visualizzato sopra l’immagine statica.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ L’aspetto della vista principale è controllato con il seguente selettore di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +68,11 @@ L’aspetto della visualizzazione a comparsa è controllato con il seguente sele
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
    <td colname="col2"> <p> Posizione orizzontale della vista a comparsa rispetto all’angolo superiore sinistro della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale della vista a comparsa rispetto all’angolo superiore sinistro della vista principale. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ L’aspetto della visualizzazione a comparsa è controllato con il seguente sele
    <td colname="col2"> <p>Altezza della visualizzazione a comparsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo della visualizzazione a comparsa. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,15 +120,15 @@ L’aspetto dell’evidenziazione nella vista principale è controllato con il s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore dell'evidenziazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
-   <td colname="col2"> <p> Evidenzia l'opacità. </p> <p>Per Internet Explorer 8, utilizzare <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
+   <td colname="col2"> <p> Evidenzia l'opacità. </p> <p>Per Internet Explorer 8, utilizza <span class="codeph"> filtro:alfa(opacity-..) ); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Il bordo è evidenziato. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ Esempio: per impostare l’evidenziazione verde con trasparenza del 40% e bordo 
 
 **Proprietà CSS del cursore**
 
-Quando il parametro `highlightmode` è impostato su `cursor`, l&#39;evidenziazione si trova nella vista principale viene sostituita da un&#39;immagine cursore a dimensione fissa, controllata dal selettore di classe CSS:
+Quando `highlightmode` è impostato su `cursor`, l’evidenziazione si trova nella vista principale viene sostituita da un’immagine a cursore a dimensione fissa, controllata dal selettore di classi CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Le proprietà CSS applicabili includono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine del cursore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza cursore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Le proprietà CSS applicabili includono:
 
 >[!NOTE]
 >
->Il cursore supporta il selettore di attributi `input` , che può essere utilizzato per applicare diverse immagini e dimensioni del cursore per diversi dispositivi. In particolare, `input="mouse"` corrisponde ai sistemi desktop e `input="touch"` corrisponde ai dispositivi touch.
+>Il cursore supporta `input` selettore di attributi, che può essere utilizzato per applicare immagini e dimensioni del cursore diverse per dispositivi diversi. In particolare, `input="mouse"` corrisponde ai sistemi desktop e `input="touch"` corrisponde ai dispositivi touch.
 
 **Proprietà CSS della sovrapposizione**
 
-Quando il parametro `overlay` è impostato su `1`, l&#39;area intorno al fotogramma di evidenziazione o all&#39;immagine del cursore viene controllata con il selettore di classe CSS:
+Quando il `overlay` è impostato su `1`, l’area intorno al fotogramma di evidenziazione o all’immagine del cursore viene controllata con il selettore di classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ Quando il parametro `overlay` è impostato su `1`, l&#39;area intorno al fotogra
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore sovrapposto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
    <td colname="col2"> <p>Sovrapponi opacità. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ L’aspetto del messaggio di suggerimento è controllato con il seguente seletto
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare lo stile del font, l’aspetto delle dimensioni e l’offset verticale tramite CSS. Tuttavia, l’allineamento orizzontale è gestito dalla logica del visualizzatore. Non è supportata l’override di questa impostazione tramite CSS utilizzando le proprietà `left` o `right` .
+È possibile configurare stile, dimensione, aspetto e offset verticale del font attraverso CSS. Tuttavia, l’allineamento orizzontale è gestito dalla logica del visualizzatore. Sovrascrittura tramite CSS utilizzando `left` o `right` proprietà non supportate.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,7 +232,7 @@ L’aspetto del messaggio di suggerimento è controllato con il seguente seletto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Offset dal fondo della vista principale. </p> </td> 
   </tr> 
   <tr> 
@@ -240,35 +240,35 @@ L’aspetto del messaggio di suggerimento è controllato con il seguente seletto
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento di sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo di sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
-   <td colname="col2"> <p>Opacità di sfondo del testo del messaggio. </p> <p>Per Internet Explorer 8, utilizza <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
+   <td colname="col2"> <p>Opacità di sfondo del testo del messaggio. </p> <p>Per Internet Explorer 8, utilizza <span class="codeph"> filtro:alfa(opacity-..) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) .
+Il messaggio di suggerimento può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
 
-Esempio: per impostare un messaggio di suggerimento semitrasparente con font Arial 12px bianco, offset di 50 pixel dal fondo della vista principale, della spaziatura e un bordo arrotondato:
+Esempio: per impostare un messaggio di suggerimento semitrasparente con un carattere bianco Arial® 12-px, uno scostamento di 50 pixel dal fondo della vista principale, della spaziatura e un bordo arrotondato:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

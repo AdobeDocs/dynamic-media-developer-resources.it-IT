@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Zoom in linea
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 8294c9f0-4c4e-4095-beeb-94d8dcfc2cd7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra  </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il modo in cui i campioni vengono riempiti nella visualizzazione. </p> <p> <span class="codeph">  </span> imposta l'ordine di riempimento da sinistra a destra;  <span class="codeph"> a destra  </span> inverte l’ordine in modo che la visualizzazione sia riempita in direzione da destra a sinistra e dall’alto verso il basso. Quando è impostato <span class="codeph"> auto </span>, il componente applica la modalità di destra quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span> e utilizza la modalità di accesso a sinistra in caso contrario. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il modo in cui i campioni vengono riempiti nella visualizzazione. </p> <p> <span class="codeph"> sinistra </span> imposta l'ordine di riempimento da sinistra a destra; <span class="codeph"> right </span> inverte l’ordine in modo che la visualizzazione sia riempita in direzione da destra a sinistra e dall’alto verso il basso. Quando <span class="codeph"> auto </span> è impostato, il componente applica la modalità corretta quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span>, e in caso contrario utilizza left . </p> </td> 
   </tr> 
  </tbody> 
 </table>

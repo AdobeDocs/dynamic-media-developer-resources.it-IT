@@ -1,13 +1,13 @@
 ---
+title: Area visualizzatore principale
 description: L’area di visualizzazione principale è l’area occupata dalla vista a comparsa e dai campioni.
 solution: Experience Manager
-title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,A comparsa
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 3%
 
 ---
@@ -43,13 +43,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un visualizzatore a comparsa con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni di 260 x 500 pixel.
+Esempio: per impostare un visualizzatore a comparsa con sfondo bianco ( `#FFFFFF`) e le sue dimensioni sono 260 x 500 pixel.
 
 ```
 .s7flyoutviewer { 

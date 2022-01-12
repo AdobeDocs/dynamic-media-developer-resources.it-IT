@@ -1,20 +1,20 @@
 ---
-description: Il caricamento delle risorse in Dynamic Media Classic comporta una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
-solution: Experience Manager
 title: Caricamento delle risorse tramite POST HTTP nel servlet UploadFile
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+description: Il caricamento delle risorse in Dynamic Media Classic prevede una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
 
 # Caricamento delle risorse tramite POST HTTP nel servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Il caricamento delle risorse in Dynamic Media Classic comporta una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
+Il caricamento delle risorse in Dynamic Media Classic prevede una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
 
 Utilizza il seguente URL per accedere al servlet UploadFile:
 
@@ -57,7 +57,7 @@ https://<server>/scene7/UploadFile
 
 ## Flusso di lavoro del processo di caricamento {#section-873625b9512f477c992f5cdd77267094}
 
-Il processo di caricamento è costituito da uno o più POST HTTP che utilizzano un `jobHandle` comune per correlare l’elaborazione nello stesso processo. Ogni richiesta è codificata in `multipart/form-data` ed è costituita dalle seguenti parti del modulo:
+Il processo di caricamento è costituito da uno o più POST HTTP che utilizzano un `jobHandle` per correlare l&#39;elaborazione allo stesso processo. Ogni richiesta è `multipart/form-data` codificato ed è costituito dalle seguenti parti del modulo:
 
 >[!NOTE]
 >
@@ -65,34 +65,34 @@ Il processo di caricamento è costituito da uno o più POST HTTP che utilizzano 
 
 |  Parte modulo HTTP POST  |  Descrizione  |
 |---|---|
-| `auth`  |   Obbligatorio. Documento authHeader XML che specifica l&#39;autenticazione e le informazioni client. Consultare **Richiedi autenticazione** in [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Facoltativo. Puoi includere uno o più file da caricare con ogni richiesta POST. Ogni parte di file può includere un parametro del nome del file nell&#39;intestazione Content-Disposition che viene utilizzato come nome del file di destinazione in IPS se non è specificato alcun parametro `uploadPostParams/fileName`. |
+| `auth`  |   Obbligatorio. Documento authHeader XML che specifica l&#39;autenticazione e le informazioni client. Vedi **Richiedi autenticazione** sotto [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Facoltativo. Puoi includere uno o più file da caricare con ogni richiesta POST. Ogni parte di file può includere un parametro del nome del file nell&#39;intestazione Content-Disposition che viene utilizzato come nome del file di destinazione in IPS se no `uploadPostParams/fileName` è specificato. |
 
 |  Parte modulo HTTP POST   |  nome dell&#39;elemento uploadPostParams   |  Tipo   |  Descrizione   |
 |---|---|---|---|
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento)   |   `companyHandle`  |  `xsd:string`  | Obbligatorio. Gestisci la società in cui viene caricato il file.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobName`  |  `xsd:string`  | `jobName` o `jobHandle` è obbligatorio. Nome del processo di caricamento.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobHandle`  |  `xsd:string`  | `jobName` o `jobHandle` è obbligatorio. Gestisci un processo di caricamento avviato in una richiesta precedente.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `locale`  |  `xsd:string`  | Facoltativo. Lingua e codice del paese per la localizzazione.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `description`  |  `xsd:string`  | Facoltativo. Descrizione del lavoro.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `destFolder`  |  `xsd:string`  | Facoltativo. Percorso della cartella di destinazione per il prefisso di una proprietà del nome file, in particolare per i browser e altri client che potrebbero non supportare percorsi completi in un nome file.  |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `fileName`  |  `xsd:string`  | Facoltativo. Nome del file di destinazione. Sostituisce la proprietà del nome del file. |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `endJob`  |  `xsd:boolean`  | Facoltativo. Il valore predefinito è false. |
-| `uploadParams` (Obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `uploadParams`  |  `types:UploadPostJob`  | Facoltativo se si tratta di una richiesta successiva per un processo attivo esistente. Se esiste un processo esistente, `uploadParams` viene ignorato e vengono utilizzati i parametri di caricamento del processo esistenti. Consulta [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento)   |   `companyHandle`  |  `xsd:string`  | Obbligatorio. Gestisci la società in cui viene caricato il file.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `jobName`  |  `xsd:string`  | O `jobName` o `jobHandle` è obbligatorio. Nome del processo di caricamento.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `jobHandle`  |  `xsd:string`  | O `jobName` o `jobHandle` è obbligatorio. Gestisci un processo di caricamento avviato in una richiesta precedente.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `locale`  |  `xsd:string`  | Facoltativo. Lingua e codice del paese per la localizzazione.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `description`  |  `xsd:string`  | Facoltativo. Descrizione del lavoro.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `destFolder`  |  `xsd:string`  | Facoltativo. Percorso della cartella di destinazione per il prefisso di una proprietà del nome file, in particolare per i browser e altri client che potrebbero non supportare percorsi completi in un nome file.  |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `fileName`  |  `xsd:string`  | Facoltativo. Nome del file di destinazione. Sostituisce la proprietà del nome del file. |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `endJob`  |  `xsd:boolean`  | Facoltativo. Il valore predefinito è false. |
+| `uploadParams` (Obbligatorio. XML `uploadParams` documento che specifica i parametri di caricamento) | `uploadParams`  |  `types:UploadPostJob`  | Facoltativo se si tratta di una richiesta successiva per un processo attivo esistente. Se esiste un lavoro esistente, `uploadParams` viene ignorato e vengono utilizzati i parametri di caricamento dei processi esistenti. Vedi [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-All’interno del blocco `<uploadPostParams>` è presente il blocco `<uploadParams>` che designa l’elaborazione dei file inclusi.
+All&#39;interno di `<uploadPostParams>` il blocco è `<uploadParams>` blocco che designa l&#39;elaborazione dei file inclusi.
 
-Consulta [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
+Vedi [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Anche se si può presumere che il parametro `uploadParams` possa cambiare per singoli file come parte dello stesso lavoro, ciò non accade. Utilizza gli stessi parametri `uploadParams` per l’intero processo.
+Mentre potresti presumere che `uploadParams` Questo parametro può cambiare per i singoli file come parte dello stesso processo, non è il caso. Usa lo stesso `uploadParams` parametri per l&#39;intero processo.
 
-La richiesta iniziale di POST per un nuovo processo di caricamento deve specificare il parametro `jobName`, preferibilmente utilizzando un nome di processo univoco per semplificare il polling dello stato del processo e le query del registro di lavoro successive. Richieste POST aggiuntive per lo stesso processo di caricamento devono specificare il parametro `jobHandle` invece di `jobName`, utilizzando il valore `jobHandle` restituito dalla richiesta iniziale.
+La richiesta iniziale di POST per un nuovo processo di caricamento deve specificare la variabile `jobName` , preferibilmente utilizzando un nome di processo univoco per semplificare il polling dello stato del processo successivo e le query del registro di lavoro. Richieste POST aggiuntive per lo stesso processo di caricamento devono specificare la variabile `jobHandle` invece di `jobName`, utilizzando `jobHandle` valore restituito dalla richiesta iniziale.
 
-La richiesta finale di POST per un processo di caricamento deve impostare il parametro `endJob` su true in modo che nessun file futuro sarà POSTed per questo lavoro. A sua volta, questo consente il completamento del processo subito dopo l’acquisizione di tutti i file POSTed. In caso contrario, il processo si interrompe se non vengono ricevute richieste POST aggiuntive entro 30 minuti.
+La richiesta finale di POST per un processo di caricamento deve impostare il `endJob` su true in modo che nessun file futuro sia POSTed per questo lavoro. A sua volta, questo consente il completamento del processo subito dopo l’acquisizione di tutti i file POSTed. In caso contrario, il processo si interrompe se non vengono ricevute richieste POST aggiuntive entro 30 minuti.
 
 ## Risposta UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Per una richiesta POST riuscita, il corpo della risposta sarà un documento XML `uploadPostReturn`, come specificato in XSD di seguito:
+Per una richiesta POST riuscita, il corpo della risposta è un XML `uploadPostReturn` , come specificato nel file XSD di seguito:
 
 ```
 <element name="uploadPostReturn"> 
@@ -104,7 +104,7 @@ Per una richiesta POST riuscita, il corpo della risposta sarà un documento XML 
     </element>
 ```
 
-Il `jobHandle` restituito viene passato nel parametro `uploadPostParams`/ `jobHandle` per tutte le richieste successive di POST per lo stesso lavoro. È inoltre possibile utilizzarlo per eseguire il polling dello stato del processo con l&#39;operazione `getActiveJobs` o per eseguire una query sui registri dei processi con l&#39;operazione `getJobLogDetails`.
+La `jobHandle` restituito nella `uploadPostParams`/ `jobHandle` per tutte le richieste successive di POST per lo stesso processo. È inoltre possibile utilizzarlo per il polling dello stato del processo con `getActiveJobs` o per eseguire una query sui registri processi con il `getJobLogDetails` funzionamento.
 
 In caso di errore durante l’elaborazione della richiesta POST, il corpo della risposta è costituito da uno dei tipi di errore API descritti in [Errori](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 

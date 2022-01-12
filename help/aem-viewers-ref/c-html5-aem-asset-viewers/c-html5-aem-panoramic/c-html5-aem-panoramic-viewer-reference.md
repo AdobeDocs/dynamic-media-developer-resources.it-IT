@@ -1,20 +1,20 @@
 ---
 title: Visualizzatore panoramico
-description: HTML5 Panoramic Viewer è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta la panoramica e la panoramica automatica tramite movimento giroscopico.  È progettato per funzionare su desktop e dispositivi mobili.  La modalità di visualizzazione della realtà virtuale è disponibile sul supporto dei dispositivi mobili.
+description: HTML5 Panoramic Viewer è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta la panoramica e la panoramica automatica tramite movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione della realtà virtuale è disponibile sul supporto dei dispositivi mobili.
 keywords: reattivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panoramico{#panoramic}
 
-HTML5 Panoramic Viewer è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta la panoramica e la panoramica automatica tramite movimento giroscopico.  È progettato per funzionare su desktop e dispositivi mobili.  La modalità di visualizzazione della realtà virtuale è disponibile sul supporto dei dispositivi mobili.
+HTML5 Panoramic Viewer è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta la panoramica e la panoramica automatica tramite movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione della realtà virtuale è disponibile sul supporto dei dispositivi mobili.
 
 Vedi [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Tipo di visualizzatore 514.
 
 ## Utilizzo del visualizzatore panoramico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramic Viewer rappresenta un file JavaScript principale e un set di file helper (un singolo JavaScript include tutti i componenti SDK del visualizzatore HTML5 utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
+HTML5 Panoramic Viewer rappresenta un file JavaScript principale e un set di file helper scaricati dal visualizzatore in fase di esecuzione. L’insieme di file helper è un’unica inclusione JavaScript con tutti i componenti SDK per visualizzatori HTML5 utilizzati da questo particolare visualizzatore, risorse, CSS.
 HTML5 Panoramic Viewer può essere utilizzato sia in modalità pop-up utilizzando la pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando un’API documentata.
 La configurazione e lo skin sono simili a quelli degli altri visualizzatori HTML5. Tutta la skin può essere ottenuta tramite CSS personalizzati.
 
@@ -58,17 +58,17 @@ HTML5 Panoramic Viewer supporta la panoramica e la navigazione automatica median
 </table>
 
 Il visualizzatore supporta sia l’input touch che l’input del mouse su dispositivi Windows con touch screen e mouse, tuttavia questo supporto è limitato solo ai browser Web Chrome, Internet Explorer 11 e Edge.
-Il visualizzatore panoramico è in grado di eseguire il rendering di immagini panoramiche in modalità Virtual Reality (VR) specificando il modificatore vrrender.  Quando il rendering è abilitato, un&#39;immagine panoramica viene visualizzata in schermate suddivise.  Un caso d&#39;uso comune sarebbe quello di servire l&#39;immagine in un cellulare montato in una cuffia di realtà virtuale, fornendo immagini separate per ogni occhio.  Lo spettatore risponderà al movimento giroscopico della testa e naviga attraverso l&#39;immagine.
+Il visualizzatore panoramico può eseguire il rendering delle immagini panoramiche in modalità Virtual Reality (VR) specificando il modificatore vrrender. Quando il rendering è abilitato, un&#39;immagine panoramica viene visualizzata in schermate suddivise. Un caso d&#39;uso comune sarebbe quello di servire l&#39;immagine in un cellulare montato in una cuffia di realtà virtuale, fornendo immagini separate per ogni occhio. Lo spettatore risponde al movimento giroscopico della testa e naviga attraverso l&#39;immagine.
 
 ## Incorporazione del visualizzatore panoramico HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento, e facendo clic su tale collegamento si apre il visualizzatore in una finestra separata del browser. In altri casi, potrebbe essere necessario incorporare il diritto del visualizzatore nella pagina di hosting. In quest&#39;ultimo caso la pagina web può avere layout statico o essere &quot;reattiva&quot; e viene visualizzata in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: a comparsa, incorporazione a dimensione fissa e incorporazione reattiva.
+Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento. Selezionando quel collegamento, il visualizzatore viene aperto in una finestra separata del browser. In altri casi, potrebbe essere necessario incorporare il visualizzatore nella pagina di hosting. In quest&#39;ultimo caso, la pagina web può avere layout statico o essere &quot;reattiva&quot; e visualizzata in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità di funzionamento principali: a comparsa, incorporazione a dimensione fissa e incorporazione reattiva.
 
 **Informazioni sulla modalità a comparsa**
 
-Nella modalità a comparsa il visualizzatore viene aperto in una finestra o scheda separata del browser Web. Prende l&#39;intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o l&#39;orientamento del dispositivo venga modificato.
+Nella modalità a comparsa, il visualizzatore viene aperto in una finestra o scheda separata del browser Web. Prende l&#39;intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o l&#39;orientamento del dispositivo venga modificato.
 
-Questa modalità è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando la chiamata JavaScript window.open() , configurata correttamente Un elemento HTML o qualsiasi altro modo appropriato.
+Questa modalità è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` Chiamata JavaScript, configurata correttamente Un elemento HTML o qualsiasi altro modo appropriato.
 
 Si consiglia di utilizzare una pagina HTML predefinita per la modalità di funzionamento a comparsa. Si chiama [!DNL PanoramicViewer.html] e si trova sotto la [!DNL html5/] sottocartella della distribuzione standard IS-Viewers:
 
@@ -86,16 +86,15 @@ Ecco un esempio di codice HTML che apre il visualizzatore nella nuova finestra:
 
 Nella modalità incorporata il visualizzatore viene aggiunto alla pagina web esistente, che potrebbe avere già alcuni contenuti del cliente non correlati al visualizzatore. Il visualizzatore normalmente occupa solo una parte del patrimonio immobiliare della pagina web.
 
-Il caso d’uso principale sono le pagine web orientate ai desktop o ai dispositivi tablet, nonché le pagine web reattive che regolano automaticamente il layout in base al tipo di dispositivo.
+I casi d’uso principali sono le pagine web orientate ai desktop o ai dispositivi tablet, nonché le pagine web reattive che regolano automaticamente il layout in base al tipo di dispositivo.
 
-L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questa è la scelta migliore per le pagine web con layout statico.
+L’incorporazione a dimensione fissa viene utilizzata quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questo metodo è la scelta migliore per le pagine web con layout statico.
 
 L’incorporazione reattiva presuppone che il visualizzatore debba ridimensionare in fase di esecuzione in risposta alla modifica delle dimensioni del suo contenitore DIV. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout flessibile.
 
-In modalità reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio DIV contenitore. Se la pagina web imposta solo la larghezza del contenitore DIV, lasciando senza limitazioni l’altezza, il visualizzatore sceglierà automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata; in questo modo la risorsa si adatta perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivo come Bootstrap, Foundation e così via.
+In modalità reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il proprio DIV contenitore. Se la pagina web imposta solo la larghezza del contenitore DIV, lasciando senza limitazioni l’altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questo metodo assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura laterale. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivo come Bootstrap, Foundation e così via.
 
-In caso contrario, se la pagina web imposta sia la larghezza che l’altezza per il contenitore DIV del visualizzatore, il visualizzatore compilerà l’area e seguirà le dimensioni fornite dal layout della pagina web. Un buon esempio può essere l’incorporazione del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
-
+In caso contrario, se la pagina web imposta sia la larghezza che l’altezza per il contenitore DIV del visualizzatore, quest’ultimo riempie quell’area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è quello di incorporare il visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
 **Incorporazione a dimensione fissa**
 
@@ -159,8 +158,7 @@ Il percorso relativo si presenta come segue:
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   L’approccio basato su CSS è consigliato e verrà utilizzato in questo esempio.
-
+   L’approccio basato su CSS è consigliato e viene utilizzato in questo esempio.
 
 1. Creazione e inizializzazione del visualizzatore.
 
@@ -215,7 +213,7 @@ Il percorso relativo si presenta come segue:
 
 **Incorporazione di design reattivo con altezza illimitata**
 
-Con l’incorporazione reattiva della pagina web normalmente dispone di un layout flessibile che determina la dimensione in fase di esecuzione del contenitore DIV del visualizzatore. Ai fini di questo esempio supponiamo che la pagina web consenta al contenitore del visualizzatore DIV di prendere l’80% delle dimensioni della finestra del browser web, lasciando senza restrizioni la sua altezza. Il codice HTML della pagina web potrebbe essere simile al seguente:
+Con l’incorporazione reattiva, la pagina web dispone normalmente di un layout flessibile che determina la dimensione in fase di esecuzione del DIV contenitore del visualizzatore. Ai fini di questo esempio supponiamo che la pagina web consenta al contenitore del visualizzatore DIV di prendere l’80% delle dimensioni della finestra del browser web, lasciando senza restrizioni la sua altezza. Il codice HTML della pagina web potrebbe essere simile al seguente:
 
 ```
 <!DOCTYPE html> 
@@ -233,7 +231,7 @@ Con l’incorporazione reattiva della pagina web normalmente dispone di un layou
 </html> 
 ```
 
-L’aggiunta del visualizzatore a tale pagina è molto simile all’incorporamento a dimensione fissa, con l’unica differenza che non è necessario definire esplicitamente le dimensioni del visualizzatore:
+L’aggiunta del visualizzatore a tale pagina è simile all’incorporamento a dimensione fissa, con l’unica differenza che non è necessario definire esplicitamente la dimensione del visualizzatore:
 
 1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
 1. Definizione del contenitore DIV.
