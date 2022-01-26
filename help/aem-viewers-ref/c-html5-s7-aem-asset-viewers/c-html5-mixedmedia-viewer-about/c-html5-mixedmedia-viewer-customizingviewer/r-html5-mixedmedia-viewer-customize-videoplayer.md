@@ -1,13 +1,13 @@
 ---
+title: Lettore video
 description: Il lettore video è l’area rettangolare in cui il contenuto video viene visualizzato all’interno del visualizzatore.
 solution: Experience Manager
-title: Lettore video
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del lettore video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di errore visualizzato se il sistema non è in grado di riprodurre il video può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+Il messaggio di errore visualizzato se il sistema non è in grado di riprodurre il video può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
 
 Esempio: per rendere trasparente il lettore video:
 
@@ -64,7 +64,7 @@ I sottotitoli vengono inseriti in un contenitore interno all’interno del letto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Sfondo testo didascalia. </p> </td> 
   </tr> 
   <tr> 
@@ -72,21 +72,21 @@ I sottotitoli vengono inseriti in un contenitore interno all’interno del letto
    <td colname="col2"> <p>Colore testo didascalia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Spessore del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare il testo della didascalia su un Arial grigio chiaro da 14 pixel su uno sfondo nero semitrasparente:
+Esempio: per impostare il testo della didascalia su uno sfondo nero semitrasparente da 14 pixel grigio chiaro Arial®:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -123,15 +123,15 @@ L’aspetto dell’animazione di buffering è controllato con il seguente selett
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> Icona di animazione a sinistra del margine, normalmente meno metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Margine superiore dell'icona di animazione, normalmente meno metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Lavori d'arte. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,20 +1,20 @@
 ---
-description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante di riproduzione/pausa, i controlli del volume e così via.
-solution: Experience Manager
 title: Barra di controllo
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 1%
 
 ---
 
 # Barra di controllo{#control-bar}
 
-La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante di riproduzione/pausa, i controlli del volume e così via.
+La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della barra di control
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 

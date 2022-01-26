@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Riferimento API JavaScript per visualizzatori di file multimediali diversi.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,15 @@ Riferimento API JavaScript per visualizzatori di file multimediali diversi.
 
 Imposta la nuova risorsa e i dati aggiuntivi facoltativi. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
-Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`risorsa`*`  - {  `String`} nuovo ID risorsa o set di file multimediali diversi esplicito, con i modificatori opzionali Image Server aggiunti dopo  `?`.
+`*`risorsa`*` - { `String`} nuovo ID risorsa o set di file multimediali diversi esplicito, con i modificatori opzionali Image Serving aggiunti dopo `?`.
 
 Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore.
 
-`*`data`*`  - {  `JSON`} posizione del nuovo file didascalia.
+`*`dati`*` - { `JSON`} posizione del nuovo file di didascalia.
 
 Se non viene specificato, il pulsante della didascalia non è visibile nell’interfaccia utente. I sottotitoli specificati con questo parametro si applicano al video che compare per primo nel set di file multimediali diversi; i video successivi vengono riprodotti senza didascalie. Questo visualizzatore supporta i seguenti ID componente:
 
@@ -41,11 +41,11 @@ Se non viene specificato, il pulsante della didascalia non è visibile nell’in
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
-   <td colname="col2"> <p>Immagine da visualizzare sul primo fotogramma prima dell'inizio della riproduzione del video. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posterimage </span> </p> </td> 
+   <td colname="col2"> <p>Immagine da visualizzare sul primo fotogramma prima dell'inizio della riproduzione del video. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> didascalia  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> didascalia </span> </p> </td> 
    <td colname="col2"> <p> Posizione del nuovo file di didascalia. </p> <p>Se non viene specificato, il pulsante della didascalia non è visibile nell’interfaccia utente. Le didascalie specificate con questo parametro si applicano al video che compare per primo nel set di file multimediali. I video successivi vengono riprodotti senza didascalie. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,13 +1,13 @@
 ---
+title: init
 description: Riferimento API JavaScript per visualizzatori di file multimediali diversi.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4fb40cec-172a-41b3-98fc-927da88c7cb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Riferimento API JavaScript per visualizzatori di file multimediali diversi.
 
 Avvia l&#39;inizializzazione del visualizzatore di file multimediali diversi. A questo punto, l’elemento DOM contenitore deve essere creato in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l’elemento contenitore non fa ancora parte del layout della pagina web, ad esempio, potrebbe essere nascosto utilizzando `display:none` style - il visualizzatore sospende il processo di inizializzazione. Viene sospeso fino al momento in cui la pagina web riporta l’elemento contenitore al layout, nel quale riprende automaticamente il caricamento del visualizzatore.
 
 Chiamare questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 

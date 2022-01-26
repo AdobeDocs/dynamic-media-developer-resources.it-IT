@@ -1,13 +1,13 @@
 ---
+title: Campioni colore
 description: I campioni colore sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I campioni colore sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 solution: Experience Manager
-title: Campioni colore
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ L’aspetto del contenitore dei campioni è controllato con il selettore di clas
    <td colname="col2"> <p>Altezza dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>L’offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ La spaziatura tra le miniature dei campioni viene controllata con il seguente se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -93,15 +93,15 @@ L’aspetto della singola miniatura viene controllato con il seguente selettore 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ L’aspetto della singola miniatura viene controllato con il seguente selettore 
 
 >[!NOTE]
 >
->La miniatura supporta il selettore di attributi `state` , che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura dell’immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio : per impostare miniature con 56 x 56 pixel, sono disponibili un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
 
@@ -132,7 +132,7 @@ L’aspetto dei pulsanti di scorrimento a sinistra e a destra è controllato con
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`e `right` proprietà. Al contrario, la logica del visualizzatore li posiziona automaticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,27 +143,27 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over` e `disabled`.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over`e `disabled`.
 
 Esempio : per impostare pulsanti di scorrimento con 56 x 56 pixel e immagini diverse per ogni stato.
 

@@ -1,13 +1,13 @@
 ---
+title: Volume variabile
 description: Il controllo del volume mutabile viene inizialmente visualizzato come un pulsante che consente all'utente di disattivare o disattivare l'audio del lettore video.
 solution: Experience Manager
-title: Volume variabile
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -31,11 +31,11 @@ L&#39;aspetto dell&#39;area del volume variabile viene controllato con il seguen
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ L&#39;aspetto dell&#39;area del volume variabile viene controllato con il seguen
    <td colname="col2"> <p>Altezza del controllo del volume mutabile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore del controllo del volume mutabile. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,19 +66,19 @@ L’aspetto del pulsante di disattivazione/disattivazione audio è controllato c
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta sia i selettori di attributi `state` che `selected` , che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato &quot;disattivato&quot; e `selected='false'` corrisponde allo stato &quot;non disattivato&quot;.
+>Questo pulsante supporta entrambi `state` e `selected` selettori di attributi, che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato &quot;disattivato&quot; e `selected='false'` corrisponde allo stato &quot;unmuted&quot;.
 
 L&#39;area della barra del volume verticale è controllata con il seguente selettore di classe CSS:
 
@@ -91,15 +91,15 @@ L&#39;area della barra del volume verticale è controllata con il seguente selet
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p> Altezza del volume verticale. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +117,15 @@ La traccia all’interno del controllo del volume verticale viene controllata co
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del controllo del volume verticale. </p> </td> 
   </tr> 
  </tbody> 
@@ -142,29 +142,29 @@ La manopola del volume verticale viene controllata con il seguente selettore di 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Grafica a manopola di controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della manopola di controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della manopola di controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
    <td colname="col2"> <p>Posizione orizzontale della manopola di controllo del volume verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) .
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
 
 ## Esempi {#section-e8caea0a303c425a8a637c2a47c06355}
 

@@ -1,13 +1,13 @@
 ---
+title: Pulsante Schermo intero
 description: Questo pulsante fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando è selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza immagini o set 360 gradi. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
-title: Pulsante Schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante a schermo intero di 32 x 32 pixel, posizionato sei pixel dal bordo superiore e destro del visualizzatore, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno:
+Esempio: per impostare un pulsante a schermo intero che sia di 32 x 32 pixel e posizionato sei pixel dal bordo superiore e destro del visualizzatore. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o non selezionati:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

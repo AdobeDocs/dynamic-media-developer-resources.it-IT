@@ -1,20 +1,20 @@
 ---
-description: In modalità zoom continuo, la visualizzazione principale consiste nell’immagine zoomabile quando la risorsa corrente è una singola immagine.
-solution: Experience Manager
 title: Visualizzazione zoom
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+description: In modalità zoom continuo, la visualizzazione principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # Visualizzazione zoom{#zoom-view}
 
-In modalità zoom continuo, la visualizzazione principale consiste nell’immagine zoomabile quando la risorsa corrente è una singola immagine.
+In modalità zoom continuo, la visualizzazione principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +35,11 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
    <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Esempio : per rendere trasparente la visualizzazione dello zoom.
 }
 ```
 
-Nei sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview` . Controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. Sono supportati i seguenti valori `cursortype`:
+Nei sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti `cursortype` sono supportati:
 
 * `default`
 

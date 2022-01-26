@@ -1,11 +1,11 @@
 ---
-description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando è selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
-solution: Experience Manager
 title: Pulsante a schermo intero video
+description: Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando è selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video ed è posizionato nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Pulsante a schermo intero video{#video-full-screen-button}
 
-Il pulsante a schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando è selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
+Il pulsante Schermo intero consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando è selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video ed è posizionato nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

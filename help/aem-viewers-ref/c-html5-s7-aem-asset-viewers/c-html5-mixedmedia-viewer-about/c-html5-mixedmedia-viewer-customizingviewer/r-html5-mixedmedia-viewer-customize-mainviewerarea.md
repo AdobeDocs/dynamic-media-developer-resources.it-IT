@@ -1,20 +1,20 @@
 ---
-description: L'area di visualizzazione principale è l'area occupata dalla vista principale e dai campioni. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
-solution: Experience Manager
 title: Area visualizzatore principale
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+description: L'area di visualizzazione principale è l'area occupata dalla vista principale e dai campioni. È impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L&#39;area di visualizzazione principale è l&#39;area occupata dalla vista principale e dai campioni. In genere è impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+L&#39;area di visualizzazione principale è l&#39;area occupata dalla vista principale e dai campioni. È impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,13 +43,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni di 512 x 288 pixel.
+Esempio: per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e le sue dimensioni 512 x 288 pixel.
 
 ```
 .s7mixedmediaviewer { 
