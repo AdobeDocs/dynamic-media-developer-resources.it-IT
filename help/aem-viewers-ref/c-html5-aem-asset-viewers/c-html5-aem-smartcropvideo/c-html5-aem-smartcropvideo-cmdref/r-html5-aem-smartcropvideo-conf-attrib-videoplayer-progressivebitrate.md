@@ -4,7 +4,8 @@ description: Attributo di configurazione per Smart Crop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 25e3e7e9-0979-472c-a589-aaf0e221b885
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%
@@ -21,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il bit rate video desiderato (in kilobit al secondo o Kbps) da riprodurre da un set video adattivo nel caso in cui il sistema corrente non supporti la riproduzione video adattiva. </p> <p>Il componente raccoglie il flusso video con il bitrate più vicino possibile (ma non superiore) al valore specificato. Se tutti i flussi video nel set video adattivo hanno una qualità superiore rispetto al valore specificato, la logica sceglie il bitrate con la qualità più bassa. </p> </td> 
+   <td colname="col2"> <p> Specifica il bit rate video desiderato (in kilobit al secondo o kbps) da riprodurre da un set video adattivo nel caso in cui il sistema corrente non supporti la riproduzione video adattiva. </p> <p>Il componente raccoglie il flusso video con il bitrate più vicino possibile (ma non superiore) al valore specificato. Se tutti i flussi video nel set video adattivo hanno una qualità superiore rispetto al valore specificato, la logica sceglie il bitrate con la qualità più bassa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

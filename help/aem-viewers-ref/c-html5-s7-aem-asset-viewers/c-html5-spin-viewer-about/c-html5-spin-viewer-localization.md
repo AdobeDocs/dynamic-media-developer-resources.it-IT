@@ -1,13 +1,13 @@
 ---
+title: Localizzazione degli elementi dell’interfaccia utente
 description: Alcuni contenuti visualizzati dal visualizzatore 360 gradi sono soggetti a localizzazione, inclusi pulsanti di zoom e un pulsante a schermo intero.
 solution: Experience Manager
-title: Localizzazione degli elementi dell’interfaccia utente
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore 360 gradi sono soggetti a localizzazione, inclusi pulsanti di zoom e un pulsante a schermo intero.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. A qualsiasi SIMBOLO è associato un valore di testo predefinito per le impostazioni internazionali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può anche avere valori definiti dall’utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. A qualsiasi SYMBOL è associato un valore di testo predefinito per le impostazioni internazionali inglesi ( `"en"`) fornita con il visualizzatore predefinito. Può anche avere valori definiti dall’utente impostati per tutte le impostazioni internazionali necessarie.
 
 All’avvio del visualizzatore, controlla le impostazioni internazionali correnti per vedere se esiste un valore definito dall’utente per ogni SYMBOL supportato per le impostazioni internazionali. In caso affermativo, utilizza il valore definito dall’utente; in caso contrario, torna al testo predefinito preconfigurato.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell’esempio precedente, l’oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione di due elementi dell’interfaccia utente in ciascuna impostazione internazionale.
+Nell’esempio precedente, l’oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione di due elementi dell&#39;interfaccia utente in ciascuna impostazione internazionale.
 
-Il codice della pagina web deve passare l’oggetto di localizzazione al costruttore del visualizzatore, come valore del campo `localizedTexts` dell’oggetto di configurazione. Un&#39;opzione alternativa consiste nel passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)` .
+Il codice della pagina web deve passare l’oggetto di localizzazione al costruttore del visualizzatore, come valore di `localizedTexts` campo dell&#39;oggetto di configurazione. Un&#39;opzione alternativa è quella di passare l&#39;oggetto di localizzazione chiamando il `setLocalizedTexts(localizationInfo)` metodo .
 
 Sono supportati i seguenti SYMBOL:
 
@@ -53,47 +53,47 @@ Sono supportati i seguenti SYMBOL:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello superiore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col2"> <p>Etichetta ARIA per l’elemento visualizzatore di livello principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>Descrizione del ruolo ARIA per il componente visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Suggerimenti per l’utilizzo di ARIA per gli utenti di tastiera. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Chiudi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Zoom in. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Zoom indietro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante di ripristino dello zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Pulsante a schermo intero in stato normale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Pulsante a schermo intero a schermo intero. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Ruota a sinistra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Ruota a destra. </p> </td> 
   </tr> 
  </tbody> 

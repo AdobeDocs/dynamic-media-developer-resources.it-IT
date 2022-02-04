@@ -1,13 +1,13 @@
 ---
+title: Supporto per il tracciamento di Adobe Analytics
 description: Il visualizzatore di file multimediali diversi supporta il tracciamento predefinito di Adobe Analytics.
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ Il visualizzatore di file multimediali diversi supporta il tracciamento predefin
 
 ## Tracciamento preconfigurato {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore di file multimediali diversi supporta il tracciamento preconfigurato [!DNL Adobe Analytics] . Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
+Il visualizzatore di file multimediali diversi supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
 
 Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -65,7 +65,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

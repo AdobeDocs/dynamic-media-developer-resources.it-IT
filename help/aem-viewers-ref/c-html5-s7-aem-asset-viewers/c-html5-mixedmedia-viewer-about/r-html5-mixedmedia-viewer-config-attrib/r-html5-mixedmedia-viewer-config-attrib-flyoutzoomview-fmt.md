@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.fmt
 description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
 solution: Experience Manager
-title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Specifica il formato immagine utilizzato dal componente per caricare le immagini
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alpha</span>, il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente dispone di uno sfondo bianco. Pertanto, per renderlo completamente trasparente, imposta la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> trasparente</span>. </p> </td> 
+   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alfa</span>, il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente dispone di uno sfondo bianco. Pertanto, per renderlo trasparente, imposta il <span class="codeph"> colore di sfondo</span> Proprietà CSS in <span class="codeph"> trasparente</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

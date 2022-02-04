@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video per file multimediali di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span> il volume è disattivato; altrimenti, il video viene riprodotto con il suono. Su alcuni dispositivi, l'interruzione della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video al caricamento iniziale. Se impostato su <span class="codeph"> 1 </span> il volume è disattivato; altrimenti, il video viene riprodotto con il suono. Su alcuni dispositivi, l'interruzione della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

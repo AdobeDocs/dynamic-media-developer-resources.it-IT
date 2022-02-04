@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.singleclick
 description: VideoPlayer.singleclick
 solution: Experience Manager
-title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 2ec6d871-05d9-4d85-b031-e64386f5d2e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 5%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura di un singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Impostando su <span class="codeph"> none</span> si disattiva il tocco o il clic singolo per riprodurre/mettere in pausa. Se è impostato su <span class="codeph"> playPause</span>, facendo clic sul video si passa dalla riproduzione alla messa in pausa. Su alcuni dispositivi è possibile utilizzare controlli nativi. In questo caso, il comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura di un singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Impostazione su <span class="codeph"> nessuno</span> disabilita il tocco o il clic singolo per riprodurre/mettere in pausa. Se impostato su <span class="codeph"> playPause</span>, facendo clic sul video si passa dalla riproduzione alla messa in pausa del video. Su alcuni dispositivi è possibile utilizzare controlli nativi. In tal caso, <span class="codeph"> singleclick</span> il comportamento è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

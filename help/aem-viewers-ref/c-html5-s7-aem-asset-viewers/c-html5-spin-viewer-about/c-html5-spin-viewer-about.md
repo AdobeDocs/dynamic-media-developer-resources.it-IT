@@ -1,12 +1,12 @@
 ---
+title: Spin
 description: Il visualizzatore a 360 gradi è un visualizzatore di immagini che fornisce una visualizzazione dell’immagine a 360 gradi o anche una visualizzazione multidimensionale, se si utilizza un set 360 gradi appropriato. È dotato di strumenti di zoom e rotazione, supporto a schermo intero e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 keywords: reattivo
 solution: Experience Manager
-title: Spin
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

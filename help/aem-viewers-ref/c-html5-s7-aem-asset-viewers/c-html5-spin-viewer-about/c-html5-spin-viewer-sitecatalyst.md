@@ -1,13 +1,13 @@
 ---
+title: Supporto per il tracciamento di Adobe Analytics
 description: Il visualizzatore a 360 gradi supporta il tracciamento di Adobe Analytics.
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ Il visualizzatore a 360 gradi supporta il tracciamento di Adobe Analytics.
 
 Il visualizzatore a 360 gradi supporta il tracciamento predefinito di Adobe Analytics.
 
-Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
+Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
 
 Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Per integrarsi con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -66,7 +66,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’ API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

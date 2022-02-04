@@ -1,13 +1,13 @@
 ---
+title: didascalia
 description: Comando URL per il visualizzatore video.
 solution: Experience Manager
-title: didascalia
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '196'
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ Il visualizzatore supporta i sottotitoli codificati tramite file WebVTT in hosti
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>allineamento testo </p> </td> 
    <td colname="col3"> <p><span class="codeph"> sinistra|destra|mezzo|inizio|fine</span> </p> </td> 
-   <td colname="col4"> <p> Controllare l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> middle</span>. </p> </td> 
+   <td colname="col4"> <p> Controllare l’allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> mezzo</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ Altre funzionalità WebVTT presenti nel file WebVTT non sono supportate, ma non 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Specifica lo stato predefinito della didascalia (abilitato è <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Specifica lo stato predefinito della didascalia (abilitato <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Visualizzazione a 360 gradi
 description: La vista principale è costituita dall’immagine di rotazione.
 solution: Experience Manager
-title: Visualizzazione a 360 gradi
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per rendere trasparente la visualizzazione principale.
+Esempio: per rendere trasparente la visualizzazione principale.
 
 ```
 .s7spinviewer .s7spinview { 

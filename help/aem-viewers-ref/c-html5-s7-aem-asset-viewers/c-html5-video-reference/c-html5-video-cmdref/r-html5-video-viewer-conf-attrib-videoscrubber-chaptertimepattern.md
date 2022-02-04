@@ -1,13 +1,13 @@
 ---
+title: VideoScrubber.chaptertimepattern
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
-title: VideoScrubber.chaptertimepattern
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a159153a-c082-4415-9515-7b480282a31f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il pattern per l’ora visualizzata nella barra del titolo dell’etichetta del capitolo video, in cui <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è minuti e <span class="codeph"> s</span> secondi. </p> <p>Il numero di lettere utilizzato per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> è 67:05. La stessa ora viene visualizzata come 1:07:5 se il pattern di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Imposta il pattern per l’ora visualizzata nella barra del titolo dell’etichetta del capitolo video, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è in minuti e <span class="codeph"> s</span> è in secondi. </p> <p>Il numero di lettere utilizzato per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> mostra come 67:05. La stessa ora viene visualizzata come 1:07:5 se il modello temporale specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

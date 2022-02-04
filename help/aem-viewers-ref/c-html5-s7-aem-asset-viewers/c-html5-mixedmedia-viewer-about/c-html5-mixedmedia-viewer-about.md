@@ -1,12 +1,12 @@
 ---
+title: Supporti multipli
 description: Il visualizzatore di file multimediali diversi è un visualizzatore di contenuti multimediali diversi. Supporta i set di file multimediali che contengono immagini, set di campioni, set 360 gradi, video e set di video adattivi.
 keywords: reattivo
 solution: Experience Manager
-title: Supporti multipli
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Il visualizzatore di file multimediali diversi supporta gesti touch e touch sing
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pizzico </p> </td> 
-   <td colname="col2"> <p>In modalità zoom continuo, ingrandisce l’immagine in o out. </p> </td> 
+   <td colname="col2"> <p>In modalità zoom continuo, ingrandisce o riduce l’immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento orizzontale o rapido </p> </td> 

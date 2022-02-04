@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.playback
 description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
 solution: Experience Manager
-title: VideoPlayer.playback
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video per file multimediali di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> automatico|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando <span class="codeph"> auto</span> è impostato, nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza video in streaming HTML5 in formato HLS. Ritorna alla riproduzione progressiva HTML5 su alcuni sistemi come Internet Explorer e Android. </p> <p>Se è specificato <span class="codeph"> progressivo</span>, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modo nativo dai browser e riproduce progressivamente i video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità automatica e progressiva, consulta la Guida utente dell’SDK per visualizzatori. </p> </td> 
+   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando <span class="codeph"> auto</span> nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza lo streaming video HTML5 in formato HLS. Ritorna alla riproduzione progressiva HTML5 su alcuni sistemi come Internet Explorer e Android™. </p> <p>Se <span class="codeph"> progressivo</span> è specificato, il visualizzatore si basa solo sulla riproduzione di HTML5 come supportato in formato nativo dai browser e riproduce video in modo progressivo su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione nelle modalità automatica e progressiva, consulta la Guida utente dell’SDK per visualizzatori. </p> </td> 
   </tr> 
  </tbody> 
 </table>

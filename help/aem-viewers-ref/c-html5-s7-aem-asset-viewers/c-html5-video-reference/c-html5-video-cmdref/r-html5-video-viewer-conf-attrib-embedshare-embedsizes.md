@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: Attributo di configurazione per il visualizzatore video.
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Attributo di configurazione per il visualizzatore video.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`larghezza larghezza altezza`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza`*, *`altezza`*[,0|1][; *`larghezza`*, *`altezza`*[,0|1]]`
 
 Specifica un elenco di dimensioni da incorporare per la casella combinata dimensioni nella finestra di dialogo modale di condivisione da incorporare.
 

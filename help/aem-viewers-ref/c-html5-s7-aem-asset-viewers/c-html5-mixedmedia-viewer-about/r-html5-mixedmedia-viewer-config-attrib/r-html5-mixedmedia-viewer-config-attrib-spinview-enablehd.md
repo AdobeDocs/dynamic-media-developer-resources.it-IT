@@ -1,13 +1,13 @@
 ---
+title: SpinView.enableHD
 description: SpinView.enableHD
 solution: Experience Manager
-title: SpinView.enableHD
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '81'
 ht-degree: 4%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>, ovvero per i dispositivi con visualizzazione ad alta densità come iPhone4 e dispositivi simili. Se attivo, il componente limita le dimensioni della richiesta di immagine IS come se il dispositivo avesse solo un rapporto di pixel di <span class="codeph"> 1</span> e quindi riducesse la larghezza di banda. </p> </td> 
+   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>, ovvero dispositivi con display ad alta densità come iPhone4 e dispositivi simili. Se attivo, il componente limita le dimensioni della richiesta di immagine IS come se il dispositivo avesse solo un rapporto di pixel di <span class="codeph"> 1</span> e quindi ridurre la larghezza di banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> numero</span></span> </p> </td> 
-   <td colname="col2"> <p> Se si utilizza l'impostazione <span class="codeph"> limit</span> , il componente attiva una densità di pixel elevata solo fino al limite specificato. </p> </td> 
+   <td colname="col2"> <p> Se utilizzi <span class="codeph"> limite</span> Il componente consente un'elevata densità di pixel solo fino al limite specificato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

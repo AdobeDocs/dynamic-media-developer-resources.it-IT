@@ -1,14 +1,14 @@
 ---
+title: SpinView.doubleclick
 description: SpinView.doubleclick
 solution: Experience Manager
-title: SpinView.doubleclick
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65e2f2c9-ee2c-45a8-9935-a33089b8c379
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_2D828A5750644B9CB95A2989C36F15F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura del doppio clic/tocco per attivare le azioni. Se si imposta su <span class="codeph"> none </span>, viene disattivato il doppio clic o il doppio tocco. Se è impostato su <span class="codeph"> zoom </span> facendo clic sull'immagine si verifica un giro in un unico passaggio; CTRL+clic consente di eseguire un passaggio di rotazione. Impostando su <span class="codeph"> reset </span> si reimposta un singolo clic sull'immagine per ripristinare la rotazione al livello iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il reset se il fattore di rotazione corrente è pari o superiore al limite specificato, altrimenti viene applicato il spin. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura del doppio clic/tocco per attivare le azioni. Impostazione su <span class="codeph"> nessuno </span> disabilita il doppio clic o il doppio tocco. Se impostato su <span class="codeph"> zoom </span>, facendo clic sull'immagine che ruota in un passaggio di rotazione; CTRL+clic consente di eseguire un passaggio di rotazione. Impostazione su <span class="codeph"> reset </span> causa un singolo clic sull'immagine per ripristinare il livello di rotazione iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il reset se il fattore di rotazione corrente è pari o superiore al limite specificato, altrimenti viene applicato il spin. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Facoltativo.
 
 ## Predefinito {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` su computer desktop;  `zoomReset` su dispositivi touch.
+`reset` su computer desktop; `zoomReset` su dispositivi touch.
 
 ## Esempio {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

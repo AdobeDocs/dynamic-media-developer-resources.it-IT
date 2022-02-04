@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.initialbitrate
 description: VideoPlayer.initialbitrate
 solution: Experience Manager
-title: VideoPlayer.initialbitrate
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: a5416488-d5fe-4f55-aee4-5aedc825ac04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 <table id="table_6B56976AEADA440A9A6BC9C4F65D4ADA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Imposta i bit in bit/bit in bitrate video per secondi o kbps-utilizzati per la riproduzione iniziale del video sui desktop. </p> <p>Se questo valore di bitrate non esiste nel set video adattivo, il lettore video avvia il video con il bitrate più basso successivo. </p> <p>Se è impostato su <span class="codeph"> 0 </span>, il lettore video inizia dal bitrate più basso possibile. Applicabile solo ai sistemi che non dispongono del supporto nativo per video HTML5 HLS (che sono browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+   <td colname="col2"> <p>Imposta il bitrate video (in kilobit al secondo o kbps) utilizzato per la riproduzione iniziale del video sui desktop. </p> <p>Se questo valore di bitrate non esiste nel set video adattivo, il lettore video avvia il video con il bitrate più basso successivo. </p> <p>Se impostato su <span class="codeph"> 0 </span>, il lettore video inizia dal bitrate più basso possibile. Applicabile solo ai sistemi che non dispongono del supporto nativo per video HTML5 HLS (che sono browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

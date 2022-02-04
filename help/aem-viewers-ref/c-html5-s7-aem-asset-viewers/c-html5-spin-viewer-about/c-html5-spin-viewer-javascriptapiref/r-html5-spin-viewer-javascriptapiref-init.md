@@ -1,13 +1,13 @@
 ---
+title: init
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ Riferimento API JavaScript per il visualizzatore a 360 gradi.
 
 `init()`
 
-Avvia l&#39;inizializzazione del visualizzatore a 360 gradi. A questo punto, l’elemento contenitore `DOM` deve essere creato in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
+Avvia l&#39;inizializzazione del visualizzatore a 360 gradi. A questo punto, il contenitore `DOM` deve essere creato in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l&#39;elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnatogli), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l’elemento contenitore non fa ancora parte del layout della pagina web, ad esempio, potrebbe essere nascosto utilizzando `display:none` style - il visualizzatore sospende il processo di inizializzazione. Viene sospeso fino al momento in cui la pagina web riporta l’elemento contenitore al layout, nel quale riprende automaticamente il caricamento del visualizzatore.
 
 Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 

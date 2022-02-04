@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set 360 gradi
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ Riferimento API JavaScript per il visualizzatore a 360 gradi.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori opzionali Image Server aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori opzionali Image Serving aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
-Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

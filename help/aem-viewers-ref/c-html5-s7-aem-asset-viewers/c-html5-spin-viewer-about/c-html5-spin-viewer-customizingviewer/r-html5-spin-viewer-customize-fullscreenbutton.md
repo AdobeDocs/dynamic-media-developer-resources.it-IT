@@ -1,13 +1,13 @@
 ---
+title: Pulsante Schermo intero
 description: Questo pulsante fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando è selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta lo schermo intero nativo. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
 solution: Experience Manager
-title: Pulsante Schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante a schermo intero di 32 x 32 pixel, posizionato sei pixel dal bordo superiore e destro del visualizzatore, e visualizza un’immagine diversa per ciascuno dei quattro stati del pulsante, se selezionato o meno:
+Esempio: per impostare un pulsante a schermo intero che sia di 32 x 32 pixel e posizionato sei pixel dal bordo superiore e destro del visualizzatore. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o non selezionati:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

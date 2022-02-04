@@ -1,14 +1,14 @@
 ---
+title: Swatches.enabledragging
 description: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledragging
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fd432573-677f-4c46-9cc1-88089496ce75
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 5%
    <td> <p> Abilita o disabilita lo scorrimento dei campioni con il mouse o mediante movimenti touch </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funzioni all'interno dell'intervallo <span class="codeph"> 0-1 </span>. Si tratta di un valore <span class="codeph"> % </span> per il movimento nella direzione sbagliata della velocità effettiva. Se è impostato su <span class="codeph"> 1 </span>, si sposta con il mouse. Se è impostato su <span class="codeph"> 0 </span>, non consente di spostarsi nella direzione sbagliata. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> Funzioni <span class="codeph"> 0-1 </span> intervallo. È un <span class="codeph"> % </span> valore del movimento nella direzione sbagliata della velocità effettiva. Se è impostato su <span class="codeph"> 1 </span>Si muove con il mouse. Se è impostato su <span class="codeph"> 0 </span>, non ti consente di muoverti nella direzione sbagliata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
