@@ -1,13 +1,13 @@
 ---
+title: Accesso facilitato alla tastiera e navigazione
 description: Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 solution: Experience Manager
-title: Accesso facilitato alla tastiera e navigazione
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCat
 
 Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Carosello, Dimensionale (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 
-Un utente finale può navigare tra gli elementi dell&#39;interfaccia utente del visualizzatore utilizzando i tasti **[!UICONTROL Tab]** e **[!UICONTROL Maiusc+Tab]**. Se si utilizza **[!UICONTROL Tab]**, lo stato attivo diventa attivo per il successivo elemento dell’interfaccia utente nell’ordine di tabulazione; l&#39;utilizzo di **[!UICONTROL Maiusc+Tab]** riporta lo stato attivo sull&#39;elemento dell&#39;interfaccia utente precedente. L&#39;attraversamento della messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
+L’utente finale può navigare tra gli elementi dell’interfaccia utente del visualizzatore utilizzando **[!UICONTROL Scheda]** e **[!UICONTROL Maiusc+Tab]** colpi di tasti. Utilizzo **[!UICONTROL Scheda]** sposta lo stato attivo al successivo elemento dell’interfaccia utente nell’ordine di tabulazione; utilizzo **[!UICONTROL Maiusc+Tab]** ripristina lo stato attivo dell’interfaccia utente precedente. L&#39;attraversamento della messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
 
-A seconda del sistema operativo e delle impostazioni del browser Web, l’elemento dell’interfaccia utente attivo riceve un’indicazione visiva di focus. Ad esempio, l’indicatore visivo può essere un bordo sottile rappresentato intorno all’elemento dell’interfaccia utente.
+A seconda del sistema operativo e delle impostazioni del browser Web, l’elemento dell’interfaccia utente attivo riceve un’indicazione visiva di focus. Ad esempio, l’indicatore visivo può essere un bordo sottile intorno all’elemento dell’interfaccia utente.
 
-È possibile disabilitare o personalizzare tale messa a fuoco evidenziata nel CSS del visualizzatore. Nel sommario di questo sistema della Guida, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione *nome del visualizzatore*** >** Evidenziazione dello stato attivo **.
+È possibile disabilitare o personalizzare tale messa a fuoco evidenziata nel CSS del visualizzatore. Nel sommario di questo sistema della Guida, sotto un nome di visualizzatore specifico (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione *nome del visualizzatore*** >** Evidenziazione **.
 
 Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente dei visualizzatori sono, nella maggior parte dei casi, ovvie e facili da scoprire.
 
@@ -44,7 +44,7 @@ Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom avanti o indietro </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> o  <span class="uicontrol"> -  </span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> o <span class="uicontrol"> - </span>, rispettivamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ripristino dello zoom </p> </td> 

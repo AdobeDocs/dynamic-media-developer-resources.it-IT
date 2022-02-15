@@ -1,11 +1,11 @@
 ---
+title: Note sulla compatibilità
 description: Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 solution: Experience Manager
-title: Note sulla compatibilità
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 * Il ridimensionamento lato browser causa la sfocatura dell’interfaccia utente e delle immagini durante lo zoom dell’utente sulla pagina. La formattazione dell&#39;interfaccia utente non viene visualizzata correttamente a seconda dello zoom e passa allo schermo intero.
 * A causa della limitazione delle dimensioni sui dispositivi mobili, il visualizzatore di file multimediali diversi utilizza il movimento di diapositiva per scambiare i fotogrammi in set di immagini incorporati invece di toccare il componente campioni incorporati. Il componente è presente come indicatore visivo.
 * Nei browser Internet Explorer e in alcuni dispositivi touch, la modalità a schermo intero non occupa l’intero schermo del dispositivo. ma ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
-* Il pulsante Chiudi non funziona con iOS 8.0 e iOS 8.1 ma funziona con iOS 8.2.
+* Il pulsante Chiudi non funziona con iOS 8.0 e iOS 8.1, ma funziona con iOS 8.2.
 
 ## Galassia SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
@@ -66,7 +66,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
-* Gli eCatalog di grandi dimensioni causano l’arresto anomalo del browser sull’iPad 2.
+* Gli eCatalog di grandi dimensioni causano l’arresto anomalo del browser su iPad 2.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 

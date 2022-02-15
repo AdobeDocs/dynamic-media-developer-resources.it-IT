@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 5%
@@ -19,8 +19,8 @@ ht-degree: 5%
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
 + Note sulla versione dei visualizzatori {#viewers-release-notes}
    + [Note sulla versione dei visualizzatori (5.16.1)](c-release-notes/c-rn-04-06-21.md)
-   + [Note sulla versione dei visualizzatori (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archivia {#archive}
+      + [Note sulla versione dei visualizzatori (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Note sulla versione dei visualizzatori (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Note sulla versione dei visualizzatori (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Note sulla versione dei visualizzatori (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
@@ -660,8 +660,8 @@ ht-degree: 5%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + Riferimento API per Javascript per il visualizzatore zoom {#jsapi-zoom}
-         + [Riferimento API per Javascript per il visualizzatore zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
+      + Riferimento API JavaScript per visualizzatore zoom {#jsapi-zoom}
+         + [Riferimento API JavaScript per visualizzatore zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [disporre](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md)

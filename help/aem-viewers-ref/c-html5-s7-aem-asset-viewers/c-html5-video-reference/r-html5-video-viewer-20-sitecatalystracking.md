@@ -1,13 +1,13 @@
 ---
+title: Supporto per il tracciamento di Adobe Analytics
 description: Il visualizzatore video supporta il tracciamento predefinito di Adobe Analytics.
 solution: Experience Manager
-title: Supporto per il tracciamento di Adobe Analytics
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ Il visualizzatore video supporta il tracciamento predefinito di Adobe Analytics.
 
 Il visualizzatore video supporta il tracciamento predefinito di Adobe Analytics.
 
-Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
+Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
 
 Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-ab10bd7caf184721a366cf3953071934}
 
-Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare l&#39;argomento `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +67,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PLAY (Riproduzione)</span> </p> </td> 

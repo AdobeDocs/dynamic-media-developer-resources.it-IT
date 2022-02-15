@@ -1,20 +1,20 @@
 ---
+title: Visualizzatori per AEM Assets e Dynamic Media Classic
 description: Visualizzatori per AEM Assets e Dynamic Media Classic
 solution: Experience Manager
-title: Visualizzatori per AEM Assets e Dynamic Media Classic
-feature: Dynamic Media Classic,Visualizzatori,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 553e9be6-2737-4d78-bbda-87e866003b2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 13%
 
 ---
 
 # Visualizzatori per AEM Assets e Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-I seguenti visualizzatori funzionano sotto Adobe Experience Manager Assets e anche in Dynamic Media Classic.
+I seguenti visualizzatori funzionano con Adobe Experience Manager Assets e anche con Dynamic Media Classic.
 
 * [Zoom di base](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
@@ -25,5 +25,3 @@ I seguenti visualizzatori funzionano sotto Adobe Experience Manager Assets e anc
 * [Spin](c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
 * [Video](c-html5-video-reference/c-html5-video-reference.md)
 * [Zoom](c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
-
-<!--Add others. The TOC levels in the viewers TOC doesn't seem quite right RB: FIXED-->
