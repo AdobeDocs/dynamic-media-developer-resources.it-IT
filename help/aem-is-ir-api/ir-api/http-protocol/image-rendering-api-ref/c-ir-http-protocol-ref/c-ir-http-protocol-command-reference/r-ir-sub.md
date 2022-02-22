@@ -1,20 +1,20 @@
 ---
-description: Sottoselezione. Consente di applicare materiali diversi a diverse aree dell'oggetto o del gruppo selezionato, nonché di rimuovere i materiali precedentemente applicati.
-solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic, SDK/API
+description: Sottoselezione. Consente di applicare materiali diversi a diverse aree dell'oggetto o del gruppo selezionato e di rimuovere i materiali precedentemente applicati.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '149'
 ht-degree: 6%
 
 ---
 
 # sub{#sub}
 
-Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;oggetto o del gruppo selezionato, nonché di rimuovere i materiali precedentemente applicati.
+Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;oggetto o del gruppo selezionato e di rimuovere i materiali precedentemente applicati.
 
 `sub=0|1|2|3|4|5`
 

@@ -1,18 +1,18 @@
 ---
+title: color
 description: Colore di primo piano. Specifica il colore dei materiali a colori solidi o il colore additivo per i materiali colorabili.
 solution: Experience Manager
-title: color
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# color{#color}
+# color {#color}
 
 Colore di primo piano. Specifica il colore dei materiali a colori solidi o il colore additivo per i materiali colorabili.
 
@@ -21,7 +21,7 @@ Colore di primo piano. Specifica il colore dei materiali a colori solidi o il co
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
-  <td class="stentry"> <p>Valore del colore RGB o grigio. </p></td> 
+  <td class="stentry"> <p>RGB o grigio. </p></td> 
  </tr> 
 </table>
 
@@ -31,8 +31,8 @@ Attributo materiale. Richiesto per i materiali a colori solidi, facoltativo per 
 
 ## Predefinito {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` se il materiale è basato su una voce di catalogo. In caso contrario, `none` non verrà applicato alcun colore.
+`catalog::Color` Se il materiale è basato su una voce di catalogo. In caso contrario, `none` senza colorizzazione.
 
 ## Consultate anche {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
-[catalogo::Color](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552) ,  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0)
+[catalogo::Colore](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552) , [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0)

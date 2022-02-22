@@ -1,13 +1,13 @@
 ---
+title: icc
 description: Profilo colore di output.
 solution: Experience Manager
-title: icc
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39b25f7c-ed3c-4132-8241-e7f3aab07b00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Profilo colore di output.
 
-icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
+icc= *`profile`*[ *`renderIntent`*[,*`blackpointComp`*]]
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 
@@ -24,7 +24,7 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
   <td class="stentry"> <p>Profilo colore ICC. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> renderIntent  </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> renderIntent </span> </span> </p></td> 
   <td class="stentry"> <p>percettivo | relativo | saturazione | assoluto </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,34 +33,34 @@ icc= *`profile`*[, *`renderIntent`*[,*`blackpointComp`*]]
  </tr> 
 </table>
 
-*`profile`* specifica il profilo dello spazio colore di output in cui deve essere convertita l&#39;immagine renderizzata se è diversa dal profilo di lavoro. *`profile`* deve essere un percorso valido  `icc::Name` definito nella mappa del profilo ICC di un catalogo di immagini o di un catalogo predefinito oppure un percorso relativo a un file di profilo (in genere con  [!DNL .icc]o  [!DNL .icm] suffisso).
+*`profile`* Specifica il profilo dello spazio colore di output in cui deve essere convertita l&#39;immagine di cui è stato effettuato il rendering se è diversa dal profilo di lavoro. *`profile`* Deve essere valido `icc::Name` definito nella mappa del profilo ICC di un catalogo di immagini o di un catalogo predefinito o in un percorso relativo a un file di profilo (in genere con [!DNL `.icc`] o [!DNL `.icm`] suffisso).
 
 >[!NOTE]
 >
->*`profile`* potrebbero non includere caratteri &#39;,&#39;, anche se codificati per HTTP.
+>*`profile`* Può non includere caratteri &#39;,&#39;, anche se codificati per HTTP.
 
-*`renderIntent`* consente di ignorare l’intento di rendering predefinito.
+*`renderIntent`* Consente di ignorare l&#39;intento di rendering predefinito.
 
-*`blackpointComp`* abilita la compensazione dei punti neri se il profilo di output supporta questa funzione.
+*`blackpointComp`* Abilita la compensazione dei punti neri se il profilo di output supporta questa funzione.
 
 >[!NOTE]
 >
->Non tutte le conversioni di colore supportano tutte le scelte *`renderIntent`* e *`blackpointComp`*. In genere, queste impostazioni vengono rispettate solo quando il profilo di output ICC caratterizza una periferica di output come una stampante o un monitor. Inoltre, alcuni profili di output ICC non supportano tutte le scelte *`renderIntent`*.
+>Non tutte le conversioni di colore supportano tutte *`renderIntent`* e *`blackpointComp`* scelte. In genere, queste impostazioni vengono rispettate solo quando il profilo di output ICC caratterizza una periferica di output come una stampante o un monitor. Inoltre, alcuni profili di output ICC non supportano tutti *`renderIntent`* scelte.
 
 ## Proprietà {#section-b4042623a8ea40248c11b2153e5906b1}
 
-Può verificarsi in qualsiasi punto della richiesta. Se il tipo di immagine specificato con `fmt=` non corrisponde a *`profile`*, viene restituito un errore.
+Può verificarsi in qualsiasi punto della richiesta. Viene restituito un errore se il tipo di immagine è specificato con `fmt=` non corrisponde *`profile`*.
 
-*`renderIntent`* e  *`blackpointComp`* vengono ignorati se non sono compatibili con il profilo ICC specificato.
+Entrambi *`renderIntent`* e *`blackpointComp`* vengono ignorati se non sono compatibili con il profilo ICC specificato.
 
 I profili dispositivo di output CMYK supportano più probabilità di intenti di rendering diversi.
 
 ## Predefinito {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-Se la gestione del colore è abilitata e `icc=` non è specificato, il server distribuirà l&#39;immagine convertita nel profilo di output ( `attribute::IccProfile*`) corrispondente al tipo di immagine specificato con `fmt=`.
+Se la gestione del colore è abilitata e `icc=` non è specificato, il server distribuisce l&#39;immagine convertita nel profilo di output ( `attribute::IccProfile*`) corrispondente al tipo di immagine specificato con `fmt=`.
 
-Se non viene specificato, *`renderIntent`* viene ereditato da `attribute::IccRenderIntent` e *`blackpointComp`* viene ereditato da `attribute::IccBlackPointCompensation`.
+Se non specificato, *`renderIntent`* viene ereditato da `attribute::IccRenderIntent`e *`blackpointComp`* viene ereditato da `attribute::IccBlackPointCompensation`.
 
 ## Consultate anche {#section-37ef83149fd74345956a98f633cc0294}
 
-[Gestione](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md#concept-7bac7c2c41be42c1b301eae80abe6b8d) del colore,  [attributo::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127),  [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f),  [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c),  [attributo::IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40),  [attributo::IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0)
+[Gestione del colore](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md#concept-7bac7c2c41be42c1b301eae80abe6b8d), [attributo::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127), [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f), [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c), [attributo::IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40), [attributo::IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0)

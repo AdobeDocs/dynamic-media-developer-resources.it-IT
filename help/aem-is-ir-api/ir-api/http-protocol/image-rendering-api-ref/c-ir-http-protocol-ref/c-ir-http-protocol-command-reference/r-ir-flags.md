@@ -1,18 +1,18 @@
 ---
+title: flag
 description: Applica dei flag. Specifica opzioni di rendering aggiuntive.
 solution: Experience Manager
-title: flag
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---
 
-# flag{#flags}
+# flag {#flags}
 
 Applica dei flag. Specifica opzioni di rendering aggiuntive.
 
@@ -27,9 +27,9 @@ Applica dei flag. Specifica opzioni di rendering aggiuntive.
 
 Attualmente utilizzato solo per i materiali dei cabinet.
 
-`flags=0` (impostazione predefinita) esegue il rendering degli armadi superiori con porte solide.
+`flags=0` (impostazione predefinita) Esegue il rendering degli armadi superiori con porte solide.
 
-`flags=1` rende gli armadi superiori con porte in vetro (se la vignetta è stata creata con porte in vetro).
+`flags=1` Rende gli armadi superiori con porte in vetro (se la vignetta è stata creata con porte in vetro).
 
 ## Proprietà {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Attributo materiale. Ignorato se non è un materiale mobile o se l&#39;oggetto m
 
 ## Predefinito {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` senza porte in vetro.
+`flags=0` Senza porte in vetro.

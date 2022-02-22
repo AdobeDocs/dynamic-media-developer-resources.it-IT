@@ -1,13 +1,13 @@
 ---
+title: repeat
 description: Modalità di ripetizione texture. Specifica la modalità di ripetizione per i materiali di texture ripetibili.
 solution: Experience Manager
-title: repeat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 15%
 
 ---
@@ -73,7 +73,7 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Specchio (libreria). </p> </td> 
+  <td class="stentry"> <p>Specchio (abbinamento di libri). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -101,7 +101,7 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
 </table>
 
-Le modalità di taglio casuale (14...18) possono essere utilizzate per sintetizzare texture da immagini che non sono facilmente ripetibili; l&#39;algoritmo creerà texture completamente casuali o parzialmente casuali in base all&#39;immagine originale.
+Le modalità di taglio casuale (14...18) possono essere utilizzate per sintetizzare texture da immagini che non sono facilmente ripetibili; l’algoritmo crea texture completamente casuali o parzialmente casuali in base all’immagine originale.
 
 ## Proprietà {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ Attributo materiale. Ignorati da materiali a tinta unita, decal e cabinet.
 
 ## Predefinito {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, se il materiale è basato su una voce di catalogo, altrimenti  `0` (ripetizione diretta).
+`catalog::Repeat`, se il materiale è basato su una voce di catalogo, altrimenti `0` (ripetizione diretta).
 
 ## Consultate anche {#section-ac99113b64654d75a3a86e41db546269}
 

@@ -1,14 +1,14 @@
 ---
+title: illum
 description: Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
 solution: Experience Manager
-title: illum
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui quest
 
 Se la mappa di illuminazione specificata non è disponibile nella vignetta di destinazione, viene invece utilizzata la mappa disponibile più vicina.
 
-`illum=-1` specifica che la mappa di illuminazione viene selezionata automaticamente in base al  `gloss=` valore.
+`illum=-1` Specifica che la mappa di illuminazione viene selezionata automaticamente in base alla `gloss=` valore.
 
 ## Proprietà {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

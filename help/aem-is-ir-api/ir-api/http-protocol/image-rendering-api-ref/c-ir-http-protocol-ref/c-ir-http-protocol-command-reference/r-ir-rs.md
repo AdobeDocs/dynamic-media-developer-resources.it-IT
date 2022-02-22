@@ -1,20 +1,20 @@
 ---
-description: Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
-solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic, SDK/API
+description: Impostazioni avanzate di rendering. Specifica le impostazioni avanzate di rendering da applicare durante il rendering della selezione corrente.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
 
 # rs{#rs}
 
-Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanzate da applicare durante il rendering della selezione corrente.
+Impostazioni avanzate di rendering. Specifica le impostazioni avanzate di rendering da applicare durante il rendering della selezione corrente.
 
 `rs= *`val`*`
 
@@ -25,7 +25,7 @@ Impostazioni avanzate di rendering. Specifica le impostazioni di rendering avanz
  </tr> 
 </table>
 
-Utilizzato per ottimizzare l&#39;aspetto del rendering. Utilizza la funzione di rendering dello strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) per creare stringhe di impostazioni di rendering.
+Utilizzato per ottimizzare l&#39;aspetto del rendering. Per creare stringhe di impostazioni di rendering, utilizza la funzione di rendering dello strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring).
 
 ## Proprietà {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Attributo materiale.
 
 ## Esempio {#section-47e4811882574441a4d517e42a35f352}
 
-Dopo una certa sperimentazione nell&#39;authoring delle immagini, viene determinato che l&#39;applicazione di Mascheramento intelligente (USM) fornisce la giusta quantità di nitidezza per l&#39;applicazione e il materiale specificati. La stringa delle impostazioni di rendering che configura USM viene copiata nel comando `rs=` da utilizzare con questo materiale:
+Dopo una certa sperimentazione nell&#39;authoring delle immagini, viene determinato che l&#39;applicazione di Mascheramento intelligente (USM) fornisce la giusta quantità di nitidezza per l&#39;applicazione e il materiale specificati. La stringa delle impostazioni di rendering che configura USM viene copiata in `rs=` comando da utilizzare con questo materiale:
 
 `…&rs=U2V20W50X2&…`
 

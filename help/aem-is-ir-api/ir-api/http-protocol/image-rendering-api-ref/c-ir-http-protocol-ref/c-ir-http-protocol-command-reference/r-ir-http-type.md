@@ -1,14 +1,14 @@
 ---
+title: Testo
 description: Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
 solution: Experience Manager
-title: Testo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 22%
+source-wordcount: '152'
+ht-degree: 24%
 
 ---
 
@@ -101,7 +101,7 @@ Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
  </tr> 
 </table>
 
-Utilizzato in combinazione con `gloss=` e `rough=` per controllare i comportamenti di riflessione e effetto lucido. Materiali diversi produrranno effetti diversi, anche se `gloss=` e `rough=` sono gli stessi.
+Utilizzato con `gloss=` e `rough=` per controllare i comportamenti di riflesso e effetto lucido. Materiali diversi producono effetti diversi, anche se `gloss=` e `rough=` Sono uguali.
 
 ## Proprietà {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Attributo materiale. Ignorato se la vignetta non include dati di riflessione 3D 
 
 ## Predefinito {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` se il materiale è basato su una voce di catalogo. Altrimenti `type=0`. Se non specificato, o se `type=0`, il server selezionerà un valore predefinito adatto a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
+`catalog::Type` Se il materiale è basato su una voce di catalogo. Diversamente `type=0`. Se non specificato, o se `type=0`, il server seleziona un valore predefinito appropriato a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
 
 ## Consultate anche {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [grezzo=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [grezzo=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

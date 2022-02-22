@@ -1,14 +1,14 @@
 ---
+title: pos
 description: Posizione decal. Definisce l'offset in pollici dal punto di ancoraggio= dell'immagine decal al punto di origine decal definito dall'oggetto vignetta di destinazione.
 solution: Experience Manager
-title: pos
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Posizione decal. Definisce l&#39;offset in pollici dal punto di ancoraggio= dell
 
 <table id="simpletable_DB3B64EFB67A47AD843812324ABFAE45"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>,<span class="varname"> y</span> </p></td> 
   <td class="stentry"> <p>Regolazione relativa della posizione nelle unità di coordinate della scena (tipicamente pollici) (reale, reale). </p></td> 
  </tr> 
 </table>
@@ -35,4 +35,4 @@ Attributo materiale. Ignorati da materiali diversi dai decals.
 
 ## Consultate anche {#section-7cd8139481334ed79704d628b5bbd236}
 
-[Coordinate](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1) scena,  [ancoraggio=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[Coordinate scena](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md#concept-528507024fa640b19a2631357febf7f1), [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

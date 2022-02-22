@@ -1,13 +1,13 @@
 ---
+title: rotate
 description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione per i materiali.
 solution: Experience Manager
-title: rotate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '123'
 ht-degree: 6%
 
 ---
@@ -25,17 +25,17 @@ Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione per i mat
  </tr> 
 </table>
 
-Ruotare materiali di texture ripetibili (esclusi sfondi) di multipli di 45 gradi quando applicati a Oggetti piatti o Oggetti piano.
+Ruotare i materiali di texture ripetibili (esclusi i sfondi) di multipli di 45° quando applicati a Oggetti piatti o Oggetti piano.
 
 Ruotare i materiali di texture ripetibili con angoli arbitrari quando applicati a Flowline e Sketch Objects.
 
 Ruotare i materiali di decal per angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La texture o la decal vengono ruotate intorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l’origine dell’oggetto di destinazione.
+Gli angoli positivi ruotano in senso orario. La texture o la decal viene ruotata intorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l’origine dell’oggetto di destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attributo materiale. Ignorato da materiali per il trattamento a tinta unita, carta da parati, armadio e finestre. *`angle`* deve essere un multiplo di 45 per texture ripetibili, a meno che non sia applicato a Flowline o Sketch Objects.
+Attributo materiale. Ignorato da materiali per il trattamento a tinta unita, carta da parati, armadio e finestre. *`angle`* Deve essere un multiplo di 45 per texture ripetibili, a meno che non sia applicato agli oggetti Flowline o Sketch.
 
 ## Predefinito {#section-14c991e71b74449db8ff18a775949b28}
 

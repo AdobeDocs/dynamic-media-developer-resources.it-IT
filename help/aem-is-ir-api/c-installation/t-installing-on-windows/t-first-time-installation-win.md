@@ -1,13 +1,13 @@
 ---
+title: Installazione per la prima volta
 description: Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
 solution: Experience Manager
-title: Installazione per la prima volta
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -20,45 +20,48 @@ Utilizzare questi passaggi per installare Image Server per la prima volta su Win
 1. Se hai già ricevuto una licenza, copiala sul tuo server, quindi esegui l&#39;installazione della licenza facendo doppio clic sul file.
 
    Se non si dispone ancora di una licenza, è possibile procedere con l&#39;installazione e installare la licenza in un secondo momento.
+
 1. Estrarre il contenuto del file zip di distribuzione Image Serving.
-1. Esegui [!DNL setup]/ [!DNL setup.exe] per avviare l&#39;installazione guidata.
-1. Fare clic su &quot;Successivo&quot; per passare al contratto di licenza con l&#39;utente finale (EULA), leggere il contratto di licenza e fare clic su **[!UICONTROL Sì]**.
+1. Avvia l&#39;installazione guidata, eseguendo [!DNL setup]/ [!DNL setup.exe].
+1. Seleziona **[!UICONTROL Successivo]** per avanzare al contratto di licenza con l’utente finale (EULA), leggere il contratto di licenza e selezionare **[!UICONTROL Sì]**.
 
-   La finestra di dialogo [!DNL Authentication] viene visualizzata come segue.
-1. Se una licenza è già installata e le informazioni sulla licenza vengono visualizzate nella finestra di dialogo [!DNL Authentication], fare clic su **[!UICONTROL Avanti]** per continuare.
+   La [!DNL Authentication] viene visualizzata la finestra di dialogo successiva.
+1. Se una licenza è già installata e le informazioni sulla licenza vengono visualizzate nella [!DNL Authentication] finestra di dialogo, seleziona **[!UICONTROL Successivo]** per continuare.
 
-   Se non disponi di una licenza, fai clic su **[!UICONTROL Richiedi licenza]**. Nella finestra di dialogo successiva viene visualizzato uno degli indirizzi MAC della scheda di interfaccia di rete del computer. Invia un&#39;e-mail a questo indirizzo MAC, al nome dell&#39;azienda e al prodotto che stai installando come indicato dal prompt.
+   Se non si dispone di una licenza, selezionare **[!UICONTROL Richiedi licenza]**. Nella finestra di dialogo successiva viene visualizzato uno degli indirizzi MAC della scheda di interfaccia di rete del computer. Invia un&#39;e-mail a questo indirizzo MAC, al nome dell&#39;azienda e al prodotto da installare come indicato dal prompt.
 
-   **Importante:** la licenza si basa sull&#39;indirizzo MAC di una delle schede di interfaccia di rete installate su questo host. Se disattivi, rimuovi o sostituisci questa scheda, la licenza non verrà più riconosciuta valida. Assicurati di ottenere una licenza per la configurazione hardware che utilizzerai per IS.
+   **Importante:** La licenza si basa sull&#39;indirizzo MAC di una delle schede di interfaccia di rete installate su questo host. Se disattivi, rimuovi o sostituisci questa scheda, la licenza non viene più riconosciuta come valida. Assicurati di ottenere una licenza per la configurazione hardware utilizzata per Image Serving.
 
-   È possibile continuare a installare IS senza una licenza valida e installare la licenza in un secondo momento. Per continuare, fare clic su **[!UICONTROL Indietro]** per tornare alla finestra di dialogo [!DNL Authentication], quindi fare clic su **[!UICONTROL Avanti]**.
+   È possibile continuare a installare IS senza una licenza valida e installare la licenza in un secondo momento. Per continuare, seleziona **[!UICONTROL Indietro]** per tornare al [!DNL Authentication] finestra di dialogo, quindi selezionare **[!UICONTROL Successivo]**.
 1. Procedi alla pagina &quot;Impostazioni amministratore server della piattaforma&quot;. Immetti i nuovi valori desiderati oppure accetta i valori predefiniti.
 
    Puoi configurare i seguenti elementi:
 
-<table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
- <tbody> 
-  <tr> 
-   <td> <p> Porta di connessione HTTP del server della piattaforma </p> </td> 
-   <td> <p>Porta di ascolto HTTP principale per Image Server e Image Rendering </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Porta di ascolto amministratore </p> </td> 
-   <td> <p>Porta di ascolto amministratore </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Dimensioni della cache del server della piattaforma in MB </p> </td> 
-   <td> <p>Dimensione iniziale della cache di risposta principale </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Percorso cache del server della piattaforma </p> </td> 
-   <td> <p>Cartella cache PS </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
+   <tbody> 
+   <tr> 
+      <td> <p> Porta di connessione HTTP del server della piattaforma </p> </td>
+      <td> <p>Porta di ascolto HTTP principale per Image Server e Image Rendering </p> </td>
+   </tr> 
+   <tr> 
+      <td> <p> Porta di ascolto amministratore </p> </td>
+      <td> <p>Porta di ascolto amministratore </p> </td>
+   </tr> 
+   <tr> 
+      <td> <p> Dimensioni della cache del server della piattaforma in MB </p> </td>
+      <td> <p>Dimensione iniziale della cache di risposta principale </p> </td>
+   </tr>
+   <tr> 
+      <td> <p> Percorso cache del server della piattaforma </p> </td>
+      <td> <p>Cartella cache PS </p> </td>
+   </tr>
+   </tbody>
+   </table>
 
-I numeri di porta specificati devono essere univoci e non devono essere utilizzati da altre applicazioni o servizi.
+   I numeri di porta specificati devono essere univoci e non devono essere utilizzati da altre applicazioni o servizi.
 
-La schermata successiva offre l’opportunità di rivedere le impostazioni selezionate.
-1. Fare clic su **[!UICONTROL Indietro]** per apportare modifiche oppure fare clic su **[!UICONTROL Avanti]** per avviare l&#39;installazione.
-1. Fare clic su **[!UICONTROL Fine]** per uscire dalla procedura guidata di installazione.
+   La schermata successiva offre l’opportunità di rivedere le impostazioni selezionate.
+
+1. Seleziona **[!UICONTROL Indietro]** per apportare modifiche, oppure seleziona **[!UICONTROL Successivo]** per avviare l&#39;installazione.
+
+1. Seleziona **[!UICONTROL Fine]** per uscire dalla procedura guidata di installazione.

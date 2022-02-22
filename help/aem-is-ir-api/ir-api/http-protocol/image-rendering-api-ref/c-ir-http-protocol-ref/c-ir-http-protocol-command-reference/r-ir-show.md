@@ -1,13 +1,13 @@
 ---
+title: show
 description: Mostra oggetto di sovrapposizione. Rende visibili nella selezione corrente tutti gli oggetti di sovrapposizione precedentemente nascosti (inclusi gli oggetti frame di rivestimenti delle finestre).
 solution: Experience Manager
-title: show
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
