@@ -1,11 +1,11 @@
 ---
+title: Effetto mappa immagine
 description: A seconda del valore del parametro della modalità , il visualizzatore visualizza le icone della mappa immagine sulla visualizzazione principale in punti in cui le mappe sono originariamente create in Dynamic Media Classic. In alternativa, rende aree esatte che corrispondono alla forma delle mappe immagine originali.
 solution: Experience Manager
-title: Effetto mappa immagine
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%

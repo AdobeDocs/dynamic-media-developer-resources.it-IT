@@ -1,11 +1,11 @@
 ---
+title: Popup pannello informazioni
 description: Quando un utente attiva una mappa immagine con una proprietà rollover_key definita in Dynamic Media Classic e se la funzione del pannello informazioni è configurata correttamente per il visualizzatore, viene visualizzato al centro dell’area del visualizzatore.
 solution: Experience Manager
-title: Popup pannello informazioni
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
