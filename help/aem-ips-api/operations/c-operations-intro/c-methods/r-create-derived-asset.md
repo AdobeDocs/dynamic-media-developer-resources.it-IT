@@ -2,12 +2,12 @@
 description: Crea una nuova risorsa derivata da una risorsa immagine sorgente principale esistente.
 solution: Experience Manager
 title: createDeriedAsset
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '261'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Sintassi
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Le risorse derivate specificano i comandi del protocollo Image Server che modificano la rappresentazione dell&#39;immagine proprietaria. Il tipo derivato `AdjustedView` consente di applicare semplici modifiche a una singola immagine (ad esempio, specificando un rettangolo di ritaglio), mentre il `LayerView` consente di creare una visualizzazione a più livelli che può includere testo o altre immagini.
+Le risorse derivate specificano i comandi del protocollo Image Server che modificano la rappresentazione dell&#39;immagine proprietaria. La `AdjustedView` il tipo derivato consente di applicare semplici modifiche a una singola immagine (ad esempio, specificando un rettangolo di ritaglio), mentre il `LayerView` consente di creare una visualizzazione a più livelli che può includere testo o immagini aggiuntive.
 
 A differenza di una copia immagine (vedi [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), un&#39;immagine derivata è collegata all&#39;immagine proprietaria. Le modifiche all&#39;immagine del proprietario modificano le risorse derivate associate. L&#39;eliminazione dell&#39;immagine del proprietario comporta l&#39;eliminazione di tutte le immagini derivate associate.
 
@@ -40,12 +40,12 @@ A differenza di una copia immagine (vedi [copyImage](../../../operations/c-opera
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverai la nuova risorsa. |
-| `*`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale dalla quale verrà derivata la nuova immagine. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui verrà creata la nuova risorsa derivata. |
+| `*`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriva la nuova immagine. |
+| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui viene creata la nuova risorsa derivata. |
 | `*`name`*` | `xsd:string` | Sì | Nome della risorsa derivata. |
 | `*`type`*` | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | No | I comandi del protocollo di rendering delle immagini o del server di immagini applicati *prima* della richiesta o `urlPostApplyModifier` dei comandi. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandi del protocollo di rendering delle immagini o delle immagini applicati *dopo* ai comandi della richiesta o `urlPostApplyModifier`. |
+| `*`urlModifier`*` | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *prima* la richiesta o `urlPostApplyModifier` comandi. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *dopo* alla richiesta o `urlPostApplyModifier` comandi. |
 
 **Output (createDeriedAssetParam)**
 

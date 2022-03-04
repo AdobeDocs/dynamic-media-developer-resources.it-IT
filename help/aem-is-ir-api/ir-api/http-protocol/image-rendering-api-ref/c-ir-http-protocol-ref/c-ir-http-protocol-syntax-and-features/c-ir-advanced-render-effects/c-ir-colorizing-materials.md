@@ -1,13 +1,13 @@
 ---
+title: Materiali coloranti
 description: La maggior parte dei materiali può essere colorata dinamicamente.
 solution: Experience Manager
-title: Materiali coloranti
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95b13a57-f10b-4ff2-90fd-507e69cb2b04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 La maggior parte dei materiali può essere colorata dinamicamente.
 
-L&#39;algoritmo di colorazione è abbastanza semplicistico e funziona meglio per le immagini di materiale con una gamma di tonalità limitata. Per colorare un materiale, il modulo di rendering sottrae semplicemente il valore `bgc=` e aggiunge il valore `color=` a ciascun valore di pixel.
+L&#39;algoritmo di colorazione è semplicistico e funziona al meglio per le immagini di materiale con una gamma di tonalità limitata. Per colorare un materiale, il modulo di rendering sottrae semplicemente il `bgc=` e aggiunge il `color=` a ogni valore di pixel.
 
-La colorazione è disabilitata se `color=` non è specificato. `bgc=` è ignorato dai materiali dei cabinet; viene invece utilizzato il valore del colore di base incorporato nel  [!DNL vnc] file .
+Colorazione disabilitata se `color=` non è specificato. La `bgc=` l&#39;attributo viene ignorato dai materiali dell&#39;armadio; il valore del colore di base incorporato nel [!DNL vnc] viene invece utilizzato il file .

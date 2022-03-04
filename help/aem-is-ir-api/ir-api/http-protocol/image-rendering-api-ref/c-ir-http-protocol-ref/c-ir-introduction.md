@@ -1,13 +1,13 @@
 ---
+title: Introduzione
 description: Questo documento descrive il protocollo HTTP per il rendering delle immagini di Dynamic Media.
 solution: Experience Manager
-title: Introduzione
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Vengono descritti solo gli aspetti del protocollo disponibili al pubblico. Il se
 
 **Pubblico previsto**
 
-Questa documentazione è destinata a programmatori esperti e sviluppatori di siti web che desiderano sfruttare il rendering delle immagini Dynamic Media per un sito web o un&#39;applicazione personalizzata.
+Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano utilizzare Dynamic Media Image Rendering per un sito web o un&#39;applicazione personalizzata.
 
 Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e Image Rendering, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell&#39;imaging.
 
@@ -29,42 +29,42 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>letterale </p> </td> 
-  <td class="stentry"> <p>Nelle sezioni di sintassi, il testo non corsivo è letterale; questo non si applica allo spazio vuoto e ai simboli [ ] { } | </p> </td> 
+  <td class="stentry"> <p>Nelle sezioni di sintassi, il testo non corsivo è letterale; non si applica allo spazio bianco e ai simboli [ ] { } | </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>"letterale" </p> </td> 
   <td class="stentry"> <p>Nelle sezioni descrittive, il testo non corsivo tra virgolette singole è letterale. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> parameter  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> parameter </span> </p> </td> 
   <td class="stentry"> <p>Il corsivo indica una variabile o un parametro da sostituire con un valore effettivo. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attributo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> attributo::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con il prefisso "attribute::" fa riferimento a un attributo di catalogo di immagini. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalogo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catalogo::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con il prefisso "catalog:::" fa riferimento a un campo dati del catalogo dei materiali. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso "icc::" fa riferimento a un campo nella mappa del profilo colore ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso "macro::" fa riferimento a un campo nella tabella di definizione della macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ruleset::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ruleset::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso 'ruleset::' fa riferimento a un elemento in un set di regole di pre-elaborazione URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> predefinito::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> predefinito::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nome con il prefisso "default::" fa riferimento a un attributo del catalogo immagini predefinito. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> vignetta::Item  </span> </td> 
+  <td class="stentry"> <span class="codeph"> vignetta::Item </span> </td> 
   <td class="stentry"> <p>Un nome con prefisso "vignette::" fa riferimento a un campo nella mappa della vignetta. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -76,7 +76,7 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
   <td class="stentry"> <p>L'elemento di sintassi opzionale può essere ripetuto una o più volte. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> punto 2  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
   <td class="stentry"> <p>Una barra verticale indica che è possibile utilizzare il singolo elemento di sintassi a sinistra o l'elemento a destra. È necessario selezionare esattamente un elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -97,4 +97,4 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
 
 ** *`MSS`* ** Segmento di specifica del materiale: un insieme di attributi di materiale tra due comandi di selezione nella richiesta.
 
-** *`vignette`* ** Un’immagine preparata in Dynamic Media Image Authoring per l’utilizzo con Image Rendering.
+** *`vignette`* ** Un&#39;immagine preparata in Dynamic Media Image Authoring per l&#39;utilizzo con Image Rendering.

@@ -2,12 +2,12 @@
 description: Un proxy del server di immagini può essere utilizzato per ridimensionare le immagini per i telefoni giapponesi.
 solution: Experience Manager
 title: Proxy del server immagini
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Un proxy del server di immagini può essere utilizzato per ridimensionare le imm
 
 ## Formato URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-Il formato url per il proxy IS è molto simile alle normali richieste IS. Tutti i modificatori IS passati al proxy vengono trasmessi al server di immagini. Puoi trovare informazioni sui modificatori IS in [Riferimento protocollo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+Il formato url per il proxy IS è molto simile alle normali richieste IS. Tutti i modificatori IS passati al proxy vengono trasmessi al server di immagini. Puoi trovare informazioni sui modificatori IS nel [Riferimento al protocollo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ Il formato url per il proxy IS è molto simile alle normali richieste IS. Tutti 
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widget =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widget = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale della larghezza utilizzabile del dispositivo da utilizzare come larghezza dell'immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale dell'altezza utilizzabile del dispositivo da utilizzare come altezza dell'immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale della proprietà Limite di memoria incorporato del dispositivo per limitare la dimensione della risposta a. Questo vale solo per le risposte jpg. La qualità dell'immagine viene abbassata finché la dimensione della risposta non si trova entro la percentuale specificata. </p></td> 
  </tr> 
 </table>

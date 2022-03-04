@@ -1,13 +1,13 @@
 ---
+title: Codifica HTTP del rendering delle immagini
 description: I valori dei comandi devono essere codificati in http utilizzando %xx sequenze di escape, in modo che le stringhe di valori non includano i caratteri riservati '=', '&' e '%'.
 solution: Experience Manager
-title: Codifica HTTP del rendering delle immagini
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 I valori dei comandi devono essere codificati in http utilizzando %xx sequenze di escape, in modo che le stringhe di valori non includano i caratteri riservati &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-In caso contrario, si applicano le regole di codifica HTTP standard. La specifica HTTP richiede la codifica dei caratteri non sicuri come &#39; &#39; (spazio), &#39;&#39;(virgolette doppie), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, nonché di tutti i caratteri di controllo, come `<return>` e `<tab>`.
+In caso contrario, si applicano le regole di codifica HTTP standard. La specifica HTTP richiede la codifica dei caratteri non sicuri come &#39; (spazio), &#39;&quot; (virgolette doppie), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, nonché di eventuali caratteri di controllo, ad esempio `<return>` e `<tab>`.
 
-**Attenzione:** le parentesi graffe { } utilizzate come delimitatori di nidificazione delle richieste non devono essere codificate. Alcuni client di posta elettronica codificano purtroppo le parentesi graffe nella richiesta HTTP incorporata. In caso di problemi, Image Rendering consente l’uso di parentesi tonde ( ) invece di parentesi graffe.
+**Attenzione:** Le parentesi graffe { } utilizzate come delimitatori di nidificazione delle richieste non devono essere codificate. Alcuni client di posta elettronica codificano purtroppo le parentesi graffe nella richiesta HTTP incorporata. Se questo problema si verifica, Image Rendering consente l’uso di parentesi tonde ( ) invece di parentesi graffe.
 
 ## Esempio {#section-3edc5b8ee2354220a281b01722ad337a}
 

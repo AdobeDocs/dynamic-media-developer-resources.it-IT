@@ -2,12 +2,12 @@
 description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 5%
 
 ---
@@ -42,38 +42,38 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L'handle della società che conterrà il set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della cartella in cui verrà creato il nuovo set di risorse. </td> 
+   <td colname="col4"> L’handle della cartella in cui viene creato il nuovo set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Nome risorsa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Identificatore univoco creato dal client per il tipo di set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
   </tr> 
@@ -82,7 +82,7 @@ Sintassi
 
 **Funzioni di sostituzione per setDefinition**
 
-È possibile specificare le funzioni di sostituzione in linea risolte durante la ricerca o la pubblicazione del catalogo. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono enumerate di seguito.
+È possibile specificare le funzioni di sostituzione in linea risolte durante la ricerca o la pubblicazione del catalogo. Il formato delle stringhe di sostituzione è `${<substitution_func>}`. Le funzioni disponibili sono enumerate di seguito.
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 description: Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale decal.
 solution: Experience Manager
 title: Dimensione
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ Dimensione del carrello. Larghezza, altezza e spessore di un oggetto materiale d
 
 Tre numeri reali separati da virgole. Non deve essere negativo. Imposta i valori non utilizzati su 0. Gli zeri finali possono essere omessi.
 
-Specificare larghezza e altezza solo se l&#39;immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero cambiare). Impostare larghezza o altezza per ridimensionare l&#39;immagine proporzionalmente. Impostare sia la larghezza che l&#39;altezza su 0 per utilizzare `catalog::Resolution`per determinare le dimensioni dell&#39;oggetto.
+Specificare larghezza e altezza solo se l&#39;immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero cambiare). Impostare larghezza o altezza per ridimensionare l&#39;immagine proporzionalmente. Impostare larghezza e altezza su 0 da utilizzare `catalog::Resolution`per determinare le dimensioni dell’oggetto.
 
-Fornire un valore di spessore per aggiungere un&#39;ombreggiatura esterna all&#39;oggetto decal. Facoltativo per i materiali decal, ignorati da tutti gli altri materiali.
+Specificare un valore di spessore per aggiungere un&#39;ombreggiatura esterna all&#39;oggetto decal. Facoltativo per i materiali decal, ignorati da tutti gli altri materiali.
 
 ## Predefinito {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Questo indica che la dimensione del decal deve essere determinata in base al catalogo::Resolution e che l&#39;oggetto non ha uno spessore (quindi non sarà resa alcuna ombreggiatura).
+0,0,0. Questo indica che la dimensione del decal deve essere determinata in base al catalogo::Resolution e che l&#39;oggetto non ha uno spessore (quindi, non viene eseguito il rendering di alcuna ombreggiatura).
 
 ## Esempi {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

@@ -1,20 +1,20 @@
 ---
-description: Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta, nonché un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
-solution: Experience Manager
 title: Catalogo delle sessioni
-feature: Dynamic Media Classic, SDK/API
+description: Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Catalogo delle sessioni{#session-catalog}
 
-Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta, nonché un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
+Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti `src=`, `vignette=`e `icc=` comandi.
 
 Il catalogo di sessione è specificato come primo elemento del percorso della richiesta HTTP (subito dopo il nome del server). Se il primo elemento del percorso non corrisponde all’attributo::RootId di qualsiasi catalogo, il catalogo predefinito viene utilizzato come catalogo di sessione.
 
@@ -42,7 +42,7 @@ Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::RootUrl</span> </p> </td> 
-   <td> <p> URL principale per percorsi di file HTTP relativi nei comandi <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL principale per percorsi di file HTTP relativi in <span class="codeph"> src=</span> comandi </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::ShowOverlapObjs</span> </p> </td> 
@@ -70,7 +70,7 @@ Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo di compressione per l'uscita immagine TIFF </p> </td> 
+   <td> <p> Tipo di compressione per l’output immagine di TIFF </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::Sharpen</span> </p> </td> 
@@ -78,11 +78,11 @@ Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::OnFailSel</span> </p> </td> 
-   <td> <p> Specifica il comportamento quando un comando <span class="codeph"> sel=</span> non riesce </p> </td> 
+   <td> <p> Specifica il comportamento quando un <span class="codeph"> sel=</span> errore del comando </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attributo::OnFailObj</span> </p> </td> 
-   <td> <p> Specifica il comportamento quando un comando <span class="codeph"> obj=</span> non riesce </p> </td> 
+   <td> <p> Specifica il comportamento quando un <span class="codeph"> obj=</span> errore del comando </p> </td> 
   </tr> 
  </tbody> 
 </table>

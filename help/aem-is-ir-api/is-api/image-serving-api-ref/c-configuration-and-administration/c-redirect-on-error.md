@@ -2,12 +2,12 @@
 description: I server IS possono essere configurati per il failover su server alternativi per le richieste che coinvolgono un'immagine sorgente che non può essere aperta o letta correttamente.
 solution: Experience Manager
 title: Reindirizza all’errore
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ I seguenti tipi di richieste vengono reindirizzati:
 
 Il reindirizzamento degli errori non si verifica in nessun altro caso.
 
-Quando è attivato e si verifica un tale errore durante l’elaborazione della richiesta, il server primario invia la richiesta al server secondario per l’elaborazione. La risposta, indipendentemente dal fatto che indichi il successo o l’errore, viene quindi inoltrata direttamente al client. Il server primario contrassegna le voci di registro di tali richieste inoltrate con uso della cache `REMOTE`. I dati di risposta non vengono memorizzati nella cache locale dal server primario.
+Quando è attivato e si verifica un tale errore durante l’elaborazione della richiesta, il server primario invia la richiesta al server secondario per l’elaborazione. La risposta, indipendentemente dal fatto che indichi il successo o l’errore, viene quindi inoltrata direttamente al client. Il server primario contrassegna le voci di registro di tali richieste inoltrate con l&#39;uso della cache `REMOTE`. I dati di risposta non vengono memorizzati nella cache locale dal server primario.
 
-Il reindirizzamento degli errori è abilitato impostando `PS::errorRedirect.rootUrl` sul nome di dominio HTTP e sul numero di porta del server secondario. Inoltre, il timeout di connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo in cui il server primario attenderà una risposta dal server secondario prima che venga restituito un errore al client con `PS::errorRedirect.socketTimeout`.
+Reindirizzamento degli errori abilitato tramite impostazione `PS::errorRedirect.rootUrl` al nome di dominio HTTP e al numero di porta del server secondario. Inoltre, il timeout di connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo in cui il server primario attende una risposta dal server secondario prima che venga restituito un errore al client con `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->Se non è possibile contattare il server secondario, al client verrà restituita una risposta di errore di testo, anche se è configurata un&#39;immagine o un&#39;immagine di errore predefinita.
+>Se non è possibile contattare il server secondario, viene restituita al client una risposta di errore di testo, anche se è configurata un&#39;immagine o un&#39;immagine di errore predefinita.
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 description: Filtro indirizzo IP client. Consente di specificare uno o più indirizzi IP o intervalli di indirizzi.
 solution: Experience Manager
 title: FiltroIndirizzoClient
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 3%
 
 Filtro indirizzo IP client. Consente di specificare uno o più indirizzi IP o intervalli di indirizzi.
 
-Se specificato, le richieste a questo catalogo immagini provenienti da un client con un indirizzo IP non elencato verranno rifiutate.
+Se specificato, le richieste a questo catalogo immagini provenienti da un client con un indirizzo IP non elencato vengono rifiutate.
 
 ## Proprietà {#section-d785265988324af68835410c9ba54147}
 
 Elenco degli indirizzi IP separati da virgole con maschere di rete opzionali (viene utilizzata la notazione CIDR):
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Indirizzo IP in formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
+  <td class="stentry"> <p>Indirizzo IP in <span class="varname"> ddd.ddd.ddd.ddd</span> formato. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,7 +35,7 @@ Elenco degli indirizzi IP separati da virgole con maschere di rete opzionali (vi
  </tr> 
 </table>
 
-Questo attributo viene ignorato quando viene applicata una regola di preelaborazione con un elemento `<addressfilter>` .
+Questo attributo viene ignorato quando una regola di preelaborazione con un `<addressfilter>` viene applicato.
 
 ## Predefinito {#section-de26e8c9225745e985e4beac1f03f4f6}
 

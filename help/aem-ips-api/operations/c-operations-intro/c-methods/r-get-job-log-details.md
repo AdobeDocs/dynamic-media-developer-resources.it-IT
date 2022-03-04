@@ -2,12 +2,12 @@
 description: Ottiene i dettagli di un registro dei processi aziendali.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Ottiene i dettagli di un registro dei processi aziendali.
 
-Il campo di risposta `logMessage` viene localizzato in base al campo `authHeader` `locale` .
+La `logMessage` il campo di risposta è localizzato in base al `authHeader` `locale` campo .
 
 ## Tipi di utenti autorizzati {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -65,19 +65,19 @@ Il campo di risposta `logMessage` viene localizzato in base al campo `authHeader
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o più costanti del tipo di log. Se presente, verranno restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
+   <td colname="col4"> Una o più costanti del tipo di log. Se presente, vengono restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Numero massimo di elementi <span class="codeph"> detailArray</span> da restituire. Il valore massimo e predefinito è 1000. </td> 
+   <td colname="col4">Numero massimo di <span class="codeph"> detailArray</span> oggetti da restituire. Il valore massimo e predefinito è 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Numero di pagina dei risultati di <span class="codeph"> recordsPerPage</span> da restituire. Il valore predefinito è 1. </td> 
+   <td colname="col4">Numero di pagina <span class="codeph"> recordsPerPage</span>-risultati da restituire. Il valore predefinito è 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

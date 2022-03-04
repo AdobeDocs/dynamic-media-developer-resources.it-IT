@@ -2,13 +2,13 @@
 description: Utilizzato da MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
 solution: Experience Manager
 title: Tipi di campi metadati
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Sintassi
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Un caso speciale di  [!DNL `SingleFixedTag`] con un dizionario non modificabile inizializzato ai valori  [!DNL `True`] e  [!DNL `False`].
+* [!DNL `BooleanTag`]: Un caso speciale di [!DNL `SingleFixedTag`] con un dizionario non modificabile inizializzato ai valori [!DNL `True`] e [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -32,7 +32,7 @@ Sintassi
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]: Zero o più valori stringa da un dizionario chiuso. Solo gli utenti amministratori possono modificare il dizionario.
 * [!DNL `MultiTag`]: Zero o più valori stringa.
-* [!DNL `SingleFixedTag`]: Un singolo valore di stringa da un dizionario chiuso. Se `setAssetMetadata` o `batchSetAssetMetadata` vengono chiamati con un valore non presente nel dizionario, verrà restituito un errore. Solo gli utenti amministratori possono modificare il dizionario.
+* [!DNL `SingleFixedTag`]: Un singolo valore di stringa da un dizionario chiuso. Se `setAssetMetadata` o `batchSetAssetMetadata` vengono chiamati con un valore non presente nel dizionario, viene restituito un errore. Solo gli utenti amministratori possono modificare il dizionario.
 
 * [!DNL `SingleTag`]: Qualsiasi valore di stringa singolo.
 * [!DNL `String`]

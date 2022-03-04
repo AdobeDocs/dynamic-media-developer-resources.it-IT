@@ -2,13 +2,13 @@
 description: Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 9%
+source-wordcount: '208'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gr
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | No | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Se l&#39;utente non dispone di appartenenze attive alla società, verrà restituito un errore di autorizzazione. |
+| `*`includeInactive`*` | `xsd:boolean` | No | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
 | `*`includeInvalid`*` | `xsd:boolean` | No | Consente di includere/escludere utenti non validi. |
 | `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati per azienda. |
 | `*`groupHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati per gruppo. |

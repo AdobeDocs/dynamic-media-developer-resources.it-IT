@@ -1,13 +1,13 @@
 ---
+title: Visualizza attributi
 description: Questi comandi sono indipendenti dalla posizione e possono verificarsi ovunque in una richiesta.
 solution: Experience Manager
-title: Visualizza attributi
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Questi comandi sono indipendenti dalla posizione e possono verificarsi ovunque i
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt</a> </span> </p></td> 
-  <td class="stentry"> <p>Qualità JPEG. </p></td> 
+  <td class="stentry"> <p>qualità JPEG. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md#reference-ff897ad013fb410b96edaa2c79edfddd" type="reference" format="dita" scope="local"> printRes</a> </span> </p></td> 
@@ -67,6 +67,6 @@ Questi comandi sono indipendenti dalla posizione e possono verificarsi ovunque i
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> cache</a></span> </p> </td> 
-  <td class="stentry"> <p>Ignora il comportamento predefinito di memorizzazione in cache delle risposte. </p></td> 
+  <td class="stentry"> <p>Ignorare il comportamento predefinito di caching delle risposte. </p></td> 
  </tr> 
 </table>

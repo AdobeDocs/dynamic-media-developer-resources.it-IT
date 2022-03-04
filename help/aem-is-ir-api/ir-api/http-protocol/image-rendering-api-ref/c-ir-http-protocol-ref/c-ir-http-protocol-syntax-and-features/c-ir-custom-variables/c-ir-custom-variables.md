@@ -1,13 +1,13 @@
 ---
+title: Variabili personalizzate
 description: La porzione query delle richieste e delle stringhe modificatori di vignetta può includere variabili definite dall'utente.
 solution: Experience Manager
-title: Variabili personalizzate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 La porzione query delle richieste e della vignetta::Le stringhe dei modificatori possono includere variabili definite dall&#39;utente.
 
-` $ *[!DNL name]*= *[!DNL value]*`
+`$ [!DNL name] = [!DNL value]`
 
-** *[!DNL name]* **Nome della variabile. Può essere costituita da qualsiasi combinazione di caratteri alfa, cifra e sicuri, escluso &#39;$.&#39;
+`[!DNL name]` - Nome della variabile. Può essere costituita da qualsiasi combinazione di caratteri alfa, cifra e sicuri, esclusi `$`.
 
-** *[!DNL value]* ** Valore a cui impostare la variabile (stringa).
+`[!DNL value]` - Valore a cui impostare la variabile (stringa).
 
-Le variabili sono definite in modo simile ad altri comandi del server, utilizzando la sintassi riportata sopra. Prima di poter fare riferimento alle variabili, è necessario definirle. Le variabili definite in `vignette::Modifier` possono essere referenziate nella richiesta URL e viceversa.
+Le variabili sono definite in modo simile ad altri comandi del server, utilizzando la sintassi riportata sopra. Prima di poter fare riferimento alle variabili, è necessario definirle. Variabili definite in `vignette::Modifier` possono essere referenziati nella richiesta URL e viceversa.
 
 >[!NOTE]
 >
->*[!DNL value]* devono essere codificati in URL a passa singolo per una trasmissione HTTP sicura. La doppia codifica è necessaria se *[!DNL value]* viene ritrasmessa tramite HTTP. Questo è il caso in cui *[!DNL value]* viene sostituito in una richiesta esterna nidificata.
+>`[!DNL value]` devono essere codificati in URL a passa singolo per una trasmissione HTTP sicura. La doppia codifica è necessaria se `[!DNL value]` viene ritrasmesso tramite HTTP. Questa situazione si verifica quando `[!DNL value]` viene sostituito in una richiesta esterna nidificata.
 
-Per fare riferimento alle variabili, incorpora il nome della variabile (racchiuso da un $ iniziale e finale) in qualsiasi punto dei valori di comando. Ad esempio, tra &#39;=&#39; che segue il nome del comando e il successivo &#39;&amp;&#39; o la fine della richiesta. Il server sostituisce ogni occorrenza di $ *[!DNL name]*$ con *[!DNL string]*. Non si verificherà alcuna sostituzione in caso di occorrenze di $ *[!DNL name]*$ nei nomi dei comandi (prima del segno uguale di un comando) e nella parte del percorso della richiesta.
+Per fare riferimento alle variabili, incorpora il nome della variabile (racchiuso da un iniziale e da un finale `$`) in qualsiasi punto dei valori dei comandi. Ad esempio, tra `=`  seguendo il nome del comando e il successivo `&` o la fine della richiesta. Il server sostituisce ogni occorrenza di `$ [!DNL name]$` con `[!DNL string]`. Non si verificano sostituzioni in caso di `$ [!DNL name]$` nei nomi dei comandi (prima del segno uguale di un comando) e nella parte del percorso della richiesta.
 
-Le variabili personalizzate potrebbero non essere nidificate. Tutte le occorrenze di $ *[!DNL name]*$ all&#39;interno di *[!DNL string]* non vengono sostituite. Ad esempio, il frammento di richiesta `$var2=apple&$var1=my$var2$tree&text=$var1$` viene risolto in `text=my$var2$tree`.
+Le variabili personalizzate potrebbero non essere nidificate. Qualsiasi occorrenza di `$ [!DNL name]$` entro `[!DNL string]` non sono sostituiti. Ad esempio, il frammento di richiesta `$var2=apple&$var1=my$var2$tree&text=$var1$` risolve in `text=my$var2$tree`.
 
-$ non è un carattere riservato; potrebbe verificarsi altrimenti nella richiesta. Ad esempio, `src=my$texture$file.tif` è un comando valido (supponendo che esista una voce di catalogo dei materiali o un file di texture denominato [!DNL my$texture$file.tif] esiste), mentre `wid=$number$` non lo è, perché `wid=` richiede un argomento numerico.
+`$` non è un carattere riservato; potrebbe verificarsi altrimenti nella richiesta. Ad esempio: `src=my$texture$file.tif` è un comando valido (supponendo che una voce del catalogo dei materiali o un file di texture denominato `[!DNL my$texture$file.tif]` esiste), mentre `wid=$number$` non è perché `wid=` richiede un argomento numerico.

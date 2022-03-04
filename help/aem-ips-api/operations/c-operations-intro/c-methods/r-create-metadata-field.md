@@ -2,12 +2,12 @@
 description: Consente agli amministratori di creare nuovi campi di metadati da coordinare con i sistemi di gestione dei contenuti o per le operazioni sui modelli. Esempi di campi di metadati creati includono parole chiave, informazioni sull’autore dell’immagine o informazioni sul titolare del copyright.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 7%
 
 ---
@@ -64,7 +64,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Il valore predefinito del campo metadati da creare (ad esempio, <span class="codeph"> Scene 7</span>). </p> <p>I valori predefiniti non sono supportati per i tipi di campi tag e devono essere omessi. Se per un tipo di campo tag è specificato un valore predefinito non vuoto, viene restituito un errore. </p> </td> 
+   <td colname="col4"> <p>Il valore predefinito del campo metadati da creare (ad esempio, <span class="codeph"> Scena 7</span>). </p> <p>I valori predefiniti non sono supportati per i tipi di campi tag e devono essere omessi. Se per un tipo di campo tag è specificato un valore predefinito non vuoto, viene restituito un errore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 

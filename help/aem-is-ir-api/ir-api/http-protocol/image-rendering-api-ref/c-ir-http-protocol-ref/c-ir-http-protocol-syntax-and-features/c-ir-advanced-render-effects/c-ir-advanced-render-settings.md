@@ -1,13 +1,13 @@
 ---
+title: Impostazioni di rendering avanzate
 description: Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering delle vignette.
 solution: Experience Manager
-title: Impostazioni di rendering avanzate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 22%
 
 ---
@@ -20,7 +20,7 @@ Lo strumento di authoring delle vignette (parte del pacchetto Dynamic Media Imag
 >
 >Le impostazioni di rendering sono una funzione avanzata di Image Rendering e Image Authoring. Contatta il Supporto Tecnico Adobe o il tuo rappresentante di consulenza Adobe per formazione, consultazione o entrambi, sull&#39;utilizzo delle impostazioni di rendering.
 
-Queste impostazioni vengono controllate in modo interattivo nell’authoring delle immagini. È possibile applicare le stesse impostazioni in Image Rendering utilizzando il comando `rs=` (o con il valore `catalog::RenderSettings`). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio per variare la saturazione delle luci o il contrasto nelle ombre.
+Queste impostazioni vengono controllate in modo interattivo nell’authoring delle immagini. È possibile applicare le stesse impostazioni in Image Rendering utilizzando `rs=` (o con `catalog::RenderSettings` ). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio per variare la saturazione delle luci o il contrasto nelle ombre.
 
 ## Valori Advanced Render Setting (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -279,7 +279,7 @@ Queste impostazioni vengono controllate in modo interattivo nell’authoring del
    <td colname="col2"> <p>Evidenzia lo spostamento della tonalità. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diverso: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8 </p> </td> 
+   <td colname="col5"> <p>Formato diverso: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>s </p> </td> 

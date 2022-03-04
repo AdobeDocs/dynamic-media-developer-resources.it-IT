@@ -2,12 +2,12 @@
 description: Utilizzare queste impostazioni del server per configurare il sistema di monitoraggio e di avviso.
 solution: Experience Manager
 title: Sistema di monitoraggio e allarme
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilizzare queste impostazioni del server per configurare il sistema di monitora
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Abilita sistema di avvisi {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Abilita la notifica via e-mail impostando su &quot;true&quot; e configurando le impostazioni di notifica e-mail. Se si imposta `false` si disattivano tutti gli avvisi e-mail, questo può essere utile quando si interrompe la manutenzione di un server. Booleano.
+Abilita la notifica via e-mail impostando su &quot;true&quot; e configurando le impostazioni di notifica e-mail. Impostazione su `false` disattiva tutti gli avvisi e-mail: può essere utile quando si prende un server offline per la manutenzione. Booleano.
 
 ## AS::mailSender.host - Host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Uno o più indirizzi e-mail a cui devono essere inviati gli avvisi. Utilizzare i
 
 ## AS::monitorAlertGenerator.messageFrom - Mittente del messaggio {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-L&#39;indirizzo e-mail che deve essere utilizzato nel campo e-mail **[!UICONTROL Da]**.
+L’indirizzo e-mail che deve essere utilizzato nella **[!UICONTROL Da]** campo e-mail.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervallo di monitoraggio {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

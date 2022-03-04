@@ -2,12 +2,12 @@
 description: Ottiene un elenco dei caratteri utilizzati in un campo specifico.
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | `*`charField`*` | `xsd:string` | Sì | Determina lo stato del cestino da cercare. |
-| `*`includeInactive`*` | `xsd:boolean` | Sì | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Se l&#39;utente non dispone di appartenenze attive alla società, verrà restituito un errore di autorizzazione. |
+| `*`includeInactive`*` | `xsd:boolean` | Sì | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
 | `*`includInvalid`*` | `xsd:boolean` | No | Includere o escludere utenti non validi. |
 | `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati in base all’azienda. |
 | `*`groupHandleArray`*` | `types:HandleArray` | No | Filtra i risultati in base ai gruppi. |
