@@ -2,12 +2,12 @@
 description: Elimina un tipo di set di proprietà e il relativo set di proprietà e le relative proprietà associate.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà da eliminare. |
+| typeHandle | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà da eliminare. |
 
 **Output (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Questo esempio di codice utilizza l’handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
+Questo esempio di codice utilizza l&#39;handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
 
 **Request Contents (Richiesta contenuto)**
 

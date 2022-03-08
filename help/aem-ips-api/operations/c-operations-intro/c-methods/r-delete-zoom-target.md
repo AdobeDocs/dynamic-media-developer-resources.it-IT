@@ -2,13 +2,13 @@
 description: Elimina una destinazione di zoom.
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ Elimina una destinazione di zoom.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Handle della società a cui appartiene la destinazione dello zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Sì | La maniglia della destinazione di zoom da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle della società a cui appartiene la destinazione dello zoom. |
+| zoomTargetHandle | `xsd:string` | Sì | La maniglia della destinazione di zoom da eliminare. |
 
 **Output (deleteZoomTargetParam)**
 

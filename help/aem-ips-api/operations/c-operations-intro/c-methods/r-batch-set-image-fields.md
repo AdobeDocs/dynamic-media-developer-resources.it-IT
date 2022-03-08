@@ -2,12 +2,12 @@
 description: Imposta campi specifici per le immagini per una o più risorse di immagini.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 9%
 
 ---
@@ -33,18 +33,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene le risorse immagine. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sì | La matrice dei campi immagine viene aggiornata. |
+| companyHandle | `xsd:string` | Sì | L’handle della società che contiene le risorse immagine. |
+| updateArray | `types:ImageFieldUpdateArray` | Sì | La matrice dei campi immagine viene aggiornata. |
 
 **Output (batchSetImageFields)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di campi immagine impostati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di impostare i campi immagine. |
-| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi immagine. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
+| successCount | `xsd:int` | Sì | Numero di campi immagine impostati correttamente. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di impostare i campi immagine. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi immagine. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
 
 ## Esempi {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

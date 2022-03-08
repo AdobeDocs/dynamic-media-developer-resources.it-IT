@@ -2,12 +2,12 @@
 description: Imposta la mappa immagine per una risorsa.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '133'
 ht-degree: 10%
 
 ---
@@ -33,15 +33,15 @@ Devi aver già creato le mappe immagine. Le mappe immagine vengono applicate in 
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sì | Array di mappe immagine predefinite. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Sì | Array di mappe immagine predefinite. |
 
 **Output (setImageMapsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sì | Matrice con handle di mappa immagine applicati alla risorsa. |
+| imageMapHandleArray | `types:HandleArray` | Sì | Matrice con handle di mappa immagine applicati alla risorsa. |
 
 ## Esempi {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

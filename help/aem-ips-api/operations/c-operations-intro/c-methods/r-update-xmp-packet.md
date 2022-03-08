@@ -2,13 +2,13 @@
 description: Imposta o aggiorna un pacchetto di metadati XMP per una risorsa.
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '68'
+ht-degree: 22%
 
 ---
 
@@ -34,15 +34,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto da impostare o aggiornare. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| compressedPacket | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto da impostare o aggiornare. |
 
 **Output (updateXMPPacketReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`success`*` | `xsd:boolean` | Sì | Restituisce `true` se il pacchetto è stato aggiornato. |
+| success | `xsd:boolean` | Sì | Restituisce `true` se il pacchetto è stato aggiornato. |
 
 ## Esempi {#section-38b556b94e5044bf97a954519ff6c212}
 

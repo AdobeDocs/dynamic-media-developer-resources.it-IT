@@ -2,13 +2,13 @@
 description: Crea un’immagine a livelli che può avere più livelli di testo e immagine.
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Crea un’immagine a livelli che può avere più livelli di testo e immagine.
 
-Il parametro `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il parametro `urlPostApplyModifier` specifica i comandi del protocollo applicati dopo eventuali comandi URL, che sovrascriveranno eventuali impostazioni in conflitto fornite dall&#39;utente.
+La `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. La `urlPostApplyModifier` Il parametro specifica i comandi del protocollo applicati dopo eventuali comandi URL, che sostituiranno eventuali impostazioni in conflitto fornite dall&#39;utente.
 
 ## Tipi di utenti autorizzati {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,22 +32,22 @@ Il parametro `urlModifier` specifica i comandi del protocollo Image Server memor
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Società a cui appartiene il modello. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L&#39;handle di cartella che rappresenta la cartella in cui si trova il modello. |
-| `*`name`*` | `xsd:string` | Sì | Nome del modello. |
-| `*`type`*` | `xsd:string` | Sì | Tipo di modello. |
-| `*`urlModifier`*` | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Specifica i comandi di protocollo applicati dopo eventuali comandi URL, che sostituiranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
+| companyHandle | `xsd:string` | Sì | Società a cui appartiene il modello. |
+| folderHandle | `xsd:string` | Sì | L&#39;handle di cartella che rappresenta la cartella in cui si trova il modello. |
+| name | `xsd:string` | Sì | Nome del modello. |
+| Testo | `xsd:string` | Sì | Tipo di modello. |
+| urlModifier | `xsd:string` | Sì | Specifica i comandi Image Server memorizzati nel catalogo IS applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. |
+| urlPostApplyModifier | `xsd:string` | No | Specifica i comandi di protocollo applicati dopo eventuali comandi URL, che sostituiranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
 
 **Output (createTemplateParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | L&#39;handle del modello. |
+| assetHandle | `xsd:string` | Sì | L&#39;handle del modello. |
 
 ## Esempi {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome `APIcreateTemplate`, un `urlModifier` e un `urlPostApplyModifier`. La risposta restituisce l&#39;handle al modello appena creato.
+Questo esempio di codice crea un modello in una cartella specificata da un handle, con un nome `APIcreateTemplate`, `urlModifier`e `urlPostApplyModifier`. La risposta restituisce l&#39;handle al modello appena creato.
 
 **Request Contents (Richiesta contenuto)**
 

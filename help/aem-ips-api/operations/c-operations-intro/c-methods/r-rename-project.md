@@ -2,13 +2,13 @@
 description: Rinomina un progetto.
 solution: Experience Manager
 title: rinominaProgetto
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 19%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
 
@@ -33,15 +33,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sì | Gestisci l’azienda con il progetto che desideri rinominare. |
-| `*`projectHandle`*` | `xsd:string` | Sì | Gestisci il progetto. |
-| `*`projectName`*` | `xsd:string` | Sì | Nuovo nome del progetto. |
+| companyName | `xsd:string` | Sì | Gestisci l’azienda con il progetto che desideri rinominare. |
+| projectHandle | `xsd:string` | Sì | Gestisci il progetto. |
+| projectName | `xsd:string` | Sì | Nuovo nome del progetto. |
 
 **Output (ridenominazioneProjectParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sì | La gestione del progetto rinominato. |
+| projectHandle | `xsd:string` | Sì | La gestione del progetto rinominato. |
 
 ## Esempi {#section-a0a06d9244774795b695a10b92b2a5e7}
 

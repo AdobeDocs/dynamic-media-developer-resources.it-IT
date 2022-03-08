@@ -2,12 +2,12 @@
 description: Ottiene i valori stringa delle proprietà di sistema relative a Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '132'
 ht-degree: 10%
 
 ---
@@ -23,9 +23,9 @@ Le proprietà di sistema supportate includono:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: Prefisso URL per il rendering delle risorse SVG.
-* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse SVG tramite  `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse di SVG tramite `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Dimensione massima (in byte) dei dati del file consentiti in un caricamento  [!DNL POST]. Il sistema rifiuta i file di dimensioni superiori al limite massimo.
+* `UploadPostMaxFileSize`: Dimensione massima (in byte) dei dati del file consentiti in un caricamento [!DNL POST]. Il sistema rifiuta i file di dimensioni superiori al limite massimo.
 
 ## Tipi di utenti autorizzati {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ Le proprietà di sistema supportate includono:
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Sì | Nome della proprietà da ottenere. |
+| name | `xsd:string` | Sì | Nome della proprietà da ottenere. |
 
 **Output (getPropertyReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | Sì | Il valore della proprietà. |
+| value | `xsd:string` | Sì | Il valore della proprietà. |
 
 ## Esempi {#section-3f80a78dd60c404181b34d3a912d7a36}
 

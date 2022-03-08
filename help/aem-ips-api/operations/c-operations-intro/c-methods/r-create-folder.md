@@ -2,12 +2,12 @@
 description: Consente di creare una cartella.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 16%
 
 ---
@@ -18,7 +18,7 @@ Consente di creare una cartella.
 
 >[!NOTE]
 >
->La nuova cartella è subordinata alla cartella Images, anche se si specifica un `/` per indicare la radice della società.
+>La nuova cartella è subordinata alla cartella Immagini, anche se si specifica una `/` per indicare la radice della società.
 
 Sintassi
 
@@ -41,14 +41,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | La Maniglia all&#39;azienda |
-| `*`folderPath`*` | `xsd:string` | Sì | Cartella principale utilizzata per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
+| companyHandle | `xsd:string` | Sì | La Maniglia all&#39;azienda |
+| folderPath | `xsd:string` | Sì | Cartella principale utilizzata per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
 
 **Output (createFolderParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sì | Gestione della nuova cartella. |
+| folderHandle | `xsd:string` | Sì | Gestione della nuova cartella. |
 
 ## Esempi {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

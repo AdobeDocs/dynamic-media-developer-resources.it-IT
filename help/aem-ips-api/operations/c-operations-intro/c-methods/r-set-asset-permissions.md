@@ -2,12 +2,12 @@
 description: Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '125'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
 
-Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, non eredita più le autorizzazioni del relativo elemento padre a meno che tu non chiami `removeAssetPermissions`.
+Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, non eredita più le autorizzazioni del suo elemento padre, a meno che tu non chiami `removeAssetPermissions`.
 
 ## Tipi di utenti autorizzati {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -30,9 +30,9 @@ Per impostazione predefinita, le risorse ereditano le autorizzazioni della carte
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene la cartella con cui si desidera lavorare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sì | Matrice di autorizzazioni. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene la cartella con cui si desidera lavorare. |
+| assetHandle | `xsd:string` | Sì | Maniglia della cartella. |
+| permissionArray | `types:PermissionsUpdateArray` | Sì | Matrice di autorizzazioni. |
 
 **Output (setAssetPermissonsReturn)**
 

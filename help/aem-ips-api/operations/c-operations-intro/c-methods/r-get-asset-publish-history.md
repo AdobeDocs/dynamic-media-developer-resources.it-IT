@@ -2,13 +2,13 @@
 description: Restituisce la cronologia di pubblicazione di una risorsa.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
@@ -36,14 +36,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con la cronologia di pubblicazione delle risorse. |
-| `*`assetHandle`*` | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione da esaminare. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con la cronologia di pubblicazione delle risorse. |
+| assetHandle | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione da esaminare. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Sì | La cronologia di pubblicazione della risorsa. |
+| pubHistoryArray | `types:PublishHistoryArray` | Sì | La cronologia di pubblicazione della risorsa. |
 
 ## Esempi {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

@@ -2,13 +2,13 @@
 description: Restituisce tutti i valori di un campo di metadati.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 19%
+source-wordcount: '65'
+ht-degree: 21%
 
 ---
 
@@ -34,14 +34,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda per la quale desideri ottenere i dati. |
-| `*`metadataKey`*` | `xsd:string` | Sì | Chiave metadati nella notazione del punto. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda per la quale desideri ottenere i dati. |
+| metadataKey | `xsd:string` | Sì | Chiave metadati nella notazione del punto. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | Sì | Valori del campo metadati richiesto. |
+| valueArray | `types:ValueArray` | Sì | Valori del campo metadati richiesto. |
 
 ## Esempi {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

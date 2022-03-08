@@ -2,12 +2,12 @@
 description: Ottiene i registri di lavoro specificati per la società selezionata. Puoi ordinare in base a caratteri, direzione, date di inizio e fine e numero di righe.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 10%
 
 ---
@@ -36,19 +36,19 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | L&#39;azienda gestisce. |
-| `*`userHandle`*` | `xsd:string` | No | Ottiene i registri dei processi inviati da un utente specifico. |
-| `*`sortBy`*` | `xsd:string` | No | Consente di selezionare i campi di ordinamento. |
-| `*`sortDirection`*` | `xsd:string` | No | Ordinamento (crescente o decrescente). |
-| `*`startDate`*` | `xsd:dateTime` | No | Data e ora dell&#39;inizio del job log. Specifica il fuso orario con la richiesta per questo campo. |
-| `*`endDate`*` | `xsd:dateTime` | No | Data e ora della fine del job log. Specifica il fuso orario con la richiesta per questo campo. |
-| `*`numRows`*` | `xsd:int` | No | Numero massimo di righe da restituire. |
+| companyHandle | `xsd:string` | No | L&#39;azienda gestisce. |
+| userHandle | `xsd:string` | No | Ottiene i registri dei processi inviati da un utente specifico. |
+| sortBy | `xsd:string` | No | Consente di selezionare i campi di ordinamento. |
+| sortDirection | `xsd:string` | No | Ordinamento (crescente o decrescente). |
+| startDate | `xsd:dateTime` | No | Data e ora dell&#39;inizio del job log. Specifica il fuso orario con la richiesta per questo campo. |
+| endDate | `xsd:dateTime` | No | Data e ora della fine del job log. Specifica il fuso orario con la richiesta per questo campo. |
+| numRows | `xsd:int` | No | Numero massimo di righe da restituire. |
 
 **Output (getJobLogsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Sì | Array di registri di lavoro. |
+| jobLogArray | `types: JobLogArray` | Sì | Array di registri di lavoro. |
 
 ## Esempi {#section-35871c94b4a44559912577efddbc46a6}
 

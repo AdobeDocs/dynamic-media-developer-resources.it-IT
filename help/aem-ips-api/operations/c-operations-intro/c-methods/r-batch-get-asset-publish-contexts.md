@@ -2,13 +2,13 @@
 description: Restituisce i contesti di pubblicazione per le risorse contrassegnate per la pubblicazione.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 13%
+source-wordcount: '97'
+ht-degree: 14%
 
 ---
 
@@ -34,9 +34,7 @@ Sintassi
 >
 >* Per restituire le risorse, l’utente deve disporre dell’accesso in lettura.
 >* Tutti gli utenti hanno accesso alla società condivisa.
-
 >
-
 
 
 ## Parametri {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
-| `*`assetHandleArray`*` | ` `tipi:HandleArray&quot; | Sì | Elenco delle risorse per le quali si desidera eseguire una query per i contesti attivi (contrassegnati per la pubblicazione). |
+| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
+| assetHandleArray | ` `tipi:HandleArray&quot; | Sì | Elenco delle risorse per le quali si desidera eseguire una query per i contesti attivi (contrassegnati per la pubblicazione). |
 
 **Output (batchGetAssetPublishContextsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Sì | Matrice di contesti di pubblicazione in cui ogni risorsa è contrassegnata per la pubblicazione. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Sì | Matrice di contesti di pubblicazione in cui ogni risorsa è contrassegnata per la pubblicazione. |
 
 ## Esempi {#section-457f6809ccfa425b9a0976313d613f4e}
 

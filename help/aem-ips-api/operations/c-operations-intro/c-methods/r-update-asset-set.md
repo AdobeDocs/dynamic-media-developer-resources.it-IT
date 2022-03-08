@@ -2,13 +2,13 @@
 description: Aggiorna un set di risorse.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
@@ -24,10 +24,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
-| `*`setDefinition`*` | `xsd:string` | No | Ripristina i membri del set di immagini. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
+| assetHandle | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
+| setDefinition | `xsd:string` | No | Ripristina i membri del set di immagini. |
+| thumbAssetHandle | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
 
 **Output (updateAssetSetReturn)**
 

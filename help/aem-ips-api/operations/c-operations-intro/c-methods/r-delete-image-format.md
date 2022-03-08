@@ -2,12 +2,12 @@
 description: Elimina un formato immagine. Ottenere la maniglia del formato immagine da saveImageFormat.
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 9%
 
 ---
@@ -31,8 +31,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il formato immagine da eliminare. |
-| `*`imageFormatHandle`*` | `xsd:string` | Sì | Il punto di manipolazione del formato immagine che si desidera eliminare. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il formato immagine da eliminare. |
+| imageFormatHandle | `xsd:string` | Sì | Il punto di manipolazione del formato immagine che si desidera eliminare. |
 
 **Output (deleteImageFormatParam)**
 

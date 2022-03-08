@@ -2,13 +2,13 @@
 description: Sostituisce i dati immagine per una risorsa immagine.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 13%
+source-wordcount: '103'
+ht-degree: 14%
 
 ---
 
@@ -33,15 +33,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con l&#39;immagine che si desidera sostituire. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Il handle della risorsa da sostituire. |
-| `*`urlModifier`*` | `xsd:string` | Sì | Comandi Image Server che generano nuovi dati immagine. |
+| companyName | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con l&#39;immagine che si desidera sostituire. |
+| assetHandle | `xsd:string` | Sì | Il handle della risorsa da sostituire. |
+| urlModifier | `xsd:string` | Sì | Comandi Image Server che generano nuovi dati immagine. |
 
 **Output (replaceImageReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci la nuova risorsa. |
+| assetHandle | `xsd:string` | Sì | Gestisci la nuova risorsa. |
 
 ## Esempi {#section-cebb93576bde4cb98cb27356ca66783b}
 

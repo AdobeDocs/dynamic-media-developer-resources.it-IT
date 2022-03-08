@@ -2,13 +2,13 @@
 description: Associa le impostazioni di configurazione del visualizzatore a una risorsa. Può essere un predefinito per visualizzatori o la risorsa sorgente per il visualizzatore.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 10%
+source-wordcount: '103'
+ht-degree: 11%
 
 ---
 
@@ -31,11 +31,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestione risorse. |
-| `*`name`*` | `xsd:string` | Sì | Nome risorsa. |
-| `*`type`*` | `xsd:string` | Sì | Il tipo di risorsa a cui applicare la configurazione del visualizzatore. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sì | Matrice di `ConfigSettings` applicata alla risorsa. |
+| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| name | `xsd:string` | Sì | Nome risorsa. |
+| Testo | `xsd:string` | Sì | Il tipo di risorsa a cui applicare la configurazione del visualizzatore. |
+| configSettingArray | `types:ConfigSettingArray` | Sì | L&#39;array di `ConfigSettings` applicato alla risorsa. |
 
 **Output (setViewerConfigSettingsParam)**
 

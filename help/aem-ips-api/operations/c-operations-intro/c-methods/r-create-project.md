@@ -2,13 +2,13 @@
 description: Crea un nuovo progetto.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 16%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -33,18 +33,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda associata al nuovo progetto. |
-| `*`projectName`*` | `xsd:string` | Sì | Nuovo nome del progetto. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda associata al nuovo progetto. |
+| projectName | `xsd:string` | Sì | Nuovo nome del progetto. |
 
 **Output (createProjectParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sì | L&#39;handle del nuovo progetto. |
+| projectHandle | `xsd:string` | Sì | L&#39;handle del nuovo progetto. |
 
 ## Esempi {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Questo esempio di codice crea un progetto denominato `ApiTestProject` in una società specificata dal relativo handle. La risposta restituisce l&#39;handle al progetto.
+Questo esempio di codice crea un progetto denominato `ApiTestProject` in una società specificata dal suo manico. La risposta restituisce l&#39;handle al progetto.
 
 **Request Contents (Richiesta contenuto)**
 

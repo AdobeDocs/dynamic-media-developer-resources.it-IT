@@ -2,13 +2,13 @@
 description: Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della cartella. La risposta getFolders restituisce un massimo di 100.000 cartelle.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '237'
+ht-degree: 8%
 
 ---
 
@@ -43,20 +43,20 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`accessUserHandle`*` | `xsd:string` | No | Utilizzato dagli amministratori per rappresentare un utente specifico. |
-| `*`accessGroupHandle`*` | `xsd:string` | No | Filtrare per un gruppo specifico. |
-| `*`folderPath`*` | `xsd:string` | No | Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
-| `*`assetTypeArray`*` | `types:StringArray` | No | Restituisce cartelle che contengono solo tipi di risorse specificati. |
-| `*`responseFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
-| `*`excludeFieldArray`*` | `types:StringArray` | No | Contiene un elenco di campi da escludere dalla risposta. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| accessUserHandle | `xsd:string` | No | Utilizzato dagli amministratori per rappresentare un utente specifico. |
+| accessGroupHandle | `xsd:string` | No | Filtrare per un gruppo specifico. |
+| folderPath | `xsd:string` | No | Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
+| assetTypeArray | `types:StringArray` | No | Restituisce cartelle che contengono solo tipi di risorse specificati. |
+| responseFieldArray | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
+| excludeFieldArray | `types:StringArray` | No | Contiene un elenco di campi da escludere dalla risposta. |
 
 **Output (getFoldersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | No | Matrice di cartelle corrispondenti ai criteri del filtro. La risposta è limitata a un massimo di 100.000 cartelle. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | No | Matrice di cartelle corrispondenti ai criteri del filtro. La risposta è limitata a un massimo di 100.000 cartelle. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Esempi {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

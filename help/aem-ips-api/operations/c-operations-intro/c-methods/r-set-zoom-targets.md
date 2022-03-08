@@ -2,13 +2,13 @@
 description: Imposta la destinazione di zoom associata a un’immagine di una risorsa. Sovrascrive le destinazioni di zoom esistenti.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 11%
+source-wordcount: '121'
+ht-degree: 12%
 
 ---
 
@@ -33,15 +33,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Risorsa con la destinazione di zoom da impostare. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sì | Array di definizioni di destinazione dello zoom. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | Risorsa con la destinazione di zoom da impostare. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Sì | Array di definizioni di destinazione dello zoom. |
 
 **Output (setZoomTargetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sì | Set di maniglie alle destinazioni di zoom create da questa operazione. |
+| zoomTargetHandleArray | `types:HandleArray` | Sì | Set di maniglie alle destinazioni di zoom create da questa operazione. |
 
 ## Esempi {#section-a2f14c7a1499443e96d099ea8a76c182}
 

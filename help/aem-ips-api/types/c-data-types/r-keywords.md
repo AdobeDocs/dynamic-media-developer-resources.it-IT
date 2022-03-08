@@ -2,13 +2,13 @@
 description: Parole chiave
 solution: Experience Manager
 title: Parole chiave
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 26%
+source-wordcount: '41'
+ht-degree: 29%
 
 ---
 
@@ -20,9 +20,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`keyword`*` | `xsd:string` | Parola chiave. |
-| `*`status`*` | `xsd:boolean` | Validità delle parole chiave. |
-| `*`x`*` | `xsd:int` | Posizione della parola chiave sull’asse x (in pixel). |
-| `*`y`*` | `xsd:int` | Posizione della parola chiave sull’asse y (in pixel). |
-| `*`width`*` | `xsd:int` | Larghezza parola chiave in pixel. |
-| `*`height`*` | `xsd:int` | Altezza della parola chiave in pixel. |
+| keyword | `xsd:string` | Parola chiave. |
+| status | `xsd:boolean` | Validità delle parole chiave. |
+| x | `xsd:int` | Posizione della parola chiave sull’asse x (in pixel). |
+| y | `xsd:int` | Posizione della parola chiave sull’asse y (in pixel). |
+| width | `xsd:int` | Larghezza parola chiave in pixel. |
+| height | `xsd:int` | Altezza della parola chiave in pixel. |

@@ -5,10 +5,10 @@ title: createDeriedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -39,19 +39,19 @@ A differenza di una copia immagine (vedi [copyImage](../../../operations/c-opera
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverai la nuova risorsa. |
-| `*`ownerHandle`*` | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriva la nuova immagine. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella in cui viene creata la nuova risorsa derivata. |
-| `*`name`*` | `xsd:string` | Sì | Nome della risorsa derivata. |
-| `*`type`*` | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *prima* la richiesta o `urlPostApplyModifier` comandi. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *dopo* alla richiesta o `urlPostApplyModifier` comandi. |
+| companyHandle | `xsd:string` | Sì | L’handle della società che contiene la risorsa da cui deriverai la nuova risorsa. |
+| ownerHandle | `xsd:string` | Sì | L’handle della risorsa immagine principale da cui deriva la nuova immagine. |
+| folderHandle | `xsd:string` | Sì | L’handle della cartella in cui viene creata la nuova risorsa derivata. |
+| name | `xsd:string` | Sì | Nome della risorsa derivata. |
+| Testo | `xsd:string` | Sì | Il tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
+| urlModifier | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *prima* la richiesta o `urlPostApplyModifier` comandi. |
+| urlPostApplyModifier | `xsd:string` | No | Comandi applicati al protocollo di rendering delle immagini o di rendering delle immagini *dopo* alla richiesta o `urlPostApplyModifier` comandi. |
 
 **Output (createDeriedAssetParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa derivata. |
+| assetHandle | `xsd:string` | Sì | L’handle della risorsa derivata. |
 
 ## Esempi {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

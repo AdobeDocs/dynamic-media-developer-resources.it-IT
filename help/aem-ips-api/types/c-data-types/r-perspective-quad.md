@@ -2,13 +2,13 @@
 description: Le coordinate della posizione dell'immagine restituite dall'operazione getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 16%
+source-wordcount: '72'
+ht-degree: 18%
 
 ---
 
@@ -22,18 +22,18 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Coordinata dell&#39;asse x in alto a sinistra. |
-| `*`y0`*` | `xsd:double` | Coordinata dell&#39;asse y superiore sinistro. |
-| `*`x1`*` | `xsd:double` | Coordinata dell&#39;asse x in alto a destra. |
-| `*`y1`*` | `xsd:double` | Coordinata dell&#39;asse y superiore destra. |
-| `*`x2`*` | `xsd:double` | Coordinata dell&#39;asse x in basso a destra. |
-| `*`y2`*` | `xsd:double` | Coordinata dell&#39;asse y in basso a destra. |
-| `*`x3`*` | `xsd:double` | Coordinata dell&#39;asse x in basso a sinistra. |
-| `*`y3`*` | `xsd:double` | Coordinata dell&#39;asse y in basso a sinistra. |
+| x0 | `xsd:double` | Coordinata dell&#39;asse x in alto a sinistra. |
+| y0 | `xsd:double` | Coordinata dell&#39;asse y superiore sinistro. |
+| x1 | `xsd:double` | Coordinata dell&#39;asse x in alto a destra. |
+| y1 | `xsd:double` | Coordinata dell&#39;asse y superiore destra. |
+| x2 | `xsd:double` | Coordinata dell&#39;asse x in basso a destra. |
+| y2 | `xsd:double` | Coordinata dell&#39;asse y in basso a destra. |
+| x3 | `xsd:double` | Coordinata dell&#39;asse x in basso a sinistra. |
+| y3 | `xsd:double` | Coordinata dell&#39;asse y in basso a sinistra. |
 
 ## Esempio {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Il tipo `PerspectiveQuad` restituisce i dati in questo ordine:
+La `PerspectiveQuad` type restituisce i dati in questo ordine:
 
 ```
 <complexType name="PerspectiveQuad">

@@ -2,12 +2,12 @@
 description: Rinomina una risorsa.
 solution: Experience Manager
 title: rinominaRisorsa
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '173'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Rinomina una risorsa.
 
 >[!NOTE]
 >
->Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato in modo che corrisponda al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione API.
+>La `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato in modo che corrisponda al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione API.
 
 ## Tipi di utenti autorizzati {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -39,14 +39,14 @@ Rinomina una risorsa.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società a cui appartiene il cespite. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Il handle della risorsa da rinominare. |
-| `*`newName`*` | `xsd:string` | Sì | Nuovo nome della risorsa. |
-| `*`validateName`*` | `xsd:boolean` | Sì | Se il `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, il nuovo nome viene controllato per l’univocità globale e `renameAsset` genera un errore se non è univoco. |
+| companyHandle | `xsd:string` | Sì | Il handle della società a cui appartiene il cespite. |
+| assetHandle | `xsd:string` | Sì | Il handle della risorsa da rinominare. |
+| newName | `xsd:string` | Sì | Nuovo nome della risorsa. |
+| validateName | `xsd:boolean` | Sì | Se la `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, quindi il nuovo nome viene controllato per verificare l’univocità globale e `renameAsset` genera un errore se non è univoco. |
 
 **Output (rinominareAssetReturn)**
 
-L&#39;API IPS non restituisce una risposta per questa operazione. Vedi la descrizione dell&#39;elemento `<ns1:validateName>` per le avvertenze su questo elemento.
+L&#39;API IPS non restituisce una risposta per questa operazione. Vedi la descrizione del `<ns1:validateName>` elemento per avvertenze su questo elemento.
 
 ## Esempi {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

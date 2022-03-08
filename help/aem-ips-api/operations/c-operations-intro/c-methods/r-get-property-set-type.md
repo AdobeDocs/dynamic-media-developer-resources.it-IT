@@ -2,12 +2,12 @@
 description: Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle al tipo e al tipo di proprietà.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '153'
 ht-degree: 9%
 
 ---
@@ -36,8 +36,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | Il manico per l&#39;azienda. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
-| `*`name`*` | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
+| companyHandle | `xsd:string` | No | Il manico per l&#39;azienda. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
+| name | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
 
 **Output (getPropertySetTypeReturn)**
 

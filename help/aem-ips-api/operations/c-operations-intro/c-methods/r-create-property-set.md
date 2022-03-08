@@ -2,12 +2,12 @@
 description: I set di proprietà sono set di coppie nome-valore specifici dell’applicazione che possono essere associati a vari oggetti IPS, a seconda del tipo di set di proprietà. Se il tipo di set di proprietà non consente l'associazione di più set a un oggetto (PropertySetType/allowMultipleisfalse) e l'oggetto dispone già di un set associato dello stesso tipo, il nuovo set sostituirà quello esistente.
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '215'
 ht-degree: 7%
 
 ---
@@ -31,17 +31,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
-| `*`secondarioOwnerHandle`*` | `xsd:string` | No | L&#39;handle al proprietario secondario dell&#39;insieme di proprietà. |
-| `*`propertyArray`*` | `types:PropertyArray` | Sì | Matrice di proprietà. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| typeHandle | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
+| primaryOwnerHandle | `xsd:string` | Sì | L&#39;handle al proprietario principale dell&#39;insieme di proprietà. |
+| secondarioOwnerHandle | `xsd:string` | No | L&#39;handle al proprietario secondario dell&#39;insieme di proprietà. |
+| propertyArray | `types:PropertyArray` | Sì | Matrice di proprietà. |
+| permissionArray | `types:PermissionUpdateArray` |  |  |
 
 **Output (createPropertySetParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Sì | L&#39;handle del nuovo set di proprietà. |
+| setHandle | `xsd:string` | Sì | L&#39;handle del nuovo set di proprietà. |
 
 ## Esempi {#section-4e1f5b2883664bc88f590fcd253df22b}
 

@@ -2,13 +2,13 @@
 description: Ottiene i progetti per un gruppo di risorse correlate.
 solution: Experience Manager
 title: getProjects
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 18%
+source-wordcount: '66'
+ht-degree: 19%
 
 ---
 
@@ -33,13 +33,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
 
 **Output (getProjectsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Sì | L&#39;array di progetti associati all&#39;azienda. |
+| projectArray | `types:ProjectArray` | Sì | L&#39;array di progetti associati all&#39;azienda. |
 
 ## Esempi {#section-8b12d0b948f644f68bf9a16060d3849a}
 

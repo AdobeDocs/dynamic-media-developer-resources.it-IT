@@ -2,13 +2,13 @@
 description: Pubblica i file sui server di rendering delle immagini.
 solution: Experience Manager
 title: ImageRenderingPublishJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | Scelta delle impostazioni e-mail. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL per inviare un avviso di completamento. |
-| `*`contextHandle`*` | `xsd:string` | Gestisci il contesto di pubblicazione. |
+| emailSetting | `xsd:string` | Scelta delle impostazioni e-mail. |
+| httpCompletionUrl | `xsd:string` | URL per inviare un avviso di completamento. |
+| contextHandle | `xsd:string` | Gestisci il contesto di pubblicazione. |

@@ -2,12 +2,12 @@
 description: Rimuove gli utenti aziendali da un gruppo specifico.
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 9%
 
 ---
@@ -33,9 +33,9 @@ Rimuove gli utenti aziendali da un gruppo specifico.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con gli utenti con cui desideri lavorare. |
-| `*`groupHandle`*` | `xsd:string` | Sì | Maniglia di gruppo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle per gli utenti di cui si desidera rimuovere le appartenenze al gruppo. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con gli utenti con cui desideri lavorare. |
+| groupHandle | `xsd:string` | Sì | Maniglia di gruppo. |
+| userHandleArray | `types:HandleArray` | Sì | Matrice di handle per gli utenti di cui si desidera rimuovere le appartenenze al gruppo. |
 
 **Output (removeGroupMembersParam)**
 

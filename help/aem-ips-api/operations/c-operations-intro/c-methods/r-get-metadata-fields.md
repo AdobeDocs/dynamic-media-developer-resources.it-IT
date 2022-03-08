@@ -2,13 +2,13 @@
 description: Ottiene i campi di metadati definiti dall'utente associati a una risorsa.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
@@ -34,14 +34,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;azienda gestisce. |
-| `*`assetType`*` | `xsd:string` | Sì | Tipi di risorse da cui ottenere i metadati. |
+| companyHandle | `xsd:string` | Sì | L&#39;azienda gestisce. |
+| assetType | `xsd:string` | Sì | Tipi di risorse da cui ottenere i metadati. |
 
 **Output (getMetadataFieldsParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`Frase di codice`*` | `Code Phrase` |  |  |
+| Frase di codice | `Code Phrase` |  |  |
 
 ## Esempi {#section-dbfde1483d614b5aac2b491cb32115d7}
 

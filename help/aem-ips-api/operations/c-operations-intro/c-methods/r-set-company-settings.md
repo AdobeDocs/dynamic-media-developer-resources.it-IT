@@ -2,13 +2,13 @@
 description: Imposta vari valori di configurazione specifici per l’azienda.
 solution: Experience Manager
 title: setCompanySettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 10%
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -31,15 +31,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`overwriteMode`*` | `xsd:string` | No | Modalità di sovrascrittura delle risorse. |
-| `*`keepPublishState`*` | `xsd:boolean` | No | Imposta su `true` per mantenere lo stato di pubblicazione quando una risorsa viene ricaricata. |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore sorgente predefinito. |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore di visualizzazione predefinito. |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | No | Risorsa XSL utilizzata per la mappatura dei metadati IPTC e EXIF ai campi di metadati IPS. |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati XMP ai campi di metadati IPS. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | No | Spazio su disco disponibile minimo (in KB) prima dell’invio di un messaggio di avviso. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | No | Imposta su `true` per inviare agli amministratori dell’azienda una notifica ogni volta che le risorse vengono svuotate dal cestino. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| overwriteMode | `xsd:string` | No | Modalità di sovrascrittura delle risorse. |
+| keepPublishState | `xsd:boolean` | No | Imposta su `true` per mantenere lo stato di pubblicazione quando una risorsa viene ricaricata. |
+| defaultSourceProfileHandle | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore sorgente predefinito. |
+| defaultDisplayProfileHandle | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore di visualizzazione predefinito. |
+| iptcExifMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per la mappatura dei metadati IPTC e EXIF ai campi di metadati IPS. |
+| xmpMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati XMP ai campi di metadati IPS. |
+| diskSpaceWarningMin | `xsd:int` | No | Spazio su disco disponibile minimo (in KB) prima dell’invio di un messaggio di avviso. |
+| emailTrashCleanupWarning | `xsd:boolean` | No | Imposta su `true` per inviare agli amministratori dell’azienda una notifica ogni volta che le risorse vengono svuotate dal cestino. |
 
 **Output (setCompanySettingsReturn)**
 

@@ -2,13 +2,13 @@
 description: Assegnare o aggiornare le risorse in un progetto.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 16%
+source-wordcount: '83'
+ht-degree: 18%
 
 ---
 
@@ -33,15 +33,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`projectHandle`*` | `xsd:string` | Sì | Maniglia del progetto. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle di risorsa da associare al progetto. |
+| companyName | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| projectHandle | `xsd:string` | Sì | Maniglia del progetto. |
+| assetHandleArray | `types:HandleArray` | Sì | Matrice di handle di risorsa da associare al progetto. |
 
 **Output (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiunte correttamente. |
+| successCount | `xsd:int` | Sì | Numero di risorse aggiunte correttamente. |
 
 ## Esempi {#section-33c1a909c3dc4aa98da474c23a036596}
 

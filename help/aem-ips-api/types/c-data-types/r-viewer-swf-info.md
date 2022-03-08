@@ -1,20 +1,20 @@
 ---
-description: Proprietà di una risorsa file SWF del visualizzatore.
+description: Proprietà di una risorsa file SWF visualizzatore.
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic, SDK/API,Visualizzatori
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 12%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
 # ViewerSwfInfo{#viewerswfinfo}
 
-Proprietà di una risorsa file SWF del visualizzatore.
+Proprietà di una risorsa file SWF visualizzatore.
 
 Sintassi
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Percorso relativo al file SWF del visualizzatore originariamente caricato. |
-| `*`originalFile`*` | `xsd:string` | Nome del file SWF del visualizzatore originale. |
-| `*`fileSize`*` | `xsd:int` | Dimensione file. |
+| originalPath | `xsd:string` | Percorso relativo al file SWF del visualizzatore originariamente caricato. |
+| originalFile | `xsd:string` | Nome file del file SWF del visualizzatore originale. |
+| fileSize | `xsd:int` | Dimensione file. |

@@ -2,12 +2,12 @@
 description: Aggiunge una società al sistema.
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ Aggiunge una società al sistema.
 
 Invia il nome della società da aggiungere al sistema e, facoltativamente, invia se la società scade.
 
-Quando si richiama questa operazione, il sistema ottiene un tipo `*`companyInfo`*` che contiene un handle della società e campi descrittivi. Se il nome società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando si richiama questa operazione, il sistema ottiene un tipo companyInfo che contiene un handle della società e campi descrittivi. Se il nome società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 

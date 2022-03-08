@@ -2,12 +2,12 @@
 description: Determina se un batch di risorse è pronto per essere pubblicato.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Determina se un batch di risorse è pronto per essere pubblicato.
 
-Versione batch di [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+Questa è la versione batch di [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## Tipi di utenti autorizzati {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -37,18 +37,18 @@ Versione batch di [setAssetState](../../../operations/c-operations-intro/c-metho
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sì | Array di valori dello stato di pubblicazione per le risorse. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Sì | Array di valori dello stato di pubblicazione per le risorse. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di risorse aggiornate. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un avviso quando l&#39;operazione ha tentato di aggiornarle. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di risorse che hanno generato un errore quando l&#39;operazione ha tentato di eliminarle. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un avviso. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un errore. |
+| successCount | `xsd:int` | Sì | Numero di risorse aggiornate. |
+| warningCount | `xsd:int` | Sì | Numero di risorse che hanno generato un avviso quando l&#39;operazione ha tentato di aggiornarle. |
+| errorCount | `xsd:int` | Sì | Numero di risorse che hanno generato un errore quando l&#39;operazione ha tentato di eliminarle. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un avviso. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Dettagli associati agli aggiornamenti delle risorse che hanno generato un errore. |
 
 ## Esempi {#section-38cfdd3436214a06a1bae16875501d51}
 

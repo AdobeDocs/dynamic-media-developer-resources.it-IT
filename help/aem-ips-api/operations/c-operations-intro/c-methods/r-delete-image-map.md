@@ -2,12 +2,12 @@
 description: Elimina una mappa immagine.
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 10%
 
 ---
@@ -37,8 +37,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene la mappa immagine da eliminare. |
-| `*`imageMapHandle`*` | `xsd:string` | Sì | La maniglia della mappa immagine da eliminare. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene la mappa immagine da eliminare. |
+| imageMapHandle | `xsd:string` | Sì | La maniglia della mappa immagine da eliminare. |
 
 **Output (deleteImageMapParam)**
 

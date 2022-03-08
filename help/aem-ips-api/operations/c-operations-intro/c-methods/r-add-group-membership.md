@@ -2,12 +2,12 @@
 description: Aggiunge un utente a una matrice di gruppi.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 10%
 
 ---
@@ -59,7 +59,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-Questo esempio aggiunge un gruppo a una società con `*`groupHandleArray`*`. In questo esempio viene utilizzato un solo gruppo.
+In questo esempio viene aggiunto un gruppo a una società con groupHandleArray. In questo esempio viene utilizzato un solo gruppo.
 
 **Request Contents (Richiesta contenuto)**
 

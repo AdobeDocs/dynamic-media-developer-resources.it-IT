@@ -2,13 +2,13 @@
 description: Proprietà per le risorse di tipo AssetSet.
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '37'
+ht-degree: 10%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | Definizione del set di risorse formattata in base ai requisiti del visualizzatore IS di destinazione. Può contenere parametri di sostituzione IPS facoltativi. |
+| setDefinition | `xsd:string` | Definizione del set di risorse formattata in base ai requisiti del visualizzatore IS di destinazione. Può contenere parametri di sostituzione IPS facoltativi. |

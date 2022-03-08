@@ -2,13 +2,13 @@
 description: Mappa una risorsa in PublishContext in cui una risorsa è contrassegnata per la pubblicazione.
 solution: Experience Manager
 title: AssetPublishContext
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Gestisci la risorsa. |
-| `*`publishContextArray`*` | `types:PublishContextArray` | Matrice di contesti di pubblicazione in cui la risorsa è contrassegnata per la pubblicazione. |
+| assetHandle | `xsd:string` | Gestisci la risorsa. |
+| publishContextArray | `types:PublishContextArray` | Matrice di contesti di pubblicazione in cui la risorsa è contrassegnata per la pubblicazione. |

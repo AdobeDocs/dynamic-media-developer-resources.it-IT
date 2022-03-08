@@ -2,12 +2,12 @@
 description: Controlla se un utente con una società specifica (identificata da un handle), un indirizzo e-mail e una password possono effettuare l'accesso.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 11%
 
 ---
@@ -38,19 +38,19 @@ Controlla se un utente con una società specifica (identificata da un handle), u
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | No | L&#39;handle della società che contiene l&#39;utente. |
-| `*`e-mail`*` | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
-| `*`password`*` | `xsd:string` | Sì | Password dell&#39;utente. |
+| companyHandle | `xsd:string` | No | L&#39;handle della società che contiene l&#39;utente. |
+| e-mail | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
+| password | `xsd:string` | Sì | Password dell&#39;utente. |
 
 **Output (checkLoginParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | Sì | Stato dell&#39;accesso dell&#39;utente. |
+| status | `xsd:string` | Sì | Stato dell&#39;accesso dell&#39;utente. |
 
 ## Esempi {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Questo codice di esempio utilizza un parametro di handle aziendale, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* effettuare l&#39;accesso, questo metodo restituisce la stringa `ValidLogin`. Se l&#39;utente *non è in grado di eseguire l&#39;accesso*, questo metodo restituisce la stringa `InvalidLogin`.
+Questo codice di esempio utilizza un parametro di handle aziendale, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* accedere, questo metodo restituisce la stringa, `ValidLogin`. Se l&#39;utente *impossibile* accedere, questo metodo restituisce la stringa, `InvalidLogin`.
 
 **Request Contents (Richiesta contenuto)**
 

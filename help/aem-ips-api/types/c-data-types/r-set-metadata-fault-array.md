@@ -2,13 +2,13 @@
 description: Una serie di errori di metadati.
 solution: Experience Manager
 title: SetMetadataFaultArray
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 76f453d0-27c5-4971-b854-25fc3cefd92c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '23'
+ht-degree: 21%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:SetMetadataFault` | Una serie di errori di metadati. |
+| elementi | `types:SetMetadataFault` | Una serie di errori di metadati. |

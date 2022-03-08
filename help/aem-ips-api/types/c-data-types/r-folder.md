@@ -2,13 +2,13 @@
 description: Oggetto di archiviazione di file o risorse gerarchici. Le cartelle possono contenere una (o più) sottocartelle.
 solution: Experience Manager
 title: Cartella
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -22,10 +22,10 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Maniglia della cartella. |
-| `*`path`*` | `xsd:string` | Percorso cartella. |
-| `*`lastModified`*` | `xsd:dateTime` | Data ultima modifica. |
-| `*`childLastModified`*` | `xsd:dateTime` | Data ultima modifica per le sottocartelle e le risorse secondarie della cartella. |
-| `*`permissionsSetHandle`*` | `xsd:string` | Gestione delle autorizzazioni della cartella. |
-| `*`hasSubfolder`*` | `types:Boolean` | Determina se una cartella contiene sottocartelle. |
-| `*`subfolderArray`*` | `types:FolderArray` | Matrice di sottocartelle in una cartella. |
+| folderHandle | `xsd:string` | Maniglia della cartella. |
+| path | `xsd:string` | Percorso cartella. |
+| lastModified | `xsd:dateTime` | Data ultima modifica. |
+| childLastModified | `xsd:dateTime` | Data ultima modifica per le sottocartelle e le risorse secondarie della cartella. |
+| permissionsSetHandle | `xsd:string` | Gestione delle autorizzazioni della cartella. |
+| hasSubfolder | `types:Boolean` | Determina se una cartella contiene sottocartelle. |
+| subfolderArray | `types:FolderArray` | Matrice di sottocartelle in una cartella. |

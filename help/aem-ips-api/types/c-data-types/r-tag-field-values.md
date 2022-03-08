@@ -2,13 +2,13 @@
 description: Matrice di valori per un campo tag.
 solution: Experience Manager
 title: TagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '36'
+ht-degree: 11%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Maniglia del campo di tag. |
-| `*`valueArray`*` | `xsd:StringArray` | Matrice di valori per un campo tag. |
+| fieldHandle | `xsd:string` | Maniglia del campo di tag. |
+| valueArray | `xsd:StringArray` | Matrice di valori per un campo tag. |

@@ -2,13 +2,13 @@
 description: Ottiene i processi pianificati per l'esecuzione.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 18%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
@@ -35,15 +35,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`jobHandle`*` | `xsd:string` | No | Maniglia di lavoro. |
-| `*`originalName`*` | `xsd:string` | No | Nome specificato da `submitJob`. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| jobHandle | `xsd:string` | No | Maniglia di lavoro. |
+| originalName | `xsd:string` | No | Nome specificato da `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | Sì | Array di processi pianificati. |
+| jobArray | `types:ScheduledJobArray` | Sì | Array di processi pianificati. |
 
 ## Esempi {#section-e79e7da86ba848fd9996aa36de462e6c}
 

@@ -2,13 +2,13 @@
 description: Crea un set di immagini.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic, SDK/API, Set di immagini
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 12%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
@@ -37,17 +37,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società a cui appartiene il set di immagini. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L&#39;handle della cartella. |
-| `*`name`*` | `xsd:string` | Sì | Nome del set di immagini. |
-| `*`type`*` | `xsd:string` | Sì | Tipo di set di immagini. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
+| companyHandle | `xsd:string` | Sì | Il handle della società a cui appartiene il set di immagini. |
+| folderHandle | `xsd:string` | Sì | L&#39;handle della cartella. |
+| name | `xsd:string` | Sì | Nome del set di immagini. |
+| Testo | `xsd:string` | Sì | Tipo di set di immagini. |
+| thumbAssetHandle | `xsd:string` | No | Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
 
 **Uscita**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del nuovo set di immagini. |
+| assetHandle | `xsd:string` | Sì | La maniglia del nuovo set di immagini. |
 
 ## Esempi {#section-385fe3b0af8044b0a2451336ec137fc5}
 

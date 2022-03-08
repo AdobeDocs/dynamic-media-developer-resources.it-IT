@@ -2,13 +2,13 @@
 description: Una serie di parole chiave.
 solution: Experience Manager
 title: KeywordsArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 20%
+source-wordcount: '20'
+ht-degree: 25%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:Keywords` | Una serie di parole chiave. |
+| elementi | `types:Keywords` | Una serie di parole chiave. |

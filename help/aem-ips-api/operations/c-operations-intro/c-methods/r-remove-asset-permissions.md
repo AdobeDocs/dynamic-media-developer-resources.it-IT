@@ -2,13 +2,13 @@
 description: Rimuove le autorizzazioni dalle risorse selezionate.
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 13%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
@@ -30,8 +30,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa con le autorizzazioni da rimuovere. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | L’handle della risorsa con le autorizzazioni da rimuovere. |
 
 **Output (removeAssetPermissionsReturn)**
 

@@ -2,13 +2,13 @@
 description: Gestisce i diritti di accesso, modifica, creazione o eliminazione delle risorse per gruppo.
 solution: Experience Manager
 title: Autorizzazione
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Maniglia di gruppo. |
-| `*`groupName`*` | `xsd:string` | Nome del gruppo. |
-| `*`permissionType`*` | `xsd:string` | Scelta del tipo di autorizzazione. |
-| `*`isAllowed`*` | `xsd:boolean` | Determina se l&#39;autorizzazione è consentita. |
-| `*`isOverride`*` | `xsd:boolean` | Determina se l&#39;autorizzazione sostituisce un&#39;altra. |
+| groupHandle | `xsd:string` | Maniglia di gruppo. |
+| groupName | `xsd:string` | Nome del gruppo. |
+| permissionType | `xsd:string` | Scelta del tipo di autorizzazione. |
+| isAllowed | `xsd:boolean` | Determina se l&#39;autorizzazione è consentita. |
+| isOverride | `xsd:boolean` | Determina se l&#39;autorizzazione sostituisce un&#39;altra. |

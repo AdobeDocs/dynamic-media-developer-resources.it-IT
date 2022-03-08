@@ -2,13 +2,13 @@
 description: Elimina il campo metadati di una società.
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 8%
+source-wordcount: '98'
+ht-degree: 9%
 
 ---
 
@@ -30,8 +30,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il campo metadati da eliminare. |
-| `*`fieldHandle`*` | `xsd:string` | Sì | L&#39;handle del campo di metadati da eliminare. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il campo metadati da eliminare. |
+| fieldHandle | `xsd:string` | Sì | L&#39;handle del campo di metadati da eliminare. |
 
 **Output (deleteMetadataFieldParam)**
 
@@ -39,7 +39,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Questo esempio di codice elimina il campo di metadati di una società. Per eseguire questa azione, utilizza l’handle della società e la gestione dei metadati come campi nel `deleteMetadataFieldParam` passato al server dei servizi Web IPS.
+Questo esempio di codice elimina il campo di metadati di una società. Utilizza l&#39;handle dell&#39;azienda e i metadati vengono gestiti come campi nel `deleteMetadataFieldParam` passato al server dei servizi Web IPS per eseguire questa azione.
 
 **Request Contents (Richiesta contenuto)**
 

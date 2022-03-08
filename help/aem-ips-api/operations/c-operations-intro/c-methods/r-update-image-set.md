@@ -2,13 +2,13 @@
 description: Aggiorna un set di immagini.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic, SDK/API, Set di immagini
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 16%
+source-wordcount: '78'
+ht-degree: 17%
 
 ---
 
@@ -24,16 +24,16 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
-| `*`MemberArray`*` | `types:ImageSetMemberUpdateArray` | No | Ripristina i membri del set di immagini. |
-| `*`thumbAssetHandle`*` | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
+| assetHandle | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
+| MemberArray | `types:ImageSetMemberUpdateArray` | No | Ripristina i membri del set di immagini. |
+| thumbAssetHandle | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
 
 **Output (updateImageSetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`sequenza`*` |  |  |  |
+| sequenza |  |  |  |
 
 ## Esempi {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

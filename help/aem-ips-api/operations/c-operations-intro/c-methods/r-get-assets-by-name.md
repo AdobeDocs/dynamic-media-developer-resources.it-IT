@@ -2,12 +2,12 @@
 description: Restituisce le risorse in base a una matrice di nomi di risorse.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 10%
 
 ---
@@ -93,7 +93,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> narrowSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se <span class="codeph"> false</span>, vengono incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, solo le risorse i cui sottotipi sono <span class="codeph"> assetSubTypeArray</span> vengono restituiti. </p> <p>Se <span class="codeph"> false</span>, vengono quindi incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,7 +114,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | No | Array di risorse che corrispondono ai criteri del filtro. |
+| assetArray | `types:AssetArray` | No | Array di risorse che corrispondono ai criteri del filtro. |
 
 ## Esempi {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

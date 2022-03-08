@@ -2,12 +2,12 @@
 description: Sposta più risorse in modo indipendente l’una dall’altra. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 8%
 
 ---
@@ -33,8 +33,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con risorse da spostare. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Sì | Matrice per lo spostamento delle risorse. Contiene una risorsa e una cartella di destinazione della risorsa. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con risorse da spostare. |
+| assetMoveArray | `types:AssetMoveArray` | Sì | Matrice per lo spostamento delle risorse. Contiene una risorsa e una cartella di destinazione della risorsa. |
 
 **Output (moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults che contengono: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>che contengono: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Risorse che hanno generato gli avvisi. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codici di avvertenza. </li> 
@@ -81,7 +81,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults che contengono: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>che contengono: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Risorse che hanno generato gli errori. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codici di errore. </li> 

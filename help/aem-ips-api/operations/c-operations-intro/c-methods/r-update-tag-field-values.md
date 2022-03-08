@@ -2,13 +2,13 @@
 description: Aggiorna i valori del dizionario tag per un campo tag.
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 11%
+source-wordcount: '157'
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4">Matrice di valori dei campi tag che si desidera aggiornare. <p>Nota:  Aggiorna solo i valori delle stringhe di tag. Non influisce sulle associazioni di risorse. </p> </td> 
+   <td colname="col4">Matrice di valori dei campi tag che si desidera aggiornare. <p>Nota: Aggiorna solo i valori delle stringhe di tag. Non influisce sulle associazioni di risorse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di aggiornare i campi tag. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di aggiornare i campi tag. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di aggiornare i campi dei tag. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di aggiornare i campi tag. |
+| successCount | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di aggiornare i campi tag. |
+| errorCount | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di aggiornare i campi tag. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di aggiornare i campi dei tag. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di aggiornare i campi tag. |
 
 ## Esempi {#section-bb4dcf97044c4675974c9b8d27674001}
 

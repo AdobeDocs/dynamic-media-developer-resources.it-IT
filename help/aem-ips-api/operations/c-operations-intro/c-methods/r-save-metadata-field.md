@@ -2,12 +2,12 @@
 description: Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '217'
 ht-degree: 8%
 
 ---
@@ -96,11 +96,11 @@ Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sì | Gestione del nuovo campo metadati. |
+| fieldHandle | `xsd:string` | Sì | Gestione del nuovo campo metadati. |
 
 ## Esempi {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Questo esempio di codice crea un nuovo campo metadati vincolato dalle costanti di stringa Tipo di risorsa e Tipi di campi metadati . Se l&#39;elemento `fieldHandle` ha un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
+Questo esempio di codice crea un nuovo campo metadati vincolato dalle costanti di stringa Tipo di risorsa e Tipi di campi metadati . Se la `fieldHandle` elemento con un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -2,13 +2,13 @@
 description: Restituisce le impostazioni IPS per una società specifica.
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 18%
+source-wordcount: '64'
+ht-degree: 20%
 
 ---
 
@@ -31,13 +31,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare le impostazioni. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare le impostazioni. |
 
 **Output (getCompanySettingsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`impostazioni`*` | `types:CompanySettings` | Sì | Impostazioni aziendali. |
+| impostazioni | `types:CompanySettings` | Sì | Impostazioni aziendali. |
 
 ## Esempi {#section-191f78995ecf473a95eadf7296204fd7}
 

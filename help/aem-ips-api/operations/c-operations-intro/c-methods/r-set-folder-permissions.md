@@ -2,13 +2,13 @@
 description: Imposta le autorizzazioni della cartella.
 solution: Experience Manager
 title: setFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '91'
+ht-degree: 13%
 
 ---
 
@@ -30,10 +30,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`folderHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
-| `*`setChildren`*` | `xsd:boolean` | Sì | Imposta le autorizzazioni per gli elementi figlio che appartengono alla cartella. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Sì | Matrice di autorizzazioni. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| folderHandle | `xsd:string` | Sì | Maniglia della cartella. |
+| setChildren | `xsd:boolean` | Sì | Imposta le autorizzazioni per gli elementi figlio che appartengono alla cartella. |
+| permissionArray | `types:PermissionUpdateArray` | Sì | Matrice di autorizzazioni. |
 
 **Output (setFolderPermissionsReturn)**
 

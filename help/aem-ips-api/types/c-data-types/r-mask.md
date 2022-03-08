@@ -2,12 +2,12 @@
 description: Maschera parte di un'immagine. La maschera è sempre associata all'immagine. Ottieni una maschera da ImageInfo.
 solution: Experience Manager
 title: Maschera
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 12%
 
 ---
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | Maniglia maschera. |
-| `*`name`*` | `xsd:string` | Nome della maschera. |
-| `*`maskPath`*` | `xsd:string` | Percorso relativo alla maschera. |
-| `*`maskFile`*` | `xsd:string` | File maschera. |
-| `*`lastModified`*` | `types:dateTime` | Data, ora e fuso orario dell&#39;ultima modifica apportata alla maschera. |
+| maskHandle | `xsd:string` | Maniglia maschera. |
+| name | `xsd:string` | Nome della maschera. |
+| maskPath | `xsd:string` | Percorso relativo alla maschera. |
+| maskFile | `xsd:string` | File maschera. |
+| lastModified | `types:dateTime` | Data, ora e fuso orario dell&#39;ultima modifica apportata alla maschera. |

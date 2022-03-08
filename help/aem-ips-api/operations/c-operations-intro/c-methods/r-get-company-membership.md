@@ -2,13 +2,13 @@
 description: Ottiene le appartenenze di un utente in una matrice aziendale.
 solution: Experience Manager
 title: getCompanyMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 15%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -37,13 +37,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera ottenere le appartenenze. |
+| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera ottenere le appartenenze. |
 
 **Output (getCompanyMembershipReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sì | Array di appartenenze aziendali. |
+| membershipArray | `types:CompanyMembershipArray` | Sì | Array di appartenenze aziendali. |
 
 ## Esempi {#section-e4958d104ea344a4a79f57d07b46eba7}
 

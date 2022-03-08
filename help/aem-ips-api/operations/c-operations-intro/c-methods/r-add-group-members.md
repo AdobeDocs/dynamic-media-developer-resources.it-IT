@@ -2,12 +2,12 @@
 description: Aggiunge utenti da una società specifica a un gruppo specifico.
 solution: Experience Manager
 title: addGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 10%
 
 ---
@@ -30,9 +30,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`groupHandle`*` | `xsd:string` | Sì | La maniglia del gruppo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle per gli utenti che si desidera aggiungere a un gruppo. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| groupHandle | `xsd:string` | Sì | La maniglia del gruppo. |
+| userHandleArray | `types:HandleArray` | Sì | Matrice di handle per gli utenti che si desidera aggiungere a un gruppo. |
 
 **Output (addGroupMembersParam)**
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In questo esempio viene utilizzato `*`addGroupMembersParam`*` per aggiungere un utente a una singola azienda. L&#39;API IPS non restituisce una risposta per questa operazione.
+In questo esempio viene utilizzato addGroupMembersParam per aggiungere un utente a una singola società. L&#39;API IPS non restituisce una risposta per questa operazione.
 
 **Request Contents (Richiesta contenuto)**
 

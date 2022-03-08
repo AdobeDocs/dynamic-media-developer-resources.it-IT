@@ -2,13 +2,13 @@
 description: Restituisce gli utenti di una società specificata da un handle aziendale.
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 14%
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
@@ -31,14 +31,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera ottenere i membri. |
-| `*`includeInvalid`*` | `xsd:boolean` | Sì | Includi società non valide. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera ottenere i membri. |
+| includeInvalid | `xsd:boolean` | Sì | Includi società non valide. |
 
 **Output (getCompanyMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`MemberArray`*` | `types:CompanyMemberArray` | Sì | Array di appartenenze utente. |
+| MemberArray | `types:CompanyMemberArray` | Sì | Array di appartenenze utente. |
 
 ## Esempi {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

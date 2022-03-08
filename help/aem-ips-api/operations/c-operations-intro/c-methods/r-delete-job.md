@@ -2,13 +2,13 @@
 description: Elimina un processo corrente o pianificato.
 solution: Experience Manager
 title: deleteJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 10%
+source-wordcount: '90'
+ht-degree: 11%
 
 ---
 
@@ -35,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda a cui appartiene il lavoro. |
-| `*`jobHandle`*` | `xsd:string` | Sì | L&#39;handle del processo da eliminare. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda a cui appartiene il lavoro. |
+| jobHandle | `xsd:string` | Sì | L&#39;handle del processo da eliminare. |
 
 **Uscita**
 

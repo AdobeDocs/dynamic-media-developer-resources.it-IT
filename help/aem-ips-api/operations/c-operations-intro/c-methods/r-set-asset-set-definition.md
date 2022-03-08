@@ -2,12 +2,12 @@
 description: Aggiorna la definizione del set per un set di risorse esistente.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 5%
 
 ---
@@ -33,9 +33,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con il set di risorse. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Maniglia del set di risorse |
-| `*`setDefinition`*` | `xsd:string` | Sì | Stringa di definizione. Vedi sotto. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con il set di risorse. |
+| assetHandle | `xsd:string` | Sì | Maniglia del set di risorse |
+| setDefinition | `xsd:string` | Sì | Stringa di definizione. Vedi sotto. |
 
 **Output (setAssetSetDefinitionReturn)**
 
@@ -45,11 +45,11 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 **Funzioni setDefinition**
 
-Specificare le funzioni di sostituzione `setDefinition` in linea. Questi vengono risolti durante una ricerca di catalogo o una pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}` e includono quanto segue:
+Specifica `setDefinition` funzioni di sostituzione in linea. Questi vengono risolti durante una ricerca di catalogo o una pubblicazione. Il formato delle stringhe di sostituzione è `${<substitution_func>}`e includono quanto segue:
 
 >[!NOTE]
 >
->I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
+>I valori letterali di handle negli elenchi dei parametri devono essere racchiusi tra parentesi `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -60,19 +60,19 @@ Specificare le funzioni di sostituzione `setDefinition` in linea. Questi vengono
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Percorso file principale. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID catalogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> Valore metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID catalogo. Si applica alle risorse basate su immagini (immagine, vista regolata, vista livello). <p>Per altre risorse, restituisce l’ID catalogo della risorsa miniatura (se presente). Se alla risorsa non è associata alcuna risorsa miniatura, la funzione restituisce una stringa vuota. </p> </td> 
   </tr> 
  </tbody> 

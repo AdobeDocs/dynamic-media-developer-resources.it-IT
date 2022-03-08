@@ -2,13 +2,13 @@
 description: Imposta i campi di metadati del profilo ICC.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 12%
+source-wordcount: '137'
+ht-degree: 13%
 
 ---
 
@@ -33,18 +33,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci la società che contiene i profili ICC. |
-| `*`aggiorna array`*` | `xsd:string` | Sì | Array di aggiornamenti del profilo ICC. |
+| companyHandle | `xsd:string` | Sì | Gestisci la società che contiene i profili ICC. |
+| aggiorna array | `xsd:string` | Sì | Array di aggiornamenti del profilo ICC. |
 
 **Output (batchSetIccProfileFields)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di campi del profilo ICC impostati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Il numero di avvisi generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
-| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
+| successCount | `xsd:int` | Sì | Numero di campi del profilo ICC impostati correttamente. |
+| warningCount | `xsd:int` | Sì | Il numero di avvisi generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
 
 ## Esempi {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

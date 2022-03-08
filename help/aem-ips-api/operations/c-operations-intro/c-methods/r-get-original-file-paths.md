@@ -2,13 +2,13 @@
 description: Ottiene i percorsi di file originali delle risorse di una società.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 13%
+source-wordcount: '99'
+ht-degree: 14%
 
 ---
 
@@ -38,14 +38,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sì | Array di handle alle risorse di cui si desidera ottenere il percorso file originale. |
+| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| assetHandleArray | `types:HandleArray` | Sì | Array di handle alle risorse di cui si desidera ottenere il percorso file originale. |
 
 **Output (getOriginalFilePathsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Sì | Matrice di stringhe che rappresentano i percorsi file originali. |
+| originalFileArray | `types:StringArray` | Sì | Matrice di stringhe che rappresentano i percorsi file originali. |
 
 ## Esempi {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

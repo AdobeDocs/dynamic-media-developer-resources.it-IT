@@ -2,13 +2,13 @@
 description: Restituisce tutti i campi di metadati, raggruppati per tipo di risorsa.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 18%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 
@@ -34,13 +34,13 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare i metadati. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare i metadati. |
 
 **Output (getAssetMetadataFieldsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Sì | Array di campi di metadati, per tipo di risorsa. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | Sì | Array di campi di metadati, per tipo di risorsa. |
 
 ## Esempi {#section-d79ab85f29144635b0b61416e52f4f3f}
 

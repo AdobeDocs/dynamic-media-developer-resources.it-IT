@@ -2,13 +2,13 @@
 description: Solo per uso interno. Gli utenti devono fare riferimento alla sezione Riferimento catalogo immagini di Image Server - Riferimento attributi .
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 14%
+source-wordcount: '80'
+ht-degree: 15%
 
 ---
 
@@ -31,11 +31,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda con le impostazioni di pubblicazione del servizio di immagini. |
-| `*`contextHandle`*` | `xsd:string` | Sì | Gestisci il contesto di pubblicazione. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con le impostazioni di pubblicazione del servizio di immagini. |
+| contextHandle | `xsd:string` | Sì | Gestisci il contesto di pubblicazione. |
 
 **Uscita**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | Sì | Array di impostazioni di pubblicazione del server di immagini. |
+| publishSettingArray | `xsd:string` | Sì | Array di impostazioni di pubblicazione del server di immagini. |

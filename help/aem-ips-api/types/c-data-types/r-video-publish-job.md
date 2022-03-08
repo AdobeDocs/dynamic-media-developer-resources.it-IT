@@ -2,13 +2,13 @@
 description: Pubblica i file sui server di pubblicazione video configurati.
 solution: Experience Manager
 title: VideoPublishJob
-feature: Dynamic Media Classic, SDK/API,Video
+feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '41'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | Scelta delle impostazioni e-mail. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL per inviare un avviso di completamento. |
-| `*`contextHandle`*` | `xsd:string` | Gestisci il contesto di pubblicazione. |
+| emailSetting | `xsd:string` | Scelta delle impostazioni e-mail. |
+| httpCompletionUrl | `xsd:string` | URL per inviare un avviso di completamento. |
+| contextHandle | `xsd:string` | Gestisci il contesto di pubblicazione. |

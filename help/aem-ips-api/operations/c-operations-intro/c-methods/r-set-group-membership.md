@@ -2,13 +2,13 @@
 description: Imposta l'appartenenza a un gruppo per un utente.
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
@@ -30,9 +30,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera impostare l&#39;appartenenza al gruppo. |
-| `*`companyHandle`*` | `xsd:string` | No | Tratta l&#39;azienda. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sì | Matrice di handle per i gruppi a cui appartiene l&#39;utente. |
+| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera impostare l&#39;appartenenza al gruppo. |
+| companyHandle | `xsd:string` | No | Tratta l&#39;azienda. |
+| groupHandleArray | `types:HandleArray` | Sì | Matrice di handle per i gruppi a cui appartiene l&#39;utente. |
 
 **Output (setGroupMembershipReturn)**
 

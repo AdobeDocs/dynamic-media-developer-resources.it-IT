@@ -5,7 +5,7 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 10%
@@ -26,22 +26,22 @@ Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gr
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | No | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
-| `*`includeInvalid`*` | `xsd:boolean` | No | Consente di includere/escludere utenti non validi. |
-| `*`companyHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati per azienda. |
-| `*`groupHandleArray`*` | `types:HandleArray` | No | Filtrare i risultati per gruppo. |
-| `*`userRoleArray`*` | `types:StringArray` | No | Filtrare i risultati per ruolo utente. |
-| `*`charFilterField`*` | `xsd:string` | No | Filtra i risultati per prefisso della stringa del campo (vedi [!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | No | Filtrare i risultati per un carattere specifico. |
-| `*`sortBy`*` | `xsd:string` | No | Scelta dei campi di ordinamento utente. |
-| `*`recordsPerPage`*` | `xsd:int` | No | Restituisce il numero specificato di record per pagina. |
-| `*`resultPage`*` | `xsd:int` | No | Pagina dei risultati. |
+| includeInactive | `xsd:boolean` | No | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
+| includeInvalid | `xsd:boolean` | No | Consente di includere/escludere utenti non validi. |
+| companyHandleArray | `types:HandleArray` | No | Filtrare i risultati per azienda. |
+| groupHandleArray | `types:HandleArray` | No | Filtrare i risultati per gruppo. |
+| userRoleArray | `types:StringArray` | No | Filtrare i risultati per ruolo utente. |
+| charFilterField | `xsd:string` | No | Filtra i risultati per prefisso della stringa del campo (vedi [!DNL Trash State).] |
+| charFilter | `xsd:string` | No | Filtrare i risultati per un carattere specifico. |
+| sortBy | `xsd:string` | No | Scelta dei campi di ordinamento utente. |
+| recordsPerPage | `xsd:int` | No | Restituisce il numero specificato di record per pagina. |
+| resultPage | `xsd:int` | No | Pagina dei risultati. |
 
 **Output (getUsersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | Sì | Un array di utenti. |
+| userArray | `types:UserArray` | Sì | Un array di utenti. |
 
 ## Esempi {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 

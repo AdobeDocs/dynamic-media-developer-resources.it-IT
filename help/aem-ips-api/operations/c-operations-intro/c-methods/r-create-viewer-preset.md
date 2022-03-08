@@ -2,13 +2,13 @@
 description: Crea una visualizzazione preimpostata che determina cosa può vedere un utente. Il visualizzatore può essere di qualsiasi tipo disponibile in IPS. La visualizzazione predefinita viene applicata quando le risorse vengono pubblicate.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic, SDK/API, Predefiniti visualizzatore
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
 
@@ -31,17 +31,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società che contiene i predefiniti e le risorse per visualizzatori. |
-| `*`folderHandle`*` | `xsd:string` | Sì | L’handle della cartella contenente le risorse. |
-| `*`name`*` | `xsd:string` | Sì | Nome del visualizzatore. |
-| `*`type`*` | `xsd:string` | Sì | Tipo visualizzatore. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | No | Matrice che contiene nomi, valori e handle di immagini a cui si applicano i predefiniti. |
+| companyHandle | `xsd:string` | Sì | Il handle della società che contiene i predefiniti e le risorse per visualizzatori. |
+| folderHandle | `xsd:string` | Sì | L’handle della cartella contenente le risorse. |
+| name | `xsd:string` | Sì | Nome del visualizzatore. |
+| Testo | `xsd:string` | Sì | Tipo visualizzatore. |
+| configSettingArray | `types:ConfigSettingArray` | No | Matrice che contiene nomi, valori e handle di immagini a cui si applicano i predefiniti. |
 
 **Output (createViewerPresetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sì | Gestione del predefinito al visualizzatore. |
+| viewerPresetHandle | `xsd:string` | Sì | Gestione del predefinito al visualizzatore. |
 
 ## Esempi {#section-c88ea63536f3461cbe4677ba53f875dd}
 

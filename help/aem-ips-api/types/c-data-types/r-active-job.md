@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: Un processo eseguito su un server. Inoltre, si tratta di un'istanza di un lavoro pianificato.
 solution: Experience Manager
-title: ActiveJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Un processo eseguito su un server. Inoltre, si tratta di un&#39;istanza di un lavoro pianificato.
 
-I posti di lavoro esistono in 3 stati:
+I posti di lavoro esistono in tre stati:
 
 * Pianificato per l&#39;esecuzione.
 * Attualmente in esecuzione.
 * Esecuzione completata (e con informazioni già scritte in un registro di lavoro).
 
-Specificare un valore del tipo di processo per restituire il tipo di processo. È possibile restituire i seguenti lavori:
+Per restituire il tipo di processo, specificare un valore del tipo di processo. È possibile restituire i seguenti lavori:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Specificare un valore del tipo di processo per restituire il tipo di processo. �
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nome originale del tipo <span class="codeph"> ActiveJob</span> inviato con il processo. </td> 
+   <td colname="col3">Nome originale <span class="codeph"> ActiveJob</span> tipo inviato con il processo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,12 +80,12 @@ Specificare un valore del tipo di processo per restituire il tipo di processo. �
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Impostazioni internazionali per i dettagli del registro di lavoro e la localizzazione delle e-mail. <p>Specificare le impostazioni internazionali come <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, dove il codice della lingua è un codice a due lettere minuscolo come specificato dallo standard ISO-639, e il codice del paese opzionale è un codice a due lettere maiuscolo come specificato dallo standard ISO-3166. Ad esempio, la stringa locale per Inglese (Stati Uniti) è la seguente: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Impostazioni internazionali per i dettagli del registro di lavoro e la localizzazione delle e-mail. <p>Specifica impostazioni internazionali come <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, se il codice della lingua è un codice a due lettere minuscolo, come specificato dalla norma ISO-639, e se il codice del paese opzionale è un codice a due lettere maiuscolo come specificato dalla norma ISO-3166. Ad esempio, la stringa locale per Inglese (Stati Uniti) è la seguente: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Descrizione del processo originariamente specificata in <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Descrizione del processo originariamente specificata <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -165,12 +165,12 @@ Specificare un valore del tipo di processo per restituire il tipo di processo. �
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UploadPostJob</span> </td> 
-   <td colname="col3"> Caricamento del desktop di tracciamento dei dettagli del processo. </td> 
+   <td colname="col3"> Dettagli del lavoro, tracciamento del caricamento del desktop. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ExportJob</span> </td> 
-   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Consulta <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Processo di esportazione</a>. </td> 
+   <td colname="col3">Consenti esportazione autorizzata di file caricati in precedenza. Vedi <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Processo di esportazione</a>. </td> 
   </tr> 
  </tbody> 
 </table>

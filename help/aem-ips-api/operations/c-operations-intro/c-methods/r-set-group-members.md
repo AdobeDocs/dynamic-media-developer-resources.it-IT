@@ -2,12 +2,12 @@
 description: Imposta l'iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
 solution: Experience Manager
 title: setGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 8%
 
 ---
@@ -30,9 +30,9 @@ L&#39;operazione genera un errore di autenticazione se non si dispone dei privil
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`groupHandle`*` | `xsd:string` | Sì | Maniglia di gruppo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sì | Array di handle per gli utenti di cui si desidera impostare l&#39;appartenenza al gruppo. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| groupHandle | `xsd:string` | Sì | Maniglia di gruppo. |
+| userHandleArray | `types:HandleArray` | Sì | Array di handle per gli utenti di cui si desidera impostare l&#39;appartenenza al gruppo. |
 
 **Output (setGroupMembesReturn)**
 

@@ -2,13 +2,13 @@
 description: Imposta i metadati delle risorse utilizzando la modalità batch.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '145'
+ht-degree: 12%
 
 ---
 
@@ -33,18 +33,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera impostare i metadati in un&#39;operazione batch. |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Sì | Array di aggiornamenti di metadati applicati alle risorse. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera impostare i metadati in un&#39;operazione batch. |
+| updateArray | `types:BatchMetadataUpdateArray` | Sì | Array di aggiornamenti di metadati applicati alle risorse. |
 
 **Output (batchSetAssetMetadataParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di metadati impostati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare i metadati. |
-| `*`errorCount`*` | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i metadati. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano avvisi quando l’operazione tentava di impostare in batch i metadati per le risorse. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano errori quando l’operazione tentava di impostare in batch i metadati per le risorse. |
+| successCount | `xsd:int` | Sì | Numero di metadati impostati correttamente. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare i metadati. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i metadati. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano avvisi quando l’operazione tentava di impostare in batch i metadati per le risorse. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generano errori quando l’operazione tentava di impostare in batch i metadati per le risorse. |
 
 ## Esempi {#section-2de798ac920e4b47b971b1729a64395b}
 

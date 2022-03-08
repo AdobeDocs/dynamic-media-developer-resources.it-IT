@@ -2,13 +2,13 @@
 description: Rimuove i valori dei campi tag dal dizionario di un campo tag.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 11%
+source-wordcount: '87'
+ht-degree: 12%
 
 ---
 
@@ -28,9 +28,9 @@ Rimuove i valori dei campi tag dal dizionario di un campo tag.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L&#39;handle della società contenente il campo tag. |
-| `*`fieldHandle`*` | `xsd:string` | Sì | L’handle del campo tag da modificare. |
-| `*`valueArray`*` | `types:StringArray` | Sì | Matrice di valori di tag da eliminare dal dizionario del campo. |
+| companyHandle | `xsd:string` | Sì | L&#39;handle della società contenente il campo tag. |
+| fieldHandle | `xsd:string` | Sì | L’handle del campo tag da modificare. |
+| valueArray | `types:StringArray` | Sì | Matrice di valori di tag da eliminare dal dizionario del campo. |
 
 **Output (deleteTagFieldValuesParam)**
 

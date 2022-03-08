@@ -2,12 +2,12 @@
 description: Aggiorna le impostazioni del formato di pubblicazione della vignetta.
 solution: Experience Manager
 title: updateVignettePublishFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '434'
 ht-degree: 20%
 
 ---
@@ -29,25 +29,25 @@ Aggiorna le impostazioni del formato di pubblicazione della vignetta.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | Sì | Maniglia del formato di pubblicazione. |
-| `*`name`*` | `xsd:string` | No | Nome del formato di pubblicazione. |
-| `*`targetWidth`*` | `xsd:int` | Sì | Specifica la larghezza di destinazione della visualizzazione della vignetta risultante in pixel. Usa zero in modo che la vignetta di output abbia le stesse dimensioni della vignetta primaria. |
-| `*`targetHeight`*` | `xsd:int` | Sì | Specifica l&#39;altezza di destinazione della visualizzazione della vignetta risultante in pixel. Usa zero in modo che la vignetta di output abbia le stesse dimensioni della vignetta primaria. |
-| `*`createPyramid`*` | `xsd:boolean` | Sì | Crea una vignettatura piramidale ottimizzata per lo zoom sul server Image Rendering. Partendo dalla dimensione massima impostata mediante i campi Dimensione vignettatura destinazione, vengono create visualizzazioni con diverse dimensioni in un singolo file di output vignettatura. Ciascuna dimensione di visualizzazione successiva è dimezzata fino ad arrivare a valori di larghezza e altezza che rientrano in 128x128 pixel. |
-| `*`thumbWidth`*` | `xsd:int` | Sì | Specifica la larghezza di ogni miniatura risultante in pixel. Questa impostazione è facoltativa. Lascia come zero per nessun file di miniatura. |
-| `*`saveAsVersion`*` | `xsd:int` | Sì | Specifica il formato di file per le vignette pubblicate. Data una nuova versione di Image Authoring e una versione precedente di Image Rendering Server, è necessario specificare una versione di vignetta leggibile dal server ImageRendering. Se si specifica una versione successiva, il server Image Rendering non è in grado di leggere le vignette pubblicate. Imposta su zero per pubblicare le vignette nella versione più recente. |
-| `*`sizeSuffixSeparator`*` | `xsd:string` | Sì | Specifica il carattere che separa il nome della vignettatura e il suffisso che ne indica la larghezza. |
-| `*`affilare`*` | `xsd:int` | No | Applica la nitidezza all&#39;immagine della visualizzazione principale per ogni dimensione della vignetta di pubblicazione. La nitidezza può compensare la sfocatura quando le vignette vengono ridimensionate. |
-| `*`usmAmount`*` | `xsd:double` | Sì | La funzione di mascheramento intelligente digitale è un modo flessibile e potente per aumentare la nitidezza, specialmente nelle immagini scansionate. Questo controlla la grandezza di ogni sovrimpressione (quanto più scuro e leggero diventano i bordi dei bordi). |
-| `*`usmRadius`*` | `xsd:double` | Sì | Influisce sulle dimensioni dei bordi da migliorare o sulla larghezza dei bordi che diventano, in modo che un raggio più piccolo migliori i dettagli più piccoli. Valori di raggio più elevati possono causare alone ai bordi. La precisione dei dettagli ha bisogno di un raggio più piccolo, dato che i minimi dettagli delle stesse dimensioni o minori del raggio vengono persi. |
-| `*`usmThreshold`*` | `xsd:int` | Sì | Controlla la variazione minima di luminosità da rendere più nitida o la distanza di separazione dei valori tonali adiacenti prima che il filtro funzioni. Questa impostazione può rendere più nitidi i bordi più pronunciati lasciando intatti i bordi più sottili. L’intervallo di soglia consentito è compreso tra 0 e 255. |
+| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
+| vignetteFormatHandle | `xsd:string` | Sì | Maniglia del formato di pubblicazione. |
+| name | `xsd:string` | No | Nome del formato di pubblicazione. |
+| targetWidth | `xsd:int` | Sì | Specifica la larghezza di destinazione della visualizzazione della vignetta risultante in pixel. Usa zero in modo che la vignetta di output abbia le stesse dimensioni della vignetta primaria. |
+| targetHeight | `xsd:int` | Sì | Specifica l&#39;altezza di destinazione della visualizzazione della vignetta risultante in pixel. Usa zero in modo che la vignetta di output abbia le stesse dimensioni della vignetta primaria. |
+| createPyramid | `xsd:boolean` | Sì | Crea una vignettatura piramidale ottimizzata per lo zoom sul server Image Rendering. Partendo dalla dimensione massima impostata mediante i campi Dimensione vignettatura destinazione, vengono create visualizzazioni con diverse dimensioni in un singolo file di output vignettatura. Ciascuna dimensione di visualizzazione successiva è dimezzata fino ad arrivare a valori di larghezza e altezza che rientrano in 128x128 pixel. |
+| thumbWidth | `xsd:int` | Sì | Specifica la larghezza di ogni miniatura risultante in pixel. Questa impostazione è facoltativa. Lascia come zero per nessun file di miniatura. |
+| saveAsVersion | `xsd:int` | Sì | Specifica il formato di file per le vignette pubblicate. Data una nuova versione di Image Authoring e una versione precedente di Image Rendering Server, è necessario specificare una versione di vignetta leggibile dal server ImageRendering. Se si specifica una versione successiva, il server Image Rendering non è in grado di leggere le vignette pubblicate. Imposta su zero per pubblicare le vignette nella versione più recente. |
+| sizeSuffixSeparator | `xsd:string` | Sì | Specifica il carattere che separa il nome della vignettatura e il suffisso che ne indica la larghezza. |
+| affilare | `xsd:int` | No | Applica la nitidezza all&#39;immagine della visualizzazione principale per ogni dimensione della vignetta di pubblicazione. La nitidezza può compensare la sfocatura quando le vignette vengono ridimensionate. |
+| usmAmount | `xsd:double` | Sì | La funzione di mascheramento intelligente digitale è un modo flessibile e potente per aumentare la nitidezza, specialmente nelle immagini scansionate. Questo controlla la grandezza di ogni sovrimpressione (quanto più scuro e leggero diventano i bordi dei bordi). |
+| usmRadius | `xsd:double` | Sì | Influisce sulle dimensioni dei bordi da migliorare o sulla larghezza dei bordi che diventano, in modo che un raggio più piccolo migliori i dettagli più piccoli. Valori di raggio più elevati possono causare alone ai bordi. La precisione dei dettagli ha bisogno di un raggio più piccolo, dato che i minimi dettagli delle stesse dimensioni o minori del raggio vengono persi. |
+| usmThreshold | `xsd:int` | Sì | Controlla la variazione minima di luminosità da rendere più nitida o la distanza di separazione dei valori tonali adiacenti prima che il filtro funzioni. Questa impostazione può rendere più nitidi i bordi più pronunciati lasciando intatti i bordi più sottili. L’intervallo di soglia consentito è compreso tra 0 e 255. |
 
 **Output (updateVignettePublishFormatReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`vignetteFormatHandle`*` | `xsd:string` | Sì | Gestisci il formato di pubblicazione della vignetta aggiornato. |
+| vignetteFormatHandle | `xsd:string` | Sì | Gestisci il formato di pubblicazione della vignetta aggiornato. |
 
 ## Esempio {#section-fcba4bf2b7264786a676e315a35dbe43}
 

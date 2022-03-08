@@ -2,13 +2,13 @@
 description: Restituisce le coordinate del quadrilatero che racchiude il percorso Photoshop denominato.
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 16%
+source-wordcount: '86'
+ht-degree: 17%
 
 ---
 
@@ -35,15 +35,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci l&#39;azienda con l&#39;immagine con cui vuoi lavorare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | Gestisci la risorsa immagine. |
-| `*`pathName`*` | `xsd:string` | Sì | Nome del percorso Photoshop che si desidera restituire. |
+| companyHandle | `xsd:string` | Sì | Gestisci l&#39;azienda con l&#39;immagine con cui vuoi lavorare. |
+| assetHandle | `xsd:string` | Sì | Gestisci la risorsa immagine. |
+| pathName | `xsd:string` | Sì | Nome del percorso Photoshop che si desidera restituire. |
 
 **Output (getPhotoshopPathReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`prospettivaQuad`*` | `types:PerspectiveQuad` | Sì | Restituisce le coordinate immagine in base al percorso. Vedere [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| prospettivaQuad | `types:PerspectiveQuad` | Sì | Restituisce le coordinate immagine in base al percorso. Vedi [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Esempi {#section-1f0461cbdc184c8d8925336d5279db47}
 

@@ -2,13 +2,13 @@
 description: Matrice di contesti di pubblicazione.
 solution: Experience Manager
 title: PublishContextArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39ea8c8e-2e46-4b8f-ad30-5afe85ce98cb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '23'
+ht-degree: 17%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`PublishContextArray`*` | `types:PublishContext` | Matrice di contesti di pubblicazione. |
+| PublishContextArray | `types:PublishContext` | Matrice di contesti di pubblicazione. |

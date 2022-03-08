@@ -2,13 +2,13 @@
 description: Spostare una cartella in un nuovo percorso.
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 23%
+source-wordcount: '60'
+ht-degree: 25%
 
 ---
 
@@ -33,15 +33,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Manda all&#39;azienda. |
-| `*`folderHandle`*` | `xsd:string` | Sì | Maniglia della cartella. |
-| `*`destFolderHandle`*` | `xsd:string` | Sì | Gestisci la cartella di destinazione. |
+| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
+| folderHandle | `xsd:string` | Sì | Maniglia della cartella. |
+| destFolderHandle | `xsd:string` | Sì | Gestisci la cartella di destinazione. |
 
 **Output (moveFolderReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sì | Gestisci la cartella spostata. |
+| folderHandle | `xsd:string` | Sì | Gestisci la cartella spostata. |
 
 ## Esempi {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

@@ -2,12 +2,12 @@
 description: Ottiene i registri dei processi per una risorsa. Gli elementi restituiti nella matrice contengono informazioni dettagliate su ogni voce nel registro di lavoro per la risorsa. Il campo di risposta logMessage viene localizzato in base al campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
@@ -36,14 +36,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Il handle della società a cui appartiene il cespite. |
-| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa con i registri di lavoro da recuperare. |
+| companyHandle | `xsd:string` | Sì | Il handle della società a cui appartiene il cespite. |
+| assetHandle | `xsd:string` | Sì | L’handle della risorsa con i registri di lavoro da recuperare. |
 
 **Output (getAssetJobLogsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sì | Matrice del registro di lavoro. |
+| jobLogArray | `types:AssetJobLogArray` | Sì | Matrice del registro di lavoro. |
 
 ## Esempi {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

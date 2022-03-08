@@ -2,13 +2,13 @@
 description: Ottiene i set di proprietà associati a un handle di tipo.
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 15%
+source-wordcount: '90'
+ht-degree: 16%
 
 ---
 
@@ -36,15 +36,15 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Sì | Proprietario principale dei dati associati all&#39;oggetto di database. |
-| `*`secondarioOwnerHandle`*` | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
+| typeHandle | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
+| primaryOwnerHandle | `xsd:string` | Sì | Proprietario principale dei dati associati all&#39;oggetto di database. |
+| secondarioOwnerHandle | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
 
 **Output (getPropertySetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Sì | Serie di set di proprietà. |
+| setArray | `types:PropertySetArray` | Sì | Serie di set di proprietà. |
 
 ## Esempi {#section-1358af974eab4259864910337a6f0bd2}
 

@@ -2,13 +2,13 @@
 description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 8%
+source-wordcount: '196'
+ht-degree: 9%
 
 ---
 
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`Frase di codice`*` | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| `*`Frase di codice`*` | `xsd:string` | No | Il motore utilizzato nella generazione. Consultare Stili dei font. |
-| `*`Frase di codice`*` | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse generate. |
-| `*`Frase di codice`*` | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse e i motori utilizzati nella sua generazione. |
-| `*`Frase di codice`*` | `xsd:StringArray` | No | Proprietà incluse nell’operazione. |
-| `*`Frase di codice`*` | `xsd:StringArray` | No | Proprietà escluse dall’operazione. |
+| Frase di codice | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| Frase di codice | `xsd:string` | No | Il motore utilizzato nella generazione. Consultare Stili dei font. |
+| Frase di codice | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse generate. |
+| Frase di codice | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse e i motori utilizzati nella sua generazione. |
+| Frase di codice | `xsd:StringArray` | No | Proprietà incluse nell’operazione. |
+| Frase di codice | `xsd:StringArray` | No | Proprietà escluse dall’operazione. |
 
 **Output (getGenerationInfoReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | Sì | Array di informazioni di generazione. |
+| generationArray | `types:GenerationInfoArray` | Sì | Array di informazioni di generazione. |
 
 ## Esempi {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

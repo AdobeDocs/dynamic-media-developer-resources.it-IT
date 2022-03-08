@@ -2,13 +2,13 @@
 description: Imposta i campi dei metadati dei font.
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '125'
+ht-degree: 14%
 
 ---
 
@@ -30,18 +30,18 @@ Imposta i campi dei metadati dei font.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | Gestisci l&#39;azienda che contiene i font. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Sì | Array di aggiornamenti dei campi di font. |
+| companyHandle | `xsd:string` | Sì | Gestisci l&#39;azienda che contiene i font. |
+| updateArray | `types:FontFieldUpdateArray` | Sì | Array di aggiornamenti dei campi di font. |
 
 **Output (batchSetFontFieldsParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sì | Numero di campi di font impostati correttamente. |
-| `*`warningCount`*` | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare campi di font. |
-| `*`errorCount`*` | `xsd:int` | Sì | Numero di errori generati quando l&#39;operazione tentava di impostare campi di font. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
+| successCount | `xsd:int` | Sì | Numero di campi di font impostati correttamente. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione tentava di impostare campi di font. |
+| errorCount | `xsd:int` | Sì | Numero di errori generati quando l&#39;operazione tentava di impostare campi di font. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
 
 ## Esempi {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

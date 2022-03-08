@@ -2,12 +2,12 @@
 description: Crea un account utente e lo aggiunge a una o più società.
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '176'
 ht-degree: 12%
 
 ---
@@ -31,20 +31,20 @@ Quando aggiungi un utente a più società, specifica tali società in base ai re
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`firstName`*` | `xsd:string` | Sì | Nome dell&#39;utente. |
-| `*`lastName`*` | `xsd:string` | Sì | Cognome dell&#39;utente. |
-| `*`e-mail`*` | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
-| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` sostituisce altre impostazioni per azienda. |
-| `*`password`*` | `xsd:string` | Sì | Imposta la password dell&#39;utente |
-| `*`passwordExpires`*` | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Specifica il fuso orario quando viene trasmessa la richiesta. I fusi orari sono regolati su Ora centrale. |
-| `*`isValid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è valido. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
+| firstName | `xsd:string` | Sì | Nome dell&#39;utente. |
+| lastName | `xsd:string` | Sì | Cognome dell&#39;utente. |
+| e-mail | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
+| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, la `IpsAdmin` il ruolo sostituisce altre impostazioni per azienda. |
+| password | `xsd:string` | Sì | Imposta la password dell&#39;utente |
+| passwordExpires | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Specifica il fuso orario quando viene trasmessa la richiesta. I fusi orari sono regolati su Ora centrale. |
+| isValid | `xsd:boolean` | Sì | Determina se l&#39;utente è valido. |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 
 **Output (addUserParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Sì | L&#39;handle dell&#39;utente. |
+| userHandle | `xsd:string` | Sì | L&#39;handle dell&#39;utente. |
 
 ## Esempi {#section-2547cef622734b71919eef849960b5cb}
 

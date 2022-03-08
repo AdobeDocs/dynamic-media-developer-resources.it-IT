@@ -2,12 +2,12 @@
 description: Imposta gli attributi utente (ad esempio nome, e-mail, ruolo, ecc.)
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 15%
 
 ---
@@ -31,14 +31,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | No | Maniglia utente. |
-| `*`firstName`*` | `xsd:string` | Sì | Nome. |
-| `*`lastName`*` | `xsd:string` | Sì | Cognome. |
-| `*`e-mail`*` | `xsd:string` | Sì | E-mail utente. |
-| `*`defaultRole`*` | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, il ruolo `IpsAdmin` sostituisce altre impostazioni per azienda. |
-| `*`passwordExpires`*` | `xsd:dateTime` | No | Data di scadenza della password del set. |
-| `*`isValid`*` | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
+| userHandle | `xsd:string` | No | Maniglia utente. |
+| firstName | `xsd:string` | Sì | Nome. |
+| lastName | `xsd:string` | Sì | Cognome. |
+| e-mail | `xsd:string` | Sì | E-mail utente. |
+| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, la `IpsAdmin` il ruolo sostituisce altre impostazioni per azienda. |
+| passwordExpires | `xsd:dateTime` | No | Data di scadenza della password del set. |
+| isValid | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 
 **Output (setUserInfoReturn)**
 

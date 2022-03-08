@@ -2,13 +2,13 @@
 description: Aggiornamenti dei metadati per le risorse miniature.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58893b74-9a32-47f6-9c97-80db67ae1739
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `*`elementi`*` | `types:ThumbAssetUpdates` | Matrice di aggiornamenti delle risorse miniature. |
+| elementi | `types:ThumbAssetUpdates` | Matrice di aggiornamenti delle risorse miniature. |

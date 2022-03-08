@@ -2,12 +2,12 @@
 description: Imposta i valori dei metadati per una risorsa. Funziona con un array di aggiornamenti dei metadati per impostare i valori in un batch.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '123'
 ht-degree: 8%
 
 ---
@@ -37,9 +37,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle della società con la risorsa da aggiornare. |
-| `*`assetHandle`*` | `xsd:string` | Sì | L’handle della risorsa. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamento metadati. |
+| companyHandle | `xsd:string` | Sì | L’handle della società con la risorsa da aggiornare. |
+| assetHandle | `xsd:string` | Sì | L’handle della risorsa. |
+| updateArray | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamento metadati. |
 
 **Output (setAssetMetadataReturn)**
 

@@ -2,13 +2,13 @@
 description: Solo per uso interno. Consulta la sezione Attributi del catalogo di riferimento del materiale di rendering delle immagini .
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
@@ -31,11 +31,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sì | L’handle dell’azienda di cui desideri ottenere le impostazioni di pubblicazione del rendering delle immagini. |
-| `*`contextHandle`*` | `xsd:string` | Sì | Gestisci il contesto di pubblicazione. |
+| companyHandle | `xsd:string` | Sì | L’handle dell’azienda di cui desideri ottenere le impostazioni di pubblicazione del rendering delle immagini. |
+| contextHandle | `xsd:string` | Sì | Gestisci il contesto di pubblicazione. |
 
 **Output (getImageRenderingPublishSettingsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Sì | Impostazioni di pubblicazione del rendering delle immagini. |
+| publishSettingsArray | `type:ConfigSettingArray` | Sì | Impostazioni di pubblicazione del rendering delle immagini. |
