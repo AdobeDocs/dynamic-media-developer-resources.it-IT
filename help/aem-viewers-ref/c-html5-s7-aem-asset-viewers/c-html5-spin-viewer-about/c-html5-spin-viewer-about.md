@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ Puoi ottenere la personalizzazione visiva applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    Il percorso relativo si presenta come segue:
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    Di seguito è riportato un esempio di elemento DIV segnaposto definito:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    Di seguito è riportato un esempio di definizione delle dimensioni di un visualizzatore statico nella pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in Dynamic Media Classic. Oppure, puoi passarlo esplicitamente con il codice di inizializzazione del visualizzatore con `params` o come chiamata API come descritto nella sezione Riferimento comando , come segue:
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata al `init()` metodo . L&#39;esempio presuppone `spinViewer` è l’istanza del visualizzatore, `s7viewer` è il nome del segnaposto `DIV`, [!DNL http://s7d1.scene7.com/is/image/] è l’URL di Image Server e [!DNL Scene7SharedAssets/SpinSet_Sample] è la risorsa.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
    Il codice seguente è un esempio completo di una pagina web banale che incorpora il visualizzatore 360 gradi con dimensioni fisse:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ Per aggiungere il visualizzatore a 360 gradi a una pagina web, effettua le segue
 
 Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per prendere il 40% delle dimensioni della finestra del browser web, lasciando la sua altezza senza restrizioni. Il codice HTML della pagina web risultante sarà simile al seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ L’aggiunta del visualizzatore a una pagina di questo tipo è simile all’inco
 
 Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione a dimensione fissa. Aggiungi il contenitore `DIV` al &quot;titolare&quot; esistente `DIV`. Il codice seguente è un esempio completo. Puoi vedere come cambia la dimensione del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ La pagina degli esempi seguenti illustra casi d’uso più reali di incorporamen
 
 Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot;titolare&quot; `DIV` e la centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 I passaggi rimanenti per l’incorporazione sono identici a quelli per l’incorporazione di progetti reattivi con altezza illimitata. L’esempio risultante è il seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ Invece di utilizzare l&#39;inizializzazione basata su JSON è possibile utilizza
 
 L’esempio seguente mostra l’incorporazione di dimensioni fisse con API basata su setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

@@ -4,7 +4,8 @@ description: Spazio dei nomi dell’SDK per visualizzatori
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 6cbf7eef-0d17-4411-9a74-22455009f66d
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -23,7 +24,7 @@ In entrambi i casi, lo spazio dei nomi utilizzato dall’SDK all’interno del v
 
 Ad esempio, se intendi ascoltare `StatusEvent.NOTF_VIEW_READY` e il visualizzatore viene servito dall&#39;Experience Manager, il tipo di evento completo è `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`e il codice del listener di eventi è simile al seguente:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var smartCropVideoPlayer = <instance>.getComponent("smartCropVideoPlayer"); 

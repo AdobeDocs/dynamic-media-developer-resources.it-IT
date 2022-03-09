@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Puoi ottenere la personalizzazione visiva applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su u
 
 Il percorso relativo si presenta come segue:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/MixedMediaViewer.js"></script>
 ```
 
@@ -164,7 +164,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di elemento DIV segnaposto definito:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -178,7 +178,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di definizione delle dimensioni statiche del visualizzatore esterno in una pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer { 
     width: 640px; 
     height: 480px; 
@@ -193,7 +193,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di definizione della dimensione del visualizzatore per l’interno `Container` Componente SDK in modo che l’area di visualizzazione principale non cambi le sue dimensioni quando si cambia risorsa:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -206,7 +206,7 @@ Il percorso relativo si presenta come segue:
 
    È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in Dynamic Media Classic, oppure trasmettilo esplicitamente con il codice di inizializzazione del visualizzatore con `params` raccolta. Oppure, come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come segue:
 
-   ```
+   ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
    ```
 
@@ -222,7 +222,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo . L&#39;esempio presuppone `mixedMediaViewer` è l’istanza visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; [!DNL http://s7d1.scene7.com/is/image/] è l’URL di Image Server; [!DNL http://s7d1.scene7.com/is/content/] è l’URL del server video; e [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] è la risorsa:
 
-```
+```html {.line-numbers}
 <script type="text/javascript"> 
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
@@ -240,7 +240,7 @@ mixedMediaViewer.init();
 
 Il codice seguente è un esempio completo di una pagina web semplice che incorpora il visualizzatore di file multimediali diversi con dimensioni fisse:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -272,7 +272,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per prendere il 40% delle dimensioni della finestra del browser web, lasciando la sua altezza senza restrizioni. Il codice HTML della pagina web sarà simile al seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ L’aggiunta del visualizzatore a una pagina di questo tipo è simile alla proce
 
 Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Aggiungi il DIV del contenitore all’esistente `"holder"` DIV Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ La pagina degli esempi seguenti illustra gli utilizzi più reali dell’incorpor
 
 Se è definito un tipo di incorporamento a dimensioni flessibili con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e lo centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -361,7 +361,7 @@ height: 60%;
 
 Gli altri passaggi di incorporamento sono identici ai passaggi utilizzati per incorporare design reattivo con altezza illimitata. L’esempio risultante è il seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -404,7 +404,7 @@ Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizz
 
 L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

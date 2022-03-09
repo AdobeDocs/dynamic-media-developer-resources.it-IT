@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -18,9 +18,9 @@ L’SDK per visualizzatori fornisce un set di componenti basati su JavaScript pe
 
 Ad esempio, l’SDK fornisce funzioni interattive di zoom e panoramica. Offre inoltre la visualizzazione a 360° e la riproduzione video delle risorse caricate su Adobe Dynamic Media tramite l’applicazione back-end Dynamic Media Classic.
 
-Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi Android™ e Apple iOS e desktop, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza significa che puoi fornire un unico flusso di lavoro per tutte le piattaforme supportate.
+Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi e desktop Android™ e Apple iOS, inclusi Internet Explorer e versioni successive. Questo tipo di esperienza significa che puoi fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
-L’SDK è costituito dai componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare uno stile a questi componenti tramite CSS e componenti non dell’interfaccia utente con un certo tipo di ruolo di supporto, ad esempio il recupero e l’analisi o il tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che puoi specificare in vari modi, ad esempio come coppie `name=value` nell’URL.
+L’SDK è costituito dai componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare uno stile a questi componenti tramite CSS e componenti non dell’interfaccia utente con un certo tipo di ruolo di supporto, ad esempio il recupero e l’analisi o il tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che è possibile specificare in vari modi, ad esempio, come `name=value` nell’URL.
 
 Questa esercitazione include il seguente ordine di attività per creare un visualizzatore zoom di base:
 
@@ -44,9 +44,9 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
 
 1. Per iniziare, crea una nuova pagina per sviluppare il visualizzatore zoom di base che stai per creare.
 
-   Considera questa nuova pagina il codice Bootstrap (o loader) utilizzato per impostare un&#39;applicazione SDK vuota. Apri l’editor di testo preferito e incolla il seguente codice HTML:
+   Considera questa nuova pagina il codice Bootstrap (o loader) utilizzato per impostare un&#39;applicazione SDK vuota. Apri l’editor di testo preferito e incolla in esso il seguente markup HTML:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
        <head> 
@@ -79,9 +79,9 @@ Questa esercitazione include il seguente ordine di attività per creare un visua
    </html>
    ```
 
-   Aggiungi il seguente codice JavaScript all&#39;interno del tag `script` in modo che inizializzi il `ParameterManager`. In questo modo puoi prepararti a creare e creare un’istanza di componenti SDK all’interno della funzione `initViewer` :
+   Aggiungi il seguente codice JavaScript all’interno di `script` in modo che inizializzi il `ParameterManager`. In questo modo puoi prepararti a creare e creare un’istanza di componenti SDK all’interno del `initViewer` funzione:
 
-   ```
+   ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
       a function is optional, but this prevents variables from polluting the global object.  */ 
    (function () { 
@@ -123,9 +123,9 @@ Ora aggiungi stile al tuo visualizzatore.
 
 1. Per questo visualizzatore a pagina intera che stai creando, puoi aggiungere alcuni stili di base.
 
-   Aggiungi il seguente blocco `style` nella parte inferiore del `head`:
+   Aggiungi quanto segue `style` si bloccano nella parte inferiore del `head`:
 
-   ```
+   ```html {.line-numbers}
    <style> 
        html, body { 
            width: 100%; 
@@ -146,11 +146,11 @@ Ora includi i componenti `Container` e `ZoomView`.
 
 ## Incluso contenitore e visualizzazione zoom {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Crea un visualizzatore effettivo includendo i componenti `Container` e `ZoomView`.
+1. Creare un visualizzatore effettivo includendo i componenti `Container` e `ZoomView`.
 
-   Inserisci le seguenti istruzioni `include` nella parte inferiore dell&#39;elemento `<head>` dopo il caricamento dello script [!DNL Utils.js]:
+   Inserisci quanto segue `include` istruzioni nella parte inferiore del `<head>` elemento: dopo [!DNL Utils.js] script caricato:
 
-   ```
+   ```javascript {.line-numbers}
    <!-- 
        Add an "include" statement with a related module for each component that is needed for that particular  
        viewer. Check API documentation to see a complete list of components and their modules. 
@@ -165,13 +165,13 @@ Ora includi i componenti `Container` e `ZoomView`.
 
    Aggiungi le seguenti variabili all&#39;inizio della funzione anonima principale, appena sopra `s7sdk.Util.init()`:
 
-   ```
+   ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. Inserisci quanto segue all’interno della funzione `initViewer` in modo da poter definire alcuni modificatori e creare un’istanza dei rispettivi componenti:
+1. Inserisci quanto segue all’interno del `initViewer` consente di definire alcuni modificatori e creare un&#39;istanza dei rispettivi componenti:
 
-   ```
+   ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
    params.push("serverurl", "http://s7d1.scene7.com/is/image"); 
    params.push("asset", "Scene7SharedAssets/ImageSet-Views-Sample"); 
@@ -190,9 +190,9 @@ Ora includi i componenti `Container` e `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Affinché il codice di cui sopra venga eseguito correttamente, aggiungi un gestore di eventi `containerResize` e una funzione helper:
+1. Affinché il codice di cui sopra venga eseguito correttamente, aggiungi un `containerResize` gestore eventi e una funzione helper:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
       various view components included in this viewer. */ 
    function containerResize(event) { 
@@ -209,7 +209,7 @@ Ora includi i componenti `Container` e `ZoomView`.
 
    ![Esempio di visualizzatore un’immagine](assets/viewer-1.jpg)
 
-Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
+Aggiungi ora i componenti `MediaSet` e `Swatches` al tuo visualizzatore.
 
 ## Aggiunta di componenti MediaSet e Campioni al visualizzatore {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -217,22 +217,22 @@ Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
 
    Aggiungi i seguenti SDK:
 
-   ```
+   ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
 1. Aggiorna l&#39;elenco delle variabili con quanto segue:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Crea un&#39;istanza dei componenti `MediaSet` e `Swatches` all&#39;interno della funzione `initViewer` .
+1. Creare istanze `MediaSet` e `Swatches` all’interno dei componenti `initViewer` funzione .
 
-   Assicurati di creare un&#39;istanza dell&#39;istanza `Swatches` dopo i componenti `ZoomView` e `Container`, altrimenti l&#39;ordine di sovrapposizione nasconde l&#39; `Swatches`:
+   Assicurati di creare un&#39;istanza del `Swatches` dopo `ZoomView` e `Container` componenti, altrimenti l’ordine di sovrapposizione nasconde i `Swatches`:
 
-   ```
+   ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
    mediaSet = new s7sdk.set.MediaSet(null, params, "mediaSet"); 
    
@@ -246,7 +246,7 @@ Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
 
 1. Aggiungi ora le seguenti funzioni del gestore di eventi:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
       assign the asset to the Swatches when parsing is complete. */ 
    function onSetParsed(e) { 
@@ -266,9 +266,9 @@ Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
    }
    ```
 
-1. Posiziona i campioni nella parte inferiore del visualizzatore aggiungendo il seguente CSS all’elemento `style` :
+1. Posiziona i campioni nella parte inferiore del visualizzatore aggiungendo il seguente CSS al `style` elemento:
 
-   ```
+   ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
    .s7swatches { 
        bottom: 0; 
@@ -280,9 +280,9 @@ Aggiungi ora i componenti `MediaSet` e `Swatches` al visualizzatore.
 
 1. Visualizza l’anteprima del visualizzatore.
 
-   I campioni si trovano nella parte inferiore sinistra del visualizzatore. Per fare in modo che i campioni abbiano l’intera larghezza del visualizzatore, aggiungi una chiamata per ridimensionare manualmente i campioni ogni volta che l’utente ridimensiona il proprio browser. Aggiungi quanto segue alla funzione `resizeViewer` :
+   I campioni si trovano nella parte inferiore sinistra del visualizzatore. Per fare in modo che i campioni abbiano l’intera larghezza del visualizzatore, aggiungi una chiamata per ridimensionare manualmente i campioni ogni volta che l’utente ridimensiona il proprio browser. Aggiungi quanto segue al `resizeViewer` funzione:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
@@ -298,21 +298,21 @@ Adesso aggiungi i pulsanti zoom in, zoom out e zoom reset al tuo visualizzatore.
 
    Aggiungi i seguenti componenti pulsante:
 
-   ```
+   ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
 1. Aggiorna l&#39;elenco delle variabili con quanto segue:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Crea un&#39;istanza dei pulsanti nella parte inferiore della funzione `initViewer` .
+1. Pulsanti di istanziazione nella parte inferiore di `initViewer` funzione .
 
-   Ricorda che l’ordine è importante, a meno che tu non specifichi il valore `z-index` in CSS:
+   Ricorda che l’ordine è importante, a meno che non si specifichi la `z-index` in CSS:
 
-   ```
+   ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
    zoomInButton  = new s7sdk.common.ZoomInButton("s7container", params, "zoomInBtn"); 
    zoomOutButton = new s7sdk.common.ZoomOutButton("s7container", params, "zoomOutBtn"); 
@@ -324,9 +324,9 @@ Adesso aggiungi i pulsanti zoom in, zoom out e zoom reset al tuo visualizzatore.
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Ora definisci alcuni stili di base per i pulsanti aggiungendo quanto segue al blocco `style` nella parte superiore del file:
+1. Ora definisci alcuni stili di base per i pulsanti aggiungendo quanto segue alla sezione `style` blocca nella parte superiore del file:
 
-   ```
+   ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
    .s7button { 
        position:absolute; 
@@ -358,23 +358,23 @@ Adesso aggiungi i pulsanti zoom in, zoom out e zoom reset al tuo visualizzatore.
 
 ## Configurazione verticale dei campioni {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Puoi configurare i modificatori direttamente sull’istanza `ParameterManager` .
+1. Puoi configurare i modificatori direttamente nel `ParameterManager` istanza.
 
-   Aggiungi quanto segue nella parte superiore della funzione `initViewer` in modo da poter configurare il layout del pollice `Swatches` come una singola riga:
+   Aggiungi quanto segue nella parte superiore della `initViewer` in modo da poter configurare le `Swatches` layout pollice come una singola riga:
 
-   ```
+   ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
 1. Aggiorna la seguente chiamata di ridimensionamento all&#39;interno di `resizeViewer`:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Modifica la seguente regola `s7swatches` in `ZoomViewer.css`:
+1. Modifica quanto segue `s7swatches` regola in `ZoomViewer.css`:
 
-   ```
+   ```CSS {.line-numbers}
    .s7swatches { 
        top:0 ; 
        bottom: 0; 

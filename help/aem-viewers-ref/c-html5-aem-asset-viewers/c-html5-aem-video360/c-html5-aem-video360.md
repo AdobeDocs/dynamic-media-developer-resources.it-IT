@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Puoi ottenere la personalizzazione visiva applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +137,7 @@ Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su u
 
 Il percorso relativo si presenta come segue:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
@@ -158,7 +158,7 @@ Il percorso relativo si presenta come segue:
 
    Esempio di segnaposto definito `DIV` elemento:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
@@ -172,7 +172,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di definizione delle dimensioni di un visualizzatore statico nella pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
     width: 640px; 
     height: 640px; 
@@ -181,7 +181,7 @@ Il percorso relativo si presenta come segue:
 
    È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in AEM Assets - on-demand. Oppure, puoi passarlo esplicitamente con il codice di inizializzazione del visualizzatore con `params` o come chiamata API come descritto nella sezione Riferimento comando , come segue:
 
-   ```
+   ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
@@ -205,7 +205,7 @@ Il percorso relativo si presenta come segue:
    * L’URL del server video è `https://s7d9.scene7.com/is/content`.
    * La risorsa è `Viewers/space_station_360-AVS`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var video360Viewer = new s7viewers.Video360Viewer({ 
     "containerId":"s7viewer", 
@@ -220,7 +220,7 @@ Il percorso relativo si presenta come segue:
 
    Il codice seguente è un esempio completo di una pagina web banale che incorpora il visualizzatore Video360 con dimensioni fisse:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -252,7 +252,7 @@ Il percorso relativo si presenta come segue:
 
 Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per prendere il 40% delle dimensioni della finestra del browser web, lasciando la sua altezza senza restrizioni. Il codice HTML della pagina web sarà simile al seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -276,7 +276,7 @@ L’aggiunta del visualizzatore a una pagina di questo tipo è simile alla proce
 
 Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Aggiungi il DIV del contenitore all’esistente `"holder"` DIV Il codice seguente è un esempio completo. Le dimensioni del visualizzatore cambiano quando il browser viene ridimensionato e le proporzioni del visualizzatore corrispondono alla risorsa.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -309,7 +309,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 Se è definito un incorporamento dinamico con larghezza e altezza, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e centralo nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ height: 60%;
 
 Gli altri passaggi di incorporamento sono identici ai passaggi utilizzati per l’incorporazione reattiva con altezza illimitata. L’esempio risultante è il seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -378,7 +378,7 @@ Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizz
 
 L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

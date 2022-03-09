@@ -5,7 +5,7 @@ title: Supporto per il tracciamento di Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -18,15 +18,15 @@ Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Anal
 
 ## Tracciamento preconfigurato {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore di ricerca per eCatalog supporta il tracciamento preconfigurato [!DNL Adobe Analytics] . Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come parametro `config2` .
+Il visualizzatore di ricerca per eCatalog supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
 
 Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrarsi con sistemi di analisi di terze parti è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrare con sistemi di analisi di terze parti è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
 
-```
+```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -64,7 +64,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l’ API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

@@ -5,7 +5,7 @@ keywords: reattivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Si consiglia di utilizzare una pagina HTML predefinita per la modalità di funzi
 
 Ecco un esempio di codice HTML che apre il visualizzatore nella nuova finestra:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su u
 
 Il percorso relativo si presenta come segue:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di elemento DIV segnaposto definito:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ Il percorso relativo si presenta come segue:
 
    Le dimensioni in CSS possono essere posizionate direttamente sulla pagina HTML o in un file CSS per visualizzatori personalizzati, che viene successivamente assegnato a un record predefinito visualizzatore in AOD o passato esplicitamente utilizzando il comando stile. Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta Personalizzazione della sezione Visualizzatore . Di seguito è riportato un esempio di definizione della dimensione statica del visualizzatore nella pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ Il percorso relativo si presenta come segue:
 
    `stagesize` Il modificatore può essere passato esplicitamente con il codice di inizializzazione del visualizzatore con l&#39;insieme params o come chiamata API come descritto nella sezione Riferimento comandi , come segue:
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo . Questo esempio presuppone `panoramicViewer` è l’istanza del visualizzatore, `s7viewer` è il nome del segnaposto `DIV`, [!DNL http://s7d1.scene7.com/is/image/] è l’URL di Image Server e [!DNL Scene7SharedAssets/PanoramicImage-Sample] è la risorsa.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ Il percorso relativo si presenta come segue:
 
    Il codice seguente è un esempio completo di una pagina web banale che incorpora il visualizzatore panoramico con dimensioni fisse:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ Il percorso relativo si presenta come segue:
 
 Con l’incorporazione reattiva, la pagina web dispone normalmente di un layout flessibile che determina la dimensione in fase di esecuzione del DIV contenitore del visualizzatore. Ai fini di questo esempio supponiamo che la pagina web consenta al contenitore del visualizzatore DIV di prendere l’80% delle dimensioni della finestra del browser web, lasciando senza restrizioni la sua altezza. Il codice HTML della pagina web potrebbe essere simile al seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ L’aggiunta del visualizzatore a tale pagina è simile all’incorporamento a d
 
 Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione con dimensione fissa. Il contenitore DIV deve essere aggiunto al DIV &quot;titolare&quot; esistente. Il codice seguente è un esempio completo: puoi vedere come cambia la dimensione del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ La pagina degli esempi seguenti illustra l’utilizzo più reale di elementi di 
 
 Se è presente un incorporamento dinamico con larghezza e altezza definite, lo stile della pagina web è diverso; fornisce entrambe le dimensioni al &quot;titolare&quot; `DIV` e centralo nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 Gli altri passaggi di incorporamento sono identici a quelli di incorporamento reattivo con altezza illimitata. L&#39;esempio risultante è
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ Invece di utilizzare l&#39;inizializzazione basata su JSON, è possibile utilizz
 
 L’esempio seguente illustra l’incorporazione di dimensioni fisse con API basata su setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

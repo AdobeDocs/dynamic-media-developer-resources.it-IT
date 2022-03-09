@@ -6,7 +6,7 @@ title: Ricerca eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -108,7 +108,7 @@ Puoi ottenere la personalizzazione visiva applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -145,7 +145,7 @@ Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su u
 
 Il percorso relativo si presenta come segue:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di elemento DIV segnaposto definito:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di definizione delle dimensioni di un visualizzatore statico nella pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ Il percorso relativo si presenta come segue:
 
    È possibile impostare `stagesize` modificatore nel record predefinito visualizzatore in Dynamic Media Classic, oppure trasmettilo esplicitamente con il codice di inizializzazione del visualizzatore con `params` o come chiamata API come descritto nella sezione Riferimento comando , come segue:
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -195,7 +195,7 @@ Il percorso relativo si presenta come segue:
 
    Di seguito è riportato un esempio di creazione di un’istanza di visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del `init()` metodo . L&#39;esempio presuppone `eCatalogSearchViewer` è l’istanza visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://s7d1.scene7.com/is/image/` è l’URL di Image Server e `Viewers/Pluralist` è la risorsa:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ Il percorso relativo si presenta come segue:
 
    Il codice seguente è un esempio completo di una pagina web banale che incorpora il visualizzatore di ricerca eCatalog con dimensioni fisse:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -242,7 +242,7 @@ Il percorso relativo si presenta come segue:
 
 Con l’incorporazione di design reattivo, la pagina web dispone normalmente di un layout flessibile che determina le dimensioni di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per prendere il 40% delle dimensioni della finestra del browser web, lasciando la sua altezza senza restrizioni. Il codice HTML della pagina web risultante sarà simile al seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ L’aggiunta del visualizzatore a una pagina di questo tipo è simile all’inco
 
 Tutti i passaggi precedenti sono gli stessi dell&#39;incorporazione a dimensione fissa. Aggiungi il contenitore `DIV` al &quot;titolare&quot; esistente `DIV`. Il codice seguente è un esempio completo. Puoi vedere come cambia la dimensione del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ La pagina degli esempi seguenti illustra casi d’uso più reali di incorporamen
 
 In caso di incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot;titolare&quot; `DIV` e la centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 I passaggi rimanenti per l’incorporazione sono identici a quelli per l’incorporazione di progetti reattivi con altezza illimitata. L’esempio risultante è il seguente:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ Invece di utilizzare l&#39;inizializzazione basata su JSON è possibile utilizza
 
 L’esempio seguente mostra l’incorporazione di dimensioni fisse con API basata su setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

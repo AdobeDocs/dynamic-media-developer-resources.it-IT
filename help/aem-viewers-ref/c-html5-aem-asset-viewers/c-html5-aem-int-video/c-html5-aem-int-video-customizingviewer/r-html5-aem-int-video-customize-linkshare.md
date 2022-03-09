@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Lo strumento di condivisione dei collegamenti è costituito da un pulsante aggiu
 
 L&#39;aspetto del pulsante di condivisione del collegamento è controllato con il seguente selettore di classe CSS:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkshare
 ```
 
@@ -37,27 +37,27 @@ L&#39;aspetto del pulsante di condivisione del collegamento è controllato con i
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-È possibile rimuovere il pulsante dal pannello Condivisione social impostando la proprietà `display:none` CSS nella relativa classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social impostando `display:none` Proprietà CSS nella relativa classe CSS.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Esempio : per impostare un pulsante di condivisione del collegamento che sia di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati diversi del pulsante:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkshare { 
  width:28px; 
  height:28px; 
@@ -78,7 +78,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 
 Sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo attiva è controllata con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay
 ```
 
@@ -87,19 +87,19 @@ Sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacità  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
    <td colname="col2"> <p>Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare una sovrapposizione di sfondo grigio con opacità del 70%:
+**Esempio** - per impostare una sovrapposizione di sfondo grigio con opacità del 70%:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay { 
  opacity:0.7; 
  background-color:#222222; 
@@ -108,7 +108,7 @@ Sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo 
 
 Per impostazione predefinita, la finestra di dialogo modale viene visualizzata centrata sullo schermo sui sistemi desktop e occupa l’intera area della pagina web sui dispositivi touch. In tutti i casi, il posizionamento e il dimensionamento della finestra di dialogo vengono gestiti dal componente. La finestra di dialogo viene controllata con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialog
 ```
 
@@ -117,27 +117,27 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo della finestra di dialogo, nel caso in cui la finestra di dialogo non utilizzi l’intero browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo prende l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo prende l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare la finestra di dialogo in modo da utilizzare l’intera finestra del browser e avere uno sfondo bianco sui dispositivi touch:
+**Esempio** - per impostare la finestra di dialogo in modo che utilizzi l’intera finestra del browser e abbia uno sfondo bianco sui dispositivi touch:
 
-```
+```css {.line-numbers}
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
  width:100%; 
  height:100%; 
@@ -147,7 +147,7 @@ background-color: #ffffff;
 
 L’intestazione della finestra di dialogo è costituita da un’icona, un testo del titolo e un pulsante Chiudi. Il contenitore di intestazione è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader
 ```
 
@@ -156,7 +156,7 @@ L’intestazione della finestra di dialogo è costituita da un’icona, un testo
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per il contenuto dell’intestazione. </p> </td> 
   </tr> 
  </tbody> 
@@ -164,7 +164,7 @@ L’intestazione della finestra di dialogo è costituita da un’icona, un testo
 
 L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
@@ -173,7 +173,7 @@ L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo c
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna per l’icona dell’intestazione e il titolo </p> </td> 
   </tr> 
  </tbody> 
@@ -181,7 +181,7 @@ L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo c
 
 L’icona Intestazione è controllata dal seguente selettore di classe CSS
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheadericon
 ```
 
@@ -190,27 +190,27 @@ L’icona Intestazione è controllata dal seguente selettore di classe CSS
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Il titolo dell’intestazione è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheadertext
 ```
 
@@ -219,19 +219,19 @@ Il titolo dell’intestazione è controllato con il seguente selettore di classe
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Spessore del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Altezza carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del testo. </p> </td> 
   </tr> 
  </tbody> 
@@ -239,54 +239,54 @@ Il titolo dell’intestazione è controllato con il seguente selettore di classe
 
 Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7closebutton
 ```
 
-**Proprietà CSS del pulsante di chiusura **
+**Proprietà CSS del pulsante Chiudi**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante verticale rispetto al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante orizzontale rispetto al contenitore intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
-È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un’intestazione della finestra di dialogo con spaziatura, icona 22 x 12 pixel, con titolo in grassetto a 16 punti. Infine, un pulsante Chiudi da 28 x 28 pixel posizionato a due pixel dalla parte superiore e a due pixel dalla parte destra del contenitore della finestra di dialogo:
+**Esempio** - per impostare un’intestazione della finestra di dialogo con spaziatura, icona 22 x 12 pixel, con titolo in grassetto a 16 punti. Infine, un pulsante Chiudi da 28 x 28 pixel posizionato a due pixel dalla parte superiore e a due pixel dalla parte destra del contenitore della finestra di dialogo:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader { 
  padding: 10px; 
 } 
@@ -326,16 +326,16 @@ Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
 
 Il piè di pagina della finestra di dialogo è costituito da un pulsante Annulla . Il contenitore piè di pagina è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**Proprietà CSS del piè di pagina della finestra di dialogo **
+**Proprietà CSS del piè di pagina della finestra di dialogo**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p> Bordo che è possibile utilizzare per separare visivamente il piè di pagina dal resto della finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 
@@ -343,7 +343,7 @@ Il piè di pagina della finestra di dialogo è costituito da un pulsante Annulla
 
 Il piè di pagina dispone di un contenitore interno che mantiene il pulsante. È controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
@@ -352,7 +352,7 @@ Il piè di pagina dispone di un contenitore interno che mantiene il pulsante. È
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura interna tra il piè di pagina e il pulsante. </p> </td> 
   </tr> 
  </tbody> 
@@ -360,7 +360,7 @@ Il piè di pagina dispone di un contenitore interno che mantiene il pulsante. È
 
 Il pulsante Seleziona tutto è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogactionbutton
 ```
 
@@ -371,11 +371,11 @@ Il pulsante è disponibile solo sui sistemi desktop.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +383,7 @@ Il pulsante è disponibile solo sui sistemi desktop.
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,11 +391,11 @@ Il pulsante è disponibile solo sui sistemi desktop.
 
 >[!NOTE]
 >
->Il pulsante Seleziona tutto supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Il pulsante Seleziona tutto supporta la `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogcancelbutton
 ```
 
@@ -404,19 +404,19 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,11 +424,11 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
 
 Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
 ```
 
@@ -437,37 +437,37 @@ Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contener
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Spessore font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Dimensione del font del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font per pulsanti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza riga  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all’interno del pulsante. Interessa l’allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ombra  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ombra </span> </p> </td> 
    <td colname="col2"> <p>Ombra esterna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine destro  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro </span> </p> </td> 
    <td colname="col2"> <p>Margine del pulsante destro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un piè di pagina di una finestra di dialogo con un pulsante Annulla 64 x 34, con colori di testo e di sfondo diversi per ogni stato del pulsante:
+**Esempio** - per impostare un piè di pagina di una finestra di dialogo con un pulsante Annulla 64 x 34, con colori di testo e di sfondo diversi per ogni stato del pulsante:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
     border-top: 1px solid #909090; 
 } 
@@ -527,32 +527,32 @@ Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione
 
 L’area della finestra di dialogo principale (tra l’intestazione e il piè di pagina) contiene il contenuto della finestra di dialogo. In tutti i casi, il componente gestisce la larghezza dell’area, non è possibile impostarla in CSS. L’area di dialogo principale è controllata dal seguente selettore di classe CSS:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Proprietà CSS dell’area di visualizzazione della finestra di dialogo **
+**Proprietà CSS dell’area di visualizzazione della finestra di dialogo**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p> Altezza dell'area della finestra di dialogo principale. Deve essere specificato solo quando la finestra di dialogo funziona in modalità desktop. Non è applicabile quando la finestra di dialogo viene ridimensionata in modo da occupare l’intera finestra del browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
    <td colname="col2"> <p>Margine esterno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare un&#39;area della finestra di dialogo principale su un&#39;altezza di 300 pixel, avere un margine di 10 pixel e utilizzare uno sfondo bianco:
+**Esempio** - per impostare un&#39;area della finestra di dialogo principale con un&#39;altezza di 300 pixel, avere un margine di 10 pixel e utilizzare uno sfondo bianco:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
  background-color:#ffffff; 
  margin:10px; 
@@ -562,24 +562,24 @@ L’area della finestra di dialogo principale (tra l’intestazione e il piè di
 
 Tutto il contenuto del modulo, ad esempio etichette e campi di input, risiede all’interno di un contenitore controllato con il seguente selettore di classe CSS:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**Proprietà CSS del corpo della finestra di dialogo **
+**Proprietà CSS del corpo della finestra di dialogo**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare il contenuto del modulo con una spaziatura di dieci pixel:
+**Esempio** - per impostare il contenuto del modulo in modo che abbia una spaziatura di dieci pixel:
 
-```
+```css {.line-numbers}
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
     padding: 10px; 
 }
@@ -593,34 +593,34 @@ Tutte le etichette statiche nel modulo della finestra di dialogo vengono control
 
 Questa classe non è adatta per controllare la dimensione o la posizione dell&#39;etichetta perché è possibile applicarla a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell’etichetta della finestra di dialogo. **
+**Proprietà CSS dell’etichetta della finestra di dialogo**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Etichettare lo spessore del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Etichettare le dimensioni del font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font etichetta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Colore testo etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le etichette della finestra di dialogo possono essere localizzate. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Le etichette della finestra di dialogo possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare tutte le etichette in modo che siano grigie, in grassetto con un font di nove pixel:
+**Esempio** - per impostare tutte le etichette in grigio, in grassetto con un carattere di nove pixel:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
     color: #666666; 
     font-size: 9pt; 
@@ -630,7 +630,7 @@ Le etichette della finestra di dialogo possono essere localizzate. Consulta [Loc
 
 La dimensione della copia di testo visualizzata sopra il collegamento è controllata dal seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
@@ -639,19 +639,19 @@ La dimensione della copia di testo visualizzata sopra il collegamento è control
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare una copia di testo con una larghezza di 430 pixel e una spaziatura di 10 pixel nella parte inferiore:
+**Esempio** - per impostare la copia di testo su una larghezza di 430 pixel e avere una spaziatura di 10 pixel nella parte inferiore:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
     padding-bottom: 10px; 
     width: 430px; 
@@ -660,7 +660,7 @@ La dimensione della copia di testo visualizzata sopra il collegamento è control
 
 Il collegamento di condivisione viene racchiuso in un contenitore e controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
 ```
 
@@ -669,19 +669,19 @@ Il collegamento di condivisione viene racchiuso in un contenitore e controllato 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Bordo intorno al contenitore di collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare un bordo grigio di un pixel intorno al testo del codice da incorporare e avere nove pixel di spaziatura:
+**Esempio** - per impostare un bordo grigio di un pixel intorno al testo del codice da incorporare e avere nove pixel di spaziatura:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
     border: 1px solid #CCCCCC; 
     padding: 9px; 
@@ -690,7 +690,7 @@ Il collegamento di condivisione viene racchiuso in un contenitore e controllato 
 
 Il collegamento di condivisione stesso è controllato con il seguente selettore di classe CSS:
 
-```
+```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglink
 ```
 
@@ -699,15 +699,15 @@ Il collegamento di condivisione stesso è controllato con il seguente selettore 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Condividi la larghezza del collegamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare il collegamento di condivisione su una larghezza di 450 pixel:
+**Esempio** - per impostare il collegamento di condivisione su una larghezza di 450 pixel:
 
-```
+```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglink { 
     width: 450px; 
 }
