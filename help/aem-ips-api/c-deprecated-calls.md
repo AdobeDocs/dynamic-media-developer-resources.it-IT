@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 25d9de1d9ba727e72c031ab22c47bd2be5c11050
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -24,6 +24,7 @@ Chiamate API di Image Production System e i relativi parametri associati che non
    >[!IMPORTANT]
    >
    >Adobe cesserà il supporto per questo parametro il 1° settembre 2022. Vedi anche [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md).
+
 * `addMediaPortalEvent` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro consente di aggiungere un evento Media Portal all’IPS.
 * `getMediaPortalEvent` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro consente di ottenere eventi del portale multimediale che corrispondono a criteri specifici.
 * `getCdnCacheInvalidationStatus` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro è diventato obsoleto perché la `cdnCacheInvalidation` Il parametro invalida la cache quasi immediatamente (~5 secondi). Di conseguenza, non è più necessario eseguire il polling per lo stato di invalidazione.
