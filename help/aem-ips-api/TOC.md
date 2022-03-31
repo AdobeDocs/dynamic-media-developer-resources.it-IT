@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: API di Dynamic Media Image Production System
 feature-set: Experience Manager Assets
 user-guide-description: L’API del servizio Web IPS (Image Production System) consente alle applicazioni esterne e agli sviluppatori di terze parti di accedere in modo programmatico alle risorse e alle funzionalità IPS.
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 8%
@@ -18,7 +18,7 @@ ht-degree: 8%
 + [Versioni WSDL del servizio Web IPS](c-wsdl-versions.md)
 + Metodi operativi {#operation-methods}
    + [Metodi operativi](operations/c-operations-intro/c-operations-intro.md)
-   + Parametri operativi {#operation-parameters}
+   + Parametri di funzionamento {#operation-parameters}
       + [Panoramica dei parametri operativi](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -234,7 +234,7 @@ ht-degree: 8%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -398,7 +398,7 @@ ht-degree: 8%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ Costanti stringa {#sting-constants}
++ Costanti di stringa {#sting-constants}
    + [Costanti di stringa](string-constants/c-string-constants/c-string-constants.md)
    + [Stati del processo attivo](string-constants/c-string-constants/r-active-job-states.md)
    + [Campi del sistema di ricerca risorse](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -444,7 +444,7 @@ ht-degree: 8%
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Cambia registro {#change-log}
++ Registro delle modifiche {#change-log}
    + [Registro delle modifiche](change-log/c-change-log.md)
    + Versione 6.0 {#version-6-0}
       + [Versione 6.0](change-log/c-change-log/c-6/c-6.md)

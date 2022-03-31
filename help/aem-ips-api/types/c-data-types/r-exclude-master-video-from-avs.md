@@ -4,7 +4,7 @@ description: Esclude il video principale dal set di video adattivi.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 7%
@@ -18,6 +18,8 @@ ht-degree: 7%
 >Adobe cesserà il supporto per `ExcludeMasterVideoFromAVS` parametro 1 settembre 2022. Vedi anche [Chiamate obsolete](/help/aem-ips-api/c-deprecated-calls.md).
 
 Esclude il video principale dal set di video adattivi.
+
+<!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
 Sintassi
 

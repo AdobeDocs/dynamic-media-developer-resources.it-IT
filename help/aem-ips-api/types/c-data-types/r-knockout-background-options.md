@@ -1,24 +1,35 @@
 ---
-description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
-solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic, SDK/API
+description: Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo tipo di dati consente di sovrapporli in altri livelli con una trasparenza al di fuori dell’immagine oggetto. Un parametro facoltativo disattivato per impostazione predefinita.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell&#39;immagine del soggetto. Un parametro facoltativo disattivato per impostazione predefinita.
+Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo tipo di dati consente di sovrapporli in altri livelli con una trasparenza al di fuori dell’immagine oggetto.
+
+Questo tipo di dati è facoltativo e disattivato per impostazione predefinita.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
 ## Parametri {#section-3149b49ccb714e6eafa6655354816819}
+
+>[!IMPORTANT]
+>
+>Se stai configurando `KnockoutBackgroundOptions` in Adobe Experience Manager, utilizza invece i seguenti parametri:
+>* `kbCorner`
+>* `kbTolerance`
+>* `kbFillMethod`
+>
+>Ad esempio: `KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -32,7 +43,7 @@ Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo conse
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Seleziona l’angolo da utilizzare. <span class="codeph"> </span> corneraccetta questi valori: 
+   <td colname="col3">Seleziona l’angolo da utilizzare. <span class="codeph"> corner</span> accetta questi valori: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -52,7 +63,7 @@ Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo conse
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controlla la trasparenza dei pixel nella posizione specificata dalla variabile <span class="codeph"><span class="varname"> corner</span></span> . Il <span class="codeph"> fillMethod</span> accetta questi valori: </p> 
+   <td colname="col3"> <p>Controlla la trasparenza dei pixel nella posizione specificata dal <span class="codeph"><span class="varname"> corner</span></span> variabile. La <span class="codeph"> fillMethod</span> accetta questi valori: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> Riempimento</span>: Trasforma tutti i pixel nell'angolo specificato in trasparente. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Trasforma tutti i pixel corrispondenti in trasparente, indipendentemente dalla posizione. </li> 
@@ -78,7 +89,7 @@ Maschera (copia trasformata) lo sfondo per le immagini selezionate. Questo conse
 
 ## Utilizzato da {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Il tipo `KnockoutBackgroundOptions` viene utilizzato da:
+La `KnockoutBackgroundOptions` tipo utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
