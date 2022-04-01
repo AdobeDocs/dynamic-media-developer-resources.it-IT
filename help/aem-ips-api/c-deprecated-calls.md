@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 25d9de1d9ba727e72c031ab22c47bd2be5c11050
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,7 @@ Chiamate API di Image Production System e i relativi parametri associati che non
 
 Chiamate API di Image Production System e i relativi parametri associati che non vengono più utilizzati in Dynamic Media.
 
-* `ExcludeMasterVideoFromAVS` - Obsoleto di [Tipi di dati](/help/aem-ips-api/types/c-data-types/c-data-types.md). Questo parametro ha escluso il video principale dal set di video adattivi.
-   >[!IMPORTANT]
-   >
-   >Adobe cesserà il supporto per questo parametro il 1° settembre 2022. Vedi anche [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md).
-
+* `ExcludeMasterVideoFromAVS` - Obsoleto di [Tipi di dati](/help/aem-ips-api/types/c-data-types/c-data-types.md). Questo parametro ha escluso il video principale dal set di video adattivi. <!-- Adobe is ending support for this parameter on September 1, 2022. -->
 * `addMediaPortalEvent` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro consente di aggiungere un evento Media Portal all’IPS.
 * `getMediaPortalEvent` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro consente di ottenere eventi del portale multimediale che corrispondono a criteri specifici.
 * `getCdnCacheInvalidationStatus` - Obsoleto di [Operazioni](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Questo parametro è diventato obsoleto perché la `cdnCacheInvalidation` Il parametro invalida la cache quasi immediatamente (~5 secondi). Di conseguenza, non è più necessario eseguire il polling per lo stato di invalidazione.
