@@ -1,13 +1,13 @@
 ---
+title: strato
 description: Selezionare Livello. Seleziona un livello e avvia un nuovo segmento di definizione del livello nella sequenza di comando.
 solution: Experience Manager
-title: strato
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Selezionare Livello. Seleziona un livello e avvia un nuovo segmento di definizione del livello nella sequenza di comando.
 
-`layer= *`Nome `*|comp[, *``*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Selezionare Livello. Seleziona un livello e avvia un nuovo segmento di definizio
  </tr> 
 </table>
 
-Tutti i comandi all’interno del segmento di livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
+Tutti i comandi all’interno del segmento di livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal successivo `layer=` o `effect=` o la fine della richiesta.
 
-Specificare `layer=comp` per selezionare l&#39;immagine composita (o visualizzare, per alcuni comandi).
+Specifica `layer=comp` per selezionare l&#39;immagine composita (o visualizzazione, per alcuni comandi).
 
 Il numero del livello specifica efficacemente l&#39;ordine z del livello. I livelli numerati più in alto vengono posizionati sopra i livelli numerati più in basso.
 
 I numeri dei livelli non devono essere consecutivi. Il livello 0 è obbligatorio.
 
-Un nome può essere assegnato a un livello con la variante di comando `layer= *`n`*, *`name`*`. Una volta definito un livello denominato, è possibile farvi riferimento con ` layer= *`name`*`, senza dover conoscere il numero del livello. È possibile assegnare più nomi allo stesso livello utilizzando più comandi `layer= *`n`*, *`name`*`.
+Un nome può essere assegnato a un livello con la `layer= *`n`*, *`name`*` variante del comando. Una volta definito un livello denominato, è possibile farvi riferimento con ` layer= *`name`*`senza dover conoscere il numero del livello. È possibile assegnare più nomi allo stesso livello, utilizzando più nomi `layer= *`n`*, *`name`*` comandi.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Un nome può essere assegnato a un livello con la variante di comando `layer= *`
 
 Livello, comando. I riferimenti alle variabili di sostituzione non sono supportati in `layer=`.
 
-`comp` non è consentito come  *`name`* stringa. Viene restituito un errore se lo stesso *`name`* è assegnato a più di un livello, o se a un livello viene fatto riferimento da *`name`* che non è stato definito in precedenza.
+`comp` non è consentito come *`name`* stringa. Viene restituito un errore se lo stesso *`name`* è assegnato a più livelli o se a un livello viene fatto riferimento da *`name`* che non è stato definito in precedenza.
 
 ## Predefinito {#section-091859a03f8048c2b7092f0fec9c1006}
 

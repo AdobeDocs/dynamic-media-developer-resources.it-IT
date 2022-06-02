@@ -1,13 +1,13 @@
 ---
+title: effetto
 description: Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo segmento di livello nella stringa di richiesta, associata al livello corrente.
 solution: Experience Manager
-title: effetto
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,13 @@ Selezionare Livello effetto. Seleziona un livello di effetto e avvia un nuovo se
  </tr> 
 </table>
 
-Tutti i comandi all’interno del nuovo segmento vengono applicati al livello di effetto specificato. Un segmento di livello di effetto viene terminato dal comando successivo `layer=` o `effect=` o dalla fine della richiesta.
+Tutti i comandi all’interno del nuovo segmento vengono applicati al livello di effetto specificato. Un segmento del livello di effetto viene terminato dal successivo `layer=` o `effect=` o alla fine della richiesta.
 
 *`n`* deve essere minore di 0 per gli effetti del livello esterno (cioè gli effetti dietro il livello padre) e maggiore di 0 per gli effetti del livello interno (cioè gli effetti all&#39;interno del livello padre). I numeri dei livelli di effetto non devono essere consecutivi.
 
 Il numero del livello di effetto specifica l&#39;ordine z, nel caso di più livelli di effetto per lo stesso livello padre. I livelli numerati più in alto vengono posizionati sopra i livelli numerati più in basso.
 
-I livelli degli effetti possono essere collegati a `layer=comp`.
+Gli strati degli effetti possono essere collegati a `layer=comp`.
 
 ## Proprietà {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -47,4 +47,4 @@ Nessuno.
 
 ## Consultate anche {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

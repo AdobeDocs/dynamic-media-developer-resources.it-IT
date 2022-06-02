@@ -1,13 +1,13 @@
 ---
+title: textPath
 description: Percorso del testo. Specifica il percorso da utilizzare come linea di base per il testo fornito con textPs=.
 solution: Experience Manager
-title: textPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1c515786-bbba-44d3-837e-b474af293b7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,21 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, consulta [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) .
+Vedi [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) per ulteriori informazioni, compresa una descrizione *`pathDefinition`*.
 
 >[!NOTE]
 >
->A differenza di `clipPath=`, i percorsi di testo non vengono chiusi automaticamente quando &quot;z&quot; o &quot;Z&quot; non è specificato alla fine di un sottopercorso.
+>Diverso da `clipPath=`, i percorsi di testo non vengono chiusi automaticamente quando &quot;z&quot; o &quot;Z&quot; non è specificato alla fine di un percorso secondario.
 
 *`pathDefinition`* possono includere più percorsi secondari. Il testo viene rappresentato sui percorsi secondari nell’ordine specificato.
 
-I comandi RTF `\ql`, `\qc`, `\qr`, `\li` e `\ri` possono essere utilizzati per posizionare il testo sottoposto a rendering lungo il percorso.
+Comandi RTF `\ql`, `\qc`, `\qr`, `\li`e `\ri` può essere utilizzato per posizionare il testo di cui è stato effettuato il rendering lungo il tracciato.
 
 ## Proprietà {#section-068137df436c46b9b55d271eb60e7285}
 
-Attributo del livello di testo ( solo `textPs=`). Ignorato da altri livelli. Si applica a `layer=0` se specificato per `layer=comp`. Ignorato se sono presenti `textPs=`.
+Attributo del livello di testo ( `textPs=` solo). Ignorato da altri livelli. Si applica a `layer=0` se specificato per `layer=comp`. Ignorato se `textPs=` sono presenti.
 
-Se un livello include sia `textPath=` che `textFlowPath=`, viene restituito un errore.
+Se un livello include entrambi, viene restituito un errore `textPath=` e `textFlowPath=`.
 
 ## Predefinito {#section-697b1f2cfc43498080a31327e6eb173d}
 
@@ -47,4 +47,4 @@ Nessuno, per il rendering di testo standard.
 
 ## Consultate anche {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ,  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), livelli  [di testo](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [Livelli di testo](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

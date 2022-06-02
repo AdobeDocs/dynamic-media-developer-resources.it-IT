@@ -1,14 +1,14 @@
 ---
+title: CacheValidationPolicy
 description: Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 solution: Experience Manager
-title: CacheValidationPolicy
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Criterio di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 
-Con la convalida basata sulla scadenza, le immagini sorgente vengono periodicamente controllate se sono state modificate. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
+Con la convalida basata sulla scadenza, le immagini sorgente vengono periodicamente controllate se sono state modificate. Con la convalida basata su catalogo, le immagini sorgente vengono controllate solo dopo la `catalog::TimeStamp` valore modificato.
 
 Quando si utilizzano cataloghi di immagini, si consiglia di eseguire una convalida basata su catalogo. La convalida basata sulla scadenza deve essere utilizzata quando si fa riferimento direttamente alle immagini senza l’utilizzo di un catalogo di immagini.
 

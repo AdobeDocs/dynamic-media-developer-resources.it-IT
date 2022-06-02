@@ -1,14 +1,14 @@
 ---
+title: resMode
 description: Modalità di ricampionamento. Scegli l’algoritmo di ricampionamento e/o interpolazione da utilizzare per il ridimensionamento dei dati immagine. Si applica anche alla rotazione dei livelli di testo e al ridimensionamento delle immagini composite durante la trasformazione della vista.
 solution: Experience Manager
-title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
