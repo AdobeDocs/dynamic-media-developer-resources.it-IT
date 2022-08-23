@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: Dettagli del messaggio di errore. Specifica il livello di dettaglio dei messaggi di errore restituiti tramite HTTP come valore error.message.
 solution: Experience Manager
-title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Sono consentiti i seguenti valori:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge tracce di stack Java. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge tracce dello stack Java™. Le immagini di errore non includono mai le tracce di stack e restituiscono invece le informazioni di livello 2 in <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 

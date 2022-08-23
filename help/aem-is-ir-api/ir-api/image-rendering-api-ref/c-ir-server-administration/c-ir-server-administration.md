@@ -1,13 +1,13 @@
 ---
+title: Amministrazione del server
 description: Amministrazione del server
 solution: Experience Manager
-title: Amministrazione del server
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1421090b-50a4-4bed-813d-f06aa48e7ac8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '11'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

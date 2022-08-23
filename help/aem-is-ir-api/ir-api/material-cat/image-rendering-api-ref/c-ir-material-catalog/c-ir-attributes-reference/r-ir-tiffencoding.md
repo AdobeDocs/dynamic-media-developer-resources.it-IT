@@ -1,22 +1,22 @@
 ---
-description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
-solution: Experience Manager
 title: Codifica tiff
-feature: Dynamic Media Classic, SDK/API
+description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini di TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a6fa8f5-4497-438d-914c-3f6d4c08ef09
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
 
 # Codifica tiff{#tiffencoding}
 
-Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (efficacemente il valore predefinito per il terzo valore del comando fmt=).
+Formato di codifica TIFF. Specifica il formato di compressione per le immagini di TIFF (efficacemente il valore predefinito per il terzo valore del `fmt=` ).
 
-Impostare su 0 per nessuna compressione, 1 per LZW, 2 per deflate (ZIP) e 3 per compressione JPEG.
+Imposta su `0` senza compressione, `1` per LZW, `2` per deflate (ZIP) e `3` per la compressione JPEG.
 
 ## Proprietà {#section-469f5a1225464542866f5353edd92db3}
 

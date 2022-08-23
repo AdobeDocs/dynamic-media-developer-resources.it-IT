@@ -1,13 +1,13 @@
 ---
+title: Campi dati del catalogo
 description: Sono disponibili i seguenti campi di dati del catalogo.
 solution: Experience Manager
-title: Campi dati del catalogo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 10%
 
 ---
@@ -45,7 +45,7 @@ Sono disponibili i seguenti campi di dati del catalogo.
   <td class="stentry"> <p>Percorso o URL del file di dati immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath </a> </p></td> 
   <td class="stentry"> <p>Percorso file di dati secondario o URL. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -61,11 +61,11 @@ Sono disponibili i seguenti campi di dati del catalogo.
   <td class="stentry"> <p>Colore materiale. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor </a> </p></td> 
   <td class="stentry"> <p>Colore sottrattivo per un materiale colorizzabile. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum </a> </p></td> 
   <td class="stentry"> <p>Selettore mappa illuminazione. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -73,7 +73,7 @@ Sono disponibili i seguenti campi di dati del catalogo.
   <td class="stentry"> <p>Lucidità superficiale. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> Rugosità  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> Rugosità </a> </p></td> 
   <td class="stentry"> <p>Rugosità della superficie. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -97,7 +97,7 @@ Sono disponibili i seguenti campi di dati del catalogo.
   <td class="stentry"> <p>Decal/sovrapponi le dimensioni del livello. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
   <td class="stentry"> <p>Impostazioni avanzate di rendering. </p></td> 
  </tr> 
 </table>

@@ -1,24 +1,24 @@
 ---
-description: Timestamp di modifica predefinito. Fornisce un valore predefinito per TimeStamp e TimeStamp del catalogo. Se non viene specificato, il server utilizzerà la data/ora di modifica del file catalog.ini.
-solution: Experience Manager
 title: TimeStamp
+description: Timestamp di modifica predefinito. Fornisce un valore predefinito per TimeStamp e TimeStamp del catalogo. Se non viene specificato, il server utilizza la data/ora di modifica del file catalog.ini.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Timestamp di modifica predefinito. Fornisce un valore predefinito per catalog::TimeStamp e vignette::TimeStamp. Se non viene specificato, il server utilizzerà la data/ora di modifica del file catalog.ini.
+Timestamp di modifica predefinito. Fornisce un valore predefinito per `catalog::TimeStamp` e `vignette::TimeStamp`. Se non viene specificato, il server utilizza la data/ora di modifica del file catalog.ini.
 
 ## Proprietà {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Valore data/ora in formato Java. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, dal 1° gennaio 1970 UTC/GMT o un valore di stringa data/ora con uno dei seguenti formati:
+Valore data/ora in formato Java™. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, dal 1° gennaio 1970 UTC/GMT oppure un valore di stringa data/ora con uno dei seguenti formati:
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
@@ -26,7 +26,7 @@ Valore data/ora in formato Java. Può essere il numero intero di millisecondi tr
 
 *[!DNL hh]* è compreso tra 0 e 23.
 
-*[!DNL zzz]* è un codice del fuso orario a 3 o 4 caratteri come &quot;GMT&quot; o &quot;PST&quot;. L’ora legale deve essere contabilizzata nel codice del fuso orario (ad esempio, &quot;PST&quot; per l’ora standard del Pacifico, rispetto a &quot;PDT&quot; per l’ora legale del Pacifico).
+*[!DNL zzz]* è un codice del fuso orario a tre o quattro caratteri come &quot;GMT&quot; o &quot;PST&quot;. L’ora legale deve essere contabilizzata nel codice del fuso orario (ad esempio, &quot;PST&quot; per l’ora standard del Pacifico, rispetto a &quot;PDT&quot; per l’ora legale del Pacifico).
 
 *[!DNL offset]* è un offset del fuso orario in ore o ore:minuti, relativo a GMT. Ad esempio, &quot;PDT&quot; equivale a &quot;GMT -7&quot;.
 
@@ -34,7 +34,7 @@ Tutti gli elementi dei valori data/ora formattati in stringa devono essere prese
 
 ## Predefinito {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Se vuoto o non definito, il server utilizzerà l’ora di modifica del file di questo [!DNL *[!DNL catalog]*.ini].
+Se vuoto o non definito, il server utilizza l&#39;ora di modifica del file di questo [!DNL *[!DNL catalog]*.ini].
 
 ## Consultate anche {#section-764188f9b1734ad1a6270f5fecd28532}
 

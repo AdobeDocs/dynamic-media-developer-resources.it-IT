@@ -1,24 +1,24 @@
 ---
-description: Qualità di codifica JPEG predefinita. Specifica l'impostazione di qualità predefinita per le immagini di risposta con codifica JPEG.
-solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic, SDK/API
+description: Qualità di codifica predefinita di JPEG. Specifica l'impostazione di qualità predefinita per le immagini di risposta codificate in JPEG.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
 # JpegQuality{#jpegquality}
 
-Qualità di codifica JPEG predefinita. Specifica l&#39;impostazione di qualità predefinita per le immagini di risposta con codifica JPEG.
+Qualità di codifica predefinita di JPEG. Specifica l&#39;impostazione di qualità predefinita per le immagini di risposta codificate in JPEG.
 
 ## Proprietà {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1.100 e definisce la qualità. Il secondo valore può essere 0 per il comportamento normale, o 1 per disabilitare il sottocampionamento della cromaticità solitamente utilizzato dagli encoder JPEG.
+Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1.100 e definisce la qualità. Il secondo valore può essere `0` per un comportamento normale, oppure `1` per disabilitare il sottocampionamento della cromaticità impiegato dagli encoder JPEG.
 
 ## Predefinito {#section-60900c0fb8c54444b2361513232514db}
 
