@@ -2,17 +2,17 @@
 description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 solution: Experience Manager
 title: SearchFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
 
-# SearchFilter{#searchfilter}
+# [!DNL SearchFilter]{#searchfilter}
 
 Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 
@@ -46,7 +46,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Elenco dei tipi di risorse che si desidera restituire in una ricerca. Ad esempio, <span class="codeph"> image</span>. </td> 
+   <td colname="col3">Elenco dei tipi di risorse che si desidera restituire in una ricerca. Ad esempio: <span class="codeph"> immagine</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
@@ -56,12 +56,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Elenco dei sottotipi di risorse che dovranno essere restituiti in una ricerca. Ad esempio, per un <span class="codeph"> AssetSet</span>, è possibile cercare il sottotipo <span class="codeph"> MediaType</span> . </td> 
+   <td colname="col3">Elenco dei sottotipi di risorse che dovranno essere restituiti in una ricerca. Ad esempio, per un <span class="codeph"> AssetSet</span>, puoi cercare il <span class="codeph"> MediaType</span> sottotipo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> narrowSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Flag booleano facoltativo che specifica se restituire risorse senza sottotipo quando viene passato <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se true, vengono restituite solo le risorse con uno dei sottotipi specificati. </p> <p>Se false, vengono restituite anche le risorse senza sottotipo. </p> <p>Le impostazioni predefinite sono false. </p> </td> 
+   <td colname="col3"> <p>Flag booleano facoltativo che specifica se restituire risorse senza sottotipo quando <span class="codeph"> assetSubTypeArray</span> è passato. </p> <p>Se true, vengono restituite solo le risorse con uno dei sottotipi specificati. </p> <p>Se false, vengono restituite anche le risorse senza sottotipo. </p> <p>Le impostazioni predefinite sono false. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -82,18 +82,18 @@ Sintassi
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Specifica: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> </span> MarkedForPublishper restituire solo le risorse pubblicate. </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> </span> NotMarkedForPublishper restituire solo le risorse non pubblicate. </li> 
-    </ul> <p>Nota: Lascia vuoto per cercare i tipi di stato pubblicati <i>all</i> . </p> </td> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> per restituire solo le risorse pubblicate. </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> per restituire solo le risorse non pubblicate. </li> 
+    </ul> <p>Nota: Lascia vuoto per cercare <i>tutto</i> tipi di stato pubblicati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Specifica: 
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
-     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> </span> È possibile restituire le risorse indipendentemente dal loro stato di rifiuto. </li> 
-     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> </span> NotInTrashto restituisce risorse 'normali'. </li> 
-     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> </span> InTrashper restituire le risorse dal cestino. </li> 
+     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> Qualsiasi</span> restituire le risorse indipendentemente dal loro stato di eliminazione. </li> 
+     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> NotInTrash</span> per restituire le risorse "normali". </li> 
+     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> InTrash</span> per restituire le risorse dal cestino. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -5,14 +5,14 @@ title: OpzioniLivelloPhotoshop
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '54'
 ht-degree: 7%
 
 ---
 
-# OpzioniLivelloPhotoshop{#photoshoplayeroptions}
+# [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
 Opzioni del livello immagine Photoshop.
 

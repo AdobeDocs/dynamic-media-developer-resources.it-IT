@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '56'
 ht-degree: 8%
 
 ---
 
-# ArrayCampiMetadatiRisorsa{#assetmetadatafieldsarray}
+# [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
 Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
 

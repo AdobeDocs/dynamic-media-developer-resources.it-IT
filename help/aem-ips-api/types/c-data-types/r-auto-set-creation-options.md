@@ -5,14 +5,14 @@ title: OpzioniCreazioneImpostazioneAutomatica
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '63'
 ht-degree: 6%
 
 ---
 
-# OpzioniCreazioneImpostazioneAutomatica{#autosetcreationoptions}
+# [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
 Elenco di script di generazione set automatico per i processi di caricamento. Presuppone che ogni script specificato per il caricamento venga applicato a tutte le risorse caricate.
 

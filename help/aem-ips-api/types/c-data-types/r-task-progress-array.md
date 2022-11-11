@@ -5,14 +5,14 @@ title: MatriceAvanzamentoAttività
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
-# MatriceAvanzamentoAttività{#taskprogressarray}
+# [!DNL TaskProgressArray]{#taskprogressarray}
 
 Matrice di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
 

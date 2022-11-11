@@ -5,14 +5,14 @@ title: Utilizzo disco
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 11%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
-# Utilizzo disco{#diskusage}
+# [!DNL DiskUsage]{#diskusage}
 
 Statistiche sullo spazio su disco per una risorsa o una cartella.
 

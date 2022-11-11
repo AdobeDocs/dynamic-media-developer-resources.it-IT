@@ -2,17 +2,17 @@
 description: Opzioni per il ritaglio automatico delle immagini in base al colore.
 solution: Experience Manager
 title: OpzioniRitaglioColoreAutomatico
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 8%
 
 ---
 
-# OpzioniRitaglioColoreAutomatico{#autocolorcropoptions}
+# [!DNL AutoColorCropOptions]{#autocolorcropoptions}
 
 Opzioni per il ritaglio automatico delle immagini in base al colore.
 

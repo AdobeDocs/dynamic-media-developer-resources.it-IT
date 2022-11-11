@@ -2,17 +2,17 @@
 description: Raggruppa i file in set utilizzando una matrice di elenchi di handle di risorsa.
 solution: Experience Manager
 title: AttivitàGenerazioneAutomatizzata
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '170'
 ht-degree: 3%
 
 ---
 
-# AttivitàGenerazioneAutomatizzata{#automatedsetgenerationjob}
+# [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
 Raggruppa i file in set utilizzando una matrice di elenchi di handle di risorsa.
 
@@ -30,27 +30,27 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:HandleArray</span> </td> 
    <td colname="col3">Matrice di handle di risorsa utilizzata per creare il set. <p>Per impostazione predefinita, 1000 è il numero massimo di risorse disponibili nell’array. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Percorso della cartella in cui salvare i set. Salva nella cartella principale della società per impostazione predefinita. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Imposta un flag per indicare se le risorse devono essere pubblicate o meno. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Matrice di script di generazione del set che è possibile eseguire sui file caricati. Vedere <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col3">Matrice di script di generazione del set che è possibile eseguire sui file caricati. Vedi <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> OpzioniCreazioneImpostazioneAutomatica</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Imposta una notifica e-mail automatica per il processo. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Sintassi
 
 **Opzioni e-mailSetting**
 
-Il parametro `emailSetting` include le seguenti opzioni:
+La `emailSetting` include le seguenti opzioni:
 
 | Opzione | Restituisce |
 |---|---|

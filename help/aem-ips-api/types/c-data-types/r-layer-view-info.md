@@ -5,14 +5,14 @@ title: InformazioniVisualizzazioneLivello
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '46'
 ht-degree: 8%
 
 ---
 
-# InformazioniVisualizzazioneLivello{#layerviewinfo}
+# [!DNL LayerViewInfo]{#layerviewinfo}
 
 Proprietà della vista Livello.
 

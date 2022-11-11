@@ -5,14 +5,14 @@ title: MetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 22%
+source-wordcount: '21'
+ht-degree: 23%
 
 ---
 
-# MetadataUpdateArray{#metadataupdatearray}
+# [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
 Matrice di aggiornamenti dei metadati.
 

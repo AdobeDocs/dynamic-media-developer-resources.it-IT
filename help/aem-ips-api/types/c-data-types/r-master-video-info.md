@@ -5,14 +5,14 @@ title: InformazioniVideoMaster
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 7ca1ba11-56c0-4655-a144-7c9f6f17fc7c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-# InformazioniVideoMaster{#mastervideoinfo}
+# [!DNL MasterVideoInfo]{#mastervideoinfo}
 
 Informazioni sui file per le risorse video principali.
 

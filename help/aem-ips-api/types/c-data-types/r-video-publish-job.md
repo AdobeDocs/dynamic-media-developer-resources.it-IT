@@ -5,14 +5,14 @@ title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '40'
+ht-degree: 10%
 
 ---
 
-# VideoPublishJob{#videopublishjob}
+# [!DNL VideoPublishJob]{#videopublishjob}
 
 Pubblica i file sui server di pubblicazione video configurati.
 

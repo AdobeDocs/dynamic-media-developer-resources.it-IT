@@ -5,14 +5,14 @@ title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
-# GenerationAttribute{#generationattribute}
+# [!DNL GenerationAttribute]{#generationattribute}
 
 Una coppia nome-valore che contiene informazioni su un passaggio di generazione delle risorse. Vedi getGenerationInfo.
 

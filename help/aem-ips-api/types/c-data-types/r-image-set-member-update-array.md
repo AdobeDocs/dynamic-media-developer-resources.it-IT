@@ -5,14 +5,14 @@ title: ImageSetMemberUpdateArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: a0b0f94a-7b45-4780-9b28-1eb449c3b831
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '28'
 ht-degree: 17%
 
 ---
 
-# ImageSetMemberUpdateArray{#imagesetmemberupdatearray}
+# [!DNL ImageSetMemberUpdateArray]{#imagesetmemberupdatearray}
 
 Matrice di aggiornamenti dei membri del set di immagini.
 

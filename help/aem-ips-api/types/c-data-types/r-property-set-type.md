@@ -2,17 +2,17 @@
 description: Valori validi per i campi PropertySetType e createPropertySetTypeParam .
 solution: Experience Manager
 title: PropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
-# PropertySetType{#propertysettype}
+# [!DNL PropertySetType]{#propertysettype}
 
 Valori validi per i campi PropertySetType e createPropertySetTypeParam .
 
@@ -41,7 +41,7 @@ I valori includono:
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Tratta l'azienda. <p>Nota:  Il tipo è globale se l'handle della società non è presente. </p></td> 
+   <td colname="col3">Tratta l'azienda. <p>Nota: Il tipo è globale se l'handle della società non è presente. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 

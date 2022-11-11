@@ -2,17 +2,17 @@
 description: Definisce le condizioni di ricerca per i campi tag.
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 Definisce le condizioni di ricerca per i campi tag.
 
@@ -39,9 +39,9 @@ Sintassi
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Dipende dal tipo di campo tag e dall’utilizzo del campo value o valueArray. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se viene passato <span class="codeph"> value</span>, <span class="codeph"> op</span> deve essere la stringa costante Matches. La condizione corrisponde a qualsiasi risorsa associata al valore del tag. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se viene passato <span class="codeph"> valueArray</span>, il campo op può essere la costante <span class="codeph"> MatchesAny</span> per campi tag singoli o multivalore. Una condizione <span class="codeph"> MatchesAny</span> corrisponde a qualsiasi risorsa associata ad almeno uno dei valori tag in <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Per i campi di tag con più valori, il campo op può essere impostato sulla costante <span class="codeph"> MatchesAll</span> con il campo <span class="codeph"> valueArray</span>. In questo caso, la condizione corrisponde solo alle risorse associate a tutti i valori tag in <span class="codeph"> valueArray</span> (possibilmente in aggiunta ad altri valori tag). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se <span class="codeph"> value</span> è passato, <span class="codeph"> op</span> deve essere la stringa costante Matches. La condizione corrisponde a qualsiasi risorsa associata al valore del tag. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> valueArray</span> viene passato, il campo op può essere la costante <span class="codeph"> MatchesAny</span> per campi tag singoli o multivalore. A <span class="codeph"> MatchesAny</span> la condizione corrisponde a qualsiasi risorsa associata ad almeno uno dei valori tag in <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Per i campi di tag con più valori, il campo op può essere impostato sulla costante <span class="codeph"> MatchesAll</span> con <span class="codeph"> valueArray</span> campo . In questo caso, la condizione corrisponde solo alle risorse associate a tutti i valori tag in <span class="codeph"> valueArray</span> (eventualmente in aggiunta ad altri valori di tag). </li>
     </ul></td> 
   </tr> 
   <tr> 

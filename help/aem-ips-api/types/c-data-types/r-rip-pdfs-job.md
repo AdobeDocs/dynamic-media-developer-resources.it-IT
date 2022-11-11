@@ -2,23 +2,23 @@
 description: Un processo che ricompila una risorsa PDF esistente.
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 2%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
 Un processo che ricompila una risorsa PDF esistente.
 
 >[!NOTE]
 >
->Questo tipo di processo è obsoleto. Transizione a `ReprocessAssetsJob` per tutte le integrazioni future.
+>Questo tipo di processo è obsoleto. Transizione verso `ReprocessAssetsJob` per tutte le integrazioni future.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -114,20 +114,20 @@ Un processo che ricompila una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedere<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedi<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Note {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Le scelte per `*CropOptions` includono:
+Scelte per `*CropOptions` include:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Le scelte per `*PublishJob` includono:
+Scelte per `*PublishJob` include:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

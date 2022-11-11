@@ -5,14 +5,14 @@ title: Registro processi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---
 
-# Registro processi{#joblog}
+# [!DNL JobLog]{#joblog}
 
 Registro dei processi dopo l&#39;esecuzione del processo.
 
@@ -31,7 +31,7 @@ Sintassi
 | jobSubType | `xsd:string` | Informazioni aggiuntive sul processo. |
 | startDate | `xsd:dateTime` | Data, ora e fuso orario di inizio del processo. |
 | endDate | `xsd:dateTime` | Data, ora e fuso orario di fine del processo. |
-| descrizione | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
+| [!DNL description] | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
 | fileSuccessCount | `xsd:int` | Numero di file elaborati correttamente. |
 | fileErrorCount | `xsd:int` | Numero di file che hanno causato un errore. |
 | fileWarningCount | `xsd:int` | Numero di file che hanno generato un avviso. |

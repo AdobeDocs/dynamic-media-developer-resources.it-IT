@@ -2,21 +2,21 @@
 description: Definizioni dei campi definite dall’utente per risorse specifiche.
 solution: Experience Manager
 title: CampoMetadati
-feature: Dynamic Media Classic, SDK/API, Metadati
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
-# CampoMetadati{#metadatafield}
+# [!DNL MetadataField]{#metadatafield}
 
 Definizioni dei campi definite dall’utente per risorse specifiche.
 
-Recupera le definizioni dei campi tag con le operazioni `getMetadataFields` o `getAssetMetadataField` .
+Recupera le definizioni dei campi tag con `getMetadataFields` o `getAssetMetadataField` operazioni.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

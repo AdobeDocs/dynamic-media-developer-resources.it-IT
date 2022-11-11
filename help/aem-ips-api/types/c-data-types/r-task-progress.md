@@ -2,17 +2,17 @@
 description: Informazioni sull’avanzamento dell’attività.
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
 
-# TaskProgress{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 Informazioni sull’avanzamento dell’attività.
 
@@ -78,7 +78,7 @@ Sintassi
      <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nuovo</span>: Il monitoraggio attività è stato creato ma non ha ancora accettato le attività. </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Elaborazione</span>: Monitoraggio attività sta elaborando attivamente le attività. </li>
      <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Arresto</span>: Il monitoraggio attività sta arrestando un processo a causa di una richiesta di arresto del processo. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Fatto</span>: I processi assegnati ai processi di monitoraggio attività sono stati completati. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Fine</span>: I processi assegnati ai processi di monitoraggio attività sono stati completati. </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Non riuscito</span>: Indica un errore irreversibile. </li>
     </ul></td> 
   </tr> 
