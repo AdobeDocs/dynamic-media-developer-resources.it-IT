@@ -2,12 +2,12 @@
 description: Image Rendering supporta un semplice meccanismo di pre-elaborazione delle richieste basato su regole di corrispondenza e sostituzione delle espressioni regolari.
 solution: Experience Manager
 title: Riferimento set di regole
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Rendering supporta un semplice meccanismo di pre-elaborazione delle richie
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Le raccolte di regole di pre-elaborazione (*set di regole*) possono essere collegate ai cataloghi di materiali o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non allega un catalogo di materiali specifico.
+Raccolte di regole di pre-elaborazione (*set di regole*) può essere allegato ai cataloghi di materiali o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non allega un catalogo di materiali specifico.
 
 Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dal parser di richieste del server, inclusa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. È inoltre possibile utilizzare le regole per configurare e sostituire alcuni attributi del catalogo, nonché per limitare il servizio a specifici indirizzi IP del client.
 
@@ -47,9 +47,9 @@ I set di regole vengono memorizzati come file di documento XML. Il percorso rela
 </ruleset>
 ```
 
-Gli elementi `<?xml>`, `<!DOCTYPE>` e `<ruleset>` sono sempre necessari in un file XML di set di regole valido, anche se non sono definite regole effettive.
+La `<?xml>`, `<!DOCTYPE>` e `<ruleset>` gli elementi sono sempre necessari in un file XML di set di regole valido, anche se non sono definite regole effettive.
 
-È consentito un elemento `<ruleset>` contenente un numero qualsiasi di elementi `<rule>`.
+Uno `<ruleset>` elemento contenente un numero qualsiasi di `<rule>` gli elementi sono consentiti.
 
 I contenuti dei file delle regole di preelaborazione sono sensibili all’uso di maiuscole e minuscole.
 
@@ -57,15 +57,15 @@ I contenuti dei file delle regole di preelaborazione sono sensibili all’uso di
 
 Prima di qualsiasi altra elaborazione, una richiesta HTTP in arrivo viene analizzata in parte per determinare quale catalogo di materiali applicare. Una volta identificato il catalogo, viene applicato il set di regole per il catalogo selezionato (o per il catalogo predefinito, se non è stato identificato alcun catalogo specifico).
 
-Gli elementi `<rule>` vengono ricercati nell’ordine specificato per trovare una corrispondenza con il contenuto dell’elemento `<expression>` ( *`expression`*).
+La `<rule>` vengono cercati nell’ordine specificato per ottenere una corrispondenza con il contenuto `<expression>` elemento ( *`expression`*).
 
-Se viene rilevata una corrispondenza a `<rule>`, viene applicato l&#39;facoltativo *`substitution`* e la stringa di richiesta modificata viene passata al parser di richiesta del server per una normale elaborazione.
+Se `<rule>` viene confrontato con il *`substitution`* viene applicata e la stringa di richiesta modificata viene passata al parser di richiesta del server per una normale elaborazione.
 
-Se non viene effettuata alcuna corrispondenza corretta quando viene raggiunta la fine del `<ruleset>`, la richiesta viene trasmessa al parser senza modifiche.
+Se non viene effettuata alcuna corrispondenza con successo alla fine del `<ruleset>` viene raggiunta, la richiesta viene trasmessa al parser senza modifiche.
 
 ## Attributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-Il comportamento predefinito può essere modificato con l’attributo `OnMatch` degli elementi `<rule>` . `OnMatch` può essere impostato su  `break` (predefinito),  `continue`, oppure  `error.`
+Il comportamento predefinito può essere modificato con `OnMatch` dell&#39;attributo `<rule>` elementi. `OnMatch` possono essere fissati `break` (predefinito), `continue`oppure `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,13 +92,13 @@ Il comportamento predefinito può essere modificato con l’attributo `OnMatch` 
 
 ## Sovrascrittura degli attributi del catalogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` facoltativamente, gli elementi possono definire attributi che sovrascrivono gli attributi del catalogo corrispondenti quando la regola viene confrontata correttamente e  `OnMatch="break"` impostata. Se è impostato `OnMatch="continue"`, non vengono applicati attributi. Fai riferimento alla descrizione di `<rule>` per un elenco di attributi che possono essere controllati con le regole.
+`<rule>` se necessario, gli elementi possono definire attributi che sovrascrivono gli attributi del catalogo corrispondenti quando la regola viene confrontata correttamente e `OnMatch="break"` è impostato. Se non viene applicato alcun attributo, `OnMatch="continue"` è impostato. Fai riferimento alla descrizione di `<rule>` per un elenco di attributi che possono essere controllati con le regole.
 
 ## Espressioni regolari {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 La corrispondenza semplice delle stringhe funziona per applicazioni molto semplici, ma nella maggior parte delle istanze sono necessarie espressioni regolari. Anche se le espressioni regolari sono standard di settore, l&#39;implementazione specifica varia da un&#39;istanza all&#39;altra.
 
-[package java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescrive l&#39;implementazione specifica delle espressioni regolari utilizzata da Image Server.
+[pacchetto java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descrive l&#39;implementazione specifica delle espressioni regolari utilizzate da Image Serving.
 
 ## Sottostringhe acquisite {#section-8057cd65d48949ffb6a50e929bd3688b}
 
@@ -106,7 +106,7 @@ Per facilitare modifiche complesse all’URL, le sottostringhe possono essere ac
 
 ## Gestione dei file set di regole {#section-e8ce976b56404c009496426fd334d23d}
 
-Un file set di regole può essere allegato a ciascun catalogo di materiali con l&#39;attributo di catalogo `attribute::RuleSetFile`. Mentre è possibile modificare il file del set di regole in qualsiasi momento, il server di immagini riconosce le modifiche solo quando il catalogo del materiale associato viene ricaricato. Questo accade quando Platform Server viene avviato o riavviato e ogni volta che il file di catalogo principale (con un suffisso di file [!DNL .ini]) viene modificato o &quot;toccato&quot; (per modificare la data del file).
+Un file set di regole può essere allegato a ogni catalogo di materiali con l&#39;attributo catalogo `attribute::RuleSetFile`. Mentre è possibile modificare il file del set di regole in qualsiasi momento, il server di immagini riconosce le modifiche solo quando il catalogo del materiale associato viene ricaricato. Questo accade quando il [!DNL Platform Server] viene avviato o riavviato e ogni volta che il file di catalogo principale (che ha un [!DNL .ini] suffisso file) modificato o &quot;toccato&quot; (per modificare la data del file).
 
 ## Esempi {#section-c4142a41f5cd4ff799a72fbc130c3700}
 

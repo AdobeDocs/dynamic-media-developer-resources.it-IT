@@ -2,13 +2,13 @@
 description: Utilizzare queste impostazioni del server per eseguire il debug della registrazione delle tracce.
 solution: Experience Manager
 title: Debug_trace logging
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Utilizzare queste impostazioni del server per eseguire il debug della registrazi
 
 >[!NOTE]
 >
->Si consiglia di configurare tutti i file di registro in modo che vengano scritti nella stessa cartella di `TC::directory`. Questo assicura che tutti i file di registro di Image Server partecipino alla rotazione automatica dei file di registro configurata con `TC::maxDays`, che impedirà la potenziale instabilità del server a causa di condizioni di spazio su disco insufficiente.
+>Si consiglia di configurare tutti i file di registro da scrivere nella stessa cartella di `TC::directory`. In questo modo tutti i file di registro di Image Server partecipano alla rotazione automatica dei file di registro configurati con `TC::maxDays`, che impedirà la potenziale instabilità del server a causa di condizioni di spazio su disco insufficiente.
 
 ## SV::log - Percorso file di log di traccia del supervisore del server {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Nome della cartella e del file di base per i file di registro di Server Supervisore. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Al nome del file (prima del suffisso del file, se presente) verrà aggiunto un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*). Si consiglia di inviare tutti i file di registro alla stessa cartella dei file di registro di Platform Server ( `PS::LogFolder`) per sfruttare la gestione dei file di registro implementata da Platform Server ( `PS::LogDays`). Il valore predefinito è [!DNL logs/Supervisor.log].
+Nome della cartella e del file di base per i file di registro di Server Supervisore. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Al server Supervisore verrà aggiunto un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima dell’eventuale suffisso di file). Si consiglia di inviare tutti i file di registro alla stessa cartella [!DNL Platform Server] file di registro ( `PS::LogFolder`) per sfruttare la gestione dei file di registro implementata da [!DNL Platform Server] ( `PS::LogDays`). Il valore predefinito è [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Il livello di log può essere 1, 2, 3 o 4. Il valore predefinito è 2.
 
 ## IS::Log - Percorso file di log di debug del server di immagini {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Nome della cartella e del file di base per i file di registro di traccia di Image Server. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. ImageServer aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima dell&#39;eventuale suffisso di file). Si consiglia di inviare i file di registro di Image Server alla stessa cartella dei file di registro di Platform Server ( `PS::LogFolder`) per sfruttare la gestione dei file di registro implementata da Platform Server (vedere `PS::LogDays`).
+Nome della cartella e del file di base per i file di registro di traccia di Image Server. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. ImageServer aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima dell’eventuale suffisso di file). Si consiglia di inviare i file di registro di Image Server alla stessa cartella di [!DNL Platform Server] file di registro ( `PS::LogFolder`) per sfruttare la gestione dei file di registro implementata da [!DNL Platform Server] (vedi `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Nome della cartella e del file di base per i file di registro di traccia di Imag
 
 Il livello di log può essere 1, 2, 3 o 4 (il valore predefinito è 2)
 
-Il livello 1 registra gli eventi relativi alle connessioni di avvio, arresto e Platform Server.
+Il livello 1 registra gli eventi relativi all’avvio, all’arresto e al [!DNL Platform Server] connessioni.
 
 Il livello 2 registra anche la connessione e la disconnessione dalle immagini sorgente.
 
-Il livello 3 aggiunge la registrazione delle richieste per i dati pixel e la consegna dello stesso al server Platform.
+Il livello 3 aggiunge la registrazione delle richieste di dati pixel e la consegna dello stesso a [!DNL Platform Server].
 
-Il livello 4 registra tutti i messaggi ricevuti dal server Platform.
+Il livello 4 registra tutti i messaggi ricevuti da [!DNL Platform Server].
 
 I livelli 3 e 4 devono essere utilizzati solo a scopo di debug, in quanto i file di log possono diventare molto grandi.
 

@@ -5,9 +5,9 @@ title: Requisiti di sistema e prerequisiti
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Il server deve soddisfare i seguenti requisiti hardware.
 
 >[!NOTE]
 >
->I sistemi con processori con AMD64 e Intel® EM64T sono in genere configurati come piattaforme NUMA (Non-Uniform Memory Architecture). Ciò significa che il kernel costruisce più nodi di memoria in fase di avvio anziché costruire un singolo nodo di memoria. Il costrutto a più nodi può causare esaurimento della memoria su uno o più nodi prima che gli altri nodi si esauriscano. Quando si verifica un esaurimento della memoria, il kernel può decidere di interrompere i processi (ad esempio, Image Server o Platform Server) anche se è disponibile memoria. Pertanto, Adobe Systems consiglia di disattivare NUMA se si utilizza un sistema di questo tipo. Utilizzare l&#39;opzione `numa=off` start per evitare che il kernel interrompa questi processi.
+>I sistemi con processori con AMD64 e Intel® EM64T sono in genere configurati come piattaforme NUMA (Non-Uniform Memory Architecture). Ciò significa che il kernel costruisce più nodi di memoria in fase di avvio anziché costruire un singolo nodo di memoria. Il costrutto a più nodi può causare esaurimento della memoria su uno o più nodi prima che gli altri nodi si esauriscano. Quando si verifica l&#39;esaurimento della memoria, il kernel può decidere di interrompere i processi (ad esempio, il server di immagini o [!DNL Platform Server]) anche se è disponibile memoria. Pertanto, Adobe Systems consiglia di disattivare NUMA se si utilizza un sistema di questo tipo. Utilizza la `numa=off` opzione di avvio per evitare che il kernel interrompa questi processi.
 
 **Windows**
 
@@ -40,7 +40,7 @@ Il server deve soddisfare i seguenti requisiti hardware.
 * 2 GB di spazio disponibile su disco rigido per l&#39;installazione e il funzionamento di base, è necessario ulteriore spazio su disco per le immagini di origine, i registri, le cache dei dati e i file manifest.
 * Scheda di interfaccia di rete Fast Ethernet
 
-**Nota (Linux):** Image Server non funziona con SELinux attivato. Questa opzione è attivata per impostazione predefinita. Per disabilitare SELinux, modifica il file [!DNL /etc/selinux/config] e modifica il valore SELinux da:
+**Nota (Linux):** Image Server non funziona con SELinux attivato. Questa opzione è attivata per impostazione predefinita. Per disabilitare SELinux, modifica il [!DNL /etc/selinux/config] e modifica il valore SELinux da:
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ a
 
 `SELINUX=disabled`
 
-**Nota (Linux):** assicurati che il nome host del server sia risolvibile in un indirizzo IP. Se ciò non è possibile, aggiungi il nome host completo e l’indirizzo IP a [!DNL /etc/hosts] come nell’esempio seguente.
+**Nota (Linux):** Assicurati che il nome host del server sia risolvibile in un indirizzo IP. Se ciò non è possibile, aggiungi il nome host completo e l’indirizzo IP a [!DNL /etc/hosts] come nell’esempio seguente.
 
 `<ip address> <fully qualified hostname>`
 
@@ -66,4 +66,4 @@ Dynamic Media Image Serving richiede il seguente software server.
 * Red Hat® Enterprise 5 o CentOS 5.5 e versioni successive, con patch di correzione più recenti.
 * Sistema operativo a 64 bit.
 
-**Nota:** per utilizzare Image Server su Windows, è necessario installare Microsoft Visual Studio 2010 ridistribuibile.
+**Nota:** Per utilizzare Image Server su Windows, è necessario installare Microsoft Visual Studio 2010 ridistribuibile.

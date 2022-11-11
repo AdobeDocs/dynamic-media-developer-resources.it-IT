@@ -2,12 +2,12 @@
 description: Contiene le impostazioni del server della piattaforma.
 solution: Experience Manager
 title: server.xml
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Contiene le impostazioni del server della piattaforma.
 
-Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti il server Platform potrebbe non avviarsi.
+Quando si modifica questo file XML, prestare attenzione a mantenere una sintassi XML valida, altrimenti la [!DNL Platform Server] potrebbero non avviarsi.
 
-Affinché le modifiche abbiano effetto, Platform Server deve essere riavviato dopo aver modificato questo file.
+Affinché le modifiche abbiano effetto, il [!DNL Platform Server] deve essere riavviato dopo la modifica del file.
 
-Il diagramma seguente illustra quali impostazioni possono essere modificate in questo file. Per una descrizione di queste impostazioni, fare riferimento alle sezioni corrispondenti presenti in questo documento. Tieni presente che questo diagramma non è una rappresentazione completa di [!DNL server.xml].
+Il diagramma seguente illustra quali impostazioni possono essere modificate in questo file. Per una descrizione di queste impostazioni, fare riferimento alle sezioni corrispondenti presenti in questo documento. Nota che questo diagramma non è una rappresentazione completa di [!DNL server.xml].
 
 ```
 <Server>

@@ -2,12 +2,12 @@
 description: Il catalogo predefinito fornisce valori predefiniti per tutti gli attributi del catalogo per tutti i cataloghi di immagini.
 solution: Experience Manager
 title: Catalogo predefinito
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Se non è possibile trovare un attributo specifico in un catalogo di immagini sp
 
 Inoltre, il catalogo predefinito fornisce tutti gli attributi e i record di dati (macro, font, profili ICC, richieste di regole di pre-elaborazione) quando non è coinvolto in un’operazione un catalogo di immagini specifico.
 
-Per il corretto funzionamento di Platform Server, il file degli attributi del catalogo per il catalogo predefinito deve essere denominato [!DNL default.ini], deve sempre esistere nella cartella del catalogo e deve essere compilato con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, tutti facoltativi.
+Per il corretto funzionamento del [!DNL Platform Server] il file degli attributi del catalogo per il catalogo predefinito deve essere denominato [!DNL default.ini], deve esistere sempre nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, escludendo `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, tutti facoltativi.
 
 >[!NOTE]
 >
->Tutti i file di attributi del catalogo eccetto [!DNL default.ini] devono contenere un valore `attribute::RootId` univoco. `attribute::RootId` in  [!DNL default.ini] deve essere vuoto.
+>Tutti i file di attributi del catalogo tranne [!DNL default.ini] deve contenere un `attribute::RootId` valore. `attribute::RootId` in [!DNL default.ini] deve essere vuoto.

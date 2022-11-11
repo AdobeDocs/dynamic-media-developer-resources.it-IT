@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Utilizzare questi passaggi per installare Image Server per la prima volta su Win
    **Importante:** La licenza si basa sull&#39;indirizzo MAC di una delle schede di interfaccia di rete installate su questo host. Se disattivi, rimuovi o sostituisci questa scheda, la licenza non viene più riconosciuta come valida. Assicurati di ottenere una licenza per la configurazione hardware utilizzata per Image Serving.
 
    È possibile continuare a installare IS senza una licenza valida e installare la licenza in un secondo momento. Per continuare, seleziona **[!UICONTROL Indietro]** per tornare al [!DNL Authentication] finestra di dialogo, quindi selezionare **[!UICONTROL Successivo]**.
-1. Procedi alla pagina &quot;Impostazioni amministratore server della piattaforma&quot;. Immetti i nuovi valori desiderati oppure accetta i valori predefiniti.
+1. Procedi al &quot;[!DNL Platform Server] Impostazioni amministratore&quot;. Immetti i nuovi valori desiderati oppure accetta i valori predefiniti.
 
    Puoi configurare i seguenti elementi:
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> Porta di connessione HTTP del server della piattaforma </p> </td>
+      <td> <p> [!DNL Platform Server] Porta di connessione HTTP </p> </td>
       <td> <p>Porta di ascolto HTTP principale per Image Server e Image Rendering </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ Utilizzare questi passaggi per installare Image Server per la prima volta su Win
       <td> <p>Porta di ascolto amministratore </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Dimensioni della cache del server della piattaforma in MB </p> </td>
+      <td> <p> [!DNL Platform Server] Dimensioni cache in MB </p> </td>
       <td> <p>Dimensione iniziale della cache di risposta principale </p> </td>
    </tr>
    <tr> 
-      <td> <p> Percorso cache del server della piattaforma </p> </td>
+      <td> <p> [!DNL Platform Server] Posizione cache </p> </td>
       <td> <p>Cartella cache PS </p> </td>
    </tr>
    </tbody>

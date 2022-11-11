@@ -2,12 +2,12 @@
 description: Utilizza queste impostazioni del server per configurare il server.
 solution: Experience Manager
 title: Server
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Per Linux sono disponibili sia una versione a 32 bit che una versione a 64 bit d
 
 >[!NOTE]
 >
->La modalità a 64 bit non è supportata in Windows. È possibile specificare solo `ImageServer32`. In caso contrario, Image Server non si avvia.
+>La modalità a 64 bit non è supportata in Windows. Solo `ImageServer32` può essere specificato. In caso contrario, Image Server non si avvia.
 
-## SV::PsHeapSize - Dimensione heap del server della piattaforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Dimensione heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Dimensione dell’heap Java per Platform Server. Il valore predefinito è &quot; `512m`&quot; (512 Mbyte).
+Dimensione dell’heap Java per il [!DNL Platform Server]. Valori predefiniti in &quot; `512m`&quot; (512 Mbyte).
 
 ## IS::TcpPort, PS::isConnection.port - Porta di ascolto del server di immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Specifica la porta utilizzata per la comunicazione tra Platform Server e Image Server. Assicurati di specificare un numero di porta che non viene utilizzato altrimenti sul sistema host.
+Specifica la porta utilizzata per la comunicazione tra [!DNL Platform Server] e Image Server. Assicurati di specificare un numero di porta che non viene utilizzato altrimenti sul sistema host.
 
 >[!NOTE]
 >
->Affinché Image Serving funzioni correttamente, è necessario impostare lo stesso valore per `IS::TcpPort` e `PS::isConnection.port`.
+>Affinché Image Server funzioni correttamente, è necessario impostare lo stesso valore per `IS::TcpPort` e `PS::isConnection.port`.
 
 ## IS::PhysicalMemory - Limite di memoria del server di immagini {#section-85e37aa2ac6e456eb698da716dd3247d}
 

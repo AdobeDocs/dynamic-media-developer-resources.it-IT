@@ -1,17 +1,17 @@
 ---
-description: Platform Server scrive i record in questo file di registro per registrare avvisi ed errori, tenere un record degli eventi di avvio, arresto e caricamento del catalogo.
+description: La [!DNL Platform Server] scrive i record in questo file di log per registrare avvisi ed errori, tenere un record degli eventi di avvio, arresto e caricamento del catalogo.
 solution: Experience Manager
 title: Registro di traccia
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 0bc16400-0ac3-4a11-9d28-c1f47a7020de
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # Registro di traccia{#trace-log}
 
-Platform Server scrive i record in questo file di registro per registrare avvisi ed errori, tenere un record degli eventi di avvio, arresto e caricamento del catalogo.
+La [!DNL Platform Server] scrive i record in questo file di log per registrare avvisi ed errori, tenere un record degli eventi di avvio, arresto e caricamento del catalogo.

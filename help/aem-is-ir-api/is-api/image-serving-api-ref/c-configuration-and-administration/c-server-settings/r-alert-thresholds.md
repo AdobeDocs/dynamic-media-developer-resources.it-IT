@@ -2,12 +2,12 @@
 description: Utilizza queste impostazioni del server per configurare le soglie di avviso.
 solution: Experience Manager
 title: Soglie di allarme
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Viene inviato un avviso di traffico minimo quando il numero medio di richieste a
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Soglia spazio heap libero {#section-ce6705045f6842769030ccb1894594cc}
 
-Specifica lo spazio di heap Java gratuito minimo. Un avviso di priorità viene inviato immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java quando lo spazio di heap gratuito è inferiore a questa soglia. Si consiglia di 50 MB per il funzionamento sicuro del Platform Server. Mantenere lo spazio heap libero al di sopra di questo valore riduce la frequenza dei cicli di raccolta degli oggetti inattivi, che possono migliorare le prestazioni complessive del server. Valore intero in byte, 0 o superiore.
+Specifica lo spazio di heap Java gratuito minimo. Un avviso di priorità viene inviato immediatamente dopo un ciclo di raccolta degli oggetti inattivi Java quando lo spazio di heap gratuito è inferiore a questa soglia. 50 MB è consigliato per il funzionamento sicuro del [!DNL Platform Server]. Mantenere lo spazio heap libero al di sopra di questo valore riduce la frequenza dei cicli di raccolta degli oggetti inattivi, che possono migliorare le prestazioni complessive del server. Valore intero in byte, 0 o superiore.
 
 ## AS::monitorAlertGenerator.maxOverlap - Numero massimo di richieste simultanee {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

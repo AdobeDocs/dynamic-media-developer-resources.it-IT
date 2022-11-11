@@ -2,12 +2,12 @@
 description: Utilizzare queste impostazioni del server per le cartelle di dati di contenuto.
 solution: Experience Manager
 title: Cartelle dei dati di contenuto
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Utilizzare queste impostazioni del server per le cartelle di dati di contenuto.
 
 ## IS::RootPath - Cartelle principali dei dati immagine {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-La posizione di tutti i dati di origine, incluse immagini, font e profili ICC. Può trattarsi di uno o più percorsi di file assoluti o relativi a *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita. È possibile specificare più valori per distribuire i dati immagine su più file system. Il server di immagini proverà i percorsi principali nell&#39;ordine specificato fino a quando non verrà trovato il file richiesto.
+La posizione di tutti i dati di origine, incluse immagini, font e profili ICC. Può trattarsi di uno o più percorsi di file assoluti o relativi *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita. È possibile specificare più valori per distribuire i dati immagine su più file system. Il server di immagini proverà i percorsi principali nell&#39;ordine specificato fino a quando non verrà trovato il file richiesto.
 
 ## PS::staticContent.rootPath - Cartelle principali dei dati di contenuto statico {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-La posizione dei dati di origine dei contenuti statici che devono essere inviati tramite il contesto [!DNL /is/static]. Può essere uno o più percorsi di file assoluti o percorsi relativi a *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita.
+Posizione dei dati di origine dei contenuti statici che devono essere trasmessi tramite il [!DNL /is/static] contesto. Può essere uno o più percorsi di file assoluti o relativi *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita.
 
 È possibile specificare più valori separati da punti e virgola per distribuire contenuti statici su più file system. In genere impostato sugli stessi valori di `IS::RootPath`.
 
-Platform Server prova i percorsi radice nell’ordine specificato fino a quando non viene trovato il file richiesto.
+La [!DNL Platform Server] prova i percorsi radice nell&#39;ordine specificato fino a quando non viene trovato il file richiesto.
 
 >[!NOTE]
 >
@@ -34,4 +34,4 @@ Platform Server prova i percorsi radice nell’ordine specificato fino a quando 
 
 ## IS::SaveDirectory - File Salva cartella principale {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-Il percorso principale di `attribute::SavePath` (utilizzato da `req=saveToFile`). Il server immagini deve disporre delle autorizzazioni di accesso per la sottocartella in cui creerà i file di immagine.
+Il percorso principale per `attribute::SavePath` (utilizzato da `req=saveToFile`). Il server immagini deve disporre delle autorizzazioni di accesso per la sottocartella in cui creerà i file di immagine.

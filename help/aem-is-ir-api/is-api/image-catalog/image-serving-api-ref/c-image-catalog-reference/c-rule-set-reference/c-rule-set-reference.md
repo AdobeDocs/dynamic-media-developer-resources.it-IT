@@ -5,9 +5,9 @@ title: Riferimento set di regole
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Image Serving supporta un semplice meccanismo di preelaborazione delle richieste
 
 Raccolte di regole di pre-elaborazione (*set di regole*) può essere associata ai cataloghi di immagini o al catalogo predefinito. Le regole nel catalogo predefinito si applicano solo se la richiesta non identifica un catalogo di immagini principale specifico.
 
-Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dal parser di Platform Server, inclusa la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. È inoltre possibile utilizzare le regole per configurare e sostituire determinate funzioni di sicurezza che sono normalmente controllate solo con attributi di catalogo, come l’offuscamento della richiesta, il watermarking e la limitazione del servizio a specifici indirizzi IP del client.
+Le regole di pre-elaborazione delle richieste possono modificare il percorso e le porzioni di query delle richieste prima che vengano elaborate dal [!DNL Platform Server]parser, che include la manipolazione del percorso, l&#39;aggiunta di comandi, la modifica dei valori dei comandi e l&#39;applicazione di modelli o macro. È inoltre possibile utilizzare le regole per configurare e sostituire determinate funzioni di sicurezza che sono normalmente controllate solo con attributi di catalogo, come l’offuscamento della richiesta, il watermarking e la limitazione del servizio a specifici indirizzi IP del client.
 
 I set di regole vengono memorizzati come file di documento XML. Il percorso relativo o assoluto del file del set di regole deve essere specificato in `attribute::RuleSetFile`.
 

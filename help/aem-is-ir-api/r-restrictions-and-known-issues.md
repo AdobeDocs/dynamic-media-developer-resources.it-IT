@@ -5,9 +5,9 @@ title: Restrizioni e problemi noti
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Ci sono alcune restrizioni e problemi noti che devono essere presi in consideraz
 * Se l’ultima riga di testo non rientra nell’intervallo, l’intera riga viene rilasciata anziché essere visualizzata come interruzione.
 * `\slmult` e `\sl` comportarsi in modo diverso da MS Word e `text=`, hanno semplicemente effetto per i paragrafi correnti e successivi.
 
-* `\sb` si applica al primo paragrafo per MS Word e `text=`, Adobe InDesign e Photoshop non eseguono questa operazione.
+* `\sb` si applica al primo paragrafo per MS Word e `text=`, Adobe InDesign e [!DNL Photoshop] non faccia questo.
 
-* `\sa` si applica all&#39;ultimo paragrafo per MS Word e `text=`, Adobe InDesign e Photoshop non eseguono questa operazione.
+* `\sa` si applica all&#39;ultimo paragrafo per MS Word e `text=`, Adobe InDesign e [!DNL Photoshop] non faccia questo.
 
 ## Compatibilità con le versioni precedenti {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 
    Per i TIFF non piramizzati di Image Serving, aumenta il valore della proprietà per `MaxNonDsfSize` in [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] file di configurazione.
 
-* Per impostazione predefinita, Adobe Photoshop CS3 non salva i file PSD a livelli.
+* Adobe [!DNL Photoshop] CS3 non salva i file PSD a livelli per impostazione predefinita un&#39;immagine composita.
 
    *Sintomi*:
 
-   Il file PSD a livelli Adobe Photoshop CS3 viene visualizzato in nero con testo che indica: &quot;Questo file Photoshop a livelli non è stato salvato con un&#39;immagine composita&quot;. per l&#39;immagine di risposta di Image Serving o in IPS.
+   L&#39;Adobe [!DNL Photoshop] Il file PSD a livelli CS3 viene visualizzato in nero con il testo che indica, &quot;Questo livello [!DNL Photoshop] file non salvato con un&#39;immagine composita.&quot; per l&#39;immagine di risposta di Image Serving o in IPS.
 
    *Soluzione alternativa*:
 
-   Salva il file Adobe Photoshop CS3 con l&#39;opzione di ottimizzazione della compatibilità attivata.
+   Salva l’Adobe [!DNL Photoshop] File CS3 con la massima compatibilità attivata.
 
 * L’assegnazione del profilo ICC a un’immagine di risposta CMYK/JPEG causa l’inversione dei colori in alcuni browser.*Lavorare*:
 
@@ -116,7 +116,7 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 * Le immagini PNG a 16 bpc non sono supportate per il testo PhotoFont.
 * Le correzioni del colore per le immagini PNG con profili di colore incorporati utilizzano opzioni hard-coded. L&#39;intento di rendering è colorimetrico relativo e la compensazione Blackpoint è attivata per il testo PhotoFont.
 * La ricerca basata su file non è supportata quando la traduzione locale è abilitata nella società [!DNL ini] file.
-* Image Server non scrive correttamente i percorsi Photoshop non chiusi.
+* Image Server non scrive non chiuso [!DNL Photoshop] percorsi correttamente.
 * Image Server non supporta attualmente l’elaborazione di file TIFF esportati utilizzando Adobe Media Encoder 4.0.1 o versioni precedenti. Adobe Media Encoder è incluso in Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
 * Utilizzo `text=` con livelli di ridimensionamento automatico non supporta stringhe RTF che utilizzano più di un&#39;impostazione per la giustificazione della riga.
 

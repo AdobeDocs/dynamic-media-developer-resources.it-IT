@@ -2,12 +2,12 @@
 description: Tutti i file di log vengono scritti nella stessa cartella di log specificata con la directory TC.
 solution: Experience Manager
 title: Registrazione server
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ I file di registro vengono generalmente creati e ruotati su base giornaliera. I 
 
 Importante È necessario riservare una quantità sufficiente di spazio su disco per i file di registro per evitare di esaurire lo spazio su disco. 1-2 GB/giorno possono essere necessari per un server e per le impostazioni di registro predefinite.
 
-Platform Server e Image Server creano i tre tipi di file di registro descritti di seguito.
+La [!DNL Platform Server] e Image Server creano i tre tipi di file di registro descritti di seguito.
 
 Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come i visualizzatori Dynamic Media, possono creare file di registro nella stessa cartella. Questi file di log sono per uso interno di Dynamic Media e possono essere richiesti dal supporto tecnico Dynamic Media per scopi di risoluzione dei problemi.
 
@@ -30,4 +30,4 @@ Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come
 
 ## Consultate anche {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Registrazione](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f) degli accessi,  [Debug/Trace Logging](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Registrazione degli accessi](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Debug/Trace Logging](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

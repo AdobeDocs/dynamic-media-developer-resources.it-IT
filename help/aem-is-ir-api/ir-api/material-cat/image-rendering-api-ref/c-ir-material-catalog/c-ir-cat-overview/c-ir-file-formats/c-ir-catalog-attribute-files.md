@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ I file di attributi del catalogo sono costituiti da un set di record di testo, s
 </table>
 
 * Lo spazio vuoto tra i token è facoltativo.
-* I record con nomi di attributi sconosciuti vengono ignorati dal server Platform.
+* I record con nomi di attributi sconosciuti vengono ignorati da [!DNL Platform Server].
 * I nomi degli attributi possono essere composti da qualsiasi combinazione di lettere ASCII, numeri e &quot;-&quot;, &quot;_&quot; e &quot;.&quot;
 * Se lo stesso nome attributo si verifica più di una volta nello stesso file di attributi, prevale l&#39;ultimo rilevato.
 * Utilizzare &#39;#&#39; come primo carattere per contrassegnare qualsiasi record come commento ignorato dal parser.
