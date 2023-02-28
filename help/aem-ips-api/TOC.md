@@ -6,7 +6,7 @@ user-guide-description: L’API del servizio Web IPS (Image Production System) c
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 8%
+ht-degree: 1%
 
 ---
 
@@ -210,7 +210,7 @@ ht-degree: 8%
    + [BatchMetadataUpdateArray](types/c-data-types/r-batch-metadata-update-array.md)
    + [CabinetInfo](types/c-data-types/r-cabinet-info.md)
    + [ColorManagementOptions](types/c-data-types/r-color-management-options.md)
-   + [Società](types/c-data-types/r-company.md)
+   + [Azienda](types/c-data-types/r-company.md)
    + [CompanyArray](types/c-data-types/r-company-array.md)
    + [MembroSocietà](types/c-data-types/r-company-member.md)
    + [CompanyMemberArray](types/c-data-types/r-company-member-array.md)
@@ -259,7 +259,7 @@ ht-degree: 8%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [Mappa immagine](types/c-data-types/r-image-map.md)
+   + [ImageMap](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -393,7 +393,7 @@ ht-degree: 8%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [InfoZIP](types/c-data-types/r-zip-info.md)
-   + [Destinazione di zoom](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
@@ -437,7 +437,7 @@ ht-degree: 8%
    + [Campi filtro caratt. utente](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [Ruoli utente](string-constants/c-string-constants/r-user-roles.md)
    + [Campi di ordinamento utente](string-constants/c-string-constants/r-user-sort-fields.md)
-   + [Tipo visualizzatore](string-constants/c-string-constants/r-viewer-type.md)
+   + [Tipo di visualizzatore](string-constants/c-string-constants/r-viewer-type.md)
 + Errori {#faults}
    + [Panoramica degli errori](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
