@@ -1,14 +1,14 @@
 ---
+title: Riferimento comando
 description: Questa sezione descrive i comandi del protocollo HTTP.
 solution: Experience Manager
-title: Riferimento comando
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 7%
+source-wordcount: '322'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,19 @@ ht-degree: 7%
 
 Questa sezione descrive i comandi del protocollo HTTP.
 
-**Solo** per Dynamic Media in AEM: Oltre alle impostazioni di base dell’immagine disponibili nell’interfaccia utente,  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate dell’immagine che puoi specificare nel campo  **Image** Modifiersfield. Questi parametri sono definiti di seguito. Tuttavia, tieni presente che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
+>[!TIP]
+>
+>Prova e scopri i vantaggi dei modificatori di immagini Dynamic Media e Smart imaging utilizzando Dynamic Media [_Istantanea_](https://snapshot.scene7.com/).
+>
+> Lo snapshot è uno strumento di dimostrazione visiva progettato per illustrare la potenza di Dynamic Media per la distribuzione delle immagini ottimizzata e dinamica. Sperimenta con immagini di test o URL Dynamic Media, per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni di Smart Imaging per i seguenti elementi:
+>* Dimensione del file (con distribuzione WebP e AVIF)
+>* Larghezza di banda della rete
+>* DPR (rapporto pixel dispositivo)
+>
+>Per imparare quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
+
+
+**Solo per Dynamic Media in Adobe Experience Manager** - Oltre alle impostazioni dell&#39;immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate alle immagini che è possibile specificare nel **Modificatori immagine** campo . Questi parametri sono definiti di seguito. Tuttavia, tieni presente che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
 
 * Comandi di correzione del colore: `icc=` e `iccEmbed=`.
 * Comandi di base per il modello e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
@@ -30,7 +42,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
+Vedi anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
@@ -42,20 +54,20 @@ Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.ado
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [color](r-color-commandref.md)
-* [Ritaglia](r-crop.md)
+* [coltura](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [effetto](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [estendere](r-extend.md)
-* [adatta](r-fit.md)
+* [adatto](r-fit.md)
 * [capovolgere](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [nascondere](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
-* [Id](r-id.md)
+* [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
 * [strato](r-layer.md)
@@ -99,13 +111,13 @@ Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.ado
 * [size](r-size-reference.md)
 * [src](r-src.md)
 * [template](r-template.md)
-* [Testo](r-text.md)
+* [text](r-text.md)
 * [textAngle](r-textangle.md)
 * [textAttr](r-textattr.md)
 * [textFlowPath](r-textflowpath.md)
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [Testo](r-type.md)
+* [type](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
