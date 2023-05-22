@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura di un singolo clic/tocco per attivare/disattivare la riproduzione/pausa. Impostando su <span class="codeph"> none</span> si disattiva il tocco o il clic singolo per riprodurre/mettere in pausa. Se è impostato su <span class="codeph"> playPause</span>, selezionando il video si passa dalla riproduzione alla messa in pausa. Su alcuni dispositivi è possibile utilizzare controlli nativi. In questo caso, un comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura di clic/tocco per riprodurre e mettere in pausa. Impostazione di <span class="codeph"> nessuno</span> disabilita il clic/tocco per riprodurre/mettere in pausa. Se impostato su <span class="codeph"> playPause</span>, quindi selezionando il video si passa dalla riproduzione alla sospensione del video. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, un <span class="codeph"> singleclick</span> il comportamento è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

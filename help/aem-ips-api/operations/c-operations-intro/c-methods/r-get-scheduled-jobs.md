@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -35,9 +35,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| jobHandle | `xsd:string` | No | Maniglia di lavoro. |
-| originalName | `xsd:string` | No | Nome specificato da `submitJob`. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
+| jobHandle | `xsd:string` | No | Handle di processo. |
+| originalName | `xsd:string` | No | Il nome specificato da `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
@@ -47,7 +47,7 @@ Sintassi
 
 ## Esempi {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Questo esempio di codice restituisce tutti i processi pianificati in una matrice di processi. La matrice stessa contiene informazioni dettagliate sui processi.
+In questo esempio di codice vengono restituiti tutti i processi pianificati in una matrice di processi. L’array stesso contiene informazioni dettagliate sui processi.
 
 **Request Contents (Richiesta contenuto)**
 

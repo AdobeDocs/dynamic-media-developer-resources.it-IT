@@ -1,6 +1,6 @@
 ---
-title: Twitter share
-description: Lo strumento di condivisione twitter è costituito da un pulsante aggiunto al pannello Condivisione social. When the button is selected, the user is redirected to a sharing dialog box that is provided by a social service. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+title: Condivisione twitter
+description: Lo strumento Condivisione di twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Condivisione twitter{#twitter-share}
 
-Twitter share tool consists of a button added to the Social share panel. When the button is selected, the user is redirected to a sharing dialog box that is provided by a social service. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+Lo strumento Condivisione di twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-L&#39;aspetto del pulsante di condivisione Twitter è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante di condivisione Twitter è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7twittershare
 ```
 
-**CSS properties of the Twitter share tool**
+**Proprietà CSS dello strumento Condivisione Twitter**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -34,28 +34,28 @@ L&#39;aspetto del pulsante di condivisione Twitter è controllato con il seguent
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> The image that is displayed for a given button state. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Position inside artwork sprite, if CSS sprites are used. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-It is possible to remove the button from the Social share panel by setting `display:none` CSS property on its CSS class.
+È possibile rimuovere il pulsante dal pannello Condivisione social impostando `display:none` proprietà CSS nella relativa classe CSS.
 
-The button tool tip can be localized. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un pulsante di condivisione Twitter di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
+**Esempio** - Per impostare un pulsante di condivisione Twitter di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7video360viewer .s7twittershare { 

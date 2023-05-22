@@ -1,5 +1,5 @@
 ---
-description: Matrice di proprietà di generazione.
+description: Array delle proprietà di generazione.
 solution: Experience Manager
 title: GenerationInfoArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 500a4ba3-57f1-4b51-afe3-91885be13d98
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 22%
+ht-degree: 13%
 
 ---
 
 # [!DNL GenerationInfoArray]{#generationinfoarray}
 
-Matrice di proprietà di generazione.
+Array delle proprietà di generazione.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:GenerationInfo` | Matrice di proprietà di generazione. |
+| elementi | `types:GenerationInfo` | Array delle proprietà di generazione. |

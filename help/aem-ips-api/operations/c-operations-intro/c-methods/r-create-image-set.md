@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ Sintassi
 
 >[!NOTE]
 >
->L’utente deve disporre dell’accesso in lettura/scrittura alla cartella di destinazione.
+>L&#39;utente deve avere accesso in lettura/scrittura alla cartella di destinazione.
 
 ## Parametri {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -37,21 +37,21 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il handle della società a cui appartiene il set di immagini. |
-| folderHandle | `xsd:string` | Sì | L&#39;handle della cartella. |
-| name | `xsd:string` | Sì | Nome del set di immagini. |
-| Testo | `xsd:string` | Sì | Tipo di set di immagini. |
-| thumbAssetHandle | `xsd:string` | No | Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda a cui appartiene il set di immagini. |
+| folderHandle | `xsd:string` | Sì | Handle della cartella. |
+| nome | `xsd:string` | Sì | Nome set di immagini. |
+| tipo | `xsd:string` | Sì | Tipo di set di immagini. |
+| thumbAssetHandle | `xsd:string` | No | Handle della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato diversamente, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. |
 
-**Uscita**
+**Output**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Sì | La maniglia del nuovo set di immagini. |
+| assetHandle | `xsd:string` | Sì | Handle del nuovo set di immagini. |
 
 ## Esempi {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Questo esempio di codice crea un set di immagini specificato da società, cartella, nome e tipo. La risposta è un handle di risorsa del set di immagini appena creato.
+In questo esempio di codice viene creato un set di immagini specificato per società, cartella, nome e tipo. La risposta è un handle di risorsa del set di immagini appena creato.
 
 **Request Contents (Richiesta contenuto)**
 

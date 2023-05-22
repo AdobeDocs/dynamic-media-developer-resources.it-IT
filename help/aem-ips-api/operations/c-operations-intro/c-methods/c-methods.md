@@ -1,18 +1,18 @@
 ---
-description: Parametri di funzionamento
+description: Parametri operazione
 solution: Experience Manager
-title: Parametri di funzionamento
-feature: Dynamic Media Classic, SDK/API
+title: Parametri operazione
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Parametri di funzionamento{#operation-parameters}
+# Parametri operazione{#operation-parameters}
 
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [checkLogin](r-check-login.md)
 * [copyImage](r-copy-image.md)
 * [createAssetSet](r-create-asset-set.md)
-* [createDeriedAsset](r-create-derived-asset.md)
+* [createDerivedAsset](r-create-derived-asset.md)
 * [createFolder](r-create-folder.md)
 * [createImageSet](r-create-image-set.md)
 * [createMetadataField](r-create-metadata-field.md)
@@ -123,12 +123,12 @@ ht-degree: 0%
 * [removeGroupMembers](r-remove-group-members.md)
 * [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
-* [rinominaRisorsa](r-rename-asset.md)
-* [rinominaCartella](r-rename-folder.md)
-* [rinominaProgetto](r-rename-project.md)
+* [renameAsset](r-rename-asset.md)
+* [renameFolder](r-rename-folder.md)
+* [renameProject](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
-* [curriculumJob](r-resume-job.md)
+* [resumeJob](r-resume-job.md)
 * [saveGroup](r-save-group.md)
 * [saveImageFormat](r-save-image-format.md)
 * [saveImageMap](r-save-image-map.md)
@@ -160,7 +160,7 @@ ht-degree: 0%
 * [setZoomTargets](r-set-zoom-targets.md)
 * [stopJob](r-stop-job.md)
 * [submitJob](r-submit-job.md)
-* [updateAssetPermissons](r-update-asset-permissions.md)
+* [updateAssetPermissions](r-update-asset-permissions.md)
 * [updateAssetSet](r-update-asset-set.md)
 * [updateFolderPermissions](r-update-folder-permissions.md)
 * [updateImageSet](r-update-image-set.md)

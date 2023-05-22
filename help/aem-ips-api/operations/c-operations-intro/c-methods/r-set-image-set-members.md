@@ -2,12 +2,12 @@
 description: Imposta l’elenco delle risorse associate a un set di immagini.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic, SDK/API, Set di immagini
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Imposta l’elenco delle risorse associate a un set di immagini.
 
-Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e forza il valore su true.
+Questa operazione ignora il `pageReset` parametro per `ImageSets` e `SpinSets` e forza il valore su true.
 
 ## Tipi di utenti autorizzati {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -29,7 +29,7 @@ Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e
 
 >[!NOTE]
 >
->L’utente deve avere accesso in lettura e scrittura alla risorsa set di immagini e accesso in lettura a ogni risorsa membro.
+>L&#39;utente deve disporre dell&#39;accesso in lettura e scrittura alla risorsa del set di immagini e dell&#39;accesso in lettura a ogni risorsa membro.
 
 ## Parametri {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -47,21 +47,21 @@ Questa operazione ignora il parametro `pageReset` per `ImageSets` e `SpinSets` e
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Tratta l'azienda. </p> </td> 
+   <td colname="col4"> <p>Gestore azienda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Maniglia del set di immagini. </td> 
+   <td colname="col4"> Handle del set di immagini. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Array di membri di risorse appartenenti al set di immagini. </td> 
+   <td colname="col4"> Array di membri risorsa che appartengono al set di immagini. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-7b87219034464aa98524178ccee27738}
 
-Questo esempio di codice utilizza una matrice di membri per impostare i membri di un set di immagini.
+In questo esempio di codice viene utilizzato un array di membri per impostare i membri di un set di immagini.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -1,5 +1,5 @@
 ---
-description: Un processo che ricompila una risorsa PDF esistente.
+description: Processo per ripetere l’estrazione di una risorsa PDF esistente.
 solution: Experience Manager
 title: RipPdfsJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Un processo che ricompila una risorsa PDF esistente.
+Processo per ripetere l’estrazione di una risorsa PDF esistente.
 
 >[!NOTE]
 >
->Questo tipo di processo è obsoleto. Transizione verso `ReprocessAssetsJob` per tutte le integrazioni future.
+>Tipo di processo obsoleto. Transizione a `ReprocessAssetsJob` per tutte le integrazioni future.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,21 +34,21 @@ Un processo che ricompila una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Gestire l’array di file PDF da copiare. </p> </td> 
+   <td colname="col3"> <p>Gestire l'array di file PDF da estrarre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:booleano</span> </p> </td> 
    <td colname="col3"> <p>Determina se creare o meno una maschera. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni di ritaglio manuali. </p> </td> 
+   <td colname="col3"> <p>Opzioni di ritaglio manuale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipi:OpzioniRitaglioColoreAutomatico</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipi:AutoColorCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Opzioni di ritaglio automatico. </p> </td> 
   </tr> 
   <tr> 
@@ -83,23 +83,23 @@ Un processo che ricompila una risorsa PDF esistente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Impostazioni e-mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>URL in cui vengono caricati i file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione di image serving da eseguire dopo il completamento del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione di server immagini da eseguire al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Dettagli del processo per un processo di pubblicazione di rendering di immagini da eseguire al termine del caricamento. </p> </td> 
+   <td colname="col3"> <p>Dettagli di un processo di pubblicazione di rendering immagini da eseguire al termine del caricamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
@@ -109,25 +109,25 @@ Un processo che ricompila una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni per il caricamento di file Adobe InDesign nel server di immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per caricare i file Adobe InDesign sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporle ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedi<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporli ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Consulta<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Note {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Scelte per `*CropOptions` include:
+Opzioni per `*CropOptions` include:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Scelte per `*PublishJob` include:
+Opzioni per `*PublishJob` include:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -1,5 +1,5 @@
 ---
-description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
+description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # createAssetSet{#createassetset}
 
-Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server di immagini.
+Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
 
 Sintassi
 
@@ -43,66 +43,66 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L'handle della società che conterrà il set di risorse. </td> 
+   <td colname="col4"> Handle dell’azienda che conterrà il set di risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle della cartella in cui viene creato il nuovo set di risorse. </td> 
+   <td colname="col4"> Handle della cartella in cui viene creato il nuovo set di risorse. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Nome risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Identificatore univoco creato dal client per il tipo di set di risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Parametri nella stringa di definizione del set. <p>Devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
+   <td colname="col4"> Parametri nella stringa di definizione del set. <p>Questi devono risolversi nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Gestione della risorsa che funge da miniatura del nuovo set di immagini. Se non viene specificato, IPS cerca di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
+   <td colname="col4"> Handle della risorsa che funge da miniatura per il nuovo set di immagini. Se non viene specificato diversamente, IPS tenta di utilizzare la prima risorsa immagine a cui fa riferimento il set. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Funzioni di sostituzione per setDefinition**
 
-È possibile specificare le funzioni di sostituzione in linea risolte durante la ricerca o la pubblicazione del catalogo. Il formato delle stringhe di sostituzione è `${<substitution_func>}`. Le funzioni disponibili sono enumerate di seguito.
+È possibile specificare funzioni di sostituzione in linea che vengono risolte durante la ricerca o la pubblicazione del catalogo. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono elencate di seguito.
 
 >[!NOTE]
 >
->I valori letterali di handle negli elenchi di parametri devono essere racchiusi tra parentesi `([])`. Tutto il testo che si trova al di fuori di una stringa di sostituzione viene copiato verbalmente nella stringa di output durante la risoluzione.
+>I valori letterali degli handle negli elenchi dei parametri devono essere racchiusi tra parentesi quadre `([])`. Tutto il testo che si trova all&#39;esterno di una stringa di sostituzione viene copiato letteralmente nella stringa di output durante la risoluzione.
 
 | **Funzione di sostituzione** | **Restituisce** |
 |---|---|
-| `getFilePath([asset_handle>])` | Percorso del file sorgente principale della risorsa. |
+| `getFilePath([asset_handle>])` | Percorso del file di origine principale della risorsa. |
 | `getCatalogId([<asset_handle>])` | ID catalogo della risorsa. |
-| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valori metadati per la risorsa. |
-| `getThumbCatalogId([<asset_handle>])` | L’ID catalogo della risorsa (solo per le risorse basate su immagini). L’ID catalogo della risorsa miniatura associata (per altre risorse). Se una risorsa miniatura associata non è disponibile, la funzione restituisce una stringa vuota. |
+| `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valori dei metadati della risorsa. |
+| `getThumbCatalogId([<asset_handle>])` | ID catalogo della risorsa (solo per risorse basate su immagini). ID catalogo della risorsa miniatura associata (per altre risorse). Se una risorsa miniatura associata non è disponibile, la funzione restituisce una stringa vuota. |
 
-**Esempio di stringa setDefinition di file multimediali**
+**Stringa Media SetDefinition di esempio**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-In fase di ricerca del catalogo o di pubblicazione, questa viene risolta in una stringa simile alla seguente:
+Al momento della ricerca o della pubblicazione del catalogo, questa situazione viene risolta in una stringa simile alla seguente:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
@@ -112,7 +112,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Sì | L&#39;handle del set di risorse. |
+| assetHandle | `xsd:string` | Sì | Handle del set di risorse. |
 
 ## Esempi {#section-fed53089de824d67ab96cd9103d384b4}
 

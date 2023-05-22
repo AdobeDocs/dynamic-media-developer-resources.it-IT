@@ -1,5 +1,5 @@
 ---
-description: Ottiene valori di campo di metadati univoci.
+description: Ottiene valori di campo metadati univoci.
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-Ottiene valori di campo di metadati univoci.
+Ottiene valori di campo metadati univoci.
 
 Sintassi
 
@@ -34,14 +34,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
-| fieldHandle | `xsd:string` | No | Gestisci il campo dei metadati. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
+| fieldHandle | `xsd:string` | No | Gestisci campo metadati. |
 
 **Output (getUniqueMetadataValuesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| values | `type:StringArray` |  |  |
+| valori | `type:StringArray` |  |  |
 
 ## Esempi {#section-440f3bc3e5be436cb6ec26117d05f476}
 

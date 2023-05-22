@@ -1,6 +1,6 @@
 ---
-title: Avvio e arresto di Image Serving
-description: Questa sezione fornisce istruzioni per l'avvio e l'arresto di Image Serving in Windows e Linux®.
+title: Avvio e arresto di Image Server
+description: In questa sezione vengono fornite istruzioni per avviare e arrestare Image Server in Windows e Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Avvio e arresto di Image Serving{#starting-and-stopping-image-serving}
+# Avvio e arresto di Image Server{#starting-and-stopping-image-serving}
 
-Questa sezione fornisce istruzioni per l&#39;avvio e l&#39;arresto di Image Serving in Windows e Linux®.
+In questa sezione vengono fornite istruzioni per avviare e arrestare Image Server in Windows e Linux®.
 
 * [Avvio o arresto in Windows](t-startstop-windows.md)
 * [Avvio o arresto su Linux®](t-startstop-linux.md)

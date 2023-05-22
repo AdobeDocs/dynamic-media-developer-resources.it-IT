@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.loop
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
 # SmartCropVideoPlayer.loop{#smartcropvideoplayer-loop}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]loop=0|1`
 
@@ -21,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica se il video deve essere riprodotto al termine della riproduzione. </p> </td> 
+   <td colname="col2"> <p> Indica se il video deve essere riprodotto nuovamente al termine della riproduzione. </p> </td> 
   </tr> 
  </tbody> 
 </table>

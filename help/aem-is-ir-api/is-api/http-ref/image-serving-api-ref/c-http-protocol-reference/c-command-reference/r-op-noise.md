@@ -1,22 +1,22 @@
 ---
-description: Aggiungi del rumore. Aggiunge un rumore casuale ai dati dell’immagine in primo piano o in primo piano di un livello di effetto.
+description: Aggiungete rumore. Aggiunge un disturbo casuale ai dati dell'immagine in primo piano o in primo piano di un livello di effetto.
 solution: Experience Manager
-title: op_rumore
-feature: Dynamic Media Classic, SDK/API
+title: op_noise
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 2%
+source-wordcount: '91'
+ht-degree: 1%
 
 ---
 
-# op_rumore{#op-noise}
+# op_noise{#op-noise}
 
-Aggiungi del rumore. Aggiunge un rumore casuale ai dati dell’immagine in primo piano o in primo piano di un livello di effetto.
+Aggiungete rumore. Aggiunge un disturbo casuale ai dati dell&#39;immagine in primo piano o in primo piano di un livello di effetto.
 
-`op_noise= *``*[,uniform|gaussian[, *`valmonocromatico`*]]`
+`op_noise= *`val`*[,uniform|gaussian[, *`monocromatico`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 
@@ -26,25 +26,25 @@ Aggiungi del rumore. Aggiunge un rumore casuale ai dati dell’immagine in primo
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> uniforme</span> </p> </td> 
-   <td colname="col2"> <p>Selezionare la distribuzione uniforme del rumore. </p> </td> 
+   <td colname="col2"> <p>Selezionare una distribuzione uniforme del rumore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gossiano</span> </p> </td> 
-   <td colname="col2"> <p>Selezionare la distribuzione del rumore gaussiana. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> gaussiano</span> </p> </td> 
+   <td colname="col2"> <p>Selezionare Distribuzione del rumore gaussiano. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monocromatico</span> </p> </td> 
-   <td colname="col2"> <p>Imposta su 0 per il rumore del colore, 1 per il rumore del grigio. </p> </td> 
+   <td colname="col2"> <p>Impostate questo valore su 0 per il disturbo del colore, su 1 per il disturbo del grigio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`monochrome`* viene ignorato per le immagini in scala di grigi.
+*`monochrome`* viene ignorato per le immagini in scala di grigio.
 
 ## Proprietà {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
+Comando Livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`.
 
 ## Predefinito {#section-d548868fa4b64a60bcb481cad1f8113e}
 
-`op_noise=0,uniform,0`senza rumore.
+`op_noise=0,uniform,0`, senza rumore.

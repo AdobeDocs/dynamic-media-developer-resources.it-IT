@@ -2,12 +2,12 @@
 description: PageView.iscommand
 solution: Experience Manager
 title: PageView.iscommand
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fd1fa0f2-d666-4470-8b5b-673f3c4327e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '57'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine della pagina. Se specificato nell'URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devono essere codificate per HTTP rispettivamente come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> <p> <p>Nota:  I comandi di manipolazione del dimensionamento delle immagini non sono supportati. </p> </p> </td> 
+   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine della pagina. Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> deve essere codificato HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> <p> <p>Nota: i comandi di manipolazione del ridimensionamento delle immagini non sono supportati. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

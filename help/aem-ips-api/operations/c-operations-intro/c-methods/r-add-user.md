@@ -8,7 +8,7 @@ exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Crea un account utente e lo aggiunge a una o più società.
 
-Quando aggiungi un utente a più società, specifica tali società in base ai relativi handle aziendali in `companyHandleArray`. Questa operazione restituisce l&#39;handle all&#39;utente appena aggiunto.
+Quando aggiungi un utente a più società, specifica queste società in base agli handle aziendali in `companyHandleArray`. Questa operazione restituisce l&#39;handle all&#39;utente appena aggiunto.
 
 ## Tipi di utenti autorizzati {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -31,12 +31,12 @@ Quando aggiungi un utente a più società, specifica tali società in base ai re
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| firstName | `xsd:string` | Sì | Nome dell&#39;utente. |
-| lastName | `xsd:string` | Sì | Cognome dell&#39;utente. |
-| e-mail | `xsd:string` | Sì | L’indirizzo e-mail dell’utente. |
-| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, la `IpsAdmin` il ruolo sostituisce altre impostazioni per azienda. |
+| firstName | `xsd:string` | Sì | Nome dell’utente. |
+| lastName | `xsd:string` | Sì | Cognome dell’utente. |
+| email | `xsd:string` | Sì | Indirizzo e-mail dell’utente. |
+| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Si noti tuttavia che `IpsAdmin` il ruolo sostituisce altre impostazioni per società. |
 | password | `xsd:string` | Sì | Imposta la password dell&#39;utente |
-| passwordExpires | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Specifica il fuso orario quando viene trasmessa la richiesta. I fusi orari sono regolati su Ora centrale. |
+| passwordExpires | `xsd:dateTime` | No | Imposta il periodo di scadenza della password. Fornisci il fuso orario quando trascorri la richiesta. Fusi orari adeguati all’ora centrale. |
 | isValid | `xsd:boolean` | Sì | Determina se l&#39;utente è valido. |
 | membershipArray | `xsd:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 
@@ -44,11 +44,11 @@ Quando aggiungi un utente a più società, specifica tali società in base ai re
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | Sì | L&#39;handle dell&#39;utente. |
+| userHandle | `xsd:string` | Sì | Handle per l&#39;utente. |
 
 ## Esempi {#section-2547cef622734b71919eef849960b5cb}
 
-L&#39;API IPS restituisce un elemento handle utente che specifica il nuovo utente.
+API IPS restituisce un elemento handle utente che specifica il nuovo utente.
 
 **Request Contents (Richiesta contenuto)**
 

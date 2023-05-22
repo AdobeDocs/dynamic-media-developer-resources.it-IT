@@ -1,5 +1,5 @@
 ---
-description: Aggiornare le informazioni relative alle proprietà dei font.
+description: Aggiornare le informazioni relative alle proprietà dei caratteri.
 solution: Experience Manager
 title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 # [!DNL FontFieldUpdate]{#fontfieldupdate}
 
-Aggiornare le informazioni relative alle proprietà dei font.
+Aggiornare le informazioni relative alle proprietà dei caratteri.
 
 Sintassi
 
@@ -22,11 +22,11 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetHandle | `xsd:string` | Maniglia della risorsa del carattere. |
-| fontName | `xsd:string` | Nome carattere. |
+| assetHandle | `xsd:string` | Handle risorsa font. |
+| fontName | `xsd:string` | Nome font. |
 | postscriptName | `xsd:string` | Nome font PostScript. |
-| rtfName | `xsd:string` | Nome font RTF. |
-| [!DNL fontFamily] | `xsd:string` | Nome della famiglia di font. |
-| [!DNL style] | `xsd:string` | Stile del font (vedere Stili del font per i valori). |
-| typeName | `xsd:string` | Nome del tipo di carattere. |
-| [!DNL type] | `xsd:string` | Tipo di carattere (vedere Tipi di carattere per i valori). |
+| rtfName | `xsd:string` | Nome font Rich Text. |
+| [!DNL fontFamily] | `xsd:string` | Nome della famiglia di caratteri. |
+| [!DNL style] | `xsd:string` | Stile font (per i valori, consultate Stili font). |
+| typeName | `xsd:string` | Nome tipo di carattere. |
+| [!DNL type] | `xsd:string` | Tipo di carattere (per i valori, vedere Tipi di carattere). |

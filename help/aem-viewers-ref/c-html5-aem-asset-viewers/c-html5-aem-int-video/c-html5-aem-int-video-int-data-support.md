@@ -1,6 +1,6 @@
 ---
-title: Supporto dei dati interattivi
-description: Il Visualizzatore video interattivo supporta il rendering di campioni interattivi in base ai dati interattivi trasmessi al visualizzatore come parametro di configurazione.
+title: Supporto dati interattivi
+description: Il Visualizzatore video interattivo supporta il rendering dei campioni interattivi basati sui dati interattivi passati al visualizzatore come parametro di configurazione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# Supporto dei dati interattivi{#interactive-data-support}
+# Supporto dati interattivi{#interactive-data-support}
 
-Il Visualizzatore video interattivo supporta il rendering di campioni interattivi in base ai dati interattivi trasmessi al visualizzatore come parametro di configurazione.
+Il Visualizzatore video interattivo supporta il rendering dei campioni interattivi basati sui dati interattivi passati al visualizzatore come parametro di configurazione.
 
-Il campione attualmente visibile corrisponde all’area temporale del video a cui è associato. Tocca o fai clic sul campione interattivo per attivare l’azione assegnata al campione al momento dell’authoring.
+Il campione attualmente visibile corrisponde all&#39;area temporale del video a cui è associato. Toccando o facendo clic sul campione interattivo si attiva l’azione ad esso assegnata al momento dell’authoring.
 
-Il campione interattivo può attivare una visualizzazione rapida sulla pagina Web in hosting attivando un callback JavaScript oppure reindirizzare l’utente a una pagina Web esterna.
+Il campione interattivo può attivare un Quickview sulla pagina web di hosting attivando un callback JavaScript oppure può reindirizzare l’utente a una pagina web esterna.
 
 ## Informazioni su Quickview {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in Adobe Experience Manager Assets - Su richiesta. Quando un utente attiva un campione di questo tipo, il visualizzatore esegue il callback JavaScript `quickViewActivate` e trasmette i dati del campione ad esso. È previsto che la pagina web di incorporamento ascolti questo callback e quando si attiva, la pagina apre la propria implementazione Quickview.
+Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in Adobe Experience Manager Assets - On-demand. Quando un utente attiva tale campione, il visualizzatore viene eseguito `quickViewActivate` Callback JavaScript e trasmissione dei dati del campione. È previsto che la pagina web incorporante ascolti questo callback e, quando viene attivata, la pagina apre la propria implementazione Quickview.
 
-## Reindirizzamento a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Reindirizza a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Campioni creati per il tipo di azione &quot;quickview&quot; in Experience Manager Assets - su richiesta reindirizzano l’utente a un URL esterno. A seconda delle impostazioni al momento dell’authoring, l’URL può essere aperto in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
+Campioni creati per il tipo di azione &quot;quickview&quot; in Experience Manager Assets: l’utente viene reindirizzato su richiesta a un URL esterno. A seconda delle impostazioni al momento dell’authoring, l’URL può aprirsi in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.

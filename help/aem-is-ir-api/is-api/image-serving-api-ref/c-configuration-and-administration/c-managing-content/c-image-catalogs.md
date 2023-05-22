@@ -1,7 +1,7 @@
 ---
-description: I cataloghi di immagini forniscono numerose impostazioni di configurazione del server, nonché font, profili ICC e macro di comando.
+description: I cataloghi di immagini forniscono molte impostazioni di configurazione del server, nonché font, profili ICC e macro di comando.
 solution: Experience Manager
-title: Cataloghi di immagini
+title: Cataloghi immagini
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 70ec4566-a937-464e-8219-b7eda3ab66c1
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Cataloghi di immagini{#image-catalogs}
+# Cataloghi immagini{#image-catalogs}
 
-I cataloghi di immagini forniscono numerose impostazioni di configurazione del server, nonché font, profili ICC e macro di comando.
+I cataloghi di immagini forniscono molte impostazioni di configurazione del server, nonché font, profili ICC e macro di comando.
 
-Mappano gli ID di contenuto immagine e statico utilizzati nelle richieste a percorsi di file effettivi, memorizzano vari metadati immagine, come le mappe immagine, e forniscono contenitori per modelli e set di immagini.
+Mappano gli ID di immagini e contenuti statici utilizzati nelle richieste a percorsi di file effettivi, memorizzano vari metadati di immagini, come mappe di immagini, e forniscono contenitori per modelli e set di immagini.
 
-I cataloghi di immagini sono accessibili solo dal [!DNL Platform Server], mai dal server di immagini. I file di attributi del catalogo devono avere un suffisso .ini ed essere inseriti nel [!DNL Platform Server]Cartella catalogo di ( `PS::CatalogFolder`). Almeno il catalogo immagini predefinito è obbligatorio e deve essere compilato con tutti gli attributi per il corretto funzionamento del [!DNL Platform Server].
+I cataloghi di immagini sono accessibili solo da [!DNL Platform Server], mai dal server immagini. I file degli attributi del catalogo devono avere un suffisso .ini e devono essere inseriti nel [!DNL Platform Server]Cartella del catalogo di ( `PS::CatalogFolder`). È necessario almeno il catalogo immagini predefinito e deve essere compilato con tutti gli attributi per il corretto funzionamento del [!DNL Platform Server].

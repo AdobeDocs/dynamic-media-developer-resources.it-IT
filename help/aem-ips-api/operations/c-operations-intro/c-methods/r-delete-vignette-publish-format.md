@@ -1,5 +1,5 @@
 ---
-description: Elimina un formato di pubblicazione della vignetta.
+description: Elimina un formato di pubblicazione vignettatura.
 solution: Experience Manager
 title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-Elimina un formato di pubblicazione della vignetta.
+Elimina un formato di pubblicazione vignettatura.
 
 ## Tipi di utenti autorizzati {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
@@ -29,8 +29,8 @@ Elimina un formato di pubblicazione della vignetta.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;impugnatura dell&#39;azienda alla quale appartiene la vignetta. |
-| vignetteFormatHandle | `xsd:string` | Sì | L&#39;handle del formato di pubblicazione della vignetta da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda a cui appartiene la vignettatura. |
+| vignetteFormatHandle | `xsd:string` | Sì | Handle del formato di pubblicazione vignettatura da eliminare. |
 
 **Output (deleteVignettePublishFormatParam)**
 
@@ -38,7 +38,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Questo esempio di codice elimina un formato di pubblicazione della vignetta specificato dal relativo handle.
+In questo esempio di codice viene eliminato un formato di pubblicazione vignettatura specificato dal relativo handle.
 
 **Request Contents (Richiesta contenuto)**
 

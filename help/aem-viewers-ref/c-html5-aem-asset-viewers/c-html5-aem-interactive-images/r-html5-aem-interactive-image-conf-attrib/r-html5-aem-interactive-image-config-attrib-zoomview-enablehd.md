@@ -8,7 +8,7 @@ exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 5%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>. Influisce sui dispositivi con display ad alta densità come iPhone4 e dispositivi simili. Se attivo, il componente limita le dimensioni della richiesta di immagine IS come se il dispositivo avesse un rapporto di pixel di <span class="codeph"> 1</span>, riducendo la larghezza di banda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> always|Never|limit</span> </p> </td> 
+   <td colname="col2"> <p> Abilita, limita o disabilita l'ottimizzazione per i dispositivi in cui <span class="codeph"> devicePixelRatio</span> è maggiore di <span class="codeph"> 1</span>. Interessa i dispositivi con display ad alta densità come iPhone4 e simili. Se è attivo, il componente limita la dimensione della richiesta di immagine IS come se il dispositivo avesse proporzioni pixel di <span class="codeph"> 1</span>, riducendo la larghezza di banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> numero</span></span> </p> </td> 
-   <td colname="col2"> <p> Se si utilizza l'impostazione del limite, il componente consente un'elevata densità di pixel solo fino al limite specificato. </p> </td> 
+   <td colname="col2"> <p> Se utilizzi l’impostazione Limite, il componente abilita la densità di pixel elevata solo fino al limite specificato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

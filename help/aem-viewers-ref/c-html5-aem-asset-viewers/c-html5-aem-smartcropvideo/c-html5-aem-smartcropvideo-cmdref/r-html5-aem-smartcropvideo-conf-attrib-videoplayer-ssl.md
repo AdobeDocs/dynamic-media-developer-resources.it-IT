@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.ssl
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 590ef156-0afe-4e65-b84b-b33f7c7d7b02
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # SmartCropVideoPlayer.ssl{#smartcropvideoplayer-ssl}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 <!-- >[!NOTE]
 >
@@ -24,8 +25,8 @@ Attributo di configurazione per Smart Crop Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Quando è impostato su <span class="codeph"> auto</span> il protocollo di consegna video viene ereditato dal protocollo della pagina web di incorporamento. Se la pagina web viene caricata su HTTPS, il video viene anche distribuito tramite HTTPS, e viceversa. Se la pagina web è su HTTP, il video viene distribuito via HTTP. </p> <p>Quando è impostato su <span class="codeph"> su</span>, la distribuzione video avviene sempre su una connessione sicura, senza tenere conto del protocollo della pagina web. </p> <p>Influisce solo sulla distribuzione video pubblicata e viene ignorata per l’anteprima video in modalità Creazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|attivato</span> </p> </td> 
+   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Se impostato su <span class="codeph"> auto</span> il protocollo di consegna video viene ereditato dal protocollo della pagina web di incorporamento. Se la pagina web viene caricata su HTTPS, il video viene consegnato anche su HTTPS e viceversa. Se la pagina web è su HTTP, il video viene distribuito su HTTP. </p> <p>Se impostato su <span class="codeph"> il</span>, la distribuzione di video avviene sempre tramite una connessione sicura, indipendentemente dal protocollo della pagina web. </p> <p>Interessa solo la distribuzione di video pubblicati e viene ignorato per l’anteprima video in modalità Creazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Vedi anche [Distribuzione video sicura](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).
+Vedi anche [Consegna video sicura](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).

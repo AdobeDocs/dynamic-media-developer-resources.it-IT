@@ -8,7 +8,7 @@ exl-id: 7cb75d38-a577-4e06-b679-c4e00db5059a
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini. Se il formato specificato termina con "-alpha", il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente considera le immagini come opache. Per impostazione predefinita, il componente dispone di uno sfondo bianco. Pertanto, per renderlo trasparente, imposta la proprietà CSS background-color su trasparente. </p> </td> 
+   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini. Se il formato specificato termina con "-alpha ", il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente tratta le immagini come opache. Per impostazione predefinita, il componente ha uno sfondo bianco. Pertanto, per renderlo trasparente, imposta la proprietà CSS background-color su transparent. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,10 +1,11 @@
 ---
 title: Scorrimento video
-description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all'utente di cercare in modo dinamico qualsiasi posizione temporale all'interno del video attualmente in riproduzione.
+description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all’utente di cercare dinamicamente una posizione temporale all’interno del video attualmente in riproduzione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -13,13 +14,13 @@ ht-degree: 1%
 
 # Scorrimento video{#video-scrubber}
 
-Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all&#39;utente di cercare in modo dinamico qualsiasi posizione temporale all&#39;interno del video attualmente in riproduzione.
+Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all’utente di cercare dinamicamente una posizione temporale all’interno del video attualmente in riproduzione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La manopola di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile eseguire lo scorrimento del video, modificarne l&#39;altezza e la posizione verticale tramite CSS.
+La &quot;manopola&quot; di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile applicare lo skin al video scrubber, modificarne l’altezza e la posizione verticale, mediante CSS.
 
-L’aspetto generale dello scorrimento video è controllato con il seguente selettore di classe CSS:
+L’aspetto generale dello scorrimento dei video è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber 
@@ -44,13 +45,13 @@ L’aspetto generale dello scorrimento video è controllato con il seguente sele
    <td colname="col2"> <p>Altezza dello scorrimento video. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore dello scorrimento video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I seguenti selettori di classe CSS tengono traccia degli indicatori di sfondo, riproduzione e caricamento:
+I seguenti selettori di classi CSS tengono traccia degli indicatori di sfondo, riproduzione e caricamento:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7track 
@@ -63,11 +64,11 @@ I seguenti selettori di classe CSS tengono traccia degli indicatori di sfondo, r
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza del brano corrispondente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore del brano corrispondente. </p> </td> 
   </tr> 
  </tbody> 
@@ -85,79 +86,79 @@ Il seguente selettore di classe CSS controlla la manopola:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Offset a manopola verticale. </p> </td> 
+   <td colname="col2"> <p>Offset manopola verticale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza della manopola. </p> </td> 
+   <td colname="col2"> <p>Larghezza manopola. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza della manopola. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza manopola. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Lavori d'arte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Grafica a manopola. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il seguente selettore di classe CSS controlla la bolla temporale riprodotta:
+Il seguente selettore di classe CSS controlla la bolla del tempo riprodotto:
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber .s7videotime
 ```
 
-**Proprietà CSS della bolla temporale riprodotta**
+**Proprietà CSS dell’indicatore di riproduzione**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p> Famiglia di font da utilizzare per il testo di visualizzazione dell'ora. </p> </td> 
+   <td colname="col2"> <p> Famiglia di font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione del font da utilizzare per il testo visualizzato in base all'ora. </p> </td> 
+   <td colname="col2"> <p> Dimensione font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Il colore del font da utilizzare per il testo visualizzato in base all'ora. </p> </td> 
+   <td colname="col2"> <p> Colore del carattere da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza area bolla. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza area bolle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dell'area della bolla. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza area bolle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura dell'area della bolla. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura interna area bolle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Illustrazione a bolle. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Illustrazione di bolle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
-   <td colname="col2"> <p>Allineamento del testo con l'area della bolla. </p> </td> 
+   <td colname="col2"> <p>Allineamento del testo con l'area a bolle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-È possibile localizzare la descrizione comandi per lo scorrimento video. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+La descrizione comando dello scorrimento video può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-**Esempio** - Per impostare un visualizzatore video con uno scorrimento video con colori di traccia personalizzati alti dieci pixel. Infine, posizionarlo a 10 pixel e 35 pixel dai bordi superiore e sinistro della barra di controllo.
+**Esempio** : per impostare un visualizzatore video con uno scorrimento video con colori di brano personalizzati alti dieci pixel. Infine, posizionarlo a 10 e 35 pixel dai bordi superiore e sinistro della barra di controllo.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

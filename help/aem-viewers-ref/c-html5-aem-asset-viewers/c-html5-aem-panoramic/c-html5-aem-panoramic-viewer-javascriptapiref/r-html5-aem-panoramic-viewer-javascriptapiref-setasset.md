@@ -26,7 +26,7 @@ Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-htm
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo ID risorsa. Le immagini che utilizzano il rendering delle immagini (IR) o il contenuto generato dall’utente (UGC) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo id risorsa. Le immagini che utilizzano Image Rendering (IR) o User-Generated Content (UGC) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>

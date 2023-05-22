@@ -1,28 +1,28 @@
 ---
-description: Specifica la direzione dell'animazione diapositiva per il contenitore pulsanti.
+description: Specifica la direzione dell'animazione di scorrimento per il contenitore pulsanti.
 solution: Experience Manager
 title: FavoritesMenu.bearing
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
-Specifica la direzione dell&#39;animazione diapositiva per il contenitore pulsanti.
+Specifica la direzione dell&#39;animazione di scorrimento per il contenitore pulsanti.
 
 [!DNL `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> su|giù|sinistra|destra|fit-verticale|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> Quando è impostato su <span class="codeph"> su</span>, <span class="codeph"> giù</span>, <span class="codeph"> sinistra</span> o <span class="codeph"> destra</span>, il pannello si sporge nella direzione specificata senza un ulteriore controllo dei limiti, il che si traduce nel ritaglio del pannello da parte di un contenitore esterno. </p> <p>Quando è impostato su <span class="codeph"> fit-verticali</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del menu Preferiti e cerca di eseguire il rollout del pannello in una delle seguenti direzioni da tale posizione di base: in basso, a destra, a sinistra. A ogni tentativo, il componente controlla se il pannello è troncato da un contenitore esterno. Se tutti i tentativi non riescono, il componente tenta di spostare la posizione del pannello di base nella parte superiore e ripetere i tentativi di rollout da una direzione superiore, destra e sinistra. </p> <p>Se è impostato su <span class="codeph"> fit-lateral</span>, il componente utilizza una logica simile. La base viene spostata a destra prima, provando a destra, giù, e su direzione di rotolamento. Poi sposta la base a sinistra, provando a sinistra, giù e su direzione di rotolamento. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
+   <td colname="col2"> <p> Se impostato su <span class="codeph"> su</span>, <span class="codeph"> giù</span>, <span class="codeph"> left</span>, o <span class="codeph"> destra</span>, il pannello si sposta nella direzione specificata senza un controllo dei limiti aggiuntivo, causando il ritaglio del pannello da parte di un contenitore esterno. </p> <p>Se impostato su <span class="codeph"> fit-vertical</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del menu Preferiti e tenta di stendere il pannello in una delle seguenti direzioni da tale posizione di base: in basso, a destra, a sinistra. Ad ogni tentativo, il componente controlla se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi hanno esito negativo, il componente tenta di spostare la posizione del pannello di base verso l’alto e di ripetere i tentativi di rollout da una direzione superiore, destra e sinistra. </p> <p>Se impostato su <span class="codeph"> fit-lateral</span>, il componente utilizza una logica simile. La base viene spostata dapprima verso destra, quindi verso destra, verso il basso e verso l'alto. Quindi, sposta la base verso sinistra, provando le direzioni di scorrimento verso sinistra, verso il basso e verso l'alto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

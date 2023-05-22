@@ -1,5 +1,5 @@
 ---
-description: Elimina un progetto da una società. I collegamenti tra le risorse e il progetto non funzionano, ma le risorse non vengono eliminate da IPS.
+description: Elimina un progetto da una società. I collegamenti tra le risorse e il progetto sono interrotti, ma le risorse non vengono eliminate da IPS.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # deleteProject{#deleteproject}
 
-Elimina un progetto da una società. I collegamenti tra le risorse e il progetto non funzionano, ma le risorse non vengono eliminate da IPS.
+Elimina un progetto da una società. I collegamenti tra le risorse e il progetto sono interrotti, ma le risorse non vengono eliminate da IPS.
 
 Sintassi
 
@@ -34,7 +34,7 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | companyName | `xsd:string` | Sì | Nome della società associata al progetto. |
-| projectHandle | `xsd:string` | Sì | L&#39;handle del progetto da eliminare. |
+| projectHandle | `xsd:string` | Sì | Handle del progetto da eliminare. |
 
 **Output (deleteProjectReturn)**
 
@@ -42,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-e38507f1f7ec41b9a625f47390490254}
 
-Questo esempio di codice utilizza l&#39;handle dell&#39;azienda e l&#39;handle del progetto come campi nel componente deleteProjectParam inviato al server dei servizi Web IPS per eliminare il progetto.
+In questo esempio di codice vengono utilizzati l&#39;handle della società e l&#39;handle del progetto come campi in deleteProjectParam inviati al server dei servizi Web IPS per eliminare il progetto.
 
 **Request Contents (Richiesta contenuto)**
 

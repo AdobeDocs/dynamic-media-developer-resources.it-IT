@@ -1,5 +1,5 @@
 ---
-description: Controlla i conflitti degli ID IPS confrontando i nomi delle risorse con tutti i nomi dello spazio dei nomi del catalogo Image Serving/Image Rendering di una società.
+description: Verifica la presenza di conflitti di ID IPS confrontando i nomi delle risorse con tutti i nomi dello spazio dei nomi del catalogo Image Server/Image Rendering di un’azienda.
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # checkAssetNames{#checkassetnames}
 
-Controlla i conflitti degli ID IPS confrontando i nomi delle risorse con tutti i nomi dello spazio dei nomi del catalogo Image Serving/Image Rendering di una società.
+Verifica la presenza di conflitti di ID IPS confrontando i nomi delle risorse con tutti i nomi dello spazio dei nomi del catalogo Image Server/Image Rendering di un’azienda.
 
 Sintassi
 
@@ -35,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | L&#39;handle della società che contiene l&#39;utente. |
-| assetNamesArray | `types:StringArray` | Sì | Matrice di nomi di risorse da controllare. |
+| companyHandle | `xsd:string` | No | Handle per l&#39;azienda che contiene l&#39;utente. |
+| assetNamesArray | `types:StringArray` | Sì | Matrice di nomi di risorse da verificare. |
 
 **Output (checkAssetNamesReturn)**
 
@@ -46,7 +46,7 @@ Sintassi
 
 ## Esempi {#section-bc5d120d74614a63a425ca3acc337219}
 
-Questo codice di esempio richiede i nomi delle risorse in uso per una società specifica. La risposta restituisce una matrice di nomi di risorse in uso.
+Questo codice di esempio richiede i nomi delle risorse in uso per una società specificata. La risposta restituisce una matrice di nomi di risorse in uso.
 
 **Request Contents (Richiesta contenuto)**
 

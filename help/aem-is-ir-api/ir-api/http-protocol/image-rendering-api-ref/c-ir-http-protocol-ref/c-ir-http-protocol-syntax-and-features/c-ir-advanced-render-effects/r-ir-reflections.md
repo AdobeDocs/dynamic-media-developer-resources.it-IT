@@ -1,6 +1,6 @@
 ---
-title: Riflessioni
-description: Le vignette possono essere create per includere dati di riflessione vicino a 3D.
+title: Riflessi
+description: Le vignettature possono essere create per includere dati di riflessione quasi 3D.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 ---
 
-# Riflessioni{#reflections}
+# Riflessi{#reflections}
 
-Le vignette possono essere create per includere dati di riflessione vicino a 3D.
+Le vignettature possono essere create per includere dati di riflessione quasi 3D.
 
-In tal caso, per definire le proprietà riflettenti della superficie del materiale vengono utilizzati i seguenti attributi di materiale:
+Se create in questo modo, per definire le proprietà della superficie riflettente del materiale vengono utilizzati i seguenti attributi di materiale:
 
 <table id="table_8769C726A17E412FB41F7CB87690B1FE"> 
  <thead> 
@@ -29,17 +29,17 @@ In tal caso, per definire le proprietà riflettenti della superficie del materia
  <tbody> 
   <tr> 
    <td> <p><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> <span class="codeph"> gloss=</span> </a> </p> </td> 
-   <td> <p>Lucidità superficiale </p> </td> 
-   <td> <p>Da vignetta </p> </td> 
+   <td> <p>Lucidità della superficie </p> </td> 
+   <td> <p>Da vignettatura </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
-   <td> <p>Variazione della luminosità (immagine in scala di grigi) </p> </td> 
+   <td> <p>Variante lucida (immagine in scala di grigio) </p> </td> 
    <td> <p>Nessuno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> grezzo= </span> </a> </p> </td> 
-   <td> <p>rugosità della superficie </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> ruvido= </span> </a> </p> </td> 
+   <td> <p>Rugosità della superficie </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,6 @@ In tal caso, per definire le proprietà riflettenti della superficie del materia
  </tbody> 
 </table>
 
-Il modulo di rendering regola l’intervallo di `gloss=` e `rough=` attributo secondo `type=`. Alcuni tipi di materiale, come il tessuto, sono meno riflettenti dei tipi di materiale come la pietra o il metallo. Inoltre, la stessa quantità di lucentezza specificata per una causa spesso produce un effetto di riflessione diverso rispetto all&#39;altra. Attributo `gloss=` e rugosità hanno una gamma abbastanza ampia se `type=` non è specificato o è impostato su `0`.
+Il renderer regola l&#39;intervallo del `gloss=` e `rough=` attributo in base a `type=`. Alcuni tipi di materiale, come il tessuto, sono meno riflettenti rispetto a quelli come la pietra o il metallo. Inoltre, la stessa quantità di brillantezza specificata per una causa spesso un effetto di riflessione diverso rispetto all&#39;altra. Attributo `gloss=` e la rugosità hanno una gamma abbastanza ampia se `type=` non è specificato o è impostato su `0`.
 
-`glossmap=` Utilizzato per controllare la lucidità di un materiale in base a pixel per pixel.
+`glossmap=` Utilizzato per controllare la lucidità di un materiale pixel per pixel.

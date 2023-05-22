@@ -8,7 +8,7 @@ exl-id: d773cce9-837d-4ac1-99e6-1033eec93b55
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| originalPath | `xsd:string` | Percorso file CuePoint. |
+| originalPath | `xsd:string` | Percorso del file CuePoint. |
 | originalFile | `xsd:string` | Nome file CuePoint. |
-| fileSize | `xsd:int` | Dimensione del file CuePoint. |
+| fileSize | `xsd:int` | Dimensione file CuePoint. |

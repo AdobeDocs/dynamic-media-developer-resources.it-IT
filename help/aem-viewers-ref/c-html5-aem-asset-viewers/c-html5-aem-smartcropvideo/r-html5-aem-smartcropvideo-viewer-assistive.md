@@ -1,26 +1,27 @@
 ---
-title: Supporto tecnologico per assistenza
-description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
+title: Supporto di tecnologie assistive
+description: Tutti i componenti visualizzatore supportano i ruoli e gli attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-# Supporto tecnologico per assistenza{#assistive-technology-support}
+# Supporto di tecnologie assistive{#assistive-technology-support}
 
-Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
+Tutti i componenti visualizzatore supportano i ruoli e gli attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 
-L’elemento visualizzatore di livello superiore ha un ruolo `region` e `aria-label` impostato per impostazione predefinita sul nome del visualizzatore. Puoi controllare l’etichetta con la `Container.LABEL` simbolo di localizzazione.
+L’elemento visualizzatore di primo livello ha il ruolo `region` e `aria-label` attributo impostato per impostazione predefinita sul nome del visualizzatore. Puoi controllare l’etichetta con `Container.LABEL` simbolo di localizzazione.
 
-I pulsanti hanno il ruolo `button` e testo descrittivo con `aria-label` attributo. Il valore di `aria-label` viene popolato dal valore del simbolo di localizzazione del pulsante. Quando un pulsante è disattivato, `aria-disabled` attributo viene impostato di conseguenza.
+I pulsanti hanno il ruolo `button` e set di testo descrittivo con `aria-label` attributo. Il valore di `aria-label` viene popolato dal valore del simbolo di localizzazione del pulsante. Quando un pulsante è disattivato, `aria-disabled` viene impostato di conseguenza.
 
-Ruolo dei componenti cursore `slider` con attributi `aria-valuenow`, `aria-valuemin`e `aria-valuemax` per descrivere la posizione corrente del dispositivo di scorrimento.
+I componenti cursore hanno il ruolo `slider` con attributi `aria-valuenow`, `aria-valuemin`, e `aria-valuemax` per descrivere la posizione corrente del cursore.
 
-Gli elenchi a discesa sono attivati da pulsanti con informazioni aggiuntive `aria-haspopup` attributo impostato su `true` e `aria-controls` attributo che fa riferimento all’elemento del pannello a discesa effettivo. Il pannello a discesa stesso ha il ruolo `menu` con sottoelementi aventi il ruolo `menuitem`. Ogni voce di menu ha `aria-label` attributo specificato.
+Gli elenchi a discesa vengono attivati da pulsanti con `aria-haspopup` attributo impostato su `true` e `aria-controls` attributo che fa riferimento all’elemento effettivo del pannello a discesa. Il pannello a discesa ha il ruolo `menu` con sottoelementi che hanno il ruolo `menuitem`. Ogni voce di menu ha il `aria-label` attributo specificato.
 
-Le finestre di dialogo modali hanno il ruolo `dialog`. L&#39;elemento di intestazione della finestra di dialogo è referenziato dal `aria-labelledby` attributo.
+Le finestre di dialogo modali hanno il ruolo `dialog`. L&#39;elemento intestazione della finestra di dialogo è indicato da `aria-labelledby` attributo.

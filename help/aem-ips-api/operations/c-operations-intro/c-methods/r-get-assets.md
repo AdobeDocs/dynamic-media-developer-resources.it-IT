@@ -8,7 +8,7 @@ exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
 source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -50,19 +50,19 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L'azienda gestisce. </p> </td> 
+   <td colname="col4"> <p>La maniglia aziendale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Impersona un utente specifico. Utilizzato solo dagli amministratori. </p> </td> 
+   <td colname="col4"> <p>Rappresenta un utente specifico. Solo per amministratori. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Filtrare per gruppo. </p> </td> 
   </tr> 
@@ -70,13 +70,13 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. </p> </td> 
+   <td colname="col4"> <p>La cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se non specificato, viene utilizzata la directory principale della società. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Campi e campi secondari inclusi nella risposta. </p> </td> 
+   <td colname="col4"> <p>Campi e sottocampi inclusi nella risposta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
@@ -103,7 +103,7 @@ Sintassi
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di risorse corrispondenti ai criteri del filtro. </p> </td> 
+   <td colname="col4"> <p>Array di risorse che corrispondono ai criteri di filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

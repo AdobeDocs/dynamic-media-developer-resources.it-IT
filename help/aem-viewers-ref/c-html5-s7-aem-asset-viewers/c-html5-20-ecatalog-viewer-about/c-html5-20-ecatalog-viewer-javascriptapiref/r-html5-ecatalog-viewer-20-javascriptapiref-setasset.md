@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore video.
+description: Riferimento API JavaScript per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore video.
+Riferimento API JavaScript per Visualizzatore video.
 
 ` setAsset( *`asset`*)`
 
@@ -22,7 +22,7 @@ Riferimento API JavaScript per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} nuovo ID risorsa o set di immagini esplicito con modificatori opzionali Image Server aggiunti dopo <span class="codeph"> ? </span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} nuovo ID risorsa o set di immagini esplicito con modificatori Image Server opzionali aggiunti dopo <span class="codeph"> ? </span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,13 +43,13 @@ Riferimento singolo a un set di immagini definito in un catalogo:
  <instance>.setAsset("Viewers/Pluralist")
 ```
 
-Set di immagini esplicito, con pagine precombinate:
+Set di immagini esplicito, con pagine pre-combinate:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-Set di immagini esplicito, con immagini a pagina singola:
+Set di immagini esplicito, con singole immagini della pagina:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")

@@ -1,6 +1,6 @@
 ---
 title: Esempi
-description: In questo esempio viene utilizzato Image Serving per colorare un oggetto e applicare una decal contenente testo personalizzato in uno di un set di vignette.
+description: In questo esempio viene utilizzato Image Server per colorare un oggetto e applicare una decalcomania contenente testo personalizzato in una delle serie di vignettature.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Esempi{#examples}
 
-In questo esempio viene utilizzato Image Serving per colorare un oggetto e applicare una decal contenente testo personalizzato in uno di un set di vignette.
+In questo esempio viene utilizzato Image Server per colorare un oggetto e applicare una decalcomania contenente testo personalizzato in una delle serie di vignettature.
 
-Le variabili IR vengono utilizzate per identificare la vignetta, l’immagine del logo e il testo personalizzato.
+Le variabili IR vengono utilizzate per identificare la vignettatura, l&#39;immagine del logo e il testo personalizzato.
 
-La `vignette::Modifier` nel record denominato *template* nella mappa della vignetta del catalogo dei materiali `myCat` contiene quanto segue:
+Il `vignette::Modifier` campo nel record denominato *modello* nella mappa di vignettatura del catalogo dei materiali `myCat` contiene quanto segue:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Tutte le vignette usate sono elencate nella mappa della vignetta del catalogo del materiale `myCat`.
+Tutte le vignettature usate sono elencate nella mappa di vignettatura del catalogo dei materiali `myCat`.
 
-Il client ora può effettuare la seguente richiesta per recuperare l’immagine predefinita (utilizza le variabili definite all’inizio del modello):
+Il client può ora effettuare la seguente richiesta per recuperare l’immagine predefinita (utilizza le variabili definite all’inizio del modello):
 
 [!DNL `https://server/myCat/template`]
 
-La richiesta seguente specifica alcuni contenuti da riprodurre:
+La richiesta seguente specifica un determinato contenuto da riprodurre:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Per informazioni dettagliate su Image Serving, consulta la documentazione di Image Serving `text=` comando.
+Per informazioni dettagliate su Image Server, consulta Documentazione di Image Server `text=` comando.

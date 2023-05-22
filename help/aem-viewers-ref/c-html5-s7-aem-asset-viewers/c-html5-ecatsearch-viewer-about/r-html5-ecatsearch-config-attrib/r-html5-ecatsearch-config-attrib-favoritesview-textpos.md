@@ -2,13 +2,13 @@
 description: FavoritesView.textpos
 solution: Experience Manager
 title: FavoritesView.textpos
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c76c0386-0ccf-4551-8573-dad165359cba
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comandi</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine in miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica <span class="codeph"> tooltip</span>, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine miniatura. </p> <p>Quando è impostato su <span class="codeph"> none</span>, disattiva la visualizzazione dell'etichetta. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> descrizione comando</span> Se è specificata, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di miniatura. </p> <p>Se impostato su <span class="codeph"> nessuno</span>, disattiva la visualizzazione delle etichette. </p> </td> 
   </tr> 
  </tbody> 
 </table>

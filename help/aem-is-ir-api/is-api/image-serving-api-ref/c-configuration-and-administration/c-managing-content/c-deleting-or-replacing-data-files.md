@@ -1,7 +1,7 @@
 ---
-description: Mentre l'aggiunta di nuovi file di dati è semplice e diretta, è necessario prestare particolare attenzione alla sostituzione dei file di dati esistenti utilizzati attivamente dal server. Invece di semplicemente sostituire tali file, si consiglia di assegnare al file di sostituzione un nuovo nome (ad esempio, aggiungere un suffisso di versione al nome del file). Una volta che il nuovo file è stato acquisito in tempo reale, è possibile eliminare la versione precedente.
+description: L’aggiunta di nuovi file di dati è semplice e diretta, ma è necessario prestare particolare attenzione quando si sostituiscono file di dati esistenti utilizzati attivamente dal server. Invece di sostituire semplicemente tali file, si consiglia di assegnare al file sostitutivo un nuovo nome (ad esempio, aggiungere al nome del file un suffisso di versione). Una volta che il nuovo file è stato reso live, è possibile eliminare la versione precedente.
 solution: Experience Manager
-title: Eliminazione o sostituzione dei file di dati
+title: Eliminazione o sostituzione di file di dati
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# Eliminazione o sostituzione dei file di dati{#deleting-or-replacing-data-files}
+# Eliminazione o sostituzione di file di dati{#deleting-or-replacing-data-files}
 
-Mentre l&#39;aggiunta di nuovi file di dati è semplice e diretta, è necessario prestare particolare attenzione alla sostituzione dei file di dati esistenti utilizzati attivamente dal server. Invece di semplicemente sostituire tali file, si consiglia di assegnare al file di sostituzione un nuovo nome (ad esempio, aggiungere un suffisso di versione al nome del file). Una volta che il nuovo file è stato acquisito in tempo reale, è possibile eliminare la versione precedente.
+L’aggiunta di nuovi file di dati è semplice e diretta, ma è necessario prestare particolare attenzione quando si sostituiscono file di dati esistenti utilizzati attivamente dal server. Invece di sostituire semplicemente tali file, si consiglia di assegnare al file sostitutivo un nuovo nome (ad esempio, aggiungere al nome del file un suffisso di versione). Una volta che il nuovo file è stato reso live, è possibile eliminare la versione precedente.
 
 >[!NOTE]
 >
->I file di dati non devono mai essere sostituiti o eliminati mentre sono in uso attivo da Image Serving. In caso contrario potrebbero verificarsi errori o anche arresti anomali del server.
+>I file di dati non devono mai essere sostituiti o eliminati mentre sono in uso da Image Server. In caso contrario potrebbero verificarsi errori o anche un arresto anomalo del server.
 
-In tutti i casi, ricorda che [!DNL Platform Server] le voci cache e cache client devono diventare obsolete prima che i dati aggiornati vengano visualizzati dal client. Le voci specifiche della cache possono essere aggiornate immediatamente utilizzando `cache=validate` comando.
+In tutti i casi, ricorda che il [!DNL Platform Server] la cache e le voci della cache del client devono diventare obsolete prima che il client visualizzi i dati aggiornati. Voci specifiche della cache possono essere aggiornate immediatamente utilizzando `cache=validate` comando.
 
-Le modifiche ai file di font e ai file di profilo ICC non vengono tracciate direttamente dal gestore della cache. Se una tale risorsa viene modificata senza modificare il suo ID, la cache del server non sarà a conoscenza della modifica e `cache=validate` non comporterà l&#39;aggiornamento della voce della cache. `cache=update` può essere utilizzato per forzare la rigenerazione di tali voci della cache.
+Le modifiche apportate ai file di font e ai file di profilo ICC non vengono registrate direttamente dal gestore della cache. Se una tale risorsa viene modificata senza modificarne l’ID, la cache del server non sarà a conoscenza della modifica e `cache=validate` non provocherà l’aggiornamento della voce della cache. `cache=update` può essere utilizzato per forzare la rigenerazione di tali voci della cache.
 
-Per evitare complicazioni nella sostituzione dei file, si consiglia di assegnare un nuovo nome a un file sostitutivo e aggiornare le voci di catalogo corrispondenti. Questo consentirà di sostituire qualsiasi file di dati mentre il server è in tempo reale e causerà l’obsolescenza immediata delle voci della cache del server senza alcun intervento aggiuntivo. Questo approccio può essere utilizzato per i profili ICC, i font e tutte le immagini gestite dai cataloghi di immagini.
+Per evitare complicazioni legate alla sostituzione dei file, si consiglia di assegnare un nuovo nome al file di sostituzione e di aggiornare le voci di catalogo corrispondenti. In questo modo è possibile sostituire qualsiasi file di dati mentre il server è attivo e rendere immediatamente obsolete le voci della cache del server senza alcun intervento aggiuntivo. Questo approccio può essere utilizzato per profili ICC, font e tutte le immagini gestite da cataloghi di immagini.

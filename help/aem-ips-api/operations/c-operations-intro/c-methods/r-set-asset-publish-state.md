@@ -1,20 +1,20 @@
 ---
-description: Determina se una risorsa è pronta per essere pubblicata.
+description: Determina se una risorsa è pronta per la pubblicazione.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '95'
 ht-degree: 10%
 
 ---
 
 # setAssetPublishState{#setassetpublishstate}
 
-Determina se una risorsa è pronta per essere pubblicata.
+Determina se una risorsa è pronta per la pubblicazione.
 
 Sintassi
 
@@ -46,19 +46,19 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Il manico per l'azienda. </td> 
+   <td colname="col4"> La maniglia per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Gestione risorse. </td> 
+   <td colname="col4"> Handle risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">Stati disponibili: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
@@ -68,20 +68,20 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase di codice  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Uscita**
+**Output**
 
 L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-c31ead6d0e594317a12c120509527792}
 
-Questo esempio di codice imposta lo stato di pubblicazione di una risorsa utilizzando `NotMarkedForPublish`.
+In questo esempio di codice lo stato di pubblicazione di una risorsa viene impostato tramite `NotMarkedForPublish`.
 
 **Request Contents (Richiesta contenuto)**
 

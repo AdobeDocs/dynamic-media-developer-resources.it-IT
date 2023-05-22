@@ -1,35 +1,35 @@
 ---
-description: Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
+description: Tutti i componenti visualizzatore supportano i ruoli e gli attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 solution: Experience Manager
-title: Supporto tecnologico per assistenza
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog,Accessibilità
+title: Supporto di tecnologie assistive
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Accessibility
 role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
-# Supporto tecnologico per assistenza{#assistive-technology-support}
+# Supporto di tecnologie assistive{#assistive-technology-support}
 
-Tutti i componenti visualizzatore supportano ruoli e attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
+Tutti i componenti visualizzatore supportano i ruoli e gli attributi ARIA (Accessible Rich Internet Applications) per migliorare l’integrazione con tecnologie per l’accessibilità, come gli assistenti vocali.
 
-Per impostazione predefinita, l’elemento visualizzatore di livello principale ha l’attributo ruolo `region` e `aria-label` impostato sul nome del visualizzatore. Puoi controllare l’etichetta con il simbolo di localizzazione `Container.LABEL` .
+L’elemento visualizzatore di primo livello ha il ruolo `region` e `aria-label` attributo impostato per impostazione predefinita sul nome del visualizzatore. Puoi controllare l’etichetta con `Container.LABEL` simbolo di localizzazione.
 
-I pulsanti hanno il ruolo `button` e il testo descrittivo impostato con l&#39;attributo `aria-label` . Il valore dell&#39;attributo `aria-label` viene popolato dal valore del simbolo di localizzazione del pulsante. Quando un pulsante è disabilitato, l&#39;attributo `aria-disabled` viene impostato di conseguenza.
+I pulsanti hanno il ruolo `button` e testo descrittivo impostato con `aria-label` attributo. Il valore di `aria-label` viene popolato dal valore del simbolo di localizzazione del pulsante. Quando un pulsante è disattivato, il `aria-disabled` viene impostato di conseguenza.
 
-La vista principale ha il ruolo `application`. Una breve descrizione della vista principale è fornita in `aria-roledescription`, con il valore definito dal simbolo di localizzazione `ROLE_DESCRIPTION` del componente di visualizzazione principale corrispondente. I suggerimenti per la navigazione degli utenti tramite tastiera vengono forniti utilizzando `aria-describedby`, il testo per il suggerimento di utilizzo proviene dal simbolo di localizzazione `USAGE_HINT` . Se una risorsa ha un’etichetta definita nel campo UserData , l’attributo `aria-label` viene impostato con il valore di tale etichetta.
+La visualizzazione principale ha un ruolo `application`. Una breve descrizione della vista principale è fornita in `aria-roledescription`, con il valore definito da `ROLE_DESCRIPTION` simbolo di localizzazione del componente della vista principale corrispondente. Gli hint di navigazione per gli utenti che utilizzano la tastiera sono forniti tramite `aria-describedby`, il testo per l’hint di utilizzo proviene da `USAGE_HINT` simbolo di localizzazione. Se per una risorsa è stata definita un’etichetta nel campo UserData, il `aria-label` viene impostato con il valore di tale etichetta.
 
-Le aree calde, le aree geografiche e le mappe immagine hanno il ruolo `button` e il testo descrittivo impostato con l&#39;attributo `aria-label` , con il valore dell&#39;etichetta di area sensibile o mappa immagine. Quando l&#39;utente mette a fuoco punti o mappe immagine, i suggerimenti per la navigazione degli utenti tramite tastiera vengono forniti utilizzando `aria-describedby`, con il testo per il suggerimento di utilizzo proveniente dal simbolo di localizzazione `USAGE_HINT`.
+I punti attivi, le aree geografiche e le mappe immagine hanno il ruolo `button` e set di testo descrittivo con `aria-label` con il valore dell&#39;area sensibile o dell&#39;etichetta della mappa immagine. Quando l’utente mette a fuoco gli hot spot o le mappe immagine, vengono forniti suggerimenti di navigazione per gli utenti che utilizzano la tastiera utilizzando `aria-describedby`, con il testo per l’hint di utilizzo proveniente dalla sezione `USAGE_HINT` simbolo di localizzazione.
 
-Le miniature hanno il ruolo `dialog` con l’attributo `aria-label` controllato dal simbolo di localizzazione `ThumbnailGridView.LABEL` . Le singole miniature hanno il ruolo `button`. Se è selezionata una miniatura, l’attributo `aria-selected` viene impostato su `true`.
+Le miniature hanno il ruolo `dialog` con `aria-label` attributo controllato da `ThumbnailGridView.LABEL` simbolo di localizzazione. Le singole miniature hanno il ruolo `button`. Se è selezionata una miniatura, questa viene `aria-selected` attributo impostato su `true`.
 
-I componenti che visualizzano i campioni hanno il ruolo `listbox` con l’attributo `aria-label` impostato sul valore del simbolo di localizzazione `LABEL` di quel componente. I singoli campioni hanno il ruolo `option` con gli attributi `aria-setsize` e `aria-posinset` per descrivere la posizione del campione nel set. Se è selezionato un campione, l’attributo `aria-selected` viene impostato su `true`.
+I componenti che visualizzano i campioni hanno il ruolo `listbox` con `aria-label` attributo impostato sul valore del `LABEL` simbolo di localizzazione del componente. I singoli campioni hanno il ruolo `option` con `aria-setsize` e `aria-posinset` attributi per descrivere la posizione del campione nel set. Se viene selezionato un campione, questo ottiene `aria-selected` attributo impostato su `true`.
 
-Gli elenchi a discesa sono attivati dai pulsanti con l’attributo `aria-haspopup` aggiuntivo impostato su `true` e l’attributo `aria-controls` che fa riferimento all’elemento del pannello a discesa effettivo. Il pannello a discesa stesso ha il ruolo `menu` con elementi secondari con il ruolo `menuitem`. Per ogni voce di menu è specificato l&#39;attributo `aria-label` .
+Gli elenchi a discesa vengono attivati da pulsanti con `aria-haspopup` attributo impostato su `true` e `aria-controls` attributo che fa riferimento all’elemento effettivo del pannello a discesa. Il pannello a discesa ha il ruolo `menu` con sottoelementi aventi il ruolo `menuitem`. Ogni voce di menu ha il `aria-label` attributo specificato.
 
-L’interfaccia utente di ricerca è raggruppata nell’elemento con il ruolo `search`. Il campo di input della ricerca ha il ruolo `searchbox` e fa riferimento all’etichetta informativa controllata dal simbolo di localizzazione `SearchPanel.INFO_PROMPT` con l’attributo `aria-describedby` .
+L&#39;interfaccia utente di ricerca è raggruppata nell&#39;elemento con il ruolo `search`. Il campo di input della ricerca ha il ruolo `searchbox` e fa riferimento all&#39;etichetta informativa controllata da `SearchPanel.INFO_PROMPT` simbolo di localizzazione con `aria-describedby` attributo.
 
-Le finestre di dialogo modali hanno il ruolo `dialog`. L&#39;attributo `aria-labelledby` fa riferimento all&#39;elemento di intestazione della finestra di dialogo.
+Le finestre di dialogo modali hanno il ruolo `dialog`. L&#39;elemento intestazione della finestra di dialogo è indicato da `aria-labelledby` attributo.

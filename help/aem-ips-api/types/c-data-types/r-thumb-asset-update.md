@@ -8,7 +8,7 @@ exl-id: ef51d01c-1434-40ac-a383-b07ef49c3bab
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '19'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestione risorse. |
-| thumbAssetHandle | `xsd:string` | Gestione risorse miniature. |
+| assetHandle | `xsd:string` | Handle risorsa. |
+| thumbAssetHandle | `xsd:string` | Handle risorsa miniatura. |

@@ -18,51 +18,51 @@ ht-degree: 0%
 
 Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
-## BlackBerry® {#section-0c465ac3775d47fd838e2695a00abc45}
+## Blackberry® {#section-0c465ac3775d47fd838e2695a00abc45}
 
-* Incompatibilità con i vecchi set video adattivi. Ricarica i set video adattivi per consentire la riproduzione.
+* Incompatibilità con i set di video adattivi precedenti. Ricarica set video adattivi per consentire la riproduzione.
 
 ## Generali {#section-7b9a9fcba85148d1802b7b3016b48e02}
 
-* Il ridimensionamento lato browser causa la sfocatura dell’interfaccia utente e delle immagini durante lo zoom dell’utente sulla pagina. La formattazione dell&#39;interfaccia utente non viene visualizzata correttamente a seconda dello zoom e passa allo schermo intero.
-* A causa della limitazione delle dimensioni sui dispositivi mobili, il visualizzatore di file multimediali diversi utilizza il movimento di diapositiva per scambiare i fotogrammi in set di immagini incorporati invece di toccare il componente campioni incorporati. Il componente è presente come indicatore visivo.
-* Nei browser Internet Explorer e in alcuni dispositivi touch, la modalità a schermo intero non occupa l’intero schermo del dispositivo. ma ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
-* Il pulsante Chiudi non funziona con iOS 8.0 e iOS 8.1, ma funziona con iOS 8.2.
+* Il ridimensionamento del lato browser rende sfocate l’interfaccia utente e le immagini man mano che l’utente si ingrandisce verso la pagina. La formattazione dell’interfaccia utente non viene visualizzata correttamente a seconda dello zoom e viene riportata a schermo intero.
+* A causa delle dimensioni limitate dei dispositivi mobili, il visualizzatore di file multimediali diversi utilizza il movimento della diapositiva per scambiare i fotogrammi nei set di immagini incorporati invece di toccare il componente Campioni incorporati. Il componente è presente come indicatore visivo.
+* Nei browser di Internet Explorer e in alcuni dispositivi touch, la modalità a schermo intero non occupa l&#39;intero schermo del dispositivo. Viene invece ridimensionata in base alle dimensioni della finestra del browser.
+* Il pulsante Chiudi non funziona in iOS 8.0 e iOS 8.1, ma in iOS 8.2.
 
-## Galassia SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
+## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
-* Perdita di memoria visibile con i visualizzatori Zoom ed eCatalog. La navigazione ripetuta attraverso i frame causa l&#39;arresto anomalo del browser.
-* Se si tocca due volte un visualizzatore, l’intera pagina viene ingrandita invece che solo il visualizzatore e viene abilitata la funzione di ridimensionamento lato browser.
+* Perdita di memoria rilevata con i visualizzatori Zoom ed eCatalog. La navigazione ripetuta attraverso i fotogrammi causa l’arresto anomalo del browser.
+* Il doppio tocco su un visualizzatore determina lo zoom dell’intera pagina invece che del solo visualizzatore con ridimensionamento sul lato browser abilitato.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Dispositivo rilevato come tablet in modalità verticale con schermo intero selezionato nelle impostazioni del browser.
+* Il dispositivo rilevato come tablet in modalità verticale con Schermo intero selezionato nelle impostazioni del browser.
 
-## Nexus galassico {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
+## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Se si tocca due volte un visualizzatore, l’intera pagina viene ingrandita invece che solo il visualizzatore e viene attivata la modifica in scala sul lato browser.
+* Il doppio tocco su un visualizzatore determina lo zoom dell’intera pagina invece che del solo visualizzatore, con la funzione di ridimensionamento lato browser abilitata.
 
 ## Galaxy Nexus 10 e Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
 
-* L’eCatalog mostra una pagina non corretta con orientamento verticale e orizzontale.
+* L’eCatalog mostra pagine affiancate non corrette con orientamenti in verticale e orizzontale.
 
 ## Dispositivi mobili HTC {#section-dc42c80414c842e488738fc157c55b01}
 
-* L’impossibilità di disabilitare lo zoom nativo con le dita è una &quot;funzione&quot; del wrapper HTC dell’interfaccia utente (HTC Sense). Questa funzione può causare lo zoom di un’intera pagina quando si utilizza il gesto &quot;pizzico per lo zoom&quot; sul visualizzatore. Utilizza invece un gesto con doppio tocco.
-* Le icone delle mappe immagine si sovrappongono se le mappe immagine sono piccole e vicine tra loro.
+* L’impossibilità di disabilitare lo zoom pinch nativo è una &quot;funzione&quot; del wrapper dell’interfaccia utente HTC (HTC Sense). Questa funzione può causare lo zoom di un&#39;intera pagina quando si utilizza il movimento &quot;pizzica per ingrandire&quot; sul visualizzatore. Al suo posto, tocca due volte.
+* Le icone della mappa immagine si sovrappongono se le mappe immagine sono piccole e vicine tra loro.
 
 ## Visualizzatore video HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` Il modificatore è supportato solo con riproduzione software HLS e Flash HDS. Non funziona quando la riproduzione utilizza il lettore nativo.
+* `IntialBitRate` Il modificatore è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
 * Riproduzione progressiva OGG e WebM non supportata.
-* Il ridimensionamento del browser causa la visualizzazione del lettore video con dimensioni errate (incluse le impostazioni di visualizzazione del Pannello di controllo Campaign Windows®).
-* Le ricerche video che utilizzano lo streaming HLS su Safari non sono coerenti.
+* Il ridimensionamento del browser causa la visualizzazione del lettore video con dimensioni non corrette (incluse le impostazioni di visualizzazione del Pannello di controllo Campaign di Windows®).
+* Le ricerche video con lo streaming HLS su Safari non sono coerenti.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
-* Modalità Quirks non supportata.
-* La modalità di compatibilità non è supportata.
-* Internet Explorer su dispositivi mobili non supportato.
+* Modalità non supportata.
+* Modalità di compatibilità non supportata.
+* Internet Explorer su dispositivi mobili non è supportato.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
@@ -70,6 +70,6 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 o successivo: Le impostazioni del plug-in Internet impediscono la riproduzione del video del Flash.
-* Le ricerche video che utilizzano lo streaming HLS su Safari non sono coerenti.
-* Impossibile cercare di terminare il video su Safari 6 utilizzando lo streaming HLS.
+* Safari 6.1 o versione successiva: le impostazioni del plug-in Internet impediscono la riproduzione di video di Flash.
+* Le ricerche video con lo streaming HLS su Safari non sono coerenti.
+* Impossibile cercare la fine del video su Safari 6 utilizzando lo streaming HLS.

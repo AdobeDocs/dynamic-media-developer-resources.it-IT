@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+description: Riferimento API JavaScript per il visualizzatore 360 gradi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore a 360 gradi.
+Riferimento API JavaScript per il visualizzatore 360 gradi.
 
 ` setAsset( *`asset`*)`
 
@@ -22,7 +22,7 @@ Riferimento API JavaScript per il visualizzatore a 360 gradi.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori opzionali Image Serving aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo ID risorsa, set 360 gradi singolo o multidimensionale con modificatori Image Server opzionali aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>

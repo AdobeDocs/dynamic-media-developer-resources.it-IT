@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.loop
-description: Attributo di configurazione per il visualizzatore video per file multimediali diversi.
+description: Attributo di configurazione per visualizzatore video per file multimediali diversi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attributo di configurazione per il visualizzatore video per file multimediali diversi.
+Attributo di configurazione per visualizzatore video per file multimediali diversi.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video per file multimediali di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Indica se il contenuto multimediale viene riprodotto al termine della riproduzione. </p> </td> 
+   <td colname="col2"> <p>Indica se il contenuto multimediale viene riprodotto nuovamente al termine della riproduzione. </p> </td> 
   </tr> 
  </tbody> 
 </table>

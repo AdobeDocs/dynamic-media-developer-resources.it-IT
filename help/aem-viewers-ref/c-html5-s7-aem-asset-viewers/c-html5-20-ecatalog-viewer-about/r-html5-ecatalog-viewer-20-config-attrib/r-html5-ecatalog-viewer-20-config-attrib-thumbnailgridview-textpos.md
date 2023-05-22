@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_1BEBE260769B4A0C9E9F5016D2FA68A0"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comandi</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l’etichetta rispetto all’immagine in miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> Il testo dell’etichetta viene visualizzato come una descrizione mobile dell’immagine miniatura. Imposta su <span class="codeph"> nessuno</span> per disattivare l'etichetta. </p> </td> 
+   <td> <p> <span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
+   <td> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> descrizione comando</span> Se è specificato, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine miniatura. Imposta su <span class="codeph"> nessuno</span> per disattivare l'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il pattern per l’ora visualizzata nella barra dei controlli, in cui <span class="codeph"> h</span> rappresenta ore, <span class="codeph"> m</span> minuti e <span class="codeph"> s</span> per secondi. </p> <p>Il numero di lettere utilizzato per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, un pattern di tempo di <span class="codeph"> m:ss</span> viene visualizzato come 67:05. La stessa ora viene visualizzata come 1:07:5 se il pattern di tempo è <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Imposta il modello per il tempo visualizzato nella barra di controllo, dove <span class="codeph"> h</span> rappresenta le ore, <span class="codeph"> m</span> per minuti, e <span class="codeph"> s</span> per secondi. </p> <p>Il numero di lettere utilizzate per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell’unità successiva. </p> <p>Ad esempio, se il tempo del filmato corrente è di 67 minuti e 5 secondi, un modello di tempo di <span class="codeph"> m:ss</span> viene visualizzato come 67:05. Viene visualizzata la stessa ora come 1:07:5 se il modello di tempo è <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

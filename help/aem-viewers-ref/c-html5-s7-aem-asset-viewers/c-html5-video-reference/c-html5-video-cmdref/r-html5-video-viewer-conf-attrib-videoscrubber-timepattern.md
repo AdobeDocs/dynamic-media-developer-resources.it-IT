@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.timepattern
-description: Attributo di configurazione per il visualizzatore video.
+description: Attributo di configurazione per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: e0956a0b-4d82-475f-8990-8b059014233a
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
-Attributo di configurazione per il visualizzatore video.
+Attributo di configurazione per Visualizzatore video.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]timepattern=[h:]m|mm:s|ss`
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il pattern per l’ora visualizzata nella bolla temporale, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è in minuti e <span class="codeph"> s</span> è in secondi. </p> <p>Il numero di lettere utilizzato per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> mostra come 67:05. La stessa ora viene visualizzata come 1:07:5 se il modello temporale specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Imposta il modello per la visualizzazione del tempo nell'indicatore del tempo, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è in minuti, e <span class="codeph"> s</span> è di secondi. </p> <p>Il numero di lettere utilizzate per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell’unità successiva. </p> <p>Ad esempio, se il tempo del filmato corrente è di 67 minuti e 5 secondi, il modello di tempo <span class="codeph"> m:ss</span> viene visualizzato come 67:05. Viene visualizzata la stessa ora come 1:07:5 se il modello di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

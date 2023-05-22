@@ -1,6 +1,6 @@
 ---
 title: Barra di controllo
-description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
+description: La barra di controllo è l'area rettangolare che contiene e si trova dietro tutti i controlli dell'interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Barra di controllo{#control-bar}
 
-La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
+La barra di controllo è l&#39;area rettangolare che contiene e si trova dietro tutti i controlli dell&#39;interfaccia utente disponibili per il visualizzatore video, ad esempio il pulsante Riproduci/Pausa, i controlli del volume e così via.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra di controllo occupa sempre l’intera larghezza del visualizzatore disponibile. È possibile modificarne il colore, l’altezza e la posizione verticale per CSS, rispetto al contenitore del visualizzatore video.
+La barra di controllo accetta sempre l’intera larghezza disponibile del visualizzatore. È possibile modificarne il colore, l’altezza e la posizione verticale in base agli stili CSS, rispetto al contenitore del visualizzatore video.
 
-Il seguente selettore di classe CSS controlla l’aspetto della barra di controllo:
+Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di controllo:
 
 ```
 .s7mixedmediaviewer .s7controlbar
@@ -35,7 +35,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della barra di control
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della barra di control
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un visualizzatore per file multimediali diversi con una barra di controllo grigia alta 30 pixel.
+Per impostare un visualizzatore di file multimediali diversi con una barra di controllo grigia alta 30 pixel.
 
 ```
 .s7mixedmediaviewer .s7controlbar {  

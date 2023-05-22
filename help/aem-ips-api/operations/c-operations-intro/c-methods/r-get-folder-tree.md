@@ -30,7 +30,7 @@ Sintassi
 
 >[!NOTE]
 >
->Per restituire i dati contenuti nella cartella, l’utente deve disporre dell’accesso in lettura.
+>L&#39;utente deve disporre dell&#39;accesso in lettura alla cartella per restituire i dati in essa contenuti.
 
 ## Parametri {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -38,25 +38,25 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
 | accessUserHandle | `xsd:string` | No | Utilizzato solo dagli amministratori per rappresentare un utente specifico. |
-| accessGroupHandle | `xsd:string` | No | Utilizzato per filtrare in base a un gruppo specifico, compresi quelli a cui appartiene la società. |
-| folderPath | `xsd:string` | No | Cartella principale per recuperare cartelle e sottocartelle a livello foglia. Se viene esclusa, viene utilizzata la radice della società. |
-| profondità | `xsd:int` | Sì | Il valore zero restituisce la cartella di livello superiore. Qualsiasi altro valore specifica la profondità da scendere nell&#39;albero. |
-| assetTypeArray | `types:StringArray` | No | Restituisce cartelle che contengono solo tipi di risorse specificati. |
+| accessGroupHandle | `xsd:string` | No | Utilizzato per filtrare per un gruppo specifico, compresi quelli a cui appartiene l’azienda. |
+| folderPath | `xsd:string` | No | La cartella principale per recuperare le cartelle e tutte le sottocartelle al livello foglia. Se non specificato, viene utilizzata la directory principale della società. |
+| profondità | `xsd:int` | Sì | Un valore pari a zero ottiene la cartella di livello superiore. Qualsiasi altro valore specifica la profondità da scendere nell&#39;albero. |
+| assetTypeArray | `types:StringArray` | No | Restituisce cartelle che contengono solo i tipi di risorse specificati. |
 | responseFieldArray | `types:StringArray` | No | Contiene un elenco di campi che si desidera includere nella risposta. |
-| excludeFieldArray | `types:StringArray` | No | Contiene un elenco di campi da escludere nella risposta. |
+| excludeFieldArray | `types:StringArray` | No | Contiene un elenco di campi che desideri escludere nella risposta. |
 
 **Output (getFolderTreeReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| cartelle | `types:folders` | No | La gerarchia delle cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
+| cartelle | `types:folders` | No | Gerarchia di cartelle in una struttura ad albero. La risposta è limitata a un massimo di 100.000 cartelle. |
 | permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## Esempi {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Questo esempio di codice utilizza un handle aziendale e un parametro di profondità per determinare il livello di profondità che la risposta deve restituire. La risposta contiene cartelle e array di sottocartelle correlati. Imposta il valore di profondità su un numero più piccolo per cercare più in profondità nella struttura delle cartelle.
+Questo esempio di codice utilizza un handle aziendale e un parametro di profondità per determinare il livello di profondità che la risposta deve restituire. La risposta contiene cartelle e array di sottocartelle con i relativi. Impostate il valore di profondità su un numero inferiore per effettuare ricerche più approfondite nella struttura ad albero delle cartelle.
 
 **Request Contents (Richiesta contenuto)**
 

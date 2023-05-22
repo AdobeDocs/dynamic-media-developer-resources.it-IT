@@ -1,20 +1,20 @@
 ---
-description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 6.
+description: Descrive i metodi operativi nuovi e modificati per l'API IPS versione 6.
 solution: Experience Manager
 title: Operazioni nuove e modificate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-# Operazioni: Nuovo e modificato{#operations-new-and-modified}
+# Operazioni: nuove e modificate{#operations-new-and-modified}
 
-Descrive i metodi operativi nuovi e modificati per l’API IPS versione 6.
+Descrive i metodi operativi nuovi e modificati per l&#39;API IPS versione 6.
 
 Sintassi
 
@@ -31,25 +31,25 @@ Sintassi
 
 **Aggiunto**
 
-* Sono stati aggiunti `isHidden` e `initialTagValue` a:
+* Aggiunto `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* È stato aggiunto `thumbAssetHandle` a:
+* Aggiunto `thumbAssetHandle` a:
 
    * `createImageSet`
    * `createAssetSet`
 
-   È stato aggiunto `companyHandle` a:
+   Aggiunto `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   È stato aggiunto `contextHandle` a:
+   Aggiunto `contextHandle` a:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -58,32 +58,32 @@ Sintassi
 
 
 
-* È stato aggiunto includeInactive a:
+* IncludeInactive aggiunto a:
 
    * `getUsers`.
    * `getUserChars`.
 
-* È stato aggiunto `permissionArray` a `createPropertySet`.
+* Aggiunto `permissionArray` a `createPropertySet`.
 
-* È stato aggiunto `exportJob` a `submitJob`.
+* Aggiunto `exportJob` a `submitJob`.
 
 **Modificato**
 
-* In `addUser` e `setUser`, è stato modificato `role` in `defaultRole`.
+* In entrata `addUser` e `setUser`, modificato `role` a `defaultRole`.
 
-* In `getCompanyMembers`, è stato modificato `userArray` in `memberArray`.
+* In entrata `getCompanyMembers`, modificato `userArray` a `memberArray`.
 
-* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
+* In entrata `getCompanyMembership`, modificato `companyArray` a `membershipArray`.
 
-* In `addUser`, `setCompanyMembership` e `addCompanyMembership`, `membershipArray` è stato modificato in `companyHandleArray`.
+* In entrata `addUser`, `setCompanyMembership`, e `addCompanyMembership`, modificato `membershipArray` a `companyHandleArray`.
 
-* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
+* In entrata `getCompanyMembership`, modificato `companyArray` a `membershipArray`.
 
-* In `getUserChars`, `includeInvalid` è ora facoltativo.
+* In entrata `getUserChars`, `includeInvalid` è ora facoltativo.
 
 **Rimosso**
 
 * Rimosso `renameFiles` da `renameAsset`.
 
 * Rimosso `getXMPPanelViewDefinition`.
-* Rimossi `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
+* Rimosso `searchAssetsByFulltext` e `searchAssetsBySimilarity`.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Quando è impostato su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Quando è impostato su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Quando è impostato su <span class="codeph"><span class="varname"> preloadnbr</span></span>, è possibile specificare quante righe invisibili intorno all’area visibile vengono precaricate. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span>, tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa viene cambiata. </p> <p>Se impostato su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p> Se impostato su <span class="codeph"><span class="varname"> preloadnbr</span></span>, è possibile specificare il numero di righe invisibili attorno all'area visibile precaricate. </p> </td> 
   </tr> 
  </tbody> 
 </table>

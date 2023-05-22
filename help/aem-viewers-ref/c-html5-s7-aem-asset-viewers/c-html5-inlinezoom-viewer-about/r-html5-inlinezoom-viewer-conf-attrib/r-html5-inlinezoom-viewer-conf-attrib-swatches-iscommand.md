@@ -8,7 +8,7 @@ exl-id: b5b0acab-4e11-4f6a-8cb1-be6d683d7384
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Stringa di comando Image Server applicata a tutti i campioni. Se è specificato nell’URL, assicurati di codificare tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> <p> <p>Nota: I comandi di manipolazione del dimensionamento delle immagini non sono supportati. </p> </p> </td> 
+   <td colname="col2"> <p> Stringa di comando Image Server applicata a tutti i campioni. Se è specificato nell’URL, accertati di codificare HTTP tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> as <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> <p> <p>Nota: i comandi di manipolazione del ridimensionamento delle immagini non sono supportati. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -40,21 +40,21 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Tratta l'azienda. </td> 
+   <td colname="col4"> Gestore azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Maniglia del campo di tag. </td> 
+   <td colname="col4"> Handle campo tag. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4">Matrice di valori dei campi tag che si desidera aggiornare. <p>Nota: Aggiorna solo i valori delle stringhe di tag. Non influisce sulle associazioni di risorse. </p> </td> 
+   <td colname="col4">Matrice di valori dei campi tag che si desidera aggiornare. <p>Nota: aggiorna solo i valori delle stringhe di tag. Non influisce sulle associazioni di risorse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,10 +64,10 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | successCount | `xsd:int` | Sì | Numero di campi tag aggiornati correttamente. |
-| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di aggiornare i campi tag. |
-| errorCount | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di aggiornare i campi tag. |
-| warningDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di aggiornare i campi dei tag. |
-| errorDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di aggiornare i campi tag. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione ha tentato di aggiornare i campi tag. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l’operazione ha tentato di aggiornare i campi tag. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione ha tentato di aggiornare i campi tag. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione ha tentato di aggiornare i campi tag. |
 
 ## Esempi {#section-bb4dcf97044c4675974c9b8d27674001}
 

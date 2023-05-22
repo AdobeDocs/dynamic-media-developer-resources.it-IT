@@ -1,6 +1,6 @@
 ---
 title: FlyoutZoomView.fmt
-description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
+description: Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini.
+Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini.
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,7 +22,7 @@ Specifica il formato immagine utilizzato dal componente per caricare le immagini
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alfa</span>, il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente dispone di uno sfondo bianco. Pertanto, per renderlo trasparente, imposta il <span class="codeph"> colore di sfondo</span> Proprietà CSS in <span class="codeph"> trasparente</span>. </p> </td> 
+   <td colname="col2"> <p> Se il formato specificato termina con <span class="codeph"> -alfa</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente tratta le immagini come opache. </p> <p>Per impostazione predefinita, il componente ha uno sfondo bianco. Pertanto, per renderlo trasparente, imposta la <span class="codeph"> background-color</span> Proprietà CSS a <span class="codeph"> trasparente</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

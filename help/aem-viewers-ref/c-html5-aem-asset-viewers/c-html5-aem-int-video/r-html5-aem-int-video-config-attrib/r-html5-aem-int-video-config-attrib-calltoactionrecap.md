@@ -8,7 +8,7 @@ exl-id: a91c957f-5ad2-4022-afde-de129b060576
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore mostra il pannello "Invito all’azione" al termine della riproduzione del video. </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore mostra il pannello "call-to-action" al termine della riproduzione video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

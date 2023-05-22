@@ -8,7 +8,7 @@ exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '14'
-ht-degree: 35%
+ht-degree: 21%
 
 ---
 
@@ -20,4 +20,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:ZoomTargetDefinition` | Matrice di definizioni delle destinazioni di zoom. |
+| elementi | `types:ZoomTargetDefinition` | Array delle definizioni delle destinazioni Zoom. |

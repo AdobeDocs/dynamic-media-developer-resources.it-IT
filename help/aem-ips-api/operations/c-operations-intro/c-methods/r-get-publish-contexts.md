@@ -8,7 +8,7 @@ exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -51,20 +51,20 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Manda all'azienda. </td> 
+   <td colname="col4"> Gestire l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Il tipo di contesto di pubblicazione che desideri restituire. Include: 
+   <td colname="col4">Tipo di contesto di pubblicazione che si desidera restituire. Include: 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServer</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> Video</span></li>
-     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
+     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> DirectoryServer</span></li>
     </ul></td> 
   </tr> 
  </tbody> 
@@ -74,7 +74,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| publishContextArray | tipi:PublishContextArray | Sì | Array di contesti di pubblicazione per una società, filtrati per tipo di contesto, se necessario. |
+| publishContextArray | tipi:PublishContextArray | Sì | Matrice di contesti di pubblicazione per un’azienda, filtrata per tipo di contesto, se necessario. |
 
 ## Esempi {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

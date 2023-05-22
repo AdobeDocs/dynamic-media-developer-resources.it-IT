@@ -8,7 +8,7 @@ exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestisci la risorsa Profilo ICC da aggiornare. |
-| [!DNL class] | `xsd:string` | Classi di profilo (vedi &quot;Classi di profilo&quot; per i valori). |
-| colorSpace | `xsd:string` | Spazio colore del profilo (vedere &quot;Spazi colore&quot; per i valori). |
-| pcsType | `xsd:string` | Spazio di connessione del profilo (vedere &quot;Spazi colore&quot; per i valori). |
+| assetHandle | `xsd:string` | Handle della risorsa profilo ICC da aggiornare. |
+| [!DNL class] | `xsd:string` | Classi di profilo (consulta &quot;Classi di profilo&quot; per i valori). |
+| colorSpace | `xsd:string` | Spazio colore del profilo (per i valori, vedere &quot;Spazi colore&quot;). |
+| pcsType | `xsd:string` | Spazio di connessione profilo (per i valori, vedere &quot;Spazi colore&quot;). |

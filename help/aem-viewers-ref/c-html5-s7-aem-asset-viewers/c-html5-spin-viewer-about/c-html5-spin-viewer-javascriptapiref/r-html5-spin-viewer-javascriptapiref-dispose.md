@@ -1,6 +1,6 @@
 ---
-title: disporre
-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+title: eliminare
+description: Riferimento API JavaScript per il visualizzatore 360 gradi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: c19466a8-9fc5-440c-8bb1-c4528937a522
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# disporre{#dispose}
+# eliminare{#dispose}
 
-Riferimento API JavaScript per il visualizzatore a 360 gradi.
+Riferimento API JavaScript per il visualizzatore 360 gradi.
 
 `dispose()`
 
-Dispone questa istanza del visualizzatore rilasciando tutte le risorse utilizzate dalla logica del visualizzatore ed eliminando tutti gli oggetti interni e i componenti creati dal visualizzatore in fase di esecuzione.
+Dispone di questa istanza del visualizzatore rilasciando tutte le risorse utilizzate dalla logica del visualizzatore ed eliminando tutti gli oggetti e i componenti interni creati dal visualizzatore in fase di esecuzione.
 
-Il codice della pagina web dovrebbe anche eliminare la variabile dell’istanza del visualizzatore e rimuovere completamente il visualizzatore dalla memoria del browser web.
+Il codice della pagina web deve anche eliminare la variabile dell’istanza del visualizzatore e rimuovere completamente il visualizzatore dalla memoria del browser web.
 
-Se il codice della pagina web ha registrato listener di eventi direttamente sui componenti SDK per visualizzatori utilizzati dal visualizzatore, o memorizzato riferimenti esterni a tali componenti, tali listener devono essere esplicitamente deregistrati dal codice della pagina web. Inoltre, tali riferimenti esterni devono essere eliminati prima di richiamare `dispose()`.
+Se il codice della pagina web contiene listener di eventi registrati direttamente sui componenti SDK del visualizzatore utilizzati dal visualizzatore, o riferimenti esterni memorizzati a tali componenti, tali listener devono essere esplicitamente annullati dal codice della pagina web. E, tali riferimenti a componenti esterni devono essere eliminati prima di richiamare `dispose()`.
 
 Non accedere più all’API del visualizzatore dopo `dispose()` viene chiamato.
 

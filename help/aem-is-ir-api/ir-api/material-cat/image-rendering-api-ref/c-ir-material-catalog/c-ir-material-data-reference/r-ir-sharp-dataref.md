@@ -1,22 +1,22 @@
 ---
-description: Opzioni. Attributo di nitidezza, determina quando il materiale viene affilato durante il rendering.
+description: Opzioni. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
 solution: Experience Manager
 title: Nitido
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 10%
 
 ---
 
 # Nitido{#sharp}
 
-Opzioni. Attributo di nitidezza, determina quando il materiale viene affilato durante il rendering.
+Opzioni. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
 
-Il tipo e la quantità di nitidezza sono controllati dalla vignetta tramite un modello di materiale predefinito o con `catalog::RenderSettings`.
+Il tipo e la quantità di nitidezza sono controllati dalla vignettatura tramite un modello di materiale predefinito o con `catalog::RenderSettings`.
 
 ## Proprietà {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -41,12 +41,12 @@ Enum.
  </tr> 
 </table>
 
-Ignorato da materiali a colori solidi, facoltativo per tutti gli altri materiali.
+Ignorato dai materiali colorati, facoltativo per tutti gli altri materiali.
 
 ## Predefinito {#section-a6bc204d552b4cc3ae6a77ec232c26ff}
 
-`attribute::Sharpening` viene utilizzato se il campo non è presente, se è vuoto o se il valore non è tra le opzioni supportate.
+`attribute::Sharpening` viene utilizzato se il campo non è presente, se è vuoto o se il valore non è una delle scelte supportate.
 
 ## Consultate anche {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) ,  [catalogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd),  [Sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

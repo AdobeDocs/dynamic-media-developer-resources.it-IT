@@ -8,7 +8,7 @@ exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -31,18 +31,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
 | assetHandle | `xsd:string` | Sì | Gestisci la risorsa. |
 
 **Output (getSearchStringsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| searchStringArray | `types:SearchStrings` | Sì | Matrice di stringhe di ricerca delle risorse. |
+| searchStringArray | `types:SearchStrings` | Sì | Matrice di stringhe per la ricerca di risorse. |
 
 ## Esempi {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-Questo esempio di codice restituisce stringhe di ricerca specifiche per le risorse. La risposta restituisce una matrice vuota.
+In questo esempio di codice vengono restituite stringhe di ricerca specifiche per la risorsa. La risposta restituisce un array vuoto.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -1,6 +1,6 @@
 ---
 title: Area visualizzatore principale
-description: L'area di visualizzazione principale è occupata dal video. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
+description: L'area di visualizzazione principale è occupata dal video. In genere viene impostato per adattarsi allo schermo del dispositivo disponibile quando non è specificata alcuna dimensione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L&#39;area di visualizzazione principale è occupata dal video. In genere viene impostato per adattarsi alla schermata del dispositivo disponibile quando non viene specificata alcuna dimensione.
+L&#39;area di visualizzazione principale è occupata dal video. In genere viene impostato per adattarsi allo schermo del dispositivo disponibile quando non è specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto dell’area di visualizzazione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto dell&#39;area di visualizzazione:
 
 ```
 .s7videoviewer 
 ```
 
-## Proprietà CSS dell’area visualizzatore principale {#css-properties-of-the-main-viewer-area}
+## Proprietà CSS dell&#39;area visualizzatore principale {#css-properties-of-the-main-viewer-area}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -34,10 +34,10 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’area di visuali
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Altezza visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -45,7 +45,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’area di visuali
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un visualizzatore video con sfondo bianco (#FFFFFF) e impostarne le dimensioni di 512 x 288 pixel:
+Per impostare un visualizzatore video con sfondo bianco (#FFFFFF) e impostarne le dimensioni a 512 x 288 pixel:
 
 ```
 .s7videoviewer { 

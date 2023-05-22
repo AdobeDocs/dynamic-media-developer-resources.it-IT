@@ -1,6 +1,6 @@
 ---
 title: sub
-description: Sottoselezione. Consente di applicare materiali diversi a diverse aree dell'oggetto o del gruppo selezionato e di rimuovere i materiali precedentemente applicati.
+description: Sottoselezione. Consente di applicare materiali diversi a aree diverse dell'oggetto o del gruppo selezionato e di rimuovere i materiali applicati in precedenza.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,18 +14,18 @@ ht-degree: 6%
 
 # sub{#sub}
 
-Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;oggetto o del gruppo selezionato e di rimuovere i materiali precedentemente applicati.
+Sottoselezione. Consente di applicare materiali diversi a aree diverse dell&#39;oggetto o del gruppo selezionato e di rimuovere i materiali applicati in precedenza.
 
 `sub=0|1|2|3|4|5`
 
 <table id="simpletable_F6BF91BD2C4B47BF8A28032E392D37F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Selezionare l'intera parete. </p> </td> 
+  <td class="stentry"> <p>Selezionate l'intera parete. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Selezionare la metà superiore del muro. </p> </td> 
+  <td class="stentry"> <p>Selezionare la metà superiore della parete. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
@@ -33,7 +33,7 @@ Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Selezionare l'area del bordo della parete superiore. </p> </td> 
+  <td class="stentry"> <p>Selezionare l'area del bordo superiore della parete. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
@@ -41,17 +41,17 @@ Sottoselezione. Consente di applicare materiali diversi a diverse aree dell&#39;
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Selezionare l'area del bordo della parete inferiore. </p> </td> 
+  <td class="stentry"> <p>Selezionare l'area del bordo inferiore della parete. </p> </td> 
  </tr> 
 </table>
 
-Attualmente supportato solo per gli oggetti wall. Termina un MSS precedente e avvia un nuovo MSS per il materiale da applicare alla sottoselezione specificata.
+Attualmente supportato solo per gli oggetti di parete. Termina un MSS precedente e avvia un nuovo MSS per il materiale da applicare alla sottoselezione specificata.
 
-Un materiale specificato per la parete superiore o inferiore si applica all&#39;intera parete a meno che non sia stato specificato un materiale diverso anche per l&#39;altra metà della parete.
+Un materiale specificato per la parete superiore o inferiore si applica all&#39;intera parete, a meno che non sia stato specificato anche un materiale diverso per l&#39;altra metà della parete.
 
 ## Proprietà {#section-b202139d6d0847cc8d520a154104ab9d}
 
-comando di selezione; delimitatore MSS.
+Comando di selezione; delimitatore MSS.
 
 ## Predefinito {#section-5b45a167a17c451596e4c59b7d53c368}
 

@@ -8,7 +8,7 @@ exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -32,9 +32,9 @@ Array di URL per annullare la validità della cache CDN.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> Elenco di URL da annullare la validità. Limitato a un massimo di 1000 URL dalla definizione WSDL. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> elementi</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td> <p> Elenco di URL da invalidare. Limitato a un massimo di 1000 URL dalla definizione WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>

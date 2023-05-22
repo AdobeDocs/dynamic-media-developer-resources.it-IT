@@ -8,7 +8,7 @@ exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| oldValue | `xsd:string` | Valore campo tag originale. |
+| oldValue | `xsd:string` | Valore del campo tag originale. |
 | newValue | `xsd:string` | Nuovo valore del campo tag. |

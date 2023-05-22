@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: Attributo di configurazione per il visualizzatore video.
+description: Attributo di configurazione per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: c5061a5c-44d7-4b42-a062-5ee622829429
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Attributo di configurazione per il visualizzatore video.
+Attributo di configurazione per Visualizzatore video.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell’animazione del buffering (icona di attesa). </p> </td> 
+   <td colname="col2"> <p> Attiva o disattiva la visualizzazione dell'animazione di buffering (icona di attesa). </p> </td> 
   </tr> 
  </tbody> 
 </table>

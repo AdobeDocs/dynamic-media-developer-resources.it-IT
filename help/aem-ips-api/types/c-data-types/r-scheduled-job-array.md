@@ -8,7 +8,7 @@ exl-id: 2bc145ca-3cee-4832-908c-e45e124a2b6f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 14%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:ScheduledJobs` | Matrice di processi pianificati. |
+| elementi | `types:ScheduledJobs` | Un array di processi pianificati. |

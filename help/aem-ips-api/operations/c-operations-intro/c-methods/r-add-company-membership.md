@@ -8,7 +8,7 @@ exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -31,8 +31,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera aggiungere l&#39;iscrizione. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Un array di aziende a cui aggiungere l’utente. |
+| userHandle | `xsd:string` | No | Handle per l&#39;utente di cui si desidera aggiungere l&#39;appartenenza. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Array di aziende a cui stai aggiungendo l’utente. |
 
 **Output (addCompanyMembershipReturn)**
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-5469f88bac7047cca131faa6b021e437}
 
-In questo esempio viene utilizzato companyHandleArray per aggiungere un utente a una singola società.
+In questo esempio viene utilizzato companyHandleArray per aggiungere un utente a una singola azienda.
 
 **Request Contents (Richiesta contenuto)**
 

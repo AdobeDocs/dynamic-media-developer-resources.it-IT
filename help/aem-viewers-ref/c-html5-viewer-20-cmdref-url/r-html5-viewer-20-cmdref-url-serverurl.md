@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Percorso principale di Image Server relativo o assoluto. </p> <p> Specifica un percorso relativo o assoluto di Image Server, dal quale il visualizzatore recupera le immagini. Se il percorso non ha una <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso ha un percorso iniziale <span class="filepath"> /</span>, specifica un percorso assoluto sullo stesso server. </p> <p> Utilizza solo un percorso assoluto nel caso in cui il modulo Condivisione e-mail sia abilitato nel visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Percorso root relativo o assoluto di Image Server. </p> <p> Specifica un percorso relativo o assoluto di Image Server da cui il visualizzatore recupera le immagini. Se il percorso non ha un'interlinea <span class="filepath"> /</span>, è relativo alla posizione della pagina di HTML del visualizzatore. Se il percorso ha un'interlinea <span class="filepath"> /</span>, specifica un percorso assoluto sullo stesso server. </p> <p> Se nel visualizzatore è abilitato il modulo di condivisione e-mail, utilizza solo un percorso assoluto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facoltativo. Non necessario per l&#39;utilizzo standard SaaS (software as a service).
+Facoltativo. Non necessario per l&#39;utilizzo SaaS (software as a service) standard.
 
 ## Predefinito {#section-d411e450028c460392cb8508f8ccc5d9}
 

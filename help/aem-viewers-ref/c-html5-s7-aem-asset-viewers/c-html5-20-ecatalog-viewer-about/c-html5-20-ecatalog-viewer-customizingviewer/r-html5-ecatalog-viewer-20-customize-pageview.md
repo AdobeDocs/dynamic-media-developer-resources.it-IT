@@ -1,6 +1,6 @@
 ---
-title: Vista a pagina
-description: La vista principale è costituita dall’immagine del catalogo. È possibile scorrere per passare a un’altra pagina o ingrandirla.
+title: Visualizzazione pagina
+description: La visualizzazione principale è costituita dall'immagine del catalogo. Può essere scorrevole per passare a un’altra pagina o ingrandito.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Vista a pagina{#page-view}
+# Visualizzazione pagina{#page-view}
 
-La vista principale è costituita dall’immagine del catalogo. È possibile scorrere per passare a un’altra pagina o ingrandirla.
+La visualizzazione principale è costituita dall&#39;immagine del catalogo. Può essere scorrevole per passare a un’altra pagina o ingrandito.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7ecatalogviewer .s7pageview
@@ -35,17 +35,17 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo della vista principale in formato esadecimale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo della visualizzazione principale in formato esadecimale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
-   <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
+   <td colname="col2"> <p>Cursore visualizzato sopra la vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per rendere trasparente la visualizzazione principale.
+Esempio: per rendere trasparente la visualizzazione principale.
 
 ```
 .s7ecatalogviewer .s7pageview { 
@@ -53,7 +53,7 @@ Esempio : per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Sui sistemi desktop, il componente supporta il `cursortype` selettore di attributi a cui è possibile applicare `.s7pageview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti `cursortype` sono supportati:
+Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato a `.s7pageview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,29 +64,29 @@ Sui sistemi desktop, il componente supporta il `cursortype` selettore di attribu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l'immagine non è zoomabile a causa di una piccola risoluzione dell'immagine, impostazioni del componente o entrambe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> predefinito </span> </p> </td> 
+   <td colname="col2"> <p>Visualizzato quando l'immagine non è ingrandita a causa di una risoluzione di immagine ridotta, impostazioni dei componenti o entrambi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l'immagine può essere ingrandita. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col2"> <p>Viene visualizzato quando è possibile ingrandire l'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzata quando l'immagine è al livello di zoom massimo e può essere ripristinata allo stato iniziale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col2"> <p>Viene visualizzata quando l'immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trascinare </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l’utente fa scorrere l’immagine con lo stato di zoom. </p> </td> 
+   <td colname="col2"> <p>Viene visualizzato quando l’utente effettua una panoramica dell’immagine ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> diapositiva </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l’utente esegue uno scambio di immagini facendo scorrere o scorrere in orizzontale. </p> </td> 
+   <td colname="col2"> <p>Viene visualizzato quando l’utente esegue uno scambio di immagini facendo un gesto rapido o un gesto rapido orizzontale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il divisore di pagina che separa visivamente le pagine sinistra e destra dello spread di catalogo è controllato con il seguente selettore di classe CSS:
+Il divisore di pagina che separa visivamente le pagine a sinistra e a destra della pagina visualizzata nel catalogo è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogviewer .s7pageview .s7pagedivider`
 
@@ -103,13 +103,13 @@ Il divisore di pagina che separa visivamente le pagine sinistra e destra dello s
    <td colname="col2"> <p> Larghezza del divisore di pagina. Imposta su <span class="codeph"> 0 </span> px per nascondere completamente il divisore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Immagine da usare come divisore di pagina. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Immagine da utilizzare come divisore di pagina. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per avere un divisore di pagina largo 40 pixel con immagine semitrasparente.
+Esempio: per avere un divisore di pagina di 40 pixel con immagine semitrasparente.
 
 ```
 .s7ecatalogviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ Esempio: per avere un divisore di pagina largo 40 pixel con immagine semitraspar
 
 >[!NOTE]
 >
->Quando il `frametransition` modificatore impostato su `turn` o `auto` (su sistemi desktop), l’aspetto del divisore di pagina è controllato con il `pageturnstyle` modificatore e `.s7pagedivider` La classe CSS viene ignorata.
+>Quando `frametransition` il modificatore è impostato su `turn` o `auto` (sui sistemi desktop), l&#39;aspetto del divisore di pagina è controllato dal `pageturnstyle` e `.s7pagedivider` Classe CSS ignorata.
 
-È possibile configurare la visualizzazione dei cursori del mouse personalizzati sull&#39;area del visualizzatore principale. Questa funzionalità è controllata con i selettori di attributi aggiuntivi applicati a `.s7ecatalogviewer .s7pageview` Classe CSS:
+È possibile configurare la visualizzazione dei cursori personalizzati del mouse sull&#39;area del visualizzatore principale. Questa funzionalità è controllata con selettori di attributi aggiuntivi applicati a `.s7ecatalogviewer .s7pageview` Classe CSS:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,16 +133,16 @@ Esempio: per avere un divisore di pagina largo 40 pixel con immagine semitraspar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p> Normalmente viene visualizzata una freccia per un'immagine non zoomabile. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> predefinito </span> </p> </td> 
+   <td colname="col2"> <p> Normalmente viene visualizzata una freccia per un'immagine non ingrandibile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
-   <td colname="col2"> <p> Mostra quando è possibile ingrandire un’immagine. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col2"> <p> Mostra quando è possibile ingrandire un'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Mostra quando un'immagine è con lo zoom massimo e può essere reimpostata. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col2"> <p>Mostra quando un'immagine è al massimo zoom e può essere reimpostata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trascinare </span> </p> </td> 
@@ -150,12 +150,12 @@ Esempio: per avere un divisore di pagina largo 40 pixel con immagine semitraspar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> diapositiva </span> </p> </td> 
-   <td colname="col2"> <p>Mostra quando l'utente esegue lo scambio di immagini utilizzando il movimento di diapositiva </p> </td> 
+   <td colname="col2"> <p>Mostra quando l'utente esegue lo scambio di immagini utilizzando il movimento diapositiva </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : disporre di cursori del mouse diversi per ogni tipo di stato del componente.
+Esempio: utilizzare cursori del mouse diversi per ogni tipo di stato del componente.
 
 ```
 .s7ecatalogviewer .s7pageview[cursortype="default"] { 

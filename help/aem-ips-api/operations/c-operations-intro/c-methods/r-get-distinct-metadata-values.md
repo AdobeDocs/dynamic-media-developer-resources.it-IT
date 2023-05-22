@@ -1,5 +1,5 @@
 ---
-description: Restituisce tutti i valori di un campo di metadati.
+description: Restituisce tutti i valori per un campo di metadati.
 solution: Experience Manager
 title: getDistinctMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
-Restituisce tutti i valori di un campo di metadati.
+Restituisce tutti i valori per un campo di metadati.
 
 Sintassi
 
@@ -34,7 +34,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda per la quale desideri ottenere i dati. |
+| companyHandle | `xsd:string` | Sì | Handle per l’azienda per la quale desideri ottenere i dati. |
 | metadataKey | `xsd:string` | Sì | Chiave metadati nella notazione del punto. |
 
 **Output (getDistinctMetadataValuesReturn)**

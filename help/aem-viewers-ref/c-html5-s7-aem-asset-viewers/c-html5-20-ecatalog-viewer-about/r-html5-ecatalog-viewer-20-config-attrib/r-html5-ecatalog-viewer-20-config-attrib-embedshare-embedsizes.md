@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
 source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza da incorporare. </p> </td> 
+   <td colname="col2"> <p>Larghezza di incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Altezza da incorporare. </p> </td> 
+   <td colname="col2"> <p>Altezza incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Specifica se la voce dell'elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
+   <td colname="col2"> <p> Specifica se la voce di elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

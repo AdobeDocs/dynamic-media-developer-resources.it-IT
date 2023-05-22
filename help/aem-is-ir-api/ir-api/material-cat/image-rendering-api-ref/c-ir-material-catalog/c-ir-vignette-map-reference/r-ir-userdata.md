@@ -1,22 +1,22 @@
 ---
 description: Dati utente. Il server restituisce il contenuto di questo campo al client in risposta a req=userdata.
 solution: Experience Manager
-title: Dati utente *
-feature: Dynamic Media Classic, SDK/API
+title: Dati utente*
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 17%
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
-# Dati utente *{#userdata}
+# Dati utente*{#userdata}
 
 Dati utente. Il server restituisce il contenuto di questo campo al client in risposta a req=userdata.
 
-È possibile evitare nuove righe con &#39;??&#39;. Il server sostituirà &#39;?&#39; con `<cr><lf>` prima di restituire il contenuto di questo campo.
+Le nuove righe possono essere precedute da &quot;??&quot;. Il server sostituirà &quot;??&quot; con `<cr><lf>` prima di restituire il contenuto di questo campo.
 
 ## Proprietà {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

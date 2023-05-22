@@ -1,5 +1,5 @@
 ---
-description: Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
+description: Ottiene un array di utenti come specificato dagli handle di ruolo società, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getUsers{#getusers}
 
-Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
+Ottiene un array di utenti come specificato dagli handle di ruolo società, gruppo e utente. Questa operazione consente di ordinare gli utenti restituiti e filtrare per carattere.
 
 ## Tipi di utenti autorizzati {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -26,26 +26,26 @@ Ottiene una matrice di utenti come specificato dagli handle di ruolo azienda, gr
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | No | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
+| includeInactive | `xsd:boolean` | No | Includere o escludere gli utenti inattivi. Per poter essere autorizzati a effettuare chiamate API, gli utenti non amministratori IPS devono essere membri attivi di almeno una società. Se l&#39;utente non dispone di appartenenze aziendali attive, viene restituito un errore di autorizzazione. |
 | includeInvalid | `xsd:boolean` | No | Consente di includere/escludere utenti non validi. |
-| companyHandleArray | `types:HandleArray` | No | Filtrare i risultati per azienda. |
-| groupHandleArray | `types:HandleArray` | No | Filtrare i risultati per gruppo. |
-| userRoleArray | `types:StringArray` | No | Filtrare i risultati per ruolo utente. |
-| charFilterField | `xsd:string` | No | Filtra i risultati per prefisso della stringa del campo (vedi [!DNL Trash State).] |
-| charFilter | `xsd:string` | No | Filtrare i risultati per un carattere specifico. |
+| companyHandleArray | `types:HandleArray` | No | Filtra i risultati per società. |
+| groupHandleArray | `types:HandleArray` | No | Filtra i risultati per gruppo. |
+| userRoleArray | `types:StringArray` | No | Filtra i risultati per ruolo utente. |
+| charFilterField | `xsd:string` | No | Filtrare i risultati in base al prefisso della stringa del campo (vedere [!DNL Trash State).] |
+| charFilter | `xsd:string` | No | Filtra i risultati in base a un carattere specifico. |
 | sortBy | `xsd:string` | No | Scelta dei campi di ordinamento utente. |
 | recordsPerPage | `xsd:int` | No | Restituisce il numero specificato di record per pagina. |
-| resultPage | `xsd:int` | No | Pagina dei risultati. |
+| resultsPage | `xsd:int` | No | Pagina dei risultati. |
 
 **Output (getUsersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userArray | `types:UserArray` | Sì | Un array di utenti. |
+| userArray | `types:UserArray` | Sì | Array di utenti. |
 
 ## Esempi {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Questo esempio di codice restituisce l&#39;array di utenti per diversi parametri facoltativi. I ruoli utente, i campi filtro caratteri utente e i campi di ordinamento utente sono determinati utilizzando costanti stringa specifiche.
+Questo esempio di codice restituisce l’array di utenti per diversi parametri facoltativi. I ruoli utente, i campi filtro caratteri utente e i campi di ordinamento utente sono determinati utilizzando costanti di stringa specifiche.
 
 **Request Contents (Richiesta contenuto)**
 

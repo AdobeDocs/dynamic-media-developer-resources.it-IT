@@ -14,21 +14,21 @@ ht-degree: 1%
 
 # FlyoutZoomView.highlightmode{#flyoutzoomview-highlightmode}
 
-` [FlyoutZoomView.|<containerId>_flyout.]highlightmode=highlight|cursor[, *`spettacolo`*[,onimage|free]]`
+` [FlyoutZoomView.|<containerId>_flyout.]highlightmode=highlight|cursor[, *`showtime`*[,onimage|free]]`
 
 <table id="table_C6F4C663099F40698874731590A22924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> evidenziatore|cursore </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di frame di navigazione da utilizzare. Quando è impostato su <span class="codeph"> cursore </span>, il componente utilizza un cursore di riferimento a dimensione fissa. È possibile avere diverse immagini del cursore per i sistemi desktop e i dispositivi touch. Questa capacità è controllata con <span class="codeph"> .s7cursor </span> Classe CSS e <span class="codeph"> input=mouse|touch </span> selettore di attributi. Nei sistemi desktop, un punto di ancoraggio è impostato al centro dell'area del cursore, mentre sui dispositivi touch l'ancoraggio è al centro inferiore del cursore. Quando è impostato su <span class="codeph"> highlight </span>, il componente utilizza un riquadro di navigazione a dimensione variabile; le dimensioni e la forma del fotogramma dipendono dal fattore di zoom e dalle dimensioni della visualizzazione a comparsa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> highlight|cursore </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di frame di navigazione da utilizzare. Se impostato su <span class="codeph"> cursore </span>, il componente utilizza un cursore di riferimento di dimensione fissa. È possibile utilizzare un cursore art diverso per i sistemi desktop e i dispositivi touch. Questa capacità è controllata con <span class="codeph"> .s7cursor </span> Classe CSS e <span class="codeph"> input=mouse|touch </span> selettore di attributi. Nei sistemi desktop, viene impostato un punto di ancoraggio al centro dell'area del cursore, mentre nei dispositivi touch l'ancoraggio si trova al centro inferiore del cursore. Se impostato su <span class="codeph"> evidenziare </span>, il componente utilizza un frame di navigazione di dimensioni variabili; le dimensioni e la forma del frame dipendono dal fattore di zoom e dalle dimensioni della visualizzazione a comparsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spettacolo </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tempo (in secondi) in cui l’evidenziazione o il cursore vengono sfumati dopo l’attivazione da parte dell’utente. La dissolvenza in entrata viene applicata solo sui dispositivi touch; sui sistemi desktop viene ignorato dal componente. </p> <p>La dissolvenza in si applica ai seguenti elementi dell’interfaccia utente: evidenziatore, cursore fisso, sovrapposizione (nel caso <span class="codeph"> sovrapposizione </span> è impostato su <span class="codeph"> 1 </span>). L’animazione della visualizzazione a comparsa inizia solo al termine della dissolvenza dell’evidenziazione/cursore nell’animazione. Non c'è animazione dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia (cursore, evidenziazione e sovrapposizione) vengono nascosti istantaneamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
+   <td colname="col2"> <p> Imposta il tempo (in secondi) di dissolvenza in entrata dell'evidenziazione o del cursore dopo l'attivazione da parte dell'utente. La dissolvenza in entrata viene applicata solo ai dispositivi touch; sui sistemi desktop viene ignorata dal componente. </p> <p>La dissolvenza in entrata si applica ai seguenti elementi dell’interfaccia utente: cornice di evidenziazione, cursore fisso, sovrapposizione (se presenti <span class="codeph"> sovrapposizione </span> il parametro è impostato su <span class="codeph"> 1 </span>). L'animazione della vista a comparsa inizia solo dopo la dissolvenza di evidenziazione/cursore al termine dell'animazione. Nessuna animazione di dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia utente (cursore, evidenziazione e sovrapposizione) si nascondono immediatamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 
-   <td colname="col2"> <p> Controlla il posizionamento del frame di navigazione. </p> <p>Se impostato su <span class="codeph"> onimage </span>, il riquadro di navigazione può essere posizionato solo all'interno dell'area dell'immagine effettiva all'interno della vista principale. </p> <p>Se impostato su <span class="codeph"> gratuito </span> un utente può spostare il frame di navigazione in qualsiasi punto dell'area di visualizzazione principale logica, anche all'esterno del contenuto dell'immagine. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> onimage|libero </span> </p> </td> 
+   <td colname="col2"> <p> Controlla il posizionamento del frame di navigazione. </p> <p>Se impostato su <span class="codeph"> onimage </span>, la cornice di navigazione può essere posizionata solo all'interno dell'area immagine effettiva all'interno della vista principale. </p> <p>Se impostato su <span class="codeph"> gratuito </span> un utente può spostare il frame di navigazione in qualsiasi punto dell'area di visualizzazione principale logica, anche al di fuori del contenuto dell'immagine. </p> </td> 
   </tr> 
  </tbody> 
 </table>

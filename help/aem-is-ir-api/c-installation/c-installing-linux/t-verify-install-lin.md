@@ -1,6 +1,6 @@
 ---
 title: Verifica dell'installazione
-description: Dopo aver installato Image Serving su Linux®, verifica l'installazione.
+description: Dopo aver installato Image Server su Linux®, verificare l'installazione.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Verifica dell&#39;installazione{#verifying-the-installation}
 
-Dopo aver installato Image Serving su Linux®, verifica l&#39;installazione.
+Dopo aver installato Image Server su Linux®, verificare l&#39;installazione.
 
-Image Server è installato come daemon Linux®.
+Il server immagini è installato come daemon Linux®.
 
 **Verificare l&#39;installazione**
 
@@ -28,12 +28,12 @@ Image Server è installato come daemon Linux®.
    >
    >Per eseguire questi script è necessario disporre delle autorizzazioni radice.
 
-1. Apri un browser Internet sullo stesso host o su un altro e controlla le risposte del server predefinito:
+1. Aprire un browser Internet sullo stesso host o su un host diverso e verificare le risposte predefinite del server:
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Nelle risposte, controlla la presenza di elementi che iniziano con `imageServer`, che indicano che [!DNL Platform Server] impossibile comunicare con Image Server.
+Nelle risposte, verifica la presenza di elementi che iniziano con `imageServer`, che indicano che [!DNL Platform Server] è stato possibile comunicare con il server immagini.
 
 >Puoi eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.

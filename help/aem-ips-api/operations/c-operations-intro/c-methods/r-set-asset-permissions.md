@@ -1,5 +1,5 @@
 ---
-description: Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
+description: Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazione.
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # setAssetPermissions{#setassetpermissions}
 
-Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazioni.
+Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazione.
 
-Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, non eredita più le autorizzazioni del suo elemento padre, a meno che tu non chiami `removeAssetPermissions`.
+Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, questa non eredita più le autorizzazioni del relativo elemento padre, a meno che tu non chiami `removeAssetPermissions`.
 
 ## Tipi di utenti autorizzati {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -30,9 +30,9 @@ Per impostazione predefinita, le risorse ereditano le autorizzazioni della carte
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene la cartella con cui si desidera lavorare. |
-| assetHandle | `xsd:string` | Sì | Maniglia della cartella. |
-| permissionArray | `types:PermissionsUpdateArray` | Sì | Matrice di autorizzazioni. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda contenente la cartella che si desidera utilizzare. |
+| assetHandle | `xsd:string` | Sì | Handle di cartella. |
+| permissionArray | `types:PermissionsUpdateArray` | Sì | Array di autorizzazioni. |
 
 **Output (setAssetPermissonsReturn)**
 

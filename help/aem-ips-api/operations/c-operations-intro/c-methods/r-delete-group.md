@@ -8,7 +8,7 @@ exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -30,8 +30,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società che appartiene al gruppo che si desidera eliminare. |
-| groupHandle | `xsd:string` | Sì | L&#39;handle del gruppo da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda appartenente al gruppo che si desidera eliminare. |
+| groupHandle | `xsd:string` | Sì | Handle del gruppo che si desidera eliminare. |
 
 **Output (deleteGroupParam)**
 
@@ -39,7 +39,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Questo codice di esempio elimina un gruppo da una società. Richiede un handle di gruppo, che è necessario ottenere da un&#39;altra operazione.
+Questo codice di esempio elimina un gruppo da un’azienda. Richiede un handle di gruppo che è necessario ottenere da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 

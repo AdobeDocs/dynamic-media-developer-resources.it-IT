@@ -1,5 +1,5 @@
 ---
-description: Matrice di storie di pubblicazione.
+description: Matrice di cronologie di pubblicazione.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: a3c5c523-0157-449d-b03c-56b23501e822
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 14%
 
 ---
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-Matrice di storie di pubblicazione.
+Matrice di cronologie di pubblicazione.
 
 Sintassi
 

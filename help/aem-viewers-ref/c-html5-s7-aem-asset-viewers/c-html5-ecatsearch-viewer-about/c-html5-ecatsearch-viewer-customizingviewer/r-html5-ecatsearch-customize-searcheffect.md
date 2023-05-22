@@ -1,6 +1,6 @@
 ---
-title: Effetto Ricerca
-description: Il visualizzatore visualizza le aree dei risultati della ricerca sulla visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
+title: Effetto di ricerca
+description: Il visualizzatore visualizza le aree dei risultati di ricerca sopra la visualizzazione principale per evidenziare le parole o le frasi trovate nel catalogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Effetto Ricerca{#search-effect}
+# Effetto di ricerca{#search-effect}
 
-Il visualizzatore visualizza le aree dei risultati della ricerca sulla visualizzazione principale per evidenziare parole o frasi trovate nel catalogo.
+Il visualizzatore visualizza le aree dei risultati di ricerca sopra la visualizzazione principale per evidenziare le parole o le frasi trovate nel catalogo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto delle aree dei risultati della ricerca è controllato con il seguente selettore di classi CSS:
+L’aspetto delle aree dei risultati di ricerca è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -34,12 +34,12 @@ L’aspetto delle aree dei risultati della ricerca è controllato con il seguent
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Sfondo dell'area dei risultati della ricerca. </p> </td> 
+   <td colname="col2"> <p>Sfondo dell'area dei risultati di ricerca. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare le aree dei risultati della ricerca con un riempimento giallo semitrasparente:
+Esempio: per impostare le aree dei risultati di ricerca con un riempimento giallo semitrasparente:
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 

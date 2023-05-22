@@ -1,19 +1,20 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 4963ab9f-0605-4b1d-9a9d-19bdc968e8fd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -21,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Disattiva o abilita la barra del titolo dell’etichetta del capitolo video. L'ora di inizio del capitolo non viene visualizzata quando la barra del titolo è disattivata. </p> </td> 
+   <td colname="col2"> <p> Disattiva o attiva la barra del titolo dell'etichetta del capitolo video. L'ora di inizio del capitolo non viene visualizzata quando la barra del titolo è disattivata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

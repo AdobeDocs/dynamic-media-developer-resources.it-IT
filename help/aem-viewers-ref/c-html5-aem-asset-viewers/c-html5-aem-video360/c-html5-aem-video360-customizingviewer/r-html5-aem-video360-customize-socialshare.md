@@ -1,6 +1,6 @@
 ---
-title: Quota sociale
-description: Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell'angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+title: Condivisione social
+description: Per impostazione predefinita, lo strumento condivisione social viene visualizzato nell'angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,42 +12,42 @@ ht-degree: 0%
 
 ---
 
-# Quota sociale{#social-share}
+# Condivisione social{#social-share}
 
-Per impostazione predefinita, lo strumento di condivisione social network viene visualizzato nell&#39;angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+Per impostazione predefinita, lo strumento condivisione social viene visualizzato nell&#39;angolo superiore destro. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La posizione e le dimensioni dello strumento di social sharing nell&#39;interfaccia utente del visualizzatore sono controllate con i seguenti elementi:
+La posizione e le dimensioni dello strumento di condivisione social network nell’interfaccia utente del visualizzatore sono controllate da quanto segue:
 
 ```
 .s7video360viewer .s7socialshare
 ```
 
-**Proprietà CSS dello strumento di social sharing**
+**Proprietà CSS dello strumento condivisione social**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione verticale dello strumento di condivisione social rispetto al contenitore del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p> Posizione verticale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione orizzontale dello strumento di condivisione social rispetto al contenitore del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p> Posizione orizzontale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza dello strumento di condivisione social network. </p> </td> 
+   <td colname="col2"> <p> Larghezza dello strumento di condivisione social. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dello strumento di condivisione social network. </p> </td> 
+   <td colname="col2"> <p>Altezza dello strumento di condivisione social. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare uno strumento di condivisione social network che sia posizionato quattro pixel dalla parte superiore e cinque pixel dalla parte destra del contenitore del visualizzatore e abbia dimensioni 28 x 28 pixel.
+**Esempio** : per impostare uno strumento di condivisione social, posizionato quattro pixel dall’alto e cinque pixel dalla destra del contenitore visualizzatore e ridimensionato a 28 x 28 pixel.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -58,34 +58,34 @@ La posizione e le dimensioni dello strumento di social sharing nell&#39;interfac
 }
 ```
 
-L&#39;aspetto del pulsante dello strumento di social sharing è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante dello strumento Condivisione social è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton
 ```
 
-**Proprietà CSS del pulsante dello strumento di social sharing**
+**Proprietà CSS del pulsante dello strumento condivisione social**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un pulsante dello strumento di condivisione social network che mostra un’immagine diversa per ciascuno dei quattro stati del pulsante.
+**Esempio** : per impostare un pulsante per lo strumento di condivisione social che mostri un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -102,24 +102,24 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-L&#39;aspetto del pannello che contiene le singole icone di condivisione social è controllato con il seguente selettore di classe CSS:
+L’aspetto del pannello che contiene le singole icone di condivisione social è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel
 ```
 
-**Proprietà CSS del pannello di condivisione social**
+**Proprietà CSS del pannello Condivisione social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare un pannello con colore trasparente:
+**Esempio** - Per impostare un pannello in modo che presenti un colore trasparente:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

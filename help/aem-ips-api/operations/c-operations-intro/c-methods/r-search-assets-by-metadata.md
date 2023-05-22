@@ -1,5 +1,5 @@
 ---
-description: Cerca nell'archivio dell'indice dei metadati i termini di ricerca specificati. Restituisce i dati delle risorse come il metodo searchAssets.
+description: Cerca i termini di ricerca specificati nell'archivio dell'indice dei metadati. Restituisce i dati delle risorse come il metodo searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Cerca nell&#39;archivio dell&#39;indice dei metadati i termini di ricerca specificati. Restituisce i dati delle risorse come il metodo searchAssets.
+Cerca i termini di ricerca specificati nell&#39;archivio dell&#39;indice dei metadati. Restituisce i dati delle risorse come il metodo searchAssets.
 
-Quando `searchAssetsByMetadata` consente di eseguire ricerche nei campi metadati definiti dall’utente, ma tali campi non vengono restituiti se sono specificati nel campo `responseMetadataArray`. Per illustrare questo punto, nell&#39;esempio di codice seguente:
+Mentre `searchAssetsByMetadata` consente di eseguire ricerche nei campi metadati definiti dall&#39;utente. Tali campi non vengono restituiti se sono specificati in `responseMetadataArray`. Per illustrare questo punto, il seguente esempio di codice:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ restituisce un valore null:
 </items>
 ```
 
-Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse restituite dalla ricerca da eseguire `getAssets` (vedi anche [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Questo metodo ottiene i valori dei campi definiti dall&#39;utente per le risorse in questione. Utilizza il seguente esempio di sintassi per cercare nei campi metadati definiti dall&#39;utente:
+Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle risorse restituite dalla ricerca da eseguire `getAssets` (vedere anche [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Questo metodo ottiene i valori dei campi definiti dall&#39;utente per le risorse in questione. Utilizza l’esempio di sintassi seguente per eseguire ricerche nei campi di metadati definiti dall’utente:
 
 ```java
 <ns:metadataConditionArray>
@@ -71,27 +71,27 @@ Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse r
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Il manico per l'azienda. </p> </td> 
+   <td colname="col4"> <p>La maniglia per l'azienda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> tipo:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Filtri che consentono di definire i criteri di ricerca. </p> <p>Vedi <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtri che consentono di definire i criteri di ricerca. </p> <p>Consulta <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> tipo:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Condizioni che definiscono i criteri di ricerca. Per ulteriori informazioni, consulta di seguito. </p> </td> 
+   <td colname="col4"> <p>Condizioni che definiscono i criteri di ricerca. Per ulteriori informazioni, vedere di seguito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Campi aggiuntivi da compilare nella risposta nel riepilogo risorse. I campi devono essere specificati nel formato normalizzato. </p> </td> 
+   <td colname="col4"> <p>Campi aggiuntivi da compilare nella risposta nel riepilogo delle risorse. I campi devono essere specificati nel formato normalizzato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -100,22 +100,22 @@ Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse r
    <td colname="col4"> <p>Numero di risorse restituite dalla risposta. Il valore predefinito è 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultPage</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Specifica la pagina dei risultati da restituire, in base a <span class="codeph"> recordsPerPage</span> dimensioni della pagina. </p> </td> 
+   <td colname="col4"> <p>Specifica la pagina di risultati da restituire, in base a <span class="codeph"> recordsPerPage</span> dimensioni della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Ordina per campo risorsa selezionato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Scelta del tipo di direzione. Crescente è l'impostazione predefinita. </p> </td> 
+   <td colname="col4"> <p>Scelta della direzione di ordinamento. L'impostazione predefinita è Crescente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,7 +129,7 @@ Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse r
 
 ## Dettagli metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
-**Struttura dell&#39;articolo**
+**Struttura articolo**
 
 `metadataConditionArray` la struttura è la seguente:
 
@@ -143,7 +143,7 @@ Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse r
 
 **Valori**
 
-`field_handle` è la chiave di ricerca dei metadati. Può contenere la notazione del punto. I valori possibili sono:
+`field_handle` è la chiave di ricerca dei metadati. Può contenere la notazione del punto. I valori possibili includono:
 
 * `asset_id` (senza prefisso)
 * `name`
@@ -156,13 +156,13 @@ Per risolvere questo problema, puoi utilizzare il `fieldHandles` delle risorse r
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (uguale a `modified_at` (Data nel modulo: 25 luglio 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (come `modified_at` (Data nella forma: Ven 25 luglio 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
 **Operatori consentiti**
 
-La [!DNL operator] definisce come confrontare il valore e includere:
+Il [!DNL operator] definisce come confrontare il valore e include:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ La [!DNL operator] definisce come confrontare il valore e includere:
 * `StartsWith`
 * `EndsWith`
 
-La `comparison_value` è il termine da cercare.
+Il `comparison_value` è il termine da cercare.
 
 ## Esempi {#section-53a12b9c023e4e629eddf5719c955ad4}
 
-Questo esempio di codice esegue una ricerca con i seguenti criteri di metadati:
+In questo esempio di codice viene eseguita una ricerca con i seguenti criteri di metadati:
 
-* `name` contiene `1000801`.
+* `name` il campo contiene `1000801`.
 
-* `dc.rights` campo uguale a `Per Jessen Schmidt`.
+* `dc.rights` field è uguale a `Per Jessen Schmidt`.
 
 **Request Contents (Richiesta contenuto)**
 

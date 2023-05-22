@@ -8,7 +8,7 @@ exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 
@@ -22,9 +22,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| name | `xsd:string` | Nome metadati. |
-| value | `xsd:string` | Valore metadati. |
-| boolVal | `xsd:boolean` | Valore di metadati booleani (solo per campi con tipo booleano). |
-| longVal | `xsd:long` | Valore metadati lungo (solo per campi digitati). |
-| doubleVal | `xsd:double` | Valore di metadati doppio (solo per campi con tipo mobile). |
-| dateVal | `xsd:dateTime` | Valore dei metadati della data (solo per i campi con tipo data). |
+| nome | `xsd:string` | Nome metadati. |
+| valore | `xsd:string` | Valore metadati. |
+| boolVal | `xsd:boolean` | Valore dei metadati booleani (solo per campi di tipo booleano). |
+| longVal | `xsd:long` | Valore metadati lunghi (solo per campi di tipo int). |
+| doubleVal | `xsd:double` | Valore metadati doppio (solo per campi di tipo float). |
+| dateVal | `xsd:dateTime` | Valore dei metadati della data (solo per campi di tipo data). |

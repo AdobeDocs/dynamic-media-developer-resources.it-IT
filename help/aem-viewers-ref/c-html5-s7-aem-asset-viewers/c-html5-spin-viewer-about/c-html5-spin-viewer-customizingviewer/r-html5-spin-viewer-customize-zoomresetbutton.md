@@ -1,6 +1,6 @@
 ---
-title: Pulsante Ripristina zoom
-description: Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+title: Pulsante di ripristino zoom
+description: Toccando o facendo clic su questo pulsante si ripristina un'immagine nella visualizzazione principale. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Pulsante Ripristina zoom{#zoom-reset-button}
+# Pulsante di ripristino zoom{#zoom-reset-button}
 
-Tocca o fai clic su questo pulsante per ripristinare un’immagine nella vista principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+Toccando o facendo clic su questo pulsante si ripristina un&#39;immagine nella visualizzazione principale. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7spinviewer .s7zoomresetbutton
@@ -39,11 +39,11 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -59,23 +59,23 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante di ripristino dello zoom di 32 x 32 pixel e posizionarlo a sei pixel dal bordo superiore e destro del visualizzatore. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+Esempio: per impostare un pulsante di ripristino dello zoom di 32 x 32 pixel e posizionare sei pixel dal bordo superiore e destro del visualizzatore. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7spinviewer .s7zoomresetbutton { 

@@ -1,55 +1,55 @@
 ---
-description: Costanti di stringa
+description: Costanti stringa
 solution: Experience Manager
-title: Costanti di stringa
-feature: Dynamic Media Classic, SDK/API
+title: Costanti stringa
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 7%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
-# Costanti di stringa{#string-constants}
+# Costanti stringa{#string-constants}
 
-* [Stati del processo attivo](r-active-job-states.md)
+* [Stati processo attivi](r-active-job-states.md)
 * [Campi del sistema di ricerca risorse](r-asset-search-system-fields.md)
 * [Modalità di sovrascrittura delle risorse](r-asset-overwrite-modes.md)
-* [Campi di ordinamento delle risorse](r-asset-sort-fields.md)
+* [Campi di ordinamento risorse](r-asset-sort-fields.md)
 * [Tipi di risorse](r-asset-types.md)
-* [Angolo ritaglio automatico](r-auto-crop-corner.md)
+* [Ritaglio automatico angolo](r-auto-crop-corner.md)
 * [Modalità di gestione del colore](r-color-management-modes.md)
 * [Spazi colore](r-color-spaces.md)
 * [Impostazioni e-mail](r-email-settings.md)
 * [Stili font](r-font-styles.md)
-* [Tipi di font](r-font-types.md)
+* [Tipi di carattere](r-font-types.md)
 * [Informazioni sulla generazione](r-generation-info.md)
 * [Processi Illustrator](r-illustrator-processes.md)
-* [Tipi di file registro processi](r-job-log-file-types.md)
-* [Campi di ordinamento del registro dei processi](r-job-log-sort-fields.md)
-* [Tipi di log dei processi](r-job-log-types.md)
-* [Stati trigger processo](r-job-trigger-states.md)
+* [Tipi di file registro processo](r-job-log-file-types.md)
+* [Campi di ordinamento registro processo](r-job-log-sort-fields.md)
+* [Tipi di registro processo](r-job-log-types.md)
+* [Stati di attivazione processo](r-job-trigger-states.md)
 * [Tipi di lavoro](r-job-types.md)
 * [Tipi di campi metadati](r-metadata-field-types.md)
 * [Operatori di confronto numerico/data](r-numeric-date-comparison-operators.md)
 * [Processi PDF](r-pdf-processes.md)
-* [Tipi di autorizzazioni](r-permission-types.md)
+* [Tipi di autorizzazione](r-permission-types.md)
 * [Modalità di ancoraggio Photoshop](r-photoshop-anchor-modes.md)
-* [Modalità di denominazione dei livelli Photoshop](r-photoshop-layer-naming-modes.md)
-* [Modalità a colori PostScript](r-postscript-colorspace-modes.md)
-* [Classi di profilo](r-profile-classes.md)
-* [Stato di pubblicazione](r-publish-state.md)
+* [Modalità di denominazione dei livelli di Photoshop](r-photoshop-layer-naming-modes.md)
+* [Modalità spazio colore PostScript](r-postscript-colorspace-modes.md)
+* [Classi profilo](r-profile-classes.md)
+* [Stato pubblicazione](r-publish-state.md)
 * [Tipi di set di proprietà](r-property-set-types.md)
 * [Contesto di pubblicazione](r-publish-context.md)
 * [Tipi di pubblicazione](r-publish-types.md)
-* [Forma area](r-region-shape.md)
-* [Modalità di ricerca](r-search-match-modes.md)
+* [Forma Regione](r-region-shape.md)
+* [Cerca modalità di corrispondenza](r-search-match-modes.md)
 * [Ordina direzioni](r-sort-directions.md)
-* [Operatori di confronto delle stringhe](r-string-comparison-operators.md)
-* [Stato del cestino](r-trash-state.md)
-* [Campi filtro caratt. utente](r-user-char-filter-fields.md)
+* [Operatori di confronto stringhe](r-string-comparison-operators.md)
+* [Stato cestino](r-trash-state.md)
+* [Campi filtro caratteri utente](r-user-char-filter-fields.md)
 * [Ruoli utente](r-user-roles.md)
 * [Campi di ordinamento utente](r-user-sort-fields.md)
 * [Tipo visualizzatore](r-viewer-type.md)

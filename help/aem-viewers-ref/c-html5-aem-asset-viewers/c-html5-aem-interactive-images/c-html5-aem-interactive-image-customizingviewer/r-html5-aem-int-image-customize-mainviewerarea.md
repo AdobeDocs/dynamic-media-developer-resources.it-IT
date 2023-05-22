@@ -1,6 +1,6 @@
 ---
 title: Area visualizzatore principale
-description: L'area di visualizzazione principale è l'area occupata dall'immagine dello zoom. È impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+description: L'area di visualizzazione principale è l'area occupata dall'immagine di zoom. È impostato per adattarsi allo schermo del dispositivo disponibile quando non è specificata alcuna dimensione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Area visualizzatore principale{#main-viewer-area}
 
-L&#39;area di visualizzazione principale è l&#39;area occupata dall&#39;immagine dello zoom. È impostato per adattarsi alla schermata del dispositivo disponibile quando non è specificata alcuna dimensione.
+L&#39;area di visualizzazione principale è l&#39;area occupata dall&#39;immagine di zoom. È impostato per adattarsi allo schermo del dispositivo disponibile quando non è specificata alcuna dimensione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7interactiveimage
@@ -43,7 +43,7 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 

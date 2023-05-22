@@ -1,6 +1,6 @@
 ---
 title: Pulsante Miniature
-description: Selezionando questo pulsante, il visualizzatore viene reimpostato tra la visualizzazione principale e le miniature. Questo pulsante viene visualizzato nella barra di controllo principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+description: Se si seleziona questo pulsante, il visualizzatore viene reimpostato alternando la visualizzazione principale alle miniature. Questo pulsante viene visualizzato nella barra di controllo principale. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Pulsante Miniature{#thumbnails-button}
 
-Selezionando questo pulsante, il visualizzatore viene reimpostato tra la visualizzazione principale e le miniature. Questo pulsante viene visualizzato nella barra di controllo principale. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+Se si seleziona questo pulsante, il visualizzatore viene reimpostato alternando la visualizzazione principale alle miniature. Questo pulsante viene visualizzato nella barra di controllo principale. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailpagebutton`
 
@@ -33,12 +33,12 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
-   <td colname="col2"> <p> La distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo, se questo pulsante è il primo di una riga. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> Distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo se questo pulsante è il primo di una riga. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,23 +49,23 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta entrambi `state` e `selected` selettori di attributi, che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato del visualizzatore quando la modalità miniatura è attiva e `selected='false'` corrisponde allo stato predefinito con vista principale.
+>Questo pulsante supporta sia `state` e `selected` selettori di attributi, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare: `selected='true'` corrisponde allo stato del visualizzatore quando la modalità miniatura è attiva e `selected='false'` corrisponde allo stato predefinito con la vista principale.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante miniature di 28 x 28 pixel e posizionato 4 pixel dal fondo e 5 pixel dal bordo sinistro della barra di controllo principale. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
+Esempio: per impostare un pulsante delle miniature di 28 x 28 pixel posizionato a 4 pixel dal basso e a 5 pixel dal bordo sinistro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati del pulsante, se selezionato o meno.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailpagebutton{ 

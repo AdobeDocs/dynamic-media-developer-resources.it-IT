@@ -1,6 +1,6 @@
 ---
-title: Riferimento API JavaScript per il visualizzatore di eCatalog
-description: La classe principale del visualizzatore eCatalog è eCatalogViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+title: Riferimento API JavaScript per il visualizzatore eCatalog
+description: La classe principale di eCatalog Viewer è eCatalogViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Riferimento API JavaScript per il visualizzatore di eCatalog{#javascript-api-reference-for-ecatalog-viewer}
+# Riferimento API JavaScript per il visualizzatore eCatalog{#javascript-api-reference-for-ecatalog-viewer}
 
-La classe principale del visualizzatore eCatalog è eCatalogViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+La classe principale di eCatalog Viewer è eCatalogViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 
-In tutti gli esempi seguenti: `<instance>` sta per il nome effettivo dell’oggetto visualizzatore JavaScript che viene istanziato dal `s7viewers.eCatalogViewer` classe.
+In tutti gli esempi seguenti: `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui è stata creata un&#39;istanza dal `s7viewers.eCatalogViewer` classe.

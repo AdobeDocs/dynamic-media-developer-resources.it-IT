@@ -1,71 +1,71 @@
 ---
-description: Zoom dei dati di destinazione. Nessuna o più proprietà di destinazione dello zoom, utilizzabili insieme al client del visualizzatore di zoom.
+description: Zoom dei dati di destinazione. Nessuna o più proprietà della destinazione di zoom, che possono essere utilizzate insieme al client del visualizzatore di zoom.
 solution: Experience Manager
-title: Destinazioni
-feature: Dynamic Media Classic, SDK/API
+title: Target
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 2%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
-# Destinazioni{#targets}
+# Target{#targets}
 
-Zoom dei dati di destinazione. Nessuna o più proprietà di destinazione dello zoom, utilizzabili insieme al client del visualizzatore di zoom.
+Zoom dei dati di destinazione. Nessuna o più proprietà della destinazione di zoom, che possono essere utilizzate insieme al client del visualizzatore di zoom.
 
-Il server restituisce il contenuto di questo campo in risposta a `req=targets`, dopo aver sostituito i token di terminazione dei record &#39; `??`&#39;.
+Il server restituisce il contenuto di questo campo in risposta a `req=targets`, dopo la sostituzione di &#39; `??`&#39; record terminator token.
 
-A ciascuna destinazione di zoom possono essere associate fino a quattro proprietà:
+Ad ogni destinazione di zoom possono essere associate fino a quattro proprietà:
 
-` Target. *``*.frame= *`numframe`*`
+` Target. *`num`*.frame= *`frame`*`
 
-` Target. *``*.rect= *`numleft,top,width,height`*`
+` Target. *`num`*.rect= *`sinistra,alto,larghezza,altezza`*`
 
-` Target. *``*.label= *`numlabel`*`
+` Target. *`num`*.label= *`etichetta`*`
 
-` Target. *``*.userData= *`numuserData`*`
+` Target. *`num`*.userData= *`userData`*`
 
 <table id="simpletable_4C20157A7A444DEB9959B335CAFBAEC8"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> num  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Zoom del numero di destinazione (int); le destinazioni di zoom devono essere numerate sequenzialmente e consecutivamente, a partire da 1. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> num </span> </span> </p> </td> 
+  <td class="stentry"> <p>Numero destinazione di zoom (int); le destinazioni di zoom devono essere numerate in sequenza e in sequenza, a partire da 1. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cornice  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Numero opzionale di fotogramma/pagina per il targeting di un frame/pagina specifico di un set 360 gradi o di brochure; viene impostato su 0 se non specificato per l'uso del visualizzatore di spin e brochure; ignorato dal visualizzatore zoom. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> frame </span> </span> </p> </td> 
+  <td class="stentry"> <p>Numero di frame/pagina facoltativo per il targeting di un frame/pagina specifico di un set 360 gradi o di una brochure. Se non è specificato per l'uso del visualizzatore rotazione e brochure, il valore predefinito è 0. Viene ignorato dal visualizzatore zoom. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sinistra, in alto  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Offset pixel dall'alto a sinistra dell'immagine all'alto a sinistra del rettangolo di destinazione dello zoom (int, int); deve essere maggiore o uguale a 0. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> a sinistra, in alto </span> </span> </p> </td> 
+  <td class="stentry"> <p>Offset pixel dal margine superiore sinistro dell'immagine al margine superiore sinistro del rettangolo di destinazione dello zoom (int, int); deve essere maggiore o uguale a 0. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> larghezza, altezza  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Dimensioni dei pixel del rettangolo di destinazione dello zoom (int, int); deve essere maggiore di 0. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> larghezza, altezza </span> </span> </p> </td> 
+  <td class="stentry"> <p>Dimensione in pixel del rettangolo di destinazione dello zoom (int, int); deve essere maggiore di 0. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> etichetta  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valore dei dati di testo; può essere utilizzata come etichetta di testo per un collegamento di destinazione zoom. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> etichetta </span> </span> </p> </td> 
+  <td class="stentry"> <p>Valore di dati di testo; può essere utilizzato come etichetta di testo per un collegamento di destinazione di zoom. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> userData  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valore dei dati di testo; può essere utilizzato per trasmettere informazioni specifiche di target al client, ad esempio un valore SKU o un URL di collegamento rapido. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> userData </span> </span> </p> </td> 
+  <td class="stentry"> <p>Valore di dati di testo; può essere utilizzato per trasmettere al client informazioni specifiche per la destinazione, ad esempio un valore SKU o un URL di collegamento rapido. </p> </td> 
  </tr> 
 </table>
 
-Destinazione. *`num`* Per ciascuna destinazione di zoom è necessario .rect e specificare un rettangolo completamente all’interno dell’immagine. Tutte le altre proprietà sono facoltative.
+Destinazione. *`num`*.rect è obbligatorio per ciascuna destinazione di zoom e deve specificare un rettangolo che si trovi completamente all&#39;interno dell&#39;immagine. Tutte le altre proprietà sono facoltative.
 
-*`label`* e  *`userData`* partecipare alla localizzazione delle stringhe di testo. Per ulteriori informazioni, consulta [Localizzazione delle stringhe di testo](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in *Riferimento al protocollo HTTP* .
+*`label`* e *`userData`* partecipare alla localizzazione delle stringhe di testo. Fai riferimento a [Localizzazione stringa di testo](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) nel *Riferimento protocollo HTTP* per i dettagli.
 
-Per le applicazioni che coinvolgono i client di visualizzazione di spin e brochure, le destinazioni di zoom devono essere definite nello stesso record di catalogo che definisce il set di immagini. Tutte le definizioni di destinazione di zoom nei record di catalogo dei membri del set di immagini vengono ignorate dal visualizzatore.
+Per le applicazioni che coinvolgono i client visualizzatore di rotazioni e brochure, le destinazioni di zoom devono essere definite nello stesso record di catalogo che definisce il set di immagini. Qualsiasi definizione di destinazione di zoom nei record di catalogo dei membri del set di immagini viene ignorata dal visualizzatore.
 
-I visualizzatori Dynamic Media si aspettano che le destinazioni di zoom nelle coordinate dell&#39;immagine a risoluzione piena già regolate dai comandi di `catalog::Modifier`.
+I visualizzatori Dynamic Media si aspettano che le destinazioni di zoom nelle coordinate dell&#39;immagine a risoluzione completa siano già regolate dai comandi di `catalog::Modifier`.
 
 ## Proprietà {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
-[Valore ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) dati proprietà.
+[Dati proprietà](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) valore.
 
 ## Predefinito {#section-feab29f6575e482391086a57f547543c}
 
@@ -73,4 +73,4 @@ Nessuno.
 
 ## Consultate anche {#section-83dea73b1dbf4aa1b64b0aae2933e6e1}
 
-[catalogo::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [catalogo::Modificatore](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834),  [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), Localizzazione stringa  [di testo](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[catalogo::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) , [catalogo::Modificatore](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834), [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Localizzazione stringa di testo](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

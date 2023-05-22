@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.autoplay
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 1f01f2fe-7f04-4923-be75-e9dd97ab3e21
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
 # SmartCropVideoPlayer.autoplay{#smartcropvideoplayer-autoplay}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 ` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 

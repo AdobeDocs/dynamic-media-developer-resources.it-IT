@@ -1,20 +1,20 @@
 ---
-description: Registro dei processi dopo l'esecuzione del processo.
+description: Registro del processo dopo l'esecuzione del processo.
 solution: Experience Manager
-title: Registro processi
+title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # [!DNL JobLog]{#joblog}
 
-Registro dei processi dopo l&#39;esecuzione del processo.
+Registro del processo dopo l&#39;esecuzione del processo.
 
 Sintassi
 
@@ -22,16 +22,16 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| companyHandle | `xsd:string` | Tratta l&#39;azienda. |
-| jobHandle | `xsd:string` | Maniglia di lavoro. |
+| companyHandle | `xsd:string` | Gestore azienda. |
+| jobHandle | `xsd:string` | Handle di processo. |
 | jobName | `xsd:string` | Nome processo. |
 | originalJobName | `xsd:string` | Nome originale inviato per il processo con `submitJob`. |
 | submitUserEmail | `xsd:string` | L’indirizzo e-mail dell’utente che ha inviato il processo. |
-| logType | `xsd:string` | Scelta dei tipi di registro processi. |
+| logType | `xsd:string` | Scelta dei tipi di registro processo. |
 | jobSubType | `xsd:string` | Informazioni aggiuntive sul processo. |
-| startDate | `xsd:dateTime` | Data, ora e fuso orario di inizio del processo. |
-| endDate | `xsd:dateTime` | Data, ora e fuso orario di fine del processo. |
-| [!DNL description] | `xsd:string` | Una descrizione del processo come specificato originariamente in `submitJob`. |
+| startDate | `xsd:dateTime` | La data di inizio, l&#39;ora e il fuso orario del processo. |
+| endDate | `xsd:dateTime` | La data di fine, l&#39;ora e il fuso orario del processo. |
+| [!DNL description] | `xsd:string` | Una descrizione del processo come originariamente specificato in `submitJob`. |
 | fileSuccessCount | `xsd:int` | Numero di file elaborati correttamente. |
 | fileErrorCount | `xsd:int` | Numero di file che hanno causato un errore. |
 | fileWarningCount | `xsd:int` | Numero di file che hanno generato un avviso. |
@@ -41,6 +41,6 @@ Sintassi
 | transferSuccessCount | `xsd:int` | Numero di trasferimenti riusciti. |
 | transferErrorCount | `xsd:int` | Numero di errori di trasferimento. |
 | transferWarningCount | `xsd:int` | Numero di avvisi di trasferimento. |
-| fatalError | `xsd:boolean` | Se il processo ha generato un errore irreversibile. |
-| detailTotalRows | `xsd:int` | Numero totale di righe corrispondenti alla query, che può essere maggiore della dimensione di `detailArray` a causa di limiti di dimensione della pagina. |
-| detailArray | `types:JobLogDetailArray` | Matrice di dettagli sul processo registrato. |
+| fatalError | `xsd:boolean` | Indica se il processo ha generato un errore irreversibile. |
+| detailTotalRows | `xsd:int` | Numero totale di righe corrispondenti alla query, che può essere maggiore della dimensione di `detailArray` a causa dei limiti di dimensione delle pagine. |
+| detailArray | `types:JobLogDetailArray` | Array di dettagli sul processo registrato. |

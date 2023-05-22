@@ -7,24 +7,24 @@ role: Developer,User
 exl-id: 64cce312-c13b-49c7-af85-3349ff5c4322
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 3%
 
 ---
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-` [PageView.|<containerId>_pageView.]zoomstep= *`step`*[, *`limite`*]`
+` [PageView.|<containerId>_pageView.]zoomstep= *`passaggio`*[, *`limit`*]`
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura il numero di azioni di zoom in e zoom out necessarie per aumentare o ridurre la risoluzione di un fattore di due. La modifica della risoluzione per ogni azione di zoom è di 2^1 per passo. Imposta su <span class="codeph"> 0</span> per eseguire lo zoom a piena risoluzione con una singola azione zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> passaggio</span></span> </p> </td> 
+   <td colname="col2"> <p> Configura il numero di azioni di zoom in/zoom out necessarie per aumentare/ridurre la risoluzione di un fattore di 2. La modifica della risoluzione per ogni azione di zoom è 2^1 per incremento. Imposta su <span class="codeph"> 0</span> per effettuare lo zoom a risoluzione massima con una singola azione di zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> limite</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica la risoluzione massima dello zoom rispetto all'immagine a risoluzione piena. Il valore predefinito è <span class="codeph"> 1,0</span>, che non consente di ingrandire oltre la risoluzione completa. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> limit</span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica la risoluzione di zoom massima, relativa alla risoluzione massima dell'immagine. Il valore predefinito è <span class="codeph"> 1,0</span>, che non consente lo zoom oltre la risoluzione massima. </p> </td> 
   </tr> 
  </tbody> 
 </table>

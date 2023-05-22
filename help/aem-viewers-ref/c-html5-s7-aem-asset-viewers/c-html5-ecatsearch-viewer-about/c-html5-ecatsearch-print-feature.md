@@ -1,25 +1,25 @@
 ---
-description: Il visualizzatore consente di inviare il contenuto del catalogo a una stampante.
+description: Il visualizzatore consente di stampare il contenuto del catalogo.
 solution: Experience Manager
 title: Funzione di stampa
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eadcc105-4a86-40f7-867a-3b09a5599a41
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Funzione di stampa{#print-feature}
 
-Il visualizzatore consente di inviare il contenuto del catalogo a una stampante.
+Il visualizzatore consente di stampare il contenuto del catalogo.
 
-La funzione di stampa viene attivata da un pulsante dedicato nella barra degli strumenti. Facendo clic sul pulsante l&#39;utente può scegliere un intervallo di stampa e il numero di pagine per foglio.
+La funzione di stampa viene attivata da un pulsante dedicato nella barra degli strumenti. Facendo clic sul pulsante è possibile scegliere un intervallo di stampa e il numero di pagine per foglio.
 
-La qualità della stampa può essere regolata utilizzando il parametro di configurazione `printquality`. Si sconsiglia di impostare `printquality` su valori significativamente superiori a quelli predefiniti. Il motivo è che porta a un consumo di memoria molto elevato da parte del browser web sul sistema del cliente. Inoltre, assicurati che la dimensione massima di risposta dell’immagine impostata per la tua azienda Dynamic Media Classic sia maggiore del valore `printquality` configurato.
+La qualità di stampa può essere regolata utilizzando `printquality` parametro di configurazione. Tieni presente che `printquality` a valori significativamente superiori a quelli predefiniti non è consigliato. Il motivo è che porta a un consumo di memoria molto elevato da parte del browser web sul sistema del client. Inoltre, assicurati che la dimensione massima di risposta dell&#39;immagine impostata per la tua azienda Dynamic Media Classic sia maggiore di quella configurata `printquality` valore.
 
 >[!NOTE]
 >
->La funzione Stampa è disponibile solo sui sistemi desktop, ad eccezione di Internet Explorer 9.
+>La funzione di stampa è disponibile solo sui sistemi desktop, ad eccezione di Internet Explorer 9.

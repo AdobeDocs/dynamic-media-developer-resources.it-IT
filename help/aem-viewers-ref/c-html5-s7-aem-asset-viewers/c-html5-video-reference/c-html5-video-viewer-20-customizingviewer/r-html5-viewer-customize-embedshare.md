@@ -1,6 +1,6 @@
 ---
-title: Quota di incorporamento
-description: Lo strumento di condivisione di incorporamento è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+title: Incorpora condivisione
+description: Lo strumento di incorporamento della condivisione è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 1%
 
 ---
 
-# Quota di incorporamento{#embed-share}
+# Incorpora condivisione{#embed-share}
 
-Lo strumento di condivisione di incorporamento è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento di condivisione social network.
+Lo strumento di incorporamento della condivisione è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L&#39;aspetto del pulsante di condivisione di incorporamento è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante di incorporamento della condivisione è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embedshare
 ```
 
-**Proprietà CSS dello strumento di condivisione incorporato**
+**Proprietà CSS dello strumento di condivisione da incorporare**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -34,28 +34,28 @@ L&#39;aspetto del pulsante di condivisione di incorporamento è controllato con 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-È possibile rimuovere il pulsante dal pannello Condivisione social impostando `display:none` Proprietà CSS nella relativa classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social impostando `display:none` proprietà CSS nella relativa classe CSS.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante di condivisione di incorporamento di 28 x 28 pixel e visualizzare un’immagine diversa per ciascuno dei quattro stati dei pulsanti:
+Esempio: per impostare un pulsante di condivisione da incorporare di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7videoviewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva viene controllata con il seguente selettore di classe CSS:
+La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7backoverlay
@@ -91,13 +91,13 @@ La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialo
    <td colname="col2"> <p>Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore sovrapposizione sfondo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una sovrapposizione di sfondo grigio con opacità del 70%:
+Esempio: per impostare la sovrapposizione di sfondo su grigio con opacità 70%:
 
 ```
 .s7videoviewer .s7embeddialog .s7backoverlay { 
@@ -106,7 +106,7 @@ Esempio: per impostare una sovrapposizione di sfondo grigio con opacità del 70%
 }
 ```
 
-Per impostazione predefinita, la finestra di dialogo modale viene visualizzata centrata sullo schermo sui sistemi desktop e occupa l’intera area della pagina web sui dispositivi touch. In tutti i casi, il posizionamento e il dimensionamento della finestra di dialogo vengono gestiti dal componente. La finestra di dialogo viene controllata con il seguente selettore di classe CSS:
+Per impostazione predefinita, la finestra di dialogo modale viene visualizzata centrata sullo schermo dei sistemi desktop e occupa l’intera area della pagina web sui dispositivi touch. In tutti i casi, il posizionamento e il ridimensionamento della finestra di dialogo vengono gestiti dal componente. La finestra di dialogo è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialog
@@ -117,25 +117,25 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
-   <td colname="col2"> <p> Raggio del bordo della finestra di dialogo, nel caso in cui la finestra di dialogo non utilizzi l’intero browser. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> Raggio del bordo della finestra di dialogo, nel caso in cui la finestra di dialogo non occupi l'intero browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo prende l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo occupa l'intera finestra del browser (questa modalità è preferita sui dispositivi touch). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo prende l’intera finestra del browser (questa modalità è preferita per i dispositivi touch). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Deve essere disattivato o impostato su 100%, nel qual caso la finestra di dialogo occupa l'intera finestra del browser (questa modalità è preferita sui dispositivi touch). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare la finestra di dialogo in modo che utilizzi l’intera finestra del browser e che abbia uno sfondo bianco sui dispositivi touch:
+Esempio: per impostare la finestra di dialogo in modo da utilizzare l&#39;intera finestra del browser e avere uno sfondo bianco sui dispositivi touch:
 
 ```
 .s7videoviewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -145,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-L’intestazione della finestra di dialogo è costituita da un’icona, un testo del titolo e un pulsante Chiudi. Il contenitore di intestazione è controllato con
+L&#39;intestazione della finestra di dialogo è costituita da un&#39;icona, un testo del titolo e un pulsante di chiusura. Il contenitore di intestazione è controllato con
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheader
@@ -156,13 +156,13 @@ L’intestazione della finestra di dialogo è costituita da un’icona, un testo
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p> Spaziatura interna per il contenuto dell’intestazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p> Spaziatura interna per contenuto intestazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo controllato con
+L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo controllato da
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -173,42 +173,42 @@ L’icona e il testo del titolo vengono racchiusi in un contenitore aggiuntivo c
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p> Spaziatura interna per l’icona dell’intestazione e il titolo </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p> Spaziatura interna per l'icona e il titolo dell'intestazione </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’icona Intestazione è controllata dal seguente selettore di classe CSS
+L’icona dell’intestazione è controllata dal seguente selettore di classe CSS
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**Proprietà CSS dell’icona di intestazione della finestra di dialogo**
+**Proprietà CSS dell&#39;icona dell&#39;intestazione della finestra di dialogo**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il titolo dell’intestazione è controllato con il seguente selettore di classe CSS:
+Il titolo dell’intestazione è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheadertext
@@ -220,7 +220,7 @@ Il titolo dell’intestazione è controllato con il seguente selettore di classe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Spessore del carattere. </p> </td> 
+   <td colname="col2"> <p>Spessore font. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -231,60 +231,60 @@ Il titolo dell’intestazione è controllato con il seguente selettore di classe
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura interna del testo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura interna testo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il pulsante Chiudi è controllato con il seguente selettore di classe CSS:
+Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7closebutton
 ```
 
-**Proprietà CSS del pulsante di chiusura **
+**Proprietà CSS del ** del pulsante Chiudi
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Posizione del pulsante verticale rispetto al contenitore di intestazione. </p> </td> 
+   <td colname="col2"> <p> Posizione verticale del pulsante rispetto al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> Posizione del pulsante orizzontale rispetto al contenitore intestazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p> Posizione del pulsante orizzontale relativa al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-È possibile localizzare la descrizione del pulsante Chiudi e il titolo della finestra di dialogo. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+È possibile localizzare la descrizione comando del pulsante Chiudi e il titolo della finestra di dialogo. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura, icona 24 x 14 pixel, titolo in grassetto a 16 punti. Infine, un pulsante di chiusura 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore della finestra di dialogo:
+Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura interna, icona 24 x 14 pixel, titolo in grassetto a 16 punti. Infine, un pulsante di chiusura di 28 x 28 pixel, posizionato due pixel dalla parte superiore e due pixel dalla parte destra del contenitore della finestra di dialogo:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheader { 
@@ -324,41 +324,41 @@ Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura
 }
 ```
 
-Il piè di pagina della finestra di dialogo è costituito dal pulsante &quot;Annulla&quot;. Il contenitore piè di pagina è controllato con il seguente selettore di classe CSS:
+Il piè di pagina della finestra di dialogo è costituito dal pulsante Annulla. Il contenitore piè di pagina è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**Proprietà CSS del piè di pagina della finestra di dialogo **
+**Proprietà CSS del ** piè di pagina della finestra di dialogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Bordo che è possibile utilizzare per separare visivamente il piè di pagina dal resto della finestra di dialogo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
+   <td colname="col2"> <p> Bordo che consente di separare visivamente il piè di pagina dal resto della finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il piè di pagina dispone di un contenitore interno che mantiene il pulsante. È controllato con il seguente selettore di classe CSS:
+Il piè di pagina contiene un contenitore interno che mantiene il pulsante. Viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**Proprietà CSS del contenitore pulsanti della finestra di dialogo**
+**Proprietà CSS del contenitore del pulsante della finestra di dialogo**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p> Spaziatura interna tra il piè di pagina e il pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p> Spaziatura interna tra piè di pagina e pulsante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il pulsante Seleziona tutto è controllato con il seguente selettore di classe CSS:
+Il pulsante Seleziona tutto è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogactionbutton
@@ -371,29 +371,29 @@ Il pulsante è disponibile solo sui sistemi desktop.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
+   <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pulsante Seleziona tutto supporta la `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Il pulsante Seleziona tutto supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
+Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcancelbutton
@@ -404,29 +404,29 @@ Il pulsante Annulla è controllato con il seguente selettore di classe CSS:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
+   <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pulsante Annulla supporta la `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Il pulsante Annulla supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere impostazioni CSS identiche a quelle degli altri pulsanti della finestra di dialogo:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -442,30 +442,30 @@ Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contener
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del font del pulsante. </p> </td> 
+   <td colname="col2"> <p>Dimensione font pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Famiglia di font per pulsanti. </p> </td> 
+   <td colname="col2"> <p>Famiglia font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
-   <td colname="col2"> <p> Altezza del testo all’interno del pulsante. Interessa l’allineamento verticale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ombra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Ombra esterna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margine destro </span> </p> </td> 
-   <td colname="col2"> <p>Margine del pulsante destro. </p> </td> 
+   <td colname="col2"> <p>Margine pulsante destro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare un piè di pagina di una finestra di dialogo con un pulsante Annulla 64 x 34, il cui colore di testo e sfondo sono diversi per ogni stato del pulsante:
+Esempio: per impostare un piè di pagina della finestra di dialogo con un pulsante Annulla 64 x 34, con un colore del testo e un colore di sfondo diversi per ogni stato del pulsante:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogfooter { 
@@ -525,22 +525,22 @@ Esempio: per impostare un piè di pagina di una finestra di dialogo con un pulsa
 }
 ```
 
-L’area della finestra di dialogo principale (tra intestazione e piè di pagina) contiene il contenuto della finestra di dialogo scorrevole e il pannello di scorrimento a destra. In tutti i casi, il componente gestisce la larghezza di quest’area, non è possibile impostarla in CSS. L’area di dialogo principale è controllata dal seguente selettore di classe CSS:
+L’area della finestra di dialogo principale (tra l’intestazione e il piè di pagina) contiene il contenuto della finestra di dialogo e il pannello di scorrimento a destra. In tutti i casi in cui il componente gestisce la larghezza di quest’area, non è possibile impostarla in CSS. L’area della finestra di dialogo principale è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**Proprietà CSS dell’area di visualizzazione della finestra di dialogo **
+**Proprietà CSS della finestra di dialogo ** area di visualizzazione
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p> Altezza dell'area della finestra di dialogo principale. Deve essere specificato solo quando la finestra di dialogo funziona in modalità desktop. Non è applicabile quando la finestra di dialogo viene ridimensionata in modo da occupare l’intera finestra del browser. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p> Altezza della finestra di dialogo principale. Deve essere specificato solo quando la finestra di dialogo funziona in modalità desktop. Non è applicabile quando la finestra di dialogo viene ridimensionata per occupare l'intera finestra del browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ L’area della finestra di dialogo principale (tra intestazione e piè di pagina
  </tbody> 
 </table>
 
-Esempio: per impostare un’area della finestra di dialogo principale su un’altezza di 300 pixel, avere un margine di dieci pixel e utilizzare uno sfondo bianco:
+Esempio: per impostare un&#39;area della finestra di dialogo principale di 300 pixel, avere un margine di dieci pixel e utilizzare uno sfondo bianco:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogviewarea { 
@@ -560,26 +560,26 @@ Esempio: per impostare un’area della finestra di dialogo principale su un’al
 }
 ```
 
-Tutto il contenuto del modulo (come etichette e campi di input) risiede all’interno di un contenitore controllato con
+Tutto il contenuto del modulo (come etichette e campi di input) si trova all’interno di un contenitore controllato con
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbody
 ```
 
-Se l’altezza di questo contenitore sembra essere maggiore dell’area della finestra di dialogo principale, il componente attiva automaticamente lo scorrimento verticale.
+Se l’altezza del contenitore risulta maggiore dell’area della finestra di dialogo principale, il componente abilita automaticamente uno scorrimento verticale.
 
-**Proprietà CSS del corpo della finestra di dialogo **
+**Proprietà CSS del ** del corpo della finestra di dialogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare il contenuto del modulo con una spaziatura di dieci pixel:
+Esempio: per impostare il contenuto del modulo su una spaziatura di dieci pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbody { 
@@ -587,29 +587,29 @@ Esempio: per impostare il contenuto del modulo con una spaziatura di dieci pixel
 }
 ```
 
-Tutte le etichette statiche nel modulo della finestra di dialogo vengono controllate con
+Tutte le etichette statiche nel modulo della finestra di dialogo sono controllate da
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoglabel
 ```
 
-Questa classe non è adatta per controllare la dimensione o la posizione dell&#39;etichetta perché è possibile applicarla a testi in varie posizioni dell&#39;interfaccia utente del modulo.
+Questa classe non è adatta per controllare la dimensione o la posizione dell&#39;etichetta perché può essere applicata a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell’etichetta della finestra di dialogo. **
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Etichettare lo spessore del font. </p> </td> 
+   <td colname="col2"> <p>Spessore font etichetta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Etichettare le dimensioni del font. </p> </td> 
+   <td colname="col2"> <p>Dimensione font etichetta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Famiglia di font etichetta. </p> </td> 
+   <td colname="col2"> <p>Famiglia font etichetta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -618,9 +618,9 @@ Questa classe non è adatta per controllare la dimensione o la posizione dell&#3
  </tbody> 
 </table>
 
-Le descrizioni comandi della finestra di dialogo delle etichette possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le descrizioni comandi delle etichette delle finestre di dialogo possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare tutte le etichette in modo che siano grigie, in grassetto con un carattere di nove pixel:
+Esempio: per impostare tutte le etichette come grigie, in grassetto con un carattere di nove pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoglabel { 
@@ -630,28 +630,28 @@ Esempio: per impostare tutte le etichette in modo che siano grigie, in grassetto
 }
 ```
 
-La dimensione della copia di testo visualizzata sopra il codice di incorporamento è controllata dal seguente selettore di classe CSS:
+La dimensione della copia di testo visualizzata sopra il codice di incorporamento è controllata con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**Proprietà CSS del campo di input a livello di finestra di dialogo**
+**Proprietà CSS del campo a livello di input della finestra di dialogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una copia di testo con una larghezza di 430 pixel e una spaziatura di dieci pixel nella parte inferiore:
+Esempio: per impostare una copia di testo larga 430 pixel e con una spaziatura di dieci pixel nella parte inferiore:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputwide { 
@@ -660,7 +660,7 @@ Esempio: per impostare una copia di testo con una larghezza di 430 pixel e una s
 }
 ```
 
-Il codice di incorporamento viene racchiuso in un contenitore e controllato con il seguente selettore di classe CSS:
+Il codice di incorporamento viene racchiuso nel contenitore e controllato con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
@@ -671,21 +671,21 @@ Il codice di incorporamento viene racchiuso in un contenitore e controllato con 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del contenitore del codice di incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
    <td colname="col2"> <p>Bordo intorno al contenitore del codice di incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un bordo grigio di un pixel intorno al testo del codice da incorporare, renderlo largo 430 pixel e avere una spaziatura di dieci pixel:
+Esempio: per impostare un bordo grigio di un pixel attorno al testo del codice da incorporare, impostalo con una larghezza di 430 pixel e una spaziatura di dieci pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -695,7 +695,7 @@ Esempio: per impostare un bordo grigio di un pixel intorno al testo del codice d
 }
 ```
 
-Il testo del codice di incorporamento effettivo è controllato con il seguente selettore di classe CSS:
+Il testo effettivo del codice di incorporamento è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
@@ -706,8 +706,8 @@ Il testo del codice di incorporamento effettivo è controllato con il seguente s
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ritorno a capo </span> </p> </td> 
-   <td colname="col2"> <p>Stile di wrapping della parola. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ritorno a capo automatico </span> </p> </td> 
+   <td colname="col2"> <p>Stile a capo automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -720,24 +720,24 @@ Esempio: per impostare il codice incorporato in modo che venga utilizzato `break
 }
 ```
 
-L’etichetta e l’elenco a discesa Dimensione da incorporare si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
+L’etichetta della dimensione dell’incorporamento e il menu a discesa si trovano nella parte inferiore della finestra di dialogo e vengono inseriti in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Proprietà CSS del pannello dimensione incorporamento della finestra di dialogo**
+**Proprietà CSS del pannello dimensioni di incorporamento della finestra di dialogo**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un pannello di dimensioni da incorporare con dieci pixel di spaziatura:
+Esempio: per impostare un pannello di dimensioni da incorporare con dieci pixel di spaziatura interna:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -745,28 +745,28 @@ Esempio: per impostare un pannello di dimensioni da incorporare con dieci pixel 
 }
 ```
 
-Le dimensioni e l’allineamento dell’etichetta delle dimensioni di incorporamento sono controllate dal seguente selettore di classe CSS:
+Le dimensioni e l’allineamento dell’etichetta delle dimensioni di incorporamento sono controllati con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Proprietà CSS del pannello dimensione incorporamento della finestra di dialogo**
+**Proprietà CSS del pannello dimensioni di incorporamento della finestra di dialogo**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> allineamento verticale </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Allineamento verticale </span> </p> </td> 
    <td colname="col2"> <p>Allineamento verticale delle etichette. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare l’etichetta delle dimensioni da incorporare in modo che sia allineata in alto e larga 80 pixel:
+Esempio: per impostare l’etichetta della dimensione di incorporamento in modo che sia allineata in alto e larga 80 pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -786,7 +786,7 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza casella combinata. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,9 +794,9 @@ La larghezza della casella combinata Dimensione incorporamento è controllata da
 
 >[!NOTE]
 >
->La casella combinata supporta la `expanded` selettore di attributi con possibili valori di `true` e `false`. La `true` viene utilizzato quando la casella combinata visualizza una delle dimensioni predefinite di incorporamento, quindi deve prendere tutta la larghezza disponibile. La `false` viene utilizzato quando nella casella combinata è selezionata l’opzione per le dimensioni personalizzate, quindi dovrebbe ridursi per consentire lo spazio per i campi di input personalizzati di larghezza e altezza.
+>La casella combinata supporta `expanded` selettore di attributi con valori possibili di `true` e `false`. Il `true` value (valore) viene utilizzato quando la casella combinata visualizza una delle dimensioni di incorporamento predefinite, pertanto dovrebbe occupare tutta la larghezza disponibile. Il `false` il valore viene utilizzato quando nella casella combinata è selezionata l&#39;opzione dimensione personalizzata, quindi deve ridursi per consentire spazio per i campi di input personalizzati per larghezza e altezza.
 
-Esempio: per impostare la casella combinata Dimensione incorporamento su una larghezza di 300 pixel quando viene visualizzata una voce predefinita e larga 110 pixel quando viene visualizzata una dimensione personalizzata:
+Esempio: per impostare la casella combinata Dimensione incorporamento su una larghezza di 300 pixel quando si visualizza un elemento predefinito e su una larghezza di 110 pixel quando si visualizza una dimensione personalizzata:
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -807,7 +807,7 @@ Esempio: per impostare la casella combinata Dimensione incorporamento su una lar
 }
 ```
 
-L’altezza del testo della casella combinata è definita da un elemento interno speciale ed è controllata con il seguente selettore di classe CSS:
+L’altezza del testo della casella combinata è definita da un elemento interno speciale ed è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxtext
@@ -818,13 +818,13 @@ L’altezza del testo della casella combinata è definita da un elemento interno
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza testo casella combinata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare l&#39;altezza del testo della casella combinata delle dimensioni di incorporamento su 40 pixel:
+Esempio - per impostare su 40 pixel l&#39;altezza del testo della casella combinata delle dimensioni di incorporamento:
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -832,7 +832,7 @@ Esempio: per impostare l&#39;altezza del testo della casella combinata delle dim
 }
 ```
 
-La casella combinata ha un pulsante &quot;a discesa&quot; a destra ed è controllata con il seguente selettore di classe CSS:
+La casella combinata ha un pulsante &quot;a discesa&quot; a destra ed è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxbutton
@@ -844,34 +844,34 @@ La casella combinata ha un pulsante &quot;a discesa&quot; a destra ed è control
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Posizione del pulsante verticale all’interno della casella combinata. </p> </td> 
+   <td colname="col2"> <p>Posizione del pulsante verticale all'interno della casella combinata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>Posizione del pulsante orizzontale all’interno della casella combinata. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione orizzontale del pulsante all'interno della casella combinata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-Esempio: per impostare un pulsante &quot;a discesa&quot; su 28 x 28 pixel e ottenere un’immagine separata per ogni stato:
+Esempio: per impostare un pulsante &quot;a discesa&quot; su 28 x 28 pixel e avere un’immagine separata per ogni stato:
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -892,7 +892,7 @@ Esempio: per impostare un pulsante &quot;a discesa&quot; su 28 x 28 pixel e otte
 }
 ```
 
-Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all’apertura della casella combinata viene controllato con il seguente selettore di classe CSS:
+Il pannello con l’elenco delle dimensioni di incorporamento visualizzate all’apertura della casella combinata è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7comboboxdropdown
@@ -900,18 +900,18 @@ Il pannello con l’elenco delle dimensioni di incorporamento visualizzato all�
 
 Le dimensioni e la posizione del pannello sono controllate dal componente. Non è possibile modificarlo tramite CSS.
 
-**Proprietà CSS dell’elenco a discesa della casella combinata**
+**Proprietà CSS del menu a discesa della casella combinata**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
    <td colname="col2"> <p>Bordo del pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare il pannello della casella combinata con un bordo grigio di un pixel:
+Esempio: per impostare il pannello della casella combinata su un bordo grigio di un pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7comboboxdropdown { 
@@ -930,13 +930,13 @@ Un singolo elemento in un pannello a discesa controllato con il seguente seletto
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Sfondo articolo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Sfondo elemento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare l’elemento del pannello della casella combinata su uno sfondo bianco:
+Esempio: per impostare l&#39;elemento del pannello della casella combinata su uno sfondo bianco:
 
 ```
 .s7videoviewer .s7embeddialog .s7dropdownitemanchor { 
@@ -950,30 +950,30 @@ Un segno di spunta visualizzato a sinistra dell’elemento selezionato all’int
 .s7videoviewer .s7embeddialog .s7checkmark
 ```
 
-**Proprietà CSS della casella di spunta**
+**Proprietà CSS della casella di controllo**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine dell'elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare l’icona del segno di spunta su 25 x 25 pixel:
+Esempio - per impostare l&#39;icona del segno di spunta su 25 x 25 pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7checkmark { 
@@ -983,24 +983,24 @@ Esempio: per impostare l’icona del segno di spunta su 25 x 25 pixel:
 }
 ```
 
-Quando nella casella combinata Dimensione personalizzata è selezionata l’opzione &quot;Dimensione personalizzata&quot;, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all’utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
+Quando nella casella combinata Dimensione incorporamento è selezionata l&#39;opzione &quot;Dimensione personalizzata&quot;, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**Proprietà CSS del pannello dimensioni personalizzate della finestra di dialogo**
+**Proprietà CSS del pannello delle dimensioni personalizzato della finestra di dialogo**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
-   <td colname="col2"> <p> Distanza dalla casella combinata Dimensione di incorporamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p> Distanza dalla casella combinata dimensione incorporamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare il pannello campi di input con dimensioni personalizzate su 20 pixel a destra della casella combinata:
+Esempio: per impostare la dimensione personalizzata del pannello dei campi di input su 20 pixel a destra della casella combinata:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1008,36 +1008,36 @@ Esempio: per impostare il pannello campi di input con dimensioni personalizzate 
 }
 ```
 
-Ogni campo di input con dimensioni personalizzate viene racchiuso in un contenitore che esegue il rendering di un bordo e imposta il margine tra i campi. È controllato con il seguente selettore di classe CSS:
+Ogni campo di input delle dimensioni personalizzate viene racchiuso in un contenitore che esegue il rendering di un bordo e imposta il margine tra i campi. Viene controllata con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**Proprietà CSS delle dimensioni personalizzate della finestra di dialogo**
+**Proprietà CSS della finestra di dialogo dimensione personalizzata**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
    <td colname="col2"> <p>Bordo intorno al campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Larghezza campo di input. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
-   <td colname="col2"> <p> Margine del campo di input. </p> </td> 
+   <td colname="col2"> <p> Margine campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
-   <td colname="col2"> <p> Spaziatura dei campi di input. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p> Spaziatura interna campo di input. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare le dimensioni personalizzate dei campi di input in modo che abbiano un bordo grigio di un pixel, un margine, una spaziatura e una larghezza di 70 pixel:
+Esempio: per impostare le dimensioni personalizzate dei campi di input in modo che abbiano un bordo, un margine, una spaziatura interna di un pixel e una larghezza di 70 pixel:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1049,7 +1049,7 @@ Esempio: per impostare le dimensioni personalizzate dei campi di input in modo c
 }
 ```
 
-Se è necessario lo scorrimento verticale, la barra di scorrimento viene riprodotta nel pannello vicino al bordo destro della finestra di dialogo, controllata con il seguente selettore di classe CSS:
+Se è necessario lo scorrimento verticale, la barra di scorrimento viene rappresentata nel pannello accanto al bordo destro della finestra di dialogo, che è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogscrollpanel
@@ -1060,13 +1060,13 @@ Se è necessario lo scorrimento verticale, la barra di scorrimento viene riprodo
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza del pannello di scorrimento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza pannello di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un pannello di scorrimento con larghezza di 44 pixel
+Esempio: per impostare una larghezza di 44 pixel per il pannello di scorrimento
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1074,7 +1074,7 @@ Esempio: per impostare un pannello di scorrimento con larghezza di 44 pixel
 }
 ```
 
-L’aspetto dell’area della barra di scorrimento è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area della barra di scorrimento è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar
@@ -1085,25 +1085,25 @@ L’aspetto dell’area della barra di scorrimento è controllato con il seguent
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Offset della barra di scorrimento verticale dalla parte superiore del pannello di scorrimento. </p> </td> 
+   <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte superiore del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p> Offset della barra di scorrimento verticale dalla parte inferiore del pannello di scorrimento. </p> </td> 
+   <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte inferiore del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> Offset della barra di scorrimento orizzontale dal bordo destro del pannello di scorrimento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p> Scostamento della barra di scorrimento orizzontale dal bordo destro del pannello di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una barra di scorrimento larga 28 pixel e con un margine di otto pixel rispetto alla parte superiore, destra e inferiore del pannello di scorrimento:
+Esempio: per impostare una barra di scorrimento larga 28 pixel con un margine di otto pixel dall’alto, dal basso e dal destro del pannello di scorrimento:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar { 
@@ -1114,7 +1114,7 @@ Esempio: per impostare una barra di scorrimento larga 28 pixel e con un margine 
 }
 ```
 
-La traccia della barra di scorrimento è l’area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l&#39;altezza del brano. La traccia è controllata con il seguente selettore di classe CSS
+La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l&#39;altezza della traccia. Il brano è controllato con il seguente selettore di classe CSS
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrolltrack
@@ -1125,12 +1125,12 @@ La traccia della barra di scorrimento è l’area compresa tra i pulsanti di sco
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza traccia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza del binario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del brano. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Tracciare il colore di sfondo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1144,44 +1144,44 @@ background-color: #B2B2B2;
 }
 ```
 
-Il pollice della barra di scorrimento si sposta verticalmente all’interno di un’area della traccia di scorrimento. La sua posizione verticale è completamente controllata dalla logica del componente. Tuttavia, l’altezza della miniatura non cambia dinamicamente a seconda della quantità di contenuto. L’altezza del pollice e altri aspetti possono essere configurati con il seguente selettore di classe CSS:
+Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno dell&#39;area della traccia di scorrimento. La sua posizione verticale è completamente controllata dalla logica del componente. Tuttavia, l’altezza del pollice non cambia in modo dinamico a seconda della quantità di contenuto. L’altezza del pollice e altri aspetti possono essere configurati con il seguente selettore di classe CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**Proprietà CSS della miniatura della barra di scorrimento**
+**Proprietà CSS del cursore della barra di scorrimento**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura superiore </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura verticale tra la parte superiore della traccia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento superiore </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura verticale tra la parte superiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura inferiore </span> </p> </td> 
-   <td colname="col2"> <p> Spaziatura verticale tra il fondo della traccia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col2"> <p> Spaziatura verticale tra la parte inferiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per un dato stato pollice. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pollice. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pollice supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di pollice: `up`, `down`, `over`e `disabled`.
+>Il miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati miniatura diversi: `up`, `down`, `over`, e `disabled`.
 
-Esempio: per impostare un pollice della barra di scorrimento di 28 x 45 pixel, ha un margine di dieci pixel in alto e in basso e ha un’immagine diversa per ogni stato:
+Esempio: per impostare una barra di scorrimento di 28 x 45 pixel con un margine di dieci pixel in alto e in basso e un disegno diverso per ciascuno stato:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1204,7 +1204,7 @@ Esempio: per impostare un pollice della barra di scorrimento di 28 x 45 pixel, h
 }
 ```
 
-L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato con i seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai seguenti selettori di classi CSS:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton 
@@ -1214,38 +1214,38 @@ L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato con
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS in alto, a sinistra, in basso e a destra. Al contrario, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS top, left, bottom e right. Al contrario, la logica di visualizzazione li posiziona automaticamente.
 
 **Proprietà CSS dei pulsanti di scorrimento superiore e inferiore**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questi pulsanti supportano `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over`e `disabled`.
+>Questi pulsanti supportano `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di pulsante diversi: `up`, `down`, `over`, e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
 
-Esempio: per impostare pulsanti di scorrimento con 28 x 32 pixel e immagini diverse per ogni stato:
+Esempio - per impostare pulsanti di scorrimento di 28 x 32 pixel con grafica diversa per ogni stato:
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

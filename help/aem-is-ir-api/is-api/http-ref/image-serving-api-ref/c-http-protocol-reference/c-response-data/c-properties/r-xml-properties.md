@@ -1,22 +1,22 @@
 ---
-description: Se il formato xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
+description: Se xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
 solution: Experience Manager
 title: Proprietà XML
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 # Proprietà XML{#xml-properties}
 
-Se il formato xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
+Se xml è specificato come formato di risposta, i dati di risposta vengono formattati come documento XML che può essere analizzato da qualsiasi parser XML standard.
 
-Un documento di risposta delle proprietà tipiche ha questa struttura generale:
+Un tipico documento di risposta sulle proprietà ha la seguente struttura generale:
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -38,8 +38,8 @@ Un documento di risposta delle proprietà tipiche ha questa struttura generale:
 </prop-group>
 ```
 
-L’elemento `<prop-group>` viene utilizzato come contenitore più esterno e per raggruppare le proprietà. Se un gruppo è denominato, il nome corrisponde al nome dell&#39;oggetto Java/JavaScript.
+Il `<prop-group>` viene utilizzato come contenitore più esterno e per raggruppare le proprietà. Se un gruppo è denominato, il nome corrisponde al nome dell&#39;oggetto Java/JavaScript.
 
 >[!NOTE]
 >
->È possibile specificare la codifica dei caratteri per alcuni tipi `req=`. Per ulteriori informazioni, fare riferimento alla descrizione del comando `req=`specifico.
+>È possibile specificare la codifica dei caratteri per alcuni `req=` tipi. Fai riferimento alla descrizione della specifica `req=`per i dettagli.

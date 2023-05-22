@@ -1,20 +1,20 @@
 ---
-description: Risultati della ricerca di metadati contenenti informazioni riepilogate su una risorsa.
+description: Risultati della ricerca di metadati che contengono informazioni di riepilogo su una risorsa.
 solution: Experience Manager
-title: AssetSummary
+title: Riepilogo risorse
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 # [!DNL AssetSummary]{#assetsummary}
 
-Risultati della ricerca di metadati contenenti informazioni riepilogate su una risorsa.
+Risultati della ricerca di metadati che contengono informazioni di riepilogo su una risorsa.
 
 Sintassi
 
@@ -22,15 +22,15 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestione risorse. |
-| Testo | `xsd:string` | Tipo di risorsa. La costante &quot;Tipi di risorse&quot; definisce i possibili valori. Facoltativo. |
-| name | `xsd:string` | Nome risorsa. Facoltativo. |
-| cartella | `xsd:string` | La cartella contenente la risorsa. |
-| nomefile | `xsd:string` | Nome file della risorsa. |
-| creato | `xsd:dateTime` | Data creazione risorsa. |
+| assetHandle | `xsd:string` | Handle risorsa. |
+| tipo | `xsd:string` | Tipo di risorsa. La costante &quot;Tipi di risorsa&quot; definisce i valori possibili. Facoltativo. |
+| nome | `xsd:string` | Nome risorsa. Facoltativo. |
+| cartella | `xsd:string` | Cartella che contiene la risorsa. |
+| nome file | `xsd:string` | Nome file della risorsa. |
+| creato | `xsd:dateTime` | Data di creazione risorsa. |
 | createUser | `xsd:string` | Utente che ha creato la risorsa. |
 | lastModified | `xsd:dateTime` | Data dell’ultimo aggiornamento della risorsa. |
-| lastModifyUser | `xsd:string` | Ultimo utente che ha modificato la risorsa. |
+| lastModifyUser | `xsd:string` | L’ultimo utente che ha modificato la risorsa. |
 | metadataArray | `types:MetadataArray` | Array di valori di metadati associati alla risorsa. |
 | punteggio | `xsd:double` | Definisce la precisione in caso di ricerca per similarità (0 = nessuna corrispondenza, 1 = corrispondenza esatta). |
-| scoreDetail | `xsd:string` | Contiene informazioni dettagliate su aree simili a seguito di una ricerca per similarità. |
+| scoreDetail | `xsd:string` | Contiene informazioni dettagliate su aree simili in seguito a una ricerca per similarità. |

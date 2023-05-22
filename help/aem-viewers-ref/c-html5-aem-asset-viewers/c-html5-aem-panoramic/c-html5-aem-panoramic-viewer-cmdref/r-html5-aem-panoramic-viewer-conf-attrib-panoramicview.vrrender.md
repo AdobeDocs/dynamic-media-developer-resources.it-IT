@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Attributo di configurazione per visualizzatore panoramico.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> Specifica se la modalità di rendering della realtà virtuale è abilitata.</p> </td> 
+   <td colname="col2"> <p> Specifica se è abilitata la modalità di rendering realtà virtuale.</p> </td> 
   </tr> 
  </tbody> 
 </table>

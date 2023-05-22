@@ -22,7 +22,7 @@ Riferimento API JavaScript per visualizzatore zoom di base.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo ID risorsa, con i modificatori IS facoltativi aggiunti dopo "?" </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} nuovo id risorsa, con modificatori IS opzionali aggiunti dopo "?" </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,7 +37,7 @@ Nessuno.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Riferimento immagine singolo:
+Riferimento a immagine singola:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")

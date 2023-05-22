@@ -14,10 +14,10 @@ ht-degree: 5%
 
 # Visualizzatori solo per AEM Assets{#viewers-for-aem-assets-only}
 
-I seguenti visualizzatori funzionano esclusivamente in Adobe Experience Manager Assets.
+I seguenti visualizzatori lavorano esclusivamente in Adobe Experience Manager Assets.
 
 * [Carosello](c-html5-aem-carousel/c-html5-aem-carousel.md)
 * [Immagine interattiva](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
 * [Video interattivo](c-html5-aem-int-video/c-html5-aem-int-video.md)
-* [Video di ritaglio avanzato](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
+* [Ritaglio video automatico](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
 * [Video360](c-html5-aem-video360/c-html5-aem-video360.md)

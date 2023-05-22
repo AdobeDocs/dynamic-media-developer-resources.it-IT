@@ -1,6 +1,6 @@
 ---
 title: rotate
-description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione per i materiali.
+description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione dei materiali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
-# ruotare{#rotate}
+# rotate{#rotate}
 
-Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione per i materiali.
+Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei materiali.
 
 ` rotate= *`angolo`*`
 
@@ -25,17 +25,17 @@ Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione per i mat
  </tr> 
 </table>
 
-Ruotare i materiali di texture ripetibili (esclusi i sfondi) di multipli di 45° quando applicati a Oggetti piatti o Oggetti piano.
+Ruotare i materiali di texture ripetibili (esclusi gli sfondi) di multipli di 45° quando applicati a oggetti piatti o a oggetti piani.
 
-Ruotare i materiali di texture ripetibili con angoli arbitrari quando applicati a Flowline e Sketch Objects.
+Ruotate i materiali di texture ripetibili mediante angoli arbitrari quando applicate agli oggetti di sketch e di flusso.
 
-Ruotare i materiali di decal per angoli arbitrari.
+Ruotare i materiali delle decalcomanie per angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La texture o la decal viene ruotata intorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l’origine dell’oggetto di destinazione.
+Gli angoli positivi ruotano in senso orario. La texture o la decalcomania viene ruotata attorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attributo materiale. Ignorato da materiali per il trattamento a tinta unita, carta da parati, armadio e finestre. *`angle`* Deve essere un multiplo di 45 per texture ripetibili, a meno che non sia applicato agli oggetti Flowline o Sketch.
+Attributo materiale. Ignorato dai materiali di colore solido, carta da parati, armadio e trattamento delle finestre. *`angle`* Deve essere un multiplo di 45 per le texture ripetibili, a meno che non sia applicato agli oggetti di disegno o di linea di flusso.
 
 ## Predefinito {#section-14c991e71b74449db8ff18a775949b28}
 
@@ -43,4 +43,4 @@ Attributo materiale. Ignorato da materiali per il trattamento a tinta unita, car
 
 ## Consultate anche {#section-f73c00e9368b478dac1fd15bb4367a12}
 
-[anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[ancoraggio=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

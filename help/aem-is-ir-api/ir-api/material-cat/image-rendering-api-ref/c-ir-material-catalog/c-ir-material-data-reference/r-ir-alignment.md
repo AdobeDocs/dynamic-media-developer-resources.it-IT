@@ -1,24 +1,24 @@
 ---
-description: Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
+description: Allineamento della texture. Allineamento della texture quando applicata a oggetti di vignettatura correlati tra loro, come le parti imbottite di un mobile. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
 solution: Experience Manager
 title: Allineamento
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 19f94b45-5412-46d5-9a01-d7536bc92e00
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 5%
+source-wordcount: '107'
+ht-degree: 4%
 
 ---
 
 # Allineamento{#alignment}
 
-Allineamento texture. Allineamento della texture applicata agli oggetti vignettatura correlati tra loro, come le parti imbottite di un elemento di mobili. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
+Allineamento della texture. Allineamento della texture quando applicata a oggetti di vignettatura correlati tra loro, come le parti imbottite di un mobile. Utilizzato principalmente per applicazioni di rendering di tappezzeria, possibilmente per applicazioni di abbigliamento avanzate.
 
 ## Proprietà {#section-008158477f53457e9d812d313696cfb6}
 
-Enum. Impostare su 0 per l&#39;allineamento predefinito o centrato, 1 per l&#39;allineamento continuo, 2 per l&#39;allineamento casuale tra parti o su 3, 4, 5 o 6 per utilizzare un&#39;origine texture personalizzata. Utilizzato solo da materiali in tessuto.
+Enum. Impostate questo valore su 0 per l&#39;allineamento di default o con corrispondenza centrale, su 1 per l&#39;allineamento continuo, su 2 per l&#39;allineamento casuale tra le parti oppure su 3, 4, 5 o 6 per utilizzare un&#39;origine di texture personalizzata. Utilizzato solo con materiali di tessuto.
 
 ## Predefinito {#section-1aae2c85042846539caa089f3fa8fe2d}
 

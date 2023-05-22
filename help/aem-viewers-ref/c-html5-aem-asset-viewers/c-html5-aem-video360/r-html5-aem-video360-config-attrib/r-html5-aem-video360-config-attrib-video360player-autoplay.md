@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '40'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Alcuni sistemi, come alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Alcuni sistemi, ad esempio alcuni dispositivi mobili, potrebbero non supportare la riproduzione automatica. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Origini immagine straniere
+title: Origini immagine esterne
 description: Image Server supporta l’accesso alle immagini sorgente su server HTTP e FTP esterni.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Origini immagine straniere{#foreign-image-sources}
+# Origini immagine esterne{#foreign-image-sources}
 
 Image Server supporta l’accesso alle immagini sorgente su server HTTP e FTP esterni.
 
-Per specificare un URL esterno per un `src=` o `mask=` comando; delimita semplicemente l’intero URL incorporato con parentesi graffe:
+Per specificare un URL esterno per un `src=` o un `mask=` ; delimita semplicemente l’intero URL incorporato con parentesi graffe:
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-URL assoluti completi (se `attribute::AllowDirectUrls` è impostato) e gli URL relativi a `attribute::RootUrl` sono consentiti. Si verifica un errore se un URL assoluto è incorporato e attributo: `AllowDirectUrls` è pari a 0, o se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
+URL assoluti completi (se `attribute::AllowDirectUrls` è impostato) e gli URL relativi a `attribute::RootUrl` sono consentite. Si verifica un errore se è incorporato un URL assoluto e si verifica un attributo: `AllowDirectUrls` è 0, o se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
 
-Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di memorizzazione nella cache incluse nella risposta HTTP.
+Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di memorizzazione in cache incluse nella risposta HTTP.

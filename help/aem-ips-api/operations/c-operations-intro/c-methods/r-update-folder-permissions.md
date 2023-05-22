@@ -1,5 +1,5 @@
 ---
-description: Aggiorna le autorizzazioni della cartella.
+description: Aggiornare le autorizzazioni della cartella.
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-Aggiorna le autorizzazioni della cartella.
+Aggiornare le autorizzazioni della cartella.
 
 Sintassi
 
@@ -30,10 +30,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| folderHandle | `xsd:string` | Sì | Maniglia della cartella. |
-| updateChildren | `xsd:boolean` | Sì | Determina se aggiornare gli elementi secondari con le autorizzazioni impostate per la cartella di livello principale. |
-| updateArray | `types:PermissionUpdateArray` | Sì | Array di aggiornamenti delle autorizzazioni da applicare alla cartella. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| folderHandle | `xsd:string` | Sì | Handle di cartella. |
+| updateChildren | `xsd:boolean` | Sì | Determina se aggiornare gli elementi figlio con le autorizzazioni impostate per la cartella di livello principale. |
+| updateArray | `types:PermissionUpdateArray` | Sì | Matrice di aggiornamenti delle autorizzazioni da applicare alla cartella. |
 
 **Output (updateFolderPermissionsReturn)**
 

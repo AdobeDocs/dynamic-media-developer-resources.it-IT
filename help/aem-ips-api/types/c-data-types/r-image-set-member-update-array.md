@@ -1,14 +1,14 @@
 ---
 description: Matrice di aggiornamenti dei membri del set di immagini.
 solution: Experience Manager
-title: ImageSetMemberUpdateArray
+title: MatriceMembroImmagineAggiornaImmagine
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: a0b0f94a-7b45-4780-9b28-1eb449c3b831
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '28'
-ht-degree: 17%
+ht-degree: 10%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:ImageSetMemberUpdate` | La matrice dei membri del set di immagini viene aggiornata. |
+| elementi | `types:ImageSetMemberUpdate` | Array degli aggiornamenti dei membri del set di immagini. |

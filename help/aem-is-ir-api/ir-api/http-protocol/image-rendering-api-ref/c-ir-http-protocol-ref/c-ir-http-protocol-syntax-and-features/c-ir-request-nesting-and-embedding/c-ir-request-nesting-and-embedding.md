@@ -1,6 +1,6 @@
 ---
-title: Nidificazione e incorporazione delle richieste
-description: Image Rendering consente di incorporare richieste Image Server e richieste HTTP a server stranieri per recuperare immagini di materiale utilizzate per texture e decals ripetibili.
+title: Richiedi nidificazione e incorporamento
+description: Image Rendering consente di incorporare le richieste Image Server e HTTP a server esterni per recuperare immagini di materiale utilizzate per texture e decalcomanie ripetibili.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Nidificazione e incorporazione delle richieste{#request-nesting-and-embedding}
+# Richiedi nidificazione e incorporamento{#request-nesting-and-embedding}
 
-Image Rendering consente di incorporare richieste Image Server e richieste HTTP a server stranieri per recuperare immagini di materiale utilizzate per texture e decals ripetibili.
+Image Rendering consente di incorporare le richieste Image Server e HTTP a server esterni per recuperare immagini di materiale utilizzate per texture e decalcomanie ripetibili.
 
-Questi meccanismi non sono supportati per i materiali di rivestimento di armadio e finestre.
+Questi meccanismi non sono supportati per i materiali di rivestimento dei cabinet e delle finestre.
 
-Vedi anche [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Riferimento Image Serving.
+Vedi anche [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Image Server Reference.

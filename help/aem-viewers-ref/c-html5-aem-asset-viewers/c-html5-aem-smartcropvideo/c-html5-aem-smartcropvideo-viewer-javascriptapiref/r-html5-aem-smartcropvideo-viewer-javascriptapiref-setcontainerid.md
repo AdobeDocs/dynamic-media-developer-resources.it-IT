@@ -1,10 +1,11 @@
 ---
 title: setContainerId
-description: Riferimento API JavaScript per Smart Crop Video Viewer.
+description: Riferimento API JavaScript per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-Riferimento API JavaScript per Smart Crop Video Viewer.
+Riferimento API JavaScript per il visualizzatore video Ritaglio avanzato.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l’ID del contenitore DOM (in genere un `DIV`) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato al momento della chiamata di questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Questo parametro viene chiamato prima di `init()`. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con `config` Oggetto JSON al costruttore.
+Imposta l’ID del contenitore DOM (normalmente un `DIV`) in cui è inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Questo parametro viene chiamato prima di `init()`. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,22 +33,22 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle di una società con le risorse da ripristinare. |
+| companyHandle | `xsd:string` | Sì | Handle per un&#39;azienda con le risorse da ripristinare. |
 | assetHandleArray | `types:HandleArray` | Sì | Array di handle per le risorse da ripristinare. |
 
 **Output (restoreAssetsFromTrashReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| successCount | `xsd:int` | Sì | Numero di risorse rimosse dal cestino. |
-| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di ripristinare le risorse dal cestino. |
+| successCount | `xsd:int` | Sì | Numero di risorse rimosse correttamente dal cestino. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione ha tentato di ripristinare le risorse dal cestino. |
 | errorCount | `xsd:int` | Sì | Numero di errori generati durante il tentativo di ripristinare le risorse dal cestino. |
-| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di ripristinare le risorse dal cestino. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione tentava di ripristinare le risorse dal cestino. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione ha tentato di ripristinare le risorse dal cestino. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione ha tentato di ripristinare le risorse dal cestino. |
 
 ## Esempi {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Questo esempio di codice ripristina le risorse dal cestino. La risposta indica che l’operazione è stata completata correttamente.
+In questo esempio di codice vengono ripristinate le risorse dal cestino. La risposta indica che l&#39;operazione è stata completata correttamente.
 
 **Request Contents (Richiesta contenuto)**
 

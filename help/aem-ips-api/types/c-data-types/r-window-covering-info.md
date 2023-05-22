@@ -8,7 +8,7 @@ exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 11%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Sintassi
 | originalPath | `xsd:string` | Percorso file. |
 | originalFile | `xsd:string` | Nome file. |
 | fileSize | `xsd:int` | Dimensione file. |
-| imagePath | `xsd:string` | Percorso relativo all&#39;immagine. |
-| imageFile | `xsd:string` | Nome del file della finestra che copre l&#39;immagine. |
+| imagePath | `xsd:string` | Percorso relativo dell&#39;immagine. |
+| imageFile | `xsd:string` | Nome file della finestra che copre l&#39;immagine. |
 | optimizedPath | `xsd:string` | Percorso ottimizzato del file. |
 | optimizedFile | `xsd:string` | Nome file ottimizzato. |

@@ -8,7 +8,7 @@ exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| sourceUrl | `xsd:string` | L’URL sorgente da cui viene caricata la risorsa. |
-| destPath | `xsd:string` | Il percorso e il nome del file IPS in cui si desidera eseguire il caricamento. |
+| sourceUrl | `xsd:string` | URL di origine da cui viene caricata la risorsa. |
+| destPath | `xsd:string` | Percorso e nome del file IPS in cui si desidera caricare il file. |

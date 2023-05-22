@@ -1,5 +1,5 @@
 ---
-description: Viene aggiornata una matrice di campi di font.
+description: Matrice di aggiornamenti dei campi carattere.
 solution: Experience Manager
 title: FontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 18%
+ht-degree: 11%
 
 ---
 
 # [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
-Viene aggiornata una matrice di campi di font.
+Matrice di aggiornamenti dei campi carattere.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:FontFieldUpdate` | Un elemento nel campo font aggiorna la matrice. |
+| elementi | `types:FontFieldUpdate` | Elemento nell&#39;array di aggiornamento del campo carattere. |

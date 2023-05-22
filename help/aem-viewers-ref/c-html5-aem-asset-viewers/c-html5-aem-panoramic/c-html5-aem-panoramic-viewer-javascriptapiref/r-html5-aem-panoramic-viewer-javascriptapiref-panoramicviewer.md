@@ -1,6 +1,6 @@
 ---
-title: Visualizzatore panoramico
-description: Costrutore, crea una nuova istanza HTML5 Carousel Viewer.
+title: VisualizzatorePanoramico
+description: Costruttore, crea una nuova istanza di Visualizzatore carosello HTML5.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -11,17 +11,17 @@ ht-degree: 3%
 
 ---
 
-# Visualizzatore panoramico{#panoramicviewer}
+# VisualizzatorePanoramico{#panoramicviewer}
 
 `PanoramicViewer([config])`
-Crea una nuova istanza di visualizzatore panoramico di HTML5.
+Costruttore, crea una nuova istanza di Visualizzatore panoramico di HTML5.
 
 ## Parametro {#section-fa807db629ce43bab286b1e1dc96c492}
 
-La configurazione {Object} dell&#39;oggetto di configurazione JSON opzionale consente di passare tutte le impostazioni del visualizzatore al costruttore ed evitare di chiamare i singoli metodi del setter. Contiene le seguenti proprietà:
-* containerId - {String} ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore sia creato dal momento in cui viene chiamato questo metodo, tuttavia il contenitore deve esistere quando viene eseguito init(). Obbligatorio
-* params - Oggetto JSON {Object} con parametri di configurazione del visualizzatore in cui il nome della proprietà è un’opzione di configurazione specifica per il visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. Obbligatorio
-* gestori - oggetto JSON {Object} con callback di eventi del visualizzatore, dove il nome della proprietà è il nome dell&#39;evento del visualizzatore supportato e il valore della proprietà è un riferimento alla funzione JavaScript per il callback appropriato. Per ulteriori informazioni sugli eventi del visualizzatore, consulta la sezione Callback evento . Facoltativo
+config {Object} oggetto di configurazione JSON facoltativo, consente di passare tutte le impostazioni del visualizzatore al costruttore ed evitare di chiamare singoli metodi di impostazione. Contiene le seguenti proprietà:
+* containerId - {String} ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo, tuttavia il contenitore deve esistere quando init() viene eseguito. Obbligatorio
+* parametri: oggetto JSON {Object} con parametri di configurazione del visualizzatore in cui il nome della proprietà è un’opzione di configurazione specifica del visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. Obbligatorio
+* handler: oggetto JSON {Object} con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell’evento del visualizzatore supportato e il valore della proprietà è un riferimento della funzione JavaScript al callback appropriato. Per ulteriori informazioni sugli eventi visualizzatore, consulta la sezione Callback di eventi. Facoltativo
 
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

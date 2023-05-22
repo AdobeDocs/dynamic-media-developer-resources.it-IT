@@ -1,6 +1,6 @@
 ---
 title: Supporto per il tracciamento di Adobe Analytics
-description: Il visualizzatore video HTML5360 supporta il tracciamento predefinito di Adobe Analytics.
+description: Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore video HTML5360 supporta il tracciamento predefinito di Adobe Analytics.
+Il visualizzatore HTML5 Video360 supporta il tracciamento predefinito di Adobe Analytics.
 
-Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
+Per abilitare il tracciamento, passa il nome del predefinito aziendale corretto come `config2` parametro.
 
-Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -67,11 +67,11 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PLAY (Riproduzione)</span> </p> </td> 
-   <td colname="col2"> <p>all'avvio della riproduzione. </p> </td> 
+   <td colname="col2"> <p>all’avvio della riproduzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAUSE (Pausa)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione viene sospesa. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione viene messa in pausa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">STOP (Interruzione)</span> </p> </td> 
@@ -79,7 +79,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">MILESTONE (Pietra miliare)</span> </p> </td> 
-   <td colname="col2"> <p>quando la riproduzione raggiunge una delle fasi principali seguenti: 0%, 25%, 50%, 75% o 100%. </p> </td> 
+   <td colname="col2"> <p>quando la riproduzione raggiunge uno dei seguenti target cardine: 0%, 25%, 50%, 75% o 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>

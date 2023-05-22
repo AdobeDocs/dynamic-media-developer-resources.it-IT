@@ -8,7 +8,7 @@ exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 33%
+ht-degree: 14%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| project Handle | `xsd:string` | Maniglia del progetto. |
-| name | `xsd:string` | Nome progetto. |
+| Project Handle | `xsd:string` | Handle di progetto. |
+| nome | `xsd:string` | Nome del progetto. |

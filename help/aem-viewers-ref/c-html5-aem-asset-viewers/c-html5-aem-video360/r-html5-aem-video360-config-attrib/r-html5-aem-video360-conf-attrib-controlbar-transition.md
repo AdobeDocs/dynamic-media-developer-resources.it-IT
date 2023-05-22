@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 Attributo di configurazione per il visualizzatore Video360.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytoidedurimento`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`durata`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per visualizzare o nascondere la barra di controllo e il relativo contenuto. </p> <p>Utilizza <span class="codeph"> none</span> per visualizzare e nascondere istantaneamente. Utilizza <span class="codeph"> dissolvenza</span> per fornire un effetto graduale di dissolvenza in entrata e in uscita. </p> <p>La dissolvenza non è supportata in Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. </p> <p>Utilizzare <span class="codeph"> nessuno</span> per mostrare e nascondere subito. Utilizzare <span class="codeph"> dissolvenza</span> per ottenere un effetto di dissolvenza graduale in entrata e in uscita. </p> <p>Dissolvenza non supportata in Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ritardare</span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il tempo in secondi tra l'ultimo evento mouse/touch registrato dalla barra di controllo e la barra di controllo del tempo nascosta. </p> <p> Se è impostato su <span class="codeph"> -1</span>, il componente non attiva mai il suo effetto di visualizzazione automatica e rimane sempre visibile sullo schermo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
+   <td colname="col2"> <p>Specifica il tempo in secondi che intercorre tra l'ultimo evento mouse/touch registrato dalla barra di controllo e il momento in cui questa viene nascosta. </p> <p> Se impostato su <span class="codeph"> -1</span>, il componente non attiva mai il suo effetto di Nascondi automatico e rimane sempre visibile sullo schermo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata</span> </span> </p> </td> 
-   <td colname="col2"> <p>Imposta la durata in secondi dell'animazione di dissolvenza in entrata e in uscita. </p> </td> 
+   <td colname="col2"> <p>Imposta la durata dell'animazione di dissolvenza in entrata e in uscita, in secondi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -35,9 +35,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | Il manico per l&#39;azienda. |
-| jobHandle | `xsd:string` | No | Il manico del lavoro. |
-| originalName | `xsd:string` | No | Nome del processo originale. |
+| companyHandle | `xsd:string` | No | La maniglia per l&#39;azienda. |
+| jobHandle | `xsd:string` | No | Handle del processo. |
+| originalName | `xsd:string` | No | Nome processo originale. |
 
 **Output (getActiveJobsReturn)**
 
@@ -47,7 +47,7 @@ Sintassi
 
 ## Esempi {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Questo esempio di codice restituisce tutti i processi attivi di una società in esecuzione in IPS. In questo caso, la risposta è insolita perché il coordinatore della pianificazione IPS è disabilitato senza processi attivi in esecuzione. In circostanze normali, la risposta restituirebbe una serie di posti di lavoro attivi.
+In questo esempio di codice vengono restituiti tutti i processi attivi di una società in esecuzione in IPS. In questo caso, la risposta è insolita perché il coordinatore della pianificazione IPS è disabilitato senza processi attivi in esecuzione. In circostanze normali, la risposta restituirebbe un certo numero di posti di lavoro attivi.
 
 **Request Contents (Richiesta contenuto)**
 

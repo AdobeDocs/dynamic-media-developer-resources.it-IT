@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con informazioni sul tipo di visualizzatore e sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con informazioni sul tipo e sulla versione del visualizzatore.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Al fine di integrarsi con il sistema di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per integrarsi con un sistema di analisi di terze parti è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({

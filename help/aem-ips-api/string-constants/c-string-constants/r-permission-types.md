@@ -1,18 +1,18 @@
 ---
 description: Utilizzato da PermissionsUpdate/permissionType, Permission/permissionType.
 solution: Experience Manager
-title: Tipi di autorizzazioni
-feature: Dynamic Media Classic, SDK/API
+title: Tipi di autorizzazione
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f58d2606-d794-4d4f-9566-02dfda5e0654
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 4%
+source-wordcount: '18'
+ht-degree: 5%
 
 ---
 
-# Tipi di autorizzazioni{#permission-types}
+# Tipi di autorizzazione{#permission-types}
 
 Utilizzato da PermissionsUpdate/permissionType, Permission/permissionType.
 

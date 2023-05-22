@@ -8,7 +8,7 @@ exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -34,18 +34,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;azienda gestisce. |
+| companyHandle | `xsd:string` | Sì | La maniglia aziendale. |
 | assetType | `xsd:string` | Sì | Tipi di risorse da cui ottenere i metadati. |
 
 **Output (getMetadataFieldsParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| Frase di codice | `Code Phrase` |  |  |
+| Frase codice | `Code Phrase` |  |  |
 
 ## Esempi {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Questo esempio di codice restituisce le risorse di metadati per il tipo e la società specificati. La risposta contiene un array di campi di metadati in una matrice di campi. Non tutte le risorse hanno gli stessi metadati. L’utente IPS definisce il campo metadati della risorsa.
+In questo esempio di codice vengono restituite le risorse di metadati per il tipo e la società specificati. La risposta contiene un array di campi di metadati in un array di campi. Non tutte le risorse hanno gli stessi metadati. L’utente IPS definisce il campo di metadati della risorsa.
 
 **Request Contents (Richiesta contenuto)**
 

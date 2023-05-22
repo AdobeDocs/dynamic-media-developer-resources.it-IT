@@ -1,6 +1,6 @@
 ---
-title: Effetto icona a forma di ruota
-description: L'indicatore di rotazione viene sovrapposto all'area di visualizzazione di rotazione. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
+title: Effetto icona di visualizzazione 360 gradi
+description: L'indicatore di rotazione è sovrapposto all'area di visualizzazione della rotazione. Viene visualizzata quando l'immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# Effetto icona a forma di ruota{#spin-view-icon-effect}
+# Effetto icona di visualizzazione 360 gradi{#spin-view-icon-effect}
 
-L&#39;indicatore di rotazione viene sovrapposto all&#39;area di visualizzazione di rotazione. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
+L&#39;indicatore di rotazione è sovrapposto all&#39;area di visualizzazione della rotazione. Viene visualizzata quando l&#39;immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect
@@ -35,27 +35,27 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Grafico indicatore a 360 gradi. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Illustrazione dell'indicatore di rotazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza indicatore a 360 gradi. </p> </td> 
+   <td colname="col2"> <p>Larghezza indicatore di rotazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza indicatore a 360 gradi. </p> </td> 
+   <td colname="col2"> <p>Altezza indicatore di rotazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L&#39;indicatore a 360 gradi supporta `state` selettore di attributi impostato su `spin_1D` se è presente un set 360 gradi monodimensionale e `spin_2D` se è presente un set 360 gradi multidimensionale.
+L&#39;indicatore di rotazione supporta `state` selettore di attributi impostato su `spin_1D` se è presente un set 360 gradi monodimensionale e a `spin_2D` se è presente un set 360 gradi multidimensionale.
 
-Esempio: per impostare un indicatore di zoom di 100 x 100 pixel.
+Esempio: per impostare un indicatore di zoom da 100 x 100 pixel.
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 

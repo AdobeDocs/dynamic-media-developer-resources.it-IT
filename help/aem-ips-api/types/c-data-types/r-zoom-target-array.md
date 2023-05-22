@@ -1,5 +1,5 @@
 ---
-description: Matrice di destinazioni di zoom.
+description: Matrice di destinazioni Zoom.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 14%
 
 ---
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Matrice di destinazioni di zoom.
+Matrice di destinazioni Zoom.
 
 Sintassi
 

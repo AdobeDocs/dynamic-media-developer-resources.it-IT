@@ -1,21 +1,21 @@
 ---
-description: Imposta margine di sanguinamento. Imposta il margine di pagina al vivo impostato nel file PDF.
+description: Imposta il margine di smarginatura. Imposta il margine di smarginatura impostato nel file PDF.
 solution: Experience Manager
-title: margine
-feature: Dynamic Media Classic, SDK/API
+title: margine vivo
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: badb8ca5-52ba-4b44-b53f-fb302626adc4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
 
-# margine{#bleedmargin}
+# margine vivo{#bleedmargin}
 
-Imposta margine di sanguinamento. Imposta il margine di pagina al vivo impostato nel file PDF.
+Imposta il margine di smarginatura. Imposta il margine di smarginatura impostato nel file PDF.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in punti
 
-Per impostazione predefinita, il valore `bleedMargin` è impostato sulle dimensioni complete del documento definito da `viewWidth` e `viewHeight`. I valori *[!DNL left]*, *[!DNL bottom]* e *[!DNL right]* vengono impostati automaticamente sul valore *[!DNL top]* se non specificato.
+Per impostazione predefinita, il `bleedMargin` è impostato sulla dimensione completa del documento definita da `viewWidth` e `viewHeight`. Il *[!DNL left]*, *[!DNL bottom]*, e *[!DNL right]* I valori predefiniti sono *[!DNL top]* se non specificato.

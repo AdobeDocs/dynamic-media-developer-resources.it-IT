@@ -1,5 +1,5 @@
 ---
-description: Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache interna [!DNL Platform Server] cache.
+description: Controllo cache. Consente di disabilitare in modo selettivo il caching lato client (browser, server proxy, sistemi di caching di rete) e il caching interno [!DNL Platform Server] cache.
 solution: Experience Manager
 title: cache
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # cache{#cache}
 
-Controllo della cache. Consente di disattivare selettivamente la memorizzazione in cache lato client (browser, server proxy, sistemi di memorizzazione in cache di rete) e la memorizzazione in cache interna [!DNL Platform Server] cache.
+Controllo cache. Consente di disabilitare in modo selettivo il caching lato client (browser, server proxy, sistemi di caching di rete) e il caching interno [!DNL Platform Server] cache.
 
 `&cache= *`cacheControl`*`
 
@@ -35,8 +35,8 @@ Controllo della cache. Consente di disattivare selettivamente la memorizzazione 
  </tr> 
 </table>
 
-Se solo uno *`cacheControl`* viene specificato, viene applicato sia alle cache client che a quelle server.
+Se solo uno *`cacheControl`* è specificato, viene applicato sia alle cache client che a quelle server.
 
-Attributo di richiesta. Ignorato quando la richiesta non restituisce un&#39;immagine di risposta. *`clientControl`* viene ignorato quando la memorizzazione in cache lato client è disabilitata dal catalogo immagini (se `catalog::Expiration` ha un valore negativo).
+Attributo della richiesta. Ignorato quando la richiesta non restituisce un’immagine di risposta. *`clientControl`* viene ignorato quando il caching lato client è disabilitato dal catalogo immagini (se `catalog::Expiration` ha un valore negativo).
 
 Il valore predefinito è `cache=on,on`.

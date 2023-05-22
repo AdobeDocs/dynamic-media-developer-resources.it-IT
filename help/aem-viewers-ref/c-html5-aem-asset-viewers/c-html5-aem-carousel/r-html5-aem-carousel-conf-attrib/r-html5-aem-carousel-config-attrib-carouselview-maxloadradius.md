@@ -8,7 +8,7 @@ exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> precaricare</span></span> </p> </td> 
-   <td> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Quando è impostato su <span class="codeph"> -1</span> il componente precarica tutti i fotogrammi del carosello quando sono in uno stato di inattività. </p> <p>Se è impostato su <span class="codeph"> 0</span> il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> </span></span>precaricamento definisce quanti fotogrammi invisibili intorno al fotogramma attualmente visualizzato vengono precaricati quando si trova in uno stato di inattività. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> il componente precarica tutti i fotogrammi carosello quando si trova nello stato inattivo. </p> <p>Se impostato su <span class="codeph"> 0</span> il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>definisce quanti fotogrammi invisibili attorno al fotogramma visualizzato vengono precaricati quando si trova nello stato inattivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

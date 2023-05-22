@@ -1,5 +1,5 @@
 ---
-description: Utilizza queste impostazioni del server per configurare il server.
+description: Utilizzare queste impostazioni server per configurare il server.
 solution: Experience Manager
 title: Server
 feature: Dynamic Media Classic,SDK/API
@@ -14,46 +14,46 @@ ht-degree: 0%
 
 # Server{#server}
 
-Utilizza queste impostazioni del server per configurare il server.
+Utilizzare queste impostazioni server per configurare il server.
 
 ## SV::ImageServerMode - Image Server Mode {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
-Per Linux sono disponibili sia una versione a 32 bit che una versione a 64 bit di Image Server. Specifica ImageServer64 quando installato su server Linux a 64 bit o ImageServer32 (predefinito) quando installato su server a 32 bit.
+Sia la versione a 32 bit che la versione a 64 bit del server immagini sono disponibili per Linux. Specificare ImageServer64 se installato su server Linux a 64 bit o ImageServer32 (impostazione predefinita) se installato su server a 32 bit.
 
 >[!NOTE]
 >
->La versione a 64 bit di Image Server non supporta i file sorgente FlashPix.
+>La versione a 64 bit del server immagini non supporta i file di origine FlashPix.
 
 >[!NOTE]
 >
->La modalità a 64 bit non è supportata in Windows. Solo `ImageServer32` può essere specificato. In caso contrario, Image Server non si avvia.
+>Modalità a 64 bit non supportata in Windows. Solo `ImageServer32` possono essere specificati. In caso contrario, Image Server non si avvierà.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Dimensione heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Dimensione dell’heap Java per il [!DNL Platform Server]. Valori predefiniti in &quot; `512m`&quot; (512 Mbyte).
+Dimensione heap Java per [!DNL Platform Server]. Impostazione predefinita &quot; `512m`&quot; (512 Mbyte).
 
-## IS::TcpPort, PS::isConnection.port - Porta di ascolto del server di immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
+## IS::TcpPort, PS::isConnection.port - Porta di ascolto server immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Specifica la porta utilizzata per la comunicazione tra [!DNL Platform Server] e Image Server. Assicurati di specificare un numero di porta che non viene utilizzato altrimenti sul sistema host.
+Specifica la porta utilizzata per la comunicazione tra [!DNL Platform Server] e il server immagini. Assicurarsi di specificare un numero di porta che non venga utilizzato in altro modo nel sistema host.
 
 >[!NOTE]
 >
 >Affinché Image Server funzioni correttamente, è necessario impostare lo stesso valore per `IS::TcpPort` e `PS::isConnection.port`.
 
-## IS::PhysicalMemory - Limite di memoria del server di immagini {#section-85e37aa2ac6e456eb698da716dd3247d}
+## IS::PhysicalMemory - Limite memoria server immagini {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-Limite approssimativo per i dati immagine in memoria, espresso come percentuale di memoria fisica. L&#39;intervallo valido è compreso tra il 10% e il 90%. Il server immagini tenta di limitare l&#39;uso della memoria immagine alla quantità specificata, se possibile. Il limite può essere temporaneamente superato durante l&#39;attività di lavorazione pesante.
+Limite approssimativo per i dati immagine in memoria, espresso come percentuale della memoria fisica. L&#39;intervallo valido è compreso tra 10% e 90%. Il server immagini tenta di limitare l&#39;utilizzo della memoria immagine alla quantità specificata, se possibile. Il limite può essere temporaneamente superato durante un’intensa attività di elaborazione.
 
-## IS::WorkerThreads - Numero di thread di lavoro di Image Server {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Numero di thread di lavoro del server immagini {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
-Il numero massimo di thread utilizzati da Image Server per l&#39;elaborazione dei dati immagine. Il valore predefinito è 0, che consente al server di immagini di ottimizzare automaticamente il conteggio dei thread.
+Numero massimo di thread utilizzati dal server immagini per l&#39;elaborazione dei dati immagine. Il valore predefinito è 0, che consente al server immagini di ottimizzare automaticamente il conteggio dei thread.
 
-Alcuni sistemi operativi dispongono di modelli threading con un alto overhead di commutazione di contesto. In tale circostanza le prestazioni complessive del server possono migliorare quando viene selezionato un conteggio di thread specifico (ad esempio un thread per CPU). Per trovare l’impostazione ottimale potrebbe essere necessaria una certa sperimentazione. Per ulteriori informazioni, consulta le note sulla versione di Image Serving e la documentazione del sistema operativo .
+Alcuni sistemi operativi dispongono di modelli di threading con un elevato sovraccarico di cambio di contesto. In tali circostanze, le prestazioni complessive del server possono migliorare quando viene selezionato un numero specifico di thread (ad esempio, un thread per CPU). Per trovare l’impostazione ottimale potrebbe essere necessaria una certa sperimentazione. Per ulteriori informazioni, consulta le note sulla versione di Image Server e la documentazione del sistema operativo.
 
 ## IS::NumberOfTextServers - Numero di istanze del server di testo {#section-971e20a90c1a473598fba738ed95671a}
 
-Il numero massimo di render di testo da attivare contemporaneamente. 0 (impostazione predefinita) equivale a 1,5 volte il numero di core della CPU disponibili.
+Numero massimo di renderer di testo attivi contemporaneamente. 0 (valore predefinito) equivale a 1,5 volte il numero di core della CPU disponibili.
 
-## IS::TextServerTcpPortRange - Porte di comunicazione del server di testo {#section-a13465de88ed4df09931e5ba840c1942}
+## IS::TextServerTcpPortRange - Porte di comunicazione server di testo {#section-a13465de88ed4df09931e5ba840c1942}
 
-Le porte da utilizzare per le comunicazioni server di testo. Specificare il primo e l&#39;ultimo numero di porta, separati da &#39;-&#39;.
+Porte da utilizzare per le comunicazioni server di testo. Specifica il primo e l’ultimo numero di porta, separati da &quot;-&quot;.

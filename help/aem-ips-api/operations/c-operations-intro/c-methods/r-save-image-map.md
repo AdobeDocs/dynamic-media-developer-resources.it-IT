@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -47,55 +47,55 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L’handle dell’azienda con la mappa immagine da salvare. </td> 
+   <td colname="col4"> Handle per l'azienda con la mappa immagine che si desidera salvare. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Il punto di manipolazione della risorsa immagine alla quale appartiene la mappa immagine. </td> 
+   <td colname="col4"> Handle della risorsa immagine a cui appartiene la mappa immagine. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> La maniglia della mappa immagine. Crea una mappa immagine se NULL. </td> 
+   <td colname="col4"> Handle della mappa immagine. Crea una mappa immagine se NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Nome della mappa immagine creata o salvata. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Scelta della forma di regione. </td> 
+   <td colname="col4"> Scelta della forma Regione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> regione </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> area geografica </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Elenco di punti delimitato da virgole che definiscono la regione. </td> 
+   <td colname="col4"> Un elenco delimitato da virgole di punti che definiscono la regione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> azione </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> <p>La <span class="codeph"> href </span> valore associato alla mappa immagine come specificato nell’interfaccia IPS. </p> <p>Per ottenere <span class="codeph"> href </span> , fai clic sull’immagine nell’interfaccia IPS, copia e incolla l’URL in questo elemento, quindi formatta l’URL IPS come URL corretto. Ad esempio: <span class="codeph"> &amp; </span> diventa <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Il <span class="codeph"> href </span> valore associato alla mappa immagine come specificato nell'interfaccia IPS. </p> <p>Per ottenere <span class="codeph"> href </span> , fare clic sull'immagine nell'interfaccia IPS, copiare e incollare l'URL in questo elemento e quindi formattare l'URL IPS come URL appropriato. Ad esempio: <span class="codeph"> E </span> diventa <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> posizione </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L'ordine nell'elenco delle mappe immagine (l'asse Z). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> abilitato </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -106,11 +106,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | Sì | La maniglia della mappa immagine nuova o modificata. |
+| imageMapHandle | `xsd:string` | Sì | Handle della mappa immagine nuova o modificata. |
 
 ## Esempi {#section-fdac488b640f427c8aa3d549c5032851}
 
-Questo esempio di codice crea una nuova mappa immagine per una risorsa. Utilizza un tipo di forma determinato da una costante stringa di forma regione e restituisce un handle alla nuova mappa immagine.
+Questo esempio di codice crea una nuova mappa immagine per una risorsa. Utilizza un tipo di forma determinato da una costante stringa di forma area e restituisce un punto di manipolazione nella nuova mappa immagine.
 
 **Request Contents (Richiesta contenuto)**
 

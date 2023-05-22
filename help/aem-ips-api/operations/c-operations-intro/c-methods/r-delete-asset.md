@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -37,8 +37,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società a cui appartiene la cartella. |
-| assetHandle | `xsd:string` | Sì | L’handle della risorsa da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda a cui appartiene la cartella. |
+| assetHandle | `xsd:string` | Sì | Handle della risorsa da eliminare. |
 
 **Output (deleteAssetParam)**
 
@@ -46,7 +46,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-d5657289f5234bb0a613dcf691507958}
 
-Questo codice di esempio elimina qualsiasi tipo di risorsa da una società specifica. Richiede un handle di risorsa, che è necessario ottenere da un’altra operazione.
+Questo codice di esempio elimina qualsiasi tipo di risorsa da una società specifica. Richiede un handle di risorsa, che devi ottenere da un’altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 

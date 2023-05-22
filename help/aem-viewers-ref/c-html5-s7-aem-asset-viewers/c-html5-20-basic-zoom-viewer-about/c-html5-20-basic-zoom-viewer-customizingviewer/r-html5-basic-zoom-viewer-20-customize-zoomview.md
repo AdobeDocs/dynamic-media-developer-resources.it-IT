@@ -1,6 +1,6 @@
 ---
 title: Visualizzazione zoom
-description: La vista principale è costituita dall’immagine zoomabile.
+description: La vista principale è costituita dall'immagine ingrandita.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Visualizzazione zoom{#zoom-view}
 
-La vista principale è costituita dall’immagine zoomabile.
+La vista principale è costituita dall&#39;immagine ingrandita.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7basiczoomviewer .s7zoomview
@@ -35,17 +35,17 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
-   <td colname="col2"> <p>Il cursore viene visualizzato sulla vista principale. </p> </td> 
+   <td colname="col2"> <p>Il cursore viene visualizzato sopra la vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per rendere trasparente la visualizzazione principale.
+Esempio: per rendere trasparente la visualizzazione principale.
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Esempio : per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Sui sistemi desktop, il componente supporta il `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti `cursortype` sono supportati:
+Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` e controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -64,20 +64,20 @@ Sui sistemi desktop, il componente supporta il `cursortype` selettore di attribu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l'immagine non è zoomabile a causa di una piccola risoluzione dell'immagine, delle impostazioni dei componenti o di entrambe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> predefinito </span> </p> </td> 
+   <td colname="col2"> <p>Visualizzato quando l'immagine non è ingrandita a causa di una risoluzione ridotta dell'immagine, di impostazioni dei componenti o di entrambi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando l'immagine può essere ingrandita. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col2"> <p>Viene visualizzato quando è possibile ingrandire l'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzata quando l'immagine è al livello di zoom massimo e può essere ripristinata al suo stato iniziale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col2"> <p>Viene visualizzata quando l'immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trascinare </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzato quando un utente fa scorrere l'immagine con lo stato di zoom. </p> </td> 
+   <td colname="col2"> <p>Viene visualizzato quando un utente effettua una panoramica dell’immagine ingrandita. </p> </td> 
   </tr> 
  </tbody> 
 </table>

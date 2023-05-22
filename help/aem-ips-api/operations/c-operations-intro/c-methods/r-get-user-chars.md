@@ -32,12 +32,12 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | charField | `xsd:string` | Sì | Determina lo stato del cestino da cercare. |
-| includeInactive | `xsd:boolean` | Sì | Includi o escludi gli utenti inattivi. Gli utenti amministratori non IPS devono essere membri attivi di almeno una società per essere autorizzati a effettuare chiamate API. Viene restituito un errore di autorizzazione se l’utente non dispone di appartenenze attive alla società. |
-| includInvalid | `xsd:boolean` | No | Includere o escludere utenti non validi. |
-| companyHandleArray | `types:HandleArray` | No | Filtrare i risultati in base all’azienda. |
+| includeInactive | `xsd:boolean` | Sì | Includere o escludere gli utenti inattivi. Per poter essere autorizzati a effettuare chiamate API, gli utenti non amministratori IPS devono essere membri attivi di almeno una società. Se l&#39;utente non dispone di appartenenze aziendali attive, viene restituito un errore di autorizzazione. |
+| includeInvalid | `xsd:boolean` | No | Includere o escludere utenti non validi. |
+| companyHandleArray | `types:HandleArray` | No | Filtra i risultati in base alla società. |
 | groupHandleArray | `types:HandleArray` | No | Filtra i risultati in base ai gruppi. |
-| userRoleArray | `types:StringArray` | No | Filtra i risultati in base al ruolo dell’utente. |
-| numChars | `xsd:int` | No | Abilita >1 carattere. |
+| userRoleArray | `types:StringArray` | No | Filtra i risultati in base al ruolo utente. |
+| numChars | `xsd:int` | No | Attiva >1 carattere. |
 
 **Output (getUserCharsReturn)**
 
@@ -51,9 +51,9 @@ Questo esempio di codice restituisce:
 
 * Primi caratteri dei cognomi degli utenti di una specifica azienda.
 * Un insieme di gruppi.
-* Un insieme di ruoli utente.
+* Un set di ruoli utente.
 
-La costante della stringa Campi filtro caratteri utente determina il tipo di caratteri utente restituiti.
+La costante stringa Campi filtro caratteri utente determina il tipo di caratteri utente restituiti.
 
 **Request Contents (Richiesta contenuto)**
 

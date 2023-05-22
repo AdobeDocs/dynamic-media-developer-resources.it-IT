@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Tipi di risorse e conteggio per una società.
 
-I tipi di risorse includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]e altri.
+I tipi di risorse includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], e altri.
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | assetType | `xsd:string` | Tipo di risorsa associata al conteggio. |
-| count | `sd:int` | Numero di `assetType` i beni dell&#39;azienda. |
+| count | `sd:int` | Numero di `assetType` le attività dell&#39;azienda. |

@@ -8,7 +8,7 @@ exl-id: 916ee5d1-e398-4923-9107-96f649033298
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server di immagini. Può essere qualsiasi valore supportato da Image Server e dal browser client. Se il formato specificato termina con <span class="codeph"> -alfa</span>, il componente esegue il rendering delle immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente considera le immagini come opache. </p> </td> 
+   <td> <p>Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini. Può essere qualsiasi valore supportato da Image Server e dal browser client. Se il formato specificato termina con <span class="codeph"> -alfa</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente tratta le immagini come opache. </p> </td> 
   </tr> 
  </tbody> 
 </table>

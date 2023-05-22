@@ -1,20 +1,20 @@
 ---
-description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 4.4.
+description: Descrive i metodi operativi nuovi e modificati per la versione 4.4 dell'API IPS.
 solution: Experience Manager
 title: Operazioni nuove e modificate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
-# Operazioni: Nuovo e modificato{#operations-new-and-modified}
+# Operazioni: nuove e modificate{#operations-new-and-modified}
 
-Descrive i metodi operativi nuovi e modificati per l’API IPS versione 4.4.
+Descrive i metodi operativi nuovi e modificati per la versione 4.4 dell&#39;API IPS.
 
 Sintassi
 
@@ -28,7 +28,7 @@ Sintassi
 
 ## Operazioni modificate {#section-d231591fb5ca473e846de29174dcdc39}
 
-**RicercaRisorse**
+**Cerca risorse**
 
 Parametri aggiunti:
 

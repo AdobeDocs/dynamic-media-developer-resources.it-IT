@@ -8,7 +8,7 @@ exl-id: 9d39b43f-9621-4f6f-89a1-ab621fe5592a
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 19%
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Attiva l'uso della barra di scorrimento. </p> </td> 
+   <td colname="col2"> <p> Abilita l’utilizzo della barra di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

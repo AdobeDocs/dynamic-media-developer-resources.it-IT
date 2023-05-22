@@ -8,7 +8,7 @@ exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| maskHandle | `xsd:string` | Maniglia maschera. |
-| name | `xsd:string` | Nome della maschera. |
-| maskPath | `xsd:string` | Percorso relativo alla maschera. |
+| maskHandle | `xsd:string` | Handle maschera. |
+| nome | `xsd:string` | Nome maschera. |
+| maskPath | `xsd:string` | Percorso relativo della maschera. |
 | maskFile | `xsd:string` | File maschera. |
-| lastModified | `types:dateTime` | Data, ora e fuso orario dell&#39;ultima modifica apportata alla maschera. |
+| lastModified | `types:dateTime` | Data, ora e fuso orario dell’ultima modifica apportata alla maschera. |

@@ -1,5 +1,5 @@
 ---
-description: Matrice di aggiornamenti dei valori dei tag.
+description: Un array di aggiornamenti dei valori dei tag.
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 20%
+ht-degree: 12%
 
 ---
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-Matrice di aggiornamenti dei valori dei tag.
+Un array di aggiornamenti dei valori dei tag.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:TagValueUpdate` | Matrice di aggiornamenti dei valori dei tag. |
+| elementi | `types:TagValueUpdate` | Un array di aggiornamenti dei valori dei tag. |

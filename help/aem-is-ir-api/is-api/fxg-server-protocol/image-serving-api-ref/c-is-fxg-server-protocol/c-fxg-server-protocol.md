@@ -16,14 +16,14 @@ ht-degree: 69%
 
 Per manipolare un elemento grafico, potete usare punti di riferimento simili ai punti cardinali.
 
-Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` e `southeast`. Ad esempio, utilizzando il punto di riferimento centrale, è possibile ruotare un elemento grafico di 45° al centro. L&#39;immagine seguente mostra dove si trovano i punti di riferimento, un&#39;immagine, l&#39;immagine ha ruotato di 20° rispetto al suo punto di riferimento `northWest` e l&#39;immagine ha ruotato di 20° rispetto al suo punto di riferimento `east`.
+Questi consentono di ruotare o ridimensionare un elemento grafico rispetto a un particolare punto di riferimento. I punti di riferimento sono `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south`, e `southeast`. Ad esempio, utilizzando il punto di riferimento centrale, potete ruotare un&#39;immagine di 45° rispetto al centro. L&#39;immagine seguente mostra la posizione dei punti di riferimento, un elemento grafico ruotato di 20° rispetto al relativo `northWest` punto di riferimento e la grafica ruotata di 20° rispetto al punto `east` punto di riferimento.
 
 ![Immagine dei punti di riferimento](assets/wp_ref_points.png)
 
 * A. Posizioni dei punti di riferimento
-* B. Grafico A
-* C. L&#39;immagine ha ruotato di 20° dal suo punto di riferimento `northWest`
-* D. L&#39;immagine ha ruotato di 20° dal suo punto di riferimento `east`
+* B. Un&#39;immagine
+* C. La grafica ruotava di 20° rispetto alla `northWest` punto di riferimento
+* D. L&#39;immagine è ruotata di 20° rispetto alla `east` punto di riferimento
 
 È richiesta la seguente sintassi:
 

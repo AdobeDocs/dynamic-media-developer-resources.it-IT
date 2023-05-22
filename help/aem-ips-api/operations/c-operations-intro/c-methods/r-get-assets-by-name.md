@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -49,21 +49,21 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Il manico per l'azienda. </td> 
+   <td colname="col4"> La maniglia per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Fornisce l'accesso come un altro utente. Disponibile solo per gli amministratori. </td> 
+   <td colname="col4"> Consente l'accesso come altro utente. Disponibile solo per gli amministratori. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Utilizzato per filtrare in base a un gruppo specifico. </td> 
+   <td colname="col4"> Utilizzato per filtrare per un gruppo specifico. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
@@ -90,10 +90,10 @@ Sintassi
    <td colname="col4"> Array di sottotipi di risorse consentiti per le risorse recuperate. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> narrowSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, solo le risorse i cui sottotipi sono <span class="codeph"> assetSubTypeArray</span> vengono restituiti. </p> <p>Se <span class="codeph"> false</span>, vengono quindi incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span> vengono restituiti. </p> <p>Se <span class="codeph"> false</span>, vengono quindi incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,11 +114,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| assetArray | `types:AssetArray` | No | Array di risorse che corrispondono ai criteri del filtro. |
+| assetArray | `types:AssetArray` | No | Array di risorse che corrispondono ai criteri di filtro. |
 
 ## Esempi {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-Questo esempio di codice restituisce due risorse di tipo immagine.
+In questo esempio di codice vengono restituite due risorse di tipo immagine.
 
 **Request Contents (Richiesta contenuto)**
 

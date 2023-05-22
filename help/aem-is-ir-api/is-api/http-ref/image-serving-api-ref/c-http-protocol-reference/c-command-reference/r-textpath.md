@@ -1,6 +1,6 @@
 ---
 title: textPath
-description: Percorso del testo. Specifica il percorso da utilizzare come linea di base per il testo fornito con textPs=.
+description: Percorso testo. Specifica il percorso da utilizzare come linea di base per il testo fornito con textPs=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,32 +14,32 @@ ht-degree: 2%
 
 # textPath{#textpath}
 
-Percorso del testo. Specifica il percorso da utilizzare come linea di base per il testo fornito con textPs=.
+Percorso testo. Specifica il percorso da utilizzare come linea di base per il testo fornito con textPs=.
 
 textPath= *`pathDefinition`*
 
 <table id="simpletable_74F549E8625B483A9B334B24A7EB6D22"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Dati del percorso. </p></td> 
+  <td class="stentry"> <p>Dati percorso. </p></td> 
  </tr> 
 </table>
 
-Vedi [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) per ulteriori informazioni, compresa una descrizione *`pathDefinition`*.
+Consulta [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) per ulteriori informazioni, compresa una descrizione *`pathDefinition`*.
 
 >[!NOTE]
 >
->Diverso da `clipPath=`, i percorsi di testo non vengono chiusi automaticamente quando &quot;z&quot; o &quot;Z&quot; non è specificato alla fine di un percorso secondario.
+>Diverso da `clipPath=`, i percorsi di testo non vengono chiusi automaticamente quando &#39;z&#39; o &#39;Z&#39; non è specificato alla fine di un percorso secondario.
 
-*`pathDefinition`* possono includere più percorsi secondari. Il testo viene rappresentato sui percorsi secondari nell’ordine specificato.
+*`pathDefinition`* può includere più percorsi secondari. Il rendering del testo viene eseguito sui percorsi secondari nell&#39;ordine specificato.
 
-Comandi RTF `\ql`, `\qc`, `\qr`, `\li`e `\ri` può essere utilizzato per posizionare il testo di cui è stato effettuato il rendering lungo il tracciato.
+Comandi RTF `\ql`, `\qc`, `\qr`, `\li`, e `\ri` può essere utilizzato per posizionare il testo sottoposto a rendering lungo il tracciato.
 
 ## Proprietà {#section-068137df436c46b9b55d271eb60e7285}
 
-Attributo del livello di testo ( `textPs=` solo). Ignorato da altri livelli. Si applica a `layer=0` se specificato per `layer=comp`. Ignorato se `textPs=` sono presenti.
+Attributo livello testo ( `textPs=` solo ). Ignorato da altri livelli. Applicabile a `layer=0` se specificato per `layer=comp`. Ignorato se `textPs=` sono presenti.
 
-Se un livello include entrambi, viene restituito un errore `textPath=` e `textFlowPath=`.
+Viene restituito un errore se un livello include entrambi `textPath=` e `textFlowPath=`.
 
 ## Predefinito {#section-697b1f2cfc43498080a31327e6eb173d}
 

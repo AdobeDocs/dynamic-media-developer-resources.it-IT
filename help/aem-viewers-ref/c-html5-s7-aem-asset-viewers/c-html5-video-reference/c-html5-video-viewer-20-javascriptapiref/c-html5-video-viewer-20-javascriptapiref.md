@@ -1,6 +1,6 @@
 ---
-title: Riferimento API JavaScript per il visualizzatore video
-description: La classe principale del visualizzatore video è VideoViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+title: Riferimento API JavaScript per Visualizzatore video
+description: La classe principale del Visualizzatore video è VideoViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Riferimento API JavaScript per il visualizzatore video{#javascript-api-reference-for-video-viewer}
+# Riferimento API JavaScript per Visualizzatore video{#javascript-api-reference-for-video-viewer}
 
-La classe principale del visualizzatore video è VideoViewer. Viene dichiarato nello spazio dei nomi s7viewers . Questa API JavaScript copre costruttore, metodi e callback di questa particolare classe.
+La classe principale del Visualizzatore video è VideoViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 
-In tutti gli esempi seguenti: `<instance>` è il nome effettivo dell’oggetto visualizzatore JavaScript di cui viene creata un’istanza dal `s7viewers.VideoViewer` classe.
+In tutti gli esempi seguenti: `<instance>` è il nome effettivo dell&#39;oggetto visualizzatore JavaScript creato dall&#39;istanza `s7viewers.VideoViewer` classe.

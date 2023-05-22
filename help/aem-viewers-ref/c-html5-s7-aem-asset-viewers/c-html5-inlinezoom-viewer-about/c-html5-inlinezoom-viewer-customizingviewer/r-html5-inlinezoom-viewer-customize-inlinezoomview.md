@@ -1,6 +1,6 @@
 ---
 title: Visualizzazione zoom a comparsa
-description: La visualizzazione principale consiste nell’immagine statica e nell’immagine ingrandita mostrata nella visualizzazione a comparsa sopra l’immagine statica. È inoltre costituito dal messaggio di suggerimento visualizzato sopra l’immagine statica.
+description: La vista principale è costituita dall'immagine statica e dall'immagine ingrandita mostrata nella vista a comparsa sopra l'immagine statica. È inoltre costituito dal messaggio di suggerimento visualizzato sopra l’immagine statica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Visualizzazione zoom a comparsa{#flyout-zoom-view}
 
-La visualizzazione principale consiste nell’immagine statica e nell’immagine ingrandita mostrata nella visualizzazione a comparsa sopra l’immagine statica. È inoltre costituito dal messaggio di suggerimento visualizzato sopra l’immagine statica.
+La vista principale è costituita dall&#39;immagine statica e dall&#39;immagine ingrandita mostrata nella vista a comparsa sopra l&#39;immagine statica. È inoltre costituito dal messaggio di suggerimento visualizzato sopra l’immagine statica.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS della vista principale**
+**Proprietà CSS della visualizzazione principale**
 
-L’aspetto della vista principale è controllato con il seguente selettore di classe CSS:
+L’aspetto della vista principale è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -35,13 +35,13 @@ L’aspetto della vista principale è controllato con il seguente selettore di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per rendere trasparente la visualizzazione principale:
+Esempio - per rendere trasparente la visualizzazione principale:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -51,13 +51,13 @@ Esempio: per rendere trasparente la visualizzazione principale:
 
 **Proprietà CSS del messaggio di suggerimento**
 
-L’aspetto del messaggio di suggerimento è controllato con il seguente selettore di classe CSS:
+L’aspetto del messaggio di suggerimento è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare stile, dimensione, aspetto e offset verticale del font attraverso CSS. Tuttavia, l’allineamento orizzontale è gestito dalla logica del visualizzatore. Sovrascrittura tramite CSS utilizzando `left` o `right` proprietà non supportate.
+È possibile configurare lo stile, le dimensioni, l&#39;aspetto e l&#39;offset verticale del carattere tramite CSS. Tuttavia, l’allineamento orizzontale viene gestito dalla logica del visualizzatore. Sovrascriverlo tramite CSS utilizzando `left` o `right` proprietà non supportata.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -69,7 +69,7 @@ L’aspetto del messaggio di suggerimento è controllato con il seguente seletto
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Offset dal fondo della vista principale. </p> </td> 
+   <td colname="col2"> <p>Offset dalla parte inferiore della vista principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -77,36 +77,36 @@ L’aspetto del messaggio di suggerimento è controllato con il seguente seletto
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Nome carattere. </p> </td> 
+   <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
+   <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spaziatura interna </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento di sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
-   <td colname="col2"> <p>Raggio del bordo di sfondo del testo del messaggio. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p>Raggio bordo sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacità </span> </p> </td> 
-   <td colname="col2"> <p>Opacità di sfondo del testo del messaggio. </p> <p>Per Internet Explorer 8, utilizza <span class="codeph"> filtro:alfa(opacity-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacità di sfondo del testo del messaggio. </p> <p>Per Internet Explorer 8, utilizzare <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
+Il messaggio di suggerimento può essere localizzato. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
 
 .
 
-Esempio: per impostare un messaggio di suggerimento semitrasparente con un carattere bianco Arial® 12-px, uno scostamento di 50 pixel dal fondo della vista principale, della spaziatura e un bordo arrotondato:
+Esempio: per impostare un messaggio di suggerimento semitrasparente con il carattere bianco Arial® 12 px, una distanza di 50 pixel dalla parte inferiore della visualizzazione principale, una spaziatura interna e un bordo arrotondato:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

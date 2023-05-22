@@ -1,5 +1,5 @@
 ---
-description: Rimuove un utente da una o più aziende.
+description: Rimuove un utente da una o più società.
 solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # removeCompanyMembership{#removecompanymembership}
 
-Rimuove un utente da una o più aziende.
+Rimuove un utente da una o più società.
 
 Sintassi
 
@@ -31,8 +31,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente con l&#39;iscrizione che si desidera rimuovere. |
-| companyHandleArray | `types:HandleArray` | Sì | L&#39;handle della società da cui stai rimuovendo l&#39;utente. |
+| userHandle | `xsd:string` | No | Handle per l&#39;utente con l&#39;appartenenza che si desidera rimuovere. |
+| companyHandleArray | `types:HandleArray` | Sì | Handle dell&#39;azienda da cui si sta rimuovendo l&#39;utente. |
 
 **Output (removeCompanyMembershipReturn)**
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Questo esempio di codice rimuove un utente da un&#39;azienda. Omettere l&#39;handle utente opzionale per rimuovere tutti gli utenti dalle società specificate nell&#39;array handle aziendale.
+Questo esempio di codice rimuove un utente da un’azienda. Ometti l’handle utente facoltativo per rimuovere tutti gli utenti dalle aziende specificate nell’array dell’handle aziendale.
 
 **Request Contents (Richiesta contenuto)**
 

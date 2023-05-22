@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
-Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -48,7 +48,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -58,7 +58,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
-   <td colname="col2"> <p>l’immagine del banner carosello viene modificata. </p> </td> 
+   <td colname="col2"> <p>l’immagine del banner del carosello viene modificata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 

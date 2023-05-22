@@ -8,7 +8,7 @@ exl-id: 3cb91483-de8c-4d5c-9b46-7026c5001f3a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Specifica l’allineamento interno (ancoraggio) del contenitore di campioni all’interno dell’area del componente. Nei campioni, il contenitore delle miniature interno viene ridimensionato in modo da visualizzare solo un numero intero di campioni. Di conseguenza, esiste una spaziatura tra i limiti del componente interno ed esterno. Questo comando specifica il modo in cui il contenitore di campioni interno viene posizionato all’interno del componente.
+Specifica l&#39;allineamento (ancoraggio) del contenitore dei campioni all&#39;interno dell&#39;area del componente. In Campioni, il contenitore interno delle miniature viene ridimensionato in modo da visualizzare solo campioni interi. Di conseguenza, è presente una certa spaziatura tra i bordi del contenitore interno e quelli del componente esterno. Questo comando specifica in che modo il contenitore interno dei campioni viene posizionato all&#39;interno del componente.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> sinistra|centro|destra</span> </p> </td> 
-   <td> <p> Imposta l’allineamento dei campioni orizzontali. </p> </td> 
+   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> Imposta l'allineamento dei campioni orizzontali. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> in alto|al centro|in basso</span> </p> </td> 
-   <td> <p> Imposta l’allineamento dei campioni verticali. </p> </td> 
+   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td> <p> Imposta l'allineamento dei campioni verticali. </p> </td> 
   </tr> 
  </tbody> 
 </table>

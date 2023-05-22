@@ -1,20 +1,20 @@
 ---
-description: Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
+description: Elimina i valori dei metadati di una risorsa. Utilizza un array di eliminazione dei metadati per impostare i valori in un batch.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadati, gestione delle risorse
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 6%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-Elimina i valori dei metadati per una risorsa. Funziona con un array di eliminazione dei metadati per impostare i valori in un batch.
+Elimina i valori dei metadati di una risorsa. Utilizza un array di eliminazione dei metadati per impostare i valori in un batch.
 
 Sintassi
 
@@ -47,19 +47,19 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>companyHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L'handle della società a cui appartiene la cartella. </p> </td> 
+   <td colname="col4"> <p>Handle dell'azienda a cui appartiene la cartella. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L’handle della risorsa da eliminare. </p> </td> 
+   <td colname="col4"> <p>Handle della risorsa da eliminare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Metadati da eliminare dalla risorsa. </p> </td> 
   </tr> 
@@ -78,7 +78,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-d5657289f5234bb0a613dcf691507958}
 
-MetadataDelete
+Eliminazione metadati
 
 ```java
     <complexType name="MetadataDelete">

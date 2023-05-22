@@ -1,5 +1,5 @@
 ---
-title: title
+title: titolo
 description: comando title
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -8,17 +8,17 @@ exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
-# title{#title}
+# titolo{#title}
 
 ` title= *`windowTitle`*`
 
 >[!NOTE]
 >
->Questo comando non si applica ai visualizzatori a comparsa, ai visualizzatori zoom di base, ai visualizzatori a 360 gradi o ai visualizzatori di immagini interattive.
+>Questo comando non è applicabile a Visualizzatore a comparsa, Visualizzatore zoom di base, Visualizzatore 360 gradi o Visualizzatore immagine interattivo.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 

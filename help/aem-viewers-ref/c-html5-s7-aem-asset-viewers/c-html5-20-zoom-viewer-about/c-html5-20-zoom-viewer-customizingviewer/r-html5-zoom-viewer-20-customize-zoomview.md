@@ -1,26 +1,26 @@
 ---
 title: Visualizzazione zoom
-description: La vista principale è costituita dall’immagine zoomabile.
+description: La vista principale è costituita dall'immagine ingrandita.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Visualizzazione zoom{#zoom-view}
 
-La vista principale è costituita dall’immagine zoomabile.
+La vista principale è costituita dall&#39;immagine ingrandita.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7zoomviewer .s7zoomview
@@ -35,12 +35,12 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
-   <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
+   <td colname="col2"> <p>Cursore visualizzato sopra la vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,24 +53,24 @@ Esempio: per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Nei sistemi desktop il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti `cursortype` sono supportati:
+Sui sistemi desktop il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
 
 * `default`
 
-   Visualizzato quando l&#39;immagine non è zoomabile a causa di una piccola risoluzione dell&#39;immagine, delle impostazioni dei componenti o di entrambe.
+   Visualizzato quando l&#39;immagine non è ingrandita a causa di una risoluzione ridotta dell&#39;immagine, di impostazioni dei componenti o di entrambi.
 
 * `zoomin`
 
-   Visualizzato quando l&#39;immagine può essere ingrandita.
+   Viene visualizzato quando è possibile ingrandire l&#39;immagine.
 
 * `reset`
 
-   Visualizzata quando l&#39;immagine è al livello di zoom massimo e può essere ripristinata al suo stato iniziale.
+   Viene visualizzata quando l&#39;immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale.
 
 * `drag`
 
-   Visualizzato quando l&#39;utente fa un panning dell&#39;immagine con lo stato di zoom.
+   Viene visualizzato quando l’utente effettua una panoramica dell’immagine ingrandita.
 
 * `slide`
 
-   Visualizzato quando l’utente esegue lo scambio di immagini facendo un tocco o uno sfarfallio orizzontale.
+   Viene visualizzato quando l&#39;utente esegue lo scambio di immagini eseguendo uno scorrimento orizzontale.

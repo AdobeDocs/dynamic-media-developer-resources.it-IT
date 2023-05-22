@@ -1,5 +1,5 @@
 ---
-description: Ottiene i dettagli di un registro dei processi aziendali.
+description: Ottiene i dettagli di un registro di processo aziendale.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
@@ -8,15 +8,15 @@ exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # getJobLogDetails{#getjoblogdetails}
 
-Ottiene i dettagli di un registro dei processi aziendali.
+Ottiene i dettagli di un registro di processo aziendale.
 
-La `logMessage` il campo di risposta è localizzato in base al `authHeader` `locale` campo .
+Il `logMessage` il campo di risposta è localizzato in base al `authHeader` `locale` campo.
 
 ## Tipi di utenti autorizzati {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -45,51 +45,51 @@ La `logMessage` il campo di risposta è localizzato in base al `authHeader` `loc
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> L'handle della società a cui appartiene il job log. </td> 
+   <td colname="col4"> Handle dell'azienda a cui appartiene il registro di processo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Un handle per un processo attivo o completato. </td> 
+   <td colname="col4"> Handle di un processo attivo o completato. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nome originale del job log. </td> 
+   <td colname="col4"> Nome originale del registro del processo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o più costanti del tipo di log. Se presente, vengono restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
+   <td colname="col4"> Una o più costanti Log Type. Se presente, vengono restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Numero massimo di <span class="codeph"> detailArray</span> oggetti da restituire. Il valore massimo e predefinito è 1000. </td> 
+   <td colname="col4">Numero massimo di <span class="codeph"> detailArray</span> elementi da restituire. Il valore massimo e predefinito è 1000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Numero di pagina <span class="codeph"> recordsPerPage</span>-risultati da restituire. Il valore predefinito è 1. </td> 
+   <td colname="col4">Numero di pagina di <span class="codeph"> recordsPerPage</span>-risultati da restituire. Il valore predefinito è 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Uno dei valori costanti del campo di ordinamento dettagli processo (Data o tipo di log). Il valore predefinito è Data. </p> </td> 
+   <td colname="col4"> <p>Uno dei valori costanti del campo di ordinamento dei dettagli processo (Date o LogType). Il valore predefinito è Date. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Una delle costanti della stringa Direzione ordinamento. Il valore predefinito è crescente. </p> </td> 
+   <td colname="col4"> <p>Una delle costanti della stringa di ordinamento. Il valore predefinito è crescente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,11 +98,11 @@ La `logMessage` il campo di risposta è localizzato in base al `authHeader` `loc
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| jobLogArray | `types:JobLogArray` | Sì | Array di registri di lavoro. |
+| jobLogArray | `types:JobLogArray` | Sì | Array di registri di processo. |
 
 ## Esempi {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Questo esempio di codice restituisce tutti i dettagli del registro di lavoro per una società specifica. La prima matrice contiene i dettagli del registro di lavoro standard. Una matrice incorporata restituisce informazioni aggiuntive sul processo.
+In questo esempio di codice vengono restituiti tutti i dettagli del registro processi per una società specifica. Il primo array contiene i dettagli del registro di processo standard. Un array incorporato restituisce informazioni aggiuntive sul processo.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -8,7 +8,7 @@ exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -31,17 +31,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare le impostazioni. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda di cui si desidera recuperare le impostazioni. |
 
 **Output (getCompanySettingsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| impostazioni | `types:CompanySettings` | Sì | Impostazioni aziendali. |
+| impostazioni | `types:CompanySettings` | Sì | Impostazioni società. |
 
 ## Esempi {#section-191f78995ecf473a95eadf7296204fd7}
 
-Questo esempio di codice restituisce tutte le impostazioni IPS per una società specifica.
+In questo esempio di codice vengono restituite tutte le impostazioni IPS per una società specifica.
 
 **Request Contents (Richiesta contenuto)**
 

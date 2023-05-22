@@ -1,6 +1,6 @@
 ---
-title: Distribuzione video HTTPS
-description: Distribuzione video HTTPS
+title: Consegna video HTTPS
+description: Consegna video HTTPS
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Distribuzione video HTTPS{#https-video-delivery}
+# Consegna video HTTPS{#https-video-delivery}
 
 <!-- >[!NOTE]
 >
 >HTTP Secure Video Delivery applies only to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Se il visualizzatore funziona in configurazione come descritto all’inizio di questa sezione, la distribuzione video pubblicata può avvenire sia in modalità HTTPS (sicura) che HTTP (non sicura). In una configurazione predefinita, il protocollo di consegna video segue rigorosamente il protocollo di consegna della pagina web di incorporamento. Tuttavia, è possibile forzare la distribuzione video HTTPS senza tenere conto del protocollo utilizzato incorporando la pagina web utilizzando l&#39;attributo di configurazione [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) . L’anteprima video in modalità Autore viene sempre distribuita in modo sicuro tramite HTTPS.
+Se il visualizzatore funziona nella configurazione come descritto all’inizio di questa sezione, la distribuzione di video pubblicati può avvenire sia in modalità HTTPS (sicura) che HTTP (non sicura). In una configurazione predefinita, il protocollo di consegna video segue rigorosamente il protocollo di consegna della pagina web in cui è incorporato. Tuttavia, è possibile forzare la consegna di video HTTPS indipendentemente dal protocollo utilizzato per incorporare la pagina web utilizzando [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md) attributo di configurazione. L’anteprima video in modalità Creazione viene sempre distribuita in modo sicuro su HTTPS.
 
-A seconda del metodo di pubblicazione dei video di Dynamic Media utilizzato in Adobe Experience Manager, l’attributo di configurazione `Video360Player.ssl` viene applicato in modo diverso, come illustrato di seguito:
+A seconda del metodo di pubblicazione dei video Dynamic Media utilizzato in Adobe Experience Manager, il `Video360Player.ssl` l’attributo di configurazione viene applicato in modo diverso, come dimostrato di seguito:
 
-* Se pubblichi un video Dynamic Media con un URL, aggiungi `Video360Player.ssl` all’URL. Ad esempio, per forzare la distribuzione video sicura, aggiungi `&Video360Player.ssl=on` alla fine del seguente esempio di URL visualizzatore:
+* Se pubblichi un video Dynamic Media con un URL, aggiungi `Video360Player.ssl` all&#39;URL. Ad esempio, per forzare la distribuzione sicura dei video, aggiungi `&Video360Player.ssl=on` alla fine del seguente esempio di URL visualizzatore:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/Video360Viewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&Video360Player.ssl=on
    ```
 
-   Consulta anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+   Vedi anche [Collegamento di URL all’applicazione web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
-* Se pubblichi un video Dynamic Media con codice da incorporare, aggiungi `Video360Player.ssl` all’elenco degli altri parametri di configurazione del visualizzatore nello snippet di codice da incorporare. Ad esempio, per forzare la distribuzione video HTTPS, aggiungi `&Video360Player.ssl=on` come nell’esempio seguente:
+* Se pubblichi un video Dynamic Media con codice da incorporare, aggiungi `Video360Player.ssl` nell’elenco degli altri parametri di configurazione del visualizzatore nello snippet di codice da incorporare. Ad esempio, per forzare la consegna di video HTTPS, aggiungi `&Video360Player.ssl=on` come nell’esempio seguente:
 
    ```
    <style type="text/css"> 
@@ -57,4 +57,4 @@ A seconda del metodo di pubblicazione dei video di Dynamic Media utilizzato in A
    </script>
    ```
 
-   Vedere anche [Incorporazione di video in una pagina web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)
+   Vedi anche [Incorporare il video in una pagina web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)

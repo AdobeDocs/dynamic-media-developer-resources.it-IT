@@ -1,6 +1,6 @@
 ---
 title: Vignettature
-description: Le vignette sono immagini create con Dynamic Media Image Authoring per l’utilizzo con Image Rendering.
+description: Le vignettature sono immagini create con Dynamic Media Image Authoring e utilizzate con Image Rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 # Vignettature{#vignettes}
 
-Le vignette sono immagini create con Dynamic Media Image Authoring per l’utilizzo con Image Rendering.
+Le vignettature sono immagini create con Dynamic Media Image Authoring e utilizzate con Image Rendering.
 
-IR supporta due tipi di vignettatura di base: *2D* e *3D*. Le scene delle stanze sono solitamente vignette 3D che possono riprodurre riflessi, mentre la maggior parte delle altre scene, come abbigliamento o tappezzeria, sono di norma vignette 2D che non hanno capacità di rendering del riflesso.
+IR supporta due tipi di vignettatura di base: *2D* e *3D*. Le scene delle stanze sono tipicamente vignettature 3D che possono riprodurre riflessi, mentre la maggior parte delle altre scene, come abbigliamento o tappezzeria, sono normalmente vignettature 2D che non hanno capacità di rendering dei riflessi.
 
-Le vignette contengono un *visualizzare* e una gerarchia *oggetti*.
+Le vignette contengono una *visualizza* e una gerarchia di *oggetti*.
 
-La visualizzazione è il contenitore dell&#39;immagine principale, mappe di illuminazione condivise, mappe di riflessione condivise e altri dati associati all&#39;intera immagine.
+La vista è il contenitore dell&#39;immagine principale, delle mappe di illuminazione condivise, delle mappe di riflessione condivise e di altri dati associati all&#39;intera immagine.
 
-La gerarchia degli oggetti è costituita da *gruppi di oggetti*, *oggetti standard* e *sovrapporre gli oggetti*.
+La gerarchia degli oggetti è costituita da *gruppi di oggetti*, *oggetti standard*, e *oggetti sovrapposti*.
 
-Ogni oggetto standard controlla un&#39;area dell&#39;immagine di visualizzazione, definita con una scala di grigi *maschera*. Le maschere degli oggetti standard non si sovrappongono mai. Gli oggetti standard non possono essere nascosti direttamente, ma possono essere coperti parzialmente o interamente da oggetti sovrapposti. La maggior parte o tutti gli oggetti di una vignetta tipica sono oggetti standard.
+Ogni oggetto standard controlla un&#39;area dell&#39;immagine della vista, definita con una scala di grigi *maschera*. Le maschere degli oggetti standard non si sovrappongono mai. Gli oggetti standard non possono essere nascosti direttamente, ma possono essere coperti parzialmente o interamente da oggetti sovrapposti. La maggior parte o tutti gli oggetti di una vignettatura tipica sono oggetti standard.
 
-Sovrapponi gli oggetti posizionati sopra l&#39;immagine di visualizzazione e l&#39;uno sull&#39;altro. L’ordine di sovrapposizione è definito da un valore z assegnato all’oggetto. Gli oggetti di sovrapposizione sono utili quando le parti di una scena devono essere mostrate o nascoste dinamicamente.
+Sovrapponi il livello degli oggetti sopra l&#39;immagine della vista e l&#39;uno con l&#39;altro. L&#39;ordine di sovrapposizione è definito da un valore z assegnato all&#39;oggetto. Gli oggetti di sovrapposizione sono utili quando è necessario visualizzare o nascondere dinamicamente parti di una scena.
 
-Sono supportati diversi tipi di oggetti (sia standard che sovrapposti), ciascuno con il proprio scopo distinto:
+Sono supportati diversi tipi di oggetti (standard e sovrapposizione), ciascuno con un proprio scopo distinto:
 
-* **Oggetti planari** (in vignette 3D) e **oggetti piatti** (in vignette 2D) accettano materiali di texture ripetibili. Sono generalmente utilizzati per pavimenti, controsoffitti e altre superfici piane che richiedono solo la mappatura prospettica.
-* **Oggetti flowline** mappare superfici curve di forma levigata, come la tappezzeria, e vengono utilizzati occasionalmente anche per oggetti di abbigliamento. Possono essere utilizzati sia nelle vignette 2D che 3D e, se completamente creati, partecipano al rendering dei riflessi.
-* **Oggetti non testurabili** consentono solo la modifica del colore. Sono consentiti sia nelle vignette 2D che 3D. Sono intrinsecamente non testurabili oppure possono essere un oggetto planare o flowline con un flag speciale &#39;No Texture&#39; impostato. Questo metodo è utile nelle vignette 3D per consentire agli oggetti di partecipare al rendering del riflesso, anche se l&#39;oggetto accetta solo materiali a colori solidi.
-* **Oggetti di sketch** sono più utilizzati per oggetti in tessuto con pieghe e rughe, come gli articoli di abbigliamento. Come gli oggetti flowline, possono essere utilizzati nelle vignette 2D e 3D, anche se l’applicazione nelle vignette 3D è limitata.
-* **Oggetti a muro** sono simili agli oggetti planari e sono supportate solo nelle vignette 3D. Sono dotate di particolari informazioni di layout che consentono l&#39;applicazione di due diverse finiture per pareti (superiore e inferiore) e fino a tre materiali per il bordo della parete. Quando viene creata correttamente, i materiali applicati ai muri scorrono accuratamente e senza soluzione di continuità tra muri adiacenti, per applicazioni realistiche di sfondo/bordo parete. Gli oggetti parete non supportano la rotazione della texture.
-* **Oggetti del cabinet** sono consentiti solo nelle vignette 3D. Sono utilizzati per l&#39;authoring di armadi da cucina e da bagno con requisiti di layout complessi. Gli oggetti gabinetto accettano texture ripetibili e appositamente creati *file di stile archivio* contenente immagini del pannello mobile ridimensionabili.
+* **Oggetti planari** (nelle vignettature 3D) e **oggetti piatti** (nelle vignettature 2D) accettano materiali di texture ripetibili. Vengono in genere utilizzati per pavimenti, controsoffitti e altre superfici piane che richiedono solo la mappatura prospettica.
+* **Oggetti di flusso** mappare superfici curve di forma liscia come tappezzeria e sono occasionalmente utilizzati anche per gli oggetti di abbigliamento. Possono essere utilizzati sia nelle vignettature 2D che 3D e, se completamente creati, partecipano al rendering di riflessione.
+* **Oggetti non testurizzabili** consenti solo le modifiche di colore. Sono consentite nelle vignettature 2D e 3D. Sono intrinsecamente non texturabili o possono essere un oggetto planare o di linea di flusso con uno speciale flag &quot;No Texture&quot; impostato. Questo metodo è utile nelle vignettature 3D per consentire agli oggetti di partecipare al rendering della riflessione, anche se l&#39;oggetto accetta solo materiali di colore solido.
+* **Oggetti di sketch** sono utilizzate in modo ottimale per gli oggetti in tessuto con pieghe e rughe, come gli articoli di abbigliamento. Analogamente agli oggetti della linea di flusso, possono essere utilizzati nelle vignettature 2D e 3D, anche se l’applicazione nelle vignettature 3D è limitata.
+* **Oggetti muro** sono simili agli oggetti planari e sono supportati solo nelle vignettature 3D. Dispongono di informazioni di layout speciali che consentono l&#39;applicazione di due diverse finiture di parete (superiore e inferiore) e fino a tre materiali di bordo della parete. Se creati correttamente, i materiali applicati alle pareti scorrono in modo accurato e senza soluzione di continuità tra le pareti adiacenti, per applicazioni realistiche di carta da parati/bordi murali. Gli oggetti di parete non supportano la rotazione della texture.
+* **Oggetti di scaffale** sono consentite solo nelle vignettature 3D. Sono utilizzati per creare armadi da cucina e da bagno con requisiti di layout complessi. Gli oggetti Cabinet accettano texture ripetibili e appositamente creati *file di stile archivio* contenente immagini ridimensionabili del pannello.
 
 Oltre ai tipi di oggetto di base, sono supportati due tipi speciali di oggetti di sovrapposizione:
 
-* **Oggetti di sovrapposizione statici** sono oggetti che non accettano materiali. Sono consentiti sia nelle vignette 2D che 3D. Sono utili per gli accessori rimovibili in una scena della stanza, per le ombre cadenti dietro oggetti di sovrapposizione renderizzabili e applicazioni simili.
-* **Oggetti frame della finestra** fornire informazioni di posizionamento per applicare i file di stile dei rivestimenti delle finestre, creati indipendentemente dalla vignetta e che possono essere condivisi tra le vignette.
+* **Oggetti di sovrapposizione statici** sono oggetti che non accettano materiali. Sono consentite nelle vignettature 2D e 3D. Sono utili per gli accessori rimovibili in una scena di stanza, per ombre esterne dietro oggetti di sovrapposizione renderizzabili e applicazioni simili.
+* **Oggetti cornice di copertura della finestra** forniscono informazioni sul posizionamento per l&#39;applicazione di file di stile per i rivestimenti per finestre, creati indipendentemente dalla vignettatura e che possono essere condivisi tra le vignettature.
 
-Gli oggetti vengono raccolti in *gruppi di oggetti*, simile a un file system. Il raggruppamento si basa normalmente sulla struttura degli oggetti fisici che rappresentano (ad esempio, un gruppo &quot;Tutti gli armadi&quot; potrebbe contenere &quot;Cabinetti di base&quot; e &quot;Cabine di parete&quot;). È consentito qualsiasi numero di livelli di gruppo. Il raggruppamento supporta l&#39;applicazione di materiali a più oggetti simili.
+Gli oggetti vengono raccolti in *gruppi di oggetti*, simile a un file system. Il raggruppamento è normalmente basato sulla struttura degli oggetti fisici che rappresentano (ad esempio, un gruppo &quot;Tutti gli archivi&quot; potrebbe contenere &quot;Archivi di base&quot; e &quot;Archivi murali&quot;). È consentito qualsiasi numero di livelli di gruppo. Il raggruppamento supporta l&#39;applicazione di materiali a più oggetti simili.
 
-* [Coordinate della scena](c-ir-scene-coordinates.md)
+* [Coordinate scena](c-ir-scene-coordinates.md)
 * [Risoluzione del materiale](c-ir-material-resolution.md)

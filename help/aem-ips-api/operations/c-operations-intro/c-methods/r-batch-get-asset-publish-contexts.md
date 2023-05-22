@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -43,8 +43,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
-| assetHandleArray | ` `tipi:HandleArray&quot; | Sì | Elenco delle risorse per le quali si desidera eseguire una query per i contesti attivi (contrassegnati per la pubblicazione). |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
+| assetHandleArray | ` `tipi:HandleArray&quot; | Sì | Elenco di risorse sulle quali eseguire query per i contesti attivi (contrassegnati per la pubblicazione). |
 
 **Output (batchGetAssetPublishContextsReturn)**
 

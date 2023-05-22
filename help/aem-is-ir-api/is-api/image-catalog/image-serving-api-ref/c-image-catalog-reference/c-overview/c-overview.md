@@ -1,5 +1,5 @@
 ---
-description: I cataloghi di immagini vengono utilizzati per fornire informazioni sulle immagini e sui dati di supporto (come font e profili ICC) al server.
+description: I cataloghi di immagini vengono utilizzati per fornire al server informazioni sulle immagini e sui dati di supporto (come font e profili ICC).
 solution: Experience Manager
 title: Panoramica
 feature: Dynamic Media Classic,SDK/API
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Panoramica{#overview}
 
-I cataloghi di immagini vengono utilizzati per fornire informazioni sulle immagini e sui dati di supporto (come font e profili ICC) al server.
+I cataloghi di immagini vengono utilizzati per fornire al server informazioni sulle immagini e sui dati di supporto (come font e profili ICC).
 
-I cataloghi di immagini vengono utilizzati per fornire informazioni sulle immagini e sui dati di supporto (come font e profili ICC) al server.
+I cataloghi di immagini vengono utilizzati per fornire al server informazioni sulle immagini e sui dati di supporto (come font e profili ICC).
 
-Ogni catalogo di immagini è costituito da un file di attributi di catalogo richiesto e da un set di file di dati di catalogo opzionali:
+Ogni catalogo immagini è costituito da un file di attributi di catalogo obbligatorio e da un set di file di dati di catalogo facoltativi:
 
-* Il file di dati immagine, che riprende le immagini e i modelli e i metadati associati.
-* Il file di dati di SVG, in cui sono elencati i file di SVG e i relativi metadati associati.
-* Il file delle definizioni delle macro, che fornisce le definizioni delle macro delle richieste.
-* Il file di mappa dei font, che tiene traccia dei font di testo.
-* Il file di mappa del profilo, che descrive i profili di colore ICC.
-* Il file set di regole, che definisce le regole di pre-elaborazione delle richieste HTTP.
+* Il file di dati immagine, che elenca in dettaglio immagini e modelli e i metadati associati.
+* Il file di dati SVG, che elenca in dettaglio i file SVG e i metadati associati.
+* Il file delle definizioni delle macro, che fornisce le definizioni per le macro di richiesta.
+* Il file mappa dei caratteri, che tiene traccia dei caratteri di testo.
+* Il file di mappa del profilo, che specifica i profili colore ICC.
+* Il file del set di regole, che definisce le regole di pre-elaborazione delle richieste HTTP.
 
-I file di dati del catalogo sono associati ai cataloghi di immagini mediante riferimenti di file nel file di attributi del catalogo. Lo stesso file di dati di catalogo può essere condiviso da più cataloghi di immagini.
+I file di dati del catalogo sono associati ai cataloghi di immagini tramite riferimenti di file nel file di attributi del catalogo. Lo stesso file di dati di catalogo può essere condiviso da più cataloghi di immagini.
 
-I file di attributi del catalogo devono avere un [!DNL .ini] suffisso di file e deve trovarsi nel [!DNL Platform Server]Cartella catalogo di ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al [!DNL Platform Server].
+I file degli attributi del catalogo devono avere [!DNL .ini] suffisso di file e deve trovarsi nel [!DNL Platform Server]Cartella del catalogo di ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al [!DNL Platform Server].
 
-Questo documento descrive il formato del file del catalogo immagini per il sistema Image Serving di Dynamic Media. Il pubblico a cui è destinato è composto da programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Media Image Serving per un&#39;applicazione web o personalizzata.
+Questo documento descrive il formato di file del catalogo immagini per il sistema Dynamic Media Image Server. Il pubblico a cui si rivolge è costituito da programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Media Image Server per un’applicazione web o personalizzata.
 
-Si presume che il lettore abbia generalmente familiarità con il sistema Image Serving di Dynamic Media, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di imaging di base.
+Si presume che il lettore abbia generalmente familiarità con il sistema Dynamic Media Image Server, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.

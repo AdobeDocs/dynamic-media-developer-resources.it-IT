@@ -1,31 +1,31 @@
 ---
-description: Applica le opzioni di lavoro PDF. Un file di opzioni di lavoro o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o i predefiniti PDF in InDesign.
+description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva con nome di PDF o predefiniti di PDF in InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 46%
+source-wordcount: '228'
+ht-degree: 47%
 
 ---
 
 # joboption{#joboption}
 
-Applica le opzioni di lavoro PDF. Un file di opzioni di lavoro o un predefinito PDF è un file generato da Illustrator nella finestra di dialogo Opzioni Salva come PDF o i predefiniti PDF in InDesign.
+Applicare le opzioni del processo PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva con nome di PDF o predefiniti di PDF in InDesign.
 
-` joboption= *`value`*`
+` joboption= *`valore`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
-  <td class="stentry"> <p>IPSID del file delle opzioni del processo. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valore</span></span> </p> </td> 
+  <td class="stentry"> <p>IPSID del file di opzioni del processo. </p></td> 
  </tr> 
 </table>
 
-Il file delle opzioni di processo può essere caricato e pubblicato da IPS/Dynamic Media Classic. Le opzioni PDF contenute nel file delle opzioni di lavoro vengono utilizzate quando il PDF viene generato.
+Il file delle opzioni del processo può essere caricato e pubblicato da IPS/Dynamic Media Classic. Le opzioni PDF contenute nel file delle opzioni del processo vengono utilizzate durante la generazione del PDF.
 
 Sono attualmente supportate le seguenti opzioni:
 
@@ -36,7 +36,7 @@ Sono attualmente supportate le seguenti opzioni:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Immagini </p></td> 
-  <td class="stentry"> <p> Downsampling, risoluzione, soglia e compressione per colore, grigio e mono </p> </td> 
+  <td class="stentry"> <p> Downsampling, Risoluzione, Soglia e Compressione per colore, grigio e mono </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Font </p></td> 

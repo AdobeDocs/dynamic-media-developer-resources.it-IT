@@ -1,5 +1,5 @@
 ---
-description: Restituisce un'area ritagliata per un'immagine in base al colore di sfondo o alla trasparenza.
+description: Restituisce una regione ritagliata per un'immagine in base al colore di sfondo o alla trasparenza.
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # getAutoCropRect{#getautocroprect}
 
-Restituisce un&#39;area ritagliata per un&#39;immagine in base al colore di sfondo o alla trasparenza.
+Restituisce una regione ritagliata per un&#39;immagine in base al colore di sfondo o alla trasparenza.
 
 Sintassi
 
@@ -34,21 +34,21 @@ Sintassi
 
 >[!NOTE]
 >
->Quando si chiama questo metodo, specificare autoColorCropOptions o autoTransparentCropOptions.
+>Specificare autoColorCropOptions o autoTransparentCropOptions quando si chiama questo metodo.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con la risorsa con cui desideri lavorare. |
-| assetHandle | `xsd:string` | Sì | Il handle della risorsa con cui desideri lavorare. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcola il rettangolo di ritaglio in base al colore. Vedi [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcola il rettangolo di ritaglio in base alla trasparenza. Vedi [OpzioniRitaglioAutomaticoTrasparente](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| companyHandle | `xsd:string` | Sì | Handle per l’azienda con la risorsa con cui desideri lavorare. |
+| assetHandle | `xsd:string` | Sì | Handle della risorsa con cui desideri lavorare. |
+| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcola il rettangolo di ritaglio in base al colore. Consulta [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcola il rettangolo di ritaglio in base alla trasparenza. Consulta [OpzioniRitaglioTrasparenteAutomatico](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Output (getAutoCropRectReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| xOffset | `xsd:int` | Sì | Coordinata dei pixel sinistro iniziali dell&#39;area di ritaglio calcolata. |
-| yOffset | `xsd:int` | Sì | La coordinata del pixel superiore iniziale dell&#39;area di ritaglio calcolata. |
+| xOffset | `xsd:int` | Sì | Coordinata iniziale in pixel a sinistra dell&#39;area di ritaglio calcolata. |
+| Scostamento | `xsd:int` | Sì | Coordinata iniziale in pixel superiori dell&#39;area di ritaglio calcolata. |
 | width | `xsd:int` | Sì | Larghezza dell’area di ritaglio calcolata (in pixel). |
 | height | `xsd:int` | Sì | Altezza dell’area di ritaglio calcolata (in pixel). |
 
@@ -81,5 +81,5 @@ Sintassi
 >[!MORELIKETHIS]
 >
 >* [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [OpzioniRitaglioAutomaticoTrasparente](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+>* [OpzioniRitaglioTrasparenteAutomatico](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 

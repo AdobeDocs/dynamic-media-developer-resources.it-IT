@@ -1,5 +1,5 @@
 ---
-description: Sposta più risorse in modo indipendente l’una dall’altra. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
+description: Sposta più risorse in modo indipendente le une dalle altre. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # moveAssets{#moveassets}
 
-Sposta più risorse in modo indipendente l’una dall’altra. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
+Sposta più risorse in modo indipendente le une dalle altre. A tale scopo, utilizza il tipo AssetMove contenuto in assetMoveArray. Ogni campo AssetMove contiene una cartella di destinazione.
 
 Sintassi
 
@@ -33,8 +33,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con risorse da spostare. |
-| assetMoveArray | `types:AssetMoveArray` | Sì | Matrice per lo spostamento delle risorse. Contiene una risorsa e una cartella di destinazione della risorsa. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda con le risorse da spostare. |
+| assetMoveArray | `types:AssetMoveArray` | Sì | Un array per lo spostamento delle risorse. Contiene una risorsa e una cartella di destinazione della risorsa. |
 
 **Output (moveAssetsReturn)**
 
@@ -58,13 +58,13 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Numero di risorse che hanno generato avvisi quando l’operazione tentava di spostarle. </td> 
+   <td colname="col4"> Numero di risorse che hanno generato avvisi quando l’operazione ha tentato di spostarle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Numero di risorse che hanno generato errori quando l’operazione tentava di spostarle. </td> 
+   <td colname="col4"> Numero di risorse che hanno generato errori quando l’operazione ha tentato di spostarle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
@@ -73,8 +73,8 @@ Sintassi
    <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>che contengono: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Risorse che hanno generato gli avvisi. </li> 
-     <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codici di avvertenza. </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo dell'avviso. </li> 
+     <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codici di avviso. </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo dell’avviso. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Sintassi
 
 ## Esempi {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Questo codice di esempio sposta le risorse in una posizione specifica specificata da `assetMoveArray`. L’array include la maniglia della risorsa e il relativo handle di cartella. La risposta indica che le risorse sono state spostate correttamente.
+Questo esempio di codice sposta le risorse in una posizione specifica specificata da `assetMoveArray`. L’array include l’handle della risorsa e il relativo handle di cartella. La risposta indica che le risorse sono state spostate correttamente.
 
 **Request Contents (Richiesta contenuto)**
 

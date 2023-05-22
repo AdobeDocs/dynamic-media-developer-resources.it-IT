@@ -1,14 +1,14 @@
 ---
 description: Proprietà di una destinazione Zoom.
 solution: Experience Manager
-title: Destinazione di zoom
+title: DestinazioneZoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
@@ -22,12 +22,12 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| zoomTargetHandle | `xsd:string` | Maniglia di destinazione dello zoom. |
-| name | `xsd:string` | Nome della destinazione dello zoom. |
-| xPosition | `xsd:int` | Posizione X della destinazione dello zoom. |
+| zoomTargetHandle | `xsd:string` | Zoom handle di destinazione. |
+| nome | `xsd:string` | Nome destinazione di zoom. |
+| xPosition | `xsd:int` | Posizione X della destinazione di zoom. |
 | yPosition | `xsd:int` | Posizione Y della destinazione di zoom. |
-| width | `xsd:int` | Zoom della larghezza della destinazione. |
-| height | `xsd:int` | Zoom altezza destinazione. |
-| Dati utente | `xsd:string` | Dati utente associati alla destinazione Zoom. |
+| width | `xsd:int` | Zoom larghezza destinazione. |
+| height | `xsd:int` | Zoom dell&#39;altezza di destinazione. |
+| userData | `xsd:string` | Dati utente associati alla destinazione Zoom. |
 | position | `xsd:int` | Consente di ordinare le destinazioni di zoom associate a una risorsa in base alla posizione |
 | lastModified | `xsd:dateTime` | Data dell’ultima modifica. |

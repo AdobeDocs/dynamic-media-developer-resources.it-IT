@@ -1,6 +1,6 @@
 ---
-title: Accesso facilitato alla tastiera e navigazione
-description: Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Dimensionale (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+title: Accessibilità della tastiera e navigazione
+description: Tutte le funzioni esposte nell'interfaccia di visualizzazione Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carosello, Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,29 +12,29 @@ ht-degree: 0%
 
 ---
 
-# Accesso facilitato alla tastiera e navigazione{#keyboard-accessibility-and-navigation}
+# Accessibilità della tastiera e navigazione{#keyboard-accessibility-and-navigation}
 
-Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Carosello, Dimensionale (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+Tutte le funzioni esposte nell&#39;interfaccia di visualizzazione Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carosello, Dimensional (3D), Interactive Image, Interactive Video e Video360 sono accessibili da tastiera.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Accesso facilitato alla tastiera e navigazione {#topic-f5650e9493404e55a3627c8d1366b861}
+## Accessibilità della tastiera e navigazione {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Tutte le funzioni esposte nell’interfaccia del visualizzatore Basic Zoom, eCatalog, Ricerca eCatalog, A comparsa, Zoom in linea, File multimediali diversi, Spin, Video, Zoom, Carosello, Dimensionale (3D), Immagine interattiva, Video interattivo e Video360 sono accessibili da tastiera.
+Tutte le funzioni esposte nell&#39;interfaccia di visualizzazione Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carosello, Dimensional (3D), Interactive Image, Interactive Video e Video360 sono accessibili da tastiera.
 
-L’utente finale può navigare tra gli elementi dell’interfaccia utente del visualizzatore utilizzando **[!UICONTROL Scheda]** e **[!UICONTROL Maiusc+Tab]** colpi di tasti. Utilizzo **[!UICONTROL Scheda]** sposta lo stato attivo al successivo elemento dell’interfaccia utente nell’ordine di tabulazione; utilizzo **[!UICONTROL Maiusc+Tab]** ripristina lo stato attivo dell’interfaccia utente precedente. L&#39;attraversamento della messa a fuoco segue la posizione naturale dell&#39;elemento dell&#39;interfaccia utente sullo schermo e si sposta in ordine da sinistra a destra, quindi dall&#39;alto verso il basso.
+Un utente finale può spostarsi tra gli elementi dell’interfaccia utente del visualizzatore utilizzando **[!UICONTROL Linguetta]** e **[!UICONTROL Maiusc+Tab]** tasti. Utilizzo di **[!UICONTROL Linguetta]** sposta lo stato attivo dell&#39;input sull&#39;elemento dell&#39;interfaccia utente successivo nell&#39;ordine di tabulazione; utilizzando **[!UICONTROL Maiusc+Tab]** riporta lo stato attivo sull’elemento dell’interfaccia utente precedente. L&#39;attraversamento della messa a fuoco segue la posizione naturale degli elementi dell&#39;interfaccia sullo schermo e si sposta da sinistra a destra e quindi dall&#39;alto al basso.
 
-A seconda del sistema operativo e delle impostazioni del browser Web, l’elemento dell’interfaccia utente attivo riceve un’indicazione visiva di focus. Ad esempio, l’indicatore visivo può essere un bordo sottile intorno all’elemento dell’interfaccia utente.
+A seconda del sistema operativo e delle impostazioni del browser Web, l&#39;elemento dell&#39;interfaccia utente che dispone di input focus riceve un&#39;indicazione di focus visivo. Ad esempio, l’indicatore visivo può essere un bordo sottile rappresentato intorno all’elemento dell’interfaccia utente.
 
-È possibile disabilitare o personalizzare tale messa a fuoco evidenziata nel CSS del visualizzatore. Nel sommario di questo sistema della Guida, sotto un nome di visualizzatore specifico (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione *nome del visualizzatore*** >** Evidenziazione **.
+È possibile disabilitare o personalizzare tale evidenziazione dello stato attivo nel CSS del visualizzatore. Nel sommario della Guida in linea, sotto un nome specifico del visualizzatore (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione *nome del visualizzatore*** >** Evidenziazione focus **.
 
-Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente dei visualizzatori sono, nella maggior parte dei casi, ovvie e facili da scoprire.
+Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente del visualizzatore sono, nella maggior parte dei casi, ovvie e facili da individuare.
 
 <table id="table_8C49100412224324BF1DBF7FDFDCCBF8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Azione </p> </th> 
-   <th colname="col2" class="entry"> <p>Tastiera </p> </th> 
+   <th colname="col2" class="entry"> <p>Tasto </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -47,23 +47,23 @@ Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente d
    <td colname="col2"> <p> <span class="uicontrol"> + </span> o <span class="uicontrol"> - </span>, rispettivamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ripristino dello zoom </p> </td> 
-   <td colname="col2"> <p>Chiave Esc. </p> </td> 
+   <td colname="col1"> <p>Ripristino zoom </p> </td> 
+   <td colname="col2"> <p>Chiave ESC. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Panning </p> </td> 
+   <td colname="col1"> <p>Panoramica </p> </td> 
    <td colname="col2"> <p>Freccia su, giù, sinistra o destra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fissare un'immagine a 360 gradi </p> </td> 
-   <td colname="col2"> <p>Utilizza i tasti freccia quando l'immagine è in uno stato di reset. </p> <p>Utilizza il tasto freccia su o giù quando lavori con set 360 gradi multidimensionali. </p> </td> 
+   <td colname="col1"> <p>Rotazione di un'immagine a 360 gradi </p> </td> 
+   <td colname="col2"> <p>Utilizzare i tasti freccia quando l'immagine è in stato di ripristino. </p> <p>Utilizzare i tasti freccia su o giù quando si lavora con set 360 gradi multidimensionali. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Selezione di campioni di prodotto </p> </td> 
-   <td colname="col2"> <p>Freccia su, giù, sinistra o destra; Chiave iniziale o finale. </p> </td> 
+   <td colname="col1"> <p>Selezione del campione di prodotto </p> </td> 
+   <td colname="col2"> <p>Freccia Su, Giù, Sinistra o Destra; tasto Home o Fine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Attivazione dei campioni di prodotto </p> </td> 
+   <td colname="col1"> <p>Attivazione campione prodotto </p> </td> 
    <td colname="col2"> <p>Spazio o tasto Invio. </p> </td> 
   </tr> 
   <tr> 
@@ -71,63 +71,63 @@ Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente d
    <td colname="col2"> <p>Freccia sinistra o freccia su. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video e video interattivi, avanti rapido </p> </td> 
+   <td colname="col1"> <p>Video e video interattivi, avanzamento rapido </p> </td> 
    <td colname="col2"> <p>Freccia destra o freccia giù. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video e video interattivi, inizio o fine </p> </td> 
-   <td colname="col2"> <p>Chiave iniziale o finale, rispettivamente. </p> </td> 
+   <td colname="col1"> <p>Video e video interattivo, vai all’inizio o alla fine </p> </td> 
+   <td colname="col2"> <p>Chiave Home o Fine, rispettivamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video e video interattivo, controllo del livello del volume quando la messa a fuoco è sul dispositivo di scorrimento </p> </td> 
-   <td colname="col2"> <p>Freccia su, giù, sinistra o destra; Chiave iniziale o finale. </p> </td> 
+   <td colname="col1"> <p>Video e video interattivi, controlla il livello del volume quando la messa a fuoco è sul cursore </p> </td> 
+   <td colname="col2"> <p>Freccia Su, Giù, Sinistra o Destra; tasto Home o Fine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video e video interattivi, volume variabile </p> </td> 
-   <td colname="col2"> <p>Tasti freccia, Home e Fine per controllare il livello del volume quando la messa a fuoco è sulla parte del dispositivo di scorrimento. </p> </td> 
+   <td colname="col1"> <p>Video e video interattivi, volume mutabile </p> </td> 
+   <td colname="col2"> <p>Tasti freccia, Home e End per controllare il livello del volume quando lo stato attivo si trova sulla parte del dispositivo di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Video, quando viene visualizzata la finestra di dialogo modale, l'attraversamento dello stato attivo diventa limitato solo ai controlli della finestra di dialogo. </p> </td> 
+   <td colname="col1"> <p>Video: quando viene visualizzata la finestra di dialogo modale, l'attraversamento dello stato attivo è limitato solo ai controlli della finestra di dialogo. </p> </td> 
    <td colname="col2"> <p>Tasto ESC per chiudere la finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Carosello, modifica immagine banner nella visualizzazione principale </p> </td> 
-   <td colname="col2"> <p>Tasto freccia sinistra o destra. </p> </td> 
+   <td colname="col1"> <p>Carosello, cambia l'immagine del banner nella vista principale </p> </td> 
+   <td colname="col2"> <p>Freccia sinistra o destra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Carosello, selezione dei punti attivi e attivazione dei punti attivi </p> </td> 
-   <td colname="col2"> <p>Selezione punti attivi: Freccia su, giù, sinistra o destra </p> <p>Attivazione punto attivo: Spazio o tasto Invio. </p> </td> 
+   <td colname="col1"> <p>Carosello, selezione di punti attivi e attivazione di punti attivi </p> </td> 
+   <td colname="col2"> <p>Selezione di punti attivi: freccia su, freccia giù, freccia sinistra o freccia destra </p> <p>Attivazione punto di attivazione: Spazio o Tasto Invio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog, modifica l’immagine della pagina nella vista principale </p> </td> 
+   <td colname="col1"> <p>eCatalog, modifica l'immagine della pagina nella visualizzazione principale </p> </td> 
    <td colname="col2"> <p> Tasti freccia sinistra o destra. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, selezione miniature </p> </td> 
-   <td colname="col2"> <p>tasti freccia; Chiave iniziale e finale. </p> </td> 
+   <td colname="col2"> <p>Tasti freccia; tasto Home e tasto Fine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, attivazione campioni </p> </td> 
    <td colname="col2"> <p>Spazio o tasto Invio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog, selezione di punti caldi </p> </td> 
-   <td colname="col2"> <p>Tasti freccia. </p> </td> 
+   <td colname="col1"> <p>eCatalog, selezione hot spot </p> </td> 
+   <td colname="col2"> <p>Tasti di direzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, attivazione </p> </td> 
-   <td colname="col2"> <p>Spazio o tasto Invio. </p> </td> 
+   <td colname="col2"> <p>Spazio o tasti Invio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog, attivazione dei componenti a discesa </p> </td> 
-   <td colname="col2"> <p> Freccia giù; Spazio o tasto Invio. </p> </td> 
+   <td colname="col1"> <p>eCatalog, attivazione dei componenti del menu a discesa </p> </td> 
+   <td colname="col2"> <p> Freccia giù; Spazio o Invio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog, quando lo stato attivo è nel pannello a discesa </p> </td> 
+   <td colname="col1"> <p>eCatalog, quando lo stato attivo si trova nel pannello a tendina </p> </td> 
    <td colname="col2"> <p>Utilizza i tasti freccia per selezionare un elemento specifico nel pannello prima di attivarlo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog, quando viene visualizzata una finestra di dialogo modale, l’attraversamento dello stato attivo diventa limitato solo ai controlli della finestra di dialogo. </p> </td> 
+   <td colname="col1"> <p>eCatalog, quando viene visualizzata una finestra di dialogo modale, l'attraversamento dello stato attivo è limitato solo ai controlli della finestra di dialogo. </p> </td> 
    <td colname="col2"> <p>Tasto ESC per chiudere la finestra di dialogo. </p> </td> 
   </tr> 
  </tbody> 

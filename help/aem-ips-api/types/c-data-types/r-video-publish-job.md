@@ -8,7 +8,7 @@ exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -24,4 +24,4 @@ Sintassi
 |---|---|---|
 | emailSetting | `xsd:string` | Scelta delle impostazioni e-mail. |
 | httpCompletionUrl | `xsd:string` | URL per inviare un avviso di completamento. |
-| contextHandle | `xsd:string` | Gestisci il contesto di pubblicazione. |
+| contextHandle | `xsd:string` | Gestisci per il contesto di pubblicazione. |

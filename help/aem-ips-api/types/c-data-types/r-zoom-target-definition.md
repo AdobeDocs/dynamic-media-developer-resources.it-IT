@@ -1,5 +1,5 @@
 ---
-description: Definizione della destinazione di zoom.
+description: Definizione destinazione di zoom.
 solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 18%
+ht-degree: 11%
 
 ---
 
 # [!DNL ZoomTargetDefinition]{#zoomtargetdefinition}
 
-Definizione della destinazione di zoom.
+Definizione destinazione di zoom.
 
 Sintassi
 
@@ -22,9 +22,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| name | `xsd:string` | Nome della destinazione. |
-| xPosition | `xsd:int` | Posizione X della destinazione dello zoom. |
+| nome | `xsd:string` | Nome destinazione. |
+| xPosition | `xsd:int` | Posizione X della destinazione di zoom. |
 | yPosition | `xsd:int` | Posizione Y della destinazione di zoom. |
-| width | `xsd:int` | Zoom della larghezza della destinazione. |
-| height | `xsd:int` | Zoom altezza destinazione. |
-| Dati utente | `xsd:string` | Dati utente associati. |
+| width | `xsd:int` | Zoom larghezza destinazione. |
+| height | `xsd:int` | Zoom dell&#39;altezza di destinazione. |
+| userData | `xsd:string` | Dati utente associati. |

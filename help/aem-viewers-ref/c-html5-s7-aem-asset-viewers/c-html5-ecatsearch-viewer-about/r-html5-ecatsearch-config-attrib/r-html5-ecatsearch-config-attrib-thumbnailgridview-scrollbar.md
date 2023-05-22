@@ -2,13 +2,13 @@
 description: ThumbnailGridView.scrollbar
 solution: Experience Manager
 title: ThumbnailGridView.scrollbar
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: f86816a9-ba0e-4b75-a4b1-246eabf5049e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 20%
+source-wordcount: '17'
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Abilita o disabilita l’utilizzo della barra di scorrimento. </p> </td> 
+   <td> <p> Attiva o disattiva l'utilizzo della barra di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

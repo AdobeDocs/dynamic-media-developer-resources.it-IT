@@ -1,20 +1,20 @@
 ---
-description: Descrive i valori utilizzati da vari parametri di input. Vedi l'elenco in questo articolo per i dettagli.
+description: Descrive i valori utilizzati da vari parametri di input. Per ulteriori informazioni, consulta l’elenco in questo articolo.
 solution: Experience Manager
 title: Impostazioni e-mail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 2%
 
 ---
 
 # Impostazioni e-mail{#email-settings}
 
-Descrive i valori utilizzati da vari parametri di input. Vedi l&#39;elenco in questo articolo per i dettagli.
+Descrive i valori utilizzati da vari parametri di input. Per ulteriori informazioni, consulta l’elenco in questo articolo.
 
 Sintassi
 

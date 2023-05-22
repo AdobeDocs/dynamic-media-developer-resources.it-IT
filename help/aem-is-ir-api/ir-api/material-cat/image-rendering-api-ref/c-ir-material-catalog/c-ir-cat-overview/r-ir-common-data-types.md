@@ -18,11 +18,11 @@ Gli attributi e i campi del catalogo possono contenere dati di uno dei seguenti 
 
 **Colore**
 
-Valore del colore. Valore RGB esadecimale compresso, eventualmente preceduto da 0x. Ad esempio, il valore RGB `128,255,0` può essere specificato come `0x80ff00` o `80ff00`.
+Valore colore. Valore RGB compresso esadecimale, facoltativamente preceduto da 0x. Ad esempio, il valore RGB `128,255,0` può essere specificato come `0x80ff00` o `80ff00`.
 
-**Flag**
+**Contrassegno**
 
-`0`=false; `1`=true; qualsiasi altro valore significa sconosciuto o non specificato.
+`0`=falso; `1`=true; qualsiasi altro valore indica sconosciuto o non specificato.
 
 **Enum**
 
@@ -30,12 +30,12 @@ Valore del colore. Valore RGB esadecimale compresso, eventualmente preceduto da 
 
 **Numero intero**
 
-Valore intero firmato (ad esempio `0, -12, 34`). `0` o valori negativi possono avere un significato speciale.
+Valore intero firmato (ad esempio `0, -12, 34`). `0` o i valori negativi possono avere un significato particolare.
 
 **Numero reale**
 
-Valore a virgola mobile firmato (ad esempio, `0, 12.5, 245 , -2.34e4`). 0 o valori negativi possono avere un significato speciale.
+Valore a virgola mobile firmato (ad esempio, `0, 12.5, 245 , -2.34e4`). I valori 0 o negativi possono avere un significato particolare.
 
 **Stringa di testo**
 
-I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga `<CR>`, `<LF>`oppure `<TAB>` caratteri. Le virgolette singole e doppie possono essere utilizzate come delimitatori. Se vengono utilizzate le virgolette, tutte le virgolette incorporate nella stringa devono essere precedute da due virgolette consecutive (ad esempio, &#39; `This month''s Special`&quot;).
+I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga `<CR>`, `<LF>`, o `<TAB>` caratteri. È possibile utilizzare come delimitatori virgolette singole e doppie. Se si utilizzano le virgolette, qualsiasi virgoletta incorporata nella stringa deve essere preceduta da due virgolette consecutive (ad esempio, &#39; `This month''s Special`&#39;).

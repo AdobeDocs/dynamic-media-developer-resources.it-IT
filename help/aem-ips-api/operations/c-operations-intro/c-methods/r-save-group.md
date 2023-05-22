@@ -1,5 +1,5 @@
 ---
-description: Crea o modifica un gruppo.
+description: Creare o modificare un gruppo.
 solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
 # saveGroup{#savegroup}
 
-Crea o modifica un gruppo.
+Creare o modificare un gruppo.
 
 Sintassi
 
@@ -30,20 +30,20 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società con il gruppo che si desidera salvare. |
-| groupHandle | `xsd:string` | No | L&#39;handle del gruppo. |
-| name | `xsd:string` | Sì | Nome del gruppo. |
-| isSystemDefined | `xsd:boolean` | Sì | `false` è il valore predefinito. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda con il gruppo che si desidera salvare. |
+| groupHandle | `xsd:string` | No | Handle del gruppo. |
+| nome | `xsd:string` | Sì | Nome del gruppo. |
+| isSystemDefined | `xsd:boolean` | Sì | `false` è l&#39;impostazione predefinita. |
 
 **Output (saveGroupReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| groupHandle | `xsd:string` | Sì | Maniglia di gruppo. |
+| groupHandle | `xsd:string` | Sì | Handle di gruppo. |
 
 ## Esempi {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Questo esempio di codice crea un gruppo che appartiene a una società specifica. Se il gruppo esiste già, viene salvato con i valori dei parametri specificati.
+In questo esempio di codice viene creato un gruppo che appartiene a un&#39;azienda specifica. Se il gruppo esiste già, viene salvato con i valori dei parametri specificati.
 
 **Request Contents (Richiesta contenuto)**
 

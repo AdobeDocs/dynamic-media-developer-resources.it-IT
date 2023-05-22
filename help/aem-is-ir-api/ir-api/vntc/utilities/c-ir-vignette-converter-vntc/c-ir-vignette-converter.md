@@ -1,40 +1,40 @@
 ---
-description: Vignette Converter (vntc) è un'utilità della riga di comando utilizzata per preparare il contenuto creato con Image Authoring per la distribuzione con Image Rendering.
+description: Il Convertitore vignettatura (vntc) è un’utility per riga di comando utilizzata per preparare il contenuto creato con Image Authoring per la distribuzione con Image Rendering.
 solution: Experience Manager
-title: Convertitore vignetta
-feature: Dynamic Media Classic, SDK/API
+title: Convertitore vignettatura
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Convertitore vignetta{#vignette-converter}
+# Convertitore vignettatura{#vignette-converter}
 
-Vignette Converter (vntc) è un&#39;utilità della riga di comando utilizzata per preparare il contenuto creato con Image Authoring per la distribuzione con Image Rendering.
+Il Convertitore vignettatura (vntc) è un’utility per riga di comando utilizzata per preparare il contenuto creato con Image Authoring per la distribuzione con Image Rendering.
 
-[!DNL vntc] si trova in [!DNL  *[!DNL install_root]*\ImageServing\bin]. Dispone delle seguenti funzionalità:
+[!DNL vntc] si trova in [!DNL *[!DNL install_root]*\ImageServing\bin]. Offre le seguenti funzionalità:
 
-* Converte le vignette primarie in vignette di produzione a risoluzione singola, a risoluzione multipla o a piramide (vedi [Scala vignetta](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
-* Produce archivi e finestre di produzione che coprono i file di stile (vedere `-resolution` e `-jpegquality`).
+* Converte le vignettature primarie in vignettature di produzione a risoluzione singola, multirisoluzione o piramidale (vedere [Ridimensionamento vignettatura](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Produce un archivio di produzione e una finestra che copre i file di stile (vedere `-resolution` e `-jpegquality`).
 
-* Può produrre diverse versioni di file di stile di vignette, armadi e rivestimenti per finestre da utilizzare con le versioni precedenti di Image Rendering.
-* Estrae le immagini visualizzate dalle vignette, a risoluzione completa o dalle miniature (vedi `-thumbwidth` e `-image`).
-* Estrae le proprietà rilevanti dal file di origine (vedi `-info`) e le invia a `stdout` o a un file di registro facoltativo (vedi `-log`).
+* Può produrre diverse versioni di file di stile di vignettature, archivi e copertine per finestre da utilizzare con versioni precedenti di Image Rendering.
+* Estrae le immagini di visualizzazione dalle vignettature, a risoluzione completa o in miniatura (vedere `-thumbwidth` e `-image`).
+* Estrae le proprietà rilevanti dal file di origine (vedere `-info`) e li invia a `stdout` o un file di registro opzionale (vedere `-log`).
 
-Anche se l’utilizzo di [!DNL vntc] è facoltativo, è vivamente consigliato per le migliori prestazioni del server. [!DNL vntc] implementa anche un controllo esteso degli errori e può impedire gravi problemi del server, compresi gli arresti anomali, quando utilizzato diligentemente.
+Mentre l&#39;utilizzo di [!DNL vntc] è opzionale, è fortemente consigliato per ottenere prestazioni server ottimali. [!DNL vntc] implementa inoltre un esteso controllo degli errori e, se utilizzato con diligenza, può evitare gravi problemi del server, inclusi arresti anomali.
 
-Quando si generano vignette di produzione, la larghezza in pixel della vignetta di output (o 0 in caso di vignette a piramide o a più risoluzioni) viene aggiunta al nome del file di vignetta di output generato. Quando si elaborano file di stile cabinet, la risoluzione di output viene aggiunta al nome del file di output. Tutti i file di output, inclusi i file di miniatura, immagine e registro facoltativi, nonché la vignetta di produzione o il file di stile dell&#39;archivio, vengono inseriti nella stessa directory in cui si trova *[!DNL sourceFile]* (a meno che non sia specificato `-destPath`).
+Durante la generazione delle vignettature di produzione, la larghezza in pixel della vignettatura di output (o 0 in caso di vignettature a piramide o a più risoluzioni) viene aggiunta al nome del file di vignettatura di output generato. Durante l&#39;elaborazione dei file di stile dell&#39;archivio, la risoluzione di output viene aggiunta al nome del file di output. Tutti i file di output, inclusi i file di miniatura, immagine e registro facoltativi e il file di stile della vignettatura o dell&#39;archivio di produzione, si trovano nella stessa directory in cui *[!DNL sourceFile]* si trova (a meno che `-destPath` è specificato).
 
-[!DNL vntc] per impostazione predefinita si limita a un massimo di 3 GB di memoria. Quando Vntc raggiunge questo limite, interrompe l’elaborazione e genera un errore. Questo limite può essere modificato utilizzando `-maxmem`.
+[!DNL vntc] si limita per impostazione predefinita a un massimo di 3 GB di memoria. Quando Vntc raggiunge questo limite, l’elaborazione si interrompe e viene generato un errore. Questo limite può essere modificato tramite `-maxmem`.
 
 >[!NOTE]
 >
->Lo strumento di aggiornamento della vignetta in Image Authoring può anche essere utilizzato per preparare vignette per l&#39;uso Image Rendering. Allo stesso modo, lo strumento Content Authoring è in grado di generare file di stile cabinet da utilizzare con Image Rendering. Utilizza [!DNL vntc] per automatizzare l&#39;elaborazione. Gli strumenti di authoring delle immagini includono un’interfaccia utente grafica, che generalmente è più semplice da utilizzare in modo interattivo.
+>Lo strumento di aggiornamento vignettatura in Image Authoring può essere utilizzato anche per preparare vignettature per l’utilizzo di Image Rendering. Analogamente, lo strumento Content Authoring è in grado di generare file di stile archivio da utilizzare con Image Rendering. Utilizzare [!DNL vntc] se l’elaborazione deve essere automatizzata. Gli strumenti di Image Authoring includono un’interfaccia grafica, quindi sono generalmente più facili da usare in modo interattivo.
 
 ## Consultate anche {#section-3c756bf17b634543904fdd928adeafb2}
 
-Documentazione sull’authoring delle immagini
+Documentazione di Image Authoring

@@ -1,19 +1,20 @@
 ---
 title: VideoScrubber.showchaptertime
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 5a539831-01d7-45a8-9d75-41782ec7fa94
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -21,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Disattiva o attiva l’ora del capitolo video nella barra del titolo dell’etichetta del capitolo video. </p> </td> 
+   <td colname="col2"> <p> Disattiva o attiva il tempo del capitolo video nella barra del titolo dell'etichetta del capitolo video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

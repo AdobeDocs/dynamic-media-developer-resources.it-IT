@@ -1,20 +1,20 @@
 ---
-description: Dettagli del messaggio di errore. Specifica il livello di dettaglio dei messaggi di errore restituiti tramite HTTP come valore error.message.
+description: Dettagli del messaggio di errore. Specifica il livello di dettaglio per i messaggi di errore restituiti tramite HTTP come valore error.message.
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 4%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-Dettagli del messaggio di errore. Specifica il livello di dettaglio dei messaggi di errore restituiti tramite HTTP come valore error.message.
+Dettagli del messaggio di errore. Specifica il livello di dettaglio per i messaggi di errore restituiti tramite HTTP come valore error.message.
 
 Sono consentiti i seguenti valori:
 
@@ -25,15 +25,15 @@ Sono consentiti i seguenti valori:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Breve messaggio. Riservato per uso futuro. Attualmente restituisce le stesse informazioni di 0. </p></td> 
+  <td class="stentry"> <p>Breve messaggio. Riservato per uso futuro. Attualmente restituisce le stesse informazioni come 0. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Messaggio dettagliato. Fornisce dettagli a livello di utente sull'errore. Possono includere informazioni sensibili, ad esempio percorsi di file. Consigliato per server di staging, controllo qualità e sviluppo di applicazioni. </p></td> 
+  <td class="stentry"> <p>Messaggio dettagliato. Fornisce dettagli a livello di utente sull’errore. Può includere informazioni riservate, ad esempio i percorsi dei file. Consigliato per server di staging, controllo qualità e sviluppo applicazioni. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge tracce di stack Java. Le immagini di errore non includono mai tracce di stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge le tracce dello stack Java. Le immagini di errore non includono mai le tracce dello stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Media. </p></td> 
  </tr> 
 </table>
 
@@ -47,4 +47,4 @@ Ereditato da `default::ErrorDetail` se non specificato o se vuoto.
 
 ## Consultate anche {#section-5451b0525ed74121950bfc34726c3970}
 
-[attributo::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)
+[attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)

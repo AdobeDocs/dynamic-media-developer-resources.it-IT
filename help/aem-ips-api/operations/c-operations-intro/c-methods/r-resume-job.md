@@ -1,20 +1,20 @@
 ---
-description: Riavvia un lavoro in pausa.
+description: Riavvia un processo in pausa.
 solution: Experience Manager
-title: curriculumJob
+title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
-# curriculumJob{#resumejob}
+# resumeJob{#resumejob}
 
-Riavvia un lavoro in pausa.
+Riavvia un processo in pausa.
 
 Sintassi
 
@@ -31,20 +31,20 @@ Sintassi
 
 ## Parametri {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**Input (curriculumJobParam)**
+**Input (resumeJobParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con il processo che si desidera riavviare. |
-| jobHandle | `xsd:string` | Sì | Maniglia del processo sospeso. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda con il processo che si desidera riavviare. |
+| jobHandle | `xsd:string` | Sì | Handle del processo in pausa. |
 
-**Output (curriculumJobReturn)**
+**Output (resumeJobReturn)**
 
 L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-d0524e031f1f43d89430eade19526162}
 
-Questo esempio di codice riavvia un processo in pausa.
+In questo esempio di codice viene riavviato un processo in pausa.
 
 **Request Contents (Richiesta contenuto)**
 

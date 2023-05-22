@@ -1,5 +1,5 @@
 ---
-description: Proprietà dei file InDesign.
+description: Proprietà del file InDesign.
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 34e7f447-4301-4120-87b6-6f3ddd1c5fb6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 28%
+ht-degree: 14%
 
 ---
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-Proprietà dei file InDesign.
+Proprietà del file InDesign.
 
 Sintassi
 

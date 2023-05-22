@@ -8,7 +8,7 @@ exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -34,7 +34,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con i formati immagine che si desidera ottenere. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda con i formati immagine che si desidera ottenere. |
 
 **Output (getImageFormatsParam)**
 
@@ -44,7 +44,7 @@ Sintassi
 
 ## Esempi {#section-73881e12839b4904bf3299b0920bdd0c}
 
-Questo esempio di codice restituisce tutti i formati immagine per la società specificata.
+In questo esempio di codice vengono restituiti tutti i formati immagine per l&#39;azienda specificata.
 
 **Request Contents (Richiesta contenuto)**
 

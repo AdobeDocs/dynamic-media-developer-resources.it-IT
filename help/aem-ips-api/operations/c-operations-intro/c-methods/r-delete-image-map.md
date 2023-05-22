@@ -8,7 +8,7 @@ exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -37,8 +37,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene la mappa immagine da eliminare. |
-| imageMapHandle | `xsd:string` | Sì | La maniglia della mappa immagine da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle della società contenente la mappa immagine da eliminare. |
+| imageMapHandle | `xsd:string` | Sì | Handle della mappa immagine da eliminare. |
 
 **Output (deleteImageMapParam)**
 
@@ -46,7 +46,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Questo esempio di codice elimina una mappa immagine da un&#39;azienda. È necessario ottenere la maniglia della mappa immagine da un’altra operazione.
+Questo esempio di codice elimina una mappa immagine da un&#39;azienda. È necessario ottenere l&#39;handle della mappa immagine da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 

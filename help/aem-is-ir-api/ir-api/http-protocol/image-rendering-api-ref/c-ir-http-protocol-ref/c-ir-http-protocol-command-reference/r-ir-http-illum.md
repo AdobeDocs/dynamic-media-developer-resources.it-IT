@@ -1,6 +1,6 @@
 ---
 title: illum
-description: Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
+description: Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui preferisce eseguire il rendering di questo materiale.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,23 +8,23 @@ exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
 # illum{#illum}
 
-Selettore mappa illuminazione. Specifica la mappa di illuminazione con cui questo materiale preferisce essere sottoposto a rendering.
+Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui preferisce eseguire il rendering di questo materiale.
 
 `illum=-1|0|1|2`
 
-Se la mappa di illuminazione specificata non è disponibile nella vignetta di destinazione, viene invece utilizzata la mappa disponibile più vicina.
+Se la mappa di illuminazione specificata non è disponibile nella vignettatura di destinazione, viene utilizzata la mappa disponibile più vicina.
 
-`illum=-1` Specifica che la mappa di illuminazione viene selezionata automaticamente in base alla `gloss=` valore.
+`illum=-1` Specifica che la mappa di illuminazione viene selezionata automaticamente in base al `gloss=` valore.
 
 ## Proprietà {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-Attributo materiale. Ignorato se la vignetta non definisce più mappe di illuminazione.
+Attributo materiale. Ignorato se la vignettatura non definisce mappe di illuminazione multiple.
 
 ## Predefinito {#section-c96ecfb232074e80b6a29076f5199403}
 

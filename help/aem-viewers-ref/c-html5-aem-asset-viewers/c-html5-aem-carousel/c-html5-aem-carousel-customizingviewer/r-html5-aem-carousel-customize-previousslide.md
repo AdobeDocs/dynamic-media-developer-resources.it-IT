@@ -1,6 +1,6 @@
 ---
-title: diapositiva precedente
-description: Toccando o facendo clic su questo pulsante si ritorna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+title: Diapositiva precedente
+description: Toccando o facendo clic su questo pulsante si ritorna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# diapositiva precedente{#previous-slide}
+# Diapositiva precedente{#previous-slide}
 
-Selezionando questo pulsante, un utente torna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+Selezionando questo pulsante si ritorna alla diapositiva precedente del set carosello. Questo pulsante non viene visualizzato sui dispositivi touch. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7carouselviewer .s7panleftbutton`
 
@@ -33,20 +33,20 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posizione dalla parte superiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione da destra del bordo del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dalla destra del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione a sinistra del bordo del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>Posizione a partire dalla sinistra del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal fondo del bordo del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dalla parte inferiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,15 +57,15 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spriti CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
    <td colname="col2"> <p>Tipo di cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -73,11 +73,11 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) per ulteriori informazioni.
 
-Ad esempio, si supponga di voler impostare un pulsante diapositiva precedente di 60 x 60 pixel. Posizionato a dieci pixel dal bordo sinistro del visualizzatore e centrato verticalmente. E volete che visualizzi un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+Si supponga, ad esempio, di voler impostare un pulsante diapositiva precedente di 60 x 60 pixel. Si desidera posizionarlo a dieci pixel dal bordo sinistro del visualizzatore e centrato verticalmente. Si desidera visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

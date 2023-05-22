@@ -2,33 +2,33 @@
 description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 68103754-1cbb-4e8d-b2b5-2770a7658140
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`larghezza larghezza altezza`*[,0|1]]`]
+[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza`*, *`altezza`*[,0|1][; *`larghezza`*, *`altezza`*[,0|1]]`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza da incorporare. </p> </td> 
+   <td colname="col2"> <p>Larghezza di incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Altezza da incorporare. </p> </td> 
+   <td colname="col2"> <p>Altezza incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Specifica se la voce dell'elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
+   <td colname="col2"> <p> Specifica se la voce di elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

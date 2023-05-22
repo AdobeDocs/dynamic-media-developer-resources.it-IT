@@ -8,7 +8,7 @@ exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Gestisci la società che contiene i profili ICC. |
+| companyHandle | `xsd:string` | Sì | Gestire la società che contiene i profili ICC. |
 | aggiorna array | `xsd:string` | Sì | Array di aggiornamenti del profilo ICC. |
 
 **Output (batchSetIccProfileFields)**
@@ -41,10 +41,10 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | successCount | `xsd:int` | Sì | Numero di campi del profilo ICC impostati correttamente. |
-| warningCount | `xsd:int` | Sì | Il numero di avvisi generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
-| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione tentava di impostare i campi del profilo ICC. |
-| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di applicare gli aggiornamenti. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che generavano errori quando l’operazione tentava di applicare gli aggiornamenti. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l&#39;operazione ha tentato di impostare i campi del profilo ICC. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l&#39;operazione ha tentato di impostare i campi del profilo ICC. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione ha tentato di applicare gli aggiornamenti. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | L’array di dettagli associati alle risorse che hanno generato errori quando l’operazione ha tentato di applicare gli aggiornamenti. |
 
 ## Esempi {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

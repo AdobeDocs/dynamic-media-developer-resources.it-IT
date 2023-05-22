@@ -1,20 +1,20 @@
 ---
-description: Matrice di metadati.
+description: Array di metadati.
 solution: Experience Manager
-title: MetadataArray
+title: MatriceMetadati
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1833237d-4ef9-4899-8d14-317db350b223
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 19%
+ht-degree: 14%
 
 ---
 
 # [!DNL MetadataArray]{#metadataarray}
 
-Matrice di metadati.
+Array di metadati.
 
 Sintassi
 
@@ -30,9 +30,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipo:Metadati</span> </p> </td> 
-   <td colname="col3"> <p>Matrice di metadati. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> elementi</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> testo:Metadati</span> </p> </td> 
+   <td colname="col3"> <p>Array di metadati. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Restituisce un array di tutte le aziende.
+description: Restituisce una matrice di tutte le società.
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
 # getAllCompanies{#getallcompanies}
 
-Restituisce un array di tutte le aziende.
+Restituisce una matrice di tutte le società.
 
 Sintassi
 
@@ -28,17 +28,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | Sì | Imposta su true per restituire le società scadute e non scadute. |
+| includeExpired | `xsd:boolean` | Sì | Impostare su true per restituire le società scadute e non scadute. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Sì | La gamma di aziende. |
+| companyArray | `types:CompanyArray` | Sì | L’array di aziende. |
 
 ## Esempi {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Questo esempio di codice restituisce tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
+In questo esempio di codice vengono restituite tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

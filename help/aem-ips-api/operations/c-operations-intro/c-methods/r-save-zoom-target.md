@@ -8,7 +8,7 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Crea o modifica una destinazione di zoom.
 
 Sintassi
 
-## Tipo utente autorizzato {#section-823cd9f0557045bca51da66768b5ba74}
+## Tipo di utente autorizzato {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,25 +33,25 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | La maniglia dell&#39;azienda con la destinazione di zoom che si desidera salvare. |
-| assetHandle | `xsd:string` | Sì | La maniglia della destinazione dello zoom. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda con la destinazione di zoom da salvare. |
+| assetHandle | `xsd:string` | Sì | Maniglia della destinazione di zoom. |
 | zoomTargetHandle | `xsd:string` | No | Modifica o crea una destinazione di zoom. |
-| name | `xsd:string` | Sì | Nome della destinazione dello zoom. |
-| xPosition | `xsd:int` | Sì | Posizione del pixel sinistro. |
-| yPosition | `xsd:int` | Sì | Posizione pixel superiore. |
-| width | `xsd:int` | Sì | Zoom della larghezza della destinazione. |
-| height | `xsd:int` | Sì | Zoom altezza destinazione. |
-| Dati utente | `xsd:string` | Sì | Per informazioni specifiche per il cliente. Può contenere qualsiasi tipo di dati. |
+| nome | `xsd:string` | Sì | Nome destinazione di zoom. |
+| xPosition | `xsd:int` | Sì | Posizione pixel sinistro. |
+| yPosition | `xsd:int` | Sì | Posizione dei pixel principali. |
+| width | `xsd:int` | Sì | Zoom larghezza destinazione. |
+| height | `xsd:int` | Sì | Zoom dell&#39;altezza di destinazione. |
+| userData | `xsd:string` | Sì | Per informazioni specifiche per il cliente. Può contenere qualsiasi tipo di dati. |
 
 **Output (saveZoomTargetReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| zoomTargetHandle | `xsd:string` | Sì | Gestisci la nuova destinazione di zoom creata. |
+| zoomTargetHandle | `xsd:string` | Sì | Gestisci la destinazione di zoom appena creata. |
 
 ## Esempi {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Questo esempio di codice salva una destinazione di zoom. La risposta restituisce la maniglia di destinazione dello zoom.
+Questo esempio di codice salva una destinazione di zoom. La risposta restituisce l’handle della destinazione di zoom.
 
 **Request Contents (Richiesta contenuto)**
 

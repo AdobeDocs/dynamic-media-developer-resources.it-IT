@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a3a4f3f9-b6ef-4ee2-b006-578b743698ad
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il pattern per l’ora visualizzata nella barra dei controlli, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è minuti e <span class="codeph"> s</span> è secondi. </p> <p>Il numero di lettere utilizzato per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell'unità successiva. </p> <p>Ad esempio, se l’ora corrente del filmato è 67 minuti e 5 secondi, il pattern di tempo <span class="codeph"> m:ss</span> è 67:05. La stessa ora viene visualizzata come 1:07:5 se il pattern di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Imposta il modello per il tempo visualizzato nella barra di controllo, dove <span class="codeph"> h</span> è ore, <span class="codeph"> m</span> è in minuti, e <span class="codeph"> s</span> è di secondi. </p> <p>Il numero di lettere utilizzate per ciascuna unità di tempo determina il numero di cifre da visualizzare per l'unità. Se il numero non può rientrare nelle cifre specificate, il valore equivalente viene visualizzato nell’unità successiva. </p> <p>Ad esempio, se il tempo del filmato corrente è di 67 minuti e 5 secondi, il modello di tempo <span class="codeph"> m:ss</span> viene visualizzato come 67:05. Viene visualizzata la stessa ora come 1:07:5 se il modello di tempo specificato è <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

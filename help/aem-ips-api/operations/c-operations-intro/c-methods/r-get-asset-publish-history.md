@@ -8,7 +8,7 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con la cronologia di pubblicazione delle risorse. |
-| assetHandle | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione da esaminare. |
+| companyHandle | `xsd:string` | Sì | Handle per l’azienda con la cronologia di pubblicazione delle risorse. |
+| assetHandle | `xsd:string` | Sì | La risorsa con la cronologia di pubblicazione che desideri esaminare. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| pubHistoryArray | `types:PublishHistoryArray` | Sì | La cronologia di pubblicazione della risorsa. |
+| pubHistoryArray | `types:PublishHistoryArray` | Sì | Cronologia di pubblicazione della risorsa. |
 
 ## Esempi {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Questo esempio di codice restituisce la cronologia di pubblicazione di una risorsa. Una risorsa non è mai stata pubblicata se il server restituisce una matrice vuota.
+In questo esempio di codice viene restituita la cronologia di pubblicazione di una risorsa. Una risorsa non è mai stata pubblicata se il server restituisce un array vuoto.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -1,14 +1,14 @@
 ---
-description: Appartenenza alla società
+description: AppartenenzaSocietà
 solution: Experience Manager
-title: Appartenenza alla società
+title: AppartenenzaSocietà
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '18'
-ht-degree: 22%
+ht-degree: 16%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 |---|---|---|
 | [!DNL company] | `types:Company` |  |
 | [!DNL role] | `xsd:string` |  |
-| isActive | `xsd:boolean` | Imposta lo stato dell’utente per ogni società a cui appartiene. |
+| isActive | `xsd:boolean` | Imposta lo stato dell&#39;utente per ogni società a cui appartiene. |

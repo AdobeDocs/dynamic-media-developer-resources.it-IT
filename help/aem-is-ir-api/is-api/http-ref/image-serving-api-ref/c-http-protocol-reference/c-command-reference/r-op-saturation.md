@@ -1,20 +1,20 @@
 ---
-description: Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del livello o dell'immagine composita.
+description: Regolare la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell'immagine composita.
 solution: Experience Manager
 title: op_saturation
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
 # op_saturation{#op-saturation}
 
-Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del livello o dell&#39;immagine composita.
+Regolare la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell&#39;immagine composita.
 
 `op_saturation= *`adj`*`
 
@@ -29,14 +29,14 @@ Regolare la saturazione. Modifica la saturazione di ogni pixel visibile del live
 
 ## Proprietà {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Livello, comando. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli di effetto.
+Comando Livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, senza alcun cambiamento nella saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell’applicazione dell’operazione.
+`op_saturation=0`, per non modificare la saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell&#39;applicazione dell&#39;operazione.
 
 ## Esempio {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipolare una fotografia a colori per ottenere un aspetto &quot;high key&quot;:
+Manipolare una fotografia a colori per ottenere un aspetto &quot;a chiave alta&quot;:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`

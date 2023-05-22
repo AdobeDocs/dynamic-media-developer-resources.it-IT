@@ -1,26 +1,26 @@
 ---
-description: Nome della faccia del font Postscript. Il nome del font Postscript.
+description: Nome tipo di carattere PostScript. Nome del tipo di carattere Postscript.
 solution: Experience Manager
 title: PsName
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
 # PsName{#psname}
 
-Nome della faccia del font Postscript. Il nome del font Postscript.
+Nome tipo di carattere PostScript. Nome del tipo di carattere Postscript.
 
-Al momento, solo il modulo di rendering FXG può fare riferimento ai font in base ai loro nomi Postscript.
+Al momento, solo il renderer FXG può fare riferimento ai font in base ai loro nomi Postscript.
 
 ## Proprietà {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei font. Lo stesso valore `font::PsName` può verificarsi una sola volta nello stesso file di mappa dei font.
+Stringa di testo. Facoltativo. Chiave indice secondaria per la mappa dei caratteri. Uguale `font::PsName` il valore può essere presente una sola volta nello stesso file di mappa dei caratteri.
 
 ## Predefinito {#section-c5903d5340e740b69ec0150d2303a893}
 

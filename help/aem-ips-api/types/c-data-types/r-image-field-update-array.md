@@ -1,20 +1,20 @@
 ---
-description: Viene aggiornata una matrice di campi immagine.
+description: Un array di aggiornamenti dei campi immagine.
 solution: Experience Manager
-title: ImageFieldUpdateArray
+title: MatriceAggiornamentoCampoImmagine
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 20%
+ht-degree: 12%
 
 ---
 
 # [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-Viene aggiornata una matrice di campi immagine.
+Un array di aggiornamenti dei campi immagine.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:ImageFieldUpdate` | Array di aggiornamenti dei campi immagine. |
+| elementi | `types:ImageFieldUpdate` | Array di aggiornamenti per i campi immagine. |

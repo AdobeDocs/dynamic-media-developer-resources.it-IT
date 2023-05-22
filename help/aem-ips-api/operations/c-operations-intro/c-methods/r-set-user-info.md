@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -31,12 +31,12 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Maniglia utente. |
+| userHandle | `xsd:string` | No | Handle utente. |
 | firstName | `xsd:string` | Sì | Nome. |
 | lastName | `xsd:string` | Sì | Cognome. |
-| e-mail | `xsd:string` | Sì | E-mail utente. |
-| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Tuttavia, la `IpsAdmin` il ruolo sostituisce altre impostazioni per azienda. |
-| passwordExpires | `xsd:dateTime` | No | Data di scadenza della password del set. |
+| email | `xsd:string` | Sì | E-mail utente. |
+| defaultRole | `xsd:string` | Sì | Imposta il ruolo di un utente in ogni società a cui appartiene. Si noti tuttavia che `IpsAdmin` il ruolo sostituisce altre impostazioni per società. |
+| passwordExpires | `xsd:dateTime` | No | Imposta la data di scadenza della password. |
 | isValid | `xsd:boolean` | Sì | Determina se l&#39;utente è un utente IPS valido. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Un array di handle aziendali. |
 

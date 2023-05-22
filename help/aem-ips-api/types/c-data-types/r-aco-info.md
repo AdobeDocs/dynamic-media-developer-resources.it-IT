@@ -8,7 +8,7 @@ exl-id: dfec2e24-05a2-4a9c-bd78-9ee35dd8b1b6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '28'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| originalPath | `xsd:string` | Percorso file ACO. |
+| originalPath | `xsd:string` | Percorso del file ACO. |
 | originalFile | `xsd:string` | Nome file ACO. |
-| fileSize | `xsd:int` | Dimensione del file ACO. |
+| fileSize | `xsd:int` | Dimensione file ACO. |

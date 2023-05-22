@@ -1,5 +1,5 @@
 ---
-description: Ottiene i registri di lavoro specificati per la società selezionata. Puoi ordinare in base a caratteri, direzione, date di inizio e fine e numero di righe.
+description: Ottiene i registri di processo specificati per la società selezionata. Puoi ordinare in base ai caratteri, alla direzione, alle date di inizio e di fine e al numero di righe.
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # getJobLogs{#getjoblogs}
 
-Ottiene i registri di lavoro specificati per la società selezionata. Puoi ordinare in base a caratteri, direzione, date di inizio e fine e numero di righe.
+Ottiene i registri di processo specificati per la società selezionata. Puoi ordinare in base ai caratteri, alla direzione, alle date di inizio e di fine e al numero di righe.
 
 Sintassi
 
@@ -36,23 +36,23 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | L&#39;azienda gestisce. |
+| companyHandle | `xsd:string` | No | La maniglia aziendale. |
 | userHandle | `xsd:string` | No | Ottiene i registri dei processi inviati da un utente specifico. |
 | sortBy | `xsd:string` | No | Consente di selezionare i campi di ordinamento. |
 | sortDirection | `xsd:string` | No | Ordinamento (crescente o decrescente). |
-| startDate | `xsd:dateTime` | No | Data e ora dell&#39;inizio del job log. Specifica il fuso orario con la richiesta per questo campo. |
-| endDate | `xsd:dateTime` | No | Data e ora della fine del job log. Specifica il fuso orario con la richiesta per questo campo. |
+| startDate | `xsd:dateTime` | No | La data e l’ora di inizio del registro di processo. Fornisci il fuso orario con la richiesta per questo campo. |
+| endDate | `xsd:dateTime` | No | La data e l’ora della fine del registro di processo. Fornisci il fuso orario con la richiesta per questo campo. |
 | numRows | `xsd:int` | No | Numero massimo di righe da restituire. |
 
 **Output (getJobLogsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| jobLogArray | `types: JobLogArray` | Sì | Array di registri di lavoro. |
+| jobLogArray | `types: JobLogArray` | Sì | Array di registri di processo. |
 
 ## Esempi {#section-35871c94b4a44559912577efddbc46a6}
 
-Questo esempio di codice restituisce i registri di lavoro IPS per una società specifica. Puoi anche utilizzarlo per restituire i registri di lavoro di un utente specifico, di un&#39;azienda o di un utente specifico.
+In questo esempio di codice vengono restituiti i registri di processo IPS per una società specifica. Puoi utilizzarlo anche per restituire i registri di processo per un utente o un’azienda e un utente specifici.
 
 **Request Contents (Richiesta contenuto)**
 

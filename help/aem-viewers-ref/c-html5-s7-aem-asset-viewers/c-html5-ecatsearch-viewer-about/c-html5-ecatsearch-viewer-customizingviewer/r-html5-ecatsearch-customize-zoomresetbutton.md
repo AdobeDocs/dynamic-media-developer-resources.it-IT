@@ -1,6 +1,6 @@
 ---
-title: Pulsante Ripristina zoom
-description: Selezionando questo pulsante, si reimposta un'immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale sui sistemi desktop e sui tablet. Sui telefoni cellulari, questo pulsante appare nel centro in basso sopra l'immagine. Tuttavia, non viene visualizzato quando l'immagine è in uno stato di ripristino. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+title: Pulsante di ripristino zoom
+description: Selezionando questo pulsante si ripristina un'immagine nella visualizzazione principale. Questo pulsante viene visualizzato nella barra di controllo principale dei sistemi desktop e tablet. Sui telefoni cellulari, questo pulsante viene visualizzato in basso al centro sull’immagine. Tuttavia, non viene visualizzato quando l’immagine è in stato di ripristino. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Pulsante Ripristina zoom{#zoom-reset-button}
+# Pulsante di ripristino zoom{#zoom-reset-button}
 
-Selezionando questo pulsante, si reimposta un&#39;immagine nella vista principale. Questo pulsante viene visualizzato nella barra di controllo principale sui sistemi desktop e sui tablet. Sui telefoni cellulari, questo pulsante appare nel centro in basso sopra l&#39;immagine. Tuttavia, non viene visualizzato quando l&#39;immagine è in uno stato di ripristino. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+Selezionando questo pulsante si ripristina un&#39;immagine nella visualizzazione principale. Questo pulsante viene visualizzato nella barra di controllo principale dei sistemi desktop e tablet. Sui telefoni cellulari, questo pulsante viene visualizzato in basso al centro sull’immagine. Tuttavia, non viene visualizzato quando l’immagine è in stato di ripristino. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogsearchviewer .s7zoomresetbutton`
 
@@ -34,19 +34,19 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale (su desktop e tablet) o del visualizzatore (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,23 +57,23 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante di ripristino dello zoom di 28 x 28 pixel e posizionato (sul desktop) 4 pixel dal basso e 47 pixel dal bordo destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+Esempio: per impostare un pulsante di ripristino dello zoom di 28 x 28 pixel e posizionato (sul desktop) di 4 pixel dal basso e di 47 pixel dal bordo destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7ecatalogsearchviewer .s7zoomresetbutton { 

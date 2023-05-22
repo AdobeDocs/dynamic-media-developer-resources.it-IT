@@ -8,7 +8,7 @@ exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -29,17 +29,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
 
 **Output (getVignettePublishFormatsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| vignetteFormatArray | `types:VignettePublishFormatArray` | Sì | Array di formati di pubblicazione della vignetta. |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | Sì | Matrice di formati di pubblicazione vignettatura. |
 
 ## Esempi {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Questo esempio di codice restituisce due formati di pubblicazione di vignetta associati a una specifica azienda. Le informazioni vengono restituite in una matrice, troncata per brevità.
+Questo esempio di codice restituisce due formati di pubblicazione vignettatura associati a una società specifica. Le informazioni vengono restituite in un array e troncate per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

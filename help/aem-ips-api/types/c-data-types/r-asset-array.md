@@ -1,6 +1,6 @@
 ---
 title: AssetArray
-description: Matrice di risorse.
+description: Un array di risorse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -8,13 +8,13 @@ exl-id: d63fa05d-fb98-476f-afbb-8a9ab3115daa
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '17'
-ht-degree: 29%
+ht-degree: 17%
 
 ---
 
 # [!DNL AssetArray]{#assetarray}
 
-Matrice di risorse.
+Un array di risorse.
 
 Sintassi
 

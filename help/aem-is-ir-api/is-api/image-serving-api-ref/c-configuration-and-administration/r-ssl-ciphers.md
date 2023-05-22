@@ -1,7 +1,7 @@
 ---
-description: Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
+description: Il tag Connector in server.xml supporta un attributo ciphers per limitare le cifrature che possono essere scelte per una connessione SSL.
 solution: Experience Manager
-title: Definizione dei codici SSL
+title: Definizione delle crittografie SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Definizione dei codici SSL{#defining-ssl-ciphers}
+# Definizione delle crittografie SSL{#defining-ssl-ciphers}
 
-Il tag Connector nel server.xml supporta un attributo ciphers per limitare i crittografie che possono essere scelte per una connessione SSL.
+Il tag Connector in server.xml supporta un attributo ciphers per limitare le cifrature che possono essere scelte per una connessione SSL.
 
-Per impostazione predefinita sono disponibili tutte le crittografie. L’elenco è separato da virgole e può contenere uno dei seguenti valori:
+Per impostazione predefinita, sono disponibili tutte le crittografie. L’elenco è separato da virgole e può contenere uno qualsiasi dei seguenti valori:
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 
@@ -48,8 +48,8 @@ Per impostazione predefinita sono disponibili tutte le crittografie. L’elenco 
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Se uno qualsiasi dei valori è sbagliato, Tomcat consentirà ogni singolo segno. Quindi è essenziale controllare con uno strumento esterno dopo la configurazione per vedere quali crittografie sono effettivamente abilitate.
+Se uno qualsiasi dei valori è errato, Tomcat abiliterà ogni singolo cifrario. È quindi essenziale verificare con uno strumento esterno, dopo la configurazione, quali crittografie sono effettivamente abilitate.
 
-Ad esempio, la seguente configurazione abilita solo le suite di cifratura a 128 bit e successive:
+Ad esempio, la seguente configurazione abilita solo le suite di cifratura &quot;a 128 bit&quot; e versioni successive:
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`

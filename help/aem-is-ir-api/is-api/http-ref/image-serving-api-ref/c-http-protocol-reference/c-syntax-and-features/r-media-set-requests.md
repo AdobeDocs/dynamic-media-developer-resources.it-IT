@@ -1,7 +1,7 @@
 ---
-description: Image Serving fornisce un meccanismo per recuperare una risposta testuale gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati al catalogo ImageSet per un particolare record.
+description: Image Server fornisce un meccanismo per recuperare una risposta di testo gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati al set di immagini catalogo per un determinato record.
 solution: Experience Manager
-title: Richieste set di file multimediali
+title: Richieste di set di file multimediali
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Richieste set di file multimediali{#media-set-requests}
+# Richieste di set di file multimediali{#media-set-requests}
 
-Image Serving fornisce un meccanismo per recuperare una risposta testuale gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati al catalogo::ImageSet per un particolare record.
+Image Server fornisce un meccanismo per recuperare una risposta di testo gerarchica (xml o json) che rappresenta tutte le risorse e i metadati associati a catalog::ImageSet per un determinato record.
 
-I visualizzatori possono utilizzare questo meccanismo per generare risposte che informino la presentazione di immagini semplici, video, set di video, set di campioni, set 360 gradi, set di pagine (eCatalogs) e set di contenuti multimediali.
+I visualizzatori possono utilizzare questo meccanismo per generare risposte che informano la presentazione di immagini semplici, video, set video, set di campioni, set 360 gradi, set di pagine (e-catalogs) e set di file multimediali.
 
 ## Sintassi della richiesta {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-Imposta la risposta per un `catalog::ImageSet` può essere recuperato utilizzando `req=set` modificatore e riferimento all&#39;id del record del catalogo nel percorso di rete. In alternativa, il set di immagini può essere specificato direttamente nell’URL utilizzando il `imageset=` modificatore. Se la `imageset=` Il modificatore viene utilizzato per specificare il set di immagini, l’intero valore deve essere racchiuso tra parentesi graffe per evitare il valore del set di immagini e assicurarsi che eventuali modificatori inclusi non vengano interpretati come parte della stringa di query URL.
+La risposta impostata per un `catalog::ImageSet` possono essere recuperati utilizzando `req=set` e facendo riferimento all’id del record di catalogo nel percorso di rete. In alternativa, il set di immagini può essere specificato direttamente nell’URL utilizzando `imageset=` modificatore. Se il `imageset=` Il modificatore viene utilizzato per specificare il set di immagini. L’intero valore deve essere racchiuso tra parentesi graffe al fine di escape dal valore del set di immagini e garantire che tutti i modificatori inclusi non vengano interpretati come parte della stringa di query URL.
 
-## Tipi di risposte impostate {#section-93eb0a1f70344da2a888e56372ad3896}
+## Tipi di risposta impostata {#section-93eb0a1f70344da2a888e56372ad3896}
 
-Il meccanismo set supporta i seguenti tipi di risposte:
+Il meccanismo di impostazione supporta i seguenti tipi di risposte:
 
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
@@ -44,20 +44,20 @@ Il meccanismo set supporta i seguenti tipi di risposte:
   <td class="stentry"> <p>Un insieme di elementi costituito da un elemento campione di base o da un riferimento a un record set di campioni. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>set 360 </p></td> 
+  <td class="stentry"> <p>set 360 gradi </p></td> 
   <td class="stentry"> <p>Un set di elementi costituito da un semplice elenco di ID immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>set 360 gradi bidimensionali </p></td> 
-  <td class="stentry"> <p>Set di elementi costituito da un'immagine semplice o da un riferimento a un set 360 gradi di base. </p></td> 
+  <td class="stentry"> <p>Un insieme di elementi costituito da un'immagine semplice o da un riferimento a un set 360 gradi di base. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>set di pagine </p></td> 
-  <td class="stentry"> <p>Un insieme di elementi costituito da un elenco di fino a tre immagini di pagina </p></td> 
+  <td class="stentry"> <p>Un set di elementi costituito da un elenco di un massimo di tre immagini pagina </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>set di file multimediali </p></td> 
-  <td class="stentry"> <p>Un set di elementi costituito da immagini semplici, set di video, set di campioni, set di campioni gerarchici, set 360 gradi, set 360 gradi bidimensionali, set di pagine e risorse video. Ogni elemento del set di file multimediali può anche contenere un campione opzionale. </p></td> 
+  <td class="stentry"> <p>media set </p></td> 
+  <td class="stentry"> <p>Un set di elementi costituito da immagini semplici, set video, set di campioni, set di campioni gerarchici, set 360 gradi, set 360 gradi bidimensionali, set di pagine e risorse video. Ogni elemento del set di file multimediali può contenere anche un campione opzionale. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>set video </p></td> 
@@ -67,42 +67,42 @@ Il meccanismo set supporta i seguenti tipi di risposte:
 
 ## Rilevamento del tipo di set esterno {#section-3dd6e453528d46898e559d31458a59ba}
 
-Quando un `req=set` viene ricevuta una richiesta, il tipo di risposta da generare è determinato dal valore di `catalog::AssetType`. Se `catalog::AssetType` non è definito, quindi il tipo di risposta è determinato dalle seguenti regole:
+Quando un `req=set` richiesta ricevuta, il tipo di risposta da generare è determinato dal valore di `catalog::AssetType`. Se `catalog::AssetType` non è definito, il tipo di risposta è determinato dalle regole seguenti:
 
-* Se il record si trova nel catalogo immagini AND `catalog::ImageSet` è definito
+* Se il record viene trovato nel catalogo immagini E `catalog::ImageSet` è definito
 
-   * Si supponga di aver impostato un catalogo elettronico se almeno una voce nel campo Immagine record contiene due punti
-   * Si supponga di aver impostato un supporto se almeno una voce nel campo Imageset record contiene due punti e virgola.
-   * Si supponga di aver impostato l&#39;immagine se almeno una voce nel campo Imageset record contiene un punto e virgola.
-   * Supponiamo di usare un set 360 gradi se nessuna voce contiene due punti o un punto e almeno una voce contiene un set di riferimento o un set in-line (questo è un set 360 gradi 2D).
-   * Si supponga di aver impostato un valore sconosciuto se nessuna voce contiene due punti o un punto e virgola, né un set di riferimento né un set in-line (ad esempio un elenco di immagini separato da virgole).
+   * Si supponga di avere impostato un catalogo elettronico se almeno una voce nel campo Record Imageset contiene due punti
+   * Supponiamo che il set di file multimediali sia impostato se almeno una voce nel campo Record Imageset contiene due punti e virgola.
+   * Si supponga che il set di immagini sia impostato se almeno una voce nel campo Record Imageset contiene un punto e virgola.
+   * Si supponga che il set 360 gradi non contenga due punti né punto e virgola, ma che almeno una voce contenga un set di riferimenti o un set in linea (set 360 gradi 2D).
+   * Si supponga che il set sia sconosciuto se nessuna voce contiene due punti, un punto e virgola, un set di riferimento o un set in linea (ovvero un elenco di immagini separato da virgole).
 
-* Se il record si trova sia nei cataloghi di contenuti statici E immagine
+* Se il record viene trovato sia nei cataloghi di contenuto statico che in quelli di immagini
 
-   * Supponi video se l’estensione del file è nel seguente set: mp3, mp4, flv, f4v, swf, xml
-   * Ipotizza immagine altrimenti
+   * Si supponga che l&#39;estensione file sia nel seguente set: mp3, mp4, flv, f4v, swf, xml
+   * Ipotizza immagine in caso contrario
 
-* Se il record si trova nel catalogo dei contenuti statici ma NON nel catalogo delle immagini
+* Se il record viene trovato nel catalogo dei contenuti statici ma NON nel catalogo delle immagini
 
-   * Supponi video se l’estensione del file è nel seguente set: mp3, mp4, flv, f4v, swf, xml
-   * Supponiamo di essere statici in caso contrario
+   * Si supponga che l&#39;estensione file sia nel seguente set: mp3, mp4, flv, f4v, swf, xml
+   * Presupponiamo statico in caso contrario
 
-* Se il record si trova nel catalogo immagini ma NON nel catalogo dei contenuti statici
+* Se il record in è stato trovato nel catalogo immagini ma NON nel catalogo contenuti statici
 
-   * Ipotizza immagine
+   * Immagini
 
-* Se il record NON viene trovato nel catalogo immagini e NON viene trovato nel catalogo dei contenuti statici
+* Se il record NON viene trovato nel catalogo immagini e NON nel catalogo dei contenuti statici
 
-   * Supponi video basati su file se l&#39;estensione del file è nel seguente set: mp3, mp4, flv, f4v, swf, xml
-   * Supponi immagini basate su file in caso contrario
+   * Si supponga che l&#39;estensione file sia nel seguente set: mp3, mp4, flv, f4v, swf, xml
+   * Supponiamo un’immagine basata su file in caso contrario
 
-In tutti i casi, la risposta xml risultante sarà conforme al documento XML specificato con il nodo principale impostato corrispondente al tipo rilevato.
+In tutti i casi, la risposta XML risultante sarà conforme al documento XML specificato con il nodo principale impostato corrispondente al tipo rilevato.
 
-## Rilevamento del tipo di set interno {#section-8f46490e467247e69ce284704def06f3}
+## Rilevamento tipo set interno {#section-8f46490e467247e69ce284704def06f3}
 
-Quando il set esterno viene rilevato come set di file multimediali di tipo , la risposta conterrà un set di elementi del set di file multimediali corrispondenti a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se per una particolare voce del set di file multimediali è specificato il parametro opzionale type, questo viene mappato su un tipo di output in base alla tabella seguente:
+Quando il set esterno viene rilevato come tipo di set di file multimediali, la risposta conterrà un set di elementi del set di file multimediali corrispondente a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se il parametro di tipo opzionale è specificato per una particolare voce di set di file multimediali, viene mappato a un tipo di output in base alla tabella seguente:
 
-| Tipo di ingresso | Tipo di uscita |
+| Tipo di input | Tipo di output |
 |---|---|
 | `img` | `img` |
 | `basic` | `img` |
@@ -116,32 +116,32 @@ Quando il set esterno viene rilevato come set di file multimediali di tipo , la 
 | `static` | `static` |
 | `ecat` | `ecat` |
 
-Se il parametro opzionale type per una particolare voce del set di file multimediali non è specificato o corrisponde a un tipo non supportato, il tipo di elemento del set di file multimediali viene rilevato automaticamente utilizzando le stesse regole applicate a livello del set esterno.
+Se il parametro di tipo opzionale per una particolare voce del set di file multimediali non è specificato o corrisponde a un tipo non supportato, il tipo di elemento del set di file multimediali viene rilevato automaticamente utilizzando le stesse regole applicate a livello di set esterno.
 
 ## Specifica XML {#section-c1bd60948ef545759a16885bb6fcc607}
 
-La risposta xml restituita è conforme alla seguente specifica:
+La risposta xml restituita è conforme alle seguenti specifiche:
 
 `http://crc.scene7.com/is-docs/examples/mediaset.dtd`
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-La `labelkey=` viene utilizzato insieme al `catalog::UserData`per generare etichette per immagini e campioni. La `catalog:UserData` Il campo viene analizzato come un set di coppie chiave/valore e gli indici labelkey in a questo set per recuperare il valore per la chiave specificata. Questo valore viene quindi restituito nella *`l`* attributo per *`s`* e *`i`*.
+Il `labelkey=` il modificatore viene utilizzato insieme al `catalog::UserData`per generare etichette per immagini e campioni. Il `catalog:UserData` viene analizzato come un set di coppie chiave/valore e gli indici labelkey in questo set per recuperare il valore per la chiave specificata. Questo valore viene quindi restituito nel *`l`* attributo per *`s`* e *`i`*.
 
-## Restrizioni imposte {#section-b9f042873bee45a5ae11b69fd42f2bca}
+## Restrizioni applicate {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-Per limitare le dimensioni della risposta ed evitare problemi di autoreferenza, la profondità massima di nidificazione è controllata dalla proprietà server `PS::fvctx.nestingLimit`. Se questo limite viene superato, viene restituito un errore.
+Per limitare le dimensioni della risposta ed evitare problemi autoreferenziali, la profondità massima di nidificazione è controllata dalla proprietà del server `PS::fvctx.nestingLimit`. Se questo limite viene superato, viene restituito un errore.
 
-Al fine di limitare le dimensioni delle risposte xml per i set di catalogo elettronico di grandi dimensioni, i metadati privati vengono soppressi per gli elementi del set di brochure in base alla proprietà del server `PS::fvctx.brochureLimit`. Tutti i metadati privati associati alla brochure vengono esportati fino al raggiungimento del limite della brochure. Una volta superato il limite, le mappe private e i dati utente vengono soppressi e viene impostato un flag corrispondente per indicare quale tipo di dati è stato soppresso.
+Per limitare le dimensioni delle risposte xml per i set di e-catalog di grandi dimensioni, i metadati privati vengono soppressi per gli elementi dei set di brochure in base alla proprietà del server `PS::fvctx.brochureLimit`. Tutti i metadati privati associati alla brochure vengono esportati fino al raggiungimento del limite della brochure. Una volta superato il limite, le mappe private e i dati utente vengono eliminati e viene impostato un flag corrispondente per indicare quale tipo di dati è stato eliminato.
 
-I set di file multimediali nidificati non sono supportati. Un set di file multimediali nidificati è definito come un set di file multimediali che contiene un elemento set di file multimediali di tipo set di file multimediali. Se viene rilevata questa condizione, viene restituito un errore.
+I set di file multimediali nidificati non sono supportati. Un set di file multimediali nidificato è definito come un set di file multimediali contenente un elemento del set di file multimediali di tipo set di file multimediali. Se questa condizione viene rilevata, viene restituito un errore.
 
 ## Esempi {#section-588c9d33aa05482c86cd2b1936887228}
 
-Per risposte XML di esempio per `req=set` fare riferimento alla pagina Proprietà nell’intestazione Esempi di HTML.
+Per risposte XML di esempio per `req=set` , fai riferimento alla pagina Proprietà sotto l’intestazione Esempi di HTML.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Consultate anche {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Riferimento al catalogo delle immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset= insieme di immagini](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Riferimento catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

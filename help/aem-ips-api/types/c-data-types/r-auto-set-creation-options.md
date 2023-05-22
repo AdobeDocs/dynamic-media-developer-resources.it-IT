@@ -1,5 +1,5 @@
 ---
-description: Elenco di script di generazione set automatico per i processi di caricamento. Presuppone che ogni script specificato per il caricamento venga applicato a tutte le risorse caricate.
+description: Imposta automaticamente l’elenco degli script di generazione per i processi di caricamento. Presuppone che ogni script specificato per il caricamento sia applicato a tutte le risorse caricate.
 solution: Experience Manager
 title: OpzioniCreazioneImpostazioneAutomatica
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: e6e969be-0410-4be7-88d6-491d715fd137
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-Elenco di script di generazione set automatico per i processi di caricamento. Presuppone che ogni script specificato per il caricamento venga applicato a tutte le risorse caricate.
+Imposta automaticamente l’elenco degli script di generazione per i processi di caricamento. Presuppone che ogni script specificato per il caricamento sia applicato a tutte le risorse caricate.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Array di [!DNL PropertySet] gestisce la definizione degli script di generazione del set automatico applicati durante il caricamento. |
+| autoSetsArray | `types:HandleArray` | Array di [!DNL PropertySet] gestisce la definizione degli script di generazione automatica dei set applicati durante il caricamento. |

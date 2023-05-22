@@ -1,5 +1,5 @@
 ---
-description: Proprietà di una risorsa predefinita visualizzatore.
+description: Proprietà di una risorsa del predefinito visualizzatore.
 solution: Experience Manager
 title: ViewerPresetInfo
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -8,13 +8,13 @@ exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '28'
-ht-degree: 17%
+ht-degree: 10%
 
 ---
 
 # [!DNL ViewerPresetInfo]{#viewerpresetinfo}
 
-Proprietà di una risorsa predefinita visualizzatore.
+Proprietà di una risorsa del predefinito visualizzatore.
 
 Sintassi
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| Testo | `xsd:string` | Scelta del tipo di visualizzatore. |
-| configSettingArray | `types:ConfigSettingArray` | Matrice delle impostazioni di configurazione del visualizzatore. |
+| tipo | `xsd:string` | Scelta del tipo di visualizzatore. |
+| configSettingArray | `types:ConfigSettingArray` | Array delle impostazioni di configurazione del visualizzatore. |

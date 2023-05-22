@@ -1,5 +1,5 @@
 ---
-description: Impostazioni di configurazione specifiche per azienda.
+description: Impostazioni di configurazione specifiche per l’azienda.
 solution: Experience Manager
 title: ImpostazioniSocietà
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL CompanySettings]{#companysettings}
 
-Impostazioni di configurazione specifiche per azienda.
+Impostazioni di configurazione specifiche per l’azienda.
 
 Sintassi
 
@@ -22,12 +22,12 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| overwriteMode | `xsd:string` | Determina se sovrascrivere le immagini nella cartella corrente con lo stesso nome e estensione dell&#39;immagine di base. |
-| keepPublishState | `xsd:boolean` | Specifica se un&#39;immagine sostitutiva caricata in IPS deve mantenere l&#39;impostazione &quot;Ready to Publish&quot; esistente o se deve essere come specificato dal caricamento. |
-| defaultSourceProfile | `types:Asset` | Specifica il profilo colore sorgente predefinito (Coated FOGRA27 (ISO 126472:2004)) applicato automaticamente come parte del &quot;Use default Color Behavior&quot; (Usa comportamento colore predefinito) quando si aggiungono file immagine CMYK. |
-| defaultDisplayProfile | `types:Asset` | Specifica il profilo colore interno predefinito (SWOP, US Web Coated) v2) applicato automaticamente come parte del &quot;Use default Color Behavior&quot; (Usa comportamento colore predefinito) quando si aggiungono file immagine CMYK. |
-| iptcExifMappingXslt | `types:Asset` | L’estrazione dei dati di intestazione immagine IPTC e EXIF in IPS richiede una conversione dai nomi di campo interni ai nomi di campo definiti dall’utente per l’azienda. Determina una tabella di traduzione XSL (l&#39;impostazione predefinita è &quot;Non estrarre campi IPTC o EXIF&quot;) per le immagini caricate. |
-| xmpMappingXslt | `types:Asset` | L’estrazione XMP dati di intestazione immagine in IPS richiede una conversione dai nomi di campo interni ai nomi di campo definiti dall’utente per l’azienda. Determina una tabella di traduzione XSL (l’impostazione predefinita è &quot;Non estrarre campi XMP&quot;) per le immagini caricate. |
-| diskSpaceWarningMin | `xsd:int` | Quantità minima di spazio libero su disco della directory dell&#39;immagine prima dell&#39;invio di un avviso. |
-| emailTrashCleanupWarning | `xsd:boolean` | Determina se inviare e-mail prima che gli elementi inseriti nel cestino possano essere eliminati automaticamente. |
-| javascriptUploadEnabled | `types:Asset` | Determina se caricare i file JavaScript. Questo è un potenziale rischio per la sicurezza, quindi utilizza questa opzione con attenzione. |
+| overwriteMode | `xsd:string` | Determina se sovrascrivere le immagini nella cartella corrente con lo stesso nome immagine di base e la stessa estensione. |
+| keepPublishState | `xsd:boolean` | Specifica se un&#39;immagine sostitutiva caricata in IPS deve mantenere l&#39;impostazione &quot;Pronto per la pubblicazione&quot; esistente o deve corrispondere a quella specificata per il caricamento. |
+| defaultSourceProfile | `types:Asset` | Specifica il profilo colore di origine predefinito (Coated FOGRA27 (ISO 126472:2004)) applicato automaticamente come parte del comando &quot;Usa comportamento colore predefinito&quot; quando si aggiungono file CMYK di immagini. |
+| defaultDisplayProfile | `types:Asset` | Specifica il profilo colore interno predefinito (SWOP (U.S. Web Coated) v2) applicato automaticamente come parte del comando &quot;Usa comportamento colore predefinito&quot; quando si aggiungono file CMYK di immagini. |
+| iptcExifMappingXslt | `types:Asset` | L&#39;estrazione di dati di intestazione immagine IPTC ed EXIF in IPS richiede una conversione dai nomi di campi interni ai nomi di campi definiti dall&#39;utente per la società. Determina una tabella di traduzione XSL (l&#39;impostazione predefinita è &quot;Non estrarre alcun campo IPTC o EXIF&quot;) per le immagini caricate. |
+| xmpMappingXslt | `types:Asset` | L’estrazione di dati di intestazione immagine XMP in IPS richiede una conversione dai nomi di campi interni ai nomi di campi definiti dall’utente per l’azienda. Determina una tabella di traduzione XSL (l&#39;impostazione predefinita è &quot;Non estrarre campi XMP&quot;) per le immagini caricate. |
+| diskSpaceWarningMin | `xsd:int` | Quantità minima di spazio libero su disco nella directory delle immagini prima dell&#39;invio di un avviso. |
+| emailTrashCleanupWarning | `xsd:boolean` | Determina se inviare e-mail prima che gli elementi inseriti nel cestino vengano eliminati automaticamente. |
+| javascriptUploadEnabled | `types:Asset` | Determina se caricare i file JavaScript. Si tratta di un potenziale rischio per la sicurezza, pertanto utilizza questa opzione con attenzione. |

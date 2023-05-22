@@ -1,18 +1,18 @@
 ---
 description: Utilizzato da ScheduledJob/triggerState.
 solution: Experience Manager
-title: Stati trigger processo
-feature: Dynamic Media Classic, SDK/API
+title: Stati di attivazione processo
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 86f99fe5-fd0d-4c38-8952-9ad230ccde38
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 4%
+source-wordcount: '16'
+ht-degree: 6%
 
 ---
 
-# Stati trigger processo{#job-trigger-states}
+# Stati di attivazione processo{#job-trigger-states}
 
 Utilizzato da ScheduledJob/triggerState.
 

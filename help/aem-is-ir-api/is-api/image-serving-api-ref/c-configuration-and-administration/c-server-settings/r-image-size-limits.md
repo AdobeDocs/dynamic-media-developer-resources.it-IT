@@ -1,7 +1,7 @@
 ---
-description: Utilizza queste impostazioni del server per impostare i limiti di dimensione dell'immagine.
+description: Utilizzare queste impostazioni del server per impostare i limiti di dimensione delle immagini.
 solution: Experience Manager
-title: Limiti delle dimensioni dell'immagine
+title: Limiti dimensioni immagine
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# Limiti delle dimensioni dell&#39;immagine{#image-size-limits}
+# Limiti dimensioni immagine{#image-size-limits}
 
-Utilizza queste impostazioni del server per impostare i limiti di dimensione dell&#39;immagine.
+Utilizzare queste impostazioni del server per impostare i limiti di dimensione delle immagini.
 
-## IS::MaxMessageSize - Limite dimensione risposta {#section-bd942385d4d144cd904003695d72c85e}
+## IS::MaxMessageSize - Limite dimensioni risposta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita le dimensioni dei dati che il server di immagini può inviare al [!DNL Platform Server]. In effetti, questo limita le dimensioni dell&#39;immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
+Limita le dimensioni dei dati che il server immagini può inviare al [!DNL Platform Server]. Questo limita la dimensione dell&#39;immagine di risposta codificata/compressa che Image Server può restituire al client tramite HTTP (Mbyte).
 
-## IS::MaxRenderRngPixels - Limite dimensione immagine in uscita {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+## IS::MaxRenderRgnPixels - Limite dimensioni immagine di output {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
-Limita le dimensioni delle immagini che il server di immagini può produrre (escluse le immagini salvate nel file). Valore intero maggiore di 0 in milioni di pixel. Se un’operazione di rendering supera il limite di dimensioni, viene restituito un errore. Il valore predefinito è 16.
+Limita le dimensioni delle immagini che possono essere prodotte dal server immagini (escluse le immagini salvate su file). Valore intero maggiore di 0 in milioni di pixel. Se un’operazione di rendering supera il limite di dimensioni, viene restituito un errore. Il valore predefinito è 16.
 
-## IS::MaxSavePixels - Limite di dimensioni per il salvataggio in file {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - Limite di dimensioni per il salvataggio sui file {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita le dimensioni delle immagini che il server di immagini scriverà nei file con `req=saveToFile` comando. Valore intero maggiore di 0 in milioni di pixel. Se l’operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
+Limita le dimensioni delle immagini che il server immagini scriverà nei file con `req=saveToFile` comando. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
 
-## IS::MaxNonDsfSize - Limite di dimensioni per le immagini in ingresso non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
+## IS::MaxNonDsfSize - Limite dimensioni per immagini di input non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
-Dimensione massima (in Mpixel) delle immagini che non sono PTIFF che il server di immagini può aprire. Image Serving restituisce un errore quando si tenta di accedere a un&#39;immagine non PTIFF maggiore di questo limite.
+Dimensione massima (in Mpixel) delle immagini che non sono file PTIFF che il server immagini può aprire. Image Server restituirà un errore quando si tenta di accedere a un’immagine non PTIFF superiore a questo limite.
 
 >[!NOTE]
 >
->Se si imposta questo valore su un valore troppo alto, la memoria del server di immagini potrebbe essere ridotta e si potrebbero verificare errori, compresi arresti anomali.
+>Se si imposta questo valore su un valore troppo alto, la memoria del server immagini potrebbe diventare insufficiente e si potrebbero verificare errori, inclusi arresti anomali.

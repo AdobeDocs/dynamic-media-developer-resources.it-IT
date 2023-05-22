@@ -1,6 +1,6 @@
 ---
 title: Riferimento comando - Attributi di configurazione
-description: Documentazione degli attributi di configurazione per Visualizzatore zoom di base.
+description: Documentazione sugli attributi di configurazione per visualizzatore zoom di base.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Riferimento comando - Attributi di configurazione{#command-reference-configuration-attributes}
 
-Documentazione degli attributi di configurazione per Visualizzatore zoom di base.
+Documentazione sugli attributi di configurazione per visualizzatore zoom di base.
 
 <!--<a id="section_F52FF0F139604447A870ABE6E1C03444"></a>-->
 

@@ -1,5 +1,5 @@
 ---
-description: Rimuove le risorse da un progetto. Non distrugge i beni.
+description: Rimuove risorse da un progetto. Non distrugge le risorse.
 solution: Experience Manager
 title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # removeProjectAssets{#removeprojectassets}
 
-Rimuove le risorse da un progetto. Non distrugge i beni.
+Rimuove risorse da un progetto. Non distrugge le risorse.
 
 Sintassi
 
@@ -32,23 +32,23 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle dell’azienda con le risorse da spostare. |
-| projectHandle | `xsd:string` | Sì | L’handle delle risorse del progetto da spostare. |
-| assetHandleArray | `types:HandleArray` | Sì | Matrice di handle per le risorse da spostare. |
+| companyHandle | `xsd:string` | Sì | Handle dell’azienda con le risorse da spostare. |
+| projectHandle | `xsd:string` | Sì | Handle delle risorse del progetto da spostare. |
+| assetHandleArray | `types:HandleArray` | Sì | Array di handle per le risorse da spostare. |
 
 **Output (removeProjectAssetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | successCount | `xsd:int` | Sì | Il conteggio delle risorse è stato rimosso. |
-| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di rimuovere risorse dal progetto. |
-| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l’operazione tentava di rimuovere le risorse dal progetto. |
-| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di rimuoverli dal progetto. |
-| errorDetailArray | `types:AssetOperationFaultArray` | No | Matrice di dettagli associati alle risorse che generavano errori quando l’operazione tentava di rimuoverli dal progetto. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione ha tentato di rimuovere risorse dal progetto. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati quando l’operazione ha tentato di rimuovere risorse dal progetto. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione ha tentato di rimuoverle dal progetto. |
+| errorDetailArray | `types:AssetOperationFaultArray` | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione ha tentato di rimuoverle dal progetto. |
 
 ## Esempi {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-Questo esempio di codice rimuove 2 risorse da un progetto (specificato dalla gestione del progetto).
+In questo esempio di codice vengono rimosse 2 risorse da un progetto (specificato dall&#39;handle del progetto).
 
 **Request Contents (Richiesta contenuto)**
 

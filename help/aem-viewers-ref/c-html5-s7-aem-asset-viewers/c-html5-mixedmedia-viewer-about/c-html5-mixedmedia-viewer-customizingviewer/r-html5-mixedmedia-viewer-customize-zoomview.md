@@ -1,6 +1,6 @@
 ---
 title: Visualizzazione zoom
-description: In modalità zoom continuo, la visualizzazione principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
+description: In modalità di zoom continuo, la vista principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Visualizzazione zoom{#zoom-view}
 
-In modalità zoom continuo, la visualizzazione principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
+In modalità di zoom continuo, la vista principale è costituita dall’immagine zoomabile quando la risorsa corrente è una singola immagine.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7mixedmediaviewer .s7zoomview
@@ -35,17 +35,17 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
-   <td colname="col2"> <p>Cursore visualizzato sulla vista principale. </p> </td> 
+   <td colname="col2"> <p>Cursore visualizzato sopra la vista principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per rendere trasparente la visualizzazione dello zoom.
+Esempio: per rendere trasparente la visualizzazione zoom.
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -53,24 +53,24 @@ Esempio : per rendere trasparente la visualizzazione dello zoom.
 }
 ```
 
-Nei sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti `cursortype` sono supportati:
+Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
 
 * `default`
 
-   Visualizzato quando l&#39;immagine non è zoomabile a causa di una piccola risoluzione dell&#39;immagine, delle impostazioni dei componenti o di entrambe.
+   Visualizzato quando l&#39;immagine non è ingrandita a causa di una risoluzione ridotta dell&#39;immagine, di impostazioni dei componenti o di entrambi.
 
 * `zoomin`
 
-   Visualizzato quando l&#39;immagine può essere ingrandita.
+   Viene visualizzato quando è possibile ingrandire l&#39;immagine.
 
 * `reset`
 
-   Visualizzata quando l&#39;immagine è al livello di zoom massimo e può essere ripristinata al suo stato iniziale.
+   Viene visualizzata quando l&#39;immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale.
 
 * `drag`
 
-   Visualizzato quando l&#39;utente fa un panning dell&#39;immagine con lo stato di zoom.
+   Viene visualizzato quando l’utente effettua una panoramica dell’immagine ingrandita.
 
 * `slide`
 
-   Visualizzato quando l’utente esegue lo scambio di immagini facendo un tocco o uno sfarfallio orizzontale.
+   Viene visualizzato quando l&#39;utente esegue lo scambio di immagini eseguendo uno scorrimento orizzontale.

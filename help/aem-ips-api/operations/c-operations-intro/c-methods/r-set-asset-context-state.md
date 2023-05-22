@@ -1,5 +1,5 @@
 ---
-description: Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
+description: Imposta o aggiorna lo stato di pubblicazione per una o più risorse. È possibile impostare stati di pubblicazione separati per ogni contesto di pubblicazione di un’azienda.
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # setAssetsContextState{#setassetscontextstate}
 
-Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impostare stati di pubblicazione separati per ogni contesto di pubblicazione in una società.
+Imposta o aggiorna lo stato di pubblicazione per una o più risorse. È possibile impostare stati di pubblicazione separati per ogni contesto di pubblicazione di un’azienda.
 
 ## Tipi di utenti autorizzati {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -38,21 +38,21 @@ Imposta o aggiorna lo stato di pubblicazione per una o più risorse. Puoi impost
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
-| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sì | Array di risorse e relativi nuovi stati di pubblicazione. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sì | Un array di risorse e i loro nuovi stati di pubblicazione. |
 
 **Output (setAssetsContexStateReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| successCount | `xsd:int` | Sì | Numero di risorse modificate. |
-| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione tentava di modificare le risorse. |
-| errorCount | `xsd:int` | Sì | Numero di errori generati quando l’operazione tentava di modificare le risorse. |
-| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di errori generati dalle risorse quando l’operazione tentava di modificarli. |
+| successCount | `xsd:int` | Sì | Numero di risorse modificato correttamente. |
+| warningCount | `xsd:int` | Sì | Numero di avvisi generati quando l’operazione ha tentato di modificare le risorse. |
+| errorCount | `xsd:int` | Sì | Il numero di errori generati durante il tentativo di modifica delle risorse. |
+| warningDetailArray | `types:AssetOperationFaultArray` | No | Array di errori generati dalle risorse quando l’operazione ha tentato di modificarli. |
 
 ## Esempi {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Questo codice di esempio imposta lo stato di pubblicazione di una risorsa utilizzando `NotMarkedForPublish`.
+In questo esempio di codice lo stato di pubblicazione di una risorsa viene impostato tramite `NotMarkedForPublish`.
 
 **Request Contents (Richiesta contenuto)**
 

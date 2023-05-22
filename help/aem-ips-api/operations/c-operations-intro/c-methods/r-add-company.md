@@ -18,7 +18,7 @@ Aggiunge una società al sistema.
 
 Invia il nome della società da aggiungere al sistema e, facoltativamente, invia se la società scade.
 
-Quando si richiama questa operazione, il sistema ottiene un tipo companyInfo che contiene un handle della società e campi descrittivi. Se il nome società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInfo contenente un handle aziendale e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 
@@ -42,15 +42,15 @@ Quando si richiama questa operazione, il sistema ottiene un tipo companyInfo che
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Nome dell'azienda da aggiungere. </p> </td> 
+   <td colname="col4"> <p>Nome della società da aggiungere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Data di scadenza dell’azienda. Specifica il fuso orario con la richiesta per questo campo. I fusi orari sono regolati su Ora centrale. </p> </td> 
+   <td colname="col4"> <p>Data di scadenza della società. Fornisci il fuso orario con la richiesta per questo campo. Fusi orari adeguati all’ora centrale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,16 +69,16 @@ Quando si richiama questa operazione, il sistema ottiene un tipo companyInfo che
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestisci nome e nome, percorso principale, data di scadenza e ora della nuova società. </p> </td> 
+   <td colname="col4"> <p>Gestisci per e nome, percorso principale, data di scadenza e ora della nuova azienda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Questo esempio illustra una richiesta di aggiunta di una società al sistema IPS e la risposta che descrive le informazioni sulla società aggiunta necessarie per eseguire altre operazioni.
+In questo esempio viene illustrata una richiesta di aggiunta di una società al sistema IPS e la risposta contenente informazioni dettagliate sulla società aggiunta necessarie per eseguire altre operazioni.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> adatto laterale|adatta verticale</span> </p> </td> 
-   <td> <p> Controlla la direzione dell’aspetto del pannello a discesa. </p> <p>Quando è impostato su <span class="codeph"> adattabile</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del relativo pulsante e cerca di eseguire il rollout del pannello a destra o a sinistra dalla posizione di base. A ogni tentativo, il componente controlla se il pannello è troncato da un contenitore esterno. Se tutti i tentativi non riescono, il componente cerca di spostare la posizione del pannello di base verso l’alto e di ripetere i tentativi di rollout nella direzione destra e sinistra. </p> <p>Quando è impostato su <span class="codeph"> adatto</span>, il componente utilizza una logica simile, ma sposta prima la base a destra, cercando le direzioni di rollout giù e su. Poi sposta la base a sinistra, provando le direzioni di rollout giù e su. </p> </td> 
+   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
+   <td> <p> Controlla la direzione dell'aspetto del pannello a discesa. </p> <p>Se impostato su <span class="codeph"> fit-vertical</span>, il componente sposta prima la posizione del pannello di base nella parte inferiore del pulsante e tenta di stendere il pannello a destra o a sinistra dalla posizione di base. A ogni tentativo, il componente controlla se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi hanno esito negativo, il componente tenta di spostare la posizione del pannello di base verso l’alto e ripetere i tentativi di rollout nelle direzioni destra e sinistra. </p> <p>Se impostato su <span class="codeph"> fit-lateral</span>, il componente utilizza una logica simile, ma sposta la base a destra per prima, provando verso il basso e verso l’alto le direzioni di rollout. Quindi, sposta la base a sinistra, provando le direzioni di rollout verso il basso e verso l'alto. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Imposta il ritardo in secondi del timer di mascheramento automatico del menu a discesa che nasconde il pannello quando un utente è inattivo. </p> </td> 
+   <td> <p> Imposta il ritardo in secondi per il timer di Nascondi automatico a discesa che nasconde il pannello quando un utente è inattivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

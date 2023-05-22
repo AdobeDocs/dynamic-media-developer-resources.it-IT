@@ -1,6 +1,6 @@
 ---
 title: navigazione
-description: Comando URL per il visualizzatore video interattivo.
+description: Comando URL per Visualizzatore video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # navigazione{#navigation}
 
-Comando URL per il visualizzatore video interattivo.
+Comando URL per Visualizzatore video interattivo.
 
 ` navigation= *`file`*`
 

@@ -8,7 +8,7 @@ exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -30,18 +30,18 @@ Sintassi
 
 ## Parametri {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Input (getXMPPacketParam**
+**Input (getXMPPacketParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Gestire il pacchetto che si desidera restituire (ad esempio, `c|656`). |
-| assetHandle | `xsd:string` | Sì | Risorsa per la quale il pacchetto XMP deve essere recuperato. |
+| companyHandle | `xsd:string` | Sì | Handle aziendale con il pacchetto che si desidera restituire (ad esempio, `c|656`). |
+| assetHandle | `xsd:string` | Sì | La risorsa per la quale deve essere recuperato il pacchetto XMP. |
 
 **Output (getXMPPacketReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| compressedPacket | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto. |
+| compressedPacket | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] pacchetto XMP. |
 
 ## Esempi {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

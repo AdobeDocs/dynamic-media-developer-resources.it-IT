@@ -8,7 +8,7 @@ exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera recuperare i metadati. |
+| companyHandle | `xsd:string` | Sì | Handle per l’azienda di cui desideri recuperare i metadati. |
 
 **Output (getAssetMetadataFieldsReturn)**
 

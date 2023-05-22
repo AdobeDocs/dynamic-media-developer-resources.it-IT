@@ -1,22 +1,22 @@
 ---
-description: Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+description: Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
 solution: Experience Manager
-title: Riferimento al protocollo del server FXG
-feature: Dynamic Media Classic, SDK/API
+title: Riferimento protocollo server FXG
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
-# Riferimento al protocollo del server FXG{#fxg-server-protocol-reference}
+# Riferimento protocollo server FXG{#fxg-server-protocol-reference}
 
-Questo documento fornisce informazioni sui protocolli server FXG e la relativa sintassi.
+Questo documento fornisce informazioni sui protocolli del server FXG e sulla relativa sintassi.
 
-* [margine](r-bleedmargin.md)
+* [margine vivo](r-bleedmargin.md)
 * [cache](r-is-fxg-cache.md)
 * [convertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
@@ -27,7 +27,7 @@ Questo documento fornisce informazioni sui protocolli server FXG e la relativa s
 * [markOverflowingTextFrames](r-markoverflowingtextframes.md)
 * [mediaMargin](r-mediamargin.md)
 * [pagina](r-page.md)
-* [stampanteMark](r-printermark.md)
+* [printerMark](r-printermark.md)
 * [qlt](r-is-fxg-qlt.md)
 * [quantificare](r-is-fxg-quantize.md)
 * [req](r-req-oversetstatus.md)

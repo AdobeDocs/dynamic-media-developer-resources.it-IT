@@ -1,5 +1,5 @@
 ---
-description: Opzioni del file PowerPoint.
+description: Opzioni del file di PowerPoint.
 solution: Experience Manager
 title: PowerPointInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 28%
+ht-degree: 14%
 
 ---
 
 # [!DNL PowerPointInfo]{#powerpointinfo}
 
-Opzioni del file PowerPoint.
+Opzioni del file di PowerPoint.
 
 Sintassi
 

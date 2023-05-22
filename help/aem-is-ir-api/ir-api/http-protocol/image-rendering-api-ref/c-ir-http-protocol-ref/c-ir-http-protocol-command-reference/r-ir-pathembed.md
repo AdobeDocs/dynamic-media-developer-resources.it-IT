@@ -1,6 +1,6 @@
 ---
 title: pathEmbed
-description: Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignetta devono essere inclusi nell'immagine di risposta.
+description: Incorpora i dati dei percorsi. Specifica se includere nell'immagine di risposta i percorsi Photoshop incorporati nella vignettatura.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 66cc57ef-964e-4062-bb66-efeda15be744
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # pathEmbed{#pathembed}
 
-Incorpora i dati dei percorsi. Specifica se i percorsi Photoshop incorporati nella vignetta devono essere inclusi nell&#39;immagine di risposta.
+Incorpora i dati dei percorsi. Specifica se includere nell&#39;immagine di risposta i percorsi Photoshop incorporati nella vignettatura.
 
 `pathEmbed=0|1`
 
 ## Proprietà {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Attributo di richiesta. Ignorato se la vignetta non contiene dati di percorsi. I dati dei percorsi vengono ridimensionati in `wid=` e/o `hei=` se necessario.
+Attributo della richiesta. Ignorato se la vignettatura non contiene dati di percorsi. I dati dei percorsi vengono ridimensionati in `wid=` e/o `hei=` se necessario.
 
-Ignorato se il formato immagine di output non supporta l’incorporazione del percorso. Fai riferimento alla descrizione di `fmt=` per un elenco dei formati immagine di output che supportano l&#39;incorporazione del percorso.
+Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento dei percorsi. Fai riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l&#39;incorporamento dei percorsi.
 
 ## Predefinito {#section-3be88ed9053b48919ff33af9418078cc}
 

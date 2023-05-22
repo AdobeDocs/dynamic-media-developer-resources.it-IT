@@ -1,7 +1,7 @@
 ---
-description: Il numero del livello determina anche l’ordine z.
+description: Il numero di livello determina anche l'ordine z.
 solution: Experience Manager
-title: Ordine dei livelli
+title: Ordine livelli
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a8fdd55-6ac1-4bc9-935d-188ee60946d9
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Ordine dei livelli{#layer-order}
+# Ordine livelli{#layer-order}
 
-Il numero del livello determina anche l’ordine z.
+Il numero di livello determina anche l&#39;ordine z.
 
-È necessario il livello 0 (il livello di sfondo); gli altri numeri di livello non devono essere consecutivi e vengono disegnati sopra il livello di sfondo, in ordine di numero di livello ascendente. Il livello con il numero di livelli più alto viene rappresentato in alto e non viene mai bloccato da altri livelli.
+Il livello 0 (il livello di sfondo) è obbligatorio; gli altri numeri di livello non devono essere consecutivi e vengono disegnati sopra il livello di sfondo, in ordine di numero di livello crescente. Il livello con il numero di livello più alto viene sottoposto a rendering nella parte superiore e non viene mai occluso da altri livelli.

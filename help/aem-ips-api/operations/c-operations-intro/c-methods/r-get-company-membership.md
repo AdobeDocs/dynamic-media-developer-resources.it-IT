@@ -1,5 +1,5 @@
 ---
-description: Ottiene le appartenenze di un utente in una matrice aziendale.
+description: Ottiene le appartenenze di un utente in un array aziendale.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
 # getCompanyMembership{#getcompanymembership}
 
-Ottiene le appartenenze di un utente in una matrice aziendale.
+Ottiene le appartenenze di un utente in un array aziendale.
 
 Sintassi
 
@@ -37,17 +37,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente di cui si desidera ottenere le appartenenze. |
+| userHandle | `xsd:string` | No | Handle per l&#39;utente di cui si desidera ottenere le appartenenze. |
 
 **Output (getCompanyMembershipReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | Sì | Array di appartenenze aziendali. |
+| membershipArray | `types:CompanyMembershipArray` | Sì | Array di appartenenze a società. |
 
 ## Esempi {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Questo esempio di codice prende un handle utente e ottiene tutte le appartenenze dell&#39;utente in un array. La risposta è stata troncata per brevità.
+Questo esempio di codice prende un handle utente e ottiene tutte le appartenenze dell’utente all’azienda in un array. La risposta è stata troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -16,18 +16,18 @@ ht-degree: 1%
 
 Tutti i file di log vengono scritti nella stessa cartella di log specificata con TC::directory.
 
-I file di registro vengono generalmente creati e ruotati su base giornaliera. I file di registro precedenti nella cartella di registro vengono eliminati automaticamente dopo un numero specificato di giorni ( `TC::maxDays`).
+I file di registro vengono generalmente creati e ruotati su base giornaliera. I file di registro più vecchi nella cartella di registro vengono eliminati automaticamente dopo un numero specificato di giorni ( `TC::maxDays`).
 
-Importante È necessario riservare una quantità sufficiente di spazio su disco per i file di registro per evitare di esaurire lo spazio su disco. 1-2 GB/giorno possono essere necessari per un server e per le impostazioni di registro predefinite.
+Importante È necessario riservare una quantità sufficiente di spazio su disco ai file di registro per evitare di esaurire lo spazio su disco. Per un server molto utilizzato e le impostazioni di registro predefinite potrebbero essere necessari 1-2 GB/die.
 
-La [!DNL Platform Server] e Image Server creano i tre tipi di file di registro descritti di seguito.
+Il [!DNL Platform Server] e Image Server creano i tre tipi di file di registro descritti di seguito.
 
-Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come i visualizzatori Dynamic Media, possono creare file di registro nella stessa cartella. Questi file di log sono per uso interno di Dynamic Media e possono essere richiesti dal supporto tecnico Dynamic Media per scopi di risoluzione dei problemi.
+Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come i visualizzatori Dynamic Media, possono creare file di registro nella stessa cartella. Questi file di registro sono per uso interno di Dynamic Media e possono essere richiesti dal supporto tecnico Dynamic Media per la risoluzione dei problemi.
 
 * [Registro di accesso](c-access-log.md)
-* [Registro di traccia](c-trace-log.md)
+* [Registro traccia](c-trace-log.md)
 * [Registro server immagini](c-image-server-log.md)
 
 ## Consultate anche {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Registrazione degli accessi](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Debug/Trace Logging](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Registrazione accesso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Registrazione debug/traccia](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

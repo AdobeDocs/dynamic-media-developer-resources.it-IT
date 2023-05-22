@@ -8,7 +8,7 @@ exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| Frase di codice | `Code Phrase` |  |
-| Frase di codice | `Code Phrase` |  |
+| Frase codice | `Code Phrase` |  |
+| Frase codice | `Code Phrase` |  |

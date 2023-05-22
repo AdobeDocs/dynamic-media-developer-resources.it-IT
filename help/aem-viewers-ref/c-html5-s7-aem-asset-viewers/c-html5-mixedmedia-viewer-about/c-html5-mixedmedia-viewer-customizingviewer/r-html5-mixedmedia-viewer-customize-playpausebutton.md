@@ -1,6 +1,6 @@
 ---
 title: Pulsante Riproduci/Pausa
-description: Il pulsante di riproduzione/pausa fa sì che il lettore video riproduca o metta in pausa il contenuto video quando un utente lo seleziona.
+description: Il pulsante di riproduzione/pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video selezionato dall’utente.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Pulsante Riproduci/Pausa{#play-pause-button}
 
-Il pulsante Riproduci/Pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video quando un utente lo seleziona.
+Il pulsante Riproduci/Pausa consente al lettore video di riprodurre o mettere in pausa il contenuto video selezionato dall’utente.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-È possibile ridimensionare, applicare uno skin e posizionare il pulsante in base alla barra di controllo che lo contiene, tramite CSS.
+È possibile ridimensionare, applicare lo skin e posizionare il pulsante in base al CSS rispetto alla barra di controllo che lo contiene.
 
 Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
 
@@ -35,11 +35,11 @@ Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
@@ -55,27 +55,27 @@ Il seguente selettore di classe CSS controlla l’aspetto del pulsante:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta entrambi `state`, `selected`e `replay` selettori di attributi, che possono essere utilizzati per applicare interfacce diverse a diversi stati dei pulsanti. In particolare, `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pausa&quot;;
+>Questo pulsante supporta sia `state`, `selected`, e `replay` selettori di attributi, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare: `selected='true'` corrisponde allo stato &quot;play&quot; e `selected='false'` corrisponde allo stato &quot;pausa&quot;;
 >
->`replay='true'` Questo attributo viene impostato quando il video ha raggiunto la fine e la selezione del pulsante riavvia la riproduzione dall&#39;inizio.
+>`replay='true'` Questo attributo viene impostato quando il video ha raggiunto la fine e la selezione del pulsante riavvia la riproduzione dall’inizio.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante Play/Pause di 32 x 32 pixel e posizionato sei pixel dal bordo superiore e sinistro della barra di controllo. Infine, visualizza un’immagine diversa per ciascuno dei quattro stati dei pulsanti selezionati o meno.
+Per impostare un pulsante di riproduzione/pausa di 32 x 32 pixel posizionato a sei pixel dal bordo superiore e sinistro della barra di controllo. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati del pulsante, se selezionato o meno.
 
 ```
 .s7mixedmediaviewer .s7playpausebutton { 

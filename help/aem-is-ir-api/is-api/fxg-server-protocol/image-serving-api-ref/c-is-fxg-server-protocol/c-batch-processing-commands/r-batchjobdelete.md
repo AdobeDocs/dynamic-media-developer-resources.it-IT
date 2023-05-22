@@ -2,12 +2,12 @@
 description: Elimina l'output di un processo.
 solution: Experience Manager
 title: batchjobdelete
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---

@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.waiticon
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8c86d721-e1c9-4114-9896-e2dd134fb625
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
 # SmartCropVideoPlayer.waiticon{#smartcropvideoplayer-waiticon}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 `[SmartCropVideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -21,7 +22,7 @@ Attributo di configurazione per Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell’animazione del buffering (icona di attesa). </p> </td> 
+   <td colname="col2"> <p> Attiva o disattiva la visualizzazione dell'animazione di buffering (icona di attesa). </p> </td> 
   </tr> 
  </tbody> 
 </table>

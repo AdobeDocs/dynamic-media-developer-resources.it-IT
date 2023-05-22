@@ -1,20 +1,20 @@
 ---
-description: Restituisce informazioni sulla società specificata, tra cui l'handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
+description: Restituisce informazioni sulla società specificata, inclusi l'handle della società, il nome della società, il percorso principale e la data di scadenza. Specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 6%
 
 ---
 
 # getCompanyInfo{#getcompanyinfo}
 
-Restituisce informazioni sulla società specificata, tra cui l&#39;handle della società, il nome della società, il percorso principale e la data di scadenza. È necessario specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
+Restituisce informazioni sulla società specificata, inclusi l&#39;handle della società, il nome della società, il percorso principale e la data di scadenza. Specificare companyHandle o companyName di cui si desidera recuperare le informazioni.
 
 Sintassi
 
@@ -45,15 +45,15 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>È necessario <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>L'handle dell'azienda di cui si desidera ottenere le informazioni. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col3"> <p>o <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span> è obbligatorio. </p> </td> 
+   <td colname="col4"> <p>Handle dell'azienda di cui si desidera ottenere le informazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>È necessario <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
-   <td colname="col4"> <p>Nome dell'azienda di cui si desidera ottenere le informazioni. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col3"> <p>o <span class="codeph"> <span class="varname"> companyHandle</span> </span> o <span class="codeph"> <span class="varname"> companyName</span> </span> è obbligatorio. </p> </td> 
+   <td colname="col4"> <p>Il nome della società di cui desideri ottenere le informazioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,16 +72,16 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipi:Azienda</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipi:Società</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestisci e altre informazioni descrittive sull'azienda. </p> </td> 
+   <td colname="col4"> <p>Gestire e altre informazioni descrittive sull’azienda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Questo esempio di codice restituisce tutte le informazioni su un&#39;azienda utilizzando un nome e un handle dell&#39;azienda. Restituisce dati simili alla risposta ricevuta al momento della creazione di una società.
+In questo esempio di codice vengono restituite tutte le informazioni su un&#39;azienda utilizzando il nome e l&#39;handle di un&#39;azienda. Restituisce dati simili alla risposta ricevuta durante la creazione di un’azienda.
 
 **Request Contents (Richiesta contenuto)**
 

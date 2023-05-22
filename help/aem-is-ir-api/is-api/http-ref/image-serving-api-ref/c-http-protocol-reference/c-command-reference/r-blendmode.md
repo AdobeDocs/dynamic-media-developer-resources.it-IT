@@ -1,20 +1,20 @@
 ---
-description: Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
+description: Metodo di fusione. Specifica il tipo di fusione utilizzato durante la composizione del livello. Simula i metodi di fusione comunemente utilizzati e disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione di Photoshop.
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 15%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 
 # blendMode{#blendmode}
 
-Metodo di fusione. Specifica il tipo di fusione utilizzato quando il livello viene composto. Simula i metodi di fusione più comunemente utilizzati disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione Photoshop .
+Metodo di fusione. Specifica il tipo di fusione utilizzato durante la composizione del livello. Simula i metodi di fusione comunemente utilizzati e disponibili in Photoshop. Per ulteriori informazioni, consulta la documentazione di Photoshop.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 

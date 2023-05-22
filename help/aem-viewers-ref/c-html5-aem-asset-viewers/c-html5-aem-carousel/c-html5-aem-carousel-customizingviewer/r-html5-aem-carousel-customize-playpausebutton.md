@@ -1,6 +1,6 @@
 ---
 title: Pulsante PlayPause
-description: Il pulsante Riproduci/Pausa consente all’utente di sospendere o riprendere il comportamento di riproduzione automatica carosello.
+description: Il pulsante Riproduci/Pausa consente a un utente di sospendere o riprendere il comportamento di riproduzione automatica del carosello.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # Pulsante PlayPause{#playpause-button}
 
-Il pulsante Riproduci/Pausa consente all’utente di sospendere o riprendere il comportamento di riproduzione automatica carosello.
+Il pulsante Riproduci/Pausa consente a un utente di sospendere o riprendere il comportamento di riproduzione automatica del carosello.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Il pulsante è visibile solo se il parametro `CarouselViewer.autoplay` è impostato su `1`; altrimenti, è nascosto. È possibile ridimensionare, applicare uno skin e posizionare questo pulsante, rispetto alla barra di controllo che lo contiene, utilizzando CSS.
+Il pulsante è visibile solo se `CarouselViewer.autoplay` il parametro è impostato su `1`; in caso contrario, è nascosto. È possibile ridimensionare, applicare lo skin e posizionare questo pulsante rispetto alla barra di controllo che lo contiene utilizzando gli stili CSS.
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7carouselviewer .s7playpausebutton`
 
@@ -35,20 +35,20 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posizione dalla parte superiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione da destra del bordo del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dalla destra del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione a sinistra del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dalla sinistra del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal fondo del bordo del visualizzatore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dalla parte inferiore del bordo del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,15 +59,15 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spriti CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursore  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursore </span> </p> </td> 
    <td colname="col2"> <p>Tipo di cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,11 +75,11 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) .
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) per ulteriori informazioni.
 
-Ad esempio, si supponga di voler impostare un pulsante di pausa di riproduzione di 28 x 28 pixel. Il pulsante deve essere posizionato a 17 pixel dal basso e a 12 pixel dal bordo sinistro del visualizzatore. Inoltre, se selezionato o non selezionato, viene visualizzata un’immagine diversa per ciascuno dei quattro stati del pulsante.
+Ad esempio, supponiamo che si desideri impostare un pulsante di pausa della riproduzione di 28 x 28 pixel. Il pulsante deve essere posizionato a 17 pixel dal basso e a 12 pixel dal bordo sinistro del visualizzatore. Si desidera visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti, se selezionato o non selezionato.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

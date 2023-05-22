@@ -1,6 +1,6 @@
 ---
 title: Avvio o arresto su Linux®
-description: Ci sono due opzioni per avviare o arrestare Image Serving su Linux®.
+description: Sono disponibili due opzioni per avviare o arrestare Image Server su Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Avvio o arresto su Linux® {#starting-or-stopping-on-linux}
 
-Ci sono due opzioni per avviare o arrestare Image Serving su Linux®.
+Sono disponibili due opzioni per avviare o arrestare Image Server su Linux®.
 
-* Lo script per verificare lo stato di Image Serving o per avviare e arrestare Image Serving, si trova nella [!DNL ImageServing/bin] cartella:
+* Lo script per verificare lo stato di Image Server o per avviare e arrestare Image Server si trova in [!DNL ImageServing/bin] cartella:
 
    `ImageServing.sh {start|stop|restart|status}`
-* L’alternativa seguente dovrebbe essere familiare agli amministratori di sistema:
+* La seguente alternativa deve essere nota agli amministratori di sistema:
 
    `/sbin/service ImageServing {start|stop|status}`

@@ -2,12 +2,12 @@
 description: Ottiene le risorse associate a una risorsa specificata e i dettagli sulla relativa relazione.
 solution: Experience Manager
 title: getAssociatedAssets
-feature: Dynamic Media Classic,SDK/API,Gestione risorse
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '407'
 ht-degree: 6%
 
 ---
@@ -46,27 +46,27 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestisci l’azienda proprietaria della risorsa. </p> </td> 
+   <td colname="col4"> <p>Gestisci per l'azienda proprietaria della risorsa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Gestione risorse. </p> </td> 
+   <td colname="col4"> <p>Handle risorsa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matrice di campi di risposta desiderata. Vedi response- FieldArray/excludeFieldArray nell'introduzione. </p> </td> 
+   <td colname="col4"> <p>L’array di campi di risposta desiderato. Vedi risposta- FieldArray/excludeFieldArray nell’Introduzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Matrice dei campi di risposta esclusi. Vedi response- FieldArray/excludeFieldArray nell'introduzione. </p> </td> 
+   <td colname="col4"> <p>L’array dei campi di risposta esclusi. Vedi risposta- FieldArray/excludeFieldArray nell’Introduzione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,10 +87,10 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di risorse set e template contenenti la risorsa specifica. </p> </td> 
+   <td colname="col4"> <p>Array di risorse set e template contenenti la risorsa specificata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Array di risorse contenute nel set o nella risorsa modello specificato. </p> </td> 
@@ -99,7 +99,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Array di risorse a cui viene fatto riferimento in un URL di livello o di modello. </p> </td> 
+   <td colname="col4"> <p>Array di risorse a cui si fa riferimento in un livello o in un URL modello. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
@@ -117,28 +117,28 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Il <span class="codeph"> generatorArray</span> elenca il modo in cui è stata creata la risorsa. Ad esempio, se <span class="codeph"> assetHandler</span> è una pagina di immagine di un PDF, questo conterrà lo strumento di elaborazione PDF e farà riferimento alla risorsa PdfFile. </p> </td> 
+   <td colname="col4"> <p>Il <span class="codeph"> generatorArray</span> elenca la modalità di creazione di questa risorsa. Ad esempio, se <span class="codeph"> assetHandler</span> era una pagina di immagine di un PDF, che conteneva lo strumento processore PDF e faceva riferimento alla risorsa PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>La <span class="codeph"> generateArray</span> inverte il modo in cui è stata creata la risorsa. Ad esempio, il <span class="codeph"> generateArray</span> potrebbe contenere l’elenco di immagini generate da questo <span class="codeph"> assetHandler</span> se si tratta di una risorsa PdfFile. </p> </td> 
+   <td colname="col4"> <p>Il <span class="codeph"> generatedArray</span> inverte la modalità di creazione di questa risorsa. Ad esempio, il <span class="codeph"> generatedArray</span> potrebbe contenere l’elenco delle immagini generate da questo <span class="codeph"> assetHandler</span> se si trattava di una risorsa PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:Risorsa</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Informazioni sulla risorsa principale associata alla risorsa richiesta. Se non viene assegnata alcuna risorsa miniatura, il campo viene omesso nella risposta. </p> </td> 
+   <td colname="col4"> <p>Informazioni sulla risorsa miniatura associate alla risorsa richiesta. Se non viene assegnata alcuna risorsa miniatura, il campo viene omesso nella risposta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Puoi utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, gli elementi `GenerationInfo` restituiti in `generatorArray` o `generatedArray` sono predefiniti per includere sia i record di origine che quelli di risorsa generati. Per un tipo di risorsa PDF, questo comportamento genera indesiderate copie multiple del record di risorse PDF &quot;originator&quot; nella risposta. Puoi eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, puoi specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
+Puoi utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, `GenerationInfo` elementi restituiti in `generatorArray` o `generatedArray` impostazione predefinita per includere sia il record originatore che il record risorsa generato. Per un tipo di risorsa PDF, questo comportamento genera più copie indesiderate del record di risorsa PDF &quot;originator&quot; nella risposta. Puoi eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, puoi specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
 
 ## Esempi {#section-8946ea4b9cb94912a8408249c897f192}
 
-L’esempio di base seguente è una richiesta per l’handle del generatore per un’immagine estratta da un PDF. Include un elemento `containerArray` di lunghezza uno con `assetHandle` del PDF.
+L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore di un&#39;immagine estratta da un PDF. Include un `containerArray` di lunghezza uno con un elemento che include `assetHandle` del PDF.
 
 **Request Contents (Richiesta contenuto)**
 
@@ -253,7 +253,7 @@ L’inverso dell’esempio precedente è il seguente:
 </soapenv:Envelope>
 ```
 
-In questo esempio successivo, viene aggiunto un gruppo a una società con `groupHandleArray`. In questo esempio viene utilizzato un solo gruppo.
+In questo esempio successivo, viene aggiunto un gruppo a un’azienda con `groupHandleArray`. Questo esempio utilizza un solo gruppo.
 
 **Request Contents (Richiesta contenuto)**
 

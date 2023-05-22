@@ -1,20 +1,20 @@
 ---
-description: Descrive i valori utilizzati da vari parametri. Vedi l'elenco in questo articolo per i dettagli
+description: Descrive i valori utilizzati da vari parametri. Vedi l’elenco in questo articolo per ulteriori dettagli
 solution: Experience Manager
 title: Ruoli utente
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '36'
 ht-degree: 2%
 
 ---
 
 # Ruoli utente{#user-roles}
 
-Descrive i valori utilizzati da vari parametri. Vedi l&#39;elenco in questo articolo per i dettagli
+Descrive i valori utilizzati da vari parametri. Vedi l’elenco in questo articolo per ulteriori dettagli
 
 Sintassi
 

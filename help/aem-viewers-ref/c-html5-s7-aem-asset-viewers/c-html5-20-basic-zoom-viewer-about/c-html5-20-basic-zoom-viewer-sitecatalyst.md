@@ -1,6 +1,6 @@
 ---
 title: Supporto per il tracciamento di Adobe Analytics
-description: Il visualizzatore zoom di base supporta il tracciamento di Adobe Analytics.
+description: Il visualizzatore zoom di base supporta il tracciamento Adobe Analytics preconfigurato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore zoom di base supporta il tracciamento di Adobe Analytics.
+Il visualizzatore zoom di base supporta il tracciamento Adobe Analytics preconfigurato.
 
-## Tracciamento preconfigurato {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento predefinito {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore zoom di base supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
+Il visualizzatore zoom di base supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome del predefinito aziendale corretto come `config2` parametro.
 
-Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Il visualizzatore invia anche una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrare con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -54,7 +54,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -68,11 +68,11 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> un’immagine viene ingrandita. </p> </td> 
+   <td colname="col2"> <p> un'immagine è ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAN (Panning)</span> </p> </td> 
-   <td colname="col2"> <p>un'immagine viene pannerizzata. </p> </td> 
+   <td colname="col2"> <p>un'immagine è sottoposta a panning. </p> </td> 
   </tr> 
  </tbody> 
 </table>

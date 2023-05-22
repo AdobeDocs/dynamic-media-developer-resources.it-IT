@@ -8,7 +8,7 @@ exl-id: 6d6aa024-2a31-4119-8bb3-feb02d838941
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Quando sono attivati, i pulsanti di scorrimento consentono automaticamente ai campioni di saltare una lunghezza di pagina intera. </p> <p>Nell’ultima pagina viene visualizzato spazio bianco aggiuntivo se i campioni non rientrano. Inoltre, l’ultima pagina ha lo stesso numero di celle di qualsiasi pagina precedente. </p> <p>Il passaggio di scorrimento viene ignorato e lo scorrimento del mouse viene impostato solo su pagine intere. </p> </td> 
+   <td colname="col2"> <p> Quando vengono attivati i pulsanti di scorrimento, i campioni passano automaticamente a lunghezza di pagina intera. </p> <p>Se i campioni non rientrano nella dimensione desiderata, sull'ultima pagina viene visualizzato dello spazio vuoto aggiuntivo. Inoltre, l’ultima pagina ha lo stesso numero di celle di tutte le pagine precedenti. </p> <p>Il valore scrollstep viene ignorato e lo scorrimento del mouse viene impostato solo su pagine intere. </p> </td> 
   </tr> 
  </tbody> 
 </table>

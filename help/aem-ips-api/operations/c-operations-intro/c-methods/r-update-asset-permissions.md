@@ -1,20 +1,20 @@
 ---
-description: Aggiorna le autorizzazioni delle risorse.
+description: Aggiorna le autorizzazioni della risorsa.
 solution: Experience Manager
-title: updateAssetPermissons
+title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
-# updateAssetPermissons{#updateassetpermissons}
+# updateAssetPermissions{#updateassetpermissons}
 
-Aggiorna le autorizzazioni delle risorse.
+Aggiorna le autorizzazioni della risorsa.
 
 Sintassi
 
@@ -30,8 +30,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| assetHandle | `xsd:string` | Sì | Handle risorsa. |
 | updateArray | `types:PermissionUpdateArray` | Sì | Autorizzazioni da applicare alla risorsa. |
 
 **Output (updateAssetPermissionsReturn)**

@@ -1,20 +1,20 @@
 ---
-description: Dettagli per un processo di ottimizzazione delle immagini.
+description: Dettagli per un processo di ottimizzazione immagini.
 solution: Experience Manager
-title: OttimizzaImmaginiJob
+title: OptimizeImagesJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 464c9b2e-3ae5-47f5-a5f2-9bc7047b8468
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
 # [!DNL OptimizeImagesJob]{#optimizeimagesjob}
 
-Dettagli per un processo di ottimizzazione delle immagini.
+Dettagli per un processo di ottimizzazione immagini.
 
 Sintassi
 

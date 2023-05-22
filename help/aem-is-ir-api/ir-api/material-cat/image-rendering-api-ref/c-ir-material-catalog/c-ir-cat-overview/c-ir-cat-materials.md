@@ -1,6 +1,6 @@
 ---
 title: Materiali
-description: Per informazioni sui materiali utilizzati dal rendering delle immagini, vedere Materiali nella documentazione di riferimento del protocollo HTTP.
+description: Per informazioni sui materiali utilizzati da Image Rendering, consultate Materials in HTTP Protocol Reference.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Materiali{#materials}
 
-Per informazioni sui materiali utilizzati dal rendering delle immagini, vedere Materiali nella documentazione di riferimento del protocollo HTTP.
+Per informazioni sui materiali utilizzati da Image Rendering, consultate Materials in HTTP Protocol Reference.
 
-Vedi [Materiali](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).
+Consulta [Materiali](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).

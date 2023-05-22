@@ -1,5 +1,5 @@
 ---
-description: Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
+description: Restituisce 2 diversi tipi di informazioni in base ai parametri trasmessi. originatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # getGenerationInfo{#getgenerationinfo}
 
-Restituisce 2 diversi tipi di informazioni in base ai parametri passati. cedatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
+Restituisce 2 diversi tipi di informazioni in base ai parametri trasmessi. originatorHandle restituisce informazioni sulle risorse generate dalla risorsa specificata. generateHandle restituisce informazioni sui passaggi utilizzati per generare la risorsa o il file specificato.
 
 Sintassi
 
@@ -36,22 +36,22 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| Frase di codice | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| Frase di codice | `xsd:string` | No | Il motore utilizzato nella generazione. Consultare Stili dei font. |
-| Frase di codice | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse generate. |
-| Frase di codice | `xsd:string` | No | L’handle della risorsa da interrogare per le risorse e i motori utilizzati nella sua generazione. |
-| Frase di codice | `xsd:StringArray` | No | Proprietà incluse nell’operazione. |
-| Frase di codice | `xsd:StringArray` | No | Proprietà escluse dall’operazione. |
+| Frase codice | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
+| Frase codice | `xsd:string` | No | Il motore utilizzato nella generazione. Consulta Stili font. |
+| Frase codice | `xsd:string` | No | Handle della risorsa da interrogare per le risorse generate. |
+| Frase codice | `xsd:string` | No | Handle della risorsa per la query delle risorse e dei motori utilizzati nella sua generazione. |
+| Frase codice | `xsd:StringArray` | No | Proprietà incluse nell&#39;operazione. |
+| Frase codice | `xsd:StringArray` | No | Proprietà escluse dall&#39;operazione. |
 
 **Output (getGenerationInfoReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| generationArray | `types:GenerationInfoArray` | Sì | Array di informazioni di generazione. |
+| generationArray | `types:GenerationInfoArray` | Sì | Array di informazioni sulla generazione. |
 
 ## Esempi {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Questo esempio di codice restituisce informazioni sulle risorse generate da una risorsa specifica. Non recupera informazioni sui passaggi utilizzati per generare la risorsa specificata. La risposta viene troncata per brevità.
+In questo esempio di codice vengono restituite informazioni sulle risorse generate da una risorsa specifica. Non recupera informazioni sui passaggi utilizzati per generare la risorsa specificata. La risposta viene troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

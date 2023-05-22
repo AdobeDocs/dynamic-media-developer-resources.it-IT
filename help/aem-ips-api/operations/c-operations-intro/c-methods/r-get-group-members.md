@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -30,18 +30,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| groupHandle | `xsd:string` |  | L&#39;handle del gruppo. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
+| groupHandle | `xsd:string` |  | Handle del gruppo. |
 
 **Output (getGroupMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandleArray | `type:HandleArray` | Sì | Un array di handle utente. |
+| userHandleArray | `type:HandleArray` | Sì | Array di handle utente. |
 
 ## Esempi {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Questo esempio di codice restituisce un array di handle utente contenente tutti gli utenti che appartengono a un gruppo specifico.
+In questo esempio di codice viene restituito un array di handle utente contenente tutti gli utenti che appartengono a un gruppo specifico.
 
 **Request Contents (Richiesta contenuto)**
 

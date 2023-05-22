@@ -2,13 +2,13 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 7%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> diviso|solido</span> </p> </td> 
-   <td colname="col2"> <p>Impostato su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare gli spread a pagina doppia come una pagina separata quando viene utilizzato sul dispositivo mobile con orientamento verticale. Impostato su <span class="codeph"> solid</span> per visualizzare sempre gli spread a pagina doppia come immagine solida, indipendentemente dall'orientamento del dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|solido</span> </p> </td> 
+   <td colname="col2"> <p>Imposta su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare pagine doppie come pagina separata se utilizzato su dispositivi mobili con orientamento verticale. Imposta su <span class="codeph"> solido</span> per visualizzare sempre le pagine doppie come immagini a tinta unita, indipendentemente dall'orientamento del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

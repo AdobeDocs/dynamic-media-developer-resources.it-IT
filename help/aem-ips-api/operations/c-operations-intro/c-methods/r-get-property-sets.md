@@ -1,5 +1,5 @@
 ---
-description: Ottiene i set di proprietà associati a un handle di tipo.
+description: Ottiene gli insiemi di proprietà associati a un handle di tipo.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
 # getPropertySets{#getpropertysets}
 
-Ottiene i set di proprietà associati a un handle di tipo.
+Ottiene gli insiemi di proprietà associati a un handle di tipo.
 
 Sintassi
 
@@ -36,19 +36,19 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sì | L&#39;handle del tipo di set di proprietà. |
+| typeHandle | `xsd:string` | Sì | Handle del tipo di set di proprietà. |
 | primaryOwnerHandle | `xsd:string` | Sì | Proprietario principale dei dati associati all&#39;oggetto di database. |
-| secondarioOwnerHandle | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
+| secondaryOwnerHandle | `xsd:string` | No | Proprietario secondario facoltativo dei dati. |
 
 **Output (getPropertySetsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | Sì | Serie di set di proprietà. |
+| setArray | `types:PropertySetArray` | Sì | Serie di insiemi di proprietà. |
 
 ## Esempi {#section-1358af974eab4259864910337a6f0bd2}
 
-Questo esempio di codice restituisce i set di proprietà del proprietario principale, specificati da un handle di tipo.
+In questo esempio di codice vengono restituiti set di proprietà del proprietario primario, specificati da un handle di tipo.
 
 **Request Contents (Richiesta contenuto)**
 

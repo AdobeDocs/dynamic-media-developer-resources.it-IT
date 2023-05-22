@@ -8,7 +8,7 @@ exl-id: ecbadafc-e77d-4c7e-a3d5-31c2b2a9b2ea
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -21,4 +21,4 @@ Imposta un nuovo set di flag per lo stato di pubblicazione per il contesto di pu
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | assetHandle | `xsd:string` | Gestisci la risorsa da aggiornare. |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | Array di stati di contatto di pubblicazione per la risorsa da aggiornare. |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | Matrice di stati dei contatti di pubblicazione per la risorsa da aggiornare. |

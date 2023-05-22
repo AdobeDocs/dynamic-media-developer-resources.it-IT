@@ -21,26 +21,26 @@ Requisiti di sistema per visualizzatori Dynamic Media HTML5.
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Hardware e software del server {#section-05099146f1f0418988c196635110bee6}
+## Hardware e software per server {#section-05099146f1f0418988c196635110bee6}
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1 o successivo.
-* I visualizzatori HTML5 richiedono l’SDK per librerie lato server JavaScript 3.11.5 o successive.
+* Adobe Dynamic Media Image Server 6.7.1 o versione successiva.
+* I visualizzatori HTML5 richiedono le librerie SDK JavaScript lato server 3.11.5 o successive.
 * *Invia un&#39;e-mail a un amico* le funzioni social richiedono s7ondemand 5.0.9 o versione successiva.
-* Visualizzatore eCatalog - [Popup pannello informazioni](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) il supporto richiede il server informazioni 2.1.8 o successivo.
+* Visualizzatore eCatalog - [Menu a comparsa del pannello Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) il supporto richiede info server 2.1.8 o versione successiva.
 * I componenti della funzione di ricerca richiedono s7search 2.3.0 o versione successiva.
 
-## Requisiti di sistema per visualizzatori {#section-cc72b1e209524d038b4d5b92b35e998e}
+## Requisiti di sistema dei visualizzatori {#section-cc72b1e209524d038b4d5b92b35e998e}
 
 **Requisiti minimi del browser client per i visualizzatori di componenti:**
 
 * Supportato nelle seguenti versioni del sistema operativo o successive:
    * Microsoft® Windows® 7
    * macOS X 10.12
-* Supportato nelle seguenti versioni del browser/della piattaforma o successive:
+* Supportato nelle seguenti versioni del browser/piattaforma o successive:
    * Android™ OS 4.x
-   * BlackBerry® 10 su browser nativi. È supportata solo la riproduzione video.
+   * BlackBerry® 10 sui browser nativi. È supportata solo la riproduzione di video.
    * Chrome 82
    * Bordo
    * Firefox 77
@@ -49,23 +49,23 @@ Requisiti di sistema per visualizzatori Dynamic Media HTML5.
    * iPad 2 (solo browser Safari e Chrome)
    * iPhone 3GS
    * Safari 11
-* Internet Explorer su dispositivi mobili non supportato.
-* *Visualizzatore panoramico* è supportato nelle seguenti versioni del browser/della piattaforma o successive:
-   * Android™ 4.4 (solo per dispositivi telefonici)
+* Internet Explorer su dispositivi mobili non è supportato.
+* *VisualizzatorePanoramico* è supportato nelle seguenti versioni di browser/piattaforma o successive:
+   * Android™ 4.4 (solo dispositivi telefonici)
    * Chrome 82
    * Bordo
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Visualizzatore video360Viewer* e *Visualizzatore dimensionale* è supportato nelle seguenti versioni del browser/della piattaforma o successive:
-   * Android™ 5 (solo per dispositivi telefonici)
+* *Visualizzatore video360i* e *DimensionalViewer* è supportato nelle seguenti versioni di browser/piattaforma o successive:
+   * Android™ 5 (solo dispositivi telefonici)
    * Chrome 82
    * Bordo
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* è supportato nelle seguenti versioni del browser/della piattaforma o successive:
+* *ZoomVerticalViewer* è supportato nelle seguenti versioni di browser/piattaforma o successive:
    * Android™ 4.x
    * Chrome 82
    * Bordo
@@ -78,7 +78,7 @@ Requisiti di sistema per visualizzatori Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partire dal 30 settembre 2022, i visualizzatori Adobe Dynamic Media termineranno il supporto per i seguenti elementi:
+A partire dal 30 settembre 2022, i visualizzatori Dynamic Media di Adobe termineranno il supporto per i seguenti elementi:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * Le seguenti crittografie deboli in TLS 1.2:
@@ -97,16 +97,16 @@ A partire dal 30 settembre 2022, i visualizzatori Adobe Dynamic Media termineran
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Combinazioni di browser web e sistemi operativi non supportati per visualizzatori Dynamic Media {#browser-os-support}
+## Combinazioni di browser Web e sistemi operativi non supportate per i visualizzatori Dynamic Media {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Ad Adobe, i visualizzatori Dynamic Media non supportano le seguenti combinazioni di browser web e sistemi operativi:
+I visualizzatori Dynamic Media di Adobe non supportano le seguenti combinazioni di browser web e sistemi operativi:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
 * Internet Explorer 11 + Windows Phone 8.1
-* Aggiornamento di Internet Explorer 11 + Windows Phone 8.1
+* Aggiornamento Internet Explorer 11 + Windows Phone 8.1
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
 * Safari 7 + OS X 10.9 Mavericks

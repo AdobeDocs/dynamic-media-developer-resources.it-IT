@@ -1,5 +1,5 @@
 ---
-description: Pubblica i metadati sul server di metadati.
+description: Pubblica i metadati nel server metadati.
 solution: Experience Manager
 title: MetadataPublishJobType
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
-Pubblica i metadati sul server di metadati.
+Pubblica i metadati nel server metadati.
 
 Sintassi
 
@@ -31,8 +31,8 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Imposta su <span class="codeph"> True</span> per pubblicare <i>tutto</i> di nuovo i dati al server metadati. <p>Nota: A seconda della quantità di dati, questo può richiedere alcuni minuti a poche ore. </p><p>Non impostare questo parametro se desideri pubblicare solo metadati nuovi o modificati. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col3">Imposta su <span class="codeph"> Vero</span> per pubblicare <i>tutto</i> al server di metadati. <p>Nota: a seconda della quantità di dati, questa operazione può richiedere da alcuni minuti ad alcune ore. </p><p>Non impostare questo parametro se si desidera pubblicare solo metadati nuovi o modificati. </p></td> 
   </tr> 
  </tbody> 
 </table>

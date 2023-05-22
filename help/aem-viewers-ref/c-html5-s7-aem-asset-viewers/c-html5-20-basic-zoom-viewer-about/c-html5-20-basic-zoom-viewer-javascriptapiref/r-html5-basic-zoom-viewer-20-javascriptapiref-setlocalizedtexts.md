@@ -1,5 +1,5 @@
 ---
-title: setLocalizedText
+title: setLocalizedTexts
 description: Riferimento API JavaScript per visualizzatore zoom di base.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# setLocalizedText{#setlocalizedtexts}
+# setLocalizedTexts{#setlocalizedtexts}
 
 Riferimento API JavaScript per visualizzatore zoom di base.
 
@@ -22,12 +22,12 @@ Riferimento API JavaScript per visualizzatore zoom di base.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} Oggetto JSON con dati di localizzazione. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p> Vedi anche <i>Guida utente dell’SDK per visualizzatori</i> e nell'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p> Consulta anche <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta i valori SYMBOL di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
+Imposta i valori del SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

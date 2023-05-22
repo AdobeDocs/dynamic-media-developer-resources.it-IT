@@ -1,20 +1,20 @@
 ---
-description: Statistiche sullo spazio su disco per una risorsa o una cartella.
+description: Statistiche dello spazio su disco per una risorsa o una cartella.
 solution: Experience Manager
-title: Utilizzo disco
+title: UtilizzoDisco
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # [!DNL DiskUsage]{#diskusage}
 
-Statistiche sullo spazio su disco per una risorsa o una cartella.
+Statistiche dello spazio su disco per una risorsa o una cartella.
 
 Sintassi
 
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| companyHandle | `xsd:string` | Tratta l&#39;azienda. |
+| companyHandle | `xsd:string` | Gestore azienda. |
 | companyName | `xsd:string` | Il nome della società. |
 | imageCount | `xsd:int` | Numero di immagini memorizzate. |
-| diskSpaceUsage | `xsd:long` | Lato totale del file in kilobyte. |
-| lastModified | `xsd:dateTime` | Data, ora e fuso orario `DiskUsage` L&#39;ultimo tipo è stato modificato. |
+| diskSpaceUsage | `xsd:long` | Totale lato file in kilobyte. |
+| lastModified | `xsd:dateTime` | Data, ora e fuso orario `DiskUsage` ultima modifica del tipo. |

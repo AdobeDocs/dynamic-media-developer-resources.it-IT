@@ -1,5 +1,5 @@
 ---
-title: Vista Preferiti
+title: Visualizzazione Preferiti
 description: La vista Preferiti è costituita da una colonna di miniature.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -12,36 +12,36 @@ ht-degree: 1%
 
 ---
 
-# Vista Preferiti{#favorites-view}
+# Visualizzazione Preferiti{#favorites-view}
 
 La vista Preferiti è costituita da una colonna di miniature.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-L’aspetto del contenitore di visualizzazione Preferiti è controllato con il seguente selettore di classe CSS:
+L’aspetto del contenitore della visualizzazione Preferiti è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-La posizione e l&#39;altezza della vista Preferiti vengono gestite dalla vista. in CSS è possibile definire solo la larghezza.
+La posizione e l&#39;altezza della vista Preferiti vengono gestite dalla vista; in CSS è possibile definire solo la larghezza.
 
-**Proprietà CSS della vista Preferiti**
+**Proprietà CSS della visualizzazione Preferiti**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo della vista Preferiti. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo della visualizzazione Preferiti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza della visualizzazione. </p> </td> 
+   <td colname="col2"> <p>Larghezza della vista. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una visualizzazione Preferiti larga 100 pixel con sfondo grigio semitrasparente.
+Esempio: per impostare una visualizzazione Preferiti larga 100 pixel con uno sfondo grigio semitrasparente.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -75,7 +75,7 @@ Esempio: per impostare una spaziatura di dieci pixel.
 }
 ```
 
-L’aspetto della singola miniatura è controllato con il seguente selettore di classe CSS:
+L’aspetto di una singola miniatura viene controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
@@ -86,7 +86,7 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,9 +102,9 @@ L’aspetto della singola miniatura è controllato con il seguente selettore di 
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall’utente. Quando `state="default"` corrisponde al resto delle miniature. E `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura selezionata di recente dall&#39;utente. Mentre `state="default"` corrisponde al resto delle miniature. E `state="over"` al passaggio del mouse.
 
-Esempio : per impostare miniature con 75 x 75 pixel, sono disponibili un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
+Esempio: per impostare miniature di 75 x 75 pixel, impostare un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -119,23 +119,23 @@ Esempio : per impostare miniature con 75 x 75 pixel, sono disponibili un bordo p
 }
 ```
 
-L’aspetto dell’etichetta miniatura è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’etichetta delle miniature è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
 ```
 
-**Proprietà CSS dell’etichetta Preferiti**
+**Proprietà CSS dell&#39;etichetta Preferiti**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Nome carattere. </p> </td> 
+   <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
+   <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
  </tbody> 
 </table>

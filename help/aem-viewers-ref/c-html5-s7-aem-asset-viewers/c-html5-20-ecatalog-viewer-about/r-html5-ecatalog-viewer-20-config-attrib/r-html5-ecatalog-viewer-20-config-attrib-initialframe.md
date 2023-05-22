@@ -1,18 +1,18 @@
 ---
-title: Frame iniziale
-description: Frame iniziale
+title: InitialFrame
+description: InitialFrame
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 28b6b981-94f6-4136-b322-992e18d154db
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
-# Frame iniziale{#initialframe}
+# InitialFrame{#initialframe}
 
 ` initialFrame= *`frame`*`
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica un indice di diffusione basato su zero da visualizzare al caricamento del visualizzatore. L'indice corrisponde all'indice della diffusione in modalità orizzontale. Se il visualizzatore viene ruotato in verticale, il visualizzatore visualizza la pagina più a sinistra dalla diffusione a cui è puntata da <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Specifica un indice di distribuzione basato su zero da visualizzare al caricamento del visualizzatore. L’indice corrisponde all’indice della distribuzione in modalità orizzontale. Se il visualizzatore è ruotato in verticale, visualizza la pagina più a sinistra della pagina affiancata a cui punta <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

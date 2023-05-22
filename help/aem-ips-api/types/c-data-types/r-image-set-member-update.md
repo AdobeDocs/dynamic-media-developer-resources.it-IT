@@ -1,5 +1,5 @@
 ---
-description: All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog
+description: In questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -8,7 +8,7 @@ exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 All’interno di questo tipo, il campo pageReset è significativo per i tipi di risorse immagine RenderSet e Catalog:
 
-* Per `RenderSet`, `pageReset` indica l&#39;inizio di un nuovo gruppo di visualizzazione/campioni di rendering.
+* Per `RenderSet`, `pageReset` indica l’inizio di un nuovo gruppo di campioni/vista di rendering.
 
-* Per Catalogo, `pageReset` indica l’inizio di una nuova visualizzazione di pagina. In genere, ci sono 2 immagini di pagina per visualizzazione di pagina, ma è possibile avere più o meno.
+* Per il catalogo, `pageReset` indica l&#39;inizio di una nuova visualizzazione pagina. In genere, sono presenti 2 immagini pagina per visualizzazione pagina, ma è possibile averne un numero maggiore o minore.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -33,13 +33,13 @@ All’interno di questo tipo, il campo pageReset è significativo per i tipi di 
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle di risorsa nell’array di membri del set di immagini. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col3"> Handle risorsa nell’array dei membri del set di immagini. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Ripristina la pagina. <p>L'impostazione viene ignorata e il valore viene forzato su true per <span class="codeph"> ImageSet</span> e <span class="codeph"> Set 360 gradi</span>. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col3">Reimposta la pagina. <p>L’impostazione viene ignorata e il valore viene forzato a true per <span class="codeph"> Set di immagini</span> e <span class="codeph"> Set360 gradi</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

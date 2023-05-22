@@ -8,7 +8,7 @@ exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra  </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il modo in cui le miniature vengono compilate nella visualizzazione. </p> <p>Impostare su <span class="codeph"> sinistra </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Impostato su <span class="codeph"> destra </span> inverte l'ordine in modo che la visualizzazione sia riempita in una direzione da destra a sinistra e dall'alto verso il basso. </p> <p>Impostare su <span class="codeph"> auto </span> affinché il componente applichi la modalità a destra quando le impostazioni internazionali sono impostate su <span class="codeph"> "ja" </span>; in caso contrario, viene utilizzato <span class="codeph"> sinistro </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il modo in cui le miniature vengono visualizzate. </p> <p>Imposta su <span class="codeph"> left </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Imposta su <span class="codeph"> destra </span> inverte l'ordine in modo che la vista venga riempita da destra a sinistra e dall'alto al basso. </p> <p>Imposta su <span class="codeph"> auto </span> affinché il componente applichi la modalità corretta quando la lingua è impostata su <span class="codeph"> "ja" </span>; in caso contrario <span class="codeph"> left </span> viene utilizzato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

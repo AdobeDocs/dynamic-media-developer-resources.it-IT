@@ -1,5 +1,5 @@
 ---
-description: Cerca record stringa estratti da un file PDF.
+description: Record di stringa di ricerca estratto da un file PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Cerca record stringa estratti da un file PDF.
+Record di stringa di ricerca estratto da un file PDF.
 
 Sintassi
 
@@ -22,12 +22,12 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| searchString | `xsd:string` | Testo della stringa di ricerca. |
+| searchString | `xsd:string` | Testo stringa di ricerca. |
 | keywordsArray | `types:KeywordsArray` | Array di parole chiave nella stringa di ricerca. |
-| status | `xsd:boolean` | True se la stringa di ricerca è valida e abilitata. |
-| x | `xsd:int` | Posizione dell&#39;asse X della stringa di ricerca. |
-| y | `xsd:int` | Posizione dell&#39;asse Y della stringa di ricerca. |
+| stato | `xsd:boolean` | True se la stringa di ricerca è valida e abilitata. |
+| x | `xsd:int` | Posizione asse X della stringa di ricerca. |
+| y | `xsd:int` | Posizione asse Y della stringa di ricerca. |
 | width | `xsd:int` | Larghezza stringa di ricerca. |
 | height | `xsd:int` | Altezza stringa di ricerca. |
 | fontName | `xsd:string` | Nome del font utilizzato nella stringa di ricerca. |
-| pointSize | `xsd:string` | Dimensione del carattere. |
+| pointSize | `xsd:string` | Dimensione font. |

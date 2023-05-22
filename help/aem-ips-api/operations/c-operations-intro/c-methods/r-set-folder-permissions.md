@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -30,10 +30,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| folderHandle | `xsd:string` | Sì | Maniglia della cartella. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| folderHandle | `xsd:string` | Sì | Handle di cartella. |
 | setChildren | `xsd:boolean` | Sì | Imposta le autorizzazioni per gli elementi figlio che appartengono alla cartella. |
-| permissionArray | `types:PermissionUpdateArray` | Sì | Matrice di autorizzazioni. |
+| permissionArray | `types:PermissionUpdateArray` | Sì | Array di autorizzazioni. |
 
 **Output (setFolderPermissionsReturn)**
 
@@ -41,7 +41,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-01730da4be874553ab44e3241cdf6357}
 
-Questo esempio di codice specifica un handle aziendale, un handle di cartella e un array di autorizzazioni con informazioni dettagliate sulla cartella. Applica le stesse autorizzazioni per gli elementi secondari della cartella principale.
+Questo esempio di codice specifica un handle di società, un handle di cartella e un array di autorizzazioni con informazioni dettagliate sulla cartella. Applica le stesse autorizzazioni per gli elementi figlio della cartella principale.
 
 **Request Contents (Richiesta contenuto)**
 

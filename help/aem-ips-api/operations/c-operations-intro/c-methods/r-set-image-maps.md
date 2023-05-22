@@ -8,7 +8,7 @@ exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Imposta la mappa immagine per una risorsa.
 
-Devi aver già creato le mappe immagine. Le mappe immagine vengono applicate in ordine di recupero dalla matrice. Questo significa che la seconda mappa immagine si sovrappone alla prima, la terza alla seconda e così via.
+Le mappe immagine devono essere già state create. Le mappe immagine vengono applicate in ordine di recupero dall’array. Ciò significa che la seconda mappa immagine si sovrappone alla prima, la terza sovrappone la seconda e così via.
 
 ## Tipi di utenti autorizzati {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -33,19 +33,19 @@ Devi aver già creato le mappe immagine. Le mappe immagine vengono applicate in 
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| assetHandle | `xsd:string` | Sì | Handle risorsa. |
 | imageMapArray | `types:ImageMapDefinitionArray` | Sì | Array di mappe immagine predefinite. |
 
 **Output (setImageMapsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| imageMapHandleArray | `types:HandleArray` | Sì | Matrice con handle di mappa immagine applicati alla risorsa. |
+| imageMapHandleArray | `types:HandleArray` | Sì | Array con handle di mappa immagine applicati alla risorsa. |
 
 ## Esempi {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Questo esempio di codice imposta 2 mappe immagine per una risorsa immagine. Il codice specifica il tipo di forma, la regione e l&#39;azione eseguita quando vengono richiamate le mappe immagine. La risposta contiene un array con maniglie per le mappe immagine.
+Questo esempio di codice imposta 2 mappe immagine per una risorsa immagine. Il codice specifica il tipo di forma, l&#39;area e l&#39;azione eseguita quando vengono richiamate le mappe immagine. La risposta contiene un array con handle per le mappe immagine.
 
 **Request Contents (Richiesta contenuto)**
 

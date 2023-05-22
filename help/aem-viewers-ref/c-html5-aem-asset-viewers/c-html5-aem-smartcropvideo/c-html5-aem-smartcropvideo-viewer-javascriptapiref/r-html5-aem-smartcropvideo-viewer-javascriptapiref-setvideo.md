@@ -1,23 +1,24 @@
 ---
 title: setVideo
-description: Riferimento API JavaScript per il visualizzatore video Smart Crop
+description: Riferimento API JavaScript per Visualizzatore video ritaglio avanzato
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setVideo{#setvideo}
 
-Riferimento API JavaScript per il visualizzatore video Smart Crop
+Riferimento API JavaScript per Visualizzatore video ritaglio avanzato
 
 `setVideo(videoUrl[, data])`
 
-Imposta nuovi video esterni e dati video aggiuntivi facoltativi. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
+Imposta il nuovo video esterno e dati video aggiuntivi facoltativi. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
 
 Vedi anche [init]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
@@ -28,15 +29,15 @@ Vedi anche [init]
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} un URL assoluto al nuovo video. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} un URL assoluto per il nuovo video. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dati </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} Oggetto JSON con i seguenti campi facoltativi (distinzione maiuscole/minuscole): </p> <p> 
+   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} Oggetto JSON con i seguenti campi facoltativi (con distinzione tra maiuscole e minuscole): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - Immagine da visualizzare sul primo fotogramma prima dell'inizio della riproduzione del video. Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> didascalia </span> - Posizione del nuovo file di didascalia. Se non viene specificato alcun file di didascalia, il pulsante della didascalia non viene visualizzato nell’interfaccia utente. </li> 
-      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> navigazione </span> - URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere gestito da Image Server. </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> immagine posteriore </span> - Immagine da visualizzare sul primo fotogramma prima che inizi la riproduzione del video. Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> didascalia </span> : posizione del nuovo file di didascalia. Se non viene specificato alcun file di didascalia, il pulsante della didascalia non viene visualizzato nell'interfaccia utente. </li> 
+      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> navigazione </span> : URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere gestito da Image Server. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

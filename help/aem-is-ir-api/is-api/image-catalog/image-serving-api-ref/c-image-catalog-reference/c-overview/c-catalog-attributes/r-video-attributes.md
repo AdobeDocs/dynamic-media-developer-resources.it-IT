@@ -1,20 +1,20 @@
 ---
-description: I file di attributi del catalogo riconoscono questi attributi video.
+description: I file degli attributi del catalogo riconoscono questi attributi video.
 solution: Experience Manager
-title: Attributi del video
-feature: Dynamic Media Classic, SDK/API
+title: Attributi video
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c6bf2736-df10-41a2-b3ec-c930d6881f20
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
-# Attributi del video{#video-attributes}
+# Attributi video{#video-attributes}
 
-I file di attributi del catalogo riconoscono questi attributi video.
+I file degli attributi del catalogo riconoscono questi attributi video.
 
 <table id="simpletable_1BA1280A92F740549FE4DB8907789F0B"> 
  <tr class="strow"> 
@@ -23,6 +23,6 @@ I file di attributi del catalogo riconoscono questi attributi video.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md#reference-c540fe87640e41f7a689a14a05ef5c72" type="reference" format="dita" scope="local"> HttpFlashStreamingContext</a> </span> </p></td> 
-  <td class="stentry"> <p>Prefisso URL del server di streaming Flash. </p></td> 
+  <td class="stentry"> <p>Prefisso URL server di streaming di Flash. </p></td> 
  </tr> 
 </table>

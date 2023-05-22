@@ -8,7 +8,7 @@ exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -34,18 +34,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | L&#39;handle dell&#39;utente. |
-| companyHandle | `xsd:string` | No | Il manico per l&#39;azienda. |
+| userHandle | `xsd:string` | No | Handle per l&#39;utente. |
+| companyHandle | `xsd:string` | No | La maniglia per l&#39;azienda. |
 
 **Output (getGroupMembershipReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| groupArray | `types:GroupArray` | Sì | Matrice di gruppi. |
+| groupArray | `types:GroupArray` | Sì | Array di gruppi. |
 
 ## Esempi {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Questo esempio di codice restituisce tutti i membri di un gruppo. Poiché gli handle dell&#39;azienda e dell&#39;utente sono facoltativi, l&#39;operazione può restituire tutti i membri di tutti i gruppi.
+Questo esempio di codice restituisce tutti i membri di un gruppo. Poiché gli handle utente e società sono facoltativi, l&#39;operazione può restituire tutti i membri di tutti i gruppi.
 
 **Request Contents (Richiesta contenuto)**
 

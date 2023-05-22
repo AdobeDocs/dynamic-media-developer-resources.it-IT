@@ -1,5 +1,5 @@
 ---
-description: Proprietà dei file Photoshop.
+description: Proprietà del file Photoshop.
 solution: Experience Manager
 title: PsdInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 620cf7a3-ae69-4d1e-af3d-64fe7f0302c8
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 22%
+ht-degree: 11%
 
 ---
 
 # [!DNL PsdInfo]{#psdinfo}
 
-Proprietà dei file Photoshop.
+Proprietà del file Photoshop.
 
 Sintassi
 

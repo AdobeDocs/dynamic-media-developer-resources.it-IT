@@ -8,7 +8,7 @@ exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 6%
 
 Attributo di configurazione per Visualizzatore video interattivo.
 
-` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`step`*`
+` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`passaggio`*`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il numero di campioni da scorrere per ogni tocco del pulsante di scorrimento corrispondente. </p> <p>Se il valore specificato è maggiore del numero di campioni interattivi visibili, ogni tocco scorre solo in base al numero di campioni visibili per evitare l’omissione di un campione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> passaggio</span></span> </p> </td> 
+   <td colname="col2"> <p>Specifica quanti campioni devono scorrere ogni volta che si tocca il pulsante di scorrimento corrispondente. </p> <p>Se il valore specificato è maggiore del numero di campioni interattivi visibili, ogni tocco scorre solo in base al numero di campioni visibili per evitare l’omissione di qualsiasi campione. </p> </td> 
   </tr> 
  </tbody> 
 </table>

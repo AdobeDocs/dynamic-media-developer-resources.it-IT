@@ -1,5 +1,5 @@
 ---
-description: Array di attributi di generazione.
+description: Array degli attributi di generazione.
 solution: Experience Manager
 title: GenerationAttributeArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 8b771155-5cd7-4cf2-9552-4efb114556de
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 25%
+ht-degree: 15%
 
 ---
 
 # [!DNL GenerationAttributeArray]{#generationattributearray}
 
-Array di attributi di generazione.
+Array degli attributi di generazione.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:GenerationAttribute` | Matrice di attributi di generazione. |
+| elementi | `types:GenerationAttribute` | Array degli attributi di generazione. |

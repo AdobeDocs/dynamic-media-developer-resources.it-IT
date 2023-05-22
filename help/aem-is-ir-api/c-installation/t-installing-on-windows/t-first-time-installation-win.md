@@ -1,6 +1,6 @@
 ---
-title: Installazione per la prima volta
-description: Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
+title: Prima installazione
+description: Per installare Image Server per la prima volta in Windows, segui la procedura riportata di seguito.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,28 +12,28 @@ ht-degree: 0%
 
 ---
 
-# Installazione per la prima volta{#installing-for-the-first-time}
+# Prima installazione{#installing-for-the-first-time}
 
-Utilizzare questi passaggi per installare Image Server per la prima volta su Windows.
+Per installare Image Server per la prima volta in Windows, segui la procedura riportata di seguito.
 
-1. Accedi all&#39;host del server con privilegi amministrativi.
-1. Se hai già ricevuto una licenza, copiala sul tuo server, quindi esegui l&#39;installazione della licenza facendo doppio clic sul file.
+1. Accedi all’host del server con privilegi di amministratore.
+1. Se è già stata ricevuta una licenza, copiarla sul server, quindi eseguire l&#39;installazione della licenza facendo doppio clic sul file.
 
    Se non si dispone ancora di una licenza, è possibile procedere con l&#39;installazione e installare la licenza in un secondo momento.
 
-1. Estrarre il contenuto del file zip di distribuzione Image Serving.
-1. Avvia l&#39;installazione guidata, eseguendo [!DNL setup]/ [!DNL setup.exe].
-1. Seleziona **[!UICONTROL Successivo]** per avanzare al contratto di licenza con l’utente finale (EULA), leggere il contratto di licenza e selezionare **[!UICONTROL Sì]**.
+1. Estrai il contenuto del file zip di distribuzione di Image Server.
+1. Avvia l&#39;installazione guidata eseguendo [!DNL setup]/ [!DNL setup.exe].
+1. Seleziona **[!UICONTROL Successivo]** per passare al Contratto di licenza con l&#39;utente finale (EULA), leggere il contratto di licenza e selezionare **[!UICONTROL Sì]**.
 
-   La [!DNL Authentication] viene visualizzata la finestra di dialogo successiva.
+   Il [!DNL Authentication] viene visualizzata la finestra di dialogo successiva.
 1. Se una licenza è già installata e le informazioni sulla licenza vengono visualizzate nella [!DNL Authentication] finestra di dialogo, seleziona **[!UICONTROL Successivo]** per continuare.
 
-   Se non si dispone di una licenza, selezionare **[!UICONTROL Richiedi licenza]**. Nella finestra di dialogo successiva viene visualizzato uno degli indirizzi MAC della scheda di interfaccia di rete del computer. Invia un&#39;e-mail a questo indirizzo MAC, al nome dell&#39;azienda e al prodotto da installare come indicato dal prompt.
+   Se non si dispone di una licenza, selezionare **[!UICONTROL Richiedi licenza]**. Nella finestra di dialogo successiva viene visualizzato uno degli indirizzi MAC della scheda di interfaccia di rete del computer. Inviate un&#39;e-mail a questo indirizzo MAC, al nome della vostra società e al prodotto che state installando come indicato dal prompt.
 
-   **Importante:** La licenza si basa sull&#39;indirizzo MAC di una delle schede di interfaccia di rete installate su questo host. Se disattivi, rimuovi o sostituisci questa scheda, la licenza non viene più riconosciuta come valida. Assicurati di ottenere una licenza per la configurazione hardware utilizzata per Image Serving.
+   **Importante:** La licenza si basa sull&#39;indirizzo MAC di una delle schede di interfaccia di rete installate nell&#39;host. Se si disattiva, rimuove o sostituisce questa scheda, la licenza non verrà più riconosciuta come valida. Assicurati di ottenere una licenza per la configurazione hardware utilizzata per Image Server.
 
-   È possibile continuare a installare IS senza una licenza valida e installare la licenza in un secondo momento. Per continuare, seleziona **[!UICONTROL Indietro]** per tornare al [!DNL Authentication] finestra di dialogo, quindi selezionare **[!UICONTROL Successivo]**.
-1. Procedi al &quot;[!DNL Platform Server] Impostazioni amministratore&quot;. Immetti i nuovi valori desiderati oppure accetta i valori predefiniti.
+   È possibile continuare a installare IS senza una licenza valida e installare la licenza in un secondo momento. Per procedere, seleziona **[!UICONTROL Indietro]** per tornare al [!DNL Authentication] e quindi selezionare **[!UICONTROL Successivo]**.
+1. Procedi a &quot;[!DNL Platform Server] Admin Settings&quot;. Immettete nuovi valori in base alle esigenze o accettate i valori predefiniti.
 
    Puoi configurare i seguenti elementi:
 
@@ -44,8 +44,8 @@ Utilizzare questi passaggi per installare Image Server per la prima volta su Win
       <td> <p>Porta di ascolto HTTP principale per Image Server e Image Rendering </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Porta di ascolto amministratore </p> </td>
-      <td> <p>Porta di ascolto amministratore </p> </td>
+      <td> <p> Admin Listening Port </p> </td>
+      <td> <p>Admin Listening Port </p> </td>
    </tr> 
    <tr> 
       <td> <p> [!DNL Platform Server] Dimensioni cache in MB </p> </td>
@@ -60,8 +60,8 @@ Utilizzare questi passaggi per installare Image Server per la prima volta su Win
 
    I numeri di porta specificati devono essere univoci e non devono essere utilizzati da altre applicazioni o servizi.
 
-   La schermata successiva offre l’opportunità di rivedere le impostazioni selezionate.
+   Nella schermata successiva è possibile rivedere le impostazioni selezionate.
 
-1. Seleziona **[!UICONTROL Indietro]** per apportare modifiche, oppure seleziona **[!UICONTROL Successivo]** per avviare l&#39;installazione.
+1. Seleziona **[!UICONTROL Indietro]** per apportare modifiche o selezionare **[!UICONTROL Successivo]** per avviare l&#39;installazione.
 
-1. Seleziona **[!UICONTROL Fine]** per uscire dalla procedura guidata di installazione.
+1. Seleziona **[!UICONTROL Fine]** per uscire dall&#39;installazione guidata.

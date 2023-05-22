@@ -8,7 +8,7 @@ exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -23,8 +23,8 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | processo | `xsd:string` | Scelta dei &quot;processi PDF&quot;. |
-| resolution | `xsd:double` | Risoluzione del file. |
-| colorspace | `xsd:string` | Scelta della modalità a colori post-script. |
-| pdfCatalog | `xsd:boolean` | Se combinare un PDF di più pagine in un eCatalog dopo il rendering (l’impostazione predefinita è true). |
-| extractSearchWords | `xsd:boolean` | Se estrarre le parole di ricerca dal file PDF. |
-| extractLinks | `xsd:boolean` | Se estrarre i collegamenti di PDF in mappe immagine assegnate alle pagine rasterizzate all’interno di IPS. |
+| risoluzione | `xsd:double` | Risoluzione dei file. |
+| colorspace | `xsd:string` | Scelta modalità spazio colore post-script. |
+| pdfCatalog | `xsd:boolean` | Specifica se combinare un PDF di più pagine in un eCatalog dopo il rendering (l&#39;impostazione predefinita è true). |
+| extractSearchWords | `xsd:boolean` | Indica se estrarre le parole di ricerca dal file PDF. |
+| extractLinks | `xsd:boolean` | Indica se estrarre i collegamenti PDF nelle mappe immagine assegnate alle pagine rasterizzate in IPS. |

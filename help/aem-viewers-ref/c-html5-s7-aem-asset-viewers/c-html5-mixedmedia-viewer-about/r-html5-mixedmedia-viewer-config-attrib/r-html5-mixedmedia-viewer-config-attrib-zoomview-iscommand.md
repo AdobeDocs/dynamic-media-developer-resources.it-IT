@@ -8,7 +8,7 @@ exl-id: faa6344a-a0b5-4b27-818b-81e9e0b721b4
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine di zoom. Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve essere codificato in HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> <p> <p>Nota: I comandi di manipolazione del dimensionamento delle immagini non sono supportati. </p> </p> </td> 
+   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine di zoom. Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> deve essere codificato HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> <p> <p>Nota: i comandi di manipolazione del ridimensionamento delle immagini non sono supportati. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

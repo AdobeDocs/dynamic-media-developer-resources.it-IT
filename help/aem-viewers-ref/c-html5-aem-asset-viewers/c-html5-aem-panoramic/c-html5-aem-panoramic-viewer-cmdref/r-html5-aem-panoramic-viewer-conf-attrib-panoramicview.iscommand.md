@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Attributo di configurazione per visualizzatore panoramico.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine.  Se è specificato nell’URL, assicurati di codificare tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine.  Se è specificato nell’URL, accertati di codificare HTTP tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> as <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,7 +33,7 @@ Facoltativo.
 
 ## Predefinito {#section-d016470e92a74f98a18c4ab3489410a5}
 
-Nessuna impostazione predefinita.
+Nessun valore predefinito.
 
 ## Esempio {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 

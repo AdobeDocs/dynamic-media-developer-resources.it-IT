@@ -8,7 +8,7 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -35,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
-| jobHandle | `xsd:string` | Sì | Gestisci il processo che desideri mettere in pausa. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
+| jobHandle | `xsd:string` | Sì | Gestire il processo che si desidera sospendere. |
 
 **Output (PauseJobReturn)**
 

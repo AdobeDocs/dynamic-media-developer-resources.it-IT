@@ -1,27 +1,27 @@
 ---
-description: I dati della proprietà vengono restituiti in risposta a diversi tipi req= .
+description: I dati delle proprietà vengono restituiti in risposta a diversi tipi req=.
 solution: Experience Manager
 title: Proprietà
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 4%
 
 ---
 
 # Proprietà{#properties}
 
-I dati della proprietà vengono restituiti in risposta ai seguenti tipi `req=`:
+I dati delle proprietà vengono restituiti in risposta ai seguenti elementi `req=` tipi:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` le risposte vengono formattate come proprietà solo quando il contenuto di  `catalog::UserData` segue il formato delle proprietà.
+`userdata` le risposte vengono formattate come proprietà solo quando il contenuto di `catalog::UserData` segui il formato proprietà.
 
 * [Proprietà testo (Java)](r-text-java-properties.md)
 * [Proprietà JavaScript](r-javascript-properties.md)

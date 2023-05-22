@@ -1,20 +1,20 @@
 ---
-description: Informazioni sul registro di lavoro.
+description: Informazioni registro processo.
 solution: Experience Manager
-title: DettagliRegistroLavoro
+title: DettagliRegistroProcesso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # [!DNL JobLogDetail]{#joblogdetail}
 
-Informazioni sul registro di lavoro.
+Informazioni registro processo.
 
 Sintassi
 
@@ -22,9 +22,9 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| logMessage | `xsd:string` | Messaggi nel registro dei processi. |
-| logType | `xsd:string` | Tipo di file registro processi. |
-| assetName | `xsd:string` | Nome della risorsa nel registro processi (facoltativo). |
+| logMessage | `xsd:string` | Messaggi nel registro del processo. |
+| logType | `xsd:string` | Tipo di file registro processo. |
+| assetName | `xsd:string` | Nome della risorsa nel registro del processo (facoltativo). |
 | assetType | `xsd:string` | Scelta del tipo di risorsa. |
-| assetHandle | `xsd:string` | Handle di risorse a cui si fa riferimento nel registro processi. |
-| auxArray | `types:JobLogDetailAuxArray` | Fornisce ulteriori informazioni dettagliate sul registro di lavoro oltre ai cinque tipi di log di processo descritti in precedenza. |
+| assetHandle | `xsd:string` | Handle di risorsa a cui si fa riferimento nel registro del processo. |
+| auxArray | `types:JobLogDetailAuxArray` | Fornisce informazioni dettagliate aggiuntive sul registro di processo oltre ai cinque tipi di registro di processo descritti in precedenza. |

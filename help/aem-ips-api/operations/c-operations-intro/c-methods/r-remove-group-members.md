@@ -8,7 +8,7 @@ exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 9%
 
 Rimuove gli utenti aziendali da un gruppo specifico.
 
-**Differenze tra i comandi Rimuovi**
+**Differenze tra i comandi di rimozione**
 
-* `removeGroupMembers`: Rimuove più utenti da un gruppo.
-* `removeGroupMembership`: Rimuove un singolo utente da una matrice di gruppi.
+* `removeGroupMembers`: rimuove più utenti da un gruppo.
+* `removeGroupMembership`: rimuove un singolo utente da un array di gruppi.
 
 ## Tipi di utenti autorizzati {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
@@ -34,8 +34,8 @@ Rimuove gli utenti aziendali da un gruppo specifico.
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sì | L’handle dell’azienda con gli utenti con cui desideri lavorare. |
-| groupHandle | `xsd:string` | Sì | Maniglia di gruppo. |
-| userHandleArray | `types:HandleArray` | Sì | Matrice di handle per gli utenti di cui si desidera rimuovere le appartenenze al gruppo. |
+| groupHandle | `xsd:string` | Sì | Handle di gruppo. |
+| userHandleArray | `types:HandleArray` | Sì | Matrice di handle per gli utenti di cui si desidera rimuovere l&#39;appartenenza ai gruppi. |
 
 **Output (removeGroupMembersParam)**
 
@@ -43,7 +43,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Questo esempio di codice rimuove un utente dalla società specificata. Rimuovere più utenti da un gruppo con l&#39;array handle utente.
+Questo esempio di codice rimuove un utente dalla società specificata. Rimuovere più utenti da un gruppo con l&#39;array di handle utente.
 
 **Request Contents (Richiesta contenuto)**
 

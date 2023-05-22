@@ -1,5 +1,5 @@
 ---
-description: Ottiene tutti gli utenti di una matrice.
+description: Ottiene tutti gli utenti in un array.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
 # getAllUsers{#getallusers}
 
-Ottiene tutti gli utenti di una matrice.
+Ottiene tutti gli utenti in un array.
 
 Sintassi
 
@@ -41,7 +41,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">Imposta su: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
@@ -57,11 +57,11 @@ Sintassi
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | userArray | `types:UserArray` | Sì | Array di tutti gli utenti. |
-| Frase di codice | `Code Phrase` |  |  |
+| Frase codice | `Code Phrase` |  |  |
 
 ## Esempi {#section-9c9a2d335513478da20652c1b1443731}
 
-Questo esempio di codice restituisce tutti gli utenti. La risposta viene troncata per brevità.
+In questo esempio di codice vengono restituiti tutti gli utenti. La risposta viene troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

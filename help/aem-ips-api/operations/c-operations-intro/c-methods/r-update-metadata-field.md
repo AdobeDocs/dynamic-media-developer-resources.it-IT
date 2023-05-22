@@ -40,45 +40,45 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Tratta l'azienda. </td> 
+   <td colname="col4"> Gestore azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Maniglia del campo metadati. </td> 
+   <td colname="col4"> Handle campo metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nome del campo metadati. </td> 
+   <td colname="col4"> Nome campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Valore del campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nascondere o esporre metadati specifici del sistema IPS. </td> 
+   <td colname="col4"> Nascondere o esporre i metadati specifici del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforcement</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Flag booleano che indica se il campo metadati è applicato (convalidato) quando il valore è impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Flag booleano che indica se il campo metadati viene applicato (convalidato) quando il valore viene impostato. </p> <p>Se è impostato su true, viene generato un errore se in è impostato un valore non valido <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Consente di creare un set di valori enumerati condivisi a cui possono fare riferimento i tag selezionati. </td> 
+   <td colname="col4"> Consente di creare un set di valori enumerati condivisi a cui i tag selezionati possono puntare. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +87,11 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Sì | Maniglia del campo metadati. |
+| fieldHandle | `xsd:string` | Sì | Handle campo metadati. |
 
 ## Esempi {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Questo esempio di codice aggiorna assegna un nuovo nome e un valore predefinito a un campo di metadati. La risposta restituisce un handle al campo aggiornato.
+In questo esempio di codice viene assegnato un nuovo nome e un nuovo valore predefinito a un campo di metadati. La risposta restituisce un handle per il campo aggiornato.
 
 **Request Contents (Richiesta contenuto)**
 

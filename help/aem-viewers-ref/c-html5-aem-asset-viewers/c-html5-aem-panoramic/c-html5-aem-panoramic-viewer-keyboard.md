@@ -1,5 +1,5 @@
 ---
-title: Accessibilità e navigazione da tastiera
+title: Accesso facilitato alla tastiera e navigazione
 description: Tutte le funzioni esposte nell’interfaccia utente del visualizzatore sono accessibili da tastiera.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Accessibilità e navigazione da tastiera{#keyboard-accessibility-and-navigation}
+# Accesso facilitato alla tastiera e navigazione{#keyboard-accessibility-and-navigation}
 
 Tutte le funzioni esposte nell’interfaccia utente del visualizzatore sono accessibili da tastiera.
-L&#39;utente finale può utilizzare `Left`, `Right`, `UP` e `DOWN` per scorrere l&#39;immagine.
-La `Esc` per ripristinare l&#39;immagine è possibile usare un tasto.
+L’utente finale può utilizzare `Left`, `Right`, `UP` e `DOWN` tasti per scorrere l&#39;immagine.
+Il `Esc` è possibile usare la sequenza di tasti per reimpostare l&#39;immagine.
 

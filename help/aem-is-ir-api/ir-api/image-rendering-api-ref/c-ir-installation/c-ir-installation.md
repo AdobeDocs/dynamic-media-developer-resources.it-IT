@@ -1,6 +1,6 @@
 ---
 title: Configurazione
-description: È necessario configurare il rendering delle immagini prima di poterle utilizzare.
+description: È necessario configurare Image Rendering prima di poterlo utilizzare.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Configurazione{#configuration}
 
-È necessario configurare il rendering delle immagini prima di poterle utilizzare.
+È necessario configurare Image Rendering prima di poterlo utilizzare.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Specifica se le descrizioni comandi sono abilitate per i singoli elementi dell'area mappa. </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch. </p> </td> 
+   <td colname="col2"> <p> Specifica se attivare le descrizioni per i singoli elementi dell'area mappa. </p> <p> Ignorato sui dispositivi touch, inclusi i sistemi desktop touch. </p> </td> 
   </tr> 
  </tbody> 
 </table>

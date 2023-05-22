@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: Matrice di conteggi delle risorse.
+description: Matrice dei conteggi delle risorse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -8,13 +8,13 @@ exl-id: 6dca378c-d90d-4871-a5a6-77c3b0362a09
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 14%
 
 ---
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-Matrice di conteggi delle risorse.
+Matrice dei conteggi delle risorse.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:AssetCount` | Matrice di conteggi delle risorse. |
+| elementi | `types:AssetCount` | Array dei conteggi delle risorse. |

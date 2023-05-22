@@ -1,6 +1,6 @@
 ---
 title: Punti attivi
-description: Il visualizzatore visualizza le icone dei punti attivi sopra la visualizzazione principale nei luoghi in cui i punti attivi sono stati originariamente creati in Dynamic Media di AEM Assets - on-demand.
+description: Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Media di AEM Assets - on-demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Punti attivi{#hotspots}
 
-Il visualizzatore visualizza le icone dei punti attivi sopra la visualizzazione principale nei luoghi in cui i punti attivi sono stati originariamente creati in Dynamic Media di AEM Assets - on-demand.
+Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Media di AEM Assets - on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’icona del punto attivo è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’icona del punto attivo è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -35,12 +35,12 @@ L’aspetto dell’icona del punto attivo è controllato con il seguente seletto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p>Immagine icona punto attivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Illustrazione di un punto attivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p>Posizionare all’interno dello sprite dell’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Posizione all'interno dello sprite del disegno, se vengono utilizzati sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ L’aspetto dell’icona del punto attivo è controllato con il seguente seletto
  </tbody> 
 </table>
 
-Esempio : imposta un’icona punto attivo da 56 x 56 pixel che mostra un’immagine diversa per ciascuno dei due stati dell’icona:
+Esempio: imposta un’icona di punto attivo da 56 x 56 pixel che visualizza un’immagine diversa per ciascuno dei due diversi stati dell’icona:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

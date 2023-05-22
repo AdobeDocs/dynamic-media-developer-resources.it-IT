@@ -1,5 +1,5 @@
 ---
-description: Matrice di proprietà.
+description: Array di proprietà.
 solution: Experience Manager
 title: PropertyArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 65a72938-dffe-4448-93f6-166dd0dfdb90
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '18'
-ht-degree: 27%
+ht-degree: 16%
 
 ---
 
 # [!DNL PropertyArray]{#propertyarray}
 
-Matrice di proprietà.
+Array di proprietà.
 
 Sintassi
 

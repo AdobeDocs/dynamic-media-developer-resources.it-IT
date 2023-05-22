@@ -1,5 +1,5 @@
 ---
-description: Ottiene i valori stringa delle proprietà di sistema relative a Image Portal.
+description: Ottiene i valori stringa delle proprietà di sistema correlate a Image Portal.
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
@@ -8,24 +8,24 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # getProperty{#getproperty}
 
-Ottiene i valori stringa delle proprietà di sistema relative a Image Portal.
+Ottiene i valori stringa delle proprietà di sistema correlate a Image Portal.
 
 Le proprietà di sistema supportate includono:
 
-* `IpsVersion`: Numero di versione IPS.
-* `IpsImageServerUrl`: Prefisso URL completo ed esterno per il server immagini IPS.
+* `IpsVersion`: numero di versione IPS.
+* `IpsImageServerUrl`: prefisso URL esterno completo per il server immagini IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefisso URL per il rendering delle risorse SVG.
-* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse di SVG tramite `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: prefisso URL per il rendering delle risorse SVG.
+* `SvgRenderEnabled`: ha valore True se le risorse SVG possono essere sottoposte a rendering da `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Dimensione massima (in byte) dei dati del file consentiti in un caricamento [!DNL POST]. Il sistema rifiuta i file di dimensioni superiori al limite massimo.
+* `UploadPostMaxFileSize`: dimensione massima (in byte) dei dati file consentiti in un caricamento [!DNL POST]. Il sistema rifiuta i file superiori al limite massimo.
 
 ## Tipi di utenti autorizzati {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,17 +45,17 @@ Le proprietà di sistema supportate includono:
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| name | `xsd:string` | Sì | Nome della proprietà da ottenere. |
+| nome | `xsd:string` | Sì | Nome della proprietà da ottenere. |
 
 **Output (getPropertyReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| value | `xsd:string` | Sì | Il valore della proprietà. |
+| valore | `xsd:string` | Sì | Il valore della proprietà. |
 
 ## Esempi {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-Questo esempio di codice utilizza una costante stringa Proprietà IPS per restituire un valore specifico. In questo esempio, la proprietà IPS è la versione del server IPS .
+In questo esempio di codice viene utilizzata una costante stringa IPS Properties per restituire un valore specifico. In questo esempio, la proprietà IPS corrisponde alla versione del server IPS.
 
 **Request Contents (Richiesta contenuto)**
 

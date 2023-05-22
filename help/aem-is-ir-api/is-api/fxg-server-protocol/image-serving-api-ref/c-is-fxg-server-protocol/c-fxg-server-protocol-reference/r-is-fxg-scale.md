@@ -1,20 +1,20 @@
 ---
-description: Scala immagine. Consente di ridimensionare un'immagine in base al fattore rispetto all'immagine a risoluzione piena.
+description: Ridimensiona immagine. Ridimensiona un'immagine in base al fattore relativo all'immagine a risoluzione completa.
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
-# scala{#scale}
+# scale{#scale}
 
-Scala immagine. Consente di ridimensionare un&#39;immagine in base al fattore rispetto all&#39;immagine a risoluzione piena.
+Ridimensiona immagine. Ridimensiona un&#39;immagine in base al fattore relativo all&#39;immagine a risoluzione completa.
 
 `scale= *`fattore`*`
 
@@ -27,7 +27,7 @@ Scala immagine. Consente di ridimensionare un&#39;immagine in base al fattore ri
 
 ## Predefinito {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-Se non viene specificato, l&#39;immagine viene utilizzata senza ridimensionamento.
+Se non viene specificato diversamente, l&#39;immagine viene utilizzata senza ridimensionamento.
 
 ## Esempio {#section-d5526953d6434c58bb2388bd936c13b5}
 

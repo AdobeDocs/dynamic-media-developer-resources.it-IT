@@ -1,6 +1,6 @@
 ---
-title: affilare
-description: Nitidezza immagine di risposta. La nitidezza opzionale può essere applicata dopo che l'immagine renderizzata è stata ridimensionata in base a wid= o hei=.
+title: nitidezza
+description: Contrasta l'immagine di risposta. È possibile applicare una nitidezza facoltativa dopo il ridimensionamento dell'immagine di cui è stato eseguito il rendering in base a wid= o hei=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# affilare{#sharpen}
+# nitidezza{#sharpen}
 
-Nitidezza immagine di risposta. La nitidezza opzionale può essere applicata dopo che l&#39;immagine renderizzata è stata ridimensionata in base a wid= o hei=.
+Contrasta l&#39;immagine di risposta. È possibile applicare una nitidezza facoltativa dopo il ridimensionamento dell&#39;immagine di cui è stato eseguito il rendering in base a wid= o hei=.
 
 `sharpen=0|1`
 
@@ -35,4 +35,4 @@ Nitidezza immagine di risposta. La nitidezza opzionale può essere applicata dop
 
 ## Consultate anche {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attributo::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [Sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

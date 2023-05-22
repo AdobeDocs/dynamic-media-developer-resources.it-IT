@@ -1,5 +1,5 @@
 ---
-description: Assegnare o aggiornare le risorse in un progetto.
+description: Assegna o aggiorna le risorse in un progetto.
 solution: Experience Manager
 title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
 # setProjectAssets{#setprojectassets}
 
-Assegnare o aggiornare le risorse in un progetto.
+Assegna o aggiorna le risorse in un progetto.
 
 Sintassi
 
@@ -33,8 +33,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyName | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| projectHandle | `xsd:string` | Sì | Maniglia del progetto. |
+| companyName | `xsd:string` | Sì | Gestore azienda. |
+| projectHandle | `xsd:string` | Sì | Handle di progetto. |
 | assetHandleArray | `types:HandleArray` | Sì | Matrice di handle di risorsa da associare al progetto. |
 
 **Output (setProjectAssetsReturn)**
@@ -45,7 +45,7 @@ Sintassi
 
 ## Esempi {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Questo codice di esempio assegna una risorsa a un progetto. La richiesta restituisce un conteggio di successo di uno.
+Questo esempio di codice assegna una risorsa a un progetto. La richiesta restituisce un numero di operazioni riuscite pari a uno.
 
 **Request Contents (Richiesta contenuto)**
 

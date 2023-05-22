@@ -1,6 +1,6 @@
 ---
 title: Imposta indicatore
-description: L’indicatore set è una serie di punti sottoposti a rendering sui campioni quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
+description: Imposta indicatore è una serie di punti di cui viene eseguito il rendering sopra i campioni quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Imposta indicatore{#set-indicator}
 
-L’indicatore set è una serie di punti sottoposti a rendering sui campioni quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
+Imposta indicatore è una serie di punti di cui viene eseguito il rendering sopra i campioni quando un visualizzatore viene utilizzato su un dispositivo touch. I punti consentono agli utenti di spostarsi tra le pagine delle miniature quando i pulsanti di scorrimento non sono disponibili.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’indicatore set**
+**Proprietà CSS dell&#39;indicatore di set**
 
-L’aspetto del contenitore dell’indicatore set è controllato con il seguente selettore di classe CSS:
+L’aspetto del contenitore di indicatori impostato è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7zoomviewer .s7setindicator
@@ -35,13 +35,13 @@ L’aspetto del contenitore dell’indicatore set è controllato con il seguente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore set. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore impostato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per creare un indicatore impostato con sfondo bianco:
+Esempio - Per creare un indicatore impostato con uno sfondo bianco:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,7 +49,7 @@ Esempio: per creare un indicatore impostato con sfondo bianco:
 }
 ```
 
-L’aspetto di un singolo punto indicatore del set è controllato con il selettore di classe CSS:
+L’aspetto di un singolo punto indicatore di set è controllato con il selettore di classe CSS:
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -63,18 +63,18 @@ L’aspetto di un singolo punto indicatore del set è controllato con il seletto
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza del punto dell'indicatore impostato. </p> </td> 
+   <td colname="col2"> <p>Larghezza dell'indicatore impostato punto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza del punto indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -82,15 +82,15 @@ L’aspetto di un singolo punto indicatore del set è controllato con il seletto
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine inferiore </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ L’aspetto di un singolo punto indicatore del set è controllato con il seletto
 
 >[!NOTE]
 >
->Imposta il punto indicatore supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
+>Il punto indicatore impostato supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
 
-Esempio: per creare un punto indicatore impostato da 15 x 15 pixel, con un margine orizzontale di 2 pixel, un margine superiore di 5 pixel, un margine inferiore di 1 pixel, un raggio di 12 pixel, un colore predefinito #D5D3D3 e un colore attivo #939393:
+Esempio - Per creare un punto indicatore impostato su 15 x 15 pixel, con 2 pixel di margine orizzontale, 5 pixel di margine superiore, 1 pixel di margine inferiore, 12 pixel di raggio, #D5D3D3 colore predefinito e #939393 colore attivo:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

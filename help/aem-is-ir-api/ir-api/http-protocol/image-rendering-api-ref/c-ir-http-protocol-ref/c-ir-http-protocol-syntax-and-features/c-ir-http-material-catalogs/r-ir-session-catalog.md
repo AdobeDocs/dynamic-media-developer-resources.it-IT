@@ -1,6 +1,6 @@
 ---
-title: Catalogo delle sessioni
-description: Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
+title: Catalogo sessione
+description: Il catalogo delle sessioni è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti i comandi src=, vignette= e icc=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Catalogo delle sessioni{#session-catalog}
+# Catalogo sessione{#session-catalog}
 
-Il catalogo di sessione è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti `src=`, `vignette=`e `icc=` comandi.
+Il catalogo delle sessioni è il catalogo dei materiali che fornisce gli attributi di sessione per la richiesta e un valore catId predefinito per tutti `src=`, `vignette=`, e `icc=` comandi.
 
-Il catalogo di sessione è specificato come primo elemento del percorso della richiesta HTTP (subito dopo il nome del server). Se il primo elemento del percorso non corrisponde all’attributo::RootId di qualsiasi catalogo, il catalogo predefinito viene utilizzato come catalogo di sessione.
+Il catalogo di sessione viene specificato come primo elemento percorso del percorso della richiesta HTTP (immediatamente successivo al nome del server). Se il primo elemento percorso non corrisponde all&#39;attributo::RootId di alcun catalogo, il catalogo predefinito viene utilizzato come catalogo di sessione.
 
-Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
+Il catalogo di sessione fornisce i seguenti valori predefiniti di sessione:
 
 <table id="table_DB5E0DD8E9B440A4964A1326433597C8"> 
  <thead> 
@@ -29,39 +29,39 @@ Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::RootPath</span> </p> </td> 
-   <td> <p> Percorso principale per i file di dati di materiale </p> </td> 
+   <td> <p> <span class="codeph"> attribute::RootPath</span> </p> </td> 
+   <td> <p> Percorso principale per i file di dati dei materiali </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::VignettePath</span> </p> </td> 
-   <td> <p> Percorso principale per i file vignetta </p> </td> 
+   <td> <p> <span class="codeph"> attribute::VignettePath</span> </p> </td> 
+   <td> <p> Percorso directory principale per i file di vignettatura </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::IccProfileRgb</span> </p> </td> 
-   <td> <p> Spazio colore di lavoro predefinito se una vignetta non incorpora un profilo ICC </p> </td> 
+   <td> <p> <span class="codeph"> attribute::IccProfileRgb</span> </p> </td> 
+   <td> <p> Spazio colore di lavoro predefinito se una vignettatura non incorpora un profilo ICC </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::RootUrl</span> </p> </td> 
-   <td> <p> URL principale per percorsi di file HTTP relativi in <span class="codeph"> src=</span> comandi </p> </td> 
+   <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
+   <td> <p> URL principale per i percorsi relativi dei file HTTP in <span class="codeph"> src=</span> comandi </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::ShowOverlapObjs</span> </p> </td> 
-   <td> <p> Stato iniziale di visualizzazione/nascondi per gli oggetti sovrapposti </p> </td> 
+   <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
+   <td> <p> Stato iniziale per mostrare/nascondere gli oggetti sovrapposti </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::Scadenza</span> </p> </td> 
-   <td> <p> Valore "time-to-live" dell'immagine di risposta per le cache del server proxy e del browser </p> </td> 
+   <td> <p> <span class="codeph"> attribute::Scadenza</span> </p> </td> 
+   <td> <p> Valore time-to-live dell'immagine di risposta per il server proxy e le cache del browser </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::MaxPix</span> </p> </td> 
-   <td> <p> Larghezza e altezza massima dell'immagine di risposta consentita </p> </td> 
+   <td> <p> <span class="codeph"> attribute::MaxPix</span> </p> </td> 
+   <td> <p> Larghezza e altezza massime consentite per l’immagine di risposta </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::DefaultPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
    <td> <p> Valori predefiniti per <span class="codeph"> wid=</span> e <span class="codeph"> hei=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::Format</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::Format</span> </p> </td> 
    <td> <p> Valore predefinito per <span class="codeph"> fmt=</span> </p> </td> 
   </tr> 
   <tr> 
@@ -69,20 +69,20 @@ Il catalogo delle sessioni fornisce i seguenti valori predefiniti di sessione:
    <td> <p> Valore predefinito per <span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo di compressione per l’output immagine di TIFF </p> </td> 
+   <td> <p> <span class="codeph"> attribute::CodificaTiff</span> </p> </td> 
+   <td> <p> Tipo di compressione per l’output dell’immagine del TIFF </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::Sharpen</span> </p> </td> 
-   <td> <p> Valore predefinito per <span class="codeph"> sharpen=</span> </p> </td> 
+   <td> <p> <span class="codeph"> attributo::Nitidezza</span> </p> </td> 
+   <td> <p> Valore predefinito per <span class="codeph"> sharpen= nitidezza</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::OnFailSel</span> </p> </td> 
-   <td> <p> Specifica il comportamento quando un <span class="codeph"> sel=</span> errore del comando </p> </td> 
+   <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
+   <td> <p> Specifica il comportamento quando un <span class="codeph"> sel=</span> comando non riuscito </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attributo::OnFailObj</span> </p> </td> 
-   <td> <p> Specifica il comportamento quando un <span class="codeph"> obj=</span> errore del comando </p> </td> 
+   <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
+   <td> <p> Specifica il comportamento quando un <span class="codeph"> obj=</span> comando non riuscito </p> </td> 
   </tr> 
  </tbody> 
 </table>

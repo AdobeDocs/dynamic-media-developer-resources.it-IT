@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.autoplay
-description: Attributo di configurazione per il visualizzatore video.
+description: Attributo di configurazione per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attributo di configurazione per il visualizzatore video.
+Attributo di configurazione per Visualizzatore video.
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 

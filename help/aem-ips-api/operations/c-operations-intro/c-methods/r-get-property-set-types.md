@@ -1,5 +1,5 @@
 ---
-description: Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non viene specificata alcuna società.
+description: Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non è specificata alcuna società.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non viene specificata alcuna società.
+Ottiene i tipi di set di proprietà associati alla società specificata o i tipi di set di proprietà globali se non è specificata alcuna società.
 
 Sintassi
 
@@ -46,9 +46,9 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">L'handle della società a cui sono associati i tipi di set di proprietà. <p>Ometti se desideri restituire i tipi di set di proprietà globali. </p> </td> 
+   <td colname="col4">Handle dell'azienda a cui sono associati i tipi di set di proprietà. <p>Ometti se desideri restituire i tipi di set di proprietà globali. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| typeArray | `types:PropertySetTypeArray` | Sì | Matrice di tipi di set di proprietà associati alla società specificata o di tipi di set di proprietà globali, se non è stata specificata alcuna società. |
+| typeArray | `types:PropertySetTypeArray` | Sì | Matrice di tipi di set di proprietà associati alla società specificata o ai tipi di set di proprietà globali se non è stata specificata alcuna società. |
 
 ## Esempi {#section-280c406a90864409856aee44d4069a52}
 

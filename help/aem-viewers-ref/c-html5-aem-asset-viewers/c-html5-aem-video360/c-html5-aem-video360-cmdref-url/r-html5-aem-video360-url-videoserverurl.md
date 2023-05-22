@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Comando URL per il visualizzatore Video360.
+description: Comando URL per Visualizzatore video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-Comando URL per il visualizzatore Video360.
+Comando URL per Visualizzatore video360.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,14 +22,14 @@ Comando URL per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Il percorso principale del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui viene distribuita la pagina. Si applica la risoluzione standard del percorso URI. </p> </td> 
+   <td colname="col2"> <p> Percorso root del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui è trasmessa la pagina. È applicabile la risoluzione del percorso URI standard. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-f42369774e2740dcb399626a0e4e930e}
 
-Facoltativo. Non necessario per l’utilizzo standard di SaaS.
+Facoltativo. Non necessario per l’utilizzo SaaS standard.
 
 ## Predefinito {#section-d016470e92a74f98a18c4ab3489410a5}
 

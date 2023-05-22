@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, è possibile ridurre il numero di elementi visibili nel menu a discesa nel caso in cui vengano ritagliati dal contenitore esterno. </p> <p>Quando è impostato su <span class="codeph"> 0</span> quel componente mostra il maggior numero possibile di elementi, dato il contenitore a cui viene aggiunto. </p> </td> 
+   <td> <p>Numero massimo di elementi nel sommario a discesa. </p> <p>Inoltre, puoi ridurre il numero di elementi visibili nel menu a discesa nel caso in cui venga ritagliato dal contenitore esterno. </p> <p>Se impostato su <span class="codeph"> 0</span> quel componente mostra il maggior numero possibile di elementi in base al contenitore a cui viene aggiunto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Contiene informazioni su un oggetto di metadati aziendale come ID, nome e tipo.
+description: Contiene informazioni su un oggetto metadati dell’azienda come ID, nome e tipo.
 solution: Experience Manager
 title: CompanyMetadataInfo
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # [!DNL CompanyMetadataInfo]{#companymetadatainfo}
 
-Contiene informazioni su un oggetto di metadati aziendale come ID, nome e tipo.
+Contiene informazioni su un oggetto metadati dell’azienda come ID, nome e tipo.
 
 Sintassi
 

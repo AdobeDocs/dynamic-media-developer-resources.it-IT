@@ -1,6 +1,6 @@
 ---
 title: Panoramica del comando del protocollo HTTP Image Rendering
-description: I comandi supportati dal rendering delle immagini sono elencati di seguito, raggruppati per categoria.
+description: Di seguito sono elencati i comandi supportati da Image Rendering, raggruppati per categoria.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panoramica del comando del protocollo HTTP Image Rendering{#image-rendering-http-protocol-command-overview}
 
-I comandi supportati dal rendering delle immagini sono elencati di seguito, raggruppati per categoria.
+Di seguito sono elencati i comandi supportati da Image Rendering, raggruppati per categoria.
 
 * [Visualizza attributi](r-ir-view-attributes.md)
 * [Comandi di selezione](r-ir-selection-commands.md)

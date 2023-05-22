@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -35,8 +35,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| jobHandle | `xsd:string` | Sì | Gestisci il lavoro che vuoi interrompere. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| jobHandle | `xsd:string` | Sì | Gestire il processo che si desidera interrompere. |
 
 **Output (stopJobReturn0**
 

@@ -1,5 +1,5 @@
 ---
-description: Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
+description: Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un nuovo campo di metadati.
 solution: Experience Manager
 title: saveMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # saveMetadataField{#savemetadatafield}
 
-Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per creare un nuovo campo di metadati.
+Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un nuovo campo di metadati.
 
 >[!NOTE]
 >
->Questo metodo è obsoleto.
+>Metodo obsoleto.
 
 ## Tipi di utenti autorizzati {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -43,51 +43,51 @@ Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Il manico per l'azienda. </td> 
+   <td colname="col4"> La maniglia per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Maniglia del campo. </td> 
+   <td colname="col4"> Handle campo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Scelta dei tipi di risorse da cui salvare i metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Nome campo. </td> 
+   <td colname="col4"> Nome del campo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Scelta dei tipi di campi di metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Valore predefinito dei campi per tutte le risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Nascondere o esporre metadati specifici del sistema IPS. </td> 
+   <td colname="col4"> Nascondere o esporre i metadati specifici del sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforcement</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Flag booleano che indica se il campo metadati è applicato (convalidato) quando il valore è impostato. </p> <p>Se è impostato su true, viene generato un errore se un valore non valido è impostato in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Flag booleano che indica se il campo metadati viene applicato (convalidato) quando il valore viene impostato. </p> <p>Se è impostato su true, viene generato un errore se in è impostato un valore non valido <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ Crea o modifica un campo di metadati. Ometti la maniglia del campo opzionale per
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Sì | Gestione del nuovo campo metadati. |
+| fieldHandle | `xsd:string` | Sì | Handle del nuovo campo di metadati. |
 
 ## Esempi {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Questo esempio di codice crea un nuovo campo metadati vincolato dalle costanti di stringa Tipo di risorsa e Tipi di campi metadati . Se la `fieldHandle` elemento con un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
+In questo esempio di codice viene creato un nuovo campo di metadati vincolato dalle costanti stringa Tipo risorsa e Tipi di campo metadati. Se il `fieldHandle` L&#39;elemento ha un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
 
 **Request Contents (Richiesta contenuto)**
 

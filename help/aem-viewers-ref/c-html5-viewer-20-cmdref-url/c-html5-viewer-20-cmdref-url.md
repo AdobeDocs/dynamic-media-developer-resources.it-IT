@@ -1,6 +1,6 @@
 ---
 title: Riferimento comando comune a tutti i visualizzatori - URL
-description: Documentazione di riferimento dei comandi comune a tutti i visualizzatori.
+description: Documentazione di riferimento sui comandi comune a tutti i visualizzatori.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Riferimento comando comune a tutti i visualizzatori - URL{#command-reference-common-to-all-viewers-url}
 
-Documentazione di riferimento dei comandi comune a tutti i visualizzatori.
+Documentazione di riferimento sui comandi comune a tutti i visualizzatori.
 
-I comandi elencati di seguito vengono applicati tramite URL o utilizzando i metodi API `setParam()` o `setParams()`.
+I comandi elencati di seguito vengono applicati tramite URL o utilizzando API `setParam()` o `setParams()` metodi.

@@ -29,7 +29,7 @@ Sintassi
 
 >[!NOTE]
 >
->L’utente deve disporre dell’accesso in lettura alla risorsa.
+>L’utente deve avere accesso in lettura alla risorsa.
 
 ## Parametri {#section-bcdcff30905e444388811e897b2824bd}
 
@@ -37,9 +37,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L’handle della società con la risorsa da aggiornare. |
-| assetHandle | `xsd:string` | Sì | L’handle della risorsa. |
-| updateArray | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamento metadati. |
+| companyHandle | `xsd:string` | Sì | Handle dell’azienda con la risorsa da aggiornare. |
+| assetHandle | `xsd:string` | Sì | Handle della risorsa. |
+| updateArray | `types:MetadataUpdateArray` | Sì | Aggiornamenti in un array di aggiornamento dei metadati. |
 
 **Output (setAssetMetadataReturn)**
 
@@ -47,7 +47,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-Questo esempio di codice utilizza una serie di aggiornamenti di metadati per impostare i metadati della risorsa specificata.
+In questo esempio di codice viene utilizzata una matrice di aggiornamenti dei metadati per impostare i metadati della risorsa specificata.
 
 **Request Contents (Richiesta contenuto)**
 

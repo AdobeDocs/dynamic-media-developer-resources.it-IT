@@ -1,6 +1,6 @@
 ---
-title: setLocalizedText
-description: Riferimento API JavaScript per visualizzatori di file multimediali diversi.
+title: setLocalizedTexts
+description: Riferimento API JavaScript per Visualizzatore file multimediali diversi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# setLocalizedText{#setlocalizedtexts}
+# setLocalizedTexts{#setlocalizedtexts}
 
-Riferimento API JavaScript per visualizzatori di file multimediali diversi.
+Riferimento API JavaScript per Visualizzatore file multimediali diversi.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,12 +22,12 @@ Riferimento API JavaScript per visualizzatori di file multimediali diversi.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} Oggetto JSON con dati di localizzazione. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p>Vedi anche <i>Guida utente dell’SDK per visualizzatori</i> e nell'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p>Consulta anche <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta i valori SYMBOL di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
+Imposta i valori del SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

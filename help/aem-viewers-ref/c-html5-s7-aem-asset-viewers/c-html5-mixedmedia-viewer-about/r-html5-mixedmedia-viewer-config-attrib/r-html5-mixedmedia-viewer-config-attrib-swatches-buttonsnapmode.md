@@ -8,7 +8,7 @@ exl-id: 3be4a886-cc33-42f8-8f0a-e41d8dd5da33
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>Provoca l’allineamento dei pulsanti accanto ai campioni. </p> </td> 
+   <td> <p>Allinea i pulsanti accanto ai campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> serpente</span> </span> </p> </td> 
-   <td> <p>Provoca l’allineamento dei pulsanti accanto al bordo del componente. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
+   <td> <p>Allinea i pulsanti accanto al bordo del componente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> sovrapposizione</span> </span> </p> </td> 
-   <td> <p>Provoca il rendering dei pulsanti sopra i campioni. </p> </td> 
+   <td> <p>Determina il rendering dei pulsanti sopra i campioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>

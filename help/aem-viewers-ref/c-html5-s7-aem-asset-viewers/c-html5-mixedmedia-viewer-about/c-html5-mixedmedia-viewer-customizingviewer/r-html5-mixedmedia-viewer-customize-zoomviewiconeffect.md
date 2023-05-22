@@ -1,6 +1,6 @@
 ---
-title: Effetto icona visualizzazione zoom
-description: L'indicatore dello zoom viene sovrapposto all'area di visualizzazione dello zoom. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
+title: Effetto icona Visualizzazione zoom
+description: L'indicatore di zoom si sovrappone all'area di visualizzazione dello zoom. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Effetto icona visualizzazione zoom{#zoom-view-icon-effect}
+# Effetto icona Visualizzazione zoom{#zoom-view-icon-effect}
 
-L&#39;indicatore dello zoom viene sovrapposto all&#39;area di visualizzazione dello zoom. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect.
+L&#39;indicatore di zoom si sovrappone all&#39;area di visualizzazione dello zoom. Viene visualizzata quando l’immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect
@@ -35,29 +35,29 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Grafico indicatore dello zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Illustrazione dell'indicatore di zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Spessore indicatore dello zoom. </p> </td> 
+   <td colname="col2"> <p>Larghezza indicatore di zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza indicatore dello zoom. </p> </td> 
+   <td colname="col2"> <p>Altezza indicatore di zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L&#39;effetto icona supporta `media-type` selettore di attributi, che puoi utilizzare per applicare diversi effetti icona su diversi dispositivi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui viene normalmente utilizzato l&#39;input del mouse e `media-type='multitouch'` corrisponde a dispositivi con input touch.
+>L&#39;effetto Icona supporta `media-type` selettore di attributi, che può essere utilizzato per applicare effetti di icona diversi a dispositivi diversi. In particolare: `media-type='standard'` corrisponde ai sistemi desktop in cui viene utilizzato normalmente l&#39;input del mouse e `media-type='multitouch'` corrisponde ai dispositivi con input tocco.
 
-Esempio: per impostare un indicatore di zoom da 100 x 100 pixel con grafica diversa per i sistemi desktop e i dispositivi touch.
+Esempio: per impostare un indicatore di zoom di 100 x 100 pixel con immagini diverse per i sistemi desktop e i dispositivi touch.
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect { 

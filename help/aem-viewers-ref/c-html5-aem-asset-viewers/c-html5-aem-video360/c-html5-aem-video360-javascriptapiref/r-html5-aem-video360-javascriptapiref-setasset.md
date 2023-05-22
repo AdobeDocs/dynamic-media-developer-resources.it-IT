@@ -1,32 +1,32 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore Video360.
+description: Riferimento API JavaScript per Visualizzatore Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore Video360.
+Riferimento API JavaScript per Visualizzatore Video360.
 
 `setAsset(asset)`
 
 Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
-Vedere anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nuovo ID risorsa. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} ID nuova risorsa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

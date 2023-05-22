@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '127'
+ht-degree: 7%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 Attributo di configurazione per il visualizzatore Video360.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`count`*][, *`dissolvenza`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione dell'iconaEffetto nella parte superiore del video quando il video è in stato di pausa. In alcuni dispositivi vengono utilizzati controlli nativi. In questi casi, il modificatore <span class="codeph">iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra il video quando quest'ultimo è in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tali casi, la <span class="codeph">iconeffect</span> modificatore ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il numero massimo di volte in cui viene visualizzato e rivisualizzato IconEffect. Un valore di <span class="codeph"> -1</span> indica che l'icona viene visualizzata nuovamente indefinitamente. </p> </td> 
+   <td colname="col2"> <p> Specifica il numero massimo di volte che IconEffect viene visualizzato e rivisualizzato. Un valore di <span class="codeph"> -1</span> indica che l’icona viene visualizzata di nuovo a tempo indeterminato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dissolvenza</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica la durata in secondi dell'animazione mostrata o nascosta. </p> </td> 
+   <td colname="col2"> <p> Specifica la durata dell'animazione mostra/nascondi, in secondi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che si nasconda automaticamente. Cioè, il tempo dopo il completamento della dissolvenza nell'animazione e prima dell'inizio della dissolvenza in uscita. Impostare su <span class="codeph"> 0</span> per disabilitare il comportamento di nascondere automaticamente. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. Questo è il tempo che trascorre tra il completamento della dissolvenza nell'animazione e l'inizio della dissolvenza in uscita. Imposta su <span class="codeph"> 0</span> per disattivare il comportamento Nascondi automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>

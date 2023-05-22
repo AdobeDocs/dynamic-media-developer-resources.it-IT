@@ -1,5 +1,5 @@
 ---
-description: Proprietà dei sottotitoli video
+description: Proprietà sottotitoli video
 title: VideoCaptionInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
@@ -7,13 +7,13 @@ exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 18%
+ht-degree: 9%
 
 ---
 
 # [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
-Proprietà dei sottotitoli video
+Proprietà sottotitoli video
 
 ## Parametri {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
@@ -28,12 +28,12 @@ Proprietà dei sottotitoli video
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Percorso relativo al video caricato. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col3"> <p>Percorso relativo del video caricato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Nome del video originale. </p> </td> 
   </tr> 
   <tr> 

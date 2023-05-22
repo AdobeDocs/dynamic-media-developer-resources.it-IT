@@ -8,7 +8,7 @@ exl-id: 75ee2c74-21c4-41b6-9d0f-15aa8432f177
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 Attributo di configurazione per Visualizzatore video interattivo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`valore`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il bitrate video (in kilobit al secondo o kbps) utilizzato per la riproduzione iniziale del video su un desktop. </p> <p>Se questo valore di bitrate non esiste nel set video adattivo, il lettore video inizia con il video con il bitrate successivo inferiore. </p> <p>Se è impostato su <span class="codeph"> 0</span>, il lettore video inizia dal bitrate più basso possibile. </p> <p>Applicabile solo ai sistemi che non dispongono del supporto nativo per video HTML5 HLS (come i browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su Automatico. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valore</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il bitrate video (in kilobit al secondo o Kbps) utilizzato per la riproduzione iniziale del video su un desktop. </p> <p>Se questo valore di bitrate non esiste nel set di video adattivi, il lettore video inizia con il video che ha il bitrate inferiore successivo. </p> <p>Se impostato su <span class="codeph"> 0</span>, il lettore video inizia dal bitrate più basso possibile. </p> <p>Applicabile solo ai sistemi che non dispongono di supporto nativo per video HLS HTML5 (come i browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su auto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

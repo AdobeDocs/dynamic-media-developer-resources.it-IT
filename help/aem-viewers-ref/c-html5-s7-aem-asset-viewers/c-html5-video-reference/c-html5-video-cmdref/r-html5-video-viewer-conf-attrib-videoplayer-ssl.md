@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.ssl
-description: Attributo di configurazione per il visualizzatore video.
+description: Attributo di configurazione per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Attributo di configurazione per il visualizzatore video.
+Attributo di configurazione per Visualizzatore video.
 
 <!-- >[!NOTE]
 >
@@ -25,8 +25,8 @@ Attributo di configurazione per il visualizzatore video.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Quando è impostato su <span class="codeph"> auto</span> il protocollo di consegna video viene ereditato dal protocollo della pagina web di incorporamento. Se la pagina web viene caricata su HTTPS, il video viene anche distribuito tramite HTTPS, e viceversa. Se la pagina web è su HTTP, il video viene distribuito via HTTP. </p> <p>Quando è impostato su <span class="codeph"> su</span>, la distribuzione video avviene sempre su una connessione sicura, senza tenere conto del protocollo della pagina web. </p> <p>Influisce solo sulla distribuzione video pubblicata e viene ignorata per l’anteprima video in modalità Creazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|attivato</span> </p> </td> 
+   <td colname="col2"> <p> Controlla se il video viene distribuito tramite una connessione SSL protetta (HTTPS) o una connessione non sicura (HTTP). </p> <p>Se impostato su <span class="codeph"> auto</span> il protocollo di consegna video viene ereditato dal protocollo della pagina web di incorporamento. Se la pagina web viene caricata su HTTPS, il video viene consegnato anche su HTTPS e viceversa. Se la pagina web è su HTTP, il video viene distribuito su HTTP. </p> <p>Se impostato su <span class="codeph"> il</span>, la distribuzione di video avviene sempre tramite una connessione sicura, indipendentemente dal protocollo della pagina web. </p> <p>Interessa solo la distribuzione di video pubblicati e viene ignorato per l’anteprima video in modalità Creazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Vedi anche [Distribuzione video sicura](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).
+Vedi anche [Consegna video sicura](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).

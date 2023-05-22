@@ -1,6 +1,6 @@
 ---
 title: Effetto Preferiti
-description: Il visualizzatore visualizza le icone Preferiti nella vista principale, in punti in cui è stato originariamente aggiunto dall’utente.
+description: Il visualizzatore visualizza le icone Preferiti sopra la visualizzazione principale nelle posizioni in cui è stata originariamente aggiunta dall'utente.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,40 +14,40 @@ ht-degree: 1%
 
 # Effetto Preferiti{#favorites-effect}
 
-Il visualizzatore visualizza le icone Preferiti nella vista principale, in punti in cui è stato originariamente aggiunto dall’utente.
+Il visualizzatore visualizza le icone Preferiti sopra la visualizzazione principale nelle posizioni in cui è stata originariamente aggiunta dall&#39;utente.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspetto dell’icona Preferito è controllato dal seguente selettore di classe CSS:
+L’aspetto dell’icona Preferiti è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon
 ```
 
-**Proprietà CSS dell’icona Preferito**
+**Proprietà CSS dell&#39;icona Preferiti**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per l’icona. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per l'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza dell’icona. </p> </td> 
+   <td colname="col2"> <p>Larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dell’icona. </p> </td> 
+   <td colname="col2"> <p>Altezza dell'icona. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: imposta un&#39;icona Preferiti da 36 x 36 pixel.
+Esempio: impostare un’icona Preferiti di 36 x 36 pixel.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon { 
@@ -57,7 +57,7 @@ Esempio: imposta un&#39;icona Preferiti da 36 x 36 pixel.
 }
 ```
 
-Sui sistemi desktop, il componente supporta il `cursortype` selettore di attributi che puoi applicare al `.s7favoriteseffect` e controlla il tipo di cursore in base all&#39;azione utente selezionata. I seguenti `cursortype` sono supportati:
+Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che puoi applicare al `.s7favoriteseffect` e controlla il tipo di cursore in base all&#39;azione utente selezionata. I seguenti elementi `cursortype` sono supportati i seguenti valori:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -67,16 +67,16 @@ Sui sistemi desktop, il componente supporta il `cursortype` selettore di attribu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>L'utente visualizzato sta rimuovendo un'icona Preferito esistente. </p> </td> 
+   <td colname="col2"> <p>L'utente visualizzato sta rimuovendo un'icona Preferiti esistente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>Visualizzata in modalità normale quando la modifica dei Preferiti non è attiva. </p> </td> 
+   <td colname="col2"> <p>Visualizzato in modalità operativa normale quando la modifica Preferiti non è attiva. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per disporre di diversi cursori del mouse per ogni tipo di stato del componente.
+Esempio: per disporre di cursori del mouse diversi per ogni tipo di stato del componente.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

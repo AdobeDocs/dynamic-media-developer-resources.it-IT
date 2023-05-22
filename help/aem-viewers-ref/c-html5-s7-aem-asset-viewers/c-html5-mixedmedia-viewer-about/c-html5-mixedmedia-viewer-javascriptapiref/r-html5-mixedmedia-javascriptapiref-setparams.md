@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Riferimento API JavaScript per visualizzatori di file multimediali diversi.
+description: Riferimento API JavaScript per Visualizzatore file multimediali diversi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # setParams{#setparams}
 
-Riferimento API JavaScript per visualizzatori di file multimediali diversi.
+Riferimento API JavaScript per Visualizzatore file multimediali diversi.
 
-` setParams( *`params`*)`
+` setParams( *`parametri`*)`
 
-Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di interrogazione URL. Cioè, rappresenta coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, questo parametro deve essere chiamato. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con `config` Oggetto JSON al costruttore.
+Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di query URL. ovvero rappresenta coppie nome=valore separate da `&`. Proprio come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> coppie di parametri name=value separate da <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parametri</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> nome=valore coppie di parametri separate da <span class="codeph"> E</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

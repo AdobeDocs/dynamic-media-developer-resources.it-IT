@@ -1,5 +1,5 @@
 ---
-title: Visualizzazione a 360 gradi
+title: Visualizzazione rotazione
 description: La vista principale è costituita dall’immagine di rotazione quando la risorsa corrente è un set 360 gradi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Visualizzazione a 360 gradi{#spin-view}
+# Visualizzazione rotazione{#spin-view}
 
 La vista principale è costituita dall’immagine di rotazione quando la risorsa corrente è un set 360 gradi.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -35,13 +35,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista a rotazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione 360 gradi. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per rendere trasparente la vista a rotazione.
+Esempio: per rendere trasparente la visualizzazione di rotazione.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

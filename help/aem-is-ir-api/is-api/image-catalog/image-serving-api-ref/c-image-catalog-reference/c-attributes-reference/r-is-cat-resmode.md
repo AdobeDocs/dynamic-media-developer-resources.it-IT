@@ -1,6 +1,6 @@
 ---
 title: ResMode
-description: Modalità di ricampionamento predefinita. Specifica gli attributi di ricampionamento e interpolazione predefiniti da utilizzare per il ridimensionamento dei dati immagine.
+description: Metodo di ricampionamento predefinito. Specifica gli attributi di ricampionamento e interpolazione predefiniti da utilizzare per il ridimensionamento dei dati immagine.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,23 +8,23 @@ exl-id: a604e61e-be38-4819-b5c3-a79843c1678f
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # ResMode{#resmode}
 
-Modalità di ricampionamento predefinita. Specifica gli attributi di ricampionamento e interpolazione predefiniti da utilizzare per il ridimensionamento dei dati immagine.
+Metodo di ricampionamento predefinito. Specifica gli attributi di ricampionamento e interpolazione predefiniti da utilizzare per il ridimensionamento dei dati immagine.
 
 Utilizzato quando `resMode=` non è specificato in una richiesta.
 
 ## Proprietà {#section-493f900be522486f97710cebdc4460c2}
 
-Enum. Imposta su 2 per `bilin`, 3 per `bicub`o 4 per `sharp2` modalità di interpolazione (vedere [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) per ulteriori informazioni). `sharp` (1) è stato dichiarato obsoleto. Utilizzo `sharp2` (4) invece per i migliori risultati.
+Enum. Imposta su 2 per `bilin`, 3 per `bicub`, o 4 per `sharp2` modalità di interpolazione (vedere [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) per i dettagli). `sharp` (1) è stato dichiarato obsoleto. Utilizzare `sharp2` (4) per ottenere i migliori risultati.
 
 ## Predefinito {#section-35f980e745fc4d79a2621e8abacc724d}
 
-Ereditato da `default::ResMode` se non definito o se vuoto.
+Ereditato da `default::ResMode` se non è definita o se è vuota.
 
 ## Consultate anche {#section-6c86322b52e9418093d189e9b29dbb75}
 

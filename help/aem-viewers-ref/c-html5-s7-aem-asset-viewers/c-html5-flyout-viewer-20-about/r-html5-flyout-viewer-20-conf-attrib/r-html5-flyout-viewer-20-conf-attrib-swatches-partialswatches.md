@@ -8,7 +8,7 @@ exl-id: c689102d-360f-4529-9f17-27835dd4e21e
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Specifica se il componente consente l’arresto dello scorrimento quando uno dei campioni è parzialmente visibile (lo scorrimento non è allineato). Il valore consigliato è <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Specifica se il componente consente l'interruzione dello scorrimento se uno dei campioni è parzialmente visibile (lo scorrimento non è allineato). Il valore consigliato è <span class="codeph"> false</span> o <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

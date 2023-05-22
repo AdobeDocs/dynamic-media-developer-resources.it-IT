@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Svuota le risorse dal cestino IPS.
 
-Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o fino a quando non esauriscono il cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo lavoro di pulizia (normalmente notturno) quando vengono infine eliminati dal sistema. Se scadono dal cestino, le risorse vengono eliminate come parte della stessa attività di pulizia. Il timeout è configurabile (il valore predefinito è 7 giorni).
+Le risorse rimangono nel cestino finché non vengono svuotate manualmente o finché non escono dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo lavoro di pulizia (normalmente notturno), quando vengono infine eliminati dal sistema. Se escono dal cestino, le risorse vengono pulite come parte della stessa attività di pulizia. Il timeout è configurabile (l’impostazione predefinita è 7 giorni).
 
 ## Tipi di utenti autorizzati {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -33,22 +33,22 @@ Le risorse vivono nel cestino fino a quando non vengono svuotate manualmente o f
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | xsd:string | Sì | L’handle dell’azienda proprietaria delle risorse. |
-| assetHandleArray | tipi:HandleArray | Sì | Matrice di maniglie che rappresentano gli elementi da svuotare dal cestino. |
+| companyHandle | xsd:stringa | Sì | Handle per l&#39;azienda proprietaria delle risorse. |
+| assetHandleArray | tipi:HandleArray | Sì | Array di handle che rappresentano gli elementi da svuotare dal cestino. |
 
 **Output (emptyAssetsFromTrashParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | successCount | xsd:Int | Sì | Numero di risorse svuotate dal cestino. |
-| warningCount | xsd:Int | Sì | Numero di avvisi generati quando l’operazione tentava di svuotare le risorse dal cestino. |
-| errorCount | xsd:Int | Sì | Il numero di errori generati quando l&#39;operazione tentava di svuotare le risorse dal cestino. |
-| warningDetailArray | tipi:AssetOperationFaultArray | No | Array di dettagli associati alle risorse che hanno generato avvisi quando l’operazione tentava di svuotarle dal cestino. |
-| errorDetailArray | tipi:AssetOperationFaultArray | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione tentava di svuotarle dal cestino. |
+| warningCount | xsd:Int | Sì | Numero di avvisi generati quando l’operazione ha tentato di svuotare le risorse dal cestino. |
+| errorCount | xsd:Int | Sì | Numero di errori generati quando l’operazione ha tentato di svuotare le risorse dal cestino. |
+| warningDetailArray | tipi:AssetOperationFaultArray | No | Matrice di dettagli associata alle risorse che hanno generato avvisi quando l’operazione ha tentato di svuotarle dal cestino. |
+| errorDetailArray | tipi:AssetOperationFaultArray | No | Array di dettagli associati alle risorse che hanno generato errori quando l’operazione ha tentato di svuotarle dal cestino. |
 
 ## Esempi {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Questo esempio di codice utilizza l’handle dell’azienda e una matrice di handle di risorsa che contiene gli handle per le risorse da svuotare dal cestino.
+In questo esempio di codice vengono utilizzati l&#39;handle della società e un array di handle di risorsa contenente gli handle delle risorse da svuotare dal cestino.
 
 **Request Contents (Richiesta contenuto)**
 

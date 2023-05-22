@@ -8,7 +8,7 @@ exl-id: 72429030-200d-4e13-a537-10a728998a26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| setHandle | `xsd:string` | Sì | L&#39;handle della proprietà impostata per l&#39;eliminazione. |
+| setHandle | `xsd:string` | Sì | Handle della proprietà impostata per l&#39;eliminazione. |
 
 **Output (deletePropertySetParam)**
 
@@ -39,7 +39,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Questo esempio di codice utilizza l&#39;handle del set come campo nel `deletePropertySetParam` inviato al server dei servizi Web IPS per eliminare il set di proprietà.
+In questo esempio di codice viene utilizzato l’handle del set come campo nel `deletePropertySetParam` inviato al server dei servizi Web IPS per eliminare il set di proprietà.
 
 **Request Contents (Richiesta contenuto)**
 

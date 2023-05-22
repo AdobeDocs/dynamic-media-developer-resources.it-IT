@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -35,16 +35,16 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda a cui appartiene il lavoro. |
-| jobHandle | `xsd:string` | Sì | L&#39;handle del processo da eliminare. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda a cui appartiene il processo. |
+| jobHandle | `xsd:string` | Sì | Handle del processo da eliminare. |
 
-**Uscita**
+**Output**
 
 L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Questo esempio di codice elimina un processo in esecuzione o pianificato per l&#39;esecuzione in IPS. Richiede un handle di lavoro, che è necessario ottenere da un&#39;altra operazione.
+Questo esempio di codice elimina un processo in esecuzione o pianificato per l&#39;esecuzione in IPS. Richiede un handle di processo che è necessario ottenere da un&#39;altra operazione.
 
 **Request Contents (Richiesta contenuto)**
 

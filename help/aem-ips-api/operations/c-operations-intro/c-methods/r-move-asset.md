@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -33,9 +33,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
 | assetHandle | `xsd:string` | Sì | Gestisci la risorsa da spostare. |
-| folderHandle | `xsd:string` | Sì | Gestisci la cartella di destinazione. |
+| folderHandle | `xsd:string` | Sì | Gestisci fino alla cartella di destinazione. |
 
 **Output (moveAssetReturn)**
 
@@ -43,7 +43,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Questo codice di esempio sposta una risorsa in una cartella.
+Questo esempio di codice sposta una risorsa in una cartella.
 
 **Request Contents (Richiesta contenuto)**
 

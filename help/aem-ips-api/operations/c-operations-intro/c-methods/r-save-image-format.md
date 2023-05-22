@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ Crea un formato immagine.
 
 >[!NOTE]
 >
->La `urlModifier` il valore del campo deve essere costituito da un XML valido. Ad esempio, modifica `&` a `&`. Ottieni il `urlModfier` dall&#39;interfaccia utente IPS.
+>Il `urlModifier` il valore del campo deve essere costituito da un XML valido. Ad esempio, modifica `&` a `&`. Ottieni `urlModfier` dall&#39;interfaccia utente IPS.
 
 ## Tipi di utenti autorizzati {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,10 +33,10 @@ Crea un formato immagine.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con il formato immagine con cui desideri lavorare. |
-| imageFormatHandle | `xsd:string` | No | Maniglia del formato immagine da salvare. |
-| name | `xsd:string` | Sì | Nome del formato immagine. |
-| urlModifier | `xsd:string` | Sì | Può essere una qualsiasi stringa di query del protocollo IPS. Il modo più semplice per generare un modificatore URL è quello di crearne uno con l’interfaccia utente IPS, quindi tagliare e incollare la stringa di query. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda con il formato immagine che si desidera utilizzare. |
+| imageFormatHandle | `xsd:string` | No | Handle di formato immagine da salvare. |
+| nome | `xsd:string` | Sì | Nome formato immagine. |
+| urlModifier | `xsd:string` | Sì | Può trattarsi di qualsiasi stringa di query del protocollo IPS. Il modo più semplice per generare un modificatore URL è crearne uno con l’interfaccia utente IPS e quindi tagliare e incollare la stringa di query. |
 
 **Output (saveImageFormatReturn)**
 

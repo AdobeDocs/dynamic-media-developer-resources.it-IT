@@ -8,7 +8,7 @@ exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -33,17 +33,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
 
 **Output (getProjectsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | Sì | L&#39;array di progetti associati all&#39;azienda. |
+| projectArray | `types:ProjectArray` | Sì | L’array di progetti associati all’azienda. |
 
 ## Esempi {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Questo esempio di codice restituisce tutti gli handle di progetto in una matrice di progetto.
+In questo esempio di codice vengono restituiti tutti gli handle di progetto in una matrice di progetto.
 
 **Request Contents (Richiesta contenuto)**
 

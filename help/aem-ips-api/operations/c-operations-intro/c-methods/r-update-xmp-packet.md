@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -34,9 +34,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| assetHandle | `xsd:string` | Sì | Gestione risorse. |
-| compressedPacket | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] XMP pacchetto da impostare o aggiornare. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| assetHandle | `xsd:string` | Sì | Handle risorsa. |
+| compressedPacket | `xsd:Base 64 binary` | Sì | [!DNL zlib-compressed] Pacchetto XMP da impostare o aggiornare. |
 
 **Output (updateXMPPacketReturn)**
 

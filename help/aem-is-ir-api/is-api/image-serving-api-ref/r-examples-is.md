@@ -1,6 +1,6 @@
 ---
 title: Esempi di Image Server
-description: Questa pagina verrà collegata agli esempi di Image Server.
+description: Questa pagina contiene un collegamento agli esempi del server immagini.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Esempi di Image Server{#image-server-examples}
 
-Questo argomento verrà collegato agli esempi di Image Server.
+Questo argomento contiene un collegamento agli esempi del server immagini.
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

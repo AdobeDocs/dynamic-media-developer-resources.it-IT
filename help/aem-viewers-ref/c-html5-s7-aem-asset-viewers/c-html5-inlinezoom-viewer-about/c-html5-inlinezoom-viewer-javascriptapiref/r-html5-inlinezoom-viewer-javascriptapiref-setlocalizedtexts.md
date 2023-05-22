@@ -1,6 +1,6 @@
 ---
-title: setLocalizedText
-description: Riferimento API JavaScript per visualizzatore zoom in linea.
+title: setLocalizedTexts
+description: Riferimento API JavaScript per il visualizzatore zoom in linea.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# setLocalizedText{#setlocalizedtexts}
+# setLocalizedTexts{#setlocalizedtexts}
 
-Riferimento API JavaScript per visualizzatore zoom in linea.
+Riferimento API JavaScript per il visualizzatore zoom in linea.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,12 +22,12 @@ Riferimento API JavaScript per visualizzatore zoom in linea.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} Oggetto JSON con dati di localizzazione. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente </a> per ulteriori informazioni. </p> <p>Consulta la sezione <i>Guida utente dell’SDK per visualizzatori</i> e nell'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente </a> per ulteriori informazioni. </p> <p>Consulta la <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta i valori SYMBOL di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
+Imposta i valori del SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 

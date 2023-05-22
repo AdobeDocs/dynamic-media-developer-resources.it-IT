@@ -1,20 +1,20 @@
 ---
-description: Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
+description: Reimposta lo stato di pubblicazione di una o più risorse in modo che vengano ripubblicate al successivo processo di pubblicazione.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 8%
 
 ---
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Ripristina lo stato di pubblicazione di una o più risorse per forzare la ripubblicazione della risorsa nel successivo processo di pubblicazione.
+Reimposta lo stato di pubblicazione di una o più risorse in modo che vengano ripubblicate al successivo processo di pubblicazione.
 
 Sintassi
 
@@ -43,21 +43,21 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestisci l’azienda contenente le risorse da reimpostare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di consegna. Predefinito su <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di consegna. Impostazione predefinita <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per elaborare la risorsa vengono sincronizzati per garantirne l’aggiornamento. Questo parametro viene utilizzato per risolvere le condizioni di corsa che potrebbero verificarsi in caso di aggiornamenti simultanei vicini allo stesso record. Valori predefiniti in <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per distribuire la risorsa vengono sincronizzati per garantire che sia corrente. Questo parametro viene utilizzato per risolvere le condizioni di tipo "race condition" che possono verificarsi in aggiornamenti quasi simultanei dello stesso record. Impostazione predefinita <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 

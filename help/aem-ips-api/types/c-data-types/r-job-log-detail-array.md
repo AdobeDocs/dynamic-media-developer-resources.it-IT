@@ -1,20 +1,20 @@
 ---
-description: Array di dettagli del registro di lavoro.
+description: Array dei dettagli del registro processo.
 solution: Experience Manager
-title: MatriceLogDettaglioProcesso
+title: JobLogDetailArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 21%
+ht-degree: 13%
 
 ---
 
 # [!DNL JobLogDetailArray]{#joblogdetailarray}
 
-Array di dettagli del registro di lavoro.
+Array dei dettagli del registro processo.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:JobLogDetail` | Matrice di dettagli del registro di lavoro. |
+| elementi | `types:JobLogDetail` | Array dei dettagli del registro di processo. |

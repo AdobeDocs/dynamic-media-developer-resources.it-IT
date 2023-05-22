@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 29%
 
 ---
 
@@ -22,7 +22,7 @@ Attributo di configurazione per il visualizzatore Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Abilita o disabilita la visualizzazione dell’animazione del buffering (icona di attesa). </p> </td> 
+   <td colname="col2"> <p> Attiva o disattiva la visualizzazione dell'animazione di buffering (icona di attesa). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Aggiunge utenti da una società specifica a un gruppo specifico.
+description: Aggiunge gli utenti di una società specifica a un gruppo specifico.
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # addGroupMembers{#addgroupmembers}
 
-Aggiunge utenti da una società specifica a un gruppo specifico.
+Aggiunge gli utenti di una società specifica a un gruppo specifico.
 
 Sintassi
 
@@ -30,9 +30,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
-| groupHandle | `xsd:string` | Sì | La maniglia del gruppo. |
-| userHandleArray | `types:HandleArray` | Sì | Matrice di handle per gli utenti che si desidera aggiungere a un gruppo. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
+| groupHandle | `xsd:string` | Sì | Handle del gruppo. |
+| userHandleArray | `types:HandleArray` | Sì | Array di handle per gli utenti che desideri aggiungere a un gruppo. |
 
 **Output (addGroupMembersParam)**
 

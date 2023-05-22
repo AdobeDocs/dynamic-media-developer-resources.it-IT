@@ -8,7 +8,7 @@ exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Parametro comune a tutti i visualizzatori.
 
 >[!NOTE]
 >
->Questo comando non si applica al visualizzatore di immagini video.
+>Questo comando non è applicabile al Visualizzatore immagini video.
 
 ` config2= *`companypreset`*`
 
@@ -26,7 +26,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Nome del predefinito di configurazione <span class="keyword"> Adobe Analytics</span>. </p> </td> 
+   <td colname="col2"> <p> Nome del <span class="keyword"> Adobe Analytics</span> predefinito di configurazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -24,10 +24,10 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini che desideri modificare. |
-| assetHandle | `xsd:string` | Sì | La maniglia del set di immagini che si desidera modificare. |
-| setDefinition | `xsd:string` | No | Ripristina i membri del set di immagini. |
-| thumbAssetHandle | `xsd:string` | No | La maniglia della risorsa che agisce come miniatura del set di immagini. |
+| companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda contenente il set di immagini che si desidera modificare. |
+| assetHandle | `xsd:string` | Sì | Handle del set di immagini da modificare. |
+| setDefinition | `xsd:string` | No | Reimposta i membri del set di immagini. |
+| thumbAssetHandle | `xsd:string` | No | Handle della risorsa che funge da miniatura per il set di immagini. |
 
 **Output (updateAssetSetReturn)**
 

@@ -1,34 +1,34 @@
 ---
 title: setVideo
-description: Riferimento API JavaScript per il visualizzatore video360
+description: Riferimento API JavaScript per Visualizzatore Video360
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 3%
 
 ---
 
 # setVideo{#setvideo}
 
-Riferimento API JavaScript per il visualizzatore video360
+Riferimento API JavaScript per Visualizzatore Video360
 
 `setVideo(videoUrl)`
 
-Imposta il nuovo video esterno. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
+Imposta il nuovo video esterno. Può essere chiamato in qualsiasi momento, sia prima che dopo `init()`. Se chiamato dopo `init()`, il visualizzatore scambia il video in fase di esecuzione.
 
-Vedere anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
 ## Parametri {#section-b6affc90b3a84584b684641c86862e01}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} un URL assoluto al nuovo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} un URL assoluto per il nuovo video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

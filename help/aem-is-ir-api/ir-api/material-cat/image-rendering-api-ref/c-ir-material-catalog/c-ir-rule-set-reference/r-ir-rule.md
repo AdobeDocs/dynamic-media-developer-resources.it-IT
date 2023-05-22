@@ -1,28 +1,28 @@
 ---
-description: Elemento della regola di richiesta. Uno o più sono facoltativi nell’elemento <ruleset> .
+description: Elemento regola di richiesta. Uno o più sono facoltativi nel <ruleset> elemento.
 solution: Experience Manager
 title: regola
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 3%
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
 # regola{#rule}
 
-Elemento della regola di richiesta. Uno o più sono facoltativi nell’elemento `<ruleset>`.
+Elemento regola di richiesta. Uno o più sono facoltativi nel `<ruleset>` elemento.
 
 ## Attributi {#section-aa23349645434db99d46957a96f2e1e1}
 
 `OnMatch="break"|"continue"|"error"` Facoltativo. Il valore predefinito è &quot;break&quot;.
 
-` Name=" *``*"` textOptional. Utilizzato per identificare l&#39;elemento `<rule>` nei registri di debug e nei messaggi di errore.
+` Name=" *`text`*"` Facoltativo. Utilizzato per identificare `<rule>` nei registri di debug e nei messaggi di errore.
 
-Inoltre, gli elementi `<rule>` possono definire uno qualsiasi dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola corrisponde correttamente, sostituiscono gli attributi di catalogo corrispondenti per questa richiesta.
+Inoltre, `<rule>` Gli elementi possono definire uno qualsiasi dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola viene trovata correttamente, ignorano gli attributi di catalogo corrispondenti per questa richiesta.
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
@@ -33,31 +33,31 @@ Inoltre, gli elementi `<rule>` possono definire uno qualsiasi dei seguenti attri
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> DefaultPix  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attributo::DefautPix  </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DefaultPix </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefaultPix </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ErrorImage  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attributo::ErrorImage  </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ErrorImage </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute::ErrorImage </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Scadenza  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> attributo::Scadenza  </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Scade </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> attribute::Scadenza </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MaxPix  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> attributo::MaxPix  </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MaxPix </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RootUrl  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> attributo::RootUrl  </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RootUrl </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> attribute::RootUrl </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Per ulteriori informazioni, consulta la descrizione dell’attributo del catalogo immagini corrispondente.
 
-L&#39;attributo Scadenza sostituisce solo il valore dell&#39;attributo predefinito; viene ignorato se alla richiesta viene applicato un valore specifico `catalog::Expiration`.
+L&#39;attributo Expiration sostituisce solo il valore dell&#39;attributo predefinito; viene ignorato se uno specifico `catalog::Expiration` alla richiesta.
 
 ## Dati {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -78,10 +78,10 @@ L&#39;attributo Scadenza sostituisce solo il valore dell&#39;attributo predefini
 
 ## Note {#section-a27b91f9a03047c0bb7edc0967fb4216}
 
-Se sono specificati sia `<expression>` che `<substitution>` e non vengono utilizzate le sottostringhe acquisite, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
+Se entrambi `<expression>` e `<substitution>` vengono specificati e le sottostringhe acquisite non vengono utilizzate, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
 
-Se `<expression>` non è specificato, qualsiasi percorso corrisponderà e `<substitution>` viene aggiunto alla fine del percorso.
+Se `<expression>` non è specificato, qualsiasi percorso corrisponderà a e `<substitution>` viene aggiunto alla fine del percorso.
 
 Se `<substitution>` non è specificato, la sottostringa corrispondente viene rimossa.
 
-Il valore `<addressfilter>` viene applicato solo quando si verifica una corrispondenza e prima che vengano applicate le regole di query.
+Il `<addressfilter>` viene applicato solo quando si verifica una corrispondenza e prima dell’applicazione delle regole di query.

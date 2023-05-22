@@ -1,5 +1,5 @@
 ---
-description: Una voce in un file ZIP.
+description: Voce in un file ZIP.
 solution: Experience Manager
 title: ZipEntry
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
 # [!DNL ZipEntry]{#zipentry}
 
-Una voce in un file ZIP.
+Voce in un file ZIP.
 
 Sintassi
 
@@ -22,7 +22,7 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| name | `xsd:string` | Nome della voce. |
+| nome | `xsd:string` | Nome voce. |
 | isDirectory | `xsd:boolean` | Determina se la voce è una directory. |
 | lastModified | `xsd:dateTime` | Data e ora dell’ultima modifica. |
 | compressedSize | `xsd:long` | Dimensione compressa. |

@@ -8,7 +8,7 @@ exl-id: 90775d4a-386b-4b56-b75e-8afafe749645
 source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -18,15 +18,15 @@ Riferimento API JavaScript per il visualizzatore panoramico
 
 `setHandlers(handlers)`
 
-Specifica zero o più gestori di callback. Una chiamata a questo metodo sovrascrive completamente i gestori eventi precedentemente assegnati per l&#39;istanza di visualizzatore. Deve essere chiamato prima `init()`.
+Specifica zero o più gestori di callback. Una chiamata a questo metodo sovrascrive completamente i gestori eventi precedentemente assegnati per tale istanza del visualizzatore. Deve essere chiamato prima `init()`.
 
 ## Parametro {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gestori </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Oggetto JSON con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell’evento del visualizzatore supportato e il valore della proprietà è un riferimento alla funzione JavaScript per un callback appropriato. </p> <p>Per ulteriori informazioni sugli eventi del visualizzatore, consulta la sezione Callback evento . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handler </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Oggetto JSON con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell'evento del visualizzatore supportato e il valore della proprietà è un riferimento della funzione JavaScript a un callback appropriato. </p> <p>Per ulteriori informazioni sugli eventi visualizzatore, consulta la sezione Callback di eventi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

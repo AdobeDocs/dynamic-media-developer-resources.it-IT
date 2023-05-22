@@ -1,14 +1,14 @@
 ---
-description: PostScriptInfo
+description: InfoPostScript
 solution: Experience Manager
-title: PostScriptInfo
+title: InfoPostScript
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9d226927-3b00-4e11-b279-e866aa649477
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '16'
-ht-degree: 37%
+ht-degree: 18%
 
 ---
 

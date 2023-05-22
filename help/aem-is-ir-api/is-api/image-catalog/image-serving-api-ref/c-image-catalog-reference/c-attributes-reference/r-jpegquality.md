@@ -1,28 +1,28 @@
 ---
-description: Attributi di codifica JPEG predefiniti. Specifica gli attributi predefiniti per le immagini di risposta JPEG.
+description: Attributi di codifica predefiniti di JPEG. Specifica gli attributi predefiniti per le immagini di risposta di JPEG.
 solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
 # JpegQuality{#jpegquality}
 
-Attributi di codifica JPEG predefiniti. Specifica gli attributi predefiniti per le immagini di risposta JPEG.
+Attributi di codifica predefiniti di JPEG. Specifica gli attributi predefiniti per le immagini di risposta di JPEG.
 
 ## Proprietà {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1.100 e definisce la qualità. Il secondo valore può essere 0 per il comportamento normale, o 1 per disabilitare il campionamento al ribasso della cromaticità RGB solitamente utilizzato dagli encoder JPEG.
+Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1..100 e definisce la qualità. Il secondo valore può essere 0 per il comportamento normale o 1 per disattivare il downsampling della cromaticità RGB solitamente utilizzato dagli encoder JPEG.
 
 ## Predefinito {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-Ereditato da `default::JpegQuality` se non definito o se vuoto.
+Ereditato da `default::JpegQuality` se non è definita o se è vuota.
 
 ## Consultate anche {#section-aa994afc02ea4f799655233ea32d36c9}
 

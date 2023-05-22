@@ -1,20 +1,20 @@
 ---
-description: Matrice di condizioni del campo di sistema.
+description: Matrice di condizione del campo di sistema.
 solution: Experience Manager
-title: SystemFieldConditionArray
+title: MatriceCondizioneCampoSistema
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 21%
+ht-degree: 13%
 
 ---
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-Matrice di condizioni del campo di sistema.
+Matrice di condizione del campo di sistema.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:SystemFieldConditions` | Matrice di condizioni del campo di sistema. |
+| elementi | `types:SystemFieldConditions` | Array delle condizioni dei campi di sistema. |

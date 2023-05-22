@@ -1,6 +1,6 @@
 ---
-title: Icona, effetto
-description: L'indicatore di rotazione viene sovrapposto all'area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
+title: Effetto icona
+description: L'indicatore di rotazione è sovrapposto all'area di visualizzazione principale. Viene visualizzata quando l'immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# Icona, effetto{#icon-effect}
+# Effetto icona{#icon-effect}
 
-L&#39;indicatore di rotazione viene sovrapposto all&#39;area di visualizzazione principale. Viene visualizzato quando l’immagine è in uno stato di reset e dipende anche dal parametro iconeffect .
+L&#39;indicatore di rotazione è sovrapposto all&#39;area di visualizzazione principale. Viene visualizzata quando l&#39;immagine è in stato di ripristino e dipende anche dal parametro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7spinviewer .s7spinview .s7iconeffect
@@ -35,25 +35,25 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Grafico indicatore a 360 gradi. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Illustrazione dell'indicatore di rotazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza indicatore a 360 gradi. </p> </td> 
+   <td colname="col2"> <p>Larghezza indicatore di rotazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza indicatore a 360 gradi. </p> </td> 
+   <td colname="col2"> <p>Altezza indicatore di rotazione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L&#39;indicatore a 360 gradi supporta `state` selettore di attributi impostato su `spin_1D` se è presente un set 360 gradi dimensionale singolo, e `spin_2D` se è presente un set 360 gradi multidimensionale.
+L&#39;indicatore di rotazione supporta `state` selettore di attributi impostato su `spin_1D` se è presente un set 360 gradi monodimensionale, e a `spin_2D` se è presente un set 360 gradi multidimensionale.
 
 Esempio: per impostare un indicatore di zoom di 100 x 100 pixel.
 

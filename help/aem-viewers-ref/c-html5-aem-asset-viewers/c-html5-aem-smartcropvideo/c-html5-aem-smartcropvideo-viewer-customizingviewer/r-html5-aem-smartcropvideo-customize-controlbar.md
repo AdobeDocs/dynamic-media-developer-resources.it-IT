@@ -1,10 +1,11 @@
 ---
 title: Barra di controllo
-description: La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore Smart Crop Video, ad esempio il pulsante di riproduzione/pausa e i controlli del volume.
+description: La barra di controllo è l'area rettangolare che contiene e si trova dietro tutti i controlli dell'interfaccia utente disponibili per il visualizzatore di video Ritaglio avanzato, ad esempio il pulsante di riproduzione/pausa e i controlli del volume.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -13,13 +14,13 @@ ht-degree: 1%
 
 # Barra di controllo{#control-bar}
 
-La barra di controllo è l’area rettangolare che contiene e si trova dietro tutti i controlli dell’interfaccia utente disponibili per il visualizzatore Smart Crop Video, ad esempio il pulsante di riproduzione/pausa e i controlli del volume.
+La barra di controllo è l&#39;area rettangolare che contiene e si trova dietro tutti i controlli dell&#39;interfaccia utente disponibili per il visualizzatore di video Ritaglio avanzato, ad esempio il pulsante di riproduzione/pausa e i controlli del volume.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barra di controllo occupa sempre l’intera larghezza del visualizzatore disponibile. È possibile modificarne il colore, l’altezza e la posizione verticale tramite CSS, rispetto al contenitore del visualizzatore video di ritaglio avanzato.
+La barra di controllo accetta sempre l’intera larghezza disponibile del visualizzatore. È possibile modificarne il colore, l’altezza e la posizione verticale in base agli stili CSS, rispetto al contenitore Visualizzatore video ritaglio avanzato.
 
-Il seguente selettore di classe CSS controlla l’aspetto della barra di controllo:
+Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di controllo:
 
 ```
 .s7smartcropvideoviewer .s7controlbar
@@ -42,7 +43,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della barra di control
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +51,7 @@ Il seguente selettore di classe CSS controlla l’aspetto della barra di control
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un visualizzatore video Ritaglio avanzato con una barra di controllo grigia alta 30 pixel e posizionato nella parte superiore del contenitore del visualizzatore video Ritaglio avanzato.
+Per impostare un visualizzatore Ritaglio video automatico con una barra di controllo grigia alta 30 pixel e posizionata nella parte superiore del contenitore del visualizzatore Ritaglio video automatico.
 
 ```
 .s7smartcropvideoviewer .s7controlbar {  

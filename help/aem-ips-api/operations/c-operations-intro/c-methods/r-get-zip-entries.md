@@ -8,7 +8,7 @@ exl-id: eb052685-b750-4a12-b00e-28e676340e98
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda che contiene il file Zip. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda che contiene il file Zip. |
 | assetHandle | `xsd:string` | Sì | Gestisci il file Zip. |
 
 **Output (getZipEntriesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | Sì | Array di voci in un file Zip. |
+| zipArray | `types:ZipEntryArray` | Sì | Matrice di voci in un file ZIP. |
 
 ## Esempi {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Questo esempio di codice restituisce informazioni sul file ZIP, incluse le dimensioni compresse e non compresse.
+In questo esempio di codice vengono restituite informazioni sul file Zip, incluse le dimensioni compresse e non compresse.
 
 **Request Contents (Richiesta contenuto)**
 

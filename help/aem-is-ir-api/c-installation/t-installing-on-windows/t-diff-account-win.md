@@ -1,6 +1,6 @@
 ---
-title: Installazione in un account utente diverso da quello dell'amministratore
-description: Dopo l'installazione, configura i servizi da eseguire con l'altro account utente.
+title: Installazione con un account utente diverso da quello dell'amministratore
+description: Dopo l'installazione, configurare i servizi da eseguire con l'altro account utente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Installazione in un account utente diverso da quello dell&#39;amministratore{#installing-under-a-different-user-account-than-administrator}
+# Installazione con un account utente diverso da quello dell&#39;amministratore{#installing-under-a-different-user-account-than-administrator}
 
-Dopo l&#39;installazione, configura i servizi da eseguire con l&#39;altro account utente.
+Dopo l&#39;installazione, configurare i servizi da eseguire con l&#39;altro account utente.
 
-1. Accedere alle impostazioni dei criteri di protezione locale di Windows selezionando **[!UICONTROL Menu Start]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Pannello di controllo Campaign]** > **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Criteri di sicurezza locali]**.
+1. Accedere alle impostazioni di Criteri di protezione locali di Windows selezionando **[!UICONTROL Menu Start]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Pannello di controllo Campaign]** > **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Criteri di sicurezza locali]**.
 1. Seleziona **[!UICONTROL Impostazioni di protezione]** > **[!UICONTROL Criteri locali]** > **[!UICONTROL Assegnazione diritti utente]**.
-1. Fai doppio clic sul pulsante **[!UICONTROL Accedere come servizio]** politica.
-1. Seleziona **[!UICONTROL Aggiungi..]** e seleziona l&#39;utente o il gruppo, quindi seleziona **[!UICONTROL Ok]** per confermare.
+1. Fai doppio clic su **[!UICONTROL Accedi come servizio]** policy.
+1. Seleziona **[!UICONTROL Aggiungi...]** e seleziona l’Utente o il Gruppo, quindi seleziona **[!UICONTROL Ok]** per confermare.

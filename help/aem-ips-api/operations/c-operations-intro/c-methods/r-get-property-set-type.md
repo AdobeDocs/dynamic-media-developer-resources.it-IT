@@ -1,5 +1,5 @@
 ---
-description: Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle al tipo e al tipo di proprietà.
+description: Ottiene un tipo di set di proprietà utilizzando un handle per una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l'handle per il tipo e il tipo di proprietà.
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # getPropertySetType{#getpropertysettype}
 
-Ottiene un tipo di set di proprietà utilizzando un handle di una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l&#39;handle al tipo e al tipo di proprietà.
+Ottiene un tipo di set di proprietà utilizzando un handle per una società e il nome del tipo di set di proprietà. Ottiene una struttura di tipo con l&#39;handle per il tipo e il tipo di proprietà.
 
 Sintassi
 
@@ -36,8 +36,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | Il manico per l&#39;azienda. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
-| name | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
+| companyHandle | `xsd:string` | No | La maniglia per l&#39;azienda. Facoltativo perché un tipo di set di proprietà può appartenere a più società. |
+| nome | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
 
 **Output (getPropertySetTypeReturn)**
 
@@ -52,13 +52,13 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PropertySetType</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">La struttura del tipo che contiene: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
      <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Maniglia. </li> 
-     <li id="li_6004406A0D1341648A714FF3C61E4004">Digitare il nome. </li> 
+     <li id="li_6004406A0D1341648A714FF3C61E4004">Digita il nome. </li> 
      <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">Tipo di proprietà. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">Valore che indica se il tipo consente più tipi di proprietà. </li> 
     </ul> </td> 
@@ -68,7 +68,7 @@ Sintassi
 
 ## Esempi {#section-1b57199415e34a8fa449f864f8895b14}
 
-Questo esempio di codice restituisce un set di proprietà per nome.
+In questo esempio di codice viene restituito un set di proprietà di tipo per nome.
 
 **Request Contents (Richiesta contenuto)**
 

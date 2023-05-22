@@ -8,7 +8,7 @@ exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| fieldHandle | `xsd:string` | Maniglia del campo di tag. |
+| fieldHandle | `xsd:string` | Handle campo tag. |
 | valueArray | `xsd:StringArray` | Matrice di valori per un campo tag. |

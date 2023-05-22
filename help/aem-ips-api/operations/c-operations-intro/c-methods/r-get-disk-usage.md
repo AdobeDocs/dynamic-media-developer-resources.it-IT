@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ Restituisce informazioni sulla struttura di un&#39;azienda (numero di file, ecc.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle dell&#39;azienda di cui si desidera ottenere l&#39;utilizzo del disco. |
+| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda di cui si desidera ottenere l&#39;utilizzo del disco. |
 
 **Output (getDiskUsageReturn)**
 
@@ -39,7 +39,7 @@ Restituisce informazioni sulla struttura di un&#39;azienda (numero di file, ecc.
 
 ## Esempi {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Il nome della richiesta è fuorviante. Invece di restituire semplicemente un valore scalare che riflette lo spazio su disco utilizzato da un&#39;azienda, ottiene altre informazioni anche sulla struttura di un&#39;azienda.
+Il nome di questa richiesta è fuorviante. Anziché restituire semplicemente un valore scalare che rifletta la quantità di spazio su disco utilizzata da un&#39;azienda, questa ottiene anche altre informazioni sulla struttura di un&#39;azienda.
 
 **Request Contents (Richiesta contenuto)**
 

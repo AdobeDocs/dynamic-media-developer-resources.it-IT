@@ -1,5 +1,5 @@
 ---
-description: Restituisce i gruppi aziendali.
+description: Restituisce i gruppi di società.
 solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
 # getGroups{#getgroups}
 
-Restituisce i gruppi aziendali.
+Restituisce i gruppi di società.
 
 Sintassi
 
@@ -30,17 +30,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Il manico per l&#39;azienda. |
+| companyHandle | `xsd:string` | Sì | La maniglia per l&#39;azienda. |
 
 **Output (getGroupsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| groupArray | `types:GroupArray` | Sì | Matrice di gruppi. |
+| groupArray | `types:GroupArray` | Sì | Array di gruppi. |
 
 ## Esempi {#section-ed0708f611574354bf0c6ea83912b531}
 
-Questo codice restituisce un array contenente tutti i gruppi appartenenti a una società specifica e informazioni specifiche su ciascun gruppo.
+Questo codice restituisce un array che contiene tutti i gruppi che appartengono a una società specifica e informazioni specifiche su ciascun gruppo.
 
 **Request Contents (Richiesta contenuto)**
 

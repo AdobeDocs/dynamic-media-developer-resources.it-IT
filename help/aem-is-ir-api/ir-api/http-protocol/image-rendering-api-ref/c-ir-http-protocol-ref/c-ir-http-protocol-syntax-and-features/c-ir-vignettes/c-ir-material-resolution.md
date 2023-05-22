@@ -1,6 +1,6 @@
 ---
 title: Risoluzione del materiale
-description: Il valore di risoluzione di una texture ripetibile o di altro materiale definisce le dimensioni dell'immagine del materiale nello spazio di coordinate della scena.
+description: Il valore di risoluzione di una texture ripetibile o di altro materiale definisce la dimensione dell'immagine del materiale nello spazio di coordinate della scena.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Risoluzione del materiale{#material-resolution}
 
-Il valore di risoluzione di una texture ripetibile o di altro materiale definisce le dimensioni dell&#39;immagine del materiale nello spazio di coordinate della scena.
+Il valore di risoluzione di una texture ripetibile o di altro materiale definisce la dimensione dell&#39;immagine del materiale nello spazio di coordinate della scena.
 
-I valori di risoluzione della texture sono specificati in pixel per pollice (o in qualunque unità dipenda dalla vignetta per lo spazio di coordinate della scena).
+I valori di risoluzione della texture sono specificati in pixel per pollice (o in base all&#39;unità di misura determinata dalla vignettatura per lo spazio di coordinate della scena).
 
-La risoluzione del materiale è specificata con `res=`.
+La risoluzione del materiale viene specificata con `res=`.

@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.preload
-description: Indica se il visualizzatore inizia a caricare il contenuto video prima dell’avvio della riproduzione.
+description: Indica se il visualizzatore inizia a caricare il contenuto video prima dell’inizio della riproduzione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # SmartCropVideoPlayer.preload{#smartcropvideoplayer-preload}
 
-Indica se il visualizzatore inizia a caricare il contenuto video prima dell’avvio della riproduzione.
+Indica se il visualizzatore inizia a caricare il contenuto video prima dell’inizio della riproduzione.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]preload=0|1`
 
@@ -21,7 +22,7 @@ Indica se il visualizzatore inizia a caricare il contenuto video prima dell’av
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Se impostato su <span class="codeph"> 1 </span> il video inizia a essere scaricato subito dopo l’impostazione della risorsa; in caso contrario, il precaricamento viene avviato solo dopo che l’utente finale o una chiamata API ha avviato la riproduzione. </p> <p>Se impostato su <span class="codeph"> 0 </span> alcune funzioni potrebbero non funzionare finché la riproduzione non riprende; in particolare, l'operazione di ricerca non aggiorna il fotogramma video. Se l’immagine poster è disabilitata, il visualizzatore viene visualizzato come un’area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video può essere ignorata in alcune versioni dei browser Internet Explorer 11 e Edge. </p> </td> 
+   <td colname="col2"> <p> Se impostato su <span class="codeph"> 1 </span> il download del video inizia subito dopo l’impostazione della risorsa; in caso contrario, il precaricamento inizia solo dopo che la riproduzione viene avviata dall’utente finale o da una chiamata API. </p> <p>Se impostato su <span class="codeph"> 0 </span> alcune funzioni potrebbero non funzionare fino a quando la riproduzione non riprende; in particolare, l'operazione di ricerca non aggiorna il fotogramma video. Se l'immagine del poster è disattivata, il visualizzatore viene visualizzato come un'area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video potrebbe essere ignorata in alcune versioni di Internet Explorer 11 e dei browser Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

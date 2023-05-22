@@ -1,18 +1,18 @@
 ---
 description: Utilizzato da ActiveJobs/state.
 solution: Experience Manager
-title: Stati del processo attivo
-feature: Dynamic Media Classic, SDK/API
+title: Stati processo attivi
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 4%
+source-wordcount: '16'
+ht-degree: 6%
 
 ---
 
-# Stati del processo attivo{#active-job-states}
+# Stati processo attivi{#active-job-states}
 
 Utilizzato da ActiveJobs/state.
 

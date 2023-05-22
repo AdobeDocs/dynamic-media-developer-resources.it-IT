@@ -1,5 +1,5 @@
 ---
-description: Di seguito è riportato l'elenco delle parole chiave e dei comandi supportati dal motore di testo Scene 7 Image Serving.
+description: Di seguito è riportato un elenco di parole chiave e comandi supportati dal motore di testo di Scene 7 Image Server.
 solution: Experience Manager
 title: Comandi e parole chiave RTF supportati
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Comandi e parole chiave RTF supportati{#supported-rtf-commands-and-keywords}
 
-Di seguito è riportato l&#39;elenco delle parole chiave e dei comandi supportati dal motore di testo Scene 7 Image Serving.
+Di seguito è riportato un elenco di parole chiave e comandi supportati dal motore di testo di Scene 7 Image Server.
 
-Per informazioni dettagliate su ciascuna parola chiave o comando, fare riferimento alla specifica [RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) pubblicata.
+Consulta la documentazione pubblicata [Specifiche RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) per informazioni dettagliate su ogni parola chiave o comando.
 
 I comandi RTF non elencati di seguito vengono ignorati dal parser.
 
 * [Proprietà documento (casella di testo)](r-document-text-box-properties.md)
 * [Formattazione paragrafo](r-paragraph-formatting.md)
-* [Formattazione dei caratteri di base](r-basic-character-formatting.md)
+* [Formattazione caratteri di base](r-basic-character-formatting.md)
 * [Formattazione testo avanzata](r-advanced-text-formatting.md)
 * [Entità di testo speciali](r-special-text-entities.md)
 * [Codifica caratteri](r-is-http-character-encoding.md)

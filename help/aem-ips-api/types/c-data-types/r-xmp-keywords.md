@@ -1,20 +1,20 @@
 ---
-description: Parole chiave per piattaforma di metadati estensibili di una risorsa.
+description: Parole chiave della piattaforma di metadati estensibili di una risorsa.
 solution: Experience Manager
-title: Parole chiave Xmp
+title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-Parole chiave per piattaforma di metadati estensibili di una risorsa.
+Parole chiave della piattaforma di metadati estensibili di una risorsa.
 
 Sintassi
 
@@ -30,9 +30,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Un elenco separato da virgole di parole chiave che vengono unite nel <span class="codeph"> dc:subject=</span> nodo di proprietà XMP. Se una virgola viene visualizzata in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> elementi</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col3"> <p>Un elenco separato da virgole di parole chiave che vengono unite nel <span class="codeph"> dc:subject=</span> Nodo delle proprietà XMP. Se una virgola appare in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

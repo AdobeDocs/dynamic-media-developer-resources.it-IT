@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Gestisci l&#39;utente di cui desideri restituire le informazioni. |
-| e-mail | `xsd:string` | No | Indirizzo e-mail utente. |
+| userHandle | `xsd:string` | No | Gestisci per l’utente di cui desideri restituire le informazioni. |
+| email | `xsd:string` | No | Indirizzo e-mail utente. |
 
 **Output (getUserInfoReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userInfo | `types:User` | Sì | Nome, cognome, indirizzo e-mail e ruolo di un utente, se l’utente è valido e quando scade la password dell’utente. |
+| userInfo | `types:User` | Sì | Il nome, il cognome, l’indirizzo e-mail e il ruolo di un utente, nonché se l’utente è valido e quando scade la password dell’utente. |
 
 ## Esempi {#section-98d77a2e360a438dbe240099bea26a65}
 
-Questo esempio di codice restituisce informazioni per l&#39;utente IPS predefinito.
+In questo esempio di codice vengono restituite informazioni per l&#39;utente IPS predefinito.
 
 **Request Contents (Richiesta contenuto)**
 

@@ -1,6 +1,6 @@
 ---
 title: Pulsante Prima pagina
-description: Tocca o fai clic su questo pulsante per passare alla prima pagina del catalogo. Questo pulsante appare nella barra di controllo principale sui sistemi desktop e tablet; sui telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+description: Toccando o facendo clic su questo pulsante si accede alla prima pagina del catalogo. Questo pulsante viene visualizzato nella barra di controllo principale dei sistemi desktop e dei tablet, mentre nei telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Pulsante Prima pagina{#first-page-button}
 
-Tocca o seleziona questo pulsante per portare l’utente alla prima pagina del catalogo. Questo pulsante appare nella barra di controllo principale sui sistemi desktop e tablet; sui telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, skin e posizionare questo pulsante utilizzando CSS.
+Selezionando o toccando questo pulsante, l’utente arriva alla prima pagina del catalogo. Questo pulsante viene visualizzato nella barra di controllo principale dei sistemi desktop e dei tablet, mentre nei telefoni cellulari viene aggiunto a una barra di controllo secondaria. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogviewer .s7firstpagebutton .s7panleftbutton`
 
@@ -34,19 +34,19 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), compresa la spaziatura. </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale (su sistemi desktop e tablet) o della barra di controllo secondaria (su telefoni cellulari), inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,23 +57,23 @@ L’aspetto del pulsante è controllato con il seguente selettore di classe CSS:
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante di prima pagina di 28 x 28 pixel e posizionato 4 pixel dal fondo e 220 pixel dal bordo sinistro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro stati del pulsante.
+Esempio: per impostare un pulsante della prima pagina di 28 x 28 pixel posizionato a 4 pixel dal basso e a 220 pixel dal bordo sinistro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7ecatalogviewer .s7firstpagebutton .s7panleftbutton { 

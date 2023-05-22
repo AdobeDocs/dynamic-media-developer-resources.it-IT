@@ -8,7 +8,7 @@ exl-id: de02d058-e538-4d67-9413-e2e47dd2fd67
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -25,9 +25,9 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
  </tr> 
 </table>
 
-La risoluzione di stampa è definita normalmente dal valore della risoluzione di stampa incorporato nella vignetta.
+La risoluzione di stampa è normalmente definita dal valore di risoluzione di stampa incorporato nella vignettatura.
 
-L&#39;impostazione della risoluzione di stampa non modifica la dimensione in pixel dell&#39;immagine di risposta.
+L&#39;impostazione della risoluzione di stampa non modifica le dimensioni in pixel dell&#39;immagine di risposta.
 
 ## Proprietà {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
@@ -35,4 +35,4 @@ Può essere specificato in qualsiasi punto della richiesta.
 
 ## Predefinito {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-Risoluzione di stampa incorporata nella vignetta.
+Risoluzione di stampa incorporata nella vignettatura.

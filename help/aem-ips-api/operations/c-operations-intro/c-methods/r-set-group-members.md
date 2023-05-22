@@ -1,5 +1,5 @@
 ---
-description: Imposta l'iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
+description: Imposta l'appartenenza al gruppo degli utenti che appartengono a una società specifica.
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -8,15 +8,15 @@ exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # setGroupMembers{#setgroupmembers}
 
-Imposta l&#39;iscrizione al gruppo degli utenti che appartengono a una specifica azienda.
+Imposta l&#39;appartenenza al gruppo degli utenti che appartengono a una società specifica.
 
-L&#39;operazione genera un errore di autenticazione se non si dispone dei privilegi per eseguire questa operazione. Questo vale anche se uno degli utenti dell&#39;array di handle utente non appartiene alla società specificata nell&#39;handle della società,
+Se non si dispone dei privilegi necessari per eseguire l&#39;operazione, verrà generato un errore di autenticazione. Ciò vale anche se uno qualsiasi degli utenti nell’array dell’handle utente non appartiene all’azienda specificata nell’handle aziendale,
 
 ## Tipi di utenti autorizzati {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,8 +30,8 @@ L&#39;operazione genera un errore di autenticazione se non si dispone dei privil
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| groupHandle | `xsd:string` | Sì | Maniglia di gruppo. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| groupHandle | `xsd:string` | Sì | Handle di gruppo. |
 | userHandleArray | `types:HandleArray` | Sì | Array di handle per gli utenti di cui si desidera impostare l&#39;appartenenza al gruppo. |
 
 **Output (setGroupMembesReturn)**

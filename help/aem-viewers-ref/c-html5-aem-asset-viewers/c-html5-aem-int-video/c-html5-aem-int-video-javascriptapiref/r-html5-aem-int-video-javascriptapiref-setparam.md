@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per il visualizzatore video interattivo.
+description: Riferimento API JavaScript per Visualizzatore video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,33 +8,33 @@ exl-id: 820379e5-04ef-4840-85ca-bbfd9b42cf17
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore video interattivo.
+Riferimento API JavaScript per Visualizzatore video interattivo.
 
 ` setParam( *`nome, valore`*)`
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro è un&#39;opzione di configurazione specifica per il visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con l&#39;oggetto JSON `config` al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON per il costruttore.
 
-Vedere anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 ## Parametri {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> nome del parametro. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nome </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> nome del parametro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valore </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valore del parametro. Il valore non può essere codificato in percentuale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

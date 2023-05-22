@@ -2,13 +2,13 @@
 description: SearchPanel.maxloadradius
 solution: Experience Manager
 title: SearchPanel.maxloadradius
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c2bbcb99-eeef-4793-a132-d0bd1fefb534
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> precaricare</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, tutte le miniature vengono caricate simultaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p> Se impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Imposta <span class="codeph"><span class="varname"> preload</span></span> per definire quante righe invisibili vengono precaricate intorno all'area visibile. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa cambia. </p> <p> Se impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Imposta <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe invisibili vengono precaricate attorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>

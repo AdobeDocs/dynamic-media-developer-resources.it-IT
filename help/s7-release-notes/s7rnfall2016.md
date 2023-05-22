@@ -1,6 +1,6 @@
 ---
-title: Rilascio di Scene7 - Autunno 2016
-description: '"Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016, parte della soluzione Adobe Experience Manager di Adobe Experience Cloud."'
+title: Versione autunno 2016 di Scene7
+description: '"Note aggiornate sulla versione di Adobe Scene7 Autunno 2016, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud".'
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# Rilascio di Scene7 - Autunno 2016{#scene-fall-release}
+# Versione autunno 2016 di Scene7{#scene-fall-release}
 
 Note aggiornate sulla versione di Adobe Scene7 - Autunno 2016 - parte della soluzione Adobe Experience Manager in Adobe Experience Cloud.
 
-## Rilascio di Scene7 - Autunno 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Versione autunno 2016 di Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Note aggiornate sulla versione di [!DNL Adobe Scene7] Versione Autunno 2016 del [!DNL Adobe Experience Manager] nella [!DNL Adobe Experience Cloud].
+Note aggiornate sulla versione di [!DNL Adobe Scene7] Versione di autunno 2016 - parte del [!DNL Adobe Experience Manager] soluzione in [!DNL Adobe Experience Cloud].
 
 * [Generali](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
-* [Visualizzatori (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
-* [Visualizzatori (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
-* [Visualizzatori (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Image Serving 6.3.2 e Image Rendering 6.3.2 di Dynamic Media Classic](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Visualizzatori (Image Server 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
+* [Visualizzatori (Image Server 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
+* [Visualizzatori (Image Server 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
+* [SDK visualizzatore HTML5 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Classic Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Generali {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-L’Adobe è entusiasta di annunciare la disponibilità della distribuzione di contenuti HTTP/2 con il vantaggio complessivo di migliorare le prestazioni.
+Adobe è entusiasta di annunciare la disponibilità della distribuzione HTTP/2 dei contenuti che offre il vantaggio complessivo di prestazioni migliorate.
 
-Vedi [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
@@ -40,282 +40,282 @@ Per la documentazione completa, consulta [https://experienceleague.adobe.com/doc
 
 **Nuove funzioni, miglioramenti e correzioni di bug**
 
-* Funzione di recupero video rimossa da [!DNL Adobe Scene7 Publishing System] interfaccia utente.
-* Aggiunta dell’autenticazione a tutti i servlet Scene7, se necessario e possibile
-* Correzione di bug che coinvolgono la visualizzazione elenco nel cestino.
-* Rimosso **Crea amministratore Dynamic Media Classic (Scene7)** funzionalità utente di Gestione utente a causa di problemi di sicurezza.
-* WebAdmin FTP ora supporta l’autenticazione OKTA.
+* Funzione di remix video rimossa da [!DNL Adobe Scene7 Publishing System] dell&#39;utente.
+* È stata aggiunta l’autenticazione a tutti i servlet Scene7, ove necessario e possibile
+* Correzione di bug relativi alla vista a elenco nel cestino.
+* Rimosso **Crea amministratore Dynamic Media Classic (Scene7)** funzionalità utente di Gestione utenti a causa di problemi di sicurezza.
+* FTP WebAdmin ora supporta l&#39;autenticazione OKTA.
 * È stata rimossa la funzione della password predefinita creata per i nuovi utenti di Media Portal.
-* Correzione di bug relativi alla password temporanea generata all&#39;aggiunta di un nuovo utente. La password non soddisfa i requisiti necessari.
-* Sono stati risolti i problemi relativi al disco radice WebAdmin pieno.
-* Correzione di bug che comportano la disattivazione di un utente che non si riflette immediatamente nell&#39;interfaccia utente.
-* Correzione di bug che comporta l’eliminazione di un utente che non consentiva di ricreare l’utente in un secondo momento.
-* Correzione di bug relativi all&#39;e-mail di benvenuto inviata ai nuovi utenti Scene7 che non includevano l&#39;autenticazione per controllare alcune impostazioni.
-* Correzione di bug che causava il mancato recupero di un elenco di cartelle FTP se il nome di una cartella conteneva caratteri speciali.
-* Configura i provider di servizi OKTA per gli ambienti Scene7.
-* È stato aggiunto il supporto per ID organizzazione Experience Cloud per Viewer Analytics.
-* Implementazione del consumer Scene7 SAML.
+* Correzione di bug relativi alla password temporanea generata quando è stato aggiunto un nuovo utente. La password non soddisfa i requisiti necessari.
+* Risoluzione dei problemi relativi al disco radice WebAdmin pieno.
+* Correzione di bug che comporta la disabilitazione di un utente che non viene riflessa immediatamente nell’interfaccia utente.
+* Correzione di bug che comporta l’eliminazione di un utente e che non ti ha consentito di ricrearlo in un secondo momento.
+* Correzione di bug relativi all’e-mail di benvenuto inviata ai nuovi utenti di Scene7 che non includevano l’autenticazione per controllare alcune impostazioni.
+* Correzione di bug a causa del quale non è stato possibile recuperare un elenco di cartelle FTP se il nome di una cartella conteneva caratteri speciali.
+* Configurare i provider di servizi OKTA per gli ambienti Scene7.
+* È stato aggiunto il supporto per l’ID organizzazione di Experience Cloud per Viewer Analytics.
+* Implementato consumer SAML di Scene7.
 
-## Visualizzatori (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## Visualizzatori (Image Server 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
 Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correzioni di bug per Image Serving 5.5.3**
+**Correzioni di bug per Image Server 5.5.3**
 
 * Compatibilità con le librerie RequireJS e DOJO.
 
-   Memorizzazione nella cache JS dell’SDK consolidata durante la distribuzione del visualizzatore.
+   Memorizzazione consolidata nella cache di JS SDK durante l’implementazione del visualizzatore.
 
-## Visualizzatori (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
+## Visualizzatori (Image Server 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
 Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correzioni di bug per Image Serving 5.5.2**
+**Correzioni di bug per Image Server 5.5.2**
 
 * Impossibile riprodurre il video in Internet Explorer 11 su Windows 7.
-* `initialframe` non influisce sulla modalità verticale sui dispositivi mobili per HTML5 eCatalog.
+* `initialframe` non influiva sulla modalità ritratto sui dispositivi mobili per eCatalog HTML5.
 
-## Visualizzatori (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
+## Visualizzatori (Image Server 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
 Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Nuove funzioni, correzioni e miglioramenti implementati in Image Serving 5.5.1**
+**Nuove funzioni, miglioramenti e correzioni di bug per Image Server 5.5.1**
 
-* Visualizzatore eCatalog HTML5 con funzione di ricerca.
+* Visualizzatore eCatalog di HTML5 con funzione di ricerca.
 * È stata aggiunta la riproduzione video in streaming HLS come metodo di distribuzione video predefinito per la maggior parte dei sistemi desktop. Lo streaming video HDS basato su Flash è ancora disponibile come opzione di riproduzione alternativa.
-* È stato aggiunto il supporto per i dispositivi con input sia del mouse che touch tramite il browser Chrome.
-* È stato aggiunto il supporto per ID organizzazione Experience Cloud all’integrazione di Analytics.
+* È stato aggiunto il supporto per dispositivi con mouse e input tocco che eseguono il browser Chrome.
+* All’integrazione di Analytics è stato aggiunto il supporto per l’ID organizzazione di Experience Cloud.
 * Aggiorna la libreria JavaScript AppMeasurement alla versione 1.6.1.
 * È stato aggiunto il supporto per l’orientamento da destra a sinistra nel visualizzatore eCatalog.
-* È stato risolto un problema in cui `tip=0,-1,0` causava un errore fuori intervallo.
+* È stato risolto un problema in cui `tip=0,-1,0` ha causato un errore fuori intervallo.
 
 **Note sulla compatibilità**
 
-* BlackBerry®
+* Blackberry®
 
-   * Incompatibilità con set AVS precedenti. I client devono ricaricare i set AVS per consentire la riproduzione.
+   * Incompatibilità con i set AVS precedenti. I client devono ricaricare i set AVS per consentire la riproduzione.
 
 * Generali
 
-   * Il ridimensionamento lato browser può rendere sfocata l’interfaccia utente e le immagini quando l’utente ingrandisce la pagina. La formattazione dell’interfaccia utente potrebbe anche non essere visualizzata correttamente a seconda dello zoom. Questo effetto passa allo schermo intero.
-   * A causa della limitazione delle dimensioni sui dispositivi mobili, il visualizzatore di file multimediali diversi utilizza il movimento delle diapositive per scambiare i fotogrammi in set di immagini incorporati invece di toccare il componente campioni incorporati. Il componente è presente come indicatore visivo.
-   * Nei browser Internet Explorer e in alcuni dispositivi touch, la modalità a schermo intero non occupa l’intero schermo del dispositivo. ma ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
-   * Il pulsante Chiudi non funziona iOS 8.0 e 8.1 ma non si verifica più in iOS 8.2
+   * Il ridimensionamento del lato browser può causare la sfocatura dell’interfaccia utente e delle immagini quando l’utente si ingrandisce nella pagina. La formattazione dell’interfaccia utente potrebbe non essere visualizzata correttamente a seconda dello zoom. Questo effetto viene trasferito allo schermo intero.
+   * A causa delle dimensioni limitate dei dispositivi mobili, il visualizzatore di file multimediali diversi utilizza il movimento della diapositiva per scambiare i fotogrammi nei set di immagini incorporati invece di toccare il componente Campioni incorporati. Il componente è presente come indicatore visivo.
+   * Nei browser di Internet Explorer e in alcuni dispositivi touch, la modalità a schermo intero non occupa l&#39;intero schermo del dispositivo. Piuttosto, ridimensiona l’applicazione alle dimensioni della finestra del browser.
+   * Il pulsante Chiudi non funziona con iOS 8.0 e 8.1, ma non è più disponibile in iOS 8.2
 
-* Galassia SIII
+* Galaxy SIII
 
-   * Perdita di memoria visibile con i visualizzatori Zoom ed eCatalog HTML5. La navigazione ripetuta attraverso i frame può causare l&#39;arresto anomalo del browser.
-   * Il doppio tocco sul visualizzatore può causare lo zoom di tutta la pagina invece del solo visualizzatore con ridimensionamento lato browser abilitato.
+   * Perdita di memoria rilevata con i visualizzatori Zoom ed eCatalog HTML5. La navigazione ripetuta attraverso i frame può causare l&#39;arresto anomalo del browser.
+   * Il doppio tocco sul visualizzatore può causare lo zoom di un’intera pagina invece che del solo visualizzatore con ridimensionamento lato browser abilitato.
 
 * Galaxy S4
 
-   * Dispositivo rilevato come tablet in modalità verticale con schermo intero selezionato nelle impostazioni del browser.
+   * Il dispositivo rilevato come tablet in modalità verticale con Schermo intero selezionato nelle impostazioni del browser.
 
-* Nexus galassico
+* Galaxy Nexus
 
-   * Il doppio tocco sul visualizzatore può causare lo zoom di tutta la pagina invece del solo visualizzatore con ridimensionamento lato browser abilitato.
+   * Il doppio tocco sul visualizzatore può causare lo zoom di un’intera pagina invece che del solo visualizzatore con ridimensionamento lato browser abilitato.
 
 * Galaxy Nexus 10 e Galaxy Tablet
 
-   * eCatalog mostra pagine con orientamenti per verticale e orizzontale non corretti.
+   * L’eCatalog mostra pagine affiancate non corrette con orientamenti in verticale e orizzontale.
 
 * Dispositivi mobili HTC
 
-   * I risultati dell’Adobe di HTC per dispositivi mobili mostrano che l’impossibilità di disabilitare lo zoom nativo con le dita è una &quot;funzione&quot; del wrapper dell’interfaccia utente HTC (HTC Sense). Questo problema può causare lo zoom di tutta la pagina quando si utilizza il gesto &quot;pizzico per lo zoom&quot; sul visualizzatore. Suggerisci invece di usare il doppio tocco.
-   * Le icone delle mappe immagine possono sovrapporsi se le mappe immagine sono piccole e vicine tra loro.
+   * I risultati dell’Adobe di HTC sui dispositivi mobili mostrano che l’impossibilità di disabilitare il pinch-zoom nativo è una &quot;funzione&quot; del wrapper dell’interfaccia utente HTC (HTC Sense). Questo problema può causare lo zoom dell’intera pagina quando si utilizza il gesto &quot;pizzica per ingrandire&quot; sul visualizzatore. Suggerisci invece di utilizzare il doppio tocco.
+   * Le icone della mappa immagine possono sovrapporsi se le mappe immagine sono piccole e vicine tra loro.
 
-* Video HTML5
+* Video su HTML5
 
    * Internet Explorer 9: le immagini poster personalizzate non vengono visualizzate.
-   * `IntialBitRate` Il modificatore è supportato solo con riproduzione software HLS e Flash HDS. Non funziona quando la riproduzione utilizza il lettore nativo.
-   * Riproduzione progressiva OGG e WebM non supportata al momento.
-   * Il ridimensionamento del browser può causare la visualizzazione del lettore video con dimensioni errate (incluse le impostazioni di visualizzazione del pannello di controllo del sistema operativo Windows).
-   * La ricerca video che utilizza lo streaming HLS su Safari potrebbe non essere coerente.
+   * `IntialBitRate` Il modificatore è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
+   * Riproduzione progressiva OGG e WebM attualmente non supportata.
+   * Il ridimensionamento del browser può causare la visualizzazione del lettore video con dimensioni non corrette (incluse le impostazioni di visualizzazione del pannello di controllo del sistema operativo Windows).
+   * La ricerca video con lo streaming HLS su Safari potrebbe non essere coerente.
 
 * Internet Explorer
 
    * La modalità Quirks non è attualmente supportata.
    * La modalità di compatibilità non è attualmente supportata.
-   * Internet Explorer su dispositivi mobili non è attualmente supportato.
+   * Al momento Internet Explorer su dispositivi mobili non è supportato.
 
 * iOS
 
-   * Gli eCatalog di grandi dimensioni possono causare l’arresto anomalo del browser su iPad 2.
+   * Gli eCatalog di grandi dimensioni possono causare un arresto anomalo del browser in iPad 2.
    * I telefoni iPhone 6+ vengono rilevati come tablet dai visualizzatori.
 
 * Safari
 
-   * Safari 6.1 o successivo: Le impostazioni dei plug-in Internet possono impedire la riproduzione di video Flash.
-   * Il video &quot;cerca&quot; utilizzando lo streaming HLS su Safari potrebbe non essere coerente.
-   * Impossibile cercare di terminare il video su Safari 6 utilizzando lo streaming HLS.
+   * Safari 6.1 o versione successiva: le impostazioni dei plug-in Internet potrebbero impedire la riproduzione di video di Flash.
+   * La ricerca video con lo streaming HLS su Safari potrebbe non essere coerente.
+   * Impossibile cercare la fine del video su Safari 6 utilizzando lo streaming HLS.
 
 **Problemi noti e restrizioni**
 
-* Modificatori Image Server da `iscommands` non vengono aggiunti al `req=set` richiesta per progettazione. I modificatori che influiscono solo sulla visualizzazione delle immagini funzionano bene. I modificatori che influiscono sulle dimensioni devono essere utilizzati in una risorsa complessa. Ad esempio:
+* Modificatori Image Server da `iscommands` non vengono aggiunti al `req=set` richiesta per progettazione. I modificatori che influiscono solo sulla visualizzazione delle immagini funzionano correttamente. I modificatori che influiscono sulle dimensioni devono essere utilizzati in una risorsa complessa. Ad esempio,
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [A comparsa] IE9 a volte rimane sullo schermo dopo lo spegnimento del mouse.
-* Il ridimensionamento del browser causa un ridimensionamento errato.
-* iPad 2: La risorsa eCatalog di grandi dimensioni arresta Safari su iOS.
+* Il ridimensionamento del browser non funziona correttamente.
+* iPad 2: una risorsa di eCatalog di grandi dimensioni provoca l’arresto anomalo di Safari su iOS.
 * Tutti i visualizzatori
 
-   * Filigrane, offuscamento e blocco non supportati.
-   * I predefiniti immagine non sono supportati.
-   * Aggiunta o rimozione di un visualizzatore dal DOM tramite `display:none` Al momento non sono supportati i CSS o lo scollegamento dinamico dal nodo principale.
+   * Filigrane, offuscamento e blocco non sono supportati.
+   * I predefiniti per immagini non sono supportati.
+   * Aggiunta o rimozione del visualizzatore dal DOM tramite `display:none` Attualmente non sono supportati i file CSS o mediante il loro distacco dinamico dal nodo principale.
 
 * HTML5 Tutti i visualizzatori
 
-   * Se si incorpora un visualizzatore nella tabella, le dimensioni o il posizionamento del visualizzatore potrebbero non essere corretti in modalità a schermo intero non nativa. Suggerisci invece di utilizzare DIV.
-   * I parametri con nomi di istanza espliciti nel codice richiedono anche la sovrascrittura dei nomi di istanza nell’URL (ad esempio, `zoomView.iconfeffect=0`).
-   * Il comando Ritaglio di Image Server non è attualmente supportato.
-   * Il pulsante Chiudi funziona solo se il visualizzatore è aperto nella finestra secondaria.
-   * La `iscommands` Il modificatore non supporta i modificatori Image Server che influiscono sulle dimensioni dell&#39;immagine.
+   * L’incorporamento del visualizzatore nella tabella potrebbe causare un ridimensionamento o un posizionamento errato del visualizzatore in modalità a schermo intero non nativa. Consiglia invece di utilizzare i DIV.
+   * I parametri con nomi di istanza espliciti nel codice richiedono che anche i nomi di istanza nell’URL vengano sovrascritti (ad esempio, `zoomView.iconfeffect=0`).
+   * Al momento il ritaglio dei comandi Image Server non è supportato.
+   * Il pulsante Chiudi funziona solo se il visualizzatore è aperto nella finestra figlio.
+   * Il `iscommands` Il modificatore non supporta i modificatori Image Server che influiscono sulle dimensioni dell&#39;immagine.
 
 * eCatalog di HTML5
 
-   * Se si passa a un’altra pagina HTML e si torna occasionalmente, il visualizzatore viene reimpostato sulla prima pagina.
-   * Il layout di pagina talvolta non viene visualizzato correttamente dopo la rotazione del dispositivo iOS. Lo zoom nella pagina corregge il layout.
-   * I collegamenti interni collegano solo alla pagina più a sinistra tra quelle affiancate. Influisce sui dispositivi mobili in modalità verticale.
-   * I collegamenti InitalFrame collegano solo alla pagina più a sinistra tra quelle affiancate. Influisce sui dispositivi mobili in modalità verticale.
+   * Quando si passa a un&#39;altra pagina di HTML e si ritorna, il visualizzatore torna occasionalmente alla prima pagina.
+   * Il layout di pagina viene visualizzato occasionalmente in modo errato dopo la rotazione del dispositivo iOS. Lo zoom nella pagina corregge il layout.
+   * Collegamenti interni solo alla pagina più a sinistra in pagine affiancate multipagina. Interessa i dispositivi mobili in modalità verticale.
+   * InitalFrame effettua il collegamento solo alla pagina più a sinistra negli spread multipagina. Interessa i dispositivi mobili in modalità verticale.
    * A causa di limitazioni del browser, la funzione di stampa non è disponibile in IE9.
 
-* HTML5 MixedMedia
+* HTML5 - File multimediali diversi
 
    * La riproduzione della colonna sonora non è supportata.
 
 * HTML5 Social
 
-   * Per eseguire correttamente il rendering delle miniature nelle e-mail in uscita, la `serverurl` Il modificatore deve avere un URL assoluto.
+   * Per riprodurre correttamente le miniature nell’e-mail in uscita, `serverurl` il modificatore deve avere un URL assoluto.
 
-* Video HTML5
+* Video su HTML5
 
-   * L&#39;immagine poster potrebbe incontrare l&#39;errore &quot;Dimensione massima&quot;. L&#39;azienda deve aumentare l&#39;impostazione dei limiti per Image Serving Publish.
-   * I sottotitoli video richiedono un set di regole aziendali se l’hosting della pagina HTML è gestito da un server esterno (non da un server Scene7). Per assistenza, contatta il supporto Adobe.
-   * Il tracciamento di Analytics potrebbe riportare una percentuale di riproduzione errata a causa del buffering
-   * Su dispositivi iPad o Android™ può essere visualizzato un fotogramma nero invece del poster.
-   * Su dispositivi iPad o Android™ il fotogramma nero può lampeggiare sullo schermo durante il caricamento del visualizzatore.
+   * L&#39;immagine del poster potrebbe contenere un errore di &quot;dimensione massima&quot;. La società deve aumentare il limite impostato per la pubblicazione da server immagini.
+   * I sottotitoli video richiedono un set di regole aziendali se la pagina HTML in hosting viene trasmessa da un server esterno (non da un server Scene7). Per assistenza, contatta il supporto Adobe.
+   * Il tracciamento di Analytics potrebbe segnalare una percentuale di riproduzione errata a causa del buffering
+   * La cornice nera invece dell&#39;immagine del poster può essere visualizzata su dispositivi iPad o Android™.
+   * La cornice nera può lampeggiare sullo schermo durante il caricamento del visualizzatore su dispositivi iPad o Android™.
    * I bordi neri vengono visualizzati sul lato del componente VideoPlayer quando lo sfondo è impostato su bianco/trasparente sui dispositivi iPad.
-   * L’ultimo fotogramma di un video potrebbe essere distorto su iPad utilizzando iOS 7.
-   * Il macroblocco occasionale può verificarsi durante la ricerca video in modalità streaming HLS nei browser Chrome, Firefox e Internet Explorer.
-      * L&#39;immagine miniatura potrebbe non essere visualizzata nel browser Microsoft® Edge per la prima volta che un visitatore.
-      * L&#39;immagine poster può nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
+   * L’ultimo fotogramma del video potrebbe essere distorto su iPad con iOS 7.
+   * Occasionalmente si possono verificare macroblocchi durante la ricerca di video in modalità streaming HLS nei browser Chrome, Firefox e Internet Explorer.
+      * L’immagine del poster potrebbe non essere visualizzata per la prima volta nel browser Microsoft® Edge.
+      * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando viene utilizzata la riproduzione progressiva.
 
-## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## SDK 3.0.2 per visualizzatore Scene7 HTML5 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazione client. La documentazione API del componente si trova nella sottocartella docs dell’installazione client.
+La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazione client. La documentazione API dei componenti si trova nella sottocartella docs dell’installazione client.
 
-**Correzioni di bug per la versione 3.0.2**
+**Correzioni di bug per 3.0.2**
 
 * VideoPlayer - Impossibile riprodurre il video in Internet Explorer 11 su Windows 7.
-* Sommario -  `initialframe` non influisce sulla modalità verticale sui dispositivi mobili per il visualizzatore eCatalog di HTML5.
+* Sommario -  `initialframe` non ha influenzato la modalità ritratto sui dispositivi mobili per il visualizzatore eCatalog di HTML5.
 
-**Nuove funzioni, miglioramenti e correzioni di bug per la versione 3.0.1**
+**Nuove funzioni, miglioramenti e correzioni di bug per 3.0.1**
 
 * Generali
 
    * È stata aggiunta la riproduzione video in streaming HLS come metodo di distribuzione video predefinito per la maggior parte dei sistemi desktop. Lo streaming video HDS basato su Flash è ancora disponibile come opzione di riproduzione alternativa.
-   * Sono stati aggiunti i componenti SearchManager, SearchPanel, SearchEffect e SearchButton per supportare la nuova funzione Search nei visualizzatori di eCatalog.
-   * È stato aggiunto il supporto per i dispositivi con input touch e mouse in esecuzione sul browser Chrome.
-   * Rilevamento versione Android™ ripristinato per supportare versioni future del sistema operativo.
-   * È stato aggiunto il supporto dell’orientamento da destra a sinistra nei componenti SDK per eCatalog specifici.
+   * Sono stati aggiunti i componenti SearchManager, SearchPanel, SearchEffect e SearchButton per supportare la nuova funzione di ricerca nei visualizzatori eCatalog.
+   * È stato aggiunto il supporto per dispositivi con input tocco e mouse in esecuzione sul browser Chrome.
+   * Rilevamento versione Android™ refactoring per supportare le versioni future del sistema operativo.
+   * È stato aggiunto il supporto per l’orientamento da destra a sinistra nei componenti SDK specifici per l’eCatalog.
 
-* ControlBar
+* Barra di controllo
 
-   * È stato aggiunto lo scorrimento facoltativo per il contenuto di ControlBar nel caso in cui non rientri nella larghezza disponibile.
+   * È stato aggiunto lo scorrimento opzionale del contenuto della barra di controllo nel caso in cui non rientri nella larghezza disponibile.
 
-* Visualizzazione zoom a comparsa
+* FlyoutzoomView
 
-   * Caso fisso in cui `tip=0,-1,0` causava un errore fuori intervallo.
+   * Caso fisso in cui `tip=0,-1,0` ha causato un errore fuori intervallo.
 
 **Note sulla compatibilità**
 
 * Android™ 4.x
 
-   * Per disattivare l’impostazione predefinita, è necessario aggiungere la seguente regola CSS per il componente:
+   * Per disattivare l’impostazione predefinita, evidenziazione blu: è necessario aggiungere la seguente regola CSS per il componente:
 
       `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
-* BlackBerry®
+* Blackberry®
 
-   * La riproduzione video potrebbe cessare quando si modificano i flussi di bit rate nei set AVS.
+   * La riproduzione video potrebbe cessare quando si modificano i flussi della velocità bit nei set AVS.
 
 * Chrome
 
-   * Eventuali chiamate API che forzano la ricostruzione dei componenti possono essere ignorate a causa della memorizzazione nella cache interna di Chrome.
+   * A causa della memorizzazione nella cache interna di Chrome, qualsiasi chiamata API che forza la ricompilazione del componente può essere ignorata.
 
-* Galassia SIII
+* Galaxy SIII
 
    * A volte il visualizzatore non viene caricato a schermo intero.
-   * Pageview soffre di una perdita di memoria sul dispositivo attualmente.
-   * Tocca due volte per ingrandire il visualizzatore e la pagina quando è attivo il ridimensionamento lato browser.
+   * Al momento Pageview soffre di una perdita di memoria sul dispositivo.
+   * Il movimento del doppio tocco ingrandisce il visualizzatore e la pagina quando è attiva la modifica in scala laterale del browser.
 
-* Nexus galassico
+* Galaxy Nexus
 
-   * Artefatti visualizzati su alcuni componenti di visualizzazione.
-   * Tocca due volte per ingrandire il visualizzatore e la pagina quando è attivo il ridimensionamento lato browser.
+   * Artefatti visualizzati su alcuni componenti della vista.
+   * Il movimento del doppio tocco ingrandisce il visualizzatore e la pagina quando è attiva la modifica in scala laterale del browser.
 
-* iPad 3
+* IPAD 3
 
-   * iPad 3 ha una risoluzione nativa di 2048x1536. Questa risoluzione può causare problemi di visualizzazione se il limite di dimensione dell&#39;immagine dell&#39;azienda è pubblicato, è impostato inferiore.
+   * IPad 3 ha una risoluzione nativa di 2048x1536. Questa risoluzione può causare problemi di visualizzazione se la pubblicazione IS dell&#39;azienda, il limite di dimensione dell&#39;immagine è impostato più basso.
 
 * iPhone4
 
-   * Icona Riproduci effetto sostituita dall’icona Riproduci dopo lo scorrimento della pagina.
+   * Icona di ripetizione Iconeffect sostituita con icona di riproduzione dopo lo scorrimento della pagina.
 
 * Internet Explorer
 
-   * In IE 10 e la vecchia modalità a schermo intero non occupa l&#39;intero schermo, invece ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
-   * La modalità di rendering delle query non è supportata.
-   * Internet Explorer su dispositivi mobili non è attualmente supportato.
-   * Util.js potrebbe non riuscire a caricarsi se incluso in modo asincrono.
-   * L’icona IconEffect blocca gli eventi di clic sui componenti Visualizzazione 360 gradi e Visualizzazione zoom.
+   * In IE 10 e versioni precedenti la modalità a tutto schermo non occupa l&#39;intero schermo, ma semplicemente ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
+   * La modalità di rendering Quirks non è supportata.
+   * Al momento Internet Explorer su dispositivi mobili non è supportato.
+   * Il caricamento di Util.js potrebbe non riuscire se incluso in modo asincrono.
+   * L&#39;icona IconEffect blocca gli eventi di clic sui componenti SpinView e ZoomView.
 
-* Lettori video dei dispositivi nativi
+* Lettori video per dispositivi nativi
 
-   * I componenti dell&#39;interfaccia utente di livello su VideoPlayer non sono supportati quando VideoPlayer viene utilizzato per chiamare il lettore nativo del dispositivo.
+   * I componenti dell’interfaccia utente di livello su VideoPlayer non sono supportati quando VideoPlayer viene utilizzato per chiamare il lettore nativo del dispositivo.
    * La riproduzione video in modalità nativa non è coerente in Safari 6.
-   * La riproduzione nativa sostituisce l’icona di riproduzione con l’icona di riproduzione dopo lo scorrimento della pagina.
+   * La riproduzione nativa sostituisce l’icona di ripetizione con l’icona di riproduzione dopo lo scorrimento della pagina.
 
 * Dispositivi touch
 
-   * La modalità a schermo intero non occupa l&#39;intero schermo del dispositivo, ma ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
+   * La modalità a tutto schermo non occupa l’intero schermo del dispositivo, ma si limita a ridimensionare l’applicazione in base alle dimensioni della finestra del browser.
    * I cursori personalizzati non funzionano sui dispositivi touch.
-   * Il ridimensionamento della pagina sui dispositivi touch non è attualmente supportato. Per incorporare i visualizzatori HTML5 è necessario utilizzare un tag meta viewport con le impostazioni appropriate.
+   * Il ridimensionamento delle pagine sui dispositivi touch non è attualmente supportato. L’incorporamento dei visualizzatori HTML5 richiede il metatag viewport con le impostazioni appropriate.
 
 * Xoom
 
-   * Tocca due volte per ingrandire il visualizzatore e la pagina quando è attivo il ridimensionamento lato browser.
+   * Il movimento del doppio tocco ingrandisce il visualizzatore e la pagina quando è attiva la modifica in scala laterale del browser.
 
 **Problemi noti e restrizioni**
 
 * Tutti i componenti
 
-   * Nelle versioni 2.7.2 e precedenti, alcuni componenti sono stati aggiunti al DOM utilizzando `insertBefore()` API. Di conseguenza, tali componenti si collocherebbero nella parte inferiore dell’ordine di sovrapposizione, indipendentemente dal momento in cui l’istanza del componente viene creata rispetto ad altri componenti. Con la versione 2.8.1, tutti i componenti utilizzano `appendChild()` Ora l’API, il che significa che l’ordine di sovrapposizione dei componenti corrisponderebbe all’ordine di creazione dell’istanza.
+   * Nelle versioni 2.7.2 e precedenti, alcuni componenti sono stati aggiunti al DOM utilizzando `insertBefore()` API. Di conseguenza, tali componenti si posizionano in fondo all’ordine di sovrapposizione, indipendentemente dal momento in cui viene creata l’istanza del componente rispetto ad altri componenti. Con la versione 2.8.1, tutti i componenti utilizzano `appendChild()` API now, il che significa che l’ordine di impilamento dei componenti corrisponderebbe all’ordine di creazione dell’istanza.
 
-   * Utilizzo `iscommand` Il modificatore per impostare il formato del canale alfa dell&#39;immagine non è supportato. Usa componente `FMT` invece.
+   * Utilizzo di `iscommand` il modificatore per impostare il formato del canale alfa dell’immagine non è supportato. Usa componente `FMT` al suo posto.
    * La proprietà di trasformazione CSS non è attualmente supportata.
 
 * Dispositivi touch
 
-   * Il gesto di avvicinamento delle dita sui dispositivi touch non genera un evento di zoom
+   * Il movimento di pizzicamento sui dispositivi touch non genera un evento di zoom
 
 * Contenitore
 
-   * Bordo, spaziatura e margini del contenitore non supportati. Adobe suggerisce di aggiungere elementi di stile al DIV principale.
-   * È necessario impostare esplicitamente la dimensione del contenitore oppure i componenti possono essere dimensionati correttamente.
+   * Bordo, spaziatura interna e margini sul contenitore non supportati. L&#39;Adobe suggerisce di aggiungere elementi di stile all&#39;elemento DIV padre.
+   * È necessario impostare in modo esplicito la dimensione del contenitore o i componenti possono essere ridimensionati correttamente.
 
-* Componente Stampa
+* Stampa componente
 
-   * A causa di limitazioni del browser, in Internet Explorer 9 il componente per la stampa potrebbe non essere scalato correttamente sul foglio.
+   * A causa di limitazioni del browser, in Internet Explorer 9 il componente Stampa potrebbe non ridimensionare correttamente il contenuto sulla carta.
 
-* IconEffect, componente
+* Componente IconEffect
 
-   * IconEffect genera un errore di script su Internet Explorer se `autohide` è disattivato (impostato su `0`).
+   * IconEffect genera un errore di script in Internet Explorer se `autohide` è disabilitato (impostato su `0`).
 
 * Componente ImageMapEffect
 
-   * Ritardo con l’icona di riposizionamento durante il panning dell’immagine sul componente di visualizzazione.
+   * Ritarda con l’icona di riposizionamento durante la panoramica dell’immagine nel componente Vista.
 
 * Componente MediaSet
 
@@ -327,25 +327,25 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
 
 * Componente PageScrubber
 
-   * In iPhone 5, quando la bolla PageScrubber è impostata su testo, mostra artefatti quando scorri il pulsante lungo la traccia. Utilizzo `-webkit-background-clip: content;` nello stile aggira il problema.
+   * In iPhone 5, quando la bolla PageScrubber è impostata sul testo, vengono visualizzati artefatti quando si fa scorrere il pulsante lungo il brano. Utilizzo di `-webkit-background-clip: content;` nello stile aggiorna il problema.
 
 * Componente SpinView
 
-   * SpinView a volte sembra bloccarsi dopo il gesto di scorrimento e ruotare il dispositivo mentre l&#39;immagine è in rotazione.
+   * Talvolta, durante la rotazione dell&#39;immagine, SpinView sembra bloccarsi dopo un gesto di scorrimento e la rotazione del dispositivo.
 
 * Componente Campioni
 
-   * Quando si seleziona un campione fuori limite, vengono visualizzate due evidenziazioni.
-   * Scorrimento automatico con `selectSwatch()` non funziona correttamente.
+   * Quando si seleziona un campione fuori dai limiti, vengono visualizzate due evidenziazioni.
+   * Scorrimento automatico con `selectSwatch()` metodo non funziona correttamente.
 
-* VideoPlayer
+* LettoreVideo
 
-   * Frame video non aggiornato se la ricerca è impostata su 100% con il fallback impostato su auto.
-   * Il blocco occasionale delle macro può verificarsi durante la ricerca video in modalità streaming HLS nei browser Chrome, Firefox e Internet Explorer.
-   * L&#39;immagine miniatura potrebbe non essere visualizzata nel browser Microsoft® Edge per la prima volta che un visitatore.
-   * L&#39;immagine poster può nascondersi dopo il caricamento del video in Internet Explorer 9 quando si utilizza la riproduzione progressiva.
+   * Il fotogramma video non viene aggiornato se la ricerca è impostata sul 100% e il fallback è impostato su auto.
+   * Occasionalmente può verificarsi il blocco delle macro durante la ricerca di video in modalità streaming HLS nei browser Chrome, Firefox e Internet Explorer.
+   * L’immagine del poster potrebbe non essere visualizzata per la prima volta nel browser Microsoft® Edge.
+   * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando viene utilizzata la riproduzione progressiva.
 
-## Image Serving 6.3.2 e Image Rendering 6.3.2 di Dynamic Media {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utilità IC - `downsample2x2` Il flag non è più supportato. Questo flag era un downsampler 2x2 di scarsa qualità che non è più utilizzato da IPS.
-* Intestazione CORS - Attualmente, l’intestazione CORS è configurata per `/is/content/` richieste.
+* Intestazione CORS: attualmente, l’intestazione CORS è configurata per `/is/content/` richieste.

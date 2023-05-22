@@ -18,7 +18,7 @@ Il lettore video è l’area rettangolare in cui il contenuto video viene visual
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Se le dimensioni del video in corso di riproduzione non corrispondono alle dimensioni del lettore video, il contenuto video viene centrato all’interno dell’area di visualizzazione rettangolare del lettore video.
+Se le dimensioni del video che viene riprodotto non corrispondono a quelle del lettore video, il contenuto video è centrato all’interno dell’area di visualizzazione del rettangolo del lettore video.
 
 Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 
@@ -31,15 +31,15 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 È possibile localizzare il messaggio di errore visualizzato nei casi in cui il sistema non è in grado di riprodurre il video.
 
-Consulta [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un visualizzatore video con le dimensioni del lettore video impostate su 512 x 288 pixel.
 
@@ -49,7 +49,7 @@ background-color: transparent;
 }
 ```
 
-I sottotitoli codificati vengono inseriti in un contenitore interno all’interno del lettore video. La posizione del contenitore è controllata dagli operatori di posizionamento WebVTT supportati. Il testo della didascalia si trova all’interno del contenitore e il relativo stile è controllato con il seguente selettore di classe CSS:
+I sottotitoli codificati vengono inseriti in un contenitore interno del lettore video. La posizione del contenitore è controllata da operatori di posizionamento WebVTT supportati. Il testo della didascalia si trova all’interno del contenitore e il suo stile è controllato dal seguente selettore di classe CSS:
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
@@ -58,31 +58,31 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p>Sfondo testo sottotitoli. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Sfondo del testo della didascalia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Chiudi il colore del testo della didascalia. </p> </td> 
+   <td colname="col2"> <p>Colore testo sottotitoli. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
-   <td colname="col2"> <p> Spessore font didascalia chiusa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p> Spessore font sottotitoli codificati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione del font della didascalia chiusa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p> Dimensione font sottotitoli. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Font per sottotitoli codificati. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>Font per sottotitoli. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempio {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-Per impostare il testo dei sottotitoli codificati su 14 pixel, grigio chiaro, Arial®, su uno sfondo nero semitrasparente:
+Per impostare un testo con sottotitoli codificati di 14 pixel, grigio chiaro, Arial® su uno sfondo nero semitrasparente:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -94,13 +94,13 @@ Per impostare il testo dei sottotitoli codificati su 14 pixel, grigio chiaro, Ar
 }
 ```
 
-L’aspetto dell’animazione di buffering è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’animazione di buffering è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon
 ```
 
-**Proprietà CSS dell’icona di attesa**
+**Proprietà CSS dell’icona Attendi**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -119,21 +119,21 @@ L’aspetto dell’animazione di buffering è controllato con il seguente selett
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine sinistro  </span> </p> </td> 
-   <td colname="col2"> <p> Icona di animazione a sinistra del margine, normalmente meno metà della larghezza dell'icona. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> Margine sinistro dell'icona di animazione, in genere meno la metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margine superiore  </span> </p> </td> 
-   <td colname="col2"> <p> Margine superiore dell'icona di animazione, normalmente meno metà dell'altezza dell'icona. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col2"> <p> Margine superiore dell'icona di animazione, in genere meno la metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Lavori d'arte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Grafica a manopola. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un’animazione buffering su una larghezza di 101 pixel e un’altezza di 29 pixel:
+Esempio: per impostare un’animazione di buffering su una larghezza di 101 pixel e un’altezza di 29 pixel:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon { 

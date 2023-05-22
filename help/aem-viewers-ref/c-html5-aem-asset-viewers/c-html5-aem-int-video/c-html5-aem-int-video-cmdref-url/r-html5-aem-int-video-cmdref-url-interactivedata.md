@@ -1,6 +1,6 @@
 ---
-title: interattiva
-description: Comando URL per il visualizzatore video interattivo.
+title: interactivedata
+description: Comando URL per Visualizzatore video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,17 +8,17 @@ exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
-# interattiva{#interactivedata}
+# interactivedata{#interactivedata}
 
-Comando URL per il visualizzatore video interattivo.
+Comando URL per Visualizzatore video interattivo.
 
 `interactivedata= *`file`*`
 
-I dati interattivi associano determinate aree temporali nel contenuto video ai dati del prodotto visualizzati in seguito nei campioni interattivi accanto al video. È inoltre associato nel pannello di invito all’azione mostrato al termine della riproduzione video. Fornisce inoltre un titolo per il video interattivo visualizzato nel pannello di invito all’azione.
+I dati interattivi associano determinate aree temporali nel contenuto video ai dati del prodotto che vengono successivamente visualizzati in campioni interattivi accanto al video. È anche associato al pannello di invito all’azione mostrato al termine della riproduzione video. Fornisce anche un titolo per il video interattivo visualizzato nel pannello di invito all’azione.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 

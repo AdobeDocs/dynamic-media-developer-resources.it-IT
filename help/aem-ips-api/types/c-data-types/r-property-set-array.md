@@ -1,5 +1,5 @@
 ---
-description: Matrice di set di proprietà.
+description: Matrice di insiemi di proprietà.
 solution: Experience Manager
 title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 25%
+ht-degree: 15%
 
 ---
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-Matrice di set di proprietà.
+Matrice di insiemi di proprietà.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:PropertySet` | Matrice set proprietà. |
+| elementi | `types:PropertySet` | Matrice del set di proprietà. |

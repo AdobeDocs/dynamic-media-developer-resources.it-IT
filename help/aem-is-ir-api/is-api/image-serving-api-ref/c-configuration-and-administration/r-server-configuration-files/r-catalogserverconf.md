@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
 
-Questo file è un file di proprietà JAVA. Si deve fare attenzione a seguire le convenzioni appropriate; altrimenti [!DNL Platform Server] potrebbero non avviarsi. Utilizzare una barra rovesciata doppia &#39;\\&#39; o una singola barra rovesciata &#39;/&#39; invece di una barra rovesciata &#39;\&#39; nei percorsi dei file di Windows. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
+Questo file è un file di proprietà JAVA. Fare attenzione a seguire le convenzioni appropriate; altrimenti [!DNL Platform Server] potrebbe non riuscire ad avviarsi. Utilizzare una doppia barra rovesciata &#39;\\&#39; o una singola barra in avanti &#39;/&#39; invece della barra rovesciata &#39;\&#39; nei percorsi dei file di Windows. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
 
-Le modifiche a questo file hanno effetto poco dopo il salvataggio del file.
+Le modifiche apportate al file hanno effetto poco dopo il salvataggio.
 
-È possibile modificare solo le impostazioni elencate di seguito in [!DNL catalog-service.conf]. Se una particolare impostazione è assente, può essere aggiunta in qualsiasi punto del file. Può essere presente una sola istanza di ciascuna impostazione.
+Solo le impostazioni elencate di seguito possono essere modificate in [!DNL catalog-service.conf]. Se una particolare impostazione è assente, può essere aggiunta ovunque nel file. È possibile che sia presente una sola istanza di ciascuna impostazione.
 
 `catalog.rootPath=./catalog`
 

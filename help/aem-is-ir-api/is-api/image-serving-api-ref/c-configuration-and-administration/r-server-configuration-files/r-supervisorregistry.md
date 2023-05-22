@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Contiene le impostazioni di configurazione del supervisore del server.
 
-Durante la modifica di questo file XML, assicurarsi di mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non avviarsi.
+Quando si modifica il file XML, assicurarsi di mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non essere avviato.
 
-Riavvia Image Serving dopo aver modificato questo file per assicurarti che le modifiche abbiano effetto. Per la modifica sono supportati solo i valori di elemento/attributo evidenziati di seguito. Modifica tutti gli altri contenuti di questo file solo se richiesto dal supporto tecnico Dynamic Media.
+Riavvia Image Server dopo aver modificato il file per garantire che le modifiche apportate diventino effettive. La modifica supporta solo i valori elemento/attributo evidenziati di seguito. Modificare tutti gli altri contenuti di questo file solo se consigliato dal supporto tecnico Dynamic Media.
 
 ```
 <supervisor>

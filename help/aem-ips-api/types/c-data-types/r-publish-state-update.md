@@ -8,7 +8,7 @@ exl-id: b1767e3c-7e77-44a3-9bd2-e7d7587c014f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestione risorse. |
+| assetHandle | `xsd:string` | Handle risorsa. |
 | publishState | `xsd:string` | Nuovo stato di pubblicazione. |

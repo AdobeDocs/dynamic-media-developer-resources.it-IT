@@ -1,24 +1,24 @@
 ---
-description: Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
+description: Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie (nessuna) o per estrarne e caricarne il contenuto (decompressione).
 solution: Experience Manager
-title: DecomprimiOpzioni
+title: AnnullaCompressioneOpzioni
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # [!DNL UnCompressOptions]{#uncompressoptions}
 
-Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Nessuno) o per estrarne e caricarne il contenuto (Annulla compressione).
+Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie (nessuna) o per estrarne e caricarne il contenuto (decompressione).
 
 >[!NOTE]
 >
->`None` è il valore predefinito.
+>`None` è l&#39;impostazione predefinita.
 
 ## Parametri {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -33,12 +33,12 @@ Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Ne
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controlla l'elaborazione dei file di archivio ZIP e TAR. Fornisce 2 opzioni: 
+   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col3"> <p>Controlla l’elaborazione dei file di archivio ZIP e TAR. Fornisce 2 opzioni: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> Processo come risorse primarie. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Decomprimi:</span> Estrarre ed elaborare i contenuti. </li>
-     </ul><p>Nota: Le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzo <span class="codeph"> Decomprimi</span>, not <span class="codeph"> discomprimere</span> o <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> Elabora come risorse primarie. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Non comprimere:</span> Estrarre ed elaborare i contenuti. </li>
+     </ul><p>Nota: le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> Non comprimere</span>, non <span class="codeph"> decomprimi</span> o <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Carica l’impostazione per elaborare i file ZIP e TAR come risorse primarie (Ne
 
 ## Utilizzato da {#section-b2a829cf5511412e968bb2000f85cc31}
 
-La `unCompressionOptions` tipo utilizzato da:
+Il `unCompressionOptions` tipo utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

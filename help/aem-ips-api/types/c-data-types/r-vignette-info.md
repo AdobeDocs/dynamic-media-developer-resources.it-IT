@@ -1,20 +1,20 @@
 ---
-description: Proprietà di una risorsa vignetta.
+description: Proprietà di una risorsa di vignettatura.
 solution: Experience Manager
-title: VignetteInfo
+title: Info vignettatura
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
 # [!DNL VignetteInfo]{#vignetteinfo}
 
-Proprietà di una risorsa vignetta.
+Proprietà di una risorsa di vignettatura.
 
 Sintassi
 

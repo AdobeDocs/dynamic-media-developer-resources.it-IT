@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Imposta i comandi del protocollo Image Server o Image Rendering per la risorsa specificata. Questi comandi modificano la rappresentazione della risorsa senza distruggerla.
 
-Per Image Serving, i comandi nel `urlModifier` vengono pubblicati nel campo Catalogo modificatore e applicati prima di qualsiasi comando specificato nell’URL della richiesta. Comandi in `urlPostApplyModifier` sono pubblicati in `PostModifier` campo catalogo e sovrascrivi qualsiasi comando sull&#39;URL della richiesta o in `urlModifier`. Per Image Rendering, i comandi in `urlModifier` e `urlPostApplyModifier` vengono concatenati e pubblicati nel campo Catalogo modificatore .
+Per Image Server, i comandi `urlModifier` Il parametro viene pubblicato nel campo del catalogo dei modificatori e applicato prima di qualsiasi comando specificato nell’URL della richiesta. Comandi in `urlPostApplyModifier` sono pubblicati in `PostModifier` campo del catalogo ed esegui l’override di qualsiasi comando nell’URL della richiesta o in `urlModifier`. Per il rendering delle immagini, i comandi in `urlModifier` e `urlPostApplyModifier` vengono concatenati e pubblicati nel campo del catalogo dei modificatori.
 
 ## Tipi di utenti autorizzati {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -33,10 +33,10 @@ Per Image Serving, i comandi nel `urlModifier` vengono pubblicati nel campo Cata
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Tratta l&#39;azienda. |
-| assetHandle | `xsd:string` | Sì | Gestione risorse. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| assetHandle | `xsd:string` | Sì | Handle risorsa. |
 | urlModifier | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare prima della richiesta o `urlPostApplyModifier` comandi. |
-| urlPostApplyModifier | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare dopo `urlModifier` e richiede i comandi. |
+| urlPostApplyModifier | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering da applicare dopo `urlModifier` e richiedere comandi. |
 
 **Output (setUrlModifierReturn)**
 

@@ -1,14 +1,14 @@
 ---
 description: Proprietà di una risorsa filigrana.
 solution: Experience Manager
-title: InformazioniFiligrana
+title: Info filigrana
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
@@ -22,6 +22,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| url | `xsd:string` | URL del server di immagini che rappresenta il modello. |
+| url | `xsd:string` | URL del server immagini che rappresenta il modello. |
 | urlModifier | `xsd:string` |  |
 | urlPostApplyModifier | `xsd:string` |  |

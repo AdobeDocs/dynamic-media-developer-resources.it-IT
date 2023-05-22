@@ -1,6 +1,6 @@
 ---
-title: Icon effect
-description: L'icona di riproduzione viene sovrapposta all'area di visualizzazione principale. It displays when the video is paused, or when the end of the video is reached, and it also depends on the iconeffect parameter.
+title: Effetto icona
+description: L'icona di riproduzione è sovrapposta all'area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video, e dipende anche dal parametro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,29 +12,29 @@ ht-degree: 1%
 
 ---
 
-# Icon effect{#icon-effect}
+# Effetto icona{#icon-effect}
 
-The play icon is overlaid on the main view area. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video e dipende anche dal parametro iconeffect .
+L&#39;icona di riproduzione è sovrapposta all&#39;area di visualizzazione principale. Viene visualizzato quando il video viene messo in pausa o quando viene raggiunta la fine del video, e dipende anche dal parametro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-The appearance of the play icon is controlled with the following CSS class selector:
+L’aspetto dell’icona di riproduzione è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7video360viewer . s7video360player .s7iconeffect
 ```
 
-**Proprietà CSS dell’icona di riproduzione**
+**Proprietà CSS dell’icona Riproduci**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> The displayed image for the play icon. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per l'icona di riproduzione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -42,14 +42,14 @@ The appearance of the play icon is controlled with the following CSS class selec
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>The height of the play icon. </p> </td> 
+   <td colname="col2"> <p>Altezza dell'icona di riproduzione. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’effetto icona supporta il selettore di attributi `state`. Il selettore di attributi `state="play"` viene utilizzato quando il video viene messo in pausa al centro della riproduzione e `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
+L&#39;effetto Icona supporta `state` selettore di attributi. Selettore di attributi `state="play"` viene utilizzato quando il video viene messo in pausa nel mezzo della riproduzione e `state="replay"` viene utilizzato quando la testina di riproduzione si trova alla fine del flusso.
 
-**Example** - Setup a 100 x 100 pixel play icon.
+**Esempio** : imposta un&#39;icona di riproduzione di 100 x 100 pixel.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

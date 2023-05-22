@@ -8,7 +8,7 @@ exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sinistra|centro|destra</span> </p> </td> 
-   <td colname="col2"> <p> Specifica l’allineamento orizzontale interno (o ancoraggio) del contenitore miniature all’interno dell’area del componente. </p> <p>In call-to-action, il contenitore di miniature interno viene ridimensionato in modo che venga visualizzato solo un numero intero di miniature. Di conseguenza, esiste una spaziatura tra il contenitore interno e i limiti del componente esterno. </p> <p>Questo modificatore specifica il modo in cui il contenitore miniature interno viene posizionato in orizzontale all’interno del componente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col2"> <p> Specifica l'allineamento orizzontale (o ancoraggio) del contenitore delle miniature all'interno dell'area del componente. </p> <p>Nell’invito all’azione, il contenitore interno delle miniature viene ridimensionato in modo da visualizzare solo miniature intere. Di conseguenza, è presente una certa spaziatura tra i bordi del contenitore interno e quelli del componente esterno. </p> <p>Questo modificatore specifica in che modo il contenitore interno delle miniature viene posizionato orizzontalmente all’interno del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

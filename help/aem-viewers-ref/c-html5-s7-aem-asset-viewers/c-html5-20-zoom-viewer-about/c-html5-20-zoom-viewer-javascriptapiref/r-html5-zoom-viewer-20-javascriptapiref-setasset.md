@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore video.
+description: Riferimento API JavaScript per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore video.
+Riferimento API JavaScript per Visualizzatore video.
 
 ` setAsset( *`asset`*)`
 
@@ -22,7 +22,7 @@ Riferimento API JavaScript per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} nuovo ID risorsa, set di immagini esplicito o set di immagini esplicito con modificatori Image Serving specifici per i fotogrammi, con modificatori opzionali Global Image Serving aggiunti dopo "?". </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} nuovo ID risorsa, set di immagini esplicito o set di immagini esplicito con modificatori Image Server specifici per fotogramma, con modificatori Image Server globali opzionali aggiunti dopo "?". </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,7 +37,7 @@ Nessuno.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Riferimento a una singola immagine come segue:
+Riferimento a immagine singola come segue:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B")
@@ -49,13 +49,13 @@ Riferimento singolo a un set di immagini definito in un catalogo come segue:
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Set di immagini esplicito come segue:
+Immagine esplicita impostata come segue:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Set di immagini esplicito con modificatori Image Serving specifici per un fotogramma, come segue:
+Set di immagini esplicito con modificatori Image Server specifici per fotogramma, come segue:
 
 ```
  <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")

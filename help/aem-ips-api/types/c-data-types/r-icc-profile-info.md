@@ -1,14 +1,14 @@
 ---
 description: Proprietà di una risorsa profilo ICC.
 solution: Experience Manager
-title: IccProfileInfo
+title: InfoProfiloIcc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -24,4 +24,4 @@ Sintassi
 |---|---|---|
 | originalPath | `xsd:string` | Percorso profilo ICC. |
 | originalFile | `xsd:string` | Nome del profilo ICC originale. |
-| fileSize | `xsd:int` | Dimensione del profilo ICC. |
+| fileSize | `xsd:int` | Dimensione profilo ICC. |

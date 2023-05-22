@@ -1,6 +1,6 @@
 ---
 title: Campioni principali
-description: I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
+description: I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali sul lato sinistro e destro. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non rientrano nella larghezza del contenitore. Sui dispositivi mobili o se le miniature possono rientrare nella larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # Campioni principali{#main-swatches}
 
-I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali a sinistra e a destra. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non possono adattarsi alla larghezza del contenitore. Sui dispositivi mobili, o se le miniature possono adattarsi alla larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
+I campioni principali sono costituiti da una riga di miniature con pulsanti di scorrimento opzionali sul lato sinistro e destro. I pulsanti di scorrimento sono visibili sul desktop solo se tutte le miniature non rientrano nella larghezza del contenitore. Sui dispositivi mobili o se le miniature possono rientrare nella larghezza del contenitore, i pulsanti di scorrimento non vengono visualizzati.
 
-L’aspetto del contenitore dei campioni è controllato con il selettore di classe CSS:
+L’aspetto del contenitore campioni è controllato con il selettore di classe CSS:
 
 ```
 .s7mixedmediaviewer .s7swatches
@@ -32,12 +32,12 @@ L’aspetto del contenitore dei campioni è controllato con il selettore di clas
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>L’offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
+   <td colname="col2"> <p>Offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare campioni con un’altezza di 100 pixel.
+Esempio: per impostare campioni con altezza di 100 pixel.
 
 ```
 .s7mixedmediviewer .s7swatches { 
@@ -47,7 +47,7 @@ Esempio: per impostare campioni con un’altezza di 100 pixel.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La spaziatura tra le miniature dei campioni viene controllata con il seguente selettore di classe CSS:
+La spaziatura tra le miniature dei campioni è controllata dal seguente selettore di classe CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7thumbcell`
 
@@ -61,14 +61,14 @@ La spaziatura tra le miniature dei campioni viene controllata con il seguente se
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margine </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma del margine sinistro e destro impostato per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> La dimensione del margine orizzontale e verticale intorno a ciascuna miniatura. La spaziatura effettiva delle miniature è uguale alla somma dei margini sinistro e destro impostati per <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Esempio**
 
-Impostare la spaziatura su dieci pixel sia verticalmente che orizzontalmente.
+Per impostare la spaziatura su dieci pixel sia in verticale che in orizzontale.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumbcell { 
@@ -93,11 +93,11 @@ L’aspetto della singola miniatura viene controllato con il seguente selettore 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,9 +105,9 @@ L’aspetto della singola miniatura viene controllato con il seguente selettore 
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura dell’immagine attualmente visualizzata nella vista principale, `state="default"` corrisponde alle altre miniature e `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature, e `state="over"` al passaggio del mouse.
 
-Esempio : per impostare miniature con 56 x 56 pixel, sono disponibili un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
+Esempio: per impostare miniature di 56 x 56 pixel, con un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb { 
@@ -122,7 +122,7 @@ Esempio : per impostare miniature con 56 x 56 pixel, sono disponibili un bordo p
 }
 ```
 
-Il tipo di risorsa viene visualizzato come un’icona sovrapposta all’immagine miniatura ed è controllato con il seguente selettore di classe CSS:
+Il tipo di risorsa viene visualizzato come icona sopra l’immagine miniatura ed è controllato dal seguente selettore di classe CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay`
 
@@ -135,19 +135,19 @@ Il tipo di risorsa viene visualizzato come un’icona sovrapposta all’immagine
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza della sovrapposizione dell'icona. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza della sovrapposizione icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza della sovrapposizione dell'icona. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Altezza della sovrapposizione icona. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La sovrapposizione supporta il `type` selettore di attributi con i seguenti valori possibili: `image` (per immagini singole), `swatchset` (per i set di campioni), `spinset` (per i set 360 gradi), e `video` (per video singoli o set di video adattivi).
+La sovrapposizione supporta `type` selettore di attributi con i seguenti valori possibili: `image` (per immagini singole), `swatchset` (per i set di campioni), `spinset` (per i set 360 gradi) e `video` (per video singoli o set video adattivi).
 
-Esempio: per impostare sovrapposizioni di icone per set 360 gradi, set di campioni e video:
+Esempio: per impostare le sovrapposizioni di icone per set 360 gradi, set di campioni e video:
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay[type="swatchset"] { 
@@ -161,13 +161,13 @@ Esempio: per impostare sovrapposizioni di icone per set 360 gradi, set di campio
 }
 ```
 
-L’aspetto dei pulsanti di scorrimento a sinistra e a destra è controllato con i seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento sinistro e destro è controllato dai seguenti selettori di classi CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`e `right` proprietà. Al contrario, la logica del visualizzatore li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà. Al contrario, la logica di visualizzazione li posiziona automaticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -178,31 +178,31 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all’interno dello sprite di un’immagine, se vengono utilizzati gli spriti CSS. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a diversi stati del pulsante: `up`, `down`, `over`e `disabled`.
+>Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di pulsante diversi: `up`, `down`, `over`, e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Vedi [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) per ulteriori informazioni.
 
-Esempio : per impostare pulsanti di scorrimento con 56 x 56 pixel e immagini diverse per ogni stato.
+Esempio: per impostare pulsanti di scorrimento di 56 x 56 pixel con grafica diversa per ogni stato.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 

@@ -2,13 +2,13 @@
 description: Questa sezione descrive gli attributi dei dati immagine.
 solution: Experience Manager
 title: Riferimento dati immagine
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 22%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 22%
 Questa sezione descrive gli attributi dei dati immagine.
 
 * [Ancoraggio](r-anchor-cat.md)
-* [AssetType](r-assettype-cat.md)
+* [Tipo risorsa](r-assettype-cat.md)
 * [DigimarcInfo](r-digimarcinfo-cat.md)
-* [Scadenza](r-expiration-cat.md)
+* [Scade](r-expiration-cat.md)
 * [ID](r-id-cat.md)
-* [ImageSet](r-imageset-cat.md)
+* [Set di immagini](r-imageset-cat.md)
 * [Mappa](r-map-cat.md)
-* [MaskPath](r-maskpath-cat.md)
+* [MascheraPercorso](r-maskpath-cat.md)
 * [Modificatore](r-modifier-cat.md)
 * [Percorso](r-path-cat.md)
 * [PostModifier](r-postmodifier-cat.md)
-* [StampaRisoluzione](r-printresolution-cat.md)
+* [RisoluzioneStampa](r-printresolution-cat.md)
 * [Risoluzione](r-resolution-cat.md)
 * [Dimensione](r-size-cat.md)
-* [Destinazioni](r-targets-cat.md)
+* [Target](r-targets-cat.md)
 * [ThumbRes](r-thumbres-cat.md)
 * [ThumbType](r-thumbtype-cat.md)
-* [TimeStamp](r-timestamp-cat.md)
-* [Dati utente](r-userdata-cat.md)
+* [Timestamp](r-timestamp-cat.md)
+* [DatiUtente](r-userdata-cat.md)
 * [TipoUtente](r-usertype-cat.md)

@@ -1,14 +1,14 @@
 ---
 description: Opzioni del livello immagine Photoshop.
 solution: Experience Manager
-title: OpzioniLivelloPhotoshop
+title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| layerNaming | `xsd:string` | Scelta delle modalità di denominazione dei livelli Photoshop. |
-| ancoraggio | `xsd:string` | Scelta delle modalità di ancoraggio Photoshop. |
-| createTemplate | `xsd:boolean` | Se creare un modello dai livelli Photoshop. |
-| extractText | `xsd:boolean` | Se estrarre il testo come livelli di testo. |
-| extensionLayers | `xsd:boolean` | Se estendere i livelli a dimensioni intere dello sfondo. |
+| layerNaming | `xsd:string` | Scelta delle modalità di denominazione dei livelli di Photoshop. |
+| ancoraggio | `xsd:string` | Scelta delle modalità di ancoraggio di Photoshop. |
+| createTemplate | `xsd:boolean` | Specifica se creare un modello dai livelli di Photoshop. |
+| extractText | `xsd:boolean` | Indica se estrarre il testo come livelli di testo. |
+| extendLayers | `xsd:boolean` | Se estendere i livelli alle dimensioni reali dello sfondo. |

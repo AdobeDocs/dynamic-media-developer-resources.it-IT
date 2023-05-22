@@ -1,5 +1,5 @@
 ---
-description: Recupera tutte le proprietà del sistema in una singola richiesta.
+description: Recupera tutte le proprietà di sistema in una singola richiesta.
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
 # getSystemProperties{#getsystemproperties}
 
-Recupera tutte le proprietà del sistema in una singola richiesta.
+Recupera tutte le proprietà di sistema in una singola richiesta.
 
 Sintassi
 
@@ -40,11 +40,11 @@ Nessuno.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| propertyArray | `types:PropertyArray` | Sì | Matrice di proprietà del sistema. |
+| propertyArray | `types:PropertyArray` | Sì | Matrice di proprietà di sistema. |
 
 ## Esempi {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Questo esempio di codice restituisce un array delle proprietà del sistema. Risposta troncata per brevità.
+In questo esempio di codice viene restituita una matrice di proprietà di sistema. Risposta troncata per brevità.
 
 **Request Contents (Richiesta contenuto)**
 

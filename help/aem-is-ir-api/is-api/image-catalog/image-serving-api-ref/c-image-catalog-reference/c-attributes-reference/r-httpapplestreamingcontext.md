@@ -1,24 +1,24 @@
 ---
-description: Prefisso URL del server di streaming Apple. Prefisso URL server di streaming Apple utilizzato per generare risposte m3u8 a velocità di bit con req=mbrSet.
+description: Prefisso URL server di streaming Apple. Prefisso URL del server di streaming Apple utilizzato per generare risposte m3u8 a velocità multi-bit con req=mbrSet.
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Prefisso URL del server di streaming Apple. Prefisso URL server di streaming Apple utilizzato per generare risposte m3u8 a velocità di bit con req=mbrSet.
+Prefisso URL server di streaming Apple. Prefisso URL del server di streaming Apple utilizzato per generare risposte m3u8 a velocità multi-bit con req=mbrSet.
 
 ## Proprietà {#properties}
 
-Stringa che rappresenta il prefisso URL. (es. `http://my.server.com/apple/streaming`)
+Stringa che rappresenta il prefisso dell’URL. (es. `http://my.server.com/apple/streaming`)
 
 ## Predefinito {#section-bdd70081d50844c295f0de0154c1d738}
 

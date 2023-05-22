@@ -2,12 +2,12 @@
 description: Crea una copia di una risorsa immagine esistente. Per generare la nuova copia vengono applicati i comandi del protocollo Image Server specificati
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 11%
 
 ---
@@ -43,31 +43,31 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L'handle della società che contiene l'immagine. </p> </td> 
+   <td colname="col4"> <p>Handle per l'azienda che contiene l'immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>La maniglia della risorsa immagine. </p> </td> 
+   <td colname="col4"> <p>Handle della risorsa immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>L'handle della cartella in cui copiare l'immagine. </p> </td> 
+   <td colname="col4"> <p>Handle della cartella in cui copiare l'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> nome</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Nome della nuova immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
@@ -88,16 +88,16 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Il punto di manipolazione dell'immagine copiata. </p> </td> 
+   <td colname="col4"> <p>Handle dell'immagine copiata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempi {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-Il codice di esempio copia un’immagine specificata da società, risorsa, handle di cartella e nome.
+Il codice di esempio copia un’immagine specificata per società, risorsa, handle di cartella e nome.
 
 **Request Contents (Richiesta contenuto)**
 

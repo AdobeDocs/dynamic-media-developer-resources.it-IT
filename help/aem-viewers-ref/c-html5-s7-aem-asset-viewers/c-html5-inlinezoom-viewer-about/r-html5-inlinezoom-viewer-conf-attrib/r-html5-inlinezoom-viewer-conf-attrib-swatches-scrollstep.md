@@ -8,28 +8,28 @@ exl-id: 0bfecc7f-5e52-47b4-a1b4-3ac3d934928b
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`Passaggio`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
-   <td> <p>Passo orizzontale. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Passaggio</span> </span> </p> </td> 
+   <td> <p>Incremento orizzontale. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>Passo verticale. </p> </td> 
+   <td> <p>Incremento verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Specifica il numero di campioni da scorrere per ogni clic o tocco del pulsante di scorrimento corrispondente.
+Specifica quanti campioni devono scorrere ogni volta che si tocca o si fa clic sul pulsante di scorrimento corrispondente.
 
 ## Proprietà {#section-e6310c8c4e8547689a5b48ceddb3671d}
 

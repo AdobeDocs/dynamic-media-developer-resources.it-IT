@@ -8,7 +8,7 @@ exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -33,9 +33,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyName | `xsd:string` | Sì | L&#39;handle dell&#39;azienda con l&#39;immagine che si desidera sostituire. |
-| assetHandle | `xsd:string` | Sì | Il handle della risorsa da sostituire. |
-| urlModifier | `xsd:string` | Sì | Comandi Image Server che generano nuovi dati immagine. |
+| companyName | `xsd:string` | Sì | Handle dell&#39;azienda con l&#39;immagine che si desidera sostituire. |
+| assetHandle | `xsd:string` | Sì | Handle della risorsa da sostituire. |
+| urlModifier | `xsd:string` | Sì | Comandi del server immagini che generano nuovi dati immagine. |
 
 **Output (replaceImageReturn)**
 
@@ -45,7 +45,7 @@ Sintassi
 
 ## Esempi {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Questo esempio di codice sostituisce un&#39;immagine e applica un `urlModifier` con un comando che specifica che Image Server non interverrà in caso di sostituzione.
+Questo esempio di codice sostituisce un’immagine e applica un `urlModifier` con un comando che specifica che il server immagini non intraprenderà alcuna azione al momento della sostituzione.
 
 **Request Contents (Richiesta contenuto)**
 

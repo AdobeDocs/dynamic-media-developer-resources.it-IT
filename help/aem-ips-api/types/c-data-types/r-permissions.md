@@ -8,7 +8,7 @@ exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -22,8 +22,8 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| groupHandle | `xsd:string` | Maniglia di gruppo. |
+| groupHandle | `xsd:string` | Handle di gruppo. |
 | groupName | `xsd:string` | Nome del gruppo. |
 | permissionType | `xsd:string` | Scelta del tipo di autorizzazione. |
-| isAllowed | `xsd:boolean` | Determina se l&#39;autorizzazione è consentita. |
-| isOverride | `xsd:boolean` | Determina se l&#39;autorizzazione sostituisce un&#39;altra. |
+| isAllowed | `xsd:boolean` | Determina se l’autorizzazione è consentita. |
+| isOverride | `xsd:boolean` | Determina se l’autorizzazione sostituisce un’altra. |

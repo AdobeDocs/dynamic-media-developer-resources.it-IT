@@ -2,12 +2,12 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-feature: Dynamic Media Classic,Visualizzatori,SDK/API,Ricerca eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 922649e9-865a-4b53-8507-a21611a6d0ac
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '27'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Specifica se le descrizioni comandi sono abilitate per i singoli elementi dell'area mappa. </p> <p> Sui dispositivi touch, inclusi i sistemi desktop touch. </p> </td> 
+   <td colname="col2"> <p> Specifica se attivare le descrizioni per i singoli elementi dell'area mappa. </p> <p> Ignorato sui dispositivi touch, inclusi i sistemi desktop touch. </p> </td> 
   </tr> 
  </tbody> 
 </table>

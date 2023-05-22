@@ -1,5 +1,5 @@
 ---
-description: Matrice di aggiornamenti dei metadati.
+description: Un array di aggiornamenti dei metadati.
 solution: Experience Manager
 title: MetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 14%
 
 ---
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-Matrice di aggiornamenti dei metadati.
+Un array di aggiornamenti dei metadati.
 
 Sintassi
 

@@ -1,6 +1,6 @@
 ---
-title: setLocalizedText
-description: Riferimento API JavaScript per il visualizzatore a 360 gradi.
+title: setLocalizedTexts
+description: Riferimento API JavaScript per il visualizzatore 360 gradi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# setLocalizedText{#setlocalizedtexts}
+# setLocalizedTexts{#setlocalizedtexts}
 
-Riferimento API JavaScript per il visualizzatore a 360 gradi.
+Riferimento API JavaScript per il visualizzatore 360 gradi.
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,12 +22,12 @@ Riferimento API JavaScript per il visualizzatore a 360 gradi.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} Oggetto JSON con dati di localizzazione. </p> <p>Vedi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p>Vedi anche <i>Guida utente dell’SDK per visualizzatori</i> e nell'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Oggetto</span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente</a> per ulteriori informazioni. </p> <p>Consulta anche <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta i valori SYMBOL di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
+Imposta i valori del SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

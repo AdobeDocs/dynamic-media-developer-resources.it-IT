@@ -1,18 +1,18 @@
 ---
 description: Rinomina una cartella.
 solution: Experience Manager
-title: rinominaCartella
+title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
-# rinominaCartella{#renamefolder}
+# renameFolder{#renamefolder}
 
 Rinomina una cartella.
 
@@ -33,15 +33,15 @@ Sintassi
 
 ## Parametri {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (rinominaFolderParam)**
+**Input (renameFolderParam)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Gestisci l&#39;azienda con le cartelle che desideri rinominare. |
+| companyHandle | `xsd:string` | Sì | Gestisci l’azienda con le cartelle da rinominare. |
 | folderHandle | `xsd:string` | Sì | Gestisci la cartella. |
-| folderName | `xsd:string` | Sì | Nuovo nome della cartella. |
+| folderName | `xsd:string` | Sì | Nome nuova cartella. |
 
-**Output (ridenominazioneCartellaReturn)**
+**Output (renameFolderReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Sintassi
 
 ## Esempi {#section-98bdd2f88d164f488676e90aba1dc864}
 
-Questo codice di esempio rinomina una cartella.
+Questo esempio di codice rinomina una cartella.
 
 **Request Contents (Richiesta contenuto)**
 

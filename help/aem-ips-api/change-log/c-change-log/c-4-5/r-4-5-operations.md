@@ -1,5 +1,5 @@
 ---
-description: Descrive i metodi operativi nuovi e modificati per l’API IPS versione 4.5.
+description: Descrive i metodi operativi nuovi e modificati per la versione 4.5 dell'API IPS.
 solution: Experience Manager
 title: Operazioni - Nuove e modificate
 feature: Dynamic Media Classic,SDK/API
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Operazioni: Nuovo e modificato{#operations-new-and-modified}
+# Operazioni: nuove e modificate{#operations-new-and-modified}
 
-Descrive i metodi operativi nuovi e modificati per l’API IPS versione 4.5.
+Descrive i metodi operativi nuovi e modificati per la versione 4.5 dell&#39;API IPS.
 
 Sintassi
 
@@ -37,8 +37,8 @@ Sintassi
 
 ## Operazioni modificate {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo`e `javascriptInfo` Parametri.
-* `createMetadataField` include un `isHidden` parametro .
-* `saveMetadataField` include un `isHidden` parametro .
+* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo`, e `javascriptInfo` parametri.
+* `createMetadataField` include un `isHidden` parametro.
+* `saveMetadataField` include un `isHidden` parametro.
 * `searchAssets`
-* La `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso dalla `renameAsset` funzionamento. Il percorso del file virtuale viene modificato in modo che corrisponda al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro quando si aggiorna alla nuova versione API.
+* Il `renameFiles` Il parametro è stato dichiarato obsoleto per le versioni precedenti e rimosso dal `renameAsset` operazione. Il percorso del file virtuale viene modificato in modo da corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro durante l’aggiornamento alla nuova versione API.

@@ -1,20 +1,20 @@
 ---
-description: Descrive i tipi di dati nuovi e modificati per l’API IPS versione 4.2.
+description: Descrive i tipi di dati nuovi e modificati per la versione 4.2 dell'API IPS.
 solution: Experience Manager
 title: Tipi di dati nuovi e modificati
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 1%
+source-wordcount: '51'
+ht-degree: 0%
 
 ---
 
-# Tipi di dati: Nuovo e modificato{#data-types-new-and-modified}
+# Tipi di dati: nuovi e modificati{#data-types-new-and-modified}
 
-Descrive i tipi di dati nuovi e modificati per l’API IPS versione 4.2.
+Descrive i tipi di dati nuovi e modificati per la versione 4.2 dell&#39;API IPS.
 
 Sintassi
 
@@ -41,7 +41,7 @@ Parametri rimossi:
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**ReprocessAssetsJob**
+**RielaboraProcessoRisorse**
 
 Parametri aggiunti:
 

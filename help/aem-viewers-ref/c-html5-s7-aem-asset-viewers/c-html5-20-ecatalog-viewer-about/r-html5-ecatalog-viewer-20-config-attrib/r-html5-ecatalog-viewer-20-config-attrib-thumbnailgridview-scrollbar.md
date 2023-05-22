@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9185d752-1fd8-45c3-8361-e5ee803e87d5
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '17'
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Abilita o disabilita l’utilizzo della barra di scorrimento. </p> </td> 
+   <td> <p> Attiva o disattiva l'utilizzo della barra di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

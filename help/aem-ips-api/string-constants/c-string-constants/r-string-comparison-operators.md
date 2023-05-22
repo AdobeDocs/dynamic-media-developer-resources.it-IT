@@ -1,18 +1,18 @@
 ---
 description: Utilizzato da SystemFieldCondition/op e MetadataCondition/op.
 solution: Experience Manager
-title: Operatori di confronto delle stringhe
-feature: Dynamic Media Classic, SDK/API
+title: Operatori di confronto stringhe
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 3%
+source-wordcount: '22'
+ht-degree: 4%
 
 ---
 
-# Operatori di confronto delle stringhe{#string-comparison-operators}
+# Operatori di confronto stringhe{#string-comparison-operators}
 
 Utilizzato da SystemFieldCondition/op e MetadataCondition/op.
 

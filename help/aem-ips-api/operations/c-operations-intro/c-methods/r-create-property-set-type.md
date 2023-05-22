@@ -1,5 +1,5 @@
 ---
-description: Un tipo di set di proprietà specifica le varie impostazioni utilizzate per gestire i set di proprietà.
+description: Un tipo di insieme di proprietà specifica varie impostazioni utilizzate per gestire gli insiemi di proprietà.
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-Un tipo di set di proprietà specifica le varie impostazioni utilizzate per gestire i set di proprietà.
+Un tipo di insieme di proprietà specifica varie impostazioni utilizzate per gestire gli insiemi di proprietà.
 
 Sintassi
 
@@ -31,20 +31,20 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | No | L&#39;handle della società proprietaria del tipo di set di proprietà. Se `companyHandle` non viene passato e il chiamante è un `IpsAdmin`, viene creato un tipo di set di proprietà globale. |
-| name | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
+| companyHandle | `xsd:string` | No | Handle per l&#39;azienda a cui appartiene il tipo di set di proprietà. Se `companyHandle` non viene passato e il chiamante è un `IpsAdmin`, viene creato un tipo di set di proprietà globali. |
+| nome | `xsd:string` | Sì | Nome del tipo di set di proprietà. |
 | propertyType | `xsd:string` | Sì | Scelta dei tipi di set di proprietà. |
-| allowMultiple | `xsd:boolean` | Sì | Determina se il programma può avere più set di proprietà. |
+| allowMultiple | `xsd:boolean` | Sì | Determina se il programma può avere più insiemi di proprietà. |
 
 **Output (createPropertySetTypeReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sì | Un handle per il tipo. |
+| typeHandle | `xsd:string` | Sì | Handle al tipo. |
 
 ## Esempi {#section-13396c9639a6475190e622eae3cdb534}
 
-Questo codice di esempio crea una proprietà impostata con un nome e un tipo specificati dal `PropertySet Types` costante. L&#39;handle della società proprietaria del tipo di set di proprietà. Se companyHandle non viene passato e il chiamante è un IpsAdmin, viene creato un tipo di set di proprietà globale.
+In questo esempio di codice viene creato un set di proprietà con un nome e un tipo specificati da `PropertySet Types` costante. Handle per l&#39;azienda a cui appartiene il tipo di set di proprietà. Se companyHandle non viene passato e il chiamante è un IpsAdmin, viene creato un tipo di insieme di proprietà globale.
 
 **Request Contents (Richiesta contenuto)**
 

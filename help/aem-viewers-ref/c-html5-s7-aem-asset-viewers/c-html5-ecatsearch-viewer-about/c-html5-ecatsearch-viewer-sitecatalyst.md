@@ -1,5 +1,5 @@
 ---
-description: Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Analytics.
+description: Il visualizzatore di ricerca eCatalog supporta il tracciamento di Adobe Analytics preconfigurato.
 solution: Experience Manager
 title: Supporto per il tracciamento di Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # Supporto per il tracciamento di Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Il visualizzatore di ricerca per eCatalog supporta il tracciamento di Adobe Analytics.
+Il visualizzatore di ricerca eCatalog supporta il tracciamento di Adobe Analytics preconfigurato.
 
-## Tracciamento preconfigurato {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracciamento predefinito {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-Il visualizzatore di ricerca per eCatalog supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome corretto del predefinito aziendale come `config2` parametro .
+Il visualizzatore di ricerca eCatalog supporta [!DNL Adobe Analytics] tracciamento preconfigurato. Per abilitare il tracciamento, passa il nome del predefinito aziendale corretto come `config2` parametro.
 
-Il visualizzatore invia inoltre una singola richiesta HTTP di tracciamento al server immagini configurato con il tipo di visualizzatore e le informazioni sulla versione.
+Il visualizzatore invia anche una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per integrare con sistemi di analisi di terze parti è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` argomento della funzione di callback, se necessario. Il codice seguente è un esempio di tale funzione di gestione:
+Per l’integrazione con sistemi di analisi di terze parti è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
@@ -54,7 +54,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Evento utente SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Inviato quando.. </p> </th> 
+   <th colname="col2" class="entry"> <p>Inviato quando... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -68,27 +68,27 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> un’immagine viene ingrandita. </p> </td> 
+   <td colname="col2"> <p> un'immagine è ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAN (Panning)</span> </p> </td> 
-   <td colname="col2"> <p>un'immagine viene pannerizzata. </p> </td> 
+   <td colname="col2"> <p>un'immagine è sottoposta a panning. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">SWATCH (Campione)</span> </p> </td> 
-   <td colname="col2"> <p> per modificare un’immagine, toccate o fate clic su un campione. </p> </td> 
+   <td colname="col2"> <p> per modificare un’immagine tocca o fai clic su un campione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">PAGE (Pagina)</span> </p> </td> 
-   <td colname="col2"> <p> nella vista principale viene modificato un fotogramma corrente. </p> </td> 
+   <td colname="col2"> <p> un fotogramma corrente viene modificato nella vista principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">ITEM (Elemento)</span> </p> </td> 
-   <td colname="col2"> <p>viene attivato un pop-up del pannello informazioni. </p> </td> 
+   <td colname="col2"> <p>viene attivata una finestra a comparsa del pannello informazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>un utente passa a una pagina diversa facendo clic sulla mappa immagine. </p> </td> 
+   <td colname="col2"> <p>quando si fa clic sulla mappa immagine, l’utente passa a una pagina diversa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

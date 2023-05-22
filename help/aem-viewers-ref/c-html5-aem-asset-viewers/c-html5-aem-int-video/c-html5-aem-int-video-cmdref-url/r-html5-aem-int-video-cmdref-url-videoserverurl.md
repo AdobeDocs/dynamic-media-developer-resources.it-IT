@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Comando URL per il visualizzatore video.
+description: Comando URL per Visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-Comando URL per il visualizzatore video.
+Comando URL per Visualizzatore video.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,7 +22,7 @@ Comando URL per il visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Il percorso principale del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui viene distribuita la pagina. Si applica la risoluzione standard del percorso URI. </p> </td> 
+   <td colname="col2"> <p> Percorso root del server video. Se non viene specificato alcun dominio, viene applicato il dominio da cui è trasmessa la pagina. È applicabile la risoluzione del percorso URI standard. </p> </td> 
   </tr> 
  </tbody> 
 </table>

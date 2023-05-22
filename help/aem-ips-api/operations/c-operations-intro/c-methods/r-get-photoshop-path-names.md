@@ -8,7 +8,7 @@ exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -34,14 +34,14 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Gestisci l&#39;azienda che contiene l&#39;immagine con cui desideri lavorare. |
+| companyHandle | `xsd:string` | Sì | Gestisci fino all’azienda che contiene l’immagine con cui desideri lavorare. |
 | assetHandle | `xsd:string` | Sì | Gestisci la risorsa immagine. |
 
 **Output (getPhotoshopPathNamesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | Sì | Matrice di nomi di percorsi Photoshop in un&#39;immagine. |
+| pathNameArray | `types:StringArray` | Sì | Matrice di nomi di percorso Photoshop in un&#39;immagine. |
 
 ## Esempi {#section-6d316f14b4184d42af4ca3f717b042dd}
 

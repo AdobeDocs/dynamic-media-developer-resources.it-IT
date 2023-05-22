@@ -18,31 +18,31 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 >[!TIP]
 >
->Prova e scopri i vantaggi dei modificatori di immagini Dynamic Media e Smart imaging utilizzando Dynamic Media [_Istantanea_](https://snapshot.scene7.com/).
+>Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Media e dell&#39;imaging avanzato con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Lo snapshot è uno strumento di dimostrazione visiva progettato per illustrare la potenza di Dynamic Media per la distribuzione delle immagini ottimizzata e dinamica. Sperimenta con immagini di test o URL Dynamic Media, per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni di Smart Imaging per i seguenti elementi:
->* Dimensione del file (con distribuzione WebP e AVIF)
->* Larghezza di banda della rete
->* DPR (rapporto pixel dispositivo)
+> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Media per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Media per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni Smart Imaging per i seguenti elementi:
+>* Dimensione del file (con consegna WebP e AVIF)
+>* Larghezza di banda di rete
+>* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
 >
->Per imparare quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
+>Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi)
 
 
-**Solo per Dynamic Media in Adobe Experience Manager** - Oltre alle impostazioni dell&#39;immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate alle immagini che è possibile specificare nel **Modificatori immagine** campo . Questi parametri sono definiti di seguito. Tuttavia, tieni presente che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
+**Solo per Dynamic Media in Adobe Experience Manager** - oltre alle impostazioni di base delle immagini disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate delle immagini che è possibile specificare nella **Modificatori immagine** campo. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Media nell’AEM.
 
-* Comandi di correzione del colore: `icc=` e `iccEmbed=`.
-* Comandi di base per il modello e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
+* Comandi di correzione colore: `icc=` e `iccEmbed=`.
+* Comandi di base per la creazione di modelli e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
 * Comandi di localizzazione: `locale=` e `req=xlate`.
-* `req=set` non è disponibile per l&#39;utilizzo generale.
+* `req=set` non è disponibile per l’utilizzo generale.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servizi Dynamic Media non principali: SVG, Image Rendering e Web-to-Print.
+* Servizi Dynamic Media non core: SVG, Image Rendering e Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Vedi anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
+Consulta anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
@@ -53,44 +53,44 @@ Vedi anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague
 * [cache](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
-* [color](r-color-commandref.md)
-* [coltura](r-crop.md)
+* [colore](r-color-commandref.md)
+* [ritagliare](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [effetto](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [estendere](r-extend.md)
-* [adatto](r-fit.md)
+* [adatta](r-fit.md)
 * [capovolgere](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
-* [nascondere](r-hide.md)
+* [nascondi](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [id](r-id.md)
-* [imageSet](r-imageset.md)
+* [setImmagini](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [strato](r-layer.md)
+* [layer](r-layer.md)
 * [locale](r-locale.md)
-* [map](r-map.md)
+* [mappa](r-map.md)
 * [maschera](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
-* [op_bright](r-op-brightness.md)
+* [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
-* [op_contrasto](r-op-contrast.md)
+* [op_contrast](r-op-contrast.md)
 * [op_grow](r-op-grow.md)
 * [op_growMask](r-op-growmask.md)
 * [op_growMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_rumore](r-op-noise.md)
+* [op_noise](r-op-noise.md)
 * [op_saturation](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
-* [opaca](r-opac.md)
+* [opac](r-opac.md)
 * [origine](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
@@ -100,17 +100,17 @@ Vedi anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
 * [quantificare](r-is-http-quantize.md)
-* [rect](r-rect.md)
+* [retto](r-rect.md)
 * [req](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
-* [rassegnare](r-rgn.md)
+* [rgn](r-rgn.md)
 * [rotate](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
-* [size](r-size-reference.md)
+* [dimensione](r-size-reference.md)
 * [src](r-src.md)
-* [template](r-template.md)
+* [modello](r-template.md)
 * [text](r-text.md)
 * [textAngle](r-textangle.md)
 * [textAttr](r-textattr.md)
@@ -118,6 +118,6 @@ Vedi anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [type](r-type.md)
+* [tipo](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)

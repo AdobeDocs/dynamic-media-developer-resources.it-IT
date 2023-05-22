@@ -1,6 +1,6 @@
 ---
 title: Opacità materiale variabile
-description: L'opacità variabile è supportata per i colori solidi e le texture ripetibili applicate agli oggetti sovrapposti, nonché per i decali e i materiali di rivestimento per finestre.
+description: L'opacità variabile è supportata per i colori in tinta unita e le texture ripetibili applicate agli oggetti sovrapposti, nonché per le decalcomanie e i materiali di rivestimento delle finestre.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Opacità materiale variabile{#varying-material-opacity}
 
-L&#39;opacità variabile è supportata per i colori solidi e le texture ripetibili applicate agli oggetti sovrapposti, nonché per i decali e i materiali di rivestimento per finestre.
+L&#39;opacità variabile è supportata per i colori in tinta unita e le texture ripetibili applicate agli oggetti sovrapposti, nonché per le decalcomanie e i materiali di rivestimento delle finestre.
 
-Le informazioni sull’opacità possono essere fornite semplicemente utilizzando un’immagine di RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con il `opacity=` (sia per le immagini RGB che RGBA).
+Le informazioni sull&#39;opacità possono essere fornite semplicemente utilizzando un&#39;immagine RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con `opacity=` (per le immagini RGB e RGBA).
 
-I bordi a parete supportano anche le immagini RGBA, principalmente per supportare i bordi di stampa.
+I bordi delle pareti supportano anche le immagini RGBA, principalmente per i bordi con taglio automatico.
 
-La [!DNL vnw] i file che definiscono i rivestimenti delle finestre possono includere un canale di opacità. È combinato dal renderer con il canale alfa della texture ripetibile e il `opacity=` valore per fornire una gamma completa di effetti di opacità per i trattamenti di finestre semplici e traslucide.
+Il [!DNL vnw] i file che definiscono le coperture delle finestre possono includere un canale di opacità. Viene combinato dal renderer con il canale alfa della texture ripetibile e il `opacity=` valore per ottenere una gamma completa di effetti di opacità per i trattamenti in finestre semplici e traslucide.

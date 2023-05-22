@@ -1,26 +1,26 @@
 ---
-description: Flash domini web dell'applicazione. Le applicazioni di Flash di Adobe possono richiedere l'accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
+description: Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l'accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
 solution: Experience Manager
-title: TrustedDomains
-feature: Dynamic Media Classic, SDK/API
+title: Domini attendibili
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 3%
+source-wordcount: '105'
+ht-degree: 2%
 
 ---
 
-# TrustedDomains{#trusteddomains}
+# Domini attendibili{#trusteddomains}
 
-Flash domini web dell&#39;applicazione. Le applicazioni di Flash di Adobe possono richiedere l&#39;accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
+Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l&#39;accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
 
-Il swf deve concedere l&#39;accesso esplicitamente registrando il nome dei domini di applicazione di cui si fida.
+Il file SWF deve concedere esplicitamente l&#39;accesso registrando il nome dei domini dell&#39;applicazione considerati attendibili.
 
 ## Proprietà {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-Stringa contenente un elenco separato da virgole di nomi di dominio web. Se vuoto, le applicazioni devono essere servite dallo stesso dominio di Image Rendering per poter accedere alle proprietà delle immagini nelle risposte in formato swf.
+Stringa contenente un elenco separato da virgole di nomi di dominio web. Se vuoto, le applicazioni devono essere servite dallo stesso dominio di Image Rendering per poter accedere alle proprietà delle immagini nelle risposte in formato SWF.
 
 ## Predefinito {#section-5c52ed3c7310488380f5a6f9540bf981}
 

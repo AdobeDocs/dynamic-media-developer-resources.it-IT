@@ -1,5 +1,5 @@
 ---
-description: Ottiene una matrice di membri che si trovano in un set di immagini.
+description: Ottiene un array di membri inclusi in un set di immagini.
 solution: Experience Manager
 title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -8,13 +8,13 @@ exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
 # getImageSetMembers{#getimagesetmembers}
 
-Ottiene una matrice di membri che si trovano in un set di immagini.
+Ottiene un array di membri inclusi in un set di immagini.
 
 Sintassi
 
@@ -31,7 +31,7 @@ Sintassi
 
 >[!NOTE]
 >
->Richiede l&#39;accesso in lettura all&#39;immagine e alla risorsa set di membri.
+>Richiede l&#39;accesso in lettura all&#39;immagine e alla risorsa del set di membri.
 
 ## Parametri {#section-a67ba98095574533980997c83ceaa316}
 
@@ -39,18 +39,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | L&#39;handle della società che contiene il set di immagini. |
-| assetHandle | `xsd:string` | Sì | La maniglia della risorsa del set di immagini. |
+| companyHandle | `xsd:string` | Sì | Handle per la società che contiene il set di immagini. |
+| assetHandle | `xsd:string` | Sì | Handle della risorsa set di immagini. |
 
 **Output (getImageSetMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| MemberArray | `types:ImageSetMemberArray` | No | Array di membri set di immagini. |
+| memberArray | `types:ImageSetMemberArray` | No | Array di membri del set di immagini. |
 
 ## Esempi {#section-888a9a78033346f39b171229de93dfa0}
 
-Questo esempio di codice restituisce membri set di immagini specifici. La risposta restituisce una matrice vuota.
+Questo esempio di codice restituisce membri specifici del set di immagini. La risposta restituisce un array vuoto.
 
 **Request Contents (Richiesta contenuto)**
 

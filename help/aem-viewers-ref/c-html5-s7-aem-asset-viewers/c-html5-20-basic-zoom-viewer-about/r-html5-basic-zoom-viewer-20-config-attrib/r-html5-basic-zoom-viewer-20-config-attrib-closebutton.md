@@ -1,5 +1,5 @@
 ---
-title: bottone chiuso
+title: closebutton
 description: Pulsante Chiudi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
@@ -8,11 +8,11 @@ exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
-# bottone chiuso{#closebutton}
+# closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta su <span class="codeph"> 1</span> per attivare la visualizzazione del pulsante Chiudi, oppure impostare <span class="codeph"> 0</span> per nascondere il pulsante Chiudi. </p> </td> 
+   <td colname="col2"> <p> Imposta su <span class="codeph"> 1</span> per attivare la visualizzazione del pulsante Chiudi o impostare su <span class="codeph"> 0</span> per nascondere il pulsante chiudi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,28 +1,28 @@
 ---
-description: Risoluzione dell'oggetto predefinita. Fornisce una risoluzione predefinita dell'oggetto nel caso in cui un particolare record di catalogo non contenga un valore di risoluzione del catalogo valido.
+description: Risoluzione oggetto predefinita. Specifica una risoluzione predefinita degli oggetti nel caso in cui un record catalogo non contenga un valore di risoluzione catalogo valido.
 solution: Experience Manager
 title: Risoluzione
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '82'
 ht-degree: 6%
 
 ---
 
 # Risoluzione{#resolution}
 
-Risoluzione dell&#39;oggetto predefinita. Fornisce una risoluzione predefinita dell&#39;oggetto nel caso in cui un particolare record di catalogo non contenga un valore di catalogo valido::Resolution.
+Risoluzione oggetto predefinita. Specifica una risoluzione predefinita dell&#39;oggetto nel caso in cui un record catalogo non contenga un valore catalog::Resolution valido.
 
 ## Proprietà {#section-1f65ea81c3324781af17d0321facbd19}
 
-Numero reale, maggiore di 0. In genere espresso come pixel per pollice, ma può anche essere in altre unità, come i pixel per metro.
+Numero reale, maggiore di 0. Generalmente espresso come pixel per pollice, ma può anche essere espresso in altre unità, come pixel per metro.
 
 ## Predefinito {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-Ereditato da `default::Resolution` se non definito o se vuoto.
+Ereditato da `default::Resolution` se non è definita o se è vuota.
 
 ## Consultate anche {#section-dffa1f318fd84833b74d08d09c24c974}
 

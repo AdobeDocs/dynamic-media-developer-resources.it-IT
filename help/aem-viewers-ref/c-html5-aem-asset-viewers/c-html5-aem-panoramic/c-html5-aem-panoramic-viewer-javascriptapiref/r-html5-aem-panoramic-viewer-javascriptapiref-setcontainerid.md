@@ -8,7 +8,7 @@ exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
 source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -18,9 +18,9 @@ Riferimento API JavaScript per il visualizzatore panoramico.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l’ID del contenitore DOM (in genere un DIV) in cui viene inserito il visualizzatore. Non è necessario che l&#39;elemento contenitore venga creato al momento della chiamata di questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Deve essere chiamato prima `init()`.
+Imposta l&#39;ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Deve essere chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
 
 ## Parametro {#section-fa807db629ce43bab286b1e1dc96c492}
 

@@ -1,6 +1,6 @@
 ---
-title: ArrayCampiMetadatiRisorsa
-description: Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
+title: AssetMetadataFieldsArray
+description: Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati di risorse in una singola chiamata con risultati raggruppati per tipo di risorsa.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -8,13 +8,13 @@ exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 # [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
-Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati della risorsa in una singola chiamata con risultati raggruppati per tipo di risorsa.
+Matrice di AssetMetadataFields. Utilizzato da getAssetMetadataFields per restituire tutti i campi di metadati di risorse in una singola chiamata con risultati raggruppati per tipo di risorsa.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:AssetMetadataFields` | Un `AssetMetadataFields` elemento array. |
+| elementi | `types:AssetMetadataFields` | Un `AssetMetadataFields` elemento di array. |

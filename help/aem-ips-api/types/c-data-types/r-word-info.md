@@ -1,5 +1,5 @@
 ---
-description: Proprietà di un file Word.
+description: Proprietà di un file di Word.
 solution: Experience Manager
 title: WordInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 24%
+ht-degree: 12%
 
 ---
 
 # [!DNL WordInfo]{#wordinfo}
 
-Proprietà di un file Word.
+Proprietà di un file di Word.
 
 Sintassi
 

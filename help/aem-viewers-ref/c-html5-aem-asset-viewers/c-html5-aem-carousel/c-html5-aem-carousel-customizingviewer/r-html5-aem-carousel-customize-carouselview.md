@@ -1,6 +1,6 @@
 ---
-title: Vista a carosello
-description: La vista principale è costituita dall’immagine del banner.
+title: Vista carosello
+description: La vista principale è costituita dall'immagine del banner.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Vista a carosello{#carousel-view}
+# Vista carosello{#carousel-view}
 
-La vista principale è costituita dall’immagine del banner.
+La vista principale è costituita dall&#39;immagine del banner.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell’area visualizzatore principale**
+**Proprietà CSS dell&#39;area visualizzatore principale**
 
-L’aspetto dell’area di visualizzazione è controllato con il seguente selettore di classe CSS:
+L’aspetto dell’area di visualizzazione è controllato dal seguente selettore di classi CSS:
 
 ```
 .s7carouselviewer .s7carouselview
@@ -35,13 +35,13 @@ L’aspetto dell’area di visualizzazione è controllato con il seguente selett
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore di sfondo  </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo nel formato esadecimale della vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio : per rendere trasparente la visualizzazione principale.
+Esempio: per rendere trasparente la visualizzazione principale.
 
 ```
 .s7carouselviewer .s7carouselview { 

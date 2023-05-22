@@ -1,31 +1,32 @@
 ---
-title: Callback degli eventi
-description: Callback degli eventi
+title: Callback di eventi
+description: Callback di eventi
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 21962c01-f224-408d-8072-1c7f5d78ac4b
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
-# Callback degli eventi{#event-callbacks}
+# Callback di eventi{#event-callbacks}
 
-Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del comportamento di runtime.
+Il visualizzatore supporta i callback di eventi JavaScript utilizzati dalla pagina web per tenere traccia del processo di inizializzazione del visualizzatore o del suo comportamento in fase di esecuzione.
 
-I gestori di callback vengono assegnati trasmettendo i nomi degli eventi e le corrispondenti funzioni del gestore con `handlers` proprietà di `config` Oggetto JSON nel costruttore del visualizzatore. In alternativa, è possibile utilizzare `setHandlers()` Metodo API.
+I gestori di callback vengono assegnati trasmettendo i nomi degli eventi e le funzioni di gestore corrispondenti con `handlers` proprietà a `config` Oggetto JSON nel costruttore del visualizzatore. In alternativa, è possibile utilizzare `setHandlers()` metodo API.
 
-Gli eventi del visualizzatore supportati includono:
+Gli eventi visualizzatore supportati includono:
 
-* `initComplete` - si attiva quando l&#39;inizializzazione del visualizzatore è completa e vengono creati tutti i componenti interni, in modo che sia possibile utilizzare `getComponent()` API. Il gestore di callback non accetta argomenti.
+* `initComplete` : si attiva quando l’inizializzazione del visualizzatore è completa e tutti i componenti interni vengono creati, in modo che sia possibile utilizzare `getComponent()` API. Il gestore di callback non accetta argomenti.
 
-* `trackEvent` - viene attivato ogni volta che si verifica un evento all’interno del visualizzatore che può essere gestito da un sistema di tracciamento degli eventi, ad esempio Adobe Analytics. L&#39;handler di callback accetta i seguenti argomenti:
+* `trackEvent` : viene attivato ogni volta che si verifica un evento all’interno del visualizzatore che può essere gestito da un sistema di tracciamento degli eventi, come Adobe Analytics. Il gestore di callback utilizza gli argomenti seguenti:
 
-   * `objID {String}` attualmente non utilizzato.
-   * `compClass {String}` attualmente non utilizzato.
-   * `instName {String}` un nome di istanza del componente SDK per visualizzatori che ha attivato l’evento.
+   * `objID {String}` non attualmente in uso.
+   * `compClass {String}` non attualmente in uso.
+   * `instName {String}` un nome di istanza del componente SDK del visualizzatore che ha attivato l’evento.
    * `eventInfo {String}` payload dell’evento.
 
 Vedi anche [SmartCropVideoViewer]

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Stringa di comando Image Server applicata a tutte le miniature.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve essere codificato in HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> deve essere codificato HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

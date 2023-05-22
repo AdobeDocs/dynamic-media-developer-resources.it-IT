@@ -8,7 +8,7 @@ exl-id: 6c009573-0ef3-4bc2-9f9f-ff6580b32df0
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '18'
-ht-degree: 22%
+ht-degree: 16%
 
 ---
 
@@ -20,5 +20,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| setHandle | `xsd:string` | Gestisci l&#39;insieme di proprietà. |
-| permissionsArray | `types:PermissionUpdateArray` | Un array di autorizzazioni. |
+| setHandle | `xsd:string` | Gestisci il set di proprietà. |
+| permissionsArray | `types:PermissionUpdateArray` | Matrice di autorizzazioni. |

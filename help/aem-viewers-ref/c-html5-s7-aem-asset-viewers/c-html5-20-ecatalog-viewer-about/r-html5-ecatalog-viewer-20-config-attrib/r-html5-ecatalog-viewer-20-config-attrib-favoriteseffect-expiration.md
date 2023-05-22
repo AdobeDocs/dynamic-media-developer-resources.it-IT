@@ -8,7 +8,7 @@ exl-id: ef4880c5-045c-487c-a73a-e87e54717029
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> giorni</span></span> </p> </td> 
-   <td colname="col2"> <p> Numero di giorni in cui la raccolta dei preferiti viene conservata nel sistema del cliente prima della loro scadenza. Ogni volta che un utente visita il catalogo e cambia un preferito, ad esempio aggiungendo o rimuovendo, il timer di scadenza viene reimpostato. </p> </td> 
+   <td colname="col2"> <p> Numero di giorni in cui la raccolta di preferiti viene mantenuta sul sistema del client prima della scadenza. Ogni volta che un utente visita il catalogo e cambia un preferito, ad esempio aggiungendo o rimuovendo un preferito, il timer di scadenza viene reimpostato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

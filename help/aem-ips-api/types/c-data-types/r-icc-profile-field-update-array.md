@@ -8,7 +8,7 @@ exl-id: 665280fe-ec76-48ce-b104-d65440c0f1ac
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 20%
+ht-degree: 12%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:IccProfileUpdate` | `IccProfileFieldUpdate` elemento array. |
+| elementi | `types:IccProfileUpdate` | `IccProfileFieldUpdate` elemento di array. |

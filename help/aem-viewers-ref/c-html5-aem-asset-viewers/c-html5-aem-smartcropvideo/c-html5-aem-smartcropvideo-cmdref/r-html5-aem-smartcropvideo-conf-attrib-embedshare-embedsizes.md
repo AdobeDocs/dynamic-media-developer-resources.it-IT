@@ -1,37 +1,38 @@
 ---
 title: EmbedShare.embedsizes
-description: Attributo di configurazione per Smart Crop Video Viewer.
+description: Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: c638d9fd-39bb-4baa-9b3a-99d9bc0307b5
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Attributo di configurazione per Smart Crop Video Viewer.
+Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`larghezza`*, *`altezza`*[,0|1][; *`larghezza`*, *`altezza`*[,0|1]]`
 
-Specifica un elenco di dimensioni da incorporare per la casella combinata dimensioni nella finestra di dialogo modale di condivisione da incorporare.
+Specifica un elenco di dimensioni di incorporamento per la casella combinata delle dimensioni nella finestra di dialogo modale di condivisione incorporamento.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza da incorporare. </p> </td> 
+   <td colname="col2"> <p> Larghezza di incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Altezza da incorporare. </p> </td> 
+   <td colname="col2"> <p>Altezza incorporamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Specifica se la voce dell'elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
+   <td colname="col2"> <p> Specifica se la voce di elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

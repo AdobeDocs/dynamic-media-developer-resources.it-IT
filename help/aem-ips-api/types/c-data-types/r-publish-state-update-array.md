@@ -8,7 +8,7 @@ exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 20%
+ht-degree: 12%
 
 ---
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:PublishStateUpdate` | Array di aggiornamenti dello stato di pubblicazione. |
+| elementi | `types:PublishStateUpdate` | L’array degli aggiornamenti dello stato di pubblicazione. |

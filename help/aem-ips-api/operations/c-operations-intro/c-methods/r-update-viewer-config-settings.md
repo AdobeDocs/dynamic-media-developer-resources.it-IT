@@ -8,7 +8,7 @@ exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Manda all&#39;azienda. |
-| assetHandle | `xsd:string` | Sì | Gestione risorse. |
-| configSettingArray | `types:ConfigSettingArray` | Sì | Array di impostazioni di configurazione da applicare al visualizzatore. |
+| companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
+| assetHandle | `xsd:string` | Sì | Handle risorsa. |
+| configSettingArray | `types:ConfigSettingArray` | Sì | Matrice di impostazioni di configurazione da applicare al visualizzatore. |
 
 **Output (updateViewerConfigSettingsReturn)**
 

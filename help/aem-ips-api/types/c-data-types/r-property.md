@@ -1,5 +1,5 @@
 ---
-description: Una coppia di nome e valore.
+description: Una coppia nome-valore.
 solution: Experience Manager
 title: Proprietà
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 27%
+ht-degree: 18%
 
 ---
 
 # [!DNL Property]{#property}
 
-Una coppia di nome e valore.
+Una coppia nome-valore.
 
 Sintassi
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| name | `xsd:string` | Nome della proprietà. |
-| value | `xsd:string` | Valore proprietà. |
+| nome | `xsd:string` | Nome proprietà. |
+| valore | `xsd:string` | Valore della proprietà. |
