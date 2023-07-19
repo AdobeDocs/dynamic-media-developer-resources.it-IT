@@ -1,20 +1,20 @@
 ---
-description: ID
-solution: Experience Manager
 title: ID
+description: In genere, un identificatore breve e univoco, ad esempio un numero SKU, che può avere una sorta di suffisso, ad esempio se uno SKU ha più immagini o varianti specifiche per le impostazioni internazionali.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 3%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 
 # ID{#id}
 
-In genere si tratta di un identificatore breve e univoco, ad esempio un numero SKU, che può avere una sorta di suffisso, ad esempio se una SKU ha più immagini o varianti specifiche per le impostazioni internazionali. Può anche essere una stringa più complessa, più simile a un percorso di file, per supportare l’adattamento dei siti web tramite Image Server.
+In genere, un identificatore breve e univoco, ad esempio un numero SKU, che può avere una sorta di suffisso, ad esempio se uno SKU ha più immagini o varianti specifiche per le impostazioni internazionali. Può anche essere una stringa più complessa, più simile a un percorso di file, per supportare l’adattamento dei siti web tramite Image Server.
 
 >[!NOTE]
 >

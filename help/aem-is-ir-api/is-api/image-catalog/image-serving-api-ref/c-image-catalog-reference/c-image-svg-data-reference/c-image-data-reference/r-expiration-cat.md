@@ -1,13 +1,13 @@
 ---
-description: Scade
-solution: Experience Manager
 title: Scade
+description: Utilizzato per gestire il caching del client e del server proxy. Il server calcola l’ora/data di scadenza dei dati di risposta HTTP aggiungendo questo valore all’ora/data di trasmissione.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---

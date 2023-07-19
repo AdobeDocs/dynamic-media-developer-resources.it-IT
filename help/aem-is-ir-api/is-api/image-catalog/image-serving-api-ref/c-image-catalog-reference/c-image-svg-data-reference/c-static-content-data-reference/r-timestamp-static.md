@@ -1,13 +1,13 @@
 ---
-description: Timestamp
-solution: Experience Manager
 title: Timestamp
+description: Se è impostato "attribute::UseLastModified", il valore "catalog::TimeStamp" viene restituito nella risposta HTTP come intestazione HTTP Last-Modified. L’intestazione Last-Modified viene sempre restituita per i contenuti statici, anche se "attribute::UseLastModified" non è impostato.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
