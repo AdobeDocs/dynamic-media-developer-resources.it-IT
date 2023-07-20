@@ -1,8 +1,10 @@
 ---
 title: Guida di riferimento per i visualizzatori Dynamic Media di Adobe
 description: Adobe Guida di riferimento per visualizzatori Dynamic Media per zoom di base, ecatalog, zoom, ecatalog search, flyout, zoom in linea, file multimediali diversi, spin, video, carosello, dimensionale, video interattivo, immagini interattive e visualizzatori video 360.
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: c8f75aa2a2f6b9960b035788c12242c1d6209640
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
