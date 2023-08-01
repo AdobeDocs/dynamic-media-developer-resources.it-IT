@@ -5,9 +5,9 @@ title: colore
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '439'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ Valori colore. Puoi specificare i valori dei colori utilizzando la notazione esa
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> colore</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> grigio</span>[,<span class="varname"> alfa</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> esadecimale6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}}</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub;&amp;lcub;<span class="varname"> grigio</span>[,<span class="varname"> alfa</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> esadecimale6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> rosso</span>, <span class="varname"> verde</span>, <span class="varname"> blu</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
