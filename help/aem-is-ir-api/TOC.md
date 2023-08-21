@@ -1,20 +1,20 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API di server e rendering immagini Dynamic Media
-breadcrumb-title: API di server e rendering immagini Dynamic Media
+user-guide-title: API di server e rendering immagini Dynamic Medie
+breadcrumb-title: API di server e rendering immagini Dynamic Medie
 feature-set: Experience Manager Assets
 user-guide-description: Consulta la documentazione sulle API IS (Image Serving) e IR (Image Rendering) e sulle tecnologie correlate.
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1468'
 ht-degree: 4%
 
 ---
 
 
-# API di server e rendering immagini Dynamic Media {#image-serving-api}
+# API di server e rendering immagini Dynamic Medie {#image-serving-api}
 
-+ [Pagina principale dell’API Image Server e Image Rendering di Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Pagina principale dell’API Image Server e Image Rendering di Dynamic Medie](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [Informazioni su questa versione](r-about-this-release.md)
 + [Requisiti di sistema e prerequisiti](r-requirements-and-prerequisites.md)
 + [Requisiti di spazio su disco e raccomandazioni](r-disk-space-reqs.md)
@@ -185,6 +185,7 @@ ht-degree: 4%
          + [ritagliare](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
+         + [dpr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)
          + [effetto](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [effectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [estendere](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
@@ -203,6 +204,7 @@ ht-degree: 4%
          + [mappa](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md)
          + [maschera](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)
          + [maskUse](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md)
+         + [rete](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)
          + [op_blur](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_brightness](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_colorbalance](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)

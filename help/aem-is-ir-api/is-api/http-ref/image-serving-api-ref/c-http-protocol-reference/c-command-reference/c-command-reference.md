@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,9 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 >[!TIP]
 >
->Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Media e dell&#39;imaging avanzato con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
+>Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Media per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Media per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni Smart Imaging per i seguenti elementi:
+> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Medie per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Medie per osservare visivamente l’output di vari modificatori di immagini Dynamic Medie e ottimizzazioni Smart Imaging per i seguenti elementi:
 >* Dimensione del file (con consegna WebP e AVIF)
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
@@ -28,7 +28,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 >Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi)
 
 
-**Solo per Dynamic Media in Adobe Experience Manager** - oltre alle impostazioni di base delle immagini disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate delle immagini che è possibile specificare nella **Modificatori immagine** campo. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Media nell’AEM.
+**Solo per Dynamic Medie in Adobe Experience Manager** - oltre alle impostazioni di base delle immagini disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate delle immagini che è possibile specificare nella **Modificatori immagine** campo. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Medie nell’AEM.
 
 * Comandi di correzione colore: `icc=` e `iccEmbed=`.
 * Comandi di base per la creazione di modelli e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
@@ -38,11 +38,11 @@ Questa sezione descrive i comandi del protocollo HTTP.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servizi Dynamic Media non core: SVG, Image Rendering e Web-to-Print.
+* Servizi Dynamic Medie non core: SVG, Image Rendering e Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche Dynamic Media [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione AEM 6.5.
+Consulta anche Dynamic Medie [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
@@ -57,6 +57,7 @@ Consulta anche Dynamic Media [Opzioni predefinito immagine](https://experiencele
 * [ritagliare](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [effetto](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [estendere](r-extend.md)
@@ -75,6 +76,7 @@ Consulta anche Dynamic Media [Opzioni predefinito immagine](https://experiencele
 * [mappa](r-map.md)
 * [maschera](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [rete](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
