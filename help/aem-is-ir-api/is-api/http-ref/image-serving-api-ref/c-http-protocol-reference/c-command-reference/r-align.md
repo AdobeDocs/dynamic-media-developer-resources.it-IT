@@ -1,11 +1,11 @@
 ---
+title: allinea
 description: Allinea immagine con vista. Allinea l'immagine composita (possibilmente dopo il ridimensionamento, se è specificato anche scl=) all'interno del rettangolo di visualizzazione definito da wid= e hei=.
 solution: Experience Manager
-title: allinea
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%

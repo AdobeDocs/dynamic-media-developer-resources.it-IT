@@ -1,11 +1,11 @@
 ---
+title: pos
 description: Posizione livello.
 solution: Experience Manager
-title: pos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%

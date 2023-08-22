@@ -1,11 +1,11 @@
 ---
+title: ritagliare
 description: Ritaglia immagine. Specifica un'area di ritaglio rettangolare, espressa in pixel o normalizzata rispetto all'immagine sorgente o all'immagine maschera a risoluzione completa.
 solution: Experience Manager
-title: ritagliare
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 1%

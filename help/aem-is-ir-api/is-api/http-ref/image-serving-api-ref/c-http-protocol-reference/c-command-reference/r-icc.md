@@ -1,11 +1,11 @@
 ---
+title: icc
 description: Profilo colore di output.
 solution: Experience Manager
-title: icc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Profilo colore di output.
  </tr> 
 </table>
 
-*`object`* specifica il profilo dello spazio colore di output in cui deve essere convertita l&#39;immagine, se diverso dal profilo di lavoro. *`profile`* deve essere un `icc::Name` definito nella mappa di profilo ICC di un catalogo immagini o di un catalogo predefinito, oppure un percorso relativo di un file di profilo (in genere con [!DNL .icc] o [!DNL .icm] suffisso). Consulta [ *`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)per ulteriori informazioni.
+*`object`* specifica il profilo dello spazio colore di output in cui deve essere convertita l&#39;immagine, se diverso dal profilo di lavoro. *`profile`* deve essere un `icc::Name` definito nella mappa di profilo ICC di un catalogo immagini o di un catalogo predefinito, oppure un percorso relativo di un file di profilo (in genere con [!DNL .icc] o [!DNL .icm] suffisso). Consulta [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) per ulteriori informazioni.
 
 >[!NOTE]
 >

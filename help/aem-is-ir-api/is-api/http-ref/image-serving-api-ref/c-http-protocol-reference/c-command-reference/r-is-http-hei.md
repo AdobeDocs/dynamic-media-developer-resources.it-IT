@@ -1,11 +1,11 @@
 ---
+title: hei
 description: Altezza visualizzazione. Specifica l’altezza dell’immagine di risposta (immagine di visualizzazione) quando fit non è presente nella richiesta.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%

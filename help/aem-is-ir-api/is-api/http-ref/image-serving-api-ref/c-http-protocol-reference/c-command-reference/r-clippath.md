@@ -1,11 +1,11 @@
 ---
+title: clipPath
 description: Tracciato clip livello. Specifica un tracciato di ritaglio per il livello corrente.
 solution: Experience Manager
-title: clipPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%

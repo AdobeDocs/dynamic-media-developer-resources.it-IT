@@ -1,11 +1,11 @@
 ---
+title: pathAttr
 description: Attributi testo su tracciato.
 solution: Experience Manager
-title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%

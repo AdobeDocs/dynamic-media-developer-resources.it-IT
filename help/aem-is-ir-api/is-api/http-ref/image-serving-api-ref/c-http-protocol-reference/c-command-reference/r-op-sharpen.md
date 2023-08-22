@@ -1,11 +1,11 @@
 ---
+title: op_sharpen
 description: Immagini più nitide. Applica un filtro di nitidezza di base al livello o all'immagine di visualizzazione finale, dopo tutte le proporzioni, se layer=comp.
 solution: Experience Manager
-title: op_sharpen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 6%

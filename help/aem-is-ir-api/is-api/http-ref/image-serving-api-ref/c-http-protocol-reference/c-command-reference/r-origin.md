@@ -1,11 +1,11 @@
 ---
+title: origine
 description: Origine livello.
 solution: Experience Manager
-title: origine
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 2%

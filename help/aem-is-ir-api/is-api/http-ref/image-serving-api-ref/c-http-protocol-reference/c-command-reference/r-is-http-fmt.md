@@ -1,11 +1,11 @@
 ---
+title: fmt
 description: Formato immagine di risposta.
 solution: Experience Manager
-title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -70,7 +70,7 @@ Formato immagine di risposta.
 * *`format`* specifica il formato di codifica dell’immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione di risposta HTTP.
 * *`pixelType`* può essere utilizzato per effettuare la conversione dello spazio colore di output quando `icc=` non è specificato.
 
-   Il profilo colore predefinito corrispondente a *`pixelType`* viene applicata. Se la gestione del colore è disattivata, viene applicata la conversione naïve. *`pixelType`* viene ignorato quando `icc=` viene specificato, che determina il tipo di pixel di output.
+  Il profilo colore predefinito corrispondente a *`pixelType`* viene applicata. Se la gestione del colore è disattivata, viene applicata la conversione naïve. *`pixelType`* viene ignorato quando `icc=` viene specificato, che determina il tipo di pixel di output.
 
 * *`compression`* è consentito solo se `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, o `jpegxr-alpha` è specificato come *`format`*. Per informazioni sulle opzioni di compressione supportate per questi formati di immagine, consulta la tabella seguente.
 

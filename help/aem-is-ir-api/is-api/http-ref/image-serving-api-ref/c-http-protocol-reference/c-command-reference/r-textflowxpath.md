@@ -1,11 +1,11 @@
 ---
+title: textFlowXPath
 description: Area di esclusione del flusso di testo. Specifica una o più aree da escludere dal flusso di testo.
 solution: Experience Manager
-title: textFlowXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%

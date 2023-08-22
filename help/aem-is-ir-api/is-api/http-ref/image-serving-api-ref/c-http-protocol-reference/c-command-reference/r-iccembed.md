@@ -1,11 +1,11 @@
 ---
+title: iccEmbed
 description: Incorpora profilo colore. Specifica se incorporare nell'immagine di risposta il profilo colore ICC funzionante o il profilo specificato con icc=.
 solution: Experience Manager
-title: iccEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bc5637f6-5452-4bfb-bf30-def6f153f4ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%

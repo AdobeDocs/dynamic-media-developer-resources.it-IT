@@ -1,11 +1,11 @@
 ---
+title: op_usm
 description: Maschera di contrasto. Maschere di contrasto del livello o dell'immagine di visualizzazione finale, dopo tutte le operazioni di ridimensionamento, se layer=comp.
 solution: Experience Manager
-title: op_usm
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%

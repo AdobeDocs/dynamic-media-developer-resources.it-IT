@@ -1,11 +1,11 @@
 ---
+title: op_hue
 description: Regola tonalità. Sposta la tonalità di ciascun pixel visibile del livello o dell'immagine composita della quantità specificata.
 solution: Experience Manager
-title: op_hue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%

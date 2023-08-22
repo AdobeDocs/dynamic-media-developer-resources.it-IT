@@ -1,11 +1,11 @@
 ---
+title: op_growMaskR
 description: Dilatare/erodere l'immagine. Applica un dilatatore morfologico (raggio > 0) o un'erosione (raggio < 0) ai dati della maschera.
 solution: Experience Manager
-title: op_growMaskR
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 3%

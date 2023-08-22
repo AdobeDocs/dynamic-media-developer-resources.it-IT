@@ -1,11 +1,11 @@
 ---
+title: op_saturation
 description: Regolare la saturazione. Modifica la saturazione di ciascun pixel visibile del livello o dell'immagine composita.
 solution: Experience Manager
-title: op_saturation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%

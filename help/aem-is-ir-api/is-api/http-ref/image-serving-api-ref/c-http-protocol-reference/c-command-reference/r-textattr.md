@@ -1,11 +1,11 @@
 ---
+title: textAttr
 description: Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di testo che non sono disponibili come comandi rtf.
 solution: Experience Manager
-title: textAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

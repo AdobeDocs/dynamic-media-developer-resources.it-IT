@@ -1,11 +1,11 @@
 ---
+title: retto
 description: Rettangolo della vista finale. Consente di smontare l'immagine finale in diverse strisce o tessere, che possono essere consegnate separatamente e riassemblate dal cliente senza interruzioni, senza artefatti lungo i bordi.
 solution: Experience Manager
-title: retto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%

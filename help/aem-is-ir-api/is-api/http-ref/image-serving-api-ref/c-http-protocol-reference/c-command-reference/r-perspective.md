@@ -1,11 +1,11 @@
 ---
+title: prospettiva
 description: Trasformazione prospettica. Applicate una trasformazione prospettica all'immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree del livello rimangono trasparenti.
 solution: Experience Manager
-title: prospettiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 1%

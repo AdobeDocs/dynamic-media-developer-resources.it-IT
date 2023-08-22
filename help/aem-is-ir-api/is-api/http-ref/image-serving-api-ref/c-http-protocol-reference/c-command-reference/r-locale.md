@@ -1,11 +1,11 @@
 ---
+title: locale
 description: ID lingua traduzione. Specifica l'ID delle impostazioni locali per la richiesta.
 solution: Experience Manager
-title: locale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d937dfa5-95dd-49fd-ac23-e77e07b0642c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 4%
@@ -29,7 +29,7 @@ Utilizzo di questo ID e delle regole specificate con `attribute::LocaleMap` e `a
 
 ## Proprietà {#section-1854a9902b884d9b8e8e713b6635723f}
 
-Comando di richiesta. Si applica all’intera richiesta, comprese le richieste nidificate/incorporate, indipendentemente da dove è specificata. `locId` deve includere solo caratteri ASCII stampabili. Ignorato se non sono definite mappe di localizzazione nel catalogo principale di questa richiesta. Se vuoto o non valido, viene restituito un errore `locId` è specificato e nessuna regola predefinita è definita in `attribute::DefaultLocale`.
+Comando di richiesta. Si applica all’intera richiesta, incluse le richieste nidificate/incorporate, indipendentemente da dove è specificata. `locId` deve includere solo caratteri ASCII stampabili. Ignorato se non sono definite mappe di localizzazione nel catalogo principale di questa richiesta. Se vuoto o non valido, viene restituito un errore `locId` è specificato e nessuna regola predefinita è definita in `attribute::DefaultLocale`.
 
 ## Predefinito {#section-9699fbc26de6453e9029e0003c79a7ef}
 

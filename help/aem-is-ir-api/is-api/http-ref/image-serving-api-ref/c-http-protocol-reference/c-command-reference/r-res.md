@@ -1,11 +1,11 @@
 ---
+title: res
 description: Ridimensionamento delle immagini basato sulla risoluzione. Ridimensiona l'immagine alla risoluzione richiesta.
 solution: Experience Manager
-title: res
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%

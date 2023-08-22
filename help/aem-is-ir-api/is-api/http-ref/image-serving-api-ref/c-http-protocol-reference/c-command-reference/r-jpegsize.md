@@ -1,11 +1,11 @@
 ---
+title: jpegSize
 description: Dimensione JPEG in kilobyte. Specifica la dimensione massima della risposta del JPEG in kilobyte.
 solution: Experience Manager
-title: jpegSize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%

@@ -1,11 +1,11 @@
 ---
+title: op_colorize
 description: Colora immagine. Colora i dati dell'immagine mantenendo ombre ed evidenziazioni.
 solution: Experience Manager
-title: op_colorize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 3%
