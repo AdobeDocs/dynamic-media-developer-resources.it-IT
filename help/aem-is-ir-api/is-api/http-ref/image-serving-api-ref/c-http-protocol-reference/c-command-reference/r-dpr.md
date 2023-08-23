@@ -4,10 +4,10 @@ description: DPR (Device Pixel Ratio)&mdash;noto anche come CSS pixel ratio&mdas
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -44,6 +44,8 @@ A causa dell&#39;ottimizzazione DPR, quando l&#39;immagine risultante è maggior
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle. Questi valori a volte sono imprecisi. IPhone5 con `dpr=2`e iPhone12 con dpr=3, entrambi mostrano `dpr=2`. Per i dispositivi ad alta risoluzione, l&#39;invio `dpr=2` è migliore dell’invio `dpr=1`. Il modo migliore per superare questa imprecisione, tuttavia, è utilizzare il DPR lato client per fornire valori accurati al 100%. E funziona per qualsiasi dispositivo, sia esso Apple o qualsiasi altro dispositivo che è stato lanciato. Consulta [Utilizzo di Smart Imaging con proporzioni pixel del dispositivo lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## Proprietà
 
 
@@ -60,4 +62,4 @@ A causa dell&#39;ottimizzazione DPR, quando l&#39;immagine risultante è maggior
 
 ## Consultate anche
 
-[rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
