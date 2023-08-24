@@ -4,9 +4,9 @@ description: DPR (Device Pixel Ratio)&mdash;noto anche come CSS pixel ratio&mdas
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle
 
 ## Proprietà
 
-
+Un attributo di richiesta. Non ha alcun effetto se `dpr` è disattivato o se `dprValue=1`.
 
 ## Predefinito
 
