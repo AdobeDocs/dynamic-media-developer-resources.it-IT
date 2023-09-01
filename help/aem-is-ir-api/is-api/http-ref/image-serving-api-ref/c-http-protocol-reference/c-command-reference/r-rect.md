@@ -1,20 +1,20 @@
 ---
 title: retto
-description: Rettangolo della vista finale. Consente di smontare l'immagine finale in diverse strisce o tessere, che possono essere consegnate separatamente e riassemblate dal cliente senza interruzioni, senza artefatti lungo i bordi.
+description: Rettangolo della vista finale. Consente di smontare l'immagine finale in più strisce o tessere, che possono essere consegnate separatamente e riassemblate dal cliente senza interruzioni, senza artefatti lungo i bordi.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
 # retto{#rect}
 
-Rettangolo della vista finale. Consente di smontare l&#39;immagine finale in diverse strisce o tessere, che possono essere consegnate separatamente e riassemblate dal cliente senza interruzioni, senza artefatti lungo i bordi.
+Rettangolo della vista finale. Consente di smontare l&#39;immagine finale in più strisce o tessere, che possono essere consegnate separatamente e riassemblate dal cliente senza interruzioni, senza artefatti lungo i bordi.
 
 `rect= *`corda`*, *`dimensione`*[, *`scala`*]`
 
@@ -37,11 +37,11 @@ Utilizzando questo comando, Image Server può distribuire immagini di grandi dim
 
 >[!NOTE]
 >
->Per risultati ottimali quando si utilizza la compressione JPEG, la dimensione della striscia o del riquadro deve essere un multiplo della dimensione del riquadro di codifica JPEG (16x16 pixel).
+>Per ottenere risultati ottimali, quando si utilizza la compressione JPEG, la dimensione della striscia o del riquadro deve essere un multiplo della dimensione del riquadro di codifica JPEG (16x16 pixel).
 
 ## Esempio {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Separare un&#39;immagine CMYK stampabile in diverse strisce a risoluzione completa per ridurre le dimensioni dei file di download. Se richiedessimo un’immagine contigua:
+Separare un&#39;immagine CMYK stampabile in diverse strisce a risoluzione completa per ridurre le dimensioni dei file di download. Se hai richiesto un’immagine contigua:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ La risposta testuale include le seguenti proprietà:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-In base a queste informazioni, decidiamo di volere quattro strisce pixel da 600x2000. Il `rect=` Il comando viene utilizzato per descrivere le dimensioni e le posizioni delle strisce.
+In base a queste informazioni, si desiderano quattro strisce pixel da 600x2000. Il `rect=` Il comando viene utilizzato per descrivere le dimensioni e le posizioni delle strisce.
 
-Poiché questa immagine viene modificata frequentemente, includeremo `id=` comando per ridurre al minimo la possibilità di avere una o più strisce di una versione precedente dell’immagine memorizzate nella cache in una rete CDN o in un server proxy. Il valore della proprietà `image.version` viene utilizzata a questo scopo.
+Poiché questa immagine viene modificata frequentemente, la `id=` è incluso. In questo modo si riduce al minimo la possibilità di finire con una o più strisce di una versione precedente dell’immagine che potrebbero essere state memorizzate nella cache in una rete CDN o in un server proxy. Il valore della proprietà `image.version` viene utilizzata a questo scopo.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Proprietà {#section-aae223cee13e46d38b74680c048d945b}
 
-Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente.
+Visualizza attributo. Viene applicato indipendentemente dall&#39;impostazione del livello corrente.
 
 Tutte le aree del ROI che si estendono all&#39;esterno dell&#39;immagine di visualizzazione vengono imbottite con `bgc=`.
 

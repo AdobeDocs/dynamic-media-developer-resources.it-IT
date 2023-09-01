@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,18 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
  </tr> 
 </table>
 
-La risoluzione di stampa viene normalmente definita da `catalog::PrintResolution` in caso di voce di catalogo, altrimenti in base al valore di risoluzione di stampa incorporato nell&#39;immagine sorgente. Nel caso di un modello o di un&#39;immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta è la risoluzione di stampa dell&#39;immagine di livello con il numero di livello più basso.
+La risoluzione di stampa viene normalmente definita da `catalog::PrintResolution` se si tratta di una voce di catalogo, altrimenti in base al valore di risoluzione di stampa incorporato nell&#39;immagine di origine. Se è presente un modello o un&#39;immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta è la risoluzione di stampa dell&#39;immagine di livello con il numero di livello più basso.
 
 L&#39;impostazione della risoluzione di stampa non modifica le dimensioni in pixel dell&#39;immagine di risposta.
 
 ## Proprietà {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione del livello corrente.
+Attributo della richiesta. Viene applicato indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Predefinito {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` o la risoluzione di stampa incorporata nell&#39;immagine sorgente.
+`catalog::PrintResolution`
+Oppure la risoluzione di stampa incorporata nell&#39;immagine sorgente.
 
 ## Consultate anche {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

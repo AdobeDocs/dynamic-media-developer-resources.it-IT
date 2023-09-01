@@ -1,13 +1,13 @@
 ---
+title: init
 description: Riferimento API JavaScript per il visualizzatore eCatalog.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ Riferimento API JavaScript per il visualizzatore eCatalog.
 
 [!DNL `init()`]
 
-Avvia l&#39;inizializzazione del visualizzatore eCatalog. A questo punto è necessario creare l’elemento DOM del contenitore in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
+Avvia l&#39;inizializzazione del visualizzatore eCatalog. A questo punto, è necessario creare l’elemento DOM del contenitore in modo che il codice del visualizzatore possa trovarlo in base al suo ID.
 
-Se l’elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto tramite [!DNL `display:none`] ), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore nel layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l’elemento contenitore non fa ancora parte del layout della pagina web, ad esempio, potrebbe essere nascosto utilizzando [!DNL `display:none`] stile assegnato: il visualizzatore sospende il processo di inizializzazione. Lo fa fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questo evento, il caricamento del visualizzatore riprende automaticamente.
 
 Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 

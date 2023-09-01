@@ -5,9 +5,9 @@ title: ImpostazioniSocietà
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
@@ -29,5 +29,5 @@ Sintassi
 | iptcExifMappingXslt | `types:Asset` | L&#39;estrazione di dati di intestazione immagine IPTC ed EXIF in IPS richiede una conversione dai nomi di campi interni ai nomi di campi definiti dall&#39;utente per la società. Determina una tabella di traduzione XSL (l&#39;impostazione predefinita è &quot;Non estrarre alcun campo IPTC o EXIF&quot;) per le immagini caricate. |
 | xmpMappingXslt | `types:Asset` | L’estrazione di dati di intestazione immagine XMP in IPS richiede una conversione dai nomi di campi interni ai nomi di campi definiti dall’utente per l’azienda. Determina una tabella di traduzione XSL (l&#39;impostazione predefinita è &quot;Non estrarre campi XMP&quot;) per le immagini caricate. |
 | diskSpaceWarningMin | `xsd:int` | Quantità minima di spazio libero su disco nella directory delle immagini prima dell&#39;invio di un avviso. |
-| emailTrashCleanupWarning | `xsd:boolean` | Determina se inviare e-mail prima che gli elementi inseriti nel cestino vengano eliminati automaticamente. |
-| javascriptUploadEnabled | `types:Asset` | Determina se caricare i file JavaScript. Si tratta di un potenziale rischio per la sicurezza, pertanto utilizza questa opzione con attenzione. |
+| emailTrashCleanupWarning | `xsd:boolean` | Determina se inviare e-mail prima dell&#39;eliminazione automatica degli elementi del cestino. |
+| javascriptUploadEnabled | `types:Asset` | Determina se caricare i file JavaScript. Questa opzione rappresenta un potenziale rischio per la sicurezza, pertanto utilizza con cautela. |

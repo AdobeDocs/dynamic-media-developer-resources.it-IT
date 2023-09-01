@@ -1,20 +1,20 @@
 ---
-description: Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un nuovo campo di metadati.
-solution: Experience Manager
 title: saveMetadataField
+description: Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un campo di metadati.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 8%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un nuovo campo di metadati.
+Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo per creare un campo di metadati.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Crea o modifica un campo di metadati. Ometti l’handle del campo facoltativo pe
 
 ## Esempi {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In questo esempio di codice viene creato un nuovo campo di metadati vincolato dalle costanti stringa Tipo risorsa e Tipi di campo metadati. Se il `fieldHandle` L&#39;elemento ha un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
+In questo esempio di codice viene creato un campo di metadati vincolato dalle costanti stringa Tipo risorsa e Tipi di campo metadati. Se il `fieldHandle` L&#39;elemento ha un valore di handle di campo valido, modifica i valori dei metadati e ottiene lo stesso handle di campo specificato nella richiesta.
 
 **Request Contents (Richiesta contenuto)**
 

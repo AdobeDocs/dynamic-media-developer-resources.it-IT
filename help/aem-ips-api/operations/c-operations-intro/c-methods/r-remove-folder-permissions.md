@@ -1,13 +1,13 @@
 ---
+title: removeFolderPermissions
 description: Rimuove le autorizzazioni della cartella.
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '105'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-In questo esempio di codice vengono rimosse le autorizzazioni da una cartella e dalle relative sottocartelle. Imposta `updateChildren` a `false` se devi rimuovere le autorizzazioni solo dalla cartella principale.
+In questo esempio di codice vengono rimosse le autorizzazioni da una cartella e dalle relative sottocartelle. Imposta `updateChildren` a `false` per rimuovere le autorizzazioni solo dalla cartella principale.
 
 **Request Contents (Richiesta contenuto)**
 

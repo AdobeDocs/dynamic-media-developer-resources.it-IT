@@ -1,13 +1,13 @@
 ---
+title: AnnullaCompressioneOpzioni
 description: Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie (nessuna) o per estrarne e caricarne il contenuto (decompressione).
 solution: Experience Manager
-title: AnnullaCompressioneOpzioni
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie
 
 >[!NOTE]
 >
->`None` è l&#39;impostazione predefinita.
+>L&#39;impostazione `None` è il valore predefinito.
 
 ## Parametri {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,11 +34,11 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
-   <td colname="col3"> <p>Controlla l’elaborazione dei file di archivio ZIP e TAR. Fornisce 2 opzioni: 
+   <td colname="col3"> <p>Controlla l’elaborazione dei file di archivio ZIP e TAR. Sono disponibili due opzioni: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> Elabora come risorse primarie. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Non comprimere:</span> Estrarre ed elaborare i contenuti. </li>
-     </ul><p>Nota: le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> Non comprimere</span>, non <span class="codeph"> decomprimi</span> o <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Non comprimere:</span> Estrarre ed elaborare il contenuto. </li>
+     </ul><p>Nota: le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> Non comprimere</span>, non <span class="codeph"> decomprimi</span>, o <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

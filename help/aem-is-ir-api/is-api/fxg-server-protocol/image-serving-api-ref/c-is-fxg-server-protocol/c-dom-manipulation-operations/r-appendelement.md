@@ -1,11 +1,11 @@
 ---
+title: appendElement
 description: Aggiungi XML a un elementoID s7.
 solution: Experience Manager
-title: appendElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 1%

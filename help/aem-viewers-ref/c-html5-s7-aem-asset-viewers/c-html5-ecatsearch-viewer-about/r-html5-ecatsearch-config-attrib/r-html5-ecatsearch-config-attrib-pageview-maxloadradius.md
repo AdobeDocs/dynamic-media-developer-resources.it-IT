@@ -1,13 +1,13 @@
 ---
+title: PageView.maxloadradius
 description: PageView.maxloadradius
 solution: Experience Manager
-title: PageView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '67'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> il componente precarica tutti i fotogrammi del catalogo quando si trova nello stato inattivo. </p> <p> Se impostato su <span class="codeph"> 0</span> il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p>Imposta <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quanti fotogrammi invisibili attorno al fotogramma visualizzato vengono precaricati nello stato inattivo. </p> </td> 
+   <td colname="col2"> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> il componente precarica tutti i fotogrammi del catalogo quando si trova nello stato inattivo. </p> <p> Se impostato su <span class="codeph"> 0</span> il componente carica solo il fotogramma visibile, quello precedente e quello successivo. </p> <p>Imposta <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quanti fotogrammi invisibili attorno al fotogramma visualizzato vengono precaricati nello stato inattivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

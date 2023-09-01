@@ -1,11 +1,11 @@
 ---
+title: quantificare
 description: Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per la conversione dell'output GIF.
 solution: Experience Manager
-title: quantificare
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -45,8 +45,8 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
 
 Genera una miniatura GIF utilizzando l’icona &quot; `web`&quot; e nessun dithering:
 
-[!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
+[!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Converti l’immagine in un GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:
+Converti l’immagine in GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff]
+[!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

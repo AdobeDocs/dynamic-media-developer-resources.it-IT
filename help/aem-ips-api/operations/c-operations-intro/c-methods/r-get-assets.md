@@ -1,20 +1,20 @@
 ---
-description: Restituisce le risorse da IPS.
-solution: Experience Manager
 title: getAssets
+description: Restituisce le risorse da Image Production System (IPS).
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 14%
+source-wordcount: '131'
+ht-degree: 12%
 
 ---
 
 # getAssets{#getassets}
 
-Restituisce le risorse da IPS.
+Restituisce le risorse da Image Production System (IPS).
 
 Sintassi
 
@@ -87,7 +87,7 @@ Sintassi
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**Output (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 2%
 
 ---
@@ -25,13 +25,13 @@ Colore livello. Specifica il colore di primo piano e l&#39;opacità dei livelli 
  </tr> 
 </table>
 
-Nel caso dei livelli immagine e testo, `color=` riempie le aree trasparenti e semi-opache all&#39;interno del rettangolo di delimitazione del livello con il colore specificato* prima* `rotate=` e `extend=` vengono applicati.
+Se sono presenti livelli immagine e testo, `color=` riempie le aree trasparenti e semi-opache all&#39;interno del rettangolo di delimitazione del livello con il colore specificato* prima* `rotate=` e `extend=` vengono applicati.
 
 ## Proprietà {#section-d6e74c36a49547849212e4db8927e678}
 
 Attributo livello. Si applica al livello corrente o al livello 0 se `layer=comp`.
 
-*`color`* si presume che esista nello spazio colore di lavoro corrispondente al tipo di pixel di *`color`*. *`color`* viene convertita con precisione se l&#39;immagine del livello ha un tipo di pixel diverso al momento dell&#39;unione.
+Il modificatore *`color`* si presume che esista nello spazio colore di lavoro corrispondente al tipo di pixel di *`color`*. E *`color`* viene convertita con precisione se l&#39;immagine del livello ha un tipo di pixel diverso al momento dell&#39;unione.
 
 ## Predefinito {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -39,7 +39,7 @@ Nessun valore di default per i livelli di colore ed effetti in tinta unita; è n
 
 ## Esempio {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-Nel frammento di modello seguente impostiamo lo sfondo del testo su un colore opaco al 50% e utilizziamo lo stesso colore per aggiungere un bordo semitrasparente di 10 pixel attorno all’immagine di livello 2:
+Nel frammento di modello seguente, lo sfondo del testo è impostato su un colore opaco al 50% e utilizza lo stesso colore per aggiungere un bordo semitrasparente di 10 pixel attorno all’immagine di livello 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

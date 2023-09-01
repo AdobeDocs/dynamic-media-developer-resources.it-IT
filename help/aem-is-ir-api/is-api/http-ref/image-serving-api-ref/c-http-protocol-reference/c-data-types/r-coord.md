@@ -1,20 +1,20 @@
 ---
 title: corda
-description: Coordinate pixel. Utilizzato per specificare le coordinate dell'immagine sotto forma di offset pixel relativo all'angolo superiore sinistro di un'immagine o di un rettangolo di livello. Questi vengono spesso utilizzati negli offset dell'immagine o nei parametri di ritaglio.
+description: Coordinate pixel. Utilizzato per specificare le coordinate dell'immagine sotto forma di offset pixel relativo all'angolo superiore sinistro di un'immagine o di un rettangolo di livello. Queste coordinate vengono spesso utilizzate negli offset dell'immagine o nei parametri di ritaglio.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
-source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # corda{#coord}
 
-Coordinate pixel. Utilizzato per specificare le coordinate dell&#39;immagine sotto forma di offset pixel relativo all&#39;angolo superiore sinistro di un&#39;immagine o di un rettangolo di livello. Questi vengono spesso utilizzati negli offset dell&#39;immagine o nei parametri di ritaglio.
+Coordinate pixel. Utilizzato per specificare le coordinate dell&#39;immagine sotto forma di offset pixel relativo all&#39;angolo superiore sinistro di un&#39;immagine o di un rettangolo di livello. Queste coordinate vengono spesso utilizzate negli offset dell&#39;immagine o nei parametri di ritaglio.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 

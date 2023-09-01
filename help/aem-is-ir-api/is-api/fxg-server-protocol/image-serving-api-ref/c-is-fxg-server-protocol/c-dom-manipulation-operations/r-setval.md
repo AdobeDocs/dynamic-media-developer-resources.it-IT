@@ -1,13 +1,13 @@
 ---
-description: Imposta il valore del nodo di testo per l’elemento s7 id.
-solution: Experience Manager
 title: setVal
+description: Imposta il valore del nodo di testo per s7 elementID.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---

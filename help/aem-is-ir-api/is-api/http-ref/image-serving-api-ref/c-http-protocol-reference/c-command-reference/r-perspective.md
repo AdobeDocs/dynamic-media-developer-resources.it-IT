@@ -1,20 +1,20 @@
 ---
 title: prospettiva
-description: Trasformazione prospettica. Applicate una trasformazione prospettica all'immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree del livello rimangono trasparenti.
+description: Trasformazione prospettica. Applicate una trasformazione prospettica all'immagine sorgente del livello in modo che riempia la regione specificata con il quadrilatero. Altre aree del livello rimangono trasparenti.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # prospettiva{#perspective}
 
-Trasformazione prospettica. Applicate una trasformazione prospettica all&#39;immagine sorgente del livello per riempire la regione specificata con il quadrilatero. Altre aree del livello rimangono trasparenti.
+Trasformazione prospettica. Applicate una trasformazione prospettica all&#39;immagine sorgente del livello in modo che riempia la regione specificata con il quadrilatero. Altre aree del livello rimangono trasparenti.
 
 `perspective= *`perspQuad`*[, *`resOptions`*]`
 
@@ -35,27 +35,27 @@ Trasformazione prospettica. Applicate una trasformazione prospettica all&#39;imm
  </tr> 
 </table>
 
-*`perspQuad`* è costituito da quattro valori di coordinate in pixel nello spazio di coordinate composito (o livello 0), che ha origine nell&#39;angolo superiore sinistro dell&#39;immagine composita.
+Il modificatore *`perspQuad`* è costituito da quattro valori di coordinate in pixel nello spazio di coordinate composito (o livello 0), che ha origine nell&#39;angolo superiore sinistro dell&#39;immagine composita.
 
-`perspQuadN` è costituito da quattro valori di coordinate normalizzati, in cui `0.0,0.0` corrisponde all&#39;angolo superiore sinistro dell&#39;immagine composita/livello 0 e `1.0,1.0` nell’angolo in basso a destra.
+Il modificatore `perspQuadN` è costituito da quattro valori di coordinate normalizzati, in cui `0.0,0.0` corrisponde all&#39;angolo superiore sinistro dell&#39;immagine composita/livello 0 e `1.0,1.0` nell’angolo in basso a destra.
 
 L&#39;immagine di input viene trasformata in modo che l&#39;angolo superiore sinistro dell&#39;immagine di input venga mappato al primo valore di coordinata di `perspQuad[N]`, l&#39;angolo superiore destro alla seconda coordinata, l&#39;angolo inferiore destro alla terza coordinata e l&#39;angolo inferiore sinistro alla quarta coordinata.
 
 >[!NOTE]
 >
->`pos=` può essere utilizzato per posizionare ulteriormente il livello trasformato nell&#39;immagine composita.
+>Il modificatore `pos=` può essere utilizzato per posizionare ulteriormente il livello trasformato nell&#39;immagine composita.
 
 Le coordinate quadrilaterali prospettiche possono essere posizionate all&#39;esterno dell&#39;immagine composita.
 
-Il comportamento è indefinito se il quadrilatero non è adatto a una trasformazione prospettica (ad esempio, se due o più vertici coincidono, se tre o tutti i vertici si trovano sulla stessa linea o se il quadrilatero è auto-intersecante o concavo).
+Il comportamento non è definito se il quadrilatero non è adatto a una trasformazione prospettica. Ad esempio, se due o più vertici coincidono, se tre o tutti i vertici si trovano sulla stessa linea o se il quadrilatero è autointersecante o concavo.
 
 ## Considerazioni sulla qualità {#section-7cc9056afa614300a9b8844d39739fc3}
 
-Anche se l&#39;implementazione predefinita produce un compromesso ragionevole tra qualità e prestazioni, a volte può essere necessario aumentare la risoluzione dell&#39;immagine sorgente per migliorare la nitidezza o ridurla per ridurre gli artefatti di aliasing.
+Anche se l&#39;implementazione predefinita produce un compromesso ragionevole tra qualità e prestazioni, potrebbe essere necessario aumentare la risoluzione dell&#39;immagine sorgente per migliorare la nitidezza o ridurla per ridurre gli artefatti di aliasing.
 
-Se l’origine è un’immagine, utilizza `scale=` per scegliere una risoluzione diversa (relativa alla risoluzione massima dell&#39;immagine). Il valore specificato `scale=` viene arrotondato al successivo livello di risoluzione PTIF superiore. In caso di origine di richiesta nidificata, è possibile regolare le dimensioni dell’immagine prodotta dalla richiesta nidificata per ottenere la nitidezza desiderata. Per i livelli di testo, la risoluzione dell&#39;immagine di input (il testo di cui è stato eseguito il rendering) viene regolata selezionando un valore size= più grande insieme all&#39;aumento della risoluzione specificato con `textAttr=`.
+Se l’origine è un’immagine, utilizza `scale=` per scegliere una risoluzione diversa (relativa alla risoluzione massima dell&#39;immagine). Il valore specificato `scale=` viene arrotondato al successivo livello di risoluzione PTIF superiore. Se è presente un’origine di richiesta nidificata, è possibile regolare le dimensioni dell’immagine prodotta dalla richiesta nidificata per ottenere la nitidezza desiderata. Per i livelli di testo, la risoluzione dell&#39;immagine di input (il testo di cui è stato eseguito il rendering) viene regolata selezionando un valore size= più grande con l&#39;aumento della risoluzione specificato con `textAttr=`.
 
-*`resOptions`* consente di selezionare un algoritmo di ricampionamento alternativo. Sono supportati i seguenti valori (distinzione maiuscole/minuscole):
+Il modificatore *`resOptions`* consente di selezionare un algoritmo di ricampionamento alternativo. Sono supportati i seguenti valori (distinzione maiuscole/minuscole):
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -88,7 +88,7 @@ Se l’origine è un’immagine, utilizza `scale=` per scegliere una risoluzione
 
 Comando Livello. Si applica al livello corrente o al livello 0 se `layer=comp`. Ignorato dai livelli degli effetti.
 
-`res=` viene sempre ignorato quando la prospettiva è presente nello stesso livello. `size=` viene ignorato se specificato per i livelli immagine. `size=` e `res=` nei livelli con `perspective=` sono riservati per un utilizzo futuro.
+Il modificatore `res=` viene sempre ignorato quando la prospettiva è presente nello stesso livello. Il modificatore `size=` viene ignorato se specificato per i livelli immagine. I modificatori `size=` e `res=` nei livelli con `perspective=` sono riservati per un utilizzo futuro.
 
 ## Predefinito {#section-e35683395d514d4eb6b32924e1bf8f2f}
 

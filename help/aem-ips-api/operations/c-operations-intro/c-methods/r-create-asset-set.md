@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: Crea un set di risorse generico con una stringa di definizione del set non elaborato da pubblicare su un server immagini.
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 5%
@@ -45,7 +45,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> Handle dell’azienda che conterrà il set di risorse. </td> 
+   <td colname="col4"> Handle dell’azienda contenente il set di risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,7 +69,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Parametri nella stringa di definizione del set. <p>Questi devono risolversi nel formato specificato dal visualizzatore di destinazione. </p> </td> 
+   <td colname="col4"> Parametri nella stringa di definizione del set. <p>Questi parametri devono essere risolti nel formato specificato dal visualizzatore di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ Sintassi
 
 **Funzioni di sostituzione per setDefinition**
 
-È possibile specificare funzioni di sostituzione in linea che vengono risolte durante la ricerca o la pubblicazione del catalogo. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono elencate di seguito.
+È possibile specificare funzioni di sostituzione in linea risolte durante la ricerca o la pubblicazione del catalogo. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`. Le funzioni disponibili sono descritte di seguito.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-Al momento della ricerca o della pubblicazione del catalogo, questa situazione viene risolta in una stringa simile alla seguente:
+Al momento della ricerca del catalogo o della pubblicazione, questo processo viene risolto in una stringa simile alla seguente:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

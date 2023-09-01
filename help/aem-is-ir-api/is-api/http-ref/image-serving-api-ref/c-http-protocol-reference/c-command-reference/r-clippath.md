@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -43,13 +43,13 @@ Qualsiasi parte del livello che non rientra nell&#39;area definita da `clipPath=
 
 Se `size=` è specificato e non 0,0, il livello viene ridimensionato. In questo caso, le coordinate del tracciato sono relative all&#39;angolo superiore sinistro del rettangolo del livello e il livello è posizionato in base a `origin=` o il suo valore predefinito. Qualsiasi area del tracciato all&#39;esterno del rettangolo di livello rimane trasparente.
 
-Se `size=` non è specificato per un colore a tinta unita o per un livello di testo, il livello viene considerato di dimensionamento automatico con l&#39;estensione del percorso che ne determina la dimensione. Se `origin=` non è specificato, il valore predefinito è (0,0) dello spazio delle coordinate del tracciato. Ciò consente di specificare le coordinate del tracciato rispetto all&#39;origine del livello 0.
+Se `size=` non è specificato per un colore a tinta unita o per un livello di testo, il livello viene considerato di dimensionamento automatico con l&#39;estensione del percorso che ne determina la dimensione. Se `origin=` non è specificato, il valore predefinito è (0,0) dello spazio delle coordinate del tracciato. Questo processo di flusso di lavoro consente di specificare le coordinate del tracciato rispetto all&#39;origine del livello 0.
 
 >[!NOTE]
 >
 >`scale=`, `rotate=`, e `anchor=` I comandi non sono consentiti per i livelli di colore a tinta unita con ridimensionamento automatico.
 
-`*`pathDefinition`*` accetta una stringa simile al valore della proprietà `d=` attributo del SVG `<path>` , ad eccezione del fatto che vengono utilizzate virgole al posto degli spazi per separare i valori. `*`pathDefinition`*` può includere uno o più percorsi secondari a loop chiuso.
+`*`pathDefinition`*` accetta una stringa simile al valore della proprietà `d=` attributo del SVG `<path>` , ad eccezione del fatto che vengono utilizzate virgole al posto degli spazi per separare i valori. `*`pathDefinition`*` può includere uno o più percorsi secondari a ciclo chiuso.
 
 I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
 
@@ -105,13 +105,13 @@ Se un percorso secondario inizia con un movimento relativo (&quot;m&quot;), è r
 
 * Punto iniziale del percorso secondario precedente, se è stato chiuso con &#39;z&#39; o &#39;Z&#39;.
 * Punto finale del percorso secondario precedente, se non è stato chiuso in modo esplicito.
-* 0,0, se questo è il primo percorso secondario.
+* 0,0, se si tratta del primo sottopercorso.
 
 ## Proprietà {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 Attributo livello. Si applica al livello corrente o all&#39;immagine composita se `layer=comp`. I livelli degli effetti lo ignorano.
 
-`clipPathE=` viene ignorato se nell&#39;immagine di origine del livello non viene trovato alcun percorso con il nome specificato o se l&#39;origine del livello non è un&#39;immagine.
+Il modificatore `clipPathE=` viene ignorato se nell&#39;immagine di origine del livello non viene trovato alcun percorso con il nome specificato o se l&#39;origine del livello non è un&#39;immagine.
 
 ## Predefinito {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

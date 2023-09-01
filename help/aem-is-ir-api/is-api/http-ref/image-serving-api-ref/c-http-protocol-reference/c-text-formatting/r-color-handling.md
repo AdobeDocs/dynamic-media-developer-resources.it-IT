@@ -1,13 +1,13 @@
 ---
+title: Trattamento del colore
 description: La specifica RTF consente valori di colore RGB specificati con &bsol;colortbl. Ogni componente viene fornito separatamente con i comandi &bsol;red, &bsol;green e &bsol;blue.
 solution: Experience Manager
-title: Trattamento del colore
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ Comando di estensione RTF proprietario `\cmykcolortbl` consente di specificare c
 
 Valori dei componenti colore per `\colortbl` sono compresi tra 0 e 255. Valori dei componenti per `\cmykcolortbl` sono compresi tra 0 e 100.
 
-Comando estensione RTF `\*\iscolortbl`, supportato da `textPs=`, consente di specificare una tavola dei colori con i valori standard dei colori Image Server, con supporto completo per RGB, grigio, CMYK e alfa. Ha la seguente sintassi:
+Comando estensione RTF `\*\iscolortbl`, supportato da `textPs=`, consente di specificare una tavola colori con valori di colore standard Image Server e con supporto completo per RGB, grigio, CMYK e alfa. Ha la seguente sintassi:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* uno o più valori di colore IS, separati da &#39;;&#39;
 
-È possibile specificare più di un tipo di tabella colori nello stesso `text=` o `textPs=` Stringa RTF. Ogni tabella colori può avere un numero diverso di voci. Image Server tenterà di trovare i colori in questo ordine: `\iscolortbl` prima di `\cmykcolortbl` (solo se il tipo di pixel del livello testo è CMYK) prima `\colortbl`. Per `textPs=` solo, i colori vengono convertiti con precisione tra CMYK e RGB, se necessario (ad esempio, quando si specificano colori RGB ma è richiesto l’output CMYK). Se non viene trovato alcun colore per un particolare valore di indice, viene utilizzato il colore predefinito (nero).
+È possibile specificare più di un tipo di tabella colori nello stesso `text=` o `textPs=` Stringa RTF. Ogni tabella colori può avere un numero diverso di voci. Image Server tenta di trovare i colori in questo ordine: `\iscolortbl` prima di `\cmykcolortbl` (solo se il tipo di pixel del livello testo è CMYK) prima `\colortbl`. Per `textPs=` solo, i colori vengono convertiti in modo accurato tra CMYK e RGB, se necessario (ad esempio, quando si specificano colori RGB ma è richiesto l&#39;output CMYK). Se non viene trovato alcun colore per un particolare valore di indice, viene utilizzato il colore predefinito (nero).
 
 Fai riferimento a [colore](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) per una descrizione della sintassi dei valori dei colori IS.
 
 ## Restrizioni {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-`text=` non supporta `\*\iscolortbl`. `textPs=` non supporta `\cmykcolortbl`.
+Il modificatore `text=` non supporta `\*\iscolortbl`. Il modificatore `textPs=` non supporta `\cmykcolortbl`.
 
 Le selezioni dei colori vengono ignorate durante il rendering dei Photofont.
 

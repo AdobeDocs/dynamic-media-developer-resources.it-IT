@@ -1,11 +1,11 @@
 ---
+title: sostituzione
 description: Elemento stringa di sostituzione. Opzionale in <rule> elementi.
 solution: Experience Manager
-title: sostituzione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Stringa di sostituzione.
 
 Definisce una stringa sostitutiva per la stringa o la sottostringa corrispondente nel percorso o nella query.
 
-Se l’espressione del pattern include sottoespressioni (delimitate da parentesi), la prima sottostringa corrispondente viene sostituita con la stringa di sostituzione. Se l’espressione del pattern non include sottoespressioni, viene sostituita l’intera stringa corrispondente.
+Se l&#39;espressione del pattern include sottoespressioni (delimitate da parentesi), la prima sottostringa corrispondente viene sostituita con la stringa di sostituzione. Se l&#39;espressione di pattern non include sottoespressioni, viene sostituita l&#39;intera stringa corrispondente.
 
 Se `<expression>` è vuoto o assente, la stringa di sostituzione viene aggiunta al percorso o alla query.
 

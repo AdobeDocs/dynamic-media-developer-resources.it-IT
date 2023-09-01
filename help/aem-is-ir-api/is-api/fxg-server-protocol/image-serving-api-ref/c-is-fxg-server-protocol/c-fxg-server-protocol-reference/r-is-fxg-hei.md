@@ -1,13 +1,13 @@
 ---
+title: hei
 description: Altezza visualizzazione. Specifica l'altezza dell'immagine di risposta.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,17 @@ Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine di risposta.
  </tr> 
 </table>
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Clic **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettere i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Per applicare una modifica, salvate le impostazioni ed eseguite una pubblicazione Image Server.
+Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Seleziona **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettere i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui una pubblicazione Image Server per applicare una modifica.
 
 Se si applica una `scale=1` viene eseguito il rendering di una richiesta di formato raster alle dimensioni specificate in FXG.
 
 ## Predefinito {#section-76ee3daa77cb468ab310821357cc9404}
 
-Se nessuno dei due `wid=`, `hei=`, né `scale=` , l&#39;immagine di risposta corrisponde alle dimensioni di visualizzazione predefinite specificate nel file FXG.
+Se `wid=`, `hei=`, o `scale=` non sono specificati, l&#39;immagine di risposta è la dimensione di visualizzazione predefinita specificata nel file FXG.
 
 ## Esempio {#section-a91c14d31e71481ba054412d9f642885}
 
-[!DNL http://server/is/agm/myRootId/myImageId?hei=200]
+[!DNL `http://server/is/agm/myRootId/myImageId?hei=200`]
 
 A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, l’altezza e la larghezza non hanno alcun significato, perché il SWF di solito si espande fino alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
 

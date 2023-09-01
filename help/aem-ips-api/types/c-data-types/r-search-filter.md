@@ -1,14 +1,14 @@
 ---
+title: SearchFilter
 description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 solution: Experience Manager
-title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 1%
+source-wordcount: '265'
+ht-degree: 2%
 
 ---
 
@@ -46,12 +46,12 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Elenco di tipi di risorse che si desidera restituire in una ricerca. Ad esempio: <span class="codeph"> immagine</span>. </td> 
+   <td colname="col3">Elenco di tipi di risorse che si desidera restituire in una ricerca. Ad esempio, il <span class="codeph"> immagine</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3"> Specifica un tipo di risorsa da escludere da una ricerca. Ad esempio, immagine. </td> 
+   <td colname="col3"> Specifica un tipo di risorsa da escludere da una ricerca. Ad esempio, l’immagine. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 

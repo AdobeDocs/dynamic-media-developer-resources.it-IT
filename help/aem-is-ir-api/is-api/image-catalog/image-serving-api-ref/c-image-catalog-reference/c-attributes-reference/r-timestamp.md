@@ -1,13 +1,13 @@
 ---
-description: Timestamp di modifica immagine predefinito. Specifica un valore predefinito per il Timestamp del catalogo.
-solution: Experience Manager
 title: Timestamp
+description: Timestamp di modifica immagine predefinito. Fornisce un valore predefinito per la marca temporale del catalogo.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 1%
 
 Timestamp di modifica immagine predefinito. Specifica un valore predefinito per catalog::TimeStamp.
 
-Se non viene specificato, il server utilizzerà la data/ora di modifica di questo [!DNL *`catalog`*.ini] file.
+Se non viene specificato, il server utilizza la data/ora di modifica [!DNL *`catalog`*.ini] file.
 
 ## Proprietà {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
-Valore data/ora. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, 1 gennaio 1970 UTC/GMT o un valore stringa data/ora con uno dei seguenti formati:
+Valore data/ora. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, 1 gennaio 1970 UTC/GMT, o un valore stringa data/ora con uno dei seguenti formati:
 
-*`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss zzz`*
+Valore data/ora *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss zzz`*
 
-*`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
+Valore data/ora *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* è compreso tra 0 e 23.
+Il valore temporale *`hh`* è compreso nell&#39;intervallo tra 0 e 23.
 
-*`zzz`* è un codice di fuso orario di 3 o 4 caratteri come `GMT` o `PST`. L’ora legale deve essere registrata nel codice del fuso orario (ad es. `PST` per l&#39;ora solare Pacifico, vs `PDT` per l&#39;ora legale del Pacifico).
+Il valore temporale *`zzz`* è un codice di fuso orario di tre o quattro caratteri, ad esempio `GMT` o `PST`. L’ora legale deve essere registrata nel codice del fuso orario (ad esempio, `PST` per l&#39;ora solare Pacifico, vs `PDT` per l&#39;ora legale del Pacifico).
 
-*`offset`* è uno scostamento del fuso orario in ore o ore:minuti, relativo a GMT. Ad esempio: `PDT` equivale a `GMT -7`.
+Il valore temporale *`offset`* è uno scostamento del fuso orario in ore o ore:minuti, relativo a GMT. Ad esempio: `PDT` equivale a `GMT -7`.
 
 Tutti gli elementi dei valori di data/ora in formato stringa devono essere presenti. Se il valore data/ora non è formattato correttamente, viene ignorato e l’ora di modifica del [!DNL *`catalog`*.ini] al suo posto viene utilizzato il file.
 

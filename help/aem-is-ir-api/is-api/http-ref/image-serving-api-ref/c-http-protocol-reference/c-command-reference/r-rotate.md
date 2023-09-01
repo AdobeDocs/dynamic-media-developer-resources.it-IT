@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Ruota immagine. Ruota il livello di immagine, testo o colore in tinta unita in b
  </tr> 
 </table>
 
-Gli angoli positivi ruotano in senso orario. Il punto di ancoraggio del livello ( `anchor=` o `catalog::Anchor`) funge da centro di rotazione. Il rettangolo di livello viene ingrandito e posizionato attorno ai dati ruotati in base alle esigenze per evitare il ritaglio. La rotazione viene applicata dopo aver riempito l&#39;area di sfondo del livello con `color=`. `bgColor=` può essere utilizzato per aggiungere il colore di sfondo al rettangolo di delimitazione dopo la rotazione.
+Gli angoli positivi ruotano in senso orario. Il punto di ancoraggio del livello ( `anchor=` o `catalog::Anchor`) funge da centro di rotazione. Il rettangolo di livello viene ingrandito e posizionato attorno ai dati ruotati in base alle esigenze per evitare il ritaglio. La rotazione viene applicata dopo aver riempito l&#39;area di sfondo del livello con `color=`. Il modificatore `bgColor=` può essere utilizzato per aggiungere il colore di sfondo al rettangolo di delimitazione dopo la rotazione.
 
 ## Proprietà {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ Comando Livello. Si applica al livello corrente o al livello 0 se `layer=comp`. 
 
 ## Esempio {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-Posiziona un’etichetta &quot;In vendita&quot; vicino all’angolo in alto a sinistra delle immagini in un catalogo di immagini. L&#39;immagine dell&#39;etichetta è già ridimensionata correttamente per la visualizzazione 300x300 e deve essere ruotata di 30 gradi a sinistra. Riempire la casella di testo con un colore bianco semi-opaco per migliorare l&#39;etichetta.
+Posiziona un’etichetta &quot;In vendita&quot; vicino all’angolo in alto a sinistra delle immagini in un catalogo di immagini. L&#39;immagine dell&#39;etichetta è già ridimensionata correttamente per la visualizzazione 300x300 e deve essere ruotata di 30° verso sinistra. Per migliorare l&#39;etichetta, riempire la casella di testo con un colore bianco, semi-opaco.
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Noi applichiamo `size=` al livello 0 per impostare le dimensioni della vista, anziché utilizzare `wid=` e `hei=`. Ciò consente `myImageId` da ridimensionare senza modificare le dimensioni finali di `labelImage`. È inoltre necessario specificare `scl=1`, altrimenti l&#39;immagine composita potrebbe essere ridimensionata a `attribute::DefaultPix` (a meno che non sia impostato su 0,0). `color=` aggiunge il colore di sfondo semi-opaco alla casella di testo prima della rotazione.
+Applica `size=` al livello 0 per impostare le dimensioni della vista, anziché utilizzare `wid=` e `hei=`. Questo metodo consente `myImageId` da ridimensionare senza modificare le dimensioni finali di `labelImage`. Inoltre, specifica `scl=1`, altrimenti l&#39;immagine composita potrebbe essere ridimensionata a `attribute::DefaultPix` (a meno che non sia impostato su 0,0). Il modificatore `color=` aggiunge il colore di sfondo semi-opaco alla casella di testo prima della rotazione.
 
-L&#39;origine di entrambi i livelli viene impostata sugli angoli in alto a sinistra per ottenere l&#39;allineamento desiderato. Il punto di origine per il livello 1 si applica a `labelImage`dopo la rotazione.
+L&#39;origine di entrambi i livelli viene impostata sull&#39;angolo superiore sinistro per ottenere l&#39;allineamento desiderato. Il punto di origine per il livello 1 si applica a `labelImage`dopo la rotazione.
 
 Consulta [Esempio A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) per un esempio di testo ruotato.
 
