@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,17 @@ Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di 
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilizza la risoluzione specificata. </p> <p>Da utilizzare se il testo deve essere renderizzato con dimensioni esatte rispetto all’area di lavoro di composizione. Se la casella di testo è troppo piccola, è possibile che il testo venga ritagliato in base alle dimensioni del livello (se specificato). Questo è l'unico <span class="varname"> resMode </span> opzione supportata da <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilizza la risoluzione specificata. </p> <p>Da utilizzare se il testo deve essere renderizzato con dimensioni esatte rispetto all’area di lavoro composta. Se la casella di testo è troppo piccola, è possibile che il testo venga ritagliato in base alle dimensioni del livello (se specificato). Questo è l'unico <span class="varname"> resMode </span> opzione supportata da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Regolate automaticamente la risoluzione per riempire al meglio il rettangolo del livello con il testo. </p> <p>Consente di regolare automaticamente le dimensioni del testo in modo che la casella di testo venga riempita il più possibile, senza rischio di troncamento. Se il ritorno a capo automatico è attivato, il testo può essere ridisposto alla risoluzione finale. <span class="varname"> res </span> viene ignorato se <span class="codeph"> autoRes </span> è selezionato. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Regolate automaticamente la risoluzione per riempire al meglio il rettangolo del livello con il testo. </p> <p>Consente di regolare automaticamente le dimensioni del testo in modo che la casella di testo venga riempita il più possibile, senza rischio di troncamento. Se il ritorno a capo automatico è attivato, il testo può essere ridisposto alla risoluzione finale. Il <span class="varname"> res </span> viene ignorato se <span class="codeph"> autoRes </span> è selezionato. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
       <td class="stentry"> <p>Utilizzate la risoluzione specificata; se necessario, riducetela per evitare che il testo venga troncato al rettangolo del livello. </p> <p>Consente di eseguire il rendering del testo alla risoluzione specificata, purché non si verifichi alcun ritaglio. In caso di ritaglio, la risoluzione viene automaticamente ridotta per garantire che tutto il testo sia contenuto completamente all'interno della casella di testo. Se il ritorno a capo automatico è attivato, il testo può essere ridisposto alla risoluzione finale. Non supportato da <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Se le dimensioni del livello di testo non sono specificate con size= o se è specificata solo la larghezza, le impostazioni "autoRes" e "maxRes" vengono ignorate e la risoluzione specificata viene utilizzata per il rendering del testo. </p> </td> 
+    </table> </p> <p>Se le dimensioni del livello di testo non sono specificate con size= o se è specificata solo la larghezza, le impostazioni "autoRes" e "maxRes" vengono ignorate. In questi casi, per il rendering del testo viene utilizzata la risoluzione specificata. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Attributi del livello di testo. Specifica attributi aggiuntivi per i livelli di 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> avvolgere </span> </p> </td> 
-      <td class="stentry"> <p>Attiva il ritorno a capo automatico standard. </p> <p>Se necessario, interrompe le parole lunghe. <span class="codeph"> textPs= </span> supporta solo <span class="codeph"> avvolgere </span>. </p> </td> 
+      <td class="stentry"> <p>Attiva il ritorno a capo automatico standard. </p> <p>Rompe le parole lunghe, se necessario. <span class="codeph"> textPs= </span> supporta solo <span class="codeph"> avvolgere </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Attiva il ritorno a capo automatico unificatore. </p> <p>Non rompe mai una parola, anche se viene troncata alla fine. Generalmente utilizzato in combinazione con <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> per garantire che le parole lunghe non vengano mai rotte. </p> </td> 
+      <td class="stentry"> <p>Attiva il ritorno a capo automatico unificatore. </p> <p>Non rompe mai una parola, anche se viene troncata alla fine. Utilizzato in genere con <span class="codeph"> autoRes </span> o <span class="codeph"> maxRes </span> per garantire che le parole lunghe non vengano mai rotte. </p> </td> 
      </tr> 
     </table> </p> <p>Entrambi <span class="codeph"> avvolgere </span> e <span class="codeph"> nbwrap </span> applica il ritorno a capo automatico ai limiti e ai trattini delle parole. </p> </td> 
  </tr> 

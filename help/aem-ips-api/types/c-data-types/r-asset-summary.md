@@ -1,13 +1,13 @@
 ---
+title: Riepilogo risorse
 description: Risultati della ricerca di metadati che contengono informazioni di riepilogo su una risorsa.
 solution: Experience Manager
-title: Riepilogo risorse
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 5%
 
 ---
@@ -33,4 +33,4 @@ Sintassi
 | lastModifyUser | `xsd:string` | L’ultimo utente che ha modificato la risorsa. |
 | metadataArray | `types:MetadataArray` | Array di valori di metadati associati alla risorsa. |
 | punteggio | `xsd:double` | Definisce la precisione in caso di ricerca per similarità (0 = nessuna corrispondenza, 1 = corrispondenza esatta). |
-| scoreDetail | `xsd:string` | Contiene informazioni dettagliate su aree simili in seguito a una ricerca per similarità. |
+| scoreDetail | `xsd:string` | Contiene informazioni dettagliate su aree simili a seguito di una ricerca per similarità. |

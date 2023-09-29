@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Capovolgi livello. Capovolge il livello orizzontalmente, verticalmente o entramb
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>Rifletti il livello orizzontalmente (da sinistra a destra). </p> </td> 
+  <td class="stentry"> <p>Capovolgere il livello orizzontalmente (da sinistra a destra). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
@@ -39,7 +39,7 @@ Alcuni comandi, tra cui `extend=`, si applica implicitamente al livello 0 invece
 
 >[!NOTE]
 >
->Il livello capovolto viene posizionato in base all&#39;ancoraggio del livello; diversi valori flip= determineranno posizioni di livello diverse quando l&#39;ancoraggio non si trova al centro del livello.
+>Il livello capovolto viene posizionato in base all&#39;ancoraggio del livello. Diverso `flip=` I valori determinano posizioni di livello diverse quando l&#39;ancoraggio non si trova al centro del livello.
 
 ## Proprietà {#section-294da2af7be746b5adfc35e29ee68217}
 

@@ -1,13 +1,13 @@
 ---
+title: Codifica caratteri
 description: Utilizzare i seguenti comandi per la codifica dei caratteri.
 solution: Experience Manager
-title: Codifica caratteri
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -38,16 +38,16 @@ Utilizzare i seguenti comandi per la codifica dei caratteri.
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
    <td> <p>Dimensione caratteri Unicode. </p> </td> 
-   <td> <p>Numero di byte corrispondenti al carattere Unicode specificato. </p> </td> 
+   <td> <p>Numero di byte corrispondenti a un determinato carattere Unicode. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>Seguono caratteri da area ANSI bassa. </p> </td> 
+   <td> <p>Caratteri dell'area ANSI bassa. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \che </span> </td> 
-   <td> <p>Seguono caratteri da area ANSI elevata. </p> </td> 
+   <td> <p>Caratteri dell'area ANSI alta. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

@@ -1,20 +1,20 @@
 ---
-description: Image Server di Scene 7 è costituito dai seguenti componenti
-solution: Experience Manager
 title: Componenti Image Server
+description: Dynamic Medie Image Server è costituito dai seguenti componenti.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # Componenti Image Server{#image-serving-components}
 
-Scene 7 Image Server è costituito dai seguenti componenti:
+Dynamic Medie Image Server è costituito dai seguenti componenti:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,7 +26,7 @@ Scene 7 Image Server è costituito dai seguenti componenti:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Supervisore server </p> </td> 
-   <td colname="col2"> <p>Eseguibile autonomo responsabile dell'avvio, dell'arresto e della verifica dello stato degli altri componenti. </p> </td> 
+   <td colname="col2"> <p>Eseguibile autonomo responsabile dell'avvio, dell'arresto e della verifica dell'integrità degli altri componenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
@@ -46,7 +46,7 @@ Scene 7 Image Server è costituito dai seguenti componenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>Esegue tutte le operazioni di elaborazione delle immagini e I/O dei file di immagine. I file eseguibili a 32 bit e a 64 bit sono disponibili per Linux (solo a 32 bit per Windows). </p> </td> 
+   <td colname="col2"> <p>Esegue tutte le operazioni di elaborazione delle immagini e I/O dei file di immagine. I file eseguibili a 32 bit e a 64 bit sono disponibili per Linux® (solo a 32 bit per Windows). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente rendering testo ATE </p> </td> 
@@ -54,11 +54,11 @@ Scene 7 Image Server è costituito dai seguenti componenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente rendering SVG </p> </td> 
-   <td colname="col2"> <p>Applicazione Java autonoma (non ospitata da Tomcat). </p> </td> 
+   <td colname="col2"> <p>Applicazione Java™ autonoma (non ospitata da Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendering immagini Dynamic Media (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Richiede una licenza separata per l’attivazione. Accesso HTTP a <span class="filepath"> /ir/render</span>. Tutte le funzionalità di Image Rendering sono integrate in [!DNL Platform Server] e Image Server, senza componenti eseguibili separati. </p> </td> 
+   <td colname="col1"> <p>Rendering immagini Dynamic Medie (alias Render Server) </p> </td> 
+   <td colname="col2"> <p>Per l’attivazione è necessaria una licenza separata. Accesso HTTP a <span class="filepath"> /ir/render</span>. Tutte le funzionalità di Image Rendering sono integrate in [!DNL Platform Server] e Image Server, senza componenti eseguibili separati. </p> </td> 
   </tr> 
  </tbody> 
 </table>

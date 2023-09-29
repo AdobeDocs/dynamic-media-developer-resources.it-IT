@@ -1,13 +1,13 @@
 ---
+title: wid
 description: Larghezza visualizzazione. Specifica la larghezza dell'immagine di risposta (immagine di visualizzazione).
 solution: Experience Manager
-title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -29,15 +29,15 @@ Larghezza visualizzazione. Specifica la larghezza dell&#39;immagine di risposta 
 
 Se nessuno dei due `wid=`, `hei=`, né `scale=` , l&#39;immagine di risposta corrisponde alle dimensioni di visualizzazione predefinite specificate nel file FXG.
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Clic **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettere i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Per applicare una modifica, salvate le impostazioni ed eseguite una pubblicazione Image Server.
+Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Clic **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettere i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui una pubblicazione Image Server per applicare una modifica.
 
 Se si applica una `scale=1` viene eseguito il rendering di una richiesta di formato raster alle dimensioni specificate in FXG.
 
 ## Esempio {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
-[!DNL http://server/is/agm/myRootId/myImageId?wid=200]
+`http://server/is/agm/myRootId/myImageId?wid=200`
 
-A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, l’altezza e la larghezza non hanno alcun significato, perché il SWF di solito si espande fino alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
+A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, l’altezza e la larghezza non hanno alcun significato, perché il SWF di solito si espande fino alle dimensioni della finestra del browser. Di conseguenza, `hei` e `wid` si applica solo ai formati raster o PDF. I formati raster includono:
 
 * GIF
 * TIF

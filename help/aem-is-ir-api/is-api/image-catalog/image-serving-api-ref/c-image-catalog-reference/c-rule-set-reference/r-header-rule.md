@@ -1,11 +1,11 @@
 ---
+title: intestazione
 description: Elemento intestazione di risposta HTTP. Opzionale in <rule> elementi.
 solution: Experience Manager
-title: intestazione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Elemento intestazione di risposta HTTP. Opzionale in `<rule>` elementi.
 
 **`Name`= &quot;*text*&quot;** : obbligatorio. Specifica il nome dell&#39;intestazione HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: facoltativo. Il valore predefinito è `"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specifica `"add"` per aggiungere il valore dell’intestazione, separato da una virgola.
+**`Action`= &quot;set&quot; |`"add"`**: facoltativo. Il valore predefinito è `"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specifica `"add"` in modo da poter aggiungere il valore dell’intestazione, separato da una virgola.
 
 ## Dati {#section-a387f541396c49d99c29692a38032914}
 

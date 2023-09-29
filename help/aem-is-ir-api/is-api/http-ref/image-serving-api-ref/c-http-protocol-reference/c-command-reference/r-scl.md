@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Scala vista. Ridimensiona l&#39;immagine composita in base all&#39;inverso di in
  </tr> 
 </table>
 
-Non viene applicata alcuna scala quando `scl=1`. *`invFactor`* dimensioni maggiori di 1.0 per il ridimensionamento e dimensioni minori di 1.0 per l&#39;ingrandimento dell&#39;immagine composita.
+Non viene applicata alcuna scala quando `scl=1`. Un *`invFactor`* un valore maggiore di 1,0 ridimensiona e inferiore a 1,0 ingrandisce l&#39;immagine composita.
 
 Se `scl=` è specificato, e `wid=` e/o `hei=` sono presenti, l&#39;immagine viene ritagliata in `wid=` e/o `hei=` dopo il ridimensionamento.
 
@@ -35,11 +35,11 @@ Se `scl=` è specificato, e `wid=` e/o `hei=` sono presenti, l&#39;immagine vien
 
 ## Proprietà {#section-60af012719db477db4a4703e9a6da5f5}
 
-Attributo vista. Si applica indipendentemente dall&#39;impostazione del livello corrente.
+Attributo vista. Viene applicato indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Predefinito {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta avrà le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, a seconda di quale dei due valori è inferiore.
+Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, a seconda di quale dei due valori è inferiore.
 
 ## Esempio {#section-a33f6239476a4b438d939656ad99aa76}
 

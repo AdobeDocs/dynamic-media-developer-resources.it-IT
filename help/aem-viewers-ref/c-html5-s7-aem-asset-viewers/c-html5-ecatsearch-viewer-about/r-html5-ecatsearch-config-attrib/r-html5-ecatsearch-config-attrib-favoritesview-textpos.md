@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.textpos
 description: FavoritesView.textpos
 solution: Experience Manager
-title: FavoritesView.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c76c0386-0ccf-4551-8573-dad165359cba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> descrizione comando</span> Se è specificata, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di miniatura. </p> <p>Se impostato su <span class="codeph"> nessuno</span>, disattiva la visualizzazione delle etichette. </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando un <span class="codeph"> descrizione comando</span> Se è specificata, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di miniatura. </p> <p>Se impostato su <span class="codeph"> nessuno</span>, disattiva la visualizzazione delle etichette. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Altezza visualizzazione. Specifica l’altezza dell’immagine di risposta (imma
 
 Se entrambi `wid=` e `scl=` l&#39;immagine composita può essere ritagliata in base al `align=`attributo. Quando `fit=` è presente, `hei=` specifica l’altezza esatta, minima o massima dell’immagine di risposta; fai riferimento alla descrizione di [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) per i dettagli.
 
-Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarla. Se entrambi `wid=` e `hei=` sono specificati, e `scl=` non è specificato, quindi l&#39;immagine viene ridimensionata per adattarsi completamente al rettangolo wid/hei, lasciando la minima area di sfondo esposta possibile; in questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione in base al `align=` attributo. L&#39;area di sfondo viene riempita con `bgc=`, o, se non specificato con `attribute::BkgColor`.
+Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarla. Se entrambi `wid=` e `hei=` sono specificati, e `scl=` non è specificato, quindi l&#39;immagine viene ridimensionata per adattarsi completamente al rettangolo wid/hei, lasciando la minima area di sfondo esposta possibile. In questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione in base al `align=` attributo. L&#39;area di sfondo viene riempita con `bgc=`, o, se non specificato con `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per 
 
 ## Proprietà {#section-534923644a1e464496eeba83dedcbd3c}
 
-Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente.
+Visualizza attributo. Viene applicato indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Predefinito {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -43,11 +43,11 @@ Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta ha le
 
 ## Esempi {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Richiedi un&#39;immagine da inserire in un rettangolo 200x200; in alto a sinistra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo viene riempita con `attribute::BkgColor`.
+Richiedi un&#39;immagine in modo che possa rientrare in un rettangolo di 200x200; in alto a sinistra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo viene riempita con `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-La stessa immagine, distribuita a un&#39;altezza fissa di 200 pixel, ma con una larghezza variabile che corrisponde alle proporzioni dell&#39;immagine. In questo caso, l&#39;immagine restituita non presenta mai aree di riempimento di sfondo. Tieni presente che in questo caso `align=` non avrebbe alcun effetto.
+La stessa immagine, distribuita a un&#39;altezza fissa di 200 pixel, ma con una larghezza variabile che corrisponde alle proporzioni dell&#39;immagine. In questo caso, l&#39;immagine restituita non presenta mai aree di riempimento di sfondo. E, in questo caso, `align=` non avrebbe alcun effetto.
 
 `http://server/myRootId/myImageId?hei=200`
 

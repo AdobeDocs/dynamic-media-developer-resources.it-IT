@@ -1,13 +1,13 @@
 ---
-description: Oltre allo spazio necessario per installare il software, Image Server dispone dei seguenti requisiti di spazio su disco
-solution: Experience Manager
 title: Requisiti di spazio su disco e raccomandazioni
+description: Oltre allo spazio necessario per installare il software, Image Server dispone dei seguenti requisiti di spazio su disco.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -42,12 +42,12 @@ Oltre allo spazio necessario per installare il software, Image Server dispone de
   </tr> 
   <tr> 
    <td> <p><b>Dati di registro</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::FileRegistro </span> </p> <p> <span class="codeph"> SV::FileRegistro </span> </p> </td> 
-   <td> <p>almeno 100 Mbyte. </p> </td> 
+   <td> <p>almeno 100 MB. </p> </td> 
    <td> <p>Varia a seconda della configurazione di registrazione e dell’utilizzo del server. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>File temporanei di Image Server</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::DirectoryTemp </span> </p> </td> 
-   <td> <p>100 MByte sono sufficienti per la maggior parte degli usi. </p> </td> 
+   <td> <p>100 MB sono sufficienti per la maggior parte degli usi. </p> </td> 
    <td> <p>Dati di breve durata; possono essere necessari per immagini sorgente diverse dagli PTIFF e per determinati formati di immagini di risposta. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,14 +55,14 @@ Oltre allo spazio necessario per installare il software, Image Server dispone de
 
 ## Requisiti di spazio su disco per le immagini sorgente {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Si consiglia di convertire tutte le immagini sorgente nel formato di file PTIFF (pyramid TIFF file format) utilizzando lo strumento da riga di comando Image Converter (IC). Questa conversione garantisce prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene Image Server sia in grado di elaborare tutti i formati di file di origine accettati da IC, Dynamic Media non fornisce supporto per tali utilizzi.
+L&#39;Adobe consiglia di convertire tutte le immagini di origine nel formato di file PTIFF (pyramid TIFF file format) utilizzando lo strumento da riga di comando Image Converter. Questa conversione garantisce prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene il server immagini sia in grado di elaborare tutti i formati di file di origine accettati da IC, Dynamic Medie non supporta tali utilizzi.
 
 Quando si utilizzano file PTIFF, le seguenti regole generali possono essere utili per determinare i requisiti di spazio.
 
-*`total_space`* (byte) = *`number_of_images`* x(2000 + *`avg_pixel_count`* x *`avg_num_components`* x *`p_factor`*)
+*`total_space`* (byte) = *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
 
-* *`avg_pixel_count`* Dimensione media in pixel (larghezza x altezza) di tutte le immagini sorgente originali. Ad esempio, se le immagini originali sono in genere circa 2k x 2k pixel, saranno 4M pixel.
-* *`avg_num_components`* Dipende dal tipo di immagini. Per la maggior parte delle immagini RGB è 3, per la maggior parte delle immagini CMYK o RGBA è 4. Utilizzare 3.5 se metà delle immagini sono RGB e l&#39;altra metà è RGBA.
+* *`avg_pixel_count`* Dimensione media in pixel (larghezza x altezza) di tutte le immagini sorgente originali. Ad esempio, se le immagini originali sono tipicamente di circa 2k × 2k pixel, questo sarebbe di 4 megapixel.
+* *`avg_num_components`* Dipende dal tipo di immagini. Per la maggior parte delle immagini RGB, è 3; per la maggior parte delle immagini CMYK o RGBA, è 4. Utilizzare 3.5 se metà delle immagini sono RGB e l&#39;altra metà è RGBA.
 * *`p_factor`* Dipende dal tipo di compressione e dalla qualità impostata quando le immagini vengono convertite con IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -90,12 +90,12 @@ Quando si utilizzano file PTIFF, le seguenti regole generali possono essere util
 
 >[!NOTE]
 >
->Questa approssimazione non tiene conto del sovraccarico del file system. Lo spazio effettivo su disco potrebbe essere notevolmente maggiore.
+>Questa approssimazione non tiene conto del sovraccarico del file system. Lo spazio effettivo sul disco potrebbe essere notevolmente maggiore.
 
 **Esempio**
 
-Un’implementazione di Image Server prevede di utilizzare 30.000 immagini legacy a bassa risoluzione, con una dimensione media di 500x500 RGB. Si prevede che verranno aggiunti nuovi dati relativi alle immagini di qualità di stampa a una velocità di 10.000 copie l&#39;anno. Le dimensioni tipiche dell&#39;immagine CMYK sono di 4k x 6k byte. Tutti i dati vengono compressi in JPEG ad alta qualità. La quantità totale di spazio su disco dopo 3 anni di utilizzo è stimata come segue:
+Un’implementazione di Image Server prevede di utilizzare 30.000 immagini legacy a bassa risoluzione, con una dimensione media di 500 × 500 RGB. Vengono aggiunti nuovi dati a una velocità di 10.000 immagini all&#39;anno. Le dimensioni tipiche dell&#39;immagine CMYK sono 4 × 6 KB. Tutti i dati vengono compressi in JPEG ad alta qualità. La quantità totale di spazio su disco dopo tre anni di utilizzo è stimata come segue:
 
-*`total_space`* = 30.000 x (2k + 0,5k x 0,5k x 3 x 0,1) + 3 x 10.000 x (2k + 4k x 6k x 4 x 0,1) = 2,2 G + 268 GB = circa 270 GB
+*`total_space`* = 30.000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10.000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = circa 270 GB
 
-Per garantire la migliore qualità possibile, è possibile utilizzare la compressione deflate (zip). Supponendo che *`p_factor`* di 0,4, la quantità totale di spazio su disco richiesto è circa 4 volte superiore. In questo caso, poco più di 1 TB.
+Per garantire la migliore qualità possibile, si può utilizzare una compressione come lo zip. Supponendo che *`p_factor`* di 0,4, la quantità totale di spazio su disco richiesto è circa quattro volte superiore. In questo caso, poco più di 1 terabyte.

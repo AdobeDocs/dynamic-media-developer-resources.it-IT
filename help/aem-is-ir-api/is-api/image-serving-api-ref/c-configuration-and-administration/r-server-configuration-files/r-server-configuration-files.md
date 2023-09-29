@@ -1,24 +1,24 @@
 ---
-description: Tutti i file di configurazione si trovano in install_folder/conf e sono modificabili con la maggior parte degli editor di testo. Per rendere effettive le modifiche potrebbe essere necessario riavviare il server.
-solution: Experience Manager
 title: File di configurazione del server
+description: Tutti i file di configurazione si trovano in install_folder/conf e sono modificabili con la maggior parte degli editor di testo. Riavviare il server per rendere effettive le modifiche.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # File di configurazione del server{#server-configuration-files}
 
-Tutti i file di configurazione si trovano in install_folder/conf e sono modificabili con la maggior parte degli editor di testo. Per rendere effettive le modifiche potrebbe essere necessario riavviare il server.
+Tutti i file di configurazione si trovano in `install_folder/conf` e sono modificabili con la maggior parte degli editor di testo. Riavviare il server per rendere effettive le modifiche.
 
 >[!NOTE]
 >
->La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi non descritti in questo documento. Tali proprietà sono destinate all&#39;uso interno del server e non devono essere modificate se non specificamente indicato dal supporto tecnico Dynamic Media.
+>La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi non descritti in questo documento. Tali proprietà sono destinate all&#39;uso interno del server e non devono essere modificate se non dietro istruzione del supporto tecnico Dynamic Medie.
 
 Questo documento illustra le impostazioni per i seguenti file di configurazione:
 

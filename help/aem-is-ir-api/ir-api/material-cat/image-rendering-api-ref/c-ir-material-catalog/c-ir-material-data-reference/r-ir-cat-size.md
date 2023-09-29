@@ -1,13 +1,13 @@
 ---
+title: Dimensione
 description: Dimensione decalcomania. Larghezza, altezza e spessore di un oggetto materiale decalcomania.
 solution: Experience Manager
-title: Dimensione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 4%
 
 ---

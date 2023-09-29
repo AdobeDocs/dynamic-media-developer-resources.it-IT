@@ -1,13 +1,13 @@
 ---
+title: Illum
 description: Selettore mappa di illuminazione. Consente di selezionare in modo esplicito la mappa di illuminazione da utilizzare per il rendering di questo materiale.
 solution: Experience Manager
-title: Illum
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Selettore mappa di illuminazione. Consente di selezionare in modo esplicito la m
 
 Enum. Impostate questo valore su -1 per selezionare automaticamente la mappa di illuminazione in base al valore di catalog::Gloss.
 
-Impostare su 0, 1 o 2 per selezionare la mappa di illuminazione A, B o C. Il renderer sceglierà la mappa di illuminazione più vicina disponibile nella vignettatura.
+Impostare su 0, 1 o 2 per selezionare la mappa di illuminazione A, B o C. Il renderer sceglie la mappa di illuminazione più vicina disponibile nella vignettatura.
 
 ## Predefinito {#section-ac386d31ef90423b8a367010a60bddc7}
 

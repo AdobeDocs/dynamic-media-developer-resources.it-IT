@@ -1,13 +1,13 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore a comparsa.
-solution: Experience Manager
 title: init
+description: Riferimento API JavaScript per l’inizializzazione del visualizzatore a comparsa.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e86f8c0f-c130-43c5-8c3a-07c6bc49e2f7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ Riferimento API JavaScript per il visualizzatore a comparsa.
 
 Avvia l&#39;inizializzazione del visualizzatore a comparsa. A questo punto, è necessario creare l’elemento DOM del contenitore in modo che il codice visualizzatore possa trovarlo in base al suo ID.
 
-Se l’elemento contenitore non fa ancora parte del layout della pagina web (ad esempio, potrebbe essere nascosto tramite `display:none` ), il visualizzatore sospende il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore nel layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
+Se l’elemento contenitore non fa ancora parte del layout della pagina web, ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato: il visualizzatore sospende il processo di inizializzazione. Lo fa fino al momento in cui la pagina web riporta l’elemento contenitore al layout. In questo caso, il caricamento del visualizzatore riprende automaticamente.
 
-Questo metodo deve essere chiamato una sola volta durante il ciclo di vita del visualizzatore e le chiamate conseguenti vengono ignorate.
+Questo metodo deve essere chiamato una sola volta durante il ciclo di vita del visualizzatore e le chiamate che ne derivano vengono ignorate.
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

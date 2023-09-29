@@ -1,20 +1,20 @@
 ---
 title: op_hue
-description: Regola tonalità. Sposta la tonalità di ciascun pixel visibile del livello o dell'immagine composita della quantità specificata.
+description: Regola la tonalità dell'immagine. Sposta la tonalità di ciascun pixel visibile del livello o dell'immagine composita della quantità specificata.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
 
 # op_hue{#op-hue}
 
-Regola tonalità. Sposta la tonalità di ciascun pixel visibile del livello o dell&#39;immagine composita della quantità specificata.
+Regola la tonalità dell&#39;immagine. Sposta la tonalità di ciascun pixel visibile del livello o dell&#39;immagine composita della quantità specificata.
 
 `op_hue= *`adj`*`
 
@@ -25,7 +25,7 @@ Regola tonalità. Sposta la tonalità di ciascun pixel visibile del livello o de
  </tr> 
 </table>
 
-Basato su una gamma di tonalità di 360 gradi.
+Basato su una gamma di tonalità a 360 gradi.
 
 ## Proprietà {#section-55779644700b4c808a624cdf5a04447e}
 

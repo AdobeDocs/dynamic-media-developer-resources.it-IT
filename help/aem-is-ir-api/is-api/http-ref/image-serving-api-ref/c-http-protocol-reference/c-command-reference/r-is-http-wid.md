@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (immagine di visualizzazione) quando fit= non è presente nella richiesta.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,21 +35,21 @@ Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per 
 
 ## Predefinito {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta avrà le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, a seconda di quale dei due valori è inferiore.
+Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, a seconda di quale dei due valori è inferiore.
 
 ## Proprietà {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Visualizza attributo. Si applica indipendentemente dall&#39;impostazione del livello corrente.
+Visualizza attributo. Viene applicato indipendentemente dall&#39;impostazione del livello corrente.
 
 ## Esempio {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Richiedi un&#39;immagine da inserire in un rettangolo 200x200; in alto a destra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo viene riempita con `attribute::BkgColor`.
+Richiedi un&#39;immagine in modo che possa rientrare in un rettangolo 200x200; in alto a destra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo viene riempita con `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-La stessa immagine, distribuita a una larghezza fissa di 200 pixel, ma con altezza variabile per mantenere le proporzioni dell&#39;immagine. In questo caso, l&#39;immagine restituita non presenta mai aree di riempimento di sfondo. In questo caso align= non avrebbe alcun effetto.
+La stessa immagine, distribuita a una larghezza fissa di 200 pixel, ma con altezza variabile per mantenere le proporzioni dell&#39;immagine. In questo caso, l&#39;immagine restituita non presenta mai aree di riempimento di sfondo. In questo caso, `align=` non avrebbe alcun effetto.
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`Server`*/myRootId/myImageId?wid=200`
 
 ## Consultate anche {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

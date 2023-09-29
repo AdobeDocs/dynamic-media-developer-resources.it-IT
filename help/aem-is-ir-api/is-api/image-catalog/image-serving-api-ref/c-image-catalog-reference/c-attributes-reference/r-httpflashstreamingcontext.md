@@ -1,14 +1,14 @@
 ---
+title: HttpFlashStreamingContext
 description: Prefisso URL server di streaming di Flash. Prefisso URL del server di streaming di Flash utilizzato per generare risposte f4m con velocità a più bit con req=mbrSet.
 solution: Experience Manager
-title: HttpFlashStreamingContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ Prefisso URL server di streaming di Flash. Prefisso URL del server di streaming 
 
 ## Proprietà {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-Stringa che rappresenta il prefisso dell’URL. (es. `http://my.server.com/flash/streaming`)
+Stringa che rappresenta il prefisso dell’URL. Ad esempio, `http://my.server.com/flash/streaming`.
 
 ## Predefinito {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

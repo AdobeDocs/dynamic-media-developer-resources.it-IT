@@ -1,13 +1,13 @@
 ---
+title: Timestamp
 description: Timestamp di modifica del file. Specifica la data/ora dell'ultima modifica apportata all'immagine e/o ai file di dati allegati al record catalogo.
 solution: Experience Manager
-title: Timestamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -22,25 +22,25 @@ Se `attribute::UseLastModified` è impostato, il più recente dei `catalog::Time
 >
 >Gli orari effettivi dei file immagine o dati allegati a questo record catalogo non vengono mai utilizzati a questo scopo.
 
-`catalog::TimeStamp` viene utilizzato anche per la convalida della cache basata su catalogo (vedi [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
+Il `catalog::TimeStamp` viene utilizzato anche per la convalida della cache basata su catalogo (vedi [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)).
 
 ## Proprietà {#section-42f09e375e72492b87a3a486da7df808}
 
-Valore data/ora in formato Java. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, 1 gennaio 1970 UTC/GMT o un valore stringa data/ora con uno dei seguenti formati:
+Valore data/ora in formato Java™. Può essere il numero intero di millisecondi trascorsi dalla mezzanotte, 1 gennaio 1970 UTC/GMT, o un valore stringa data/ora con uno dei seguenti formati:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
-* *[!DNL hh]* è compreso tra 0 e 23.
-* *[!DNL zzz]* è un codice di fuso orario di 3 o 4 caratteri, ad esempio &#39;GMT&#39; o &#39;PST&#39;. L’ora legale deve essere inclusa nel codice del fuso orario (ad esempio, &quot;PST&quot; per l’ora solare Pacifico e &quot;PDT&quot; per l’ora legale Pacifico).
+* *[!DNL hh]* è compreso nell&#39;intervallo tra 0 e 23.
+* *[!DNL zzz]* è un codice di fuso orario di tre o quattro caratteri, ad esempio &#39;GMT&#39; o &#39;PST&#39;. L’ora legale deve essere registrata nel codice del fuso orario. Ad esempio, &quot;PST&quot; per l’ora solare Pacifico rispetto a &quot;PDT&quot; per l’ora legale Pacifico.
 * *[!DNL offset]* è uno scostamento del fuso orario in ore o ore:minuti, relativo a GMT. Ad esempio, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
 
 Tutti gli elementi dei valori di data/ora in formato stringa devono essere presenti. Se il valore data/ora non è formattato correttamente, viene ignorato e l’ora di modifica del *catalogo* Viene utilizzato il file .ini.
 
 ## Predefinito {#section-e2c126c9e7294662b23944ab8d14866b}
 
-`attribute::TimeStamp` è un campo vuoto o non presente.
+Il `attribute::TimeStamp` è il campo vuoto o non presente.
 
 ## Consultate anche {#section-876f1d1b50dc4501b605820015a29451}
 

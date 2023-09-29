@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Filtro del tipo di contenuto statico. Specifica una stringa di filtro per il con
  </tr> 
 </table>
 
-Il server confronterà il valore con il valore di `catalog::Type` dell&#39;elemento di contenuto statico richiesto. L&#39;elemento viene restituito al client se i valori corrispondono (distinzione maiuscole/minuscole). In caso contrario viene restituito un errore.
+Il server confronta `val` con il valore di `catalog::Type` dell&#39;elemento di contenuto statico richiesto. L&#39;elemento viene restituito al client se i valori corrispondono (distinzione maiuscole/minuscole). In caso contrario viene restituito un errore.
 
 ## Proprietà {#section-529b088434a44a9f86a64ef548d2925b}
 
