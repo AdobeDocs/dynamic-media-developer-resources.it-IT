@@ -5,9 +5,9 @@ title: Metodi operativi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Se non includi `responseFieldArray` o `excludeFieldArray` in una richiesta, veng
 
 A partire da IPS 4.0, l&#39;API IPS supporta l&#39;impostazione del contesto locale di un&#39;operazione trasmettendo `authHeader` parametro locale. Se il parametro locale non è presente, l&#39;intestazione HTTP `Accept-Language` viene utilizzato. Se anche questa intestazione non è presente, viene utilizzata la lingua predefinita per il server IPS.
 
-Alcune operazioni utilizzano inoltre parametri internazionali espliciti, che possono essere diversi dal contesto locale dell&#39;operazione. Ad esempio, il `submitJob` l&#39;operazione richiede `locale` parametro che imposta le impostazioni locali utilizzate per la registrazione dei processi e la notifica e-mail.
+Alcune operazioni utilizzano inoltre parametri locali espliciti, che possono essere diversi dal contesto locale dell&#39;operazione. Ad esempio, il `submitJob` l&#39;operazione richiede `locale` parametro che imposta le impostazioni locali utilizzate per la registrazione dei processi e la notifica e-mail.
 
 I parametri delle impostazioni internazionali utilizzano il formato `<language_code>[-<country_code>]`
 

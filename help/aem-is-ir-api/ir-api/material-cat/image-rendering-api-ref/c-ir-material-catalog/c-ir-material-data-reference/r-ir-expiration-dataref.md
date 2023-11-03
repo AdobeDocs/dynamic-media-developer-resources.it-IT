@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Durata cache client. Numero di ore fino alla scadenza. Utilizzato per gestire il
 
 Il server calcola l&#39;ora/data di scadenza dei dati di risposta NTTP aggiungendo questo valore all&#39;ora/data di trasmissione.
 
-I browser gestiscono le cache utilizzando i tempi di scadenza dei file. Prima di trasmettere una richiesta al server, il browser controlla la cache per verificare se il file è già stato scaricato. In tal caso, e se il file non è ancora scaduto, il browser invierà una richiesta di GET condizionale (ad esempio con l’intestazione della richiesta HTTP If-Modified-Since) anziché una normale richiesta di GET. Il server ha la possibilità di rispondere con lo stato &quot;304&quot; e di non trasmettere l&#39;immagine. Il browser carica quindi semplicemente il file dalla propria cache. Questo può aumentare notevolmente le prestazioni complessive per i dati a cui si accede di frequente.
+I browser gestiscono le cache utilizzando i tempi di scadenza dei file. Prima di trasmettere una richiesta al server, il browser controlla la cache per verificare se il file è già stato scaricato. In tal caso, e se il file non è ancora scaduto, il browser invia una richiesta di GET condizionale (ad esempio con l’intestazione della richiesta HTTP If-Modified-Since) anziché una normale richiesta di GET. Il server ha la possibilità di rispondere con lo stato &quot;304&quot; e di non trasmettere l&#39;immagine. Il browser carica quindi semplicemente il file dalla propria cache. Questo può aumentare notevolmente le prestazioni complessive per i dati a cui si accede di frequente.
 
-Il server imposta l&#39;intestazione di risposta HTTP Expiration sulla data/ora corrente più il più piccolo dei valori di vignettatura::Scadenza e tutti i valori di catalogo::Scadenza per la vignettatura e tutti i materiali coinvolti nell&#39;operazione di rendering.
+Il server imposta l&#39;intestazione di risposta HTTP Scadenza sulla data/ora corrente più il più piccolo dei valori di vignettatura::Scadenza e tutti i valori di catalogo::Scadenza per la vignettatura e tutti i materiali coinvolti nell&#39;operazione di rendering.
 
-La scadenza è impostata principalmente per le risposte dei dati immagine. Alcuni tipi di risposte saranno sempre contrassegnati per la scadenza immediata (o contrassegnati come non memorizzabili in cache), comprese tutte le risposte di errore o di proprietà.
+La scadenza è impostata principalmente per le risposte dei dati immagine. Alcuni tipi di risposte sono sempre contrassegnati per la scadenza immediata (o contrassegnati come non memorizzabili in cache), comprese tutte le risposte di errore o di proprietà.
 
 ## Proprietà {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 

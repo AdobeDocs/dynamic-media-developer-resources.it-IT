@@ -5,7 +5,7 @@ title: Supporto per il tracciamento di Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%

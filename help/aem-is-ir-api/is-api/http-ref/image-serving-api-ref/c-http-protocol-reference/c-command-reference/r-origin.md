@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Origine livello.
 >
 >Il rettangolo di livello include sempre qualsiasi modifica eseguita da `extend=`.
 
-Definisce il punto di allineamento del rettangolo di livello, utilizzato per posizionare il rettangolo di livello rispetto al livello 0 tramite `pos=`. `originN=0,0` posiziona l&#39;origine del livello al centro del rettangolo del livello. `originN=-0.5,-0.5` e `origin=0,0` è l’angolo in alto a sinistra, e `originN=0.5,0.5` è l&#39;angolo inferiore destro del rettangolo del livello.
+Definisce il punto di allineamento del rettangolo di livello, utilizzato per posizionare il rettangolo di livello rispetto al livello 0 mediante `pos=`. `originN=0,0` posiziona l&#39;origine del livello al centro del rettangolo del livello. `originN=-0.5,-0.5` e `origin=0,0` è l’angolo in alto a sinistra, e `originN=0.5,0.5` è l&#39;angolo inferiore destro del rettangolo del livello.
 
 ## Proprietà {#section-60f639e36ada43d1abc6bfc100afc925}
 

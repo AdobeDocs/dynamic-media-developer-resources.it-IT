@@ -5,7 +5,7 @@ title: Limiti dimensioni immagine
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Limita le dimensioni delle immagini che possono essere prodotte dal server immag
 
 ## IS::MaxSavePixels - Limite di dimensioni per il salvataggio sui file {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita le dimensioni delle immagini che il server immagini scriverà nei file con `req=saveToFile` comando. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
+Limita le dimensioni delle immagini che il server immagini scrive nei file con `req=saveToFile` comando. Valore intero maggiore di 0 in milioni di pixel. Se l&#39;operazione di salvataggio del file supera tale limite, viene restituito un errore. Il valore predefinito è 100 milioni di pixel.
 
 ## IS::MaxNonDsfSize - Limite dimensioni per immagini di input non PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
-Dimensione massima (in Mpixel) delle immagini che non sono file PTIFF che il server immagini può aprire. Image Server restituirà un errore quando si tenta di accedere a un’immagine non PTIFF superiore a questo limite.
+Dimensione massima (in Mpixel) delle immagini che non sono file PTIFF che il server immagini può aprire. Image Server restituisce un errore quando si tenta di accedere a un’immagine non PTIFF superiore a questo limite.
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ title: Supporto SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,11 @@ Specifica una richiesta Image Server completa, a partire da `http://`, o un URL 
 
 >[!NOTE]
 >
->Le immagini incorporate in SVG non vengono ridimensionate automaticamente in questo momento. Assicurati che tutti i riferimenti immagine includano i comandi Image Server necessari per impostare le dimensioni immagine desiderate (ad esempio `wid=`). Se la dimensione dell&#39;immagine non è impostata in modo esplicito, `attribute::DefaultPix` viene applicata.
+>Le immagini incorporate in SVG non vengono ridimensionate automaticamente in questo momento. Assicurati che tutti i riferimenti immagine includano i comandi Image Server necessari per impostare la dimensione immagine desiderata (ad esempio, `wid=`). Se la dimensione dell&#39;immagine non è impostata in modo esplicito, `attribute::DefaultPix` viene applicata.
 
 ## Gestione colore {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Si presume che tutti i valori di colore incorporati nei file SVG e passati ai modelli SVG tramite variabili di sostituzione esistano in `sRgb` spazio colore.
+Si presume che tutti i valori di colore incorporati nei file SVG e passati ai modelli SVG mediante variabili di sostituzione esistano nel `sRgb` spazio colore.
 
 Non viene eseguita alcuna conversione del colore quando le immagini sono incorporate nel SVG. Per garantire la fedeltà dei colori, assicurati di specificare `icc=sRgb` per tutte le richieste di immagini incorporate.
 

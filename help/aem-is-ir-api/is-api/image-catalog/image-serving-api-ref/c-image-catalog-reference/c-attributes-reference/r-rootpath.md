@@ -5,9 +5,9 @@ title: PercorsoDirectoryPrincipale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Stringa di testo. Deve essere vuoto, un percorso di cartella relativo valido o u
 
 ## Predefinito {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-Ereditato da `default::RootPath` se non è definita. Se definito ma vuoto, non contribuirà al percorso principale del file di origine.
+Ereditato da `default::RootPath` se non è definita. Se definito ma vuoto, non contribuisce al percorso radice del file di origine.
 
 ## Consultate anche {#section-6bf4ffc4987843a9a2dbe81b43076437}
 

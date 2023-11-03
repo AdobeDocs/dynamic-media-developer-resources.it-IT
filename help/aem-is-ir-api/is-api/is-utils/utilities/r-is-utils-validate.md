@@ -1,20 +1,20 @@
 ---
-description: Utility di convalida delle immagini. Questa utilità da riga di comando verifica i file immagine per verificare che siano validi e possano essere letti senza difficoltà da Image Server.
+description: Utility di convalida delle immagini. Questa utility della riga di comando verifica i file immagine per verificarne la validità e per verificare che possano essere letti senza difficoltà da Image Server.
 solution: Experience Manager
 title: convalida
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # convalida{#validate}
 
-Utility di convalida delle immagini. Questa utilità da riga di comando verifica i file immagine per verificare che siano validi e possano essere letti senza difficoltà da Image Server.
+Utility di convalida delle immagini. Questa utility della riga di comando verifica i file immagine per verificarne la validità e per verificare che possano essere letti senza difficoltà da Image Server.
 
 Tutti i file di immagine non PTIFF devono passare la convalida prima che il file sia reso disponibile a Image Server come immagine sorgente. Le immagini PTIFF devono essere convalidate dopo operazioni di copia potenzialmente inaffidabili.
 

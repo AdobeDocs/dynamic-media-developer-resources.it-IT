@@ -1,18 +1,18 @@
 ---
 description: Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 solution: Experience Manager
-title: Supporto per schermo intero
+title: supporto a schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b4196444-10a9-4391-b3ac-d8f12deb173f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Supporto per schermo intero{#full-screen-support}
+# supporto a schermo intero{#full-screen-support}
 
 Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 
@@ -20,4 +20,4 @@ Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni pre
 
 Sui dispositivi iOS e sui browser Internet Explorer precedenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona semplicemente per occupare l’intera area della finestra del browser web. Inoltre, l’interfaccia utente del browser web e altre finestre sono ancora visibili sullo schermo.
 
-Un utente finale entra in modalità a tutto schermo ed esce da essa premendo il pulsante Schermo intero nell’interfaccia utente del visualizzatore. Quando si utilizza la modalità a tutto schermo &quot;nativa&quot; sul desktop, è anche possibile uscire premendo **Esc**.
+Un utente finale entra in modalità a schermo intero e ne esce premendo il pulsante nell’interfaccia utente del visualizzatore. Quando si utilizza la modalità a tutto schermo &quot;nativa&quot; sul desktop, è anche possibile uscire premendo **Esc**.

@@ -1,21 +1,21 @@
 ---
 title: Visualizzatore video ritaglio avanzato
-description: Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
+description: Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Medie.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
 
 # Ritaglio video automatico{#smart-crop-video}
 
-Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Media.
+Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Medie.
 
 Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -47,14 +47,14 @@ Il Visualizzatore video ritaglio avanzato fornisce un set di controlli standard 
 * Bolla temporale del video di scorrimento video.
 * Indicatore tempo di riproduzione/tempo totale.
 * Controllo del volume.
-* Pulsante Schermo intero.
+* pulsante a schermo intero.
 * Attiva/disattiva sottotitoli codificati.
 
 Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell&#39;interfaccia utente del visualizzatore.
 
 Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia utente, perché è possibile controllare il volume solo utilizzando i pulsanti hardware.
 
-Quando il visualizzatore funziona in modalità pop-up, il pulsante Schermo intero non è disponibile nell’interfaccia utente.
+Quando il visualizzatore funziona in modalità pop-up, il pulsante a schermo intero non è disponibile nell’interfaccia utente.
 
 È possibile navigare rapidamente nel contenuto di un video quando il capitolo video è attivato. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo del capitolo e la descrizione associata al passaggio del mouse o con un solo tocco sui sistemi touch. Gli utenti possono cercare un capitolo particolare selezionando un marcatore di capitolo o selezionando la bolla di descrizione del capitolo.
 
@@ -68,7 +68,7 @@ Consulta [Accessibilità della tastiera e navigazione](../../c-keyboard-accessib
 
 Il Visualizzatore video ritaglio avanzato supporta gli strumenti di condivisione dei social media. Sono disponibili come pulsante singolo nell’interfaccia utente, che si espande in una barra degli strumenti di condivisione quando l’utente fa clic o tocca su di essa.
 
-La barra degli strumenti Condivisione contiene un’icona per ogni tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione è attivato, la riproduzione video viene sospesa automaticamente.
+La barra degli strumenti Condivisione contiene un’icona per ogni tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione di codice da incorporare e condivisione di collegamento. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione è attivato, la riproduzione video viene sospesa automaticamente.
 
 Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
@@ -146,7 +146,7 @@ Il percorso relativo si presenta come segue:
 
    Il segnaposto DIV è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
 
-   Verificare che la funzionalità a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
+   Verificare che la funzione a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
 
    Di seguito è riportato un esempio di un elemento DIV segnaposto definito:
 

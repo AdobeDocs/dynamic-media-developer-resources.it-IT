@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 7%
@@ -18,7 +18,7 @@ Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della c
 
 ## Scopo delle cartelle {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Una cartella consente di organizzare sottocartelle e risorse. Tutti i nomi delle cartelle e delle risorse devono essere univoci. Le cartelle e le risorse che condividono lo stesso nome causeranno un conflitto nello spazio dei nomi, anche se si trovano in gerarchie di cartelle diverse.
+Una cartella consente di organizzare sottocartelle e risorse. Tutti i nomi delle cartelle e delle risorse devono essere univoci. Le cartelle e le risorse che condividono lo stesso nome causano un conflitto nello spazio dei nomi, anche se si trovano in gerarchie di cartelle diverse.
 Sintassi
 
 ## Tipi di utenti autorizzati {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}

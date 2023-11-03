@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Attributo materiale. Utilizzato solo dalle decalcomanie; ignorato da tutti gli a
 
 ## Esempio {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
-Un MSS per una decalcomania, che è dimensionato in base alla risoluzione, ruotato di 20 gradi in senso orario e ha uno spessore di 2,5 pollici, per un appropriato effetto ombra esterna:
+MSS per una decalcomania, dimensionata in base alla risoluzione, ruotata di 20 gradi in senso orario e con uno spessore di 2,5 pollici, per un appropriato effetto ombra esterna:
 
 `…&decal&src=myDecal.png&res=34&rotate=20&size=0,0,2.5&…`
 

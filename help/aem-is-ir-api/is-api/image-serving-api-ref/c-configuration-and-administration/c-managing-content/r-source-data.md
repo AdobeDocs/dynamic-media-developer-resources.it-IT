@@ -5,9 +5,9 @@ title: Dati sorgente
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Tutti `*`rootPath`*` i segmenti possono essere vuoti, relativi o assoluti.
 
 `*`catalogPath`*` è un nome o un percorso di file assoluto o relativo. `*`requestPath`*` deve essere un percorso/nome file relativo.
 
-`Multiple IS::RootPath` I valori possono essere definiti in ImageServerRegistry.xml (o tramite l’interfaccia di amministrazione). Questo consente di distribuire i file di dati di origine su più file system. Il server immagini proverà percorsi alternativi nell&#39;ordine specificato fino a quando non verrà trovato il file di dati.
+`Multiple IS::RootPath` I valori possono essere definiti in ImageServerRegistry.xml (o tramite l’interfaccia di amministrazione). Questo consente di distribuire i file di dati di origine su più file system. Il server immagini tenta percorsi alternativi nell&#39;ordine specificato finché non viene trovato il file di dati.
 
 È possibile aggiungere nuovi file di dati di qualsiasi tipo in qualsiasi momento senza arrestare il server.

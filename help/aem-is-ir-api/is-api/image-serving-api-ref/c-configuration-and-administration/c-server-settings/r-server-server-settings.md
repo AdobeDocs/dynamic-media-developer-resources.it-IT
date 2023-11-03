@@ -5,9 +5,9 @@ title: Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sia la versione a 32 bit che la versione a 64 bit del server immagini sono dispo
 
 >[!NOTE]
 >
->Modalità a 64 bit non supportata in Windows. Solo `ImageServer32` possono essere specificati. In caso contrario, Image Server non si avvierà.
+>Modalità a 64 bit non supportata in Windows. Solo `ImageServer32` possono essere specificati. In caso contrario, Image Server non si avvia.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Dimensione heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
@@ -44,11 +44,11 @@ Specifica la porta utilizzata per la comunicazione tra [!DNL Platform Server] e 
 
 Limite approssimativo per i dati immagine in memoria, espresso come percentuale della memoria fisica. L&#39;intervallo valido è compreso tra 10% e 90%. Il server immagini tenta di limitare l&#39;utilizzo della memoria immagine alla quantità specificata, se possibile. Il limite può essere temporaneamente superato durante un’intensa attività di elaborazione.
 
-## IS::WorkerThreads - Numero di thread di lavoro del server immagini {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Numero di Image Server Worker Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Numero massimo di thread utilizzati dal server immagini per l&#39;elaborazione dei dati immagine. Il valore predefinito è 0, che consente al server immagini di ottimizzare automaticamente il conteggio dei thread.
 
-Alcuni sistemi operativi dispongono di modelli di threading con un elevato sovraccarico di cambio di contesto. In tali circostanze, le prestazioni complessive del server possono migliorare quando viene selezionato un numero specifico di thread (ad esempio, un thread per CPU). Per trovare l’impostazione ottimale potrebbe essere necessaria una certa sperimentazione. Per ulteriori informazioni, consulta le note sulla versione di Image Server e la documentazione del sistema operativo.
+Alcuni sistemi operativi dispongono di modelli di threading con un elevato sovraccarico di cambio di contesto. In questo caso, le prestazioni complessive del server possono migliorare quando si seleziona un numero specifico di thread (ad esempio, un thread per CPU). Per trovare l’impostazione ottimale potrebbe essere necessaria una certa sperimentazione. Per ulteriori informazioni, consulta le note sulla versione di Image Server e la documentazione del sistema operativo.
 
 ## IS::NumberOfTextServers - Numero di istanze del server di testo {#section-971e20a90c1a473598fba738ed95671a}
 

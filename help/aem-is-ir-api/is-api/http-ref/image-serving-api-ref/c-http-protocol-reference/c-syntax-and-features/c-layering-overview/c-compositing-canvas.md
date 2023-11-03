@@ -5,9 +5,9 @@ title: Area di lavoro di composizione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I livelli vengono composti nell&#39;ordine specificato dal comando layer=, dove i livelli con numero più alto nascondono quelli con numero più basso.
 
-Il livello 0 costituisce il livello di sfondo, che è sempre richiesto e che definisce le dimensioni dell&#39;immagine composita. Qualsiasi tipo di livello è consentito per il livello 0. È necessario definire la dimensione del livello 0, utilizzando esplicitamente `size=` o implicitamente, in base all’immagine o al testo del contenuto. Eventuali aree di altri livelli che non rientrano nell&#39;area del livello 0 non verranno incluse nell&#39;immagine di output.
+Il livello 0 costituisce il livello di sfondo, che è sempre richiesto e che definisce le dimensioni dell&#39;immagine composita. Qualsiasi tipo di livello è consentito per il livello 0. È necessario definire la dimensione del livello 0, utilizzando esplicitamente `size=` o implicitamente, in base all’immagine o al testo del contenuto. Le aree di altri livelli che non rientrano nell&#39;area del livello 0 non sono incluse nell&#39;immagine di output.
 
 >[!NOTE]
 >

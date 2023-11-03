@@ -5,9 +5,9 @@ title: Richiedi blocco
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Per ridurre le opportunità di manomissione delle richieste, è disponibile una semplice funzione di blocco.
 
-Se è impostato l&#39;attributo::RequestLock, è necessario aggiungere un valore di blocco alla richiesta, sotto forma di `&xxxx`, dove xxxx è un valore esadecimale a quattro cifre. Questo valore esadecimale viene generato utilizzando un semplice algoritmo di hashing applicato al *modificatori* parte della richiesta (dopo &quot;?&quot; che separa il percorso URL dal *modificatori*). Questa operazione deve essere eseguita dopo che la richiesta è completamente codificata http, ma prima che sia (facoltativamente) offuscata. Dopo aver deoffuscato la richiesta, il server utilizzerà lo stesso algoritmo di hashing nella stringa del modificatore (esclusi gli ultimi 5 caratteri, che contengono il valore di blocco). Se la chiave generata non corrisponde al blocco, la richiesta viene rifiutata.
+Se è impostato l&#39;attributo::RequestLock, è necessario aggiungere un valore di blocco alla richiesta, sotto forma di `&xxxx`, dove xxxx è un valore esadecimale a quattro cifre. Questo valore esadecimale viene generato utilizzando un semplice algoritmo di hashing applicato al *modificatori* parte della richiesta (dopo &quot;?&quot; che separa il percorso URL dal *modificatori*). Questa operazione deve essere eseguita dopo che la richiesta è completamente codificata http, ma prima che sia (facoltativamente) offuscata. Dopo aver deoffuscato la richiesta, il server utilizza lo stesso algoritmo di hashing nella stringa del modificatore (esclusi gli ultimi 5 caratteri, che contengono il valore di blocco). Se la chiave generata non corrisponde al blocco, la richiesta viene rifiutata.
 
 >[!IMPORTANT]
 >
->Se abiliti questa funzione, tieni presente che l’utilizzo di essa è soggetto a determinate limitazioni, tra cui:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per **[!UICONTROL Ultima pubblicazione]** campo. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, lo streaming video HLS non funziona quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.<br>- Attualmente, alcuni visualizzatori Dynamic Media non funzionano quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.
+>Se abiliti questa funzione, tieni presente che l’utilizzo di essa è soggetto a determinate limitazioni, tra cui:<br>- L&#39;interfaccia utente di Dynamic Medie potrebbe non mostrare i dettagli corretti per **[!UICONTROL Ultima pubblicazione]** campo. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, lo streaming video HLS non funziona quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.<br>- Attualmente, alcuni visualizzatori Dynamic Medie non funzionano quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.
 
 Codice di esempio C++ per generare il valore di blocco della richiesta:
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 I materiali dei cabinet specificano un file di stile (estensione .vnc), un file di dati speciale contenente le rappresentazioni fotografiche dei cabinet insieme alle definizioni di layout parametrico e altre informazioni necessarie per il rendering dei frontali dei cabinet.
 
-[!DNL vnc] i file possono includere una texture a grana di legno ripetibile, oppure la texture può essere fornita esternamente tramite un secondo argomento per `src=`. Certi [!DNL vnc] i file consentono di colorare o texturare aree selezionate della parte anteriore del cabinet (in genere utilizzata per gli stili del cabinet laminato).
+[!DNL vnc] i file possono includere una texture a grana di legno ripetibile, oppure la texture può essere fornita esternamente mediante un secondo argomento per `src=`. Certi [!DNL vnc] i file consentono di colorare o texturare aree selezionate della parte anteriore del cabinet (in genere utilizzata per gli stili del cabinet laminato).
 
 I materiali di scaffale possono essere applicati solo agli oggetti di scaffale.
 

@@ -5,10 +5,10 @@ title: Nitido
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 10%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Opzioni. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
 
-Il tipo e la quantità di nitidezza sono controllati dalla vignettatura tramite un modello di materiale predefinito o con `catalog::RenderSettings`.
+Il tipo e la quantità di nitidezza sono controllati dalla vignettatura mediante un modello di materiale predefinito o con `catalog::RenderSettings`.
 
 ## Proprietà {#section-aac81b1a611b4bca90b8544eae7896df}
 

@@ -5,9 +5,9 @@ title: regola
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ L&#39;attributo Expiration sostituisce solo il valore dell&#39;attributo predefi
 
 Se entrambi `<expression>` e `<substitution>` vengono specificati e le sottostringhe acquisite non vengono utilizzate, la prima sottostringa corrispondente viene sostituita con `<substitution>`.
 
-Se `<expression>` non è specificato, qualsiasi percorso corrisponderà a e `<substitution>` viene aggiunto alla fine del percorso.
+Se `<expression>` non è specificato, qualsiasi percorso corrisponde a e `<substitution>` viene aggiunto alla fine del percorso.
 
 Se `<substitution>` non è specificato, la sottostringa corrispondente viene rimossa.
 

@@ -5,9 +5,9 @@ title: Definizione delle crittografie SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Per impostazione predefinita, sono disponibili tutte le crittografie. L’elenco
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Se uno qualsiasi dei valori è errato, Tomcat abiliterà ogni singolo cifrario. È quindi essenziale verificare con uno strumento esterno, dopo la configurazione, quali crittografie sono effettivamente abilitate.
+Se uno qualsiasi dei valori è errato, Tomcat abilita ogni singolo cifrario. È quindi essenziale verificare con uno strumento esterno, dopo la configurazione, quali crittografie sono effettivamente abilitate.
 
 Ad esempio, la seguente configurazione abilita solo le suite di cifratura &quot;a 128 bit&quot; e versioni successive:
 

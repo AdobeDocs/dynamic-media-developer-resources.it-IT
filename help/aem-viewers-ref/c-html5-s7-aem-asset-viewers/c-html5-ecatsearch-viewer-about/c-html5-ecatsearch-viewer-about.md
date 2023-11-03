@@ -1,21 +1,21 @@
 ---
-description: eCatalog Search Viewer è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modalità "spread by spread" o "page by page". L’eCatalog consente agli utenti di navigare nel catalogo utilizzando elementi aggiuntivi dell’interfaccia utente o in modalità miniature dedicate. Gli utenti possono anche eseguire lo zoom avanti su ogni pagina per ottenere maggiori dettagli.
+description: Il visualizzatore di ricerca di eCatalog è un visualizzatore di catalogo che visualizza le brochure elettroniche in modalità per pagine o pagine affiancate. L’eCatalog consente agli utenti di navigare all’interno del catalogo utilizzando elementi dell’interfaccia utente aggiuntivi o in modalità miniature dedicata. Gli utenti possono anche eseguire lo zoom avanti su ogni pagina per ottenere maggiori dettagli.
 keywords: responsive
 solution: Experience Manager
 title: Ricerca eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # Ricerca eCatalog{#ecatalog-search}
 
-eCatalog Search Viewer è un visualizzatore di cataloghi che visualizza le brochure elettroniche in modalità &quot;spread by spread&quot; o &quot;page by page&quot;. L’eCatalog consente agli utenti di navigare nel catalogo utilizzando elementi aggiuntivi dell’interfaccia utente o in modalità miniature dedicate. Gli utenti possono anche eseguire lo zoom avanti su ogni pagina per ottenere maggiori dettagli.
+Il visualizzatore di ricerca di eCatalog è un visualizzatore di catalogo che visualizza le brochure elettroniche in modalità per pagine o pagine affiancate. L’eCatalog consente agli utenti di navigare all’interno del catalogo utilizzando elementi dell’interfaccia utente aggiuntivi o in modalità miniature dedicata. Gli utenti possono anche eseguire lo zoom avanti su ogni pagina per ottenere maggiori dettagli.
 
 Questo visualizzatore funziona con gli ecatalog e supporta mappe immagine opzionali e strumenti di condivisione social. Dispone di strumenti per lo zoom, strumenti per la navigazione nel catalogo, supporto per la visualizzazione a schermo intero, miniature e un pulsante di chiusura opzionale. Il visualizzatore supporta anche gli strumenti di condivisione social, Stampa, Scarica e Preferiti. È progettato per funzionare su desktop e dispositivi mobili.
 
@@ -84,7 +84,7 @@ Questo visualizzatore supporta anche l&#39;input del mouse e del touch-screen su
 
 ## Strumenti per la condivisione di social media con il visualizzatore di ricerca eCatalog {#section-eb575084a99647c3a9591f439f40b412}
 
-Il visualizzatore di ricerca eCatalog supporta gli strumenti di condivisione social. Sono disponibili come pulsanti nella barra di controllo principale, che si espande in una barra degli strumenti di condivisione quando un utente fa clic o tocca su di essa.
+Il visualizzatore di ricerca eCatalog supporta gli strumenti di condivisione social. Sono disponibili come pulsante nella barra di controllo principale che si espande in una barra degli strumenti di condivisione quando un utente fa clic o tocca su di essa.
 
 La barra degli strumenti Condivisione contiene icone per ogni tipo di canale di condivisione supportato, tra cui Facebook, Twitter, condivisione e-mail, condivisione codice di incorporamento e condivisione collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l’utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
@@ -141,7 +141,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Media di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
 
 Il percorso relativo è simile al seguente:
 

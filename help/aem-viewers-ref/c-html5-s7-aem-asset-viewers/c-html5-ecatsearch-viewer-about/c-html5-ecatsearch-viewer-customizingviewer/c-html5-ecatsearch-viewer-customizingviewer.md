@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Di seguito è riportata la documentazione di riferimento sugli elementi dell’i
 * [Visualizzazione Preferiti](r-html5-ecatsearch-customize-favoritesview.md)
 * [Pulsante Prima pagina](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Evidenziazione focus](r-html5-ecatsearch-customize-focushighlight.md)
-* [Pulsante Schermo intero](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [pulsante a schermo intero](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Effetto icona](r-html5-ecatsearch-customize-iconeffect.md)
 * [Menu a comparsa del pannello Info](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Effetto mappa immagine](r-html5-ecatsearch-customize-imagemapeffect.md)

@@ -1,20 +1,20 @@
 ---
-title: Pulsante Schermo intero
-description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità a comparsa e il sistema non supporta la modalità a schermo intero nativa. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
+title: pulsante a schermo intero
+description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità a comparsa e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
-Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità a comparsa e il sistema non supporta la modalità a schermo intero nativa. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
+Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità a comparsa e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

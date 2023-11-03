@@ -5,7 +5,7 @@ title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Tipo di richiesta. Specifica il tipo di richiesta.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Se non diversamente specificato nelle descrizioni dettagliate, il server restituisce `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text`, che è in genere l’impostazione predefinita, `javascript`, `xml`, o `json`. I tipi MIME di risposta associati sono `text/plain`, `text/javascript`, `text/xml`, e `text/javascript`, rispettivamente.
+Se non diversamente specificato nelle descrizioni dettagliate, il server restituisce `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text` questa è in genere l’impostazione predefinita, `javascript`, `xml`, o `json`. I tipi MIME di risposta associati sono `text/plain`, `text/javascript`, `text/xml`, e `text/javascript`, rispettivamente.
 
 Se non diversamente specificato, le risposte formattano la risposta come un insieme di `name=value` coppie.
 

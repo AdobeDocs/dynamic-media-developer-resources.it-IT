@@ -5,9 +5,9 @@ title: Formattazione testo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Image Server offre diverse alternative per il rendering del testo, accessibili c
 
 >[!NOTE]
 >
->Oltre alle differenze elencate altrove, `text=` produce lievi differenze nel testo sottoposto a rendering quando confrontato con `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene visualizzato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` può ritagliare parzialmente l’ultima riga, mentre `textPs=` eseguirà il rendering solo delle righe complete.
+>Oltre alle differenze elencate altrove, `text=` produce lievi differenze nel testo sottoposto a rendering quando confrontato con `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene visualizzato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` può ritagliare parzialmente l’ultima riga, mentre `textPs=` esegue il rendering solo delle righe complete.
 
 Tutti i comandi di testo accettano testo formattato in base a un sottoinsieme della specifica RTF (Rich Text Format). Ogni livello di testo può specificare un comando di testo diverso.
 
@@ -149,7 +149,7 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ogni com
 
 Le stringhe compatibili con RTF possono essere assemblate manualmente o formattando il testo desiderato in un editor di testo o un elaboratore di testi in grado di salvare file RTF. Il file RTF può quindi essere aperto in un editor di testo normale e il relativo contenuto RTF non elaborato del file copiato nell’URL della richiesta.
 
-Alcuni elaboratori di testi generano file piuttosto grandi, che includono preamboli sostanziali che non vengono utilizzati da Dynamic Media Image Server. Si consiglia di rimuovere dalla stringa gli elementi RTF inutilizzati prima di passare la stringa ai comandi di testo.
+Alcuni elaboratori di testi generano file piuttosto grandi, che includono preamboli sostanziali che non vengono utilizzati da Dynamic Medie Image Server. Si consiglia di rimuovere dalla stringa gli elementi RTF inutilizzati prima di passare la stringa ai comandi di testo.
 
 La codifica del linguaggio basata sugli standard UTF-8 e ISO è supportata nelle stringhe RTF in alternativa ai meccanismi di codifica dei caratteri RTF standard. Ciò consente alle applicazioni di inviare al server testo non in inglese senza conoscere la codifica RTF.
 

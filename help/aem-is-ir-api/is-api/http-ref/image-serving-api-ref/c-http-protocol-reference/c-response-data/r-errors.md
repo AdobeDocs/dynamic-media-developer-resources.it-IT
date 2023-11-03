@@ -1,20 +1,20 @@
 ---
-description: Se una richiesta non può essere completata correttamente, il server restituirà un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
+description: Se una richiesta non può essere completata correttamente, il server restituisce un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
 solution: Experience Manager
 title: Errori
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 1%
 
 ---
 
 # Errori{#errors}
 
-Se una richiesta non può essere completata correttamente, il server restituirà un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
+Se una richiesta non può essere completata correttamente, il server restituisce un’immagine di errore o uno stato di risposta HTTP diverso da 200 insieme a un messaggio di errore.
 
 Il valore dello stato della risposta dipende dal tipo di errore; per la maggior parte degli errori comuni è &quot;403&quot;. Le risposte di errore per i tipi di richiesta non di immagine sono conformi al formato specificato con `req=`. (Al momento potrebbe non essere implementato in modo coerente).
 

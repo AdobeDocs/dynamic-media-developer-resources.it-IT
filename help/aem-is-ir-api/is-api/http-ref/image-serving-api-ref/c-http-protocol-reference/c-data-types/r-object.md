@@ -5,9 +5,9 @@ title: oggetto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Specifier dell&#39;oggetto di origine. Gli oggetti profilo immagine, SVG e ICC p
 
 *`rootId`* identifica un catalogo immagini. (vedere [Catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) per i dettagli.) Se *`rootId`* è specificato nel percorso URL, tale catalogo diventa *catalogo principale* per questa richiesta. In caso contrario, viene utilizzato il catalogo predefinito come catalogo principale. Nella stessa richiesta è possibile utilizzare più cataloghi di immagini diversi.
 
-Il server presuppone inizialmente che *`rootId`* viene omesso in `src=`, `mask=`, e `icc=` e tenterà di trovare una voce di catalogo nel catalogo principale. Il server tenta di utilizzare l&#39;intero *`object`* stringa come *`objId.`*
+Il server presuppone inizialmente che *`rootId`* viene omesso in `src=`, `mask=`, e `icc=` e tenta di trovare una voce di catalogo nel catalogo principale. Il server tenta di utilizzare l&#39;intero *`object`* stringa come *`objId.`*
 
 Se viene trovata una voce di catalogo, questa viene utilizzata; in caso contrario, il server tenta di trovare una corrispondenza con *`rootId`* di un catalogo immagini. Se viene identificato un catalogo, viene cercato *`objId`*. Se viene trovata una voce e, questa viene utilizzata.
 
@@ -59,7 +59,7 @@ Fai riferimento a *Gestione del contenuto* nel *Guida alla configurazione del se
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility IC (Image Converter).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Media pyramid TIFF (PTIF). L&#39;utilità IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIF). L&#39;utilità IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
 
 ## Esempi {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

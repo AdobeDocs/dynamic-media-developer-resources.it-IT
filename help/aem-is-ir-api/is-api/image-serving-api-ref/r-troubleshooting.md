@@ -5,7 +5,7 @@ title: Risoluzione dei problemi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Questo non indica un problema. Il sovraccarico del file system non è incluso ne
 
 Ciò si verifica se Image Server non è in esecuzione. Si verifica anche se il percorso della directory principale del catalogo o il percorso della directory principale dell’immagine è stato modificato rispetto all’impostazione predefinita di installazione, ma le immagini e i cataloghi di esempio non sono stati spostati nelle nuove posizioni. Controlla il valore del percorso principale del server immagini nei file di configurazione. Se necessario, sposta la cartella demo che contiene le immagini di esempio nella directory principale dell’immagine corrente e sposta [!DNL sample*.*] alla directory principale del catalogo corrente.
 
-Gli esempi presuppongono inoltre che alcune impostazioni in [!DNL default.ini] sono standard (ad esempio, non deve essere abilitato l’offuscamento o il blocco).
+Gli esempi presuppongono inoltre che alcune impostazioni in [!DNL default.ini] sono standard (ad esempio, l’offuscamento o il blocco non devono essere abilitati).
 
 **Troppi mancati riscontri nella cache dopo un tempo di attività considerevole**
 
@@ -51,8 +51,8 @@ Server immagini e [!DNL Platform Server] avvia un nuovo file di registro ogni gi
 
 **Se sul server è installato un software antivirus**
 
-È consigliabile disattivare la scansione delle directory Image Server. In caso contrario, la scansione di directory di lettura/scrittura di volumi elevati (come cache, immagini, font, profili e directory di catalogo) causerà problemi.
+È consigliabile disattivare la scansione delle directory Image Server. In caso contrario, la scansione di directory di lettura/scrittura di volumi elevati (come cache, immagini, font, profili e directory di catalogo) può causare problemi.
 
 **Digimarc causa problemi di prestazioni per le immagini di zoom**
 
-Non utilizzare Digimarc su immagini ingrandite. Le prestazioni non saranno accettabili. Se necessario, crea un catalogo separato per le immagini da utilizzare per lo zoom e disattiva Digimarc per questo catalogo.
+Non utilizzare Digimarc su immagini ingrandite. Le prestazioni non sono accettabili. Se necessario, crea un catalogo separato per le immagini da utilizzare per lo zoom e disattiva Digimarc per questo catalogo.

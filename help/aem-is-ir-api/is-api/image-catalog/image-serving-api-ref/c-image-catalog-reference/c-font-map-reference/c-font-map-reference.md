@@ -5,10 +5,10 @@ title: Riferimento mappa font
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Se per un catalogo immagini è richiesta una mappa font, il percorso relativo o assoluto del file della mappa font deve essere specificato in attribute::FontMapFile.
 
-Le voci nella mappa font di un catalogo di immagini specifico sovrascriveranno le voci nella mappa font del catalogo predefinito.
+Le voci nella mappa font di un catalogo immagini specifico sostituiscono le voci nella mappa font del catalogo predefinito.
 
-Image Server supporta i font Adobe Type 1, OpenType e TrueType.
+Image Server supporta i font Adobi Type 1, OpenType e TrueType.
 
 `textPs=` supporta anche i font CID, ATC e bitmap.
 

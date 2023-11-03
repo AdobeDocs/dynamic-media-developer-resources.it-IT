@@ -5,9 +5,9 @@ title: Registrazione degli accessi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Cartella in cui è memorizzato [!DNL Platform Server] scrive i file di registro.
 
 ## TC::maxDays - Numero di giorni per la conservazione dei file di registro {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Il numero di file di registro dei giorni deve essere mantenuto. I nuovi file di registro vengono creati ogni giorno a mezzanotte. A questo punto, il server eliminerà tutti i file nella cartella dei file di registro che sono stati creati da un numero di giorni superiore a quello specificato, inclusi quelli scritti dal server immagini o dal server di rendering. Il valore predefinito è 10.
+Il numero di file di registro dei giorni deve essere mantenuto. I nuovi file di registro vengono creati ogni giorno a mezzanotte. A questo punto, il server elimina tutti i file nella cartella dei file di registro che sono stati creati da un numero di giorni superiore a quello specificato, inclusi quelli scritti dal server immagini o dal server di rendering. Il valore predefinito è 10.
 
 ## TC::prefix - Nome file log di accesso {#section-1003856323b844049632710a5a056aa7}
 

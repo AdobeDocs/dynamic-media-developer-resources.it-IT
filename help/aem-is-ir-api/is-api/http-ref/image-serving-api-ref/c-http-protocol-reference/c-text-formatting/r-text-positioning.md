@@ -1,20 +1,20 @@
 ---
 title: Posizionamento testo
-description: Il renderer text= posiziona il testo in modo fondamentalmente diverso rispetto al renderer textPs= quando viene applicato a livelli pre-dimensionati (ovvero quando è specificato anche size=).
+description: Il renderer text= posiziona il testo in modo fondamentalmente diverso dal renderer textPs= quando viene applicato a livelli pre-dimensionati (vale a dire, quando è specificato anche size=).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Posizionamento testo{#text-positioning}
 
-Il `text=` il renderer posiziona il testo in modo fondamentalmente diverso rispetto al renderer textPs= quando viene applicato a livelli di dimensioni precedenti (ad esempio, quando è specificato anche size=).
+Il `text=` il renderer posiziona il testo in modo fondamentalmente diverso dal renderer textPs= quando viene applicato a livelli pre-dimensionati (vale a dire, quando è specificato anche size=).
 
 Ridimensionamento automatico `text=`e `textPs=` i livelli hanno un aspetto e un posizionamento simili.
 

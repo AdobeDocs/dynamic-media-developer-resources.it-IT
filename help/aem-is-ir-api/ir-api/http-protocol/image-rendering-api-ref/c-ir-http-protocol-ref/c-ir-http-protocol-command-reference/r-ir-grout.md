@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 2%
@@ -32,7 +32,7 @@ malta= *`color`*[,*`width`*]
 Per il massimo controllo dell&#39;aspetto della malta, si applicano i seguenti requisiti:
 
 * La tessera deve essere quadrata o rettangolare; attualmente non sono supportate altre forme.
-* L’immagine deve contenere solo un riquadro singolo.
+* L’immagine deve contenere solo una sezione singola.
 * L&#39;eventuale solidificazione di default nell&#39;immagine deve avere lo stesso spessore su tutti e quattro i bordi.
 * Lo spessore della scanalatura di default deve essere specificato nel catalogo dei materiali ( `catalog::GroutWidth`).
 

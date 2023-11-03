@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -48,11 +48,11 @@ L’aspetto di questo pulsante è controllato dal seguente selettore di classe C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p> Larghezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

@@ -5,9 +5,9 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Crea un&#39;immagine a livelli che può avere più livelli di testo e immagine.
 
-Il `urlModifier` Il parametro specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il `urlPostApplyModifier` Il parametro specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignorano eventuali impostazioni in conflitto fornite dall&#39;utente.
+Il `urlModifier` Il parametro specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il `urlPostApplyModifier` Il parametro specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignora eventuali impostazioni in conflitto fornite dall&#39;utente.
 
 ## Tipi di utenti autorizzati {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -37,7 +37,7 @@ Il `urlModifier` Il parametro specifica i comandi del protocollo Image Server me
 | nome | `xsd:string` | Sì | Nome modello. |
 | tipo | `xsd:string` | Sì | Tipo di modello. |
 | urlModifier | `xsd:string` | Sì | Specifica i comandi del server immagini memorizzati nel catalogo IS che vengono applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. |
-| urlPostApplyModifier | `xsd:string` | No | Specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignoreranno eventuali impostazioni in conflitto fornite dall&#39;utente. |
+| urlPostApplyModifier | `xsd:string` | No | Specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignorano eventuali impostazioni in conflitto fornite dall&#39;utente. |
 
 **Output (createTemplateParam)**
 

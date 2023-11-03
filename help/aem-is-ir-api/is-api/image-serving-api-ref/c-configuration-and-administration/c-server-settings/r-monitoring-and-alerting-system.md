@@ -5,9 +5,9 @@ title: Sistema di monitoraggio e allarme
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ L&#39;indirizzo e-mail che deve essere utilizzato nel **[!UICONTROL Da]** campo 
 
 ## AS::monitorAlertGenerator.alertInterval - Intervallo di monitoraggio {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-Il sistema di monitoraggio accumulerà le condizioni di avviso durante l&#39;intervallo di avviso e invierà un messaggio e-mail di avviso contenente tutti gli avvisi accumulati alla fine di ogni intervallo. Millisecondi, valore intero, 60000 o maggiore. In genere è impostato su 5 o 10 minuti.
+Il sistema di monitoraggio accumula le condizioni di avviso durante l&#39;intervallo e invia un messaggio e-mail contenente tutti gli avvisi accumulati alla fine di ogni intervallo. Millisecondi, valore intero, 60000 o maggiore. In genere è impostato su 5 o 10 minuti.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Intervallo avviso spazio heap {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 

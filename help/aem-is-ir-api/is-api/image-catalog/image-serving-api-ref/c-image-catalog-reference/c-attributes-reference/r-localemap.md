@@ -5,9 +5,9 @@ title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---

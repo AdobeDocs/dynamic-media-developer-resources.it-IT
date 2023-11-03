@@ -1,20 +1,20 @@
 ---
-description: Gli insiemi di proprietà sono insiemi di coppie nome-valore specifiche dell'applicazione che possono essere associate a vari oggetti IPS, a seconda del tipo di insieme di proprietà. Se il tipo di set di proprietà non consente di associare più set a un oggetto (PropertySetType/allowMultipleisfalse) e all'oggetto è già associato un set dello stesso tipo, il nuovo set sostituirà quello esistente.
+description: Gli insiemi di proprietà sono insiemi di coppie nome-valore specifiche dell'applicazione che possono essere associate a vari oggetti IPS, a seconda del tipo di insieme di proprietà. Se il tipo di set di proprietà non consente di associare più set a un oggetto (PropertySetType/allowMultipleisfalse) e all'oggetto è già associato un set dello stesso tipo, il nuovo set sostituisce quello esistente.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-Gli insiemi di proprietà sono insiemi di coppie nome-valore specifiche dell&#39;applicazione che possono essere associate a vari oggetti IPS, a seconda del tipo di insieme di proprietà. Se il tipo di set di proprietà non consente di associare più set a un oggetto (PropertySetType/allowMultipleisfalse) e all&#39;oggetto è già associato un set dello stesso tipo, il nuovo set sostituirà quello esistente.
+Gli insiemi di proprietà sono insiemi di coppie nome-valore specifiche dell&#39;applicazione che possono essere associate a vari oggetti IPS, a seconda del tipo di insieme di proprietà. Se il tipo di set di proprietà non consente di associare più set a un oggetto (PropertySetType/allowMultipleisfalse) e all&#39;oggetto è già associato un set dello stesso tipo, il nuovo set sostituisce quello esistente.
 
 Sintassi
 

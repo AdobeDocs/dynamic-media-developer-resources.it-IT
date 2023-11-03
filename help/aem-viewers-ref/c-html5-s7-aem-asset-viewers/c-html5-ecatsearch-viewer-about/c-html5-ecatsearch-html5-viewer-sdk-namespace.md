@@ -5,16 +5,16 @@ title: Spazio dei nomi SDK per visualizzatori
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: aaad8f43-f6f2-440f-a6c4-52db585b48da
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
 # Spazio dei nomi SDK per visualizzatori{#viewer-sdk-namespace}
 
-Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte nell’API del visualizzatore stessa.
+Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte nell’API del visualizzatore.
 
 Tuttavia, alcuni casi d’uso avanzati richiedono che la pagina web ottenga un riferimento a un componente SDK interno utilizzando `getComponent()` e quindi utilizzare tutta la flessibilità delle API dell’SDK stesso.
 

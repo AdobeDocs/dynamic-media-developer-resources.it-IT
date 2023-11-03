@@ -1,7 +1,7 @@
 ---
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ La documentazione riguarda i casi di utilizzo standard. I casi di utilizzo che e
 
 ### In genere non documentiamo i bug o le loro soluzioni.
 
-La documentazione riguarda i casi di utilizzo standard. Per questo motivo, i bug, gli effetti causati da bug e le soluzioni alternative per i bug non sono documentati.
+La documentazione riguarda i casi di utilizzo standard. Per questo motivo, i bug, gli effetti causati dai bug e le soluzioni alternative per i bug non sono documentati.
 
 Fanno eccezione le note sulla versione, in cui possono essere elencati i problemi noti con possibili soluzioni approvate dal team di gestione del prodotto.
 

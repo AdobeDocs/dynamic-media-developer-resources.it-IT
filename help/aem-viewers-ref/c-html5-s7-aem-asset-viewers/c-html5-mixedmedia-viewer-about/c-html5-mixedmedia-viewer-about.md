@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Visualizzatore di file multimediali diversi è un visualizzatore di file multimediali. Supporta i set di file multimediali che contengono immagini, set di campioni, set 360 gradi, video e set di video adattivi.
 
-Una miniatura nella parte inferiore del visualizzatore rappresenta ogni elemento del set di file multimediali insieme al relativo indicatore del tipo di risorsa. Quando viene selezionato un elemento del set di campioni, viene visualizzata una riga secondaria di campioni che consente di selezionare la variazione di colore all&#39;interno del set di campioni. Le immagini e gli elementi del set di campioni supportano lo zoom in modalità continua o in linea; i set 360 gradi supportano sia lo zoom che la rotazione. I video e i set video adattivi supportano tutti i controlli di riproduzione di base, purché tutti i sottotitoli facoltativi vengano visualizzati sopra il contenuto video. L’utente può passare in qualsiasi momento alla modalità a schermo intero facendo clic sul pulsante. Il visualizzatore ha un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
+Una miniatura nella parte inferiore del visualizzatore rappresenta ogni elemento del set di file multimediali insieme al relativo indicatore del tipo di risorsa. Quando viene selezionato un elemento del set di campioni, viene visualizzata una riga secondaria di campioni che consente di selezionare la variazione di colore all&#39;interno del set di campioni. Le immagini e gli elementi del set di campioni supportano lo zoom in modalità continua o in linea; i set 360 gradi supportano sia lo zoom che la rotazione. I video e i set video adattivi supportano tutti i controlli di riproduzione di base, purché tutti i sottotitoli facoltativi vengano visualizzati sopra il contenuto video. L’utente può passare alla modalità a schermo intero in qualsiasi momento facendo clic sul pulsante. Il visualizzatore ha un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 
 Il visualizzatore di file multimediali diversi utilizza la riproduzione video in streaming HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
 
@@ -160,7 +160,7 @@ Il percorso relativo è simile al seguente:
 
    Il segnaposto DIV è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
 
-   Verificare che la funzionalità a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
+   Verificare che la funzione a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
 
    Di seguito è riportato un esempio di un elemento DIV segnaposto definito:
 

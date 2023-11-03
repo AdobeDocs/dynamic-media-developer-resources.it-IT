@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 1%
@@ -983,7 +983,7 @@ Esempio - per impostare l&#39;icona del segno di spunta su 25 x 25 pixel:
 }
 ```
 
-Quando l&#39;opzione &quot;Dimensioni personalizzate&quot; è selezionata nella casella combinata Dimensione incorporamento, nella finestra di dialogo vengono visualizzati due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
+Quando l&#39;opzione &quot;Dimensioni personalizzate&quot; è selezionata nella casella combinata Dimensione incorporamento, la finestra di dialogo visualizza due campi di input aggiuntivi a destra per consentire all&#39;utente di immettere una dimensione di incorporamento personalizzata. Tali campi sono racchiusi in un contenitore controllato con il seguente selettore di classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel

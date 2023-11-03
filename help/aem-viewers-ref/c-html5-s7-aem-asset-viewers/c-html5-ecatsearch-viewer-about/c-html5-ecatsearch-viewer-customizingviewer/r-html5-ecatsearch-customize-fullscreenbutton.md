@@ -1,18 +1,18 @@
 ---
-title: Pulsante Schermo intero
+title: pulsante a schermo intero
 description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare il pulsante in base ai CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
 Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante viene visualizzato nella barra di controllo principale. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare il pulsante in base ai CSS.
 
@@ -73,7 +73,7 @@ L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
 
-Esempio: per impostare un pulsante a schermo intero di 28 x 28 pixel posizionato a 4 pixel dal basso e a 5 pixel dal bordo destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati del pulsante, se selezionato o meno.
+Esempio: per impostare un pulsante a schermo intero di 28 x 28 pixel e posizionare 4 pixel dal basso e 5 pixel dal bordo destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati del pulsante, se selezionato o meno.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

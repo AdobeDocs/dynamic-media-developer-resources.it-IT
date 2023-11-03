@@ -5,9 +5,9 @@ title: Scade
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ La scadenza viene utilizzata per i seguenti tipi di risposta:
 * `req=userdata`
 * `req=map`
 
-Alcuni tipi di risposte (ad esempio, le risposte di errore) sono sempre contrassegnati per la scadenza immediata (o contrassegnati come non memorizzabili in cache), mentre altri (ad esempio, le risposte alle proprietà o alle immagini predefinite) utilizzano impostazioni di scadenza speciali ( `attribute::NonImgExpiration` e `attribute::DefaultExpiration`).
+Alcuni tipi di risposte (ad esempio, le risposte di errore) sono sempre contrassegnati per la scadenza immediata (o contrassegnati come non memorizzabili in cache), mentre altri (ad esempio, le risposte di proprietà o immagini predefinite) utilizzano impostazioni di scadenza speciali ( `attribute::NonImgExpiration` e `attribute::DefaultExpiration`).
 
 ## Proprietà {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 7%
 
 ---
@@ -34,7 +34,7 @@ Attributo di configurazione per il visualizzatore Video360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. Questo è il tempo che trascorre tra il completamento della dissolvenza nell'animazione e l'inizio della dissolvenza in uscita. Imposta su <span class="codeph"> 0</span> per disattivare il comportamento Nascondi automatico. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. ovvero il tempo trascorso tra il completamento della dissolvenza in entrata e l'inizio della dissolvenza in uscita. Imposta su <span class="codeph"> 0</span> per disattivare il comportamento Nascondi automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>

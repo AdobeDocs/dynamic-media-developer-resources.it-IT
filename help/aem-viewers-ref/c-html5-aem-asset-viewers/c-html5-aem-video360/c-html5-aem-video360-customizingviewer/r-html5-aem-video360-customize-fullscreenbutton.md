@@ -1,24 +1,24 @@
 ---
-title: Pulsante Schermo intero
-description: Il pulsante Schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
+title: pulsante a schermo intero
+description: Il pulsante di visualizzazione a schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
-Il pulsante Schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
+Il pulsante di visualizzazione a schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-È possibile ridimensionare, applicare lo skin e posizionare il pulsante Schermo intero, rispetto alla barra di controllo che lo contiene, mediante CSS.
+È possibile ridimensionare, applicare lo skin e posizionare il pulsante a schermo intero in base alla barra di controllo che lo contiene mediante CSS.
 
 L’aspetto del pulsante a schermo intero è controllato con il selettore di classe CSS:
 
@@ -26,7 +26,7 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
 .s7video360viewer .s7fullscreenbutton
 ```
 
-**Proprietà CSS del pulsante Schermo intero**
+**Proprietà CSS del pulsante a schermo intero**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -48,11 +48,11 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p> Larghezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

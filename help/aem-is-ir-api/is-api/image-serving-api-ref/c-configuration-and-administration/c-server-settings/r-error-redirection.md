@@ -5,9 +5,9 @@ title: Reindirizzamento errori
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ URL principale ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) per la distrib
 
 ## PS::errorRedirect.connectTimeout - Timeout connessione reindirizzamento {#section-3971be8f720d4b32a2cc7860b4085971}
 
-Tempo massimo (in millisecondi) di attesa del server per l&#39;impostazione di una connessione con il server secondario prima della restituzione di un errore al client.
+Tempo massimo (in millisecondi) per cui il server attende che venga stabilita una connessione con il server secondario prima di restituire un errore al client.
 
 ## PS::errorRedirect.socketTimeout - Timeout risposta reindirizzamento {#section-69d8579f748d4044bca99dfb64dd523c}
 
-Tempo massimo (in millisecondi) per il server secondario di restituire i dati prima di abbandonare la richiesta di reindirizzamento e restituire un errore al client.
+Tempo massimo (in millisecondi) di attesa del server secondario per la restituzione dei dati prima di abbandonare la richiesta di reindirizzamento e di restituire un errore al client.

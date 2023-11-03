@@ -1,18 +1,18 @@
 ---
-title: Pulsante Schermo intero
-description: Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando l’utente lo fa clic. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
+title: pulsante a schermo intero
+description: Fa in modo che il visualizzatore entri o esca dalla modalità a schermo intero quando l’utente lo fa clic. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
 Fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 

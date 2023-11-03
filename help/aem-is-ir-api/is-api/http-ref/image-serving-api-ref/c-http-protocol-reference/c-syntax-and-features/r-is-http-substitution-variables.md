@@ -5,9 +5,9 @@ title: Variabili di sostituzione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Nome della variabile *`var`* non fa distinzione tra maiuscole e minuscole e può
 >
 >*`value`* deve essere codificata in URL a passaggio singolo per una trasmissione HTTP sicura. È necessaria la doppia codifica se *`value`* viene ritrasmesso tramite HTTP. Questo avviene quando *`value`* viene sostituito in una richiesta esterna nidificata o nell’attributo href di un SVG `<image>` elemento.
 
-I riferimenti di variabile sono costituiti dal nome della variabile delimitato da &#39;$&#39; iniziale e finale ($)*var*$). I riferimenti possono verificarsi in qualsiasi punto della porzione di valore di qualsiasi comando IS (ad esempio tra &#39;=&#39; dopo il nome del comando e il successivo &#39;&amp;&#39; o la fine della richiesta). Le variabili personalizzate non possono essere applicate al `layer=` e `effect=` comandi. Più variabili sono consentite nello stesso valore di comando. Il server sostituisce ogni occorrenza di ` $ *`var`*$` con *`value`*.
+I riferimenti di variabile sono costituiti dal nome della variabile delimitato da &#39;$&#39; iniziale e finale ($)*var*$). I riferimenti possono verificarsi in qualsiasi punto della porzione di valore di qualsiasi comando IS, ovvero tra &#39;=&#39; dopo il nome del comando e il successivo &#39;&amp;&#39; o la fine della richiesta. Le variabili personalizzate non possono essere applicate al `layer=` e `effect=` comandi. Più variabili sono consentite nello stesso valore di comando. Il server sostituisce ogni occorrenza di ` $ *`var`*$` con *`value`*.
 
 I riferimenti di variabile non possono essere nidificati. Qualsiasi occorrenza di ` $ *`var`*$` entro *`value`* non vengono sostituiti.
 
@@ -81,7 +81,7 @@ I valori delle variabili da sostituire in richieste esterne in genere devono ave
 
 Il *`object`* specificato nel percorso della richiesta viene assegnato alla variabile predefinita `*`$object`*`. &#39; ` $ *`oggetto`*$`&quot; può essere posizionato ovunque nella richiesta, nel modello a cui fa riferimento la richiesta o in una richiesta nidificata/incorporata dove tale oggetto è consentito, incluso il valore di `src=` e `mask=`e il percorso di una richiesta nidificata/incorporata.
 
-Ad esempio, la seguente richiesta riutilizzerà l&#39;immagine specificata nel percorso come origine di un livello in una richiesta nidificata:
+Ad esempio, la seguente richiesta riutilizza l’immagine specificata nel percorso come origine di un livello in una richiesta nidificata:
 
 `/is/image/a/b?…&layer=3&src=is{…&src=$object$}&…`
 
@@ -95,7 +95,7 @@ La variabile di percorso predefinita viene comunemente utilizzata insieme a `tem
 
 ## Predefinito {#section-b02483d15529444586a2e9504805b155}
 
-Nessuno. Solo le variabili definite vengono sostituite dal server, ad eccezione della variabile di percorso predefinita $object, che sarà sempre sostituita. Qualsiasi occorrenza di ` $ *`var`*$` rimani letterale se `*`var`*`non può corrispondere a una definizione di variabile esistente.
+Nessuno. Solo le variabili definite vengono sostituite dal server, ad eccezione della variabile di percorso predefinita $object, che viene sempre sostituita. Qualsiasi occorrenza di ` $ *`var`*$` rimani letterale se `*`var`*`non può corrispondere a una definizione di variabile esistente.
 
 ## Esempi {#section-fba9393df6984247b7e30b3f93992e86}
 

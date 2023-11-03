@@ -5,9 +5,9 @@ title: Opzioni PostScript
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '65'
 ht-degree: 6%
 
 ---
@@ -25,5 +25,5 @@ Sintassi
 | processo | `xsd:string` | Scelta del processo PostScript. |
 | risoluzione | `xsd:double` | Risoluzione dei file. |
 | colorspace | `xsd:string` | Modalità spazio colore PostScript. |
-| alfa | `xsd:boolean` | Specifica se rasterizzare il file in un&#39;immagine. In tal caso, se il file originale è definito in questo modo, verrà creato uno sfondo trasparente. Generalmente utilizzato per creare logo sovrapposti. |
+| alfa | `xsd:boolean` | Specifica se rasterizzare il file in un&#39;immagine. In tal caso, viene creato uno sfondo trasparente se il file originale è definito in questo modo. Generalmente utilizzato per creare logo sovrapposti. |
 | extractSearchWords | `xsd:boolean` | Indica se estrarre le parole di ricerca dal file PostScript. |

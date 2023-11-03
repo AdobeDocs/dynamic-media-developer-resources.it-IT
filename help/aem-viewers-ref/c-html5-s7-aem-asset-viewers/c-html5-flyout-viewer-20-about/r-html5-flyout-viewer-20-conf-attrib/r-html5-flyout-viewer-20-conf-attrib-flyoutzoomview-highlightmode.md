@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tempo (in secondi) di dissolvenza in entrata dell'evidenziazione o del cursore dopo l'attivazione da parte dell'utente. La dissolvenza in entrata viene applicata solo ai dispositivi touch; sui sistemi desktop viene ignorata dal componente. </p> <p>La dissolvenza in entrata si applica ai seguenti elementi dell’interfaccia utente: cornice di evidenziazione, cursore fisso, sovrapposizione (se presenti <span class="codeph"> sovrapposizione </span> il parametro è impostato su <span class="codeph"> 1 </span>). L'animazione della vista a comparsa inizia solo dopo la dissolvenza di evidenziazione/cursore al termine dell'animazione. Nessuna animazione di dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia utente (cursore, evidenziazione e sovrapposizione) si nascondono immediatamente. </p> </td> 
+   <td colname="col2"> <p> Imposta il tempo (in secondi) di dissolvenza in entrata dell'evidenziazione o del cursore dopo l'attivazione da parte dell'utente. La dissolvenza in entrata viene applicata solo ai dispositivi touch; sui sistemi desktop viene ignorata dal componente. </p> <p>La dissolvenza in entrata si applica ai seguenti elementi dell’interfaccia utente: cornice di evidenziazione, cursore fisso, sovrapposizione (se presenti <span class="codeph"> sovrapposizione </span> il parametro è impostato su <span class="codeph"> 1 </span>). L'animazione della vista a comparsa inizia solo dopo la dissolvenza di evidenziazione/cursore al termine dell'animazione. Non è presente alcuna animazione di dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia utente (cursore, evidenziazione e sovrapposizione) si nascondono immediatamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|libero </span> </p> </td> 

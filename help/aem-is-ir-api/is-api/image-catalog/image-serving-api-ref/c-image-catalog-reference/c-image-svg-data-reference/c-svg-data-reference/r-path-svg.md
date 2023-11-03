@@ -5,9 +5,9 @@ title: Percorso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Stringa di testo. Obbligatorio per i record immagine e SVG, potrebbe essere vuot
 
 Per un elenco completo dei formati di file di immagine supportati, consultare la descrizione dell&#39;utilità Image Converter (IC).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Media pyramid TIFF (PTIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
 
 ## Predefinito {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

@@ -5,9 +5,9 @@ title: Richiedi nidificazione e incorporamento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Il risultato dell&#39;immagine di una richiesta IS nidificata può essere memori
 
 ## Richieste di rendering immagini incorporate {#section-69c5548db930412b9b90d9b2951a6969}
 
-Quando Dynamic Media Image Rendering è abilitato sul server, le richieste di rendering possono essere utilizzate come origini di livello specificandole nel comando src= (o mask=). Utilizza la seguente sintassi:
+Quando Dynamic Medie Image Rendering è abilitato sul server, le richieste di rendering possono essere utilizzate come origini di livello specificandole nel comando src= (o mask=). Utilizza la seguente sintassi:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ Il `fxg` il token distingue tra maiuscole e minuscole.
 
 >[!NOTE]
 >
->Il rendering della grafica FXG è disponibile solo nell’ambiente in hosting Dynamic Media e potrebbe richiedere licenze aggiuntive. Per ulteriori informazioni, contattare il supporto tecnico Dynamic Media.
+>Il rendering della grafica FXG è disponibile solo nell’ambiente in hosting Dynamic Medie e potrebbe richiedere licenze aggiuntive. Per ulteriori informazioni, contattare il supporto tecnico Dynamic Medie.
 
 *[!DNL renderRequest]* è la richiesta di rendering FXG usuale, escluso il percorso root HTTP ` http:// *[!DNL server]*/agm/render/`.
 
@@ -129,7 +129,7 @@ Questo meccanismo supporta gli stessi formati di file immagine supportati dall&#
 
 >[!NOTE]
 >
->Image Server eseguirà automaticamente l&#39;utilità di convalida quando viene utilizzata per la prima volta un&#39;immagine esterna, per garantire che sia valida e non sia danneggiata durante la trasmissione. Questo può causare un leggero ritardo al primo accesso. Per ottenere prestazioni ottimali, si consiglia di limitare le dimensioni di tali immagini e/o utilizzare un formato di file di immagine che comprima bene.
+>Image Server esegue automaticamente l&#39;utilità di convalida quando viene utilizzata per la prima volta un&#39;immagine esterna, per garantire che sia valida e non sia danneggiata durante la trasmissione. Questo può causare un leggero ritardo al primo accesso. Per ottenere prestazioni ottimali, si consiglia di limitare le dimensioni di tali immagini e/o utilizzare un formato di file di immagine che comprima bene.
 
 ## Restrizioni {#section-fb68e3f0d40947feb94d7bf183b64929}
 
@@ -149,9 +149,9 @@ Con lievi modifiche, possiamo prescalare l&#39;immagine di livello 0 e memorizza
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporazione di richieste per Dynamic Media Image Rendering**
+**Incorporazione di richieste per Dynamic Medie Image Rendering**
 
-Utilizzo di un modello memorizzato in [!DNL myCatalog/myTemplate]; genera l’immagine per il livello2 del modello utilizzando Dynamic Media Image Rendering:
+Utilizzo di un modello memorizzato in [!DNL myCatalog/myTemplate]; genera l’immagine per il livello2 del modello utilizzando Dynamic Medie Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

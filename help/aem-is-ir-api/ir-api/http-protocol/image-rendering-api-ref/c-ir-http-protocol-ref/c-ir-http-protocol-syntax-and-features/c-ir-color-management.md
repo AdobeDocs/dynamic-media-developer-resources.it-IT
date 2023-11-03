@@ -5,9 +5,9 @@ title: Gestione colore Image Rendering*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ File di stile di scaffali (con estensione vnc) e file di stile per le copertine 
 
 **Consultate anche**
 
-[International Color Consortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , mappe profilo ICC
+[International Color Consortium](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , mappe profilo ICC
 
 ## Spazi colore predefiniti {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ In genere, lo spazio colore di lavoro è definito dal profilo colore ICC incorpo
 
 Tutte le operazioni di rendering vengono eseguite nello spazio colore di lavoro.
 
-**Importante:** Il profilo ICC per lo spazio colore di lavoro deve supportare le trasformazioni di input e di output. Se viene utilizzato un profilo di solo output come spazio colore di lavoro, IR non sarà in grado di convertire i materiali in esso. Tale profilo colore può essere ancora utilizzato se i materiali esistono nello stesso spazio colore di lavoro. Il tentativo di applicare materiali in altri spazi di colore non riuscirà.
+**Importante:** Il profilo ICC per lo spazio colore di lavoro deve supportare le trasformazioni di input e di output. Se viene utilizzato un profilo di solo output come spazio colore di lavoro, IR non è in grado di convertirvi i materiali. Tale profilo colore può essere ancora utilizzato se i materiali esistono nello stesso spazio colore di lavoro. Il tentativo di applicare materiali in altri spazi di colore non riesce.
 
 ## Valori colore espliciti {#section-31727bf1b23e477ca92572fbbf422d2f}
 
@@ -54,7 +54,7 @@ I file di immagine di materiale (immagini di texture e decalcomanie) possono ave
 
 Le immagini di materiale ottenute da richieste di Image Server o Image Rendering nidificate in genere includono un profilo colore. In caso contrario, le immagini vengono associate allo spazio colore di input predefinito corrispondente al tipo di pixel.
 
-Se lo spazio colore del file immagine è diverso da quello di lavoro, viene utilizzata una conversione accurata del colore per convertirlo nello spazio colore di lavoro. La conversione di tipo naïve viene utilizzata quando non è incorporato alcun profilo e non è definito alcun profilo di input predefinito.
+Se lo spazio cromatico del file immagine è diverso da quello di lavoro, viene utilizzata una conversione accurata del colore per convertirlo nello spazio cromatico di lavoro. La conversione di tipo naïve viene utilizzata quando non è incorporato alcun profilo e non è definito alcun profilo di input predefinito.
 
 Altri file di dati di materiale, ad esempio file di stile archivio ( [!DNL .vnc]) o di una finestra che copre i file ( [!DNL .vnw]) non incorporano i profili colore e si presume che siano sempre nello spazio colore di lavoro.
 

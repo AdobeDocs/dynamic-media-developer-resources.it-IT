@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. </p> <p>Utilizzare <span class="codeph"> nessuno</span> per mostrare e nascondere subito. Utilizzare <span class="codeph"> dissolvenza</span> per ottenere un effetto di dissolvenza graduale in entrata e in uscita. </p> <p>Dissolvenza non supportata in Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. </p> <p>Utilizzare <span class="codeph"> nessuno</span> per mostrare e nascondere subito. Utilizzare <span class="codeph"> dissolvenza</span> per ottenere un effetto di dissolvenza graduale. </p> <p>Dissolvenza non supportata in Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 

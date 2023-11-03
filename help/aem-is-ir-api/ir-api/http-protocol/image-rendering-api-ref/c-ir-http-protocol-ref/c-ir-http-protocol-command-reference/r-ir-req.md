@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 3%
 
 ---
@@ -180,7 +180,7 @@ Esegue i comandi specificati e restituisce l&#39;immagine di rendering mascherat
 
 `props`
 
-Esegue i comandi specificati e restituisce le proprietà di vignettatura e le proprietà di gruppo o oggetto, anziché l&#39;immagine di cui è stato eseguito il rendering. Consulta [Proprietà](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) per una descrizione della sintassi di risposta e del tipo MIME di risposta. La selezione predefinita viene applicata a meno che `obj=` o `sel=` viene specificato (vedere [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Esegue i comandi specificati e restituisce le proprietà di vignettatura e le proprietà di gruppo o oggetto, anziché l&#39;immagine di cui è stato eseguito il rendering. Consulta [Proprietà](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) per una descrizione della sintassi di risposta e del tipo MIME di risposta. La selezione predefinita viene applicata a meno che `obj=` o `sel=` viene specificato (vedere [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Le seguenti proprietà possono essere incluse nella risposta:
 
@@ -300,7 +300,7 @@ Le seguenti proprietà possono essere incluse nella risposta:
 
 Restituisce il contenuto di `vignette::UserData`. Il server sostituisce tutte le occorrenze di `'??'` in `vignette::UserData` con terminatori di riga ( `<cr><lf>`). La risposta viene formattata come dati di testo con il tipo MIME di risposta impostato su &lt;text plain=&quot;&quot;>.
 
-Se l&#39;oggetto specificato nel percorso URL non viene risolto in una voce di mappa di vignettatura valida o se `vignette::UserData` è vuoto, la risposta conterrà solo un terminatore di riga ( `CR/LF`).
+Se l&#39;oggetto specificato nel percorso URL non viene risolto in una voce di mappa di vignettatura valida o se `vignette::UserData` è vuoto, la risposta contiene solo un terminatore di riga ( `CR/LF`).
 
 Qualsiasi altro comando nella stringa di richiesta viene ignorato.
 

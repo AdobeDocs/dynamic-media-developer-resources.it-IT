@@ -1,21 +1,21 @@
 ---
 title: Video
-description: Il Visualizzatore video è un lettore video che riproduce video in streaming e video progressivo codificati nel formato H.264. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
+description: Il Visualizzatore video è un lettore video che riproduce video in streaming e video progressivo codificati nel formato H.264. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Medie.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
 
 # Video{#video}
 
-Il Visualizzatore video è un lettore video che riproduce video in streaming e video progressivo codificati nel formato H.264. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Media.
+Il Visualizzatore video è un lettore video che riproduce video in streaming e video progressivo codificati nel formato H.264. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Medie.
 
 Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -41,11 +41,11 @@ Consulta [Riferimento comando comune a tutti i visualizzatori - Attributi di con
 
 ## Interazione con il visualizzatore video {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-Visualizzatore video offre una serie di controlli standard dell’interfaccia utente per la riproduzione video, come un pulsante di riproduzione/pausa, una bolla di tempo del video con scorrimento video, un indicatore di tempo totale/tempo di riproduzione, un controllo del volume, un pulsante a schermo intero e un interruttore per sottotitoli. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell&#39;interfaccia utente del visualizzatore.
+Visualizzatore video offre una serie di controlli standard dell’interfaccia utente per la riproduzione video, come un pulsante di riproduzione/pausa, una bolla di tempo video con scorrimento video, un indicatore di tempo totale/tempo di riproduzione, un controllo del volume, un pulsante a schermo intero e un interruttore per sottotitoli. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell&#39;interfaccia utente del visualizzatore.
 
 Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia utente, perché è possibile controllare il volume solo utilizzando i pulsanti hardware.
 
-Quando il visualizzatore funziona in modalità pop-up, il pulsante Schermo intero non è disponibile nell’interfaccia utente.
+Quando il visualizzatore funziona in modalità pop-up, il pulsante a schermo intero non è disponibile nell’interfaccia utente.
 
 È possibile navigare rapidamente nel contenuto di un video quando il capitolo video è attivato. I capitoli video vengono visualizzati come marcatori nella traccia di scorrimento video e mostrano il titolo del capitolo e la descrizione associata al passaggio del mouse o con un solo tocco sui sistemi touch. Gli utenti possono cercare un capitolo particolare selezionando un marcatore di capitolo o selezionando la bolla di descrizione del capitolo.
 
@@ -59,7 +59,7 @@ Consulta [Accessibilità della tastiera e navigazione](../../c-keyboard-accessib
 
 Il Visualizzatore video supporta gli strumenti di condivisione dei social media. Sono disponibili come pulsante singolo nell’interfaccia utente, che si espande in una barra degli strumenti di condivisione quando l’utente fa clic o tocca su di essa.
 
-La barra degli strumenti Condivisione contiene un’icona per ogni tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione di codice da incorporare e condivisione di collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione è attivato, la riproduzione video viene sospesa automaticamente.
+La barra degli strumenti Condivisione contiene un’icona per ogni tipo di canale di condivisione supportato, ad esempio Facebook, Twitter, condivisione e-mail, condivisione di codice da incorporare e condivisione di collegamento. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l&#39;utente a una finestra di dialogo di condivisione standard da un servizio di social media. Inoltre, quando uno strumento di condivisione è attivato, la riproduzione video viene sospesa automaticamente.
 
 Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
@@ -137,7 +137,7 @@ Il percorso relativo si presenta come segue:
 
    Il segnaposto DIV è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
 
-   Verificare che la funzionalità a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
+   Verificare che la funzione a schermo intero funzioni correttamente in Internet Explorer. Verifica che nel DOM non siano presenti altri elementi con un ordine di sovrapposizione più elevato rispetto al DIV segnaposto.
 
    Di seguito è riportato un esempio di un elemento DIV segnaposto definito:
 

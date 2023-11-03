@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore eCatalog sono soggetti a localizzazione, ad esempio i pulsanti di zoom, i pulsanti di modifica della pagina, i pulsanti delle miniature, i pulsanti a schermo intero, i pulsanti di chiusura e i pulsanti della barra di scorrimento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. A qualsiasi SIMBOLO è associato un valore di testo predefinito per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato nelle impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -82,11 +82,11 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Schermo intero in stato normale. </p> </td> 
+   <td colname="col2"> <p>pulsante a schermo intero in stato normale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Schermo intero nello stato a schermo intero. </p> </td> 
+   <td colname="col2"> <p>pulsante di visualizzazione a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -298,7 +298,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Condividi di twitter. </p> </td> 
+   <td colname="col2"> <p>Pulsante Condivisione twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -314,7 +314,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta per la sezione "Seleziona pagine da stampare". </p> </td> 
+   <td colname="col2"> <p>Etichetta per la sezione "Seleziona pagine di stampa". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 

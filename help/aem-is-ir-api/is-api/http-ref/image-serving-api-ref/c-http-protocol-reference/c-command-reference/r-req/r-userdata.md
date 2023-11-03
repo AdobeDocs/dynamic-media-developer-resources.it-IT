@@ -5,9 +5,9 @@ title: userdata
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '183'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Dati utente dal catalogo immagini. Restituisce i dati utente per la voce del cat
  </tr> 
 </table>
 
-Il contenuto di `catalog::UserData` vengono restituiti. Quando si specifica il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::UserData`sono sostituiti da terminatori di linea e un terminatore di linea singola (CR/LF) è aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
+Il contenuto di `catalog::UserData` vengono restituiti. Quando si specifica il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::UserData`sono sostituiti da terminatori di linea e un terminatore a linea singola (CR/LF) è aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
 
 Altri comandi nella stringa di richiesta vengono ignorati.
 

@@ -5,9 +5,9 @@ title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3">Genera la mappa del sito se impostata su <span class="codeph"> true</span>. <p><p>Nota: se la Configurazione di generazione della mappa del sito è impostata su manuale e <span class="codeph"> forceUpdate</span> non è impostato, la mappa del sito non verrà generata. </p></p></td> 
+   <td colname="col3">Genera la mappa del sito se impostata su <span class="codeph"> true</span>. <p><p>Nota: se la Configurazione di generazione della mappa del sito è impostata su manuale e <span class="codeph"> forceUpdate</span> non è impostato, la mappa del sito non viene generata. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

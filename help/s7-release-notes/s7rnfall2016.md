@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 * Compatibilità con le librerie RequireJS e DOJO.
 
-   Memorizzazione consolidata nella cache di JS SDK durante l’implementazione del visualizzatore.
+  Memorizzazione consolidata nella cache di JS SDK durante l’implementazione del visualizzatore.
 
 ## Visualizzatori (Image Server 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
@@ -85,7 +85,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 * È stata aggiunta la riproduzione video in streaming HLS come metodo di distribuzione video predefinito per la maggior parte dei sistemi desktop. Lo streaming video HDS basato su Flash è ancora disponibile come opzione di riproduzione alternativa.
 * È stato aggiunto il supporto per dispositivi con mouse e input tocco che eseguono il browser Chrome.
 * All’integrazione di Analytics è stato aggiunto il supporto per l’ID organizzazione di Experience Cloud.
-* Aggiorna la libreria JavaScript AppMeasurement alla versione 1.6.1.
+* Aggiorna la libreria JavaScript di AppMeasurement alla versione 1.6.1.
 * È stato aggiunto il supporto per l’orientamento da destra a sinistra nel visualizzatore eCatalog.
 * È stato risolto un problema in cui `tip=0,-1,0` ha causato un errore fuori intervallo.
 
@@ -109,7 +109,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 * Galaxy S4
 
-   * Il dispositivo rilevato come tablet in modalità verticale con Schermo intero selezionato nelle impostazioni del browser.
+   * Dispositivo rilevato come tablet in modalità verticale con schermo intero selezionato nelle impostazioni del browser.
 
 * Galaxy Nexus
 
@@ -128,7 +128,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
    * Internet Explorer 9: le immagini poster personalizzate non vengono visualizzate.
    * `IntialBitRate` Il modificatore è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
-   * Riproduzione progressiva OGG e WebM attualmente non supportata.
+   * Riproduzione progressiva OGG e WebM non attualmente supportata.
    * Il ridimensionamento del browser può causare la visualizzazione del lettore video con dimensioni non corrette (incluse le impostazioni di visualizzazione del pannello di controllo del sistema operativo Windows).
    * La ricerca video con lo streaming HLS su Safari potrebbe non essere coerente.
 
@@ -136,7 +136,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
    * La modalità Quirks non è attualmente supportata.
    * La modalità di compatibilità non è attualmente supportata.
-   * Al momento Internet Explorer su dispositivi mobili non è supportato.
+   * Internet Explorer su dispositivi mobili non è attualmente supportato.
 
 * iOS
 
@@ -153,7 +153,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 * Modificatori Image Server da `iscommands` non vengono aggiunti al `req=set` richiesta per progettazione. I modificatori che influiscono solo sulla visualizzazione delle immagini funzionano correttamente. I modificatori che influiscono sulle dimensioni devono essere utilizzati in una risorsa complessa. Ad esempio,
 
-   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
+  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [A comparsa] IE9 a volte rimane sullo schermo dopo lo spegnimento del mouse.
 * Il ridimensionamento del browser non funziona correttamente.
@@ -162,13 +162,13 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
    * Filigrane, offuscamento e blocco non sono supportati.
    * I predefiniti per immagini non sono supportati.
-   * Aggiunta o rimozione del visualizzatore dal DOM tramite `display:none` Attualmente non sono supportati i file CSS o mediante il loro distacco dinamico dal nodo principale.
+   * Aggiunta o rimozione del visualizzatore dal DOM tramite `display:none` Gli stili CSS o il loro distacco dinamico dal nodo principale non sono attualmente supportati.
 
 * HTML5 Tutti i visualizzatori
 
    * L’incorporamento del visualizzatore nella tabella potrebbe causare un ridimensionamento o un posizionamento errato del visualizzatore in modalità a schermo intero non nativa. Consiglia invece di utilizzare i DIV.
    * I parametri con nomi di istanza espliciti nel codice richiedono che anche i nomi di istanza nell’URL vengano sovrascritti (ad esempio, `zoomView.iconfeffect=0`).
-   * Al momento il ritaglio dei comandi Image Server non è supportato.
+   * Il ritaglio dei comandi Image Server non è attualmente supportato.
    * Il pulsante Chiudi funziona solo se il visualizzatore è aperto nella finestra figlio.
    * Il `iscommands` Il modificatore non supporta i modificatori Image Server che influiscono sulle dimensioni dell&#39;immagine.
 
@@ -234,7 +234,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
 
    * Per disattivare l’impostazione predefinita, evidenziazione blu: è necessario aggiungere la seguente regola CSS per il componente:
 
-      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
+     `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * Blackberry®
 
@@ -265,9 +265,9 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
 
 * Internet Explorer
 
-   * In IE 10 e versioni precedenti la modalità a tutto schermo non occupa l&#39;intero schermo, ma semplicemente ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
+   * In IE 10 e versioni precedenti la modalità a schermo intero non occupa l&#39;intero schermo, ma semplicemente ridimensiona l&#39;applicazione alle dimensioni della finestra del browser.
    * La modalità di rendering Quirks non è supportata.
-   * Al momento Internet Explorer su dispositivi mobili non è supportato.
+   * Internet Explorer su dispositivi mobili non è attualmente supportato.
    * Il caricamento di Util.js potrebbe non riuscire se incluso in modo asincrono.
    * L&#39;icona IconEffect blocca gli eventi di clic sui componenti SpinView e ZoomView.
 
@@ -279,7 +279,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
 
 * Dispositivi touch
 
-   * La modalità a tutto schermo non occupa l’intero schermo del dispositivo, ma si limita a ridimensionare l’applicazione in base alle dimensioni della finestra del browser.
+   * la modalità a schermo intero non occupa l’intero schermo del dispositivo, ma si limita a ridimensionare l’applicazione in base alle dimensioni della finestra del browser.
    * I cursori personalizzati non funzionano sui dispositivi touch.
    * Il ridimensionamento delle pagine sui dispositivi touch non è attualmente supportato. L’incorporamento dei visualizzatori HTML5 richiede il metatag viewport con le impostazioni appropriate.
 
@@ -345,7 +345,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
    * L’immagine del poster potrebbe non essere visualizzata per la prima volta nel browser Microsoft® Edge.
    * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando viene utilizzata la riproduzione progressiva.
 
-## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Medie Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utilità IC - `downsample2x2` Il flag non è più supportato. Questo flag era un downsampler 2x2 di scarsa qualità che non è più utilizzato da IPS.
 * Intestazione CORS: attualmente, l’intestazione CORS è configurata per `/is/content/` richieste.

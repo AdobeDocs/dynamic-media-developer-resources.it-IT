@@ -1,24 +1,24 @@
 ---
-title: Pulsante Schermo intero
-description: Il pulsante Schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
+title: pulsante a schermo intero
+description: Il pulsante di visualizzazione a schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
-Il pulsante Schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
+Il pulsante di visualizzazione a schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-È possibile ridimensionare, applicare lo skin e posizionare il pulsante Schermo intero, rispetto alla barra di controllo che lo contiene, mediante CSS.
+È possibile ridimensionare, applicare lo skin e posizionare il pulsante a schermo intero in base alla barra di controllo che lo contiene mediante CSS.
 
 L’aspetto del pulsante a schermo intero è controllato con il selettore di classe CSS:
 
@@ -26,7 +26,7 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
 .s7interactivevideoviewer .s7fullscreenbutton
 ```
 
-**Proprietà CSS del pulsante Schermo intero**
+**Proprietà CSS del pulsante a schermo intero**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -48,11 +48,11 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p> Larghezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -73,7 +73,7 @@ La descrizione comando del pulsante può essere localizzata. Consulta [Localizza
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante a schermo intero di 32 x 32 pixel posizionato a 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o meno, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
+Impostare un pulsante a schermo intero di 32 x 32 pixel e posizionare 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o meno, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7interactivevideoviewer . s7fullscreenbutton { 

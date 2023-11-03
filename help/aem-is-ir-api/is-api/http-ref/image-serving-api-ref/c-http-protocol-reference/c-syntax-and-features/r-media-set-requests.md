@@ -5,9 +5,9 @@ title: Richieste di set di file multimediali
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -96,11 +96,11 @@ Quando un `req=set` richiesta ricevuta, il tipo di risposta da generare è deter
    * Si supponga che l&#39;estensione file sia nel seguente set: mp3, mp4, flv, f4v, swf, xml
    * Supponiamo un’immagine basata su file in caso contrario
 
-In tutti i casi, la risposta XML risultante sarà conforme al documento XML specificato con il nodo principale impostato corrispondente al tipo rilevato.
+In tutti i casi, la risposta XML risultante è conforme al documento XML specificato con il nodo principale impostato corrispondente al tipo rilevato.
 
 ## Rilevamento tipo set interno {#section-8f46490e467247e69ce284704def06f3}
 
-Quando il set esterno viene rilevato come tipo di set di file multimediali, la risposta conterrà un set di elementi del set di file multimediali corrispondente a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se il parametro di tipo opzionale è specificato per una particolare voce di set di file multimediali, viene mappato a un tipo di output in base alla tabella seguente:
+Quando il set esterno viene rilevato come tipo di set di file multimediali, la risposta contiene un set di elementi del set di file multimediali corrispondente a ciascuna voce del set di file multimediali in `catalog::ImageSet`. Se il parametro di tipo opzionale è specificato per una particolare voce di set di file multimediali, viene mappato a un tipo di output in base alla tabella seguente:
 
 | Tipo di input | Tipo di output |
 |---|---|

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequent
 
 Image Server include un meccanismo di controllo delle versioni che può aiutare a ridurre la possibilità che un’applicazione utilizzi una voce di cache obsoleta. Questo meccanismo comporta l’utilizzo di `req=props` per ottenere stringhe di identificatori di versione per i dati immagine e metadati (come i dati mappa immagine o destinazione di zoom). La stringa dell’identificatore della versione viene quindi aggiunta alle richieste memorizzabili in cache da Image Server con `id=` comando.
 
-Quando un’immagine sorgente o i metadati cambiano, cambia anche il valore dell’ID versione corrispondente. Inclusione di un valore ID versione aggiornato con il `id=` assicura che le voci della cache precedenti non siano più accessibili.
+Quando un’immagine sorgente o i metadati cambiano, cambia anche il valore dell’ID versione corrispondente. Inclusione di un valore ID versione aggiornato con il `id=` assicura che non sia più possibile accedere alle voci della cache precedenti.
 
 Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ogni `req=` tipo:
 

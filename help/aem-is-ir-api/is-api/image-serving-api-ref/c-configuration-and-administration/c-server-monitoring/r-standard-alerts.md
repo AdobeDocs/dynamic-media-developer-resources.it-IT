@@ -5,9 +5,9 @@ title: Avvisi standard
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---

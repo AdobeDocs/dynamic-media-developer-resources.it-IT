@@ -1,21 +1,21 @@
 ---
-title: Requisiti di sistema per visualizzatori Dynamic Media HTML5
-description: Requisiti di sistema per visualizzatori Dynamic Media HTML5.
+title: Requisiti di sistema per visualizzatori Dynamic Medie HTML5
+description: Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Requisiti di sistema per visualizzatori Dynamic Media HTML5{#system-requirements}
+# Requisiti di sistema per visualizzatori Dynamic Medie HTML5{#system-requirements}
 
-Requisiti di sistema per visualizzatori Dynamic Media HTML5.
+Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,7 +25,7 @@ Requisiti di sistema per visualizzatori Dynamic Media HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Server 6.7.1 o versione successiva.
+* Adobe Dynamic Medie Image Server 6.7.1 o versione successiva.
 * I visualizzatori HTML5 richiedono le librerie SDK JavaScript lato server 3.11.5 o successive.
 * *Invia un&#39;e-mail a un amico* le funzioni social richiedono s7ondemand 5.0.9 o versione successiva.
 * Visualizzatore eCatalog - [Menu a comparsa del pannello Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) il supporto richiede info server 2.1.8 o versione successiva.
@@ -78,7 +78,7 @@ Requisiti di sistema per visualizzatori Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partire dal 30 settembre 2022, i visualizzatori Dynamic Media di Adobe termineranno il supporto per i seguenti elementi:
+A partire dal 30 settembre 2022, i visualizzatori Dynamic Medie di Adobe hanno terminato il supporto per i seguenti elementi:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * Le seguenti crittografie deboli in TLS 1.2:
@@ -97,11 +97,11 @@ A partire dal 30 settembre 2022, i visualizzatori Dynamic Media di Adobe termine
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Combinazioni di browser Web e sistemi operativi non supportate per i visualizzatori Dynamic Media {#browser-os-support}
+## Combinazioni di browser Web e sistemi operativi non supportate per i visualizzatori Dynamic Medie {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-I visualizzatori Dynamic Media di Adobe non supportano le seguenti combinazioni di browser web e sistemi operativi:
+I visualizzatori Dynamic Medie di Adobe non supportano le seguenti combinazioni di browser web e sistemi operativi:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -119,19 +119,19 @@ I visualizzatori Dynamic Media di Adobe non supportano le seguenti combinazioni 
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

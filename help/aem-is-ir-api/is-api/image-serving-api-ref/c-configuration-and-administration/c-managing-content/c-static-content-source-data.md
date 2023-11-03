@@ -5,9 +5,9 @@ title: Dati origine di contenuto statico
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Tutti ` *[!DNL rootPath]*` i segmenti possono essere vuoti, relativi o assoluti.
 
 ` *[!DNL catalogPath]*` è un nome o un percorso di file assoluto o relativo. *[!DNL requestPath]* deve essere un percorso/nome file relativo.
 
-Più `PS::staticContent.rootPaths` i valori possono essere definiti in [!DNL PlatformServer.conf]. Questo consente di distribuire i file di dati di origine su più file system. Il [!DNL Platform Server] tenterà percorsi alternativi nell&#39;ordine specificato finché non viene trovato il file di dati.
+Più `PS::staticContent.rootPaths` i valori possono essere definiti in [!DNL PlatformServer.conf]. Questo consente di distribuire i file di dati di origine su più file system. Il [!DNL Platform Server] tenta percorsi alternativi nell’ordine specificato fino a quando non viene trovato il file di dati.

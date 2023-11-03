@@ -1,19 +1,19 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Guida di riferimento per i visualizzatori di Dynamic Media
+user-guide-title: Guida di riferimento per i visualizzatori di Dynamic Medie
 feature-set: Experience Manager Assets
-user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+user-guide-description: Personalizza i visualizzatori Dynamic Medie da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2056'
 ht-degree: 2%
 
 ---
 
 
-# Guida di riferimento per i visualizzatori di Dynamic Media {#library}
+# Guida di riferimento per i visualizzatori di Dynamic Medie {#library}
 
-+ [Guida di riferimento per i visualizzatori di Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Guida di riferimento per i visualizzatori di Dynamic Medie](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Esempi di librerie di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisiti di sistema](c-system-requirements-and-prerequisites.md)
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
@@ -72,7 +72,7 @@ ht-degree: 2%
          + [Personalizzare il visualizzatore zoom di base](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [Pulsante Chiudi](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-iconeffect.md)
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-mainviewerarea.md)
          + [Descrizione](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-tooltips.md)
@@ -83,7 +83,7 @@ ht-degree: 2%
       + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
       + [Supporto di tecnologie assistive](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md)
-      + [Supporto per schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
@@ -158,7 +158,7 @@ ht-degree: 2%
          + [Visualizzazione Preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesview.md)
          + [Pulsante Prima pagina](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-firstpagebutton.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-iconeffect.md)
          + [Effetto mappa immagine](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md)
          + [Menu a comparsa del pannello Info](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)
@@ -190,7 +190,7 @@ ht-degree: 2%
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md)
       + [Supporto mappa immagine](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md)
       + [Gestione delle etichette delle pagine](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-managing-page-labels.md)
-      + [Supporto per schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-full-screen-support.md)
       + [Funzione di stampa](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-print-feature.md)
       + [Scarica](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [Caratteristica Preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
@@ -274,7 +274,7 @@ ht-degree: 2%
          + [Visualizzazione Preferiti](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesview.md)
          + [Pulsante Prima pagina](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-firstpagebutton.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-iconeffect.md)
          + [Menu a comparsa del pannello Info](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-infopanelpopup.md)
          + [Effetto mappa immagine](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-imagemapeffect.md)
@@ -310,7 +310,7 @@ ht-degree: 2%
       + [Supporto mappa immagine](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-image-map-support.md)
       + [Gestione delle etichette delle pagine](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-managing-page-labels.md)
       + [Funzione di stampa](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-print-feature.md)
-      + [Supporto per schermo intero](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-full-screen-support.md)
       + [Scarica](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-download.md)
       + [Funzione di ricerca](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-favorites-feature.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
@@ -487,7 +487,7 @@ ht-degree: 2%
          + [Barra di controllo](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-controlbar.md)
          + [Visualizzazione zoom a comparsa](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-flyout-zoom-view.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-fullscreenbutton.md)
          + [Campioni principali](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainswatches.md)
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainviewerarea.md)
          + [Volume variabile](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mutablevolume.md)
@@ -512,7 +512,7 @@ ht-degree: 2%
       + [Supporto di tecnologie assistive](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-assistive.md)
       + [Consegna video HTTPS](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
-      + [Supporto schermo intero](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
+      + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
    + Spin {#spin}
       + [Visualizzatore rotazione](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
@@ -548,7 +548,7 @@ ht-degree: 2%
          + [Personalizzare il visualizzatore 360 gradi](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Pulsante Chiudi](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-iconeffect.md)
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-mainviewerarea.md)
          + [Pulsante Ruota a sinistra](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-spinleftbutton.md)
@@ -561,7 +561,7 @@ ht-degree: 2%
       + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-sitecatalyst.md)
       + [Supporto di tecnologie assistive](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md)
-      + [Supporto per schermo intero](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
    + Video {#video}
       + [Video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-reference.md)
@@ -616,7 +616,7 @@ ht-degree: 2%
          + [Incorpora condivisione](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-embedshare.md)
          + [Condivisione facebook](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-iconeffect.md)
          + [Condivisione collegamento](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-linkshare.md)
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-mainviewerarea.md)
@@ -632,7 +632,7 @@ ht-degree: 2%
       + [Supporto di tecnologie assistive](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-assistive.md)
       + [Distribuzione video HTTP](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md)
-      + [Supporto per schermo intero](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-full-screen-support.md)
       + [Supporto video esterno](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + Zoom {#zoom}
@@ -678,7 +678,7 @@ ht-degree: 2%
          + [Personalizzare il Visualizzatore zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [Pulsante Chiudi](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-iconeffect.md)
          + [Area visualizzatore principale](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-mainviewerarea.md)
          + [Imposta indicatore](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-setindicator.md)
@@ -691,7 +691,7 @@ ht-degree: 2%
       + [Supporto per il tracciamento di Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
       + [Supporto di tecnologie assistive](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
-      + [Supporto schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
+      + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
 + Visualizzatori solo per AEM Assets {#viewers-for-aem-assets-only}
    + [Visualizzatori solo per AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
@@ -841,7 +841,7 @@ ht-degree: 2%
          + [Barra di controllo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-controlbar.md)
          + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-iconeffect.md)
          + [Campioni interattivi](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-intswatches.md)
          + [Condivisione collegamento](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
@@ -859,7 +859,7 @@ ht-degree: 2%
       + [Consegna video HTTPS](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
       + [Supporto dati interattivi](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
-      + [Supporto per schermo intero](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
    + Ritaglio video automatico {#smartcropvideo}
       + [Ritaglio video automatico](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
@@ -913,7 +913,7 @@ ht-degree: 2%
          + [Incorpora condivisione](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
          + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
          + [Condivisione collegamento](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-linkshare.md)
          + [Area visualizzatore principale](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-mainviewerarea.md)
@@ -928,7 +928,7 @@ ht-degree: 2%
       + [Consegna video HTTPS](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-securevideodelivery.md)
       + [Supporto di tecnologie assistive](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md)
-      + [Supporto per schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
       + [Supporto video esterno](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + Video 360 {#video360}
@@ -977,7 +977,7 @@ ht-degree: 2%
          + [Incorpora condivisione](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
          + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
-         + [Pulsante Schermo intero](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-fullscreenbutton.md)
+         + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-iconeffect.md)
          + [Condivisione collegamento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
          + [Area visualizzatore principale](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mainviewerarea.md)
@@ -993,7 +993,7 @@ ht-degree: 2%
       + [Consegna video HTTPS](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
       + [Supporto di tecnologie assistive](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
-      + [Supporto per schermo intero](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
+      + [supporto a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [Supporto video esterno](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
 + Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione {#command-reference-common-to-all-viewers-config-attrib}

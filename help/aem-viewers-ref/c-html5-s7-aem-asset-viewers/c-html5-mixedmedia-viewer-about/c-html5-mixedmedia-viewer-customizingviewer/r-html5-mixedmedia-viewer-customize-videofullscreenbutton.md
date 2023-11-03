@@ -1,24 +1,24 @@
 ---
 title: Pulsante Schermo intero video
-description: Il pulsante Schermo intero fa in modo che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero.
+description: Il pulsante di visualizzazione a schermo intero fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
 # Pulsante Schermo intero video{#video-full-screen-button}
 
-Il pulsante Schermo intero fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero.
+Il pulsante di visualizzazione a schermo intero fa sì che il visualizzatore entri o esca dalla modalità a schermo intero quando viene selezionato dall’utente. Viene utilizzato quando il visualizzatore visualizza il video e si trova nella barra di controllo. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità popup e il sistema non supporta la modalità nativa a schermo intero.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-È possibile ridimensionare, applicare lo skin e posizionare il pulsante Schermo intero, rispetto alla barra di controllo che lo contiene, mediante CSS.
+È possibile ridimensionare, applicare lo skin e posizionare il pulsante a schermo intero in base alla barra di controllo che lo contiene mediante CSS.
 
 L’aspetto del pulsante a schermo intero è controllato con il selettore di classe CSS:
 
@@ -26,7 +26,7 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**Proprietà CSS del pulsante Schermo intero**
+**Proprietà CSS del pulsante a schermo intero**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -48,11 +48,11 @@ L’aspetto del pulsante a schermo intero è controllato con il selettore di cla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p> Larghezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del pulsante Schermo intero. </p> </td> 
+   <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -73,7 +73,7 @@ La descrizione comando del pulsante può essere localizzata. Consulta [Localizza
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante a schermo intero di 32 x 32 pixel posizionato a 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o meno, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
+Impostare un pulsante a schermo intero di 32 x 32 pixel e posizionare 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o meno, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 

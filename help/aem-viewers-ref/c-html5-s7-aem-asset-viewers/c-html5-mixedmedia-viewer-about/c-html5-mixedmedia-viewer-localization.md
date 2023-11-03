@@ -1,22 +1,22 @@
 ---
 title: Localizzazione degli elementi dell’interfaccia utente
-description: Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include i pulsanti di zoom, i pulsanti di rotazione, i controlli video, il pulsante di chiusura, il pulsante a schermo intero e i pulsanti di scorrimento dei campioni.
+description: Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include pulsanti di zoom, pulsanti di rotazione, controlli video, pulsante di chiusura, pulsante a schermo intero e pulsanti di scorrimento dei campioni.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Localizzazione degli elementi dell’interfaccia utente{#localization-of-user-interface-elements}
 
-Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include i pulsanti di zoom, i pulsanti di rotazione, i controlli video, il pulsante di chiusura, il pulsante a schermo intero e i pulsanti di scorrimento dei campioni.
+Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include pulsanti di zoom, pulsanti di rotazione, controlli video, pulsante di chiusura, pulsante a schermo intero e pulsanti di scorrimento dei campioni.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. A qualsiasi SIMBOLO è associato un valore di testo predefinito per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato per le impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -106,11 +106,11 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Schermo intero in stato normale. </p> </td> 
+   <td colname="col2"> <p>pulsante a schermo intero in stato normale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Schermo intero nello stato a schermo intero. </p> </td> 
+   <td colname="col2"> <p>pulsante di visualizzazione a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 

@@ -1,11 +1,11 @@
 ---
 title: Tutorial sull’SDK per visualizzatori
-description: L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Media.
+description: L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Medie.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Tutorial sull’SDK per visualizzatori{#viewer-sdk-tutorial}
 
-L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Media.
+L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Medie.
 
-Ad esempio, l&#39;SDK fornisce zoom e panning interattivi. Inoltre, fornisce una visualizzazione a 360° e la riproduzione video delle risorse caricate in Adobe Dynamic Media tramite l’applicazione back-end denominata Dynamic Media Classic.
+Ad esempio, l&#39;SDK fornisce zoom e panning interattivi. Inoltre, fornisce una visualizzazione a 360° e la riproduzione video delle risorse caricate in Adobe Dynamic Medie tramite l’applicazione back-end denominata Dynamic Media Classic.
 
 Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi e desktop iOS Android™ e Apple, tra cui Internet Explorer e versioni successive. Questo tipo di esperienza ti consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
@@ -115,7 +115,7 @@ Questo tutorial include il seguente ordine di attività per aiutarti a creare un
 
 1. Salva il file come modello vuoto. È possibile utilizzare qualsiasi nome di file desiderato.
 
-   Utilizzerai questo file modello vuoto come riferimento quando creerai visualizzatori in futuro. Questo modello funziona localmente e quando viene distribuito da un server web.
+   Puoi utilizzare questo file modello vuoto come riferimento quando crei visualizzatori in futuro. Questo modello funziona localmente e quando viene distribuito da un server web.
 
 Ora aggiungi stile al visualizzatore.
 
@@ -178,8 +178,8 @@ Ora includi i componenti `Container` e `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -389,4 +389,4 @@ Ora aggiungi al visualizzatore i pulsanti zoom in, zoom out e zoom reset (zoom i
 
    Il visualizzatore zoom di base è stato completato.
 
-   Questo tutorial illustra le nozioni di base di Dynamic Media Viewer SDK. Mentre lavori con l’SDK, puoi utilizzare i vari componenti standard per creare e personalizzare facilmente le esperienze di visualizzazione per il pubblico di destinazione.
+   Questo tutorial illustra le nozioni di base di Dynamic Medie Viewer SDK. Mentre lavori con l’SDK, puoi utilizzare i vari componenti standard per creare e personalizzare facilmente le esperienze di visualizzazione per il pubblico di destinazione.

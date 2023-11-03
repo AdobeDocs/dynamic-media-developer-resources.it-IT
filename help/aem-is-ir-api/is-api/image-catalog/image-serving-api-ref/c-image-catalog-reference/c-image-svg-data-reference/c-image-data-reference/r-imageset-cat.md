@@ -1,11 +1,11 @@
 ---
-description: Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
+description: Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Medie.
 solution: Experience Manager
 title: Set di immagini
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Set di immagini{#imageset}
 
-Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
+Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Medie.
 
-Un set di immagini è costituito da un elenco di elementi ordinato e separato da virgole; ogni elemento è costituito da uno o più elementi secondari (ID immagine, ID campione, percorsi dei file multimediali, etichette, ecc.), separati da punti e virgola e/o due punti.
+Un set di immagini è costituito da un elenco di elementi ordinato, separato da virgole. Ogni elemento è costituito da uno o più elementi secondari (ID immagine, ID campione, percorsi di file multimediali, etichette e così via), separati da punti e virgola, due punti o entrambi.
 
-Parentesi graffe `{ }` e parentesi `( )` può essere utilizzato per delimitare determinati contenuti (ad esempio i valori di colore) o indicare set nidificati. Le parentesi graffe utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti. In caso contrario, si verificherà un errore di analisi del catalogo.
+Parentesi graffe `{ }` e parentesi `( )` può essere utilizzato per delimitare determinati contenuti (ad esempio i valori di colore) o indicare set nidificati. Le parentesi graffe utilizzate in questo modo non devono essere codificate e devono sempre essere visualizzate come coppie corrispondenti, altrimenti si verifica un errore di analisi del catalogo.
 
 >[!NOTE]
 >
@@ -31,7 +31,6 @@ Parentesi graffe `{ }` e parentesi `( )` può essere utilizzato per delimitare d
 >* `}`
 >* `(`
 >* `)`
-
 
 
 Per ulteriori informazioni sulla struttura e sull’utilizzo dei set di immagini, consulta la documentazione dei visualizzatori Image Server.
@@ -53,7 +52,7 @@ Ogni elemento di un set di campioni di base è costituito da un riferimento a un
 | `*`imageId`*` | Riferimento immagine IS (catalogo/id) |
 | `*`swatchId`*` | Riferimento immagine IS (catalogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`etichetta`*]'}'` |
-| `*`rrggbb`*` | Valore colore RGB esadecimale a 6 cifre per i campioni in tinta unita |
+| `*`rrggbb`*` | Valore colore RGB esadecimale a 6 cifre per campioni di colore a tinta unita |
 | `*`label`*` | Etichetta di testo opzionale per campioni di colore uniforme |
 
 **Set di campioni gerarchici**
@@ -82,7 +81,7 @@ Ogni elemento di un set 360 gradi bidimensionale può essere costituito da un&#3
 
 **Set di pagine**
 
-Ogni elemento di un set di pagine può essere costituito da un massimo di tre immagini di pagina separate da due punti.
+Ogni elemento di un set di pagine può essere costituito da un massimo di immagini di tre pagine separate da due punti.
 
 | `*`pageSet`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
 |---|---|

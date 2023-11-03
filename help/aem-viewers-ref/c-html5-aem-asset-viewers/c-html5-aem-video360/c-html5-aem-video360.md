@@ -1,20 +1,20 @@
 ---
 title: Video360
-description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Media.
+description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Medie.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Media.
+Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Medie.
 
 I video a 360 gradi, noti anche come video immersivi o video sferici, sono registrazioni video in cui una visione in ogni direzione viene registrata contemporaneamente, girata utilizzando una fotocamera omnidirezionale o una raccolta di telecamere. Sono supportati sia set per video singolo che set per video adattivi. Il visualizzatore supporta anche l’utilizzo di video progressivi e flussi HLS in hosting su posizioni esterne.
 
@@ -65,7 +65,7 @@ Il visualizzatore supporta anche vari strumenti di condivisione dei social media
 Il visualizzatore supporta la riproduzione video 360 nei seguenti casi:
 
 * Cuffie VR (come Oculus Go e Oculus Rift)
-* Montaggi VR HMD (display montato sulla testa) (come Google Cardboard)
+* Montaggi VR HMD (display montati sulla testa) (come Google Cardboard)
 * Dispositivi non abilitati per VR (come browser desktop, tablet e telefoni cellulari non collegati ai supporti VR HMD)
 
 Non è necessaria alcuna configurazione aggiuntiva per visualizzare il contenuto video 360 sulle cuffie VR. Il visualizzatore rileva automaticamente la presenza di cuffie VR e mostra il pulsante &quot;VR&quot; sopra il contenuto video. L’attivazione di questo pulsante &quot;VR&quot; attiva il rendering video in modalità VR. Il visualizzatore supporta il rendering VR solo nei browser che supportano WebVR.
@@ -166,7 +166,7 @@ Il percorso relativo è simile al seguente:
 
    È possibile impostare la dimensione statica del visualizzatore dichiarandolo per `.s7video360viewer` classe CSS di primo livello in unità assolute oppure utilizzando `stagesize` modificatore.
 
-   È possibile inserire il dimensionamento in CSS direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in Adobe Experience Manager Assets - On-demand, o trasmesso esplicitamente utilizzando `style` comando.
+   È possibile inserire il dimensionamento in CSS direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in Adobe Experience Manager Assets - On-demand o trasmesso esplicitamente utilizzando `style` comando.
 
    Consulta [Personalizzazione del visualizzatore Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con CSS.
 

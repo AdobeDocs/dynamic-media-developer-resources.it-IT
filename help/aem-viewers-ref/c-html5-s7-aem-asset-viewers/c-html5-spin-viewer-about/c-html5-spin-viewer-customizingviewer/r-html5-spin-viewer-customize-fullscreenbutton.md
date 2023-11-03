@@ -1,18 +1,18 @@
 ---
-title: Pulsante Schermo intero
+title: pulsante a schermo intero
 description: Questo pulsante consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
 
-# Pulsante Schermo intero{#full-screen-button}
+# pulsante a schermo intero{#full-screen-button}
 
 Questo pulsante consente al visualizzatore di entrare o uscire dalla modalità a schermo intero quando viene selezionato dall’utente. Questo pulsante non viene visualizzato se il visualizzatore funziona in modalità pop-up e il sistema non supporta la modalità nativa a schermo intero. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 

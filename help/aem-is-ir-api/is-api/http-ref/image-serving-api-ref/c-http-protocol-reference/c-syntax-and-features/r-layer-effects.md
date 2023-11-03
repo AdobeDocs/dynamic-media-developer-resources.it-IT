@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Un numero qualsiasi di effetti di livello può essere associato a un singolo liv
 
 ## Effetti interni ed esterni {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Effetti interni* vengono sottoposte a rendering sopra il livello padre e sono visibili solo nelle aree opache del livello padre. *Effetti esterni* vengono sottoposte a rendering dietro il livello principale (non saranno quindi mai visibili all&#39;interno di aree opache del livello principale) e possono essere posizionate ovunque all&#39;interno dell&#39;area di lavoro di composizione. Un effetto interno o esterno viene scelto assegnando un numero di livello di effetto positivo o negativo al `effect=` comando. Il `effect=` Questo comando controlla anche l&#39;ordinamento z tra più livelli di effetto collegati allo stesso livello padre.
+*Effetti interni* vengono sottoposte a rendering sopra il livello padre e sono visibili solo nelle aree opache del livello padre. *Effetti esterni* vengono sottoposte a rendering dietro il livello padre (quindi non sono mai visibili all&#39;interno di aree opache del livello padre) e possono essere posizionate ovunque all&#39;interno dell&#39;area di lavoro di composizione. Un effetto interno o esterno viene scelto assegnando un numero di livello di effetto positivo o negativo al `effect=` comando. Il `effect=` Questo comando controlla anche l&#39;ordinamento z tra più livelli di effetto collegati allo stesso livello padre.
 
 ## Relazione con il livello padre {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-I livelli degli effetti vengono automaticamente ridimensionati e posizionati in modo da coincidere con il livello padre (ad esempio, il livello degli effetti eredita il `size=` e `origin=` valori del livello padre). `pos=` può essere utilizzato per allontanare il livello dell&#39;effetto dal livello padre, come in genere è richiesto per gli effetti di ombreggiatura esterna e interna. Mentre per i livelli standard `pos=` specifica un offset tra le origini di questo livello e il livello 0, per i livelli di effetto `pos=` specifica l&#39;offset tra le origini del livello effetto e il livello padre.
+I livelli degli effetti vengono automaticamente ridimensionati e posizionati in modo da coincidere con il livello padre (ovvero, il livello degli effetti eredita il `size=` e `origin=` valori del livello padre). `pos=` può essere utilizzato per allontanare il livello dell&#39;effetto dal livello padre, come in genere è richiesto per gli effetti di ombreggiatura esterna e interna. Mentre per i livelli standard `pos=` specifica un offset tra le origini di questo livello e il livello 0, per i livelli di effetto `pos=` specifica l&#39;offset tra le origini del livello effetto e il livello padre.
 
 ## Comandi e attributi supportati {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 

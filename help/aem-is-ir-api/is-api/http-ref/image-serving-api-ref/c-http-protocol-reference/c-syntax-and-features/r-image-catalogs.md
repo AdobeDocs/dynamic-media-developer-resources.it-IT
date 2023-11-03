@@ -5,9 +5,9 @@ title: Cataloghi immagini
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I cataloghi di immagini offrono le seguenti funzionalità:
 
 * Consenti associazione permanente di immagini con determinati metadati e comandi modificatori.
 
-   Le voci nei cataloghi di immagini sono referenziate utilizzando una notazione di scelta rapida `*`rootId/objId`*`, dove `*`rootId`*` identifica il catalogo immagini e `*`objId`*` identifica un record di dati nel catalogo.
+  Le voci nei cataloghi di immagini sono referenziate utilizzando una notazione di scelta rapida `*`rootId/objId`*`, dove `*`rootId`*` identifica il catalogo immagini e `*`objId`*` identifica un record di dati nel catalogo.
 * Specifica le impostazioni predefinite per alcuni attributi di richiesta, ad esempio la qualità JPEG o se deve essere applicata una filigrana.
 * Gestione di font, profili ICC, definizioni di macro e modelli di richiesta
 

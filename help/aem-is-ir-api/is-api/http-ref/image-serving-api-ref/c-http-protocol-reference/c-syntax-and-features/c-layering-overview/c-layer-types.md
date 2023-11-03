@@ -5,7 +5,7 @@ title: Tipi di livelli
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -22,7 +22,7 @@ I livelli immagine devono avere `src=` che specifica l&#39;immagine da utilizzar
 
 ## Livelli di testo {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-Deve avere un `text=` o `textPs=` comando che fornisce il contenuto del testo sotto forma di frammento di testo RTF (Rich Text Formatted). I livelli di testo possono avere dimensioni autonome rispetto al contenuto o possono avere dimensioni esplicite (ad esempio, se il testo deve essere racchiuso in una larghezza specifica o se il testo deve essere vincolato all&#39;interno di un&#39;area specifica). `textPs=` supporta il flusso di testo in forme arbitrarie definite con `textFlowPath=` e su percorsi arbitrari definiti con `textPath=`. `textPs=` supporta inoltre il rendering del testo nella casella di testo o nella forma specificata con angoli arbitrari ( `textAngle=`).
+Deve avere un `text=` o `textPs=` comando che fornisce il contenuto del testo sotto forma di frammento di testo RTF (Rich Text Formatted). I livelli di testo possono avere dimensioni autonome rispetto al contenuto o possono avere dimensioni esplicite. Ad esempio, se il testo deve essere racchiuso in una larghezza specifica o se deve essere vincolato all&#39;interno di un&#39;area specifica. `textPs=` supporta il flusso di testo in forme arbitrarie definite con `textFlowPath=` e su percorsi arbitrari definiti con `textPath=`. `textPs=` supporta inoltre il rendering del testo nella casella di testo o nella forma specificata con angoli arbitrari ( `textAngle=`).
 
 ## Livelli di colore pieno {#section-56dfb672756643dda08dc93294809eb0}
 

@@ -5,9 +5,9 @@ title: Mappa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Dati mappa immagine. Nessuno o più HTML completi `<AREA>` elementi, ordinati dall&#39;inizio alla fine.
 
-Il server interpreterà e potrebbe modificare gli attributi SHAPE e COORDS. (SHAPE=CIRCLE non supportato in questa versione). Tutti gli altri attributi di `<AREA>` vengono trasmesse senza modifiche. I valori di coordinate specificati con l&#39;attributo COORDS devono essere offset in pixel dall&#39;angolo superiore sinistro dell&#39;immagine di origine non modificata. (`%` Le coordinate non sono supportate in questa versione e potrebbero non essere elaborate correttamente.)
+Il server interpreta e può modificare gli attributi SHAPE e COORDS (SHAPE=CIRCLE non è supportato in questa release). Tutti gli altri attributi di `<AREA>` vengono trasmesse senza modifiche. I valori di coordinate specificati con l&#39;attributo COORDS devono essere offset in pixel dall&#39;angolo superiore sinistro dell&#39;immagine di origine non modificata. (`%` Le coordinate non sono supportate in questa versione e potrebbero non essere elaborate correttamente.)
 
 ## Proprietà {#section-f52d89fd399b4356ac05277e6c12f956}
 

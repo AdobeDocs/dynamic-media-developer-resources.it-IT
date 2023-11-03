@@ -5,16 +5,16 @@ title: Distribuzione di contenuto statico (non di immagine)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
 
 # Distribuzione di contenuto statico (non di immagine){#serving-static-non-image-content}
 
-Image Server offre un meccanismo per gestire i contenuti non di immagine nei cataloghi e distribuirli tramite un `context /is/content`. Il meccanismo consente di configurare il TTL per ogni elemento separatamente.
+Image Server offre un meccanismo per gestire contenuti non di immagine in cataloghi e distribuirli tramite un’applicazione separata `context /is/content`. Il meccanismo consente di configurare il TTL per ogni elemento separatamente.
 
 ## Sintassi di base {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -113,7 +113,7 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
 
 ## Filtraggio del contenuto statico {#section-896c37cf68bc446eb0766fb378898262}
 
-Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i tag appropriati `catalog::UserType`, il client può aggiungere i `type=` alla richiesta. Image Server confronterà il valore fornito con `type=` al valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
+Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i tag appropriati `catalog::UserType`, il client può aggiungere i `type=` alla richiesta. Image Server confronta il valore fornito con `type=` al valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
 
 ## Consultate anche {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

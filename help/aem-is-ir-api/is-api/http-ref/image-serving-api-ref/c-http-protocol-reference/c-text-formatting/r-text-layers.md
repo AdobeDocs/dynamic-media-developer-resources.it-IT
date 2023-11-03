@@ -5,9 +5,9 @@ title: Livelli di testo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ I seguenti comandi RTF vengono ignorati:
 
 Se `size=` è specificato insieme a `textFlowPath=`, la dimensione del livello è predeterminata. (0,0) dello spazio di coordinate in pixel utilizzato per definire i tracciati si trova nell&#39;angolo superiore sinistro del rettangolo del livello.
 
-Il `textFlowPath=` le aree possono essere posizionate all&#39;esterno del rettangolo del livello. Il testo verrà sempre riversato e sottoposto a rendering in tutte le aree del tracciato, anche se questo comporta il rendering del testo all&#39;esterno del rettangolo del livello. `extend=0,0,0,0`può essere utilizzato per ritagliare il testo sottoposto a rendering nel rettangolo del livello.
+Il `textFlowPath=` le aree possono essere posizionate all&#39;esterno del rettangolo del livello. Il testo viene sempre riversato e sottoposto a rendering in tutte le aree del tracciato, anche se ciò comporta il rendering del testo al di fuori del rettangolo del livello. `extend=0,0,0,0`può essere utilizzato per ritagliare il testo sottoposto a rendering nel rettangolo del livello.
 
 Ai fini del posizionamento del livello, il rettangolo del livello si basa sul valore specificato `size=`, indipendentemente dalla quantità di testo effettivamente sottoposto a rendering, anche se parte di esso si trova al di fuori del rettangolo del livello. Si applica il posizionamento del livello standard.
 
@@ -105,7 +105,7 @@ Qualsiasi testo dopo il primo `\par` o `\line` viene ignorato.
 
 Se `size=` è specificato insieme a `textPath=`, la dimensione del livello è predeterminata. (0,0) dello spazio di coordinate in pixel utilizzato per definire i tracciati si trova nell&#39;angolo superiore sinistro del rettangolo del livello.
 
-I tracciati possono essere posizionati parzialmente o completamente all&#39;esterno del rettangolo del livello. Il testo viene sempre applicato e sottoposto a rendering lungo l&#39;intero tracciato, anche se all&#39;esterno del rettangolo del livello. `extend=0,0,0,0` può essere utilizzato per ritagliare il testo sottoposto a rendering nel rettangolo del livello.
+I tracciati possono essere posizionati parzialmente o completamente all&#39;esterno del rettangolo del livello. Il testo viene sempre applicato e sottoposto a rendering lungo l&#39;intero tracciato, anche all&#39;esterno del rettangolo del livello. `extend=0,0,0,0` può essere utilizzato per ritagliare il testo sottoposto a rendering nel rettangolo del livello.
 
 Ai fini del posizionamento del livello, il rettangolo del livello si basa sul valore specificato `size=`, anche se parte del testo viene riprodotto all&#39;esterno del rettangolo del livello. Si applica il posizionamento del livello standard.
 

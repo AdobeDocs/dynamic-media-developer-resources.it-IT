@@ -5,7 +5,7 @@ title: Traduzione ID oggetto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Image Server fornisce un meccanismo per tradurre gli ID di oggetti esterni in ID di oggetti (catalogo) specifici per le impostazioni internazionali. L&#39;applicazione principale consente di fornire contenuto specifico della lingua e contenuto condiviso tra più lingue senza che l&#39;applicazione client debba conoscere gli ID oggetto specifici della lingua.
 
-L’applicazione può essere scritta utilizzando solo gli ID oggetto globali; Image Server sostituirà automaticamente le immagini specifiche per le impostazioni internazionali e altro contenuto, se disponibile.
+L’applicazione può essere scritta utilizzando solo gli ID oggetto globali; Image Server sostituisce automaticamente le immagini specifiche per le impostazioni internazionali e altri contenuti, se disponibili.
 
 Il *`locale`* è specificato nelle richieste Image Server con `locale=` comando.
 
@@ -48,7 +48,7 @@ Nell&#39;esempio precedente, il server cerca prima il *`locale`* &quot; `de_de`&
 
 ## Impostazioni internazionali sconosciute {#section-b2f3c83f2dc845d69b5908107b775537}
 
-Nell’esempio precedente, `attribute::LocaleMap` include un elemento vuoto *`locale`* che definisce la regola di traduzione predefinita, utilizzata per gli elementi sconosciuti `locale=` valori (ovvero quelli non elencati in modo esplicito nella mappa di traduzione). Se questa mappa di traduzione è stata applicata alla richiesta `/is/image/myCat/myImg?locale=ja`, si risolverebbe in `myCat/myImg_E`, se esiste, o in altro modo `myCat/myImg`.
+Nell’esempio precedente, `attribute::LocaleMap` include un elemento vuoto *`locale`* che definisce la regola di traduzione predefinita, utilizzata per gli elementi sconosciuti `locale=` valori (ovvero, quelli non elencati in modo esplicito nella mappa di traduzione). Se questa mappa di traduzione è stata applicata alla richiesta `/is/image/myCat/myImg?locale=ja`, si risolverebbe in `myCat/myImg_E`, se esiste, o in altro modo `myCat/myImg`.
 
 Se una mappa di traduzione non specifica una regola di traduzione predefinita, viene restituito un errore per tutte le richieste con sconosciuto `locale=` valori.
 

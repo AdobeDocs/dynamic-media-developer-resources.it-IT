@@ -1,20 +1,20 @@
 ---
 title: Distribuzione di contenuti statici (non di immagine)
-description: È possibile utilizzare Image Server per gestire i contenuti non di immagine nei cataloghi e distribuirli tramite un contesto /is/content separato.
+description: È possibile utilizzare Image Server per gestire i contenuti non di immagine nei cataloghi e distribuirli in un contesto /is/content separato.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Distribuzione di contenuti statici (non di immagine){#serving-static-non-image-contents}
 
-È possibile utilizzare Image Server per gestire i contenuti non di immagine nei cataloghi e distribuirli tramite un contesto /is/content separato.
+È possibile utilizzare Image Server per gestire i contenuti non di immagine nei cataloghi e distribuirli in un contesto /is/content separato.
 
 Questa funzionalità consente di configurare il TTL per ogni elemento separatamente.
 

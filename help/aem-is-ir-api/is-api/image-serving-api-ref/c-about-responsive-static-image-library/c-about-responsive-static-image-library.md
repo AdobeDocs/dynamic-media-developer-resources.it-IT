@@ -1,11 +1,11 @@
 ---
-description: La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Media e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
+description: La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Medie e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
 solution: Experience Manager
 title: Informazioni sulla libreria Immagine reattiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Informazioni sulla libreria Immagine reattiva{#about-responsive-image-library}
 
-La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Media e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
+La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Medie e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
 
 ## URL demo {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-Il caso d’uso più semplice della Libreria di immagini reattive è quello di definire un elenco di valori dei punti di interruzione per la larghezza dell’immagine. Questo elenco assicura che venga caricata e visualizzata la rappresentazione appropriata quando un’immagine viene ridimensionata a causa di modifiche nel layout della pagina web apportate da un utente che ridimensiona la finestra del browser o modifica l’orientamento del dispositivo. La libreria monitora continuamente le dimensioni delle immagini sullo schermo e ogni volta che viene raggiunta una nuova larghezza del punto di interruzione recupera una nuova rappresentazione dell’immagine da Dynamic Media.
+Il caso d’uso più semplice della Libreria di immagini reattive è quello di definire un elenco di valori dei punti di interruzione per la larghezza dell’immagine. Questo elenco assicura che venga caricata e visualizzata la rappresentazione appropriata quando un’immagine viene ridimensionata a causa di modifiche nel layout della pagina web apportate da un utente che ridimensiona la finestra del browser o modifica l’orientamento del dispositivo. La libreria monitora continuamente le dimensioni delle immagini sullo schermo e ogni volta che viene raggiunta una nuova larghezza del punto di interruzione recupera una nuova rappresentazione dell’immagine da Dynamic Medie.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -39,7 +39,7 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso d’uso in una pagina web. In base al CSS Bootstrap, la cella layout alla quale viene aggiunta l’immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi valori sono esattamente ciò che viene passato come punti di interruzione alla Libreria di immagini reattive. Dynamic Media garantisce un utilizzo efficace della larghezza di banda del client. Inoltre, garantisce che l’immagine venga visualizzata nelle dimensioni esatte necessarie-dato il layout della pagina web corrente-senza artefatti visivi dovuti al ridimensionamento del browser lato client. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensionare la finestra del browser per raggiungere diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi d’uso più avanzati includono l’associazione di diversi predefiniti immagine o comandi Image Server, o entrambi, con valori di punto di interruzione diversi. </p> </td> 
+   <td colname="col2"> <p>L’esempio di Bootstrap seguente illustra lo stesso caso d’uso in una pagina web. In base al CSS Bootstrap, la cella layout alla quale viene aggiunta l’immagine reattiva può avere una delle seguenti larghezze: 360, 720 e 940 pixel. Questi valori sono esattamente ciò che viene passato come punti di interruzione alla Libreria di immagini reattive. Dynamic Medie garantisce un utilizzo efficace della larghezza di banda del client. Inoltre, garantisce che l’immagine venga visualizzata nelle dimensioni esatte necessarie-dato il layout della pagina web corrente-senza artefatti visivi dovuti al ridimensionamento del browser lato client. </p> <p>Fai clic sull’URL per aprire la pagina web, ridimensionare la finestra del browser per raggiungere diversi punti di interruzione del layout e monitorare il traffico di rete. </p> <p>Casi d’uso più avanzati includono l’associazione di diversi predefiniti immagine o comandi Image Server, o entrambi, con valori di punto di interruzione diversi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -51,7 +51,7 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/crops.html--> </p> </td> 
-   <td colname="col2"> <p>Oltre ai predefiniti per immagini, è possibile associare specifici comandi Image Server ai punti di interruzione. L'esempio seguente mostra come è possibile ritagliare gradualmente l'immagine del banner nell'area di interesse man mano che le dimensioni dell'immagine sullo schermo si riducono. In questo caso, il punto di interruzione più grande non dispone di alcun comando Image Server, pertanto l'immagine del banner è completamente visibile. Al punto di interruzione medio applica un ritaglio moderato, rendendo visibile solo l’esecutore con il testo "In esecuzione". In un punto di interruzione di piccole dimensioni, viene applicato un numero maggiore di ritagli in modo da visualizzare solo il prodotto. </p> <p>Fare clic sull'URL per aprire la pagina Web e ridimensionare la finestra del browser. Osserva come l’immagine viene ritagliata gradualmente quando passi da una dimensione maggiore a una minore. </p> </td> 
+   <td colname="col2"> <p>Oltre ai predefiniti per immagini, è possibile associare specifici comandi Image Server ai punti di interruzione. L'esempio seguente mostra come è possibile ritagliare gradualmente l'immagine del banner nell'area di interesse man mano che le dimensioni dell'immagine sullo schermo si riducono. In questo caso, il punto di interruzione più grande non dispone di alcun comando Image Server, pertanto l'immagine del banner è completamente visibile. Al punto di interruzione medio applica un ritaglio moderato, rendendo visibile solo l’esecutore con il testo "In esecuzione". In un punto di interruzione di piccole dimensioni, viene applicato un numero maggiore di ritagli in modo da visualizzare solo il prodotto. </p> <p>Fare clic sull'URL per aprire la pagina Web e ridimensionare la finestra del browser. Osserva come l’immagine viene ritagliata gradualmente quando passi da una dimensione più grande a una più piccola. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
@@ -66,7 +66,7 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
 
 **Hardware e software per server**
 
-* Dynamic Media Image Server 6.0.1 o versione successiva.
+* Dynamic Medie Image Server 6.0.1 o versione successiva.
 
 **Requisiti minimi del browser client**
 
@@ -75,4 +75,4 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
 * iOS 6 o versione successiva.
 * Certificato su iPhone3GS o versione successiva e iPad2 o versione successiva (solo browser nativi).
 * Android™ OS 2.3 o versione successiva.
-* Al momento Internet Explorer su dispositivi mobili non è supportato.
+* Internet Explorer su dispositivi mobili non è attualmente supportato.

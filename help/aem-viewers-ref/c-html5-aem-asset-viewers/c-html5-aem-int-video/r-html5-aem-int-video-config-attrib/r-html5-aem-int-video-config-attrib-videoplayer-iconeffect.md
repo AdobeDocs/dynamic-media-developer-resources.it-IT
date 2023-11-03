@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. Questo è il tempo che trascorre tra il completamento della dissolvenza nell'animazione e l'inizio della dissolvenza in uscita. Imposta su <span class="codeph"> 0</span> per disattivare il comportamento Nascondi automatico. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. ovvero il tempo trascorso tra il completamento della dissolvenza in entrata e l'inizio della dissolvenza in uscita. Imposta su <span class="codeph"> 0</span> per disattivare il comportamento Nascondi automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Il server confronta `val` con il valore di `catalog::Type` dell&#39;elemento di 
 
 ## Proprietà {#section-529b088434a44a9f86a64ef548d2925b}
 
-Supportato solo per le richieste di contenuto statico (non di immagine) servite tramite. Ignorato se `catalog::Type` è vuoto o non definito.
+Supportato solo per le richieste di contenuto statico (non di immagine) gestite tramite. Ignorato se `catalog::Type` è vuoto o non definito.
 
 ## Predefinito {#section-e9e8f51d0a01452183ccb510efd87d46}
 

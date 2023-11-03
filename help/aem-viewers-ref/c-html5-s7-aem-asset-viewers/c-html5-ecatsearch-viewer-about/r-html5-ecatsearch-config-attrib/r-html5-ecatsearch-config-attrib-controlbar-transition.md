@@ -5,9 +5,9 @@ title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2e08a62b-9499-41f8-927b-89bed972b4eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|dissolvenza </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. Utilizzare <span class="codeph"> nessuno </span> per mostrare e nascondere istantaneamente; <span class="codeph"> dissolvenza </span> fornisce un effetto di dissolvenza graduale in entrata e in uscita (non supportato in Internet Explorer 8). </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. Utilizzare <span class="codeph"> nessuno </span> per mostrare e nascondere istantaneamente; <span class="codeph"> dissolvenza </span> fornisce un effetto di dissolvenza graduale (non supportato in Internet Explorer 8). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 

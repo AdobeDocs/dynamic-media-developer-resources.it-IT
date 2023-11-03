@@ -5,9 +5,9 @@ title: target
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Effettua lo zoom dei dati di destinazione dal catalogo immagini. Restituisce i d
  </tr> 
 </table>
 
-Il contenuto di `catalog::Targets` vengono restituiti. Quando viene richiesto il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::Targets` sono sostituiti da terminatori di linea e da un terminatore di linea singolo ( `CR/LF`) viene aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
+Il contenuto di `catalog::Targets` vengono restituiti. Quando viene richiesto il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::Targets` sono sostituiti da terminatori di riga e da terminatori di riga singola ( `CR/LF`) viene aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
 
 Altri comandi nella stringa di richiesta vengono ignorati.
 

@@ -1,21 +1,21 @@
 ---
 title: Zoom
-description: Visualizzatore zoom è un visualizzatore di immagini che visualizza un'immagine ingrandita. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. Dispone di strumenti per lo zoom, supporto per l'intera schermata, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
+description: Visualizzatore zoom è un visualizzatore di immagini che visualizza un'immagine ingrandita. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. Sono disponibili strumenti di zoom, supporto per schermo intero, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
 
 # Zoom{#zoom}
 
-Visualizzatore zoom è un visualizzatore di immagini che visualizza un&#39;immagine ingrandita. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. Dispone di strumenti per lo zoom, supporto per l&#39;intera schermata, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
+Visualizzatore zoom è un visualizzatore di immagini che visualizza un&#39;immagine ingrandita. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. Sono disponibili strumenti di zoom, supporto per schermo intero, campioni e un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 
 >[!NOTE]
 >

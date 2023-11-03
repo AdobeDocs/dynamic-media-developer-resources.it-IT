@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ File di vignettatura. Specifica la vignettatura da utilizzare per la richiesta.
 
 È possibile specificare una voce di mappa vignettatura o un file di vignettatura. Gli URL remoti non sono consentiti.
 
-`vignette=` Può essere utilizzato in alternativa alla specifica della vignettatura nel percorso dell’URL della richiesta. Utilizzato per specificare le vignettature tramite le variabili nei modelli.
+`vignette=` Può essere utilizzato in alternativa alla specifica della vignettatura nel percorso dell’URL della richiesta. Utilizzato per specificare le vignettature tramite variabili nei modelli.
 
 Se *`catId`* non è specificato, viene utilizzato il catalogo di sessione.
 

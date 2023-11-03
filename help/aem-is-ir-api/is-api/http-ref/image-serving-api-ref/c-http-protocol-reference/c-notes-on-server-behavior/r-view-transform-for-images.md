@@ -5,7 +5,7 @@ title: Trasformazione di visualizzazione per immagini
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fc20cbc2-9d66-4c52-80c2-9ba7c3b54744
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%

@@ -5,9 +5,9 @@ title: Versioni WSDL servizio Web IPS
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Accedere agli URL per le aree geografiche di Dynamic Media**
+**Accedere agli URL per le aree geografiche di Dynamic Medie**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -229,7 +229,7 @@ Dove `base64()` applica la codifica standard Base64, `<IPS_user_email>` è l&#39
 
 Invia preventivamente l’intestazione Autorizzazione con la richiesta iniziale. Se nella richiesta non sono incluse credenziali di autenticazione, `IpsApiService` non risponde con un codice di stato `401 (Unauthorized)`. Invece, un codice di stato di `500 (Internal Server Error)` viene restituito un corpo dell&#39;errore SOAP che indica che la richiesta non può essere autenticata.
 
-Prima di IPS 3.8, l’autenticazione tramite l’intestazione SOAP veniva implementata utilizzando `AuthUser` e `AuthPassword` elementi nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
+Prima di IPS 3.8, l’autenticazione tramite l’intestazione SOAP era implementata utilizzando `AuthUser` e `AuthPassword` elementi nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 

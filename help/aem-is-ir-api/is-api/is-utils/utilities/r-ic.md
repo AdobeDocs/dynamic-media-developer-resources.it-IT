@@ -5,9 +5,9 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
@@ -330,6 +330,6 @@ Converti tutte le immagini in *`srcFolder`* ai TIFF piramidali con codifica JPEG
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Converti tutte le immagini in *`srcFolder`*. I dati immagine codificati dei file JPG vengono utilizzati per la compressione LZW a piena risoluzione, senza perdita di dati, per il resto della piramide di immagini di queste immagini e per l&#39;intera immagine di output di tutti i file di input non JPG. I tipi di pixel, i profili di colore incorporati, i metadati XMP, ecc. sono mantenuti.
+Converti tutte le immagini in *`srcFolder`*. I dati immagine codificati dei file JPG vengono utilizzati per la compressione LZW a piena risoluzione, senza perdita di dati, per il resto della piramide di immagini di queste immagini e per l&#39;intera immagine di output di tutti i file di input non JPG. I tipi di pixel, i profili di colore incorporati, i metadati XMP e così via. sono mantenuti.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

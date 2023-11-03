@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Comando Livello. I riferimenti alle variabili di sostituzione non sono supportat
 * Se lo stesso nome viene mappato più volte su un singolo livello (ad esempio: `layer=1,image&layer=1,image`), l’ambito viene impostato come di consueto, senza errori.
 * Sono supportati più nomi per lo stesso livello.
 
-   Entrambi i nomi possono essere utilizzati per fare riferimento al livello (ad esempio: `layer=1,image&layer=1,picture`).
+  Entrambi i nomi possono essere utilizzati per fare riferimento al livello (ad esempio: `layer=1,image&layer=1,picture`).
 * Se un nome a cui si fa riferimento non viene mai mappato a un numero di livello (ad esempio: `layer=1,image&layer=picture`), si verifica un errore.
 * Le variabili di sostituzione non sono supportate nei modificatori di livello (ad esempio: `layer=$image$`).
 
-   Questo vale per tutte le permutazioni, non solo per i nomi dei livelli ma anche per i modificatori di livello in generale.
+  Questo vale per tutte le permutazioni, non solo per i nomi dei livelli ma anche per i modificatori di livello in generale.
 
-* Tutte le regole di unione e sostituzione devono funzionare esattamente come quando si fa riferimento allo stesso livello in più origini (record di catalogo per richieste, pre o post modificatori, macro, ecc.).
+* Tutte le regole di unione e sostituzione devono funzionare esattamente come quando si fa riferimento allo stesso livello in più origini (record di catalogo per richieste, pre o post modificatori, macro e così via).
 
 ## Esempio {#section-cc40de6a0a754178aa752601539c815b}
 

@@ -5,9 +5,9 @@ title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Sono consentiti i seguenti valori:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge le tracce dello stack Java. Le immagini di errore non includono mai le tracce dello stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Informazioni di debug complete. Se applicabile, aggiunge le tracce dello stack Java. Le immagini di errore non includono mai le tracce dello stack e restituiscono invece informazioni di livello 2 in <span class="codeph"> $error.message</span>. Queste informazioni possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Medie. </p></td> 
  </tr> 
 </table>
 

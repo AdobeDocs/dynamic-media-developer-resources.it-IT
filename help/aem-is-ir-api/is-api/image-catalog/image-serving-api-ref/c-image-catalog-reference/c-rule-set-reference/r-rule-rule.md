@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,7 @@ Elemento regola di richiesta. Una o più regole sono facoltative nel `<ruleset>`
 
 **`Name = "text"`**: Facoltativo. Utilizzato per identificare `<rule>` nei registri di debug e nei messaggi di errore.
 
-`  *`Attributo`* ="value"`: facoltativo. `<rule>` Gli elementi possono definire uno qualsiasi dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola viene trovata correttamente, ignoreranno gli attributi di catalogo corrispondenti per questa richiesta. Il valore predefinito è `RequestType="is"`.
+`  *`Attributo`* ="value"`: facoltativo. `<rule>` Gli elementi possono definire uno qualsiasi dei seguenti attributi in qualsiasi combinazione. Se specificato e la regola viene trovata correttamente, ignorano gli attributi di catalogo corrispondenti per questa richiesta. Il valore predefinito è `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 

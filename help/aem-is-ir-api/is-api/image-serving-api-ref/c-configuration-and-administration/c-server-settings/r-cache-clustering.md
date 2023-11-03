@@ -5,9 +5,9 @@ title: Clustering cache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Impostare su &#39;Sì&#39; se una voce della cache fornita da un server peer dev
 
 ## PS::cacheCluster.queryTimeout - Timeout query {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-Quando si richiede una voce della cache ai server peer, il server attenderà che un server risponda di avere questo particolare elemento di dati o che tutti i server peer rispondano di non avere l&#39;elemento di dati o che il tempo specificato con questa impostazione (in millisecondi) sia scaduto.
+Quando si richiede una voce della cache dai server peer, il server attende che un server risponda che ha questo particolare elemento di dati o che tutti i server peer abbiano risposto che non hanno l&#39;elemento di dati o che il tempo specificato con questa impostazione (in millisecondi) sia scaduto.
 
 ## PS::cacheCluster.fetchTimeout - Recupera timeout {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 

@@ -5,9 +5,9 @@ title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,6 @@ Deve essere abilitato solo se si utilizza una rete di caching distribuito o un a
 >* Anziché condividere i file di catalogo delle immagini tramite un mount di rete, ogni server dispone di una propria istanza dei file di catalogo in un file system locale.
 >* Due o più istanze dello stesso [!DNL catalog.ini] i file hanno date di modifica diverse, probabilmente causate da una copia non corretta dei file.
 >
-
 
 ## Proprietà {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 

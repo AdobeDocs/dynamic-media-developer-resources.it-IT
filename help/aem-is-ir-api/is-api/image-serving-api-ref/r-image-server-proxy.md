@@ -5,9 +5,9 @@ title: Proxy server immagini
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Il formato dell’URL per il proxy IS è molto simile alle normali richieste IS.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>Specifica la percentuale della proprietà del supporto incorporato con limite di memoria del dispositivo a cui limitare la dimensione della risposta. Questo si applica solo alle risposte jpg. La qualità dell’immagine viene ridotta finché la dimensione della risposta non rientra nella percentuale specificata. </p></td> 
+  <td class="stentry"> <p>Specifica la percentuale della proprietà del supporto incorporato con limite di memoria del dispositivo a cui limitare la dimensione della risposta. Questo vale solo per le risposte jpg. La qualità dell’immagine viene ridotta finché la dimensione della risposta non rientra nella percentuale specificata. </p></td> 
  </tr> 
 </table>
 

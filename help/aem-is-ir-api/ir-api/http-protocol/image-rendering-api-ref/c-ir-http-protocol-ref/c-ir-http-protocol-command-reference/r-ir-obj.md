@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Selezionare l&#39;oggetto per nome. Seleziona il gruppo di vignettatura specific
  </tr> 
 </table>
 
-I sottogruppi o i singoli oggetti possono essere selezionati utilizzando un percorso di gruppo completo (ovvero specificando il nome del gruppo di destinazione o dell&#39;oggetto preceduto da tutti i gruppi padre, separati da / (barre).
+I sottogruppi o i singoli oggetti possono essere selezionati utilizzando un percorso di gruppo completo, ovvero specificando il nome del gruppo di destinazione o dell&#39;oggetto preceduto da tutti i gruppi padre, separati da / (barre).
 
 Se non viene trovato alcun gruppo/oggetto con il nome specificato, l&#39;azione specificata in `attribute::OnObjFail` viene eseguita.
 

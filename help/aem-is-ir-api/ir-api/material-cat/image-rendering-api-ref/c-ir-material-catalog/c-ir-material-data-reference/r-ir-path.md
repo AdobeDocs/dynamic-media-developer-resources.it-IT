@@ -5,9 +5,9 @@ title: Percorso*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ Stringa di testo. Necessario per i materiali di texture e decalcomanie, facoltat
 
 ## Formati di file supportati {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Media Image Server.
+Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Medie Image Server.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Media pyramid TIFF (PTIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility IC nella documentazione di Image Server.
 
