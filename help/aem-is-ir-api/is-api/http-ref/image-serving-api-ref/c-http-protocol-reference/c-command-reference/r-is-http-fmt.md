@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 2%
+source-wordcount: '904'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Formato immagine di risposta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alfa | avif | eps | f4m | gif-alfa | gif | JPEG | jpeg2000-alfa | jpeg2000 | jpegxr-alfa | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alfa | png | png8-alfa | png8 | swf-alfa | swf | swf3-alfa | swf3 | tif-alfa | tif | alfa-web | webp
+*`format`* - avif-alfa | avif | eps | f4m | gif-alfa | gif | heic | jpeg | jpeg2000-alfa | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alfa | png | png8-alfa | png8 | swf-alfa | swf | swf3-alfa | swf3 | tif-alfa | tif | alfa-web | webp
 
 | *`format`* | Descrizione |
 |---|---|
@@ -26,8 +26,9 @@ Formato immagine di risposta.
 | `avif` | Perdita e senza perdita di avf. |
 | `eps` | PostScript incapsulato binario non compresso. |
 | `f4m` | Formato del manifesto del server di streaming di Flash. |
-| `gif-alpha` | GIF a 2-256 colori più trasparenza basata su colore chiave. |
+| `gif-alpha` | GIF con 2-255 colori più trasparenza chiave-colore. |
 | `gif` | GIF con 2-256 colori. |
+| `heic` | EIC senza perdita di dati. Se non è supportato, questo formato viene scaricato per impostazione predefinita dal browser. |
 | `jpeg` | Lossy JPEG. |
 | `jpeg2000-alpha` | Lossy e lossless JPEG 2000 con canale alfa. |
 | `jpeg2000` | Lossy e lossless JPEG 2000. |
@@ -57,7 +58,7 @@ Formato immagine di risposta.
 | `gray` | Restituisci dati immagine in scala di grigio. |
 | `rgb` | Restituisci dati immagine RGB. |
 
-| *`compression`* – none | lzw | zip | jpeg | lossy | senza perdita |
+| *`compression`* - jpeg | lossy | senza perdita | lzw | nessuno | zip |
 | *`compression`* | Descrizione |
 |---|---|
 | `jpeg` | Compressione JPEG (con perdita di dati). |
