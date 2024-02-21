@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guida di riferimento per i visualizzatori di Dynamic Medie
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Medie da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -738,7 +738,7 @@ ht-degree: 0%
       + [Supporto per il tracciamento di Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [Supporto di tecnologie assistive](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [Supporto di punti attivi e mappe immagine](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [Supporto di punti attivi e mappe immagine](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [Precarica immagine](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + Immagine interattiva {#interactive-images}
