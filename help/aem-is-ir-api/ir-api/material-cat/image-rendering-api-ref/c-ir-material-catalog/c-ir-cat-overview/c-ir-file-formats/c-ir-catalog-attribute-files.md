@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I file di attributi del catalogo sono costituiti da un set di record di testo, s
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> nome </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome attributo; può essere costituito da una o più lettere, numeri, "-" e "_"; senza distinzione tra maiuscole e minuscole. </p> </td> 
+  <td class="stentry"> <p>Nome attributo; può essere costituito da una o più lettere, numeri, - (trattino) e _ (trattino basso); senza distinzione tra maiuscole e minuscole.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> valore </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ I file di attributi del catalogo sono costituiti da un set di record di testo, s
 </table>
 
 * Lo spazio vuoto tra i token è facoltativo.
-* I record con nomi di attributi sconosciuti vengono ignorati dal [!DNL Platform Server].
-* I nomi degli attributi possono essere costituiti da qualsiasi combinazione di lettere ASCII, numeri e &quot;-&quot;, &quot;_&quot; e &quot;.&quot;
+* Il [!DNL Platform Server] ignora i record con nomi di attributi sconosciuti.
+* I nomi degli attributi possono essere costituiti da qualsiasi combinazione di lettere ASCII, numeri e `-`, `_`, e `.` caratteri.
 * Se lo stesso nome di attributo si trova più di una volta nello stesso file di attributi, prevale l’ultimo.
-* Utilizza &#39;#&#39; come primo carattere per contrassegnare qualsiasi record come commento ignorato dal parser.
+* Utilizzare `#` come primo carattere che contrassegna qualsiasi record come commento ignorato dal parser.

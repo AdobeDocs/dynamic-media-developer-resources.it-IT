@@ -5,9 +5,9 @@ title: Opzioni per le vignettature
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Le opzioni seguenti controllano l&#39;elaborazione dei file di vignettatura. Ven
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -mappa immagine</span> </p></td> 
-  <td class="stentry"> <p>Abilita l'estrazione del file di mappa immagine dalla vignettatura. I dati della mappa vengono scritti in un file HTML contenente solo <span class="codeph"> &lt;map&gt;</span> elemento. Il file di output è denominato come il file di immagine di output, ma con un <span class="filepath"> .htm</span> suffisso. Viene generato un messaggio di avviso e non viene creato alcun file se il comando è specificato ma non sono presenti dati di mappa nella vignettatura. </p></td> 
+  <td class="stentry"> <p>Abilita l'estrazione del file di mappa immagine dalla vignettatura. I dati della mappa vengono scritti in un file HTML che contiene solo <span class="codeph"> &lt;map&gt;</span> elemento. Il file di output è denominato come il file di immagine di output, ma con un <span class="filepath"> .htm</span> suffisso. Viene generato un messaggio di avviso e non viene creato alcun file se il comando è specificato ma non sono presenti dati di mappa nella vignettatura. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -profile</span> </p></td> 
@@ -47,7 +47,7 @@ Le opzioni seguenti controllano l&#39;elaborazione dei file di vignettatura. Ven
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -piramide</span> </p></td> 
-  <td class="stentry"> <p>Crea una vignettatura piramidale. Obbligatorio quando le immagini sottoposte a rendering devono essere visualizzate con i visualizzatori zoom di Dynamic Media. Consulta <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Ridimensionamento vignettatura</a> per ulteriori informazioni. </p></td> 
+  <td class="stentry"> <p>Crea una vignettatura piramidale. Obbligatorio quando le immagini sottoposte a rendering devono essere visualizzate con i visualizzatori zoom di Dynamic Medie. Consulta <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Ridimensionamento vignettatura</a> per ulteriori informazioni. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth <span class="varname"> fiala</span></span> </p></td> 

@@ -1,18 +1,18 @@
 ---
 description: Modalità di ripetizione texture. Specifica la modalità di affiancamento delle immagini texture per riempire la superficie di destinazione.
 solution: Experience Manager
-title: Repeat (Ripeti)
+title: Ripeti
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 19%
+source-wordcount: '128'
+ht-degree: 17%
 
 ---
 
-# Repeat (Ripeti){#repeat}
+# Ripeti{#repeat}
 
 Modalità di ripetizione texture. Specifica la modalità di affiancamento delle immagini texture per riempire la superficie di destinazione.
 
@@ -41,7 +41,7 @@ Per i materiali di tessitura ripetibili sono ammessi i seguenti valori:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Un quarto di goccia di carta da parati appeso. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Sfondo da un quarto di goccia appeso. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
@@ -49,15 +49,15 @@ Per i materiali di tessitura ripetibili sono ammessi i seguenti valori:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Appendere carta da parati a mezza goccia. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carta da parati mezza goccia appesa. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Quinto-goccia carta da parati appeso. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carta da parati a quinta goccia appesa. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Invertire lo sfondo appeso. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Invertire carta da parati appesa. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 

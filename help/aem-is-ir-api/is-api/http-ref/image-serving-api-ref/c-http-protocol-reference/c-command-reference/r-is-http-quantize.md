@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tipo </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Imposta su <span class="codeph"> web </span> o <span class="codeph"> mac </span> per scegliere una palette predefinita. </p> <p> <p>Nota: il <span class="codeph"> mac </span> il tipo di pallet è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Imposta su <span class="codeph"> web </span> o <span class="codeph"> mac </span> per scegliere una palette predefinita. </p> <p> <p>Nota: il <span class="codeph"> mac </span> il tipo di pallet è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dithering </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuso|off} </span> </p> <p>Specifica le opzioni di dithering. </p> <p>Imposta su <span class="codeph"> diffondere </span> per la diffusione dell’errore Floyd-Steinberg </p> <p>Imposta su <span class="codeph"> disattivato </span> per disattivare il dithering. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuso|off} </span> </p> <p>Specifica le opzioni di dithering. </p> <p>Imposta su <span class="codeph"> diffondere </span> per la diffusione dell’errore Floyd-Steinberg </p> <p>Imposta su <span class="codeph"> disattivato </span> per disattivare il dithering.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nel <span class="codeph"> adattivo </span> tavolozza. </p> </td> 
+   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nel <span class="codeph"> adattivo </span> tavolozza.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Elenco separato da virgole di colori RGB obbligatori in formato esadecimale6 </p> <p>Consente di specificare i colori da includere in un <span class="codeph"> adattivo </span> tavolozza. Se il numero di colori specificato è minore di <span class="codeph"> <span class="varname"> numColors </span> </span>, i colori aggiuntivi vengono calcolati in base al contenuto dell’immagine. </p> </td> 
+   <td colname="col2"> <p>Elenco separato da virgole di colori RGB obbligatori in formato esadecimale6 </p> <p>Consente di specificare i colori da includere in un <span class="codeph"> adattivo </span> tavolozza. Se il numero di colori specificato è minore di <span class="codeph"> <span class="varname"> numColors </span> </span>, i colori aggiuntivi vengono calcolati in base al contenuto dell’immagine.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Genera una miniatura GIF utilizzando `web` tavolozza e nessun dithering:
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Converti l’immagine in GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:
+Converte l&#39;immagine in un GIF bitonale con trasparenza dei colori chiave. E, forza i colori a bianco e nero:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

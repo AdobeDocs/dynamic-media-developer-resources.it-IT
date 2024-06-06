@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Un quarto di goccia di carta da parati appeso. </p> </td> 
+  <td class="stentry"> <p>Sfondo da un quarto di goccia appeso. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -45,15 +45,15 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Appendere carta da parati a mezza goccia. </p> </td> 
+  <td class="stentry"> <p>Carta da parati mezza goccia appesa. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Quinto-goccia carta da parati appeso. </p> </td> 
+  <td class="stentry"> <p>Carta da parati a quinta goccia appesa. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Inverti lo sfondo. </p> </td> 
+  <td class="stentry"> <p>Inverti lo sfondo appeso. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
