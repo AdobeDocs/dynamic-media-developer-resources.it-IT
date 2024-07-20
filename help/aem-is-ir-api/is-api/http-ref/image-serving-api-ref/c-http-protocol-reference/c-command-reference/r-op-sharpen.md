@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Anche la maschera di livello o la maschera composita viene resa più nitida.
 
 ## Proprietà {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Attributo di livello o attributo di visualizzazione. Si applica al livello corrente o all&#39;immagine della vista finale se `layer=comp`. Ignorato dai livelli degli effetti.
+Attributo di livello o attributo di visualizzazione. Si applica al livello corrente o all&#39;immagine di visualizzazione finale se `layer=comp`. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-665709700fff458e9dbbf8a78e8ecf71}
 

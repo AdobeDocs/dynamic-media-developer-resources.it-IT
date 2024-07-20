@@ -22,7 +22,7 @@ Bandiera.
 
 ## Predefinito {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Ereditato da `default::Sharpen` se non è definita o se è vuota.
+Ereditato da `default::Sharpen` se non definito o se vuoto.
 
 ## Consultate anche {#section-85393c62428f49739a2510f9427d3607}
 

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:Opzioni colore automatico</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opzioni colore automatico</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:OpzioniColoreAutomatico</span> </td> 
    <td colname="col3"> <p>Opzioni di ritaglio automatico dell’immagine (in base al colore). </p> </td> 
   </tr> 
   <tr> 
@@ -56,12 +56,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>cartella IPS per i file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> impostazione e-mail</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Scelta delle impostazioni e-mail. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Indica se includere le sottocartelle durante il caricamento. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporli ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Consulta <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questo consente di sovrapporli ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedere <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -90,13 +90,13 @@ Sintassi
    <td colname="col3"> <p>Opzioni di ritaglio immagine manuale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opzioni multimediali</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura dal video. </p> <p>Consulta <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di impostare una miniatura dal video. </p> <p>Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sovrascrivi</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sovrascrittura</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Opzioni di sovrascrittura caricamento file. </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>URL della destinazione di caricamento file. </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ Sintassi
    <td colname="col3"> <p>Specifica se caricare solo i file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opzioni postScript</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:PostScriptOptions</span> </td> 
    <td colname="col3"> <p>Opzioni per il caricamento di file Post Script sul server immagini. </p> </td> 
   </tr> 
@@ -151,7 +151,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processMetadataFiles</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Indica se elaborare file XML di metadati separati per questo processo. </p> </td> 
   </tr> 
   <tr> 
@@ -166,22 +166,22 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDir</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
-   <td colname="col3"> <p>Directory di caricamento sorgente. </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>Directory di caricamento Source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:NonComprimiOpzioni</span> </td> 
-   <td colname="col3"> <p>Estrai ed elabora il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Consulta <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> AnnullaCompressioneOpzioni</a>. </p> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:UnCompressOptions</span> </td> 
+   <td colname="col3"> <p>Estrai ed elabora il contenuto dei file TAR/ZIP caricati con queste impostazioni facoltative. </p> <p>Vedere <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni della maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Utilizza queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Consulta <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni della maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Utilizza queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Opzione metadati aggiuntiva per tutto il contenuto del processo di caricamento </p> </td> 
   </tr> 
  </tbody> 

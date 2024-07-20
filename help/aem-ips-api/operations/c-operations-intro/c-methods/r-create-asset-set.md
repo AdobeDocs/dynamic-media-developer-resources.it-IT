@@ -8,7 +8,7 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ Sintassi
    <td colname="col4"> Nome risorsa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sottotipo </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Identificatore univoco creato dal client per il tipo di set di risorse. </td> 
@@ -116,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 ## Esempi {#section-fed53089de824d67ab96cd9103d384b4}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <createAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

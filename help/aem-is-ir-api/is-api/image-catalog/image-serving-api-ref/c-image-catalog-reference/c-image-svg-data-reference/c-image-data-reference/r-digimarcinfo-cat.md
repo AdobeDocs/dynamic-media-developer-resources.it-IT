@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,9 @@ Informazioni immagine Digimarc. Abilita l’incorporamento Digimarc e specifica 
 
 Quattro valori interi separati da virgole.
 
-`*`tipo`*, *`flag`*, *`val1`*, *`val2`*`
+`*`type`*, *`flag`*, *`val1`*, *`val2`*`
 
-`*`tipo`*` abilita l&#39;incorporamento Digimarc e specifica il tipo di filigrana:
+`*`type`*` abilita l&#39;incorporamento Digimarc e specifica il tipo di filigrana:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -100,7 +100,7 @@ Quattro valori interi separati da virgole.
  </tbody> 
 </table>
 
-L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipendere da `*`tipo`*`:
+L&#39;interpretazione di `*`val1`*` e `*`val2`*` dipende da `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -157,4 +157,4 @@ Ereditato dall&#39;attributo::DigimarcInfo se il campo non è presente o se è v
 
 ## Consultate anche {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

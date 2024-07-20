@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
@@ -30,9 +30,9 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> oraMiniatura</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Imposta il tempo (in millisecondi dall'inizio del video) per il fotogramma da utilizzare per la miniatura del video. I valori sono compresi tra 0 e la fine del video. <p>Nota: se specificate l'ora in modo errato, il sistema utilizza il primo fotogramma del video per la miniatura. Consulta <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Imposta il tempo (in millisecondi dall'inizio del video) per il fotogramma da utilizzare per la miniatura del video. I valori sono compresi tra 0 e la fine del video. <p>Nota: se specificate l'ora in modo errato, il sistema utilizza il primo fotogramma del video per la miniatura. Vedere <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

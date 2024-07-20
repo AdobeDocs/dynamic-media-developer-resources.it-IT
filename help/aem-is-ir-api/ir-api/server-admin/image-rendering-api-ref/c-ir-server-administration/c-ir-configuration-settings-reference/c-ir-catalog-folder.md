@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Posizione della cartella del catalogo dei materiali (in cui devono trovarsi tutti i file catalog.ini).
 
-Può essere un percorso assoluto o relativo a [!DNL *[!DNL install_folder]*]. Il valore predefinito è [!DNL ./catalog], che corrisponde a [!DNL *[!DNL install_folder]*/catalog].
+Può essere un percorso assoluto o relativo a [!DNL *[!DNL install_folder]*]. Il valore predefinito è [!DNL ./catalog], che corrisponde a [!DNL *[!DNL install_folder]*/catalogo].

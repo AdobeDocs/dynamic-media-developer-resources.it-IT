@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 10%
+source-wordcount: '209'
+ht-degree: 4%
 
 ---
 
@@ -33,8 +33,8 @@ Il visualizzatore supporta i sottotitoli codificati tramite file WebVTT in hosti
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>Allineamento testo </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Controlla l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> mezzo</span>. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> sinistra|destra|centro|inizio|fine</span> </p> </td> 
+   <td colname="col4"> <p> Controlla l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -66,8 +66,8 @@ Altre funzionalità WebVTT presenti nel file WebVTT non sono supportate, ma non 
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Distribuire il file WebVTT mediante Image Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Specifica lo stato predefinito dei sottotitoli (attivato: <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Specifica lo stato predefinito dei sottotitoli (abilitato: <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

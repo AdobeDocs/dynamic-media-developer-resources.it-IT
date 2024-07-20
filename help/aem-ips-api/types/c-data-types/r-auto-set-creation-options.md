@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Array di [!DNL PropertySet] gestisce la definizione degli script di generazione automatica dei set applicati durante il caricamento. |
+| autoSetsArray | `types:HandleArray` | La matrice di [!DNL PropertySet] gestisce la definizione degli script di generazione automatica dei set applicati durante il caricamento. |

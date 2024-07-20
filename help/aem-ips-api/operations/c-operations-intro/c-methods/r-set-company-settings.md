@@ -8,7 +8,7 @@ exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Sintassi
 | iptcExifMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per la mappatura dei metadati IPTC ed EXIF ai campi di metadati IPS. |
 | xmpMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati XMP ai campi di metadati IPS. |
 | diskSpaceWarningMin | `xsd:int` | No | Spazio su disco disponibile minimo (in KB) prima dell&#39;invio di un messaggio di avviso. |
-| emailTrashCleanupWarning | `xsd:boolean` | No | Imposta su `true` per inviare agli amministratori della società una notifica ogni volta che le risorse vengono svuotate dal cestino. |
+| emailTrashCleanupWarning | `xsd:boolean` | No | Impostato su `true` per inviare agli amministratori della società una notifica ogni volta che le risorse vengono svuotate dal cestino. |
 
 **Output (setCompanySettingsReturn)**
 
@@ -49,7 +49,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice imposta la configurazione di un’azienda.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:setCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">

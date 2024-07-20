@@ -8,7 +8,7 @@ exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 12%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Colore di primo piano. Specifica il colore dei materiali colorati in tinta unita
 
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> colore</span> </p> </td> 
   <td class="stentry"> <p>Valore di colore RGB o grigio. </p></td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ Attributo materiale. Obbligatorio per i materiali colorati solidi, facoltativo p
 
 ## Predefinito {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` Se il materiale è basato su una voce di catalogo. Altrimenti, `none` senza colorazione.
+`catalog::Color` Se il materiale è basato su una voce di catalogo. In caso contrario, `none` per non colorazione.
 
 ## Consultate anche {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 

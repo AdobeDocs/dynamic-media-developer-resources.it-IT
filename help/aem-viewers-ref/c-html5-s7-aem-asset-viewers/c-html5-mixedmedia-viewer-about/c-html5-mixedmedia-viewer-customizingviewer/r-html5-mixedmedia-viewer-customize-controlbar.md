@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto della barra di contr
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della barra di controllo. </p> </td> 
   </tr> 
  </tbody> 

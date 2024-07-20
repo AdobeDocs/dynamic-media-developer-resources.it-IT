@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -43,7 +43,7 @@ Sintassi
 
 In questo esempio di codice viene restituito un array di handle utente contenente tutti gli utenti che appartengono a un gruppo specifico.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

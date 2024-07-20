@@ -8,7 +8,7 @@ exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -47,7 +47,7 @@ Sintassi
 
 Questo esempio di codice rinomina un progetto e restituisce l&#39;handle del progetto.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <renameProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

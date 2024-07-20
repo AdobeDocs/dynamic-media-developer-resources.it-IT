@@ -8,7 +8,7 @@ exl-id: cc34087a-8a19-4ead-b510-f2466efc44a9
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Valore stringa di testo. Può includere qualsiasi carattere valido nei percorsi 
 
 ## Predefinito {#section-e0ed902557684345850b86672b5dbe5b}
 
-Nessuno. Ogni catalogo deve avere un `catalog::RootId` valore. default.ini in genere presenta un valore vuoto `catalog::RootId`.
+Nessuno. Ogni catalogo deve avere un valore `catalog::RootId` univoco. default.ini in genere ha un `catalog::RootId` vuoto.
 
 ## Consultate anche {#section-4670832574f54f9080bb485b047efd5b}
 

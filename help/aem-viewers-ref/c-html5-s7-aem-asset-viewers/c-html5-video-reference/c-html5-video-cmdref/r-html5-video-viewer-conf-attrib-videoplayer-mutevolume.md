@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Attributo di configurazione per Visualizzatore video.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità di disattivazione audio per la riproduzione video al caricamento iniziale. Se impostato su <span class="codeph"> 1 </span> il volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, la disattivazione dell’audio della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità di disattivazione audio per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, la disattivazione dell’audio della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

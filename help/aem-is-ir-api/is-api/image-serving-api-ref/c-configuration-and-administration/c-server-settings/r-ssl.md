@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 4a5c52cc-de47-48e0-ac92-6ee66a58a7ea
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '86'
+ht-degree: 3%
 
 ---
 
@@ -30,4 +30,4 @@ La password per il file keystore. Il valore predefinito è `scene7`.
 
 ## TC::keystoreType - Tipo keystore {#section-8f263e1ba67740728cd39181960d7c7d}
 
-Seleziona il tipo di keystore. &#39; `Java'` (impostazione predefinita) e &#39; `PKCS12`&quot; sono supportati.
+Seleziona il tipo di keystore. Sono supportati &#39; `Java'` (impostazione predefinita) e &#39; `PKCS12`&#39;.

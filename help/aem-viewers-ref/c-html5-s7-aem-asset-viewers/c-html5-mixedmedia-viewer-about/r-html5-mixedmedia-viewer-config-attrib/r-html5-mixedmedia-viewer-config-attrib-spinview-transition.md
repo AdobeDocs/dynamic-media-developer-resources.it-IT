@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: fcffe282-65a5-4093-8838-71a64085b387
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *`tempo`*[, *`andamento`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`ora`*[, *`andamento`*]`
 
 <table id="table_5B8094216AE94DC59671E06DB941A366"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tempo</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> volta</span></span> </p> </td> 
    <td colname="col2"> <p> Specifica il tempo in secondi impiegato dall'animazione per un'azione di incremento di zoom. </p> </td> 
   </tr> 
   <tr> 

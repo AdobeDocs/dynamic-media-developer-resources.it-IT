@@ -31,7 +31,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Parametri metadati da eliminare. </p> </td> 
   </tr> 
  </tbody> 

@@ -20,7 +20,7 @@ Sfoca immagine. Applica un filtro di sfocatura ai dati immagine.
 
 <table id="simpletable_1DD41D819BE74130A77ECFC28486F70A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> raggio</span> </p> </td> 
+  <td class="stentry"> <p>Raggio <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Raggio filtro sfocatura in pixel (reale 0..100). </p></td> 
  </tr> 
 </table>
@@ -37,6 +37,6 @@ Comando Livello. Si applica al livello corrente o all&#39;immagine composita se 
 
 ## Esempio {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Sfoca lo sfondo di un&#39;immagine. Viene fatto riferimento a un&#39;immagine maschera separata da `catalog::MaskPath`. Tieni presente che `layer=0`deve essere specificato in modo esplicito, altrimenti `op_blur` all&#39;intera immagine composita.
+Sfoca lo sfondo di un&#39;immagine. `catalog::MaskPath` fa riferimento a un&#39;immagine di maschera separata. `layer=0` deve essere specificato in modo esplicito, altrimenti `op_blur` verrà applicato all&#39;intera immagine composita.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

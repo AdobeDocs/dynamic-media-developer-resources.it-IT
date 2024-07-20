@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 5%
+source-wordcount: '55'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +25,9 @@ Array di messaggi che rispondono a un URL fornito nella richiesta di annullament
 <table id="table_C8AEAC1759E144499557ECEBDAF740B9"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nome</b> </th> 
-   <th class="entry"> <b> Tipo</b> </th> 
-   <th class="entry"> <b> Descrizione</b> </th> 
+   <th class="entry"> Nome <b></b> </th> 
+   <th class="entry"> Tipo <b></b> </th> 
+   <th class="entry"> Descrizione <b></b> </th> 
   </tr> 
  </thead>
  <tbody> 

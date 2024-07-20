@@ -32,7 +32,7 @@ Il comando o il materiale, o entrambi, vengono specificati dopo questo comando d
   <td class="stentry"> <p>Selezionare l'area di decalcomania dell'oggetto selezionato. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sub.md#reference-3cedba817f3c401495ba32bd1bf9b383" type="reference" format="dita" scope="local"> sub</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sub.md#reference-3cedba817f3c401495ba32bd1bf9b383" type="reference" format="dita" scope="local"> secondario</a></span> </p></td> 
   <td class="stentry"> <p>Selezionare una sottoarea del gruppo o dell'oggetto selezionato. </p></td> 
  </tr> 
 </table>

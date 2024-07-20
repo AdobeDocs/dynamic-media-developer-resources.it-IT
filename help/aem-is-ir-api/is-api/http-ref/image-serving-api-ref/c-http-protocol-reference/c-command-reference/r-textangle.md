@@ -29,11 +29,11 @@ I valori positivi ruotano il testo in senso orario; `textAngle=90` disegna il te
 
 ## Proprietà {#section-6d586a632daa4261a8ce62db56140b36}
 
-Attributo livello. Applicabile a `layer=0` se `layer=comp`. Ignorato se `textPs=` non è specificato per questo livello o se `textPath=` è specificato.
+Attributo livello. Si applica a `layer=0` se `layer=comp`. Ignorato se `textPs=` non è specificato per questo livello o se `textPath=` è specificato.
 
 ## Predefinito {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` senza rotazione.
+`textAngle=0` per nessuna rotazione.
 
 ## Consultate anche {#section-dccc29ff33704061b2519b56b7be45fd}
 

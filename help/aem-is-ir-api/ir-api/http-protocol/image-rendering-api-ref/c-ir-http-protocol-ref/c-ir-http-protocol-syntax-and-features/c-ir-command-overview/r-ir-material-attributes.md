@@ -34,7 +34,7 @@ Questi attributi definiscono i materiali da applicare all&#39;oggetto selezionat
   <td class="stentry"> <p>Colore sottrattivo per un materiale colorabile. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> ancoraggio</a></span> </p></td> 
+  <td class="stentry"> <p>Ancoraggio <span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"></a></span> </p></td> 
   <td class="stentry"> <p>Punto di ancoraggio texture/decalcomania (punto attivo). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,11 +42,11 @@ Questi attributi definiscono i materiali da applicare all&#39;oggetto selezionat
   <td class="stentry"> <p>Allineamento della trama tra gli oggetti. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> repeat</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> ripetizione</a></span> </p></td> 
   <td class="stentry"> <p>Modalità di ripetizione per texture ripetibili. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> acuto</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> diesis</a></span> </p></td> 
   <td class="stentry"> <p>Nitidezza dei materiali. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Questi attributi definiscono i materiali da applicare all&#39;oggetto selezionat
   <td class="stentry"> <p>Immagine mappa lucida. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> ruvido</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> approssimativo</a></span> </p></td> 
   <td class="stentry"> <p>Rugosità della superficie. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -70,7 +70,7 @@ Questi attributi definiscono i materiali da applicare all&#39;oggetto selezionat
   <td class="stentry"> <p>Tipo di materiale di superficie. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> beccaccia</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> gruppo</a></span> </p></td> 
   <td class="stentry"> <p>Spessore e colore della malta delle sezioni. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -86,7 +86,7 @@ Questi attributi definiscono i materiali da applicare all&#39;oggetto selezionat
   <td class="stentry"> <p>Angolo di rotazione texture/decalcomania. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> dimensione</a></span> </p></td> 
+  <td class="stentry"> <p>Dimensione <span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"></a></span> </p></td> 
   <td class="stentry"> <p>Dimensione decalcomania. </p></td> 
  </tr> 
  <tr class="strow"> 

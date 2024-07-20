@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## Visualizzatore video HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` Il modificatore è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
+* Il modificatore `IntialBitRate` è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
 * Riproduzione progressiva OGG e WebM non supportata.
 * Il ridimensionamento del browser causa la visualizzazione del lettore video con dimensioni non corrette (incluse le impostazioni di visualizzazione del Pannello di controllo Campaign di Windows®).
 * Le ricerche video con lo streaming HLS su Safari non sono coerenti.

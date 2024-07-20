@@ -8,7 +8,7 @@ exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice rimuove un utente da un’azienda. Ometti l’handle utente facoltativo per rimuovere tutti gli utenti dalle aziende specificate nell’array dell’handle aziendale.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -25,4 +25,4 @@ Nome della macro di comando.
  </tr> 
 </table>
 
-Il comando *`name`* non fa distinzione tra maiuscole e minuscole e può essere costituito da qualsiasi combinazione di lettere, numeri, `-` (trattino), `_` (trattino basso), e `.` (punto) caratteri.
+Il comando *`name`* non fa distinzione tra maiuscole e minuscole e può essere costituito da qualsiasi combinazione di lettere, numeri, `-` (trattino), `_` (trattino basso) e `.` (punto) caratteri.

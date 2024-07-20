@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Utilizzare i seguenti comandi per la codifica dei caratteri.
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>Singolo carattere Unicode. </p> </td> 
-   <td> <p><span class="varname"> N</span> è un numero intero a 2 byte con segno, pertanto un valore Unicode maggiore di 32767 deve essere espresso come numero negativo. </p> </td> 
+   <td> <p><span class="varname"> N</span> è un numero intero a 2 byte con segno e pertanto un valore Unicode maggiore di 32767 deve essere espresso come numero negativo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
@@ -46,7 +46,7 @@ Utilizzare i seguenti comandi per la codifica dei caratteri.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \che </span> </td> 
+   <td> <span class="codeph"> \hich </span> </td> 
    <td> <p>Caratteri dell'area ANSI alta. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 

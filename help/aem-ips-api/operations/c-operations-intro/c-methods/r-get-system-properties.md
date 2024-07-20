@@ -8,7 +8,7 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 14%
+ht-degree: 9%
 
 ---
 
@@ -40,13 +40,13 @@ Nessuno.
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| propertyArray | `types:PropertyArray` | Sì | Matrice di proprietà di sistema. |
+| propertyArray | `types:PropertyArray` | Sì | Array delle proprietà di sistema. |
 
 ## Esempi {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
 In questo esempio di codice viene restituita una matrice di proprietà di sistema. Risposta troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getSystemPropertiesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-09-10"/>

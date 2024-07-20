@@ -8,7 +8,7 @@ exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -46,13 +46,13 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestisci per l'azienda proprietaria della risorsa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle risorsa. </p> </td> 
   </tr> 
@@ -90,7 +90,7 @@ Sintassi
    <td colname="col4"> <p>Array di risorse set e template contenenti la risorsa specificata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Array di risorse contenute nel set o nella risorsa modello specificato. </p> </td> 
@@ -117,16 +117,16 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Il <span class="codeph"> generatorArray</span> elenca la modalità di creazione di questa risorsa. Ad esempio, se <span class="codeph"> assetHandler</span> era una pagina di immagine di un PDF, che conteneva lo strumento processore PDF e faceva riferimento alla risorsa PdfFile. </p> </td> 
+   <td colname="col4"> <p>GeneratorArray</span> di <span class="codeph"> elenca la modalità di creazione della risorsa. Se ad esempio <span class="codeph"> assetHandler</span> è una pagina immagine di un PDF, lo strumento processore PDF conterrà un riferimento alla risorsa PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Il <span class="codeph"> generatedArray</span> inverte la modalità di creazione di questa risorsa. Ad esempio, il <span class="codeph"> generatedArray</span> potrebbe contenere l’elenco delle immagini generate da questo <span class="codeph"> assetHandler</span> se si trattava di una risorsa PdfFile. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span> inverte la modalità di creazione di questa risorsa. Ad esempio, <span class="codeph"> generatedArray</span> potrebbe contenere l'elenco delle immagini generate da questo assetHandler <span class="codeph"></span> se si tratta di una risorsa PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> risorsa miniatura</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:Risorsa</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Informazioni sulla risorsa miniatura associate alla risorsa richiesta. Se non viene assegnata alcuna risorsa miniatura, il campo viene omesso nella risposta. </p> </td> 
@@ -134,13 +134,13 @@ Sintassi
  </tbody> 
 </table>
 
-Puoi utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, `GenerationInfo` elementi restituiti in `generatorArray` o `generatedArray` impostazione predefinita per includere sia il record originatore che il record risorsa generato. Per un tipo di risorsa PDF, questo comportamento genera più copie indesiderate del record di risorsa PDF &quot;originator&quot; nella risposta. Puoi eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, puoi specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
+È possibile utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, gli elementi `GenerationInfo` restituiti in `generatorArray` o `generatedArray` sono predefiniti per includere sia il record originatore che il record risorsa generato. Per un tipo di risorsa PDF, questo comportamento genera più copie indesiderate del record di risorsa PDF &quot;originator&quot; nella risposta. È possibile eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, è possibile specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
 
 ## Esempi {#section-8946ea4b9cb94912a8408249c897f192}
 
-L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore di un&#39;immagine estratta da un PDF. Include un `containerArray` di lunghezza uno con un elemento che include `assetHandle` del PDF.
+L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore di un&#39;immagine estratta da un PDF. Include un `containerArray` di lunghezza 1 con un elemento che include il `assetHandle` del PDF.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -174,7 +174,7 @@ L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore 
 
 L’inverso dell’esempio precedente è il seguente:
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -253,9 +253,9 @@ L’inverso dell’esempio precedente è il seguente:
 </soapenv:Envelope>
 ```
 
-In questo esempio successivo, viene aggiunto un gruppo a un’azienda con `groupHandleArray`. Questo esempio utilizza un solo gruppo.
+In questo esempio successivo, viene aggiunto un gruppo a un&#39;azienda con `groupHandleArray`. Questo esempio utilizza un solo gruppo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Medie Image Server 6.7.1 o versione successiva.
-* I visualizzatori HTML5 richiedono le librerie SDK JavaScript lato server 3.11.5 o successive.
-* *Invia un&#39;e-mail a un amico* le funzioni social richiedono s7ondemand 5.0.9 o versione successiva.
-* Visualizzatore eCatalog - [Menu a comparsa del pannello Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) il supporto richiede info server 2.1.8 o versione successiva.
+* I visualizzatori HTML5 richiedono le librerie lato server SDK JavaScript 3.11.5 o versioni successive.
+* *Per inviare un messaggio e-mail a un amico* le funzionalità social richiedono s7ondemand 5.0.9 o versione successiva.
+* Visualizzatore eCatalog - [Il supporto per la finestra a comparsa del pannello Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) richiede il server informazioni 2.1.8 o versione successiva.
 * I componenti della funzione di ricerca richiedono s7search 2.3.0 o versione successiva.
 
 ## Requisiti di sistema dei visualizzatori {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -42,33 +42,33 @@ Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
    * Android™ OS 4.x
    * BlackBerry® 10 sui browser nativi. È supportata solo la riproduzione di video.
    * Chrome 82
-   * Bordo
+   * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
+   * IOS6
    * iPad 2 (solo browser Safari e Chrome)
    * iPhone 3GS
    * Safari 11
 * Internet Explorer su dispositivi mobili non è supportato.
-* *VisualizzatorePanoramico* è supportato nelle seguenti versioni di browser/piattaforma o successive:
+* *PanoramicViewer* è supportato dalle seguenti versioni di browser/piattaforma o successive:
    * Android™ 4.4 (solo dispositivi telefonici)
    * Chrome 82
-   * Bordo
+   * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Visualizzatore video360i* e *DimensionalViewer* è supportato nelle seguenti versioni di browser/piattaforma o successive:
+* *Video360Viewer* e *DimensionalViewer* sono supportati nelle seguenti versioni di browser/piattaforma o successive:
    * Android™ 5 (solo dispositivi telefonici)
    * Chrome 82
-   * Bordo
+   * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
 * *ZoomVerticalViewer* è supportato nelle seguenti versioni di browser/piattaforma o successive:
    * Android™ 4.x
    * Chrome 82
-   * Bordo
+   * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10

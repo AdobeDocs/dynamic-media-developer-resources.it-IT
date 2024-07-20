@@ -47,19 +47,19 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>companyHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle dell'azienda a cui appartiene la cartella. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle della risorsa da eliminare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Metadati da eliminare dalla risorsa. </p> </td> 
   </tr> 

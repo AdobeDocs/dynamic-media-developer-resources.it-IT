@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore carosello.
+description: Riferimento API di JavaScript per il visualizzatore carosello.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -8,17 +8,17 @@ exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API di JavaScript per il visualizzatore carosello.
 
-` setAsset( *`asset`*)`
+` setAsset( *`risorsa`*)`
 
-Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
+Imposta la nuova risorsa. È possibile chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
 Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} ID nuova risorsa. </p> <p>Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td>
+   <td colname="col2"> <p>ID nuova risorsa {<span class="codeph"> String</span>}. </p> <p>Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td>
   </tr>
  </tbody>
 </table>

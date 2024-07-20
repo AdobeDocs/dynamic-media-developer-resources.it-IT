@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 1%
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
@@ -31,15 +31,15 @@ L’aspetto del contenitore delle miniature è controllato dal seguente selettor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Offset verticale del contenitore delle miniature dalla parte superiore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p>Il margine superiore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p>Il margine sinistro. </p> </td> 
   </tr> 
   <tr> 
@@ -47,17 +47,17 @@ L’aspetto del contenitore delle miniature è controllato dal seguente selettor
    <td colname="col2"> <p>Il margine destro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore </span> </p> </td> 
    <td colname="col2"> <p>Il margine inferiore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare le miniature in modo che abbiano una distanza di 32 pixel dalla parte superiore, 5 margini pixel a sinistra e a destra e 8 margini pixel nella parte inferiore, con `0xDDDDDD` sfondo.
+Esempio: per impostare le miniature in modo che abbiano uno scostamento di 32 pixel dalla parte superiore, margini di 5 pixel a sinistra e a destra e margini di 8 pixel nella parte inferiore, con sfondo `0xDDDDDD`.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -109,11 +109,11 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
    <td colname="col2"> <p>Bordo della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ Sui dispositivi touch, quando viene ruotato in modalità verticale, lo spettator
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature, e `state="over"` al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio: per impostare miniature di 120 x 85 pixel con sfondo bianco, bordo standard grigio chiaro e bordo selezionato grigio scuro.
 
@@ -160,7 +160,7 @@ L’aspetto dell’etichetta delle miniature è controllato dal seguente seletto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
@@ -192,19 +192,19 @@ Se sono presenti più miniature di quelle che possono rientrare verticalmente ne
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> La barra di scorrimento verticale si sposta dalla parte superiore dell'area delle miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p>La barra di scorrimento verticale si sposta dalla parte inferiore dell'area delle miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p> La barra di scorrimento orizzontale si sposta dal bordo destro dell'area delle miniature. </p> </td> 
   </tr> 
  </tbody> 
@@ -234,11 +234,11 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del brano della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del brano della barra di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
@@ -266,11 +266,11 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pollice della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
@@ -278,23 +278,23 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
    <td colname="col2"> <p>Spaziatura verticale tra la parte superiore del brano della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento inferiore </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra la parte inferiore della traccia della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pollice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi agli stati dei pollici `up`, `down`, `over`, e `disabled`.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati miniatura `up`, `down`, `over` e `disabled`.
 
 Esempio: per impostare una barra di scorrimento di 28 x 45 pixel, con margini di 10 pixel in alto e in basso e un disegno diverso per ogni stato.
 
@@ -327,7 +327,7 @@ L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà. Al contrario, la logica di visualizzazione li posiziona automaticamente.
+Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica di visualizzazione li posiziona automaticamente.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,29 +338,29 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pollice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questi pulsanti supportano `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse ai diversi stati dei pulsanti `up`, `down`, `over`, e `disabled`.
+>Questi pulsanti supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse ai diversi stati dei pulsanti `up`, `down`, `over` e `disabled`.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare pulsanti di scorrimento di 28 x 32 pixel con grafica diversa per ogni stato.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal Visualizzatore video ritaglio avanzato sono soggetti a localizzazione. Questo contenuto include descrizioni con gli strumenti per gli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non può essere riprodotto.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato per le impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni locali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna impostazione locale.
 
-Il codice della pagina web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore di `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, è possibile passare l’oggetto di localizzazione chiamando `setLocalizedTexts(localizationInfo)` metodo.
+Il codice della pagina Web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI:
 
@@ -86,7 +86,7 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Etichetta della manopola del dispositivo di scorrimento del volume esposta tramite ARIA <span class="codeph"> aria-valuetext </span> attributo. </p> </td> 
+   <td colname="col2"> <p> Etichetta della manopola del cursore del volume esposta tramite l’attributo aria-valuetext </span> di ARIA <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -121,11 +121,11 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del pulsante di chiusura in alto a destra della finestra di dialogo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS </span> </p> </td> 
    <td colname="col2"> <p>Descrizione del messaggio di errore visualizzato in caso di formato non corretto dell’indirizzo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.TO </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione e-mail <span class="codeph">.TO </span> </p> </td> 
    <td colname="col2"> <p>Etichetta per il campo di input "A". </p> </td> 
   </tr> 
   <tr> 
@@ -133,15 +133,15 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del pulsante Aggiungi un altro indirizzo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.ADD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.AGGIUNGI </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Aggiungi un altro indirizzo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione e-mail <span class="codeph">.DA </span> </p> </td> 
    <td colname="col2"> <p>Etichetta per il campo di input "Da". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.MESSAGGIO </span> </p> </td> 
    <td colname="col2"> <p>Etichetta per il campo di input "Messaggio". </p> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del pulsante di invio del modulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.SEND_SUCCESS </span> </p> </td> 
    <td colname="col2"> <p>Messaggio di conferma visualizzato quando l’e-mail è stata inviata correttamente. </p> </td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione comando per l'intestazione della finestra di dialogo Incorpora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> IncorporaCondividi.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> IncorporaShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
    <td colname="col2"> <p>Descrizione del pulsante di chiusura superiore destro della finestra di dialogo Incorpora. </p> </td> 
   </tr> 
   <tr> 
@@ -201,7 +201,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Etichetta per la casella combinata dimensione incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> IncorporaCondivisione.ANNULLA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CondivisioneIncorporata.ANNULLA </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -237,7 +237,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CondivisioneCollegamenti.ANNULLA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ANNULLA </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Didascalia del pulsante Seleziona tutto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AZIONE LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> AZIONE LINKShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Descrizione del pulsante Seleziona tutto. </p> </td> 
   </tr> 
   <tr> 
@@ -261,7 +261,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del pulsante Condivisione Twitter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERRORE </span> </p> </td> 
    <td colname="col2"> <p>Descrizione del messaggio di errore visualizzato quando non è possibile riprodurre il video. </p> </td> 
   </tr> 
  </tbody> 

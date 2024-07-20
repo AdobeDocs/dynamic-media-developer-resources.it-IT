@@ -8,7 +8,7 @@ exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ File di vignettatura. Specifica la vignettatura da utilizzare per la richiesta.
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID catalogo materiale (abbinato a <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID catalogo materiale (corrisponde all'attributo <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ID vignettatura (corrisponde a <span class="codeph"> vignettatura::Id</span>). </p></td> 
+  <td class="stentry"> <p>ID vignettatura (corrisponde alla vignettatura <span class="codeph">::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
@@ -35,7 +35,7 @@ File di vignettatura. Specifica la vignettatura da utilizzare per la richiesta.
 
 È possibile specificare una voce di mappa vignettatura o un file di vignettatura. Gli URL remoti non sono consentiti.
 
-`vignette=` Può essere utilizzato in alternativa alla specifica della vignettatura nel percorso dell’URL della richiesta. Utilizzato per specificare le vignettature tramite variabili nei modelli.
+`vignette=` può essere utilizzato come alternativa alla specifica della vignettatura nel percorso URL della richiesta. Utilizzato per specificare le vignettature tramite variabili nei modelli.
 
 Se *`catId`* non è specificato, viene utilizzato il catalogo di sessione.
 

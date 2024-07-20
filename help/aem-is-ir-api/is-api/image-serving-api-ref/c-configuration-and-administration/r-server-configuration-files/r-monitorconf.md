@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 09c30680-dd9f-4744-b5ec-105721058883
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contiene le impostazioni per il sistema di monitoraggio/avviso.
 
-Questo file è un file di proprietà JAVA. Fare attenzione a seguire le convenzioni appropriate; altrimenti [!DNL Platform Server] potrebbe non riuscire ad avviarsi. Si noti in particolare che è necessario utilizzare una doppia barra rovesciata &quot;\\&quot; o una singola barra &quot;/&quot; al posto della barra rovesciata &quot;\&quot; nei percorsi dei file di Windows, poiché la barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
+Questo file è un file di proprietà JAVA. Fare attenzione a seguire le convenzioni appropriate. In caso contrario, [!DNL Platform Server] potrebbe non essere avviato. Si noti in particolare che è necessario utilizzare una doppia barra rovesciata &quot;\\&quot; o una singola barra &quot;/&quot; al posto della barra rovesciata &quot;\&quot; nei percorsi dei file di Windows, poiché la barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
 
 Le modifiche apportate al file hanno effetto poco dopo il salvataggio.
 

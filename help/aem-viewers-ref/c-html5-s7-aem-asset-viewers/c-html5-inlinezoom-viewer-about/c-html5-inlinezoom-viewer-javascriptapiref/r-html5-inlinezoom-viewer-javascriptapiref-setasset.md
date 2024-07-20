@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Riferimento API JavaScript per il visualizzatore zoom in linea.
+description: Riferimento API di JavaScript per il visualizzatore zoom in linea.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -8,26 +8,26 @@ exl-id: 62b46ad5-90b7-49e1-a426-87fbe956f07e
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # setAsset{#setasset}
 
-Riferimento API JavaScript per il visualizzatore zoom in linea.
+Riferimento API di JavaScript per il visualizzatore zoom in linea.
 
-` setAsset( *`asset`*)`
+` setAsset( *`risorsa`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risorsa</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} ID nuova risorsa, set di immagini esplicito o set di immagini esplicito con modificatori Image Server specifici per fotogramma, con modificatori Image Server globali opzionali aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} ID nuova risorsa, set di immagini esplicito o set di immagini esplicito con modificatori Image Server specifici per frame, con modificatori Image Server globali facoltativi aggiunti dopo <span class="codeph"> ?</span>. </p> <p> Le immagini che utilizzano IR (Image Rendering) o UGC (User-Generated Content) non sono supportate da questo visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta la nuova risorsa. Puoi chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
+Imposta la nuova risorsa. È possibile chiamare questo parametro in qualsiasi momento, prima o dopo `init()`. Se viene chiamato dopo `init()`, il visualizzatore scambia la risorsa in fase di runtime.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

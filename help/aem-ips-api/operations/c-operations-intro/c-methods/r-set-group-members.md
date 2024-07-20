@@ -8,7 +8,7 @@ exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice imposta l&#39;appartenenza al gruppo per un singolo utente.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:setGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

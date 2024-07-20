@@ -8,7 +8,7 @@ exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Handle risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL createUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Indirizzo e-mail dell’utente che ha creato la risorsa. </td> 
   </tr> 
   <tr> 
@@ -71,37 +71,37 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Restituisce il nome del file virtuale. Il percorso completo del file virtuale è <span class="codeph"> cartella</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Cartella che contiene una risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Gestisci la cartella principale della risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> testo:fontInfo</span> </td> 
+   <td colname="col2"> Tipo <span class="codeph">:fontInfo</span> </td> 
    <td colname="col3"> Proprietà di una risorsa font. </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -121,12 +121,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> URL relativo che rappresenta una visualizzazione in miniatura della risorsa. </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModifyUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Indirizzo e-mail dell’ultimo utente che ha modificato la risorsa. </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -166,12 +166,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL name]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nome risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -181,32 +181,32 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL projects]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Elenco dei nomi dei progetti. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -221,13 +221,13 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL subType]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
-   <td colname="col3">Sottotipo di risorsa generico che supporta i valori dei sottotipi (ad esempio, <span class="codeph"> Set risorse</span>). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Sottotipo di risorsa generico che supporta i valori del sottotipo (ad esempio, <span class="codeph"> AssetSet</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
@@ -241,18 +241,18 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:InfoModello</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:TemplateInfo</span> </td> 
    <td colname="col3"> Proprietà di una risorsa modello. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Indica se una risorsa si trova nel cestino o è attiva (consulta "Stato cestino" per i valori). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
-   <td colname="col3">Tipo di risorsa. Consulta <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipi di risorse</a> per i valori. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Tipo di risorsa. Vedere <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> tipi di risorse</a> per i valori. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -261,7 +261,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> <p>Proprietà di una risorsa video. </p> </td> 
   </tr> 
   <tr> 
@@ -276,12 +276,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:InformazioniVignettatura</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:VignetteInfo</span> </td> 
    <td colname="col3"> Proprietà di una risorsa di vignettatura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL watermarkInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:Informazioni filigrana</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:WatermarkInfo</span> </td> 
    <td colname="col3"> Proprietà di una risorsa filigrana. </td> 
   </tr> 
   <tr> 
@@ -291,7 +291,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

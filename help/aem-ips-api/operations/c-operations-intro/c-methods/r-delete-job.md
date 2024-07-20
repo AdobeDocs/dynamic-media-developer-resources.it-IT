@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -46,7 +46,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice elimina un processo in esecuzione o pianificato per l&#39;esecuzione in IPS. Richiede un handle di processo che è necessario ottenere da un&#39;altra operazione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deleteJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

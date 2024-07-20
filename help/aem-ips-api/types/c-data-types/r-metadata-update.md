@@ -33,12 +33,12 @@ Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetM
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Handle campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valore</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valore di aggiornamento metadati. </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Imposta i valori dei metadati per una risorsa specifica utilizzata con setAssetM
    <td colname="col3"> Valore metadati doppio (solo per campi di tipo float). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dataVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Valore dei metadati della data (solo per campi di tipo data). </td> 
   </tr> 

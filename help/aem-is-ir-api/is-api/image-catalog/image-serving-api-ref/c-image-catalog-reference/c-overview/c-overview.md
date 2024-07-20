@@ -29,8 +29,8 @@ Ogni catalogo immagini è costituito da un file di attributi di catalogo obbliga
 
 I file di dati del catalogo sono associati ai cataloghi di immagini tramite riferimenti di file nel file di attributi del catalogo. Lo stesso file di dati di catalogo può essere condiviso da più cataloghi di immagini.
 
-I file degli attributi del catalogo devono avere [!DNL .ini] suffisso di file e deve trovarsi nel [!DNL Platform Server]Cartella del catalogo di ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al [!DNL Platform Server].
+I file degli attributi del catalogo devono avere un suffisso di file [!DNL .ini] e devono trovarsi nella cartella del catalogo di [!DNL Platform Server] ( `PlatformServer::catalog.rootPath`). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile a [!DNL Platform Server].
 
-Questo documento descrive il formato di file del catalogo immagini per il sistema Dynamic Media Image Server. Il pubblico a cui si rivolge è costituito da programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Media Image Server per un’applicazione web o personalizzata.
+Questo documento descrive il formato di file del catalogo immagini per il sistema Dynamic Medie Image Server. Il pubblico a cui si rivolge è costituito da programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Medie Image Server per un’applicazione web o personalizzata.
 
-Si presume che il lettore abbia generalmente familiarità con il sistema Dynamic Media Image Server, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
+Si presume che il lettore abbia generalmente familiarità con il sistema Dynamic Medie Image Server, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.

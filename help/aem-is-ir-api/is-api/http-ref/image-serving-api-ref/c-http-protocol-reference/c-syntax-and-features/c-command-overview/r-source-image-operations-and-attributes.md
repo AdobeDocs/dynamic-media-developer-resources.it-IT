@@ -1,7 +1,7 @@
 ---
 description: Questi comandi si applicano alle immagini sorgente utilizzate nelle richieste semplici o nei livelli immagine, nonché alle maschere collegate ai livelli colore a tinta unita.
 solution: Experience Manager
-title: Operazioni per l'immagine sorgente
+title: Operazioni per immagini Source
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# Operazioni per l&#39;immagine sorgente{#source-image-operations}
+# Operazioni per immagini Source{#source-image-operations}
 
 Questi comandi si applicano alle immagini sorgente utilizzate nelle richieste semplici o nei livelli immagine, nonché alle maschere collegate ai livelli colore a tinta unita.
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c" type="reference" format="dita" scope="local"> ancoraggio</a> </p></td> 
+  <td class="stentry"> <p>Ancoraggio <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c" type="reference" format="dita" scope="local"></a> </p></td> 
   <td class="stentry"> <p>Imposta il punto di ancoraggio dell'immagine di origine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> ritagliare</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> ritaglio</a> </p></td> 
   <td class="stentry"> <p>Ritaglia o estende l'immagine sorgente. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> maschera</a> </p></td> 
+  <td class="stentry"> <p>Maschera <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"></a> </p></td> 
   <td class="stentry"> <p>Specifica una maschera immagine di origine separata. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +38,7 @@ Questi comandi si applicano alle immagini sorgente utilizzate nelle richieste se
   <td class="stentry"> <p>Ridimensiona l'immagine sorgente in base alla risoluzione. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> scale</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> scala</a> </p></td> 
   <td class="stentry"> <p>Ridimensiona l'immagine sorgente utilizzando il fattore di scala. </p></td> 
  </tr> 
 </table>

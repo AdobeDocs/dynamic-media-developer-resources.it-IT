@@ -20,14 +20,14 @@ Questo parametro:
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ID lavoro </span> </p> </td> 
   <td class="stentry"> <p>ID processo ottenuto al momento dell’invio. </p> </td> 
  </tr> 
 </table>
 
 Restituisce:
 
-Stato dettagliato del processo in formato XML; errore se `jobid` non è valido o il processo è stato eliminato.
+Stato dettagliato del processo in formato XML. Errore se `jobid` non è valido o se il processo è stato eliminato.
 
 ## Esempio {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

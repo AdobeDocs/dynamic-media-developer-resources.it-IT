@@ -8,7 +8,7 @@ exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Gestisci l’utente di cui desideri aggiungere l’iscrizione al gruppo. </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 In questo esempio viene aggiunto un gruppo a un&#39;azienda con groupHandleArray. Questo esempio utilizza un solo gruppo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java {.line-numbers}
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

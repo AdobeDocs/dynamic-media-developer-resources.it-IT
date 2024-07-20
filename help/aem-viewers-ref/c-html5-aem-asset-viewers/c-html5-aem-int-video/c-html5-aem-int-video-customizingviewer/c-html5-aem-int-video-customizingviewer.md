@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Tutta la personalizzazione visiva e la maggior parte della personalizzazione del comportamento per il Visualizzatore video interattivo viene eseguita creando un CSS personalizzato.
 
-Il flusso di lavoro consigliato consiste nel prendere il file CSS predefinito per il visualizzatore appropriato, copiarlo in una posizione diversa, personalizzarlo e specificare la posizione del file personalizzato nel `style=` comando.
+Il flusso di lavoro suggerito consiste nel prendere il file CSS predefinito per il visualizzatore appropriato, copiarlo in una posizione diversa, personalizzarlo e specificare la posizione del file personalizzato nel comando `style=`.
 
 I file CSS predefiniti si trovano nella posizione seguente:
 
@@ -31,7 +31,7 @@ Il file CSS personalizzato deve contenere le stesse dichiarazioni di classe di q
 
 Un modo alternativo di fornire regole CSS personalizzate consiste nell’utilizzare gli stili incorporati direttamente nella pagina web o in una delle regole CSS esterne collegate.
 
-Quando crei CSS personalizzato, tieni presente che il visualizzatore assegna `.s7interactivevideoviewer` al relativo elemento DOM contenitore. Se utilizzi un file CSS esterno passato con `style=` comando, utilizza `.s7interactivevideoviewer` come classe padre nel selettore discendente per le regole CSS. Se stai utilizzando stili incorporati nella pagina web, qualifica questo selettore con un ID dell’elemento DOM del contenitore come segue:
+Quando crei un CSS personalizzato, tieni presente che il visualizzatore assegna la classe `.s7interactivevideoviewer` al suo elemento DOM contenitore. Se si utilizza un file CSS esterno passato con il comando `style=`, utilizzare la classe `.s7interactivevideoviewer` come classe padre nel selettore discendente per le regole CSS. Se stai utilizzando stili incorporati nella pagina web, qualifica questo selettore con un ID dell’elemento DOM del contenitore come segue:
 
 `#<containerId>.s7interactivevideoviewer`
 
@@ -41,13 +41,13 @@ Quando crei CSS personalizzato, tieni presente che il visualizzatore assegna `.s
 
 Il visualizzatore supporta due meccanismi di creazione di CSS dinamici: marcatori CSS e query multimediali CSS standard. È possibile utilizzare questi meccanismi in modo indipendente o insieme.
 
-**Marcatori CSS**
+**Indicatori CSS**
 
 Per facilitare la creazione di CSS dinamici, il visualizzatore supporta i marcatori CSS. Questi marcatori sono classi CSS speciali. Vengono assegnati in modo dinamico all’elemento contenitore del visualizzatore di primo livello in base alle dimensioni del visualizzatore in fase di esecuzione e al tipo di input utilizzato sul dispositivo corrente.
 
-Il primo gruppo di marcatori CSS include `.s7size_large`, `.s7size_medium`, e `.s7size_small` classi. Vengono applicati in base all’area di runtime del contenitore del visualizzatore. Se l&#39;area del visualizzatore è uguale o superiore alle dimensioni di un monitor desktop comune, `.s7size_large` viene utilizzato; se l’area è vicina a un comune dispositivo tablet, `.s7size_medium` è assegnato. Per aree simili agli schermi dei telefoni cellulari, `.s7size_small` è impostato. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diverse.
+Il primo gruppo di marcatori CSS include `.s7size_large`, `.s7size_medium` e `.s7size_small` classi. Vengono applicati in base all’area di runtime del contenitore del visualizzatore. Se l&#39;area del visualizzatore è uguale o maggiore delle dimensioni di un monitor desktop comune, viene utilizzato `.s7size_large`; se l&#39;area è vicina a un dispositivo tablet comune, viene assegnato `.s7size_medium`. Per aree simili agli schermi dei telefoni cellulari, `.s7size_small` è impostato. Lo scopo principale di questi marcatori CSS è quello di creare layout di interfaccia utente diversi per schermi e dimensioni di visualizzatore diverse.
 
-Il secondo gruppo di marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. Il marcatore `.s7touchinput` è impostato se il dispositivo corrente dispone di funzionalità di input tocco; in caso contrario, `.s7mouseinput` viene utilizzato. Questi marcatori sono destinati principalmente a creare elementi di input dell’interfaccia utente con dimensioni dello schermo diverse per tipi di input diversi, perché normalmente l’input tocco richiede elementi più grandi.
+Il secondo gruppo di marcatori CSS contiene `.s7mouseinput` e `.s7touchinput`. Il marcatore `.s7touchinput` è impostato se il dispositivo corrente dispone di funzionalità di input tocco; in caso contrario, viene utilizzato `.s7mouseinput`. Questi marcatori sono destinati principalmente a creare elementi di input dell’interfaccia utente con dimensioni dello schermo diverse per tipi di input diversi, perché normalmente l’input tocco richiede elementi più grandi.
 
 Il terzo gruppo di marcatori CSS contiene `.s7device_landscape` e `.s7device_portrait`. Il marcatore `.s7device_landscape` è impostato se il dispositivo touch è in orientamento orizzontale; `.s7device_portrait` viene utilizzato quando il dispositivo touch viene ruotato in orientamento verticale. Questi marcatori CSS sono destinati all’utilizzo solo su sistemi desktop.
 
@@ -189,7 +189,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 Lo svantaggio di questo approccio è che l’utente finale riceve una risposta interattiva o ritardata dall’interfaccia quando l’elemento viene interagito per la prima volta. Questa azione si verifica perché il disegno dell&#39;immagine per il nuovo stato dell&#39;elemento non è ancora stato scaricato. Inoltre, questo approccio potrebbe avere un leggero impatto negativo sulle prestazioni a causa di un aumento del numero di chiamate HTTP al server.
 
-Gli sprite CSS sono un approccio diverso in cui il disegno dell&#39;immagine per tutti gli stati degli elementi viene combinato in un unico file PNG chiamato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento dato posizionati uno dopo l&#39;altro. Quando si applica uno stile a un elemento dell’interfaccia utente con sprite, si fa riferimento alla stessa immagine sprite per tutti i diversi stati nel CSS. Inoltre, il `background-position` viene utilizzata per ogni stato per specificare quale parte dell’immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. I visualizzatori di solito lo sovrappongono verticalmente. Di seguito è riportato un esempio basato su &quot;sprite&quot; di come formattare lo stesso pulsante a schermo intero in precedenza:
+Gli sprite CSS sono un approccio diverso in cui il disegno dell&#39;immagine per tutti gli stati degli elementi viene combinato in un unico file PNG chiamato &quot;sprite&quot;. Tale &quot;sprite&quot; ha tutti gli stati visivi per l&#39;elemento dato posizionati uno dopo l&#39;altro. Quando si applica uno stile a un elemento dell’interfaccia utente con sprite, si fa riferimento alla stessa immagine sprite per tutti i diversi stati nel CSS. Inoltre, la proprietà `background-position` viene utilizzata per ogni stato per specificare quale parte dell&#39;immagine &quot;sprite&quot; viene utilizzata. È possibile strutturare un&#39;immagine &quot;sprite&quot; in qualsiasi modo appropriato. I visualizzatori di solito lo sovrappongono verticalmente. Di seguito è riportato un esempio basato su &quot;sprite&quot; di come formattare lo stesso pulsante a schermo intero in precedenza:
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -223,15 +223,15 @@ background-position: -0px -1120px;
 
 ## Note generali sullo stile e consigli {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Quando si personalizza l’interfaccia utente del visualizzatore con i CSS, l’utilizzo di `!IMPORTANT` la regola non è supportata per gli elementi visualizzatore di stili. In particolare: `!IMPORTANT` La regola non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dall’SDK del visualizzatore. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
+* Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dall&#39;SDK del visualizzatore. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
 
 * Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS, non in base alla posizione della pagina del visualizzatore HTML. Tieni presente questa regola quando copi il CSS predefinito in una posizione diversa. Copia anche le risorse predefinite oppure aggiorna i percorsi all’interno del CSS personalizzato.
 * Il formato preferito per la grafica bitmap è PNG.
-* Il disegno bitmap viene assegnato agli elementi dell&#39;interfaccia utente mediante `background-image` proprietà.
-* Il `width` e `height` Le proprietà di un elemento dell&#39;interfaccia utente ne definiscono la dimensione logica. Dimensione della bitmap passata a `background-image` non influisce sulla dimensione logica.
+* Il disegno bitmap viene assegnato agli elementi dell&#39;interfaccia utente tramite la proprietà `background-image`.
+* Le proprietà `width` e `height` di un elemento dell&#39;interfaccia utente ne definiscono la dimensione logica. La dimensione della bitmap passata a `background-image` non influisce sulla dimensione logica.
 
-* Per utilizzare l&#39;elevata densità di pixel di schermi ad alta risoluzione come Retina, specificate un disegno bitmap di dimensioni doppie rispetto a quelle dell&#39;elemento dell&#39;interfaccia utente logico. Quindi, applica il `-webkit-background-size:contain` per ridurre lo sfondo alle dimensioni dell&#39;elemento dell&#39;interfaccia utente logica.
-* Per rimuovere un pulsante dall’interfaccia utente, aggiungi `display:none` alla relativa classe CSS.
+* Per utilizzare l&#39;elevata densità di pixel di schermi ad alta risoluzione come Retina, specificate un disegno bitmap di dimensioni doppie rispetto a quelle dell&#39;elemento dell&#39;interfaccia utente logico. Applicare quindi la proprietà `-webkit-background-size:contain` per ridurre lo sfondo alle dimensioni dell&#39;elemento dell&#39;interfaccia utente logica.
+* Per rimuovere un pulsante dall&#39;interfaccia utente, aggiungere `display:none` alla relativa classe CSS.
 * Per il valore del colore supportato dagli stili CSS è possibile utilizzare vari formati. Se è necessaria la trasparenza, utilizzare il formato `rgba(R,G,B,A)`. In caso contrario, è possibile utilizzare il formato `#RRGGBB`.
 
 ## Elementi dell’interfaccia utente comune {#section-d6330c9be8c444aa9b2a07886e3dbc2a}

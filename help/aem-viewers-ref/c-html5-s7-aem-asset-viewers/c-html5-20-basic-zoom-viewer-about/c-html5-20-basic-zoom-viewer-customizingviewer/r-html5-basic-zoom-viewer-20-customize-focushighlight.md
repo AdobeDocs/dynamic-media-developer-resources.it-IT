@@ -33,7 +33,7 @@ L’aspetto viene controllato con il seguente selettore di classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> struttura </span> </p> </td> 
    <td colname="col2"> <p>Attiva lo stile di evidenziazione. </p> </td> 
   </tr> 
  </tbody> 

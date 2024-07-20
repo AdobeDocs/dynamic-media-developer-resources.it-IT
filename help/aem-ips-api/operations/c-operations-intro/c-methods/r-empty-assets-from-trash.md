@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 6%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Svuota le risorse dal cestino IPS.
 
-Le risorse rimangono nel cestino finché non vengono svuotate manualmente o finché non escono dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo lavoro di pulizia (normalmente notturno), quando vengono infine eliminati dal sistema. Se escono dal cestino, le risorse vengono pulite come parte della stessa attività di pulizia. Il timeout è configurabile (l’impostazione predefinita è 7 giorni).
+Assets vive nel cestino finché non viene svuotato manualmente o finché non esce dal cestino. Se vengono svuotati manualmente, vivono nel Cestino fino al successivo lavoro di pulizia (normalmente notturno), quando vengono infine eliminati dal sistema. Se escono dal cestino, le risorse vengono pulite come parte della stessa attività di pulizia. Il timeout è configurabile (l’impostazione predefinita è 7 giorni).
 
 ## Tipi di utenti autorizzati {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -50,7 +50,7 @@ Le risorse rimangono nel cestino finché non vengono svuotate manualmente o finc
 
 In questo esempio di codice vengono utilizzati l&#39;handle della società e un array di handle di risorsa contenente gli handle delle risorse da svuotare dal cestino.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">

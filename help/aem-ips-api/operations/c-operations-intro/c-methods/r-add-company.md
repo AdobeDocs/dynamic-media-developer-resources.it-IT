@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ Aggiunge una società al sistema.
 
 Invia il nome della società da aggiungere al sistema e, facoltativamente, invia se la società scade.
 
-Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInfo contenente un handle aziendale e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, viene generato un `ipsApiFault`.
+Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInfo contenente un handle aziendale e campi descrittivi. Se il nome della società richiesto esiste già nel sistema, genera un `ipsApiFault`.
 
 ## Tipi di utenti autorizzati {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,13 +41,13 @@ Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> nomeSocietà</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Nome della società da aggiungere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> scade</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Data di scadenza della società. Fornisci il fuso orario con la richiesta per questo campo. Fusi orari adeguati all’ora centrale. </p> </td> 
@@ -68,8 +68,8 @@ Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> informazioniSocietà</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestisci per e nome, percorso principale, data di scadenza e ora della nuova azienda. </p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ Quando viene richiamata questa operazione, il sistema ottiene un tipo companyInf
 
 In questo esempio viene illustrata una richiesta di aggiunta di una società al sistema IPS e la risposta contenente informazioni dettagliate sulla società aggiunta necessarie per eseguire altre operazioni.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

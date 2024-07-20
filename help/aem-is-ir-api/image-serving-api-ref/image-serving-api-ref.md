@@ -1,6 +1,6 @@
 ---
 title: Riferimento API di Image Server
-description: Consulta la Guida di riferimento per l’API di Dynamic Media Image Server.
+description: Consulta la Guida di riferimento per l’API di Dynamic Medie Image Server.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Riferimento API di Image Server {#image-serving-api-reference}
 
-Consulta la Guida di riferimento per l’API di Dynamic Media Image Server.
+Consulta la Guida di riferimento per l’API di Dynamic Medie Image Server.

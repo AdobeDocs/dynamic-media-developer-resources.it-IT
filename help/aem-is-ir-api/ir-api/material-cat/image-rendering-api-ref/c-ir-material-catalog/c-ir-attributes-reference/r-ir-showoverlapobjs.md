@@ -22,4 +22,4 @@ Bandiera.
 
 ## Predefinito {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Ereditato da `default::ShowOverlapObjs` se non è definita o se è vuota.
+Ereditato da `default::ShowOverlapObjs` se non definito o se vuoto.

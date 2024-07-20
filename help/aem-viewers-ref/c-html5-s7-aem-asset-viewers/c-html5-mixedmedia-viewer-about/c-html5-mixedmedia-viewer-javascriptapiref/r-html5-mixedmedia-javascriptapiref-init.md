@@ -1,6 +1,6 @@
 ---
 title: init
-description: Riferimento API JavaScript per Visualizzatore file multimediali diversi.
+description: Riferimento API di JavaScript per il visualizzatore di file multimediali diversi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 4fb40cec-172a-41b3-98fc-927da88c7cb9
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # init{#init}
 
-Riferimento API JavaScript per Visualizzatore file multimediali diversi.
+Riferimento API di JavaScript per il visualizzatore di file multimediali diversi.
 
 `init()`
 
 Avvia l’inizializzazione del visualizzatore di file multimediali diversi. A questo punto, è necessario creare l’elemento DOM del contenitore in modo che il codice visualizzatore possa trovarlo in base al suo ID.
 
-Se l’elemento contenitore non fa ancora parte del layout della pagina web, ad esempio può essere nascosto utilizzando `display:none` style: il visualizzatore sospende il processo di inizializzazione. Viene sospeso fino al momento in cui la pagina web riporta l’elemento contenitore nel layout, momento in cui il caricamento del visualizzatore riprende automaticamente.
+Se l&#39;elemento contenitore non fa ancora parte del layout della pagina Web, ad esempio potrebbe essere nascosto utilizzando lo stile `display:none`, il visualizzatore sospende il processo di inizializzazione. Viene sospeso fino al momento in cui la pagina web riporta l’elemento contenitore nel layout, momento in cui il caricamento del visualizzatore riprende automaticamente.
 
 Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
 
@@ -30,7 +30,7 @@ Nessuno.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Riferimento all’istanza del visualizzatore.
+`{Object}` Riferimento all&#39;istanza del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

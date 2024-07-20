@@ -18,7 +18,7 @@ Elimina qualsiasi attributo per un dato s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Se un elemento del nodo FXG ha `s7:elementID` definito, gli attributi per tale nodo possono essere eliminati con questo comando.
+Se per un elemento del nodo FXG è definito un `s7:elementID`, gli attributi per tale nodo possono essere eliminati con questo comando.
 
 ## Esempio {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +28,4 @@ Se un elemento del nodo FXG ha `s7:elementID` definito, gli attributi per tale n
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-Questo esempio rimuove gli attributi *[!DNL x]*, *[!DNL y]*, e *[!DNL visible]* dal nodo FXG originale.
+In questo esempio vengono rimossi gli attributi *[!DNL x]*, *[!DNL y]* e *[!DNL visible]* dal nodo FXG originale.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 8%
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +31,9 @@ Dati set immagini da catalogo immagini. Restituisce i dati del set di immagini p
 
 Il contenuto di `catalog::ImageSet` viene restituito senza ulteriori modifiche (ad eccezione della localizzazione delle stringhe, se applicabile), seguita da un terminatore a riga singola (CR/LF). Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola.
 
-Altri comandi nella stringa di richiesta vengono ignorati. La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::NonImgExpiration`.
+Altri comandi nella stringa di richiesta vengono ignorati. La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::NonImgExpiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa di `req=` parametro:
+Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

@@ -1,5 +1,5 @@
 ---
-description: Il [!DNL Platform Server] scrive i record in questo file di log per registrare gli avvisi e gli errori, tenere traccia degli eventi di avvio, chiusura e caricamento del catalogo.
+description: ' [!DNL Platform Server] scrive i record in questo file di log per registrare gli avvisi e gli errori, registrare gli eventi di avvio, chiusura e caricamento del catalogo.'
 solution: Experience Manager
 title: Registro traccia
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Registro traccia{#trace-log}
 
-Il [!DNL Platform Server] scrive i record in questo file di log per registrare gli avvisi e gli errori, tenere traccia degli eventi di avvio, chiusura e caricamento del catalogo.
+[!DNL Platform Server] scrive i record in questo file di log per registrare gli avvisi e gli errori, registrare gli eventi di avvio, chiusura e caricamento del catalogo.

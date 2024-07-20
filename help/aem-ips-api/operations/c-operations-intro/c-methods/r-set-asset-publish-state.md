@@ -8,7 +8,7 @@ exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -46,29 +46,29 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> La maniglia per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Handle risorsa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4">Stati disponibili: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> contrassegnato per la pubblicazione</span> </li> 
      <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase codice </span> </td> 
+   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,9 +81,9 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-c31ead6d0e594317a12c120509527792}
 
-In questo esempio di codice lo stato di pubblicazione di una risorsa viene impostato tramite `NotMarkedForPublish`.
+Questo esempio di codice imposta lo stato di pubblicazione di una risorsa utilizzando `NotMarkedForPublish`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setAssetPublishStateParam xmlns="http://www.scene7.com/IpsApi/xsd">

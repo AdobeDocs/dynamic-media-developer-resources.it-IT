@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Riferimento API JavaScript per Visualizzatore video interattivo.
+description: Guida di riferimento dell'API JavaScript per il visualizzatore video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 32d26999-7815-4c71-ad4c-b7db99ec3d3b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParams{#setparams}
 
-Riferimento API JavaScript per Visualizzatore video interattivo.
+Guida di riferimento dell&#39;API JavaScript per il visualizzatore video interattivo.
 
 ` setParams( *`parametri`*)`
 
-Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di query URL. ovvero rappresenta coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro.
+Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di query URL. Rappresenta cioè coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON per il costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -31,7 +31,7 @@ Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-htm
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parametri</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> nome=valore coppie di parametri separate da <span class="codeph"> E</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> coppie nome=valore separate da <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

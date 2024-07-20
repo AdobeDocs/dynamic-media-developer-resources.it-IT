@@ -29,9 +29,9 @@ Vengono reindirizzati i seguenti tipi di richieste:
 
 Il reindirizzamento per errori non si verifica in nessun altro caso.
 
-Quando è abilitata e si verifica un errore durante l’elaborazione della richiesta, il server primario invia la richiesta al server secondario per l’elaborazione. La risposta, indipendentemente dal fatto che indichi esito positivo o negativo, viene quindi inoltrata direttamente al client. Il server principale contrassegna le voci di registro di tali richieste inoltrate con l’utilizzo della cache `REMOTE`. I dati di risposta non vengono memorizzati nella cache locale dal server primario.
+Quando è abilitata e si verifica un errore durante l’elaborazione della richiesta, il server primario invia la richiesta al server secondario per l’elaborazione. La risposta, indipendentemente dal fatto che indichi esito positivo o negativo, viene quindi inoltrata direttamente al client. Il server principale contrassegna le voci di registro di tali richieste inoltrate con l&#39;utilizzo della cache `REMOTE`. I dati di risposta non vengono memorizzati nella cache locale dal server primario.
 
-Errore di reindirizzamento attivato dall&#39;impostazione `PS::errorRedirect.rootUrl` al nome di dominio HTTP e al numero di porta del server secondario. Inoltre, il timeout della connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo per il quale il server primario attende una risposta dal server secondario prima di restituire un errore al client è configurato con `PS::errorRedirect.socketTimeout`.
+Errore di reindirizzamento abilitato impostando `PS::errorRedirect.rootUrl` sul nome di dominio HTTP e il numero di porta del server secondario. Inoltre, il timeout della connessione è configurato con `PS::errorRedirect.connectTimeout` e il tempo massimo di attesa del server primario per una risposta dal server secondario prima che venga restituito un errore al client è configurato con `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

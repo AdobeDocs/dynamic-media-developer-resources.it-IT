@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '88'
+ht-degree: 3%
 
 ---
 
@@ -21,12 +21,12 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Consente o meno a un utente di scorrere le miniature con il mouse o con gesti touch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> È in <span class="codeph"> 0-1 </span> ed è un valore percentuale per il movimento nella direzione opposta della velocità effettiva. </p> <p>Se impostato su <span class="codeph"> 1 </span>, si sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0 </span>, non ti consente di muoverti nella direzione sbagliata. </p> </td> 
+   <td colname="col2"> <p> È compreso nell'intervallo <span class="codeph"> 0-1 </span> ed è un valore percentuale per il movimento nella direzione opposta della velocità effettiva. </p> <p>Se è impostato su <span class="codeph"> 1 </span>, si sposta con il mouse. </p> <p>Se impostato su <span class="codeph"> 0 </span>, non consente lo spostamento nella direzione sbagliata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

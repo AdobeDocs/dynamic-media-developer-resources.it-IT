@@ -21,8 +21,8 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il modo in cui i campioni vengono visualizzati. </p> <p>Imposta su <span class="codeph"> left </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Imposta su <span class="codeph"> destra </span> inverte l'ordine in modo che la vista venga riempita da destra a sinistra e dall'alto al basso. </p> <p>Quando <span class="codeph"> auto </span> è impostato, il componente applica la modalità corretta quando la lingua è impostata su " <span class="codeph"> ja </span>"; altrimenti, <span class="codeph"> left </span> viene utilizzato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|sinistra|destra </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il modo in cui i campioni vengono visualizzati. </p> <p>Impostare su <span class="codeph"> a sinistra di </span> per impostare l'ordine di riempimento da sinistra a destra. </p> <p>Impostato su <span class="codeph"> a destra </span> inverte l'ordine in modo che la visualizzazione venga riempita da destra a sinistra e dall'alto al basso. </p> <p>Quando è impostato <span class="codeph"> auto </span>, il componente applica la modalità destra quando le impostazioni locali sono impostate su " <span class="codeph"> ja </span>"; in caso contrario, viene utilizzato <span class="codeph"> left </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -22,15 +22,15 @@ Cinque o sei numeri interi separati da virgole. Il terzo e il quarto numero non 
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Il `creator-id` e `creator-pin` sono fornite da Digimarc al momento dell’acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
+`creator-id` e `creator-pin` vengono forniti da Digimarc al momento dell&#39;acquisto del servizio. I valori non utilizzati devono essere lasciati vuoti.
 
 `durability` specifica la forza di incorporamento della filigrana Digimarc. Può essere 1, 2, 3 o 4, con 1 che indica la durata più debole e 4 la durata più elevata.
 
-Imposta `chroma` a 1 per codificare la filigrana nei dati di crominanza dell&#39;immagine oppure a 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l&#39;output di immagini in scala di grigio.
+Impostare `chroma` su 1 per codificare la filigrana nei dati di crominanza dell&#39;immagine oppure su 0 (impostazione predefinita) per codificarla nella luminanza. Questa impostazione viene ignorata durante l&#39;output di immagini in scala di grigio.
 
 ## Predefinito {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-Ereditato da `default::DigimarcId` se non è definita o se è vuota.
+Ereditato da `default::DigimarcId` se non definito o se vuoto.
 
 ## Esempio {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 

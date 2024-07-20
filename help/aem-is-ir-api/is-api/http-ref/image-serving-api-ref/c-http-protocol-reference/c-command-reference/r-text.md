@@ -25,17 +25,17 @@ Testo livello. Specifica il testo e il contenuto di formattazione per un livello
  </tr> 
 </table>
 
-Tutti i controlli relativi al tipo di carattere, al colore del carattere e alla formattazione di paragrafo vengono eseguiti utilizzando i comandi RTF. Fai riferimento a [Formattazione testo](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) per ulteriori informazioni.
+Tutti i controlli relativi al tipo di carattere, al colore del carattere e alla formattazione di paragrafo vengono eseguiti utilizzando i comandi RTF. Per ulteriori informazioni, consultare [Formattazione testo](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
 
 `text=` supporta il ridimensionamento automatico del testo per riempire il rettangolo di livello specificato con `size=`.
 
-Consulta [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
+Vedere [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` supporta il ridimensionamento automatico del livello di testo per adattarlo al testo sottoposto a rendering (quando `size=` non è specificato o quando è specificata solo la larghezza). In questo caso, solo uno dei comandi di allineamento RTF `\ql`, `\qr`, e `\qc` potrebbe essere applicato; in caso contrario viene restituito un errore.
+`text=` supporta il ridimensionamento automatico del livello di testo per adattarlo al testo di cui è stato eseguito il rendering (quando `size=` non è specificato o quando è specificata solo la larghezza). In questo caso è possibile applicare solo uno dei comandi di allineamento RTF `\ql`, `\qr` e `\qc`. In caso contrario, viene restituito un errore.
 
 ## Proprietà {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-Attributo livello. Applicabile a `layer=0` se `layer=comp`. Reciprocamente esclusivo con `src=` e `textPs=` nello stesso livello; l&#39;ultima occorrenza di `text=`, `textPs=`, e `src=` prevale e determina se si tratta di un livello immagine o testo. Ignorato dai livelli degli effetti.
+Attributo livello. Si applica a `layer=0` se `layer=comp`. Si escludono a vicenda con `src=` e `textPs=` nello stesso livello; prevale l&#39;ultima occorrenza di `text=`, `textPs=` e `src=` e determina se si tratta di un livello immagine o testo. Ignorato dai livelli degli effetti.
 
 ## Predefinito {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 

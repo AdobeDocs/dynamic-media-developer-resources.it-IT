@@ -22,28 +22,28 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tipo </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Imposta su <span class="codeph"> web </span> o <span class="codeph"> mac </span> per scegliere una palette predefinita. </p> <p> <p>Nota: il <span class="codeph"> mac </span> il tipo di pallet è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha.</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Impostare su <span class="codeph"> Web </span> o <span class="codeph"> mac </span> per scegliere una tavolozza predefinita. </p> <p> <p>Nota: il tipo di pallet </span> mac <span class="codeph"> è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dithering </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuso|off} </span> </p> <p>Specifica le opzioni di dithering. </p> <p>Imposta su <span class="codeph"> diffondere </span> per la diffusione dell’errore Floyd-Steinberg </p> <p>Imposta su <span class="codeph"> disattivato </span> per disattivare il dithering.</p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuso|off} </span> </p> <p>Specifica le opzioni di dithering. </p> <p>Imposta su <span class="codeph"> diffusione </span> per la diffusione dell'errore Floyd-Steinberg </p> <p>Impostare su <span class="codeph"> di </span> per disabilitare il dithering.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nel <span class="codeph"> adattivo </span> tavolozza.</p> </td> 
+   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nella tavolozza adattiva </span> di <span class="codeph">.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Elenco separato da virgole di colori RGB obbligatori in formato esadecimale6 </p> <p>Consente di specificare i colori da includere in un <span class="codeph"> adattivo </span> tavolozza. Se il numero di colori specificato è minore di <span class="codeph"> <span class="varname"> numColors </span> </span>, i colori aggiuntivi vengono calcolati in base al contenuto dell’immagine.</p> </td> 
+   <td colname="col2"> <p>Elenco separato da virgole di colori RGB obbligatori in formato esadecimale6 </p> <p>Consente di specificare i colori da includere in una tavolozza </span> adattiva <span class="codeph">. Se il numero di colori specificati è inferiore a <span class="codeph"> <span class="varname"> numColors </span> </span>, verranno calcolati colori aggiuntivi in base al contenuto dell'immagine.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-8ab5035055b24b858270d260912a7f3d}
 
-Attributo della richiesta. Viene applicato indipendentemente dall&#39;impostazione del livello corrente. Utilizzato solo se `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, o `fmt=png8-alpha`. Altrimenti ignorato.
+Attributo della richiesta. Viene applicato indipendentemente dall&#39;impostazione del livello corrente. Utilizzato solo se `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` o `fmt=png8-alpha`. Altrimenti ignorato.
 
-I colori specificati con *`colorList`* deve essere costituito da valori RGB in formato esadecimale 6 (vedere [colore](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) senza `0x` prefisso. Non sono consentiti altri identificatori di colore. Il modificatore *`numColors`* deve essere 2-256.
+I colori specificati con *`colorList`* devono essere costituiti da valori RGB in formato hex6 (vedere [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) senza prefisso `0x`. Non sono consentiti altri identificatori di colore. Il modificatore *`numColors`* deve essere 2-256.
 
 ## Predefinito {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -51,7 +51,7 @@ I colori specificati con *`colorList`* deve essere costituito da valori RGB in f
 
 ## Esempio {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Genera una miniatura GIF utilizzando `web` tavolozza e nessun dithering:
+Generare una miniatura GIF utilizzando la tavolozza `web` e senza dithering:
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 

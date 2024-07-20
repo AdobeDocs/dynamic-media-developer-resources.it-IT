@@ -18,11 +18,11 @@ In questo esempio viene utilizzato Image Server per colorare un oggetto e applic
 
 Le variabili IR vengono utilizzate per identificare la vignettatura, l&#39;immagine del logo e il testo personalizzato.
 
-Il `vignette::Modifier` campo nel record denominato *modello* nella mappa di vignettatura del catalogo dei materiali `myCat` contiene quanto segue:
+Il campo `vignette::Modifier` nel record denominato *modello* nella mappa di vignettatura del catalogo dei materiali `myCat` contiene quanto segue:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Tutte le vignettature usate sono elencate nella mappa di vignettatura del catalogo dei materiali `myCat`.
+Tutte le vignettature utilizzate sono elencate nella mappa di vignettatura del catalogo dei materiali `myCat`.
 
 Il client può ora effettuare la seguente richiesta per recuperare l’immagine predefinita (utilizza le variabili definite all’inizio del modello):
 
@@ -32,4 +32,4 @@ La richiesta seguente specifica un determinato contenuto da riprodurre:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Per informazioni dettagliate su Image Server, consulta Documentazione di Image Server `text=` comando.
+Per informazioni dettagliate sul comando Image Server `text=`, consultare la documentazione di Image Server.

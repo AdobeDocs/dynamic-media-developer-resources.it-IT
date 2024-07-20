@@ -18,4 +18,4 @@ Image Rendering consente di incorporare le richieste Image Server e HTTP a serve
 
 Questi meccanismi non sono supportati per i materiali di rivestimento dei cabinet e delle finestre.
 
-Vedi anche [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Image Server Reference.
+Vedere anche [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Image Server Reference.

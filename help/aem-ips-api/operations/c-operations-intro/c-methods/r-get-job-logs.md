@@ -8,7 +8,7 @@ exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -54,7 +54,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti i registri di processo IPS per una società specifica. Puoi utilizzarlo anche per restituire i registri di processo per un utente o un’azienda e un utente specifici.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getJobLogsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

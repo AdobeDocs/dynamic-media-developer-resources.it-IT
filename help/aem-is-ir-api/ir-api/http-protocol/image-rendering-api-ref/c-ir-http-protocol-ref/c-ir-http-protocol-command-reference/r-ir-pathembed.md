@@ -20,13 +20,13 @@ Incorpora i dati dei percorsi. Specifica se includere nell&#39;immagine di rispo
 
 ## Proprietà {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Attributo della richiesta. Ignorato se la vignettatura non contiene dati di percorsi. I dati dei percorsi vengono ridimensionati in `wid=` e/o `hei=` se necessario.
+Attributo della richiesta. Ignorato se la vignettatura non contiene dati di percorsi. Se necessario, i dati dei percorsi vengono ridimensionati a `wid=` e/o `hei=`.
 
-Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento dei percorsi. Fai riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l&#39;incorporamento dei percorsi.
+Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento dei percorsi. Per un elenco dei formati immagine di output che supportano l&#39;incorporamento di percorsi, fare riferimento alla descrizione di `fmt=`.
 
 ## Predefinito {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, per non incorporare percorsi nelle immagini di output.
+`pathEmbed=0`, per nessuna incorporazione di percorsi nelle immagini di output.
 
 ## Consultate anche {#section-4e6151658c384b6f9d0446f55dde7b7f}
 

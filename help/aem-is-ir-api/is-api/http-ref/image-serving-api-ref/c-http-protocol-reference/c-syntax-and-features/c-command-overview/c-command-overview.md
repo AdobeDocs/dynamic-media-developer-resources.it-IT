@@ -19,7 +19,7 @@ I comandi supportati da Image Server sono elencati di seguito, raggruppati per c
 * [Comandi di richiesta](r-request-commands-and-attributes.md)
 * [Comandi Visualizza](r-view-commands-and-attributes.md)
 * [Operazioni comuni](r-common-operations-and-attributes.md)
-* [Operazioni per l&#39;immagine sorgente](r-source-image-operations-and-attributes.md)
+* [Operazioni per immagini Source](r-source-image-operations-and-attributes.md)
 * [Comandi per livelli comuni](r-common-layer-commands-and-attributes.md)
 * [Comandi del livello immagine](r-image-layer-commands-and-attributes.md)
 * [Comandi del livello testo](r-text-layer-commands-and-attributes.md)

@@ -1,5 +1,5 @@
 ---
-description: Questo documento descrive il catalogo dei materiali per Dynamic Media Image Rendering.
+description: Questo documento descrive il catalogo dei materiali per Dynamic Medie Image Rendering.
 solution: Experience Manager
 title: Introduzione
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Introduzione{#introduction}
 
-Questo documento descrive il catalogo dei materiali per Dynamic Media Image Rendering.
+Questo documento descrive il catalogo dei materiali per Dynamic Medie Image Rendering.
 
 **Pubblico previsto**
 
-Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano sfruttare il Rendering di immagini Dynamic Media per un sito web o un’applicazione personalizzata.
+Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano sfruttare il Rendering di immagini Dynamic Medie per un sito web o un’applicazione personalizzata.
 
-Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e Image Rendering, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
+Si presume che il lettore abbia familiarità con Dynamic Medie Image Authoring e Image Rendering, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
 
 **Convenzioni documento**
 
@@ -38,15 +38,15 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
   <td class="stentry"> <p>Il corsivo indica una variabile o un parametro da sostituire con un valore effettivo. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> Attributo <span class="codeph">::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso "attribute::" fa riferimento a un attributo del catalogo delle immagini. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalogo::Articolo </span> </td> 
+  <td class="stentry"> Catalogo <span class="codeph">::Elemento </span> </td> 
   <td class="stentry"> <p>Un nome con prefisso "catalog::" fa riferimento a un campo dati di catalogo materiali. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso "icc::" fa riferimento a un campo nella mappa del profilo colore ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -74,7 +74,7 @@ Si presume che il lettore abbia familiarità con Dynamic Media Image Authoring e
   <td class="stentry"> <p>L’elemento di sintassi facoltativo può essere ripetuto una o più volte. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </p> </td> 
   <td class="stentry"> <p>Una barra verticale indica che è possibile utilizzare l'elemento con sintassi singola a sinistra o l'elemento a destra. Selezionare un solo elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 

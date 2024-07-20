@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: aa12a210-88d9-4b96-b598-6967496ac668
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
 # PageView.transition{#pageview-transition}
 
-` [PageView.|<containerId>_pageView.]transition= *`tempo`*[, *`andamento`*]`
+` [PageView.|<containerId>_pageView.]transition= *`ora`*[, *`andamento`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> tempo</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> volta</span></span> </p> </td> 
    <td colname="col2"> <p> Specifica il tempo in secondi impiegato dall'animazione per un'azione di incremento di zoom. </p> </td> 
   </tr> 
   <tr> 

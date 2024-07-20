@@ -29,11 +29,11 @@ L&#39;aspetto del pulsante di stampa è controllato dal seguente selettore di cl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> Distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo se si tratta del primo pulsante di una riga. </p> </td> 
   </tr> 
   <tr> 
@@ -45,21 +45,21 @@ L&#39;aspetto del pulsante di stampa è controllato dal seguente selettore di cl
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un pulsante di stampa di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro diversi stati del pulsante.
 
@@ -99,7 +99,7 @@ La sovrapposizione dello sfondo che copre la pagina web quando la finestra di di
    <td colname="col2"> <p> Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,11 +125,11 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p> Raggio bordo finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della finestra di dialogo; </p> </td> 
   </tr> 
  </tbody> 
@@ -149,7 +149,7 @@ L&#39;intestazione della finestra di dialogo è costituita da un&#39;icona, un t
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
 ```
 
-**Proprietà CSS dell’intestazione della finestra di dialogo**
+**Proprietà CSS dell&#39;intestazione della finestra di dialogo**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
@@ -196,12 +196,12 @@ L’icona dell’intestazione è controllata dal seguente selettore di classe CS
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,7 +212,7 @@ Il titolo dell’intestazione è controllato dal seguente selettore di classe CS
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**Proprietà CSS del testo dell’intestazione della finestra di dialogo**
+**Proprietà CSS del testo dell&#39;intestazione della finestra di dialogo**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -225,7 +225,7 @@ Il titolo dell’intestazione è controllato dal seguente selettore di classe CS
    <td colname="col2"> <p>Altezza carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
@@ -246,11 +246,11 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale del pulsante rispetto al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante orizzontale relativa al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
@@ -266,21 +266,21 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-È possibile localizzare la descrizione comando del pulsante Chiudi e il titolo della finestra di dialogo. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+È possibile localizzare la descrizione comando del pulsante Chiudi e il titolo della finestra di dialogo. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura interna, un’icona di 22 x 22 pixel e un titolo in grassetto a 16 punti. Infine, un pulsante Chiudi di 28 x 28 pixel posizionato due pixel dalla parte superiore e due pixel dalla destra del contenitore della finestra di dialogo:
 
@@ -379,7 +379,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
 Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
 
@@ -412,7 +412,7 @@ Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ Il pulsante Invia a stampa è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
 Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere impostazioni CSS identiche a quelle degli altri pulsanti della finestra di dialogo:
 
@@ -441,11 +441,11 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere
    <td colname="col2"> <p>Dimensione font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere
  </tbody> 
 </table>
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare un piè di pagina della finestra di dialogo con il pulsante Annulla 64 x 34 e il pulsante Invia a stampa 96 x 34, con il colore del testo e il colore di sfondo diversi per ogni stato del pulsante:
 
@@ -536,7 +536,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
    <td colname="col2"> <p> Altezza della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ Questa classe non è adatta per il controllo della dimensione o della posizione 
    <td colname="col2"> <p>Dimensione font etichetta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia font etichetta. </p> </td> 
   </tr> 
   <tr> 
@@ -667,7 +667,7 @@ Questa classe non è adatta per il controllo della dimensione o della posizione 
  </tbody> 
 </table>
 
-Le etichette delle finestre di dialogo possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: per impostare tutte le etichette in grigio, grassetto, con un carattere di nove pixel:
 
@@ -690,7 +690,7 @@ I controlli di input vengono racchiusi nel contenitore e controllati con il segu
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 

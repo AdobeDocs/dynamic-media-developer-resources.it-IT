@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Stringa di comando Image Server applicata all&#39;immagine di zoom.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> deve essere codificato HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> Se specificate nell'URL, per tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve essere utilizzato il rispettivo codice HTTP <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

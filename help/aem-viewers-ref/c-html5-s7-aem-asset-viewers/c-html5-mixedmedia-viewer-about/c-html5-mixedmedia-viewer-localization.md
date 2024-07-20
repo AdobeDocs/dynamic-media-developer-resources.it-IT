@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include pulsanti di zoom, pulsanti di rotazione, controlli video, pulsante di chiusura, pulsante a schermo intero e pulsanti di scorrimento dei campioni.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato per le impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni locali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna impostazione locale.
 
-Il codice della pagina web deve passare l’oggetto di localizzazione al costruttore del visualizzatore come valore del `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, è possibile passare l’oggetto di localizzazione chiamando `setLocalizedTexts(localizationInfo)` metodo.
+Il codice della pagina Web deve passare l&#39;oggetto di localizzazione al costruttore del visualizzatore come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI:
 
@@ -77,7 +77,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del ruolo ARIA per il componente della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A comparsaZoomView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> elemento FlyoutZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Suggerimenti per l’utilizzo di ARIA per gli utenti che utilizzano la tastiera. </p> </td> 
   </tr> 
   <tr> 
@@ -97,12 +97,12 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Pulsante di ripristino zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A comparsaZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Sistemi desktop in <span class="codeph"> in linea </span> modalità zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col2"> <p>Sistemi desktop in modalità zoom </span> in linea <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A comparsaZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Dispositivi touch in <span class="codeph"> in linea </span> modalità zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col2"> <p>Toccare i dispositivi in modalità zoom </span> in linea <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -174,10 +174,10 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta della manopola del cursore del volume esposta tramite ARIA <span class="codeph"> aria-valuetext </span> attributo. </p> </td> 
+   <td colname="col2"> <p>Etichetta manopola cursore del volume esposta tramite l’attributo aria-valuetext </span> di ARIA <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERRORE </span> </p> </td> 
    <td colname="col2"> <p>Messaggio di errore che viene visualizzato quando non è possibile riprodurre video. </p> </td> 
   </tr> 
  </tbody> 

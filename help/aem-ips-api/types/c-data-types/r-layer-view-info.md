@@ -23,5 +23,5 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | url | `xsd:string` | URL del server immagini che rappresenta il modello. Combina `urlModifier` e `urlPostAp- plyModifier` campi. |
-| urlModifier | `xsd:string` | Comandi del protocollo Image Server da applicare prima della richiesta o `urlPostApplyModifier` comandi. |
+| urlModifier | `xsd:string` | Comandi del protocollo Image Server da applicare prima della richiesta o di `urlPostApplyModifier` comandi. |
 | urlPostApplyModifier | `xsd:string` | Comandi del protocollo Image Server da applicare dopo `urlModifier` e richiedere comandi. |

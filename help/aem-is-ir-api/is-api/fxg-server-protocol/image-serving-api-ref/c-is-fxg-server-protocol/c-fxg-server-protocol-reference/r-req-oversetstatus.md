@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Tipo di richiesta. Specifica il tipo di richiesta.
    <td colname="col2"> <p> Restituisce eventuali errori di rendering del file FXG con i modificatori URL forniti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sommario</span> </p> </td> 
-   <td colname="col2"> <p> Restituisce l’elenco xml di tutti gli elementi con una <span class="codeph"> s7:elemento</span> valore attributo e un elenco di tutte le pagine del documento fxg. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contenuto</span> </p> </td> 
+   <td colname="col2"> <p> Restituisce un elenco xml di tutti gli elementi con un valore di attributo <span class="codeph"> s7:element</span> e un elenco di tutte le pagine del documento FXG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Restituisce un elenco XML di cui <span class="codeph"> &lt;richtext /&gt;</span> gli elementi sono sovrascritti. </p> <p>Restituisce un elenco XML di <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi non impostati per l'elaborazione sul lato client. Solo <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> vengono restituiti gli elementi non impostati. Il <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> è obbligatorio <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> attributo quando si utilizza <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Qualsiasi sovrainsieme <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi senza <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> non è elencato. Ogni <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> l'elemento nell'elenco ha <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>e il riquadro di delimitazione della cornice di testo non impostata. Il <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> Attributo indica l'indice di testo nel brano fino al quale il testo è stato in grado di adattarsi alla cornice. Il <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> si applica solo a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi nel file FXG richiesto. Non ne elenca alcuna <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementi da qualsiasi FXG incorporato. </p> </td> 
+   <td colname="col2"> <p>Restituisce un elenco XML di cui <span class="codeph"> &lt;RichText/&gt;</span> elementi sono sovrascritti. </p> <p>Restituisce un elenco XML di <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementi non impostati per l'elaborazione sul lato client. Vengono restituiti solo <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementi non impostati. <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> è un attributo <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> obbligatorio quando si utilizza <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Eventuali elementi <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> non inclusi senza un <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> non sono elencati. Ogni elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> dell'elenco include <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> e il riquadro di delimitazione della cornice di testo non impostata. L'attributo <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indica l'indice di testo nel brano fino al quale il testo è stato adattato nella cornice. Il valore Req=oversetstatus <span class="+ topic/ph pr-d/codeph codeph"></span> si applica solo a <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementi nel file FXG richiesto. Non elenca alcun elemento <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> da alcun FXG incorporato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> esiste</span> </p> </td> 

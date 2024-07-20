@@ -35,7 +35,7 @@ Script di controllo Image Server. Questo script viene utilizzato per avviare, ar
    <td colname="col2"> <p> Avviare Server Supervisor e tutti gli altri componenti Image Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> interruzione </span> </p> </td> 
    <td colname="col2"> <p> Arresta tutti i componenti Image Server, incluso Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +47,8 @@ Script di controllo Image Server. Questo script viene utilizzato per avviare, ar
    <td colname="col2"> <p> Riavvia Tomcat/[!DNL Platform Server], il server immagini o SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stato [ ps | è | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>Restituisce il tempo di attività e le informazioni sull'utilizzo della memoria corrente per il server immagini, Tomcat/[!DNL Platform Server], e SVGserver o lo stato solo per il server specificato. Se Server Supervisor non è in esecuzione, viene restituito un messaggio informativo. </p> </td> 
+   <td colname="col1"> <p> Stato <span class="codeph"> [ ps | è | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>Restituisce le informazioni sull'utilizzo della memoria corrente e del tempo di attività per Image Server, Tomcat/[!DNL Platform Server] e SVGserver oppure lo stato solo per il server specificato. Se Server Supervisor non è in esecuzione, viene restituito un messaggio informativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

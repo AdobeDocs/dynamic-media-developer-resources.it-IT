@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: db04133e-bb23-4d94-b91d-fcf34576c03f
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '72'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa viene cambiata. </p> <p>Se impostato su <span class="codeph"> 0</span> vengono caricate solo le miniature visibili. </p> <p>Imposta su <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe/colonne invisibili vengono precaricate attorno all'area visibile. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, tutte le miniature vengono caricate contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span>, vengono caricate solo le miniature visibili. </p> <p>Impostare su <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe/colonne invisibili vengono precaricate attorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>

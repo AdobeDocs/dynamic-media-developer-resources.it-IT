@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '236'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
 
 >[!NOTE]
 >
->*Solo* il `IpsAdmin` Il tipo di utente è autorizzato a eseguire chiamate setPassword contro altri utenti.
+>*Solo* il tipo di utente `IpsAdmin` è autorizzato a eseguire chiamate setPassword contro altri utenti.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,7 +49,7 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> UserHandle </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:stringa </span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Handle utente. </p> </td> 
@@ -64,15 +64,15 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">La password deve avere una lunghezza minima di otto caratteri. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">La password deve contenere uno o più caratteri delle seguenti classi di caratteri: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caratteri inglesi minuscoli. Ad esempio: <span class="codeph"> a b c d e </span> e così via </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Caratteri inglesi maiuscoli. Ad esempio: <span class="codeph"> A B C D E </span> e così via. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Numeri. Ad esempio: <span class="codeph"> 1 2 3 4 5 </span> e così via. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, puoi utilizzare uno dei seguenti: <span class="codeph"> &amp;grave; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caratteri inglesi minuscoli. <span class="codeph"> a b c d e </span> e così via </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Caratteri inglesi maiuscoli. <span class="codeph"> A B C D E </span> e così via. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Numeri. Ad esempio, <span class="codeph"> 1 2 3 4 5 </span> e così via. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, è possibile utilizzare uno dei seguenti elementi: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordScade </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Determina la data di scadenza della password. <p>Nota: specifica il fuso orario con la richiesta per questo campo. Fusi orari adeguati all’ora centrale. </p> </p> </td> 
@@ -88,7 +88,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 In questo esempio di codice viene creata una password utente. La password non scade mai perché `passwordExpires` è stato omesso.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:setPasswordParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">  

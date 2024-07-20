@@ -1,6 +1,6 @@
 ---
-title: Riferimento API JavaScript per il visualizzatore a comparsa
-description: La classe principale del visualizzatore a comparsa è FlyoutViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
+title: Riferimento API di JavaScript per il visualizzatore a comparsa
+description: La classe principale del visualizzatore a comparsa è FlyoutViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda i costruttori, i metodi e i callback di questa particolare classe.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Riferimento API JavaScript per il visualizzatore a comparsa{#javascript-api-reference-for-flyout-viewer}
+# Riferimento API di JavaScript per il visualizzatore a comparsa{#javascript-api-reference-for-flyout-viewer}
 
-La classe principale del visualizzatore a comparsa è FlyoutViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
+La classe principale del visualizzatore a comparsa è FlyoutViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda i costruttori, i metodi e i callback di questa particolare classe.
 
-In tutti gli esempi seguenti: `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui è stata creata un&#39;istanza dal `s7viewers.FlyoutViewer` classe.
+In tutti gli esempi seguenti, `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui è stata creata un&#39;istanza dalla classe `s7viewers.FlyoutViewer`.
 
 * [eliminare](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [Visualizzatore a comparsa](r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)

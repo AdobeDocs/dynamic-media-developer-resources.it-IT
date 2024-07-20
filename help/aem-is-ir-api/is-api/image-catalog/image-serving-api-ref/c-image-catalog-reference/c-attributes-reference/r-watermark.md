@@ -20,11 +20,11 @@ Se specificato, il server applica la filigrana ai dati immagine richiesti per tu
 
 ## Proprietà {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Stringa di testo. Se specificato, deve essere un `Catalog::Id` valore in questo catalogo immagini (o nel catalogo predefinito, se specificato in [!DNL default.ini]).
+Stringa di testo. Se specificato, deve essere un valore `Catalog::Id` valido in questo catalogo immagini (o nel catalogo predefinito, se specificato in [!DNL default.ini]).
 
 ## Predefinito {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Ereditato da `default::Watermark` se non è definita. Se è definito ma vuoto, non viene applicata alcuna filigrana per questo catalogo immagini, anche se `default::Watermark` è definito.
+Ereditato da `default::Watermark` se non definito. Se è definito ma vuoto, non viene applicata alcuna filigrana per questo catalogo immagini, anche se è definito `default::Watermark`.
 
 ## Consultate anche {#section-f15dbe31013849828d78588742dde58e}
 

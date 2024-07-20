@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini. Il formato è qualsiasi valore supportato dal server immagini e dal browser client. </p> <p>Se il formato immagine termina con <span class="codeph"> -alfa</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri valori di formato dell’immagine, le immagini vengono trattate come opache. </p> </td> 
+   <td colname="col2"> <p> Specifica il formato immagine utilizzato dal componente per caricare le immagini dal server immagini. Il formato è qualsiasi valore supportato dal server immagini e dal browser client. </p> <p>Se il formato immagine termina con <span class="codeph"> -alpha</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri valori di formato dell’immagine, le immagini vengono trattate come opache. </p> </td> 
   </tr> 
  </tbody> 
 </table>

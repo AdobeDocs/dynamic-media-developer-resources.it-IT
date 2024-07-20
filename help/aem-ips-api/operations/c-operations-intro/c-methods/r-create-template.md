@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Crea un&#39;immagine a livelli che può avere più livelli di testo e immagine.
 
-Il `urlModifier` Il parametro specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il `urlPostApplyModifier` Il parametro specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignora eventuali impostazioni in conflitto fornite dall&#39;utente.
+Il parametro `urlModifier` specifica i comandi del protocollo Image Server memorizzati nel catalogo Image Server applicati prima di qualsiasi comando fornito dall&#39;utente sull&#39;URL. Il parametro `urlPostApplyModifier` specifica i comandi di protocollo applicati dopo qualsiasi comando URL, che ignora eventuali impostazioni in conflitto fornite dall&#39;utente.
 
 ## Tipi di utenti autorizzati {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,9 +47,9 @@ Il `urlModifier` Il parametro specifica i comandi del protocollo Image Server me
 
 ## Esempi {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Questo esempio di codice crea un modello in una cartella specificata da un handle, con il nome `APIcreateTemplate`, a `urlModifier`, e un `urlPostApplyModifier`. La risposta restituisce l’handle al modello appena creato.
+In questo esempio di codice viene creato un modello in una cartella specificata da un handle, con nome `APIcreateTemplate`, `urlModifier` e `urlPostApplyModifier`. La risposta restituisce l’handle al modello appena creato.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

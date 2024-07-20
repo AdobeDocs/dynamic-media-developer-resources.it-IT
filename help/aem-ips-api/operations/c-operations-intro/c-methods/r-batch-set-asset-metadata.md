@@ -8,7 +8,7 @@ exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ Sintassi
 
 ## Esempi {#section-2de798ac920e4b47b971b1729a64395b}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java {.line-numbers}
 <batchSetAssetMetadataParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto applicato quando la vista a comparsa viene mostrata o nascosta. Con <span class="codeph"> nessuno </span>, l'immagine a comparsa appare immediatamente quando è attivata e pronta; <span class="codeph"> diapositiva </span> consente la riproduzione dell'animazione di scorrimento da sinistra a destra; <span class="codeph"> dissolvenza </span> applica una transizione alfa all'immagine a comparsa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nessuno|diapositiva|dissolvenza </span> </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto applicato quando la vista a comparsa viene mostrata o nascosta. Con <span class="codeph"> none </span>, l'immagine a comparsa viene visualizzata immediatamente quando è attivata e pronta; <span class="codeph"> slide </span> esegue la riproduzione dell'animazione diapositiva da sinistra a destra; <span class="codeph"> fade </span> applica una transizione alfa all'immagine a comparsa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-title: scale
+title: scala
 description: Ridimensiona immagine. Ridimensiona l'immagine sorgente di un livello in base al fattore relativo all'immagine a risoluzione completa.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 4%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
-# scale{#scale}
+# scala{#scale}
 
 Ridimensiona immagine. Ridimensiona l&#39;immagine sorgente di un livello in base al fattore relativo all&#39;immagine a risoluzione completa.
 
@@ -25,16 +25,16 @@ Ridimensiona immagine. Ridimensiona l&#39;immagine sorgente di un livello in bas
  </tr> 
 </table>
 
-Non viene applicata alcuna scala quando `scale=1`. *`factor`* inferiore a 1.0 ridimensiona e maggiore di 1.0 ingrandisce l&#39;immagine sorgente.
+Nessuna scala applicata quando `scale=1`. *`factor`* di dimensioni inferiori a 1,0 ridimensiona e di dimensioni superiori a 1,0 ingrandisce l&#39;immagine di origine.
 
 ## Proprietà {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Attributo immagine/maschera di origine. Ignorato se `size=` viene specificato anche per il livello corrente. Sostituzioni `res=`. Si applica al livello 0 se specificato per `layer=comp`. Ignorato se il livello non è associato a un&#39;immagine o a una maschera.
+Attributo immagine/maschera Source. Ignorato se `size=` è specificato anche per il livello corrente. Sostituisce `res=`. Si applica al livello 0 se specificato per `layer=comp`. Ignorato se il livello non è associato a un&#39;immagine o a una maschera.
 
 ## Predefinito {#section-26e64904362342a5a62c5f6598f330c4}
 
-Se non specificato, `res=` viene utilizzato. Se `res=` non è specificato, l&#39;immagine viene utilizzata senza ridimensionamento.
+Se non viene specificato, verrà utilizzato `res=`. Se `res=` non è specificato, l&#39;immagine viene utilizzata senza ridimensionamento.
 
 ## Consultate anche {#section-61a11f30d37341d58c10df759bfff951}
 
-[res=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55) , [size= dimensione](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b)
+[res=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55) , [dimensioni=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b)

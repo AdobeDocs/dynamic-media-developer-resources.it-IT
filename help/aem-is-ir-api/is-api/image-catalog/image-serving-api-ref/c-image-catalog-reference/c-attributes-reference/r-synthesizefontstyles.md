@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Bandiera. Impostate questo valore su 0 per disattivare e su 1 per attivare gli s
 
 ## Predefinito {#section-71f94aa65e404d14b441674c040b59e3}
 
-Ereditato da `default::SynthesizeFontStyles` se non è definita o se è vuota.
+Ereditato da `default::SynthesizeFontStyles` se non definito o se vuoto.
 
 ## Consultate anche {#section-47a79659cc844272b6d5f36c946e12ac}
 

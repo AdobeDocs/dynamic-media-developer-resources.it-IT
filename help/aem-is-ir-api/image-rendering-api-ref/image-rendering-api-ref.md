@@ -1,6 +1,6 @@
 ---
 title: Riferimento API per il rendering delle immagini
-description: Consulta la Guida di riferimento dell’API di rendering immagini di Dynamic Media.
+description: Consulta la Guida di riferimento dell’API di rendering immagini di Dynamic Medie.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Riferimento API per il rendering delle immagini {#image-rendering-api-reference}
 
-Consulta la Guida di riferimento dell’API di rendering immagini di Dynamic Media.
+Consulta la Guida di riferimento dell’API di rendering immagini di Dynamic Medie.

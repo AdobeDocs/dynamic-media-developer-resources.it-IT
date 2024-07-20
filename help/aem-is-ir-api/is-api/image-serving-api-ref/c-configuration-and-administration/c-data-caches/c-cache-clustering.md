@@ -24,10 +24,10 @@ I timeout e altre protezioni garantiscono che il sistema continui a funzionare a
 
 Il cluster di cache può funzionare in una delle due configurazioni di base seguenti:
 
-* Quando `PS::cacheCluster.updateLocalCache` è attivato (impostazione predefinita), qualsiasi voce della cache trovata in un server peer viene copiata nella cache locale.
+* Quando `PS::cacheCluster.updateLocalCache` è abilitato (impostazione predefinita), tutte le voci della cache trovate in un server peer vengono copiate nella cache locale.
 
-   Questa configurazione riduce il traffico tra i server peer. Offre inoltre tempi di risposta più rapidi, a scapito della replica di tutte le voci della cache su tutti i server del cluster. Questa è la configurazione consigliata.
+  Questa configurazione riduce il traffico tra i server peer. Offre inoltre tempi di risposta più rapidi, a scapito della replica di tutte le voci della cache su tutti i server del cluster. Questa è la configurazione consigliata.
 
-* Quando `PS::cacheCluster.updateLocalCache` è disattivato, i dati provenienti da altri server non vengono copiati nella cache locale.
+* Quando `PS::cacheCluster.updateLocalCache` è disabilitato, i dati provenienti da altri server non vengono copiati nella cache locale.
 
-   Questo moltiplica lo spazio su disco disponibile per i dati della cache. Tuttavia, aumenta il traffico tra i server peer e riduce i tempi di risposta complessivi. Utilizza questa configurazione solo quando la percentuale di riscontri nella cache è bassa.
+  Questo moltiplica lo spazio su disco disponibile per i dati della cache. Tuttavia, aumenta il traffico tra i server peer e riduce i tempi di risposta complessivi. Utilizza questa configurazione solo quando la percentuale di riscontri nella cache è bassa.

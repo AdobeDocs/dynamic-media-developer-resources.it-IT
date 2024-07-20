@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 49af2620-081f-4bcc-8245-5aa6bab89a05
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '200'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livello di compressione.
 
-` qlt= *`qualità`*[. *`chroma`*]`
+` qlt= *`qualità`*[. *`crominanza`*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
@@ -24,22 +24,22 @@ Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livel
   <td class="stentry"> <p>Qualità della codifica JPEG (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> chroma </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> crominanza </span> </p> </td> 
   <td class="stentry"> <p>Downsampling cromaticità JPEG (0=normale, 1=disattivato); facoltativo, valore predefinito: 0. </p> </td> 
  </tr> 
 </table>
 
 Specifica gli attributi di codifica JPEG per controllare il livello di compressione. A sua volta, questo varia la dimensione del file (quantità di dati di risposta) e, indirettamente, la qualità visiva dell&#39;immagine risultante.
 
-Superiore *`quality`* i valori aumentano le dimensioni e la qualità del file, i valori più bassi diminuiscono le dimensioni dei file e riducono la qualità percepita delle immagini. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
+Valori più alti di *`quality`* aumentano le dimensioni e la qualità del file, valori più bassi riducono le dimensioni dei file e riducono la qualità percepita delle immagini. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
 
-Imposta il *`chroma`* flag per disattivare il downsampling della cromaticità utilizzato dai tipici codificatori JPEG. Questa impostazione può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità anziché di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
+Impostare il flag *`chroma`* per disattivare il downsampling della cromaticità utilizzato dai tipici codificatori JPEG. Questa impostazione può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità anziché di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
 
 ## Proprietà {#section-897b61c786dd4230a2c5807f2f40e722}
 
 Può verificarsi ovunque nella richiesta.
 
-Ignorato se il formato dell&#39;immagine di output non supporta la compressione JPEG. Fai riferimento alla descrizione di `fmt=` per un elenco dei formati immagine di output che supportano la compressione JPEG.
+Ignorato se il formato dell&#39;immagine di output non supporta la compressione JPEG. Fare riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano la compressione JPEG.
 
 ## Predefinito {#section-1c1257df843c475bbac6aadaffcb6347}
 

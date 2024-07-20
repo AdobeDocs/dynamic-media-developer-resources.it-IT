@@ -8,7 +8,7 @@ exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice elimina un target di zoom da un’azienda.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:deleteZoomTargetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

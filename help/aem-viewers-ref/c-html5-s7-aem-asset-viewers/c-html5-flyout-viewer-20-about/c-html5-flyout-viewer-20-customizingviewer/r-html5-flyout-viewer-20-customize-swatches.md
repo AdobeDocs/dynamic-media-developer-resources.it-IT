@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 2%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
@@ -37,15 +37,15 @@ L’aspetto del contenitore dei campioni è controllato dal seguente selettore d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p> Offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +60,7 @@ Esempio: per impostare i campioni su 460 x 100 pixel:
 }
 ```
 
-**Proprietà CSS per la spaziatura dei campioni delle miniature**
+**Proprietà CSS della spaziatura campioni miniature**
 
 La spaziatura tra le miniature dei campioni è controllata con il selettore di classe CSS:
 
@@ -108,11 +108,11 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza dei campioni di miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza dei campioni di miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature, e `state="over"` al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse a stati di miniatura diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio: per impostare miniature di 56 x 56 pixel con un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro:
 
@@ -150,7 +150,7 @@ L’aspetto dei pulsanti di scorrimento sinistro e destro è controllato dai seg
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà. Al contrario, la logica di visualizzazione li posiziona automaticamente.
+Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica di visualizzazione li posiziona automaticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,29 +161,29 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, utilizzato per applicare interfacce diverse agli stati dei pulsanti `up`, `down`, `over`, e `disabled`.
+>Questo pulsante supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse agli stati dei pulsanti `up`, `down`, `over` e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 Esempio - per impostare pulsanti di scorrimento di 56 x 56 pixel con grafica diversa per ogni stato:
 

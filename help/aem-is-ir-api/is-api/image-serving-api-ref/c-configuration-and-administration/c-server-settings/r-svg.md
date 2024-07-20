@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 2%
 
 ---
 
@@ -32,15 +32,15 @@ Dimensione massima del file di origine SVG in KB. Il server restituisce un error
 
 Limita le dimensioni delle immagini che SVGRender può produrre. Valore intero maggiore di 0 in milioni di pixel. Se un’operazione di rendering supera il limite di dimensioni, viene restituito un errore. Il valore predefinito è 4.
 
-## PS::svgProvider.port - [!DNL Platform Server] Porta di ascolto {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Porta di ascolto [!DNL Platform Server] {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Porta utilizzata per SvgRender per ottenere immagini dalla [!DNL Platform Server] da incorporare nei rendering SVG.
+Porta utilizzata per SvgRender per ottenere immagini da [!DNL Platform Server] da incorporare nei rendering SVG.
 
 Importante Per il corretto funzionamento del componente SVGRender, questa opzione di configurazione deve essere impostata sullo stesso valore di `TC::PsPort`.
 
 ## PS::svgProvider.fontRoot - Cartella file di font SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Specifica dove SvgRender trova i file di font necessari per il rendering del testo SVG; in genere uno dei percorsi specificati in `IS::RootPaths`. Il valore predefinito è [!DNL  *[!DNL install_folder]*/images].
+Specifica dove SvgRender trova i file dei tipi di carattere necessari per il rendering del testo SVG. In genere si tratta di uno dei percorsi specificati in `IS::RootPaths`. Il valore predefinito è [!DNL *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - Porta di comunicazione SVG {#section-608687123aa644b7b58fe42385d71b79}
 

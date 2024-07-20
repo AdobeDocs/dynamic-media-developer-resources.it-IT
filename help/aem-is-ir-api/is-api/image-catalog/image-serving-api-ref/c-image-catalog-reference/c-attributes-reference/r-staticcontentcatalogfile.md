@@ -8,7 +8,7 @@ exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Percorsi dei file di dati del catalogo dei contenuti statici. Specifica i file che contengono i dati del contenuto statico per questo catalogo.
 
-I file di dati statici del catalogo dei contenuti vengono caricati nell&#39;ordine specificato. Se lo stesso `static::Id` si trova in più record (nello stesso file di catalogo o in file di catalogo diversi), l&#39;ultima istanza prevale.
+I file di dati statici del catalogo dei contenuti vengono caricati nell&#39;ordine specificato. Se lo stesso valore `static::Id` si trova in più record (nello stesso file di catalogo o in file di catalogo diversi), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 

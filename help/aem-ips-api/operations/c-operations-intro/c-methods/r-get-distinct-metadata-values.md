@@ -8,7 +8,7 @@ exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -45,7 +45,7 @@ Sintassi
 
 ## Esempi {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

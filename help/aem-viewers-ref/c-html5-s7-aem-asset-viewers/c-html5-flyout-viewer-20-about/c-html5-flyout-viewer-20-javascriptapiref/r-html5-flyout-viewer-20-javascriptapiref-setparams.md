@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Riferimento API JavaScript per il visualizzatore a comparsa.
+description: Riferimento API di JavaScript per il visualizzatore a comparsa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: bd26292d-f9c6-4e67-8cc1-c74336d50860
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParams{#setparams}
 
-Riferimento API JavaScript per il visualizzatore a comparsa.
+Riferimento API di JavaScript per il visualizzatore a comparsa.
 
 ` setParams( *`parametri`*)`
 
@@ -22,12 +22,12 @@ Riferimento API JavaScript per il visualizzatore a comparsa.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> parametri</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> nome=valore coppie di parametri separate da <span class="codeph"> E</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> coppie nome=valore separate da <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di query URL. ovvero rappresenta coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
+Imposta uno o più parametri su un valore specificato. La sintassi dell&#39;argomento del metodo è identica a una stringa di query URL. Rappresenta cioè coppie nome=valore separate da `&`. Come in una stringa di query, i nomi e i valori sono codificati in percentuale utilizzando UTF8. Prima di chiamare `init()`, è necessario chiamare questo parametro. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l&#39;oggetto JSON `config` al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

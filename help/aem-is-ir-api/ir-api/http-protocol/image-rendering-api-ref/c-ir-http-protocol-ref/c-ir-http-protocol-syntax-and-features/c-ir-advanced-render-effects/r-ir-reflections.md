@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -38,18 +38,18 @@ Se create in questo modo, per definire le proprietà della superficie riflettent
    <td> <p>Nessuno </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> ruvido= </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> approssimativo= </span> </a> </p> </td> 
    <td> <p>Rugosità della superficie </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> tipo=</span> </a> </p> </td> 
    <td> <p>Tipo di materiale </p> </td> 
    <td> <p>0 (sconosciuto) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il renderer regola l&#39;intervallo del `gloss=` e `rough=` attributo in base a `type=`. Alcuni tipi di materiale, come il tessuto, sono meno riflettenti rispetto a quelli come la pietra o il metallo. Inoltre, la stessa quantità di brillantezza specificata per una causa spesso un effetto di riflessione diverso rispetto all&#39;altra. Attributo `gloss=` e la rugosità hanno una gamma abbastanza ampia se `type=` non è specificato o è impostato su `0`.
+Il renderer regola l&#39;intervallo degli attributi `gloss=` e `rough=` in base a `type=`. Alcuni tipi di materiale, come il tessuto, sono meno riflettenti rispetto a quelli come la pietra o il metallo. Inoltre, la stessa quantità di brillantezza specificata per una causa spesso un effetto di riflessione diverso rispetto all&#39;altra. L&#39;attributo `gloss=` e la rugosità hanno una gamma abbastanza ampia se `type=` non è specificato o è impostato su `0`.
 
 `glossmap=` Utilizzato per controllare la lucidità di un materiale pixel per pixel.

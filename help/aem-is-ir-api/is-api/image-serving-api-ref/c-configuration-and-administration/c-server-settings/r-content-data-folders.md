@@ -18,15 +18,15 @@ Utilizza queste impostazioni del server per le cartelle di dati sul contenuto.
 
 ## IS::RootPath - Cartelle radice dati immagine {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-Posizione di tutti i dati di origine, inclusi immagini, font e profili ICC. Può trattarsi di uno o più percorsi di file assoluti o relativi *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la directory principale predefinita. È possibile specificare più valori per distribuire i dati immagine in più file system. Il server immagini tenta i percorsi radice nell&#39;ordine specificato fino a quando non viene trovato il file richiesto.
+Posizione di tutti i dati di origine, inclusi immagini, font e profili ICC. Può trattarsi di uno o più percorsi di file assoluti relativi a *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita. È possibile specificare più valori per distribuire i dati immagine in più file system. Il server immagini tenta i percorsi radice nell&#39;ordine specificato fino a quando non viene trovato il file richiesto.
 
 ## PS::staticContent.rootPath - Cartelle radice dati di contenuto statico {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-Posizione dei dati dell&#39;origine di contenuto statico che devono essere forniti tramite [!DNL /is/static] contesto. Può essere uno o più percorsi di file assoluti o relativi *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la directory principale predefinita.
+Percorso dei dati dell&#39;origine di contenuto statico che deve essere consegnato tramite il contesto [!DNL /is/static]. Può essere uno o più percorsi di file assoluti relativi a *[!DNL install_folder]*, separati da punto e virgola. Se vuoto, *[!DNL install_folder]* è la radice predefinita.
 
 È possibile specificare più valori separati da punti e virgola per distribuire contenuti statici in più file system. In genere è impostato sugli stessi valori di `IS::RootPath`.
 
-Il [!DNL Platform Server] tenta i percorsi radice nell&#39;ordine specificato fino a quando non viene trovato il file richiesto.
+[!DNL Platform Server] tenta i percorsi radice nell&#39;ordine specificato finché non viene trovato il file richiesto.
 
 >[!NOTE]
 >
@@ -34,4 +34,4 @@ Il [!DNL Platform Server] tenta i percorsi radice nell&#39;ordine specificato fi
 
 ## IS::SaveDirectory - File Salva cartella principale {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-Percorso directory principale per `attribute::SavePath` (utilizzato da `req=saveToFile`). Il server immagini deve disporre delle autorizzazioni di accesso per la creazione della sottocartella in cui vengono creati i file di immagine.
+Percorso della directory principale per `attribute::SavePath` (utilizzato da `req=saveToFile`). Il server immagini deve disporre delle autorizzazioni di accesso per la creazione della sottocartella in cui vengono creati i file di immagine.

@@ -46,7 +46,7 @@ I file degli attributi del catalogo riconoscono questi attributi di gestione del
   <td class="stentry"> <p>Intento di rendering predefinito. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> Compensazione punto nero Icc</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensation</a> </span> </p></td> 
   <td class="stentry"> <p>Attiva/disattiva la compensazione del punto nero. </p></td> 
  </tr> 
  <tr class="strow"> 

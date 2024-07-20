@@ -22,7 +22,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il percorso di base dei file CSS personalizzati, del contenuto dei sottotitoli o del contenuto di navigazione. </p> <p>Se il percorso non ha un'interlinea <span class="filepath"> /</span>, è relativo alla posizione della pagina di HTML del visualizzatore. Se il percorso ha un'interlinea <span class="filepath"> /</span>, specifica un percorso assoluto sullo stesso server. </p> <p> Non influisce sul caricamento del file CSS predefinito quando non si specifica un comando di stile. </p> </td> 
+   <td colname="col2"> <p>Specifica il percorso di base dei file CSS personalizzati, del contenuto dei sottotitoli o del contenuto di navigazione. </p> <p>Se il percorso non ha un <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina di HTML del visualizzatore. Se il percorso contiene un <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Non influisce sul caricamento del file CSS predefinito quando non si specifica un comando di stile. </p> </td> 
   </tr> 
  </tbody> 
 </table>

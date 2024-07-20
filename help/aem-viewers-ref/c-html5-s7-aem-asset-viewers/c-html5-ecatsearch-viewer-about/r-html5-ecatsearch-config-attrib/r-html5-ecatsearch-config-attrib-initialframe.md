@@ -8,19 +8,19 @@ exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 # InitialFrame{#initialframe}
 
-[!DNL ` initialFrame= *`frame`*`]
+[!DNL ` initialFrame= *`fotogramma`*`]
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica un indice di distribuzione basato su zero da visualizzare al caricamento del visualizzatore. L’indice corrisponde all’indice della distribuzione in modalità orizzontale. Se il visualizzatore è ruotato in verticale, visualizza la pagina più a sinistra della pagina affiancata a cui punta <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fotogramma</span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica un indice di distribuzione basato su zero da visualizzare al caricamento del visualizzatore. L’indice corrisponde all’indice della distribuzione in modalità orizzontale. Se il visualizzatore è ruotato in verticale, il visualizzatore visualizza la pagina più a sinistra dalla pagina affiancata a cui punta <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

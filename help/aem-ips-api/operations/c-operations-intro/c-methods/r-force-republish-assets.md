@@ -43,21 +43,21 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Gestisci l’azienda contenente le risorse da reimpostare. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> ripubblica file</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di consegna. Impostazione predefinita <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i file della risorsa vengono ripubblicati sui server di consegna. Impostazione predefinita: <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per distribuire la risorsa vengono sincronizzati per garantire che sia corrente. Questo parametro viene utilizzato per risolvere le condizioni di tipo "race condition" che possono verificarsi in aggiornamenti quasi simultanei dello stesso record. Impostazione predefinita <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Indica che i metadati del catalogo utilizzati per distribuire la risorsa vengono sincronizzati per garantire che sia corrente. Questo parametro viene utilizzato per risolvere le condizioni di tipo "race condition" che possono verificarsi in aggiornamenti quasi simultanei dello stesso record. Impostazione predefinita: <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 

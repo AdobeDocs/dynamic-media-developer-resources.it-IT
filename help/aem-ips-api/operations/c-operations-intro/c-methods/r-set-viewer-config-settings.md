@@ -35,7 +35,7 @@ Sintassi
 | assetHandle | `xsd:string` | Sì | Handle risorsa. |
 | nome | `xsd:string` | Sì | Nome risorsa. |
 | tipo | `xsd:string` | Sì | Tipo di risorsa a cui applicare la configurazione del visualizzatore. |
-| configSettingArray | `types:ConfigSettingArray` | Sì | L’array di `ConfigSettings` applicato alla risorsa. |
+| configSettingArray | `types:ConfigSettingArray` | Sì | Matrice di `ConfigSettings` applicata alla risorsa. |
 
 **Output (setViewerConfigSettingsParam)**
 

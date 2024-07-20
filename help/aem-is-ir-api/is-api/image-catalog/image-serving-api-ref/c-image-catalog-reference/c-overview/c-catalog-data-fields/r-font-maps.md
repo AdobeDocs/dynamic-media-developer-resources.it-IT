@@ -18,7 +18,7 @@ I campi riportati di seguito vengono riconosciuti nei file di mapping dei caratt
 
 <table id="simpletable_D04FFCE02C7140E38D58FB2C916EABF3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md" type="reference" format="dita" scope="local"> Bold</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md" type="reference" format="dita" scope="local"> Grassetto</a></span> </p></td> 
   <td class="stentry"> <p>Flag immagine grassetto (chiave indice secondaria). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -30,7 +30,7 @@ I campi riportati di seguito vengono riconosciuti nei file di mapping dei caratt
   <td class="stentry"> <p>Percorso del file delle metriche dei font. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76" type="reference" format="dita" scope="local"> Nome</a></span> </td> 
+  <td class="stentry"> Nome <span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76" type="reference" format="dita" scope="local"></a></span> </td> 
   <td class="stentry"> <p>Nome del font (chiave di indice primaria). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +38,7 @@ I campi riportati di seguito vengono riconosciuti nei file di mapping dei caratt
   <td class="stentry"> <p>Nome font PostScript (per il rendering FXG). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> FontPath</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> PercorsoCarattere</a></span> </p></td> 
   <td class="stentry"> <p>Percorso file font principale. </p></td> 
  </tr> 
 </table>

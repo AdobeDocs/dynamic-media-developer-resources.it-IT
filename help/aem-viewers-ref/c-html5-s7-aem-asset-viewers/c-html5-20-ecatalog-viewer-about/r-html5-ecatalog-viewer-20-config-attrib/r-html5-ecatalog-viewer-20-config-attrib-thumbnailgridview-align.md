@@ -19,7 +19,7 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> <span class="codeph"> sinistra|centro|destra</span> </p> </td> 
    <td> <p> Specifica l'allineamento orizzontale (ancoraggio) del contenitore delle miniature all'interno dell'area del componente. In ThumbnailGridView, il contenitore interno delle miniature viene ridimensionato in modo da visualizzare solo miniature intere. Di conseguenza, è presente una certa spaziatura tra i bordi del contenitore interno e quelli del componente esterno. Questo modificatore specifica in che modo il contenitore interno delle miniature viene posizionato orizzontalmente all’interno del componente. </p> </td> 
   </tr> 
  </tbody> 

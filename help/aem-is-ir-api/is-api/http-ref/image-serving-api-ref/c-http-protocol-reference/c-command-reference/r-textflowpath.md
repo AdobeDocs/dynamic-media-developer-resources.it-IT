@@ -20,18 +20,18 @@ Area di testo. Specifica una o più aree in cui far scorrere il testo specificat
 
 <table id="simpletable_52CEFF5C3CCB4642A9A320D01B1BF8E0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> pathDefinition </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> definizione percorso </span> </p> </td> 
   <td class="stentry"> <p>Dati percorso. </p> </td> 
  </tr> 
 </table>
 
-Consulta [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) per ulteriori informazioni, compresa una descrizione *`pathDefinition`*.
+Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, vedere [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
 
-Comandi del margine RTF `\margl`, `\margr`, `\margt`, e `\margb` vengono ignorati quando `textFlowPath=` è presente. Se non viene specificata alcuna definizione di percorso, `textFlowPath=` viene ignorato.
+I comandi di margine RTF `\margl`, `\margr`, `\margt` e `\margb` vengono ignorati quando è presente `textFlowPath=`. Se non viene specificata alcuna definizione di percorso, `textFlowPath=` verrà ignorato.
 
 ## Proprietà {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-Attributo livello testo ( `textPs=` solo ). Ignorato da altri livelli. Applicabile a `layer=0` se specificato per `layer=comp`.
+Attributo livello testo (solo `textPs=`). Ignorato da altri livelli. Si applica a `layer=0` se specificato per `layer=comp`.
 
 ## Predefinito {#section-68c4559b9e8242059b82e5a39a455dfc}
 

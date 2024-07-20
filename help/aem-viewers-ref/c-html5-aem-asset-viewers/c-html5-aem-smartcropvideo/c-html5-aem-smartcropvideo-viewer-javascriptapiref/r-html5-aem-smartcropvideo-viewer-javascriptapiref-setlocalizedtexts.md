@@ -8,19 +8,19 @@ exl-id: 313069b6-f114-487a-8322-55b4dff43f68
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`informazioniLocalizzazione`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Spazio dei nomi SDK per visualizzatori </a> per ulteriori informazioni. </p> <p>Consulta la <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. Facoltativo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> informazioni localizzazione </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Per ulteriori informazioni, vedere lo spazio dei nomi </a> dell'SDK del visualizzatore <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local">. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere la <i>Guida utente di Viewer SDK</i> e l'esempio. Facoltativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

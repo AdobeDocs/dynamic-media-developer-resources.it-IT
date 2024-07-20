@@ -8,7 +8,7 @@ exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -54,7 +54,7 @@ Versione batch di [setAssetState](../../../operations/c-operations-intro/c-metho
 
 Questo esempio di codice imposta lo stato di pubblicazione di una risorsa.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <element name="setAssetsPublishStateParam">

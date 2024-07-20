@@ -16,11 +16,11 @@ ht-degree: 1%
 
 Immagine di risposta predefinita. Specifica l’immagine o la voce di catalogo da utilizzare nel caso in cui non venga trovato un file di immagine e defaultImage= non sia specificato nella richiesta.
 
-Può essere una voce di catalogo (incluso un modello) o un relativo (a `attribute::RootPath`) o il percorso assoluto del file di immagine. Utile per sostituire le immagini mancanti con quelle predefinite.
+Può essere una voce di catalogo (incluso un modello) o un relativo (a `attribute::RootPath`) o un percorso assoluto del file di immagine. Utile per sostituire le immagini mancanti con quelle predefinite.
 
 ## Proprietà {#section-b6d8193827c34e5f948792aba8b8daaf}
 
-Stringa di testo. Se specificato, deve essere un valore `catalog::Id` in questo catalogo immagini o un relativo (a `attribute::RootPath`) o il percorso assoluto di un file immagine accessibile dal server immagini.
+Stringa di testo. Se specificato, deve essere un valore `catalog::Id` valido in questo catalogo immagini o un percorso relativo (a `attribute::RootPath`) o assoluto di un file immagine accessibile dal server immagini.
 
 ## Restrizioni {#section-5d8ea872f0b0415fbd3a83410bbcf512}
 
@@ -28,8 +28,8 @@ Le sorgenti di immagine esterne non sono coperte dal meccanismo di immagine pred
 
 ## Predefinito {#section-d88bc8fc71bd413e8f70281d57e1ba1c}
 
-Ereditato da `default::DefaultImage` se non è definita. Se è definita ma vuota, il comportamento predefinito dell’immagine è disattivato, anche se `default::DefaultImage` è definito.
+Ereditato da `default::DefaultImage` se non definito. Se è definita ma vuota, il comportamento predefinito dell&#39;immagine è disabilitato, anche se è definito `default::DefaultImage`.
 
 ## Consultate anche {#section-dc0fb4e72294442882b33a479fbc2b82}
 
-[attribute::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) , [defaultImage=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [catalogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md), [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c), [attribute::DefaultExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf)
+[attributo::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) , [defaultImage=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [attributo::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [catalogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md), [attributo::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c), [attributo::DefaultExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf)

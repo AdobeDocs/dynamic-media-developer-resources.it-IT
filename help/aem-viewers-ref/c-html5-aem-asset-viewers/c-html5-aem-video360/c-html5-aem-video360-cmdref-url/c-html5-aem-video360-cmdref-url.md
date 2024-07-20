@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Documentazione di riferimento sui comandi per Video360 Viewer.
 
-Puoi impostare qualsiasi comando di configurazione nell’URL. In alternativa, puoi utilizzare i metodi API di `setParam()`, o `setParams()`, o entrambi per impostare qualsiasi comando di configurazione. Puoi anche specificare qualsiasi attributo di configurazione nel record di configurazione lato server.
+Puoi impostare qualsiasi comando di configurazione nell’URL. In alternativa, è possibile utilizzare i metodi API `setParam()`, `setParams()` o entrambi per impostare qualsiasi comando di configurazione. Puoi anche specificare qualsiasi attributo di configurazione nel record di configurazione lato server.
 
-Ad alcuni comandi di configurazione è possibile anteporre il nome della classe o dell&#39;istanza del componente SDK HTML5 Viewer corrispondente. Il nome di un&#39;istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore trasmesso a `setContainerId()` metodo API. La documentazione include prefissi facoltativi per tali comandi. Ad esempio: `playback` è documentato come segue:
+Ad alcuni comandi di configurazione è possibile anteporre il nome della classe o dell&#39;istanza del componente SDK HTML5 Viewer corrispondente. Il nome di istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore passato al metodo API `setContainerId()`. La documentazione include prefissi facoltativi per tali comandi. Ad esempio, `playback` è documentato come segue:
 
 ```
 [Video360Player.|<containerId>_video360Player].playback
@@ -28,6 +28,6 @@ Ciò significa che questo comando viene utilizzato nel modo seguente:
 
 * `playback` (sintassi breve)
 * `Video360Player.playback` (qualificato con il nome della classe del componente)
-* `cont_video360Player.playback` (qualificato con ID componente, supponendo che `cont` è l’ID dell’elemento contenitore)
+* `cont_video360Player.playback` (qualificato con ID componente, supponendo che `cont` sia l&#39;ID dell&#39;elemento contenitore)
 
-Consulta [Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comando comune a tutti i visualizzatori - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Vedi [Riferimento al comando comune a tutti i visualizzatori - Attributi di configurazione](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento al comando comune a tutti i visualizzatori - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)

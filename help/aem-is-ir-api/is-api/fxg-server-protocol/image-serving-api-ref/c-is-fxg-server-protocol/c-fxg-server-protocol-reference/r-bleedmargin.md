@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Imposta il margine di smarginatura. Imposta il margine di smarginatura impostato nel file PDF.
 
-`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` in punti
+`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` punti
 
-Per impostazione predefinita, il `bleedMargin` è impostato sulla dimensione completa del documento definita da `viewWidth` e `viewHeight`. Il *[!DNL left]*, *[!DNL bottom]*, e *[!DNL right]* I valori predefiniti sono *[!DNL top]* se non specificato.
+Per impostazione predefinita, `bleedMargin` è impostato sulle dimensioni complete del documento definite da `viewWidth` e `viewHeight`. I valori *[!DNL left]*, *[!DNL bottom]* e *[!DNL right]* vengono impostati automaticamente sul valore *[!DNL top]*, se non specificato.

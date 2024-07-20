@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> raccoglitore/ </span> </p> </td> 
+   <td colname="col2"> <p> Bin <span class="filepath">/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -87,7 +87,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> Vntc (exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
    <td colname="col4"> <p>Image Rendering: vignettatura, cabinet e finestra che coprono l'utilità di conversione. </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> è richiesto per il funzionamento del server. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Il file Default.ini </span> è necessario per il funzionamento del server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -146,7 +146,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> caratteri predefiniti/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contiene i tipi di carattere predefiniti. </p> </td> 
   </tr> 
@@ -170,14 +170,14 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> log/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> registri/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Tutti i dati di registro PS e IS vengono scritti in questa cartella; modificare manualmente i file di configurazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> access-*.log </span> </p> </td> 
+   <td colname="col3"> <p> Accesso <span class="filepath"> -*.log </span> </p> </td> 
    <td colname="col4"> <p>Registri di accesso HTTP. </p> </td> 
   </tr> 
   <tr> 
@@ -189,13 +189,13 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> Supervisore-*.log </span> </p> </td> 
+   <td colname="col3"> <p> Supervisore <span class="filepath">-*.log </span> </p> </td> 
    <td colname="col4"> <p>Registri di debug/errore del supervisore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> trace-*.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> traccia-*.log </span> </p> </td> 
    <td colname="col4"> <p>Registri di debug/errore PS. </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> contenuto-statico/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Cartella origine dati di contenuto statico; modifica manualmente i file di configurazione. </p> </td> 
   </tr> 
@@ -224,7 +224,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> applicazioni Web/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Distribuisci qui le applicazioni web Java™ (inclusi i documenti is, i documenti ir e i visualizzatori is). </p> </td> 
   </tr> 
@@ -262,7 +262,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> è richiesto per il funzionamento del server. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Il file Default.ini </span> è necessario per il funzionamento del server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -272,7 +272,7 @@ Dopo l&#39;installazione, la gerarchia di cartelle in install_root include i fil
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> resources/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> risorse/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Cartella dati di origine Image Rendering; modifica manualmente i file di configurazione. </p> </td> 
   </tr> 

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 4%
+source-wordcount: '198'
+ht-degree: 3%
 
 ---
 
@@ -43,13 +43,13 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Parametro setDefinition: informazioni {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**Funzioni setDefinition**
+**funzioni setDefinition**
 
-Specifica `setDefinition` funzioni di sostituzione in linea. Questi problemi vengono risolti durante una ricerca nel catalogo o durante la pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}`e includono quanto segue:
+Specificare `setDefinition` funzioni di sostituzione in linea. Questi problemi vengono risolti durante una ricerca nel catalogo o durante la pubblicazione. Le stringhe di sostituzione hanno il formato `${<substitution_func>}` e includono quanto segue:
 
 >[!NOTE]
 >
->I valori letterali Handle negli elenchi dei parametri devono essere racchiusi tra parentesi quadre `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
+>I valori letterali di handle negli elenchi dei parametri devono essere racchiusi tra parentesi quadre `([])`. Il testo all&#39;esterno di una stringa di sostituzione viene copiato nella stringa di output durante la risoluzione.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## Esempi {#section-739b42eec3074cafae285ec015a2d088}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

@@ -18,8 +18,8 @@ Immagine miniatura. Richiede dati immagine formattati e ridimensionati utilizzan
 
 `req=tmb`
 
-Il formato dei dati di risposta e il tipo di MIME di risposta sono determinati da `fmt=`. Supporta tutti i comandi tranne `fit=`.
+Il formato dei dati di risposta e il tipo MIME di risposta sono determinati da `fmt=`. Supporta tutti i comandi tranne `fit=`.
 
-Consulta [Ridimensionamento miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
+Vedi [Ridimensionamento miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
 
 La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.

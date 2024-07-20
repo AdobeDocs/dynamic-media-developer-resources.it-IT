@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 9%
+source-wordcount: '189'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Impostazioni che consentono di migliorare la nitidezza delle immagini per i file TIF piramidali ottimizzati.
 
-`unsharpMaskOptions=[ *`amount, radius, threshold, monochrome`*]`
+`unsharpMaskOptions=[ *`importo, raggio, soglia, monocromatico`*]`
 
 ## Parametri {#section-c3f0d03136ba4422819cb463bd393885}
 
@@ -62,7 +62,7 @@ Specifica un valore per `unsharpMaskOptions` opzioni con `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromatico</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>I valori includono <span class="codeph"> 0</span> o <span class="codeph"> 1</span> solo. </p><p>Imposta su <span class="codeph"> 0</span> da applicare separatamente a ogni componente di colore o a <span class="codeph"> 1</span> da applicare solo alla luminosità (intensità) dell'immagine. Anche la maschera di livello o la maschera composita viene resa più nitida. </p><p><span class="codeph"><span class="varname"> monocromatico</span></span> viene ignorato per le immagini in scala di grigio. </p></td>
+   <td colname="col3"><p>I valori includono solo <span class="codeph"> 0</span> o <span class="codeph"> 1</span>. </p><p>Impostare su <span class="codeph"> 0</span> per applicarlo separatamente a ogni componente di colore o su <span class="codeph"> 1</span> per applicarlo solo alla luminosità (intensità) dell'immagine. Anche la maschera di livello o la maschera composita viene resa più nitida. </p><p><span class="codeph"><span class="varname"> monocromatico</span></span> ignorato per le immagini in scala di grigio. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Specifica un valore per `unsharpMaskOptions` opzioni con `minOccurs=" *`n`*".`
 
 ## Utilizzato da {#section-db8124a5468b498694a780f8a56a4560}
 
-Il `unsharpMaskOptions` tipo utilizzato da:
+Il tipo `unsharpMaskOptions` è utilizzato da:
 
 * [RielaboraProcessoRisorse](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -92,5 +92,4 @@ Il `unsharpMaskOptions` tipo utilizzato da:
 
 >[!MORELIKETHIS]
 >
->* [Riferimento API di Image Server: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-
+>* [Riferimento API Image Server: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

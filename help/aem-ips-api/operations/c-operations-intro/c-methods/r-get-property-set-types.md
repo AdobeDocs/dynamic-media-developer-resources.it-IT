@@ -8,7 +8,7 @@ exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Handle dell'azienda a cui sono associati i tipi di set di proprietà. <p>Ometti se desideri restituire i tipi di set di proprietà globali. </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ Sintassi
 
 ## Esempi {#section-280c406a90864409856aee44d4069a52}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getPropertySetTypesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

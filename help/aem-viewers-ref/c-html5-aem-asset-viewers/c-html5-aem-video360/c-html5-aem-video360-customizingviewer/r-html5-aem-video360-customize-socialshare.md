@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,25 +29,25 @@ La posizione e le dimensioni dello strumento di condivisione social network nell
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha lasciato </span> </p> </td> 
    <td colname="col2"> <p> Posizione orizzontale dello strumento di condivisione social network rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza dello strumento di condivisione social. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza dello strumento di condivisione social. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** : per impostare uno strumento di condivisione social, posizionato quattro pixel dall’alto e cinque pixel dalla destra del contenitore visualizzatore e ridimensionato a 28 x 28 pixel.
+**Esempio** - Impostare uno strumento di condivisione social che sia posizionato a quattro pixel dall&#39;alto e a cinque pixel dalla destra del contenitore visualizzatore e sia ridimensionato a 28 x 28 pixel.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -69,23 +69,23 @@ L’aspetto del pulsante dello strumento Condivisione social è controllato dal 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Esempio** : per impostare un pulsante per lo strumento di condivisione social che mostri un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
+**Esempio** - Per impostare un pulsante dello strumento di condivisione social network che visualizza un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -108,18 +108,18 @@ L’aspetto del pannello che contiene le singole icone di condivisione social è
 .s7video360viewer .s7socialshare .s7socialsharepanel
 ```
 
-**Proprietà CSS del pannello Condivisione social**
+**Proprietà CSS del pannello condivisione social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del pannello. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** - Per impostare un pannello in modo che presenti un colore trasparente:
+**Esempio** - Per impostare un pannello con un colore trasparente:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

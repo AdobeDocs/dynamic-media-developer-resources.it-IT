@@ -8,7 +8,7 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Puoi applicare il seguente comando sia dalla stringa di query URL che dalla conf
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il <span class="codeph"><span class="varname"> cssPath</span></span> è relativo, viene risolto in base alla posizione della pagina del visualizzatore HTML e al valore di <span class="codeph"> contentUrl=</span> parametro. </p> </td> 
+   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il percorso cssPath </span></span> di <span class="codeph"><span class="varname"> è relativo, verrà risolto in base alla posizione della pagina del visualizzatore HTML e al valore del parametro contentUrl=</span> di <span class="codeph">. </p> </td> 
   </tr> 
  </tbody> 
 </table>

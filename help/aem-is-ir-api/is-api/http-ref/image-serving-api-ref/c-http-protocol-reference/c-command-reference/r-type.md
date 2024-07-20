@@ -20,7 +20,7 @@ Filtro del tipo di contenuto statico. Specifica una stringa di filtro per il con
 
 <table id="simpletable_B66354A826434A678F3DBC686A0F1436"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Digita la stringa del filtro. </p></td> 
  </tr> 
 </table>
@@ -33,8 +33,8 @@ Supportato solo per le richieste di contenuto statico (non di immagine) gestite 
 
 ## Predefinito {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Non viene applicata alcuna corrispondenza del tipo se `type=` non è specificato o è vuoto.
+Nessun tipo corrispondente applicato se `type=` non è specificato o è vuoto.
 
 ## Consultate anche {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Distribuzione di contenuti statici (non immagine)](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catalog:::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Contenuti statici (non immagine) da distribuire](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catalogo:::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)

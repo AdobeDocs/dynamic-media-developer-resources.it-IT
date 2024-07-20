@@ -8,7 +8,7 @@ exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -25,17 +25,17 @@ Versione immagine/metadati. Quando si lavora con contenuti che cambiano frequent
  </tr> 
 </table>
 
-Image Server include un meccanismo di controllo delle versioni che può aiutare a ridurre la possibilità che un’applicazione utilizzi una voce di cache obsoleta. Questo meccanismo comporta l’utilizzo di `req=props` per ottenere stringhe di identificatori di versione per i dati immagine e metadati (come i dati mappa immagine o destinazione di zoom). La stringa dell’identificatore della versione viene quindi aggiunta alle richieste memorizzabili in cache da Image Server con `id=` comando.
+Image Server include un meccanismo di controllo delle versioni che può aiutare a ridurre la possibilità che un’applicazione utilizzi una voce di cache obsoleta. Questo meccanismo comporta l&#39;utilizzo di `req=props` per ottenere stringhe di identificatori di versione per i dati immagine e metadati (ad esempio, mappa immagine o dati di destinazione di zoom). La stringa dell&#39;identificatore di versione viene quindi aggiunta alle richieste di Image Server memorizzabili nella cache con il comando `id=`.
 
-Quando un’immagine sorgente o i metadati cambiano, cambia anche il valore dell’ID versione corrispondente. Inclusione di un valore ID versione aggiornato con il `id=` assicura che non sia più possibile accedere alle voci della cache precedenti.
+Quando un’immagine sorgente o i metadati cambiano, cambia anche il valore dell’ID versione corrispondente. L&#39;inclusione di un ID di versione aggiornato con il comando `id=` impedisce l&#39;accesso alle voci della cache precedenti.
 
-Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ogni `req=` tipo:
+Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di versione da utilizzare per ogni tipo `req=`:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> <b> identificatore di versione da req=props</b> </th> 
+   <th class="entry"> <b> richiesta= tipo</b> </th> 
+   <th class="entry"> Identificatore di versione <b> da req=props</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -70,7 +70,7 @@ Nella tabella seguente sono elencate le stringhe dell&#39;identificatore di vers
  </tbody> 
 </table>
 
-`req=` i tipi non elencati sopra hanno un TTL breve ( `attribute::NonImgExpiration`) o le loro risposte non sono per nulla memorizzabili in cache; non c’è alcun vantaggio nell’includere `id=` con tali richieste.
+`req=` tipi non elencati sopra hanno un TTL breve ( `attribute::NonImgExpiration`) o le loro risposte non sono memorizzabili nella cache; non c&#39;è alcun vantaggio nell&#39;includere `id=` con tali richieste.
 
 ## Proprietà {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -82,8 +82,8 @@ Nessuno.
 
 ## Esempio {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Vedi la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) ad esempio l’utilizzo.
+Per informazioni sull&#39;utilizzo, vedere la descrizione di [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3).
 
 ## Vedi anche {#section-6b4befb47202415195a68516f60e9988}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), [catalogo::scadenza](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a), [attribute::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), [catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a), [attribute::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)

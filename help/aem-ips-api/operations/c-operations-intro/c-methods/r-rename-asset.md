@@ -8,7 +8,7 @@ exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Rinomina una risorsa.
 
 >[!NOTE]
 >
->Il `renameFiles` Il parametro è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato in modo da corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro durante l’aggiornamento alla nuova versione API.
+>Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso da `renameAsset`. Il percorso del file virtuale viene modificato in modo da corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro durante l’aggiornamento alla nuova versione API.
 
 ## Tipi di utenti autorizzati {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -42,17 +42,17 @@ Rinomina una risorsa.
 | companyHandle | `xsd:string` | Sì | Handle dell&#39;azienda a cui appartiene il bene. |
 | assetHandle | `xsd:string` | Sì | Handle della risorsa da rinominare. |
 | newName | `xsd:string` | Sì | Nuovo nome della risorsa. |
-| validateName | `xsd:boolean` | Sì | Se il `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, quindi viene verificato se il nuovo nome è univoco a livello globale e `renameAsset` genera un errore se non è univoco. |
+| validateName | `xsd:boolean` | Sì | Se `validateName` è `true` e il tipo di risorsa richiede un ID IPS univoco, il nuovo nome viene controllato per verificare l&#39;univocità globale e `renameAsset` genera un errore se non è univoco. |
 
 **Output (renameAssetReturn)**
 
-L&#39;API IPS non restituisce una risposta per questa operazione. Vedi la descrizione della `<ns1:validateName>` per avvertenze su questo elemento.
+L&#39;API IPS non restituisce una risposta per questa operazione. Vedere la descrizione dell&#39;elemento `<ns1:validateName>` per le avvertenze su questo elemento.
 
 ## Esempi {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
 Questo esempio di codice rinomina una risorsa
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:renameAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

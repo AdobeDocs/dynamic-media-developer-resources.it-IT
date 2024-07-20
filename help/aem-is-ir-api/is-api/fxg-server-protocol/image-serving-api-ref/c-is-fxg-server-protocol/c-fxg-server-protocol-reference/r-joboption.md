@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 47%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
@@ -36,7 +36,7 @@ Sono attualmente supportate le seguenti opzioni:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Immagini </p></td> 
-  <td class="stentry"> <p> Downsampling, Risoluzione, Soglia e Compressione per colore, grigio e mono </p> </td> 
+  <td class="stentry"> <p> Downsampling, risoluzione, soglia e compressione per colore, grigio e mono </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Font </p></td> 
@@ -44,7 +44,7 @@ Sono attualmente supportate le seguenti opzioni:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Colore </p></td> 
-  <td class="stentry"> <p> Strategia colore (Tag per sole immagini viene trattato come Tag per tutto) </p> <p> Intento di rendering del documento </p> <p> Per 4.2.5 sono supportati solo i seguenti spazi di lavoro. </p> <p> 
+  <td class="stentry"> <p> Strategia colore (le immagini con solo tag vengono trattate come tutti i tag) </p> <p> Intento di rendering del documento </p> <p> Per la versione 4.2.5 sono supportati solo i seguenti spazi di lavoro. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ Sono attualmente supportate le seguenti opzioni:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Avanzate </p></td> 
-  <td class="stentry"> <p>Mantenimento dei commenti OPI sempre attivo. </p></td> 
+  <td class="stentry"> <p>Mantieni commenti OPI è sempre attivato. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Standard </p></td> 

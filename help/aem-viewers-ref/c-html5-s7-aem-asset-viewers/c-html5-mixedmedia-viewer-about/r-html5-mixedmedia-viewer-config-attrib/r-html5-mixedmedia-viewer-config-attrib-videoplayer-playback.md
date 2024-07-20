@@ -21,8 +21,8 @@ Attributo di configurazione per visualizzatore video per file multimediali diver
 <table id="table_27B4B2DDD44D4D1CB46DD1906A92B2FD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando <span class="codeph"> auto</span> è impostato, nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza lo streaming video HTML5 in formato HLS. Si basa sulla riproduzione progressiva di HTML5 su alcuni sistemi come i vecchi Internet Explorer e Android™. </p> <p>Se <span class="codeph"> progressivo</span> è specificato, il visualizzatore si basa solo sulla riproduzione HTML5 supportata in modalità nativa dai browser e riproduce progressivamente i video su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione in modalità automatica e progressiva, consulta la Guida utente di Viewer SDK. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> automatico|progressivo</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il tipo di riproduzione utilizzato dal visualizzatore. Quando è impostato <span class="codeph"> auto</span>, nella maggior parte dei browser desktop e in tutti i dispositivi iOS, il visualizzatore utilizza lo streaming video HTML5 in formato HLS. Si basa sulla riproduzione progressiva di HTML5 su alcuni sistemi come i vecchi Internet Explorer e Android™. </p> <p>Se si specifica <span class="codeph"> progressive</span>, il visualizzatore si basa solo sulla riproduzione di HTML5 supportata in modalità nativa dai browser e riproduce il video in modo progressivo su tutti i sistemi. </p> <p>Per ulteriori informazioni sulla selezione della riproduzione in modalità automatica e progressiva, consulta la Guida utente di Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

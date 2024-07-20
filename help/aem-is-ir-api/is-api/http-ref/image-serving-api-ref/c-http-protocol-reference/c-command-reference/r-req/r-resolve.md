@@ -18,6 +18,6 @@ Richiesta di debug. Questo comando di debug analizza ed elabora preventivamente 
 
 `req=resolve`
 
-Viene restituita la stringa di richiesta finale, invece dell’immagine risultante, con tipo MIME `text/plain`.
+Viene restituita la stringa di richiesta finale, invece dell&#39;immagine risultante, con tipo MIME `text/plain`.
 
 Risposta HTTP non memorizzabile in cache.

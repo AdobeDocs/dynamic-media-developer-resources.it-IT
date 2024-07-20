@@ -26,4 +26,4 @@ Sintassi
 | [!DNL resolution] | `xsd:double` | Risoluzione immagine in pixel per pollice. |
 | [!DNL anchorX] | `xsd:int` | Ancoraggio immagine asse X. |
 | [!DNL anchorY] | `xsd:int` | Ancoraggio immagine asse Y. |
-| [!DNL userData] | `xsd:string` | Valore di `userData` campo di metadati, pubblicato nel campo del catalogo dati utente di image server. |
+| [!DNL userData] | `xsd:string` | Valore del campo di metadati `userData`, pubblicato nel campo del catalogo dati utente di Image Server. |

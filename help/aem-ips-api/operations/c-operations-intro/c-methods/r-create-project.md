@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -44,9 +44,9 @@ Sintassi
 
 ## Esempi {#section-a0cd532b67e346d088fbec141231a0e5}
 
-In questo esempio di codice viene creato un progetto denominato `ApiTestProject` in una società specificata dal relativo handle. La risposta restituisce l’handle al progetto.
+Questo esempio di codice crea un progetto denominato `ApiTestProject` in una società specificata dal relativo handle. La risposta restituisce l’handle al progetto.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

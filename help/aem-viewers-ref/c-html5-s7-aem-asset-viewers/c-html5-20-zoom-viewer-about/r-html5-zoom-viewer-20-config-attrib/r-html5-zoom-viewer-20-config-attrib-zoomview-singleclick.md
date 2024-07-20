@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura delle azioni di clic/tocco per eseguire lo zoom. Impostazione di <span class="codeph"> nessuno </span> disattiva lo zoom con clic/tocco singolo. Se impostato su <span class="codeph"> zoom </span> se si fa clic sull'immagine, questa si ingrandisce di un livello; se si fa clic tenendo premuto CTRL l'immagine si riduce di un livello. Impostazione di <span class="codeph"> ripristina </span> fa in modo che, con un singolo clic, l'immagine ripristini il livello di zoom iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il ripristino se il fattore di zoom corrente è pari o superiore al limite specificato, altrimenti viene applicato lo zoom. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura delle azioni di clic/tocco per eseguire lo zoom. L'impostazione su <span class="codeph"> none </span> disattiva lo zoom con clic/tocco. Se è impostato su <span class="codeph">, lo zoom di </span> facendo clic sull'immagine si ingrandisce di un livello; se si fa clic tenendo premuto CTRL l'immagine si riduce di un livello. L'impostazione su <span class="codeph"> per il ripristino di </span> fa sì che un singolo clic sull'immagine ripristini il livello di zoom iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il ripristino se il fattore di zoom corrente è pari o superiore al limite specificato, altrimenti viene applicato lo zoom. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Facoltativo.
 
 ## Predefinito {#section-71fb773f814649b2885aefee68073641}
 
-`zoomReset` - su computer desktop; `none` sui dispositivi touch.
+`zoomReset` - Nei computer desktop; `none` nei dispositivi touch.
 
 ## Esempio {#section-bce98c31f08a4a0ab262fab7f95ba020}
 

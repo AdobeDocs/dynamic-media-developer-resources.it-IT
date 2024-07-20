@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Percorso file immagine.
 
-Percorso e nome relativi o assoluti del file immagine di origine associato a questo record catalogo. Per trovare il file di dati, il server utilizza le regole di risoluzione dei percorsi descritte in Gestione dei dati di origine.
+Percorso e nome relativi o assoluti del file immagine di origine associato a questo record catalogo. Per trovare il file di dati, il server utilizza le regole di risoluzione dei percorsi descritte in Gestione dei dati di Source.
 
 ## Proprietà {#path-properties}
 
@@ -34,6 +34,6 @@ Nessuno.
 
 ## Consultate anche {#path-seealso}
 
-[Utilità IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[Utilità IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attributo::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

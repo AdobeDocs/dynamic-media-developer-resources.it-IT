@@ -8,7 +8,7 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -50,7 +50,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti set di proprietà del proprietario primario, specificati da un handle di tipo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

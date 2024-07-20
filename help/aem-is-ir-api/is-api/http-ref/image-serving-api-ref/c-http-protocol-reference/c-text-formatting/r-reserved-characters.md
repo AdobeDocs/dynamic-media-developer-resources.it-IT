@@ -16,10 +16,10 @@ ht-degree: 0%
 
 In questa sezione sono elencati i caratteri riservati per scopi specifici.
 
-RTF utilizza parentesi graffe &quot; `{`&#39; e &#39; `}`&#39; come delimitatori di gruppo. Devono essere presenti in coppie e possono essere nidificati. Per visualizzare le parentesi graffe nelle stringhe di testo, utilizzare &#39; `\{`&#39; e &#39; `\}`&quot;, rispettivamente.
+RTF utilizza le parentesi graffe &#39; `{`&#39; e &#39; `}`&#39; come delimitatori di gruppo. Devono essere presenti in coppie e possono essere nidificati. Per visualizzare le parentesi graffe nelle stringhe di testo, utilizzare rispettivamente &#39;`\{`&#39; e &#39;`\}`&#39;.
 
 >[!NOTE]
 >
 >Devi codificare in URL tutte le parentesi graffe utilizzate in RTF.
 
-Le barre rovesciate &#39;\&#39; vengono utilizzate per introdurre comandi e parole chiave RTF. Per visualizzare una barra rovesciata, utilizza `'\\'`.
+Le barre rovesciate &#39;\&#39; vengono utilizzate per introdurre comandi e parole chiave RTF. Per visualizzare una barra rovesciata, utilizzare `'\\'`.

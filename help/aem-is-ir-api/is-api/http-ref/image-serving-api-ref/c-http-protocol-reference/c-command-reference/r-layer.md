@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Selezionate Livello (Layer). Seleziona un livello e avvia un nuovo segmento di d
  </tr> 
 </table>
 
-Tutti i comandi all&#39;interno del segmento di livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal successivo `layer=` o `effect=` o alla fine della richiesta.
+Tutti i comandi all&#39;interno del segmento di livello vengono applicati al livello specificato. Un segmento di livello viene terminato dal successivo comando `layer=` o `effect=` o dalla fine della richiesta.
 
-Specifica `layer=comp` per selezionare l&#39;immagine composita (o la vista, per alcuni comandi).
+Specificare `layer=comp` per selezionare l&#39;immagine composita (o la visualizzazione, per alcuni comandi).
 
 Il numero di livello specifica l&#39;ordine z per il livello. I livelli con numero più alto vengono posizionati sopra i livelli con numero più basso.
 
 I numeri dei livelli non devono essere consecutivi. È richiesto il livello 0.
 
-È possibile assegnare un nome a un livello con `layer= *`n`*, *`nome`*` variante del comando. Una volta definito un livello con nome, è possibile farvi riferimento con ` layer= *`nome`*`, senza dover conoscere il numero del livello. È possibile assegnare più nomi allo stesso livello utilizzando più `layer= *`n`*, *`nome`*` comandi.
+È possibile assegnare un nome a un livello con la variante di comando `layer= *`n`*, *`name`*`. Una volta definito un livello con nome, è possibile farvi riferimento con ` layer= *`name`*`, senza dover conoscere il numero del livello. È possibile assegnare più nomi allo stesso livello utilizzando più comandi `layer= *`n`*, *`name`*`.
 
 >[!NOTE]
 >
@@ -53,20 +53,20 @@ I numeri dei livelli non devono essere consecutivi. È richiesto il livello 0.
 
 Comando Livello. I riferimenti alle variabili di sostituzione non sono supportati in `layer=`.
 
-`comp` non è consentito come *`name`* stringa. Viene restituito un errore se lo stesso *`name`* è assegnato a più di un livello o se un livello è referenziato da *`name`* che non è stato definito in precedenza.
+`comp` non è consentito come stringa *`name`*. Viene restituito un errore se lo stesso *`name`* è assegnato a più livelli o se *`name`* fa riferimento a un livello che non è stato definito in precedenza.
 
 ## Predefinito {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`. Molti comandi e attributi vengono applicati al livello 0 se `layer=comp`.
+`layer=comp`. Molti comandi e attributi si applicano al livello 0 se `layer=comp`.
 
 ## Casi speciali {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* Se lo stesso nome è mappato su più livelli (ad esempio: `layer=1,image&layer=2,image`), si verifica un errore.
-* Se lo stesso nome viene mappato più volte su un singolo livello (ad esempio: `layer=1,image&layer=1,image`), l’ambito viene impostato come di consueto, senza errori.
+* Se lo stesso nome è mappato a più livelli (ad esempio: `layer=1,image&layer=2,image`), si verifica un errore.
+* Se lo stesso nome viene mappato più volte a un singolo livello (ad esempio: `layer=1,image&layer=1,image`), l&#39;ambito viene impostato come di consueto, senza errori.
 * Sono supportati più nomi per lo stesso livello.
 
   Entrambi i nomi possono essere utilizzati per fare riferimento al livello (ad esempio: `layer=1,image&layer=1,picture`).
-* Se un nome a cui si fa riferimento non viene mai mappato a un numero di livello (ad esempio: `layer=1,image&layer=picture`), si verifica un errore.
+* Se un nome di riferimento non viene mai mappato a un numero di livello (ad esempio: `layer=1,image&layer=picture`), si verifica un errore.
 * Le variabili di sostituzione non sono supportate nei modificatori di livello (ad esempio: `layer=$image$`).
 
   Questo vale per tutte le permutazioni, non solo per i nomi dei livelli ma anche per i modificatori di livello in generale.

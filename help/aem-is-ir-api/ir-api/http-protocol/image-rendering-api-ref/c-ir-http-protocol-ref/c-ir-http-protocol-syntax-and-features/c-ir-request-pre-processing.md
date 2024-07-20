@@ -22,7 +22,7 @@ Le regole di pre-elaborazione delle richieste possono modificare il percorso e l
 
 Le regole di pre-elaborazione delle richieste sono adatte per varie applicazioni, alcune delle quali sono elencate di seguito:
 
-* Implementare un *percorsi virtuali* che consente di mappare nuovamente il percorso della richiesta su percorsi file, FTP e HTTP.
+* Implementa un meccanismo di *percorsi virtuali*, che consente di mappare nuovamente il percorso della richiesta su percorsi file, FTP e HTTP.
 * Non consentire l&#39;utilizzo di comandi che utilizzano intensamente la CPU per impedire l&#39;utilizzo non corretto del server.
 * Controlla le impostazioni di qualità delle immagini (ad esempio qualità del JPEG o nitidezza) a seconda del percorso della richiesta o del nome dell’immagine.
 

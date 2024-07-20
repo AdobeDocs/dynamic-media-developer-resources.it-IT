@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Più proprietà sono separate da separatori di riga, che possono essere `??` o `
 
 I valori delle proprietà non devono includere separatori di riga.
 
-Consulta [Stringa di testo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63) per regole aggiuntive applicate ai dati delle proprietà.
+Per ulteriori regole applicate ai dati delle proprietà, vedere [Stringa di testo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63).

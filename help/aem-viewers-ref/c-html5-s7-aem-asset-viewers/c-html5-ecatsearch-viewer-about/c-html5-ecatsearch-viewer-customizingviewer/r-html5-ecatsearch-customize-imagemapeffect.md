@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ L’aspetto dell’icona mappa immagine è controllato dal seguente selettore di
 
 >[!NOTE]
 >
->Il `s7mapoverlay` La classe CSS utilizzata in passato per assegnare uno stile alle icone delle mappe immagine è ora obsoleta. Utilizzare `s7icon` invece.
+>La classe CSS `s7mapoverlay` utilizzata in passato per assegnare uno stile alle icone della mappa immagine è ora obsoleta. Utilizzare `s7icon`.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,19 +39,19 @@ L’aspetto dell’icona mappa immagine è controllato dal seguente selettore di
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Illustrazione dell'icona della mappa immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona mappa immagine in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza icona mappa immagine in pixel. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ L’aspetto dell’icona mappa immagine è controllato dal seguente selettore di
 
 >[!NOTE]
 >
->L&#39;icona Mappa immagine supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi agli stati di icona di `default` e `active`.
+>L&#39;icona Mappa immagine supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse agli stati di icona di `default` e `active`.
 
 Esempio: imposta un’icona di mappa immagine di 28 x 28 pixel che visualizza un’immagine diversa per ciascuno dei due diversi stati delle icone.
 
@@ -77,7 +77,7 @@ opacity: 1;
 }
 ```
 
-Vedi anche [Supporto mappa immagine](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Consulta anche [Supporto mappa immagine](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
 L’aspetto dell’area della mappa immagine è controllato dal seguente selettore di classe CSS:
 
@@ -98,7 +98,7 @@ L’aspetto dell’area della mappa immagine è controllato dal seguente seletto
    <td colname="col2"> <p> Colore riempimento area mappa immagine. </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore riempimento area mappa immagine. </p> <p>Specificato in formato #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ L’aspetto dell’area della mappa immagine è controllato dal seguente seletto
  </tbody> 
 </table>
 
-Esempio: impostare un’area di mappa immagine trasparente con `1` bordo nero pixel:
+Esempio: impostare un&#39;area di mappa immagine trasparente con `1` pixel di bordo nero:
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 

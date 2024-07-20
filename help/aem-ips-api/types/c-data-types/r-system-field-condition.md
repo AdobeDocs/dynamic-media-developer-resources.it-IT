@@ -8,7 +8,7 @@ exl-id: ebd12727-dbb3-40dc-b631-945415331be6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Condizione di ricerca del campo di sistema per l’operazione searchAssets.
 
-Per confronti unari, trasmettere esattamente un valore ( `boolVal`, `longVal`, `doubleVal`, o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, trasmettere `min<Type>` e `max<Type>` e trasmettere un `op` valore di `Between` o `NotBetween`.
+Per confronti unari, passare esattamente un valore ( `boolVal`, `longVal`, `doubleVal` o `dateVal`) a seconda del tipo di campo di sistema. Per gli intervalli di ricerca, passare `min<Type>` e `max<Type>` parametri e un valore `op` di `Between` o `NotBetween`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

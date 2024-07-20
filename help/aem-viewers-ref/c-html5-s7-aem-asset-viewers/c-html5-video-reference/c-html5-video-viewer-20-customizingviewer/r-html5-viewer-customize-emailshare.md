@@ -37,21 +37,21 @@ L’aspetto del pulsante di condivisione e-mail è controllato dal seguente sele
    <td colname="col2"> <p>Altezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-È possibile rimuovere il pulsante dal pannello Condivisione social impostando `display:none` proprietà CSS nella relativa classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social impostando la proprietà CSS `display:none` sulla relativa classe CSS.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare un pulsante di condivisione e-mail di 28 x 28 pixel che visualizzi un’immagine diversa per ciascuno dei quattro diversi stati del pulsante.
 
@@ -89,7 +89,7 @@ La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialo
    <td colname="col2"> <p> Opacità sovrapposizione sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sovrapposizione sfondo. </p> </td> 
   </tr> 
  </tbody> 
@@ -115,11 +115,11 @@ Per impostazione predefinita, la finestra di dialogo modale viene visualizzata c
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p> Raggio del bordo della finestra di dialogo (se la finestra di dialogo non occupa l'intera finestra del browser); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della finestra di dialogo; </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ L&#39;intestazione della finestra di dialogo è costituita da un&#39;icona, un t
 .s7videoviewer .s7emaildialog .s7dialogheader
 ```
 
-**Proprietà CSS dell’intestazione della finestra di dialogo**
+**Proprietà CSS dell&#39;intestazione della finestra di dialogo**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
@@ -196,12 +196,12 @@ L’icona dell’intestazione è controllata dal seguente selettore di classe CS
    <td colname="col2"> <p>Altezza icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,7 +212,7 @@ Il titolo dell’intestazione è controllato dal seguente selettore di classe CS
 .s7videoviewer .s7emaildialog .s7dialogheadertext
 ```
 
-**Proprietà CSS del testo dell’intestazione della finestra di dialogo**
+**Proprietà CSS del testo dell&#39;intestazione della finestra di dialogo**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -225,7 +225,7 @@ Il titolo dell’intestazione è controllato dal seguente selettore di classe CS
    <td colname="col2"> <p>Altezza carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
@@ -246,11 +246,11 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale del pulsante rispetto al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p> Posizione del pulsante orizzontale relativa al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
@@ -266,21 +266,21 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-È possibile localizzare la descrizione comando del pulsante Chiudi e il titolo della finestra di dialogo. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+È possibile localizzare la descrizione comando del pulsante Chiudi e il titolo della finestra di dialogo. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare l’intestazione della finestra di dialogo con spaziatura interna, icona 24 x 17 pixel, titolo in grassetto a 16 punti e pulsante di chiusura 28 x 28 pixel. Infine, posizionalo di due pixel dalla parte superiore e di due pixel dalla destra del contenitore delle finestre di dialogo:
 
@@ -379,7 +379,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
 Il pulsante Invia e-mail è controllato dal seguente selettore di classe CSS:
 
@@ -412,7 +412,7 @@ Il pulsante Invia e-mail è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ Il pulsante Invia e-mail è controllato dal seguente selettore di classe CSS:
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
 Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere impostazioni CSS identiche a quelle degli altri pulsanti della finestra di dialogo:
 
@@ -441,11 +441,11 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere
    <td colname="col2"> <p>Dimensione font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere
  </tbody> 
 </table>
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare un piè di pagina della finestra di dialogo con il pulsante Annulla 64 x 34 e il pulsante Invia e-mail 82 x 34, con il colore del testo e il colore di sfondo diversi per ciascuno stato del pulsante:
 
@@ -536,7 +536,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
    <td colname="col2"> <p> Altezza della finestra di dialogo principale. Deve essere specificato solo quando la finestra di dialogo funziona in modalità desktop. Non è applicabile quando la finestra di dialogo viene ridimensionata per occupare l'intera finestra del browser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area della finestra di dialogo principale. </p> </td> 
   </tr> 
   <tr> 
@@ -548,7 +548,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
 
 >[!NOTE]
 >
->L&#39;area della finestra di dialogo principale supporta l&#39;opzione `state` selettore di attributi. È impostato su `sendsuccess` quando il modulo e-mail viene inviato e nella finestra di dialogo viene visualizzato un messaggio di conferma. Se il messaggio di conferma è piccolo, questo selettore di attributi può essere utilizzato per ridurre l’altezza della finestra di dialogo quando viene visualizzato tale messaggio di conferma.
+>L&#39;area della finestra di dialogo principale supporta il selettore di attributi `state` facoltativo. È impostato su `sendsuccess` quando il modulo e-mail viene inviato e nella finestra di dialogo viene visualizzato un messaggio di conferma. Se il messaggio di conferma è piccolo, questo selettore di attributi può essere utilizzato per ridurre l’altezza della finestra di dialogo quando viene visualizzato tale messaggio di conferma.
 
 Esempio: per impostare l&#39;area della finestra di dialogo principale su un&#39;altezza iniziale di 300 pixel e su un&#39;altezza di 100 pixel quando viene visualizzato il messaggio di conferma, impostate un margine di dieci pixel e utilizzate uno sfondo bianco:
 
@@ -636,7 +636,7 @@ Questa classe non è adatta per controllare le dimensioni o la posizione delle e
    <td colname="col2"> <p>Dimensione font etichetta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia font etichetta. </p> </td> 
   </tr> 
   <tr> 
@@ -646,7 +646,7 @@ Questa classe non è adatta per controllare le dimensioni o la posizione delle e
  </tbody> 
 </table>
 
-Le etichette delle finestre di dialogo possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le etichette delle finestre di dialogo possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare tutte le etichette come grigie, in grassetto con un carattere di nove pixel:
 
@@ -673,7 +673,7 @@ Tutte le etichette statiche visualizzate a sinistra dei campi di input del modul
    <td colname="col2"> <p>Larghezza dell'etichetta statica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allinea testo </span> </p> </td> 
    <td colname="col2"> <p>Allineamento orizzontale del testo. </p> </td> 
   </tr> 
   <tr> 
@@ -721,7 +721,7 @@ Ogni campo di input del modulo viene racchiuso nel contenitore, che consente di 
 
 >[!NOTE]
 >
->Il contenitore del campo di input supporta gli elementi facoltativi `state` selettore di attributi. È impostato su `verifyerror` quando l’utente commette un errore nel formato dei dati di input e la convalida in linea non riesce. Questo selettore di attributi può essere utilizzato per evidenziare un input utente errato nel modulo.
+>Il contenitore del campo di input supporta il selettore di attributi `state` facoltativo. È impostato su `verifyerror` quando l&#39;utente commette un errore nel formato dei dati di input e la convalida in linea non riesce. Questo selettore di attributi può essere utilizzato per evidenziare un input utente errato nel modulo.
 
 La maggior parte dei campi di input che si estendono dall&#39;etichetta a sinistra fino al bordo destro del corpo della finestra di dialogo (che include il campo &quot;Da&quot; e il campo &quot;Messaggio&quot;) sono controllati da:
 
@@ -781,7 +781,7 @@ Il campo di input del messaggio e-mail è controllato anche con:
 .s7videoviewer .s7emaildialog .s7dialogmessage
 ```
 
-Questa classe consente di impostare proprietà specifiche per il sottostante `TEXTAREA` elemento.
+Questa classe consente di impostare proprietà specifiche per l&#39;elemento `TEXTAREA` sottostante.
 
 **Proprietà CSS del messaggio della finestra di dialogo**
 
@@ -798,7 +798,7 @@ Questa classe consente di impostare proprietà specifiche per il sottostante `TE
  </tbody> 
 </table>
 
-Esempio: per impostare un messaggio e-mail con un’altezza di 50 pixel e utilizzare `break-word` ritorno a capo automatico:
+Esempio: per impostare un messaggio e-mail con un&#39;altezza di 50 pixel e utilizzare il ritorno a capo automatico `break-word`:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogmessage { 
@@ -826,7 +826,7 @@ Il pulsante &quot;Aggiungi un altro indirizzo e-mail&quot; consente a un utente 
    <td colname="col2"> <p>Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
@@ -842,15 +842,15 @@ Il pulsante &quot;Aggiungi un altro indirizzo e-mail&quot; consente a un utente 
    <td colname="col2"> <p>Dimensione font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p>Altezza del testo all'interno del pulsante. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allinea testo </span> </p> </td> 
    <td colname="col2"> <p>Allineamento orizzontale del testo. </p> </td> 
   </tr> 
   <tr> 
@@ -862,9 +862,9 @@ Il pulsante &quot;Aggiungi un altro indirizzo e-mail&quot; consente a un utente 
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare il pulsante &quot;Aggiungi un altro indirizzo e-mail&quot; ad un’altezza di 25 pixel, utilizza un font in grassetto a 12 punti con allineamento a destra e un colore di testo e un’immagine diversi per ogni stato:
 
@@ -916,21 +916,21 @@ Il pulsante &quot;Rimuovi&quot; consente a un utente di rimuovere indirizzi aggi
    <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio - per impostare un pulsante &quot;Rimuovi&quot; di 25 x 25 pixel e usare un&#39;immagine diversa per ogni stato:
 
@@ -989,7 +989,7 @@ L’immagine miniatura viene controllata con il seguente selettore di classe CSS
 .s7videoviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-Il `background-image` viene impostata dalla logica del componente.
+La proprietà `background-image` è impostata dalla logica del componente.
 
 **Proprietà CSS dell&#39;immagine miniatura della finestra di dialogo**
 
@@ -1004,7 +1004,7 @@ Il `background-image` viene impostata dalla logica del componente.
    <td colname="col2"> <p>Altezza miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Allineamento verticale </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allineamento verticale </span> </p> </td> 
    <td colname="col2"> <p>Miniatura allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -1073,7 +1073,7 @@ Il titolo del contenuto è controllato dal seguente selettore di classe CSS:
    <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
  </tbody> 
@@ -1111,7 +1111,7 @@ L’origine del contenuto è controllata con il seguente selettore di classe CSS
    <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
  </tbody> 
@@ -1148,7 +1148,7 @@ La descrizione del contenuto è controllata dal seguente selettore di classe CSS
    <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
  </tbody> 
@@ -1169,12 +1169,12 @@ Quando un utente immette dati di input errati e la convalida in linea non riesce
 .s7videoviewer .s7emaildialog .s7dialogerrormessage
 ```
 
-**Messaggio di errore Proprietà CSS della finestra di dialogo**
+**Messaggio di errore proprietà CSS della finestra di dialogo**
 
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Icona di errore. Il valore predefinito è un punto esclamativo. </p> </td> 
   </tr> 
   <tr> 
@@ -1194,11 +1194,11 @@ Quando un utente immette dati di input errati e la convalida in linea non riesce
    <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo nel messaggio. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -1210,9 +1210,9 @@ Quando un utente immette dati di input errati e la convalida in linea non riesce
 
 >[!NOTE]
 >
->Questo messaggio supporta `state` selettore di attributi con i seguenti valori possibili: `verifyerror`, `senderror`, e `sendsuccess`. Selettore di attributi `verifyerror` è impostato quando un messaggio viene visualizzato a causa di un errore di convalida dell’input in linea; `senderror` è impostato quando un servizio e-mail back-end segnala un errore; `sendsuccess` è impostato quando l’e-mail viene inviata correttamente. In questo modo è possibile assegnare al messaggio uno stile diverso a seconda dello stato della finestra di dialogo.
+>Questo messaggio supporta il selettore di attributi `state` con i seguenti valori possibili: `verifyerror`, `senderror` e `sendsuccess`. Il selettore di attributi `verifyerror` viene impostato quando viene visualizzato un messaggio a causa di un errore di convalida dell&#39;input in linea; `senderror` viene impostato quando un servizio di posta elettronica backend segnala un errore; `sendsuccess` viene impostato quando l&#39;invio dell&#39;e-mail è riuscito. In questo modo è possibile assegnare al messaggio uno stile diverso a seconda dello stato della finestra di dialogo.
 
-Il messaggio di errore può essere localizzato. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Il messaggio di errore può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare un messaggio per l&#39;utilizzo di un carattere grassetto a dieci punti. Inoltre, deve avere un’altezza della riga di 25 pixel, una spaziatura di 20 pixel a sinistra, un’icona con un punto esclamativo, del testo rosso in caso di errore e nessun’icona e del testo verde in caso di successo:
 
@@ -1278,15 +1278,15 @@ L’aspetto dell’area della barra di scorrimento è controllato dal seguente s
    <td colname="col2"> <p> Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte superiore del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte inferiore del pannello di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p> Scostamento della barra di scorrimento orizzontale dal bordo destro del pannello di scorrimento. </p> </td> 
   </tr> 
  </tbody> 
@@ -1318,7 +1318,7 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
    <td colname="col2"> <p>Larghezza della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del brano. </p> </td> 
   </tr> 
  </tbody> 
@@ -1339,7 +1339,7 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrollthumb
 ```
 
-**Proprietà CSS del cursore della barra di scorrimento**
+**Proprietà CSS della barra di scorrimento**
 
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
@@ -1356,25 +1356,25 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
    <td colname="col2"> <p> Spaziatura verticale tra la parte superiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento inferiore </span> </p> </td> 
    <td colname="col2"> <p> Spaziatura verticale tra la parte inferiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pollice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati miniatura diversi: `up`, `down`, `over`, e `disabled`.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati della miniatura: `up`, `down`, `over` e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare il pollice della barra di scorrimento che è di 28 x 45 pixel, ha un margine di dieci pixel in alto e in basso e ha un disegno diverso per ogni stato:
 
@@ -1423,19 +1423,19 @@ L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai
    <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questi pulsanti supportano `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di pulsante diversi: `up`, `down`, `over`, e `disabled`.
+>Questi pulsanti supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsanti: `up`, `down`, `over` e `disabled`.
 
 Esempio - per impostare pulsanti di scorrimento di 28 x 32 pixel con grafica diversa per ogni stato:
 

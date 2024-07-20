@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Imposta le autorizzazioni di una singola risorsa utilizzando una risorsa di autorizzazione.
 
-Per impostazione predefinita, le risorse ereditano le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, questa non eredita più le autorizzazioni del relativo elemento padre, a meno che tu non chiami `removeAssetPermissions`.
+Per impostazione predefinita, Assets eredita le autorizzazioni della cartella principale. Una volta impostate le autorizzazioni su una risorsa, questa non eredita più le autorizzazioni del relativo elemento padre, a meno che non si chiami `removeAssetPermissions`.
 
 ## Tipi di utenti autorizzati {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -42,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice imposta le autorizzazioni per una risorsa. Contiene l’handle della società e della risorsa e un array di autorizzazioni.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setAssetPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

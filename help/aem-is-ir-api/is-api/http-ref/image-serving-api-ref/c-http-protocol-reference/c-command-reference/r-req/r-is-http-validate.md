@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ Convalida delle richieste.
  </tr> 
 </table>
 
-Analizza la stringa di richiesta come se `req=img` ma senza sostituire le variabili e valutare gli oggetti di riferimento (immagini, profili ICC, font e così via). Se l’analisi non riesce, viene restituita la risposta di errore standard. In caso contrario viene restituita la seguente proprietà:
+Analizza la stringa di richiesta come se fossero specificati `req=img`, ma senza sostituire le variabili e valutare gli oggetti di riferimento (immagini, profili ICC, font e così via). Se l’analisi non riesce, viene restituita la risposta di errore standard. In caso contrario viene restituita la seguente proprietà:
 
 `request.isValid=1`
 
 Risposta HTTP non memorizzabile in cache.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa di `req=` parametro:
+Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

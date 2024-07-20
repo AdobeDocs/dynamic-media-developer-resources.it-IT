@@ -8,7 +8,7 @@ exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -45,9 +45,9 @@ Sintassi
 
 ## Esempi {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Questo esempio di codice sostituisce un’immagine e applica un `urlModifier` con un comando che specifica che il server immagini non esegue alcuna azione al momento della sostituzione.
+Questo esempio di codice sostituisce un&#39;immagine e applica un `urlModifier` con un comando che specifica che il server immagini non esegue alcuna azione al momento della sostituzione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <replaceImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

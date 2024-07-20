@@ -20,7 +20,7 @@ Mostra oggetto di sovrapposizione. Rende visibili tutti gli oggetti di sovrappos
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Ignorato. </p></td> 
  </tr> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 <table id="table_BE34F807437C4955A2A640495E05138F"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Se impostato su <span class="codeph"> 1</span>, il componente aggiunge al pannello a discesa etichette per tutte le pagine, anche quelle per le quali non sono state definite etichette. </p> <p>Se impostato su <span class="codeph"> 0</span> nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> Se è impostato su <span class="codeph"> 1</span>, il componente aggiunge al pannello a discesa elementi per tutte le pagine, anche quelle per le quali non sono state definite etichette. </p> <p>Se è impostato su <span class="codeph"> 0</span>, nel pannello a discesa vengono visualizzati solo gli elementi con etichette esplicite. </p> </td> 
   </tr> 
  </tbody> 
 </table>

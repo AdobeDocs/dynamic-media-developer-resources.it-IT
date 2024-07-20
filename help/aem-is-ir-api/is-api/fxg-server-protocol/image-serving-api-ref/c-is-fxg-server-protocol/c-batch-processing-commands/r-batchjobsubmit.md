@@ -20,7 +20,7 @@ Questo parametro:
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> dati processo </span> </p> </td> 
   <td class="stentry"> <p>Frammento XML di dati processo completi. </p> </td> 
  </tr> 
 </table>

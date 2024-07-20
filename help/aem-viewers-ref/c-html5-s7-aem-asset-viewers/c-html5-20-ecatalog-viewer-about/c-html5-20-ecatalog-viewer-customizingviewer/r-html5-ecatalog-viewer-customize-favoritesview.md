@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ La posizione e l&#39;altezza della vista Preferiti vengono gestite dalla vista; 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della visualizzazione Preferiti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della vista. </p> </td> 
   </tr> 
  </tbody> 
@@ -86,11 +86,11 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura selezionata di recente dall&#39;utente. Attributo `state="default"` corrisponde al resto delle miniature. E, l’attributo `state="over"` al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla miniatura selezionata di recente dall&#39;utente. L&#39;attributo `state="default"` corrisponde alle altre miniature. L&#39;attributo `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio: per impostare miniature da 75 x 75 pixel, usare un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro:
 
@@ -130,7 +130,7 @@ L’aspetto dell’etichetta delle miniature è controllato dal seguente seletto
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Famiglia di caratteri <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 

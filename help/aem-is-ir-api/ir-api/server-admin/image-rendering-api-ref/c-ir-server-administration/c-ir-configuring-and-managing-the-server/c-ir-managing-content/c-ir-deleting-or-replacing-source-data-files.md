@@ -24,6 +24,6 @@ L&#39;eliminazione o la sostituzione di un file di dati di origine determina sol
 
 Per sostituire altri file di dati, è necessario arrestare il server di rendering.
 
-[!DNL Platform Server] le voci della cache vengono invalidate automaticamente quando vengono sostituiti file di materiale o vignettature. La sostituzione dei file di profilo ICC non invalida le cache.
+[!DNL Platform Server] voci della cache vengono invalidate automaticamente quando vengono sostituiti file di materiale o vignettature. La sostituzione dei file di profilo ICC non invalida le cache.
 
 Per evitare complicazioni legate alla sostituzione dei file, si consiglia di assegnare un nuovo nome al file di sostituzione e di aggiornare le voci di catalogo corrispondenti. Questo consente di sostituire qualsiasi file di dati mentre il server è attivo e fa sì che le voci della cache del server diventino automaticamente obsolete senza alcun intervento aggiuntivo. Questo approccio può essere utilizzato per tutti i file di dati gestiti dai cataloghi di immagini.

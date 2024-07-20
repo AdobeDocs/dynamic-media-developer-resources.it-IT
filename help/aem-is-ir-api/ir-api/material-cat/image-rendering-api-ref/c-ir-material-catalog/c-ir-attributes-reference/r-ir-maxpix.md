@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Limite dimensioni immagine di risposta. Larghezza e altezza massime per l’immagine da restituire al client.
 
-Il server restituisce un errore se una richiesta provocherebbe un’immagine di risposta con larghezza e/o altezza superiore a `attribute::MaxSize`.
+Il server restituisce un errore se una richiesta causerebbe un&#39;immagine di risposta con larghezza e/o altezza maggiore di `attribute::MaxSize`.
 
 ## Proprietà {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 

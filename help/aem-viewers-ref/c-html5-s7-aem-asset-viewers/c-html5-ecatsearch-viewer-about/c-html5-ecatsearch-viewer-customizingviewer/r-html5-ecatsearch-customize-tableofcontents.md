@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -31,37 +31,37 @@ La posizione e le dimensioni del pulsante del sommario nell’interfaccia utente
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Offset dalla parte superiore della barra di controllo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> Distanza dal pulsante successivo a sinistra o dal lato sinistro della barra di controllo se questo pulsante è il primo di una riga. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del pulsante del sommario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p> Altezza del pulsante del sommario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare interfacce diverse a stati di pulsante diversi.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: impostare un pulsante del sommario posizionato a 4 pixel dal basso e a 43 pixel dalla sinistra della barra di controllo principale. Le dimensioni sono di 28 x 28 pixel e viene visualizzata un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
@@ -96,7 +96,7 @@ L’aspetto del pannello a discesa è controllato dal seguente selettore di clas
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo del pannello a discesa. </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ L’aspetto dei singoli elementi è controllato dal seguente selettore di classe
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ L’aspetto dei singoli elementi è controllato dal seguente selettore di classe
    <td colname="col2"> <p>Dimensione font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza dell'elemento. </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ L’aspetto dei singoli elementi è controllato dal seguente selettore di classe
 
 >[!NOTE]
 >
->L&#39;elemento dell&#39;elenco a discesa supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi agli stati al passaggio del mouse e agli elementi selezionati.
+>L&#39;elemento dell&#39;elenco a discesa supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati al passaggio del mouse e agli elementi selezionati.
 
 Esempio: impostare un elemento a discesa con un carattere Helvetica® di 14 pixel e un&#39;altezza di 19 pixel. Quando un elemento è selezionato, presenta uno sfondo grigio scuro al passaggio del mouse e uno sfondo grigio chiaro:
 
@@ -179,7 +179,7 @@ Un elemento che mostra l’indice della pagina è controllato con il seguente se
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index
 ```
 
-**Proprietà CSS dell’indice della pagina**
+**Proprietà CSS dell&#39;indice della pagina**
 
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
@@ -188,11 +188,11 @@ Un elemento che mostra l’indice della pagina è controllato con il seguente se
    <td colname="col2"> <p> Larghezza minima degli elementi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza max </span> </p> </td> 
    <td colname="col2"> <p> Larghezza massima elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento a destra </span> </p> </td> 
    <td colname="col2"> <p> Distanza tra l'indice e l'etichetta della pagina. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Un elemento che mostra l’indice della pagina è controllato con il seguente se
 
 >[!NOTE]
 >
->È possibile nascondere completamente l’indice della pagina impostando `display:none` per `s7index` Classe CSS.
+>È possibile nascondere completamente l&#39;indice della pagina impostando `display:none` per la classe CSS `s7index`.
 
 Esempio 1: impostare un indice di pagina con una larghezza minima di 40 pixel, una larghezza massima di 70 pixel e un margine di 5 pixel sul lato destro:
 
@@ -226,7 +226,7 @@ L’etichetta della pagina è controllata con il seguente selettore di classe CS
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7label
 ```
 
-**Proprietà CSS dell’etichetta pagina**
+**Proprietà CSS dell&#39;etichetta pagina**
 
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
@@ -235,7 +235,7 @@ L’etichetta della pagina è controllata con il seguente selettore di classe CS
    <td colname="col2"> <p> Larghezza minima degli elementi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza max </span> </p> </td> 
    <td colname="col2"> <p> Larghezza massima elemento. </p> </td> 
   </tr> 
  </tbody> 
@@ -261,19 +261,19 @@ Se il numero di elementi che possono rientrare verticalmente nel pannello a disc
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza della barra di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte superiore dell'area del pannello. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p> Scostamento della barra di scorrimento verticale dalla parte inferiore dell'area del pannello. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p> La barra di scorrimento orizzontale si sposta dal bordo destro dell'area del pannello. </p> </td> 
   </tr> 
  </tbody> 
@@ -301,11 +301,11 @@ La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti di s
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della traccia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del brano. </p> </td> 
   </tr> 
  </tbody> 
@@ -331,11 +331,11 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pollice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pollice. </p> </td> 
   </tr> 
   <tr> 
@@ -343,23 +343,23 @@ Il pollice della barra di scorrimento si sposta verticalmente all&#39;interno de
    <td colname="col2"> <p> Spaziatura verticale tra la parte superiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento inferiore </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura verticale tra la parte inferiore del brano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pollice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi al `up`, `down`, `over`, e `disabled` stati del pollice.
+>La miniatura supporta il selettore di attributi `state`, che può essere utilizzato per applicare skin diversi agli stati miniatura `up`, `down`, `over` e `disabled`.
 
 Esempio: impostare una barra di scorrimento di 28 x 45 pixel, con margini di 10 pixel in alto e in basso e un disegno diverso per ogni stato:
 
@@ -396,36 +396,36 @@ L’aspetto dei pulsanti di scorrimento superiore e inferiore è controllato dai
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà; al contrario, la logica di visualizzazione li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`, ma la logica del visualizzatore li posiziona automaticamente.
 
-**Proprietà CSS del pulsante di scorrimento verso l’alto e verso il basso**
+**Proprietà CSS del pulsante di scorrimento verso l&#39;alto e verso il basso**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il pulsante supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi al `up`, `down`, `over`, e `disabled` stati dei pulsanti.
+>Il pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse agli stati dei pulsanti `up`, `down`, `over` e `disabled`.
 
-La descrizione comando del pulsante può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Esempio: impostare pulsanti di scorrimento di 28 x 32 pixel con grafica diversa per ogni stato:
 

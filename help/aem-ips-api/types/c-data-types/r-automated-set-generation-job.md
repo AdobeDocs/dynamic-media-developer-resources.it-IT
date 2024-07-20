@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Percorso della cartella in cui desideri salvare i set. Salva nella cartella principale della società per impostazione predefinita. </td> 
   </tr> 
   <tr> 
@@ -47,19 +47,19 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Matrice di script per la generazione di set eseguibili sui file caricati. Consulta <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> OpzioniCreazioneImpostazioneAutomatica</a></td> 
+   <td colname="col3">Matrice di script per la generazione di set eseguibili sui file caricati. Vedere <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Imposta una notifica e-mail automatica per il processo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Opzioni emailSetting**
+**opzioni emailSetting**
 
-Il `emailSetting` Il parametro include le seguenti opzioni:
+Il parametro `emailSetting` include le opzioni seguenti:
 
 | Opzione | Restituisce |
 |---|---|

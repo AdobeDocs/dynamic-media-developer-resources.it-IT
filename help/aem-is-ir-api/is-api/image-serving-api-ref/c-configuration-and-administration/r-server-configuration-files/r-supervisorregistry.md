@@ -18,7 +18,7 @@ Contiene le impostazioni di configurazione del supervisore del server.
 
 Quando si modifica il file XML, assicurarsi di mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non essere avviato.
 
-Riavvia Image Server dopo aver modificato il file per garantire che le modifiche apportate diventino effettive. La modifica supporta solo i valori elemento/attributo evidenziati di seguito. Modificare tutti gli altri contenuti di questo file solo se consigliato dal supporto tecnico Dynamic Media.
+Riavvia Image Server dopo aver modificato il file per garantire che le modifiche apportate diventino effettive. La modifica supporta solo i valori elemento/attributo evidenziati di seguito. Modificare tutti gli altri contenuti di questo file solo se consigliato dal supporto tecnico Dynamic Medie.
 
 ```
 <supervisor>

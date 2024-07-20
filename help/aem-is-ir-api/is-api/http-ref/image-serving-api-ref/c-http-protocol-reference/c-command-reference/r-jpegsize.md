@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Dimensione JPEG in kilobyte. Specifica la dimensione massima della risposta del JPEG in kilobyte.
 
-`jpegSize= *`dimensione`*`
+`jpegSize= *`dimensioni`*`
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> dimensione</span></span> </p> </td> 
+  <td class="stentry"> <p>Dimensione <span class="codeph"> <span class="varname"></span></span> </p> </td> 
   <td class="stentry"> <p>Dimensione in kilobyte. </p></td> 
  </tr> 
 </table>

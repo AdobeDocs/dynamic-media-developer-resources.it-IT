@@ -21,8 +21,8 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando <span class="codeph"> descrizione comando</span> Se è specificata, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di miniatura. </p> <p>Imposta su <span class="codeph"> nessuno</span> per spegnere l'etichetta. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comando</span> </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica la descrizione <span class="codeph"></span>, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di anteprima. </p> <p>Impostare su <span class="codeph"> none</span> per disattivare l'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

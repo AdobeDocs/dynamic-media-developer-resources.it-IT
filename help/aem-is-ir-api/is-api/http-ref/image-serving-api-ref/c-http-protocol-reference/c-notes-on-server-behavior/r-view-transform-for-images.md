@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Trasformazione di visualizzazione per immagini{#view-transform-for-images}
 
-L&#39;immagine restituita al client in risposta a un `req=img` La richiesta viene derivata dall’immagine composita considerando i seguenti valori: `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix`e le dimensioni dell&#39;immagine composita.
+L&#39;immagine restituita al client in risposta a una richiesta `req=img` è derivata dall&#39;immagine composita considerando i valori seguenti: `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix` e le dimensioni dell&#39;immagine composita.
 
-Se `wid=` e `hei=` sono specificati, e `scl=` non è, l&#39;immagine composita viene ridimensionata in modo da rientrare completamente nel retto di visualizzazione definito da `wid=` e `hei=`. Se le proporzioni del rettangolo di visualizzazione sono diverse da quelle dell&#39;immagine composita, l&#39;immagine composita ridimensionata viene allineata all&#39;interno del rettangolo di visualizzazione utilizzando `align=` valore, se specificato, oppure centrato altrimenti. Qualsiasi spazio non coperto dai dati immagine viene riempito con `bgc=` o, se non specificato, con `attribute::BkgColor`.
+Se sono specificati `wid=` e `hei=` e `scl=` non lo è, l&#39;immagine composita viene ridimensionata in modo da rientrare completamente nel retto di visualizzazione definito da `wid=` e `hei=`. Se le proporzioni del rettangolo di visualizzazione sono diverse da quelle dell&#39;immagine composita, l&#39;immagine composita ridimensionata viene allineata all&#39;interno del rettangolo di visualizzazione utilizzando il valore `align=`, se specificato, oppure viene centrata in altro modo. Qualsiasi spazio non coperto dai dati immagine è riempito con `bgc=` o, se non specificato, con `attribute::BkgColor`.
 
-Se `scl=` L&#39;immagine composita viene ridimensionata in base al fattore di scala specificato. Se `wid=` e/o `hei=` viene specificata anche, l&#39;immagine ridimensionata viene quindi ritagliata in `wid=` e/o `hei=` oppure viene aggiunto ulteriore spazio, in base alle esigenze. `align=` specifica dove viene ritagliata l&#39;immagine o viene aggiunto spazio aggiuntivo e viene riempito con `bgc=` o `attribute::BkgColor`.
+Se si specifica `scl=`, l&#39;immagine composita verrà ridimensionata in base al fattore di scala specificato. Se si specificano anche `wid=` e/o `hei=`, l&#39;immagine ridimensionata viene ritagliata a `wid=` e/o viene aggiunto `hei=` o ulteriore spazio, in base alle esigenze. `align=` specifica dove viene ritagliata l&#39;immagine o aggiunto spazio aggiuntivo e qualsiasi spazio aggiuntivo viene riempito con `bgc=` o `attribute::BkgColor`.
 
-Se nessuno dei due `wid=`, `hei=` né `scl=` e se la larghezza o l&#39;altezza dell&#39;immagine composita supera `attribute::DefaultPix`, l&#39;immagine composita viene ridimensionata in modo da non superare `attribute::DefaultPix`. In caso contrario, l&#39;immagine composita viene utilizzata senza ridimensionamento.
+Se non si specificano né `wid=`, `hei=` né `scl=` e se la larghezza o l&#39;altezza dell&#39;immagine composita supera `attribute::DefaultPix`, l&#39;immagine composita viene ridimensionata in modo da non superare `attribute::DefaultPix`. In caso contrario, l&#39;immagine composita viene utilizzata senza ridimensionamento.
 
-Per garantire che l&#39;immagine della vista venga restituita senza ulteriori ridimensionamenti, specificate `scl=1`.
+Per garantire che l&#39;immagine della visualizzazione venga restituita senza ulteriori ridimensionamenti, specificare `scl=1`.
 
-Se `rgn=` viene specificata, l’immagine di risposta viene quindi ritagliata di conseguenza per arrivare alle dimensioni finali dell’immagine di risposta. Questa dimensione viene confrontata con `attribute::MaxPix` (se definita), e viene generato un errore se l’immagine di risposta è più grande in una delle dimensioni.
+Se si specifica `rgn=`, l&#39;immagine di risposta viene ritagliata di conseguenza in modo da ottenere la dimensione dell&#39;immagine di risposta finale. Questa dimensione viene confrontata con `attribute::MaxPix` (se definito) e viene generato un errore se l&#39;immagine di risposta è più grande in una delle dimensioni.
 
-Se `fmt=` specifica i dati senza alfa, tutte le aree trasparenti nell&#39;immagine di risposta vengono riempite con `bgc=` o `attribute::BkgColor`.
+Se `fmt=` specifica dati senza alfa, tutte le aree trasparenti nell&#39;immagine di risposta saranno riempite con `bgc=` o `attribute::BkgColor`.

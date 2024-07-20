@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per il visualizzatore video Ritaglio avanzato.
+description: Guida di riferimento dell’API JavaScript per il visualizzatore video Ritaglio avanzato.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 193719b8-f158-4ffc-9916-b7b1bf36b2de
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore video Ritaglio avanzato.
+Guida di riferimento dell’API JavaScript per il visualizzatore video Ritaglio avanzato.
 
 ` setParam( *`nome, valore`*)`
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 

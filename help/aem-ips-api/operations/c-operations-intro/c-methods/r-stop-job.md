@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -44,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <stopJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

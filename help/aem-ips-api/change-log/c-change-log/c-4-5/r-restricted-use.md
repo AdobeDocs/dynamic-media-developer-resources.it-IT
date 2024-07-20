@@ -1,5 +1,5 @@
 ---
-description: Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
+description: Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Medie.
 solution: Experience Manager
 title: Uso limitato
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uso limitato{#restricted-use}
 
-Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
+Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Medie.
 
 Queste operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione con successivi aggiornamenti di sistema.
 
@@ -52,57 +52,57 @@ Queste operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione c
 
 **Tipi modificati**
 
-* Modificato `ActiveJob` per includere un `createVideoSitemapJob` tipo
+* `ActiveJob` è stato modificato per includere un tipo `createVideoSitemapJob`
 
-* Modificato `ScheduledJob` per includere un `createVideoSitemapJob` tipo
+* `ScheduledJob` è stato modificato per includere un tipo `createVideoSitemapJob`
 
-* Modificato `ImageServingPublishJob` per includere un `contextHandle`
+* `ImageServingPublishJob` è stato modificato per includere un elemento `contextHandle` facoltativo
 
-* Modificato `ImageRenderingPublishJob` per includere un `contextHandle`
+* `ImageRenderingPublishJob` è stato modificato per includere un elemento `contextHandle` facoltativo
 
-* Modificato `MetadataField` per includere un `initialTagField`
+* `MetadataField` è stato modificato per includere un elemento `initialTagField` facoltativo
 
-* Modificato `MetadataCondition` da includere e facoltativo `caseSensitive` parametro
+* `MetadataCondition` è stato modificato per includere e includere il parametro facoltativo `caseSensitive`
 
-* Modificato `PropertySet` per includere un `PermissionArray` as `permissions`
+* `PropertySet` è stato modificato per includere un `PermissionArray` facoltativo come `permissions`
 
-* Modificato `UploadDirectoryJob` per includere elementi opzionali `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride` parametri
+* `UploadDirectoryJob` è stato modificato per includere i parametri facoltativi `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride`
 
-* Modificato `VideoPublishJob` per includere un `contextHandle`
+* `VideoPublishJob` è stato modificato per includere un elemento `contextHandle` facoltativo
 
 **Operazioni modificate**
 
-* Modificato `createAssetSet` per includere un `thumbAssetHandle`
+* `createAssetSet` è stato modificato per includere un elemento `thumbAssetHandle` facoltativo
 
-* Modificato `createImageSet` per includere un `thumbAssetHandle`
+* `createImageSet` è stato modificato per includere un elemento `thumbAssetHandle` facoltativo
 
-* Modificato `createMetadataField` per includere un `initialTagValue` parametro
+* `createMetadataField` è stato modificato per includere un parametro `initialTagValue` facoltativo
 
-* Modificato `createPropertySet` per includere un `PermissionUpdateArray` as `permissionArray`
+* `createPropertySet` è stato modificato per includere un `PermissionUpdateArray` facoltativo come `permissionArray`
 
-* Modificato `getImageServingPublishSettings` per includere un `contextHandle` parametro
+* `getImageServingPublishSettings` è stato modificato per includere un parametro `contextHandle` facoltativo
 
-* Modificato `getImageRenderingPublishSettings` per includere un `contextHandle` parametro
+* `getImageRenderingPublishSettings` è stato modificato per includere un parametro `contextHandle` facoltativo
 
-* Modificato `searchAssetsByFullText` per includere una serie di parametri facoltativi:
+* `searchAssetsByFullText` è stato modificato per includere una serie di parametri facoltativi:
 
-   * `SearchFilter` as `filters` parametro
+   * `SearchFilter` come parametro `filters`
 
    * `sortBy`
    * `sortDirection`
 
-* Modificato `searchAssetsByMetadata` per includere una serie di parametri facoltativi:
+* `searchAssetsByMetadata` è stato modificato per includere una serie di parametri facoltativi:
 
-   * `SearchFilter` as `filters` parametro
+   * `SearchFilter` come parametro `filters`
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` sequenza di sette parametri
 
-* Modificato `setAssetPublishState` per includere un `HandleArray` as `contextHandleArray`
+* `setAssetPublishState` è stato modificato per includere un `HandleArray` facoltativo come `contextHandleArray`
 
-* Modificato `setImageServingPublishSettings` per includere un `contextHandle` parametro
+* `setImageServingPublishSettings` è stato modificato per includere un parametro `contextHandle` facoltativo
 
-* Modificato `setImageRenderingPublishSettings` per includere un `contextHandle`parametro
+* `setImageRenderingPublishSettings` è stato modificato per includere un parametro `contextHandle` facoltativo
 
-* Modificato `submitJob` per includere un `createVideoSitemap` tipo di processo
+* `submitJob` è stato modificato per includere un tipo di processo `createVideoSitemap` facoltativo

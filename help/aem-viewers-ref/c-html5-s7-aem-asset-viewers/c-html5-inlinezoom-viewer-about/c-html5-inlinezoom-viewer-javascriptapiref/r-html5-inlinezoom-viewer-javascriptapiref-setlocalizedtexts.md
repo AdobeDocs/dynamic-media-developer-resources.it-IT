@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Riferimento API JavaScript per il visualizzatore zoom in linea.
+description: Riferimento API di JavaScript per il visualizzatore zoom in linea.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: a0d602f5-e698-4dad-af95-70ef5ef88af6
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Riferimento API JavaScript per il visualizzatore zoom in linea.
+Riferimento API di JavaScript per il visualizzatore zoom in linea.
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`informazioniLocalizzazione`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente </a> per ulteriori informazioni. </p> <p>Consulta la <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> informazioni localizzazione </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Per ulteriori informazioni, vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localizzazione degli elementi dell'interfaccia utente </a>. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere la <i>Guida utente di Viewer SDK</i> e l'esempio. </p> </td> 
   </tr> 
  </tbody> 
 </table>

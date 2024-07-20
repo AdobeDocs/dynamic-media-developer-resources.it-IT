@@ -20,12 +20,12 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Risoluzione di stampa (dpi). </p></td> 
  </tr> 
 </table>
 
-La risoluzione di stampa viene normalmente definita da `catalog::PrintResolution` se si tratta di una voce di catalogo, altrimenti in base al valore di risoluzione di stampa incorporato nell&#39;immagine di origine. Se è presente un modello o un&#39;immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta è la risoluzione di stampa dell&#39;immagine di livello con il numero di livello più basso.
+La risoluzione di stampa è normalmente definita da `catalog::PrintResolution` se si tratta di una voce di catalogo, altrimenti dal valore di risoluzione di stampa incorporato nell&#39;immagine di origine. Se è presente un modello o un&#39;immagine composita a livelli, la risoluzione di stampa predefinita incorporata nel file di risposta è la risoluzione di stampa dell&#39;immagine di livello con il numero di livello più basso.
 
 L&#39;impostazione della risoluzione di stampa non modifica le dimensioni in pixel dell&#39;immagine di risposta.
 

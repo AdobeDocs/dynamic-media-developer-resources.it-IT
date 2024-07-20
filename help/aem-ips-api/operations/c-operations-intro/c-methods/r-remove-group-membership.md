@@ -8,7 +8,7 @@ exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice rimuove un utente da un gruppo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:removeGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -1,18 +1,18 @@
 ---
 description: I file di dati di origine di Image Server includono file immagine e maschera, font e profili ICC.
 solution: Experience Manager
-title: Dati sorgente
+title: Dati Source
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
-# Dati sorgente{#source-data}
+# Dati Source{#source-data}
 
 I file di dati di origine di Image Server includono file immagine e maschera, font e profili ICC.
 
@@ -26,25 +26,25 @@ Tutti i file di dati di origine devono essere accessibili al server immagini. Im
   <td class="stentry"> <p><span class="codeph"> IS::RootPath/attribute::RootPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> filePath </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> percorso file </span></span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> catalogPath|requestPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> catalogPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> catalog::Path|catalog::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> catalogo::Path|catalogo::MaskPath|icc::ProfilePath|font::FontPath|font::MetricsPath</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> nome e percorso del file immagine relativo specificati in una richiesta HTTP di Image Server</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> nome e percorso del file di immagine relativo specificati in una richiesta HTTP di Image Server</span> </p></td> 
  </tr> 
 </table>
 
 Il server combina i segmenti di percorso da destra a sinistra fino a quando non viene stabilito un percorso di file assoluto.
 
-Tutti `*`rootPath`*` i segmenti possono essere vuoti, relativi o assoluti.
+Tutti i segmenti `*`rootPath`*` possono essere vuoti, relativi o assoluti.
 
-`*`catalogPath`*` è un nome o un percorso di file assoluto o relativo. `*`requestPath`*` deve essere un percorso/nome file relativo.
+`*`catalogPath`*` è un nome o un percorso di file assoluto o relativo. `*`requestPath`*` deve essere un nome o un percorso di file relativo.
 
-`Multiple IS::RootPath` I valori possono essere definiti in ImageServerRegistry.xml (o tramite l’interfaccia di amministrazione). Questo consente di distribuire i file di dati di origine su più file system. Il server immagini tenta percorsi alternativi nell&#39;ordine specificato finché non viene trovato il file di dati.
+I valori `Multiple IS::RootPath` possono essere definiti in ImageServerRegistry.xml (o tramite l&#39;interfaccia di amministrazione). Questo consente di distribuire i file di dati di origine su più file system. Il server immagini tenta percorsi alternativi nell&#39;ordine specificato finché non viene trovato il file di dati.
 
 È possibile aggiungere nuovi file di dati di qualsiasi tipo in qualsiasi momento senza arrestare il server.

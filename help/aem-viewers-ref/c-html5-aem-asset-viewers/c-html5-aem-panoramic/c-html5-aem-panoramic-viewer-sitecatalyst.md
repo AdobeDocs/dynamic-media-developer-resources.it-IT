@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP
 
 ## Tracciamento personalizzato {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback ed elaborazione del visualizzatore `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
+Per l&#39;integrazione con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback in base alle esigenze. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -53,7 +53,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">LOAD (Caricamento)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARICAMENTO </span> </p> </td> 
    <td colname="col2"> <p>al primo caricamento del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 

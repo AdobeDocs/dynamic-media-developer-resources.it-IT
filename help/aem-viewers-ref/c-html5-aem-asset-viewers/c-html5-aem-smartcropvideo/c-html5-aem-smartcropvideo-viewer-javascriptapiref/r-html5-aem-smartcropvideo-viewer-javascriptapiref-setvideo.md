@@ -1,20 +1,20 @@
 ---
 title: setVideo
-description: Riferimento API JavaScript per Visualizzatore video ritaglio avanzato
+description: Riferimento API di JavaScript per il visualizzatore video Ritaglio avanzato
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
 # setVideo{#setvideo}
 
-Riferimento API JavaScript per Visualizzatore video ritaglio avanzato
+Riferimento API di JavaScript per il visualizzatore video Ritaglio avanzato
 
 `setVideo(videoUrl[, data])`
 
@@ -29,15 +29,15 @@ Vedi anche [init]
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} un URL assoluto per il nuovo video. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Stringa </span>} URL assoluto del nuovo video. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dati </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} Oggetto JSON con i seguenti campi facoltativi (con distinzione tra maiuscole e minuscole): </p> <p> 
+   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} oggetto JSON con i seguenti campi facoltativi (distinzione maiuscole/minuscole): </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> immagine posteriore </span> - Immagine da visualizzare sul primo fotogramma prima che inizi la riproduzione del video. Consulta <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> didascalia </span> : posizione del nuovo file di didascalia. Se non viene specificato alcun file di didascalia, il pulsante della didascalia non viene visualizzato nell'interfaccia utente. </li> 
-      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> navigazione </span> : URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere gestito da Image Server. </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> immagine posteriore </span> - Immagine da visualizzare sul primo fotogramma prima che inizi la riproduzione del video. Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> didascalia </span> - Posizione del nuovo file di didascalia. Se non viene specificato alcun file di didascalia, il pulsante della didascalia non viene visualizzato nell'interfaccia utente. </li> 
+      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> Navigazione <span class="codeph"> </span> - URL o percorso del contenuto di navigazione WebVTT. Il file WebVTT deve essere gestito da Image Server. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

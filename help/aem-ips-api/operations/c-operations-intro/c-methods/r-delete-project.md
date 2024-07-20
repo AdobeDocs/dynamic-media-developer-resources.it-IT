@@ -8,7 +8,7 @@ exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 In questo esempio di codice vengono utilizzati l&#39;handle della società e l&#39;handle del progetto come campi in deleteProjectParam inviati al server dei servizi Web IPS per eliminare il progetto.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deleteProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

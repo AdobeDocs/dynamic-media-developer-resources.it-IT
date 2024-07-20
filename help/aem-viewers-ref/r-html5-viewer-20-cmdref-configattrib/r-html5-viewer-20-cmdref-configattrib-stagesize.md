@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> larghezza</span>,<span class="varname"> altezza</span></span> </p> </td> 
-   <td colname="col2"> <p> Larghezza e altezza complessive del visualizzatore. Il valore di <span class="codeph"> 0,0</span> significa che il visualizzatore viene ridimensionato in base alle regole CSS e al layout della pagina web. </p> </td> 
+   <td colname="col2"> <p> Larghezza e altezza complessive del visualizzatore. Il valore di <span class="codeph"> 0,0</span> indica che il visualizzatore è ridimensionato in base alle regole CSS e al layout della pagina Web. </p> </td> 
   </tr> 
  </tbody> 
 </table>

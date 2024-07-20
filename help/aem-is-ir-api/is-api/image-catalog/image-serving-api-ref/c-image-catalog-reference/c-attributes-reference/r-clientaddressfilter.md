@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 2%
 
 ---
@@ -22,12 +22,12 @@ Se specificato, le richieste a questo catalogo immagini provenienti da un client
 
 Elenco di indirizzi IP separati da virgole con maschere di rete facoltative (viene utilizzata la notazione CIDR):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`indirizzoIP`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Indirizzo IP in <span class="varname"> ddd.ddd.ddd.ddd</span> formato. </p></td> 
+  <td class="stentry"> <p><span class="varname"> indirizzoIP</span> </p> </td> 
+  <td class="stentry"> <p>Indirizzo IP in formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,21 +35,21 @@ Elenco di indirizzi IP separati da virgole con maschere di rete facoltative (vie
  </tr> 
 </table>
 
-Questo attributo viene ignorato quando una regola di preelaborazione con un `<addressfilter>` viene applicato.
+Questo attributo viene ignorato quando viene applicata una regola di preelaborazione con un elemento `<addressfilter>`.
 
 ## Predefinito {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Ereditato da `default::AddressFilter` se non è definita o se è vuota.
+Ereditato da `default::AddressFilter` se non definito o se vuoto.
 
 ## Esempi {#section-a955314d2b6a4213a16c12a8b18d8627}
 
 Nessuna restrizione di accesso: `0.0.0.0/0`
 
-Concedi l’accesso a tutti gli indirizzi a partire da 192: `192.0.0.0/8`
+Concedi l&#39;accesso a tutti gli indirizzi a partire da 192: `192.0.0.0/8`
 
-Concedi l’accesso ai 512 host con indirizzi compresi tra 192.168.12.0 e 192.168.13.255: `192.168.12.0/23`
+Concedi l&#39;accesso ai 512 host con indirizzi compresi tra 192.168.12.0 e 192.168.13.255: `192.168.12.0/23`
 
-Concedi l’accesso a un singolo indirizzo IP: `192.168.2.117` o `192.168.2.117/32`
+Concedi l&#39;accesso a un singolo indirizzo IP: `192.168.2.117` o `192.168.2.117/32`
 
 ## Consultate anche {#section-4ea89a7d82e14a4a800487d2d8801465}
 

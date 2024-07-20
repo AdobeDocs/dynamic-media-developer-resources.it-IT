@@ -8,7 +8,7 @@ exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti tutti i membri di un&#39;azienda in un array di utenti. La risposta è stata troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getCompanyMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

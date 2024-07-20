@@ -16,4 +16,4 @@ ht-degree: 0%
 
 I file dei set di regole sono file di testo in formato XML e devono rispettare gli standard e le convenzioni appropriati.
 
-[!DNL RuleSet.xsd] è installato nella cartella del catalogo predefinita e deve essere utilizzato per convalidare i file del set di regole prima di inviarli a Image Server. Viene applicata l’analisi rigida e i file del set di regole non conformi a [!DNL RuleSet.xsd] non caricare.
+[!DNL RuleSet.xsd] è installato nella cartella del catalogo predefinita e deve essere utilizzato per convalidare i file del set di regole prima di inviarli al server immagini. L&#39;analisi rigorosa è applicata e i file del set di regole non conformi a [!DNL RuleSet.xsd] non vengono caricati.

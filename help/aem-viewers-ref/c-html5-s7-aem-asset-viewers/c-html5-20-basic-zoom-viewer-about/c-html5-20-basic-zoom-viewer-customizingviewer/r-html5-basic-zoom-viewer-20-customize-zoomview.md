@@ -35,7 +35,7 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Esempio: per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` e controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
+Nei sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. Sono supportati i seguenti valori `cursortype`:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,11 +68,11 @@ Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi 
    <td colname="col2"> <p>Visualizzato quando l'immagine non è ingrandita a causa di una risoluzione ridotta dell'immagine, di impostazioni dei componenti o di entrambi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col1"> <p> Zoom <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Viene visualizzato quando è possibile ingrandire l'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha reimpostato </span> </p> </td> 
    <td colname="col2"> <p>Viene visualizzata quando l'immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale. </p> </td> 
   </tr> 
   <tr> 

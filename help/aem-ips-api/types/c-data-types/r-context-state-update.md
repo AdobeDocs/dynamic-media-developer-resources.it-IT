@@ -20,7 +20,7 @@ Sintassi
 
 ## Parametri {#section-9f747df071854c6896fdbb95684ad947}
 
-Impostare lo stato del contesto di pubblicazione di una risorsa con `setAssetsContextState`.
+Imposta lo stato del contesto di pubblicazione di una risorsa con `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -51,5 +51,4 @@ Impostare lo stato del contesto di pubblicazione di una risorsa con `setAssetsCo
 
 >[!MORELIKETHIS]
 >
->* [Stato pubblicazione](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
-
+>* [Stato Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

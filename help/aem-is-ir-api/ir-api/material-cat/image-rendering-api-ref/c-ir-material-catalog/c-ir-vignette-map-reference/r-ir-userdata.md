@@ -8,7 +8,7 @@ exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Dati utente. Il server restituisce il contenuto di questo campo al client in risposta a req=userdata.
 
-Le nuove righe possono essere precedute da &quot;??&quot;. Il server sostituisce &quot;??&quot; con `<cr><lf>` prima di restituire il contenuto di questo campo.
+Le nuove righe possono essere precedute da &quot;??&quot;. Il server sostituisce &#39;??&#39; con `<cr><lf>` prima di restituire il contenuto di questo campo.
 
 ## Proprietà {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

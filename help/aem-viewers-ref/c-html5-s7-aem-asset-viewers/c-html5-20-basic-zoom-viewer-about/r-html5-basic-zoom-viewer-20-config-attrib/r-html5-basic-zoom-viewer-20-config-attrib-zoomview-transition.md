@@ -7,19 +7,19 @@ role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`tempo`*[, *`andamento`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`ora`*[, *`andamento`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tempo</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> volta</span> </span> </p> </td> 
    <td colname="col2"> <p> Specifica il tempo in secondi impiegato dall'animazione per un'azione di incremento di zoom. </p> </td> 
   </tr>
   <tr> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Imposta indicatore è una serie di punti di cui viene eseguito il rendering sopr
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;indicatore di set**
+**Proprietà CSS dell&#39;indicatore impostato**
 
 L’aspetto del contenitore di indicatori impostato è controllato dal seguente selettore di classe CSS:
 
@@ -35,7 +35,7 @@ L’aspetto del contenitore di indicatori impostato è controllato dal seguente 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore impostato. </p> </td> 
   </tr> 
  </tbody> 
@@ -62,19 +62,19 @@ L’aspetto di un singolo punto indicatore di set è controllato con il selettor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza dell'indicatore impostato punto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del punto indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -82,15 +82,15 @@ L’aspetto di un singolo punto indicatore di set è controllato con il selettor
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ L’aspetto di un singolo punto indicatore di set è controllato con il selettor
 
 >[!NOTE]
 >
->Il punto indicatore impostato supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
+>Il punto indicatore impostato supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde alla pagina corrente delle miniature, `state="unselected"` corrisponde allo stato predefinito del punto.
 
 Esempio - Per creare un punto indicatore impostato di 15 x 15 pixel, con un margine orizzontale di due pixel, un margine superiore di cinque pixel, un margine inferiore di un pixel, un raggio di 12 pixel, #D5D3D3 colore predefinito e #939393 colore attivo:
 

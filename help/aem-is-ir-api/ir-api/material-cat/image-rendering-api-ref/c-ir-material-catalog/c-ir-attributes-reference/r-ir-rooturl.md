@@ -1,6 +1,6 @@
 ---
 title: RootUrl
-description: URL principale per URL immagine relativi. Specifica l'URL principale per gli URL immagine relativi.
+description: URL principale per gli URL immagine relativi. Specifica l'URL principale per gli URL immagine relativi.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # RootUrl{#rooturl}
 
-URL principale per URL immagine relativi. Specifica l&#39;URL principale per gli URL immagine relativi. Il`attribute::RootUrl` viene utilizzato al posto di `attribute::RootPath` quando un `src=` il valore è racchiuso tra { parentesi graffe }.
+URL principale per gli URL immagine relativi. Specifica l&#39;URL principale per gli URL immagine relativi. Viene utilizzato `attribute::RootUrl` invece di `attribute::RootPath` quando un valore `src=` è racchiuso tra { parentesi graffe }.
 
 ## Proprietà {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -22,7 +22,7 @@ Valore stringa di testo. Percorso directory principale URL assoluto, incluso l�
 
 ## Predefinito {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Ereditato da `default::RootUrl` se non è definita. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo dei materiali.
+Ereditato da `default::RootUrl` se non definito. Se definiti ma vuoti, gli URL relativi non sono supportati da questo catalogo dei materiali.
 
 ## Consultate anche {#section-e33bbe7034b24367b68f9142718a8be1}
 

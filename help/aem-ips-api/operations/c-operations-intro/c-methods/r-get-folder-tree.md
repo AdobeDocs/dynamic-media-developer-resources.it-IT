@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 7%
+source-wordcount: '261'
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ Sintassi
 
 Questo esempio di codice utilizza un handle aziendale e un parametro di profondità per determinare il livello di profondità che la risposta deve restituire. La risposta contiene cartelle e array di sottocartelle con i relativi. Impostate il valore di profondità su un numero inferiore per effettuare ricerche più approfondite nella struttura ad albero delle cartelle.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getFolderTreeParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

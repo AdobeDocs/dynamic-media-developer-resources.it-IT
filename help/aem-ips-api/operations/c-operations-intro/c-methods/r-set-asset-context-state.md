@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -52,9 +52,9 @@ Imposta o aggiorna lo stato di pubblicazione per una o più risorse. È possibil
 
 ## Esempi {#section-283a073f3cb14bcda5abed863c538aa4}
 
-In questo esempio di codice lo stato di pubblicazione di una risorsa viene impostato tramite `NotMarkedForPublish`.
+Questo esempio di codice imposta lo stato di pubblicazione di una risorsa utilizzando `NotMarkedForPublish`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setAssetsContextStateParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

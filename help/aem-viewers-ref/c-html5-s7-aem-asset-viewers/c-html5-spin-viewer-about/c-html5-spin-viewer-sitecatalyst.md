@@ -8,7 +8,7 @@ exl-id: 30762700-6d69-4299-9492-57893232abe1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Il Visualizzatore 360 gradi supporta il tracciamento di Adobe Analytics come fun
 
 Il visualizzatore 360 gradi supporta il tracciamento predefinito di Adobe Analytics.
 
-Per abilitare il tracciamento, passa il nome del predefinito aziendale corretto come `config2` parametro.
+Per abilitare il tracciamento, passa il nome del predefinito della società corretto come parametro `config2`.
 
 Il visualizzatore invia anche una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
 ## Tracciamento personalizzato {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, a seconda delle necessità. Il codice che segue è un esempio di tale funzione di gestore:
+Per l&#39;integrazione con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback, a seconda delle necessità. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +61,23 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">LOAD (Caricamento)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARICAMENTO </span> </p> </td> 
    <td colname="col2"> <p>il visualizzatore viene caricato per primo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">SWAP (Scambio)</span> </p> </td> 
-   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SCAMBIO </span> </p> </td> 
+   <td colname="col2"> <p>una risorsa viene scambiata nel visualizzatore utilizzando l'API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p> un'immagine è ingrandita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">PAN (Panning)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PANORAMICA </span> </p> </td> 
    <td colname="col2"> <p>un'immagine è sottoposta a panning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">SPIN (Set a 360 gradi)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ROTAZIONE </span> </p> </td> 
    <td colname="col2"> <p> viene eseguita una rotazione. </p> </td> 
   </tr> 
  </tbody> 

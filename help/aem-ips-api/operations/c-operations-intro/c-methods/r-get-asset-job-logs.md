@@ -8,7 +8,7 @@ exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 Questo esempio di codice recupera i registri del processo di una risorsa specifica. La risposta restituisce un array di registro del processo con informazioni dettagliate su tutti i processi in cui la risorsa è stata utilizzata.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getAssetJobLogsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:AssetMetadataFields` | Un `AssetMetadataFields` elemento di array. |
+| elementi | `types:AssetMetadataFields` | Un elemento array `AssetMetadataFields`. |

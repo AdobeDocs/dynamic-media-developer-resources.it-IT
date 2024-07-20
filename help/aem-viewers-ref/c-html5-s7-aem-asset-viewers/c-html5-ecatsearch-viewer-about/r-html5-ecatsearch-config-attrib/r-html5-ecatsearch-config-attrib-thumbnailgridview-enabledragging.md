@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 011ef772-6760-4794-819e-2a822fbae1b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 5%
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td> <p> Consente o meno a un utente di scorrere i campioni con il mouse o con gesti touch </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funzioni all'interno di <span class="codeph"> 0-1 </span> intervallo. È un <span class="codeph"> % </span> valore per il movimento nella direzione opposta della velocità effettiva. Se è impostato su <span class="codeph"> 1 </span>, si sposta con il mouse. Se è impostato su <span class="codeph"> 0 </span>, non ti permette affatto di muoverti nella direzione sbagliata. </p> </td> 
+   <td> <p> Funzioni comprese nell'intervallo <span class="codeph"> 0-1 </span>. È un valore <span class="codeph"> % </span> per il movimento nella direzione opposta della velocità effettiva. Se è impostato su <span class="codeph"> 1 </span>, si sposta con il mouse. Se è impostato su <span class="codeph"> 0 </span>, non consente lo spostamento nella direzione sbagliata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

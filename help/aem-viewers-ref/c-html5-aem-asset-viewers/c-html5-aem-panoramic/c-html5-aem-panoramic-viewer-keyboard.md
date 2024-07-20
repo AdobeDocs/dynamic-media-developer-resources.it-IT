@@ -15,6 +15,6 @@ ht-degree: 0%
 # Accesso facilitato alla tastiera e navigazione{#keyboard-accessibility-and-navigation}
 
 Tutte le funzioni esposte nell’interfaccia utente del visualizzatore sono accessibili da tastiera.
-L’utente finale può utilizzare `Left`, `Right`, `UP`, e `DOWN` tasti per scorrere l&#39;immagine.
-Il `Esc` è possibile usare la sequenza di tasti per reimpostare l&#39;immagine.
+L&#39;utente finale può utilizzare `Left`, `Right`, `UP` e `DOWN` pressioni per eseguire il panning dell&#39;immagine.
+La sequenza di tasti `Esc` può essere utilizzata per reimpostare l&#39;immagine.
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ L’aspetto della vista principale è controllato dal seguente selettore di clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,19 +68,19 @@ L’aspetto della vista a comparsa è controllato dal seguente selettore di clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha lasciato </span> </p> </td> 
    <td colname="col2"> <p> Posizione orizzontale della vista a comparsa, relativa all'angolo superiore sinistro della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p> Posizione verticale della vista a comparsa rispetto all'angolo superiore sinistro della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza della visualizzazione a comparsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della visualizzazione a comparsa. </p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Utilizzando gli stili CSS è possibile controllare sfondo, bordo, trasparenza e 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore dell'evidenziazione. </p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ Esempio: per impostare l&#39;evidenziazione verde con una trasparenza del 40% e 
 
 **Proprietà CSS del cursore**
 
-Quando `highlightmode` il parametro è impostato su `cursor`, nella visualizzazione principale le evidenziazioni vengono sostituite con immagini del cursore di dimensioni fisse, controllate con il selettore di classe CSS:
+Quando il parametro `highlightmode` è impostato su `cursor`, le evidenziazioni nella visualizzazione principale vengono sostituite con immagini del cursore a dimensione fissa, controllate tramite il selettore di classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Le proprietà CSS applicabili includono:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Illustrazione del cursore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza cursore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza cursore. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Le proprietà CSS applicabili includono:
 
 >[!NOTE]
 >
->Il cursore supporta `input` selettore di attributi, che può essere utilizzato per applicare illustrazioni del cursore e dimensioni diverse per dispositivi diversi. In particolare: `input="mouse"` corrisponde ai sistemi desktop e `input="touch"` corrisponde ai dispositivi touch.
+>Il cursore supporta il selettore di attributi `input`, che può essere utilizzato per applicare disegni e dimensioni del cursore diversi per dispositivi diversi. In particolare, `input="mouse"` corrisponde ai sistemi desktop e `input="touch"` ai dispositivi touch.
 
 **Proprietà CSS della sovrapposizione**
 
-Quando `overlay` il parametro è impostato su `1`, l’area intorno al fotogramma di evidenziazione o all’immagine del cursore viene controllata con il selettore di classe CSS:
+Quando il parametro `overlay` è impostato su `1`, l&#39;area intorno al fotogramma di evidenziazione o all&#39;immagine del cursore viene controllata con il selettore di classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,7 +203,7 @@ Quando `overlay` il parametro è impostato su `1`, l’area intorno al fotogramm
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore sovrapposizione. </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare lo stile, le dimensioni, l&#39;aspetto e l&#39;offset verticale del carattere tramite CSS. Tuttavia, l’allineamento orizzontale viene gestito dalla logica del visualizzatore. Sovrascriverlo tramite CSS utilizzando `left` o `right` proprietà non supportata.
+È possibile configurare lo stile, le dimensioni, l&#39;aspetto e l&#39;offset verticale del carattere tramite CSS. Tuttavia, l’allineamento orizzontale viene gestito dalla logica del visualizzatore. L&#39;override tramite CSS tramite le proprietà `left` o `right` non è supportato.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,15 +232,15 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p>Offset dalla parte inferiore della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
@@ -252,11 +252,11 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
    <td colname="col2"> <p>Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento di sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p>Raggio bordo sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
@@ -266,7 +266,7 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
+Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 Esempio: per impostare un messaggio di suggerimento semitrasparente con il carattere bianco Arial® 12 px, una distanza di 50 pixel dalla parte inferiore della visualizzazione principale, una spaziatura interna e un bordo arrotondato:
 

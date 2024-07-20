@@ -1,5 +1,5 @@
 ---
-description: Image Rendering è incorporato nel server immagini di Image Server e [!DNL Platform Server] componenti.
+description: Image Rendering è incorporato nel server immagini e nei  [!DNL Platform Server]  componenti di Image Server.
 solution: Experience Manager
 title: Avvio e arresto del server
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Avvio e arresto del server{#starting-and-stopping-the-server}
 
-Image Rendering è incorporato nel server immagini di Image Server e [!DNL Platform Server] componenti.
+Image Rendering è incorporato nel server immagini di Image Server e nei componenti [!DNL Platform Server] di Image Server.
 
 Per ulteriori informazioni, consulta la documentazione di Image Server.

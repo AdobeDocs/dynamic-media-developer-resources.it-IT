@@ -20,7 +20,7 @@ Sintassi
 
 ## Parametri {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Le risorse mantengono un marcatore separato per ogni stato e contesto di pubblicazione. Impostare lo stato di pubblicazione con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Assets mantiene un marcatore separato per ogni stato e contesto di pubblicazione. Imposta lo stato di pubblicazione con [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -57,5 +57,4 @@ Le risorse mantengono un marcatore separato per ogni stato e contesto di pubblic
 
 >[!MORELIKETHIS]
 >
->* [Contesto di pubblicazione](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
-
+>* [Contesto Publish](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

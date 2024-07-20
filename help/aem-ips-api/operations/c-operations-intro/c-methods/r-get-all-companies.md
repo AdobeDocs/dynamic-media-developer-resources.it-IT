@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -40,7 +40,7 @@ Sintassi
 
 In questo esempio di codice vengono restituite tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

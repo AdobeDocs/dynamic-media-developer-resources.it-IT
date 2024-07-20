@@ -1,26 +1,26 @@
 ---
 title: Impostazioni di rendering avanzate
-description: Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+description: Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Medie Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 21%
+source-wordcount: '576'
+ht-degree: 13%
 
 ---
 
 # Impostazioni di rendering avanzate{#advanced-render-settings}
 
-Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Medie Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 
 >[!NOTE]
 >
->Impostazioni rendering è una funzione avanzata di Image Rendering e Image Authoring. Contatta il supporto tecnico Adobe o il tuo rappresentante di consulenza Adobe per formazione, consulenza o entrambe sull’utilizzo delle impostazioni di rendering.
+>Impostazioni rendering è una funzione avanzata di Image Rendering e Image Authoring. Contatta l’Assistenza tecnica per gli Adobe Adobi o il tuo rappresentante di consulenza per la formazione, la consulenza o entrambe sull’utilizzo delle impostazioni di rendering.
 
-Queste impostazioni sono controllate interattivamente in Image Authoring. È possibile applicare le stesse impostazioni in Image Rendering utilizzando `rs=` (o con il comando `catalog::RenderSettings` valore). Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio la variazione della saturazione delle luci o del contrasto nelle ombre.
+Queste impostazioni sono controllate interattivamente in Image Authoring. È possibile applicare le stesse impostazioni in Image Rendering utilizzando il comando `rs=` o con il valore `catalog::RenderSettings`. Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio la variazione della saturazione delle luci o del contrasto nelle ombre.
 
 ## Valori di impostazione di rendering avanzata (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -96,7 +96,7 @@ Queste impostazioni sono controllate interattivamente in Image Authoring. È pos
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">Bi-lineare </li> 
       <li id="li_D334ACF969E749A89A464B21C96CE8A6">Campionamento supplementare </li> 
       <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">Adattivo </li> 
-      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">Campionatore Poisson </li> 
+      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">Poisson Sampler </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -191,7 +191,7 @@ Queste impostazioni sono controllate interattivamente in Image Authoring. È pos
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>F100G0 </p> </td> 
+   <td colname="col1"> <p>F100G </p> </td> 
    <td colname="col2"> <p>Compensazione luminosità (casella di controllo) </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p> </p> </td> 

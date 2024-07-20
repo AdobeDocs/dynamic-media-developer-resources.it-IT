@@ -22,7 +22,7 @@ Stringa di testo. Se specificato, deve essere un valore font::Name valido nella 
 
 ## Predefinito {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-Ereditato da `default::DefaultFont` se non è definita o se è vuota.
+Ereditato da `default::DefaultFont` se non definito o se vuoto.
 
 ## Consultate anche {#section-b012591f90a2428a8062afe4f3b6ce33}
 

@@ -18,12 +18,12 @@ Dithering conversione colore. Specifica se utilizzare il dithering per migliorar
 
 ## Proprietà {#section-646fb48084734c66bf648360f3a5bfd1}
 
-Bandiera. Imposta su `0` per disabilitare o per `1` per attivare il dithering.
+Bandiera. Impostare su `0` per disabilitare o su `1` per abilitare il dithering.
 
 ## Predefinito {#section-c9066c361215404d847f4d2c8f1ea3a5}
 
-Ereditato da `default::IccDither` se non è definita o se è vuota.
+Ereditato da `default::IccDither` se non definito o se vuoto.
 
 ## Consultate anche {#section-76a376a1bee74670867b4de81fea65aa}
 
-[attribute::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) , [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)
+[attributo::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) , [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)

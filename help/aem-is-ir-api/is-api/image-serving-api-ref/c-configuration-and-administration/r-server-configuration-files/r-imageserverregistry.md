@@ -18,7 +18,7 @@ Contiene le impostazioni di configurazione del server immagini.
 
 Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non essere avviato.
 
-Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Solo i valori degli elementi elencati di seguito sono supportati per la modifica. Modificare qualsiasi altro contenuto di questo file solo se consigliato dal supporto tecnico Dynamic Media.
+Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Solo i valori degli elementi elencati di seguito sono supportati per la modifica. Modificare qualsiasi altro contenuto di questo file solo se consigliato dal supporto tecnico Dynamic Medie.
 
 >[!NOTE]
 >
@@ -52,4 +52,4 @@ Di seguito sono illustrati gli elementi che è possibile modificare. Sono presen
 
 ## Note {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Più `<RootPath>` possono essere presenti elementi (uno per ogni cartella di file di dati di origine). Image Server esegue la ricerca nei percorsi principali nell&#39;ordine specificato per trovare un file di origine specifico.
+Possono essere presenti più elementi `<RootPath>` (uno per ogni cartella di file di dati di origine). Image Server esegue la ricerca nei percorsi principali nell&#39;ordine specificato per trovare un file di origine specifico.

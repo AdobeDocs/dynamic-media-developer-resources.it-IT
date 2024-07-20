@@ -25,7 +25,7 @@ Regolare la saturazione. Modifica la saturazione di ciascun pixel visibile del l
  </tr> 
 </table>
 
-`op_saturation=-100` desatura completamente l&#39;immagine.
+`op_saturation=-100` elimina completamente l&#39;immagine.
 
 ## Proprietà {#section-9a3cc9ff060049449554dfa69d92fd53}
 
@@ -33,7 +33,7 @@ Comando Livello. Si applica al livello corrente o all&#39;immagine composita se 
 
 ## Predefinito {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, per non modificare la saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell&#39;applicazione dell&#39;operazione.
+`op_saturation=0`, per nessuna modifica della saturazione. Le immagini o i livelli CMYK vengono convertiti in RGB prima dell&#39;applicazione dell&#39;operazione.
 
 ## Esempio {#section-033b272f1b7e4efeb94e841fd8095357}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Imposta su <span class="codeph"> 1 </span> per attivare la visualizzazione del pulsante chiudi. Oppure, impostato su <span class="codeph"> 0 </span> per nascondere il pulsante chiudi. </p> <p>Il pulsante di chiusura è supportato solo sui dispositivi touch e non può essere visualizzato sui sistemi desktop. </p> </td> 
+   <td colname="col2"> <p>Impostare su <span class="codeph"> 1 </span> per abilitare la visualizzazione del pulsante di chiusura. In alternativa, impostare su <span class="codeph"> 0 </span> per nascondere il pulsante di chiusura. </p> <p>Il pulsante di chiusura è supportato solo sui dispositivi touch e non può essere visualizzato sui sistemi desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>

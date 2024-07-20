@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -23,15 +23,15 @@ Specifica un elenco di dimensioni di incorporamento per la casella combinata del
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> larghezza </span> </span> </p> </td> 
    <td colname="col2"> <p> Larghezza di incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altezza </span> </span> </p> </td> 
    <td colname="col2"> <p>Altezza incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Specifica se la voce di elenco deve essere inizialmente preselezionata nella casella combinata. </p> </td> 
   </tr> 
  </tbody> 

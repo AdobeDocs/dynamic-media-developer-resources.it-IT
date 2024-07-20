@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
-   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando un <span class="codeph"> descrizione comando</span> Se è specificata, il testo dell'etichetta viene visualizzato come descrizione mobile sopra l'immagine di miniatura. </p> <p>Se impostato su <span class="codeph"> nessuno</span>, disattiva la visualizzazione delle etichette. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comando</span> </p> </td> 
+   <td colname="col2"> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura. In altre parole, l’etichetta viene centrata nella posizione specificata relativa alla miniatura. </p> <p>Quando si specifica una descrizione <span class="codeph"></span>, il testo dell'etichetta viene visualizzato come una descrizione mobile sopra l'immagine miniatura. </p> <p>Quando è impostato su <span class="codeph"> none</span>, disattiva la visualizzazione dell'etichetta. </p> </td> 
   </tr> 
  </tbody> 
 </table>

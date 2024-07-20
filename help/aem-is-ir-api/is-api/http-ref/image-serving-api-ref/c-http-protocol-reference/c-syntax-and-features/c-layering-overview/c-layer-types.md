@@ -18,15 +18,15 @@ Sono supportati quattro tipi di livelli.
 
 ## Livelli immagine {#section-3e53df1437694272aca03f927fc0db07}
 
-I livelli immagine devono avere `src=` che specifica l&#39;immagine da utilizzare come livello. È possibile specificare un&#39;immagine separata con `mask=` da utilizzare come maschera di livello oppure l&#39;immagine potrebbe avere già un canale alfa. La dimensione dei livelli immagine è sempre derivata dall&#39;immagine, ma l&#39;immagine viene spesso ridimensionata utilizzando `size=` comando. È possibile applicare un tracciato di ritaglio con `clipPath=`.
+I livelli immagine devono avere un comando `src=` che specifichi l&#39;immagine da utilizzare come livello. È possibile specificare un&#39;immagine separata con `mask=` da utilizzare come maschera di livello oppure l&#39;immagine potrebbe avere già un canale alfa. La dimensione dei livelli immagine è sempre derivata dall&#39;immagine, ma l&#39;immagine viene spesso ridimensionata utilizzando il comando `size=`. È possibile applicare un percorso di clip con `clipPath=`.
 
 ## Livelli di testo {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-Deve avere un `text=` o `textPs=` comando che fornisce il contenuto del testo sotto forma di frammento di testo RTF (Rich Text Formatted). I livelli di testo possono avere dimensioni autonome rispetto al contenuto o possono avere dimensioni esplicite. Ad esempio, se il testo deve essere racchiuso in una larghezza specifica o se deve essere vincolato all&#39;interno di un&#39;area specifica. `textPs=` supporta il flusso di testo in forme arbitrarie definite con `textFlowPath=` e su percorsi arbitrari definiti con `textPath=`. `textPs=` supporta inoltre il rendering del testo nella casella di testo o nella forma specificata con angoli arbitrari ( `textAngle=`).
+Deve avere un comando `text=` o `textPs=` che fornisce il contenuto di testo sotto forma di frammento di testo RTF (Rich Text Formatted). I livelli di testo possono avere dimensioni autonome rispetto al contenuto o possono avere dimensioni esplicite. Ad esempio, se il testo deve essere racchiuso in una larghezza specifica o se deve essere vincolato all&#39;interno di un&#39;area specifica. `textPs=` supporta il flusso di testo in forme arbitrarie definite con `textFlowPath=` e in percorsi arbitrari definiti con `textPath=`. `textPs=` supporta anche il rendering del testo nella casella di testo o nella forma specificata con angoli arbitrari ( `textAngle=`).
 
 ## Livelli di colore pieno {#section-56dfb672756643dda08dc93294809eb0}
 
-I livelli a colori solidi vengono spesso utilizzati per il livello 0 nei modelli, in modo che le dimensioni dell&#39;immagine composita siano fisse e indipendenti da qualsiasi contenuto di immagine. I livelli a colori solidi richiedono un `color=` e `size=` o `mask=`e supportano la maggior parte degli altri comandi e attributi per modificare l&#39;aspetto. Ai livelli di colore pieno possono essere assegnate forme arbitrarie con `clipPath=`.
+I livelli a colori solidi vengono spesso utilizzati per il livello 0 nei modelli, in modo che le dimensioni dell&#39;immagine composita siano fisse e indipendenti da qualsiasi contenuto di immagine. I livelli a colori a tinta unita richiedono un attributo `color=` e `size=` o `mask=` e supportano la maggior parte degli altri comandi e attributi per modificare l&#39;aspetto. Ai livelli di colore pieno possono essere assegnate forme arbitrarie con `clipPath=`.
 
 ## Livelli degli effetti {#section-dd3b628bc6734077af4c0ddcebcee05f}
 

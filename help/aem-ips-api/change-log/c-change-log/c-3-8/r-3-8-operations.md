@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Sintassi
 
 ## Operazioni modificate {#section-25eee732b69c49d0a27b1f3290f8654a}
 
-**searchAssets**
+**cercaRisorse**
 
-* L&#39;opzione `publishState` consente di eseguire ricerche nel `MarkedForPublish/NotMarkedForPublish` stato risorsa.
+* Il parametro facoltativo `publishState` consente di eseguire ricerche nello stato della risorsa `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* L&#39;opzione `userHandle` Il parametro consente di recuperare i registri di processo inviati da un utente specifico.
+* Il parametro facoltativo `userHandle` consente di recuperare i registri dei processi inviati da un utente specifico.

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 6%
 
 ---
@@ -24,11 +24,11 @@ Sintassi
 
 **Dimensione risposta**
 
-`searchAssets` restituisce fino a 1000 risorse in una singola chiamata. Per restituire fino a 10.000 risorse per chiamata, limita i dati di risposta a un sottoinsieme del `totalRows`, `name`, `handle`, `type`, e `subType` campi. Per restituire set più grandi, imposta il paging con `resultPage` parametro.
+`searchAssets` restituisce fino a 1000 risorse in una singola chiamata. Per restituire fino a 10.000 risorse per chiamata, limita i dati di risposta a un sottoinsieme dei campi `totalRows`, `name`, `handle`, `type` e `subType`. Per restituire set più grandi, impostare il paging con il parametro `resultPage`.
 
 **Limita dimensione file risultati con responseFieldArray o excludeFieldArray**
 
-Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArray` parametri. Questi parametri contribuiscono a ridurre l&#39;utilizzo della memoria e della larghezza di banda e possono migliorare i tempi di risposta del server.
+Limita le dimensioni del set di dati con i parametri `responseFieldArray` o `excludFieldArray`. Questi parametri contribuiscono a ridurre l&#39;utilizzo della memoria e della larghezza di banda e possono migliorare i tempi di risposta del server.
 
 ## Tipi di utenti autorizzati {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -57,32 +57,32 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
   <tr> 
    <th colname="col1" class="entry"> Nome </th> 
    <th colname="col2" class="entry"> Tipo </th> 
-   <th colname="col3" class="entry"> Obbligatorio? </th> 
+   <th colname="col3" class="entry"> Obbligatorio </th> 
    <th colname="col4" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Handle dell’azienda in cui si desidera cercare le risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Consente agli amministratori di lavorare come un altro utente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Consente agli amministratori di lavorare come parte di un gruppo diverso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cartella</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Percorso directory principale per la ricerca delle risorse. Se omesso, viene utilizzata la cartella principale dell’azienda. </td> 
   </tr> 
@@ -90,25 +90,25 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Imposta su <span class="codeph"> true</span> per cercare sottocartelle. </td> 
+   <td colname="col4">Impostare su <span class="codeph"> true</span> per cercare le sottocartelle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Scelta stato pubblicazione. </td> 
+   <td colname="col4"> Scelta dello stato di Publish. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Scelta stato cestino. Il valore predefinito è <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Scelta delle modalità di ricerca per combinare i risultati di <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, e <span class="codeph"> metadataConditionArray</span>. Il valore predefinito è <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Scelta delle modalità di ricerca per combinare i risultati di <span class="codeph"> keywordArray</span>, </p> <p> ConditionMatchMode <span class="codeph"></span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> e <span class="codeph"> metadataConditionArray</span>. Il valore predefinito è <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -118,9 +118,9 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Scelta delle modalità di ricerca per la combinazione <span class="codeph"> systemFieldCondition</span> corrisponde a. Il valore predefinito è <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Scelta delle modalità di ricerca per la combinazione di <span class="codeph"> corrispondenze systemFieldCondition</span>. Il valore predefinito è <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -130,7 +130,7 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Ricerca in modalità di corrispondenza: costanti stringa. Il valore predefinito è <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
@@ -138,13 +138,13 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:TagConditionArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Array dei predicati di ricerca dei campi tag. </p> <p>I predicati vengono combinati in base alla <span class="codeph"> tagMatchMode</span> e quindi combinate con qualsiasi termine in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>, e <span class="codeph"> metadataConditionArray</span> in base al <span class="codeph"> conditionMatchMode</span> impostazione. </p> </td> 
+   <td colname="col4"> <p>Array dei predicati di ricerca dei campi tag. </p> <p>I predicati vengono combinati in base all'impostazione <span class="codeph"> tagMatchMode</span> e quindi combinati con qualsiasi termine in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> e <span class="codeph"> metadataConditionArray</span> in base all'impostazione <span class="codeph"> conditionMatchMode</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Cerca modalità di corrispondenza per la combinazione <span class="codeph"> metadataCondition</span> corrisponde a. Il valore predefinito è <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Cerca modalità di corrispondenza per combinare <span class="codeph"> corrispondenze metadataCondition</span>. Il valore predefinito è <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,7 +174,7 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span> vengono restituiti. Se <span class="codeph"> false</span> (impostazione predefinita), vengono restituite le risorse senza sottotipo definito. </td> 
+   <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span>. Se <span class="codeph"> false</span> (impostazione predefinita), vengono restituite le risorse senza sottotipo definito. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -195,26 +195,26 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
    <td colname="col4"> Handle di un progetto contenente le risorse da cercare. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Numero massimo di risultati da restituire. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> risultatiPagina</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4">Specifica la pagina di risultati da restituire, in base a <span class="codeph"> recordsPerPage</span> dimensioni della pagina. </td> 
+   <td colname="col4">Specifica la pagina dei risultati da restituire, in base alle dimensioni di pagina <span class="codeph"> recordsPerPage</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Scelta dei campi di ordinamento delle risorse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Scelta della direzione di ordinamento. </td> 
   </tr> 
@@ -238,13 +238,13 @@ Limita le dimensioni del set di dati con `responseFieldArray` o `excludFieldArra
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | totalRows | `xsd:int` | No | Numero di righe restituite da una ricerca quando i record per pagina non sono limitati. |
-| assetArray | `types:AssetArray` | No | Risorse restituite dalla ricerca. |
+| assetArray | `types:AssetArray` | No | Assets restituito dalla ricerca. |
 
 ## Esempi {#section-725484cc09b54772a838ad2cc930b94b}
 
 In questo esempio di codice vengono cercate le risorse immagine che appartengono a una società specifica. La risposta viene troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:searchAssetsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

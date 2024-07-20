@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Nella sequenza di comandi URL o catalog::Modifier, una sequenza di definizione d
 
 Tutti i comandi all&#39;interno della sequenza di definizione del livello sono associati al livello.
 
-Il `layer=` comando specifica un numero di livello, che deve essere un numero intero uguale o maggiore di 0. Tutti i comandi nelle sequenze di definizione dei livelli con lo stesso numero di livello vengono applicati allo stesso livello. Se lo stesso comando viene eseguito più di una volta, prevale l&#39;ultima istanza.
+Il comando `layer=` specifica un numero di livello, che deve essere un numero intero maggiore o uguale a 0. Tutti i comandi nelle sequenze di definizione dei livelli con lo stesso numero di livello vengono applicati allo stesso livello. Se lo stesso comando viene eseguito più di una volta, prevale l&#39;ultima istanza.

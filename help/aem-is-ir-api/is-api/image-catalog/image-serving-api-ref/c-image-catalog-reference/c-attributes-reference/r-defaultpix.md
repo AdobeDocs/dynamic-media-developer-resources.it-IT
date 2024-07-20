@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Dimensioni predefinite della visualizzazione.
 
-Il server vincola le dimensioni delle immagini di risposta ai valori di larghezza e altezza specificati, se nella richiesta non sono specificate esplicitamente le dimensioni di visualizzazione tramite `wid=`, `hei=`, o `scl=`.
+Se nella richiesta non sono specificate esplicitamente le dimensioni di visualizzazione utilizzando `wid=`, `hei=` o `scl=`, il server vincola le dimensioni delle immagini di risposta ai valori di larghezza e altezza specificati.
 
 ## Proprietà {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
@@ -26,7 +26,7 @@ Non si applica alle richieste nidificate/incorporate.
 
 ## Predefinito {#section-b7338b2bf5114fff83b0714a57b20639}
 
-Ereditato da `default::DefaultPix` se non è definita o se è vuota.
+Ereditato da `default::DefaultPix` se non definito o se vuoto.
 
 ## Consultate anche {#section-59088cd41da940e8ac0e74e2b049c6e9}
 

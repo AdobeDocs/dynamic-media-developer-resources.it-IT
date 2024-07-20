@@ -8,7 +8,7 @@ exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -52,7 +52,7 @@ Sintassi
 
 Questo esempio di codice restituisce membri specifici del set di immagini. La risposta restituisce un array vuoto.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getImageSetMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

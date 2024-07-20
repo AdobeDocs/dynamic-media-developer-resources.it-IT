@@ -30,27 +30,27 @@ In questo documento vengono utilizzate le seguenti convenzioni.
   <td class="stentry"> <p>Il corsivo indica una variabile o un parametro da sostituire con un valore effettivo. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> comando= </span> </p> </td> 
   <td class="stentry"> <p>Un nome con un "=" finale fa riferimento a un comando del protocollo HTTP Image Server. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> Attributo <span class="codeph">::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> attributo: </span> fa riferimento a un attributo del catalogo immagini. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalogo::Articolo </span> </p> </td> 
+  <td class="stentry"> <p> Catalogo <span class="codeph">::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> catalogo: </span> fa riferimento a un campo dati del catalogo immagini. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> icc: </span> fa riferimento a un campo nella mappa del profilo colore ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> font::Item </span> </p> </td> 
-  <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> font:: </span> fa riferimento a un campo nella mappa dei caratteri. </p> </td> 
+  <td class="stentry"> <p> Tipo di carattere <span class="codeph">::elemento </span> </p> </td> 
+  <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> font: </span> fa riferimento a un campo nella mappa font. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro:: elemento </span> </p> </td> 
+  <td class="stentry"> <p> Macro <span class="codeph">:: elemento </span> </p> </td> 
   <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> macro: </span> fa riferimento a un campo nella tabella di definizione della macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -59,7 +59,7 @@ In questo documento vengono utilizzate le seguenti convenzioni.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> predefinito::Elemento </span> </p> </td> 
-  <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> impostazione predefinita: </span> fa riferimento a un attributo del catalogo immagini predefinito. </p> </td> 
+  <td class="stentry"> <p>Un nome con prefisso <span class="codeph"> predefinito: </span> fa riferimento a un attributo del catalogo immagini predefinito. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> facoltativo </span>] </span> </p> </td> 
@@ -67,10 +67,10 @@ In questo documento vengono utilizzate le seguenti convenzioni.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> facoltativo </span>] </span> </p> </td> 
-  <td class="stentry"> <p>Il <span class="varname"> facoltativo </span> l'elemento di sintassi può essere ripetuto una o più volte. </p> </td> 
+  <td class="stentry"> <p>L'elemento di sintassi </span> facoltativo <span class="varname"> non può essere ripetuto una o più volte. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </span> </p> </td> 
   <td class="stentry"> <p>Una barra verticale indica che è possibile utilizzare l'elemento con sintassi singola a sinistra o l'elemento a destra. Selezionare un solo elemento. </p> </td> 
  </tr> 
  <tr class="strow"> 

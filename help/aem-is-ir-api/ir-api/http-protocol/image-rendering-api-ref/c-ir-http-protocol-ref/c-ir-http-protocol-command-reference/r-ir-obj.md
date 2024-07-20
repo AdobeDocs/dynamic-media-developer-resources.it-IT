@@ -27,7 +27,7 @@ Selezionare l&#39;oggetto per nome. Seleziona il gruppo di vignettatura specific
 
 I sottogruppi o i singoli oggetti possono essere selezionati utilizzando un percorso di gruppo completo, ovvero specificando il nome del gruppo di destinazione o dell&#39;oggetto preceduto da tutti i gruppi padre, separati da / (barre).
 
-Se non viene trovato alcun gruppo/oggetto con il nome specificato, l&#39;azione specificata in `attribute::OnObjFail` viene eseguita.
+Se non viene trovato alcun gruppo o oggetto con il nome specificato, viene eseguita l&#39;azione specificata in `attribute::OnObjFail`.
 
 ## Proprietà {#section-9463b36e8ff74c81a70c7c2b58927430}
 
@@ -41,4 +41,4 @@ Il primo gruppo della vignettatura contenente oggetti renderizzabili viene selez
 
 ## Consultate anche {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [attributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

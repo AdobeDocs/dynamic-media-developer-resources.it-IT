@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per Visualizzatore video.
+description: Guida di riferimento dell’API JavaScript per il visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: b28ffb51-1091-4f2e-b12d-904218daf117
 source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per Visualizzatore video.
+Guida di riferimento dell’API JavaScript per il visualizzatore video.
 
 ` setParam( *`nome, valore`*)`
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 

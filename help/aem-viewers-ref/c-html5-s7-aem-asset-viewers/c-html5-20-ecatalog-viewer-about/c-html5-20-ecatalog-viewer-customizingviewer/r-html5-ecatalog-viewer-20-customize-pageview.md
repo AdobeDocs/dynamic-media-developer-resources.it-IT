@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della visualizzazione principale in formato esadecimale. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Esempio: per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi che può essere applicato a `.s7pageview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
+Nei sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7pageview` e controlla il tipo di cursore in base allo stato del componente e all&#39;azione dell&#39;utente. Sono supportati i seguenti valori `cursortype`:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,11 +68,11 @@ Sui sistemi desktop, il componente supporta `cursortype` selettore di attributi 
    <td colname="col2"> <p>Visualizzato quando l'immagine non è ingrandita a causa di una risoluzione di immagine ridotta, impostazioni dei componenti o entrambi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col1"> <p> Zoom <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Viene visualizzato quando è possibile ingrandire l'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha reimpostato </span> </p> </td> 
    <td colname="col2"> <p>Viene visualizzata quando l'immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale. </p> </td> 
   </tr> 
   <tr> 
@@ -99,11 +99,11 @@ Il divisore di pagina che separa visivamente le pagine a sinistra e a destra del
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del divisore di pagina. Imposta su <span class="codeph"> 0 </span> px per nascondere completamente il divisore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col2"> <p> Larghezza del divisore di pagina. Impostare su <span class="codeph"> 0 </span> px per nascondere completamente il divisore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine da utilizzare come divisore di pagina. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +120,9 @@ Esempio: per avere un divisore di pagina di 40 pixel con immagine semitrasparent
 
 >[!NOTE]
 >
->Quando `frametransition` il modificatore è impostato su `turn` o `auto` (sui sistemi desktop), l&#39;aspetto del divisore di pagina è controllato dal `pageturnstyle` e `.s7pagedivider` Classe CSS ignorata.
+>Quando il modificatore `frametransition` è impostato su `turn` o `auto` (su sistemi desktop), l&#39;aspetto del divisore di pagina è controllato con il modificatore `pageturnstyle` e la classe CSS `.s7pagedivider` viene ignorata.
 
-È possibile configurare la visualizzazione dei cursori personalizzati del mouse sull&#39;area del visualizzatore principale. Questa funzionalità è controllata con selettori di attributi aggiuntivi applicati a `.s7ecatalogviewer .s7pageview` Classe CSS:
+È possibile configurare la visualizzazione dei cursori personalizzati del mouse sull&#39;area del visualizzatore principale. Questa funzionalità è controllata con selettori di attributi aggiuntivi applicati alla classe CSS `.s7ecatalogviewer .s7pageview`:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,11 +137,11 @@ Esempio: per avere un divisore di pagina di 40 pixel con immagine semitrasparent
    <td colname="col2"> <p> Normalmente viene visualizzata una freccia per un'immagine non ingrandibile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoom </span> </p> </td> 
+   <td colname="col1"> <p> Zoom <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> Mostra quando è possibile ingrandire un'immagine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ripristina </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha reimpostato </span> </p> </td> 
    <td colname="col2"> <p>Mostra quando un'immagine è al massimo zoom e può essere reimpostata. </p> </td> 
   </tr> 
   <tr> 

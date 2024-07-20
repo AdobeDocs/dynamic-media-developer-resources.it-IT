@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -50,7 +50,7 @@ Sintassi
 
 In questo esempio di codice vengono ripristinate le risorse dal cestino. La risposta indica che l&#39;operazione è stata completata correttamente.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <restoreAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

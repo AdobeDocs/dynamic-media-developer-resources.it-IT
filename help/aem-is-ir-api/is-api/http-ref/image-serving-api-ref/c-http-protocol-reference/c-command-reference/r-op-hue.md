@@ -33,4 +33,4 @@ Comando Livello. Si applica al livello corrente o all&#39;immagine composita se 
 
 ## Predefinito {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`, senza alcuna modifica della tonalità.
+`op_hue=0`, senza modifiche di tonalità.

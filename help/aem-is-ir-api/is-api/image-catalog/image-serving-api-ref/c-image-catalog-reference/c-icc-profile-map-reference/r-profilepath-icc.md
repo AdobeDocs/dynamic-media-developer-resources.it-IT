@@ -8,7 +8,7 @@ exl-id: a7acf07c-3d46-4912-8926-38ca184b6475
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 9%
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ Percorso file profilo. Percorso e nome del file del profilo colore ICC, incluso 
 
 ## Proprietà {#section-d342866853f24e168ba44215ef594e29}
 
-Stringa di testo. Obbligatorio. Deve essere un percorso file del server immagini valido, assoluto o relativo a `attribute::RootPath`.
+Stringa di testo. Obbligatorio. Deve essere un percorso di file del server immagini valido, assoluto o relativo a `attribute::RootPath`.
 
 ## Predefinito {#section-838c08a4443648ffb2f5b9255fafa8dc}
 

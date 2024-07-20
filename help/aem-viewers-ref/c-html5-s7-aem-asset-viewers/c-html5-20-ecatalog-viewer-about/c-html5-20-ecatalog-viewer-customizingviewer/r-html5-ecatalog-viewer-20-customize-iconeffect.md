@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fee22d02-172c-4f82-9b6c-e06db530f400
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -33,19 +33,19 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Illustrazione dell'indicatore di zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza indicatore di zoom in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza indicatore di zoom in pixel. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
 
 >[!NOTE]
 >
->L&#39;effetto Icona supporta `media-type` selettore di attributi, che può essere utilizzato per applicare effetti di icona diversi a dispositivi diversi. In particolare: `media-type='standard'` corrisponde ai sistemi desktop in cui viene utilizzato normalmente l&#39;input del mouse e `media-type='multitouch'` corrisponde ai dispositivi con input tocco.
+>L&#39;effetto Icona supporta il selettore di attributi `media-type`, che è possibile utilizzare per applicare effetti icona diversi a dispositivi diversi. In particolare, `media-type='standard'` corrisponde ai sistemi desktop in cui viene utilizzato normalmente l&#39;input del mouse e `media-type='multitouch'` corrisponde ai dispositivi con input tocco.
 
 Esempio: per impostare un indicatore di zoom di 100 x 100 pixel con immagini diverse per i sistemi desktop e i dispositivi touch.
 

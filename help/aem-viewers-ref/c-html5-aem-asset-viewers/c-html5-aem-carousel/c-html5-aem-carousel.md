@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Consulta [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md
 
 ## Utilizzo del visualizzatore carosello {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore carosello rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il visualizzatore carosello rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 Il visualizzatore carosello può essere utilizzato sia in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i visualizzatori IS, sia in modalità incorporata dove è integrato nella pagina web di destinazione utilizzando l’API documentata.
 
 La configurazione e lo skin sono simili a quelli degli altri visualizzatori descritti in questa Guida. Tutte le operazioni di skin vengono eseguite tramite CSS personalizzato.
 
-Consulta [Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Vedi [Riferimento al comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento al comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interazione con il visualizzatore carosello {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -50,7 +50,7 @@ Toccando o facendo clic su un punto attivo o su un’area geografica si attiva u
 
 Il visualizzatore è completamente accessibile da tastiera.
 
-Consulta [Accessibilità della tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporazione visualizzatore carosello {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -58,9 +58,9 @@ Consulta [Accessibilità della tastiera e navigazione](../../c-keyboard-accessib
 
 In modalità pop-up, il visualizzatore viene aperto in una finestra o scheda del browser Web separata. Occupa l’intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o l’orientamento di un dispositivo mobile venga modificato.
 
-La modalità pop-up è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` Chiamata JavaScript configurata correttamente `A` HTML o qualsiasi altro metodo appropriato.
+La modalità pop-up è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando `window.open()` chiamata JavaScript, `A` elemento HTML configurato correttamente o qualsiasi altro metodo appropriato.
 
-Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di funzionamento popup. In questo caso, si chiama `CarouselViewer.html` e si trova all&#39;interno del `html5/` sottocartella della distribuzione standard IS-Viewers:
+Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di funzionamento popup. In questo caso, si chiama `CarouselViewer.html` e si trova nella sottocartella `html5/` della distribuzione IS-Viewers standard:
 
 `<s7viewers_root>/html5/CarouselViewer.html`
 
@@ -72,7 +72,7 @@ Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in 
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
 
-**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento a progettazione reattiva**
+**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento di progettazione reattiva**
 
 In modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente. È possibile che in questa pagina web siano già presenti alcuni contenuti dei clienti non correlati al visualizzatore. Il visualizzatore occupa normalmente solo una parte del patrimonio immobiliare di una pagina web.
 
@@ -80,24 +80,24 @@ I casi d’uso principali sono le pagine web orientate per desktop o dispositivi
 
 L’incorporamento a dimensione fissa viene utilizzato quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questo metodo è la scelta migliore per le pagine web con un layout statico.
 
-L’incorporamento reattivo della progettazione presuppone che il visualizzatore debba essere ridimensionato in fase di esecuzione in risposta alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
+L&#39;incorporamento reattivo della progettazione presuppone che il visualizzatore debba essere ridimensionato in fase di esecuzione in risposta alla modifica delle dimensioni del relativo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-In modalità di incorporamento di un design reattivo, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il suo contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando libera la sua altezza, lo spettatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione web responsive come Bootstrap e Foundation.
+In modalità di incorporamento di progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, senza restrizioni di altezza, il visualizzatore sceglie automaticamente l&#39;altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout di progettazione web responsive come Bootstrap e Foundation.
 
-In caso contrario, se la pagina web imposta sia la larghezza che l’altezza per il contenitore del visualizzatore `DIV`, il visualizzatore riempie solo quell’area. Segue anche le dimensioni fornite dal layout della pagina web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
+In caso contrario, se la pagina Web imposta sia la larghezza che l&#39;altezza per il contenitore del visualizzatore `DIV`, il visualizzatore occuperà solo quell&#39;area. Segue anche le dimensioni fornite dal layout della pagina web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
-**Incorporamento a dimensione fissa**
+**Incorporazione a dimensione fissa**
 
 Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operazioni:
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del contenitore `DIV`.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 
-   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL CarouselViewer.js]. Il [!DNL CarouselViewer.js] il file si trova sotto [!DNL html5/js/] sottocartella della distribuzione standard IS-Viewers:
+   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere [!DNL CarouselViewer.js]. Il file [!DNL CarouselViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js]
 
@@ -111,18 +111,18 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fai riferimento solo al visualizzatore principale JavaScript `include` sulla pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML 5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso di contesto (il cosiddetto SDK consolidato) `include`). Il motivo è che l&#39;ubicazione di `Utils.js` o librerie di visualizzatori runtime simili sono completamente gestite dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L’Adobe non mantiene le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
->Di conseguenza, inserendo un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
+>Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del contenitore `DIV`.
 
-   Aggiungi un elemento vuoto `DIV` nella pagina in cui si desidera visualizzare il visualizzatore. Il `DIV` deve avere il proprio ID definito perché questo ID viene passato successivamente all&#39;API del visualizzatore. La dimensione del DIV è specificata tramite CSS.
+   Aggiungere un elemento `DIV` vuoto alla pagina in cui si desidera visualizzare il visualizzatore. L&#39;ID dell&#39;elemento `DIV` deve essere definito perché questo ID viene passato successivamente all&#39;API del visualizzatore. La dimensione del DIV è specificata tramite CSS.
 
-   Segnaposto `DIV` è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
+   Il segnaposto `DIV` è un elemento posizionato, ovvero la proprietà CSS `position` è impostata su `relative` o `absolute`.
 
-   Di seguito è riportato un esempio di segnaposto definito `DIV` elemento:
+   Nell&#39;esempio seguente viene illustrato un elemento segnaposto definito `DIV`:
 
    ```CSS {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
@@ -130,11 +130,11 @@ Il percorso relativo è simile al seguente:
 
 1. Impostazione delle dimensioni del visualizzatore
 
-   È possibile impostare la dimensione statica del visualizzatore dichiarandolo per `.s7carouselviewer` classe CSS di primo livello in unità assolute oppure utilizzando `stagesize` modificatore.
+   È possibile impostare la dimensione statica per il visualizzatore dichiarandolo per la classe CSS di primo livello `.s7carouselviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
-   Puoi inserire il dimensionamento in CSS direttamente nella pagina HTML. Oppure, puoi inserire il dimensionamento in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in AEM Assets - On-demand, o trasmesso esplicitamente utilizzando `style` comando.
+   Puoi inserire il dimensionamento in CSS direttamente nella pagina HTML. In alternativa, è possibile inserire il dimensionamento in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record predefinito visualizzatore in AEM Assets - On-demand, o passato esplicitamente utilizzando il comando `style`.
 
-   Consulta [Personalizzazione del visualizzatore carosello](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con CSS.
+   Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore carosello](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
    Di seguito è riportato un esempio di definizione di una dimensione di visualizzatore statico nella pagina HTML:
 
@@ -145,7 +145,7 @@ Il percorso relativo è simile al seguente:
    }
    ```
 
-   Puoi trasmettere esplicitamente il `stagesize` modificatore con il codice di inizializzazione del visualizzatore `params` o come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   È possibile passare esplicitamente il modificatore `stagesize` con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```CSS {.line-numbers}
    carouselViewer.setParam("stagesize", "1174,500");
@@ -155,13 +155,13 @@ Il percorso relativo è simile al seguente:
 
 1. Creazione e inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi precedenti, puoi creare un’istanza di `s7viewers.CarouselViewer` classe, passa tutte le informazioni di configurazione al relativo costruttore e chiama `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Questo oggetto deve avere almeno `containerId` campo contenente il nome dell’ID contenitore del visualizzatore e nidificato `params` Oggetto JSON con parametri di configurazione supportati dal visualizzatore. In questo caso, il `params` l&#39;oggetto deve avere almeno l&#39;URL Image Server passato come `serverUrl` e la risorsa iniziale come `asset` parametro. L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
+   Dopo aver completato i passaggi precedenti, si crea un&#39;istanza della classe `s7viewers.CarouselViewer`, si passano tutte le informazioni di configurazione al relativo costruttore e si chiama il metodo `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Questo oggetto deve avere almeno il campo `containerId` che contiene il nome dell&#39;ID contenitore del visualizzatore e l&#39;oggetto JSON `params` nidificato con i parametri di configurazione supportati dal visualizzatore. In questo caso, l&#39;oggetto `params` deve avere almeno l&#39;URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. L’API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
 
-   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il `init()` metodo immediatamente prima della chiusura `BODY` o sul corpo `onload()` evento.
+   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per garantire la massima compatibilità, chiamare il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sul corpo dell&#39;evento `onload()`.
 
-   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questa funzionalità, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questa funzionalità, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un’istanza del visualizzatore, mediante il passaggio al costruttore delle opzioni di configurazione minime necessarie e la chiamata al `init()` metodo. L’esempio presuppone `carouselViewer` è l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` è l’URL di Image Server e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un&#39;istanza del visualizzatore, di passaggio delle opzioni di configurazione minime necessarie al costruttore e di chiamata al metodo `init()`. L&#39;esempio presuppone che `carouselViewer` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` è l&#39;URL di Image Server e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` è la risorsa:
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -204,9 +204,9 @@ Il percorso relativo è simile al seguente:
    </html>
    ```
 
-**Design reattivo con altezza illimitata**
+**Incorporamento di progettazione reattiva con altezza illimitata**
 
-Con l’incorporamento di un design reattivo, la pagina web solitamente dispone di un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per occupare il 40% delle dimensioni della finestra del browser web. E la sua altezza viene lasciata libera. Il codice HTML della pagina Web sarà simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Nell&#39;esempio seguente si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser. E la sua altezza viene lasciata libera. Il codice HTML della pagina Web sarà simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -226,11 +226,11 @@ Con l’incorporamento di un design reattivo, la pagina web solitamente dispone 
 
 L’aggiunta del visualizzatore a tale pagina è simile alla procedura per l’incorporamento a dimensione fissa. L’unica differenza è che non è necessario definire esplicitamente la dimensione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del contenitore `DIV`.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungi il contenitore `DIV` al esistente `"holder"` `DIV`. Il codice seguente è un esempio completo. Osserva come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungere il contenitore `DIV` all&#39;elemento `DIV` `"holder"` esistente. Il codice seguente è un esempio completo. Osserva come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -264,9 +264,9 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
-**Dimensione flessibile Incorporata con definizione di larghezza e altezza**
+**Dimensione flessibile incorporata con larghezza e altezza definite**
 
-Nell’incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e centralo nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
+Nell’incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. La pagina Web imposta inoltre le dimensioni dell&#39;elemento `HTML` e dell&#39;elemento `BODY` al 100%.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +330,9 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-**Incorporazione tramite API basata su set**
+**Incorporamento tramite API basata su Set**
 
-Invece di utilizzare l’inizializzazione basata su JSON, puoi utilizzare l’API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non accetta parametri e i parametri di configurazione vengono specificati utilizzando `setContainerId()`, `setParam()`, e `setAsset()` Metodi API con chiamate JavaScript separate.
+Invece di utilizzare l’inizializzazione basata su JSON, puoi utilizzare l’API basata su setter e il costruttore no-args. L&#39;utilizzo di questo costruttore API non accetta parametri e i parametri di configurazione sono specificati utilizzando i metodi API `setContainerId()`, `setParam()` e `setAsset()` con chiamate JavaScript separate.
 
 L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
 

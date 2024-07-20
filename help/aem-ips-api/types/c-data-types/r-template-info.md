@@ -23,5 +23,5 @@ I modelli sono definizioni di livelli con parametri che creano un&#39;immagine a
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | url | `xsd:string` | URL del server immagini che rappresenta il modello. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per Visualizzatore video.
+description: Guida di riferimento dell’API JavaScript per il visualizzatore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: d797a8be-582e-46f4-9068-db1d2757970d
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per Visualizzatore video.
+Guida di riferimento dell’API JavaScript per il visualizzatore video.
 
 ` setParam( *`nome, valore`*)`
 
@@ -33,7 +33,7 @@ Riferimento API JavaScript per Visualizzatore video.
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON per il costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

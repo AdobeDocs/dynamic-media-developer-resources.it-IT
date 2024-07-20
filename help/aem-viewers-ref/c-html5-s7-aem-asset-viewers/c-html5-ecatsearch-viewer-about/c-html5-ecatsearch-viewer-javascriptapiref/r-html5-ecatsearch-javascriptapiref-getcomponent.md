@@ -1,5 +1,5 @@
 ---
-description: Riferimento API JavaScript per il visualizzatore eCatalog
+description: Riferimento API di JavaScript per il visualizzatore eCatalog
 solution: Experience Manager
 title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: cb988fbc-2496-4844-984a-0980b0548441
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Riferimento API JavaScript per il visualizzatore eCatalog
+Riferimento API di JavaScript per il visualizzatore eCatalog
 
 [!DNL `getComponent(componentId)`]
 
-Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo il `initComplete` il callback del visualizzatore è stato eseguito, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -33,11 +33,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gestione parametri </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contenitore </span> </p> </td> 
+   <td colname="col1"> <p> Contenitore <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -45,24 +45,24 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pageView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> visualizzazione pagina </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.PageView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> primaryControls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlli primari </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryControls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlli secondari </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gridView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> GridView </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.ThumbnailGridView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tableOfContents </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContent </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sommario </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContents </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> infoPanelPopup </span> </p> </td> 
@@ -77,7 +77,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rightButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> pulsante destro </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -133,23 +133,23 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione social </span> di <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione Twitter </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linkShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione collegamento </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> emailShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione e-mail </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare </span> </p> </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> scaricare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> download </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download </span> </p> </td> 
   </tr> 
   <tr> 
@@ -169,11 +169,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesEffect </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoritesView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preferitiVisualizza </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> menu preferiti </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preferitiMenu </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu </span> </p> </td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.ViewAllFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> searchButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> pulsante di ricerca </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.SearchButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -207,13 +207,13 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK è importante utilizzare uno spazio dei nomi SDK completo e corretto, come descritto in [Spazio dei nomi SDK per visualizzatori](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo e corretto, come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
 
-Consulta la *API SDK del visualizzatore* per ulteriori informazioni su un particolare componente.
+Per ulteriori informazioni su un componente specifico, consulta la documentazione dell&#39;API *Viewer SDK*.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` un riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` un riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente del visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

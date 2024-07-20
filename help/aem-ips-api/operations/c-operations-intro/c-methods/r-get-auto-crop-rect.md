@@ -8,7 +8,7 @@ exl-id: e291597a-b863-42dd-88dc-13398b734410
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -40,8 +40,8 @@ Sintassi
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sì | Handle per l’azienda con la risorsa con cui desideri lavorare. |
 | assetHandle | `xsd:string` | Sì | Handle della risorsa con cui desideri lavorare. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcola il rettangolo di ritaglio in base al colore. Consulta [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcola il rettangolo di ritaglio in base alla trasparenza. Consulta [OpzioniRitaglioTrasparenteAutomatico](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| autoColorCropOptions | `types:AutoColorCropOptions` | No | Calcola il rettangolo di ritaglio in base al colore. Vedi [OpzioniRitaglioAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | No | Calcola il rettangolo di ritaglio in base alla trasparenza. Vedere [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Output (getAutoCropRectReturn)**
 
@@ -49,12 +49,12 @@ Sintassi
 |---|---|---|---|
 | xOffset | `xsd:int` | Sì | Coordinata iniziale in pixel a sinistra dell&#39;area di ritaglio calcolata. |
 | Scostamento | `xsd:int` | Sì | Coordinata iniziale in pixel superiori dell&#39;area di ritaglio calcolata. |
-| width | `xsd:int` | Sì | Larghezza dell’area di ritaglio calcolata (in pixel). |
-| height | `xsd:int` | Sì | Altezza dell’area di ritaglio calcolata (in pixel). |
+| larghezza | `xsd:int` | Sì | Larghezza dell’area di ritaglio calcolata (in pixel). |
+| altezza | `xsd:int` | Sì | Altezza dell’area di ritaglio calcolata (in pixel). |
 
 ## Esempi {#section-ba65bd66086d491cad1cea535954ee1f}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getAutoCropRectParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31-beta">
@@ -80,6 +80,5 @@ Sintassi
 
 >[!MORELIKETHIS]
 >
->* [OpzioniRitaglioColoreAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+>* [OpzioniRitaglioAutomatico](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [OpzioniRitaglioTrasparenteAutomatico](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-

@@ -8,7 +8,7 @@ exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -42,7 +42,7 @@ Sintassi
 
 Questo codice restituisce un array che contiene tutti i gruppi che appartengono a una società specifica e informazioni specifiche su ciascun gruppo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getGroupsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

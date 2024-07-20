@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ L’utility playlog può essere utilizzata per pregenerare i contenuti per la ca
 
 La cache di risposta HTTP di Image Server esistente non è sempre utilizzabile dopo un aggiornamento di versione principale (quando viene modificata la prima o la seconda cifra del numero di versione). Se il server deve essere portato in condizioni di pieno carico dopo l’aggiornamento, potrebbe verificarsi un sovraccarico durante le prime ore di richieste di mancato recapito della cache, fino a quando la cache non viene ragionevolmente popolata e la percentuale di accessi alla cache aumenta.
 
-Per evitare questo picco di carico iniziale, `playlog` L&#39;utilità può essere utilizzata per pregenerare i contenuti per la cache di risposta HTTP. `playlog` estrae le richieste HTTP da un file di log degli accessi esistente e lo invia al server per generare le voci della cache. Per scenari di utilizzo tipici, è sufficiente riprodurre un singolo file di registro di accesso contenente un’intera giornata di traffico.
+Per evitare questo picco di caricamento iniziale, è possibile utilizzare l&#39;utility `playlog` per pregenerare il contenuto per la cache di risposta HTTP. `playlog` estrae le richieste HTTP da un file di log degli accessi esistente e lo invia al server per generare le voci della cache. Per scenari di utilizzo tipici, è sufficiente riprodurre un singolo file di registro di accesso contenente un’intera giornata di traffico.
 
 Oltre a caricare la cache di risposta HTTP dopo l’installazione dell’aggiornamento, l’utility viene utilizzata anche per pregenerare i contenuti della cache quando si aggiunge un nuovo server a un ambiente con carico bilanciato; è sufficiente riprodurre un file di registro recente da uno degli altri server.
 
-`playlog` può essere configurato per supportare la maggior parte dei file di registro di accesso generati dalle versioni precedenti di Image Server.
+È possibile configurare `playlog` per supportare la maggior parte dei file di log degli accessi generati dalle versioni precedenti di Image Server.
 
 ## Utilizzo {#section-daa126ec469b4a9d90d59def4fdaacdd}
 
@@ -38,8 +38,8 @@ Oltre a caricare la cache di risposta HTTP dopo l’installazione dell’aggiorn
   <td class="stentry"> <p>Numero del campo (colonna) che contiene la richiesta nel record di registro; basato su 1. </p> <p>Predefinito: 16 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -s <span class="varname"> separatore </span> </span> </p> </td> 
-  <td class="stentry"> <p>Separatore di campi; pattern espressione regolare. </p> <p>Predefinito: <span class="codeph"> [ ]+ </span>) </p> </td> 
+  <td class="stentry"> <p> Separatore <span class="codeph"> -s <span class="varname"> </span> </span> </p> </td> 
+  <td class="stentry"> <p>Separatore di campi; pattern espressione regolare. </p> <p>Impostazione predefinita: <span class="codeph"> [ ]+ </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -m <span class="varname"> marcatore </span> </span> </p> </td> 
@@ -47,11 +47,11 @@ Oltre a caricare la cache di risposta HTTP dopo l’installazione dell’aggiorn
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> suffisso </span> </span> </p> </td> 
-  <td class="stentry"> <p>Suffisso da aggiungere alla richiesta estratta dal file di registro; può essere utilizzato per separare le richieste di riproduzione dalle richieste live nei file di registro; un "?" o il separatore '&amp;' viene inserito automaticamente; il suffisso può fare riferimento a qualsiasi campo di registro per posizione all'interno di parentesi graffe; l'impostazione predefinita corrisponde al campo firma md5. </p> <p>Predefinito: <span class="codeph"> playlog={25} </span>) </p> </td> 
+  <td class="stentry"> <p>Suffisso da aggiungere alla richiesta estratta dal file di registro; può essere utilizzato per separare le richieste di riproduzione dalle richieste live nei file di registro; un "?" o il separatore '&amp;' viene inserito automaticamente; il suffisso può fare riferimento a qualsiasi campo di registro per posizione all'interno di parentesi graffe; l'impostazione predefinita corrisponde al campo firma md5. </p> <p>Impostazione predefinita: <span class="codeph"> playlog={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>In modalità dettagliata, stampa gli URL della richiesta generati in <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p>Modalità dettagliata, stampa gli URL di richiesta generati in <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
@@ -59,7 +59,7 @@ Oltre a caricare la cache di risposta HTTP dopo l’installazione dell’aggiorn
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 
-  <td class="stentry"> <p>request-method - metodo di richiesta HTTP da utilizzare ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Predefinito: <span class="codeph"> intelligente </span>) </p> </td> 
+  <td class="stentry"> <p>request-method - metodo di richiesta HTTP da utilizzare ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Predefinito: <span class="codeph"> smart </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -o </span> </p> </td> 
@@ -67,7 +67,7 @@ Oltre a caricare la cache di risposta HTTP dopo l’installazione dell’aggiorn
  </tr> 
 </table>
 
-Per Windows, il nome del file è [!DNL playlog.bat] e su Linux è [!DNL playlog.sh].
+Per Windows, il nome file è [!DNL playlog.bat] e su Linux è [!DNL playlog.sh].
 
 ## Esempi {#section-716e5c35e9fa4ee3a4b0687381fcea40}
 

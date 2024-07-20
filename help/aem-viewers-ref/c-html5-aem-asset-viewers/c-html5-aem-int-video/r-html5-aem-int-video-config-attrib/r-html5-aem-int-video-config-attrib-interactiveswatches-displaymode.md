@@ -21,7 +21,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|segment</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continuous|segmento</span> </p> </td> 
    <td colname="col2"> <p> Popola continuamente i campioni interattivi con le miniature, indipendentemente dai limiti del segmento o, consentendo allo spazio vuoto di annotare i limiti del segmento. </p> </td> 
   </tr> 
  </tbody> 

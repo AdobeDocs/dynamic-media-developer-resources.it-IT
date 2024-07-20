@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,21 @@ Image Server supporta la nidificazione illimitata delle richieste Image Server, 
 
 ## Richieste di Image Server nidificate {#section-6954202119e0466f8ff27c79f4f039c8}
 
-Un&#39;intera richiesta Image Server può essere utilizzata come origine di livello specificandola nella `src=` (o `mask=`) utilizzando la sintassi seguente:
+È possibile utilizzare un&#39;intera richiesta Image Server come origine di livello specificandola nel comando `src=` (o `mask=`) utilizzando la sintassi seguente:
 
 `…&src=is( nestedRequest)&…`
 
-Il `is` il token distingue tra maiuscole e minuscole.
+Il token `is` distingue tra maiuscole e minuscole.
 
 La richiesta nidificata non deve includere il percorso radice del server (in genere ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->I caratteri delimitatori di richiesta nidificati ( `'(',')'`) e i caratteri delimitatori del comando ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non deve essere codificato HTTP. Di fatto, le richieste nidificate devono essere codificate come la richiesta esterna (nidificazione).
+>I caratteri delimitatori di richiesta nidificati ( `'(',')'`) e i caratteri delimitatori di comando ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati HTTP. Di fatto, le richieste nidificate devono essere codificate come la richiesta esterna (nidificazione).
 
 Le regole di pre-elaborazione vengono applicate alle richieste nidificate.
 
-I seguenti comandi vengono ignorati se specificati nelle richieste nidificate (nell’URL della richiesta o in `catalog::Modifier` o `catalog::PostModifier`):
+I seguenti comandi vengono ignorati se specificati nelle richieste nidificate (nell&#39;URL della richiesta oppure in `catalog::Modifier` o `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -48,9 +48,9 @@ I seguenti comandi vengono ignorati se specificati nelle richieste nidificate (n
 
 Se l&#39;immagine risultante delle richieste nidificate include dati di maschera (alfa), questa viene passata al livello di incorporamento come maschera di livello.
 
-Vengono ignorati anche i `attribute::MaxPix`e `attribute::DefaultPix` del catalogo immagini applicabile alla richiesta nidificata.
+Vengono ignorati anche `attribute::MaxPix` e `attribute::DefaultPix` del catalogo immagini applicabile alla richiesta nidificata.
 
-Il risultato dell&#39;immagine di una richiesta IS nidificata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando si prevede che l’immagine intermedia venga riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.
+Il risultato immagine di una richiesta IS nidificata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando si prevede che l’immagine intermedia venga riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.
 
 ## Richieste di rendering immagini incorporate {#section-69c5548db930412b9b90d9b2951a6969}
 
@@ -58,13 +58,13 @@ Quando Dynamic Medie Image Rendering è abilitato sul server, le richieste di re
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-Il `ir` il token distingue tra maiuscole e minuscole.
+Il token `ir` distingue tra maiuscole e minuscole.
 
-*[!DNL renderRequest]* è la richiesta di Image Rendering abituale, escluso il percorso root HTTP ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* è la solita richiesta di Image Rendering, escluso il percorso radice HTTP ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->I caratteri delimitatori di richiesta nidificati ( `'(',')'`) e i caratteri delimitatori del comando ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non deve essere codificato HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
+>I caratteri delimitatori di richiesta nidificati ( `'(',')'`) e i caratteri delimitatori di comando ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
 
 I seguenti comandi di Image Rendering vengono ignorati se specificati nelle richieste nidificate:
 
@@ -75,27 +75,27 @@ I seguenti comandi di Image Rendering vengono ignorati se specificati nelle rich
 * `printRes=`
 * `req=`
 
-Vengono ignorati anche i `attribute::MaxPix` e `attribute::DefaultPix` del catalogo dei materiali applicabile alla richiesta di rendering nidificata.
+Vengono ignorati anche `attribute::MaxPix` e `attribute::DefaultPix` del catalogo dei materiali che si applica alla richiesta di rendering nidificata.
 
-Il risultato dell&#39;immagine di una richiesta a infrarossi nidificata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando si prevede che l’immagine intermedia venga riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.
+Il risultato immagine di una richiesta a infrarossi nidificata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando si prevede che l’immagine intermedia venga riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.
 
 ## Richieste di rendering FXG incorporate {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-Quando il renderer grafico FXG (alias [!DNL AGMServer]) è installato e abilitato con Image Server; le richieste FXG possono essere utilizzate come origini di livello specificandole in `src=` (o `mask=`). Utilizza la seguente sintassi:
+Quando il renderer grafico FXG (o [!DNL AGMServer]) è installato e abilitato con Image Server, le richieste FXG possono essere utilizzate come origini di livello specificandole nei comandi `src=` (o `mask=`). Utilizza la seguente sintassi:
 
 `…&src=fxg( renderRequest)&…`
 
-Il `fxg` il token distingue tra maiuscole e minuscole.
+Il token `fxg` distingue tra maiuscole e minuscole.
 
 >[!NOTE]
 >
 >Il rendering della grafica FXG è disponibile solo nell’ambiente in hosting Dynamic Medie e potrebbe richiedere licenze aggiuntive. Per ulteriori informazioni, contattare il supporto tecnico Dynamic Medie.
 
-*[!DNL renderRequest]* è la richiesta di rendering FXG usuale, escluso il percorso root HTTP ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* è la richiesta di rendering FXG usuale, escluso il percorso radice HTTP ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->I caratteri delimitatori ( `'(',')'`) e i caratteri delimitatori del comando ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non deve essere codificato HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
+>I caratteri delimitatore ( `'(',')'`) e i caratteri delimitatore comando ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
 
 I seguenti comandi FXG vengono ignorati se specificati nelle richieste nidificate:
 
@@ -113,17 +113,17 @@ Image Server supporta l’accesso alle immagini sorgente su server HTTP esterni.
 >
 >Per gli URL remoti è supportato solo il protocollo HTTP.
 
-Per specificare un URL esterno per un `src=` o un `mask=` , delimitare l&#39;URL esterno o il frammento di URL tra parentesi:
+Per specificare un URL esterno per un comando `src=` o `mask=`, delimitare l&#39;URL esterno o il frammento di URL con parentesi:
 
 `…&src=( foreignUrl)&…`
 
-Importante I caratteri delimitatori ( `'(',')'`) e i caratteri delimitatori del comando ( `'?'`, `'&'`, `'='`) nelle richieste nidificate non deve essere codificato HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
+Importante I caratteri delimitatore ( `'(',')'`) e i caratteri delimitatore comando ( `'?'`, `'&'`, `'='`) all&#39;interno delle richieste nidificate non devono essere codificati HTTP. Di fatto, le richieste incorporate devono essere codificate come la richiesta esterna (incorporante).
 
-URL assoluti completi (se `attribute::AllowDirectUrls` è impostato) e gli URL relativi a `attribute::RootUrl` sono consentite. Si verifica un errore se è incorporato un URL assoluto e si verifica un attributo: `AllowDirectUrls` è 0, o se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
+Sono consentiti URL assoluti completi (se è impostato `attribute::AllowDirectUrls`) e URL relativi a `attribute::RootUrl`. Si verifica un errore se è incorporato un URL assoluto e l&#39;attributo: `AllowDirectUrls` è 0 oppure se è specificato un URL relativo e `attribute::RootUrl` è vuoto.
 
 Anche se gli URL esterni non possono essere specificati direttamente nel componente percorso dell’URL della richiesta, è possibile impostare una regola di preelaborazione per consentire la conversione di percorsi relativi in URL assoluti (vedi l’esempio di seguito).
 
-Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di memorizzazione in cache incluse nella risposta HTTP. Se nessuna delle due `ETag` La risposta non viene memorizzata in cache, poiché non è presente alcuna intestazione di risposta HTTP Last-Modified. Questo può causare prestazioni scadenti per gli accessi ripetuti per la stessa immagine esterna, in quanto Image Server deve recuperare e riconvalidare l’immagine a ogni accesso.
+Le immagini esterne vengono memorizzate nella cache dal server in base alle intestazioni di memorizzazione in cache incluse nella risposta HTTP. Se non è presente né un&#39;intestazione di risposta HTTP `ETag` né Last-Modified, la risposta non viene memorizzata in cache. Questo può causare prestazioni scadenti per gli accessi ripetuti per la stessa immagine esterna, in quanto Image Server deve recuperare e riconvalidare l’immagine a ogni accesso.
 
 Questo meccanismo supporta gli stessi formati di file immagine supportati dall&#39;utilità di conversione delle immagini (IC), ad eccezione delle immagini sorgente con 16 bit per componente.
 
@@ -139,7 +139,7 @@ Il server immagini importanti non supporta la doppia codifica delle richieste ni
 
 ## Esempi {#section-d800cfc31abe46d2a964f8e7929231f1}
 
-**Modello di livelli con memorizzazione in cache:**
+**Modello di layout con memorizzazione nella cache:**
 
 Utilizzare la nidificazione per aggiungere il caching a un modello di layout. Un numero limitato di immagini di sfondo viene sovrapposto a testo altamente variabile. La stringa del modello iniziale potrebbe essere simile alla seguente:
 
@@ -149,9 +149,9 @@ Con lievi modifiche, possiamo prescalare l&#39;immagine di livello 0 e memorizza
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporazione di richieste per Dynamic Medie Image Rendering**
+**Richieste di incorporamento per il rendering immagini Dynamic Medie**
 
-Utilizzo di un modello memorizzato in [!DNL myCatalog/myTemplate]; genera l’immagine per il livello2 del modello utilizzando Dynamic Medie Image Rendering:
+Utilizzando un modello archiviato in [!DNL myCatalog/myTemplate]; generare l&#39;immagine per il livello 2 del modello utilizzando il rendering immagini di Dynamic Medie:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ Osserva le parentesi graffe nidificate. La richiesta Image Rendering incorpora u
 
 ## Consultate anche {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask= maschera](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [PreElaborazione richieste](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Riferimento per il rendering delle immagini, [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Utilità Image Server](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [PreElaborazione richieste](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), riferimento rendering immagini, [Modelli](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Utilità server immagini](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

@@ -1,6 +1,6 @@
 ---
 title: Sintassi e funzioni del protocollo HTTP
-description: Questa sezione descrive la sintassi del protocollo HTTP e la funzionalità di rendering immagini Dynamic Media.
+description: Questa sezione descrive la sintassi del protocollo HTTP e la funzionalità di rendering immagini Dynamic Medie.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Sintassi e funzioni del protocollo HTTP{#http-protocol-syntax-and-features}
 
-Questa sezione descrive la sintassi del protocollo HTTP e la funzionalità di rendering immagini Dynamic Media.
+Questa sezione descrive la sintassi del protocollo HTTP e la funzionalità di rendering immagini Dynamic Medie.
 
 * [Sintassi di base del protocollo HTTP Image Rendering](r-ir-basic-syntax.md)
 * [Panoramica del comando del protocollo HTTP Image Rendering](c-ir-command-overview/c-ir-command-overview.md)

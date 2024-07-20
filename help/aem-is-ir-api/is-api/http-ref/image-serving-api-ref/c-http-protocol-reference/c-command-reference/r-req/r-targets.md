@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 7%
+source-wordcount: '185'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +29,13 @@ Effettua lo zoom dei dati di destinazione dal catalogo immagini. Restituisce i d
  </tr> 
 </table>
 
-Il contenuto di `catalog::Targets` vengono restituiti. Quando viene richiesto il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::Targets` sono sostituiti da terminatori di riga e da terminatori di riga singola ( `CR/LF`) viene aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
+Il contenuto di `catalog::Targets` è stato restituito. Quando viene richiesto il formato &#39;text&#39;, tutte le istanze di `??` in `catalog::Targets` vengono sostituite da terminatori di riga e un terminatore a riga singola ( `CR/LF`) viene aggiunto alla fine. Se il percorso URL non viene risolto in una voce di catalogo valida, la risposta è costituita solo da un terminatore a riga singola. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
 
 Altri comandi nella stringa di richiesta vengono ignorati.
 
-La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.
+La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::Expiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa di `req=` parametro:
+Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

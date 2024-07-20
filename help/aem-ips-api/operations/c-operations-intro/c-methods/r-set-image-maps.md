@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ Le mappe immagine devono essere già state create. Le mappe immagine vengono app
 
 Questo esempio di codice imposta 2 mappe immagine per una risorsa immagine. Il codice specifica il tipo di forma, l&#39;area e l&#39;azione eseguita quando vengono richiamate le mappe immagine. La risposta contiene un array con handle per le mappe immagine.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setImageMapsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

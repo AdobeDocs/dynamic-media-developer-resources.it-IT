@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '48'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> angolo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Scelta dell'angolo di ritaglio automatico. </td> 
   </tr> 
   <tr> 

@@ -46,7 +46,7 @@ Questi comandi vengono applicati ai livelli di testo, oltre ai comandi dei livel
   <td class="stentry"> <p>Imposta l'angolo della linea di base del testo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> text</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f" type="reference" format="dita" scope="local"> testo</a> </p></td> 
   <td class="stentry"> <p>Fornisce testo di livello al renderer di testo tradizionale. </p></td> 
  </tr> 
 </table>

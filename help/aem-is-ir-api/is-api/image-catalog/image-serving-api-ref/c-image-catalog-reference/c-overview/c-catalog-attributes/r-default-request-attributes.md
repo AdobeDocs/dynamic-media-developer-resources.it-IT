@@ -27,7 +27,7 @@ I file degli attributi del catalogo riconoscono questi attributi di richiesta pr
    <td colname="col2"> <p> Nome tipo di carattere predefinito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> immagine predefinita</a></span> </p> </td> 
    <td colname="col2"> <p> Immagine di risposta predefinita. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ I file degli attributi del catalogo riconoscono questi attributi di richiesta pr
    <td colname="col2"> <p> Dimensioni predefinite per le miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> ColoreBkg</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor</a></span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo predefinito per le immagini di risposta. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ I file degli attributi del catalogo riconoscono questi attributi di richiesta pr
    <td colname="col2"> <p> Metodo di ricampionamento predefinito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> DefaultLocale</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> ImpostazioniLocaliPredefinite</a></span> </p> </td> 
    <td colname="col2"> <p> ID impostazioni locali predefinito. </p> </td> 
   </tr> 
  </tbody> 

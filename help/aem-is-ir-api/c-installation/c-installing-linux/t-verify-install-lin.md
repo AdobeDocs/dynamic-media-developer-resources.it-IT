@@ -18,7 +18,7 @@ Dopo aver installato Image Server su Linux®, verificare l&#39;installazione.
 
 Il server immagini è installato come daemon Linux®.
 
-**Verificare l&#39;installazione**
+**Per verificare l&#39;installazione**
 
 1. Verifica che Image Server sia configurato per l&#39;avvio automatico e che sia in esecuzione:
 
@@ -34,6 +34,6 @@ Il server immagini è installato come daemon Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Nelle risposte, verifica la presenza di elementi che iniziano con `imageServer`, che indicano che [!DNL Platform Server] è stato possibile comunicare con il server immagini.
+Nelle risposte, verificare la presenza di elementi che iniziano con `imageServer`, il che indica che [!DNL Platform Server] è riuscito a comunicare con il server immagini.
 
 >Puoi eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.

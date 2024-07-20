@@ -18,7 +18,7 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie
 
 >[!NOTE]
 >
->L&#39;impostazione `None` è il valore predefinito.
+>Impostazione predefinita: `None`.
 
 ## Parametri {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -33,12 +33,12 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controlla l’elaborazione dei file di archivio ZIP e TAR. Sono disponibili due opzioni: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nessuno:</span> Elabora come risorse primarie. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Non comprimere:</span> Estrarre ed elaborare il contenuto. </li>
-     </ul><p>Nota: le costanti stringa fanno distinzione tra maiuscole e minuscole. Utilizzare <span class="codeph"> Non comprimere</span>, non <span class="codeph"> decomprimi</span>, o <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Decompressione:</span> Estrarre ed elaborare il contenuto. </li>
+     </ul><p>Nota: le costanti stringa fanno distinzione tra maiuscole e minuscole. Usa <span class="codeph"> UnCompress</span>, non <span class="codeph"> uncompress</span>, o <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,8 +58,8 @@ Impostazione di caricamento per elaborare i file ZIP e TAR come risorse primarie
 
 ## Utilizzato da {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Il `unCompressionOptions` tipo utilizzato da:
+Il tipo `unCompressionOptions` è utilizzato da:
 
-* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [ProcessoDirectoryCaricamento](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [ProcessoPostCaricamento](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

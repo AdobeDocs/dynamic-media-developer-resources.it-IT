@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ webservice/IpsApi[-<API_version>].wsdl
 
 Il valore predefinito per `<IPS_webapp>` è `scene7`.
 
-**Posizione del servizio**
+**Percorso servizio**
 
 L&#39;URL del servizio è specificato nella sezione del servizio del documento WSDL del servizio Web IPS. L’URL del servizio è generalmente nel formato:
 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Accedere agli URL per le aree geografiche di Dynamic Medie**
+**URL di accesso per aree geografiche Dynamic Medie**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -94,22 +94,22 @@ Ricorda che potrebbe essere necessario modificare il codice se desideri utilizza
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
@@ -133,17 +133,17 @@ Il servizio Web API IPS supporta solo un&#39;associazione SOAP.
 
 Il binding SOAP API IPS supporta solo il trasporto HTTP. Effettuare tutte le richieste SOAP utilizzando il metodo HTTPS POST.
 
-**Intestazione azione SOAP**
+**Intestazione azione azione SOAP**
 
 Per elaborare una richiesta, impostare l&#39;intestazione HTTP SOAPAction sul nome dell&#39;operazione richiesta. L&#39;attributo del nome dell&#39;operazione nella sezione di associazione WSDL specifica il nome.
 
-**Formato del messaggio**
+**Formato messaggio**
 
-Lo stile document/literal viene utilizzato per tutti i messaggi di input e output con tipi basati sul linguaggio di definizione dello schema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) e specificate nel file WSDL. Tutti i tipi richiedono nomi qualificati che utilizzano il valore dello spazio dei nomi di destinazione specificato nel file WSDL.
+Lo stile documento/letterale viene utilizzato per tutti i messaggi di input e output con tipi basati sul linguaggio di definizione dello schema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) e specificati nel file WSDL. Tutti i tipi richiedono nomi qualificati che utilizzano il valore dello spazio dei nomi di destinazione specificato nel file WSDL.
 
 **Richiedi autenticazione**
 
-Il metodo preferito per trasmettere le credenziali di autenticazione nelle richieste API consiste nell’utilizzare `authHeader` come definito nel file WSDL API IPS.
+Il metodo preferito per passare le credenziali di autenticazione nelle richieste API consiste nell&#39;utilizzare l&#39;elemento `authHeader` come definito nel WSDL API IPS.
 
 ```
 <element name="authHeader"> 
@@ -180,11 +180,11 @@ Il metodo preferito per trasmettere le credenziali di autenticazione nelle richi
    <td colname="col2"> <p>Password per l’account utente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Impostazioni locali facoltative per la richiesta. Consulta <b>Lingua</b> per i dettagli. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lingua </span> </p> </td> 
+   <td colname="col2"> <p> Impostazioni locali facoltative per la richiesta. Per ulteriori dettagli, vedere <b>Impostazioni locali</b>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nomeApp </span> </p> </td> 
    <td colname="col2"> <p> Chiamata del nome dell'applicazione. Questo parametro è facoltativo, ma è consigliabile includerlo in tutte le richieste. </p> </td> 
   </tr> 
   <tr> 
@@ -202,9 +202,9 @@ Il metodo preferito per trasmettere le credenziali di autenticazione nelle richi
  </tbody> 
 </table>
 
-Il `authHeader` è sempre definito nello spazio dei nomi `http://www.scene7.com/IpsApi/xsd`, indipendentemente dalla versione API.
+L&#39;elemento `authHeader` è sempre definito nello spazio dei nomi `http://www.scene7.com/IpsApi/xsd`, indipendentemente dalla versione API.
 
-Di seguito è riportato un esempio di utilizzo di `authHeader` elemento in un’intestazione SOAP della richiesta:
+Di seguito è riportato un esempio di utilizzo dell&#39;elemento `authHeader` in un&#39;intestazione SOAP di richiesta:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ Di seguito è riportato un esempio di utilizzo di `authHeader` elemento in un’
 
 **Altri metodi di autenticazione delle richieste**
 
-Se per qualche motivo l’applicazione client non può trasmettere il `authHeader` L’intestazione SOAP e le richieste API possono inoltre specificare le credenziali utilizzando l’autenticazione HTTP Basic (come specificato nella RFC 2617).
+Se per qualche motivo l&#39;applicazione client non è in grado di trasmettere l&#39;intestazione SOAP `authHeader`, le richieste API possono specificare anche le credenziali utilizzando l&#39;autenticazione HTTP Basic (come specificato nella RFC 2617).
 
 Per l’autenticazione HTTP Basic, la sezione dell’intestazione HTTP di ogni richiesta SOAP POST deve includere un’intestazione del modulo:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Dove `base64()` applica la codifica standard Base64, `<IPS_user_email>` è l&#39;indirizzo e-mail di un utente IPS valido e `<password>` è la password dell&#39;utente.
+Dove `base64()` applica la codifica Base64 standard, `<IPS_user_email>` è l&#39;indirizzo e-mail di un utente IPS valido e `<password>` è la password dell&#39;utente.
 
-Invia preventivamente l’intestazione Autorizzazione con la richiesta iniziale. Se nella richiesta non sono incluse credenziali di autenticazione, `IpsApiService` non risponde con un codice di stato `401 (Unauthorized)`. Invece, un codice di stato di `500 (Internal Server Error)` viene restituito un corpo dell&#39;errore SOAP che indica che la richiesta non può essere autenticata.
+Invia preventivamente l’intestazione Autorizzazione con la richiesta iniziale. Se nella richiesta non sono incluse credenziali di autenticazione, `IpsApiService` non risponde con il codice di stato `401 (Unauthorized)`. Viene invece restituito un codice di stato `500 (Internal Server Error)` con un corpo di errore SOAP che indica che la richiesta non può essere autenticata.
 
-Prima di IPS 3.8, l’autenticazione tramite l’intestazione SOAP era implementata utilizzando `AuthUser` e `AuthPassword` elementi nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
+Prima di IPS 3.8, l&#39;autenticazione tramite l&#39;intestazione SOAP è stata implementata utilizzando gli elementi `AuthUser` e `AuthPassword` nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,7 +238,7 @@ Prima di IPS 3.8, l’autenticazione tramite l’intestazione SOAP era implement
 </soap:Header>
 ```
 
-Questo stile è ancora supportato per la compatibilità con le versioni precedenti, ma è stato dichiarato obsoleto a favore del `authHeader` elemento.
+Questo stile è ancora supportato per la compatibilità con le versioni precedenti, ma è stato dichiarato obsoleto a favore dell&#39;elemento `authHeader`.
 
 **Richiedi autorizzazione**
 
@@ -246,7 +246,7 @@ Dopo l&#39;autenticazione delle credenziali del chiamante, la richiesta viene co
 
 **Richiesta e risposta SOAP di esempio**
 
-L’esempio seguente mostra un’ `addCompany` operazione, incluse le intestazioni HTTP:
+L&#39;esempio seguente mostra un&#39;operazione `addCompany` completa, incluse le intestazioni HTTP:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **Errori SOAP**
 
-Quando un&#39;operazione rileva una condizione di eccezione, viene restituito un errore SOAP come corpo del messaggio SOAP al posto della risposta normale. Ad esempio, se un utente non amministratore tenta di inviare il precedente `addCompany` richiesta, viene restituita la seguente risposta:
+Quando un’operazione rileva una condizione di eccezione, viene restituito un errore SOAP come corpo del messaggio SOAP al posto della risposta normale. Ad esempio, se un utente non amministratore tenta di inviare la richiesta `addCompany` precedente, viene restituita la seguente risposta:
 
 ```
 HTTP/1.1 500 Internal Server Error 

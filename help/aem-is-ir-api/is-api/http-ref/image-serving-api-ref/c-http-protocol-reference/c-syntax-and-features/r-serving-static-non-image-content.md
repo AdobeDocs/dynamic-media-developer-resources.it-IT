@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
 # Distribuzione di contenuto statico (non di immagine){#serving-static-non-image-content}
 
-Image Server offre un meccanismo per gestire contenuti non di immagine in cataloghi e distribuirli tramite un’applicazione separata `context /is/content`. Il meccanismo consente di configurare il TTL per ogni elemento separatamente.
+Image Server fornisce un meccanismo per gestire contenuti non di immagine nei cataloghi e distribuirli tramite un `context /is/content` separato. Il meccanismo consente di configurare il TTL per ogni elemento separatamente.
 
 ## Sintassi di base {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -25,7 +25,7 @@ Image Server offre un meccanismo per gestire contenuti non di immagine in catalo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[: <span class="varname"> porta </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> indirizzo_server </span>[: <span class="varname"> porta </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catalogo </span> </span> </p> </td> 
@@ -63,8 +63,8 @@ Image Server supporta i seguenti comandi in /is/content:
   <td class="stentry"> <p>Filtro del tipo di contenuto. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req </a> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, e <span class="codeph"> req=exists </span> solo. </p> </td> 
+  <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> richiesta </a> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> e <span class="codeph"> req=esiste solo </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache </a> </td> 
@@ -79,33 +79,33 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
 <table id="table_3B111EC3AA1044FB9B659FD54BADDC39"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Attributo/Dati</b> </th> 
-   <th class="entry"> <b> Note</b> </th> 
+   <th class="entry"> Attributo/Dati <b></b> </th> 
+   <th class="entry"> <b> note</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::Id </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Id </span> </p> </td> 
    <td> <p> Identificatore del record di catalogo per questo elemento di contenuto statico </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::Path </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Percorso </span> </p> </td> 
    <td> <p> Percorso file per l'elemento di contenuto </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::scadenza </span> </p> </td> 
+   <td> <p> <span class="codeph"> catalogo::Scadenza </span> </p> </td> 
    <td> <p> Il TTL per questo contenuto; attributo::Expiration viene utilizzato se non specificato o se vuoto </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogo::Timestamp </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Timestamp </span> </p> </td> 
    <td> <p> Timestamp di modifica del file; obbligatorio quando la convalida basata sul catalogo è abilitata con l'attributo::CacheValidationPolicy </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::DatiUtente </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Dati utente </span> </p> </td> 
    <td> <p> Metadati facoltativi associati a questo elemento di contenuto statico, disponibili per il client con req=userdata </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::UserType </span> </p> </td> 
    <td> <p> Tipo di dati facoltativo; può essere utilizzato per filtrare le richieste di contenuto statico con il comando type= </p> </td> 
   </tr> 
  </tbody> 
@@ -113,8 +113,8 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
 
 ## Filtraggio del contenuto statico {#section-896c37cf68bc446eb0766fb378898262}
 
-Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i tag appropriati `catalog::UserType`, il client può aggiungere i `type=` alla richiesta. Image Server confronta il valore fornito con `type=` al valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
+Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i valori `catalog::UserType` appropriati, il client può aggiungere il comando `type=` alla richiesta. Image Server confronta il valore fornito con il comando `type=` con il valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
 
 ## Consultate anche {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 
-[type=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Riferimento catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[tipo=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Riferimento catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

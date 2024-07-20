@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Contiene le impostazioni del server della piattaforma.
 
-Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti [!DNL Platform Server] potrebbe non riuscire ad avviarsi.
+Quando si modifica il file XML, è necessario prestare attenzione a mantenere una sintassi XML valida. In caso contrario, [!DNL Platform Server] potrebbe non essere avviato.
 
-Affinché le modifiche diventino effettive, [!DNL Platform Server] deve essere riavviato dopo la modifica del file.
+Affinché le modifiche diventino effettive, è necessario riavviare [!DNL Platform Server] dopo aver modificato il file.
 
 Il diagramma seguente illustra quali impostazioni possono essere modificate in questo file. Per una descrizione di queste impostazioni, fare riferimento alle sezioni corrispondenti precedenti di questo documento. Questo diagramma non è una rappresentazione completa di [!DNL server.xml].
 

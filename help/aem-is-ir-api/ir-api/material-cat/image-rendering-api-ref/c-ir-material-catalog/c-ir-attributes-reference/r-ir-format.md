@@ -18,13 +18,13 @@ Formato immagine di risposta predefinito. Specifica il formato predefinito per l
 
 ## Proprietà {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Stringa di testo. Deve essere uno dei token di formato supportati da `fmt=` comando:
+Stringa di testo. Deve essere uno dei token di formato supportati dal comando `fmt=`:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Predefinito {#section-256b0f8afdd846eaac68ec2019258708}
 
-Ereditato da `default::Format` se non è definita o se è vuota.
+Ereditato da `default::Format` se non definito o se vuoto.
 
 ## Consultate anche {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

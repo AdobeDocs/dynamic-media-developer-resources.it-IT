@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Image Server supporta i seguenti comandi in [!DNL /is/content]:
   <td class="stentry"> <p>Filtro del tipo di contenuto. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, e <span class="codeph"> req=exists </span> solo. </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> richiesta </a> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> e <span class="codeph"> req=esiste solo </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
@@ -44,7 +44,7 @@ Image Server supporta i seguenti comandi in [!DNL /is/content]:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> porta </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> indirizzo_server </span>[ : <span class="varname"> porta </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catalogo </span> </span> </p> </td> 
@@ -85,35 +85,35 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogo::Id </span> </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::Id </span> </p> </td> 
    <td colname="col2"> <p>Identificatore del record di catalogo per questo elemento di contenuto statico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::Path </span> </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::Percorso </span> </p> </td> 
    <td colname="col2"> <p>Percorso del file per l'elemento di contenuto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogo::scadenza </span> </p> </td> 
-   <td colname="col2"> <p>Il TTL per questo elemento di contenuto; <span class="codeph"> attribute::Scadenza </span> viene utilizzato se non specificato o se vuoto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalogo::Scadenza </span> </p> </td> 
+   <td colname="col2"> <p>Il TTL per questo elemento di contenuto; attributo <span class="codeph">::Scadenza </span> viene utilizzato se non specificato o se vuoto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogo::Timestamp </span> </p> </td> 
-   <td colname="col2"> <p>Timestamp di modifica del file; obbligatorio quando la convalida basata sul catalogo è abilitata con <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::Timestamp </span> </p> </td> 
+   <td colname="col2"> <p>Timestamp di modifica del file; obbligatorio quando la convalida basata sul catalogo è abilitata con l'attributo <span class="codeph">::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::DatiUtente </span> </p> </td> 
-   <td colname="col2"> <p>Metadati facoltativi associati a questo elemento di contenuto statico, disponibili per il client con <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::Dati utente </span> </p> </td> 
+   <td colname="col2"> <p>Metadati facoltativi associati a questo elemento di contenuto statico disponibili per il client con <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Tipo di dati facoltativo; può essere utilizzato per filtrare le richieste di contenuto statico con <span class="codeph"> type=, comando </span>. </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::UserType </span> </p> </td> 
+   <td colname="col2"> <p>Tipo di dati facoltativo; può essere utilizzato per filtrare le richieste di contenuto statico con il comando <span class="codeph"> type= </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Filtraggio del contenuto statico {#section-4c41bf41ff994910840c1352683d1f37}
 
-Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i tag appropriati `catalog::UserType` , il client può aggiungere i `type=` alla richiesta. Image Server confronta il valore fornito con `type=` al valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
+Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i valori `catalog::UserType` appropriati, il client può aggiungere il comando `type=` alla richiesta. Image Server confronta il valore fornito con il comando `type=` con il valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
 
 ## File di didascalia video {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
@@ -125,10 +125,10 @@ Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenu
 
 È inoltre possibile utilizzare tracce per altri tipi di metadati temporizzati. I dati di origine di ciascun elemento del brano sono un file di testo composto da un elenco di segnali temporizzati. Le cue possono includere dati in formati come JSON o CSV.
 
-Consulta [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) per ulteriori informazioni sul formato JSONP.
+Per ulteriori informazioni sul formato JSONP, consulta [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP).
 
-Consulta [www.json.org](https://www.json.org/json-en.html) per ulteriori informazioni sul formato JSON.
+Per ulteriori informazioni sul formato JSON, consulta [www.json.org](https://www.json.org/json-en.html).
 
 ## Consultate anche {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Riferimento catalogo immagini](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[tipo=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Riferimento catalogo immagini](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)

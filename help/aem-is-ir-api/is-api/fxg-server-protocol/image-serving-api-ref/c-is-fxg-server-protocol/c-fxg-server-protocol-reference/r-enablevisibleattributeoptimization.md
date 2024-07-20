@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a643694e-f6a2-424e-8f6e-3dbb4cdc41b3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '96'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,6 @@ Consente di ottimizzare FXG.
  </tr> 
 </table>
 
-Rimuove gli elementi la cui visibilità è impostata come false in FXG durante il passaggio di questo FXG, il che a sua volta riduce il tempo di elaborazione di FXG. Anche se rimuove solo gli elementi con visibilità false che non influirebbero su nessun altro elemento in FXG. Ad esempio, se è presente del testo `Path` e visibilità di `Path` è impostato come falso, non viene rimosso da FXG nemmeno con questo modificatore abilitato perché è necessario disegnare del testo su questo percorso.
+Rimuove gli elementi la cui visibilità è impostata come false in FXG durante il passaggio di questo FXG, il che a sua volta riduce il tempo di elaborazione di FXG. Anche se rimuove solo gli elementi con visibilità false che non influirebbero su nessun altro elemento in FXG. Ad esempio, se è presente del testo in `Path` e la visibilità di `Path` è impostata come false, non verrà rimossa da FXG nemmeno con questo modificatore abilitato perché è necessario disegnare del testo in questo percorso.
 
 Il valore predefinito è 1.

@@ -18,4 +18,4 @@ I dati immagine intermedi prodotti da richieste di Image Server e Image Renderin
 
 Nella cache dei dati di risposta vengono memorizzate anche le immagini ottenute da server HTTP esterni. Tali immagini vengono convalidate automaticamente con l’utility di convalida prima che venga generata la voce della cache.
 
-Il [!DNL Platform Server] compila i dati del catalogo immagini per un accesso efficiente. Questi dati vengono memorizzati in `CS::CatalogCacheFolder`.
+[!DNL Platform Server] compila i dati del catalogo immagini per un accesso efficiente. Questi dati sono archiviati in `CS::CatalogCacheFolder`.

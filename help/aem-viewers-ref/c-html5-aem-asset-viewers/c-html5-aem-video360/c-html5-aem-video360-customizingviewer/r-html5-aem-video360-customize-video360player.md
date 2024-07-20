@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video:
 
 È possibile localizzare il messaggio di errore visualizzato nei casi in cui il sistema non è in grado di riprodurre il video.
 
-Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Vedi [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Esempio: per impostare un visualizzatore video con le dimensioni del lettore video impostate su 512 x 288 pixel.
 
@@ -57,7 +57,7 @@ L’aspetto dell’animazione di buffering è controllato dal seguente selettore
 .s7video360viewer .s7video360player .s7waiticon
 ```
 
-**Proprietà CSS dell’icona Attendi**
+**Proprietà CSS dell&#39;icona Attendi**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -68,23 +68,23 @@ L’aspetto dell’animazione di buffering è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> Margine sinistro dell'icona di animazione, in genere meno la metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Margine superiore dell'icona di animazione, in genere meno la metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Grafica a manopola. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a90b587d-6893-44e4-8dce-7676bc7eebe3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,19 @@ Sono supportati i seguenti tipi di miniature:
 <table id="simpletable_874E4190A1DC4FB0AE1B2E3734746527"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Ritaglio (1) </p></td> 
-  <td class="stentry"> <p>Ritagliare l'immagine in base alle proporzioni delle miniature. A meno che le proporzioni del rettangolo di miniatura e dell'immagine non siano esattamente le stesse, una parte dell'immagine viene ritagliata per garantire che l'intero rettangolo di miniatura sia pieno di dati immagine. Il rettangolo di ritaglio viene posizionato nell'immagine utilizzando <span class="codeph"> attribute::ThumbHorizAlign</span> e <span class="codeph"> attribute::ThumbVertAlign</span>. </p></td> 
+  <td class="stentry"> <p>Ritagliare l'immagine in base alle proporzioni delle miniature. A meno che le proporzioni del rettangolo di miniatura e dell'immagine non siano esattamente le stesse, una parte dell'immagine viene ritagliata per garantire che l'intero rettangolo di miniatura sia pieno di dati immagine. Il rettangolo di ritaglio è posizionato nell'immagine utilizzando l'attributo <span class="codeph">::ThumbHorizAlign</span> e l'attributo <span class="codeph">::ThumbVertAlign</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Adatta (2) </p></td> 
-  <td class="stentry"> <p>Adatta l'intera immagine al rettangolo delle miniature. L’immagine viene posizionata all’interno del rettangolo delle miniature utilizzando <span class="codeph"> attribute::ThumbHorizAlign</span> e <span class="codeph"> attribute::ThumbVertAlign</span>, e qualsiasi spazio aggiuntivo viene riempito con <span class="codeph"> attribute::ThumbBkgColor</span>. </p></td> 
+  <td class="stentry"> <p>Adatta l'intera immagine al rettangolo delle miniature. L'immagine è posizionata all'interno del rettangolo delle miniature utilizzando l'attributo <span class="codeph">::ThumbHorizAlign</span> e l'attributo <span class="codeph">::ThumbVertAlign</span> e qualsiasi spazio aggiuntivo viene riempito con l'attributo <span class="codeph">::ThumbBkgColor</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Struttura (3) </p></td> 
-  <td class="stentry"> <p>Ritaglia l’immagine in base alla risoluzione. L’immagine viene ridimensionata in base al rapporto tra <span class="codeph"> catalogo::ThumbRes</span> a <span class="codeph"> catalogo::Risoluzione</span>. Se l'immagine risultante è più grande della miniatura, viene ritagliata per adattarla. Se l'immagine ridimensionata è più piccola della miniatura, l'area rimanente viene riempita con <span class="codeph"> attribute::ThumbBkgColor</span>. <span class="codeph"> attribute::ThumbHorizAlign</span> e <span class="codeph"> attribute::ThumbVertAlign</span> vengono utilizzati per determinare la posizione del rettangolo di ritaglio all’interno di un’immagine più grande o la posizione di un’immagine più piccola all’interno della miniatura. </p></td> 
+  <td class="stentry"> <p>Ritaglia l’immagine in base alla risoluzione. L'immagine viene ridimensionata in base al rapporto tra <span class="codeph"> catalog::ThumbRes</span> e <span class="codeph"> catalog::Resolution</span>. Se l'immagine risultante è più grande della miniatura, viene ritagliata per adattarla. Se l'immagine ridimensionata è più piccola della miniatura, l'area rimanente viene riempita con l'attributo <span class="codeph">::ThumbBkgColor</span>. Attributo <span class="codeph">::ThumbHorizAlign</span> e attributo <span class="codeph">::ThumbVertAlign</span> vengono utilizzati per determinare la posizione del rettangolo di ritaglio all'interno di un'immagine più grande o la posizione di un'immagine più piccola all'interno della miniatura. </p></td> 
  </tr> 
 </table>
 
-I client richiedono le miniature delle immagini con `req=tmb` richieste.
+I client richiedono miniature di immagini con `req=tmb` richieste.
 
 ## Proprietà {#section-c58a8e67c2134ca3a0edd21b20dd3052}
 
@@ -45,4 +45,4 @@ Valore enum. I valori validi sono 1, 2 o 3, che corrispondono rispettivamente ai
 
 ## Consultate anche {#section-fc1a79d3e6274b4381a17da159649a07}
 
-[attribute::ThumbType](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbtype.md#reference-329e9dbf3e5f49548d1eb61915b538f5) , [attribute::ThumbBkgColor](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbbkgcolor.md#reference-8e38088e79a54446a9106d0b93c9b31e), [attribute::ThumbHorizAlign](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbhorizalign.md#reference-0ae8b88669df4769a9053b22aca33691), [attribute::ThumbVertAlign](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbvertalign.md#reference-d47c6b34588c4855b04ad134e472f04f), [catalogo::ThumbRes](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69), [catalogo::Risoluzione](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1), [req=tmb](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Ridimensionamento miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)
+[attributo::ThumbType](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbtype.md#reference-329e9dbf3e5f49548d1eb61915b538f5) , [attributo::ThumbBkgColor](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbbkgcolor.md#reference-8e38088e79a54446a9106d0b93c9b31e), [attributo::ThumbHorizAlign](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbhorizalign.md#reference-0ae8b88669df4769a9053b22aca33691), [attributo::ThumbVertAlign](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbvertalign.md#reference-d47c6b34588c4855b04ad134e472f04f), [catalogo::ThumbRes](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69), [catalogo::Resolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1), [req=tmb](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Scala miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)

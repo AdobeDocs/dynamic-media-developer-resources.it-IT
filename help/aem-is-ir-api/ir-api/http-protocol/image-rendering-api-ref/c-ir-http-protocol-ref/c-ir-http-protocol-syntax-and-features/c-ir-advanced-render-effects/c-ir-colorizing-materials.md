@@ -16,6 +16,6 @@ ht-degree: 0%
 
 La maggior parte dei materiali può essere colorata dinamicamente.
 
-L&#39;algoritmo di colorizzazione è semplicistico e funziona meglio per le immagini di materiale con una gamma di tonalità limitata. Per colorare un materiale, il renderer sottrae semplicemente il `bgc=` e aggiunge `color=` valore per ciascun valore pixel.
+L&#39;algoritmo di colorizzazione è semplicistico e funziona meglio per le immagini di materiale con una gamma di tonalità limitata. Per colorare un materiale, il renderer sottrae semplicemente il valore `bgc=` e aggiunge il valore `color=` a ciascun valore di pixel.
 
-La colorazione è disattivata se `color=` non è specificato. Il `bgc=` l&#39;attributo viene ignorato dai materiali dell&#39;archivio; il valore del colore di base è incorporato nel [!DNL vnc] al suo posto viene utilizzato il file.
+La colorizzazione è disabilitata se `color=` non è specificato. L&#39;attributo `bgc=` viene ignorato dai materiali del cabinet. Viene utilizzato il valore del colore di base incorporato nel file [!DNL vnc].

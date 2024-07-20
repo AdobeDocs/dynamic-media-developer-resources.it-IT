@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f27e6b27-641c-4a88-9ed0-94ada9ba75a9
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Questa procedura mostra come installare Image Server per la prima volta su Linux
 1. Accedi all’host del server con autorizzazioni root.
 1. Creare la cartella [!DNL /usr/local/scene7/licenses].
 
-   Se il file della chiave di licenza di Image Server e/o Image Rendering (con [!DNL .sc8] file), copiarlo in questa cartella. In caso contrario, procedere con l&#39;installazione e installare il codice di licenza in un secondo momento.
+   Se è disponibile il file di codice di licenza Image Server e/o Image Rendering (con suffisso di file [!DNL .sc8]), copiarlo in questa cartella. In caso contrario, procedere con l&#39;installazione e installare il codice di licenza in un secondo momento.
 1. Decomprimi e cancella il file tar di distribuzione di Image Server.
-1. In [!DNL Setup] cartella, avviare l&#39;installazione guidata eseguendo [!DNL ./install-is].
+1. Nella cartella [!DNL Setup] avviare l&#39;installazione guidata eseguendo [!DNL ./install-is].
 
    Se non viene trovata alcuna chiave di licenza, vengono visualizzate le istruzioni che descrivono come ottenere un file di licenza. Eseguire questa operazione o procedere con l&#39;installazione di Image Server e installare il codice di licenza in un secondo momento.
-1. Quando viene visualizzato il Contratto di licenza con l&#39;utente finale (EULA), leggere il contratto di licenza e immettere `y` per procedere.
+1. Quando viene visualizzato il Contratto di Licenza con l&#39;utente finale (EULA), leggere il contratto di licenza e immettere `y` per continuare.
 
    Il programma di installazione visualizza i prompt elencati nella tabella seguente.
 
@@ -43,7 +43,7 @@ Questa procedura mostra come installare Image Server per la prima volta su Linux
    <td colname="col2"> <p>Dimensione iniziale della cache di risposta principale. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Cartella principale cache [/usr/local/scene7/ImageServing/cache]:</span> </p> </td> 
+   <td colname="col1"> <p>Cartella radice cache <span class="codeph"> [/usr/local/scene7/ImageServing/cache]:</span> </p> </td> 
    <td colname="col2"> <p>Cartella cache PS. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Questa procedura mostra come installare Image Server per la prima volta su Linux
  </tbody>
 </table>
 
-1. Premi **[!UICONTROL Invio]** per accettare il valore di default o specificare un valore diverso.
+1. Premi **[!UICONTROL Invio]** per accettare il valore predefinito o specificare un valore diverso.
 
    Verificare che tutti i numeri di porta specificati siano univoci e non vengano utilizzati in altro modo in questo host.
 
@@ -65,7 +65,7 @@ Questa procedura mostra come installare Image Server per la prima volta su Linux
    >
    >Se si specifica un account diverso da root, è necessario assicurarsi che le autorizzazioni di accesso per tutti i file e le cartelle che il server immagini deve leggere e scrivere siano impostate correttamente quando tali cartelle vengono riconfigurate nei file di configurazione.
    >
-   >Image Server è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di Image Rendering vengono installati in [!DNL /usr/local/Scene7/ImageRendering].
+   >Image Server è ora installato in [!DNL /usr/local/Scene7/ImageServing]. Alcuni contenuti di Image Rendering sono installati in [!DNL /usr/local/Scene7/ImageRendering].
    >
    >Verso la fine dell&#39;installazione, l&#39;installazione guidata tenta di avviare Image Server. Se non viene trovata alcuna chiave di licenza valida, il server immagini non può avviarsi. Se è disponibile una licenza valida e Image Server non è ancora in fase di avvio, consultare i file di registro.
 

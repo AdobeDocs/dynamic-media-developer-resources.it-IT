@@ -16,4 +16,4 @@ ht-degree: 7%
 
 Tipo di dati colore.
 
-Valore colore. Esadecimale, valore RGB compresso, facoltativamente preceduto da `0x`. Ad esempio, il valore RGB `128,255,0` può essere specificato come `0x80ff00` o `80ff00` .
+Valore colore. Esadecimale, valore RGB compresso, facoltativamente preceduto da `0x`. Il valore RGB `128,255,0`, ad esempio, può essere specificato come `0x80ff00` o `80ff00`.

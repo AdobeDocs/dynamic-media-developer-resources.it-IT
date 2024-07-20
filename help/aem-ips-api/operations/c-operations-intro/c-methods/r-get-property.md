@@ -8,7 +8,7 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ Le proprietà di sistema supportate includono:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: prefisso URL per il rendering delle risorse SVG.
-* `SvgRenderEnabled`: ha valore True se le risorse SVG possono essere sottoposte a rendering da `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True se le risorse SVG possono essere sottoposte a rendering da `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: dimensione massima (in byte) dei dati file consentiti in un caricamento [!DNL POST]. Il sistema rifiuta i file superiori al limite massimo.
+* `UploadPostMaxFileSize`: dimensione massima (in byte) dei dati del file consentita in un caricamento [!DNL POST]. Il sistema rifiuta i file superiori al limite massimo.
 
 ## Tipi di utenti autorizzati {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -57,7 +57,7 @@ Le proprietà di sistema supportate includono:
 
 In questo esempio di codice viene utilizzata una costante stringa IPS Properties per restituire un valore specifico. In questo esempio, la proprietà IPS corrisponde alla versione del server IPS.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getPropertyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

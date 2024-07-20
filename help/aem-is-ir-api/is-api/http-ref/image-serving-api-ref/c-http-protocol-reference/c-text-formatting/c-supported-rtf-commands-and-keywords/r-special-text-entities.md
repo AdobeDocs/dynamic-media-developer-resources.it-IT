@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '66'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Utilizzare le seguenti entità speciali per la formattazione del testo.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \line </span> </td> 
+   <td> <span class="codeph"> \riga </span> </td> 
    <td> <p>Interruzione di riga. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -41,29 +41,29 @@ Utilizzare le seguenti entità speciali per la formattazione del testo.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;parentesi graffa; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
    <td> <p>Parentesi graffa aperta. </p> </td> 
    <td> <p>La parentesi graffa deve avere la codifica HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;parentesi graffa </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
    <td> <p>Parentesi graffa chiusa. </p> </td> 
    <td> <p>La parentesi graffa deve avere la codifica HTTP. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Spazio unificatore. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Trattino unificatore. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Segno meno facoltativo. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> solo. </p> </td> 
+   <td> <p>Solo <span class="codeph"> textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

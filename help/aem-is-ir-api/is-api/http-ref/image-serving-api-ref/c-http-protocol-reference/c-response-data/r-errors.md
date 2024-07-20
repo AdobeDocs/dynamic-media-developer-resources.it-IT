@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +24,13 @@ La quantità di dettagli inclusi nel messaggio di errore è configurabile con `a
 
 Image Server può essere configurato per restituire i messaggi di errore di cui è stato eseguito il rendering in un’immagine.
 
-Consulta [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) nel catalogo immagini per i dettagli.
+Per ulteriori informazioni, vedere [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) nel riferimento al catalogo immagini.
 
 Se l’immagine di errore viene generata correttamente, lo stato della risposta HTTP è 200. Se si verifica un errore durante l&#39;elaborazione dell&#39;immagine di errore, la risposta di errore HTTP standard e il messaggio di testo vengono restituiti al client.
 
 ## Immagine predefinita {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-Image Server può essere configurato in modo da sostituire un’immagine mancante con un’immagine predefinita. L&#39;immagine predefinita può essere specificata con `attribute::DefaultImage` o `defaultImage=` comando.
+Image Server può essere configurato in modo da sostituire un’immagine mancante con un’immagine predefinita. L&#39;immagine predefinita può essere specificata con `attribute::DefaultImage` o con il comando `defaultImage=`.
 
 ## Consultate anche {#section-e261d7f224ca4546bb64bf8cb909db08}
 

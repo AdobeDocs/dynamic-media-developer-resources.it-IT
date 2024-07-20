@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
 source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Sintassi
 
 ## Operazioni modificate {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo`, e `javascriptInfo` parametri.
-* `createMetadataField` include un `isHidden` parametro.
-* `saveMetadataField` include un `isHidden` parametro.
+* `Asset` include `animatedGifInfo`, `swcInfo`, `cssInfo` e `javascriptInfo` parametri.
+* `createMetadataField` include un parametro `isHidden` facoltativo.
+* `saveMetadataField` include un parametro `isHidden` facoltativo.
 * `searchAssets`
-* Il `renameFiles` Il parametro è stato dichiarato obsoleto per le versioni precedenti e rimosso dal `renameAsset` operazione. Il percorso del file virtuale viene modificato in modo da corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro durante l’aggiornamento alla nuova versione API.
+* Il parametro `renameFiles` è stato dichiarato obsoleto per le versioni precedenti e rimosso dall&#39;operazione `renameAsset`. Il percorso del file virtuale viene modificato in modo da corrispondere al nuovo nome della risorsa (mantenendo l’estensione del file), mentre i percorsi dei file fisici non vengono interessati. I client API devono rimuovere i riferimenti a questo parametro durante l’aggiornamento alla nuova versione API.

@@ -1,24 +1,24 @@
 ---
 title: getComponent
-description: Riferimento API JavaScript per Visualizzatore zoom in linea
+description: Riferimento API di JavaScript per il visualizzatore zoom in linea
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Riferimento API JavaScript per Visualizzatore zoom in linea
+Riferimento API di JavaScript per il visualizzatore zoom in linea
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo il `initComplete` callback del visualizzatore eseguito; in caso contrario, il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`. In caso contrario, il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -33,11 +33,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gestione parametri </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contenitore </span> </p> </td> 
+   <td colname="col1"> <p> Contenitore <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Per ulteriori informazioni su un particolare componente, consulta la documentazi
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente del visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

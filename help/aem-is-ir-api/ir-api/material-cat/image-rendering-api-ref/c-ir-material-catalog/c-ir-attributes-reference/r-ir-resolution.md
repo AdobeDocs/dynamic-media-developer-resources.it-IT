@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Risoluzione{#resolution}
 
-Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un record catalogo non contenga un `catalog::Resolution` valore.
+Risoluzione predefinita. Fornisce una risoluzione predefinita nel caso in cui un determinato record catalogo non contenga un valore `catalog::Resolution` valido.
 
 ## Proprietà {#section-06d519158b9f479896f945747c670736}
 
@@ -22,7 +22,7 @@ Numero reale, maggiore di `0`. Generalmente espresso come pixel per pollice, ma 
 
 ## Predefinito {#section-eea922c37c224e1dbcab3bc53ee13aca}
 
-Ereditato da `default::Resolution` se non è definita o se è vuota.
+Ereditato da `default::Resolution` se non definito o se vuoto.
 
 ## Consultate anche {#section-fa286e5440f04d0aa07c7326cc0d72f1}
 

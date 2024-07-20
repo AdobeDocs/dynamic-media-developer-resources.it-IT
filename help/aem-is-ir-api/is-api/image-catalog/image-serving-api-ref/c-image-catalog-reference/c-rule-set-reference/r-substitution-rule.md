@@ -1,5 +1,5 @@
 ---
-description: Elemento stringa di sostituzione. Opzionale in <rule> elementi.
+description: Elemento stringa di sostituzione. Facoltativo negli elementi <rule>.
 solution: Experience Manager
 title: sostituzione
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # sostituzione{#substitution}
 
-Elemento stringa di sostituzione. Opzionale in `<rule>` elementi.
+Elemento stringa di sostituzione. Facoltativo negli elementi `<rule>`.
 
 ## Attributi {#section-a4506fcb765f4f128f7f1f2629b18a6c}
 
@@ -32,14 +32,14 @@ Se l&#39;espressione del pattern include sottoespressioni (delimitate da parente
 
 Se `<expression>` è vuoto o assente, la stringa di sostituzione viene aggiunta al percorso o alla query.
 
-Se `<substitution>` è vuoto, la stringa o sottostringa corrispondente viene rimossa. Se `<substitution>` non è specificato, il percorso o la stringa di query non viene modificata.
+Se `<substitution>` è vuoto, la stringa o sottostringa corrispondente viene rimossa. Se `<substitution>` non è specificato, il percorso o la stringa di query non verrà modificata.
 
 >[!NOTE]
 >
->Tutte le corrispondenze nella stringa di input vengono sostituite quando `replace="all"` è specificato in `<rule>`,elemento a cui questo `<substitution>` l&#39;elemento appartiene. Per impostazione predefinita, solo la prima corrispondenza viene sostituita con la stringa di sostituzione.
+>Tutte le corrispondenze nella stringa di input vengono sostituite quando `replace="all"` è specificato nell&#39;elemento `<rule>`, a cui appartiene questo elemento `<substitution>`. Per impostazione predefinita, solo la prima corrispondenza viene sostituita con la stringa di sostituzione.
 
 ## Nota {#section-cedf2adabaaf441c9f598fb0ea180246}
 
-La stringa di sostituzione non deve contenere caratteri letterali &lt; e &amp;. Questi caratteri riservati possono essere codificati con `&` e `<`, o l&#39;intera stringa può essere racchiusa in una sezione XML CDATA:
+La stringa di sostituzione non deve contenere caratteri letterali &lt; e &amp;. Questi caratteri riservati possono essere codificati rispettivamente con `&` e `<` oppure l&#39;intera stringa può essere racchiusa in una sezione XML CDATA:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

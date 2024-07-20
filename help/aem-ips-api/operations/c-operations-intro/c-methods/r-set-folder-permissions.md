@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice specifica un handle di società, un handle di cartella e un array di autorizzazioni con informazioni dettagliate sulla cartella. Applica le stesse autorizzazioni per gli elementi figlio della cartella principale.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <setFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

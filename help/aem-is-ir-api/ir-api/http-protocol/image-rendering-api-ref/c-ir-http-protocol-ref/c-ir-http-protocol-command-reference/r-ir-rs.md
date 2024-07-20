@@ -20,12 +20,12 @@ Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanz
 
 <table id="simpletable_4B028996E5824FC18B9749D1A6A3C2E3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Stringa delle impostazioni di rendering. </p></td> 
  </tr> 
 </table>
 
-Utilizzato per ottimizzare l&#39;aspetto del rendering. Per creare stringhe di impostazioni di rendering, utilizzate la funzione di rendering dello strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Media).
+Utilizzato per ottimizzare l&#39;aspetto del rendering. Per creare stringhe di impostazioni di rendering, utilizzate la funzione di rendering dello strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Medie).
 
 ## Proprietà {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Attributo materiale.
 
 ## Esempio {#section-47e4811882574441a4d517e42a35f352}
 
-Dopo alcune sperimentazioni nell&#39;Image Authoring, si è stabilito che la maschera di contrasto (USM) fornisce la giusta quantità di nitidezza per l&#39;applicazione e il materiale in questione. La stringa delle impostazioni di rendering che configura USM viene copiata nel `rs=` comando da utilizzare con questo materiale:
+Dopo alcune sperimentazioni nell&#39;Image Authoring, si è stabilito che la maschera di contrasto (USM) fornisce la giusta quantità di nitidezza per l&#39;applicazione e il materiale in questione. La stringa delle impostazioni di rendering che configura USM viene copiata nel comando `rs=` da utilizzare con questo materiale:
 
 `…&rs=U2V20W50X2&…`
 

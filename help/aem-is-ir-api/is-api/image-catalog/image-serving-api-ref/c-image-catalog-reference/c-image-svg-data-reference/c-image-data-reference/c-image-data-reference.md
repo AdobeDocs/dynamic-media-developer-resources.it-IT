@@ -21,7 +21,7 @@ Questa sezione descrive gli attributi dei dati immagine.
 * [DigimarcInfo](r-digimarcinfo-cat.md)
 * [Scade](r-expiration-cat.md)
 * [ID](r-id-cat.md)
-* [Set di immagini](r-imageset-cat.md)
+* [ImageSet](r-imageset-cat.md)
 * [Mappa](r-map-cat.md)
 * [MascheraPercorso](r-maskpath-cat.md)
 * [Modificatore](r-modifier-cat.md)

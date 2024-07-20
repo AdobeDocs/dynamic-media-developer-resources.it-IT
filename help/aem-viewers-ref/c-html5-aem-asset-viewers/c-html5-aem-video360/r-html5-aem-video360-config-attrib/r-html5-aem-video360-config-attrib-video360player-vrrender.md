@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 25%
+source-wordcount: '30'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Attributo di configurazione per il visualizzatore Video360.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p>Specifica se è abilitata la modalità di rendering realtà virtuale. Ignorato nelle cuffie VR. </p> </td> 
   </tr> 
  </tbody> 

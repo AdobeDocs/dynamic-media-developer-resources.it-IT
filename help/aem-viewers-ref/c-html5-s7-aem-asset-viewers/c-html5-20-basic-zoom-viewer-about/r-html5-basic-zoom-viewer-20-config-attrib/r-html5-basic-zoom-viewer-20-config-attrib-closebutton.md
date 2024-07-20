@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 17%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta su <span class="codeph"> 1</span> per attivare la visualizzazione del pulsante Chiudi o impostare su <span class="codeph"> 0</span> per nascondere il pulsante chiudi. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Impostare su <span class="codeph"> 1</span> per abilitare la visualizzazione del pulsante Chiudi oppure su <span class="codeph"> 0</span> per nascondere il pulsante Chiudi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

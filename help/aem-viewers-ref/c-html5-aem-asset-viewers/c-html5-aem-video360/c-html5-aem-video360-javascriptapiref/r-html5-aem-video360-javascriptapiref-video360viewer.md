@@ -1,20 +1,20 @@
 ---
-title: Video360Viewer
-description: Riferimento API JavaScript per Visualizzatore Video360.
+title: Visualizzatore video360i
+description: Riferimento API di JavaScript per il visualizzatore Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 4%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
-# Video360Viewer{#video-viewer}
+# Visualizzatore video360i{#video-viewer}
 
-Riferimento API JavaScript per Visualizzatore Video360.
+Riferimento API di JavaScript per il visualizzatore Video360.
 
 `Video360Viewer([config])`
 
@@ -25,13 +25,13 @@ Costruttore, crea una nuova istanza HTML5 Video360 Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configurazione </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {object} </span> oggetto di configurazione JSON facoltativo, consente a tutte le impostazioni del visualizzatore di passare al costruttore per evitare di chiamare singoli metodi di impostazione. Contiene le seguenti proprietà: </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID del contenitore DOM (normalmente un <span class="codeph"> DIV </span>) in cui è inserito il visualizzatore. Quando si chiama questo metodo, non è necessario creare l’elemento contenitore. Tuttavia, il contenitore deve esistere quando <span class="codeph"> init() </span> viene eseguito. </p> <p>Obbligatorio. </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> parametri </span> - <span class="codeph"> {Object} </span> Oggetto JSON con parametri di configurazione del visualizzatore in cui il nome della proprietà è un'opzione di configurazione specifica del visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. </p> <p>Obbligatorio. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> handler </span> - <span class="codeph"> {Object} </span> Oggetto JSON con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell'evento del visualizzatore supportato e il valore della proprietà è un riferimento della funzione JavaScript al callback appropriato. </p> <p>Facoltativo. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Callback di eventi </a> per ulteriori informazioni sugli eventi visualizzatore. </p> </li> 
-      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> Oggetto JSON con dati di localizzazione. Facoltativo. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente </a> per ulteriori informazioni. </p> <p>Consulta anche <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> ID <span class="codeph"> contenitore </span> - ID <span class="codeph"> {String} </span> del contenitore DOM (normalmente un DIV </span> <span class="codeph">) in cui è inserito il visualizzatore. Quando si chiama questo metodo, non è necessario creare l’elemento contenitore. Tuttavia, il contenitore deve esistere quando viene eseguito <span class="codeph"> init() </span>. </p> <p>Obbligatorio. </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> parametri </span> - <span class="codeph"> {Object} </span> oggetto JSON con parametri di configurazione del visualizzatore in cui il nome della proprietà è un'opzione di configurazione specifica del visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. </p> <p>Obbligatorio. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> gestori </span> - <span class="codeph"> {Object} </span> oggetto JSON con callback di eventi visualizzatore, in cui il nome della proprietà è il nome dell'evento visualizzatore supportato e il valore della proprietà è un riferimento di funzione JavaScript al callback appropriato. </p> <p>Facoltativo. </p> <p>Per ulteriori informazioni sugli eventi visualizzatore, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> callback di eventi </a>. </p> </li> 
+      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> oggetto JSON con dati di localizzazione. Facoltativo. </p> <p>Per ulteriori informazioni, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell'interfaccia utente </a>. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere anche la <i>Guida utente di Viewer SDK</i> e l'esempio. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

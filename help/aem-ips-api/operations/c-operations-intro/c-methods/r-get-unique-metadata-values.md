@@ -8,7 +8,7 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,7 @@ Sintassi
 
 Questo esempio di codice utilizza un handle di campo per restituire valori di metadati specifici.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getUniqueMetadataValuesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

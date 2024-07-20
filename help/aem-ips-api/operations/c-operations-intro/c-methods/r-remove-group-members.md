@@ -8,7 +8,7 @@ exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice rimuove un utente dalla società specificata. Rimuovere più utenti da un gruppo con l&#39;array di handle utente.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:removeGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

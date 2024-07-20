@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Un avviso di priorità viene inviato quando lo spazio heap Java libero è inferiore alla soglia specificata subito dopo un ciclo di Garbage Collection Java.
 
-Gli avvisi ripetuti devono essere gestiti aumentando lo spazio heap Java. Le occorrenze successive di questa condizione non generano un avviso e-mail fino al periodo di ritardo specificato con `AS::monitorAlertGenerator.heapSpaceResetInterval` è scaduto.
+Gli avvisi ripetuti devono essere gestiti aumentando lo spazio heap Java. Le occorrenze successive di questa condizione non generano un avviso e-mail fino alla scadenza del periodo di ritardo specificato con `AS::monitorAlertGenerator.heapSpaceResetInterval`.

@@ -1,5 +1,5 @@
 ---
-description: Opzioni. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
+description: Nitidezza. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
 solution: Experience Manager
 title: Nitido
 feature: Dynamic Media Classic,SDK/API
@@ -8,15 +8,15 @@ exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # Nitido{#sharp}
 
-Opzioni. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
+Nitidezza. Attributo di nitidezza, determina quando viene applicata la nitidezza al materiale durante il rendering.
 
-Il tipo e la quantità di nitidezza sono controllati dalla vignettatura mediante un modello di materiale predefinito o con `catalog::RenderSettings`.
+Il tipo e la quantità di nitidezza sono controllati dalla vignettatura tramite un modello di materiale predefinito o con `catalog::RenderSettings`.
 
 ## Proprietà {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -49,4 +49,4 @@ Ignorato dai materiali colorati, facoltativo per tutti gli altri materiali.
 
 ## Consultate anche {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attributo::Nitidezza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [nitidezza=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

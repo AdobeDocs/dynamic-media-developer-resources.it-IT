@@ -31,7 +31,7 @@ Comando Livello. Si applica al livello corrente o all&#39;immagine composita se 
 
 ## Predefinito {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`, per non modificare la luminosità.
+`op_brightness=0`, senza alcuna modifica della luminosità.
 
 ## Esempio {#section-c25f952f1b77409abb9ccf885862d75c}
 

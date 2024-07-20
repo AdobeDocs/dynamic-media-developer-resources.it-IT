@@ -21,4 +21,4 @@ Il server può essere configurato in modo da inviare avvisi e-mail quando vengon
 
 ## Consultate anche {#section-71ecb73e7cdd44f68aea67b64dc9c3ed}
 
-[Sistema di avvisi e-mail](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-monitoring-and-alerting-system.md#reference-4b604b5f8b014ecca89cf55d8ebb2d39), [Soglie di avviso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-alert-thresholds.md#reference-a77d3f92f456419a878bf18782d38922)
+[Sistema avvisi e-mail](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-monitoring-and-alerting-system.md#reference-4b604b5f8b014ecca89cf55d8ebb2d39), [Soglie avvisi](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-alert-thresholds.md#reference-a77d3f92f456419a878bf18782d38922)

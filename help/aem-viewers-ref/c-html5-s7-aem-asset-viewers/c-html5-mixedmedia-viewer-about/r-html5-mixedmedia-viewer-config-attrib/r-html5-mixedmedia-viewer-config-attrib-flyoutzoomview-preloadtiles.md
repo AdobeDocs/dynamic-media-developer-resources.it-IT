@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Imposta su <span class="codeph"> 1</span> per abilitare il precaricamento dell'immagine ingrandita. </p> <p>Imposta su <span class="codeph"> 0</span> per caricare l'immagine di zoom in modo incrementale, in base alle esigenze. </p> <p> <p>Se si attiva questa opzione, l'utilizzo della larghezza di banda risulterà notevolmente più elevato, in quanto l'immagine ingrandita deve essere completamente caricata, anche se l'utente non esegue alcuna azione di zoom. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Impostare su <span class="codeph"> 1</span> per abilitare il precaricamento dell'immagine ingrandita. </p> <p>Impostare su <span class="codeph"> 0</span> per caricare l'immagine di zoom in modo incrementale, in base alle esigenze. </p> <p> <p>Se si attiva questa opzione, l'utilizzo della larghezza di banda risulterà notevolmente più elevato, in quanto l'immagine ingrandita deve essere completamente caricata, anche se l'utente non esegue alcuna azione di zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

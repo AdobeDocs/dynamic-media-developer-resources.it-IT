@@ -1,24 +1,24 @@
 ---
 title: getComponent
-description: Riferimento API JavaScript per Visualizzatore video ritaglio avanzato
+description: Riferimento API di JavaScript per il visualizzatore video Ritaglio avanzato
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Riferimento API JavaScript per il visualizzatore video Ritaglio avanzato.
+Guida di riferimento dell’API JavaScript per il visualizzatore video Ritaglio avanzato.
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo il `initComplete` il callback del visualizzatore è stato eseguito, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -33,11 +33,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gestione parametri </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contenitore </span> </p> </td> 
+   <td colname="col1"> <p> Contenitore <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -73,27 +73,27 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controlli </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlla </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione social </span> di <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione Twitter </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linkShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione collegamento </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> emailShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> condivisione e-mail </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare </span> </p> </td> 
   </tr> 
   <tr> 
@@ -103,14 +103,14 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK per visualizzatori]
+Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo e corretto, come descritto in [Spazio dei nomi SDK per visualizzatori]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API SDK per visualizzatori.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente del visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

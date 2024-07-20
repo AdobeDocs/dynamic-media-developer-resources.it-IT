@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 In questo esempio di codice vengono restituite informazioni per l&#39;utente IPS predefinito.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd" /></getUserInfoParam>

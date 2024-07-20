@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Sono disponibili due opzioni per avviare o arrestare Image Server su Linux®.
 
-* Lo script per verificare lo stato di Image Server o per avviare e arrestare Image Server si trova in [!DNL ImageServing/bin] cartella:
+* Lo script per verificare lo stato di Image Server o per avviare e arrestare Image Server si trova nella cartella [!DNL ImageServing/bin]:
 
-   `ImageServing.sh {start|stop|restart|status}`
+  `ImageServing.sh {start|stop|restart|status}`
 * La seguente alternativa deve essere nota agli amministratori di sistema:
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

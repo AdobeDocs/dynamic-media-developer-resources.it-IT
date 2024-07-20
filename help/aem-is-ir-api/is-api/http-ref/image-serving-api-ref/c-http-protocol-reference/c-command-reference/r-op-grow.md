@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -20,12 +20,12 @@ Dilatare/erodere l&#39;immagine. Applica un dilatatore morfologico (raggio > 0) 
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> raggio</span></span> </p> </td> 
+  <td class="stentry"> <p>Raggio <span class="codeph"><span class="varname"></span></span> </p> </td> 
   <td class="stentry"> <p>Dilata/erode raggio in pixel (int -100..100). </p></td> 
  </tr> 
 </table>
 
-`*`raggio`*` è in pixel rispetto all&#39;immagine composita. Se l&#39;immagine è a colori, ogni componente viene elaborato in modo indipendente.
+`*`raggio`*` è espresso in pixel rispetto all&#39;immagine composita. Se l&#39;immagine è a colori, ogni componente viene elaborato in modo indipendente.
 
 Utilizzato principalmente per modificare le dimensioni degli effetti di livello. Utile anche per ottenere effetti speciali sui livelli testo o sui livelli colore a tinta unita con maschere.
 
@@ -35,7 +35,7 @@ Attributo livello. Si applica al livello corrente o all&#39;immagine composita s
 
 ## Predefinito {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_grow=0`, senza alcuna modifica.
+`op_grow=0`, senza modifiche.
 
 ## Consultate anche {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

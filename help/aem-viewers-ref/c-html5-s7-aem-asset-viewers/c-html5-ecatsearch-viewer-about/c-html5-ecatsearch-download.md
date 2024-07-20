@@ -19,5 +19,5 @@ ht-degree: 0%
 Il pulsante &quot;Download&quot; è disponibile automaticamente nell’interfaccia utente del visualizzatore quando si verifica una delle seguenti situazioni:
 
 * Nell’azienda del cliente è presente un file PDF effettivo.
-* Il nome corrisponde al nome della risorsa dell’e-catalog che viene passato al visualizzatore e include un `.pdf` estensione.
+* Il nome corrisponde al nome della risorsa dell&#39;e-catalog passata al visualizzatore e che include un&#39;estensione `.pdf`.
 * Il file PDF viene pubblicato in Dynamic Media Classic.

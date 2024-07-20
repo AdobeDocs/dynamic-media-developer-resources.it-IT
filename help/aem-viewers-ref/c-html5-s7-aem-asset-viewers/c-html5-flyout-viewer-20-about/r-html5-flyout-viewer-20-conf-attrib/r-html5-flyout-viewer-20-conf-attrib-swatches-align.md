@@ -21,11 +21,11 @@ Specifica l&#39;allineamento (ancoraggio) del contenitore dei campioni all&#39;i
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> sinistra|centro|destra</span> </p> </td> 
    <td colname="col2"> <p> Imposta l'allineamento orizzontale dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> superiore|centrale|inferiore</span> </p> </td> 
    <td colname="col2"> <p> Imposta l'allineamento verticale dei campioni. </p> </td> 
   </tr> 
  </tbody> 

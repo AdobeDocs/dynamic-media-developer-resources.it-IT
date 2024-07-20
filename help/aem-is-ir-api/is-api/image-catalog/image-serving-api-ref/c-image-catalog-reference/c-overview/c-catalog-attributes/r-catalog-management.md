@@ -38,7 +38,7 @@ I file degli attributi del catalogo riconoscono questi attributi di gestione del
   <td class="stentry"> <p>Nome del file di definizione della macro associato. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> FileMappaProfiloIc</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> FileMappaProfiloIcc</a> </span> </p></td> 
   <td class="stentry"> <p>Nome del file di mappa del profilo ICC associato. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,11 +46,11 @@ I file degli attributi del catalogo riconoscono questi attributi di gestione del
   <td class="stentry"> <p>Nome del file associato che definisce le regole del preprocessore URL. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> RootId</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> ID radice</a> </span> </p></td> 
   <td class="stentry"> <p>Identificatore del catalogo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> PercorsoDirectoryPrincipale</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> PercorsoRadice</a> </span> </p></td> 
   <td class="stentry"> <p>Percorso principale per i file di dati di origine non statici (immagini, profili, font). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -58,7 +58,7 @@ I file degli attributi del catalogo riconoscono questi attributi di gestione del
   <td class="stentry"> <p>Percorso principale per i file di dati di origine del contenuto statico. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> PercorsoSalvataggio</a> </span> </p></td> 
   <td class="stentry"> <p>Percorso principale per le immagini scritte in un file sul server. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -70,11 +70,11 @@ I file degli attributi del catalogo riconoscono questi attributi di gestione del
   <td class="stentry"> <p>Informazioni utente Digimarc. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> PublishInfo</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> InformazioniPubblicazione</a> </span> </p></td> 
   <td class="stentry"> <p>Stringa di annotazione del catalogo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CacheValidationPolicy</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CriterioConvalidaCache</a> </span> </p></td> 
   <td class="stentry"> <p>Criteri di convalida della cache del server. </p></td> 
  </tr> 
  <tr class="strow"> 

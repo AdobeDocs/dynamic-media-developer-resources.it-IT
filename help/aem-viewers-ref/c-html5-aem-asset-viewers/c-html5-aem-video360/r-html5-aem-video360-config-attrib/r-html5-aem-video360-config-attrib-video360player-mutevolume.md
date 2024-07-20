@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 14%
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Attributo di configurazione per il visualizzatore Video360.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità di disattivazione audio per la riproduzione video al caricamento iniziale. Se impostato su <span class="codeph"> 1 </span> il volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, la disattivazione dell’audio della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità di disattivazione audio per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, la disattivazione dell’audio della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

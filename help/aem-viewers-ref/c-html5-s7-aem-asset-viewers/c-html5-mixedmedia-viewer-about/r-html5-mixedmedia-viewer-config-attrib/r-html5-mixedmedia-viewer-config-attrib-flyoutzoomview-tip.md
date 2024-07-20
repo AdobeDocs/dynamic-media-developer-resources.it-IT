@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durata`*[, *`count`*][, *`dissolvenza`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durata`*[, *`conteggio`*][, *`dissolvenza`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> durata</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica per quanti secondi viene visualizzato il testo della descrizione prima che venga nascosto. Se impostato su <span class="codeph"> -1</span>, il messaggio viene sempre visualizzato, anche se l’utente attiva l’elemento a comparsa. </p> </td> 
+   <td colname="col1"> <p> Durata <span class="codeph"><span class="varname"></span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica per quanti secondi viene visualizzato il testo della descrizione prima che venga nascosto. Se è impostato su <span class="codeph"> -1</span>, il messaggio viene sempre visualizzato, anche se l'utente attiva l'elemento a comparsa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica quante volte viene visualizzato il testo quando si visualizzano nuove immagini nel set. Un valore di <span class="codeph"> -1</span> significa che il testo viene sempre visualizzato quando si visualizzano le immagini del set. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> conteggio</span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica quante volte viene visualizzato il testo quando si visualizzano nuove immagini nel set. Il valore <span class="codeph"> -1</span> indica che il testo viene sempre visualizzato quando si visualizzano immagini nel set. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dissolvenza</span></span> </p> </td> 
-   <td colname="col2"> Specifica la durata di un'animazione di dissolvenza che si verifica quando il testo compare o scompare. Un valore di <span class="codeph"> 0</span> indica nessuna transizione di dissolvenza. </td> 
+   <td colname="col1"> <p> Dissolvenza <span class="codeph"><span class="varname"></span></span> </p> </td> 
+   <td colname="col2"> Specifica la durata di un'animazione di dissolvenza che si verifica quando il testo compare o scompare. Il valore <span class="codeph"> 0</span> indica nessuna transizione di dissolvenza. </td> 
   </tr> 
  </tbody> 
 </table>

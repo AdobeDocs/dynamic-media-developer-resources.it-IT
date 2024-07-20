@@ -20,8 +20,8 @@ Se non è possibile trovare un attributo specifico in un catalogo immagini speci
 
 Inoltre, il catalogo predefinito fornisce tutti gli attributi e i record di dati (macro, font, profili ICC, regole di pre-elaborazione richieste) quando non è coinvolto un catalogo di immagini specifico in un’operazione.
 
-Per il corretto funzionamento del [!DNL Platform Server] il file degli attributi del catalogo predefinito deve essere denominato [!DNL default.ini], deve sempre esistere nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati di catalogo, tutti facoltativi.
+Per il corretto funzionamento di [!DNL Platform Server], il file degli attributi del catalogo per il catalogo predefinito deve essere denominato [!DNL default.ini], deve sempre esistere nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, che sono tutti facoltativi.
 
 >[!NOTE]
 >
->Tutti i file di attributi di catalogo eccetto [!DNL default.ini] deve contenere un valore univoco `attribute::RootId` valore. `attribute::RootId` in [!DNL default.ini] deve essere vuoto.
+>Tutti i file di attributi del catalogo, tranne [!DNL default.ini], devono contenere un valore `attribute::RootId` univoco. `attribute::RootId` in [!DNL default.ini] deve essere vuoto.

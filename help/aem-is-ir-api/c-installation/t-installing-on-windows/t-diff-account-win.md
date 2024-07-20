@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dopo l&#39;installazione, configurare i servizi da eseguire con l&#39;altro account utente.
 
-1. Accedere alle impostazioni di Criteri di protezione locali di Windows selezionando **[!UICONTROL Menu Start]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Pannello di controllo Campaign]** > **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Criteri di sicurezza locali]**.
-1. Seleziona **[!UICONTROL Impostazioni di protezione]** > **[!UICONTROL Criteri locali]** > **[!UICONTROL Assegnazione diritti utente]**.
-1. Fai doppio clic su **[!UICONTROL Accedi come servizio]** policy.
-1. Seleziona **[!UICONTROL Aggiungi...]** e seleziona l’Utente o il Gruppo, quindi seleziona **[!UICONTROL Ok]** per confermare.
+1. Accedere alle impostazioni dei criteri di sicurezza locali di Windows selezionando **[!UICONTROL Menu Start]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Pannello di controllo Campaign]** > **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Criteri di sicurezza locali]**.
+1. Seleziona **[!UICONTROL Impostazioni protezione]** > **[!UICONTROL Criteri locali]** > **[!UICONTROL Assegnazione diritti utente]**.
+1. Fare doppio clic sul criterio **[!UICONTROL Accedi come servizio]**.
+1. Seleziona **[!UICONTROL Aggiungi...]** e seleziona l&#39;utente o il gruppo, quindi seleziona **[!UICONTROL Ok]** per confermare.

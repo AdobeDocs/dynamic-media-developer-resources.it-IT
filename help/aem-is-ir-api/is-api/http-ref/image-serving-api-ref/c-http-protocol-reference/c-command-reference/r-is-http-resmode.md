@@ -8,7 +8,7 @@ exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -30,10 +30,10 @@ Metodo di ricampionamento. Consente di scegliere l&#39;algoritmo di ricampioname
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>come algoritmo di interpolazione viene utilizzata una funzione Lanczos Window modificata. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato. <span class="codeph"> acuto </span> è stato sostituito da <span class="codeph"> sharp2 </span>, che ha una minore probabilità di causare artefatti di aliasing (Moiré). </p> </td> 
+   <td colname="col2"> <p>Seleziona una funzione Finestra di Lanczo modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato. <span class="codeph"> </span> è stato sostituito da <span class="codeph"> </span>, che ha meno probabilità di causare artefatti di aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vescovo </span> </p> </td> 
    <td colname="col2"> <p>Seleziona il ricampionatore predefinito di Photoshop per ridurre le dimensioni dell'immagine, che in Adobe Photoshop è denominato "bicubic sharper". </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Metodo di ricampionamento. Consente di scegliere l&#39;algoritmo di ricampioname
 
 >[!IMPORTANT]
 >
->Per mantenere le proporzioni di un&#39;immagine quando si utilizzano entrambi `resMode=bisharp` e `fit=stretch`È consigliabile utilizzare il parametro width o il parametro height. Se è necessario definire entrambi i parametri, potete racchiuderli in un livello diverso, come illustrato nell&#39;esempio seguente:
+>Per mantenere le proporzioni di un&#39;immagine quando si utilizzano sia `resMode=bisharp` che `fit=stretch`, è consigliabile utilizzare il parametro width o il parametro height. Se è necessario definire entrambi i parametri, potete racchiuderli in un livello diverso, come illustrato nell&#39;esempio seguente:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

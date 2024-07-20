@@ -8,7 +8,7 @@ exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ Nome del font. Nome del tipo di carattere, esattamente come specificato nel coma
 
 ## Proprietà {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-Stringa di testo. Obbligatorio. Chiave di indice primaria per la mappa dei caratteri. Lo stesso tipo di carattere::Il valore del nome può verificarsi fino a quattro volte nello stesso file di mappa del carattere, ma ogni record deve avere una combinazione diversa di `font::Bold` e `font::Italic` valori.
+Stringa di testo. Obbligatorio. Chiave di indice primaria per la mappa dei caratteri. Lo stesso valore font::Name può verificarsi fino a quattro volte nello stesso file mappa font, ma ogni record deve avere una combinazione diversa di valori `font::Bold` e `font::Italic`.
 
 ## Predefinito {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 

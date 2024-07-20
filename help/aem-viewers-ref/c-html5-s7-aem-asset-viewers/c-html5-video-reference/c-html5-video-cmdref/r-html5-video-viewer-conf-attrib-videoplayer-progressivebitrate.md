@@ -21,7 +21,7 @@ Attributo di configurazione per Visualizzatore video.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> valore</span> </p> </td> 
+   <td colname="col1"> <p> Valore <span class="codeph"></span> </p> </td> 
    <td colname="col2"> <p> Specifica il bitrate video desiderato (in kilobit al secondo o Kbps) per la riproduzione da un set video adattivo nel caso in cui il sistema corrente non supporti la riproduzione di video adattivo. </p> <p>Il componente raccoglie il flusso video con il bitrate più simile (ma non superiore) possibile al valore specificato. Se tutti i flussi video nel set di video adattivi hanno una qualità superiore rispetto al valore specificato, la logica sceglie il bitrate con la qualità più bassa. </p> </td> 
   </tr> 
  </tbody> 

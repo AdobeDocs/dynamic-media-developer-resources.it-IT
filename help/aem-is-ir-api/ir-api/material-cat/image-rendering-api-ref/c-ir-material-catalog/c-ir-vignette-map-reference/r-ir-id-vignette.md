@@ -8,7 +8,7 @@ exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ In genere si tratta di un identificatore breve e univoco, ad esempio un numero S
 
 ## Proprietà {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Stringa di testo. Obbligatorio. Chiave di indice primaria per la tabella della mappa di vignettatura. Ogni `vignette::Id` il valore deve essere univoco all’interno della tabella e non deve contenere i caratteri &quot;,&quot;.
+Stringa di testo. Obbligatorio. Chiave di indice primaria per la tabella della mappa di vignettatura. Ogni valore `vignette::Id` deve essere univoco all&#39;interno della tabella e non deve contenere i caratteri &#39;,&#39;.
 
 ## Predefinito {#section-736d3419b19045efa00887cb595b0337}
 

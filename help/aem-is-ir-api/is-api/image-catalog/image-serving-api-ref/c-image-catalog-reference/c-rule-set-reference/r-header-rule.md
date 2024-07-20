@@ -1,6 +1,6 @@
 ---
 title: intestazione
-description: Elemento intestazione di risposta HTTP. Opzionale in <rule> elementi.
+description: Elemento intestazione di risposta HTTP. Facoltativo negli elementi <rule>.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # intestazione{#header}
 
-Elemento intestazione di risposta HTTP. Opzionale in `<rule>` elementi.
+Elemento intestazione di risposta HTTP. Facoltativo negli elementi `<rule>`.
 
 ## Attributi {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
 **`Name`= &quot;*text*&quot;** : obbligatorio. Specifica il nome dell&#39;intestazione HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: facoltativo. Il valore predefinito è `"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specifica `"add"` in modo da poter aggiungere il valore dell’intestazione, separato da una virgola.
+**`Action`= &quot;set&quot; |`"add"`**: facoltativo. Il valore predefinito è `"set"`, che sostituisce qualsiasi valore di intestazione corrente. Specificare `"add"` in modo da poter aggiungere il valore dell&#39;intestazione, separato da una virgola.
 
 ## Dati {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ La regola seguente applica un’intestazione personalizzata quando il valore del
 </rule>
 ```
 
-Questa regola viene attivata dalla seguente richiesta, impostando l’intestazione di risposta HTTP `Edge-Control::no-store`:
+Questa regola viene attivata dalla seguente richiesta, impostando l&#39;intestazione di risposta HTTP `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

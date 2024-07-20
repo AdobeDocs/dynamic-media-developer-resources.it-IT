@@ -20,7 +20,7 @@ Sintassi
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Le risorse derivate specificano i comandi del protocollo Image Server che modificano la rappresentazione dell&#39;immagine proprietaria. Il `AdjustedView` il tipo derivato consente di applicare semplici modifiche a una singola immagine (ad esempio, specificando un rettangolo di ritaglio), mentre `LayerView` consente di creare una visualizzazione a più livelli che può includere testo o immagini aggiuntive.
+Le risorse derivate specificano i comandi del protocollo Image Server che modificano la rappresentazione dell&#39;immagine proprietaria. Il tipo derivato `AdjustedView` consente di applicare semplici modifiche a una singola immagine (ad esempio, specificando un rettangolo di ritaglio), mentre `LayerView` consente di creare una visualizzazione a più livelli che può includere testo o immagini aggiuntive.
 
 A differenza di una copia immagine (vedi [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), un&#39;immagine derivata è collegata all&#39;immagine proprietaria. Le modifiche all’immagine del proprietario modificano le risorse derivate associate. Se si elimina l&#39;immagine del proprietario, verranno eliminate anche le eventuali immagini derivate associate.
 
@@ -44,8 +44,8 @@ A differenza di una copia immagine (vedi [copyImage](../../../operations/c-opera
 | folderHandle | `xsd:string` | Sì | Handle della cartella in cui viene creata la nuova risorsa derivata. |
 | nome | `xsd:string` | Sì | Nome della risorsa derivata. |
 | tipo | `xsd:string` | Sì | Tipo di risorsa della nuova risorsa derivata: `AdjustedView` o `LayerView`. |
-| urlModifier | `xsd:string` | No | Comandi applicati per il protocollo Image Server o per il rendering delle immagini *prima di* la richiesta o `urlPostApplyModifier` comandi. |
-| urlPostApplyModifier | `xsd:string` | No | Comandi applicati per il protocollo Image Server o per il rendering delle immagini *dopo* alla richiesta o `urlPostApplyModifier` comandi. |
+| urlModifier | `xsd:string` | No | I comandi del protocollo Image Server o Image Rendering hanno applicato *prima* della richiesta o `urlPostApplyModifier` comandi. |
+| urlPostApplyModifier | `xsd:string` | No | Comandi del protocollo Image Server o Image Rendering applicati *dopo* alla richiesta o `urlPostApplyModifier` comandi. |
 
 **Output (createDerivedAssetParam)**
 
@@ -55,9 +55,9 @@ A differenza di una copia immagine (vedi [copyImage](../../../operations/c-opera
 
 ## Esempi {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-Il codice di esempio crea una risorsa derivata con una vista rettificata e `urlModifier` e `urlPostApplyModifier` con valori arbitrari. La risposta restituisce l’handle della risorsa appena derivata.
+Il codice di esempio crea una risorsa derivata con una vista regolata e `urlModifier` e `urlPostApplyModifier` con valori arbitrari. La risposta restituisce l’handle della risorsa appena derivata.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <createDerivedAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

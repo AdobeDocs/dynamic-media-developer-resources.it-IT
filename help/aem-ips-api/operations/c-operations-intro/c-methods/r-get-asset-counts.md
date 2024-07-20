@@ -8,7 +8,7 @@ exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Ottiene i cespiti e il numero di cespiti associati a una società specifica.
 
-Il `countArray` restituito è costituito da un array di `assetTypes` (tipo di dati `xsd:string`), ciascuno con il proprio campo di conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento dell’array.
+Il `countArray` restituito è costituito da un array di `assetTypes` (tipo di dati `xsd:string`), ciascuno con un proprio campo di conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento dell&#39;array.
 Sintassi
 
 ## Tipi di utenti autorizzati {#section-6234754722184e828352f10eb18fbce9}
@@ -47,9 +47,9 @@ Sintassi
 
 ## Esempi {#section-6052a503eb3843f6adb99e200fdba280}
 
-In questo esempio di codice si utilizza l’handle dell’azienda come campo nel `getAssetCountsParam` inviato al server dei servizi Web IPS per ottenere il numero di risorse.
+In questo esempio di codice viene utilizzato l&#39;handle della società come campo in `getAssetCountsParam` inviato al server dei servizi Web IPS per ottenere il numero di risorse.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getAssetCountsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

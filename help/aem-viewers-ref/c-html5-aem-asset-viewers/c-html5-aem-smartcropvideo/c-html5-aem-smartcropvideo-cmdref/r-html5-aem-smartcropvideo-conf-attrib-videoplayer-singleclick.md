@@ -16,13 +16,13 @@ ht-degree: 4%
 
 Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`nessuno|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura di clic/tocco per riprodurre e mettere in pausa. Impostazione di <span class="codeph"> nessuno</span> disabilita il clic/tocco per riprodurre/mettere in pausa. Se impostato su <span class="codeph"> playPause</span>, quando si fa clic sul video, la riproduzione viene interrotta e il video interrotto. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In tal caso: <span class="codeph"> singleclick</span> il comportamento è disabilitato. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura di clic/tocco per riprodurre e mettere in pausa. L'impostazione su <span class="codeph"> none</span> disattiva il clic/tocco per riprodurre/mettere in pausa. Se è impostato su <span class="codeph"> playPause</span>, se si fa clic sul video si avvia la riproduzione del video o lo si mette in pausa. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, il comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

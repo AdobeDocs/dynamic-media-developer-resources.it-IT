@@ -1,5 +1,5 @@
 ---
-title: rotate
+title: rotazione
 description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione dei materiali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '125'
+ht-degree: 2%
 
 ---
 
-# rotate{#rotate}
+# rotazione{#rotate}
 
 Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei materiali.
 
@@ -31,11 +31,11 @@ Ruotate i materiali di texture ripetibili mediante angoli arbitrari quando appli
 
 Ruotare i materiali delle decalcomanie per angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La texture o la decalcomania viene ruotata attorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
+Gli angoli positivi ruotano in senso orario. La trama o la decalcomania viene ruotata attorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attributo materiale. Ignorato dai materiali di colore solido, carta da parati, armadio e trattamento delle finestre. *`angle`* Deve essere un multiplo di 45 per le texture ripetibili, a meno che non sia applicato agli oggetti di disegno o di linea di flusso.
+Attributo materiale. Ignorato dai materiali di colore solido, carta da parati, armadio e trattamento delle finestre. *`angle`* deve essere un multiplo di 45 per le texture ripetibili, a meno che non sia applicato agli oggetti di disegno o di flusso.
 
 ## Predefinito {#section-14c991e71b74449db8ff18a775949b28}
 

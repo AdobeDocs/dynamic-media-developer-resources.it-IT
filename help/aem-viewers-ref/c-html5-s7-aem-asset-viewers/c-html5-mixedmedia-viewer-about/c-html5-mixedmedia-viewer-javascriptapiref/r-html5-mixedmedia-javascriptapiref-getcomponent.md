@@ -1,24 +1,24 @@
 ---
 title: getComponent
-description: Riferimento API JavaScript per visualizzatore file multimediali diversi
+description: Guida di riferimento dell’API JavaScript per il visualizzatore di file multimediali diversi
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Riferimento API JavaScript per visualizzatore file multimediali diversi
+Guida di riferimento dell’API JavaScript per il visualizzatore di file multimediali diversi
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiama questo metodo solo dopo il `initComplete` il callback del visualizzatore è stato eseguito, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -33,11 +33,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gestione parametri </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contenitore </span> </p> </td> 
+   <td colname="col1"> <p> Contenitore <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> flyoutZoomView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> visualizzazione a comparsa </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
@@ -57,11 +57,11 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoPlayer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lettore video </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controlli </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlla </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colorSwatches </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> campioni colore </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
@@ -123,13 +123,13 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK corretto e completo, come descritto in [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK corretto e completo, come descritto in [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API SDK per visualizzatori.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
+`{Object}` Riferimento al componente SDK del visualizzatore. Il metodo restituisce `null` se `componentId` non è un componente del visualizzatore supportato o se il componente non è ancora stato creato dalla logica del visualizzatore.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

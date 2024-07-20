@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura di clic/tocco per riprodurre e mettere in pausa. Impostazione di <span class="codeph"> nessuno</span> disabilita il clic/tocco per riprodurre/mettere in pausa. Se impostato su <span class="codeph"> playPause</span>, quindi selezionando il video si passa dalla riproduzione alla sospensione del video. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, un <span class="codeph"> singleclick</span> il comportamento è disabilitato. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura di clic/tocco per riprodurre e mettere in pausa. L'impostazione su <span class="codeph"> none</span> disattiva il clic/tocco per riprodurre/mettere in pausa. Se è impostato su <span class="codeph"> playPause</span>, la selezione del video consente di alternare la riproduzione e la messa in pausa del video. Su alcuni dispositivi è possibile utilizzare i controlli nativi. In questo caso, un comportamento <span class="codeph"> singleclick</span> è disabilitato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

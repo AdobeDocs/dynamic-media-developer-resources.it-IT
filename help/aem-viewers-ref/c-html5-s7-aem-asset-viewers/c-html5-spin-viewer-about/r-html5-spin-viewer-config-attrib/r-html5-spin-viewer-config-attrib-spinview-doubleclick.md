@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura la mappatura delle azioni di doppio clic/tocco per eseguire la rotazione. Impostazione di <span class="codeph"> nessuno </span> disattiva la rotazione con doppio clic/tocco. Se impostato su <span class="codeph"> zoom </span>, facendo clic sull'immagine viene ruotata di un livello; tenendo premuto CTRL l'immagine ruota di un livello. Impostazione di <span class="codeph"> ripristina </span> fa in modo che, con un singolo clic sull’immagine, la rotazione torni al livello iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il ripristino se il fattore di rotazione corrente è pari o superiore al limite specificato, altrimenti viene applicato lo spin. </p> </td> 
+   <td colname="col2"> <p> Configura la mappatura delle azioni di doppio clic/tocco per eseguire la rotazione. L'impostazione su <span class="codeph"> none </span> disabilita la rotazione tramite doppio clic/tocco. Se è impostato su <span class="codeph">, zoom </span>, facendo clic sull'immagine viene eseguito un passaggio di rotazione; premendo CTRL l'immagine viene eseguito un passaggio di rotazione. L'impostazione su <span class="codeph"> reimposta </span> fa sì che un singolo clic sull'immagine ripristini il livello di rotazione iniziale. Per <span class="codeph"> zoomReset </span>, viene applicato il ripristino se il fattore di rotazione corrente è pari o superiore al limite specificato, altrimenti viene applicato lo spin. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Facoltativo.
 
 ## Predefinito {#section-7a2128fd488941948aff18421f533ccf}
 
-`reset` su computer desktop; `zoomReset` sui dispositivi touch.
+`reset` nei computer desktop; `zoomReset` nei dispositivi touch.
 
 ## Esempio {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 

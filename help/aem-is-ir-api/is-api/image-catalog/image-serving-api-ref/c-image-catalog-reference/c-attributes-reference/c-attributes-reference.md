@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Tutti gli attributi del catalogo sono facoltativi, ad eccezione di catalog::RootId.
 
-Tutti gli attributi sono obbligatori nel file degli attributi di catalogo predefinito ( [!DNL default.ini]).
+Tutti gli attributi sono obbligatori nel file degli attributi del catalogo predefinito ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)

@@ -20,26 +20,26 @@ Tutti i file di immagine non PTIFF devono superare la convalida prima che il fil
 
 ## Utilizzo {#usage}
 
-` validate *`fileType`* [ *`opzioni`*] [ *`sourceFile`* [ … ]]`
+` validate *`fileType`* [ *`options`*] [ *`sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualsiasi </span> </p> <p>Tipo di file di origine; è necessario specificarne almeno uno (-any consente gli stessi tipi di file di immagine supportati da IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> tipo di file </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualsiasi </span> </p> <p>Tipo di file Source; è necessario specificarne almeno uno (-any consente gli stessi tipi di file immagine supportati da IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> opzioni </span> </span> </p> </td> 
   <td class="stentry"> <p>Altre opzioni di comando (vedere di seguito). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sourceFile </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> file di origine </span> </span> </p> </td> 
   <td class="stentry"> <p> File di immagine. Nessuno o più, separati da spazi. </p> </td> 
  </tr> 
 </table>
 
 ## Restituisce {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-0 in caso di esito positivo. Se si verifica un errore, viene restituito un valore diverso da zero e i dettagli dell’errore vengono inviati a `stderr`.
+0 in caso di esito positivo. Se si verifica un errore, viene restituito un valore diverso da zero e i dettagli dell&#39;errore vengono inviati a `stderr`.
 
 ## Opzioni {#section-9df8334b46cb4e90901505af59e4600e}
 
@@ -49,7 +49,7 @@ Tutti i file di immagine non PTIFF devono superare la convalida prima che il fil
   <td class="stentry"> <p>Specifica un file di testo separato contenente l'elenco dei file di immagine. Un record per file. Se <span class="codeph"> -fileList </span> è incluso, <span class="varname"> sourceFile </span> non deve essere specificato. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -readPixel </span> </p> </td> 
   <td class="stentry"> <p>Abilita la verifica dell'intero file di immagine. Per impostazione predefinita, viene convalidata solo l’intestazione dell’immagine. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -61,19 +61,19 @@ Tutti i file di immagine non PTIFF devono superare la convalida prima che il fil
   <td class="stentry"> <p> Rifiuta le immagini con 16 bit per componente immagine. Sempre specificato dal server immagini durante la convalida delle immagini di origine remota. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -verboso </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -dettagliato </span> </p> </td> 
   <td class="stentry"> <p> Stampa ulteriori informazioni se l'immagine non è valida. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -muto </span> </p> </td> 
-  <td class="stentry"> <p>Disabilita <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> output. Viene restituito solo uno stato. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -Silenzioso </span> </p> </td> 
+  <td class="stentry"> <p>Disabilita l'output </span> stdout </span>/ <span class="codeph"> stderr. <span class="codeph"> Viene restituito solo uno stato. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 
   <td class="stentry"> <p>Termina l’elaborazione quando si verifica un errore di convalida del file, anche se i file aggiuntivi non sono ancora stati convalidati. Per impostazione predefinita, l’elaborazione continua quando si verifica un errore di convalida </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> - versione </span> </p> </td> 
   <td class="stentry"> <p>Restituisce le informazioni sulla versione di questa utility. Specifica senza altre opzioni. </p> </td> 
  </tr> 
 </table>

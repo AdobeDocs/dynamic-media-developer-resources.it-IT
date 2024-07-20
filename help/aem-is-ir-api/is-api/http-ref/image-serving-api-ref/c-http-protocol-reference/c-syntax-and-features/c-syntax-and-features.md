@@ -17,7 +17,7 @@ ht-degree: 0%
 Negli argomenti di questa sezione vengono descritte la sintassi e le funzionalità dei protocolli HTTP.
 
 * [Sintassi di base del protocollo HTTP Image Server](r-basic-syntax.md)
-* [Panoramica del comando del protocollo HTTP Image Server](c-command-overview/c-command-overview.md)
+* [Comando del protocollo HTTP Image Server   panoramica](c-command-overview/c-command-overview.md)
 * [Panoramica sui livelli](c-layering-overview/c-layering-overview.md)
 * [Operazioni livello](c-layering-overview/c-layer-operations.md)
 * [Effetti livello](r-layer-effects.md)

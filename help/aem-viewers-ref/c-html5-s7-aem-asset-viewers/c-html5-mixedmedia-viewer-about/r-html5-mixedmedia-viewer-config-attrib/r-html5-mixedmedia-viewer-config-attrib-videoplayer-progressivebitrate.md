@@ -19,7 +19,7 @@ ht-degree: 3%
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> valore</span></span> </p> </td> 
+   <td colname="col1"> <p> Valore <span class="codeph"><span class="varname"></span></span> </p> </td> 
    <td colname="col2"> <p> Specifica (in kilobit al secondo o Kbps) il bitrate video desiderato per la riproduzione da un set video adattivo se il sistema corrente non supporta tale riproduzione di video adattivo. </p> <p>Il componente raccoglie il flusso video con il bitrate più simile (ma non superiore) possibile al valore specificato. Se tutti i flussi video nel set di video adattivi hanno una qualità superiore rispetto al valore specificato, la logica sceglie il bitrate con la qualità più bassa. </p> </td> 
   </tr> 
  </tbody> 

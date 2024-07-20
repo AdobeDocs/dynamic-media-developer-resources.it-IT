@@ -1,6 +1,6 @@
 ---
 title: Licenze
-description: È necessario specificare una chiave di licenza per il rendering immagini di Dynamic Media e installarla in tutti i sistemi in cui è installato Image Rendering.
+description: È necessario specificare una chiave di licenza per il rendering immagini di Dynamic Medie e installarla in tutti i sistemi in cui è installato Image Rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Licenze{#licensing}
 
-È necessario specificare una chiave di licenza per il rendering immagini di Dynamic Media e installarla in tutti i sistemi in cui è installato Image Rendering.
+È necessario specificare una chiave di licenza per il rendering immagini di Dynamic Medie e installarla in tutti i sistemi in cui è installato Image Rendering.
 
 Image Rendering non viene eseguito senza una licenza valida. La procedura di installazione include i passaggi per ottenere e installare il codice di licenza.

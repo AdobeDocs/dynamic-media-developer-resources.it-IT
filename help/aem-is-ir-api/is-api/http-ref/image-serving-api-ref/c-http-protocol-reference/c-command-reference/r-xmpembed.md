@@ -24,13 +24,13 @@ Incorpora metadati XMP. Specifica se includere i metadati XMP nell&#39;immagine 
 
 ## Proprietà {#section-27024c4272f44d9a8c264a0629193af2}
 
-Attributo della richiesta. Ignorato se l’immagine di origine non contiene dati XMP. Solo i dati XMP dall’immagine sorgente di `layer=0` vengono elaborati. I dati XMP da altre immagini di livello vengono ignorati.
+Attributo della richiesta. Ignorato se l’immagine di origine non contiene dati XMP. Vengono elaborati solo i dati XMP dell&#39;immagine di origine di `layer=0`. I dati XMP da altre immagini di livello vengono ignorati.
 
-Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento XMP. Fai riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l’incorporamento dell’XMP.
+Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento XMP. Fare riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l&#39;incorporamento di XMP.
 
 ## Predefinito {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`, per non incorporare percorsi nelle immagini di output.
+`xmpEmbed=0`, per nessuna incorporazione di percorsi nelle immagini di output.
 
 ## Consultate anche {#section-0b5b7d0a19564101ba7102e667e29828}
 

@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Il visualizzatore è costituito da molti componenti SDK per visualizzatori. Nella maggior parte dei casi, la pagina web non deve interagire direttamente con l’API dei componenti SDK; tutte le esigenze comuni sono coperte nell’API del visualizzatore.
 
-Tuttavia, alcuni casi d’uso avanzati richiedono che la pagina web ottenga un riferimento a un componente SDK interno utilizzando `getComponent()` e quindi utilizzare tutta la flessibilità delle API dell’SDK stesso.
+Tuttavia, alcuni casi d&#39;uso avanzati richiedono che la pagina web ottenga un riferimento a un componente SDK interno utilizzando l&#39;API del visualizzatore `getComponent()` e quindi utilizzi tutta la flessibilità delle API dell&#39;SDK stesso.
 
-Lo spazio dei nomi utilizzato dal visualizzatore per caricare e inizializzare i componenti SDK dipende dall’ambiente in cui opera il visualizzatore. Se il visualizzatore è in esecuzione in AEM (Adobe Experience Manager), carica i componenti SDK in `s7viewers.s7sdk` spazio dei nomi. Il visualizzatore fornito da Dynamic Media Classic carica l’SDK in `s7classic.s7sdk`.
+Lo spazio dei nomi utilizzato dal visualizzatore per caricare e inizializzare i componenti SDK dipende dall’ambiente in cui opera il visualizzatore. Se il visualizzatore è in esecuzione in AEM (Adobe Experience Manager), carica i componenti SDK nello spazio dei nomi `s7viewers.s7sdk`. Il visualizzatore fornito da Dynamic Media Classic carica l&#39;SDK in `s7classic.s7sdk`.
 
-In entrambi i casi, lo spazio dei nomi utilizzato dall’SDK nel visualizzatore ha `s7viewers` o `s7classic` come prefisso. Ed è diverso dal semplice `s7sdk` spazio dei nomi utilizzato nella Guida utente dell’SDK o nella documentazione API dell’SDK.
+In entrambi i casi, il prefisso dello spazio dei nomi utilizzato dall&#39;SDK nel visualizzatore è `s7viewers` o `s7classic`. Inoltre, è diverso dal normale spazio dei nomi `s7sdk` utilizzato nella Guida utente SDK o nella documentazione API SDK.
 
 Per questo motivo è importante utilizzare uno spazio dei nomi SDK completo quando scrivi codice personalizzato dell’applicazione che comunica con i componenti interni del visualizzatore.
 
-Ad esempio, se intendi ascoltare `StatusEvent.NOTF_VIEW_READY` e il visualizzatore viene fornito da Dynamic Media Classic, il tipo di evento completo è `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`e il codice del listener di eventi è simile al seguente:
+Se ad esempio si intende ascoltare l&#39;evento `StatusEvent.NOTF_VIEW_READY` e il visualizzatore viene fornito da Dynamic Media Classic, il tipo di evento completo è `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY` e il codice del listener di eventi è simile al seguente:
 
 ```javascript {.line-numbers}
 <instance>.setHandlers({ 

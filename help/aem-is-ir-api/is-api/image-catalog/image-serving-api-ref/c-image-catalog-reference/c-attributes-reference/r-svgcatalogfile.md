@@ -8,7 +8,7 @@ exl-id: 654579a2-33ff-4633-a6d0-3c03ec8d5aed
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Percorsi dei file di dati SVG. Specifica i file contenenti i dati SVG per questo catalogo.
 
-I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell’ordine esatto specificato. Se lo stesso `catalog::Id` valore si trova in più record (nello stesso file di catalogo immagine o SVG o in file di catalogo diversi), l&#39;ultima istanza prevale.
+I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell’ordine esatto specificato. Se lo stesso valore `catalog::Id` si trova in più record (nello stesso file di catalogo immagine o SVG), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-fc2d549f76474792837b2b92ec2087ea}
 

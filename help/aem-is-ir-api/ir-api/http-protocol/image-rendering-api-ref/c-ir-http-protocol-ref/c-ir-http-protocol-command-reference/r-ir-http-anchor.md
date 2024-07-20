@@ -31,20 +31,20 @@ Ancoraggio immagine (punto attivo). Specifica il punto di ancoraggio della textu
  </tr> 
 </table>
 
-A un oggetto vignettatura viene applicata una texture ripetibile, in modo che il punto di ancoraggio della texture ( `anchor=`) si trova nel punto di origine della texture dell&#39;oggetto.
+A un oggetto vignettatura viene applicata una texture ripetibile, in modo che il punto di ancoraggio della texture ( `anchor=`) si trovi nel punto di origine della texture dell&#39;oggetto.
 
-Un&#39;immagine di decalcomania viene applicata a un oggetto vignettatura, in modo che il punto di ancoraggio della decalcomania si trovi nel punto di origine della decalcomania dell&#39;oggetto. La posizione della decalcomania può essere ulteriormente regolata utilizzando `pos=` comando.
+Un&#39;immagine di decalcomania viene applicata a un oggetto vignettatura, in modo che il punto di ancoraggio della decalcomania si trovi nel punto di origine della decalcomania dell&#39;oggetto. La posizione della decalcomania può essere ulteriormente regolata utilizzando il comando `pos=`.
 
-`anchorN=0,0` Posiziona l&#39;ancoraggio dell&#39;immagine al centro dell&#39;immagine sorgente. `anchorN=-0.5,-0.5` o `anchor=0,0` si trova nell’angolo in alto a sinistra, e `anchorN=0.5,0.5` si trova nell’angolo inferiore destro dell’immagine sorgente.
+`anchorN=0,0` Posiziona l&#39;ancoraggio immagine al centro dell&#39;immagine di origine. `anchorN=-0.5,-0.5` o `anchor=0,0` si trova nell&#39;angolo superiore sinistro e `anchorN=0.5,0.5` nell&#39;angolo inferiore destro dell&#39;immagine di origine.
 
 ## Proprietà {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Attributo materiale**. Ignorato se `align=2`o se il materiale non è una texture ripetibile, una carta da parati o una decalcomania.
+**Attributo materiale**. Ignorato se `align=2` o se il materiale non è una texture ripetibile, uno sfondo o una decalcomania.
 
 ## Predefinito {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, se il materiale è basato su una voce di catalogo. Altrimenti, `anchor=0,0` (l&#39;angolo in alto a sinistra dell&#39;immagine) per texture e sfondi ripetibili e `anchorN=0,0` (il centro dell&#39;immagine) per le decalcomanie.
+`catalog::Anchor`, se il materiale è basato su una voce di catalogo. In caso contrario, `anchor=0,0` (l&#39;angolo in alto a sinistra dell&#39;immagine) per texture e sfondi ripetibili e `anchorN=0,0` (il centro dell&#39;immagine) per decalcomanie.
 
 ## Consultate anche {#section-b18bf0b035644ca5aedebbc64373718e}
 
-[catalogo::ancoraggio](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
+[catalogo::ancoraggio](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) , [allineamento=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)

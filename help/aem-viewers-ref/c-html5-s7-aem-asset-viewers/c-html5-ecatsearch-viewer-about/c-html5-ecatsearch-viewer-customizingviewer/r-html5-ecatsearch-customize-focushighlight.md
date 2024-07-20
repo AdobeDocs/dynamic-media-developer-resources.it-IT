@@ -24,12 +24,12 @@ L’aspetto dell’evidenziazione dello stato attivo viene controllato con il se
 .s7ecatalogviewer *:focus
 ```
 
-**Proprietà CSS dell’evidenziazione focus**
+**Proprietà CSS evidenziate**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contorno </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> struttura </span> </p> </td> 
    <td colname="col2"> <p> Attiva lo stile di evidenziazione. </p> </td> 
   </tr> 
  </tbody> 

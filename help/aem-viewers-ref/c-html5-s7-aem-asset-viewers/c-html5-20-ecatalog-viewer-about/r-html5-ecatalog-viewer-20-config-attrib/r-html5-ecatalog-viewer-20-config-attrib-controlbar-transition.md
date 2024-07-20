@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 1%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|dissolvenza </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. Utilizzare <span class="codeph"> nessuno </span> per mostrare e nascondere istantaneamente; <span class="codeph"> dissolvenza </span> fornisce un effetto di dissolvenza graduale (non supportato in Internet Explorer 8). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nessuno|dissolvenza </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il tipo di effetto utilizzato per mostrare o nascondere la barra di controllo e il relativo contenuto. Utilizzare <span class="codeph"> none </span> per mostrare e nascondere subito; <span class="codeph"> fade </span> fornisce un effetto di dissolvenza graduale (non supportato in Internet Explorer 8). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica il tempo in secondi che intercorre tra l'ultimo evento mouse/touch registrato dalla barra di controllo e il blocco della barra di controllo temporale. </p> <p> Se impostato su <span class="codeph"> -1 </span>, il componente non attiva mai il suo effetto di Nascondi automatico e resta sempre visibile sullo schermo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ritardatonascondere </span> </span> </p> </td> 
+   <td colname="col2"> <p> Specifica il tempo in secondi che intercorre tra l'ultimo evento mouse/touch registrato dalla barra di controllo e il blocco della barra di controllo temporale. </p> <p> Se è impostato su <span class="codeph"> -1 </span>, il componente non attiva mai l'effetto Nascondi automatico e resta sempre visibile sullo schermo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata </span> </span> </p> </td> 

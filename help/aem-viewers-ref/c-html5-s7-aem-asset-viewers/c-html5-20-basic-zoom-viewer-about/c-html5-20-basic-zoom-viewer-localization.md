@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati in Basic Zoom Viewer (Visualizzatore zoom di base) sono soggetti alla localizzazione, inclusi i pulsanti di zoom e un pulsante a schermo intero.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato nelle impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni locali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna impostazione locale.
 
-Il codice della pagina web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore di `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, è possibile passare l’oggetto di localizzazione chiamando `setLocalizedTexts(localizationInfo)` metodo.
+Il codice della pagina Web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI:
 

@@ -34,7 +34,7 @@ Sintassi
 | companyHandle | `xsd:string` | Sì | Gestire l&#39;azienda. |
 | assetHandle | `xsd:string` | Sì | Gestisci la risorsa. |
 
-**Output (getViewerConfigSettingsReturn)**
+**Output (getViewerCoinfigSettingsReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|

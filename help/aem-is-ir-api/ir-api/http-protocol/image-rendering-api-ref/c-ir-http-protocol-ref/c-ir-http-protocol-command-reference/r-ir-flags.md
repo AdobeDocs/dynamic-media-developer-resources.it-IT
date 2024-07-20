@@ -20,16 +20,16 @@ Applicare i flag. Specifica opzioni di rendering aggiuntive.
 
 <table id="simpletable_00B21BD9E47E4D2FB0042CB507431916"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Valore del contrassegno. </p></td> 
  </tr> 
 </table>
 
 Attualmente utilizzato solo per i materiali del cabinet.
 
-`flags=0` (impostazione predefinita) Esegue il rendering dei cabinet superiori con porte solide.
+`flags=0` (impostazione predefinita) Esegue il rendering degli archivi superiori con porte piene.
 
-`flags=1` Esegue il rendering degli armadi superiori con porte in vetro (se la vignettatura è stata creata con porte in vetro).
+`flags=1` Esegue il rendering dei cabinet superiori con porte di vetro (se la vignettatura è stata creata con porte di vetro).
 
 ## Proprietà {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Attributo materiale. Ignorato se non è un materiale del cabinet o se l&#39;ogge
 
 ## Predefinito {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` Senza porte di vetro.
+`flags=0` Se non si dispone di porte di vetro.

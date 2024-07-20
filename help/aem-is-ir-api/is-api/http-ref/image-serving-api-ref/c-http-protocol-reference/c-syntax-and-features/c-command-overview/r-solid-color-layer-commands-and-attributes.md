@@ -18,7 +18,7 @@ Questi comandi vengono applicati ai livelli di colore in tinta unita, oltre ai c
 
 <table id="simpletable_4E563E4C797E45F390340258170BDCE4"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> maschera</a> </p> </td> 
+  <td class="stentry"> <p>Maschera <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"></a> </p> </td> 
   <td class="stentry"> <p>Specifica una maschera di livello facoltativa. </p></td> 
  </tr> 
 </table>

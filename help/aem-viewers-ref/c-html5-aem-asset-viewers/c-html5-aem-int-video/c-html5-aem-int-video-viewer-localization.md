@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal Visualizzatore video interattivo sono soggetti a localizzazione. Tali contenuti includono descrizioni degli strumenti per gli elementi dell’interfaccia utente e un messaggio di errore visualizzato quando il video non è in grado di essere riprodotto.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per una lingua inglese ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per una lingua inglese ( `"en"`) fornita con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se esiste un valore definito dall&#39;utente per ciascun SIMBOLO supportato per tali impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni locali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna impostazione locale.
 
-Il codice della pagina web deve passare l’oggetto di localizzazione al costruttore del visualizzatore, come valore di `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, è possibile passare l’oggetto di localizzazione chiamando `setLocalizedTexts(localizationInfo)` metodo.
+Il codice della pagina Web deve passare l&#39;oggetto di localizzazione al costruttore del visualizzatore, come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI:
 
@@ -86,7 +86,7 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Etichetta della manopola del dispositivo di scorrimento del volume esposta tramite ARIA <span class="codeph"> aria-valuetext </span> attributo. </p> </td> 
+   <td colname="col2"> <p> Etichetta della manopola del cursore del volume esposta tramite l’attributo aria-valuetext </span> di ARIA <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -137,7 +137,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Descrizione del collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CondivisioneCollegamenti.ANNULLA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ANNULLA </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Sono supportati i seguenti SIMBOLI:
    <td colname="col2"> <p>Pulsante Chiudi del pannello di azione del call to. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERRORE </span> </p> </td> 
    <td colname="col2"> <p>Messaggio di errore che viene visualizzato quando non è possibile riprodurre video. </p> </td> 
   </tr> 
  </tbody> 

@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Tipo di dati stringa di testo.
 
-I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga `<CR>`, `<LF>`, o `<TAB>` caratteri. È possibile utilizzare come delimitatori virgolette singole o doppie. Se vengono utilizzate virgolette, qualsiasi virgoletta incorporata nella stringa deve essere preceduta da due virgolette consecutive (ad esempio, Speciale di questo mese).
+I delimitatori di stringa sono facoltativi, a meno che la stringa non contenga `<CR>`, `<LF>` o `<TAB>` caratteri. È possibile utilizzare come delimitatori virgolette singole o doppie. Se vengono utilizzate virgolette, qualsiasi virgoletta incorporata nella stringa deve essere preceduta da due virgolette consecutive (ad esempio, Speciale di questo mese).

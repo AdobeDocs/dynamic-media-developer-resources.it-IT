@@ -16,15 +16,15 @@ ht-degree: 0%
 
 È possibile utilizzare una richiesta Image Server (IS) come immagine materiale.
 
-Specifica la richiesta in `src=` comando come segue:
+Specificare la richiesta nel comando `src=` nel modo seguente:
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-Il `is` il token distingue tra maiuscole e minuscole.
+Il token `is` distingue tra maiuscole e minuscole.
 
-La richiesta nidificata non deve includere il percorso root di Image Server (in genere [!DNL http:// *[!DNL server]*/is/image/"]), ma possono includere token di regole di pre-elaborazione.
+La richiesta nidificata non deve includere il percorso radice di Image Server (in genere  [!DNL http:// *[!DNL server]*/is/image/"]), ma può includere token di regole di pre-elaborazione.
 
-I seguenti comandi IS vengono ignorati se specificati nelle richieste nidificate (nell’URL della richiesta o in `catalog::Modifier` o `catalog::PostModifier`):
+I seguenti comandi IS vengono ignorati se specificati nelle richieste nidificate (nell&#39;URL della richiesta oppure in `catalog::Modifier` o `catalog::PostModifier`):
 
 * `bgc=`
 * `fmt=`
@@ -35,8 +35,8 @@ I seguenti comandi IS vengono ignorati se specificati nelle richieste nidificate
 * `quantize=`
 * `req=`
 
-Vengono ignorati anche i `attribute::MaxPix` e `attribute::DefaultPix` del catalogo immagini applicabile alla richiesta IS incorporata.
+Vengono ignorati anche `attribute::MaxPix` e `attribute::DefaultPix` del catalogo immagini che si applica alla richiesta IS incorporata.
 
 Se l&#39;immagine del risultato della richiesta nidificata include dati di maschera (alfa), questa viene sempre trasmessa al materiale. Utilizzate un livello immagine di sfondo a tinta unita per evitare valori alfa indesiderati.
 
-Il risultato dell’immagine di una richiesta IS incorporata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando l’immagine intermedia viene riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.
+Il risultato immagine di una richiesta IS incorporata può essere memorizzato nella cache facoltativamente includendo `cache=on`. Per impostazione predefinita, la memorizzazione nella cache dei dati intermedi è disabilitata. La memorizzazione in cache deve essere abilitata solo quando l’immagine intermedia viene riutilizzata in una richiesta diversa entro un periodo di tempo ragionevole. Si applica la gestione della cache lato server standard. I dati vengono memorizzati nella cache in un formato senza perdita di dati.

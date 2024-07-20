@@ -8,7 +8,7 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 In questo esempio di codice viene restituita la cronologia di pubblicazione di una risorsa. Una risorsa non è mai stata pubblicata se il server restituisce un array vuoto.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

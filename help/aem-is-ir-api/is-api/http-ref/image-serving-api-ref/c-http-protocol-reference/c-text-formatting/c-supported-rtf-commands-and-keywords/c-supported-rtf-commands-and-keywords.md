@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Di seguito è riportato un elenco di parole chiave e comandi supportati dal motore di testo di Scene 7 Image Server.
 
-Consulta la documentazione pubblicata [Specifiche RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) per informazioni dettagliate su ogni parola chiave o comando.
+Per informazioni dettagliate su ogni parola chiave o comando, consultare la specifica [RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) pubblicata.
 
 I comandi RTF non elencati di seguito vengono ignorati dal parser.
 

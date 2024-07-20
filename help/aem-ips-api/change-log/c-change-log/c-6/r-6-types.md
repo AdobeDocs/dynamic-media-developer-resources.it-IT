@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Sintassi
 
 **Aggiunto**
 
-* Aggiunto `numUrls` a `UploadUrlsJob`.
+* Aggiunta di `numUrls` a `UploadUrlsJob` completata.
 
 * Aggiunto `fileName` a `Asset.`
 
-* Aggiunto `isHidden` a `MetadataField`.
+* Aggiunta di `isHidden` a `MetadataField` completata.
 
-* Aggiunto `taskState` a `TaskProgress`.
+* Aggiunta di `taskState` a `TaskProgress` completata.
 
 * Aggiunto `exportJob` a `ActiveJob` e `ScheduledJob`.
 
-* Aggiunto `optmizedPath` e `optimizedFile` a `PsdInfo`.
+* Aggiunti `optmizedPath` e `optimizedFile` a `PsdInfo`.
 
-* Aggiunto `contextHandle` a:
+* Aggiunta di `contextHandle` a:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -66,8 +66,8 @@ Sintassi
 
 **Modificato**
 
-* In entrata `User`, modificato `role` a `defaultRole`.
+* In `User`, è stato modificato `role` in `defaultRole`.
 
-* In entrata `Folder`, modificato `permissions` a `permissionsSetHandle`.
+* In `Folder`, è stato modificato `permissions` in `permissionsSetHandle`.
 
-* In entrata `AssetSummary`, `type` e `name` sono ora facoltativi.
+* In `AssetSummary`, `type` e `name` sono ora facoltativi.

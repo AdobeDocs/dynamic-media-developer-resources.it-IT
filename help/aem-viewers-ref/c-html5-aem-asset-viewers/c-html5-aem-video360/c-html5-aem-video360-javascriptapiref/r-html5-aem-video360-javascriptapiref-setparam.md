@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per Visualizzatore Video360.
+description: Riferimento API di JavaScript per il visualizzatore Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: eb739d2d-7512-49e2-be13-10f05e2fcc1e
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per Visualizzatore Video360.
+Riferimento API di JavaScript per il visualizzatore Video360.
 
 ` setParam( *`nome, valore`*)`
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON per il costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

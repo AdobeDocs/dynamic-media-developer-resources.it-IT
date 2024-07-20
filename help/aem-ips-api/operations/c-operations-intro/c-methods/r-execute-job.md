@@ -8,7 +8,7 @@ exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -45,13 +45,13 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle dell'azienda a cui appartiene il processo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle del processo da eseguire. </p> </td> 
   </tr> 
@@ -66,7 +66,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice esegue un processo pianificato per l&#39;esecuzione in IPS.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <executeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

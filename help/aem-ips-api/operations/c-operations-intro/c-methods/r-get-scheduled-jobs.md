@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti tutti i processi pianificati in una matrice di processi. L’array stesso contiene informazioni dettagliate sui processi.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getScheduledJobsParam xmlns="http://www.scene7.com/IpsApi/xsd">

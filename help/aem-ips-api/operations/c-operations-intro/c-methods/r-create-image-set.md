@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ Sintassi
 
 In questo esempio di codice viene creato un set di immagini specificato per società, cartella, nome e tipo. La risposta è un handle di risorsa del set di immagini appena creato.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:createImageSetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

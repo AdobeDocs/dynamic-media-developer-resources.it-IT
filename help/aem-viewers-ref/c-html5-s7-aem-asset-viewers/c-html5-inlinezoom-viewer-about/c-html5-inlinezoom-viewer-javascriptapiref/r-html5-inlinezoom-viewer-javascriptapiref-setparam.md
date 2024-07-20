@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per il visualizzatore zoom in linea.
+description: Riferimento API di JavaScript per il visualizzatore zoom in linea.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -8,17 +8,17 @@ exl-id: ab6a6cdd-9483-423b-b0fe-b72b213934a5
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore zoom in linea.
+Riferimento API di JavaScript per il visualizzatore zoom in linea.
 
 ` setParam( *`nome, valore`*)`
 
-Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
+Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`. Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l&#39;oggetto JSON `config` al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

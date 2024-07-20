@@ -20,14 +20,14 @@ Questo parametro:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ID lavoro </span> </p> </td> 
   <td class="stentry"> <p>ID processo ottenuto al momento dell’invio. </p> </td> 
  </tr> 
 </table>
 
 Restituisce:
 
-L’output PDF del processo viene inviato in streaming in risposta. Errore se `jobid` non è valido o il processo è stato eliminato.
+L&#39;output PDF del processo viene inviato in streaming in risposta. Errore se `jobid` non è valido o il processo è stato eliminato.
 
 ## Esempio {#section-0319e615fa254132a9dab59351b4c252}
 

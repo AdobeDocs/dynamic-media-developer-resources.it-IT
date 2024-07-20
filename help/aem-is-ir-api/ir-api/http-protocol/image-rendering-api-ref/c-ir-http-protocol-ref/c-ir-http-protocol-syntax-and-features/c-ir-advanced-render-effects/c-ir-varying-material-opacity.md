@@ -16,8 +16,8 @@ ht-degree: 0%
 
 L&#39;opacità variabile è supportata per i colori in tinta unita e le texture ripetibili applicate agli oggetti sovrapposti, nonché per le decalcomanie e i materiali di rivestimento delle finestre.
 
-Le informazioni sull&#39;opacità possono essere fornite semplicemente utilizzando un&#39;immagine RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con `opacity=` (per le immagini RGB e RGBA).
+Le informazioni sull&#39;opacità possono essere fornite semplicemente utilizzando un&#39;immagine RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con il comando `opacity=` (sia per le immagini RGB che per quelle RGBA).
 
 I bordi delle pareti supportano anche le immagini RGBA, principalmente per i bordi con taglio automatico.
 
-Il [!DNL vnw] i file che definiscono le coperture delle finestre possono includere un canale di opacità. Viene combinato dal renderer con il canale alfa della texture ripetibile e il `opacity=` valore per ottenere una gamma completa di effetti di opacità per i trattamenti in finestre semplici e traslucide.
+I file [!DNL vnw] che definiscono le coperture delle finestre possono includere un canale di opacità. Viene combinato dal renderer con il canale alfa della texture ripetibile e il valore `opacity=` per fornire una gamma completa di effetti di opacità per i trattamenti di finestre trasparenti e trasparenti.

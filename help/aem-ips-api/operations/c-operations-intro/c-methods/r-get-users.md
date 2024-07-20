@@ -8,7 +8,7 @@ exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Ottiene un array di utenti come specificato dagli handle di ruolo società, grup
 | companyHandleArray | `types:HandleArray` | No | Filtra i risultati per società. |
 | groupHandleArray | `types:HandleArray` | No | Filtra i risultati per gruppo. |
 | userRoleArray | `types:StringArray` | No | Filtra i risultati per ruolo utente. |
-| charFilterField | `xsd:string` | No | Filtrare i risultati in base al prefisso della stringa del campo (vedere [!DNL Trash State).] |
+| charFilterField | `xsd:string` | No | Filtra i risultati in base al prefisso della stringa del campo (vedere [!DNL Trash State).] |
 | charFilter | `xsd:string` | No | Filtra i risultati in base a un carattere specifico. |
 | sortBy | `xsd:string` | No | Scelta dei campi di ordinamento utente. |
 | recordsPerPage | `xsd:int` | No | Restituisce il numero specificato di record per pagina. |
@@ -45,9 +45,9 @@ Ottiene un array di utenti come specificato dagli handle di ruolo società, grup
 
 ## Esempi {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-Questo esempio di codice restituisce l’array di utenti per diversi parametri facoltativi. I ruoli utente, i campi filtro caratteri utente e i campi di ordinamento utente sono determinati utilizzando costanti di stringa specifiche.
+Questo esempio di codice restituisce l’array di utenti per diversi parametri facoltativi. I ruoli utente, i campi filtro dei caratteri utente e i campi di ordinamento utente sono determinati utilizzando costanti di stringa specifiche.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

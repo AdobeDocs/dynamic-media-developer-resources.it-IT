@@ -8,7 +8,7 @@ exl-id: eb052685-b750-4a12-b00e-28e676340e98
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 18%
+ht-degree: 15%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 In questo esempio di codice vengono restituite informazioni sul file Zip, incluse le dimensioni compresse e non compresse.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getZipEntriesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -101,7 +101,7 @@ Per i materiali di tessitura ripetibili sono ammessi i seguenti valori:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>randomizzatore Edge. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Selettore Edge. </p></td> 
  </tr> 
 </table>
 

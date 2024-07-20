@@ -20,6 +20,6 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| [!DNL company] | `types:Company` |  |
-| [!DNL role] | `xsd:string` |  |
+| [!DNL company] | `types:Company` | |
+| [!DNL role] | `xsd:string` | |
 | isActive | `xsd:boolean` | Imposta lo stato dell&#39;utente per ogni società a cui appartiene. |

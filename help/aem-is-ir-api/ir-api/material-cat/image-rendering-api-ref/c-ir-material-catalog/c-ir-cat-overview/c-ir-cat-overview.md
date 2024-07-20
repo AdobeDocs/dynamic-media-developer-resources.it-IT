@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I cataloghi dei materiali forniscono al server informazioni su vignettature, materiali e dati di supporto, ad esempio profili ICC.
 
-Ogni catalogo dei materiali è costituito da un *file attributo catalogo* e una serie di opzioni *file di dati di catalogo*:
+Ogni catalogo dei materiali è costituito da un *file degli attributi del catalogo* obbligatorio e da un set di *file dei dati del catalogo* facoltativi:
 
 * Il file di mappa vignettatura, che elenca in dettaglio vignettature e modelli e i metadati associati.
 * Il file di dati dei materiali, che descrive i materiali e specifica i file di immagine della trama e i metadati associati.
@@ -25,9 +25,9 @@ Ogni catalogo dei materiali è costituito da un *file attributo catalogo* e una 
 
 I file di dati del catalogo sono associati ai cataloghi di materiale tramite riferimenti di file nel file di attributi del catalogo. Lo stesso file di dati di catalogo può essere condiviso da più cataloghi di materiale.
 
-I file degli attributi del catalogo devono avere [!DNL `.ini`] suffisso del file e deve trovarsi in Image Rendering *cartella catalogo* ( [!DNL PlatformServer::ir.catalogRootPath]). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server di rendering.
+I file degli attributi del catalogo devono avere un suffisso di file [!DNL `.ini`] e trovarsi nella cartella del catalogo *di Image Rendering (*) ( [!DNL PlatformServer::ir.catalogRootPath]). I file di dati del catalogo possono trovarsi nella stessa cartella o in qualsiasi altra cartella accessibile al server di rendering.
 
-**Aggiornamento dei cataloghi di materiale**
+**Aggiornamento dei cataloghi dei materiali**
 
 Il server controlla continuamente la cartella del catalogo. Ricarica automaticamente un catalogo dei materiali, inclusi i file di dati del catalogo associati, quando rileva che il file di attributi del catalogo principale è stato modificato. Pertanto, per aggiornare i cataloghi di materiale sul server, sostituisci prima tutti i file di dati del catalogo che devono essere modificati, quindi sostituisci (o &quot;tocca&quot;) il file degli attributi del catalogo per attivare il ricaricamento del catalogo.
 
@@ -37,7 +37,7 @@ Il catalogo predefinito fornisce i valori predefiniti per tutti gli attributi de
 
 Inoltre, il catalogo predefinito fornisce tutti gli attributi e i record di dati (profili ICC) quando non è coinvolto alcun catalogo di materiale specifico in un&#39;operazione.
 
-Per il corretto funzionamento del server di rendering, è necessario denominare il file degli attributi del catalogo predefinito [!DNL default.ini]. Deve inoltre esistere sempre nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati di catalogo, tutti facoltativi.
+Per il corretto funzionamento del server di rendering, il file degli attributi del catalogo predefinito deve essere denominato [!DNL default.ini]. Deve inoltre essere sempre presente nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, che sono tutti facoltativi.
 
 <!-- **See also**
 

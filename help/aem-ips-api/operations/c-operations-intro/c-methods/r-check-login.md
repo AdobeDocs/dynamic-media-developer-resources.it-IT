@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -50,9 +50,9 @@ Controlla se un utente con una società specifica (identificata da un handle), u
 
 ## Esempi {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Questo codice di esempio utilizza un parametro dell&#39;handle aziendale, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* , questo metodo restituisce la stringa, `ValidLogin`. Se l&#39;utente *non può* , questo metodo restituisce la stringa, `InvalidLogin`.
+Questo codice di esempio utilizza un parametro dell&#39;handle aziendale, un indirizzo e-mail e una password per determinare se un utente può accedere a IPS. Se l&#39;utente *può* accedere, questo metodo restituisce la stringa `ValidLogin`. Se l&#39;utente *non può* accedere, questo metodo restituisce la stringa `InvalidLogin`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:checkLoginParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

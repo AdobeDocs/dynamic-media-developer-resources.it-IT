@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Dimensione pixel. Consente di specificare le dimensioni dell&#39;immagine o del 
 
 <table id="simpletable_06761BED6FF14C2A83745A78B10D3419"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> dimensione</span> </span> </p> </td> 
+  <td class="stentry"> <p>Dimensione <span class="codeph"> <span class="varname"></span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> px, py</span> </span> </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -27,4 +27,4 @@ Dimensione pixel. Consente di specificare le dimensioni dell&#39;immagine o del 
  </tr> 
 </table>
 
-Entrambi *`px`* e *`py`* deve essere maggiore di 0. `0,0` può indicare che deve essere utilizzato un valore predefinito specifico.
+Sia *`px`* che *`py`* devono essere maggiori di 0. `0,0` può indicare che deve essere utilizzato un valore predefinito specifico.

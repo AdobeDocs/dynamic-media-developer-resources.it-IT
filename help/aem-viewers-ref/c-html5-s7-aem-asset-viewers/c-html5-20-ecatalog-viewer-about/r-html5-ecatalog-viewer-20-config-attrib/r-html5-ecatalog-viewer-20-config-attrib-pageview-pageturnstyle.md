@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Controlla l&#39;aspetto del componente quando `PageView.frametransition` è impostato su `turn` o a `auto` su sistemi desktop.
+Controlla l&#39;aspetto del componente quando `PageView.frametransition` è impostato su `turn` o su `auto` nei sistemi desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -25,16 +25,16 @@ Controlla l&#39;aspetto del componente quando `PageView.frametransition` è impo
    <td colname="col2"> <p> Larghezza in pixel dell'ombreggiatura del divisore di pagina che separa le pagine sinistra e destra nella distribuzione. Controlla inoltre la larghezza dell'ombreggiatura in esecuzione visualizzata accanto alla pagina di tornitura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
+   <td colname="col1"> <p>DivderOpacity <span class="codeph"><span class="varname"></span></span> </p> </td> 
    <td colname="col2"> <p> Colore dell'ombreggiatura in formato RRGGBB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>Opacità dell'ombreggiatura nell'intervallo <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col1"> <p>DivderOpacity <span class="codeph"><span class="varname"></span></span> </p> </td> 
+   <td colname="col2"> <p>Opacità dell'ombreggiatura compresa tra <span class="codeph"> 0</span> e <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Il flag (uno <span class="codeph"> 0</span> o <span class="codeph"> 1</span>) che attiva e disattiva il bordo attorno alla pagina di attivazione. </p> </td> 
+   <td colname="col2"> <p> Flag (<span class="codeph"> 0</span> o <span class="codeph"> 1</span>) che attiva e disattiva il bordo attorno alla pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

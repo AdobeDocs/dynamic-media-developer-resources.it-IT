@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per il visualizzatore carosello.
+description: Riferimento API di JavaScript per il visualizzatore carosello.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 0829933f-a90b-4066-9904-748f2a727169
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API di JavaScript per il visualizzatore carosello.
 
 ` setParam( *`nome, valore`*)`
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state trasmesse con `config` Oggetto JSON per il costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore sono state passate con `config` oggetto JSON al costruttore.
 
 Vedi anche [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md).
 

@@ -18,7 +18,7 @@ Utilizzare queste impostazioni del server per configurare il sistema di monitora
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Attivazione sistema di avvisi {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Abilita la notifica e-mail impostando su &quot;true&quot; e configurando le impostazioni di notifica e-mail. Impostazione di `false` disattiva tutti gli avvisi e-mail: questo può essere utile quando si disattiva un server per manutenzione. Booleano.
+Abilita la notifica e-mail impostando su &quot;true&quot; e configurando le impostazioni di notifica e-mail. L&#39;impostazione su `false` disattiva tutti gli avvisi e-mail. Questo può essere utile quando si disattiva un server per manutenzione. Booleano.
 
 ## AS::mailSender.host - Host SMTP {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Uno o più indirizzi e-mail a cui inviare gli avvisi. Utilizzare il punto e virg
 
 ## AS::monitorAlertGenerator.messageFrom - Mittente del messaggio {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-L&#39;indirizzo e-mail che deve essere utilizzato nel **[!UICONTROL Da]** campo e-mail.
+Indirizzo e-mail da utilizzare nel campo e-mail **[!UICONTROL Da]**.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervallo di monitoraggio {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

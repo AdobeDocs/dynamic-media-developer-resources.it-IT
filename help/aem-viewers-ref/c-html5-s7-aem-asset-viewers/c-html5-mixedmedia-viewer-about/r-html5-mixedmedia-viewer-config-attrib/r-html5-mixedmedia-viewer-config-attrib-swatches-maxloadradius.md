@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 06f493d7-18c9-4bb1-add6-a0dfd1a689bd
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '57'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Specifica il comportamento di precaricamento del componente. Se impostato su <span class="codeph"> -1</span> tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se impostato su <span class="codeph"> 0</span> vengono caricati solo i campioni visibili. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definisce quante righe/colonne invisibili vengono precaricate attorno all’area visibile. </p> </td> 
+   <td> <p>Specifica il comportamento di precaricamento del componente. Se è impostato su <span class="codeph"> -1</span>, tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span>, vengono caricati solo i campioni visibili. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> definisce quante righe/colonne invisibili vengono precaricate attorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contiene le impostazioni relative alla gestione dei cataloghi di immagini.
 
-Questo file è un file di proprietà JAVA. Fare attenzione a seguire le convenzioni appropriate; altrimenti [!DNL Platform Server] potrebbe non riuscire ad avviarsi. Utilizzare una doppia barra rovesciata &#39;\\&#39; o una singola barra in avanti &#39;/&#39; invece della barra rovesciata &#39;\&#39; nei percorsi dei file di Windows. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
+Questo file è un file di proprietà JAVA. Fare attenzione a seguire le convenzioni appropriate. In caso contrario, [!DNL Platform Server] potrebbe non essere avviato. Utilizzare una doppia barra rovesciata &#39;\\&#39; o una singola barra in avanti &#39;/&#39; invece della barra rovesciata &#39;\&#39; nei percorsi dei file di Windows. La barra rovesciata viene utilizzata come carattere di escape in questo tipo di file.
 
 Le modifiche apportate al file hanno effetto poco dopo il salvataggio.
 

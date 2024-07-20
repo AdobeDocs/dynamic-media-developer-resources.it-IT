@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Imposta XML prima o dopo un nodo.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Se un elemento del nodo FXG ha `s7:elementID` definito, con questo comando è possibile aggiungere frammenti XML prima o dopo tale nodo.
+Se per un elemento del nodo FXG è definito `s7:elementID`, è possibile aggiungere frammenti XML prima o dopo tale nodo con questo comando.
 
 ## Esempio {#section-1fc8d4135ef94b60b838391e1568e70e}
 

@@ -16,8 +16,8 @@ ht-degree: 0%
 
 I riferimenti $var$ possono verificarsi ovunque all’interno delle parentesi graffe di una richiesta di Image Server o Image Rendering nidificata, incluso a sinistra di &quot;?&quot; separazione del percorso dalla query.
 
-Il server sostituisce questi riferimenti con valori (provenienti dall’URL o da `catalog::Modifier` del catalogo principale delle immagini) prima di analizzare ed elaborare ulteriormente la richiesta nidificata.
+Il server sostituisce questi riferimenti con valori (provenienti dall&#39;URL o da `catalog::Modifier` del catalogo principale delle immagini) prima di analizzare ed elaborare ulteriormente la richiesta nidificata.
 
-Inoltre, tutti `$ *[!DNL var]*=` definizioni dall’url e `catalog::Modifier` vengono inoltrate a tutte le richieste nidificate di Image Server e Image Rendering. In questo modo tutte le definizioni di variabili saranno disponibili per tutti i modelli, indipendentemente dal livello di nidificazione.
+Inoltre, tutte le definizioni di `$ *[!DNL var]*=` dall&#39;URL e `catalog::Modifier` vengono inoltrate a tutte le richieste nidificate di Image Server e Image Rendering. In questo modo tutte le definizioni di variabili saranno disponibili per tutti i modelli, indipendentemente dal livello di nidificazione.
 
 Indipendentemente dal livello di nidificazione, solo la codifica HTTP a passata singola deve essere applicata ai valori delle variabili che devono essere sostituiti ovunque nelle richieste di Image Rendering o Image Server nidificate.

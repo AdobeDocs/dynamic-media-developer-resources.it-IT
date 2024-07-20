@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -30,13 +30,13 @@ Il seguente selettore di classe CSS controlla l’aspetto del lettore video con 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il messaggio di errore visualizzato se il sistema non è in grado di riprodurre il video può essere localizzato. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) per ulteriori informazioni.
+Il messaggio di errore visualizzato se il sistema non è in grado di riprodurre il video può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 Esempio: per impostare un visualizzatore video con ritaglio avanzato con le dimensioni del lettore video con ritaglio avanzato impostate su 512 x 288 pixel.
 
@@ -55,11 +55,11 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Sfondo del testo della didascalia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore testo sottotitoli. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ I sottotitoli codificati vengono inseriti in un contenitore interno all’intern
    <td colname="col2"> <p> Dimensione font sottotitoli. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Font per sottotitoli. </p> </td> 
   </tr> 
  </tbody> 
@@ -95,7 +95,7 @@ L’aspetto dell’animazione di buffering è controllato dal seguente selettore
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7waiticon
 ```
 
-**Proprietà CSS dell’icona Attendi**
+**Proprietà CSS dell&#39;icona Attendi**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -106,23 +106,23 @@ L’aspetto dell’animazione di buffering è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p> Altezza icona animazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p> Margine sinistro dell'icona di animazione, in genere meno la metà della larghezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p> Margine superiore dell'icona di animazione, in genere meno la metà dell'altezza dell'icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Grafica a manopola. </p> </td> 
   </tr> 
  </tbody> 

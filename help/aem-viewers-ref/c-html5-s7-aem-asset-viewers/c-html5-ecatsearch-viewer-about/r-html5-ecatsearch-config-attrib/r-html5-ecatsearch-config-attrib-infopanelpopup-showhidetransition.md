@@ -14,16 +14,16 @@ ht-degree: 10%
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`tempo`*]`]
+[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`ora`*]`]
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> dissolvenza|nessuno</span> </p> </td> 
+   <td colname="col1"> <p>Dissolvenza <span class="codeph">|nessuna</span> </p> </td> 
    <td colname="col2"> <p> Specifica il tipo di animazione mostra/nascondi pannello informazioni. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> tempo</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> volta</span></span> </p> </td> 
    <td> <p> Durata (in secondi) dell'animazione mostra o nascondi. </p> </td> 
   </tr> 
  </tbody> 

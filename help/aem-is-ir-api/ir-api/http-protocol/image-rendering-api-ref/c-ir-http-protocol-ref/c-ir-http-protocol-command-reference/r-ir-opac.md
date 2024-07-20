@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 2%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Opacità. Specifica l&#39;opacità del materiale.
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> Valore <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p>Opacità materiale (percentuale); 0...100 </p> </td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ Le seguenti combinazioni materiale/oggetto supportano l&#39;opacità variabile:
 * Materiali di rivestimento per finestre applicati agli oggetti di rivestimento per finestre.
 * Decalcomanie applicate a oggetti textural o wall.
 
-Se il materiale include un&#39;immagine con un canale alfa, `opac=` può essere utilizzato per rendere l’immagine più trasparente, ma non più opaca.
+Se il materiale include un&#39;immagine con un canale alfa, è possibile utilizzare `opac=` per rendere l&#39;immagine più trasparente, ma non più opaca.
 
 ## Proprietà {#section-352f7b82ede54159b6afb90ae4b559ec}
 

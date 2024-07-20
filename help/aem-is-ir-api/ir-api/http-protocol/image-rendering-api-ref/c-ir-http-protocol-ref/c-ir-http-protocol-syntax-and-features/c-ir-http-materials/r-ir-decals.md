@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ I materiali delle decalcomanie includono costrutti di abbigliamento come appliqu
 
 Un materiale è considerato una decalcomania se è specificato in una decalcomania MSS. Una decalcomania è tipicamente un&#39;immagine RGBA, con il canale alfa che definisce la forma della decalcomania.
 
-È possibile applicare una decalcomania a ogni oggetto piatto, linea di flusso, sketch, piano o parete (a meno che non sia impostato il flag &#39;No Texture&#39;). Le decalcomanie vengono applicate all&#39;oggetto allineando le decalcomanie `anchor=` con il punto di origine della decalcomania dell&#39;oggetto vignettatura. La posizione può essere ulteriormente regolata con `pos=`.
+È possibile applicare una decalcomania a ogni oggetto piatto, linea di flusso, sketch, piano o parete (a meno che non sia impostato il flag &#39;No Texture&#39;). Le decalcomanie vengono applicate all&#39;oggetto allineando `anchor=` della decalcomania al punto di origine della decalcomania dell&#39;oggetto di vignettatura. La posizione può essere ulteriormente regolata con `pos=`.
 
 Se il materiale della decalcomania definisce uno spessore e l&#39;oggetto di vignettatura definisce un vettore di luce, viene riprodotta un&#39;ombra esterna.
 
@@ -37,17 +37,17 @@ Se il materiale della decalcomania definisce uno spessore e l&#39;oggetto di vig
    <td colname="col3"> <p>Nessuno. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size= dimensione </span> </a> </p> </td> 
+   <td colname="col1"> <p> Dimensione <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph">= </span> </a> </p> </td> 
    <td colname="col2"> <p>Larghezza decalcomania, altezza e spessore (per ombra esterna). </p> </td> 
    <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> imageHeight </span> x <span class="codeph"> res, 0 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Risoluzione della trama (ignorata se è specificato size=). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Risoluzione </span> </p> </td> 
+   <td colname="col3"> <p> Attributo <span class="codeph">::Risoluzione </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> ancoraggio= </span> </a> </p> </td> 
+   <td colname="col1"> <p> Ancoraggio <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph">= </span> </a> </p> </td> 
    <td colname="col2"> <p>Decalca il punto di allineamento. </p> </td> 
    <td colname="col3"> <p>Centro immagini. </p> </td> 
   </tr> 
@@ -63,7 +63,7 @@ Se il materiale della decalcomania definisce uno spessore e l&#39;oggetto di vig
   </tr> 
   <tr> 
    <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </td> 
-   <td colname="col2"> <p>Opzioni. </p> </td> 
+   <td colname="col2"> <p>Nitidezza. </p> </td> 
    <td colname="col3"> <p>0 (nessuna nitidezza) </p> </td> 
   </tr> 
  </tbody> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 Le texture ripetibili comprendono i materiali interni ed esterni, come i tessuti (sia abbigliamento che tappezzeria), i rivestimenti del pavimento da parete a parete, le carte da parati, i materiali del controsoffitto, le texture dei grani di legno, i materiali per tetti e i rivestimenti laterali e qualsiasi altra texture generica.
 
-Le texture ripetibili possono essere applicate a oggetti piatti, linee di flusso, sketch, piani, pareti e cabinet. Quando viene applicato a un oggetto non testurizzabile, l&#39;oggetto viene dipinto con `color=` (o `bgc=` se `color=` non è specificato).
+Le texture ripetibili possono essere applicate a oggetti piatti, linee di flusso, sketch, piani, pareti e cabinet. Se applicato a un oggetto non testurizzabile, l&#39;oggetto viene dipinto con `color=` (o `bgc=` se `color=` non è specificato).
 
-Un materiale è considerato una texture se include `src=` attributo che specifica un&#39;immagine e se si trova in un MSS diverso da decalcomania o bordo muro.
+Un materiale è considerato una texture se include un attributo `src=` che specifica un&#39;immagine e se si trova in un MSS diverso da decalcomania o bordo di parete.
 
-Durante il rendering, la texture viene allineata con l&#39;oggetto mediante la corrispondenza `anchor=` punto del materiale di texture con il punto di origine della texture dell&#39;oggetto (come creato nella vignettatura).
+Durante il rendering, la texture viene allineata con l&#39;oggetto facendo corrispondere il punto `anchor=` del materiale della texture con il punto di origine della texture dell&#39;oggetto (come creato nella vignettatura).
 
 <table id="table_992A6E93E4274B598A236F8F728F017A"> 
  <thead> 
@@ -39,15 +39,15 @@ Durante il rendering, la texture viene allineata con l&#39;oggetto mediante la c
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Risoluzione texture </p> </td> 
-   <td colname="col3"> <span class="codeph"> attribute::Risoluzione </span> </td> 
+   <td colname="col3"> Attributo <span class="codeph">::Risoluzione </span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> ancoraggio= </span> </a> </p> </td> 
+   <td colname="col1"> <p> Ancoraggio <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph">= </span> </a> </p> </td> 
    <td colname="col2"> <p>Punto di allineamento della texture </p> </td> 
    <td colname="col3"> <p>Angolo in alto a sinistra </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= ripetizione </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
    <td colname="col2"> <p>Modalità Ripeti </p> </td> 
    <td colname="col3"> <p>0 (ripetizione diretta). </p> </td> 
   </tr> 
@@ -71,17 +71,17 @@ Oltre a questi attributi di base, le texture ripetibili supportano i seguenti at
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> malta= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> gruppo= </span> </a> </p> </td> 
    <td colname="col2"> <p>Colore e spessore della scanalatura; utile per materiali in ceramica/pietra </p> </td> 
    <td colname="col3"> <p>Grout già presente nell'immagine </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> allineamento= </span> </a> </p> </td> 
    <td colname="col2"> <p>Modalità di allineamento (tra oggetti); utilizzata per applicazioni di tappezzeria </p> </td> 
    <td colname="col3"> <p>Corrispondenza al centro </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotazione= </span> </a> </p> </td> 
    <td colname="col2"> <p>Angolo di rotazione della texture; non supportato da oggetti di parete </p> </td> 
    <td colname="col3"> <p>0 (nessuna rotazione) </p> </td> 
   </tr> 

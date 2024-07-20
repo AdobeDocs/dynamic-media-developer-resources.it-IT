@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5a539831-01d7-45a8-9d75-41782ec7fa94
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '38'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Attributo di configurazione per il visualizzatore video Ritaglio avanzato.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Disattiva o attiva il tempo del capitolo video nella barra del titolo dell'etichetta del capitolo video. </p> </td> 
   </tr> 
  </tbody> 

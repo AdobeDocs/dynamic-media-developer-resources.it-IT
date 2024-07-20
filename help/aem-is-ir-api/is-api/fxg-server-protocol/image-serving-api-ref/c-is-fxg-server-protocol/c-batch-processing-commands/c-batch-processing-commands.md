@@ -16,9 +16,9 @@ ht-degree: 0%
 
 I seguenti comandi comprendono l’API di elaborazione batch esposta da Platform Server.
 
-Questi sono specificati nel formato di richiesta speciale come: `?req=<command>`
+Specificati nel formato di richiesta speciale come: `?req=<command>`
 
-Gli esempi mostrati per questi comandi utilizzano un fittizio `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot; e un&#39;azienda fittizia chiamata AcmeCorp. Anche l’ID del processo è fittizio.
+Gli esempi mostrati per questi comandi utilizzano un URL `PlatformServer` fittizio &quot; [!DNL scene7.adobe.com:8080]&quot; e una società fittizia denominata AcmeCorp. Anche l’ID del processo è fittizio.
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)

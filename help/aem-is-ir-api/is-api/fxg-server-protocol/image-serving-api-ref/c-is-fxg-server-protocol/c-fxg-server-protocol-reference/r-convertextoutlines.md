@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,6 @@ Converte il testo in un file PDF in contorni.
  </tr> 
 </table>
 
-Utilizza il comando URL `convertTextToOutlines=1` per convertire tutto il testo di un file PDF in tracciati strutturati.
+Utilizzare il comando URL `convertTextToOutlines=1` per modificare tutto il testo di un file PDF in percorsi strutturati.
 
 Quando un effetto viene applicato al testo di un file PDF, ad esempio la conversione del testo in contorni, l&#39;immagine di rendering finale viene ridotta o &quot;appiattita&quot; nelle dimensioni.

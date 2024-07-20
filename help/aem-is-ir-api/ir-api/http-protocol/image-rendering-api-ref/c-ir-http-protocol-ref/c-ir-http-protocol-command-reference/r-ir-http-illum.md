@@ -20,7 +20,7 @@ Selettore mappa di illuminazione. Specifica la mappa di illuminazione con cui pr
 
 Se la mappa di illuminazione specificata non è disponibile nella vignettatura di destinazione, viene utilizzata la mappa disponibile più vicina.
 
-`illum=-1` Specifica che la mappa di illuminazione viene selezionata automaticamente in base al `gloss=` valore.
+`illum=-1` Specifica che la mappa di illuminazione viene selezionata automaticamente in base al valore `gloss=`.
 
 ## Proprietà {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

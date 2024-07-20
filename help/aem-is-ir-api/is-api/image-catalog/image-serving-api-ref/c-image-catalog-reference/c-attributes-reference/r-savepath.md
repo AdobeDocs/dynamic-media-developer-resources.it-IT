@@ -20,11 +20,11 @@ Percorso directory principale per saveToFile=. Percorso relativo della cartella 
 
 ## Proprietà {#section-343d1371e966491c92854a8df14c3c50}
 
-Stringa di testo. Deve essere vuoto o un percorso di cartella relativo valido. Sempre combinato con il percorso principale assoluto configurato con `ImageServer::SaveDirectory`.
+Stringa di testo. Deve essere vuoto o un percorso di cartella relativo valido. Sempre combinato con il percorso radice assoluto configurato con `ImageServer::SaveDirectory`.
 
 ## Predefinito {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-Ereditato da `default::SavePath` se non è definita. Il salvataggio in file è disattivato se il valore risolto è vuoto.
+Ereditato da `default::SavePath` se non definito. Il salvataggio in file è disattivato se il valore risolto è vuoto.
 
 ## Consultate anche {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

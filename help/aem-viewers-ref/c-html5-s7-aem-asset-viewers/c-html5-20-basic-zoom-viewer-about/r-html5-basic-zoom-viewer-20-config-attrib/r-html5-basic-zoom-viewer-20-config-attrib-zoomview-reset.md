@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 054cd090-2167-4903-ba19-52bc8606370c
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Reimposta la porta di visualizzazione quando cambia fotogramma (immagine). Se impostato su <span class="varname"> 0</span>, mantiene la porta di visualizzazione corrente con la migliore adattamento possibile, mantenendo le proporzioni dell'immagine appena impostata. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Reimposta la porta di visualizzazione quando cambia fotogramma (immagine). Se è impostato su <span class="varname"> 0</span>, la porta di visualizzazione corrente viene mantenuta e la nuova immagine viene adattata nel miglior modo possibile mantenendo le proporzioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>

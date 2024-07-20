@@ -8,7 +8,7 @@ exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ Sintassi
 
 Questo esempio di codice restituisce due formati di pubblicazione vignettatura associati a una società specifica. Le informazioni vengono restituite in un array e troncate per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getVignettePublishFormatsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

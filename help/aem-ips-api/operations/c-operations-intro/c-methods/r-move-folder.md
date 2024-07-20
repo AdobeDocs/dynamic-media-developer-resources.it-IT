@@ -8,7 +8,7 @@ exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ Sintassi
 
 ## Esempi {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <moveFolderParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

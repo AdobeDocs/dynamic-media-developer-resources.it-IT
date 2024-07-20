@@ -35,7 +35,7 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale della visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
@@ -53,24 +53,24 @@ Esempio: per rendere trasparente la visualizzazione principale.
 }
 ```
 
-Sui sistemi desktop il componente supporta `cursortype` selettore di attributi che può essere applicato al `.s7zoomview` classe. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. I seguenti elementi `cursortype` sono supportati i seguenti valori:
+Nei sistemi desktop il componente supporta il selettore di attributi `cursortype` che può essere applicato alla classe `.s7zoomview`. Controlla il tipo di cursore in base allo stato del componente e all’azione dell’utente. Sono supportati i seguenti valori `cursortype`:
 
 * `default`
 
-   Visualizzato quando l&#39;immagine non è ingrandita a causa di una risoluzione ridotta dell&#39;immagine, di impostazioni dei componenti o di entrambi.
+  Visualizzato quando l&#39;immagine non è ingrandita a causa di una risoluzione ridotta dell&#39;immagine, di impostazioni dei componenti o di entrambi.
 
 * `zoomin`
 
-   Viene visualizzato quando è possibile ingrandire l&#39;immagine.
+  Viene visualizzato quando è possibile ingrandire l&#39;immagine.
 
 * `reset`
 
-   Viene visualizzata quando l&#39;immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale.
+  Viene visualizzata quando l&#39;immagine è al massimo livello di zoom e può essere ripristinata allo stato iniziale.
 
 * `drag`
 
-   Viene visualizzato quando l’utente effettua una panoramica dell’immagine ingrandita.
+  Viene visualizzato quando l’utente effettua una panoramica dell’immagine ingrandita.
 
 * `slide`
 
-   Viene visualizzato quando l&#39;utente esegue lo scambio di immagini eseguendo uno scorrimento orizzontale.
+  Viene visualizzato quando l&#39;utente esegue lo scambio di immagini eseguendo uno scorrimento orizzontale.

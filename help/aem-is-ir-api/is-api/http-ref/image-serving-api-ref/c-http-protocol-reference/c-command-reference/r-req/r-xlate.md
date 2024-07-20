@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,15 +25,15 @@ Versioni disponibili specifiche per le impostazioni locali. Restituisce un elenc
  </tr> 
 </table>
 
-Consulta [Traduzione ID oggetto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Vedi [Traduzione ID oggetto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Ad esempio:
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.
+La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::Expiration`.
 
-Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa di `req=` parametro:
+Richieste che supportano il formato di risposta JSONP consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

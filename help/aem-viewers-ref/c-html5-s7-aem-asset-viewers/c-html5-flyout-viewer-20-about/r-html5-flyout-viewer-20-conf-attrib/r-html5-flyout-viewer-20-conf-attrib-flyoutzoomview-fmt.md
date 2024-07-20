@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Specifica il formato immagine da utilizzare per il caricamento delle immagini dal server immagini. Se il formato specificato termina con <span class="codeph"> "-alpha"</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente tratta le immagini come opache. Per impostazione predefinita, il componente ha uno sfondo bianco. Pertanto, per renderlo trasparente, imposta il <span class="codeph"> background-color</span> Proprietà CSS a <span class="codeph"> trasparente</span>. </p> </td> 
+   <td colname="col2"> <p> Specifica il formato immagine da utilizzare per il caricamento delle immagini dal server immagini. Se il formato specificato termina con <span class="codeph"> "-alpha"</span>, il componente riproduce le immagini come contenuto trasparente. Per tutti gli altri formati di immagine, il componente tratta le immagini come opache. Per impostazione predefinita, il componente ha uno sfondo bianco. Per renderlo trasparente, impostare la proprietà CSS <span class="codeph"> background-color</span> su <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

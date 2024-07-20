@@ -8,7 +8,7 @@ exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti tutti i processi attivi di una società in esecuzione in IPS. In questo caso, la risposta è insolita perché il coordinatore della pianificazione IPS è disabilitato senza processi attivi in esecuzione. In circostanze normali, la risposta restituirebbe un certo numero di posti di lavoro attivi.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getActiveJobsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -21,7 +21,7 @@ Nella tabella seguente vengono descritti i tipi di avvisi standard.
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Tipo di avviso</b> </th> 
+   <th class="entry"> <b>Tipo avviso</b> </th> 
    <th class="entry"> <b>ID titolo</b> </th> 
    <th class="entry"> <b>Descrizione</b> </th> 
   </tr> 
@@ -35,7 +35,7 @@ Nella tabella seguente vengono descritti i tipi di avvisi standard.
   <tr> 
    <td> <p>Concorrenza elevata </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Emesso quando il numero di richieste elaborate contemporaneamente (il <i>sovrapposizione</i>) supera la soglia specificata. Può indicare una condizione di sovraccarico del server. </td> 
+   <td> Emesso quando il numero di richieste elaborate contemporaneamente (la <i>sovrapposizione</i>) supera la soglia specificata. Può indicare una condizione di sovraccarico del server. </td> 
   </tr> 
   <tr> 
    <td> <p>Traffico minimo </p> </td> 

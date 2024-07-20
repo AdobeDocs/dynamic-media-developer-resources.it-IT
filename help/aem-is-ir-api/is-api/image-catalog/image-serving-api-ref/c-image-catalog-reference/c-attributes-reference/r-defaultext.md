@@ -24,8 +24,8 @@ Stringa di testo. Deve includere un carattere &#39;.&#39; iniziale e uno o più 
 
 ## Predefinito {#section-1194c36ffe0748c5b9ff7d732a506588}
 
-Ereditato da `default::DefaultExt` se non è definita. Se definito ma vuoto, ai nomi delle immagini non viene applicato alcun suffisso predefinito quando si utilizza questo catalogo.
+Ereditato da `default::DefaultExt` se non definito. Se definito ma vuoto, ai nomi delle immagini non viene applicato alcun suffisso predefinito quando si utilizza questo catalogo.
 
 ## Consultate anche {#section-d7c408b979844643adff8258f500eb7c}
 
-[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
+[catalogo::Percorso](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalogo::PercorsoMaschera](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)

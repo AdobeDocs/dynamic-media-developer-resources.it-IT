@@ -33,6 +33,6 @@ Una tipica risposta delle proprietà di testo ha la seguente struttura generale:
 ...
 ```
 
-*`propertyValue`* può essere vuoto. Lo spazio vuoto è facoltativo all&#39;inizio e alla fine di ogni riga e prima e dopo il separatore =. È possibile utilizzare virgolette singole o doppie per racchiudere i valori stringa, ma non sono obbligatorie.
+*`propertyValue`* potrebbe essere vuoto. Lo spazio vuoto è facoltativo all&#39;inizio e alla fine di ogni riga e prima e dopo il separatore =. È possibile utilizzare virgolette singole o doppie per racchiudere i valori stringa, ma non sono obbligatorie.
 
-I valori stringa possono contenere caratteri di escape in stile JAVA, ad esempio `\n`, `\t`, `\:`, o `\\`.
+I valori stringa possono contenere caratteri di escape in stile JAVA, ad esempio `\n`, `\t`, `\:` o `\\`.

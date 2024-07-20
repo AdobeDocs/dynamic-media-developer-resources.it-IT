@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Dilatare/erodere l&#39;immagine. Applica un dilatatore morfologico (raggio > 0) 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> raggioR</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilatare/erodere il raggio in pixel dove <span class="codeph"><span class="varname"> raggioR</span></span> viene applicato così come è, indipendentemente dal fatto che la maschera venga ricampionata verso il basso (int -100..100). </p></td> 
+  <td class="stentry"> <p>Dilatare/erodere il raggio in pixel dove <span class="codeph"><span class="varname"> raggioR</span></span> viene applicato così com'è, indipendentemente dal fatto che la maschera venga ricampionata verso il basso (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -33,7 +33,7 @@ Si applica al livello corrente o al livello `0` se `layer=comp`.
 
 ## Predefinito {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMaskR=0`, senza alcuna modifica.
+`op_growMaskR=0`, senza modifiche.
 
 ## Consultate anche {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

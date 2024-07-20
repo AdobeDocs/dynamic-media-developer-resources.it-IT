@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il layout del visualizzatore sui dispositivi touch. Quando il parametro è impostato su <span class="codeph"> 1 </span>, il visualizzatore mostra i campioni al di sotto della vista principale sul desktop; sui dispositivi touch, i campioni si sovrappongono alla vista principale. </p> <p>Quando il parametro è impostato su <span class="codeph"> 0 </span>, i campioni vengono visualizzati sotto la vista principale su tutti i tipi di dispositivi. </p> </td> 
+   <td colname="col2"> <p>Specifica il layout del visualizzatore sui dispositivi touch. Quando il parametro è impostato su <span class="codeph"> 1 </span>, il visualizzatore mostra i campioni sotto la vista principale sul desktop; sui dispositivi touch, i campioni si sovrappongono sopra la vista principale. </p> <p>Quando il parametro è impostato su <span class="codeph"> 0 </span>, i campioni vengono visualizzati sotto la vista principale su tutti i tipi di dispositivi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

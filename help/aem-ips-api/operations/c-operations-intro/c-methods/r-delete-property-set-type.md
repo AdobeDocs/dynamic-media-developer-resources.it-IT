@@ -8,7 +8,7 @@ exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -39,9 +39,9 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-In questo esempio di codice viene utilizzato l’handle del tipo come campo nel `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo di set di proprietà.
+In questo esempio di codice viene utilizzato l&#39;handle del tipo come campo in `deletePropertySetTypeParam` inviato al server dei servizi Web IPS per eliminare il tipo del set di proprietà.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deletePropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

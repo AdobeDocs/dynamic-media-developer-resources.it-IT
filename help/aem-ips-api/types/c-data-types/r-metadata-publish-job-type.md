@@ -32,7 +32,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3">Imposta su <span class="codeph"> Vero</span> per pubblicare <i>tutto</i> al server di metadati. <p>Nota: a seconda della quantità di dati, questa operazione può richiedere da alcuni minuti ad alcune ore. </p><p>Non impostare questo parametro se si desidera pubblicare solo metadati nuovi o modificati. </p></td> 
+   <td colname="col3">Impostato su <span class="codeph"> True</span> per pubblicare nuovamente <i>tutti</i> dati nel server metadati. <p>Nota: a seconda della quantità di dati, questa operazione può richiedere da alcuni minuti ad alcune ore. </p><p>Non impostare questo parametro se si desidera pubblicare solo metadati nuovi o modificati. </p></td> 
   </tr> 
  </tbody> 
 </table>

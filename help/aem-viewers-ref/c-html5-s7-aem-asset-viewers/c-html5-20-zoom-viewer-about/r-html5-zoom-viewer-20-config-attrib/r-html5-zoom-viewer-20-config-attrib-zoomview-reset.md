@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Reimposta la porta di visualizzazione quando cambia fotogramma (immagine). Se impostato su <span class="codeph"> 0</span>, mantiene la porta di visualizzazione corrente con la migliore adattamento possibile, mantenendo le proporzioni dell'immagine appena impostata. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> Reimposta la porta di visualizzazione quando cambia fotogramma (immagine). Se è impostato su <span class="codeph"> 0</span>, la porta di visualizzazione corrente viene mantenuta e la nuova immagine viene adattata nel miglior modo possibile mantenendo le proporzioni. </p> </td> 
   </tr> 
  </tbody> 
 </table>

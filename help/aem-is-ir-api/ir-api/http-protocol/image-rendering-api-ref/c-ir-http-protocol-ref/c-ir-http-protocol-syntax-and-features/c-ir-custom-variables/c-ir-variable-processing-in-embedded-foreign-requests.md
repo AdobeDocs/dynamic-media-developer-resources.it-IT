@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Elaborazione delle variabili nelle richieste esterne incorporate{#variable-processing-in-embedded-foreign-requests}
 
-Qualsiasi `$var$` i riferimenti che si verificano in qualsiasi punto all’interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con valori di definizione delle variabili corrispondenti.
+I riferimenti `$var$` che si verificano in qualsiasi punto all&#39;interno delle parentesi graffe di una richiesta esterna incorporata vengono sostituiti con i valori di definizione della variabile corrispondenti.
 
 Consente di inserire richieste esterne incorporate in un modello in un catalogo immagini.
 

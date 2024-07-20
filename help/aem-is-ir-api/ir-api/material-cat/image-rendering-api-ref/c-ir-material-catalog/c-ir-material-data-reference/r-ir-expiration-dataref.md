@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ La scadenza è impostata principalmente per le risposte dei dati immagine. Alcun
 
 ## Proprietà {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Numero reale, -2, -1, 0 o superiore. Numero di ore mancanti alla scadenza dalla generazione dell’immagine di risposta. Impostate questo valore su 0 per far scadere immediatamente l&#39;immagine di risposta e disabilitare quindi la memorizzazione nella cache del client. Imposta su -1 per contrassegnare come `never expire`. In questo caso il server restituisce sempre lo stato 304 (non modificato) in risposta a condizionale `GET` richiede senza verificare se il file è stato effettivamente modificato. Imposta su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
+Numero reale, -2, -1, 0 o superiore. Numero di ore mancanti alla scadenza dalla generazione dell’immagine di risposta. Impostate questo valore su 0 per far scadere immediatamente l&#39;immagine di risposta e disabilitare quindi la memorizzazione nella cache del client. Imposta su -1 per contrassegnare come `never expire`. In questo caso il server restituisce sempre lo stato 304 (non modificato) in risposta alle richieste condizionali `GET` senza verificare se il file è stato effettivamente modificato. Impostare su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
 
 ## Predefinito {#section-79d71706e12a4493a69d7febc3a1f271}
 
@@ -34,4 +34,4 @@ Numero reale, -2, -1, 0 o superiore. Numero di ore mancanti alla scadenza dalla 
 
 ## Consultate anche {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute::Scadenza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [vignettatura::scadenza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[attributo::Scadenza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [vignettatura::Scadenza](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

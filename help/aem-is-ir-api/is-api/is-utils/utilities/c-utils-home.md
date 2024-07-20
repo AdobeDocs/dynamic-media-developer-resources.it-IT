@@ -1,5 +1,5 @@
 ---
-description: La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
+description: La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Medie Image Server e Image Rendering.
 solution: Experience Manager
 title: Utility Image Server
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Utility Image Server{#image-serving-utilities}
 
-La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Media Image Server e Image Rendering.
+La guida alle utility Image Server contiene informazioni sulle utility utilizzate con Dynamic Medie Image Server e Image Rendering.
 
 * [Ubicazione dei servizi](c-location-of-utilities.md)
 * [ic](r-ic.md)

@@ -28,15 +28,15 @@ Il formato dell’URL per il proxy IS è molto simile alle normali richieste IS.
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;numero&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale della larghezza utilizzabile del dispositivo da utilizzare come larghezza dell'immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;numero&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale dell'altezza utilizzabile del dispositivo da utilizzare come altezza dell'immagine. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;numero&gt;</span> </p></td> 
   <td class="stentry"> <p>Specifica la percentuale della proprietà del supporto incorporato con limite di memoria del dispositivo a cui limitare la dimensione della risposta. Questo vale solo per le risposte jpg. La qualità dell’immagine viene ridotta finché la dimensione della risposta non rientra nella percentuale specificata. </p></td> 
  </tr> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: setVideo
-description: Riferimento API JavaScript per Visualizzatore Video360
+description: Riferimento API di JavaScript per il visualizzatore Video360
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
 # setVideo{#setvideo}
 
-Riferimento API JavaScript per Visualizzatore Video360
+Riferimento API di JavaScript per il visualizzatore Video360
 
 `setVideo(videoUrl)`
 
@@ -28,7 +28,7 @@ Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Stringa</span>} un URL assoluto per il nuovo video. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} URL assoluto del nuovo video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

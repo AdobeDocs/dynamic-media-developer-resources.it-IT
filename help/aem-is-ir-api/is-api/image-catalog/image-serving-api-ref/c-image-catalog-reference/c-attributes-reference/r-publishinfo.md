@@ -24,7 +24,7 @@ Stringa di testo.
 
 ## Predefinito {#section-82e5a885e142414f996c609efbb962b1}
 
-Ereditato da `default::PublishInfo` se non è definita o se è vuota.
+Ereditato da `default::PublishInfo` se non definito o se vuoto.
 
 ## Consultate anche {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

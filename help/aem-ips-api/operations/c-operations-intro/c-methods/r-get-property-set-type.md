@@ -8,7 +8,7 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -70,7 +70,7 @@ Sintassi
 
 In questo esempio di codice viene restituito un set di proprietà di tipo per nome.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getPropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

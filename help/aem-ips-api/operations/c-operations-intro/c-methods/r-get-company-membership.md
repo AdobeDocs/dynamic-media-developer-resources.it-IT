@@ -8,7 +8,7 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Sintassi
 
 Questo esempio di codice prende un handle utente e ottiene tutte le appartenenze dell’utente all’azienda in un array. La risposta è stata troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

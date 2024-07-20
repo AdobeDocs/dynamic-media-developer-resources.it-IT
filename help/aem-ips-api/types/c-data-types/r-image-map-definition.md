@@ -24,6 +24,6 @@ Sintassi
 |---|---|---|
 | nome | `xsd:string` | Nome della definizione della mappa immagine. |
 | shapeType | `xsd:string` | Uno dei valori di forma dell&#39;area. |
-| area geografica | `xsd:string` | Coordinate mappa immagine. Il formato si basa sulle HTML `<area>` attributi tag. |
-| action | `xsd:string` | Altri attributi da includere nel HTML `<area>` , incluso `href` URL. |
+| area geografica | `xsd:string` | Coordinate mappa immagine. Il formato è basato sugli attributi tag HTML `<area>`. |
+| action | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l&#39;URL `href`. |
 | abilitato | `xsd:boolean` | True se la mappa immagine è attivata. |

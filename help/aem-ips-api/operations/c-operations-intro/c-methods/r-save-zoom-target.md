@@ -8,7 +8,7 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -39,8 +39,8 @@ Sintassi
 | nome | `xsd:string` | Sì | Nome destinazione di zoom. |
 | xPosition | `xsd:int` | Sì | Posizione pixel sinistro. |
 | yPosition | `xsd:int` | Sì | Posizione dei pixel principali. |
-| width | `xsd:int` | Sì | Zoom larghezza destinazione. |
-| height | `xsd:int` | Sì | Zoom dell&#39;altezza di destinazione. |
+| larghezza | `xsd:int` | Sì | Zoom larghezza destinazione. |
+| altezza | `xsd:int` | Sì | Zoom dell&#39;altezza di destinazione. |
 | userData | `xsd:string` | Sì | Per informazioni specifiche per il cliente. Può contenere qualsiasi tipo di dati. |
 
 **Output (saveZoomTargetReturn)**
@@ -53,7 +53,7 @@ Sintassi
 
 Questo esempio di codice salva una destinazione di zoom. La risposta restituisce l’handle della destinazione di zoom.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <saveZoomTargetParam xmlns="http://www.scene7.com/IpsApi/xsd">

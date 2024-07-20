@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '198'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Sintassi
 
 In questo esempio di codice vengono restituite informazioni sulle risorse generate da una risorsa specifica. Non recupera informazioni sui passaggi utilizzati per generare la risorsa specificata. La risposta viene troncata per brevità.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getGenerationInfoParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

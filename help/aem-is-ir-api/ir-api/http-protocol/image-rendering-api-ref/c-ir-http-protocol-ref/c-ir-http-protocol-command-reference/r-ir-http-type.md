@@ -101,7 +101,7 @@ Tipo di superficie materiale. Specifica il tipo di superficie del materiale.
  </tr> 
 </table>
 
-Utilizzato con `gloss=` e `rough=` per controllare i comportamenti dell&#39;effetto riflessione e lucentezza. Materiali diversi producono effetti diversi, anche se `gloss=` e `rough=` sono uguali.
+Utilizzato con `gloss=` e `rough=` per controllare i comportamenti degli effetti di riflessione e lucentezza. Materiali diversi producono effetti diversi, anche se `gloss=` e `rough=` sono uguali.
 
 ## Proprietà {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Attributo materiale. Ignorato se la vignettatura non include dati di riflessione
 
 ## Predefinito {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Se il materiale è basato su una voce di catalogo. Altrimenti `type=0`. Se non specificato, o se `type=0`, il server seleziona un valore predefinito appropriato a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
+`catalog::Type` Se il materiale è basato su una voce di catalogo. Altrimenti `type=0`. Se non viene specificato o se `type=0`, il server seleziona un valore predefinito appropriato a seconda dell&#39;oggetto di destinazione e degli altri attributi del materiale.
 
 ## Consultate anche {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [ruvido=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

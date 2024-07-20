@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
@@ -35,15 +35,15 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
 
 ## Esempio {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e renderle di 512 x 288 pixel.
+Per impostare un visualizzatore con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni a 512 x 288 pixel.
 
 ```
 .s7video360viewer { 

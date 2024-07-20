@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 4%
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nessuno|dissolvenza|diapositiva </span> </p> </td> 
-   <td colname="col2"> <p>Specifica il tipo di effetto applicato al cambio di fotogramma. Attributo <span class="codeph"> nessuno </span> significa nessuna transizione; il cambiamento di fotogramma avviene immediatamente. Attributo <span class="codeph"> dissolvenza </span> significa transizione di dissolvenza incrociata tra i fotogrammi vecchi e nuovi. Attributo <span class="codeph"> diapositiva </span> attiva la transizione in cui il vecchio fotogramma scorre fuori dalla vista e il nuovo fotogramma scorre all'interno. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nessuna|dissolvenza|diapositiva </span> </p> </td> 
+   <td colname="col2"> <p>Specifica il tipo di effetto applicato al cambio di fotogramma. L'attributo <span class="codeph"> none </span> non rappresenta alcuna transizione; la modifica del frame avviene immediatamente. L'attributo <span class="codeph"> dissolvenza </span> indica una transizione di dissolvenza incrociata tra i fotogrammi vecchi e nuovi. L'attributo <span class="codeph"> diapositiva </span> attiva la transizione in cui il vecchio frame scorre fuori dalla visualizzazione e il nuovo frame scorre all'interno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata </span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica la durata (in secondi) di <span class="codeph"> dissolvenza </span> o <span class="codeph"> diapositiva </span> effetto di transizione. </p> </td> 
+   <td colname="col2"> <p>Specifica la durata (in secondi) dell'effetto di transizione </span> o <span class="codeph"> della dissolvenza </span> di <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spaziatura </span> </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura tra fotogrammi adiacenti in <span class="codeph"> diapositiva </span> transizione, ha l'intervallo tra <span class="codeph"> 0 </span> da a <span class="codeph"> 1 </span> ed è relativo alla larghezza del componente. </p> </td> 
+   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione </span> della diapositiva <span class="codeph"> ha un intervallo compreso tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

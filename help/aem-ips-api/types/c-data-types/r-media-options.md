@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
@@ -40,9 +40,9 @@ Sintassi
    <td colname="col3"> Se è true, il primo fotogramma del video viene estratto e utilizzato come miniatura. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipi:OpzioniMiniatura</span> </td> 
-   <td colname="col3">Facoltativo. Consente di scegliere un fotogramma video particolare da usare come immagine di miniatura. <p>Per specificare una miniatura, trascorri il tempo (in millisecondi dall’inizio del video) per il fotogramma che desideri utilizzare. I valori sono compresi tra 0 e la fine del video. <p>Nota: se l'ora specificata non è corretta, <span class="codeph"> generateThumbnail</span> : il valore predefinito è true. </p></p><p>Consulta <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Opzioni miniature</a>. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opzioni miniatura</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipi:ThumbnailOptions</span> </td> 
+   <td colname="col3">Facoltativo. Consente di scegliere un fotogramma video particolare da usare come immagine di miniatura. <p>Per specificare una miniatura, trascorri il tempo (in millisecondi dall’inizio del video) per il fotogramma che desideri utilizzare. I valori sono compresi tra 0 e la fine del video. <p>Nota: se si specifica l'ora in modo errato, <span class="codeph"> generateThumbnail</span> viene impostato automaticamente su true. </p></p><p>Vedere <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Sintassi
 
 ## Utilizzato da {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Il `mediaOptions` tipo utilizzato da:
+Il tipo `mediaOptions` è utilizzato da:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

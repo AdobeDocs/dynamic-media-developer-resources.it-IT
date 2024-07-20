@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Sintassi
 
 ## TC::directory - Cartella file di registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Cartella in cui è memorizzato [!DNL Platform Server] scrive i file di registro. Può essere un percorso assoluto o un percorso relativo a *`install_folder`*. Il valore predefinito è [!DNL  *`install_folder`*/logs].
+Cartella in cui [!DNL Platform Server] scrive i file di registro. Può essere un percorso assoluto o relativo a *`install_folder`*. Il valore predefinito è [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Il numero di file di registro dei giorni deve essere mantenuto. I nuovi file di 
 
 ## TC::prefix - Nome file log di accesso {#section-1003856323b844049632710a5a056aa7}
 
-Prefisso del nome del file in cui vengono scritti i dati del log degli accessi. La data e il suffisso del file ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) alla stringa specificata. Il nome del file di log degli accessi deve essere diverso da quello del file di log di traccia. Il valore predefinito è &quot; `access-`&quot;.
+Prefisso del nome del file in cui vengono scritti i dati del log degli accessi. La data e il suffisso del file ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sono aggiunti alla stringa specificata. Il nome del file di log degli accessi deve essere diverso da quello del file di log di traccia. Il valore predefinito è &quot;`access-`&quot;.
 
 ## TC::pattern - Schema log degli accessi {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Specifica il pattern di dati per [!DNL Platform Server] accedere ai record del registro. La stringa di pattern specifica le variabili che vengono sostituite con i valori corrispondenti. Tutti gli altri caratteri nella stringa pattern vengono trasferiti letteralmente nel record di registro.
+Specifica il modello di dati per i record del log degli accessi [!DNL Platform Server]. La stringa di pattern specifica le variabili che vengono sostituite con i valori corrispondenti. Tutti gli altri caratteri nella stringa pattern vengono trasferiti letteralmente nel record di registro.
 
-Per utilizzare l&#39;utilità di riscaldamento della cache, è necessario utilizzare gli spazi come separatori di campo. Il [!DNL Platform Server] sostituisce tutti gli spazi e i caratteri &#39;%&#39; nei valori dei campi con `%20` e `%25`, rispettivamente.
+Per utilizzare l&#39;utilità di riscaldamento della cache, è necessario utilizzare gli spazi come separatori di campo. [!DNL Platform Server] sostituisce tutti gli spazi e &#39;%&#39; caratteri nei valori dei campi con `%20` e `%25`, rispettivamente.
 
 Sono supportate le seguenti variabili di pattern:
 
@@ -76,11 +76,11 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>data e ora, formattate come <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> gg </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> sono msec, <span class="varname"> offset </span> è l’offset orario GMT); il valore temporale viene acquisito quando la risposta viene inviata al client. </p> </td> 
+   <td> <p>data e ora, formattate come <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. Scostamento </span> di <span class="varname"> SSS </span> </p> <p> ( <span class="varname"> SSS </span> sono msec, <span class="varname"> offset </span> è l'offset ora GMT); il valore di ora viene acquisito quando la risposta viene inviata al client. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>Metodo di richiesta ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>e così via). </p> </td> 
+   <td> <p>Metodo di richiesta ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span> e così via). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>Uguale a <span class="codeph"> %r </span>, ma applica una codifica HTTP limitata all’URI per evitare problemi di analisi del registro. </p> </td> 
+   <td> <p>Uguale a <span class="codeph"> %r </span>, ma applica una codifica HTTP limitata all'URI per evitare problemi di analisi del registro. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -136,7 +136,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] parola chiave di gestione cache: <span class="codeph"> { RIUTILIZZATO | CREATO | AGGIORNATO | REMOTO | CREATO_IN_REMOTO | AGGIORNATO_IN_REMOTO | CACHE_REMOTA | CONVALIDATO | IGNORATO | NON DEFINITO } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] parola chiave per la gestione della cache: <span class="codeph"> { REUSED | CREATO | AGGIORNATO | REMOTO | REMOTE_CREATED | AGGIORNATO_IN_REMOTO | CACHE_REMOTA | CONVALIDATO | IGNORATO | NON DEFINITO } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +148,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>Il <span class="codeph"> etag </span> valore dell’intestazione di risposta (firma MD5 dei dati di risposta). </p> </td> 
+   <td> <p>Valore dell'intestazione di risposta </span> etag <span class="codeph"> (firma MD5 dei dati di risposta). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>Indirizzo IP del server peer nel cluster di cache che ha recapitato la voce della cache o "-" se <span class="codeph"> CacheUse </span> non è né <span class="codeph"> REMOTE_CREATED </span> né <span class="codeph"> AGGIORNATO_IN_REMOTO </span>. </p> </td> 
+   <td> <p>Indirizzo IP del server peer nel cluster di cache che ha recapitato la voce della cache o '-' se <span class="codeph"> CacheUse </span> non è né <span class="codeph"> REMOTE_CREATED </span> né <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -191,11 +191,11 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>Il tempo necessario [!DNL Platform Server] per inviare una risposta dopo la scrittura dei dati nel flusso di output. </p> </td> 
+   <td> <p>Tempo impiegato da [!DNL Platform Server] per inviare la risposta dopo la scrittura dei dati nel flusso di output. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>Mi piace <span class="codeph"> %B </span>, ma include i valori per le risposte 304 (non modificate). </p> </td> 
+   <td> <p>Come <span class="codeph"> %B </span>, ma include valori per risposte 304 (non modificate). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 

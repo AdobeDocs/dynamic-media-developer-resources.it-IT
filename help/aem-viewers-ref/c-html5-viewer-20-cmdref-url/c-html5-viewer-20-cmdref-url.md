@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Documentazione di riferimento sui comandi comune a tutti i visualizzatori.
 
-I comandi elencati di seguito vengono applicati tramite URL o utilizzando API `setParam()` o `setParams()` metodi.
+I comandi elencati di seguito vengono applicati tramite URL o utilizzando i metodi API `setParam()` o `setParams()`.

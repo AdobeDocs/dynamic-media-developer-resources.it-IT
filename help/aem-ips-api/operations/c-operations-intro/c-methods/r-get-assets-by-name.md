@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -49,24 +49,24 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> La maniglia per l'azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Consente l'accesso come altro utente. Disponibile solo per gli amministratori. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Utilizzato per filtrare per un gruppo specifico. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> matrice dei nomi</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Array di nomi di risorse da recuperare. </td> 
@@ -93,7 +93,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, solo le risorse i cui sottotipi sono in <span class="codeph"> assetSubTypeArray</span> vengono restituiti. </p> <p>Se <span class="codeph"> false</span>, vengono quindi incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> non è vuoto, vengono restituite solo le risorse i cui sottotipi si trovano in <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se <span class="codeph"> false</span>, vengono incluse le risorse senza sottotipo definito. </p> <p>Il valore predefinito è <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -120,7 +120,7 @@ Sintassi
 
 In questo esempio di codice vengono restituite due risorse di tipo immagine.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

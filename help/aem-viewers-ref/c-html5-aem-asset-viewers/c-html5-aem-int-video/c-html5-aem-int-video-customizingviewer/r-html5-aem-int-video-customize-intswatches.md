@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -31,27 +31,27 @@ Il seguente selettore di classe CSS controlla la posizione e l’orientamento de
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pannello dei campioni interattivi </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pannello dei campioni interattivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p>Posizione superiore del pannello dei campioni interattivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p>Posizione inferiore del pannello dei campioni interattivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha lasciato </span> </p> </td> 
    <td colname="col2"> <p>Posizione sinistra del pannello dei campioni interattivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p>Posizione destra nel pannello dei campioni interattivi. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,11 +103,11 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del pannello del ban
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo del pannello del banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore del testo nel pannello del banner. </p> </td> 
   </tr> 
   <tr> 
@@ -123,17 +123,17 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto del pannello del ban
    <td colname="col2"> <p>Dimensione font da utilizzare per il testo all'interno del pannello del banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font da utilizzare per il testo all'interno del pannello del banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allineamento font </span> </p> </td> 
    <td colname="col2"> <p>Allineamento del font da utilizzare per il testo all'interno del pannello del banner. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La descrizione del banner può essere localizzata. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+La descrizione del banner può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +159,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dei campioni:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo dell'area dei campioni. </p> </td> 
   </tr> 
  </tbody> 
@@ -209,11 +209,11 @@ Il seguente selettore di classe CSS controlla l’aspetto delle singole miniatur
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza della miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +225,7 @@ Il seguente selettore di classe CSS controlla l’aspetto delle singole miniatur
 
 >[!NOTE]
 >
->La miniatura supporta `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente selezionata; `state="default"` corrisponde al resto delle miniature; `state="over"` al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse a stati di miniatura diversi. In particolare, `state="selected"` corrisponde alla miniatura per l&#39;immagine attualmente selezionata; `state="default"` corrisponde al resto delle miniature; `state="over"` viene utilizzato al passaggio del mouse.
 
 ## Esempio {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,7 +247,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’etichetta della
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
@@ -255,11 +255,11 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’etichetta della
    <td colname="col2"> <p>Bordo etichetta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allinea testo </span> </p> </td> 
    <td colname="col2"> <p>Allineamento orizzontale del testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,36 +285,36 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto dei pulsanti di scor
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà; al contrario, la logica di visualizzazione li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`, ma la logica del visualizzatore li posiziona automaticamente.
 
 ## Proprietà CSS dell&#39;aspetto dei pulsanti di scorrimento verso l&#39;alto e verso il basso {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>La posizione all'interno dello sprite del disegno, se vengono utilizzati sprite CSS. </p> <p>Vedi anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Spunti CSS </a>. </p> </td> 
+   <td colname="col2"> <p>La posizione all'interno dello sprite del disegno, se vengono utilizzati sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta `state` il selettore di attributi, che puoi utilizzare per applicare skin diversi agli stati dei pulsanti: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;, e &quot; `disabled`&quot;.
+>Questo pulsante supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse agli stati dei pulsanti: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; e &quot; `disabled`&quot;.
 
-Le descrizioni dei pulsanti possono essere localizzate. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) per ulteriori informazioni.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Esempio {#section-e6ce4fa084b84288bc7583342b2c510c}
 

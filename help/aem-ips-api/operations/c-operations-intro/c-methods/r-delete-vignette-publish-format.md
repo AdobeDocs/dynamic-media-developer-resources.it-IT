@@ -8,7 +8,7 @@ exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 In questo esempio di codice viene eliminato un formato di pubblicazione vignettatura specificato dal relativo handle.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deleteVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

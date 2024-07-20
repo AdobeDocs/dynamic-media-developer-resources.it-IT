@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1bc1a67b-7345-44bc-aed9-d20a61929e21
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -35,23 +35,23 @@ L’aspetto delle descrizioni comandi è controllato dal seguente selettore di c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p> Raggio bordo sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore bordo </span> </p> </td> 
    <td colname="col2"> <p> Colore bordo di sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font testo. </p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ L’aspetto delle descrizioni comandi è controllato dal seguente selettore di c
 
 >[!NOTE]
 >
->Se gli stili delle descrizioni comandi vengono personalizzati dalla pagina Web in cui è incorporato, tutte le proprietà devono contenere `!IMPORTANT` regola. Questa regola non è necessaria se le descrizioni comandi vengono personalizzate nel file CSS del visualizzatore.
+>Se gli stili di descrizione comandi vengono personalizzati dalla pagina Web in cui è incorporato, tutte le proprietà devono contenere la regola `!IMPORTANT`. Questa regola non è necessaria se le descrizioni comandi vengono personalizzate nel file CSS del visualizzatore.
 
 Esempio: per impostare descrizioni comandi con un bordo grigio con raggio di 3 pixel, sfondo nero e testo bianco scritto con Arial®, dimensioni 11 pixel:
 

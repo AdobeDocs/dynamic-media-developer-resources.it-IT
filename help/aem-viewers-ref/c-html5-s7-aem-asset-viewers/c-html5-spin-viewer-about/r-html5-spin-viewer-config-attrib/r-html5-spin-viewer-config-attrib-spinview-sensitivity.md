@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Controlla la sensibilità della rotazione orizzontale e verticale eseguita con un trascinamento del mouse. </p> <p> <span class="codeph"> xSensitivity</span> imposta il numero di rotazioni orizzontali del prodotto effettuate se l'utente trascina il mouse orizzontalmente da un lato all'altro della vista. Ad esempio, tre significa che l’utente visualizza tre rotazioni complete per un movimento di trascinamento completo. </p> <p>Analogamente, <span class="codeph"> ySensitivity</span> controlla la sensibilità della rotazione verticale. Il valore 1 indica che una traslazione verticale completa cambia l'angolo di visualizzazione dal piano di rotazione superiore a quello inferiore (o viceversa). </p> <p>Impostazione di un valore negativo per <span class="codeph"> ySensitivity</span> inverte la direzione della rotazione verticale. </p> </td> 
+   <td colname="col2"> <p> Controlla la sensibilità della rotazione orizzontale e verticale eseguita con un trascinamento del mouse. </p> <p> <span class="codeph"> xSensitivity</span> imposta il numero di rotazioni di prodotto orizzontali complete se l'utente trascina il mouse orizzontalmente da un lato all'altro della visualizzazione. Ad esempio, tre significa che l’utente visualizza tre rotazioni complete per un movimento di trascinamento completo. </p> <p>Analogamente, <span class="codeph"> ySensitivity</span> controlla la sensibilità della rotazione verticale. Il valore 1 indica che una traslazione verticale completa cambia l'angolo di visualizzazione dal piano di rotazione superiore a quello inferiore (o viceversa). </p> <p>L'impostazione di un valore negativo per <span class="codeph"> ySensitivity</span> inverte la direzione della rotazione verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

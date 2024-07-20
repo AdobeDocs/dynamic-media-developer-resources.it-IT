@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Consente di ritagliare fino al riquadro di delimitazione di un percorso denominato incorporato. Il ritaglio, a sua volta, cambia le dimensioni dell’immagine.
 
-`cropPathE= *`pathName`*&#42;[, *`pathName`*]`
+`cropPathE= *`nomePercorso`*&#42;[, *`nomePercorso`*]`
 
 <table id="table_598304852E844456AB3AC9FF1F178B71"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> è il nome di un tracciato incorporato nell'immagine sorgente del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se più di uno <span class="codeph"><span class="varname"> pathName</span></span> , il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi <span class="codeph"><span class="varname"> pathName</span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> nomePercorso</span></span> </p> </td> 
+   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> nomePercorso</span></span> è il nome di un percorso incorporato nell'immagine di origine del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se viene specificato più di un percorso <span class="codeph"><span class="varname"> {pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi percorso <span class="codeph"><span class="varname"></span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +39,4 @@ Nessuno, senza ritaglio aggiuntivo del livello.
 
 ## Consultate anche {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[ritagliare](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[ritaglio](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

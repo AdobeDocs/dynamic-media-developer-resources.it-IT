@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Modello di composizione. Consente di specificare un modello di composizione in u
 
 *`template`* deve essere una voce del catalogo immagini con il corpo del modello contenuto in `catalog::Modifier`.
 
-Quando `template=` è presente, l’oggetto specificato nel percorso della richiesta non deve essere applicato come origine per il livello 0. Tuttavia, può essere indicato come `src=` o `mask=` in qualsiasi punto del modello utilizzando la variabile di percorso predefinita `$object$` as a `src=` valore. `catalog::Modifier` dell’oggetto specificato nel percorso della richiesta viene applicata solo con la sostituzione di `$object$` all&#39;interno del modello, mentre `catalog::PostModifier` viene sempre applicato.
+Se `template=` è presente, l&#39;oggetto specificato nel percorso della richiesta non verrà applicato come origine per il livello 0. Tuttavia, è possibile fare riferimento a come `src=` o `mask=` in qualsiasi punto del modello utilizzando la variabile di percorso predefinita `$object$` come valore `src=`. `catalog::Modifier` dell&#39;oggetto specificato nel percorso della richiesta viene applicato solo con la sostituzione di `$object$` all&#39;interno del modello, mentre `catalog::PostModifier` viene sempre applicato.
 
 Il livello 0 è definito nel corpo del modello e può essere un&#39;immagine, un colore a tinta unita, un testo o un livello di richiesta nidificato o incorporato.
 

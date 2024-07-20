@@ -14,12 +14,12 @@ ht-degree: 9%
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`Passaggio`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> Passaggio</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
    <td> <p>Incremento orizzontale. </p> </td> 
   </tr> 
   <tr> 

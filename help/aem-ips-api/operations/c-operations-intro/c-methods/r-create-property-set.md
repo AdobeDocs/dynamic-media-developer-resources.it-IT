@@ -8,7 +8,7 @@ exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ Sintassi
 
 In questo esempio di codice viene creato un set di proprietà contenente nomi e valori di proprietà. La risposta restituisce un handle per il nuovo set di proprietà.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <createPropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

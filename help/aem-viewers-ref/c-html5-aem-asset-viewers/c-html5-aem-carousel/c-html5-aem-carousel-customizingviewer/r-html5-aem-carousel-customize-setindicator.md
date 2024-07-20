@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Imposta indicatore è una serie di punti di cui viene eseguito il rendering nell
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Proprietà CSS dell&#39;indicatore di set**
+**Proprietà CSS dell&#39;indicatore impostato**
 
 L’aspetto del contenitore di indicatori impostato è controllato dal seguente selettore di classe CSS:
 
@@ -35,7 +35,7 @@ L’aspetto del contenitore di indicatori impostato è controllato dal seguente 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale dell'indicatore impostato. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ L’aspetto del contenitore di indicatori impostato è controllato dal seguente 
 
 >[!NOTE]
 >
->L&#39;indicatore Set supporta il selettore di attributi di modalità, che consente di applicare stili diversi per le modalità operative punteggiate e numeriche. In particolare: `mode="numeric"` corrisponde alla modalità operativa numerica; `mode="dotted"` corrisponde allo stato predefinito del punto.
+>L&#39;indicatore Set supporta il selettore di attributi di modalità, che consente di applicare stili diversi per le modalità operative punteggiate e numeriche. In particolare, `mode="numeric"` corrisponde alla modalità operativa numerica; `mode="dotted"` corrisponde allo stato predefinito del punto.
 
 Ad esempio, supponiamo che si desideri impostare un indicatore impostato con uno sfondo bianco:
 
@@ -66,19 +66,19 @@ L&#39;aspetto di un singolo punto indicatore impostato viene controllato con il 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza dell'indicatore impostato punto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del punto indicatore impostato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine sinistro </span> </p> </td> 
    <td colname="col2"> <p>Margine sinistro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine superiore </span> </p> </td> 
    <td colname="col2"> <p>Margine superiore in pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -86,19 +86,19 @@ L&#39;aspetto di un singolo punto indicatore impostato viene controllato con il 
    <td colname="col2"> <p>Margine destro in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine inferiore </span> </p> </td> 
    <td colname="col2"> <p>Margine inferiore in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p>Raggio del bordo in pixel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome del carattere. </p> </td> 
   </tr> 
   <tr> 
@@ -106,15 +106,15 @@ L&#39;aspetto di un singolo punto indicatore impostato viene controllato con il 
    <td colname="col2"> <p>Dimensione del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore del carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Allineamento verticale </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> allineamento verticale </span> </p> </td> 
    <td colname="col2"> <p>Allineamento verticale dell'indice del banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p>Altezza del testo per l'indice del banner. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,9 +122,9 @@ L&#39;aspetto di un singolo punto indicatore impostato viene controllato con il 
 
 >[!NOTE]
 >
->Le voci degli indicatori impostati supportano `state` selettore di attributi, che può essere utilizzato per applicare skin diversi a stati di miniature diversi. In particolare: `state="selected"` corrisponde all’elemento corrente dell’insieme; `state="unselected"` corrisponde allo stato predefinito dell&#39;elemento.
+>Gli elementi degli indicatori impostati supportano il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a stati di miniature diversi. In particolare, `state="selected"` corrisponde all&#39;elemento corrente nel set; `state="unselected"` corrisponde allo stato elemento predefinito.
 
-Si supponga, ad esempio, di voler impostare un indicatore impostato in modalità punteggiata per i sistemi desktop. Si desidera posizionarlo a 20 pixel dalla parte inferiore del visualizzatore. Si desidera inoltre che i punti non selezionati siano neri con trasparenza al 50%, 15 x 15 pixel con sette pixel e angoli arrotondati. I punti selezionati sono neri con trasparenza al 90%, 18 x 18 pixel con nove pixel angoli arrotondati. La spaziatura tra i punti è di cinque pixel.
+Si supponga, ad esempio, di voler impostare un indicatore impostato in modalità punteggiata per i sistemi desktop. Si desidera posizionarlo a 20 pixel dalla parte inferiore del visualizzatore. Si desidera inoltre che i punti non selezionati siano neri con trasparenza al 50%, 15 x 15 pixel con sette pixel angoli arrotondati. I punti selezionati sono neri con trasparenza al 90%, 18 x 18 pixel con nove pixel angoli arrotondati. La spaziatura tra i punti è di cinque pixel.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

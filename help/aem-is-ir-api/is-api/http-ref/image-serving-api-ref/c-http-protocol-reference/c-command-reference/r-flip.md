@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,11 @@ Capovolgi livello. Capovolge il livello orizzontalmente, verticalmente o entramb
 
 Può essere applicato anche ai livelli di testo.
 
-Alcuni comandi, tra cui `extend=`, si applica implicitamente al livello 0 invece del livello composito quando `layer=comp` è selezionato. In tali scenari, tutti i comandi assegnati automaticamente al livello 0 vengono applicati prima dei comandi che si applicano a `layer=comp`. Così, quando `layer=comp`, `extend=` viene applicato prima di `flip=`.
+Alcuni comandi, tra cui `extend=`, si applicano implicitamente al livello 0 invece che al livello composito quando è selezionato `layer=comp`. In tali scenari, tutti i comandi assegnati automaticamente al livello 0 vengono applicati prima dei comandi applicabili a `layer=comp`. Pertanto, quando `layer=comp`, `extend=` viene applicato prima di `flip=`.
 
 >[!NOTE]
 >
->Il livello capovolto viene posizionato in base all&#39;ancoraggio del livello. Diverso `flip=` I valori determinano posizioni di livello diverse quando l&#39;ancoraggio non si trova al centro del livello.
+>Il livello capovolto viene posizionato in base all&#39;ancoraggio del livello. Valori `flip=` diversi determinano posizioni di livello diverse quando l&#39;ancoraggio non si trova al centro del livello.
 
 ## Proprietà {#section-294da2af7be746b5adfc35e29ee68217}
 
@@ -51,4 +51,4 @@ Nessuno.
 
 ## Consultate anche {#section-47f6484deccd420983df15ec163b4a83}
 
-[rotate= ruota](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) , [ancoraggio=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[rotazione=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) , [ancoraggio=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

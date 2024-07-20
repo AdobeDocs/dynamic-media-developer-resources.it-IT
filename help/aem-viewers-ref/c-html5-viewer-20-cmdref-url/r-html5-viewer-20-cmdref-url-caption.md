@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Parametro comune a tutti i visualizzatori.
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto della didascalia WebVTT. Image Server genera il file WebVTT. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Specifica lo stato predefinito dei sottotitoli. Abilitato è <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -50,8 +50,8 @@ Questo visualizzatore supporta i sottotitoli tramite file WebVTT in hosting. I s
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>prova allineamento </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> Controlla l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> mezzo </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> sinistra|destra|centro|inizio|fine </span> </p> </td> 
+   <td colname="col4"> <p> Controlla l'allineamento del testo. </p> <p>Il valore predefinito è <span class="codeph"> </span> intermedio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
@@ -83,7 +83,7 @@ Se nel file WebVTT sono presenti altre funzionalità WebVTT, queste non sono sup
    <td colname="col2"> <p> Specifica un URL o un percorso per il contenuto di sottotitoli WebVTT. Il file WebVTT è gestito da Image Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Specifica lo stato predefinito dei sottotitoli. </p> <p>Abilitato è <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 

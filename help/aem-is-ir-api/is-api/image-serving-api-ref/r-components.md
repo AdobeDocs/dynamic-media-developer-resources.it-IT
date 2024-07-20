@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,11 @@ Dynamic Medie Image Server è costituito dai seguenti componenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
-   <td colname="col2"> <p>applicazione J2EE. Gestisce le connessioni client, la registrazione e le comunicazioni con altri componenti. Accesso HTTP a <span class="filepath"> /is/image</span>. </p> </td> 
+   <td colname="col2"> <p>applicazione J2EE. Gestisce le connessioni client, la registrazione e le comunicazioni con altri componenti. Accesso HTTP in <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servizio di caching </p> </td> 
-   <td colname="col2"> <p>applicazione J2EE. Gestisce [!DNL Platform Server]cache dei dati di. Accesso HTTP in /is/cache. </p> </td> 
+   <td colname="col2"> <p>applicazione J2EE. Gestisce le cache dei dati di [!DNL Platform Server]. Accesso HTTP in /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
@@ -50,17 +50,17 @@ Dynamic Medie Image Server è costituito dai seguenti componenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente rendering testo ATE </p> </td> 
-   <td colname="col2"> <p>Una o più istanze del servizio di rendering del testo potrebbero essere attive quando <span class="codeph"> textPs=</span> vengono eseguite le operazioni. </p> </td> 
+   <td colname="col2"> <p>Una o più istanze del servizio di rendering del testo potrebbero essere attive quando vengono eseguite <span class="codeph"> operazioni textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente rendering SVG </p> </td> 
    <td colname="col2"> <p>Applicazione Java™ autonoma (non ospitata da Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendering immagini Dynamic Medie (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Per l’attivazione è necessaria una licenza separata. Accesso HTTP a <span class="filepath"> /ir/render</span>. Tutte le funzionalità di Image Rendering sono integrate in [!DNL Platform Server] e Image Server, senza componenti eseguibili separati. </p> </td> 
+   <td colname="col1"> <p>Rendering immagini Dynamic Medie (alias Server di rendering) </p> </td> 
+   <td colname="col2"> <p>Per l’attivazione è necessaria una licenza separata. Accesso HTTP in <span class="filepath"> /ir/render</span>. Tutte le funzionalità di Image Rendering sono integrate in [!DNL Platform Server] e nel server immagini, senza componenti eseguibili separati. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le impostazioni di configurazione aggiuntive vengono fornite dal catalogo predefinito ( [!DNL default.ini]) o cataloghi di immagini specifici (vedere [Cataloghi immagini](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) per i dettagli).
+Impostazioni di configurazione aggiuntive vengono fornite dal catalogo predefinito ( [!DNL default.ini]) o da cataloghi di immagini specifici (per ulteriori informazioni, vedere [Cataloghi di immagini](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)).

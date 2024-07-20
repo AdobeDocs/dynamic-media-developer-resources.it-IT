@@ -8,7 +8,7 @@ exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -26,8 +26,8 @@ Sintassi
 | nome | `xsd:string` | Nome destinazione di zoom. |
 | xPosition | `xsd:int` | Posizione X della destinazione di zoom. |
 | yPosition | `xsd:int` | Posizione Y della destinazione di zoom. |
-| width | `xsd:int` | Zoom larghezza destinazione. |
-| height | `xsd:int` | Zoom dell&#39;altezza di destinazione. |
+| larghezza | `xsd:int` | Zoom larghezza destinazione. |
+| altezza | `xsd:int` | Zoom dell&#39;altezza di destinazione. |
 | userData | `xsd:string` | Dati utente associati alla destinazione Zoom. |
 | position | `xsd:int` | Consente di ordinare le destinazioni di zoom associate a una risorsa in base alla posizione |
 | lastModified | `xsd:dateTime` | Data dell’ultima modifica. |

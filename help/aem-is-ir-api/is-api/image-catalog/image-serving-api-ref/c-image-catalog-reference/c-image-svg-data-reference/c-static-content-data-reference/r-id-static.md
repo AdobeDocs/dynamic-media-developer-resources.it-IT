@@ -8,13 +8,13 @@ exl-id: 818649dd-bcb7-4ff5-9308-6b5dc06f66e1
 source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # ID{#id}
 
-In genere si tratta di un identificatore breve e univoco, ad esempio un numero SKU, che può avere una sorta di suffisso, ad esempio se una SKU ha più immagini o varianti specifiche per le impostazioni internazionali. Può anche essere una stringa più complessa, più simile a un percorso di file, per supportare l’adattamento dei siti web tramite Image Server.
+In genere si tratta di un identificatore breve e univoco, ad esempio un numero SKU, che può avere una sorta di suffisso, ad esempio se uno SKU ha più immagini o varianti specifiche per le impostazioni internazionali. Può anche essere una stringa più complessa, più simile a un percorso di file, per supportare l’adattamento dei siti web tramite Image Server.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ In genere si tratta di un identificatore breve e univoco, ad esempio un numero S
 
 ## Proprietà {#section-874a6853f67b4b229341ca76682884ae}
 
-Stringa di testo. Obbligatorio. Identificatore di record per la tabella di dati immagine/SVG o contenuto statico. Ogni `catalog::Id` il valore in questo catalogo immagini/catalogo SVG o in questo catalogo di contenuti statici deve essere univoco e non deve includere i caratteri &quot;,&quot;.
+Stringa di testo. Obbligatorio. Identificatore di record per la tabella di dati immagine/SVG o contenuto statico. Ogni valore `catalog::Id` in questo catalogo immagini/catalogo SVG o in questo catalogo contenuti statico deve essere univoco e non deve includere i caratteri &quot;,&quot;.
 
 ## Predefinito {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

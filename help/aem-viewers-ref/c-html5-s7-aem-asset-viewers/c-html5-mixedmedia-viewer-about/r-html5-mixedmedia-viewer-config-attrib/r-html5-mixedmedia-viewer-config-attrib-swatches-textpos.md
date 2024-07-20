@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|descrizione comando</span> </p> </td> 
-   <td> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura del campione. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Quando <span class="codeph"> descrizione comando</span> è specificato, non viene disegnata alcuna etichetta. </p> </td> 
+   <td> <p> <span class="codeph"> in basso|in alto|a sinistra|a destra|nessuno|descrizione comando</span> </p> </td> 
+   <td> <p> Specifica dove viene disegnata l'etichetta rispetto all'immagine miniatura del campione. In altre parole, l'etichetta viene centrata nella posizione specificata relativa alla miniatura del campione. Se si specifica la descrizione <span class="codeph"></span>, l'etichetta non viene disegnata. </p> </td> 
   </tr> 
  </tbody> 
 </table>

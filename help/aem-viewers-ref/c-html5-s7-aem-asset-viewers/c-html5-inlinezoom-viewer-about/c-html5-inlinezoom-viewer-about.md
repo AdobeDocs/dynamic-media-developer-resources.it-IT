@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## Utilizzo del Visualizzatore zoom in linea {#section-f21ac23d3f6449ad9765588d69584772}
 
-Il Visualizzatore zoom in linea rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il Visualizzatore zoom in linea rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 Il Visualizzatore zoom in linea può essere utilizzato sia in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i Visualizzatori Image Server, sia in modalità incorporata dove è integrato in una pagina web di destinazione utilizzando l’API documentata.
 
 La configurazione e l’interfaccia sono simili a quelle degli altri visualizzatori. Per applicare lo skin, potete utilizzare CSS personalizzato.
 
-Consulta [Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Vedi [Riferimento al comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento al comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interazione con il visualizzatore zoom in linea {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -70,7 +70,7 @@ Il visualizzatore supporta inoltre l&#39;input tocco e mouse sui dispositivi Win
 
 Questo visualizzatore è completamente accessibile da tastiera.
 
-Consulta [Accessibilità della tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulta [Accesso facilitato alla tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporazione visualizzatore zoom in linea {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -80,13 +80,13 @@ Pagine web diverse hanno esigenze diverse per il comportamento del visualizzator
 
 Nella modalità popup, il visualizzatore viene aperto in una finestra del browser Web o in una scheda separata. Occupa l’intera area della finestra del browser e si regola quando la finestra del browser viene ridimensionata o l’orientamento del dispositivo viene modificato.
 
-Questa modalità è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` Chiamata JavaScript configurata correttamente `A` HTML o in qualsiasi altro modo appropriato.
+Questa modalità è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando `window.open()` chiamata JavaScript, `A` elemento HTML configurato correttamente o in qualsiasi altro modo appropriato.
 
-È consigliabile utilizzare la pagina HTML predefinita per la modalità popup denominata `FlyoutViewer.html`. Si trova sotto il [!DNL html5/] sottocartella dell’implementazione standard di Image Server-Viewers:
+È consigliabile utilizzare la pagina di HTML predefinita per la modalità popup denominata `FlyoutViewer.html`. Si trova nella sottocartella [!DNL html5/] della distribuzione standard Image Server-Viewers:
 
 `<s7viewers_root>/html5/FlyoutViewer.html`
 
-È inoltre necessario che il componente FlyoutZoomView sia configurato per funzionare in modalità zoom in linea. Si consiglia di utilizzare il `Scene7SharedAssets/Universal_HTML5_Zoom_Inline` predefinito per il visualizzatore Zoom in linea o un predefinito personalizzato derivato da esso. La personalizzazione visiva può essere ottenuta applicando CSS personalizzati.
+È inoltre necessario che il componente FlyoutZoomView sia configurato per funzionare in modalità zoom in linea. È consigliabile utilizzare il predefinito predefinito `Scene7SharedAssets/Universal_HTML5_Zoom_Inline` predefinito per il visualizzatore zoom in linea o un predefinito personalizzato derivato da esso. La personalizzazione visiva può essere ottenuta applicando CSS personalizzati.
 
 Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
@@ -94,7 +94,7 @@ Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in 
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
-**Incorporazione a dimensione fissa e incorporazione reattiva**
+**Incorporamento a dimensione fissa e incorporamento reattivo**
 
 In modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente, che potrebbe già includere contenuto del cliente non correlato al visualizzatore. Il visualizzatore occupa normalmente solo una parte del patrimonio immobiliare della pagina web.
 
@@ -102,30 +102,30 @@ I casi d’uso principali sono le pagine web orientate per desktop o dispositivi
 
 La modalità di incorporamento a dimensione fissa viene utilizzata quando le dimensioni del visualizzatore non vengono modificate dopo il caricamento iniziale. Questa opzione è consigliata per le pagine Web con layout di pagina statico.
 
-La modalità di incorporamento della progettazione reattiva presuppone che il visualizzatore debba ridimensionarsi durante il runtime in risposta alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
+La modalità di incorporamento della progettazione reattiva presuppone che il visualizzatore debba essere ridimensionato durante il runtime in risposta alla modifica delle dimensioni del contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-Quando si utilizza la modalità di incorporamento della progettazione reattiva con Visualizzatore zoom in linea, assicurarsi di specificare punti di interruzione espliciti per l&#39;immagine della visualizzazione principale utilizzando `imagereload` parametro. Idealmente, fai corrispondere i punti di interruzione con i punti di interruzione di larghezza del visualizzatore come richiesto dal CSS della pagina web.
+Quando si utilizza la modalità di incorporamento della progettazione reattiva con il Visualizzatore zoom in linea, assicurarsi di specificare punti di interruzione espliciti per l&#39;immagine della visualizzazione principale utilizzando il parametro `imagereload`. Idealmente, fai corrispondere i punti di interruzione con i punti di interruzione di larghezza del visualizzatore come richiesto dal CSS della pagina web.
 
-In modalità di incorporamento di una progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui un contenitore di pagine web `DIV` è dimensionato. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando libera la sua altezza, l’utente sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità significa che la risorsa si adatta perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso particolare è il più comune per le pagine web che utilizzano framework di layout di progettazione reattivi come Bootstrap o Foundation.
+In modalità di incorporamento di progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda delle dimensioni di un contenitore di pagine Web `DIV`. Se la pagina Web imposta solo la larghezza del contenitore `DIV`, lasciando libera la sua altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità significa che la risorsa si adatta perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso particolare è il più comune per le pagine web che utilizzano framework di layout di progettazione reattivi come Bootstrap o Foundation.
 
-In caso contrario, se la pagina web imposta sia la larghezza che l’altezza per il contenitore del visualizzatore `DIV`, quindi il visualizzatore occupa solo tale area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio di caso d’uso è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
+In caso contrario, se la pagina Web imposta sia la larghezza che l&#39;altezza per il contenitore del visualizzatore `DIV`, il visualizzatore occuperà solo tale area e seguirà le dimensioni fornite dal layout della pagina Web. Un buon esempio di caso d’uso è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
-**Incorporamento a dimensione fissa**
+**Incorporazione a dimensione fissa**
 
 Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operazioni:
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del contenitore `DIV`.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 
-   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere `FlyoutViewer.js`. `FlyoutViewer.js` è compreso nei seguenti [!DNL html5/js/] sottocartella della distribuzione standard IS-Viewers:
+   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere `FlyoutViewer.js`. `FlyoutViewer.js` si trova nella seguente sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Media di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Media di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
 
 Di seguito è riportato un percorso relativo:
 
@@ -135,18 +135,18 @@ Di seguito è riportato un percorso relativo:
 
 >[!NOTE]
 >
->Fai riferimento solo al visualizzatore principale JavaScript `include` sulla pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML 5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso di contesto (il cosiddetto SDK consolidato) `include`). Il motivo è che l&#39;ubicazione di `Utils.js` o librerie di visualizzatori runtime simili sono completamente gestite dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L’Adobe non mantiene le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
->Di conseguenza, inserendo un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
+>Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del DIV del contenitore.
 
    Aggiungi un elemento DIV vuoto alla pagina in cui vuoi che venga visualizzato il visualizzatore. L’ID dell’elemento DIV deve essere definito, perché questo ID viene successivamente passato all’API visualizzatore.
 
-   Il segnaposto DIV è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
+   Il DIV segnaposto è un elemento posizionato, il che significa che la proprietà CSS `position` è impostata su `relative` o `absolute`.
 
-   È responsabilità della pagina web specificare il `z-index` per l&#39;elemento DIV segnaposto. In questo modo la parte a comparsa del visualizzatore viene visualizzata sopra gli altri elementi della pagina web.
+   È responsabilità della pagina web specificare `z-index` appropriati per l&#39;elemento DIV segnaposto. In questo modo la parte a comparsa del visualizzatore viene visualizzata sopra gli altri elementi della pagina web.
 
    Di seguito è riportato un esempio di un elemento DIV segnaposto definito:
 
@@ -156,11 +156,11 @@ Di seguito è riportato un percorso relativo:
 
 1. Impostazione delle dimensioni del visualizzatore.
 
-   Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi. Sui sistemi desktop, le miniature sono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente di scambiare la risorsa principale durante il runtime utilizzando `setAsset()` API. In qualità di sviluppatore, puoi controllare il modo in cui il visualizzatore gestisce l’area delle miniature nell’area inferiore quando la nuova risorsa ha un solo elemento. È possibile mantenere intatte le dimensioni del visualizzatore esterno e lasciare che la visualizzazione principale aumenti la sua altezza e occupi l’area delle miniature. In alternativa, è possibile mantenere statica la dimensione della visualizzazione principale e comprimere l’area di visualizzazione esterna, consentendo lo spostamento verso l’alto del contenuto della pagina web, e quindi utilizzare l’area immobiliare della pagina gratuita rimasta dalle miniature.
+   Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi. Sui sistemi desktop, le miniature sono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente lo scambio della risorsa principale durante il runtime utilizzando l&#39;API `setAsset()`. In qualità di sviluppatore, puoi controllare il modo in cui il visualizzatore gestisce l’area delle miniature nell’area inferiore quando la nuova risorsa ha un solo elemento. È possibile mantenere intatte le dimensioni del visualizzatore esterno e lasciare che la visualizzazione principale aumenti la sua altezza e occupi l’area delle miniature. In alternativa, è possibile mantenere statica la dimensione della visualizzazione principale e comprimere l’area di visualizzazione esterna, consentendo lo spostamento verso l’alto del contenuto della pagina web, e quindi utilizzare l’area immobiliare della pagina gratuita rimasta dalle miniature.
 
-   Per mantenere intatti i limiti esterni del visualizzatore, definisci le dimensioni per `.s7flyoutviewer` classe CSS di primo livello in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato e successivamente assegnato a un record predefinito visualizzatore in Dynamic Media Classic oppure passato esplicitamente utilizzando il comando style.
+   Per mantenere intatti i limiti del visualizzatore esterno, definire la dimensione per la classe CSS di livello superiore `.s7flyoutviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato e successivamente assegnato a un record predefinito visualizzatore in Dynamic Media Classic oppure passato esplicitamente utilizzando il comando style.
 
-   Consulta [Personalizzazione del visualizzatore zoom in linea](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) per ulteriori informazioni sullo stile del visualizzatore con CSS.
+   Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore zoom in linea](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451).
 
    Di seguito è riportato un esempio di definizione delle dimensioni statiche del visualizzatore esterno in una pagina HTML:
 
@@ -175,9 +175,9 @@ Di seguito è riportato un percorso relativo:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
-   Per rendere statiche le quote della vista principale, definite le dimensioni del visualizzatore in unità assolute per l&#39;area interna `Container` Componente SDK tramite `.s7flyoutviewer .s7container` Selettore CSS. Inoltre, devi sovrascrivere la dimensione fissa definita per `.s7flyoutviewer` classe CSS di primo livello nel CSS visualizzatore predefinito, impostandola su `auto`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
 
-   Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per l&#39;interno `Container` Componente SDK, in modo che l’area di visualizzazione principale non ne modifichi le dimensioni quando si cambia la risorsa:
+   Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -198,13 +198,13 @@ Di seguito è riportato un percorso relativo:
 
 1. Creazione e inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi precedenti, puoi creare un’istanza di `s7viewers.FlyoutViewer` classe, passa tutte le informazioni di configurazione al relativo costruttore e chiama `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Questo oggetto deve avere almeno `containerId` campo contenente il nome dell’ID contenitore del visualizzatore e nidificato `params` Oggetto JSON con parametri di configurazione supportati dal visualizzatore. In questo caso, il `params` l&#39;oggetto deve avere almeno l&#39;URL Image Server passato come `serverUrl` proprietà; la risorsa iniziale come `asset` parametro, percorso base per il caricamento di CSS come `contentUrl` e il nome del predefinito come `config` parametro. API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
+   Dopo aver completato i passaggi precedenti, si crea un&#39;istanza della classe `s7viewers.FlyoutViewer`, si passano tutte le informazioni di configurazione al relativo costruttore e si chiama il metodo `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Questo oggetto deve avere almeno il campo `containerId` che contiene il nome dell&#39;ID contenitore del visualizzatore e l&#39;oggetto JSON `params` nidificato con i parametri di configurazione supportati dal visualizzatore. In questo caso, l&#39;oggetto `params` deve avere almeno l&#39;URL Image Server passato come proprietà `serverUrl`; la risorsa iniziale come parametro `asset`, il percorso di base per il caricamento di CSS come parametro `contentUrl` e il nome del predefinito come parametro `config`. API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
 
-   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per la massima compatibilità, chiama il `init()` metodo immediatamente prima della chiusura `BODY` o sul corpo `onload()` evento.
+   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per garantire la massima compatibilità, chiamare il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sul corpo dell&#39;evento `onload()`.
 
-   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando questa azione si verifica, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando questa azione si verifica, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un’istanza del visualizzatore, mediante il passaggio delle opzioni di configurazione minime necessarie al costruttore e la chiamata al `init()` metodo. L’esempio presuppone `inlineZoomViewer` è l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://s7d1.scene7.com/is/image/` è l’URL di Image Server; e `Scene7SharedAssets/ImageSet-Views-Sample` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un&#39;istanza del visualizzatore, passaggio delle opzioni di configurazione minime necessarie al costruttore e chiamata del metodo `init()`. L&#39;esempio presuppone che `inlineZoomViewer` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `http://s7d1.scene7.com/is/image/` è l&#39;URL di Image Server e `Scene7SharedAssets/ImageSet-Views-Sample` è la risorsa:
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -252,7 +252,7 @@ Di seguito è riportato un percorso relativo:
 
 ## Design reattivo con altezza illimitata {#section-056cb574713c4d07be6d07cf3c598839}
 
-Con l’incorporamento di un design reattivo, la pagina web solitamente dispone di un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Nell’esempio seguente, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per occupare il 40% delle dimensioni della finestra del browser web, senza limitazioni di altezza. Il codice HTML della pagina Web sarà simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Nell&#39;esempio seguente, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni per l&#39;altezza. Il codice HTML della pagina Web sarà simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -272,16 +272,16 @@ Con l’incorporamento di un design reattivo, la pagina web solitamente dispone 
 
 L’aggiunta del visualizzatore a tale pagina è simile alla procedura per l’incorporamento a dimensione fissa. L’unica differenza consiste nel fatto che devi sovrascrivere il dimensionamento fisso del CSS visualizzatore predefinito con le dimensioni impostate in unità relative.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del contenitore `DIV`.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
 Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse, con le tre eccezioni seguenti:
 
-* aggiungi il contenitore `DIV` al &quot;detentore&quot; esistente `DIV`;
-* aggiunto `imagereload` parametro con punti di interruzione espliciti;
-* invece di impostare una dimensione fissa del visualizzatore utilizzando le unità assolute, utilizza gli stili CSS per impostare il visualizzatore `width` e `height` al 100% come nei seguenti casi:
+* aggiungere il contenitore `DIV` al &quot;titolare&quot; esistente `DIV`;
+* ha aggiunto il parametro `imagereload` con punti di interruzione espliciti;
+* invece di impostare una dimensione fissa del visualizzatore utilizzando le unità assolute, utilizza gli stili CSS che impostano il visualizzatore `width` e `height` al 100% come nei seguenti casi:
 
 ```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
@@ -335,7 +335,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 ## Dimensione flessibile che incorpora con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 
-In presenza di un’incorporazione di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al `"holder"` DIV e la centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%.
+In presenza di un’incorporazione di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. La pagina Web imposta inoltre le dimensioni dell&#39;elemento `HTML` e dell&#39;elemento `BODY` al 100%.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -408,7 +408,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 ## Incorporazione tramite API basata su Set {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Invece di utilizzare l’inizializzazione basata su JSON, puoi utilizzare l’API basata su setter e il costruttore no-args. L’utilizzo di questo costruttore API non accetta parametri e i parametri di configurazione vengono specificati utilizzando `setContainerId()`, `setParam()`, e `setAsset()` metodi API, con chiamate JavaScript separate.
+Invece di utilizzare l’inizializzazione basata su JSON, puoi utilizzare l’API basata su setter e il costruttore no-args. L&#39;utilizzo di questo costruttore API non accetta parametri e i parametri di configurazione sono specificati utilizzando i metodi API `setContainerId()`, `setParam()` e `setAsset()`, con chiamate JavaScript separate.
 
 L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con API basate su setter:
 

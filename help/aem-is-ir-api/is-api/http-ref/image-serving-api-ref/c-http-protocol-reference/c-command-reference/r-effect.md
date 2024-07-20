@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '182'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,9 @@ Selezionate Livello effetto. Seleziona un livello effetto e avvia un nuovo segme
  </tr> 
 </table>
 
-Tutti i comandi all&#39;interno del nuovo segmento vengono applicati al livello di effetto specificato. Un segmento di livello effetto termina con il successivo `layer=` o `effect=` o alla fine della richiesta.
+Tutti i comandi all&#39;interno del nuovo segmento vengono applicati al livello di effetto specificato. Un segmento di livello effetto viene terminato dal comando `layer=` o `effect=` successivo o dalla fine della richiesta.
 
-Il valore *`n`* deve essere minore di 0 per gli effetti di livello esterno (ovvero, gli effetti dietro il livello padre) e maggiore di 0 per gli effetti di livello interno (ovvero, gli effetti all&#39;interno del livello padre). I numeri dei livelli di effetto non devono essere consecutivi.
+Il valore *`n`* deve essere minore di 0 per gli effetti di livello esterno (ovvero, effetti dietro il livello padre) e maggiore di 0 per gli effetti di livello interno (ovvero, effetti all&#39;interno del livello padre). I numeri dei livelli di effetto non devono essere consecutivi.
 
 Il numero del livello dell&#39;effetto specifica l&#39;ordine z, se sono presenti più livelli dell&#39;effetto per lo stesso livello padre. I livelli con numero più alto vengono posizionati sopra i livelli con numero più basso.
 

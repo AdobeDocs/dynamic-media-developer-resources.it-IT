@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +21,8 @@ Indica se il visualizzatore inizia a caricare il contenuto video prima dell’in
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Se impostato su <span class="codeph"> 1 </span> il download del video inizia subito dopo l’impostazione della risorsa; in caso contrario, il precaricamento inizia solo dopo che la riproduzione viene avviata dall’utente finale o da una chiamata API. </p> <p>Se impostato su <span class="codeph"> 0 </span> alcune funzioni potrebbero non funzionare fino a quando la riproduzione non riprende; in particolare, l'operazione di ricerca non aggiorna il fotogramma video. Se l'immagine del poster è disattivata, il visualizzatore viene visualizzato come un'area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video potrebbe essere ignorata in alcune versioni di Internet Explorer 11 e dei browser Edge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Se è impostato su <span class="codeph"> 1 </span>, il download del video inizia subito dopo l'impostazione della risorsa; in caso contrario, il precaricamento inizia solo dopo che la riproduzione è stata avviata dall'utente finale o da una chiamata API. </p> <p>Se è impostato su <span class="codeph"> 0 </span>, è possibile che alcune funzionalità non funzionino finché non si riavvia la riproduzione. In particolare, l'operazione di ricerca non aggiorna il fotogramma video. Se l'immagine del poster è disattivata, il visualizzatore viene visualizzato come un'area vuota invece del primo fotogramma video. </p> <p>La disattivazione del precaricamento video potrebbe essere ignorata in alcune versioni di Internet Explorer 11 e dei browser Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,11 @@ Altezza immagine di risposta. Specifica il ridimensionamento dell&#39;immagine d
  </tr> 
 </table>
 
-L’immagine non viene imbottita se entrambi `wid=` e `hei=` sono specificati e la larghezza/altezza è diversa dalle proporzioni dell&#39;immagine.
+L&#39;immagine non viene imbottita se sono specificati sia `wid=` che `hei=` e la larghezza/altezza è diversa dalle proporzioni dell&#39;immagine.
 
-`wid=` e `hei=` definisci insieme le dimensioni dell&#39;immagine restituita dal server. Se `scl=` viene dopo `wid=` o `hei=` nell&#39;URL, annulla tali comandi e `scl=` definisce la dimensione dell&#39;immagine restituita dal server.
+`wid=` e `hei=` collaborano per definire le dimensioni dell&#39;immagine restituita dal server. Se `scl=` viene dopo `wid=` o `hei=` nell&#39;URL, questi comandi vengono annullati e `scl=` definisce la dimensione dell&#39;immagine restituita dal server.
 
-Tuttavia, se `wid=` o `hei=` viene dopo `scl=` nell’URL, annullano `scl=` e `wid=`/ `hei=` definisci le dimensioni dell&#39;immagine restituita dal server.
+Tuttavia, se `wid=` o `hei=` arriva dopo `scl=` nell&#39;URL, annullano `scl=` e `wid=`/ `hei=` definiscono le dimensioni dell&#39;immagine restituita dal server.
 
 >[!NOTE]
 >
@@ -37,12 +37,12 @@ Tuttavia, se `wid=` o `hei=` viene dopo `scl=` nell’URL, annullano `scl=` e `w
 
 ## Proprietà {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Può verificarsi ovunque all’interno della richiesta. Ridimensionamento dell&#39;immagine con `wid=`, `hei=`, o `scl=` non modifica il valore della risoluzione di stampa incorporato nell&#39;immagine di risposta. Ignorato se `scl=` si verifica dopo `wid=` e/o `hei=` nella sequenza di comando.
+Può verificarsi ovunque all’interno della richiesta. Il ridimensionamento dell&#39;immagine con `wid=`, `hei=` o `scl=` non modifica il valore della risoluzione di stampa incorporato nell&#39;immagine di risposta. Ignorato se `scl=` si verifica dopo `wid=` e/o `hei=` nella sequenza di comando.
 
 ## Predefinito {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-Se `wid=`, `hei=`, o `scl=` non sono specificati, l&#39;immagine di risposta viene ridimensionata in base alle dimensioni definite da `attribute::DefaultPix`. Se `attribute::DefaultPix` è vuoto, l’immagine di risposta ha le stesse dimensioni dell’immagine di visualizzazione della vignettatura.
+Se `wid=`, `hei=` o `scl=` non sono specificati, l&#39;immagine di risposta viene ridimensionata in base alle dimensioni definite da `attribute::DefaultPix`. Se `attribute::DefaultPix` è vuoto, l&#39;immagine di risposta ha le stesse dimensioni dell&#39;immagine di visualizzazione della vignettatura.
 
 ## Consultate anche {#section-7ba51379f1e2421c92d3592d20a37734}
 
-[attribute::DefaultPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f) , [attribute::MaxPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657), [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec), [scl=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-scl.md#reference-b14b51a6cbe34f0bba42880540592f29), [resMode=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md#reference-851a5b636f8948cfb11456c9b7dab0d3)
+[attributo::DefaultPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f) , [attributo::MaxPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657), [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec), [scl=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-scl.md#reference-b14b51a6cbe34f0bba42880540592f29), [resMode=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md#reference-851a5b636f8948cfb11456c9b7dab0d3)

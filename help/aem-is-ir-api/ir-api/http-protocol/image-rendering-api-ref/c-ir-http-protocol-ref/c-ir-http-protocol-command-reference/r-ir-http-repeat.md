@@ -97,7 +97,7 @@ Modalità di ripetizione texture. Specifica la modalità di ripetizione per i ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>randomizzatore Edge. </p> </td> 
+  <td class="stentry"> <p>Selettore Edge. </p> </td> 
  </tr> 
 </table>
 

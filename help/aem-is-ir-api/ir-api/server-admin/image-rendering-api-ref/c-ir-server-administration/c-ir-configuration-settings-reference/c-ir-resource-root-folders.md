@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Un elenco di percorsi, delimitato da punti e virgola, funge da directory principali per tutti i file di dati con percorsi di file relativi.
 
-Può essere percorso assoluto o percorso relativo a *[!DNL install_folder]*. Quando si specificano più percorsi, il server tenta ogni radice nell&#39;ordine specificato fino a quando il file non viene trovato. Il valore predefinito è [!DNL ./resources], per un percorso directory principale predefinito di [!DNL install_folder/resources].
+Può essere un percorso assoluto o relativo a *[!DNL install_folder]*. Quando si specificano più percorsi, il server tenta ogni radice nell&#39;ordine specificato fino a quando il file non viene trovato. Il valore predefinito è [!DNL ./resources], per un percorso radice predefinito di [!DNL install_folder/resources].

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 51a779be-568b-40e5-99d9-e875023a2b2c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ Maschera di contrasto. Maschere di contrasto del livello o dell&#39;immagine di 
 
 I parametri vengono applicati così come sono, indipendentemente dal fatto che si sia verificato un downsampling.
 
-`op_usmR= *`quantità`*[, *`raggioR`*[, *`soglia`*[, *`monocromatico`*]]]`
+`op_usmR= *`importo`*[, *`raggioR`*[, *`soglia`*[, *`monocromatico`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> quantità</span></span> </p></td> 
+  <td class="stentry"> <p>Importo <span class="codeph"><span class="varname"></span></span> </p></td> 
   <td class="stentry"> <p>Fattore di intensità del filtro (reale 0...5). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +35,7 @@ I parametri vengono applicati così come sono, indipendentemente dal fatto che s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> monocromatico</span></span> </p></td> 
-  <td class="stentry"> <p>Impostate questo valore su 0 per applicarlo separatamente a ogni componente di colore, oppure su 1 per applicarlo solo alla luminosità (intensità) dell'immagine. </p> <p><span class="codeph"> <span class="varname"> monocromatico</span></span> viene ignorato per le immagini in scala di grigio. </p> </td> 
+  <td class="stentry"> <p>Impostate questo valore su 0 per applicarlo separatamente a ogni componente di colore, oppure su 1 per applicarlo solo alla luminosità (intensità) dell'immagine. </p> <p><span class="codeph"> <span class="varname"> monocromatico</span></span> ignorato per le immagini in scala di grigio. </p> </td> 
  </tr> 
 </table>
 
@@ -43,11 +43,11 @@ Anche la maschera di livello o la maschera composita viene resa più nitida.
 
 ## Proprietà {#section-fb5311b34d164946b74dadb32359518a}
 
-Attributo di livello o attributo di visualizzazione. Si applica al livello corrente o all&#39;immagine della vista finale se `layer=comp`. I livelli degli effetti lo ignorano.
+Attributo di livello o attributo di visualizzazione. Si applica al livello corrente o all&#39;immagine di visualizzazione finale se `layer=comp`. I livelli degli effetti lo ignorano.
 
 ## Predefinito {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usmR=0,0,0,0` senza effetto di maschera di contrasto.
+`op_usmR=0,0,0,0` per nessun effetto di maschera di contrasto.
 
 ## Consultate anche {#section-63f186b8a1b34ec4bb895230838502a4}
 

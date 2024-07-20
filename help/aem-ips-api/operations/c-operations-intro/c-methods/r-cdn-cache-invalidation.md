@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,13 @@ L’annullamento della validità della cache CDN forza la riconvalida di tutte l
 
 Le regole che disciplinano la frequenza di utilizzo di questa funzione sono controllate dai partner CDN di Dynamic Medie. La CDN mantiene la discrezione di degradare la reattività di questi invalidamenti per mantenere prestazioni ottimali del servizio per i suoi utenti. Se Dynamic Medie viene avvisata di un uso eccessivo di questa funzione, Adobe deve ricorrere alla disattivazione della funzione per singola azienda o per l’intero servizio.
 
-**E-mail di conferma**
+**E-Mail Di Conferma**
 
-Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al creatore dell’elenco o a un massimo di 5 altri indirizzi e-mail. L’API invia la conferma quando l’intera rete CDN viene avvisata che gli URL a cui si fa riferimento nell’e-mail sono stati cancellati. Una singola chiamata a `cdnCacheInvalidation` può inviare più e-mail se il numero di URL forniti supera il numero che Dynamic Medie può consegnare al partner CDN con una singola notifica. Attualmente, ciò si verifica se la richiesta supera i 100 URL, ma è soggetta a modifiche in base alla richiesta del partner CDN.
+Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al creatore dell’elenco o a un massimo di 5 altri indirizzi e-mail. L’API invia la conferma quando l’intera rete CDN viene avvisata che gli URL a cui si fa riferimento nell’e-mail sono stati cancellati. Una singola chiamata a `cdnCacheInvalidation` può inviare più e-mail se il numero di URL forniti supera il numero che Dynamic Medie può inviare al partner CDN con una singola notifica. Attualmente, ciò si verifica se la richiesta supera i 100 URL, ma è soggetta a modifiche in base alla richiesta del partner CDN.
 
 **Supportato da**
 
-6.0
+6,0
 
 ## Tipi di utenti autorizzati {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -44,16 +44,16 @@ Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nome</b> </th> 
-   <th class="entry"> <b> Tipo</b> </th> 
+   <th class="entry"> Nome <b></b> </th> 
+   <th class="entry"> Tipo <b></b> </th> 
    <th class="entry"> <b> Obbligatorio</b> </th> 
-   <th class="entry"> <b> Descrizione</b> </th> 
+   <th class="entry"> Descrizione <b></b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Sì </p> </td> 
    <td> <p> L’handle dell’azienda connessa agli URL da invalidare. </p> </td> 
   </tr> 
@@ -71,18 +71,18 @@ Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nome</b> </th> 
-   <th class="entry"> <b> Tipo</b> </th> 
+   <th class="entry"> Nome <b></b> </th> 
+   <th class="entry"> Tipo <b></b> </th> 
    <th class="entry"> <b> Obbligatorio</b> </th> 
-   <th class="entry"> <b> Descrizione</b> </th> 
+   <th class="entry"> Descrizione <b></b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
-   <td colname="col4"> <p>Handle che fa riferimento alla richiesta di eliminazione. </p> <p>Il <span class="codeph"> cdnCacheInvalidation</span> L’API ora invalida la cache quasi immediatamente (~5 secondi). Di conseguenza, in genere non è più necessario eseguire il polling per lo stato di invalidazione. </p> 
+   <td colname="col4"> <p>Handle che fa riferimento alla richiesta di eliminazione. </p> <p>L'API <span class="codeph"> cdnCacheInvalidation</span> invalida la cache quasi immediatamente (~5 secondi). Di conseguenza, in genere non è più necessario eseguire il polling per lo stato di invalidazione. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
@@ -100,9 +100,9 @@ Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al
 
 In questo esempio viene richiesto l’annullamento della validità di quattro URL nella cache CDN. La risposta contiene conteggi riepilogativi del successo delle operazioni e un elenco di dettagli sull’errore forniti direttamente dalla rete CDN per assistere il client nell’utilizzo di questa funzione.
 
-`getCdnCacheInvalidationStatus` operazione.
+Operazione `getCdnCacheInvalidationStatus`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <cdnCacheInvalidationParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-02-14">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ Texture più nitide. Specifica la nitidezza da applicare durante il rendering di
  </tr> 
 </table>
 
-`sharp=1` Applica la nitidezza dopo il rendering del materiale; `sharp=2` applica la nitidezza dopo il ridimensionamento iniziale della texture, ma prima che questa venga trasformata nella scena; `sharp=3` applica la nitidezza sia prima che dopo la trasformazione.
+`sharp=1` Applica la nitidezza dopo il rendering del materiale; `sharp=2` applica la nitidezza dopo il ridimensionamento iniziale della trama, ma prima che venga trasformata nella scena; `sharp=3` applica la nitidezza prima e dopo la trasformazione.
 
 L&#39;algoritmo di nitidezza e la quantità di nitidezza e altri parametri USM (Maschera di contrasto) sono controllati dal modello di materiale predefinito fornito dalla vignettatura o con `rs=`.
 
@@ -51,4 +51,4 @@ Attributo materiale. Ignorato dai materiali a colori.
 
 ## Consultate anche {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[catalogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen= nitidezza](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[catalogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)

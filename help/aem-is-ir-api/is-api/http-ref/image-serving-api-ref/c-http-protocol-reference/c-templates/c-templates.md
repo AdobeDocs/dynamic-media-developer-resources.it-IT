@@ -18,15 +18,15 @@ I modelli possono essere utilizzati per ridurre la lunghezza e la complessità d
 
 Le variabili personalizzate possono essere utilizzate per semplificare ulteriormente l’utilizzo dei modelli. I modelli sono spesso impostati per consentire un semplice scambio di immagini o testo o per impostare altre opzioni in fase di esecuzione.
 
-I modelli vengono memorizzati come record nei cataloghi di immagini, con il corpo del modello nel `catalog::Modifier` e `catalog::Path` campo vuoto o specifica un&#39;immagine di sfondo statica che non può essere modificata dinamicamente.
+I modelli vengono archiviati come record nei cataloghi di immagini, con il corpo del modello nel campo `catalog::Modifier` e il campo `catalog::Path` vuoto oppure specificando un&#39;immagine di sfondo statica che non può essere modificata dinamicamente.
 
-I modelli sono specificati con `template=` o nel componente percorso dell’URL della richiesta. Per la maggior parte delle applicazioni si consiglia di utilizzare il `template=` per specificare i modelli. Il `template=`il comando non deve essere presente nel `catalog::PostModifier` e può essere presente solo nel `catalog::Modifier` in una richiesta IS nidificata (ovvero in una richiesta `src=is{...}` costrutto). Non è possibile fare riferimento ai record del modello in `src=` o `mask=`comandi.
+I modelli sono specificati con il comando `template=` o nel componente percorso dell&#39;URL della richiesta. Per la maggior parte delle applicazioni si consiglia di utilizzare il comando `template=` per specificare i modelli. Il comando `template=` non deve essere presente nel campo `catalog::PostModifier` e può essere presente solo nel campo `catalog::Modifier` in una richiesta IS nidificata, ovvero in un costrutto `src=is{...}`. Non è possibile fare riferimento ai record modello nei comandi `src=` o `mask=`.
 
-Qualsiasi `src=` o `mask=`i comandi incorporati nel modello possono essere risolti nel catalogo principale della richiesta o in un diverso catalogo immagini. In caso negativo `rootId` viene specificato in modo esplicito, si presuppone che il catalogo principale sia. Il modello specificato con `template=` può trovarsi anche nel catalogo principale o in un altro catalogo di immagini.
+Tutti i comandi `src=` o `mask=` incorporati nel modello possono essere risolti nel catalogo principale della richiesta o in un altro catalogo immagini. Se non viene specificato in modo esplicito alcun `rootId`, viene utilizzato il catalogo principale. Il modello specificato con `template=` può trovarsi anche nel catalogo principale o in un altro catalogo immagini.
 
-Si consiglia vivamente di includere sempre le definizioni predefinite per tutte le variabili utilizzate in un modello. In questo modo, l’output dell’immagine del modello può sempre essere visualizzato specificando semplicemente i `attribute::RootId` e `catalog::Id`, senza dover sapere quali variabili vengono utilizzate nel modello.
+Si consiglia vivamente di includere sempre le definizioni predefinite per tutte le variabili utilizzate in un modello. In questo modo, l&#39;output dell&#39;immagine del modello può sempre essere visualizzato specificando i relativi `attribute::RootId` e `catalog::Id`, senza dover sapere quali variabili vengono utilizzate nel modello.
 
-Variabile di sostituzione percorso predefinita `$object$` può essere utilizzato per applicare l&#39;oggetto immagine specificato nel percorso url a qualsiasi sorgente o maschera di livello ( `src=` o `mask=`), anche nelle richieste nidificate o incorporate.
+La variabile di sostituzione percorso predefinita `$object$` può essere utilizzata per applicare l&#39;oggetto immagine specificato nel percorso URL a qualsiasi origine o maschera di livello ( `src=` o `mask=`), anche nelle richieste nidificate o incorporate.
 
 * [Esempio A](r-example-a.md)
 * [Esempio B](r-example-b.md)

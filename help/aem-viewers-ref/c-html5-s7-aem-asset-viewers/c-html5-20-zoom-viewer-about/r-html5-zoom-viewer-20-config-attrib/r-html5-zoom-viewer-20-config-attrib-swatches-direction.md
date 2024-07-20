@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Specifica il modo in cui i campioni vengono visualizzati. </p> <p> <span class="codeph"> left </span> imposta l'ordine di riempimento da sinistra a destra; </p> <p> <span class="codeph"> destra </span> inverte l’ordine in modo che la vista venga riempita da destra a sinistra e dall’alto al basso. </p> <p>Quando <span class="codeph"> auto </span> è impostato, il componente si applica <span class="codeph"> destra </span> modalità quando la lingua è impostata su <span class="codeph"> ja </span>; in caso contrario, viene utilizzato left. </p> </td> 
+   <td> <p> <span class="codeph"> auto|sinistra|destra </span> </p> </td> 
+   <td> <p> Specifica il modo in cui i campioni vengono visualizzati. </p> <p> <span class="codeph"> left </span> imposta l'ordine di riempimento da sinistra a destra; </p> <p> <span class="codeph"> </span> a destra inverte l'ordine in modo che la visualizzazione venga riempita da destra a sinistra e dall'alto al basso. </p> <p>Quando è impostata l'opzione <span class="codeph"> auto </span>, il componente applica la modalità <span class="codeph"> right </span> quando la lingua è impostata su <span class="codeph"> ja </span>; in caso contrario, viene utilizzata la modalità left. </p> </td> 
   </tr> 
  </tbody> 
 </table>

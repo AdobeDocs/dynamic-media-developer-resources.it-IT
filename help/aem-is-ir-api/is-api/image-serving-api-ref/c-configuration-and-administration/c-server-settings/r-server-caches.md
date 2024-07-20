@@ -18,11 +18,11 @@ Utilizza queste impostazioni server per le cache del server.
 
 ## PS::cache.rootPaths - Cartelle dati cache {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Cartelle principali per [!DNL Platform Server]cache del disco di. Uno o più percorsi di file assoluti o relativi a *[!DNL install_folder]*, separati da punto e virgola (;). I dati per la cache di risposta HTTP vengono distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si trovano nella cartella principale della cache (la prima cartella dell’elenco).
+Cartelle radice per la cache su disco di [!DNL Platform Server]. Uno o più percorsi di file assoluti relativi a *[!DNL install_folder]*, separati da punti e virgola (;). I dati per la cache di risposta HTTP vengono distribuiti in modo uniforme in tutte le cartelle specificate. Le cache per le cache ausiliarie (cataloghi di immagini compilati e dati di immagini esterne) si trovano nella cartella principale della cache (la prima cartella dell’elenco).
 
 ## PS::cache.maxSize - Response Data Cache Size {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Dimensione massima della cache di risposta HTTP in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (vedere [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se si specificano più cartelle di dati della cache, i dati della cache vengono distribuiti in modo uniforme in tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è in byte.
+Dimensione massima della cache di risposta HTTP in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (Vedi [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se si specificano più cartelle di dati della cache, i dati della cache vengono distribuiti in modo uniforme in tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è in byte.
 
 ## PS::cache.maxEntries - Max voci cache dati risposta {#section-5603e327e90542a5b50aeeb27b080410}
 
@@ -42,7 +42,7 @@ Occasionalmente Image Server deve salvare su disco i dati intermedi. Il percorso
 
 ## SV::temp - Cartella dei file temporanei di Server Supervisor {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-Occasionalmente, il Server Supervisor deve salvare i dati intermedi su disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Impostazione predefinita: [!DNL  *[!DNL install_folder]*/temp].
+Occasionalmente, il Server Supervisor deve salvare i dati intermedi su disco. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Impostazione predefinita: [!DNL *[!DNL install_folder]*/temp].
 
 >[!NOTE]
 >

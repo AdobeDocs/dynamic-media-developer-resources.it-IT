@@ -8,7 +8,7 @@ exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Handle dell’azienda contenente le risorse immagine. |
+| companyHandle | `xsd:string` | Sì | Handle della società che contiene le risorse immagine. |
 | updateArray | `types:ImageFieldUpdateArray` | Sì | L’array di aggiornamenti dei campi immagine. |
 
 **Output (batchSetImageFields)**
@@ -50,7 +50,7 @@ Sintassi
 
 Questo esempio imposta i dati nei campi di due immagini in un array di aggiornamento. Nell’array, le immagini sono specificate dai relativi handle di risorsa e contengono la risoluzione in pixel, le coordinate di ancoraggio della posizione x e y e i dati utente. La risposta indica che i campi per entrambe le immagini sono stati impostati correttamente.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

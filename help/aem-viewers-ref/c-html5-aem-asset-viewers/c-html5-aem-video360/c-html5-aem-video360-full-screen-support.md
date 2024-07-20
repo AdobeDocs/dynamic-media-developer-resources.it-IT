@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni pre
 
 Sui dispositivi iOS e sui browser Internet Explorer precedenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona per occupare l’intera area della finestra del browser web. Inoltre, l’interfaccia utente del browser web e altre finestre sono ancora visibili sullo schermo.
 
-Un utente entra in modalità a schermo intero e ne esce premendo il pulsante nell’interfaccia utente del visualizzatore. Quando si utilizza la modalità a tutto schermo &quot;nativa&quot; sul desktop, è anche possibile uscire premendo **Esc**.
+Un utente entra in modalità a schermo intero e ne esce premendo il pulsante nell’interfaccia utente del visualizzatore. Se sul desktop viene utilizzata la modalità a schermo intero &quot;nativa&quot;, è possibile uscire premendo **Esc**.

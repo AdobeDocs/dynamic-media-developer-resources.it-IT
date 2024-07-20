@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '100'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Criteri di convalida della cache del server. Specifica quando vengono convalidate le voci della cache lato server.
 
-Con la convalida basata sulla scadenza, le immagini sorgente vengono periodicamente controllate per verificarne la modifica. Con la convalida basata su catalogo, le immagini di origine vengono controllate solo dopo il `catalog::TimeStamp` valore modificato.
+Con la convalida basata sulla scadenza, le immagini sorgente vengono periodicamente controllate per verificarne la modifica. Con la convalida basata sul catalogo, le immagini di origine vengono controllate solo dopo la modifica del valore `catalog::TimeStamp`.
 
 Quando si utilizzano i cataloghi di immagini, si consiglia di eseguire la convalida basata su catalogo. La convalida basata sulla scadenza deve essere utilizzata quando si fa riferimento direttamente alle immagini, senza l’utilizzo di un catalogo di immagini.
 
@@ -26,7 +26,7 @@ Enum. 0 per selezionare la convalida basata su scadenza, 1 per selezionare la co
 
 ## Predefinito {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-Ereditato da `default::CacheValidationPolicy` se non è definita o se è vuota.
+Ereditato da `default::CacheValidationPolicy` se non definito o se vuoto.
 
 ## Consultate anche {#section-a0c922fa519641f2bce05e75e4eb51d0}
 

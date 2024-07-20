@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Viene inviato un avviso di traffico minimo quando il numero medio di richieste r
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Soglia spazio heap disponibile {#section-ce6705045f6842769030ccb1894594cc}
 
-Specifica lo spazio heap Java minimo disponibile. Un avviso di priorità viene inviato subito dopo un ciclo di Garbage Collection Java quando lo spazio heap libero è inferiore a questa soglia. Si consigliano 50 MB per il funzionamento sicuro del [!DNL Platform Server]. Mantenendo lo spazio heap libero al di sopra di questo valore si riduce la frequenza dei cicli di Garbage Collection, che possono migliorare le prestazioni complessive del server. Valore intero in byte, 0 o maggiore.
+Specifica lo spazio heap Java minimo disponibile. Un avviso di priorità viene inviato subito dopo un ciclo di Garbage Collection Java quando lo spazio heap libero è inferiore a questa soglia. 50 MB consigliati per il funzionamento sicuro di [!DNL Platform Server]. Mantenendo lo spazio heap libero al di sopra di questo valore si riduce la frequenza dei cicli di Garbage Collection, che possono migliorare le prestazioni complessive del server. Valore intero in byte, 0 o maggiore.
 
 ## AS::monitorAlertGenerator.maxOverlap - Numero massimo di richieste concorrenti {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

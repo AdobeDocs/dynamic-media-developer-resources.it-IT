@@ -1,5 +1,5 @@
 ---
-title: Riferimento API JavaScript per il visualizzatore di ricerca eCatalog
+title: Riferimento API di JavaScript per il visualizzatore di ricerca eCatalog
 description: La classe principale di eCatalog Search Viewer è eCatalogSearchViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
 source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Riferimento API JavaScript per il visualizzatore di ricerca eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
+# Riferimento API di JavaScript per il visualizzatore di ricerca eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
 
 La classe principale di eCatalog Search Viewer è eCatalogSearchViewer. È dichiarato nello spazio dei nomi s7viewers. Questa API JavaScript riguarda il costruttore, i metodi e i callback di questa particolare classe.
 
-In tutti gli esempi seguenti: `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui è stata creata un&#39;istanza dal `s7viewers.eCatalogSearchViewer` classe.
+In tutti gli esempi seguenti, `<instance>` sta per il nome effettivo dell&#39;oggetto visualizzatore JavaScript di cui è stata creata un&#39;istanza dalla classe `s7viewers.eCatalogSearchViewer`.
 
 * [eliminare](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)

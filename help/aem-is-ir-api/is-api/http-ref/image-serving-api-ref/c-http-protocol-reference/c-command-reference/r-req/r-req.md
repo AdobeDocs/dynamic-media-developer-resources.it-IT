@@ -8,7 +8,7 @@ exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Tipo di richiesta. Specifica il tipo di richiesta.
 
-`req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`di nitidezza`*]`
+`req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`opzioni`*]`
 
 * [catalogprops](r-catalogprops.md)
 * [esiste](r-exists.md)
@@ -39,8 +39,8 @@ Tipo di richiesta. Specifica il tipo di richiesta.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Se non diversamente specificato nelle descrizioni dettagliate, il server restituisce `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text` questa è in genere l’impostazione predefinita, `javascript`, `xml`, o `json`. I tipi MIME di risposta associati sono `text/plain`, `text/javascript`, `text/xml`, e `text/javascript`, rispettivamente.
+Se non diversamente specificato nelle descrizioni dettagliate, il server restituisce `text` risposte con tipo MIME `text/plain`. Molti tipi di richiesta consentono di specificare un tipo di risposta, ad esempio `text` che è in genere il valore predefinito, `javascript`, `xml` o `json`. I tipi MIME di risposta associati sono rispettivamente `text/plain`, `text/javascript`, `text/xml` e `text/javascript`.
 
-Se non diversamente specificato, le risposte formattano la risposta come un insieme di `name=value` coppie.
+Se non diversamente specificato, le risposte formattano la risposta come un set di `name=value` coppie.
 
-Consulta [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
+Vedi [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

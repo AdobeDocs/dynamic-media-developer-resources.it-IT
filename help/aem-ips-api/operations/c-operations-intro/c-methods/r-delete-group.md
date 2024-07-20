@@ -8,7 +8,7 @@ exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo codice di esempio elimina un gruppo da un’azienda. Richiede un handle di gruppo che è necessario ottenere da un&#39;altra operazione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:deleteGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

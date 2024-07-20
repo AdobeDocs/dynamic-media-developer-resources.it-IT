@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '132'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ Configura il modo in cui il componente recupera le nuove immagini per la visuali
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p>Se impostato su <span class="codeph"> 0 </span>, il componente non carica nuove immagini durante il ridimensionamento e la risoluzione immagine nella vista a comparsa non cambia. </p> <p>Se impostato su <span class="codeph"> 1 </span> consente di specificare uno o più punti di interruzione di larghezza per l'immagine caricata nella vista principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p>Se è impostato su <span class="codeph"> 0 </span>, il componente non carica nuove immagini durante il ridimensionamento e la risoluzione dell'immagine nella visualizzazione a comparsa non cambia. </p> <p>Se è impostato su <span class="codeph"> 1 </span>, è possibile specificare uno o più punti di interruzione di larghezza per l'immagine caricata nella visualizzazione principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> punto di interruzione, <span class="varname"> larghezza </span>[; <span class="varname"> larghezza </span>] </span> </p> </td> 
+   <td colname="col1"> <p> Punto di interruzione <span class="codeph">, <span class="varname"> larghezza </span>[; <span class="varname"> larghezza </span>] </span> </p> </td> 
    <td colname="col2"> <p>Punti di interruzione di larghezza per l’immagine caricata nella vista principale. Il componente utilizza sempre le dimensioni migliori per il caricamento iniziale. Dopo il ridimensionamento, l’immagine nella vista principale viene sempre scaricata con la larghezza pari al punto di interruzione più grande più vicino e ridimensionata sul client. </p> </td> 
   </tr> 
  </tbody> 

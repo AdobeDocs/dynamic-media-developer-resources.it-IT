@@ -57,7 +57,7 @@ Processo che ripete una risorsa PDF esistente.
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> opzioni postScript</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
@@ -82,13 +82,13 @@ Processo che ripete una risorsa PDF esistente.
    <td colname="col3"> <p>Matrice di handle di progetto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> impostazione e-mail</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Impostazioni e-mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>URL in cui vengono caricati i file. </p> </td> 
   </tr> 
   <tr> 
@@ -114,20 +114,20 @@ Processo che ripete una risorsa PDF esistente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questa funzionalità consente di sovrapporli ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Consulta<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Maschera lo sfondo per le immagini selezionate. Questa funzionalità consente di sovrapporli ad altri livelli con una trasparenza al di fuori dell'immagine del soggetto. </p> <p>Facoltativo. </p> <p>Vedere<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Note {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Opzioni per `*CropOptions` include:
+Le scelte per `*CropOptions` includono:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opzioni per `*PublishJob` include:
+Le scelte per `*PublishJob` includono:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

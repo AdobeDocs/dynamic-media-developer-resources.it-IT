@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c330c8de-9539-442f-a52a-786f882873cf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 1%
 
 ---
@@ -22,4 +22,4 @@ Enum. Impostate questo valore su 0 per disattivare l&#39;offuscamento della rich
 
 ## Predefinito {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-Ereditato da `default::RequestObfuscation` se non è definita o se è vuota.
+Ereditato da `default::RequestObfuscation` se non definito o se vuoto.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e45e3968-3659-470b-a88a-fe7ba73d8207
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +22,8 @@ La quantità di dettagli inclusi nel messaggio di errore è configurabile con `a
 
 **Immagini di errore**
 
-Image Server può essere configurato per restituire i messaggi di errore di cui è stato eseguito il rendering in un’immagine. Consulta `attribute::ErrorImage` nel catalogo immagini per i dettagli. Se l’immagine di errore viene generata correttamente, lo stato della risposta HTTP è 200. Se si verifica un errore durante l&#39;elaborazione dell&#39;immagine di errore, la risposta di errore HTTP standard e il messaggio di testo vengono restituiti al client.
+Image Server può essere configurato per restituire i messaggi di errore di cui è stato eseguito il rendering in un’immagine. Per ulteriori dettagli, vedere `attribute::ErrorImage` nel catalogo immagini. Se l’immagine di errore viene generata correttamente, lo stato della risposta HTTP è 200. Se si verifica un errore durante l&#39;elaborazione dell&#39;immagine di errore, la risposta di errore HTTP standard e il messaggio di testo vengono restituiti al client.
 
-**Consultate anche**
+**Vedere anche**
 
-[attribute::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) , [attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attributo::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) , [attributo::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)

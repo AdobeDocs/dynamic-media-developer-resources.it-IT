@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 13%
+ht-degree: 9%
 
 ---
 
@@ -45,7 +45,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice sposta una risorsa in una cartella.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

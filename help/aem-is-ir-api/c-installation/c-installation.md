@@ -8,7 +8,7 @@ exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 L&#39;installazione di Image Server include due componenti server principali:
 
-* Image Server. Eseguibile di codice nativo autonomo.
+* Server immagini. Eseguibile di codice nativo autonomo.
 * [!DNL Platform Server]. Un&#39;applicazione Web Java™ e un server applicazioni autonomi.
 
 Image Rendering fa parte di questi due componenti server.

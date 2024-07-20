@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 9%
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
 Restituisce informazioni su immagini, video, campioni e vari metadati associati a catalog::ImageSet per la voce del catalogo immagini specificata nel percorso URL. Questa risposta è una struttura gerarchica determinata dal tipo di set fornito. Quando viene richiesto il formato &#39;xml&#39; o &#39;json&#39; viene applicata la formattazione appropriata.
 
-La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::NonImgExpiration`.
+La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::NonImgExpiration`.
 
 >[!NOTE]
 >
 >Il carattere due punti non è consentito nelle richieste req=set.
 
-Richieste che supportano il formato di risposta JSON consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa di `req=` parametro:
+Richieste che supportano il formato di risposta JSON consentono di specificare il nome del gestore di callback JS utilizzando la sintassi estesa del parametro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

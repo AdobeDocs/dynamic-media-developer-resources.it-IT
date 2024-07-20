@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -20,14 +20,14 @@ Larghezza visualizzazione. Specifica la larghezza dell’immagine di risposta (i
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> Valore <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p>Larghezza immagine in pixel (int maggiore di 0). </p> </td> 
  </tr> 
 </table>
 
-Se entrambi `hei=` e `scl=` l&#39;immagine composita può essere ritagliata in base al `align=` attributo. Quando `fit=` è presente, `wid=` specifica la larghezza esatta, minima o massima dell’immagine di risposta; fai riferimento alla descrizione di `fit=` per i dettagli.
+Se sono specificati sia `hei=` che `scl=`, l&#39;immagine composita potrebbe essere ritagliata in base all&#39;attributo `align=`. Quando `fit=` è presente, `wid=` specifica la larghezza esatta, minima o massima dell&#39;immagine di risposta. Per ulteriori informazioni, fare riferimento alla descrizione di `fit=`.
 
-Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarla. Se entrambi `wid=` e `hei=` sono specificati, e `scl=` non è specificato, quindi l&#39;immagine viene ridimensionata per adattarsi completamente al rettangolo wid/hei, lasciando la minima area di sfondo esposta possibile. In questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione in base al `align=` attributo.
+Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per adattarla. Se sono specificati sia `wid=` che `hei=` e `scl=` non è specificato, l&#39;immagine viene ridimensionata per rientrare completamente nel rettangolo wid/hei, lasciando il minor numero possibile di aree di sfondo esposte. In questo caso, l&#39;immagine viene posizionata all&#39;interno del rettangolo di visualizzazione in base all&#39;attributo `align=`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Se `scl=` non è specificato, l&#39;immagine composita viene ridimensionata per 
 
 ## Predefinito {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Se nessuno dei due `wid=`, `hei=`, né `scl=` , l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita oppure `attribute::DefaultPix`, a seconda di quale dei due valori è inferiore.
+Se non si specificano né `wid=`, `hei=`, né `scl=`, l&#39;immagine di risposta ha le dimensioni dell&#39;immagine composita o `attribute::DefaultPix`, a seconda di quale dei due valori è più basso.
 
 ## Proprietà {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,7 +43,7 @@ Visualizza attributo. Viene applicato indipendentemente dall&#39;impostazione de
 
 ## Esempio {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Richiedi un&#39;immagine in modo che possa rientrare in un rettangolo 200x200; in alto a destra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo viene riempita con `attribute::BkgColor`.
+Richiedi un&#39;immagine in modo che possa rientrare in un rettangolo 200x200; in alto a destra allinea l&#39;immagine se non è quadrata. Qualsiasi area di sfondo è riempita con `attribute::BkgColor`.
 
 ` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 

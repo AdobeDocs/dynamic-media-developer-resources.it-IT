@@ -18,7 +18,7 @@ Formato immagine di risposta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alfa | avif | eps | f4m | gif-alfa | gif | heic | jpeg | jpeg2000-alfa | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alfa | png | png8-alfa | png8 | swf-alfa | swf | swf3-alfa | swf3 | tif-alfa | tif | alfa-web | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alfa | gif | heic | jpeg | jpeg2000-alfa | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alfa | png | png8-alfa | png8 | swf-alfa | swf | swf3-alfa | swf3 | tif-alfa | tif | alfa-web | webp
 
 | *`format`* | Descrizione |
 |---|---|
@@ -34,7 +34,7 @@ Formato immagine di risposta.
 | `jpeg2000` | Lossy e lossless JPEG 2000. |
 | `jpegxr-alpha` | Lossy e lossless JPEG XR con canale alfa. |
 | `jpegxr` | Lossy e lossless JPEG XR. |
-| `jpg` | Lossy JPG. |
+| `jpg` | Perdita JPG-. |
 | `m3u8` | Formato del manifesto di Apple Streaming Server. |
 | `pdf` | Immagine incorporata in PDF. |
 | `pjpeg` | JPEG progressivo. |
@@ -44,7 +44,7 @@ Formato immagine di risposta.
 | `png8` | PNG senza perdita di 8 bit. |
 | `swf-alpha` | Lossy JPEG e una maschera compressa deflata incorporata in un file SWF AS2 di Adobe. |
 | `swf` | Lossy JPEG incorporato in un file SWF AS2 Adobe. |
-| `swf3-alpha` | Lossy JPEG e una maschera compressa deflata incorporata in un file SWF AS3 di Adobe. **Nota:** i formati swf e swf-alfa sono più adatti per le applicazioni ActionScript 2 (Flash Player 8 e versioni precedenti). I formati swf3 e swf3-alpha sono consigliati per l&#39;uso nelle applicazioni ActionScript 3 (Flash Player 9 e versioni successive). |
+| `swf3-alpha` | Lossy JPEG e una maschera compressa deflata incorporata in un file SWF AS3 di Adobe. **Nota:** i formati swf e swf-alpha sono più adatti per le applicazioni ActionScript 2 (Flash Player 8 e versioni precedenti). I formati swf3 e swf3-alpha sono consigliati per l&#39;uso nelle applicazioni ActionScript 3 (Flash Player 9 e versioni successive). |
 | `swf3` | Lossy JPEG incorporato in un file SWF AS3 di Adobe. |
 | `tif-alpha` | TIFF con canale alfa. |
 | `tif` | TIFF. |
@@ -68,27 +68,27 @@ Formato immagine di risposta.
 | `none` | Non compresso. |
 | `zip` | Compressione Deflate (senza perdita di dati). |
 
-* *`format`* specifica il formato di codifica dell’immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l’intestazione di risposta HTTP.
-* *`pixelType`* può essere utilizzato per effettuare la conversione dello spazio colore di output quando `icc=` non è specificato.
+* *`format`* specifica il formato di codifica immagine per i dati immagine inviati al client e il tipo MIME di risposta corrispondente per l&#39;intestazione di risposta HTTP.
+* È possibile utilizzare *`pixelType`* per eseguire la conversione dello spazio colore di output quando `icc=` non è specificato.
 
-  Il profilo colore predefinito corrispondente a *`pixelType`* viene applicata. Se la gestione del colore è disattivata, viene applicata la conversione naïve. *`pixelType`* viene ignorato quando `icc=` viene specificato, che determina il tipo di pixel di output.
+  Viene applicato il profilo colore predefinito corrispondente a *`pixelType`*. Se la gestione del colore è disattivata, viene applicata la conversione naïve. *`pixelType`* viene ignorato quando si specifica `icc=`, che determina il tipo di pixel di output.
 
-* *`compression`* è consentito solo se `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, o `jpegxr-alpha` è specificato come *`format`*. Per informazioni sulle opzioni di compressione supportate per questi formati di immagine, consulta la tabella seguente.
+* *`compression`* è consentito solo se `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` o `jpegxr-alpha` è specificato come *`format`*. Per informazioni sulle opzioni di compressione supportate per questi formati di immagine, consulta la tabella seguente.
 
-È possibile utilizzare `qlt=` per impostare le opzioni di codifica JPEG per i seguenti formati: JPEG, TIFF con compressione JPEG, PDF con compressione JPEG e SWF. WebP, JPEG 2000 e JPEG XR utilizzano anche `qlt=` ma i valori producono qualità diverse per i diversi formati. Utilizzare `quantize=` se `fmt=gif` o `fmt=gif-alpha`. Per ulteriori informazioni, consultare le descrizioni dei comandi. Gli altri formati non dispongono di opzioni impostabili.
+È possibile utilizzare `qlt=` per impostare le opzioni di codifica JPEG per i seguenti formati: JPEG, TIFF con compressione JPEG, PDF con compressione JPEG e SWF. Anche WebP, JPEG 2000 e JPEG XR utilizzano `qlt=`, ma i valori determinano qualità diverse per i diversi formati. Usa `quantize=` se `fmt=gif` o `fmt=gif-alpha`. Per ulteriori informazioni, consultare le descrizioni dei comandi. Gli altri formati non dispongono di opzioni impostabili.
 
 Vengono restituiti 8 bit per componente pixel per tutti *`formats`* e *`pixelTypes`* (8 bit per pixel per GIF).
 
-Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pixelType`*, i corrispondenti tipi MIME di risposta HTTP, se i profili ICC possono essere incorporati (vedi [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) e quali opzioni specifiche per il formato è possibile applicare.
+Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pixelType`*, i tipi MIME di risposta HTTP corrispondenti, se i profili ICC possono essere incorporati (vedere [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) e quali opzioni specifiche del formato è possibile applicare.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> <i> formato</i> </b> </th> 
    <th class="entry"> <b> <i> pixelType</i> </b> </th> 
-   <th class="entry"> <b> Tipo MIME di risposta</b> </th> 
+   <th class="entry"> <b> tipo MIME risposta</b> </th> 
    <th class="entry"> <b>Incorpora profilo ICC</b> </th> 
-   <th class="entry"> <b> Opzioni</b> </th> 
+   <th class="entry"> Opzioni <b></b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -97,21 +97,21 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pix
    <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compressione </span> </span> ( <span class="codeph"> lossy </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> viene ignorato per <span class="codeph"> senza perdita </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
+   <td> <p> Compressione <span class="codeph"> <span class="varname"> </span> </span> ( <span class="codeph"> con perdita </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> ignorato per <span class="codeph"> senza perdita di dati </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
    <td colname="col2"> <p>rgb, grigio, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sì </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= percorso </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> gif, gif-alfa </p> </td> 
    <td colname="col2"> <p>rgb, grigio </p> <p>I dati vengono convertiti in palette dopo la conversione in grigio o rgb. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
    <td colname="col4"> <p>No </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> quantize= quantizza </span> </p> </td> 
+   <td colname="col5"> <p> Quantize <span class="codeph">= </span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> heic </p> </td> 
@@ -125,28 +125,28 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pix
    <td> <p>rgb, grigio </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compressione </span> </span> ( <span class="codeph"> lossy </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> viene ignorato per <span class="codeph"> senza perdita </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
+   <td> <p> Compressione <span class="codeph"> <span class="varname"> </span> </span> ( <span class="codeph"> con perdita </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> ignorato per <span class="codeph"> senza perdita di dati </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, grigio, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sì </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= percorso </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>Il <span class="codeph"> pscan= </span> il parametro si applica solo al formato pjpeg. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>Il parametro <span class="codeph"> pscan= </span> si applica solo al formato pjpeg. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compressione </span> </span> ( <span class="codeph"> lossy </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> viene ignorato per <span class="codeph"> senza perdita </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
+   <td> <p> Compressione <span class="codeph"> <span class="varname"> </span> </span> ( <span class="codeph"> con perdita </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> ignorato per <span class="codeph"> senza perdita di dati </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> pdf </p> </td> 
    <td colname="col2"> <p>rgb, grigio, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;applicazione/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sì </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compressione </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> viene ignorato a meno che <span class="codeph"> <span class="varname"> compressione </span> </span> è impostato su <span class="codeph"> jpeg </span>. </p> </td> 
+   <td colname="col5"> Compressione <span class="codeph"> <span class="varname"> </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> viene ignorato a meno che la compressione <span class="codeph"> <span class="varname"> </span> </span> non sia impostata su <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alfa </p> </td> 
@@ -167,38 +167,38 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`*e *`pix
    <td colname="col2"> <p>rgb, grigio </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
    <td colname="col4"> <p>No </p> <p> <p>Nota: il Flash Player di Adobi ignora i profili ICC incorporati. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::DominiAttendibili </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, attributo <span class="codeph">::DominiAttendibili </span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alfa </p> </td> 
    <td colname="col2"> <p>rgb, grigio, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sì </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compressione </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>solo 'tiff'; 'tiff-alpha' non supporta la compressione jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> viene ignorato a meno che <span class="varname"> compressione </span> è impostato su <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> Compressione <span class="codeph"> <span class="varname"> </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>solo 'tiff'; 'tiff-alpha' non supporta la compressione jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> viene ignorato a meno che la compressione </span> di <span class="varname"> non sia impostata su <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alfa </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>No </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compressione </span> </span> ( <span class="codeph"> lossy </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> viene ignorato per <span class="codeph"> senza perdita </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
+   <td> <p> Compressione <span class="codeph"> <span class="varname"> </span> </span> ( <span class="codeph"> con perdita </span>, <span class="codeph"> senza perdita </span>) </p> <p> <span class="codeph"> qlt= </span> ignorato per <span class="codeph"> senza perdita di dati </span>. </p> <p>Poiché non esiste alcun concetto di downsampling della crominanza con il formato WebP, se si utilizza un secondo valore con <span class="codeph"> qlt </span> (ad esempio, <span class="codeph"> qlt=80,1 </span>) il secondo valore ( <span class="codeph"> 1 </span>) viene ignorato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Proprietà {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione del livello corrente se `req=img` (impostazione predefinita) oppure `req=mask`; altrimenti ignorato.
+Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione del livello corrente se `req=img` (impostazione predefinita) o `req=mask`; altrimenti ignorato.
 
 *`type`* viene ignorato se `iccProfile=` è specificato.
 
 ## Predefinito {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, in cui *`defaultType`* viene gestito come segue: Se `icc=` è specificato, *`defaultType`* corrisponde al tipo di pixel del profilo ICC specificato. Se `icc=` non è specificato, *`defaultType`* è `gray` se `req=mask`, altrimenti è `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, in cui *`defaultType`* viene gestito come segue: se è specificato `icc=`, *`defaultType`* corrisponde al tipo di pixel del profilo ICC specificato. Se `icc=` non è specificato, *`defaultType`* è `gray` se `req=mask`, altrimenti è `rgb`.
 
 ## Esempi {#section-b93222e652df404a84c69025247f07df}
 
-**Richiedi un&#39;immagine di anteprima piccola e di bassa qualità in formato JPEG (impostazione predefinita):**
+**Richiedi un&#39;immagine di anteprima piccola e di bassa qualità in formato JPEG (predefinito):**
 
 ` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
 
@@ -210,7 +210,7 @@ Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione de
 
 ` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Richiedete al canale alfa la stessa immagine di un&#39;immagine TIFF in scala di grigio:**
+**Richiedi il canale alfa per la stessa immagine di un&#39;immagine TIFF in scala di grigio:**
 
 ` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
@@ -218,19 +218,19 @@ Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione de
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Converti la stessa immagine in CMYK utilizzando un profilo ICC diverso e incorpora il profilo nell’immagine TIFF:**
+**Converti la stessa immagine in CMYK utilizzando un profilo ICC diverso e incorpora il profilo nell&#39;immagine TIFF:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**Fornisci questa immagine come file TIF con compressione JPEG senza conversione del tipo di pixel:**
+**Distribuisci questa immagine come file TIF con compressione JPEG senza conversione del tipo di pixel:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**Converti l’immagine in un GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:**
+**Converti l&#39;immagine in un GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
-**Perdita con un livello di qualità di 80:**
+**Perdita con un&#39;impostazione di qualità di 80:**
 
 ` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
@@ -238,7 +238,7 @@ Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione de
 
 ` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
-**Perdita con un livello di qualità di 80:**
+**Perdita con un&#39;impostazione di qualità di 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000&qlt=80`
 
@@ -246,7 +246,7 @@ Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione de
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpeg2000-alpha,,lossless`
 
-**Perdita con un livello di qualità di 80:**
+**Perdita con un&#39;impostazione di qualità di 80:**
 
 `http://server/myRootId/myImageId?wid=300&fmt=jpegxr&qlt=80`
 
@@ -256,4 +256,4 @@ Attributo della richiesta. Si applica indipendentemente dall&#39;impostazione de
 
 ## Consultate anche {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize= quantizza](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed= percorso](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).

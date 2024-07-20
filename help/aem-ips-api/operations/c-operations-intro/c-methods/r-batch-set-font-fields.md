@@ -8,7 +8,7 @@ exl-id: f38aa861-2a81-4663-967e-72611122f51b
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ Imposta i campi dei metadati del tipo di carattere.
 
 ## Esempi {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```javascript {.line-numbers}
 <batchSetFontFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

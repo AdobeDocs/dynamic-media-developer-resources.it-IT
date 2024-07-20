@@ -18,8 +18,8 @@ I livelli vengono posizionati allineando l&#39;origine del livello (origine=) co
 
 Se l&#39;origine del livello non è specificata in modo esplicito per un livello immagine, viene calcolata come segue:
 
-1. Determinate l&#39;ancoraggio dell&#39;immagine. Utilizzare `anchor=`o, se non specificato, `catalog::Anchor`.
-1. Se è definito l&#39;ancoraggio dell&#39;immagine, applicate le trasformazioni di livello e `extend=` per convertirlo in un valore origin=.
-1. Se non è definito alcun ancoraggio immagine, l&#39;origine del livello viene posizionata al centro del rettangolo del livello (dopo l&#39;applicazione `extend=`).
+1. Determinate l&#39;ancoraggio dell&#39;immagine. Utilizzare `anchor=` o, se non specificato, `catalog::Anchor`.
+1. Se l&#39;ancoraggio immagine è definito, applicare il livello trasforma e `extend=` per convertirlo in un valore origin=.
+1. Se non è definito alcun ancoraggio immagine, l&#39;origine del livello viene posizionata al centro del rettangolo del livello (dopo aver applicato `extend=`).
 
-![Immagine di posizionamento livello](assets/layerplacement.png)
+![Immagine posizionamento livello](assets/layerplacement.png)

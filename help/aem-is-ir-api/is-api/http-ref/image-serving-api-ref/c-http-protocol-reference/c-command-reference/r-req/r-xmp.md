@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 7%
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Metadati XMP. Restituisce i metadati XMP associati all’immagine specificata ne
 
 Gli altri comandi vengono ignorati. Si applica la codifica UTF-8. La risposta è formattata come XML con tipo MIME `text/xml`.
 
-La risposta HTTP può essere memorizzata nella cache con TTL basato su `catalog::Expiration`.
+La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::Expiration`.
 
 ## Proprietà {#section-0d26b6a56c844153ae5cea4880370d00}
 
@@ -36,7 +36,7 @@ Se l’URL non include uno o più modificatori di immagine, effettua le seguenti
 copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserved.
 ```
 
-Altrimenti, `req=img`
+In caso contrario, `req=img`
 
 ## Esempi {#section-34213692deab4a0f9037d5844132ee14}
 
@@ -83,4 +83,4 @@ Invia un SMS ai registri del server:
 
 ## Consultate anche {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catalogo::Destinazioni](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::DatiUtente](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Ridimensionamento miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Mappe immagine](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catalogo::destinazioni](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalogo::DatiUtente](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Ridimensionamento miniature](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Proprietà](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Mappe immagine](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

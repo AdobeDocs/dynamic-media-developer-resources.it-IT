@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,12 @@ Utilizzo della maschera immagine. Specifica come utilizzare la maschera o il can
 
 `maskUse=norm|invert|off`
 
-Nella tabella seguente viene illustrato l&#39;effetto di `maskUse=` a seconda della disponibilità e del tipo della maschera (canale alfa) associata all&#39;immagine del livello.
+Nella tabella seguente viene illustrato l&#39;effetto di `maskUse=` in base alla disponibilità e al tipo della maschera (canale alfa) associata all&#39;immagine del livello.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Valore</b> </th> 
+   <th class="entry"> Valore <b></b> </th> 
    <th class="entry"> <b> Nessuna maschera</b> </th> 
    <th class="entry"> <b> Alfa non associata (o immagine maschera separata)</b> </th> 
    <th class="entry"> <b> Alfa associata (premoltiplicata)</b> </th> 
@@ -31,7 +31,7 @@ Nella tabella seguente viene illustrato l&#39;effetto di `maskUse=` a seconda de
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> disattivato </span> </p> </td> 
+   <td> <p> <span class="codeph"> di </span> </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Rettangolo immagine opaco </p> </td> 
    <td> <p> Area di primo piano dell'immagine su un rettangolo riempita di nero pieno </p> </td> 
@@ -55,7 +55,7 @@ Nella tabella seguente viene illustrato l&#39;effetto di `maskUse=` a seconda de
 
 Attributo immagine o livello. Si applica al livello 0 se `layer=comp`. Se viene specificato in un livello di effetto, il comando modifica la maschera ereditata dal livello padre.
 
-Il comportamento di `maskUse=` non è definito e non è supportato se specificato con livelli di testo o di colore tinta unita quando non è applicabile alcuna maschera immagine (specificato con `mask=` o `catalog::Mask`).
+Il comportamento di `maskUse=` non è definito e non è supportato se specificato con livelli di testo o di colore tinta unita quando non è applicabile alcuna maschera immagine (specificata con `mask=` o `catalog::Mask`).
 
 ## Predefinito {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +69,4 @@ Colorare l&#39;area di sfondo di un&#39;immagine; il primo piano dell&#39;immagi
 
 ## Consultate anche {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color= colore](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [mask= maschera](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[colore=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [maschera=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)

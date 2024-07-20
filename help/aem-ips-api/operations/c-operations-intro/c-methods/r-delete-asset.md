@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo codice di esempio elimina qualsiasi tipo di risorsa da una società specifica. Richiede un handle di risorsa, che devi ottenere da un’altra operazione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:deleteAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Parametro comune a tutti i visualizzatori.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Un indice in base zero della pagina all’interno del set di pagine affiancate quando il dispositivo è in orientamento verticale. Per un ambiente "da sinistra a destra": <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". Per un ambiente "da destra a sinistra", è l’opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non specificato, <span class="codeph"> 0</span> viene utilizzato per impostazione predefinita. Ignorato quando il dispositivo è in orientamento orizzontale. </p> </td> 
+   <td colname="col2"> <p>Un indice in base zero della pagina all’interno del set di pagine affiancate quando il dispositivo è in orientamento verticale. Per un ambiente "da sinistra a destra", <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". Per un ambiente "da destra a sinistra", è opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non specificato, <span class="codeph"> 0</span> viene utilizzato per impostazione predefinita. Ignorato quando il dispositivo è in orientamento orizzontale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

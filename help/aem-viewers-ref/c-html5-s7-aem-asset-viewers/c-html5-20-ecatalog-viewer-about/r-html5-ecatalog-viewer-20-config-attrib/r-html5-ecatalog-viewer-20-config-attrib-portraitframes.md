@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solido</span> </p> </td> 
-   <td colname="col2"> <p>Imposta su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare pagine doppie come pagina separata se utilizzato su dispositivi mobili con orientamento verticale. Imposta su <span class="codeph"> solido</span> per visualizzare sempre le pagine doppie come immagini a tinta unita, indipendentemente dall'orientamento del dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
+   <td colname="col2"> <p>Imposta su <span class="codeph"> split</span> per consentire al visualizzatore di visualizzare pagine doppie come pagina separata se utilizzato su dispositivi mobili con orientamento verticale. Imposta su <span class="codeph"> solido</span> per visualizzare sempre le pagine doppie come immagini continue, indipendentemente dall'orientamento del dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

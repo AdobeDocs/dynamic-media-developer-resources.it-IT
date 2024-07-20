@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Dimensione decalcomania. Larghezza, altezza e spessore di un oggetto materiale d
 
 Tre numeri reali separati da virgole. Non deve essere negativo. Imposta i valori non utilizzati su 0. È possibile omettere gli zeri finali.
 
-Specificate sia la larghezza che l&#39;altezza solo se l&#39;immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero cambiare). Impostate la larghezza o l&#39;altezza per ridimensionare l&#39;immagine in modo proporzionale. Imposta larghezza e altezza su 0 per utilizzare `catalog::Resolution`per determinare la dimensione dell&#39;oggetto.
+Specificate sia la larghezza che l&#39;altezza solo se l&#39;immagine deve essere allungata per adattarsi alle dimensioni specificate (le proporzioni potrebbero cambiare). Impostate la larghezza o l&#39;altezza per ridimensionare l&#39;immagine in modo proporzionale. Impostare larghezza e altezza su 0 per utilizzare `catalog::Resolution` per determinare la dimensione dell&#39;oggetto.
 
 Fornite un valore di spessore per aggiungere un&#39;ombra esterna all&#39;oggetto decalcomania. Facoltativo per i materiali di decalcomania, ignorato da tutti gli altri materiali.
 
@@ -40,7 +40,7 @@ Fornite un valore di spessore per aggiungere un&#39;ombra esterna all&#39;oggett
   <td class="stentry"> <p>La decalcomania è larga 5 pollici, l'altezza è determinata dalle proporzioni dell'immagine e un'ombra esterna viene riprodotta in base a uno spessore di 1 pollice. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0,5 </p></td> 
   <td class="stentry"> <p>La larghezza e l'altezza della decalcomania sono determinate da catalog::Resolution e che lo spessore della decalcomania sia di ½ pollice. </p></td> 
  </tr> 
 </table>

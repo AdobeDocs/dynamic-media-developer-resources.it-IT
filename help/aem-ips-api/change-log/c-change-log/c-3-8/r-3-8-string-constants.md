@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Sintassi
 
 ## Nuove costanti {#section-8171990eacae40c690830256f69e7afa}
 
-**Forma Regione**
+**Forma area**
 
 * Utilizzato da: `ImageMap/shapeType`, `saveImageMapParam/shapeType`
 
 * Valori: `Rectangle` e `Polygon`.
 
-**Stato pubblicazione**
+**Stato Publish**
 
 * Utilizzato da: `searchAssetsParam/publishState` e `setAssetPublishStateParam/publishState`.
 

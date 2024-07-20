@@ -18,4 +18,4 @@ Il valore di risoluzione di una texture ripetibile o di altro materiale definisc
 
 I valori di risoluzione della texture sono specificati in pixel per pollice (o in base all&#39;unità di misura determinata dalla vignettatura per lo spazio di coordinate della scena).
 
-La risoluzione del materiale viene specificata con `res=`.
+Risoluzione del materiale specificata con `res=`.

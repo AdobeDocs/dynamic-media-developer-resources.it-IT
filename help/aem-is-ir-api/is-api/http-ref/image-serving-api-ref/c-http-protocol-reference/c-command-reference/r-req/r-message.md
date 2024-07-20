@@ -25,4 +25,4 @@ Messaggio client. Fornisce un meccanismo che consente ai client di inserire brev
  </tr> 
 </table>
 
-Risposta HTTP non memorizzabile in cache. Viene restituita una risposta vuota con tipo MIME `text/plain`.
+Risposta HTTP non memorizzabile in cache. È stata restituita una risposta vuota con tipo MIME `text/plain`.

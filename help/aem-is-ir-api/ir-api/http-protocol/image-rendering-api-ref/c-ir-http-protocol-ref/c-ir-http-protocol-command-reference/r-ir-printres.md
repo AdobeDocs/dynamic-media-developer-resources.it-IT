@@ -20,7 +20,7 @@ Risoluzione di stampa. Sostituisce il valore della risoluzione di stampa incorpo
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>Valore <span class="varname"></span> </p> </td> 
   <td class="stentry"> <p>Risoluzione di stampa (dpi). </p></td> 
  </tr> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 3%
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
@@ -24,12 +24,12 @@ Questo tipo di dati è facoltativo e disattivato per impostazione predefinita.
 
 >[!IMPORTANT]
 >
->Se si sta configurando `KnockoutBackgroundOptions` in Adobe Experience Manager, utilizza i seguenti parametri:
+>Se stai configurando `KnockoutBackgroundOptions` in Adobe Experience Manager, utilizza i seguenti parametri:
 >* `kbCorner`
 >* `kbTolerance`
 >* `kbFillMethod`
 >
->Ad esempio: `kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
+>Esempio: `kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -42,7 +42,7 @@ Questo tipo di dati è facoltativo e disattivato per impostazione predefinita.
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> angolo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Seleziona l'angolo da utilizzare. <span class="codeph"> angolo</span> accetta i seguenti valori: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
@@ -61,11 +61,11 @@ Questo tipo di dati è facoltativo e disattivato per impostazione predefinita.
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
-   <td colname="col3"> <p>Controlla la trasparenza dei pixel nella posizione specificata da <span class="codeph"><span class="varname"> angolo</span></span> variabile. Il <span class="codeph"> fillMethod</span> accetta i seguenti valori: </p> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Metodo di riempimento</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>Controlla la trasparenza dei pixel nella posizione specificata dalla variabile <span class="codeph"><span class="varname"> corner</span></span>. <span class="codeph"> fillMethod</span> accetta i seguenti valori: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> RiempimentoInondazione</span>: rende trasparenti tutti i pixel nell’angolo specificato. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: rende trasparenti tutti i pixel nell'angolo specificato. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla posizione. </li> 
     </ul> </td> 
   </tr> 
@@ -89,8 +89,8 @@ Questo tipo di dati è facoltativo e disattivato per impostazione predefinita.
 
 ## Utilizzato da {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Il `KnockoutBackgroundOptions` tipo utilizzato da:
+Il tipo `KnockoutBackgroundOptions` è utilizzato da:
 
-* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [ProcessoDirectoryCaricamento](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [ProcessoPostCaricamento](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

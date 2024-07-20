@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -36,19 +36,19 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
    <td> <p>Posizione in punti intermedi; il valore predefinito è 6. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \crenatura <span class="varname"> N </span> </span> </td> 
+   <td> <span class="codeph"> \crenatura di <span class="varname"> N </span> </span> </td> 
    <td> <p>Disabilita/abilita alla dimensione font specificata. </p> </td> 
    <td> <p>Dimensione font in punti dimezzati, sopra la quale applicare la crenatura; 0 per disattivare la crenatura; il valore predefinito è 1 per crenatura di tutte le dimensioni font superiori a ½ punto. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \crenatura ottica </span> </td> 
+   <td> <span class="codeph"> \kerningoptical </span> </td> 
    <td> <p>Selezionare crenatura ottica. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= solo </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric </span> </td> 
    <td> <p>Selezionate la crenatura metrica. </p> </td> 
-   <td> <p>Predefinito. </p> </td> 
+   <td> <p>Impostazione predefinita. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \expnd <span class="varname"> N </span> </span> </td> 
@@ -56,7 +56,7 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
    <td> <p>Quarti positivi o negativi; il valore predefinito è 0. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \expndt <span class="varname"> N </span> </span> </td> 
+   <td> <span class="codeph"> \expndtw <span class="varname"> N </span> </span> </td> 
    <td> <p>Modificare la spaziatura dei caratteri. </p> </td> 
    <td> <p>Twip positivi o negativi. </p> </td> 
   </tr> 
@@ -68,37 +68,37 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Ridimensionamento verticale dei caratteri. </p> </td> 
-   <td> <p>Percentuale positiva o negativa; il valore predefinito è 100; estensione Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> ridimensiona anche l'interlinea quando viene applicato con <span class="codeph"> text= Testo </span>. <span class="codeph"> textPs= </span> mantiene sempre l'interlinea indipendentemente dal ridimensionamento verticale dei caratteri. </p> </td> 
+   <td> <p>Percentuale positiva o negativa; il valore predefinito è 100; estensione Dynamic Medie. </p> <p> <span class="codeph"> \charscaley </span> ridimensiona anche l'interlinea se applicata con <span class="codeph"> testo= </span>. <span class="codeph"> textPs= </span> mantiene sempre l'interlinea indipendentemente dal ridimensionamento verticale dei caratteri. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
    <td> <p>Seleziona il flusso di caratteri da sinistra a destra. </p> </td> 
-   <td> <p>Predefinito. </p> </td> 
+   <td> <p>Impostazione predefinita. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \rtlch </span> </td> 
    <td> <p>Seleziona il flusso di caratteri da destra a sinistra. </p> </td> 
-   <td> <p> <span class="codeph"> text= Testo </span> solo. </p> </td> 
+   <td> <p> <span class="codeph"> testo= solo </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>Attivate l'adattamento per la copia e impostate le dimensioni massime consentite per il carattere. </p> </td> 
-   <td> <p>Dimensione del font in punti dimezzati; <span class="codeph"> textPs= </span> solo; estensione Dynamic Media. </p> </td> 
+   <td> <p>Dimensione font in punti dimezzati; <span class="codeph"> solo textPs= </span>; estensione Dynamic Medie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Numero massimo di righe di adattamento della copia (limitazione soft). </p> </td> 
-   <td> <p>0 in assenza di limitazione della linea; <span class="codeph"> textPs= </span> solo; estensione Dynamic Media. </p> </td> 
+   <td> <p>0 senza limitazione di riga; <span class="codeph"> solo textPs= </span>; estensione Dynamic Medie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Numero massimo di righe di adattamento alla copia (troncamento). </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo; estensione Dynamic Media. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= solo </span>; estensione Dynamic Medie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 
    <td> <p>Orientamento carattere. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> solo; ignorato per font non romani; ignorato quando <span class="codeph"> \stextflow1 </span> non è in vigore. </p> <p>0 verticale (impostazione predefinita). </p> <p>1 ruotato di 90 gradi in senso orario. </p> </td> 
+   <td> <p> <span class="codeph"> solo textPs= </span>; ignorato per i font non romani; ignorato quando <span class="codeph"> \stextflow1 </span> non è attivo. </p> <p>0 verticale (impostazione predefinita). </p> <p>1 ruotato di 90 gradi in senso orario. </p> </td> 
   </tr> 
  </tbody> 
 </table>

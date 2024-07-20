@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -40,13 +40,13 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Gestore azienda. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Handle campo tag. </td> 
   </tr> 
@@ -71,7 +71,7 @@ Sintassi
 
 ## Esempi {#section-bb4dcf97044c4675974c9b8d27674001}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <updateTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

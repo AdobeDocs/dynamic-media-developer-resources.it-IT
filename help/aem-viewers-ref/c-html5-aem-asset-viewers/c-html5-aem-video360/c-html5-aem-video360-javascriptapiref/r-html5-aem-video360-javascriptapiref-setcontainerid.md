@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Riferimento API JavaScript per Visualizzatore Video360.
+description: Riferimento API di JavaScript per il visualizzatore Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,27 +8,27 @@ exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-Riferimento API JavaScript per Visualizzatore Video360.
+Riferimento API di JavaScript per il visualizzatore Video360.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l&#39;ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Deve essere chiamato prima di `init()`.
+Imposta l&#39;ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l&#39;oggetto JSON `config` al costruttore.
 
 ## Parametro {#section-fa807db629ce43bab286b1e1dc96c492}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID del contenitore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID contenitore </span> </span> </p> </td> 
+   <td colname="col2"> <p> ID <span class="codeph"> {string} </span> del contenitore. </p> </td> 
   </tr> 
  </tbody> 
 </table>

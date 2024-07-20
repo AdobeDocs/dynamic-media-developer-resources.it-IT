@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,59 +31,57 @@ Sintassi
 
 **Aggiunto**
 
-* Aggiunto `isHidden` e `initialTagValue` a:
+* Aggiunti `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Aggiunto `thumbAssetHandle` a:
+* Aggiunta di `thumbAssetHandle` a:
 
    * `createImageSet`
    * `createAssetSet`
 
-   Aggiunto `companyHandle` a:
+  Aggiunta di `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   Aggiunto `contextHandle` a:
+  Aggiunta di `contextHandle` a:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
 * IncludeInactive aggiunto a:
 
    * `getUsers`.
    * `getUserChars`.
 
-* Aggiunto `permissionArray` a `createPropertySet`.
+* Aggiunta di `permissionArray` a `createPropertySet` completata.
 
-* Aggiunto `exportJob` a `submitJob`.
+* Aggiunta di `exportJob` a `submitJob` completata.
 
 **Modificato**
 
-* In entrata `addUser` e `setUser`, modificato `role` a `defaultRole`.
+* In `addUser` e `setUser`, è stato modificato `role` in `defaultRole`.
 
-* In entrata `getCompanyMembers`, modificato `userArray` a `memberArray`.
+* In `getCompanyMembers`, è stato modificato `userArray` in `memberArray`.
 
-* In entrata `getCompanyMembership`, modificato `companyArray` a `membershipArray`.
+* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
 
-* In entrata `addUser`, `setCompanyMembership`, e `addCompanyMembership`, modificato `membershipArray` a `companyHandleArray`.
+* In `addUser`, `setCompanyMembership` e `addCompanyMembership`, è stato modificato `membershipArray` in `companyHandleArray`.
 
-* In entrata `getCompanyMembership`, modificato `companyArray` a `membershipArray`.
+* In `getCompanyMembership`, è stato modificato `companyArray` in `membershipArray`.
 
-* In entrata `getUserChars`, `includeInvalid` è ora facoltativo.
+* In `getUserChars`, `includeInvalid` è ora facoltativo.
 
 **Rimosso**
 
 * Rimosso `renameFiles` da `renameAsset`.
 
 * Rimosso `getXMPPanelViewDefinition`.
-* Rimosso `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
+* Rimossi `searchAssetsByFulltext` e `searchAssetsBySimilarity`.

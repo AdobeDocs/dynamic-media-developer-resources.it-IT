@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Questo visualizzatore funziona con gli ecatalog e supporta mappe immagine opzion
 
 ## Utilizzo di eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo file JavaScript da includere con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
+Il visualizzatore eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript da includere con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
 È possibile utilizzare eCatalog Viewer in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, in cui viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
 La configurazione e l’interfaccia sono simili a quelle degli altri visualizzatori. Tutte le operazioni di skin vengono eseguite tramite CSS personalizzato.
 
-Consulta [Riferimento comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Vedi [Riferimento al comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento al comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interazione con il visualizzatore eCatalog {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -80,7 +80,7 @@ Il visualizzatore eCatalog supporta i seguenti gesti touch comuni in altre appli
 
 Questo visualizzatore supporta anche l&#39;input del mouse e del touch-screen sui dispositivi Windows. Questo supporto, tuttavia, è limitato solo ai browser web Chrome, Internet Explorer 11 e Edge.
 
-Questo visualizzatore è completamente accessibile da tastiera come descritto in [Accessibilità della tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Questo visualizzatore è completamente accessibile da tastiera come descritto in [Accesso facilitato da tastiera e navigazione](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Strumenti di condivisione per social media con visualizzatore eCatalog {#section-eb575084a99647c3a9591f439f40b412}
 
@@ -96,9 +96,9 @@ Pagine web diverse hanno esigenze diverse per il comportamento del visualizzator
 
 In modalità pop-up, il visualizzatore viene aperto in una finestra o scheda del browser Web separata. Occupa l’intera area della finestra del browser e si regola nel caso in cui il browser venga ridimensionato o l’orientamento di un dispositivo mobile venga modificato.
 
-La modalità pop-up è la più comune per i dispositivi mobili. La pagina web carica il visualizzatore utilizzando `window.open()` Chiamata JavaScript configurata correttamente `A` HTML o qualsiasi altro metodo appropriato.
+La modalità pop-up è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando `window.open()` chiamata JavaScript, `A` elemento HTML configurato correttamente o qualsiasi altro metodo appropriato.
 
-Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di funzionamento popup. In questo caso, si chiama [!DNL eCatalogViewer.html] e si trova all&#39;interno del [!DNL html5/] sottocartella della distribuzione standard IS-Viewers:
+Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di funzionamento popup. In questo caso, si chiama [!DNL eCatalogViewer.html] e si trova nella sottocartella [!DNL html5/] della distribuzione IS-Viewers standard:
 
 [!DNL <s7viewers_root>/html5/eCatalogViewer.html]
 
@@ -110,7 +110,7 @@ Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in 
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
-**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento a progettazione reattiva**
+**Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento di progettazione reattiva**
 
 In modalità incorporata, il visualizzatore viene aggiunto alla pagina web esistente, che potrebbe già avere alcuni contenuti per i clienti non correlati al visualizzatore. Il visualizzatore occupa normalmente solo una parte del patrimonio immobiliare di una pagina web.
 
@@ -118,24 +118,24 @@ I casi d’uso principali sono le pagine web orientate per desktop o dispositivi
 
 L’incorporamento a dimensione fissa viene utilizzato quando il visualizzatore non ne modifica le dimensioni dopo il caricamento iniziale. Questo metodo è la scelta migliore per le pagine web con un layout statico.
 
-L’incorporamento reattivo della progettazione presuppone che il visualizzatore debba essere ridimensionato in fase di esecuzione in risposta alla modifica delle dimensioni del suo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
+L&#39;incorporamento reattivo della progettazione presuppone che il visualizzatore debba essere ridimensionato in fase di esecuzione in risposta alla modifica delle dimensioni del relativo contenitore `DIV`. Il caso d’uso più comune è l’aggiunta di un visualizzatore a una pagina web che utilizza un layout di pagina flessibile.
 
-In modalità di incorporamento di un design reattivo, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il suo contenitore `DIV`. Se la pagina web imposta solo la larghezza del contenitore `DIV`, lasciando libera la sua altezza, lo spettatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivi come Bootstrap e Foundation.
+In modalità di incorporamento di progettazione reattiva, il visualizzatore si comporta in modo diverso a seconda del modo in cui la pagina web ridimensiona il contenitore `DIV`. Se la pagina Web imposta solo la larghezza del contenitore `DIV`, lasciando libera la sua altezza, il visualizzatore sceglie automaticamente la sua altezza in base alle proporzioni della risorsa utilizzata. Questa funzionalità assicura che la risorsa si adatti perfettamente alla vista senza alcuna spaziatura sui lati. Questo caso d’uso è il più comune per le pagine web che utilizzano framework di layout reattivi come Bootstrap e Foundation.
 
-In caso contrario, se la pagina web imposta sia la larghezza che l’altezza per il contenitore del visualizzatore `DIV`, il visualizzatore riempie solo tale area e segue le dimensioni fornite dal layout della pagina web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
+In caso contrario, se la pagina Web imposta sia la larghezza che l&#39;altezza per il contenitore del visualizzatore `DIV`, il visualizzatore occupa solo tale area e segue le dimensioni fornite dal layout della pagina Web. Un buon esempio è l’incorporamento del visualizzatore in una sovrapposizione modale, in cui la sovrapposizione viene ridimensionata in base alle dimensioni della finestra del browser web.
 
-**Incorporamento a dimensione fissa**
+**Incorporazione a dimensione fissa**
 
 Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operazioni:
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del DIV del contenitore.
 1. Impostazione delle dimensioni del visualizzatore.
 1. Creazione e inizializzazione del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 
-   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l’API del visualizzatore, assicurati di includere [!DNL eCatalogViewer.js]. Il [!DNL eCatalogViewer.js] il file si trova sotto [!DNL html5/js/] sottocartella della distribuzione standard IS-Viewers:
+   Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere [!DNL eCatalogViewer.js]. Il file [!DNL eCatalogViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
@@ -149,16 +149,16 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fai riferimento solo al visualizzatore principale JavaScript `include` sulla pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente all’SDK di HTML 5 `Utils.js` libreria caricata dal visualizzatore da `/s7viewers` percorso di contesto (il cosiddetto SDK consolidato) `include`). Il motivo è che l&#39;ubicazione di `Utils.js` o librerie di visualizzatori runtime simili sono completamente gestite dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L’Adobe non mantiene le versioni precedenti del visualizzatore secondario `includes` sul server.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
->Di conseguenza, inserendo un riferimento diretto a qualsiasi JavaScript secondario `include` utilizzato dal visualizzatore sulla pagina interrompe la funzionalità del visualizzatore in futuro quando viene distribuita una nuova versione del prodotto.
+>Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del DIV del contenitore.
 
    Aggiungi un elemento DIV vuoto alla pagina in cui vuoi che venga visualizzato il visualizzatore. L’ID dell’elemento DIV deve essere definito perché questo ID viene passato successivamente all’API del visualizzatore.
 
-   Il segnaposto DIV è un elemento posizionato, il che significa che `position` Proprietà CSS impostata su `relative` o `absolute`.
+   Il DIV segnaposto è un elemento posizionato, il che significa che la proprietà CSS `position` è impostata su `relative` o `absolute`.
 
    Di seguito è riportato un esempio di un elemento DIV segnaposto definito:
 
@@ -168,11 +168,11 @@ Il percorso relativo è simile al seguente:
 
 1. Impostazione delle dimensioni del visualizzatore
 
-   È possibile impostare la dimensione statica del visualizzatore dichiarandolo per `.s7ecatalogviewer` classe CSS di primo livello in unità assolute oppure utilizzando `stagesize` modificatore.
+   È possibile impostare la dimensione statica per il visualizzatore dichiarandolo per la classe CSS di primo livello `.s7ecatalogviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
    Puoi inserire il dimensionamento in CSS direttamente nella pagina HTML. Oppure, inserisci il dimensionamento in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in Dynamic Media Classic, o passato esplicitamente utilizzando un comando di stile.
 
-   Consulta [Personalizzazione del visualizzatore eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) per ulteriori informazioni sullo stile del visualizzatore con CSS.
+   Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
    Di seguito è riportato un esempio di definizione di una dimensione di visualizzatore statico nella pagina HTML:
 
@@ -183,7 +183,7 @@ Il percorso relativo è simile al seguente:
    }
    ```
 
-   È possibile impostare `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic. In alternativa, puoi trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con `params` o come chiamata API come descritto nella sezione Riferimento comando, come segue:
+   È possibile impostare il modificatore `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic. In alternativa, è possibile trasmetterlo esplicitamente con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando, come segue:
 
    ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
@@ -192,13 +192,13 @@ Il percorso relativo è simile al seguente:
 
 1. Inizializzazione del visualizzatore.
 
-   Una volta completati i passaggi precedenti, puoi creare un’istanza di `s7viewers.eCatalogViewer` classe, passa tutte le informazioni di configurazione al relativo costruttore e chiama `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Almeno, questo oggetto ha `containerId` campo contenente il nome dell’ID contenitore del visualizzatore e nidificato `params` Oggetto JSON con parametri di configurazione supportati dal visualizzatore. In questo caso, il `params` l&#39;oggetto deve avere almeno l&#39;URL Image Server passato come `serverUrl` e la risorsa iniziale come `asset` parametro. API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
+   Dopo aver completato i passaggi precedenti, si crea un&#39;istanza della classe `s7viewers.eCatalogViewer`, si passano tutte le informazioni di configurazione al relativo costruttore e si chiama il metodo `init()` su un&#39;istanza del visualizzatore. Le informazioni di configurazione vengono passate al costruttore come oggetto JSON. Questo oggetto ha almeno il campo `containerId` che contiene il nome dell&#39;ID contenitore del visualizzatore e l&#39;oggetto JSON `params` nidificato con i parametri di configurazione supportati dal visualizzatore. In questo caso, l&#39;oggetto `params` deve avere almeno l&#39;URL Image Server passato come proprietà `serverUrl` e la risorsa iniziale come parametro `asset`. API di inizializzazione basata su JSON consente di creare e avviare il visualizzatore con una singola riga di codice.
 
-   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per garantire la massima compatibilità, tuttavia, chiama il `init()` metodo immediatamente prima della chiusura `BODY` o sul corpo `onload()` evento.
+   È importante aggiungere il contenitore del visualizzatore al DOM in modo che il codice del visualizzatore possa trovare l’elemento contenitore in base al relativo ID. Alcuni browser ritardano la creazione di DOM fino alla fine della pagina web. Per garantire la massima compatibilità, chiamare il metodo `init()` immediatamente prima del tag di chiusura `BODY` o sull&#39;evento corpo `onload()`.
 
-   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando `display:none` stile assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
+   Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questa azione, il caricamento del visualizzatore riprende automaticamente.
 
-   Di seguito è riportato un esempio di creazione di un’istanza del visualizzatore, trasmissione al costruttore delle opzioni di configurazione minime necessarie e chiamata di `init()` metodo. L’esempio presuppone `eCatalogViewer` è l’istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://s7d1.scene7.com/is/image/` è l’URL di Image Server e `Viewers/Pluralist` è la risorsa:
+   Di seguito è riportato un esempio di creazione di un&#39;istanza del visualizzatore, di passaggio delle opzioni di configurazione minime necessarie al costruttore e di chiamata al metodo `init()`. L&#39;esempio presuppone che `eCatalogViewer` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://s7d1.scene7.com/is/image/` è l&#39;URL di Image Server e `Viewers/Pluralist` è la risorsa:
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -241,9 +241,9 @@ Il percorso relativo è simile al seguente:
    </html>
    ```
 
-**Design reattivo con altezza illimitata**
+**Incorporamento di progettazione reattiva con altezza illimitata**
 
-Con l’incorporamento di un design reattivo, la pagina web solitamente dispone di un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina web consenta il contenitore del visualizzatore `DIV` per occupare il 40% delle dimensioni della finestra del browser web, senza limitazioni di altezza. Il codice HTML risultante per la pagina Web è simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML risultante per la pagina Web è simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -263,11 +263,11 @@ Con l’incorporamento di un design reattivo, la pagina web solitamente dispone 
 
 L’aggiunta del visualizzatore a una pagina di questo tipo è simile all’incorporamento di dimensioni fisse, con l’unica differenza che non è necessario definire esplicitamente le dimensioni del visualizzatore.
 
-1. Aggiunta del file JavaScript del visualizzatore alla pagina web.
+1. Aggiunta del file JavaScript del visualizzatore alla pagina Web.
 1. Definizione del DIV del contenitore.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi precedenti sono gli stessi dell’incorporamento a dimensione fissa. Aggiungi il contenitore `DIV` al &quot;titolare&quot; esistente `DIV`. Il codice seguente è un esempio completo. Puoi vedere come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell’incorporamento a dimensione fissa. Aggiungere il contenitore `DIV` al &quot; titolare&quot; esistente `DIV`. Il codice seguente è un esempio completo. Puoi vedere come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -299,11 +299,11 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 La pagina di esempi seguente illustra altri casi d’uso reali di progetti reattivi con altezza illimitata incorporati:
 
-[Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Demo Live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**Dimensione flessibile che incorpora con larghezza e altezza definite**
+**Dimensione flessibile con larghezza e altezza definite**
 
-Nell’incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot;titolare&quot; `DIV` e la centra nella finestra del browser. Inoltre, la pagina web imposta le dimensioni del `HTML` e `BODY` al 100%:
+Nell’incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. In altre parole, fornisce entrambe le dimensioni al &quot; titolare&quot; `DIV` e lo centra nella finestra del browser. La pagina Web imposta inoltre le dimensioni dell&#39;elemento `HTML` e dell&#39;elemento `BODY` al 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -367,9 +367,9 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 </html>
 ```
 
-**Incorporazione tramite API basata su set**
+**Incorporamento tramite API basata su Set**
 
-Invece di utilizzare l’inizializzazione basata su JSON è possibile utilizzare un’API basata su setter e un costruttore no-args. Con tale costruttore API non accetta parametri e i parametri di configurazione sono specificati utilizzando `setContainerId()`, `setParam()`, e `setAsset()` Metodi API con chiamate JavaScript separate.
+Invece di utilizzare l’inizializzazione basata su JSON è possibile utilizzare un’API basata su setter e un costruttore no-args. Con il costruttore API non accetta parametri e i parametri di configurazione sono specificati utilizzando i metodi API `setContainerId()`, `setParam()` e `setAsset()` con chiamate JavaScript separate.
 
 L’esempio seguente mostra un’incorporazione a dimensione fissa con API basate su setter:
 

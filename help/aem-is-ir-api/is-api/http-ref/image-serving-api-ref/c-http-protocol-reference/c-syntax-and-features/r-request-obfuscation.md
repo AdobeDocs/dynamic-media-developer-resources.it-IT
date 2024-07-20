@@ -20,7 +20,7 @@ Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato.
 
 >[!IMPORTANT]
 >
->Se abiliti questa funzione, tieni presente che l’utilizzo di essa è soggetto a determinate limitazioni, tra cui:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per **[!UICONTROL Ultima pubblicazione]** campo. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, lo streaming video HLS non funziona quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.<br>- Attualmente, alcuni visualizzatori Dynamic Media non funzionano quando **[!UICONTROL Richiedi offuscamento]** e **[!UICONTROL Richiedi blocco]** sono attivati.
+>Se abiliti questa funzione, tieni presente che esistono alcune limitazioni al suo utilizzo che includono quanto segue:<br>- L&#39;interfaccia utente di Dynamic Medie potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, il flusso video HLS non funziona se sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.<br>- Al momento, alcuni visualizzatori Dynamic Medie non funzionano quando sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.
 
 ## Esempio {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -30,8 +30,8 @@ codifica in:
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-Eventuali occorrenze di &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; nelle stringhe di valore devono essere precedute dalla sequenza di escape utilizzando la codifica &#39;%xx&#39;, prima che la richiesta venga offuscata. Non è necessario codificare altrimenti http il *modificatori* parte della richiesta prima o dopo l’offuscamento, anche se viene applicato il blocco della richiesta, in quanto la codifica base64 è sicura per la trasmissione http.
+Eventuali occorrenze di &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; nelle stringhe di valore devono essere precedute dalla sequenza di escape utilizzando la codifica &#39;%xx&#39;, prima che la richiesta venga offuscata. In caso contrario, non è necessario codificare http la parte *modificatori* della richiesta prima o dopo l&#39;offuscamento, anche se viene applicato il blocco della richiesta, poiché la codifica base64 è sicura per la trasmissione http.
 
 ## Consultate anche {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
-[Codifica HTTP](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7), [Richiedi blocco](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c), [attribute::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)
+[Codifica HTTP](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7), [Blocco richieste](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c), [attributo::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)

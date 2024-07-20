@@ -8,7 +8,7 @@ exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
-Per l’integrazione con sistemi di analisi di terze parti, è necessario ascoltare `trackEvent` callback del visualizzatore ed elaborare `eventInfo` della funzione di callback, se necessario. Il codice che segue è un esempio di tale funzione di gestore:
+Per l&#39;integrazione con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback in base alle esigenze. Il codice che segue è un esempio di tale funzione di gestore:
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -53,7 +53,7 @@ Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">LOAD (Caricamento)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARICAMENTO </span> </p> </td> 
    <td colname="col2"> <p>il visualizzatore viene caricato per primo. </p> </td> 
   </tr> 
   <tr> 

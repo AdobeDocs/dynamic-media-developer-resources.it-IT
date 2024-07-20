@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine di risposta.
  </tr> 
 </table>
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Seleziona **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immettere i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui una pubblicazione Image Server per applicare una modifica.
+Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Seleziona **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Installazione di Publish]** > **[!UICONTROL Server immagini]**, quindi immetti i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui un Image Server Publish per applicare una modifica.
 
-Se si applica una `scale=1` viene eseguito il rendering di una richiesta di formato raster alle dimensioni specificate in FXG.
+Se si applica un comando `scale=1`, viene eseguito il rendering di una richiesta in formato raster alle dimensioni specificate in FXG.
 
 ## Predefinito {#section-76ee3daa77cb468ab310821357cc9404}
 
-Se `wid=`, `hei=`, o `scale=` non sono specificati, l&#39;immagine di risposta è la dimensione di visualizzazione predefinita specificata nel file FXG.
+Se `wid=`, `hei=` o `scale=` non sono specificati, l&#39;immagine di risposta è la dimensione di visualizzazione predefinita specificata nel file FXG.
 
 ## Esempio {#section-a91c14d31e71481ba054412d9f642885}
 
@@ -42,7 +42,7 @@ A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come 
 * GIF
 * TIF
 * PNG
-* JPG
+* JPG-
 * JPEG
 * GIF-alfa
 * TIF-alfa

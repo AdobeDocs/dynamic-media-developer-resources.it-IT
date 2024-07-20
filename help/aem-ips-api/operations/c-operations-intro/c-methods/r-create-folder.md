@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ Consente di creare una cartella.
 
 >[!NOTE]
 >
->La nuova cartella è subordinata alla cartella Immagini, anche se si specifica un `/` per indicare la directory principale della società.
+>La nuova cartella è subordinata alla cartella Immagini, anche se si specifica `/` per indicare la directory principale dell&#39;azienda.
 
 Sintassi
 
@@ -54,7 +54,7 @@ Sintassi
 
 Questo codice di esempio crea una cartella nella directory principale di un’azienda. La risposta restituisce l’handle della cartella appena creata.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

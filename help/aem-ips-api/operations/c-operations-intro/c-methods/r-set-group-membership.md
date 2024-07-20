@@ -8,7 +8,7 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice rende l&#39;utente membro di un gruppo. Aggiungere un utente a più gruppi con l&#39;array dell&#39;handle di gruppo.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:setGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

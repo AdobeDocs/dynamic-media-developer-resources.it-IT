@@ -1,20 +1,20 @@
 ---
 title: Sintassi di base del protocollo HTTP Image Rendering
-description: In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Media Image Rendering.
+description: In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Medie Image Rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Sintassi di base del protocollo HTTP Image Rendering{#image-rendering-http-protocol-basic-syntax}
 
-In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Media Image Rendering.
+In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Medie Image Rendering.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -30,7 +30,7 @@ In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynami
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> porta</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> indirizzo_server</span> [ :<span class="varname"> porta</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> vignettatura </span> </p> </td> 
@@ -38,14 +38,14 @@ In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynami
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificatori </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modificatore</span> *[ e <span class="varname"> modificatore</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modificatore</span> *[ &amp; <span class="varname"> modificatore</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> modificatore </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> comando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> commento</span> } </p> </td> 
+   <td colname="col1"> <p>Modificatore <span class="varname"> </span> </p> </td> 
+   <td colname="col2"> <p>Comando <span class="varname"></span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> commento</span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> comando </span> </p> </td> 
+   <td colname="col1"> <p>Comando <span class="varname"> </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> valore</span> ] </p> </td> 
   </tr> 
   <tr> 
@@ -71,11 +71,11 @@ In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynami
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`*, e *`var`* non fanno distinzione tra maiuscole e minuscole. Il server mantiene le maiuscole e minuscole di tutti gli altri valori stringa.
+*`server`*, *`cmdName`*, *`macro`* e *`var`* non distinguono tra maiuscole e minuscole. Il server mantiene le maiuscole e minuscole di tutti gli altri valori stringa.
 
 **Identificatore server**
 
-L&#39;&#39; `/ir/render`Il contesto radice &#39; è obbligatorio per tutte le richieste HTTP a Image Rendering.
+Il contesto radice &#39;`/ir/render`&#39; è necessario per tutte le richieste HTTP a Image Rendering.
 
 **Commenti**
 
@@ -83,4 +83,4 @@ I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono
 
 **Decodifica HTTP**
 
-Prime estrazioni di Image Rendering *`object`* e *`modifiers`* dalla richiesta in ingresso. Il *`object`* viene quindi separato in elementi di percorso che vengono singolarmente decodificati HTTP. Il *`modifiers`* stringa separata in *`command`*= *`value`* coppie, e *`value`* viene quindi decodificato tramite HTTP prima dell’elaborazione specifica per il comando.
+Image Rendering estrae prima *`object`* e *`modifiers`* dalla richiesta in ingresso. *`object`* è quindi separato in elementi percorso che sono singolarmente decodificati HTTP. La stringa *`modifiers`* è separata in *`command`*= *`value`* coppie e *`value`* viene quindi decodificato HTTP prima dell&#39;elaborazione specifica del comando.

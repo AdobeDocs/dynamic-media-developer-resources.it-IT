@@ -18,4 +18,4 @@ I cataloghi di immagini forniscono molte impostazioni di configurazione del serv
 
 Mappano gli ID di immagini e contenuti statici utilizzati nelle richieste a percorsi di file effettivi, memorizzano vari metadati di immagini, come mappe di immagini, e forniscono contenitori per modelli e set di immagini.
 
-I cataloghi di immagini sono accessibili solo da [!DNL Platform Server], mai dal server immagini. I file degli attributi del catalogo devono avere un suffisso .ini e devono essere inseriti nel [!DNL Platform Server]Cartella del catalogo di ( `PS::CatalogFolder`). È necessario almeno il catalogo immagini predefinito e deve essere compilato con tutti gli attributi per il corretto funzionamento del [!DNL Platform Server].
+I cataloghi di immagini sono accessibili solo da [!DNL Platform Server], mai dal server immagini. I file degli attributi del catalogo devono avere un suffisso .ini e devono essere inseriti nella cartella del catalogo di [!DNL Platform Server] ( `PS::CatalogFolder`). È necessario almeno il catalogo immagini predefinito e deve essere compilato con tutti gli attributi per il corretto funzionamento di [!DNL Platform Server].

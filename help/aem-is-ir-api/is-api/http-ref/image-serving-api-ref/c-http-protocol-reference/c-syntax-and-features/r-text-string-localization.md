@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 2%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 La localizzazione delle stringhe di testo consente ai cataloghi di immagini di contenere più rappresentazioni specifiche per le impostazioni internazionali per lo stesso valore di stringa.
 
-Il server restituisce al client la rappresentazione corrispondente alla lingua specificata con `locale=`, evitando la localizzazione lato client e consentendo alle applicazioni di passare da una lingua all&#39;altra semplicemente inviando `locale=` con le richieste di testo IS.
+Il server restituisce al client la rappresentazione corrispondente alla lingua specificata con `locale=`, evitando la localizzazione lato client e consentendo alle applicazioni di cambiare lingua semplicemente inviando il valore `locale=` appropriato con le richieste di testo IS.
 
 ## Ambito {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
-La localizzazione delle stringhe di testo viene applicata a tutti gli elementi stringa che includono il token di localizzazione ` ^loc= *`locId`*^` nei seguenti campi del catalogo:
+La localizzazione delle stringhe di testo viene applicata a tutti gli elementi stringa che includono il token di localizzazione ` ^loc= *`locId`*^` nei seguenti campi catalogo:
 
 <table id="table_83344EFCB5B5418184E0A0B43D0B23F7"> 
  <thead> 
@@ -31,19 +31,19 @@ La localizzazione delle stringhe di testo viene applicata a tutti gli elementi s
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogo::ImageSet </span> </p> </td> 
-   <td> <p>Qualsiasi sottoelemento contenente una stringa traducibile (delimitata da qualsiasi combinazione di separatori ',' ';' ':' e/o l'inizio/la fine del campo). </p> <p> A <span class="codeph"> 0xrggbb </span> il valore del colore all’inizio di un campo localizzabile è escluso dalla localizzazione e trasmesso senza modifiche. </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Set di immagini </span> </p> </td> 
+   <td> <p>Qualsiasi sottoelemento contenente una stringa traducibile (delimitata da qualsiasi combinazione di separatori ',' ';' ':' e/o l'inizio/la fine del campo). </p> <p> Un valore di colore <span class="codeph"> 0xrggbb </span> all'inizio di un campo localizzabile è escluso dalla localizzazione e trasmesso senza modifiche. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::Mappa </span> </p> </td> 
-   <td> <p>Qualsiasi valore di attributo con virgolette singole o doppie, ad eccezione dei valori <span class="codeph"> coords= </span> e <span class="codeph"> shape= forma </span> attributi. </p> </td> 
+   <td> <p>Qualsiasi valore di attributo racchiuso tra virgolette singole o doppie, ad eccezione dei valori degli attributi <span class="codeph"> coords= </span> e <span class="codeph"> shape= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::Destinazioni </span> </p> </td> 
-   <td> <p>Il valore di qualsiasi <span class="codeph"> target.*.label </span> e <span class="codeph"> target.*.userdata </span> proprietà. </p> </td> 
+   <td> <p>Il valore di qualsiasi destinazione <span class="codeph">.*.label </span> e destinazione <span class="codeph">.*.userdata </span>, proprietà. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog::DatiUtente </span> </p> </td> 
+   <td> <p> Catalogo <span class="codeph">::Dati utente </span> </p> </td> 
    <td> <p>Il valore di qualsiasi proprietà. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,11 +51,11 @@ La localizzazione delle stringhe di testo viene applicata a tutti gli elementi s
 
 ## Sintassi stringa {#section-d12320edf300409f8e17565b143acafc}
 
-Abilitato per la localizzazione *`string`* gli elementi del catalogo immagini sono costituiti da una o più stringhe localizzate, ciascuna preceduta da un token di localizzazione.
+Gli elementi *`string`* abilitati per la localizzazione nel catalogo immagini sono costituiti da una o più stringhe localizzate, ciascuna preceduta da un token di localizzazione.
 
 <table id="simpletable_CEFDAE8395E6493E902D58A7E5A25BC7"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringElement </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> elemento stringa </span> </span> </p> </td> 
   <td class="stentry"> <p>[ <span class="varname"> defaultString </span>]*{ <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span>} </p> </td> 
  </tr> 
 </table>
@@ -67,10 +67,10 @@ Abilitato per la localizzazione *`string`* gli elementi del catalogo immagini so
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> locId </span> </span> </p> </td> 
-  <td class="stentry"> <p>ID delle impostazioni locali interne per <span class="varname"> localizedString </span> seguendo questo <span class="varname"> localizationToken </span>. </p> </td> 
+  <td class="stentry"> <p>ID delle impostazioni locali interno per <span class="varname"> localizedString </span> dopo questo <span class="varname"> localizationToken </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> localizedString </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringa localizzata </span> </span> </p> </td> 
   <td class="stentry"> <p>Stringa localizzata. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -79,27 +79,27 @@ Abilitato per la localizzazione *`string`* gli elementi del catalogo immagini so
  </tr> 
 </table>
 
-Il *`locId`* deve essere ASCII e non può includere &#39;^&#39;.
+*`locId`* deve essere ASCII e non può includere &#39;^&#39;.
 
-&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero *`localizationToken`* `^loc=locId^` per separare le sottostringhe.
+&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero pattern `^loc=locId^` di *`localizationToken`* a sottostringhe separate.
 
-Il *`stringElements`*, che non includono almeno uno *`localizationToken`*, non sono considerati per la localizzazione.
+*`stringElements`*, che non includono almeno un *`localizationToken`*, non sono considerati per la localizzazione.
 
 ## La mappa di traduzione {#section-f7ce3df91b724adf95cee44eac4915d4}
 
-`attribute::LocaleStrMap` definisce le regole utilizzate dal server per determinare quali *`localizedStrings`* per tornare al client. È costituito da un elenco di input *`locales`* (corrisponde ai valori specificati con `locale=`), ciascuno con uno o più ID delle impostazioni internazionali interni ( *`locId`*). Ad esempio:
+`attribute::LocaleStrMap` definisce le regole utilizzate dal server per determinare quali *`localizedStrings`* restituire al client. È costituito da un elenco di input *`locales`* (corrispondente ai valori specificati con `locale=`), ciascuno con uno o più ID delle impostazioni locali interni ( *`locId`*). Ad esempio:
 
 `attribute::LocaleStrMap= en,E|nl,N|de,D|,`
 
-Vuoto *`locId`* i valori indicano che *`defaultString`* devono essere restituiti, se disponibili.
+I valori *`locId`* vuoti indicano che *`defaultString`* deve essere restituito, se disponibile.
 
-Fai riferimento alla descrizione di `attribute::LocaleStrMap` per i dettagli.
+Per ulteriori informazioni, vedere la descrizione di `attribute::LocaleStrMap`.
 
 ## Il processo di traduzione {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-Dato l’esempio di mappa di traduzione qui sopra e la richiesta `/is/image/myCat/myItem?req=&locale=nl`, il server cerca prima &quot; `nl`&quot; nella mappa delle impostazioni internazionali. Voce corrispondente `nl,N` indica che per ogni *`stringElement`*, il *`localizedString`* contrassegnato con `^loc=N^` devono essere restituiti. Se questo *`localizationToken`* non è presente in *`stringElement`*, viene restituito un valore vuoto.
+Dato l&#39;esempio di mappa di traduzione riportato sopra e la richiesta `/is/image/myCat/myItem?req=&locale=nl`, il server cerca prima &quot; `nl`&quot; nella mappa delle impostazioni internazionali. La voce corrispondente `nl,N` indica che per ogni *`stringElement`*, devono essere restituiti i *`localizedString`* contrassegnati con `^loc=N^`. Se *`localizationToken`* non è presente in *`stringElement`*, viene restituito un valore vuoto.
 
-Diciamo che `catalog::UserData` per `myCat/myItem` contiene quanto segue (interruzioni di riga inserite per maggiore chiarezza):
+Supponiamo che `catalog::UserData` per `myCat/myItem` contenga le seguenti (interruzioni di riga inserite per maggiore chiarezza):
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
@@ -109,9 +109,9 @@ Il server restituisce quanto segue in risposta alla richiesta di esempio:
 
 ## Impostazioni internazionali sconosciute {#section-26dfeefbd60345de94bbfeaaf7741223}
 
-Nell’esempio precedente, `attribute::LocaleStrMap` ha una voce con un valore *`locale`* valore. Il server utilizza questa voce per gestire tutti `locale=` valori che non sono specificati esplicitamente in altro modo nella mappa di traduzione.
+Nell&#39;esempio precedente, `attribute::LocaleStrMap` ha una voce con un valore *`locale`* vuoto. Il server utilizza questa voce per gestire tutti i valori `locale=` che non sono esplicitamente specificati altrimenti nella mappa di traduzione.
 
-L’esempio di mappa di traduzione specifica che in tal caso il *`defaultString`* devono essere restituiti, se disponibili. Pertanto, se questa mappa di traduzione viene applicata alla richiesta, viene restituito quanto segue `/is/image/myCat/myItem?req=&locale=ja`:
+L&#39;esempio di mappa di traduzione specifica che in questo caso deve essere restituito *`defaultString`*, se disponibile. Pertanto, se questa mappa di traduzione viene applicata alla richiesta `/is/image/myCat/myItem?req=&locale=ja`, viene restituito quanto segue:
 
 `val1=111 str1=Default1 val2=value2 str2= str3=Default3`
 
@@ -119,28 +119,28 @@ L’esempio di mappa di traduzione specifica che in tal caso il *`defaultString`
 
 **Famiglie di lingue**
 
-Più *`locId`* i valori possono essere associati a ciascuno *`locale`* nella mappa di traduzione. Il motivo è che consente il supporto di varianti specifiche per paese o regione (ad esempio, inglese US rispetto all’inglese UK) per selezionare *`stringElements`* gestendo la maggior parte dei contenuti con le comuni lingue di base (ad esempio, inglese internazionale).
+È possibile associare più valori *`locId`* a ogni *`locale`* nella mappa di traduzione. Il motivo è che consente il supporto di varianti specifiche per paese o per regione (ad esempio, inglese US rispetto all&#39;inglese UK) per selezionare *`stringElements`*, gestendo la maggior parte dei contenuti con impostazioni locali di base comuni (ad esempio, inglese International).
 
-Ad esempio, è stato aggiunto il supporto per l’inglese specifico per gli Stati Uniti ( `*`locId`* EUS`) e inglese specifico per il Regno Unito ( `*`locId`* EUK`), per supportare l&#39;ortografia alternativa occasionale. Se EUK o EUS non esiste, esso torna a E. Analogamente, varianti tedesche specifiche austriache ( `DAT`) può essere reso disponibile quando necessario, restituendo il tedesco comune *`localizedStrings`* (contrassegnato con `D`) nella maggior parte dei casi.
+Ad esempio, è stato aggiunto il supporto per l&#39;inglese specifico per gli Stati Uniti ( `*`locId`* EUS`) e per l&#39;inglese specifico per il Regno Unito ( `*`locId`* EUK`), per supportare l&#39;ortografia alternativa occasionale. Se EUK o EUS non esiste, viene restituito a E. Analogamente, le varianti tedesche specifiche per l&#39;Austria ( `DAT`) potrebbero essere rese disponibili dove necessario, restituendo il tedesco comune *`localizedStrings`* (contrassegnato con `D`) la maggior parte delle volte.
 
-Il `attribute::LocaleStrMap` si presenta così:
+`attribute::LocaleStrMap` sarà simile al seguente:
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 
-La tabella seguente descrive l’output per alcuni rappresentanti *`stringElement`* e *`locale`* combinazioni:
+La tabella seguente descrive l&#39;output per alcune combinazioni rappresentative *`stringElement`* e *`locale`*:
 
 <table id="table_A6B67587C5F44B5E9CD0E7ED29A81198"> 
  <thead> 
   <tr> 
-   <th class="entry"> <i>stringElement</i> </th> 
-   <th class="entry"> <i>locale</i> </th> 
+   <th class="entry"> <i>elementoStringa</i> </th> 
+   <th class="entry"> <i>impostazioni locali</i> </th> 
    <th class="entry"> <p>Stringa di output </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> ^loc=E^Inglese^loc=D^Tedesco </span> </p> </td> 
-   <td> <p> en,en_us, en_uk </p> <p> de, de_at, de_de </p> <p>tutti gli altri </p> </td> 
+   <td> <p> en, en_us, en_uk </p> <p> de, de_at, de_de </p> <p>tutti gli altri </p> </td> 
    <td> <p>Inglese </p> <p>Tedesco </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -149,7 +149,7 @@ La tabella seguente descrive l’output per alcuni rappresentanti *`stringElemen
    <td> <p>Inglese </p> <p>Inglese (Regno Unito) </p> <p>Tedesco </p> <p>Austriaco </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Per questo esempio, il <span class="varname"> locId </span> Il DDE non esiste in <span class="codeph"> attribute::LocaleStrMap </span>e quindi la sottostringa associata a questo <span class="varname"> locId </span> non viene mai restituito. </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Per questo esempio, il DDE <span class="varname"> locId </span> non esiste nell'attributo <span class="codeph">::LocaleStrMap </span> e pertanto la sottostringa associata a questo locId <span class="varname"> </span> non viene mai restituita. </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>tutti gli altri </p> </td> 
    <td> <p>Inglese </p> <p>Inglese (Stati Uniti) </p> <p>Tedesco </p> <p>- </p> </td> 
   </tr> 

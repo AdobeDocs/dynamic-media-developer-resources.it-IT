@@ -8,7 +8,7 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -51,7 +51,7 @@ Sintassi
 
 In questo esempio viene aggiunta una singola risorsa (a cui fa riferimento il relativo handle) in una matrice di handle di risorsa a un progetto specificato nella richiesta. Operazione completata quando la risposta `successCount` restituisce `1`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java {.line-numbers}
 <addProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

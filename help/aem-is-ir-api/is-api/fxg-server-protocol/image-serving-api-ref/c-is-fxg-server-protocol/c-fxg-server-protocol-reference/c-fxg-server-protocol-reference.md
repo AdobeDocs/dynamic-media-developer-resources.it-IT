@@ -8,7 +8,7 @@ exl-id: a3b3d5d9-d7c9-44a6-97a5-8e3e2c4abef0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,6 @@ Questo documento fornisce informazioni sui protocolli del server FXG e sulla rel
 * [qlt](r-is-fxg-qlt.md)
 * [quantificare](r-is-fxg-quantize.md)
 * [req](r-req-oversetstatus.md)
-* [scale](r-is-fxg-scale.md)
+* [scala](r-is-fxg-scale.md)
 * [trimMargin](r-trimmargin.md)
 * [wid](r-is-fxg-wid.md)

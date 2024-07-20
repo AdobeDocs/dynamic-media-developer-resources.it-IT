@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Riferimento API JavaScript per Visualizzatore Video360.
+description: Riferimento API di JavaScript per il visualizzatore Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,23 +8,23 @@ exl-id: b0434886-defa-47d4-9853-bfd73c64d036
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Riferimento API JavaScript per Visualizzatore Video360.
+Riferimento API di JavaScript per il visualizzatore Video360.
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`informazioniLocalizzazione`*)`
 
 Imposta i valori del SIMBOLO di localizzazione per una o più impostazioni internazionali. Questo parametro deve essere chiamato prima di `init()`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Consulta <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell’interfaccia utente </a> per ulteriori informazioni. </p> <p>Consulta anche <i>Guida utente di Viewer SDK</i> e l'esempio per ulteriori informazioni sul contenuto dell'oggetto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> informazioni localizzazione </span> </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Per ulteriori informazioni, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localizzazione degli elementi dell'interfaccia utente </a>. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere anche la <i>Guida utente di Viewer SDK</i> e l'esempio. </p> </td> 
   </tr> 
  </tbody> 
 </table>

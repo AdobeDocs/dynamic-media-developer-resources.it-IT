@@ -18,7 +18,7 @@ Impostazioni di rendering avanzate. Le impostazioni di rendering avanzate vengon
 
 ## Proprietà {#section-b4c8fe595efc4838ac598659bc820607}
 
-Stringa di testo. Facoltativo per tutti i materiali. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con Strumento di authoring vignettatura (parte del pacchetto di authoring immagini di Dynamic Media).
+Stringa di testo. Facoltativo per tutti i materiali. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con Strumento di authoring vignettatura (parte del pacchetto di authoring immagini di Dynamic Medie).
 
 ## Predefinito {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
@@ -26,4 +26,4 @@ Stringa di testo. Facoltativo per tutti i materiali. Se è specificato, deve ess
 
 ## Consultate anche {#section-52679fc35c36439490564b4d1c515dd0}
 
-[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [catalogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0), [attribute::ImpostazioniRendering](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [catalogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0), [attributo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

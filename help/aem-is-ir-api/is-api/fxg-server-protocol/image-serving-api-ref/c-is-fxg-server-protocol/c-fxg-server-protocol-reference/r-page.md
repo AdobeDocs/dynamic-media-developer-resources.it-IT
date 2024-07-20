@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 2%
 
 ---
@@ -27,4 +27,4 @@ Recupera la pagina. Recupera una pagina specifica in un file FXG con più pagine
 
 ## Predefinito {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Se `page` non è specificato, viene restituita la prima pagina per l’output raster e tutte le pagine per l’output PDF.
+Se `page` non è specificato, viene restituita la prima pagina per l&#39;output raster e tutte le pagine per l&#39;output PDF.

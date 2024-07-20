@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Sia la versione a 32 bit che la versione a 64 bit del server immagini sono dispo
 
 >[!NOTE]
 >
->Modalità a 64 bit non supportata in Windows. Solo `ImageServer32` possono essere specificati. In caso contrario, Image Server non si avvia.
+>Modalità a 64 bit non supportata in Windows. Specificare solo `ImageServer32`. In caso contrario, Image Server non si avvia.
 
-## SV::PsHeapSize - [!DNL Platform Server] Dimensione heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Dimensione heap [!DNL Platform Server] {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Dimensione heap Java per [!DNL Platform Server]. Impostazione predefinita &quot; `512m`&quot; (512 Mbyte).
+Dimensione heap Java per [!DNL Platform Server]. Impostazione predefinita: &quot;`512m`&quot; (512 Mbyte).
 
 ## IS::TcpPort, PS::isConnection.port - Porta di ascolto server immagini {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 

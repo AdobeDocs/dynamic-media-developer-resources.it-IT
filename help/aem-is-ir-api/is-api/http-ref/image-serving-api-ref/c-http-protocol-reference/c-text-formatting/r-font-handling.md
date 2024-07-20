@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '133'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Tutti i font a cui si fa riferimento nella stringa RTF devono essere disponibili nel file di mappa font del catalogo predefinito o del catalogo immagine corrente. In caso contrario viene restituito un errore.
 
-La migliore qualità per il testo in corsivo e in grassetto si ottiene registrando i file di font corrispondenti. Se non è disponibile, il server è in grado di sintetizzare i caratteri in grassetto e/o corsivo del volto standard. (vedere [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+La migliore qualità per il testo in corsivo e in grassetto si ottiene registrando i file di font corrispondenti. Se non è disponibile, il server è in grado di sintetizzare i caratteri in grassetto e/o corsivo del volto standard. (Vedi [attributo::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
 
-Il tipo di carattere specificato con `attribute::DefaultFont` viene utilizzato quando nessuno è specificato esplicitamente nella stringa RTF.
+Il tipo di carattere specificato con `attribute::DefaultFont` viene utilizzato quando non ne è specificato esplicitamente alcuno nella stringa RTF.
 
-Image Server supporta i caratteri TrueType® OpenType e Adobi Type 1 (solo Windows).
+Image Server supporta i caratteri TrueType® OpenType e Adobe Type 1 (solo Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## Consultate anche {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Riferimento mappa font](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[Riferimento mappa caratteri](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attributo::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attributo::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

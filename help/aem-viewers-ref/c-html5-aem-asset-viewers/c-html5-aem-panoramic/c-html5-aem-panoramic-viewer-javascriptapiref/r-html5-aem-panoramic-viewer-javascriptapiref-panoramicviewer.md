@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ Costruttore, crea un&#39;istanza di Visualizzatore panoramico di HTML5.
 config
 {Object} oggetto di configurazione JSON facoltativo, consente di passare tutte le impostazioni del visualizzatore al costruttore ed evitare di chiamare singoli metodi di impostazione. Contiene le seguenti proprietà:
 
-* containerId - {String} ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo, tuttavia il contenitore deve esistere quando init() viene eseguito. Obbligatorio
-* parametri - {Object} Oggetto JSON con parametri di configurazione del visualizzatore in cui il nome della proprietà è un&#39;opzione di configurazione specifica del visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. Obbligatorio
-* handler - {Object} Oggetto JSON con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell&#39;evento del visualizzatore supportato e il valore della proprietà è un riferimento della funzione JavaScript al callback appropriato. Per ulteriori informazioni sugli eventi visualizzatore, consulta la sezione Callback di eventi. Facoltativo.
+* containerId: {String} ID del contenitore DOM (normalmente un DIV) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo, tuttavia il contenitore deve esistere quando init() viene eseguito. Obbligatorio
+* parametri: oggetto JSON {Object} con parametri di configurazione del visualizzatore in cui il nome della proprietà è un&#39;opzione di configurazione specifica del visualizzatore o un modificatore SDK e il valore di tale proprietà è un valore di impostazioni corrispondente. Obbligatorio
+* gestori: oggetto JSON {Object} con callback di eventi del visualizzatore, in cui il nome della proprietà è il nome dell&#39;evento del visualizzatore supportato e il valore della proprietà è un riferimento della funzione JavaScript al callback appropriato. Per ulteriori informazioni sugli eventi visualizzatore, consulta la sezione Callback di eventi. Facoltativo.
 
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

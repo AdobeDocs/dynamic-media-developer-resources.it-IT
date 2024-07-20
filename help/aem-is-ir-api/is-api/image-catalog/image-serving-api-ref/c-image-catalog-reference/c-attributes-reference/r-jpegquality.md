@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '82'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&
 
 ## Predefinito {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-Ereditato da `default::JpegQuality` se non è definita o se è vuota.
+Ereditato da `default::JpegQuality` se non definito o se vuoto.
 
 ## Consultate anche {#section-aa994afc02ea4f799655233ea32d36c9}
 

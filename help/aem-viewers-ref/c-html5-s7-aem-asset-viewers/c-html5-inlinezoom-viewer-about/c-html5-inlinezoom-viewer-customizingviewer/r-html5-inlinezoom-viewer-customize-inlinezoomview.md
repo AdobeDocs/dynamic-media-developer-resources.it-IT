@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ L’aspetto della vista principale è controllato dal seguente selettore di clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo della visualizzazione principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-È possibile configurare lo stile, le dimensioni, l&#39;aspetto e l&#39;offset verticale del carattere tramite CSS. Tuttavia, l’allineamento orizzontale viene gestito dalla logica del visualizzatore. Sovrascriverlo tramite CSS utilizzando `left` o `right` proprietà non supportata.
+È possibile configurare lo stile, le dimensioni, l&#39;aspetto e l&#39;offset verticale del carattere tramite CSS. Tuttavia, l’allineamento orizzontale viene gestito dalla logica del visualizzatore. L&#39;override tramite CSS tramite le proprietà `left` o `right` non è supportato.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -68,15 +68,15 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p>Offset dalla parte inferiore della vista principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Nome font. </p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +88,11 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
    <td colname="col2"> <p>Spaziatura intorno al testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p>Colore di riempimento di sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raggio bordo </span> </p> </td> 
    <td colname="col2"> <p>Raggio bordo sfondo del testo del messaggio. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ L’aspetto del messaggio di suggerimento è controllato dal seguente selettore 
  </tbody> 
 </table>
 
-Il messaggio di suggerimento può essere localizzato. Consulta [Localizzazione degli elementi dell’interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) per ulteriori informazioni.
+Il messaggio di suggerimento può essere localizzato. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
 .
 

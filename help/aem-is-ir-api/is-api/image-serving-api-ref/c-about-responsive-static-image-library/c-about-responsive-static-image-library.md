@@ -1,5 +1,5 @@
 ---
-description: La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Medie e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
+description: La Libreria di immagini reattive è un modulo di JavaScript che regola dinamicamente la qualità delle immagini distribuite da Dynamic Medie e incorporate nelle pagine web reattive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
 solution: Experience Manager
 title: Informazioni sulla libreria Immagine reattiva
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla libreria Immagine reattiva{#about-responsive-image-library}
 
-La Libreria di immagini responsive è un modulo JavaScript che regola dinamicamente la qualità delle immagini fornite da Dynamic Medie e incorporate nelle pagine web responsive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
+La Libreria di immagini reattive è un modulo di JavaScript che regola dinamicamente la qualità delle immagini distribuite da Dynamic Medie e incorporate nelle pagine web reattive. Inoltre, offre una migliore qualità delle immagini su dispositivi con schermi ad alta densità. La libreria può anche eseguire il rendering responsive dei risultati da Ritaglio avanzato e Campione avanzato.
 
 ## URL demo {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
@@ -57,7 +57,7 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>È inoltre possibile utilizzare i comandi Image Server con i modelli Image Server per controllare alcuni parametri di modello in base alle dimensioni dell'immagine. In questo esempio successivo, viene utilizzato un modello Image Server in cui la dimensione font della sovrapposizione di testo è parametrizzata utilizzando <span class="codeph"> $fontsize </span> parametro. L’immagine reattiva è configurata per utilizzare un font di dimensioni maggiori per le immagini di dimensioni inferiori, in modo che il testo rimanga sempre leggibile: </p> </td> 
+   <td colname="col2"> <p>È inoltre possibile utilizzare i comandi Image Server con i modelli Image Server per controllare alcuni parametri di modello in base alle dimensioni dell'immagine. In questo esempio viene utilizzato un modello Image Server in cui la dimensione del font della sovrapposizione di testo è parametrizzata utilizzando il parametro <span class="codeph"> $fontsize </span>. L’immagine reattiva è configurata per utilizzare un font di dimensioni maggiori per le immagini di dimensioni inferiori, in modo che il testo rimanga sempre leggibile: </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,11 +68,11 @@ Il caso d’uso più semplice della Libreria di immagini reattive è quello di d
 
 * Dynamic Medie Image Server 6.0.1 o versione successiva.
 
-**Requisiti minimi del browser client**
+**Requisiti minimi browser client**
 
 * Microsoft® Windows® 7 o versione successiva; macOS X 10.8 o versione successiva.
 * Firefox 23, Safari 6, Chrome 29, IE 9 o versione successiva.
 * iOS 6 o versione successiva.
 * Certificato su iPhone3GS o versione successiva e iPad2 o versione successiva (solo browser nativi).
-* Android™ OS 2.3 o versione successiva.
+* Android™ OS 2.3 o versione successiva
 * Internet Explorer su dispositivi mobili non è attualmente supportato.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_2671D63442B54F659C32C4A3CC61DD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Specifica quando visualizzare il pannello informazioni. </p> <p>Se impostato su <span class="codeph"> 1</span>, il pannello info viene visualizzato quando il mouse entra nell'area mappa immagine (nel caso in cui la mappa immagine non sia vuota, <span class="codeph"> chiave_rollover</span> ). </p> <p>Se impostato su <span class="codeph"> 0</span> il pannello informazioni viene attivato quando si seleziona la mappa immagine (se questa ha un <span class="codeph"> chiave_rollover</span> e vuoto <span class="codeph"> href</span> attributi). </p> <p> Ignorato sui dispositivi touch, inclusi i sistemi desktop touch, impostato automaticamente su <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p>Specifica quando visualizzare il pannello informazioni. </p> <p>Se è impostato su <span class="codeph"> 1</span>, il pannello informazioni viene visualizzato quando il mouse entra nell'area della mappa immagine (nel caso in cui la mappa immagine abbia un attributo <span class="codeph"> rollover_key</span> non vuoto). </p> <p>Se è impostato su <span class="codeph">, il pannello informazioni </span> viene attivato quando la mappa immagine è selezionata (se la mappa immagine ha un valore <span class="codeph"> rollover_key</span> non vuoto e attributi <span class="codeph"> href</span> vuoti). </p> <p> Ignorato sui dispositivi touch, inclusi i sistemi desktop touch, impostato automaticamente su <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

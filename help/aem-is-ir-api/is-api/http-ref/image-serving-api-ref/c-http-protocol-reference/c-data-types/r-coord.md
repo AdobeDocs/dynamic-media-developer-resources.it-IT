@@ -27,4 +27,4 @@ Coordinate pixel. Utilizzato per specificare le coordinate dell&#39;immagine sot
  </tr> 
 </table>
 
-Coordinata `0,0` si riferisce all’angolo in alto a sinistra dell’immagine o del rettangolo. L’aumento dei valori si sposta verso il basso a destra.
+La coordinata `0,0` fa riferimento all&#39;angolo superiore sinistro dell&#39;immagine o del rettangolo. L’aumento dei valori si sposta verso il basso a destra.

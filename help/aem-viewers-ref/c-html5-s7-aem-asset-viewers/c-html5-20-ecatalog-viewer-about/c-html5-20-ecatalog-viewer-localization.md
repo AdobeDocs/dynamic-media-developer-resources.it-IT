@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore eCatalog sono soggetti a localizzazione, ad esempio i pulsanti di zoom, i pulsanti di modifica della pagina, i pulsanti delle miniature, i pulsanti a schermo intero, i pulsanti di chiusura e i pulsanti della barra di scorrimento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato di default per la lingua inglese ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato nelle impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni internazionali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna lingua.
+Nell&#39;esempio precedente, l&#39;oggetto di localizzazione definisce due impostazioni locali ( `"en"` e `"fr"`) e fornisce la localizzazione per due elementi dell&#39;interfaccia utente in ciascuna impostazione locale.
 
-Il codice della pagina web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore di `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, è possibile passare l’oggetto di localizzazione chiamando `setLocalizedTexts(localizationInfo)` metodo.
+Il codice della pagina Web deve trasmettere tale oggetto di localizzazione al costruttore del visualizzatore come valore del campo `localizedTexts` dell&#39;oggetto di configurazione. In alternativa, passare l&#39;oggetto di localizzazione chiamando il metodo `setLocalizedTexts(localizationInfo)`.
 
 Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del contenitore del visualizzatore):
 
@@ -97,35 +97,35 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Pulsante Scorri verso il basso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Pagina successiva grande. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Pagina precedente grande. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Ultima pagina </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Ultima pagina </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Prima pagina </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Prima pagina </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Pagina successiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Pagina precedente. </p> </td> 
   </tr> 
   <tr> 
@@ -161,11 +161,11 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Pulsante di chiusura in alto a destra della finestra di dialogo E-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS </span> </p> </td> 
    <td colname="col2"> <p>Messaggio di errore visualizzato nel caso in cui l’indirizzo e-mail non sia corretto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.TO </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione e-mail <span class="codeph">.TO </span> </p> </td> 
    <td colname="col2"> <p>Etichetta per il campo di input "A". </p> </td> 
   </tr> 
   <tr> 
@@ -173,15 +173,15 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Pulsante Aggiungi un altro indirizzo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.ADD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.AGGIUNGI </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Aggiungi un altro indirizzo e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
+   <td colname="col1"> <p> Condivisione e-mail <span class="codeph">.DA </span> </p> </td> 
    <td colname="col2"> <p>Dal campo di input. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.MESSAGGIO </span> </p> </td> 
    <td colname="col2"> <p>Campo di input del messaggio. </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Pulsante Invio modulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Condivisione e-mail.SEND_SUCCESS </span> </p> </td> 
    <td colname="col2"> <p>Messaggio di conferma visualizzato quando l’e-mail è stata inviata correttamente. </p> </td> 
   </tr> 
   <tr> 
@@ -237,7 +237,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Incorpora intestazione finestra di dialogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> IncorporaCondividi.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> IncorporaShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Chiudi in alto a destra nella finestra di dialogo Incorpora. </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Etichetta per la casella combinata dimensione incorporamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> IncorporaCondivisione.ANNULLA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CondivisioneIncorporata.ANNULLA </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Descrizione del collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CondivisioneCollegamenti.ANNULLA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ANNULLA </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Intestazione della finestra di dialogo Stampa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Stampa.TOOLTIP_HEADER_CHIUDI </span> </p> </td> 
    <td colname="col2"> <p>Finestra di dialogo Stampa pulsante di chiusura in alto a destra. </p> </td> 
   </tr> 
   <tr> 
@@ -317,7 +317,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Etichetta per la sezione "Seleziona pagine di stampa". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Stampa.PRINT_RANGE_CURRENT </span> </p> </td> 
    <td colname="col2"> <p>Didascalia del pulsante di opzione "Pagine correnti". </p> </td> 
   </tr> 
   <tr> 
@@ -333,7 +333,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Didascalia del pulsante di opzione "Tutte le pagine". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gestione stampa.PAGINE </span> </p> </td> 
    <td colname="col2"> <p>Etichetta per la sezione "Gestione pagine". </p> </td> 
   </tr> 
   <tr> 
@@ -349,7 +349,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Didascalia del pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Stampa.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p> pulsante Annulla. </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p> Pulsante Invia a stampa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MenuPreferiti.DESCRIZIONECOMANDO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PreferitiMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Pulsante del menu Preferiti. </p> </td> 
   </tr> 
   <tr> 
@@ -381,20 +381,20 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
    <td colname="col2"> <p>Pulsante Rimuovi preferiti in modalità normale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VisualizzaTuttoPulsantePreferito.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VisualizzaTuttoPulsantePreferito.SUGGERIMENTO_SELEZIONATO </span> </p> </td> 
    <td colname="col2"> <p>Pulsante "Visualizza tutti i preferiti" quando la visualizzazione Preferiti è attiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VisualizzaTuttoPulsantePreferito.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VisualizzaTuttoPulsantePreferito.SUGGERIMENTO_NON SELEZIONATO </span> </p> </td> 
    <td colname="col2"> <p>Pulsante Visualizza tutti i preferiti quando la visualizzazione Preferiti non è attiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PreferitiEffect.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PreferitesEffect.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Singola icona preferita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_AA] </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta di pagina generata dal visualizzatore al momento del caricamento. </p> <p>Il nome di tale simbolo è un modello, in cui <span class="codeph"> XX </span> è un indice di distribuzione a base zero con orientamento orizzontale ed è facoltativo <span class="codeph"> AA </span> è un indice di pagina a base zero all’interno della distribuzione di destinazione da <span class="codeph"> XX </span>. </p> <p>Si applica solo alla risorsa caricata inizialmente; viene ignorato se una risorsa viene modificata utilizzando <span class="codeph"> setAsset() </span> Chiamata API. </p> </td> 
+   <td colname="col2"> <p>Etichetta di pagina generata dal visualizzatore al momento del caricamento. </p> <p>Il nome del simbolo è un modello, dove <span class="codeph"> XX </span> è un indice di distribuzione a base zero con orientamento orizzontale e <span class="codeph"> YY </span> facoltativo è un indice di pagina a base zero all'interno della distribuzione di destinazione <span class="codeph"> XX </span>. </p> <p>Si applica solo alla risorsa caricata inizialmente. Viene ignorato se una risorsa viene modificata tramite la chiamata API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

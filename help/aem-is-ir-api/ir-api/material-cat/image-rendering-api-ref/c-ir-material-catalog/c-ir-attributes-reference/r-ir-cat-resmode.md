@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +18,11 @@ Metodo di ricampionamento. Predefinito per `resMode=`. Specifica gli attributi d
 
 ## Proprietà {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
-Enum. Imposta su 2 per `'bilin'`, 3 per `'bicub'`, o 4 per `'sharp2'` modalità di interpolazione (vedere [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md) per i dettagli).
+Enum. Impostare su 2 per `'bilin'`, 3 per `'bicub'` o 4 per la modalità di interpolazione `'sharp2'` (vedere [resMode=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md) per i dettagli).
 
 ## Predefinito {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 
-Ereditato da `default::ResMode` se non è definita o se è vuota.
+Ereditato da `default::ResMode` se non definito o se vuoto.
 
 ## Consultate anche {#section-34b71c295b4349dfb4379823a2de83c2}
 

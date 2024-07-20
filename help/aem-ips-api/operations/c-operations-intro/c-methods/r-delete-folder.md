@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo codice di esempio elimina una cartella dalla directory principale dell’azienda. Richiede un handle di cartella che è necessario ottenere da un&#39;altra operazione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:deleteFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

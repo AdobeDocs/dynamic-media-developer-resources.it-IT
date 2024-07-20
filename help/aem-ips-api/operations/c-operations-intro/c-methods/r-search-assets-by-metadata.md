@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 6%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Cerca i termini di ricerca specificati nell&#39;archivio dell&#39;indice dei metadati. Restituisce i dati delle risorse come il metodo searchAssets.
 
-Mentre `searchAssetsByMetadata` consente di eseguire ricerche nei campi metadati definiti dall&#39;utente. Tali campi non vengono restituiti se sono specificati in `responseMetadataArray`. Per illustrare questo punto, il seguente esempio di codice:
+Mentre `searchAssetsByMetadata` consente di eseguire ricerche nei campi metadati definiti dall&#39;utente, tali campi non vengono restituiti se sono specificati in `responseMetadataArray`. Per illustrare questo punto, il seguente esempio di codice:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ restituisce un valore null:
 </items>
 ```
 
-Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle risorse restituite dalla ricerca da eseguire `getAssets` (vedere anche [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Questo metodo ottiene i valori dei campi definiti dall&#39;utente per le risorse in questione. Utilizza l’esempio di sintassi seguente per eseguire ricerche nei campi di metadati definiti dall’utente:
+Per risolvere il problema, è possibile utilizzare `fieldHandles` delle risorse restituite dalla ricerca per eseguire `getAssets` (vedere anche [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Questo metodo ottiene i valori dei campi definiti dall&#39;utente per le risorse in questione. Utilizza l’esempio di sintassi seguente per eseguire ricerche nei campi di metadati definiti dall’utente:
 
 ```java
 <ns:metadataConditionArray>
@@ -71,49 +71,49 @@ Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle riso
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>La maniglia per l'azienda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> Tipo <span class="codeph">:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Filtri che consentono di definire i criteri di ricerca. </p> <p>Consulta <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtri che consentono di definire i criteri di ricerca. </p> <p>Vedere <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> Tipo <span class="codeph">:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Condizioni che definiscono i criteri di ricerca. Per ulteriori informazioni, vedere di seguito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> tipo:StringArray</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Campi aggiuntivi da compilare nella risposta nel riepilogo delle risorse. I campi devono essere specificati nel formato normalizzato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Numero di risorse restituite dalla risposta. Il valore predefinito è 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> risultatiPagina</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Specifica la pagina di risultati da restituire, in base a <span class="codeph"> recordsPerPage</span> dimensioni della pagina. </p> </td> 
+   <td colname="col4"> <p>Specifica la pagina dei risultati da restituire, in base alle dimensioni di pagina <span class="codeph"> recordsPerPage</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Ordina per campo risorsa selezionato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>No </p> </td> 
    <td colname="col4"> <p>Scelta della direzione di ordinamento. L'impostazione predefinita è Crescente. </p> </td> 
   </tr> 
@@ -129,9 +129,9 @@ Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle riso
 
 ## Dettagli metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
-**Struttura articolo**
+**Struttura elemento**
 
-`metadataConditionArray` la struttura è la seguente:
+`metadataConditionArray` struttura:
 
 ```java
 <ns1:items>
@@ -143,7 +143,7 @@ Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle riso
 
 **Valori**
 
-`field_handle` è la chiave di ricerca dei metadati. Può contenere la notazione del punto. I valori possibili includono:
+`field_handle` è la chiave di ricerca metadati. Può contenere la notazione del punto. I valori possibili includono:
 
 * `asset_id` (senza prefisso)
 * `name`
@@ -156,13 +156,13 @@ Per risolvere questo problema, è possibile utilizzare `fieldHandles` delle riso
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (come `modified_at` (Data nella forma: Ven 25 luglio 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (uguale a `modified_at` (Data nella forma: Ven 25 lug 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Operatori consentiti**
 
-Il [!DNL operator] definisce come confrontare il valore e include:
+[!DNL operator] definisce come confrontare il valore e include:
 
 * `Equals`
 * `NotEquals`
@@ -171,17 +171,17 @@ Il [!DNL operator] definisce come confrontare il valore e include:
 * `StartsWith`
 * `EndsWith`
 
-Il `comparison_value` è il termine da cercare.
+`comparison_value` è il termine da cercare.
 
 ## Esempi {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 In questo esempio di codice viene eseguita una ricerca con i seguenti criteri di metadati:
 
-* `name` il campo contiene `1000801`.
+* Il campo `name` contiene `1000801`.
 
-* `dc.rights` field è uguale a `Per Jessen Schmidt`.
+* Il campo `dc.rights` è uguale a `Per Jessen Schmidt`.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

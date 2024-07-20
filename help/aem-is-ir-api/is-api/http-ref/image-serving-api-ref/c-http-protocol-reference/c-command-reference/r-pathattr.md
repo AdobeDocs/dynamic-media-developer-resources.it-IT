@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -33,15 +33,15 @@ Attributi testo su tracciato.
  </tr> 
 </table>
 
-Specifica `norm` per disegnare il testo che inizia vicino al primo vertice del tracciato e `reverse` per disegnare il testo nella direzione opposta, a partire dall&#39;ultimo vertice.
+Specificare `norm` per disegnare il testo a partire dal primo vertice del percorso e `reverse` per disegnare il testo nella direzione opposta, a partire dall&#39;ultimo vertice.
 
-*`startPos`* e *`endPos`* consente di regolare la posizione sul tracciato in cui viene disegnato il testo. 0,0 corrisponde al primo vertice del tracciato e 1,0 all&#39;ultimo vertice; i valori intermedi esprimono la distanza lungo il tracciato tra il primo e l&#39;ultimo vertice.
+*`startPos`* e *`endPos`* consentono di regolare la posizione nel percorso in cui viene disegnato il testo. 0,0 corrisponde al primo vertice del tracciato e 1,0 all&#39;ultimo vertice; i valori intermedi esprimono la distanza lungo il tracciato tra il primo e l&#39;ultimo vertice.
 
 ## Proprietà {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Attributo livello. Ignorato se il livello non include `textPs=` e `textPath=` comandi.
+Attributo livello. Ignorato se il livello non include i comandi `textPs=` e `textPath=`.
 
-*`startPos`* deve essere maggiore o uguale a 0 e minore di 1,0. *`endPos`* deve essere maggiore di *`startPos`* e minore o uguale a 1,0 se applicato a un tracciato aperto o minore o uguale a ( *`startPos`* + 1.0) se applicata a un tracciato chiuso.
+*`startPos`* deve essere maggiore o uguale a 0 e minore di 1,0. *`endPos`* deve essere maggiore di *`startPos`* e minore o uguale a 1,0 quando applicato a un percorso aperto oppure minore o uguale a ( *`startPos`* + 1,0) quando applicato a un percorso chiuso.
 
 ## Predefinito {#section-3e757970885c45e7b6100e78dc08626f}
 

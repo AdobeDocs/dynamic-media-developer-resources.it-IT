@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Definizioni dei campi definite dall’utente per risorse specifiche.
 
-Recuperare le definizioni dei campi tag con `getMetadataFields` o `getAssetMetadataField` operazioni.
+Recuperare le definizioni dei campi tag con le operazioni `getMetadataFields` o `getAssetMetadataField`.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -31,22 +31,22 @@ Recuperare le definizioni dei campi tag con `getMetadataFields` o `getAssetMetad
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Handle campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nome campo metadati. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Tipo di campo metadati. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valore predefinito</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valore predefinito per il campo metadati. </td> 
   </tr> 
   <tr> 
@@ -67,11 +67,11 @@ Recuperare le definizioni dei campi tag con `getMetadataFields` o `getAssetMetad
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> <p>Flag booleano che indica se il tipo di campo metadati viene applicato (convalidato) quando il valore viene impostato. </p> <p>Se è impostato su true, viene generato un errore se in è impostato un valore non valido <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>Flag booleano che indica se il tipo di campo metadati viene applicato (convalidato) quando il valore viene impostato. </p> <p>Se è impostato su true, viene generato un errore se in <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> è impostato un valore non valido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:stringa</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Ti consente di creare un set di valori specificati condivisi a cui i tag selezionati possono puntare. </td> 
   </tr> 
  </tbody> 

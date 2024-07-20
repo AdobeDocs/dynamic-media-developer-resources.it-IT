@@ -8,7 +8,7 @@ exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Questi comandi vengono applicati indipendentemente dalla posizione nella richies
   <td class="stentry"> <p>Imposta il colore di sfondo della visualizzazione. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> adatta</a> </p></td> 
+  <td class="stentry"> <p> Adatta <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"></a> </p></td> 
   <td class="stentry"> <p>Adatta la visualizzazione all'immagine composita. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Questi comandi vengono applicati indipendentemente dalla posizione nella richies
   <td class="stentry"> <p>Imposta l'altezza della vista. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> retto</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> rect</a> </p></td> 
   <td class="stentry"> <p>Specifica il rettangolo di visualizzazione finale. </p></td> 
  </tr> 
  <tr class="strow"> 

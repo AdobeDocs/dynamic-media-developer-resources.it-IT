@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Image Server offre diverse alternative per il rendering del testo, accessibili con i comandi text= e textPs=.
 
-`textPs=` offre un livello elevato di somiglianza con il testo renderizzato con Adobe Photoshop e Illustrator. `text=` è ragionevolmente compatibile con il testo sottoposto a rendering con Windows Wordpad.
+`textPs=` offre un elevato livello di somiglianza con il testo sottoposto a rendering con Adobe Photoshop e Illustrator. `text=` è ragionevolmente compatibile con il testo sottoposto a rendering con Windows Wordpad.
 
 >[!NOTE]
 >
->Oltre alle differenze elencate altrove, `text=` produce lievi differenze nel testo sottoposto a rendering quando confrontato con `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene visualizzato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` può ritagliare parzialmente l’ultima riga, mentre `textPs=` esegue il rendering solo delle righe complete.
+>Oltre alle differenze elencate altrove, `text=` genera differenze impercettibili nel testo sottoposto a rendering rispetto a `textPs=`. Ad esempio, le sottolineature non hanno lo stesso spessore e la stessa posizione e il corsivo sintetizzato viene visualizzato con un angolo leggermente diverso. Se il testo non rientra nello spazio disponibile, `text=` può ritagliare parzialmente l&#39;ultima riga, mentre `textPs=` esegue il rendering solo delle righe complete.
 
 Tutti i comandi di testo accettano testo formattato in base a un sottoinsieme della specifica RTF (Rich Text Format). Ogni livello di testo può specificare un comando di testo diverso.
 
@@ -29,10 +29,10 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ogni com
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Funzionalità</b> </th> 
-   <th class="entry"> <b> text= Testo</b> </th> 
+   <th class="entry"> Funzionalità <b></b> </th> 
+   <th class="entry"> <b> testo=</b> </th> 
    <th class="entry"> <b> textPs=</b> </th> 
-   <th class="entry"> <b> Consultate anche</b> </th> 
+   <th class="entry"> <b> Vedere anche</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -153,7 +153,7 @@ Alcuni elaboratori di testi generano file piuttosto grandi, che includono preamb
 
 La codifica del linguaggio basata sugli standard UTF-8 e ISO è supportata nelle stringhe RTF in alternativa ai meccanismi di codifica dei caratteri RTF standard. Ciò consente alle applicazioni di inviare al server testo non in inglese senza conoscere la codifica RTF.
 
-Se la stringa deve essere trasmessa tramite HTTP, tutti i caratteri non conformi HTTP devono avere un escape corretto. Solo &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; devono avere un escape se la stringa è incorporata nel `catalog::Modifiers` di un record di catalogo immagini. Caratteri di controllo, inclusi `<CR>`, `<LF>`, e `<TAB>` devono essere sempre rimossi.
+Se la stringa deve essere trasmessa tramite HTTP, tutti i caratteri non conformi HTTP devono avere un escape corretto. Se la stringa è incorporata nel campo `catalog::Modifiers` di un record del catalogo immagini, solo &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; devono avere un escape. I caratteri di controllo, inclusi `<CR>`, `<LF>` e `<TAB>`, devono essere sempre rimossi.
 
 I motori di testo Image Server interpretano un sottoinsieme di comandi definiti dalle specifiche RTF (Rich Text Format), versione 1.6. Questo sottoinsieme si concentra sulla formattazione di font/caratteri, sulla formattazione di paragrafo semplice e sul supporto di font e set di caratteri internazionali. I costrutti di formattazione più avanzati, ad esempio i fogli di stile e le tabelle, non sono attualmente supportati.
 

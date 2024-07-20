@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Se attivato nella vignettatura, il renderer varia l&#39;algoritmo di illuminazione per simulare una variazione della lucentezza del materiale (principalmente controllando il contrasto).
 
-Questo effetto è indipendente dal rendering della riflessione e lo completa simulando riflessi speculari. L&#39;effetto è controllato con lo stesso `gloss=`, `glossmap=`, e `type=` attributi utilizzati per controllare le riflessioni.
+Questo effetto è indipendente dal rendering della riflessione e lo completa simulando riflessi speculari. L&#39;effetto è controllato con gli stessi attributi `gloss=`, `glossmap=` e `type=` utilizzati per controllare le riflessioni.

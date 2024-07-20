@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:IccProfileUpdate` | `IccProfileFieldUpdate` elemento di array. |
+| elementi | `types:IccProfileUpdate` | `IccProfileFieldUpdate` elemento array. |

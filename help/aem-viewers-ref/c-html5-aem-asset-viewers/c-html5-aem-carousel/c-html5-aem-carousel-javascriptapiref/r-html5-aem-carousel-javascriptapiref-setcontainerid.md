@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Riferimento API JavaScript per il visualizzatore carosello.
+description: Riferimento API di JavaScript per il visualizzatore carosello.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -8,27 +8,27 @@ exl-id: 32636cf9-3dc7-4299-a7b7-cf803ca36514
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-Riferimento API JavaScript per il visualizzatore carosello.
+Riferimento API di JavaScript per il visualizzatore carosello.
 
 ` setContainerId( *`containerId`*)`
 
-Imposta l’ID del contenitore DOM (normalmente un `DIV`) in cui è inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando `init()` viene eseguito. Deve essere chiamato prima di `init()`.
+Imposta l&#39;ID del contenitore DOM (in genere `DIV`) in cui viene inserito il visualizzatore. Non è necessario creare l’elemento contenitore nel momento in cui viene chiamato questo metodo. Tuttavia, il contenitore deve esistere quando viene eseguito `init()`. Deve essere chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l&#39;oggetto JSON `config` al costruttore.
 
 ## Parametro {#section-fa807db629ce43bab286b1e1dc96c492}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID del contenitore. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID contenitore </span> </span> </p> </td> 
+   <td colname="col2"> <p> ID <span class="codeph"> {string} </span> del contenitore. </p> </td> 
   </tr> 
  </tbody> 
 </table>

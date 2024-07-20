@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 3%
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -35,21 +35,21 @@ L’aspetto dell’area di visualizzazione è controllato dal seguente selettore
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
    <td colname="col2"> <p>Altezza del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
    <td colname="col2"> <p> Colore di sfondo in formato esadecimale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare un visualizzatore a comparsa con sfondo bianco ( `#FFFFFF`) e renderle di 260 x 500 pixel.
+Esempio: per impostare un visualizzatore a comparsa con sfondo bianco ( `#FFFFFF`) e impostarne le dimensioni a 260 x 500 pixel.
 
 ```
 .s7flyoutviewer { 

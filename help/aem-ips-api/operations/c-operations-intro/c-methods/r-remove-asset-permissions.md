@@ -8,7 +8,7 @@ exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice rimuove le autorizzazioni da una risorsa.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:removeAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

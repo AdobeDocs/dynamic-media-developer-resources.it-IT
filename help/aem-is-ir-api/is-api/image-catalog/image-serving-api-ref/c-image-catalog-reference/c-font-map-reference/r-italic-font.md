@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Flag corsivo.
 
-Specifica se utilizzare il file di font a cui fa riferimento questo record mappa font quando richiesto dal corsivo RTF ( `\i`).
+Specifica se utilizzare il file di font a cui fa riferimento questo record mappa font quando richiesto dal comando RTF corsivo ( `\i`).
 
 ## Proprietà {#section-607e76490e87418496d1c6763018a14f}
 

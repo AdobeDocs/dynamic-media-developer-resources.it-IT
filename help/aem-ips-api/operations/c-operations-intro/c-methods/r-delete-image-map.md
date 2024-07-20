@@ -8,7 +8,7 @@ exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 Questo esempio di codice elimina una mappa immagine da un&#39;azienda. È necessario ottenere l&#39;handle della mappa immagine da un&#39;altra operazione.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deleteImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd">

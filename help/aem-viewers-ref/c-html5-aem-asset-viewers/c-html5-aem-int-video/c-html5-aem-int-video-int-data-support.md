@@ -18,11 +18,11 @@ Il Visualizzatore video interattivo supporta il rendering dei campioni interatti
 
 Il campione attualmente visibile corrisponde all&#39;area temporale del video a cui è associato. Toccando o facendo clic sul campione interattivo si attiva l’azione ad esso assegnata al momento dell’authoring.
 
-Il campione interattivo può attivare un Quickview sulla pagina web di hosting attivando un callback JavaScript oppure può reindirizzare l’utente a una pagina web esterna.
+Il campione interattivo può attivare un Quickview sulla pagina web di hosting attivando un callback di JavaScript oppure può reindirizzare l’utente a una pagina web esterna.
 
 ## Informazioni su Quickview {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in Adobe Experience Manager Assets - On-demand. Quando un utente attiva tale campione, il visualizzatore viene eseguito `quickViewActivate` Callback JavaScript e trasmissione dei dati del campione. È previsto che la pagina web incorporante ascolti questo callback e, quando viene attivata, la pagina apre la propria implementazione Quickview.
+Questi tipi di campioni interattivi devono essere creati utilizzando il tipo di azione &quot;quickview&quot; in Adobe Experience Manager Assets - On-demand. Quando un utente attiva un campione di questo tipo, il visualizzatore esegue il callback di JavaScript `quickViewActivate` e gli trasmette i dati del campione. È previsto che la pagina web incorporante ascolti questo callback e, quando viene attivata, la pagina apre la propria implementazione Quickview.
 
 ## Reindirizza a una pagina web esterna {#section-32ebe3c3a7f74892a428c5d48801de4d}
 

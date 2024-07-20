@@ -24,7 +24,7 @@ Numero reale, maggiore di 0.In genere espresso come pixel per pollice, ma può a
 
 ## Predefinito {#section-86588899ec9b4276a98b03d7faf64003}
 
-Ereditato da `default::ThumbRes` se non è definita o se è vuota.
+Ereditato da `default::ThumbRes` se non definito o se vuoto.
 
 ## Consultate anche {#section-a6d2cce2e404441a996dba98a95c8e16}
 

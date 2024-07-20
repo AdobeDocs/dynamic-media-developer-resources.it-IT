@@ -8,7 +8,7 @@ exl-id: e5bb2188-d262-4324-9f71-68634b6af654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -70,9 +70,9 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>che contengono: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> che contengono: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Risorse che hanno generato gli avvisi. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets che ha generato gli avvisi. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codici di avviso. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo dell’avviso. </li> 
     </ul> </td> 
@@ -81,9 +81,9 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>che contengono: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> che contengono: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Risorse che hanno generato gli errori. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets che ha generato gli errori. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codici di errore. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Motivo degli errori. </li> 
     </ul> </td> 
@@ -95,7 +95,7 @@ Sintassi
 
 Questo esempio di codice sposta le risorse in una posizione specifica specificata da `assetMoveArray`. L’array include l’handle della risorsa e il relativo handle di cartella. La risposta indica che le risorse sono state spostate correttamente.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <moveAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

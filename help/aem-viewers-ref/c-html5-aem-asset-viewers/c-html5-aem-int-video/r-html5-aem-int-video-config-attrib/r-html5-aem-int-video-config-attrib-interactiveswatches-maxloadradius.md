@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video interattivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se impostato su <span class="codeph"> -1</span> tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se impostato su <span class="codeph"> 0</span> vengono caricati solo i campioni visibili. </p> <p>Imposta su <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe/colonne invisibili vengono precaricate attorno all'area visibile. </p> </td> 
+   <td colname="col2"> <p> Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, tutti i campioni vengono caricati contemporaneamente quando il componente viene inizializzato o la risorsa viene modificata. </p> <p>Se è impostato su <span class="codeph"> 0</span>, vengono caricati solo i campioni visibili. </p> <p>Impostare su <span class="codeph"><span class="varname"> preloadnbr</span></span> per definire quante righe/colonne invisibili vengono precaricate attorno all'area visibile. </p> </td> 
   </tr> 
  </tbody> 
 </table>

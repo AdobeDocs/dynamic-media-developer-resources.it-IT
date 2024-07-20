@@ -70,13 +70,13 @@ Sintassi
    <td colname="col4"> Nome della mappa immagine creata o salvata. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ShapeType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Scelta della forma Regione. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> area geografica </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> area </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> Un elenco delimitato da virgole di punti che definiscono la regione. </td> 
@@ -85,10 +85,10 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> azione </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:stringa </span> </td> 
    <td colname="col3"> Sì </td> 
-   <td colname="col4"> <p>Il <span class="codeph"> href </span> valore associato alla mappa immagine come specificato nell'interfaccia IPS. </p> <p>Per ottenere <span class="codeph"> href </span> , fare clic sull'immagine nell'interfaccia IPS, copiare e incollare l'URL in questo elemento e quindi formattare l'URL IPS come URL appropriato. Ad esempio: <span class="codeph"> E </span> diventa <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Il valore <span class="codeph"> href </span> associato alla mappa immagine come specificato nell'interfaccia IPS. </p> <p>Per ottenere il valore <span class="codeph"> href </span>, fare clic sull'immagine nell'interfaccia IPS, copiare e incollare l'URL in questo elemento, quindi formattare l'URL IPS come URL corretto. Ad esempio, <span class="codeph"> e </span> diventano <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> posizione </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sì </td> 
    <td colname="col4"> L'ordine nell'elenco delle mappe immagine (l'asse Z). </td> 
@@ -112,7 +112,7 @@ Sintassi
 
 Questo esempio di codice crea una nuova mappa immagine per una risorsa. Utilizza un tipo di forma determinato da una costante stringa di forma area e restituisce un punto di manipolazione nella nuova mappa immagine.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

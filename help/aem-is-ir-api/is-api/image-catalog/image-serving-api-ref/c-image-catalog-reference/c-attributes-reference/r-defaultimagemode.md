@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Enum. Fate clic su &#39;0&#39; per sostituire l&#39;intera immagine composita, a
 
 ## Restrizioni {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-Image Server torna a `DefaultImageMode=0` quando sono nidificati Image Rendering, FXG o `req=set` richieste non riuscite.
+Image Server torna a `DefaultImageMode=0` se le richieste di Image Rendering, FXG o `req=set` nidificate non riescono.
 
 ## Predefinito {#section-9e318524a2a5496386901286748c7ee7}
 
-Ereditato da `default::DefaultImage` se non è definita o se è vuota.
+Ereditato da `default::DefaultImage` se non definito o se vuoto.
 
 ## Consultate anche {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 

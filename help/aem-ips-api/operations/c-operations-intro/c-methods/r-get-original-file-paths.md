@@ -8,7 +8,7 @@ exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -51,7 +51,7 @@ Sintassi
 
 In questo esempio di codice vengono restituiti i percorsi file delle risorse specificate con handle di risorse univoci in un array di handle di risorse.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <ns1:getOriginalFilePathsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

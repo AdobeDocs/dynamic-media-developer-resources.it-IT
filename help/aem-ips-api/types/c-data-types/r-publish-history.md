@@ -23,6 +23,6 @@ Sintassi
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | serverName | `xsd:string` | Nome del server proprietario della cronologia di pubblicazione. |
-| contextName | `xsd:string` | Nome contesto cronologia di pubblicazione. |
-| publishFormat | `xsd:string` | Formato di pubblicazione. |
+| contextName | `xsd:string` | Nome di contesto della cronologia Publish. |
+| publishFormat | `xsd:string` | Formato Publish. |
 | lastPublished | `xsd:dateTime` | Data e ora dell’ultima pubblicazione della risorsa. |

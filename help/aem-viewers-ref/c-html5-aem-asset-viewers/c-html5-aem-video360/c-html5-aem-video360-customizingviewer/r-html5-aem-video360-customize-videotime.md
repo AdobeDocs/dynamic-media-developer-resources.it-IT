@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -31,19 +31,19 @@ L’aspetto del tempo del video è controllato dal seguente selettore di classe 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
    <td colname="col2"> <p>Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del controllo tempo video. Questa proprietà è necessaria per il corretto funzionamento di Internet Explorer 8 o versione successiva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
    <td colname="col2"> <p>Famiglia di font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,13 +51,13 @@ L’aspetto del tempo del video è controllato dal seguente selettore di classe 
    <td colname="col2"> <p>Dimensione font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
    <td colname="col2"> <p>Colore del carattere da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** - Impostare il tempo video su grigio chiaro (esadecimale) `#BBBBBB`), ridimensionato a 12 pixel, posizionato a 15 pixel dalla parte superiore della barra di controllo e a 80 pixel dai bordi superiore e destro della barra di controllo.
+**Esempio** - Impostare il tempo del video su grigio chiaro (esadecimale `#BBBBBB`), ridimensionato a 12 pixel, posizionato a 15 pixel dalla parte superiore della barra di controllo e a 80 pixel dai bordi superiore e destro della barra di controllo.
 
 ```
 .s7video360viewer .s7videotime { 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 0%
 
 ---
 
@@ -18,47 +18,47 @@ Tracciato clip livello. Specifica un tracciato di ritaglio per il livello corren
 
 `clipPath= *`pathDefinition`*`
 
-`clipPathE= *`pathName`*&#42;[, *`pathName`*]`
+`clipPathE= *`nomePercorso`*&#42;[, *`nomePercorso`*]`
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> definizione percorso</span> </span> </p> </td> 
   <td class="stentry"> <p>Dati percorso. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nomePercorso</span></span> </p> </td> 
   <td class="stentry"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p></td> 
  </tr> 
 </table>
 
-Qualsiasi parte del livello che non rientra nell&#39;area definita da `clipPath=` sono resi trasparenti.
+Tutte le parti del livello che non rientrano nell&#39;area definita da `clipPath=` sono rese trasparenti.
 
-`*`pathName`*` è il nome di un tracciato incorporato nell&#39;immagine sorgente del livello. Il percorso viene trasformato automaticamente per mantenere l&#39;allineamento relativo con il contenuto dell&#39;immagine. Se più di uno `*`pathName`*` è specificato, il server ritaglia l&#39;immagine all&#39;intersezione di questi percorsi. Qualsiasi `*`pathName`*` non trovato nell&#39;immagine di origine viene ignorato.
-
->[!NOTE]
->
->Sono supportate solo le stringhe ASCII per `*`pathName`*`.
-
-`*`pathDefinition`*` consente di specificare dati di tracciato espliciti in coordinate pixel del livello.
-
-Se `size=` è specificato e non 0,0, il livello viene ridimensionato. In questo caso, le coordinate del tracciato sono relative all&#39;angolo superiore sinistro del rettangolo del livello e il livello è posizionato in base a `origin=` o il suo valore predefinito. Qualsiasi area del tracciato all&#39;esterno del rettangolo di livello rimane trasparente.
-
-Se `size=` non è specificato per un colore a tinta unita o per un livello di testo, il livello viene considerato di dimensionamento automatico con l&#39;estensione del percorso che ne determina la dimensione. Se `origin=` non è specificato, il valore predefinito è (0,0) dello spazio delle coordinate del tracciato. Questo processo di flusso di lavoro consente di specificare le coordinate del tracciato rispetto all&#39;origine del livello 0.
+`*`nomePercorso`*` è il nome di un percorso incorporato nell&#39;immagine di origine del livello. Il percorso viene trasformato automaticamente per mantenere l&#39;allineamento relativo con il contenuto dell&#39;immagine. Se sono specificati più percorsi `*`pathName`*`, il server ritaglia l&#39;immagine all&#39;intersezione di tali percorsi. Qualsiasi `*`pathName`*` non trovato nell&#39;immagine di origine viene ignorato.
 
 >[!NOTE]
 >
->`scale=`, `rotate=`, e `anchor=` I comandi non sono consentiti per i livelli di colore a tinta unita con ridimensionamento automatico.
+>Per `*`pathName`*` sono supportate solo stringhe ASCII.
 
-`*`pathDefinition`*` accetta una stringa simile al valore della proprietà `d=` attributo del SVG `<path>` , ad eccezione del fatto che vengono utilizzate virgole al posto degli spazi per separare i valori. `*`pathDefinition`*` può includere uno o più percorsi secondari a ciclo chiuso.
+`*`pathDefinition`*` consente di specificare dati di percorso espliciti in coordinate pixel del livello.
+
+Se si specifica `size=` e non 0,0, il livello viene ridimensionato. In questo caso, le coordinate del tracciato sono relative all&#39;angolo superiore sinistro del rettangolo del livello e il livello è posizionato in base a `origin=` o al suo valore predefinito. Qualsiasi area del tracciato all&#39;esterno del rettangolo di livello rimane trasparente.
+
+Se `size=` non è specificato per un colore a tinta unita o per un livello di testo, il livello viene considerato di dimensionamento automatico e l&#39;estensione del percorso ne determina la dimensione. Se `origin=` non è specificato, per impostazione predefinita viene utilizzato (0,0) dello spazio delle coordinate del percorso. Questo processo di flusso di lavoro consente di specificare le coordinate del tracciato rispetto all&#39;origine del livello 0.
+
+>[!NOTE]
+>
+>I comandi `scale=`, `rotate=` e `anchor=` non sono consentiti per i livelli a tinta unita con ridimensionamento automatico.
+
+`*`pathDefinition`*` accetta una stringa simile al valore dell&#39;attributo `d=` dell&#39;elemento SVG `<path>`, con la differenza che vengono utilizzate virgole anziché spazi per separare i valori. `*`pathDefinition`*` può includere uno o più percorsi secondari a loop chiuso.
 
 I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Comando</b> </th> 
-   <th class="entry"> <b> Nome</b> </th> 
-   <th class="entry"> <b> Descrizione</b> </th> 
+   <th class="entry"> Comando <b></b> </th> 
+   <th class="entry"> Nome <b></b> </th> 
+   <th class="entry"> Descrizione <b></b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -91,7 +91,7 @@ I seguenti comandi di percorso sono supportati in `*`pathDefinition`*`:
   </tr> 
   <tr valign="top"> 
    <td> <b> Z</b> | <b>z</b> </td> 
-   <td> <p> closepath (Chiudi tracciato) </p> </td> 
+   <td> <p> closepath </p> </td> 
    <td> <p> Chiudete il sottotracciato corrente con una linea retta. </p> </td> 
   </tr> 
  </tbody> 
@@ -119,4 +119,4 @@ Nessuno, per non ritagliare ulteriormente il livello.
 
 ## Consultate anche {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extend= estensione](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

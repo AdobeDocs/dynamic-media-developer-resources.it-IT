@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numerico|punteggiato</span> </p> </td> 
-   <td colname="col2"> <p> Configura lo stile di rendering dell'indicatore impostato. </p> <p>Se impostato su <span class="codeph"> punteggiato </span>, il componente riproduce indicatori identici per tutte le pagine. </p> <p>Se impostato su <span class="codeph"> numerico</span> inserisce un numero di pagina basato su 1 in ogni elemento indicatore. </p> <p>Il <span class="codeph"> numerico</span> la modalità operativa non è supportata sui dispositivi con input tocco. Il componente utilizza invece <span class="codeph"> punteggiato</span> su tali dispositivi. </p> </td> 
+   <td colname="col2"> <p> Configura lo stile di rendering dell'indicatore impostato. </p> <p>Se è impostato su <span class="codeph"> con punti </span>, il componente riproduce indicatori identici per tutte le pagine. </p> <p>Se è impostato su <span class="codeph"> numerico</span>, inserisce un numero di pagina basato su 1 in ogni elemento indicatore. </p> <p>La modalità operativa <span class="codeph"> numeric</span> non è supportata nei dispositivi con input tocco. Il componente utilizza invece <span class="codeph"> punteggiato</span> su tali dispositivi. </p> </td> 
   </tr> 
  </tbody> 
 </table>

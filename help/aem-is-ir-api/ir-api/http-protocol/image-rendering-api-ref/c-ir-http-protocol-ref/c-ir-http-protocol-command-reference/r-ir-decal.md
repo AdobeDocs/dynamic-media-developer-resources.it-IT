@@ -8,7 +8,7 @@ exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Selettore materiale decalcomania. Avvia un segmento di specifica materiale (MSS)
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> Valore <span class="varname"> </span> </p> </td> 
   <td class="stentry"> <p>Ignorato. </p> </td> 
  </tr> 
 </table>

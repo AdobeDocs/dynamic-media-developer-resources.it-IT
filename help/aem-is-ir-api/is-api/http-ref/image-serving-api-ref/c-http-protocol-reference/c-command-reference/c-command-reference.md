@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 3%
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
@@ -18,22 +18,22 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 >[!TIP]
 >
->Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
+>Prova e scopri i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Medie per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Medie per osservare visivamente l’output di vari modificatori di immagini Dynamic Medie e ottimizzazioni Smart Imaging per i seguenti elementi:
 >* Dimensione del file (con consegna WebP e AVIF)
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
 >
->Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi)
+>Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
 
 
-**Solo per Dynamic Medie in Adobe Experience Manager** - oltre alle impostazioni di base delle immagini disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate delle immagini che è possibile specificare nella **Modificatori immagine** campo. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Medie nell’AEM.
+**Solo per Dynamic Medie in Adobe Experience Manager** - Oltre alle impostazioni immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche immagini avanzate che è possibile specificare nel campo **Modificatori immagine**. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Medie nell’AEM.
 
 * Comandi di correzione colore: `icc=` e `iccEmbed=`.
 * Comandi di base per la creazione di modelli e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
 * Comandi di localizzazione: `locale=` e `req=xlate`.
-* `req=set` non è disponibile per l’utilizzo generale.
+* `req=set` non è disponibile per l&#39;utilizzo generale.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
@@ -42,7 +42,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche Dynamic Medie [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione AEM 6.5.
+Consulta anche le [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) di Dynamic Medie nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)
@@ -72,7 +72,7 @@ Consulta anche Dynamic Medie [Opzioni predefinito immagine](https://experiencele
 * [setImmagini](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
 * [layer](r-layer.md)
-* [locale](r-locale.md)
+* [lingua](r-locale.md)
 * [mappa](r-map.md)
 * [maschera](r-mask.md)
 * [maskUse](r-maskuse.md)
@@ -107,8 +107,8 @@ Consulta anche Dynamic Medie [Opzioni predefinito immagine](https://experiencele
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [rotazione](r-rotate.md)
+* [scala](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [dimensione](r-size-reference.md)
 * [src](r-src.md)

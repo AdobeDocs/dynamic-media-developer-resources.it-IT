@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine del banner. Se specificato nell’URL, tutte le occorrenze di <span class="codeph"> E</span> e <span class="codeph"> =</span> deve essere codificato HTTP come <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, rispettivamente. </p> </td> 
+   <td colname="col2"> <p> Stringa di comando Image Server applicata all'immagine del banner. Se specificate nell'URL, per tutte le occorrenze di <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve essere utilizzato il rispettivo codice HTTP <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 9%
+source-wordcount: '176'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ Sintassi
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:stringa</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sì </p> </td> 
    <td colname="col4"> <p>Handle dell'azienda a cui appartengono le risorse. </p> </td> 
   </tr> 
@@ -103,9 +103,9 @@ Sintassi
 
 ## Esempi {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Questo esempio di codice invia un handle a una società e un array di handle di risorse in una `deleteAssetsParam` al server dei servizi Web. `deleteAssetsReturn` restituisce un numero di operazioni riuscite pari a 2, a indicare che entrambe le risorse sono state eliminate.
+Questo esempio di codice invia un handle a una società e un array di handle di risorse in una richiesta `deleteAssetsParam` al server dei servizi Web. `deleteAssetsReturn` restituisce un numero di operazioni riuscite pari a 2, a indicare che entrambe le risorse sono state eliminate.
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <deleteAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -20,4 +20,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:CompanyMember` |  |
+| elementi | `types:CompanyMember` | |

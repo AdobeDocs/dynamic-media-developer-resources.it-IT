@@ -8,7 +8,7 @@ exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Sintassi
 | companyHandle | `xsd:string` | Sì | Handle dell’azienda che contiene i predefiniti visualizzatore e le risorse. |
 | folderHandle | `xsd:string` | Sì | Handle della cartella che contiene le risorse. |
 | nome | `xsd:string` | Sì | Nome visualizzatore. |
-| tipo | `xsd:string` | Sì | Tipo visualizzatore. |
+| tipo | `xsd:string` | Sì | Tipo di visualizzatore. |
 | configSettingArray | `types:ConfigSettingArray` | No | Matrice che contiene nomi, valori e handle di immagini a cui si applicano i predefiniti. |
 
 **Output (createViewerPresetReturn)**

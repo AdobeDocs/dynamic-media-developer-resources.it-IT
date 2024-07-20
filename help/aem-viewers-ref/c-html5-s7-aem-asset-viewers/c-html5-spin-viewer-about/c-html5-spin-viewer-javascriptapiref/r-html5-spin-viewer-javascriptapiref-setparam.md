@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Riferimento API JavaScript per il visualizzatore 360 gradi.
+description: Riferimento API di JavaScript per il visualizzatore 360 gradi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 16d1d2cd-f58f-4ac3-b89f-f2f12fee231d
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # setParam{#setparam}
 
-Riferimento API JavaScript per il visualizzatore 360 gradi.
+Riferimento API di JavaScript per il visualizzatore 360 gradi.
 
 ` setParam( *`nome, valore`*)`
 
@@ -33,7 +33,7 @@ Riferimento API JavaScript per il visualizzatore 360 gradi.
 
 Imposta il parametro del visualizzatore su un valore specificato. Il parametro può essere un&#39;opzione di configurazione specifica del visualizzatore o un modificatore del kit di sviluppo software. Questo parametro viene chiamato prima di `init()`.
 
-Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono trasmesse con `config` Oggetto JSON al costruttore.
+Questo metodo è facoltativo se le informazioni di configurazione del visualizzatore vengono passate con l&#39;oggetto JSON `config` al costruttore.
 
 Vedi anche [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

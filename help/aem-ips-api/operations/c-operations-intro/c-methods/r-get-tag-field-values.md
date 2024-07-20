@@ -8,7 +8,7 @@ exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ Sintassi
 
 ## Esempi {#section-4492742614e44bb191a7d397dc1a1407}
 
-**Request Contents (Richiesta contenuto)**
+**Richiesta**
 
 ```java
 <getTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

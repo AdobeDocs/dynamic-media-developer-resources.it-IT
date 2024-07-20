@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Questi comandi possono essere utilizzati per definire gli effetti livello, ad es
   <td class="stentry"> <p>Specifica il metodo di fusione dei livelli. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
+  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> colore</a> </p></td> 
   <td class="stentry"> <p>Specifica il colore e l'opacità dell'effetto principale. </p></td> 
  </tr> 
  <tr class="strow"> 
