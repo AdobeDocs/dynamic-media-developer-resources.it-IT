@@ -1,6 +1,6 @@
 ---
 title: Versione autunno 2016 di Scene7
-description: '"Note aggiornate sulla versione di Adobe Scene7 Autunno 2016, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud".'
+description: Note aggiornate sulla versione di Adobe Scene7 Autunno 2016, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -121,7 +121,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 * Dispositivi mobili HTC
 
-   * I risultati dell’Adobe di HTC sui dispositivi mobili mostrano che l’impossibilità di disabilitare il pinch-zoom nativo è una &quot;funzione&quot; del wrapper dell’interfaccia utente HTC (HTC Sense). Questo problema può causare lo zoom dell’intera pagina quando si utilizza il gesto &quot;pizzica per ingrandire&quot; sul visualizzatore. Suggerisci invece di utilizzare il doppio tocco.
+   * I risultati di Adobe sui dispositivi mobili HTC mostrano che l’incapacità di disabilitare lo zoom nativo con pressione è una &quot;funzione&quot; del wrapper dell’interfaccia utente HTC (HTC Sense). Questo problema può causare lo zoom dell’intera pagina quando si utilizza il gesto &quot;pizzica per ingrandire&quot; sul visualizzatore. Suggerisci invece di utilizzare il doppio tocco.
    * Le icone della mappa immagine possono sovrapporsi se le mappe immagine sono piccole e vicine tra loro.
 
 * Video su HTML5
@@ -191,7 +191,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 * Video su HTML5
 
    * L&#39;immagine del poster potrebbe contenere un errore di &quot;dimensione massima&quot;. La società deve aumentare l’impostazione del limite per il Publish Image Server.
-   * I sottotitoli video richiedono un set di regole aziendali se la pagina HTML in hosting viene trasmessa da un server esterno (non da un server Scene7). Per assistenza, contatta il supporto Adobe.
+   * I sottotitoli video richiedono un set di regole aziendali se la pagina HTML in hosting viene trasmessa da un server esterno (non da un server Scene7). Contatta il supporto Adobe per assistenza.
    * Il tracciamento di Analytics potrebbe segnalare una percentuale di riproduzione errata a causa del buffering
    * Sui dispositivi iPad o Android™ è possibile che venga visualizzata una cornice nera invece di un&#39;immagine poster.
    * Il fotogramma nero può lampeggiare sullo schermo durante il caricamento del visualizzatore su dispositivi iPad o Android™.
@@ -203,7 +203,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## SDK 3.0.2 per visualizzatore Scene7 HTML5 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazione client. La documentazione API dei componenti si trova nella sottocartella docs dell’installazione client.
+La Guida utente si trova nella cartella Adobe HTML Viewer SDK dell’installazione client. La documentazione API dei componenti si trova nella sottocartella docs dell’installazione client.
 
 **Correzioni di bug per 3.0.2**
 
@@ -302,7 +302,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
 
 * Contenitore
 
-   * Bordo, spaziatura interna e margini sul contenitore non supportati. L&#39;Adobe suggerisce di aggiungere elementi di stile all&#39;elemento DIV padre.
+   * Bordo, spaziatura interna e margini sul contenitore non supportati. L’Adobe suggerisce di aggiungere elementi di stile all’elemento DIV principale.
    * È necessario impostare in modo esplicito la dimensione del contenitore o i componenti possono essere ridimensionati correttamente.
 
 * Stampa componente
@@ -345,7 +345,7 @@ La Guida utente si trova nella cartella Adobe HTML5 Viewer SDK dell’installazi
    * L’immagine del poster potrebbe non essere visualizzata per la prima volta nel browser Microsoft® Edge.
    * L&#39;immagine poster potrebbe nascondersi dopo il caricamento del video in Internet Explorer 9 quando viene utilizzata la riproduzione progressiva.
 
-## Dynamic Medie Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utility IC - Il flag `downsample2x2` non è più supportato. Questo flag era un downsampler 2x2 di scarsa qualità che non è più utilizzato da IPS.
 * Intestazione CORS - Attualmente, l&#39;intestazione CORS è configurata per `/is/content/` richieste.

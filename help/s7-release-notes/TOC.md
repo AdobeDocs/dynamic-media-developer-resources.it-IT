@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione di Adobe Dynamic Media Classic
-description: "Note sulla versione per Adobe Dynamic Media Classic, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud."
+description: Note sulla versione per Adobe Dynamic Media Classic, parte della soluzione Adobe Experience Manager in Adobe Experience Cloud.
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Note sulla versione di Dynamic Medie {#release-notes}
+# Note sulla versione di Dynamic Media {#release-notes}
 
 + [Note sulla versione più recente](s7rn2017.md)
 + Archivia {#archive-release-notes}
