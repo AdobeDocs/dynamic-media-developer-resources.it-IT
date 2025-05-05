@@ -294,7 +294,7 @@ La pagina di esempi seguente illustra altri casi d’uso reali di progetti reatt
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
 
 **Dimensione flessibile con larghezza e altezza definite**
 

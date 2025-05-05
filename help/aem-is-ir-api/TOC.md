@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # API di server e rendering immagini Dynamic Medie {#image-serving-api}
 
-+ [Home page API per il server e il rendering immagini di Dynamic Medie](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Home page API per il server e il rendering immagini di Dynamic Medie](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it) -->
 + [Informazioni su questa versione](r-about-this-release.md)
 + [Requisiti di sistema e prerequisiti](r-requirements-and-prerequisites.md)
 + [Requisiti di spazio su disco e raccomandazioni](r-disk-space-reqs.md)

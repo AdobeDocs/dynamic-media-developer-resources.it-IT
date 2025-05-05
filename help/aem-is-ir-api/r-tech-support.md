@@ -17,4 +17,4 @@ ht-degree: 0%
 Utilizzare quanto segue per contattare il supporto tecnico.
 
 * **Telefono** - 800-898-9743 dalle 06:00 alle 18:00, ora del Pacifico USA, dal lunedì al venerdì, esclusi i giorni festivi.
-* **Crea un caso di supporto** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Crea un caso di supporto** - [https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

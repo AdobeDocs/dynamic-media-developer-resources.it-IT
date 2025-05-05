@@ -25,7 +25,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
 >
->Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
+>Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=it) (3 minuti e 17 secondi).
 
 
 **Solo per Dynamic Medie in Adobe Experience Manager** - Oltre alle impostazioni immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche immagini avanzate che è possibile specificare nel campo **Modificatori immagine**. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Medie nell’AEM.
@@ -42,7 +42,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche le [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) di Dynamic Medie nella documentazione di AEM 6.5.
+Consulta anche le [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=it#dynamic) di Dynamic Medie nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)

@@ -58,4 +58,4 @@ Siamo lieti di ricevere qualsiasi contributo e di rivederlo nel caso in cui veng
 
 ## Ulteriori informazioni
 
-Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.
+Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.

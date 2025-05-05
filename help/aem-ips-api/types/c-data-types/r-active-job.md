@@ -170,7 +170,7 @@ Per restituire il tipo di processo, specificare un valore per il tipo di process
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processo di esportazione</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:ExportJob</span> </td> 
-   <td colname="col3">Consente l’esportazione autorizzata di file caricati in precedenza. Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> processo di esportazione</a>. </td> 
+   <td colname="col3">Consente l’esportazione autorizzata di file caricati in precedenza. Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=it" format="http" scope="external"> processo di esportazione</a>. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -37,7 +37,7 @@ Fanno eccezione le note sulla versione, in cui possono essere elencati i problem
 
 È gradita come contributo qualsiasi idea che punti al miglioramento della documentazione. Tuttavia, commenti, problemi e richieste sono intesi per *contributi* solo. L’obiettivo non è di rispondere a domande sull’utilizzo di Dynamic Medie, su come implementare un progetto o risolvere problemi tecnici.
 
-Eventuali domande sull’utilizzo di Dynamic Medie o su errori tecnici possono essere segnalate tramite il [Portale di supporto Experience Cloud Enterprise](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) o discussi in [community di Experienci Manager.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+Eventuali domande sull’utilizzo di Dynamic Medie o su errori tecnici possono essere segnalate tramite il [Portale di supporto Experience Cloud Enterprise](https://experienceleague.adobe.com/it?support-solution=General&amp;support-tab=home#support) o discussi in [community di Experienci Manager.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
 ***I contributi alla documentazione non sostituiscono, ad Adobe, l’Assistenza clienti*** e tutti i contributi che richiedono risposte a domande correlate al supporto sono respinti.
 
