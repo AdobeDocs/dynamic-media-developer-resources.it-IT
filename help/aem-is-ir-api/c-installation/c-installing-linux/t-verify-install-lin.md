@@ -32,7 +32,7 @@ Il server immagini è installato come daemon Linux®.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 Nelle risposte, verificare la presenza di elementi che iniziano con `imageServer`, il che indica che [!DNL Platform Server] è riuscito a comunicare con il server immagini.
 

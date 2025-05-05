@@ -42,7 +42,7 @@ La segnalazione di un problema consente di descrivere facilmente la tua proposta
 
 Se noti un problema e sai esattamente come correggerlo, puoi creare una richiesta. Le richieste pull ti consentono di apportare alla documentazione le modifiche desiderate, che saranno poi esaminate da un membro del team addetto alla documentazione. Per apportare le modifiche suggerite e creare la richiesta di pull, seleziona **Modifica questa pagina** nella parte superiore del pannello di navigazione a destra di qualsiasi pagina.
 
-Tutte le richieste devono essere accompagnate da una firma [Contratto di licenza da collaboratore o CLA](https://opensource.adobe.com/cla.html. Questa procedura consente agli Adobi di ridistribuire i contributi come parte del progetto. Invia un CLA di Adobe una sola volta. Se ne hai già inviato uno in precedenza, sei a posto!
+Tutte le richieste devono essere accompagnate da una firma [Contratto di licenza da collaboratore o CLA] (https://opensource.adobe.com/cla.html. Questa procedura consente agli Adobi di ridistribuire i contributi come parte del progetto. Invia un CLA di Adobe una sola volta. Se ne hai già inviato uno in precedenza, sei a posto!
 
 ### Video introduttivo
 

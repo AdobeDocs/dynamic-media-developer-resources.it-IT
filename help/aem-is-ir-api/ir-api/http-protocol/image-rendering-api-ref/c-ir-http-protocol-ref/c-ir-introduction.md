@@ -95,6 +95,6 @@ Si presume che il lettore abbia familiarità con Dynamic Medie Image Authoring e
 
 **Termini comuni**
 
-** *`MSS`* ** segmento di specifica materiale: un insieme di attributi di materiale tra due comandi di selezione nella richiesta.
+**&#x200B; *`MSS`* &#x200B;** segmento di specifica materiale: un insieme di attributi di materiale tra due comandi di selezione nella richiesta.
 
-** *`vignette`* ** Immagine preparata in Dynamic Medie Image Authoring per l&#39;utilizzo con Image Rendering.
+**&#x200B; *`vignette`* &#x200B;** Immagine preparata in Dynamic Medie Image Authoring per l&#39;utilizzo con Image Rendering.

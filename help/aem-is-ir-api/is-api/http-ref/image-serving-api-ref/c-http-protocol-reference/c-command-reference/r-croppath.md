@@ -22,7 +22,7 @@ Consente di ritagliare fino al riquadro di delimitazione di un percorso denomina
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> nomePercorso</span></span> </p> </td> 
-   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> nomePercorso</span></span> è il nome di un percorso incorporato nell'immagine di origine del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se viene specificato più di un percorso <span class="codeph"><span class="varname"> {pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi percorso <span class="codeph"><span class="varname"></span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
+   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> nomePercorso</span></span> è il nome di un percorso incorporato nell'immagine di origine del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se viene specificato più di un percorso <span class="codeph"><span class="varname"> &lbrace;pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi percorso <span class="codeph"><span class="varname"></span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

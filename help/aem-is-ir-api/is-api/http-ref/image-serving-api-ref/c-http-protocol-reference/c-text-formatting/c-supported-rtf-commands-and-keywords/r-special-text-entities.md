@@ -41,12 +41,12 @@ Utilizzare le seguenti entità speciali per la formattazione del testo.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &lbrace; </span> </td> 
    <td> <p>Parentesi graffa aperta. </p> </td> 
    <td> <p>La parentesi graffa deve avere la codifica HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &rbrace; </span> </td> 
    <td> <p>Parentesi graffa chiusa. </p> </td> 
    <td> <p>La parentesi graffa deve avere la codifica HTTP. </p> </td> 
   </tr> 
