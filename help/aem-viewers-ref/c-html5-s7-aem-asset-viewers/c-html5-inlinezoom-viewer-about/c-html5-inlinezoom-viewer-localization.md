@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati nel Visualizzatore a comparsa sono soggetti a localizzazione. Questo contenuto include descrizioni comando e messaggi informativi degli elementi dell’interfaccia utente visualizzati dalla visualizzazione zoom a comparsa al momento del caricamento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi SYMBOL ha un valore di testo associato di default per una lingua inglese ( `"en"`) fornita con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le lingue necessarie.
+Ogni contenuto testuale del visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi SYMBOL ha un valore di testo associato di default per una lingua inglese ( `"en"`) fornita con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le lingue necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se esiste un valore definito dall&#39;utente per ciascun SIMBOLO supportato per tali impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 

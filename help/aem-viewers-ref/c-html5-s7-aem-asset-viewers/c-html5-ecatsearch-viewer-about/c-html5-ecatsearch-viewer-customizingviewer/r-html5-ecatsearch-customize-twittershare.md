@@ -1,6 +1,6 @@
 ---
-title: Condivisione twitter
-description: Lo strumento Condivisione twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
+title: Condividi su Twitter
+description: Lo strumento di condivisione Twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Condivisione twitter{#twitter-share}
+# Condividi su Twitter{#twitter-share}
 
-Lo strumento Condivisione twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
+Lo strumento di condivisione Twitter è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-L’aspetto del pulsante di condivisione del Twitter è controllato dal seguente selettore di classe CSS:
+L’aspetto del pulsante di condivisione Twitter è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7twittershare
 ```
 
-**Proprietà CSS dello strumento Condivisione Twitter**
+**Proprietà CSS dello strumento di condivisione Twitter**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 

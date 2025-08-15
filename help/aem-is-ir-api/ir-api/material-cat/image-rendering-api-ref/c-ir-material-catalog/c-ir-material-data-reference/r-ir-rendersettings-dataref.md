@@ -18,7 +18,7 @@ Impostazioni di rendering avanzate. Le impostazioni di rendering avanzate vengon
 
 ## Proprietà {#section-b4c8fe595efc4838ac598659bc820607}
 
-Stringa di testo. Facoltativo per tutti i materiali. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con Strumento di authoring vignettatura (parte del pacchetto di authoring immagini di Dynamic Medie).
+Stringa di testo. Facoltativo per tutti i materiali. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Media).
 
 ## Predefinito {#section-6a4d2013c1d34284b4ff21bb07485d28}
 

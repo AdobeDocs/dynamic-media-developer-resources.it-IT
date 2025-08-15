@@ -41,7 +41,7 @@ Sono consentiti i seguenti valori:
 
 * Il livello 0 è consigliato per i server live accessibili pubblicamente.
 * Il livello 2 è consigliato per i server di staging, controllo qualità e sviluppo applicazioni.
-* Le informazioni di livello 3 possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Medie.
+* Le informazioni di livello 3 possono essere utili quando si segnalano problemi al supporto tecnico Dynamic Media.
 
 ## Proprietà {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

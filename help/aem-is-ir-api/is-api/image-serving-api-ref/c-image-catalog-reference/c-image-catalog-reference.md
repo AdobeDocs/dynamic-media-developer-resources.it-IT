@@ -1,7 +1,7 @@
 ---
-description: I cataloghi di immagini forniscono al server informazioni sulle immagini e sui dati di supporto, come font e profili ICC.
+description: Immagine cataloghi forniscono al server informazioni sulle immagini e sui dati di supporto, quali font e profili ICC.
 solution: Experience Manager
-title: Riferimento catalogo immagini
+title: Immagine riferimento catalogo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Riferimento catalogo immagini{#image-catalog-reference}
+# Immagine riferimento catalogo{#image-catalog-reference}
 
-I cataloghi di immagini forniscono al server informazioni sulle immagini e sui dati di supporto, come font e profili ICC.
+Immagine cataloghi forniscono al server informazioni sulle immagini e sui dati di supporto, quali font e profili ICC.
 
 * [Panoramica](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [Aggiornamento dei cataloghi di immagini](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)

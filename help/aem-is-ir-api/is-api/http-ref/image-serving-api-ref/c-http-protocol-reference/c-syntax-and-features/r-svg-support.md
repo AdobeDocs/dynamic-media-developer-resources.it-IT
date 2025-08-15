@@ -1,5 +1,5 @@
 ---
-description: Image Server supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità al SVG 1.1.
+description: Image Server supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità a SVG 1.1.
 solution: Experience Manager
 title: Supporto SVG
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Supporto SVG{#svg-support}
 
-Image Server supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità al SVG 1.1.
+Image Server supporta file SVG (Scalable Vector Graphics) come dati sorgente. È richiesta la conformità a SVG 1.1.
 
 Image Server riconosce solo i contenuti SVG statici; non sono supportate animazioni, script e altri contenuti interattivi.
 
@@ -38,7 +38,7 @@ Specificare una richiesta completa di Image Server, a partire da `http://`, oppu
 
 >[!NOTE]
 >
->Il supporto per il rendering delle immagini in questa versione di Image Server è limitato. Le immagini di riferimento dall’interno di SVG devono essere utilizzate solo in situazioni in cui i tradizionali meccanismi di creazione di modelli e livelli di Image Server non sono sufficienti per ottenere il risultato desiderato. In nessun caso SVG deve essere utilizzato per generare composizioni con più immagini.
+>Il supporto per il rendering delle immagini in questa versione di Image Server è limitato. Le immagini di riferimento provenienti da SVG devono essere utilizzate solo in situazioni in cui i tradizionali meccanismi di creazione di modelli e livelli di Image Server non sono sufficienti per ottenere il risultato desiderato. In nessun caso SVG deve essere utilizzato per generare composizioni con più immagini.
 
 >[!NOTE]
 >
@@ -74,4 +74,4 @@ Al momento non sono supportate specifiche colore basate sul profilo ICC.
 
 ## Consultate anche {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Specifica](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Specifica di SVG 1.1](https://www.w3.org/TR/SVG11/)

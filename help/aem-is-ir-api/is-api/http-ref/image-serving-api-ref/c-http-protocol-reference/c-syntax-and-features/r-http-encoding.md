@@ -88,17 +88,17 @@ In caso contrario, si applicano le regole di codifica HTTP standard. La specific
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lbrack; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&rbrack; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&grave; </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 

@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: Prefisso URL server di streaming di Flash. Prefisso URL del server di streaming di Flash utilizzato per generare risposte f4m con velocità a più bit con req=mbrSet.
+description: Prefisso URL server di streaming Flash. Prefisso URL Flash Streaming Server utilizzato per generare risposte f4m con velocità a più bit con req=mbrSet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Prefisso URL server di streaming di Flash. Prefisso URL del server di streaming di Flash utilizzato per generare risposte f4m con velocità a più bit con req=mbrSet.
+Prefisso URL server di streaming Flash. Prefisso URL Flash Streaming Server utilizzato per generare risposte f4m con velocità a più bit con req=mbrSet.
 
 ## Proprietà {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

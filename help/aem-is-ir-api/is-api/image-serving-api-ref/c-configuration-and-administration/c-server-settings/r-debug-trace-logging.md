@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Utilizzare queste impostazioni del server per eseguire il debug della registrazi
 
 >[!NOTE]
 >
->L&#39;Adobe consiglia di configurare tutti i file di registro da scrivere nella stessa cartella di `TC::directory`. In questo modo tutti i file di log di Image Server partecipano alla rotazione automatica dei file di log configurata con `TC::maxDays`, impedendo la potenziale instabilità del server a causa di condizioni di spazio su disco insufficiente.
+>Adobe consiglia di configurare tutti i file di registro da scrivere nella stessa cartella di `TC::directory`. In questo modo tutti i file di log di Image Server partecipano alla rotazione automatica dei file di log configurata con `TC::maxDays`, impedendo la potenziale instabilità del server a causa di condizioni di spazio su disco insufficiente.
 
 ## SV::log - Percorso file di log di traccia di Server Supervisor {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Nome della cartella e del file di base per i file di registro di Server Supervisor. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Il Supervisore server aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima del suffisso del file, se presente). L&#39;Adobe consiglia di inviare tutti i file di log alla stessa cartella di [!DNL Platform Server] file di log ( `PS::LogFolder`) per utilizzare la gestione dei file di log implementata da [!DNL Platform Server] (`PS::LogDays`). Il valore predefinito è [!DNL logs/Supervisor.log].
+Nome della cartella e del file di base per i file di registro di Server Supervisor. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. Il Supervisore server aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima del suffisso del file, se presente). Adobe consiglia di inviare tutti i file di log alla stessa cartella di [!DNL Platform Server] file di log ( `PS::LogFolder`) per utilizzare la gestione dei file di log implementata da [!DNL Platform Server] (`PS::LogDays`). Il valore predefinito è [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Il livello di registro può essere 1, 2, 3 o 4. Il valore predefinito è 2.
 
 ## IS::Log - Percorso file di registro debug server immagini {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Nome della cartella e del file di base per i file di log di traccia di Image Server. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. ImageServer aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima del suffisso del file, se presente). L&#39;Adobe consiglia di inviare i file di log di Image Server alla stessa cartella dei file di log [!DNL Platform Server] ( `PS::LogFolder`) per utilizzare la gestione dei file di log implementata da [!DNL Platform Server] (vedere `PS::LogDays`).
+Nome della cartella e del file di base per i file di log di traccia di Image Server. Il percorso può essere assoluto o relativo a *[!DNL install_folder]*. ImageServer aggiunge un trattino e la data corrente ( *[!DNL -yyyy-mm-dd]*) al nome del file (prima del suffisso del file, se presente). Adobe consiglia di inviare i file di registro di Image Server alla stessa cartella dei file di registro [!DNL Platform Server] ( `PS::LogFolder`) per utilizzare la gestione dei file di registro implementata da [!DNL Platform Server] (vedere `PS::LogDays`).
 
 >[!NOTE]
 >

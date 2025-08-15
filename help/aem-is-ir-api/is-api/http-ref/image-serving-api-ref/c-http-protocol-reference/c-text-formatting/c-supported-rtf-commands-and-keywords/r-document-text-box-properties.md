@@ -37,18 +37,18 @@ Le seguenti proprietà del documento sono supportate nelle caselle di testo.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \colortbl </span> </td> 
-   <td> <p>Tabella colori RGB. </p> </td> 
+   <td> <p>Tavola colori RGB. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl </span> </td> 
    <td> <p>Tavola colori CMYK. </p> </td> 
-   <td> <p>Estensione Dynamic Medie. </p> </td> 
+   <td> <p>Estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl </span> </td> 
    <td> <p>Tavola colori per i colori Image Server. </p> </td> 
-   <td> <p>Estensione Dynamic Medie; <span class="codeph"> solo textPs= </span> </p> </td> 
+   <td> <p>Estensione Dynamic Media; <span class="codeph"> solo textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red <span class="varname"> N </span> </span> </td> 
@@ -68,22 +68,22 @@ Le seguenti proprietà del documento sono supportate nelle caselle di testo.
   <tr> 
    <td> <span class="codeph"> \ciano <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente colore ciano. </p> </td> 
-   <td> <p>Estensione Dynamic Medie; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Estensione Dynamic Media; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente colore magenta. </p> </td> 
-   <td> <p>Estensione Dynamic Medie; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Estensione Dynamic Media; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \giallo <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente colore giallo. </p> </td> 
-   <td> <p>Estensione Dynamic Medie; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Estensione Dynamic Media; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \nero <span class="varname"> N </span> </span> </td> 
    <td> <p>Componente colore nero. </p> </td> 
-   <td> <p>Estensione Dynamic Medie; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Estensione Dynamic Media; può essere visualizzata solo in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

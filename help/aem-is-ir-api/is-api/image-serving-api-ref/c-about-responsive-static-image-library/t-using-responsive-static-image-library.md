@@ -18,7 +18,7 @@ La procedura seguente illustra come aggiungere una libreria di immagini reattive
 
 **Per utilizzare la libreria Immagine reattiva**
 
-1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=it#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
+1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
 
    Quando definisci i predefiniti immagine da utilizzare con la Libreria immagini reattiva, non utilizzare impostazioni che influiscono sulla dimensione dell&#39;immagine, ad esempio `wid=`, `hei=` o `scl=`. Non specificare alcun campo di dimensione nel predefinito immagine. Lasciali invece vuoti.
 1. Aggiungi il file JavaScript della libreria alla pagina web.
@@ -85,7 +85,7 @@ Il codice seguente è un esempio completo di una pagina web banale con una singo
 
 **Utilizzo di ritaglio avanzato**
 
-In AEM 6.4 e Dynamic Medie Viewers 5.9 sono disponibili due modalità di ritaglio avanzato:
+In AEM 6.4 e Dynamic Media Viewers 5.9 sono disponibili due modalità di ritaglio avanzato:
 
 * **Manuale**: i punti di interruzione definiti dall&#39;utente e i comandi del servizio immagini corrispondenti sono definiti all&#39;interno di un attributo nell&#39;elemento immagine.
 * **Ritaglio avanzato** - le rappresentazioni di ritaglio avanzato calcolate vengono recuperate automaticamente dal server di consegna. La rappresentazione migliore viene selezionata utilizzando le dimensioni di runtime dell’elemento immagine.

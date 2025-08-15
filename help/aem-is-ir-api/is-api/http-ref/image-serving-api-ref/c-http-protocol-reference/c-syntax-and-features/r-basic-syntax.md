@@ -81,7 +81,7 @@ Image Server estrae prima *`object`* e *`modifiers`* dalla richiesta in ingresso
 
 ## Commenti {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente dopo il separatore di comandi (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
+I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente successivo al separatore di comando (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
 
 ## Consultate anche {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

@@ -1,6 +1,6 @@
 ---
-title: Invito all’azione
-description: Il pannello Invito all'azione viene visualizzato al termine del video e mostra tutti i campioni interattivi associati a quel particolare video.
+title: Call to action
+description: Il pannello Call to action appare al termine del video e mostra tutti i campioni interattivi associati a quel particolare video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# Invito all’azione{#call-to-action}
+# Call to action{#call-to-action}
 
-Il pannello Invito all&#39;azione viene visualizzato al termine del video e mostra tutti i campioni interattivi associati a quel particolare video.
+Il pannello Call to action appare al termine del video e mostra tutti i campioni interattivi associati a quel particolare video.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 Il pannello è costituito da un’area di intestazione che mostra il titolo del video, un pulsante di riproduzione nell’angolo in alto a destra e campioni interattivi effettivi visualizzati come griglia scorrevole. È possibile disattivare il pannello utilizzando l&#39;attributo di configurazione [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
-Il pannello di invito all’azione occupa sempre l’intera area di visualizzazione disponibile.
+Il pannello call to action occupa sempre l’intera area di visualizzazione disponibile.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto del colore di sfondo nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto del colore di sfondo nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## Proprietà CSS del colore di sfondo del pannello di invito all’azione {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## Proprietà CSS del colore di sfondo del pannello call to action {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del pannello di invito all’azione. </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo del pannello call to action. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempio {#example}
 
-Per impostare un pannello di invito all’azione con sfondo grigio scuro:
+Per impostare un pannello call to action con sfondo grigio scuro:
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ Per impostare un pannello di invito all’azione con sfondo grigio scuro:
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto dell’intestazione nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l’aspetto dell’intestazione nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## Proprietà CSS dell’intestazione del pannello di invito all’azione {#css-properties-of-the-call-to-action-panel-header}
+## Proprietà CSS dell’intestazione del pannello call to action {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ Per impostare un&#39;intestazione alta 70 pixel, con uno sfondo grigio scuro e u
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto del titolo dell’intestazione nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l’aspetto del titolo dell’intestazione nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## Proprietà CSS del titolo dell’intestazione nel pannello di invito all’azione:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## Proprietà CSS del titolo dell’intestazione nel pannello call to action:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ Per impostare un titolo video con un&#39;altezza della linea di 70 pixel, una di
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto del pulsante Chiudi nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto del pulsante Chiudi nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## Proprietà CSS del pulsante Chiudi nel pannello di invito all’azione: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## Proprietà CSS del pulsante Chiudi nel pannello call to action: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ Per impostare un pulsante di riproduzione di 28 x 28 pixel. Il pulsante deve ess
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto della visualizzazione della griglia delle miniature nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto della visualizzazione della griglia delle miniature nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## Proprietà CSS della visualizzazione griglia miniature nel pannello invito all’azione:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## Proprietà CSS della visualizzazione griglia miniature nel pannello call to action:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ Per impostare un&#39;area delle miniature con uno sfondo grigio scuro:
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto della cella miniatura nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto della cella miniatura nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Proprietà CSS della cella miniatura nel pannello di invito all’azione: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Proprietà CSS della cella miniatura nel pannello call to action: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ Per impostare la spaziatura orizzontale di 24 pixel e la spaziatura verticale di
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto della miniatura nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l’aspetto della miniatura nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## Proprietà CSS della miniatura nel pannello di invito all’azione: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## Proprietà CSS della miniatura nel pannello call to action: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ Per impostare miniature di 94 x 100 pixel:
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-Il seguente selettore di classe CSS controlla l’aspetto dell’etichetta di miniatura nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto dell&#39;etichetta di miniatura nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## Proprietà CSS dell’etichetta di miniatura nel pannello di invito all’azione: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## Proprietà CSS dell’etichetta di miniatura nel pannello call to action: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ Per impostare le etichette che utilizzano un colore bianco, allineate al centro 
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-Se sono presenti più miniature di quelle che possono essere visualizzate verticalmente, le miniature eseguono il rendering di una barra di scorrimento verticale a destra. Per impostazione predefinita, il pannello di invito all’azione esegue il rendering di una piccola barra verticale senza pulsanti di scorrimento e miniatura. Tuttavia, è possibile personalizzare la barra modificando il CSS del visualizzatore.
+Se sono presenti più miniature di quelle che possono essere visualizzate verticalmente, le miniature eseguono il rendering di una barra di scorrimento verticale a destra. Per impostazione predefinita, il pannello call to action esegue il rendering di una piccola barra verticale senza pulsanti di scorrimento e miniatura. Tuttavia, è possibile personalizzare la barra modificando il CSS del visualizzatore.
 
-Il seguente selettore di classe CSS controlla l’aspetto dell’area della barra di scorrimento nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto dell&#39;area della barra di scorrimento nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## Proprietà CSS dell’area della barra di scorrimento nel pannello di invito all’azione: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## Proprietà CSS dell&#39;area della barra di scorrimento nel pannello call to action: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ Per impostare una barra di scorrimento larga 22 pixel e priva di margini nella p
 
 La traccia della barra di scorrimento è l&#39;area compresa tra i pulsanti della barra di scorrimento superiore e inferiore. Il componente imposta automaticamente la posizione e l&#39;altezza della traccia.
 
-Il seguente selettore di classe CSS controlla l’aspetto della traccia della barra di scorrimento nel pannello di invito all’azione:
+Il seguente selettore di classe CSS controlla l&#39;aspetto della traccia della barra di scorrimento nel pannello call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ Il seguente selettore di classe CSS controlla l’aspetto dell’altezza del pol
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## Proprietà CSS dell’altezza del pollice nel pannello di invito all’azione: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## Proprietà CSS dell&#39;altezza del pollice nel pannello call to action: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ Il seguente selettore di classe CSS controlla l&#39;aspetto dei pulsanti di scor
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS superiore, sinistra, inferiore o destra; la logica di visualizzazione li posiziona automaticamente. Il pannello di invito all’azione nel visualizzatore video interattivo non utilizza questi pulsanti nella barra di scorrimento, pertanto le loro dimensioni sono impostate su 0 pixel nel CSS predefinito.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS superiore, sinistra, inferiore o destra; la logica di visualizzazione li posiziona automaticamente. Il pannello call to action nel visualizzatore video interattivo non utilizza questi pulsanti nella barra di scorrimento, pertanto le loro dimensioni sono impostate su 0 pixel nel CSS predefinito.
 
-## Proprietà CSS dei pulsanti di scorrimento superiore e inferiore nel pannello di invito all’azione:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## Proprietà CSS dei pulsanti di scorrimento superiore e inferiore nel pannello call to action:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

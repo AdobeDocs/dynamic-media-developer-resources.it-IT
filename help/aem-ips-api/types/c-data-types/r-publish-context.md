@@ -57,4 +57,4 @@ Assets mantiene un marcatore separato per ogni stato e contesto di pubblicazione
 
 >[!MORELIKETHIS]
 >
->* [Contesto Publish](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Contesto di pubblicazione](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

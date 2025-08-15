@@ -19,7 +19,7 @@ Valori colore. Puoi specificare i valori dei colori utilizzando la notazione esa
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> colore</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&lcub;&lcub;<span class="varname"> grigio</span>[,<span class="varname"> alfa</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub;&amp;lcub;<span class="varname"> grigio</span>[,<span class="varname"> alfa</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> rosso</span>,<span class="varname"> verde</span>,<span class="varname"> blu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> giallo</span>, <span class="varname"> nero</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> rosso</span>, <span class="varname"> verde</span>, <span class="varname"> blu</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -30,20 +30,20 @@ Valori colore. Puoi specificare i valori dei colori utilizzando la notazione esa
   <td class="stentry"> <p>Valore del componente colore CMYK (0,100 %, int decimale) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grigio</span>, <span class="varname"> alfa</span></span> </p> </td> 
-  <td class="stentry"> <p>valore componente colore grigio (0...100%, int decimale) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> grigio</span>, <span class="varname"> alfa</span></span> </p> </td> 
+  <td class="stentry"> <p>Valore componente colore grigio (0... 100%, decimale int) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>valore colore grigio esadecimale a due cifre imballato (GG) </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> esadecimale2</span> </span> </p></td> 
+  <td class="stentry"> <p>Valore di colore grigio esadecimale (GG) a due cifre imballato </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> esadecimale4</span> </span> </p> </td> 
   <td class="stentry"> <p>colore grigio esadecimale a quattro cifre con valore di colore alfa (GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>valore colore RGB esadecimale compresso a sei cifre (RRGGBB) </p></td> 
+  <td class="stentry"> <p>valore colore RGB esadecimale a sei cifre imballato (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
@@ -61,7 +61,7 @@ Si presume che i valori dei componenti colore siano indipendenti dal valore alfa
 
 Per tutti i valori di colore, i prefissi e i suffissi non viene fatta distinzione tra maiuscole e minuscole.
 
-Il suffisso di tipo &#39;k&#39; è obbligatorio per i valori di colore CMYK. Facoltativamente, è possibile specificare un suffisso di tipo per i valori di colore RGB e grigio.
+Il suffisso di tipo &#39;k&#39; è obbligatorio per i valori di colore CMYK. Facoltativamente è possibile specificare un suffisso di tipo per i valori di colore RGB e grigio.
 
 Il prefisso &#39;0x&#39; è obbligatorio per i valori esadecimali dei colori grigi.
 
@@ -78,9 +78,9 @@ Alcuni esempi di specificatori di colore validi e il tipo di pixel, il valore di
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i>colore</i> </b> </th> 
+   <th class="entry"> <b><i>Colore</i> </b> </th> 
    <th class="entry"> <b>Tipo di pixel</b> </th> 
-   <th class="entry"> <b>Valore colore</b> </th> 
+   <th class="entry"> <b>Colore Valore</b> </th> 
    <th class="entry"> <b>Valore Alpha</b> </th> 
    <th class="entry"> <b>Spazio colore predefinito </b> </th> 
   </tr> 
@@ -133,7 +133,7 @@ Alcuni esempi di specificatori di colore validi e il tipo di pixel, il valore di
    <td> <p>grigio </p> </td> 
    <td> <p>44% </p> </td> 
    <td> <p>44% </p> </td> 
-   <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
+   <td> <p> <span class="codeph"> Grigio profilo ICC</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0xddeegs </p> </td> 

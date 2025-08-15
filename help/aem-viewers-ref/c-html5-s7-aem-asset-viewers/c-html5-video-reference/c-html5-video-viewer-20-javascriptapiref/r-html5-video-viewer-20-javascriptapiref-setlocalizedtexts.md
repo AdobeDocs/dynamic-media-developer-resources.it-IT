@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> informazioni localizzazione </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>Per ulteriori informazioni, vedere lo spazio dei nomi </a> dell'SDK del visualizzatore <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local">. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere la <i>Guida utente di Viewer SDK</i> e l'esempio. Facoltativo. </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Oggetto </span>} oggetto JSON con dati di localizzazione. </p> <p>SDK Per ulteriori informazioni, vedere lo spazio dei nomi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> del Visualizzatore </a>. </p> <p>Per ulteriori informazioni sul contenuto dell'oggetto, vedere la <i>Guida utente di Viewer SDK</i> e l'esempio. Facoltativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -61,7 +61,7 @@ Target. *`num`*.rect è obbligatorio per ogni destinazione di zoom e deve specif
 
 Per le applicazioni che coinvolgono i client visualizzatore di rotazioni e brochure, le destinazioni di zoom devono essere definite nello stesso record di catalogo che definisce il set di immagini. Qualsiasi definizione di destinazione di zoom nei record di catalogo dei membri del set di immagini viene ignorata dal visualizzatore.
 
-I visualizzatori Dynamic Medie prevedono destinazioni di zoom nelle coordinate dell&#39;immagine a risoluzione completa già regolate dai comandi di `catalog::Modifier`.
+I visualizzatori Dynamic Media prevedono destinazioni di zoom nelle coordinate dell&#39;immagine a risoluzione completa già regolate dai comandi di `catalog::Modifier`.
 
 ## Proprietà {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

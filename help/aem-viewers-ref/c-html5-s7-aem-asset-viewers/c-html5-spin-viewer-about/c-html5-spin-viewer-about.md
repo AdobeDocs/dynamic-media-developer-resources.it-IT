@@ -27,11 +27,11 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
 
 ## Utilizzo del Visualizzatore 360 gradi {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il Visualizzatore 360 gradi rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il Visualizzatore 360 gradi rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 Il visualizzatore 360 gradi può essere utilizzato sia in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers che in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -130,7 +130,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina web, effettua le seguent
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
+   Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
 
    Il percorso relativo è simile al seguente:
 
@@ -140,7 +140,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina web, effettua le seguent
 
    >[!NOTE]
    >
-   >Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+   >Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
    >
    >
    >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -165,7 +165,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina web, effettua le seguent
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore 360 gradi](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55).
 
-   Di seguito è riportato un esempio di definizione di una dimensione di visualizzatore statico nella pagina HTML:
+   Di seguito è riportato un esempio di definizione di una dimensione statica del visualizzatore nella pagina HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
@@ -236,7 +236,7 @@ Per aggiungere il visualizzatore 360 gradi a una pagina web, effettua le seguent
 
 **Incorporamento di progettazione reattiva con altezza illimitata**
 
-Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML risultante per la pagina Web è simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML della pagina Web risultante sarà simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -294,7 +294,7 @@ La pagina di esempi seguente illustra altri casi d’uso reali di progetti reatt
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Dimensione flessibile con larghezza e altezza definite**
 

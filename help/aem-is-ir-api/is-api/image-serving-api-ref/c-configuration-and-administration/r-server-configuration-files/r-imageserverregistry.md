@@ -18,7 +18,7 @@ Contiene le impostazioni di configurazione del server immagini.
 
 Quando si modifica questo file XML, è necessario prestare attenzione a mantenere una sintassi XML valida, altrimenti il server immagini potrebbe non essere avviato.
 
-Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Solo i valori degli elementi elencati di seguito sono supportati per la modifica. Modificare qualsiasi altro contenuto di questo file solo se consigliato dal supporto tecnico Dynamic Medie.
+Per rendere effettive le modifiche, riavviare il server immagini dopo aver modificato il file. Solo i valori degli elementi elencati di seguito sono supportati per la modifica. Modificare qualsiasi altro contenuto di questo file solo se consigliato dal supporto tecnico di Dynamic Media.
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-description: Programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Medie Image Server per un sito web o un’applicazione personalizzata.
+description: Programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Media Image Server per un sito web o un’applicazione personalizzata.
 solution: Experience Manager
 title: Pubblico previsto
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Pubblico previsto{#intended-audience}
 
-Programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Medie Image Server per un sito web o un’applicazione personalizzata.
+Programmatori esperti e sviluppatori di siti web che desiderano sfruttare Dynamic Media Image Server per un sito web o un’applicazione personalizzata.
 
-Si presume che il lettore abbia generalmente familiarità con il sistema Dynamic Medie Image Server, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
+Si presume che il lettore abbia generalmente familiarità con il sistema Dynamic Media Image Server, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.

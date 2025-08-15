@@ -18,7 +18,7 @@ Gli attributi e i campi del catalogo possono contenere dati di uno dei seguenti 
 
 **Colore**
 
-Valore colore. Valore RGB compresso esadecimale, facoltativamente preceduto da 0x. È possibile, ad esempio, specificare il valore RGB `128,255,0` come `0x80ff00` o `80ff00`.
+Valore colore. Valore RGB compresso esadecimale, facoltativamente preceduto da 0x. Il valore RGB `128,255,0`, ad esempio, può essere specificato come `0x80ff00` o `80ff00`.
 
 **Contrassegno**
 

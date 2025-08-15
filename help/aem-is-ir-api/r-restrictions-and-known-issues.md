@@ -1,5 +1,5 @@
 ---
-description: Quando si utilizza Dynamic Medie Image Server è necessario tenere presenti alcune restrizioni e alcuni problemi noti.
+description: Quando si utilizza Dynamic Media Image Server, è necessario prendere in considerazione alcune restrizioni e alcuni problemi noti.
 solution: Experience Manager
 title: Restrizioni e problemi noti
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # Restrizioni e problemi noti{#restrictions-and-known-issues}
 
-Quando si utilizza Dynamic Medie Image Server è necessario tenere presenti alcune restrizioni e alcuni problemi noti.
+Quando si utilizza Dynamic Media Image Server, è necessario prendere in considerazione alcune restrizioni e alcuni problemi noti.
 
 ## Errori nella documentazione {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -90,17 +90,17 @@ La libreria Digimarc rifiuta di applicare una filigrana Digimarc a un&#39;immagi
 
   Per i TIFF non piramidali di Image Server, aumentare il valore della proprietà per `MaxNonDsfSize` nel file di configurazione [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-* L&#39;Adobe [!DNL Photoshop] CS3 non salva i file PSD con livelli per impostazione predefinita un&#39;immagine composita.
+* Per impostazione predefinita, Adobe [!DNL Photoshop] CS3 non salva i file PSD con livelli in un&#39;immagine composita.
 
   *Sintomi*:
 
-  Il file PSD a livelli di Adobe [!DNL Photoshop] CS3 viene visualizzato in nero con testo che indica: &quot;Il file [!DNL Photoshop] a livelli non è stato salvato con un&#39;immagine composita&quot;. per l’immagine di risposta di Image Server o in IPS.
+  Il file PSD con livelli Adobe [!DNL Photoshop] CS3 viene visualizzato in nero con testo che indica: &quot;Il file [!DNL Photoshop] con livelli non è stato salvato con un&#39;immagine composita&quot;. per l’immagine di risposta di Image Server o in IPS.
 
   *Soluzione alternativa*:
 
   Salvare il file Adobe [!DNL Photoshop] CS3 con l&#39;opzione di ottimizzazione della compatibilità attivata.
 
-* L&#39;assegnazione di un profilo ICC a un&#39;immagine di risposta CMYK/JPEG determina l&#39;inversione dei colori in alcuni browser.*Elaborazione*:
+* L&#39;assegnazione di un profilo ICC a un&#39;immagine di risposta CMYK/JPEG causa l&#39;inversione dei colori in alcuni browser.*Elaborazione*:
 
   Cambia il formato dell&#39;immagine di risposta utilizzando `fmt=`
 

@@ -28,7 +28,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatore </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome classe componente SDK visualizzatore </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -55,9 +55,9 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare correttamente lo spazio dei nomi SDK completo come descritto in [SDK visualizzatore](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
+Quando si utilizzano le API di SDK, è importante utilizzare correttamente lo spazio dei nomi completo di SDK come descritto in [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
 
-Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione di Viewer SDK.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

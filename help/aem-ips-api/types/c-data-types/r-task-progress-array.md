@@ -1,7 +1,7 @@
 ---
-description: Un array di avanzamento dell’attività. Contiene informazioni sulle attività di transcodifica video.
+description: Un array di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
 solution: Experience Manager
-title: MatriceAvanzamentoAttività
+title: Matrice di avanzamento attività
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-Un array di avanzamento dell’attività. Contiene informazioni sulle attività di transcodifica video.
+Un array di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| item | `types:TaskProgress` | Elementi di avanzamento attività. L&#39;occorrenza minima è zero. L&#39;occorrenza massima non è limitata. |
+| item | `types:TaskProgress` | Elementi di avanzamento attività. Il occorrenza minimo è zero. Il numero massimo occorrenza non è vincolato. |

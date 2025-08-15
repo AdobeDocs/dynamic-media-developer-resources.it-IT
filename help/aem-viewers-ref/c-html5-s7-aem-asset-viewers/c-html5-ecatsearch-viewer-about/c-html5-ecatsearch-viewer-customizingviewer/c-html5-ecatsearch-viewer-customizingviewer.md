@@ -167,8 +167,8 @@ background-position: -0px -560px;
 
 ## Note generali sullo stile e consigli {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dall&#39;SDK del visualizzatore. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
-* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS, non in base alla posizione della pagina del visualizzatore HTML. Tieni presente questa regola quando copi il CSS predefinito in una posizione diversa. Copia anche le risorse predefinite oppure aggiorna i percorsi all’interno del CSS personalizzato.
+* Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dal Viewer SDK. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
+* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS, non in base alla posizione della pagina HTML del visualizzatore. Tieni presente questa regola quando copi il CSS predefinito in una posizione diversa. Copia anche le risorse predefinite oppure aggiorna i percorsi all’interno del CSS personalizzato.
 * Il formato preferito per la grafica bitmap è PNG.
 * Il disegno bitmap viene assegnato agli elementi dell&#39;interfaccia utente tramite la proprietà `background-image`.
 * Le proprietà `width` e `height` di un elemento dell&#39;interfaccia utente ne definiscono la dimensione logica. La dimensione della bitmap passata a `background-image` non influisce sulla dimensione logica.
@@ -185,7 +185,7 @@ Di seguito è riportata la documentazione di riferimento sugli elementi dell’i
 * [Scarica](r-html5-ecatsearch-customize-download.md)
 * [Condivisione e-mail](r-html5-ecatsearch-customize-emailshare.md)
 * [Incorpora condivisione](r-html5-ecatsearch-customize-embedshare.md)
-* [Condivisione facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Condivisione Facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Effetto Preferiti](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menu Preferiti](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Visualizzazione Preferiti](r-html5-ecatsearch-customize-favoritesview.md)
@@ -216,7 +216,7 @@ Di seguito è riportata la documentazione di riferimento sugli elementi dell’i
 * [Miniature](r-html5-ecatsearch-customize-thumbnails.md)
 * [Pulsante Miniature](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Descrizione](r-html5-ecatsearch-customize-tooltips.md)
-* [Condivisione twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Condividi su Twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Pulsante Visualizza tutti i preferiti](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Pulsante Zoom in](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Pulsante Zoom out](r-html5-ecatsearch-customize-zoomoutbutton.md)

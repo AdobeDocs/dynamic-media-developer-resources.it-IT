@@ -1,5 +1,5 @@
 ---
-title: CodificaTiff
+title: Codifica TiffEncoding
 description: Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (di fatto il valore predefinito per il terzo valore del comando fmt=).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,11 +12,11 @@ ht-degree: 4%
 
 ---
 
-# CodificaTiff{#tiffencoding}
+# Codifica TiffEncoding{#tiffencoding}
 
-Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (valore predefinito per il terzo valore del comando `fmt=`).
+Formato di codifica TIFF. Specifica il formato di compressione per le immagini TIFF (di fatto il valore predefinito per il terzo valore del `fmt=` comando).
 
-Imposta su `0` per nessuna compressione, `1` per LZW, `2` per Deflate (ZIP) e `3` per la compressione JPEG.
+Impostare su `0` per nessuna compressione, `1` per LZW, `2` per deflate (ZIP) e `3` per la compressione JPEG.
 
 ## Proprietà {#section-469f5a1225464542866f5353edd92db3}
 

@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Note generali sullo stile e consigli {#section-097418bd618740bba36352629e4d88e1}
 
-* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS e non alla posizione della pagina di HTML del visualizzatore. Ricorda questa regola quando copi il CSS predefinito in una posizione diversa. Copia le risorse predefinite o aggiorna i percorsi all’interno del CSS personalizzato.
+* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS e non alla posizione della pagina HTML del visualizzatore. Ricorda questa regola quando copi il CSS predefinito in una posizione diversa. Copia le risorse predefinite o aggiorna i percorsi all’interno del CSS personalizzato.
 * Il formato preferito per la grafica bitmap è PNG.
 * Il disegno bitmap viene assegnato agli elementi dell&#39;interfaccia utente tramite la proprietà `background-image`.
 * Le proprietà `width` e `height` di un elemento dell&#39;interfaccia utente ne definiscono la dimensione logica. La dimensione della bitmap passata a `background-image` non influisce sulla dimensione logica.
@@ -212,7 +212,7 @@ background-position: -0px -1120px;
 * Per rimuovere un pulsante dall&#39;interfaccia utente, aggiungere `display:none` alla relativa classe CSS.
 * Per il valore del colore supportato dagli stili CSS è possibile utilizzare vari formati. Se è necessaria la trasparenza, utilizzare il formato `rgba(R,G,B,A)`. In caso contrario, è possibile utilizzare il formato `#RRGGBB`.
 
-* Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dall&#39;SDK del visualizzatore. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
+* Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per sostituire gli stili predefiniti o di runtime forniti dal visualizzatore o dal Viewer SDK. Questo perché può influenzare il comportamento dei componenti appropriati. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specificità appropriata.
 
 ## Elementi dell’interfaccia utente comune {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

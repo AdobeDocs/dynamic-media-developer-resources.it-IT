@@ -31,7 +31,7 @@ Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livel
 
 Valori più alti di *`quality`* aumentano le dimensioni e la qualità del file, valori più bassi riducono le dimensioni dei file e riducono la qualità percepita delle immagini. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
 
-Impostare il flag *`chroma`* per disattivare il downsampling della cromaticità RGB utilizzato dai tipici codificatori JPEG. Questo può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità piuttosto che di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
+Impostare il flag *`chroma`* per disattivare il downsampling della cromaticità RGB utilizzato dai tipici encoder JPEG. Questo può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità piuttosto che di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
 
 ## Proprietà {#section-925a44cbdc9042db8d4eb149cd073d21}
 

@@ -30,7 +30,7 @@ Attributo di livello o attributo di visualizzazione. Si applica al livello corre
 
 ## Esempio {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compensate la leggera sfocatura causata dal ricampionamento dell&#39;immagine. Aumentiamo anche la qualità delle JPEG per evitare artefatti JPEG aggiuntivi lungo i bordi affilati.
+Compensate la leggera sfocatura causata dal ricampionamento dell&#39;immagine. Aumentiamo anche la qualità JPEG per evitare artefatti JPEG aggiuntivi lungo i bordi più nitidi.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

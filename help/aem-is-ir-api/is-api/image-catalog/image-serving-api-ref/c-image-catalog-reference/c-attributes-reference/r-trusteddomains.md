@@ -1,5 +1,5 @@
 ---
-description: Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l'accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
+description: Domini web delle applicazioni Flash. Le applicazioni Adobe Flash possono richiedere l'accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
 solution: Experience Manager
 title: Domini attendibili
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Domini attendibili{#trusteddomains}
 
-Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l&#39;accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
+Domini web delle applicazioni Flash. Le applicazioni Adobe Flash possono richiedere l&#39;accesso alle proprietà delle immagini fornite con fmt=swf o fmt=swf3.
 
 Il file SWF deve concedere esplicitamente l&#39;accesso registrando il nome dei domini dell&#39;applicazione considerati attendibili.
 

@@ -31,13 +31,13 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## Utilizzo di eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore di ricerca di eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
+Il visualizzatore di ricerca eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
-È possibile utilizzare il visualizzatore di ricerca eCatalog in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, in cui viene integrato nella pagina web di destinazione utilizzando l’API documentata.
+È possibile utilizzare eCatalog Search Viewer in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, in cui viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
 La configurazione e l’interfaccia sono simili a quelle degli altri visualizzatori. Tutte le operazioni di skin vengono eseguite tramite CSS personalizzato.
 
@@ -86,7 +86,7 @@ Questo visualizzatore supporta anche l&#39;input del mouse e del touch-screen su
 
 Il visualizzatore di ricerca eCatalog supporta gli strumenti di condivisione social. Sono disponibili come pulsante nella barra di controllo principale che si espande in una barra degli strumenti di condivisione quando un utente fa clic o tocca su di essa.
 
-La barra degli strumenti Condivisione contiene icone per ogni tipo di canale di condivisione supportato, tra cui Facebook, Twitter, condivisione e-mail, condivisione codice di incorporamento e condivisione collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l’utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
+La barra degli strumenti di condivisione contiene icone per ogni tipo di canale di condivisione supportato, tra cui Facebook, Twitter, condivisione e-mail, condivisione codice di incorporamento e condivisione collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l’utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
 La funzione Ricerca del visualizzatore è disponibile come icona di uno specchio nella barra degli strumenti principale. Toccando o facendo clic sull’icona si attiva il pannello Ricerca con un campo di input. Dopo aver inserito una parola chiave o una frase e aver premuto Invio, il visualizzatore riproduce i risultati della ricerca nel pannello ed evidenzia le parole trovate nella vista principale.
 
@@ -141,7 +141,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
 
 Il percorso relativo è simile al seguente:
 
@@ -169,7 +169,7 @@ Il percorso relativo è simile al seguente:
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
-   Di seguito è riportato un esempio di definizione di una dimensione di visualizzatore statico nella pagina HTML:
+   Di seguito è riportato un esempio di definizione di una dimensione statica del visualizzatore nella pagina HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
@@ -240,7 +240,7 @@ Il percorso relativo è simile al seguente:
 
 **Incorporamento di progettazione reattiva con altezza illimitata**
 
-Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML risultante per la pagina Web è simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML della pagina Web risultante sarà simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

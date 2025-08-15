@@ -70,7 +70,7 @@ Il catalogo di sessione fornisce i seguenti valori predefiniti di sessione:
   </tr> 
   <tr> 
    <td> <p> Attributo <span class="codeph">::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo di compressione per l’output dell’immagine del TIFF </p> </td> 
+   <td> <p> Tipo di compressione per l'output dell'immagine TIFF </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Attributo <span class="codeph">::Sharpen</span> </p> </td> 

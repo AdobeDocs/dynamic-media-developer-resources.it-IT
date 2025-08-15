@@ -1,5 +1,5 @@
 ---
-description: Applicare le opzioni del processo PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva con nome di PDF o predefiniti di PDF in InDesign.
+description: Applicare le opzioni di processo di PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva come PDF o nei predefiniti di PDF in InDesign.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # joboption{#joboption}
 
-Applicare le opzioni del processo PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva con nome di PDF o predefiniti di PDF in InDesign.
+Applicare le opzioni di processo di PDF. Un file di opzioni di processo o predefinito di PDF è un file generato da Illustrator nella finestra di dialogo delle opzioni Salva come PDF o nei predefiniti di PDF in InDesign.
 
 ` joboption= *`valore`*`
 

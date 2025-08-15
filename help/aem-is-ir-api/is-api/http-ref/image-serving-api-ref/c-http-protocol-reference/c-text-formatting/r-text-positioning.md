@@ -28,25 +28,25 @@ Sebbene `text=` possa essere leggermente più semplice da utilizzare per applica
 
 Gli esempi seguenti sono per il testo pre-ridimensionato. Il comportamento del testo con ridimensionamento automatico è diverso.
 
-**&#x200B; `Text=` fornisce sempre un margine stretto nella parte superiore:**
+** `Text=` fornisce sempre un margine stretto nella parte superiore:**
 
 ![Esempio di posizionamento del testo con un&#39;immagine](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `textPs=` esegue il rendering del testo strettamente allineato alla parte superiore della casella di testo, con conseguente lieve ritaglio, anche per i font comuni come Arial®:**
+** `textPs=` esegue il rendering del testo strettamente allineato alla parte superiore della casella di testo, con conseguente lieve ritaglio, anche per i font comuni come Arial®:**
 
 ![Esempio di posizionamento testo due immagini](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `text=` sposta automaticamente il testo sottoposto a rendering verso il basso per evitare il ritaglio:**
+** `text=` sposta automaticamente il testo sottoposto a rendering verso il basso per evitare il ritaglio:**
 
 ![Esempio di posizionamento del testo tre immagini](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-Il **&#x200B; `textPs=` non sposta il testo contenente porzioni in rilievo, causando ritagli significativi se il testo si trova sul livello 0:**
+Il ** `textPs=` non sposta il testo contenente porzioni in rilievo, causando ritagli significativi se il testo si trova sul livello 0:**
 
 ![Esempio di posizionamento del testo quattro immagini](assets/tp04.png)
 

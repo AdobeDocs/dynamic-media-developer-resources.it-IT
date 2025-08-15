@@ -26,9 +26,9 @@ Le regole di pre-elaborazione delle richieste sono adatte per diverse applicazio
 * Applicazione selettiva di funzioni di sicurezza, ad esempio filigrana, filtrate in base al nome o al percorso dell’immagine.
 * Omissione delle filigrane o di altre funzioni di sicurezza durante l’accesso al server da indirizzi IP specifici.
 * Forzare l&#39;applicazione di comandi, ad esempio `defaultImage=`, a tutte le richieste o a richieste che presentano un pattern specifico nel percorso URL o nelle stringhe di query.
-* Non consentire l&#39;utilizzo di comandi a uso intensivo della CPU per impedire l&#39;utilizzo non corretto del server.
+* Non consentire l&#39;utilizzo di comandi a uso intensivo di CPU per impedire l&#39;utilizzo non corretto del server.
 * Consente di individuare le immagini di origine su server HTTP o FTP specificandole ancora nel percorso della richiesta anziché con `src=`.
-* Controlla le impostazioni di qualità delle immagini (ad esempio qualità del JPEG o nitidezza) a seconda del percorso della richiesta o del nome dell’immagine.
+* Controlla le impostazioni di qualità delle immagini (come qualità JPEG o nitidezza) a seconda del percorso della richiesta o del nome dell’immagine.
 
 Informazioni dettagliate sulla creazione, l&#39;utilizzo e la gestione dei set di regole sono disponibili in [Riferimento set di regole](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 

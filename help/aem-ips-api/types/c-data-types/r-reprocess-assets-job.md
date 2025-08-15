@@ -1,5 +1,5 @@
 ---
-description: Tipo di processo per consentire la rielaborazione dei file primari caricati in precedenza, tra cui la copia dei PDF e la riottimizzazione delle immagini.
+description: Tipo di processo per consentire la rielaborazione dei file primari caricati in precedenza, inclusa la copia dei PDF e la riottimizzazione delle immagini.
 solution: Experience Manager
 title: RielaboraProcessoRisorse
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo di processo per consentire la rielaborazione dei file primari caricati in precedenza, tra cui la copia dei PDF e la riottimizzazione delle immagini.
+Tipo di processo per consentire la rielaborazione dei file primari caricati in precedenza, inclusa la copia dei PDF e la riottimizzazione delle immagini.
 
 Sintassi
 
@@ -142,7 +142,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni per il caricamento di file InDesign nel server immagini. </p> </td> 
+   <td colname="col3"> <p>Opzioni per caricare i file InDesign sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
@@ -152,7 +152,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipi:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni della maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Utilizza queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=it"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opzioni che consentono di controllare le impostazioni della maschera di contrasto durante la creazione di un file TIF piramidale ottimizzato. Utilizza queste impostazioni per migliorare la nitidezza delle immagini. </p> <p>Vedere <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

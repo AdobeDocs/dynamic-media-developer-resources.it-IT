@@ -18,7 +18,7 @@ Documentazione sugli attributi di configurazione per il Visualizzatore video.
 
 Puoi impostare qualsiasi comando di configurazione nell’URL. In alternativa, è possibile utilizzare i metodi API `setParam()`, `setParams()` o entrambi per impostare qualsiasi comando di configurazione. Puoi anche specificare qualsiasi attributo di configurazione nel record di configurazione lato server.
 
-Ad alcuni comandi di configurazione è possibile aggiungere il nome della classe o dell&#39;istanza del componente SDK del visualizzatore corrispondente. Il nome di istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore passato al metodo API `setContainerId()`. La documentazione include prefissi facoltativi per tali comandi. Ad esempio, `playback` è documentato come segue:
+Ad alcuni comandi di configurazione è possibile assegnare il prefisso class name o instance name del componente Viewer SDK corrispondente. Il nome di istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore passato al metodo API `setContainerId()`. La documentazione include prefissi facoltativi per tali comandi. Ad esempio, `playback` è documentato come segue:
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback

@@ -22,7 +22,7 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tipo </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Impostare su <span class="codeph"> Web </span> o <span class="codeph"> mac </span> per scegliere una tavolozza predefinita. </p> <p> <p>Nota: il tipo di pallet </span> mac <span class="codeph"> è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha.</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Specifica il tipo di tavolozza. </p> <p>Imposta su <span class="codeph"> adattivo </span> per calcolare una palette ottimale per l'immagine. </p> <p>Impostare su <span class="codeph"> Web </span> o <span class="codeph"> mac </span> per scegliere una tavolozza predefinita. </p> <p> <p>Nota: il tipo di pallet <span class="codeph"> mac </span> è supportato solo per i formati GIF e PNG8, ma non per i formati GIF-Alpha e PNG8-Alpha.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dithering </span> </span> </p> </td> 
@@ -30,11 +30,11 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nella tavolozza adattiva </span> di <span class="codeph">.</p> </td> 
+   <td colname="col2"> <p>Numero di colori di output (2-256) </p> <p>Specifica quanti colori includere nella tavolozza adattiva <span class="codeph"> di </span>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Elenco separato da virgole di colori RGB obbligatori in formato esadecimale6 </p> <p>Consente di specificare i colori da includere in una tavolozza </span> adattiva <span class="codeph">. Se il numero di colori specificati è inferiore a <span class="codeph"> <span class="varname"> numColors </span> </span>, verranno calcolati colori aggiuntivi in base al contenuto dell'immagine.</p> </td> 
+   <td colname="col2"> <p>Elenco separato da virgole di colori RGB forzati in formato esadecimale 6 </p> <p>Consente di specificare i colori da includere in una tavolozza <span class="codeph"> adattiva </span>. Se il numero di colori specificati è inferiore a <span class="codeph"> <span class="varname"> numColors </span> </span>, verranno calcolati colori aggiuntivi in base al contenuto dell'immagine.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Generare una miniatura GIF utilizzando la tavolozza `web` e senza dithering:
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Converte l&#39;immagine in un GIF bitonale con trasparenza dei colori chiave. E, forza i colori a bianco e nero:
+Converte l&#39;immagine in un GIF bicontonale con trasparenza dei colori chiave. E, forza i colori a bianco e nero:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

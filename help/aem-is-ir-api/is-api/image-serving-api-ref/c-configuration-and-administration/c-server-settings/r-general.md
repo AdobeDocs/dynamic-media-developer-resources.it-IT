@@ -18,7 +18,7 @@ Impostazioni generali del server
 
 ## TC::PsPort - Porta di ascolto principale {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Specifica la porta di ascolto principale per [!DNL Platform Server]. Questa porta viene utilizzata anche per accedere alla documentazione e alle pagine di esempio per Image Server, Image Rendering e Dynamic Medie Viewers (se installati).
+Specifica la porta di ascolto principale per [!DNL Platform Server]. Questa porta viene utilizzata anche per accedere alla documentazione e alle pagine di esempio per Image Server, Image Rendering e visualizzatori Dynamic Media (se installati).
 
 ## IS::CacheServerUrl - Url radice del servizio di caching {#section-bcca227a1f91453b834db4ea050968e2}
 

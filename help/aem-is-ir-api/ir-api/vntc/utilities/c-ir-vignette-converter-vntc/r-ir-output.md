@@ -57,7 +57,7 @@ Vengono generate le seguenti proprietà:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> ival</span> è 0 se <span class="varname"> sourceFile</span> è uno stile di archivio contenente i dati dell'immagine JPEG (in questo caso viene generato anche un avviso), in caso contrario 1. Archivio e finestra che coprono solo i file di stile. </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> è 0 se <span class="varname"> sourceFile</span> è uno stile di archivio contenente dati immagine di JPEG (in questo caso viene generato anche un avviso), in caso contrario 1. Archivio e finestra che coprono solo i file di stile. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> stringa</span></span> </p></td> 
@@ -85,7 +85,7 @@ Vengono generate le seguenti proprietà:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">risoluzione=<span class="varname"> valore</span></span> </p></td> 
-  <td class="stentry"> <p>Per gli stili di archivio, la risoluzione dell'oggetto dell'elemento sourceFile</span> <span class="varname">. Per le vignettature, questa è la risoluzione del materiale consigliata per ottenere risultati di rendering di qualità migliore durante il rendering della vignettatura di output. Pixel/pollici (ppi). </p></td> 
+  <td class="stentry"> <p>Per gli stili di archivio, la risoluzione dell'oggetto dell'elemento sourceFile<span class="varname"> </span>. Per le vignettature, questa è la risoluzione del materiale consigliata per ottenere risultati di rendering di qualità migliore durante il rendering della vignettatura di output. Pixel/pollici (ppi). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.min=<span class="varname"> val</span></span> </p></td> 

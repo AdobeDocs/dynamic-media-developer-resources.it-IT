@@ -1,6 +1,6 @@
 ---
-title: AssetCount
-description: Tipi di risorse e conteggio per una società.
+title: Numero di risorse
+description: Tipi di risorse e conteggi per un'azienda.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # [!DNL AssetCount]{#assetcount}
 
-Tipi di risorse e conteggio per una società.
+Tipi di risorse e conteggi per un&#39;azienda.
 
-I tipi di risorsa includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] e altri.
+I tipi di risorsa includono [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]e altri.
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| assetType | `xsd:string` | Tipo di risorsa associata al conteggio. |
-| count | `sd:int` | Numero di `assetType` risorse nella società. |
+| Tipo risorsa | `xsd:string` | Tipo di risorsa associato al conteggio. |
+| count | `sd:int` | Numero di `assetType` risorse nell&#39;azienda. |

@@ -24,7 +24,7 @@ Sono supportati quattro tipi generali di vignettature di produzione.
   Consigliato quando si conoscono tutte le dimensioni di immagine di rendering desiderate. Offre una migliore qualità e un rendering più rapido rispetto alle vignettature a risoluzione singola e piramidali, perché non è necessario ridimensionare l’immagine dopo il rendering.
 * Piramide
 
-  La cosa migliore è che si consiglia quando sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando si utilizza il visualizzatore Dynamic Medie Zoom.
+  La cosa migliore è che, come consigliato, sono necessarie più dimensioni di immagine e le dimensioni esatte non sono predeterminate e quando si utilizza il visualizzatore Dynamic Media Zoom.
 * Piramide con una o più risoluzioni aggiuntive
 
   Offre un&#39;alta qualità per dimensioni specifiche, garantendo al tempo stesso flessibilità e supporto zoom.

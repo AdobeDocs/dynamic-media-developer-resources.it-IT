@@ -1,6 +1,6 @@
 ---
-title: Limite dimensioni vignettatura
-description: Image Rendering applica un limite di dimensione di due megapixel per le vignettature non piramidali.
+title: Limitazione dimensione vignettatura
+description: Immagine Rendering applica un limite di dimensioni di due megapixel per le vignettature non piramidali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Limite dimensioni vignettatura{#vignette-size-limitation}
+# Limitazione dimensione vignettatura{#vignette-size-limitation}
 
-Image Rendering applica un limite di dimensione di due megapixel per le vignettature non piramidali.
+Immagine Rendering applica un limite di dimensioni di due megapixel per le vignettature non piramidali.
 
-Modificare il valore di `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se l&#39;applicazione richiede il supporto per vignettature non piramidali con un&#39;area immagine (larghezza x altezza) maggiore di questo limite.
+Modificare il valore di `IrMaxNonPyrVignetteSize` in [! DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se il applicazione richiede il supporto per vignettature non piramidali con un&#39;area dell&#39;immagine (larghezza x altezza) superiore a questo limite.
 
 >[!NOTE]
 >
->Regolare gli attributi `attribute::MaxPix` e `IS::MaxMessageSize` per consentire dimensioni di immagine di risposta insolitamente grandi. Per ulteriori informazioni, consulta la documentazione di Image Server.
+>Regola gli attributi `attribute::MaxPix` e `IS::MaxMessageSize` consente di ottenere dimensioni insolitamente grandi per le immagini di risposta. Per ulteriori informazioni, consulta la documentazione di Immagine Serving.

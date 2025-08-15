@@ -25,7 +25,7 @@ Area di testo. Specifica una o più aree in cui far scorrere il testo specificat
  </tr> 
 </table>
 
-Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, vedere [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d).
+Per ulteriori informazioni, inclusa una descrizione di [, vedere ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*.
 
 I comandi di margine RTF `\margl`, `\margr`, `\margt` e `\margb` vengono ignorati quando è presente `textFlowPath=`. Se non viene specificata alcuna definizione di percorso, `textFlowPath=` verrà ignorato.
 

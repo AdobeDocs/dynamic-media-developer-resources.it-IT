@@ -1,6 +1,6 @@
 ---
-title: Requisiti di sistema per visualizzatori Dynamic Medie HTML5
-description: Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
+title: Requisiti di sistema per visualizzatori Dynamic Media HTML5
+description: Requisiti di sistema per i visualizzatori Dynamic Media HTML5.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Requisiti di sistema per visualizzatori Dynamic Medie HTML5{#system-requirements}
+# Requisiti di sistema per visualizzatori Dynamic Media HTML5{#system-requirements}
 
-Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
+Requisiti di sistema per i visualizzatori Dynamic Media HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,8 +25,8 @@ Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Medie Image Server 6.7.1 o versione successiva.
-* I visualizzatori HTML5 richiedono le librerie lato server SDK JavaScript 3.11.5 o versioni successive.
+* Adobe Dynamic Media Image Serving 6.7.1 o versione successiva.
+* I visualizzatori HTML5 richiedono librerie lato server SDK JavaScript 3.11.5 o versioni successive.
 * *Per inviare un messaggio e-mail a un amico* le funzionalità social richiedono s7ondemand 5.0.9 o versione successiva.
 * Visualizzatore eCatalog - [Il supporto per la finestra a comparsa del pannello Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) richiede il server informazioni 2.1.8 o versione successiva.
 * I componenti della funzione di ricerca richiedono s7search 2.3.0 o versione successiva.
@@ -78,7 +78,7 @@ Requisiti di sistema per visualizzatori Dynamic Medie HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partire dal 30 settembre 2022, i visualizzatori Dynamic Medie di Adobe hanno terminato il supporto per i seguenti elementi:
+A partire dal 30 settembre 2022, i visualizzatori Dynamic Media di Adobe hanno terminato il supporto per i seguenti elementi:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * Le seguenti crittografie deboli in TLS 1.2:
@@ -97,11 +97,11 @@ A partire dal 30 settembre 2022, i visualizzatori Dynamic Medie di Adobe hanno t
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Combinazioni di browser Web e sistemi operativi non supportate per i visualizzatori Dynamic Medie {#browser-os-support}
+## Combinazioni di browser web e sistemi operativi non supportate per i visualizzatori Dynamic Media {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-I visualizzatori Dynamic Medie di Adobe non supportano le seguenti combinazioni di browser web e sistemi operativi:
+I visualizzatori Dynamic Media di Adobe non supportano le seguenti combinazioni di browser web e sistemi operativi:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

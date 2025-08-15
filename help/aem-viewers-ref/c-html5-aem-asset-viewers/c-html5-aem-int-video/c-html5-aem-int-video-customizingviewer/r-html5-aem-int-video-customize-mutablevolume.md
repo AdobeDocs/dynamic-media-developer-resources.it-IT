@@ -1,6 +1,6 @@
 ---
-title: Volume variabile
-description: Il controllo del volume mutabile viene inizialmente visualizzato come un pulsante che consente all'utente di disattivare o attivare l'audio del lettore video.
+title: Volume disattivabile
+description: Il controllo del volume modificabile viene inizialmente visualizzato come un pulsante che consente a un utente di disattivare o riattivare l'audio del lettore video.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Volume variabile{#mutable-volume}
+# Volume disattivabile{#mutable-volume}
 
-Il controllo del volume mutabile viene inizialmente visualizzato come un pulsante che consente all&#39;utente di disattivare o attivare l&#39;audio del lettore video.
+Il controllo del volume modificabile viene inizialmente visualizzato come un pulsante che consente a un utente di disattivare o riattivare l&#39;audio del lettore video.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Quando un utente passa il mouse sul pulsante, viene visualizzato un cursore che consente di impostare il volume. Il controllo volume modificabile può essere ridimensionato, interpolato e posizionato in base alla barra di controllo che lo contiene tramite CSS.
+Quando un utente passa il mouse sul pulsante, viene visualizzato un cursore che consente di impostare il volume. Il controllo del volume modificabile può essere dimensionato, interfacciato e posizionato, rispetto alla barra di controllo che lo contiene, tramite CSS.
 
-L’aspetto dell’area del volume mutabile è controllato dal seguente selettore di classe CSS:
+L&#39;aspetto dell&#39;area del volume variabile è controllato con la seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7mutablevolume
@@ -31,20 +31,20 @@ L’aspetto dell’area del volume mutabile è controllato dal seguente selettor
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> In alto </span> </p> </td> 
+   <td colname="col2"> <p> Posizione dall'alto bordo, compresa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A destra </span> </p> </td> 
    <td colname="col2"> <p> Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza del controllo volume modificabile. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col2"> <p> Larghezza del controllo del volume modificabile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del controllo volume modificabile. </p> </td> 
+   <td colname="col2"> <p>Altezza del controllo del volume modificabile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
@@ -67,26 +67,26 @@ L’aspetto del pulsante di disattivazione audio/attivazione audio è controllat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per uno stato pulsante specificato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta sia i selettori di attributi `state` che `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato &quot;disattivato&quot; e `selected='false'` corrisponde allo stato &quot;disattivato&quot;.
+>Questo pulsante supporta sia i selettori di attributi `state` che `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato &quot;disattivato&quot; e `selected='false'` corrisponde allo stato &quot;non disattivato&quot;.
 
-L’area verticale della barra del volume è controllata con il seguente selettore di classe CSS:
+L&#39;area della barra del volume verticale è controllata con la seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume
 ```
 
-**Proprietà CSS dell&#39;area verticale della barra del volume**
+**Proprietà CSS dell&#39;area della barra del volume verticale**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
@@ -95,7 +95,7 @@ L’area verticale della barra del volume è controllata con il seguente seletto
    <td colname="col2"> <p> Colore di sfondo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del volume verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -105,14 +105,14 @@ L’area verticale della barra del volume è controllata con il seguente seletto
  </tbody> 
 </table>
 
-Il tracciamento all&#39;interno del controllo del volume verticale è controllato con i seguenti selettori di classe CSS:
+Il controllo del volume verticale della traccia all&#39;interno è controllato con i seguenti selettori di classe CSS:
 
 ```
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**Proprietà CSS del brano nel controllo volume verticale**
+**Proprietà CSS della traccia all&#39;interno del controllo del volume verticale**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -131,7 +131,7 @@ Il tracciamento all&#39;interno del controllo del volume verticale è controllat
  </tbody> 
 </table>
 
-La manopola del volume verticale è controllata con il seguente selettore di classe CSS:
+La manopola verticale del volume è controllata con la seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume .s7knob
@@ -147,10 +147,10 @@ La manopola del volume verticale è controllata con il seguente selettore di cla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza della manopola di controllo del volume verticale. </p> </td> 
   </tr> 
   <tr> 
@@ -168,7 +168,7 @@ La descrizione comando del pulsante può essere localizzata. Per ulteriori infor
 
 ## Esempi {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante di disattivazione audio di 32 x 32 pixel posizionato a 6 pixel dall&#39;alto e a 38 pixel dal bordo destro della barra di controllo. Visualizzare un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti, se selezionato o meno.
+Per impostare un pulsante di disattivazione audio di 32 x 32 pixel posizionato a 6 pixel dall&#39;alto e a 38 pixel dal bordo destro della barra di controllo. Visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati di pulsante quando selezionato o non selezionato.
 
 ```
 .s7interactivevideoviewer .s7mutablevolume { 
@@ -203,7 +203,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-Di seguito è riportato un esempio di come applicare uno stile al cursore del volume all&#39;interno del controllo volume modificabile.
+Di seguito è riportato un esempio di come è possibile applicare uno stile al cursore del volume all&#39;interno del controllo del volume modificabile.
 
 ```
 .s7interactivevideoviewer .s7mutablevolume .s7verticalvolume { 

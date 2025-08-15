@@ -1,5 +1,5 @@
 ---
-description: Matrice di riepiloghi di risorse.
+description: Una serie di risorsa riepiloghi.
 solution: Experience Manager
 title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL AssetSummaryArray]{#assetsummaryarray}
 
-Matrice di riepiloghi di risorse.
+Una serie di risorsa riepiloghi.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:AssetSummary` | Array di riepiloghi risorse. |
+| Elementi | `types:AssetSummary` | Matrice di risorsa riepiloghi. |

@@ -31,7 +31,7 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## Utilizzo del visualizzatore a comparsa {#section-f21ac23d3f6449ad9765588d69584772}
 
-Il visualizzatore a comparsa rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
+Il visualizzatore a comparsa rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
 
 Il visualizzatore a comparsa è destinato solo all&#39;uso incorporato, il che significa che è integrato nella pagina web utilizzando l&#39;API documentata. Per il visualizzatore a comparsa non è disponibile alcuna pagina Web pronta per la produzione.
 
@@ -101,7 +101,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
 
 Di seguito è riportato un percorso relativo:
 
@@ -111,7 +111,7 @@ Di seguito è riportato un percorso relativo:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -134,7 +134,7 @@ Di seguito è riportato un percorso relativo:
 
    Questo visualizzatore visualizza le miniature quando si lavora con set di più elementi. Sui sistemi desktop, le miniature sono posizionate sotto la vista principale. Allo stesso tempo, il visualizzatore consente lo scambio della risorsa principale durante il runtime utilizzando l&#39;API `setAsset()`. In qualità di sviluppatore, puoi controllare il modo in cui il visualizzatore gestisce l’area delle miniature nell’area inferiore quando la nuova risorsa ha un solo elemento. È possibile mantenere intatte le dimensioni del visualizzatore esterno e lasciare che la visualizzazione principale aumenti la sua altezza e occupi l’area delle miniature. In alternativa, è possibile mantenere statica la dimensione della visualizzazione principale e comprimere l’area di visualizzazione esterna, consentendo lo spostamento verso l’alto del contenuto della pagina web, e quindi utilizzare l’area immobiliare della pagina gratuita rimasta dalle miniature.
 
-   Per mantenere intatti i limiti del visualizzatore esterno, definire la dimensione per la classe CSS di livello superiore `.s7flyoutviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, successivamente assegnato a un record predefinito visualizzatore in Dynamic Media Classic o passato esplicitamente utilizzando il comando style.
+   Per mantenere intatti i limiti del visualizzatore esterno, definire la dimensione per la classe CSS di livello superiore `.s7flyoutviewer` in unità assolute. Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, successivamente assegnato a un record di predefinito visualizzatore in Dynamic Media Classic o passato esplicitamente utilizzando il comando style.
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore a comparsa](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451).
 
@@ -149,9 +149,9 @@ Di seguito è riportato un percorso relativo:
 
    Puoi vedere il comportamento con un’area visualizzatore esterna fissa nella seguente pagina di esempio. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
 
    Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
@@ -168,7 +168,7 @@ Di seguito è riportato un percorso relativo:
 
    Nella pagina di esempio seguente viene illustrato il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Inoltre, il CSS visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
 
@@ -302,7 +302,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Dimensione flessibile che incorpora con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 

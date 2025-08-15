@@ -149,7 +149,7 @@ Nella tabella seguente sono elencate le funzioni chiave disponibili per ogni com
 
 Le stringhe compatibili con RTF possono essere assemblate manualmente o formattando il testo desiderato in un editor di testo o un elaboratore di testi in grado di salvare file RTF. Il file RTF può quindi essere aperto in un editor di testo normale e il relativo contenuto RTF non elaborato del file copiato nell’URL della richiesta.
 
-Alcuni elaboratori di testi generano file piuttosto grandi, che includono preamboli sostanziali che non vengono utilizzati da Dynamic Medie Image Server. Si consiglia di rimuovere dalla stringa gli elementi RTF inutilizzati prima di passare la stringa ai comandi di testo.
+Alcuni elaboratori di testi generano file piuttosto grandi, che includono preamboli sostanziali che non vengono utilizzati da Dynamic Media Image Server. Si consiglia di rimuovere dalla stringa gli elementi RTF inutilizzati prima di passare la stringa ai comandi di testo.
 
 La codifica del linguaggio basata sugli standard UTF-8 e ISO è supportata nelle stringhe RTF in alternativa ai meccanismi di codifica dei caratteri RTF standard. Ciò consente alle applicazioni di inviare al server testo non in inglese senza conoscere la codifica RTF.
 

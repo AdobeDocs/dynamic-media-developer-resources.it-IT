@@ -1,5 +1,5 @@
 ---
-description: Ottiene informazioni su un utente. Utilizza l’indirizzo e-mail e la password di un utente di sistema come credenziali per autorizzare la richiesta. In caso contrario, l'operazione ottiene informazioni sull'utente predefinito.
+description: Ottiene informazioni su un utente. Utilizzare l'indirizzo e-mail e il password di un utente di sistema come credenziali per l'autorizzazione del richiesta. In caso contrario, l'operazione ottiene informazioni sul utente predefinito.
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # getUserInfo{#getuserinfo}
 
-Ottiene informazioni su un utente. Utilizza l’indirizzo e-mail e la password di un utente di sistema come credenziali per autorizzare la richiesta. In caso contrario, l&#39;operazione ottiene informazioni sull&#39;utente predefinito.
+Ottiene informazioni su un utente. Utilizzare l&#39;indirizzo e-mail e il password di un utente di sistema come credenziali per l&#39;autorizzazione del richiesta. In caso contrario, l&#39;operazione ottiene informazioni sul utente predefinito.
 
 Sintassi
 
@@ -36,18 +36,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Gestisci per l’utente di cui desideri restituire le informazioni. |
-| email | `xsd:string` | No | Indirizzo e-mail utente. |
+| Handle utente | `xsd:string` | No | Gestisci il utente di cui desideri restituire le informazioni. |
+| E-mail | `xsd:string` | No | Indirizzo e-mail dell&#39;utente. |
 
 **Output (getUserInfoReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userInfo | `types:User` | Sì | Il nome, il cognome, l’indirizzo e-mail e il ruolo di un utente, nonché se l’utente è valido e quando scade la password dell’utente. |
+| Informazioni utente | `types:User` | Sì | Nome, cognome, indirizzo e-mail e ruolo di un utente, nonché se il utente è valido e quando scade il password del utente. |
 
 ## Esempi {#section-98d77a2e360a438dbe240099bea26a65}
 
-In questo esempio di codice vengono restituite informazioni per l&#39;utente IPS predefinito.
+In questo esempio di codice vengono restituite informazioni per il utente IPS predefinito.
 
 **Richiesta**
 

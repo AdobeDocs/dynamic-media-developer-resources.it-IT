@@ -39,7 +39,7 @@ Facoltativo.
 
 ## Esempio {#section-96e69b70365f461dae4399e49044ea2f}
 
-Di seguito sono riportati i risultati previsti quando si utilizza questo attributo di configurazione con il visualizzatore e la dimensione del visualizzatore è 1000 x 1000:
+Di seguito sono riportati i risultati attesi quando si utilizza questo attributo di configurazione con il visualizzatore e le dimensioni visualizzatore sono 1000 x 1000:
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 

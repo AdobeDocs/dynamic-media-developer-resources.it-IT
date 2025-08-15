@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Trattamento del colore{#color-handling}
 
-La specifica RTF consente i valori dei colori RGB specificati con `\colortbl`. Ogni componente viene fornito separatamente con i comandi `\red`, `\green` e `\blue`.
+La specifica RTF consente i valori di colore RGB specificati con `\colortbl`. Ogni componente viene fornito separatamente con i comandi `\red`, `\green` e `\blue`.
 
 Il comando proprietario dell&#39;estensione RTF `\cmykcolortbl` consente di specificare colori CMYK, con ogni componente colore fornito con i comandi `\cyan`, `\magenta`, `\yellow` e `\black`.
 
@@ -26,7 +26,7 @@ Il comando di estensione RTF `\*\iscolortbl`, supportato da `textPs=`, consente 
 
 *[!DNL colors]* uno o più valori di colore IS, separati da &#39;;&#39;
 
-È possibile specificare più tipi di tabella colori nella stessa stringa RTF `text=` o `textPs=`. Ogni tabella colori può avere un numero diverso di voci. Image Server tenta di trovare i colori in questo ordine: `\iscolortbl` prima di `\cmykcolortbl` (solo se il tipo di pixel del livello di testo è CMYK) prima di `\colortbl`. Solo per `textPs=`, i colori vengono convertiti in modo accurato tra CMYK e RGB, se necessario (ad esempio, quando si specificano i colori RGB ma è richiesto l&#39;output CMYK). Se non viene trovato alcun colore per un particolare valore di indice, viene utilizzato il colore predefinito (nero).
+È possibile specificare più tipi di tabella colori nella stessa stringa RTF `text=` o `textPs=`. Ogni tabella colori può avere un numero diverso di voci. Image Server tenta di trovare i colori in questo ordine: `\iscolortbl` prima di `\cmykcolortbl` (solo se il tipo di pixel del livello di testo è CMYK) prima di `\colortbl`. Solo per `textPs=`, i colori vengono convertiti con precisione tra CMYK e RGB, se necessario (ad esempio, quando si specificano colori RGB ma è richiesto l&#39;output CMYK). Se non viene trovato alcun colore per un particolare valore di indice, viene utilizzato il colore predefinito (nero).
 
 Fare riferimento a [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) per una descrizione della sintassi dei valori dei colori IS.
 

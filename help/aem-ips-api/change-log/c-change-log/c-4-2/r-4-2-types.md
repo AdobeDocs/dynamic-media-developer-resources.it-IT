@@ -1,7 +1,7 @@
 ---
-description: Descrive i tipi di dati nuovi e modificati per la versione 4.2 dell'API IPS.
+description: Vengono descritti i tipi di dati nuovi e modificati per la versione 4.2 dell'API IPS.
 solution: Experience Manager
-title: Tipi di dati nuovi e modificati
+title: Tipi di dati Nuovo e Modified (Tipi di dati  e modificati)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Tipi di dati: nuovi e modificati{#data-types-new-and-modified}
+# Tipi di dati: Nuovo e Modified (Modificati){#data-types-new-and-modified}
 
-Descrive i tipi di dati nuovi e modificati per la versione 4.2 dell&#39;API IPS.
+Vengono descritti i tipi di dati nuovi e modificati per la versione 4.2 dell&#39;API IPS.
 
 Sintassi
 
-## Nuovi tipi {#section-770a814386a44478881feeff2b6f65f5}
+## Tipi di Nuovo {#section-770a814386a44478881feeff2b6f65f5}
 
 * `AudioInfo`
 * `CuePointInfo`
@@ -27,7 +27,7 @@ Sintassi
 
 ## Tipi modificati {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
-**Risorsa**
+**Bene**
 
 Parametri aggiunti:
 
@@ -41,7 +41,7 @@ Parametri rimossi:
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**RielaboraAssetsJob**
+**ReprocessAssetsJob**
 
 Parametri aggiunti:
 
@@ -49,7 +49,7 @@ Parametri aggiunti:
 * `preserveCrop`
 * `readyForPublish`
 
-**ProcessoDirectoryCaricamento**
+**Processo di caricamento directory**
 
 Parametri aggiunti:
 
@@ -57,7 +57,7 @@ Parametri aggiunti:
 * `preserveCrop`
 * `videoEncodingPreset`
 
-**UploadUrlsJob**
+**Carica URL processo**
 
 Parametri aggiunti:
 

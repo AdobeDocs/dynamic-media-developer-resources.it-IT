@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valore </span> </span> </p> </td> 
-   <td colname="col2"> <p>Imposta il bitrate video (in kilobit al secondo o Kbps) utilizzato per la riproduzione iniziale del video sui desktop. </p> <p>Se questo valore di bitrate non esiste nel set di video adattivi, il lettore video avvia il video che ha il bitrate inferiore più prossimo. </p> <p>Se è impostato su <span class="codeph"> 0 </span>, il lettore video inizia dal bitrate più basso possibile. Applicabile solo per i sistemi che non dispongono del supporto nativo per i video HLS di HTML5 (che sono browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col2"> <p>Imposta il bitrate video (in kilobit al secondo o Kbps) utilizzato per la riproduzione iniziale del video sui desktop. </p> <p>Se questo valore di bitrate non esiste nel set di video adattivi, il lettore video avvia il video che ha il bitrate inferiore più prossimo. </p> <p>Se è impostato su <span class="codeph"> 0 </span>, il lettore video inizia dal bitrate più basso possibile. Applicabile solo per i sistemi che non dispongono del supporto nativo per HTML5 HLS video (che sono browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

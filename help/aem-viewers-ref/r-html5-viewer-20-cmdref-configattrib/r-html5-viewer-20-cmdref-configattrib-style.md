@@ -22,7 +22,7 @@ Puoi applicare il seguente comando sia dalla stringa di query URL che dalla conf
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il percorso cssPath </span></span> di <span class="codeph"><span class="varname"> è relativo, verrà risolto in base alla posizione della pagina del visualizzatore HTML e al valore del parametro contentUrl=</span> di <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p> Posizione CSS relativa o assoluta. </p> <p>Specifica la posizione del file CSS personalizzato. Se il percorso cssPath <span class="codeph"><span class="varname"> </span></span> è relativo, verrà risolto in base alla posizione della pagina HTML del visualizzatore e al valore del parametro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

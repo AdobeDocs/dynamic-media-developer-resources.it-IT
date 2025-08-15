@@ -26,7 +26,7 @@ Stringa di testo. Obbligatorio per i record immagine. Può essere vuoto per i re
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility Image Converter (IC).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato multi-risoluzione PTIFF (Dynamic Media pyramid TIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
 
 ## Predefinito {#path-default}
 

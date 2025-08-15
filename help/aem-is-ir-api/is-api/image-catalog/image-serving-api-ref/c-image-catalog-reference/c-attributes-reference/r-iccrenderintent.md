@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: Intento di rendering della conversione colore. Fornisce l’intento di rendering predefinito per le conversioni dei colori quando &grave;icc=&grave; non è specificato per l’intento di rendering.
+description: Intento di rendering della conversione colore. Fornisce l’intento di rendering predefinito per le conversioni dei colori quando `icc=` non è specificato per l’intento di rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

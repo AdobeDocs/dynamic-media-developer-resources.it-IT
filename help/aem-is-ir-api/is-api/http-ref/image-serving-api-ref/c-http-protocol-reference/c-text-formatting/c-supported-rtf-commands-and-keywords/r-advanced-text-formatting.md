@@ -68,7 +68,7 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Ridimensionamento verticale dei caratteri. </p> </td> 
-   <td> <p>Percentuale positiva o negativa; il valore predefinito è 100; estensione Dynamic Medie. </p> <p> <span class="codeph"> \charscaley </span> ridimensiona anche l'interlinea se applicata con <span class="codeph"> testo= </span>. <span class="codeph"> textPs= </span> mantiene sempre l'interlinea indipendentemente dal ridimensionamento verticale dei caratteri. </p> </td> 
+   <td> <p>Percentuale positiva o negativa; il valore predefinito è 100; estensione Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> ridimensiona anche l'interlinea se applicata con <span class="codeph"> testo= </span>. <span class="codeph"> textPs= </span> mantiene sempre l'interlinea indipendentemente dal ridimensionamento verticale dei caratteri. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -83,17 +83,17 @@ Utilizzare i seguenti comandi per la formattazione avanzata del testo.
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>Attivate l'adattamento per la copia e impostate le dimensioni massime consentite per il carattere. </p> </td> 
-   <td> <p>Dimensione font in punti dimezzati; <span class="codeph"> solo textPs= </span>; estensione Dynamic Medie. </p> </td> 
+   <td> <p>Dimensione font in punti dimezzati; <span class="codeph"> solo textPs= </span>; estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Numero massimo di righe di adattamento della copia (limitazione soft). </p> </td> 
-   <td> <p>0 senza limitazione di riga; <span class="codeph"> solo textPs= </span>; estensione Dynamic Medie. </p> </td> 
+   <td> <p>0 senza limite di riga; <span class="codeph"> solo textPs= </span>; estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Numero massimo di righe di adattamento alla copia (troncamento). </p> </td> 
-   <td> <p> <span class="codeph"> textPs= solo </span>; estensione Dynamic Medie. </p> </td> 
+   <td> <p> <span class="codeph"> solo textPs= </span>; estensione Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 

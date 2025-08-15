@@ -27,11 +27,11 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
 
 ## Utilizzo del Visualizzatore zoom in linea {#section-f21ac23d3f6449ad9765588d69584772}
 
-Il Visualizzatore zoom in linea rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il Visualizzatore zoom in linea rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 Il Visualizzatore zoom in linea può essere utilizzato sia in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i Visualizzatori Image Server, sia in modalità incorporata dove è integrato in una pagina web di destinazione utilizzando l’API documentata.
 
@@ -82,7 +82,7 @@ Nella modalità popup, il visualizzatore viene aperto in una finestra del browse
 
 Questa modalità è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando `window.open()` chiamata JavaScript, `A` elemento HTML configurato correttamente o in qualsiasi altro modo appropriato.
 
-È consigliabile utilizzare la pagina di HTML predefinita per la modalità popup denominata `FlyoutViewer.html`. Si trova nella sottocartella [!DNL html5/] della distribuzione standard Image Server-Viewers:
+È consigliabile utilizzare la pagina HTML predefinita per la modalità popup denominata `FlyoutViewer.html`. Si trova nella sottocartella [!DNL html5/] della distribuzione standard Image Server-Viewers:
 
 `<s7viewers_root>/html5/FlyoutViewer.html`
 
@@ -125,7 +125,7 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Dynamic Medie di Adobe e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Dynamic Medie di Adobe in cui sono installati i visualizzatori IS.
+Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
 
 Di seguito è riportato un percorso relativo:
 
@@ -135,7 +135,7 @@ Di seguito è riportato un percorso relativo:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -173,9 +173,9 @@ Di seguito è riportato un percorso relativo:
 
    Puoi vedere il comportamento con un’area visualizzatore esterna fissa nella seguente pagina di esempio. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
 
    Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
@@ -192,7 +192,7 @@ Di seguito è riportato un percorso relativo:
 
    Nella pagina di esempio seguente viene illustrato il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
    Inoltre, il CSS visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
 
@@ -331,7 +331,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Dimensione flessibile che incorpora con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 

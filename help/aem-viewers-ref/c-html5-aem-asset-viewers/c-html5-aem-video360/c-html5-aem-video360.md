@@ -1,28 +1,28 @@
 ---
 title: Video 360
-description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Medie.
+description: Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2562'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
 
 # Video 360{#video}
 
-Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Medie.
+Il visualizzatore HTML5 Video360 è un lettore video a 360 gradi che riproduce in streaming e video progressivo a 360 codificato nel formato H.264, fornito da Dynamic Media Classic o da Adobe Experience Manager, Dynamic Media.
 
 I video a 360 gradi, noti anche come video immersivi o video sferici, sono registrazioni video in cui una visione in ogni direzione viene registrata contemporaneamente, girata utilizzando una fotocamera omnidirezionale o una raccolta di telecamere. Sono supportati sia set per video singolo che set per video adattivi. Il visualizzatore supporta anche l’utilizzo di video progressivi e flussi HLS in hosting su posizioni esterne.
 
-Le proporzioni consigliate per i video 360 sono 2:1. Audio spaziale non supportato. Il visualizzatore è progettato per funzionare solo con video 360; un tentativo di riprodurre un video non 360 genera una riproduzione video distorta.
+Le proporzioni consigliate per il video 360 sono 2:1. Audio spaziale non supportato. Il visualizzatore è progettato per funzionare solo con video 360; un tentativo di riprodurre un video non 360 genera una riproduzione video distorta.
 
 Il visualizzatore è progettato per funzionare sia su browser Web desktop che mobili che supportano video HTML5. Il visualizzatore supporta strumenti opzionali per la condivisione tramite social network.
 
-Il Visualizzatore video360 utilizza la riproduzione video in streaming HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
+Il Visualizzatore video360 utilizza la riproduzione video in streaming HTML5 in formato HLS nella configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming su HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
 
 Il tipo di visualizzatore è 517.
 
@@ -36,7 +36,7 @@ Consulta [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md
 
 ## Utilizzo di Video360 Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-HTML5 Video360 Viewer rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK HTML5 Viewer utilizzati da questo visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
+HTML5 Video360 Viewer rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore HTML5 utilizzati da questo visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 HTML5 Video360 Viewer può essere utilizzato sia in modalità popup utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers che in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -54,7 +54,7 @@ Tuttavia, è importante notare che per trasmettere un video codificato con tali 
 
 ## Interazione con il visualizzatore Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Il visualizzatore HTML5 Video360 fornisce un set di controlli standard dell’interfaccia utente per la riproduzione video, come il pulsante di riproduzione/pausa, la bolla temporale del video di scorrimento, l’indicatore del tempo totale/tempo di riproduzione, il controllo del volume e il pulsante a schermo intero. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell’interfaccia utente del visualizzatore.
+Il visualizzatore HTML5 Video360 fornisce un set di controlli standard dell&#39;interfaccia utente per la riproduzione video, come il pulsante di riproduzione/pausa, la bolla temporale del video di scorrimento, l&#39;indicatore del tempo totale/tempo di riproduzione, il controllo del volume e il pulsante a schermo intero. Tutti questi controlli sono raggruppati in una barra di controllo nella parte inferiore dell’interfaccia utente del visualizzatore.
 
 Sui dispositivi touch, il controllo del volume è nascosto dall&#39;interfaccia utente, perché è possibile controllare il volume solo utilizzando i pulsanti hardware del dispositivo.
 
@@ -143,7 +143,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -166,7 +166,7 @@ Il percorso relativo è simile al seguente:
 
    È possibile impostare la dimensione statica per il visualizzatore dichiarandolo per la classe CSS di primo livello `.s7video360viewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
-   È possibile inserire il ridimensionamento nel CSS direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record predefinito visualizzatore in Adobe Experience Manager Assets - On-demand o passato esplicitamente utilizzando il comando `style`.
+   È possibile inserire il ridimensionamento in CSS direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in Adobe Experience Manager Assets - On-demand o passato esplicitamente utilizzando il comando `style`.
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 

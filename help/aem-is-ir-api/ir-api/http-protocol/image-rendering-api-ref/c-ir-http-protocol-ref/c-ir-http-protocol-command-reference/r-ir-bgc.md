@@ -27,7 +27,7 @@ Colore di sfondo. Specifica il colore di sottrazione per le texture e le decalco
 
 L&#39;algoritmo di colorizzazione della texture di Image Rendering è semplice: i valori dei componenti di `bgc=` vengono sottratti dai valori dei pixel della texture; viene aggiunto `color=` e infine il risultato viene ritagliato su `0,0,0` e `255,255,255`.
 
-Per gli usi tipici della colorizzazione delle texture, il valore per `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Dynamic Medie Image Authoring fornisce strumenti semi-automatici che estraggono ragionevoli valori di colore `bgc=` dalle immagini delle texture.
+Per gli usi tipici della colorizzazione delle texture, il valore per `bgc=` potrebbe essere il colore più importante o dominante nell&#39;immagine della texture. Dynamic Media Image Authoring fornisce strumenti semi-automatici che estraggono ragionevoli valori di colore `bgc=` dalle immagini delle texture.
 
 Quando un materiale di trama viene applicato a un oggetto di vignettatura non testurizzabile, `bgc=` viene applicato come colore di primo piano se `color=` non è specificato.
 
@@ -41,7 +41,7 @@ Attributo materiale. Ignorato dal colore a tinta unita e dai materiali dei cabin
 
 ## Esempio {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Colorare un tessuto di abbigliamento la cui texture ha il colore RGB dominante 120,34,193:
+Colorare un tessuto di abbigliamento la cui texture ha il colore dominante RGB 120,34,193:
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

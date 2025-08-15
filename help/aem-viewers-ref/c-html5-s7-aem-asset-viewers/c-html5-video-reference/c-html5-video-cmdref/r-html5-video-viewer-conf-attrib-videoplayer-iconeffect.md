@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra il video quando questo viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tal caso, il modificatore iconeffect</span> di <span class="codeph"> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra il video quando questo viene messo in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In tal caso, il modificatore iconeffect<span class="codeph"> di </span> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> conteggio</span> </span> </p> </td> 

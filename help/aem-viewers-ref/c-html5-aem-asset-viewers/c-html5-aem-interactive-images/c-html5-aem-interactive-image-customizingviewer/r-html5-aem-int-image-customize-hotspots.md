@@ -1,6 +1,6 @@
 ---
 title: Punti attivi
-description: Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Medie di AEM Assets - on-demand.
+description: Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui tali punti sono stati creati originariamente in Dynamic Media di AEM Assets, on-demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Punti attivi{#hotspots}
 
-Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Medie di AEM Assets - on-demand.
+Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui tali punti sono stati creati originariamente in Dynamic Media di AEM Assets, on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

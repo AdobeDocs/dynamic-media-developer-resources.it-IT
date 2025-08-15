@@ -18,7 +18,7 @@ Impostazioni di rendering avanzate predefinite. Predefinito per `catalog::Render
 
 ## Proprietà {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Stringa di testo. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con Strumento di authoring vignettatura (parte del pacchetto di authoring immagini di Dynamic Medie).
+Stringa di testo. Se è specificato, deve essere una stringa di impostazioni di rendering valida, come definita con lo strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Media).
 
 ## Predefinito {#section-4e76784aeecd4f09a33124aded7406cb}
 

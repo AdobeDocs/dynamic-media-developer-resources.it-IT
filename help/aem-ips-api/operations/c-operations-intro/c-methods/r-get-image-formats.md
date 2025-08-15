@@ -1,5 +1,5 @@
 ---
-description: Restituisce i formati immagine, ad esempio PDF, EPS, SWF e altri.
+description: Restituisce i formati di immagine, ad esempio PDF, EPS, SWF e altri.
 solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # getImageFormats{#getimageformats}
 
-Restituisce i formati immagine, ad esempio PDF, EPS, SWF e altri.
+Restituisce i formati di immagine, ad esempio PDF, EPS, SWF e altri.
 
 Sintassi
 

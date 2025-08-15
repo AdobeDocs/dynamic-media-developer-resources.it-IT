@@ -47,7 +47,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 });
 ```
 
-Il visualizzatore tiene traccia dei seguenti eventi utente SDK:
+Il visualizzatore tiene traccia dei seguenti eventi utente di SDK:
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 

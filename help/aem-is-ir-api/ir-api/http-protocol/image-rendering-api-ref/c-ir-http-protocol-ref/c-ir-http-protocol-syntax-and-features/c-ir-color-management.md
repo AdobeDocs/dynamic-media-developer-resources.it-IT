@@ -46,11 +46,11 @@ Tutte le operazioni di rendering vengono eseguite nello spazio colore di lavoro.
 
 ## Valori colore espliciti {#section-31727bf1b23e477ca92572fbbf422d2f}
 
-Si presume che i valori dei colori RGB specificati con `color=`, `bgc=`, `catalog::BgColor` e `catalog::Color` siano presenti nello spazio colore di lavoro corrente.
+Si presume che i valori dei colori di RGB specificati con `color=`, `bgc=`, `catalog::BgColor` e `catalog::Color` siano presenti nello spazio colore di lavoro corrente.
 
 ## File di dati dei materiali {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-I file di immagine di materiale (immagini di texture e decalcomanie) possono avere un tipo di pixel RGB, in scala di grigi o CMYK e possono incorporare un profilo colore. Se non è incorporato alcun profilo colore, all&#39;immagine viene associato lo spazio colore di input predefinito, ad esempio il profilo colore del catalogo dei materiali che corrisponde al tipo di pixel dell&#39;immagine.
+I file di immagine di materiale (immagini di texture e decalcomanie) possono avere pixel RGB, in scala di grigi o CMYK e possono incorporare un profilo colore. Se non è incorporato alcun profilo colore, all&#39;immagine viene associato lo spazio colore di input predefinito, ad esempio il profilo colore del catalogo dei materiali che corrisponde al tipo di pixel dell&#39;immagine.
 
 Le immagini di materiale ottenute da richieste di Image Server o Image Rendering nidificate in genere includono un profilo colore. In caso contrario, le immagini vengono associate allo spazio colore di input predefinito corrispondente al tipo di pixel.
 

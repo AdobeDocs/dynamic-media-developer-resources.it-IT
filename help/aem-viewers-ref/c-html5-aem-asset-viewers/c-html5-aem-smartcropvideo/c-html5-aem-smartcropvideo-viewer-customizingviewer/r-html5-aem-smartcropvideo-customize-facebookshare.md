@@ -1,6 +1,6 @@
 ---
-title: Condivisione facebook
-description: Lo strumento Condivisione di facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
+title: Condivisione Facebook
+description: Lo strumento di condivisione di Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Condivisione facebook{#facebook-share}
+# Condivisione Facebook{#facebook-share}
 
-Lo strumento Condivisione di facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
+Lo strumento di condivisione di Facebook è costituito da un pulsante aggiunto al pannello Condivisione social. Quando il pulsante è selezionato, l’utente viene reindirizzato a una finestra di dialogo di condivisione fornita da un servizio social. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -24,7 +24,7 @@ L’aspetto del pulsante di condivisione Facebook è controllato dal seguente se
 .s7smartcropvideoviewer .s7facebookshare
 ```
 
-**Proprietà CSS dello strumento condivisione Facebook**
+**Proprietà CSS dello strumento condivisione di Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,7 +55,7 @@ L’aspetto del pulsante di condivisione Facebook è controllato dal seguente se
 
 La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
-Esempio: per impostare un pulsante di condivisione Facebook di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
+Esempio: per impostare un pulsante di condivisione di Facebook di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7smartcropvideoviewer .s7facebookshare { 

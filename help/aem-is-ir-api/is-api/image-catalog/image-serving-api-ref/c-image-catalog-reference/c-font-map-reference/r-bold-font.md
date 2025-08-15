@@ -1,5 +1,5 @@
 ---
-description: Flag di fronte all'albero. Specifica se utilizzare il file di font a cui fa riferimento il record mappa font quando richiesto dal comando RTF boldface (b).
+description: Flag di fronte all'albero. Specifica se utilizzare il file di font a cui fa riferimento il record mappa font quando richiesto dal comando RTF boldface (\b).
 solution: Experience Manager
 title: Bold
 feature: Dynamic Media Classic,SDK/API

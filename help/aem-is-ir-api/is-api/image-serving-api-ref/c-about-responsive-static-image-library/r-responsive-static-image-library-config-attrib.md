@@ -72,7 +72,7 @@ Più comandi Image Server o nomi di predefiniti immagine sono separati con il ca
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Le due modalità di ritaglio avanzato seguenti sono disponibili in AEM 6.4 e versioni successive e in Dynamic Medie Viewers 5.9 e versioni successive:
+In AEM 6.4 e versioni successive e in Dynamic Media Viewers 5.9 e versioni successive sono disponibili le due seguenti modalità di ritaglio avanzato:
 
 * **Manuale**: i punti di interruzione definiti dall&#39;utente e i comandi del servizio immagini corrispondenti sono definiti all&#39;interno di un attributo nell&#39;elemento immagine.
 * **Ritaglio avanzato** - le rappresentazioni di ritaglio avanzato calcolate vengono recuperate automaticamente dal server di consegna. La rappresentazione migliore viene selezionata utilizzando le dimensioni di runtime dell’elemento immagine.

@@ -24,7 +24,7 @@ Il tipo di visualizzatore è 511.
 
 ## URL demo {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 
 ## Requisiti di sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -32,7 +32,7 @@ Consulta [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md
 
 ## Utilizzo del visualizzatore carosello {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore carosello rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il visualizzatore carosello rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 Il visualizzatore carosello può essere utilizzato sia in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i visualizzatori IS, sia in modalità incorporata dove è integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -111,7 +111,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -230,7 +230,7 @@ L’aggiunta del visualizzatore a tale pagina è simile alla procedura per l’i
 1. Definizione del contenitore `DIV`.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungere il contenitore `DIV` all&#39;elemento `DIV` `"holder"` esistente. Il codice seguente è un esempio completo. Osserva come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungere il contenitore `DIV` all&#39;elemento `"holder"` `DIV` esistente. Il codice seguente è un esempio completo. Osserva come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 La pagina di esempi seguente illustra usi più reali dell’incorporamento di design responsive con altezza illimitata:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Dimensione flessibile incorporata con larghezza e altezza definite**
 

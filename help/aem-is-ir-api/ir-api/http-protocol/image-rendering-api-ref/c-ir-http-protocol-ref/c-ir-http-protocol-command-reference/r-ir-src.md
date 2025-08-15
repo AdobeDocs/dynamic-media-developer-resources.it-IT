@@ -33,7 +33,7 @@ File di materiale. Specifica i dati dei materiali, sotto forma di un singolo rif
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -91,9 +91,9 @@ Se *`catId`* non è specificato, viene utilizzato il catalogo di sessione.
 
 ## Formati di file supportati {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Medie Image Server.
+Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Media Image Server.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Scene7 pyramid TIFF (PTIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato multi-risoluzione PTIFF (Scene7 pyramid TIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility IC nella documentazione di Image Server.
 

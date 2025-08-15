@@ -33,7 +33,7 @@ Utilizzato solo se `fmt=jpg`. Ignorato altrimenti
 
 Valori di qualità maggiori producono file di dimensione e qualità maggiore, mentre a valori di qualità inferiori corrispondono file di dimensioni inferiori e una qualità immagine percepita inferiore. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
 
-Impostare il flag `chroma` per disattivare il downsampling della cromaticità RGB utilizzato dai tipici codificatori JPEG. Questo può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità piuttosto che di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
+Impostare il flag `chroma` per disattivare il downsampling della cromaticità RGB utilizzato dai tipici encoder JPEG. Questo può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità piuttosto che di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
 
 `chroma` viene ignorato se il tipo di pixel di output è CMYK o grigio.
 

@@ -68,7 +68,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 

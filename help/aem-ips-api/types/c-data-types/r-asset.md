@@ -46,7 +46,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -71,12 +71,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -181,22 +181,22 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -261,7 +261,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> <p>Proprietà di una risorsa video. </p> </td> 
   </tr> 
   <tr> 
@@ -291,7 +291,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Sintassi
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> Frase codice </span> di <span class="codeph"> </td> 
+   <td colname="col2"> Frase codice <span class="codeph"> di </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

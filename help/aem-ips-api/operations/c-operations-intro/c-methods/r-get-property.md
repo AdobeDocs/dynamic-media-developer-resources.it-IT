@@ -23,7 +23,7 @@ Le proprietà di sistema supportate includono:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: prefisso URL per il rendering delle risorse SVG.
-* `SvgRenderEnabled`: True se le risorse SVG possono essere sottoposte a rendering da `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True se è possibile eseguire il rendering delle risorse SVG da `SvgRenderRootUrl`.
 
 * `UploadPostMaxFileSize`: dimensione massima (in byte) dei dati del file consentita in un caricamento [!DNL POST]. Il sistema rifiuta i file superiori al limite massimo.
 

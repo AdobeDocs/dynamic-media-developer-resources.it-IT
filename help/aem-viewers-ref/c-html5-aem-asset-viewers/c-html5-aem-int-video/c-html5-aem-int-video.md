@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Interactive Video Viewer è un lettore video che riproduce video in streaming e progressivi codificati nel formato H.264.
 
-Il visualizzatore mostra anche campioni di prodotto interattivi accanto al contenuto video. Sono supportati sia set per video singolo che set per video adattivi. È progettato per funzionare sia su browser Web desktop che mobili che supportano video HTML5. Il visualizzatore supporta i sottotitoli facoltativi visualizzati sopra al contenuto video, alla navigazione dei capitoli video e agli strumenti di condivisione per social network. Lo scopo di questo visualizzatore è quello di aiutarti a implementare un’esperienza &quot;video acquistabile&quot;. In altre parole, gli utenti possono selezionare un campione associato a una particolare area temporale video e venire reindirizzati a una pagina Quickview o a una pagina dei dettagli del prodotto sul sito web del cliente.
+Il visualizzatore mostra anche campioni di prodotto interattivi accanto al contenuto video. Sono supportati sia set per video singolo che set per video adattivi. È progettato per funzionare su browser Web desktop e mobili che supportano video HTML5. Il visualizzatore supporta i sottotitoli facoltativi visualizzati sopra al contenuto video, alla navigazione dei capitoli video e agli strumenti di condivisione per social network. Lo scopo di questo visualizzatore è quello di aiutarti a implementare un’esperienza &quot;video acquistabile&quot;. In altre parole, gli utenti possono selezionare un campione associato a una particolare area temporale video e venire reindirizzati a una pagina Quickview o a una pagina dei dettagli del prodotto sul sito web del cliente.
 
 Il tipo di visualizzatore è 510.
 
 ## URL demo {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
 E
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
 ## Requisiti di sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -34,9 +34,9 @@ Consulta [Requisiti di sistema](../../c-system-requirements-and-prerequisites.md
 
 ## Utilizzo del Visualizzatore video interattivo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Visualizzatore video interattivo rappresenta un file JavaScript principale e un set di file di supporto scaricati dal visualizzatore in fase di esecuzione. Un singolo JavaScript è incluso con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS.
+Visualizzatore video interattivo rappresenta un file JavaScript principale e un set di file di supporto scaricati dal visualizzatore in fase di esecuzione. Un singolo JavaScript è incluso con tutti i componenti del SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS.
 
-Il Visualizzatore video interattivo può essere utilizzato in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i Visualizzatori Image Server. Può essere utilizzato anche in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
+Il Visualizzatore video interattivo può essere utilizzato in modalità pop-up utilizzando la pagina HTML pronta per la produzione fornita con i Visualizzatori Image Server. Può essere utilizzato anche in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
 La configurazione e lo skin sono simili a quelli degli altri visualizzatori descritti in questa guida. Tutte le operazioni di skin vengono eseguite tramite CSS (Cascading Style Sheets) personalizzati.
 
@@ -103,7 +103,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -280,7 +280,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporamento reattivo con larghezza e altezza definite**
 

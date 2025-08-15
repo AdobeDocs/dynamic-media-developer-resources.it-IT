@@ -22,7 +22,7 @@ Utilizzare queste impostazioni del server per reindirizzare gli errori.
 
 ## PS::errorRedirect.rootUrl - Server di reindirizzamento {#section-85f22e48d68842a490b0e1191543b558}
 
-L&#39;URL radice ( HTTP:// *[!DNL domain]*[: *[!DNL port]*]) per la distribuzione secondaria di Image Server a cui devono essere reindirizzate le richieste che hanno esito negativo localmente. Errore di reindirizzamento disabilitato (impostazione predefinita) quando questa impostazione è vuota o non definita.
+L&#39;URL radice ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) per la distribuzione secondaria di Image Server a cui devono essere reindirizzate le richieste che hanno esito negativo localmente. Errore di reindirizzamento disabilitato (impostazione predefinita) quando questa impostazione è vuota o non definita.
 
 ## PS::errorRedirect.connectTimeout - Timeout connessione reindirizzamento {#section-3971be8f720d4b32a2cc7860b4085971}
 

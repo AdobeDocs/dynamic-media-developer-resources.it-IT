@@ -51,4 +51,4 @@ Imposta lo stato del contesto di pubblicazione di una risorsa con `setAssetsCont
 
 >[!MORELIKETHIS]
 >
->* [Stato Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Stato pubblicazione](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

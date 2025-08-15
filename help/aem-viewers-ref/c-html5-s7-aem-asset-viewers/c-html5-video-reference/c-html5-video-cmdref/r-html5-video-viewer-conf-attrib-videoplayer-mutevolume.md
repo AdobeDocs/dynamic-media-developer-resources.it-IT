@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.mutevolume
-description: Attributo di configurazione per Visualizzatore video.
+description: Attributo di configurazione per Video visualizzatore.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Attributo di configurazione per Visualizzatore video.
+Attributo di configurazione per Video visualizzatore.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ Attributo di configurazione per Visualizzatore video.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Imposta la modalità di disattivazione audio per la riproduzione video al caricamento iniziale. Se è impostato su <span class="codeph"> 1 </span>, il volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, la disattivazione dell’audio della riproduzione video al caricamento consente anche la riproduzione automatica del video. </p> </td> 
+   <td colname="col2"> <p> Imposta la modalità disattivata per la riproduzione video durante il caricamento iniziale. Se impostato su <span class="codeph"> 1 </span> , l'audio del volume viene disattivato; in caso contrario, il video viene riprodotto con l'audio. Su alcuni dispositivi, l'audio della riproduzione video durante il caricamento consente anche la riproduzione automatica del video. </p> </td> 
   </tr> 
  </tbody> 
 </table>

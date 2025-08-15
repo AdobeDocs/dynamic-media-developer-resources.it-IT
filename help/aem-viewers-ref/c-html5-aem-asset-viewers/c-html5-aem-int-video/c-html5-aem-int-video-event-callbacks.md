@@ -29,7 +29,7 @@ Gli eventi visualizzatore supportati includono:
    * Timestamp evento `timeStamp {Number}`.
    * Payload evento `eventInfo {String}`.
 
-* `quickViewActivate` - viene attivato quando un utente fa clic o tocca un campione interattivo all&#39;interno del componente campioni interattivi o nella schermata &quot;invito all&#39;azione&quot; mostrata alla fine della riproduzione video. Il gestore di callback accetta l’unico argomento che è un oggetto JSON con i campi seguenti:
+* `quickViewActivate` - viene attivato quando un utente fa clic o tocca un campione interattivo all&#39;interno del componente campioni interattivi o nella schermata &quot;call to action&quot; mostrata alla fine della riproduzione video. Il gestore di callback accetta l’unico argomento che è un oggetto JSON con i campi seguenti:
 
    * `sku` { `String`} valore SKU associato al campione interattivo.
    * `<additionalVariable>` { `String`} zero o più variabili aggiuntive associate al campione interattivo.

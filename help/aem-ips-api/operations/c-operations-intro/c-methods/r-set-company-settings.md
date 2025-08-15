@@ -36,8 +36,8 @@ Sintassi
 | keepPublishState | `xsd:boolean` | No | Imposta su `true` per mantenere lo stato di pubblicazione quando una risorsa viene ricaricata. |
 | defaultSourceProfileHandle | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore di origine predefinito. |
 | defaultDisplayProfileHandle | `xsd:string` | No | Risorsa IccProfile da utilizzare come profilo colore di visualizzazione predefinito. |
-| iptcExifMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per la mappatura dei metadati IPTC ed EXIF ai campi di metadati IPS. |
-| xmpMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati XMP ai campi di metadati IPS. |
+| iptcExifMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per la mappatura dei metadati IPTC ed EXIF su campi di metadati IPS. |
+| xmpMappingXsltHandle | `xsd:string` | No | Risorsa XSL utilizzata per mappare i metadati di XMP ai campi di metadati IPS. |
 | diskSpaceWarningMin | `xsd:int` | No | Spazio su disco disponibile minimo (in KB) prima dell&#39;invio di un messaggio di avviso. |
 | emailTrashCleanupWarning | `xsd:boolean` | No | Impostato su `true` per inviare agli amministratori della società una notifica ogni volta che le risorse vengono svuotate dal cestino. |
 

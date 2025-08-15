@@ -1,6 +1,6 @@
 ---
 title: Vignettature
-description: Le vignettature sono immagini create con Dynamic Medie Image Authoring e utilizzate con Image Rendering.
+description: Le vignettature sono immagini create con Dynamic Media Image Authoring e utilizzate con Image Rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vignettature{#vignettes}
 
-Le vignettature sono immagini create con Dynamic Medie Image Authoring e utilizzate con Image Rendering.
+Le vignettature sono immagini create con Dynamic Media Image Authoring e utilizzate con Image Rendering.
 
 IR supporta due tipi di vignettatura di base: *2D* e *3D*. Le scene delle stanze sono tipicamente vignettature 3D che possono riprodurre riflessi, mentre la maggior parte delle altre scene, come abbigliamento o tappezzeria, sono normalmente vignettature 2D che non hanno capacità di rendering dei riflessi.
 

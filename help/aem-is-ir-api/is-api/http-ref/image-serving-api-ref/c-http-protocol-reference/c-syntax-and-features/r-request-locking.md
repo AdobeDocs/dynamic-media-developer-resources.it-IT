@@ -20,7 +20,7 @@ Se è impostato l&#39;attributo::RequestLock, è necessario aggiungere un valore
 
 >[!IMPORTANT]
 >
->Se abiliti questa funzione, tieni presente che esistono alcune limitazioni al suo utilizzo che includono quanto segue:<br>- L&#39;interfaccia utente di Dynamic Medie potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, il flusso video HLS non funziona se sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.<br>- Al momento, alcuni visualizzatori Dynamic Medie non funzionano quando sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.
+>Se abiliti questa funzione, tieni presente che esistono alcune limitazioni al suo utilizzo che includono quanto segue:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, il flusso video HLS non funziona se sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.<br>- Attualmente, alcuni visualizzatori Dynamic Media non funzionano quando sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.
 
 Codice di esempio C++ per generare il valore di blocco della richiesta:
 

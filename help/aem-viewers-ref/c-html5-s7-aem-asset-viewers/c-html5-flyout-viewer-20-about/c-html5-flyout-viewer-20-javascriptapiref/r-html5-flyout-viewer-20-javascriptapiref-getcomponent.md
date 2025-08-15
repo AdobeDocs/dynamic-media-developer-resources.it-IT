@@ -28,7 +28,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatore </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome classe componente SDK visualizzatore </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -55,9 +55,9 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK corretto e completo, come descritto in [SDK visualizzatore](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605).
+Quando si utilizzano le API di SDK, è importante utilizzare uno spazio dei nomi SDK corretto e completo, come descritto in [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605).
 
-Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione API di Viewer SDK.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

@@ -1,6 +1,6 @@
 ---
 title: op_colorbalance
-description: Regola il bilanciamento del colore. Regola separatamente il valore di ciascun componente colore RGB.
+description: Regola il bilanciamento del colore. Regola separatamente il valore di ciascun componente colore di RGB.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # op_colorbalance{#op-colorbalance}
 
-Regola il bilanciamento del colore. Regola separatamente il valore di ciascun componente colore RGB.
+Regola il bilanciamento del colore. Regola separatamente il valore di ciascun componente colore di RGB.
 
 `op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
@@ -33,7 +33,7 @@ Regola il bilanciamento del colore. Regola separatamente il valore di ciascun co
  </tr> 
 </table>
 
-I dati delle immagini in entrata grigie e CMYK vengono convertiti in RGB con una conversione nativa, che non è accurata quando è abilitata la gestione del colore.
+I dati delle immagini in entrata grigie e CMYK vengono convertiti in RGB utilizzando la conversione nativa, che non è accurata quando è abilitata la gestione del colore.
 
 ## Proprietà {#section-dff9c934f7c1442bbd02379b688d82e2}
 

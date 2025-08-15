@@ -22,7 +22,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini che contiene le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia un comando <span class="codeph"> req=userdata </span> per il configId </span> <span class="codeph"> al server ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa dell'URL specifica le stesse proprietà, sostituiscono i valori del catalogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini che contiene le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia un comando <span class="codeph"> req=userdata </span> per il configId <span class="codeph"> </span> al server ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa dell'URL specifica le stesse proprietà, sostituiscono i valori del catalogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

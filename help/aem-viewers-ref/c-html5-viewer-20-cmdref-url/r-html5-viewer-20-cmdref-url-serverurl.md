@@ -22,7 +22,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Percorso root relativo o assoluto di Image Server. </p> <p> Specifica un percorso relativo o assoluto di Image Server da cui il visualizzatore recupera le immagini. Se il percorso non ha un <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina di HTML del visualizzatore. Se il percorso contiene un <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Se nel visualizzatore è abilitato il modulo di condivisione e-mail, utilizza solo un percorso assoluto. </p> </td> 
+   <td colname="col2"> <p>Percorso root relativo o assoluto di Image Server. </p> <p> Specifica un percorso relativo o assoluto di Image Server da cui il visualizzatore recupera le immagini. Se il percorso non ha un <span class="filepath"> /</span> iniziale, è relativo alla posizione della pagina HTML del visualizzatore. Se il percorso contiene un <span class="filepath"> /</span> iniziale, specifica un percorso assoluto sullo stesso server. </p> <p> Se nel visualizzatore è abilitato il modulo di condivisione e-mail, utilizza solo un percorso assoluto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -26,6 +26,6 @@ Le voci della cache non sono più valide e sono soggette a rigenerazione quando 
 
 >[!NOTE]
 >
->Le immagini di Dynamic Medie pyramid TIFF (PTIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
+>Le immagini PTIFF (Dynamic Media pyramid TIFF) mantengono la data del file internamente nell’intestazione del file a scopo di convalida. Il tempo di modifica del file gestito dal file system viene utilizzato per verificare se un file non PTIFF è stato modificato.
 
 Solo i file di immagine partecipano al processo di convalida della cache. Le modifiche apportate ai file di font o ai file di profilo ICC non causano l&#39;annullamento automatico della validità delle voci della cache.

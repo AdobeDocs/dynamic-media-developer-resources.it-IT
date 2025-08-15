@@ -32,7 +32,7 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> elementi</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Elenco separato da virgole di parole chiave che vengono unite nel nodo delle proprietà XMP <span class="codeph"> dc:subject=</span>. Se una virgola appare in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
+   <td colname="col3"> <p>Elenco separato da virgole di parole chiave che vengono unite nel nodo delle proprietà di XMP <span class="codeph"> dc:subject=</span>. Se una virgola appare in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

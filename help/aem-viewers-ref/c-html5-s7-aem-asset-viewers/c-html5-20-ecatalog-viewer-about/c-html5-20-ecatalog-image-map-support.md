@@ -42,7 +42,7 @@ Verificare infine che la configurazione del visualizzatore includa i valori appr
 
 >[!NOTE]
 >
->Quando si configura il popup del pannello Info, il codice HTML e il codice JavaScript passato al pannello Info vengono eseguiti sul computer del client. Assicurati pertanto che tale codice HTML e il codice JavaScript siano protetti.
+>Quando si configura Info Panel Popup, il codice HTML e il codice JavaScript passato al Pannello informazioni vengono eseguiti sul computer del client. Di conseguenza, assicurati che tale codice HTML e il codice JavaScript siano protetti.
 
 ## Collegamenti ipertestuali interni {#section-6afa4fb2fe564c429e0201f019a95849}
 

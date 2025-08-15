@@ -20,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica l'URL di base per il servizio e-mail Dynamic Medie OnDemand. </p> </td> 
+   <td colname="col2"> <p> Specifica l’URL di base del servizio e-mail di Dynamic Media OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

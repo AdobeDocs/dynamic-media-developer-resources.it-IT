@@ -1,5 +1,5 @@
 ---
-description: Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Medie.
+description: Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ImageSet{#imageset}
 
-Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Medie.
+Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
 
 Un set di immagini è costituito da un elenco di elementi ordinato, separato da virgole. Ogni elemento è costituito da uno o più elementi secondari (ID immagine, ID campione, percorsi di file multimediali, etichette e così via), separati da punti e virgola, due punti o entrambi.
 

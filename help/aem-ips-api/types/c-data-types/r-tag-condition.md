@@ -1,5 +1,5 @@
 ---
-description: Definisce le condizioni di ricerca per i campi tag.
+description: Definisce ricerca condizioni per tag campi.
 solution: Experience Manager
 title: TagCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL TagCondition]{#tagcondition}
 
-Definisce le condizioni di ricerca per i campi tag.
+Definisce ricerca condizioni per tag campi.
 
 Sintassi
 
@@ -30,27 +30,27 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle campo tag. </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Gestione</span> campo </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
+   <td colname="col3"> Handle del campo tag. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Dipende dal tipo di campo tag e dall’utilizzo del campo value o valueArray. 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Op</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
+   <td colname="col3">Dipende dal tipo di campo tag e dall'utilizzo del campo value o valueArray. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se viene passato il valore <span class="codeph"></span>, <span class="codeph"> op</span> deve essere la costante di stringa Matches. La condizione corrisponde a qualsiasi risorsa associata al valore del tag. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> valueArray</span> viene passato, il campo op può essere la costante <span class="codeph"> MatchesAny</span> per i campi tag singoli o multivalore. Una condizione <span class="codeph"> MatchesAny</span> corrisponde a qualsiasi risorsa associata ad almeno uno dei valori di tag in <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Per i campi tag con più valori, il campo op può essere impostato sulla costante <span class="codeph"> MatchesAll</span> con il campo valueArray</span> di <span class="codeph">. In questo caso, la condizione corrisponde solo alle risorse associate a tutti i valori di tag in <span class="codeph"> valueArray</span> (probabilmente in aggiunta ad altri valori di tag). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se <span class="codeph"> il valore</span> viene passato, <span class="codeph"> op</span> deve essere la costante di stringa Corrispondenze. La condizione corrisponde a qualsiasi risorsa associato al valore tag. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> viene passato valueArray</span> , il campo op può essere la costante <span class="codeph"> MatchesAny</span> per i campi tag a valore singolo o multivalore. Una <span class="codeph"> condizione MatchesAny</span> corrisponde a qualsiasi risorsa associato ad almeno uno dei valori tag in <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Per i campi tag multivalore, il campo op può essere impostato sulla costante <span class="codeph"> MatchesAll</span> con il <span class="codeph"> campo valueArray</span> . In questo caso, la condizione corrisponde solo ai risorse associati a tutti i valori tag in <span class="codeph"> valueArray</span> (possibilmente in aggiunta ad altri valori tag). </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> valore</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> valore</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
    <td colname="col3"> Un valore corrispondente. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> valueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> Più valori corrispondenti. </td> 
   </tr> 

@@ -1,7 +1,7 @@
 ---
 description: Sono supportati i seguenti comandi di formattazione dei paragrafi.
 solution: Experience Manager
-title: Formattazione paragrafo
+title: Formattazione dei paragrafi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Formattazione paragrafo{#paragraph-formatting}
+# Formattazione dei paragrafi{#paragraph-formatting}
 
 Sono supportati i seguenti comandi di formattazione dei paragrafi.
 
@@ -26,9 +26,9 @@ Sono supportati i seguenti comandi di formattazione dei paragrafi.
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \pard </span> </td> 
-   <td> <p>Ripristina la formattazione predefinita del paragrafo. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= Solo </span> </p> </td> 
+   <td> <span class="codeph"> \Pard </span> </td> 
+   <td> <p>Reimposta predefinita la formattazione del paragrafo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ql </span> </td> 
@@ -52,23 +52,23 @@ Sono supportati i seguenti comandi di formattazione dei paragrafi.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastql </span> </td> 
-   <td> <p>Allinea a sinistra l'ultima riga di un paragrafo. </p> </td> 
-   <td> <p>Impostazione predefinita; <span class="codeph"> solo textPs= </span>; ignorato se <span class="codeph"> \qj </span> non è attivo. </p> </td> 
+   <td> <p>Allineare a sinistra l'ultima riga di un paragrafo. </p> </td> 
+   <td> <p>Default; <span class="codeph"> textPs= </span> only; ignorato se <span class="codeph"> \qj </span>non è attivo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr </span> </td> 
-   <td> <p>Allinea a destra l'ultima riga di un paragrafo giustificato. </p> </td> 
-   <td> <p> <span class="codeph"> solo textPs= </span>; ignorato se <span class="codeph"> \qj </span> non è attivo. </p> </td> 
+   <td> <p>Allineare a destra l'ultima riga di un paragrafo giustificato. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only; ignorato se <span class="codeph"> \qj </span> non è attivo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqc </span> </td> 
    <td> <p>Centra l'ultima riga di un paragrafo giustificato. </p> </td> 
-   <td> <p> <span class="codeph"> solo textPs= </span>; ignorato se <span class="codeph"> \qj </span> non è attivo. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only; ignorato se <span class="codeph"> \qj </span>non è attivo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj </span> </td> 
-   <td> <p>Sostenere (estendere) l'ultima riga di un paragrafo giustificato. </p> </td> 
-   <td> <p> <span class="codeph"> solo textPs= </span>; ignorato se <span class="codeph"> \qj </span> non è attivo. </p> </td> 
+   <td> <p>Sustificare (allungare) l'ultima riga di un paragrafo giustificato. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only; ignorato se <span class="codeph"> \qj </span>non è attivo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi <span class="varname"> N </span> </span> </td> 
@@ -78,7 +78,7 @@ Sono supportati i seguenti comandi di formattazione dei paragrafi.
   <tr> 
    <td> <span class="codeph"> \li <span class="varname"> N </span> </span> </td> 
    <td> <p>Rientro sinistro. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= solo </span>. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> textPs= </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ri <span class="varname"> N </span> </span> </td> 
@@ -88,16 +88,16 @@ Sono supportati i seguenti comandi di formattazione dei paragrafi.
   <tr> 
    <td> <span class="codeph"> \sl <span class="varname"> N </span> </span> </td> 
    <td> <p>Spazio tra le righe. </p> </td> 
-   <td> <p>0 (valore di default) per l'interlinea automatica; i valori positivi utilizzano solo il valore se maggiore dell'interlinea di default; il valore negativo forza l'interlinea. </p> </td> 
+   <td> <p>0 (predefinito) per l'interlinea automatico; valori positivi per utilizzare il valore solo se maggiore dell'interlinea predefinita; Valore negativo per forzare la spaziatura. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult <span class="varname"> N </span> </span> </td> 
-   <td> <p>Interlinea con più flag. </p> </td> 
-   <td> <p>Impostare su 0 (valore predefinito) se <span class="codeph"> \sl </span> è in twip, su 1 se <span class="codeph"> \sl </span> è in multipli della spaziatura predefinita. </p> </td> 
+   <td> <p>Interlinea per più contrassegno. </p> </td> 
+   <td> <p>Imposta su 0 (valore predefinito) se <span class="codeph"> \sl </span> è in twips, su 1 se <span class="codeph"> \sl </span> è in multipli della spaziatura predefinita. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sb <span class="varname"> N </span> </span> </td> 
-   <td> <p>Spazio aggiuntivo prima del paragrafo. </p> </td> 
+   <td> <p>Spazio extra prima del paragrafo. </p> </td> 
    <td> <p>Twips; <span class="codeph"> testo= </span>applica <span class="codeph"> \sb </span> al primo paragrafo della casella di testo, <span class="codeph"> textPs= </span> no. </p> </td> 
   </tr> 
   <tr> 

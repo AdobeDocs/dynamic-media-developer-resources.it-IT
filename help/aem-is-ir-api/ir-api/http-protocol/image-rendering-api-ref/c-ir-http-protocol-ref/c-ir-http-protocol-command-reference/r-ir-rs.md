@@ -25,7 +25,7 @@ Impostazioni di rendering avanzate. Specifica le impostazioni di rendering avanz
  </tr> 
 </table>
 
-Utilizzato per ottimizzare l&#39;aspetto del rendering. Per creare stringhe di impostazioni di rendering, utilizzate la funzione di rendering dello strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Medie).
+Utilizzato per ottimizzare l&#39;aspetto del rendering. Per creare stringhe di impostazioni di rendering, utilizza la funzione di rendering dello strumento di authoring vignettatura (parte del pacchetto di authoring di immagini Dynamic Media).
 
 ## Proprietà {#section-9a2b2228789046658cb80eddf343af75}
 

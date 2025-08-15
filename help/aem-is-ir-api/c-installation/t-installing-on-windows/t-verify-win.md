@@ -1,6 +1,6 @@
 ---
 title: Verifica dell'installazione
-description: Dopo aver installato Dynamic Medie Image Server, è necessario verificare l'installazione.
+description: Dopo aver installato Dynamic Media Image Server, è necessario verificare l’installazione.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Verifica dell&#39;installazione {#verifying-the-installation}
 
-Dopo aver installato Dynamic Medie Image Server, è necessario verificare l&#39;installazione.
+Dopo aver installato Dynamic Media Image Server, è necessario verificare l’installazione.
 
 Il server immagini viene installato come servizio Windows.
 
@@ -23,7 +23,7 @@ Il server immagini viene installato come servizio Windows.
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 Verificare la presenza di &quot;`imageServer.`&quot; elementi nella risposta, che indicano che il server immagini è in ascolto.
 >Puoi eseguire ulteriori verifiche utilizzando le pagine di esempio dei pacchetti Documentazione e Demo, se installati.

@@ -1,5 +1,5 @@
 ---
-description: Percorsi dei file di dati SVG. Specifica i file contenenti i dati SVG per questo catalogo.
+description: Percorsi dei file di dati di SVG. Specifica i file contenenti i dati SVG per questo catalogo.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-Percorsi dei file di dati SVG. Specifica i file contenenti i dati SVG per questo catalogo.
+Percorsi dei file di dati di SVG. Specifica i file contenenti i dati SVG per questo catalogo.
 
-I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell’ordine esatto specificato. Se lo stesso valore `catalog::Id` si trova in più record (nello stesso file di catalogo immagine o SVG), prevale l&#39;ultima istanza.
+I file di dati SVG vengono caricati dopo tutti i file di dati immagine, nell’ordine esatto specificato. Se lo stesso valore `catalog::Id` si trova in più record (nella stessa immagine o in file di catalogo SVG), prevale l&#39;ultima istanza.
 
 ## Proprietà {#section-fc2d549f76474792837b2b92ec2087ea}
 

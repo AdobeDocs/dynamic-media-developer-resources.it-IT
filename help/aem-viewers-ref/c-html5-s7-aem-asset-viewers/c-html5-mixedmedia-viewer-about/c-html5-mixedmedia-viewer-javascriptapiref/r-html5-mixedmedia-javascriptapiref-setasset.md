@@ -36,7 +36,7 @@ Se non viene specificato, il pulsante della didascalia non è visibile nell&#39;
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatore </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome classe componente SDK visualizzatore </p> </th> 
   </tr> 
  </thead>
  <tbody> 

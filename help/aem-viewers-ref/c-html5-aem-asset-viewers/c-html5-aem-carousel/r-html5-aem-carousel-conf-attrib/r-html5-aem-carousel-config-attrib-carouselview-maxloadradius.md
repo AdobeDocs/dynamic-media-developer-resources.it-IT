@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # CarouselView.maxloadradius{#carouselview-maxloadradius}
 
-` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`preloadnbr`*`
+` [CarouselView.|<containerId>_carouselView.]maxloadradius=-1|0| *`precaricamentoNBR`*`
 
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Specifica il comportamento di precaricamento del componente. </p> <p>Se è impostato su <span class="codeph"> -1</span>, il componente precarica tutti i fotogrammi del carosello quando si trova nello stato inattivo. </p> <p>Se è impostato su <span class="codeph"> 0</span>, il componente carica solo il frame attualmente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>definisce quanti fotogrammi invisibili attorno al fotogramma visualizzato vengono precaricati quando si trova nello stato inattivo. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> precaricamentoNBR</span></span> </p> </td> 
+   <td> <p>Specifica il comportamento di precaricamento dei componenti. </p> <p>Se impostato su <span class="codeph"> -1</span> , il componente precarica tutti i frame del carosello quando è inattivo. </p> <p>Se impostato su <span class="codeph"> 0</span> , il componente carica solo il fotogramma attualmente visibile, precedente e successivo. </p> <p><span class="codeph"><span class="varname"> PreloadNBR</span></span>definisce quanti fotogrammi invisibili attorno al fotogramma attualmente visualizzato vengono precaricati quando si è in uno stato di inattività. </p> </td> 
   </tr> 
  </tbody> 
 </table>

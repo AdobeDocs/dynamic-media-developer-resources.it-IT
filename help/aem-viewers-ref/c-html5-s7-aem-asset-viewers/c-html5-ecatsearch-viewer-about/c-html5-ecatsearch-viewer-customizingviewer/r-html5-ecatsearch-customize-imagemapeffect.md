@@ -103,7 +103,7 @@ L’aspetto dell’area della mappa immagine è controllato dal seguente seletto
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
-   <td colname="col2"> <p> Stile bordo area mappa immagine. </p> <p>Specificato come <span class="codeph"> <span class="varname"> larghezza </span> solido <span class="varname"> colore </span> </span>, dove <span class="codeph"> <span class="varname"> larghezza </span> </span> è espresso in pixel e <span class="codeph"> <span class="varname"> colore </span> </span> è impostato come #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Stile bordo area mappa immagine. </p> <p>Specificato come <span class="codeph"> <span class="varname"> larghezza </span> solido <span class="varname"> colore </span> </span>, dove <span class="codeph"> larghezza <span class="varname"> larghezza </span> </span> è espresso in pixel e <span class="codeph"> colore <span class="varname"> colore </span> </span> è impostato come #RRGGBB, RGB(R,G,B) o RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>

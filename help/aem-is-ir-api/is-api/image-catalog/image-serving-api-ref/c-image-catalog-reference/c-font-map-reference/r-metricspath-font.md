@@ -16,11 +16,11 @@ ht-degree: 2%
 
 Percorso del file delle metriche dei font. Percorso e nome di un file di metriche dei caratteri, incluso il suffisso file.
 
-Utilizzato per i font Adobe Type 1. Se non viene specificato, il server tenta di trovare un file di metriche dei caratteri nella stessa cartella in cui si trova il file dei caratteri principale. Si verifica un errore se non è possibile trovare un file di metriche dei caratteri richiesto al momento del rendering.
+Utilizzato per i font di Adobe Type 1. Se non viene specificato, il server tenta di trovare un file di metriche dei caratteri nella stessa cartella in cui si trova il file dei caratteri principale. Si verifica un errore se non è possibile trovare un file di metriche dei caratteri richiesto al momento del rendering.
 
 ## Proprietà {#section-955268c581574875b05253d9e14544f3}
 
-Stringa di testo. Facoltativo per i file Adobe Type 1. Deve essere vuoto o un percorso di file del server immagini valido, assoluto o relativo a `attribute::RootPath`.
+Stringa di testo. Facoltativo per i file di Adobe Type 1. Deve essere vuoto o un percorso di file del server immagini valido, assoluto o relativo a `attribute::RootPath`.
 
 ## Predefinito {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

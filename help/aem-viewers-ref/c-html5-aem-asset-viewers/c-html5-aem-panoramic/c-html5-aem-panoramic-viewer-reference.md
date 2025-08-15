@@ -1,6 +1,6 @@
 ---
 title: Visualizzatore panoramico
-description: Visualizzatore panoramico di HTML5 è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta l'auto-panning e la panning con movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione realtà virtuale è disponibile sul supporto di dispositivi mobili.
+description: Visualizzatore panoramico di HTML5 è un visualizzatore di immagini che visualizza un'immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta l'auto-panning e la panning con movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione realtà virtuale è disponibile sul supporto di dispositivi mobili.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panoramico{#panoramic}
 
-Visualizzatore panoramico di HTML5 è un visualizzatore di immagini che visualizza un’immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta l&#39;auto-panning e la panning con movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione realtà virtuale è disponibile sul supporto di dispositivi mobili.
+Visualizzatore panoramico di HTML5 è un visualizzatore di immagini che visualizza un&#39;immagine panoramica. Lo scopo di questo visualizzatore è quello di visualizzare un panorama sferico, noto anche come immagine equirettangolare. Supporta l&#39;auto-panning e la panning con movimento giroscopico. È progettato per funzionare su desktop e dispositivi mobili. La modalità di visualizzazione realtà virtuale è disponibile sul supporto di dispositivi mobili.
 
 Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,15 +27,15 @@ Visualizzatore di tipo 514.
 
 ## Utilizzo del visualizzatore panoramico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramic Viewer rappresenta un file JavaScript principale e un set di file di supporto scaricati dal visualizzatore in fase di esecuzione. L’insieme di file helper è un singolo JavaScript da includere con tutti i componenti SDK del Visualizzatore di HTML5 utilizzati da questo particolare visualizzatore, risorse e CSS.
-HTML5 Panoramic Viewer può essere utilizzato sia in modalità popup utilizzando una pagina HTML pronta per la produzione fornita con gli IS-Viewers che in modalità incorporata, dove viene integrato nella pagina web di destinazione utilizzando l’API documentata.
-La configurazione e l’skin sono simili a quelli degli altri visualizzatori di HTML5. Tutte le operazioni di skin possono essere eseguite tramite CSS personalizzato.
+Visualizzatore panoramico di HTML5 rappresenta un file JavaScript principale e un insieme di file di supporto scaricati dal visualizzatore in fase di esecuzione. Il set di file di supporto è un singolo JavaScript che include tutti i componenti SDK del visualizzatore HTML5 utilizzati da questo particolare visualizzatore, risorse e CSS.
+HTML5 Panoramic Viewer può essere utilizzato sia in modalità popup utilizzando una pagina HTML pronta per la produzione fornita con gli IS-Viewers che in modalità incorporata, dove è integrato nella pagina web di destinazione utilizzando l’API documentata.
+La configurazione e l&#39;interfaccia sono simili a quelle degli altri visualizzatori HTML5. Tutte le operazioni di skin possono essere eseguite tramite CSS personalizzato.
 
 Vedi [Riferimento al comando comune a tutti i visualizzatori - Attributi di configurazione](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Riferimento al comando comune a tutti i visualizzatori - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interazione con il visualizzatore panoramico di HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-HTML5 Panoramic Viewer supporta la panoramica e la navigazione automatiche tramite trascinamento o movimento giroscopico.
+HTML5 Panoramic Viewer supporta la panoramica e la navigazione automatica mediante trascinamento o movimento giroscopico.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -60,7 +60,7 @@ HTML5 Panoramic Viewer supporta la panoramica e la navigazione automatiche trami
 Il visualizzatore supporta sia l&#39;input tocco che l&#39;input del mouse su dispositivi Windows con touch screen e mouse, tuttavia questo supporto è limitato solo ai browser Web Chrome, Internet Explorer 11 e Edge.
 Il visualizzatore panoramico può riprodurre immagini panoramiche in modalità realtà virtuale (VR) specificando il modificatore vrrender. Quando il rendering è abilitato, un’immagine panoramica viene visualizzata in schermate divise. Un caso d’uso comune sarebbe quello di servire l’immagine in un telefono cellulare montato in una cuffia per realtà virtuale, fornendo immagini separate per ciascun occhio. L&#39;osservatore risponde al movimento giroscopico della testa e naviga attraverso l&#39;immagine.
 
-## Incorporazione del visualizzatore panoramico di HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporazione del visualizzatore panoramico HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Pagine web diverse hanno esigenze diverse per il comportamento del visualizzatore. A volte una pagina web fornisce un collegamento. Selezionando tale collegamento si apre il visualizzatore in una finestra del browser separata. In altri casi, potrebbe essere necessario incorporare il visualizzatore nella pagina di hosting. In quest’ultimo caso, la pagina web può avere un layout statico, essere &quot;reattiva&quot; e visualizzare in modo diverso su dispositivi diversi o per dimensioni diverse della finestra del browser. Per soddisfare queste esigenze, il visualizzatore supporta tre modalità operative principali: popup, incorporamento a dimensione fissa e incorporamento reattivo.
 
@@ -121,7 +121,7 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -143,7 +143,7 @@ Il percorso relativo si presenta come segue:
 
    È possibile impostare la dimensione statica per il visualizzatore dichiarandolo per la classe CSS di primo livello `.s7panoramicviewer` in unità assolute oppure utilizzando il modificatore `stagesize`.
 
-   Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record predefinito visualizzatore in AOD o passato esplicitamente utilizzando il comando style. Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta Personalizzazione del visualizzatore. Di seguito è riportato un esempio di definizione delle dimensioni statiche del visualizzatore nella pagina HTML:
+   Il ridimensionamento in CSS può essere inserito direttamente nella pagina HTML o in un file CSS visualizzatore personalizzato, che viene successivamente assegnato a un record di predefinito visualizzatore in AOD o passato esplicitamente utilizzando il comando style. Per ulteriori informazioni sullo stile del visualizzatore con CSS, consulta Personalizzazione del visualizzatore. Di seguito è riportato un esempio di definizione delle dimensioni statiche del visualizzatore nella pagina HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -271,7 +271,7 @@ La pagina di esempi seguente illustra un utilizzo più reale del design responsi
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporamento di progettazione reattiva con larghezza e altezza definite**
 

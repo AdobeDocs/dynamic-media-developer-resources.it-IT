@@ -1,6 +1,6 @@
 ---
-title: init
-description: Guida di riferimento dell'API JavaScript per il visualizzatore video interattivo.
+title: Init
+description: JavaScript riferimento API per il visualizzatore Video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# init{#init}
+# Init{#init}
 
-Guida di riferimento dell&#39;API JavaScript per il visualizzatore video interattivo.
+JavaScript riferimento API per il visualizzatore Video interattivo.
 
 `init()`
 
-Avvia l&#39;inizializzazione del Visualizzatore video interattivo. A questo punto, è necessario creare l’elemento DOM del contenitore in modo che il codice visualizzatore possa trovarlo in base al suo ID.
+Avvia l&#39;inizializzazione del visualizzatore Video interattivo. A questo punto, l&#39;elemento DOM contenitore deve essere creato in modo che il codice visualizzatore possa trovarlo in base al proprio ID.
 
-Se l&#39;elemento contenitore non fa ancora parte del layout della pagina Web, ad esempio potrebbe essere nascosto utilizzando lo stile `display:none` assegnato, il visualizzatore sospende il processo di inizializzazione. Lo fa fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questo evento, il caricamento del visualizzatore riprende automaticamente.
+Se l&#39;elemento contenitore non fa ancora parte del layout della pagina Web, ad esempio nascosto `display:none` utilizzando lo stile assegnatogli, il visualizzatore sospende il processo di inizializzazione. Lo fa fino al momento in cui la pagina web riporta l&#39;elemento contenitore al layout. Quando si verifica questo evento, il caricamento della visualizzatore riprende automaticamente.
 
-Chiama questo metodo una sola volta durante il ciclo di vita del visualizzatore; le chiamate successive vengono ignorate.
+Chiamare questo metodo solo una volta durante visualizzatore ciclo di vita; Le chiamate successive vengono ignorate.
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 Nessuno.
 
-## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Rendiconto {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Riferimento all&#39;istanza del visualizzatore.
+`{Object}` Un riferimento alla visualizzatore istanza.
 
 ## Esempio {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

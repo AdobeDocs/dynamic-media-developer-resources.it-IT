@@ -66,7 +66,7 @@ Tutti i file di immagine non PTIFF devono superare la convalida prima che il fil
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -Silenzioso </span> </p> </td> 
-  <td class="stentry"> <p>Disabilita l'output </span> stdout </span>/ <span class="codeph"> stderr. <span class="codeph"> Viene restituito solo uno stato. </p> </td> 
+  <td class="stentry"> <p>Disabilita l'output <span class="codeph"> stdout </span>/ <span class="codeph"> stderr. </span> Viene restituito solo uno stato. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 

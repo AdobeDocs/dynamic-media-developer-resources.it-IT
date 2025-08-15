@@ -16,7 +16,7 @@ ht-degree: 0%
 
 L&#39;opacità variabile è supportata per i colori in tinta unita e le texture ripetibili applicate agli oggetti sovrapposti, nonché per le decalcomanie e i materiali di rivestimento delle finestre.
 
-Le informazioni sull&#39;opacità possono essere fornite semplicemente utilizzando un&#39;immagine RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con il comando `opacity=` (sia per le immagini RGB che per quelle RGBA).
+Le informazioni sull&#39;opacità possono essere fornite semplicemente utilizzando un&#39;immagine RGB con un canale alfa. Inoltre, l&#39;opacità complessiva può essere variata con il comando `opacity=` (sia per le immagini RGB che RGBA).
 
 I bordi delle pareti supportano anche le immagini RGBA, principalmente per i bordi con taglio automatico.
 

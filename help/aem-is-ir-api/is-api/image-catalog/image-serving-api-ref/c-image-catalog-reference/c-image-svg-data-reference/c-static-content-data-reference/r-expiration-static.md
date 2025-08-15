@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Utilizzato per gestire il caching del client e del server proxy. Il server calcola l’ora/data di scadenza dei dati di risposta HTTP aggiungendo questo valore all’ora/data di trasmissione.
 
-I browser gestiscono le cache utilizzando i tempi di scadenza dei file. Prima di trasmettere una richiesta al server, il browser controlla la cache per verificare se il file è già stato scaricato. In tal caso, e se il file non è ancora scaduto, il browser invia una richiesta di GET condizionale (ad esempio con il campo If-Modified-Since impostato nell&#39;intestazione della richiesta) anziché una normale richiesta di GET. Il server ha la possibilità di rispondere con lo stato &quot;304&quot; e di non trasmettere l&#39;immagine. Il browser carica quindi il file dalla propria cache. Questo può aumentare notevolmente le prestazioni complessive per i dati a cui si accede di frequente.
+I browser gestiscono le cache utilizzando i tempi di scadenza dei file. Prima di trasmettere una richiesta al server, il browser controlla la cache per verificare se il file è già stato scaricato. In tal caso, e se il file non è ancora scaduto, il browser invia una richiesta GET condizionale (ad esempio con il campo If-Modified-Since impostato nell&#39;intestazione della richiesta) anziché una normale richiesta GET. Il server ha la possibilità di rispondere con lo stato &quot;304&quot; e di non trasmettere l&#39;immagine. Il browser carica quindi il file dalla propria cache. Questo può aumentare notevolmente le prestazioni complessive per i dati a cui si accede di frequente.
 
 La scadenza viene utilizzata per i seguenti tipi di risposta:
 
@@ -30,7 +30,7 @@ Alcuni tipi di risposte (ad esempio, le risposte di errore) sono sempre contrass
 
 ## Proprietà {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Numero reale, -2, -1 o 0 o superiore. Numero di ore mancanti alla scadenza dalla generazione dell’immagine di risposta. Impostate questo valore su 0 per far scadere immediatamente l&#39;immagine di risposta, disattivando di fatto la memorizzazione in cache del client. Imposta su -1 per contrassegnare come *`never expire`*. In questo caso, il server restituisce sempre lo stato 304 (non modificato) in risposta alle richieste di GET condizionale senza verificare se il file è stato effettivamente modificato. Impostare su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
+Numero reale, -2, -1 o 0 o superiore. Numero di ore mancanti alla scadenza dalla generazione dell’immagine di risposta. Impostate questo valore su 0 per far scadere immediatamente l&#39;immagine di risposta, disattivando di fatto la memorizzazione in cache del client. Imposta su -1 per contrassegnare come *`never expire`*. In questo caso, il server restituisce sempre lo stato 304 (non modificato) in risposta alle richieste condizionali di GET senza verificare se il file è stato effettivamente modificato. Impostare su -2 per utilizzare il valore predefinito fornito da `attribute::Expiration`.
 
 ## Predefinito {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

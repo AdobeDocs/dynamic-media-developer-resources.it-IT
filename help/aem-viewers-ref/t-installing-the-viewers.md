@@ -1,6 +1,6 @@
 ---
-title: Installazione di più visualizzatori Dynamic Medie sullo stesso server
-description: Istruzioni per l’installazione dell’API dei visualizzatori Dynamic Medie.
+title: Installazione di più visualizzatori Dynamic Media sullo stesso server
+description: Istruzioni per l’installazione dell’API dei visualizzatori Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Istruzioni per l’installazione dell’API dei visualizzatori Dynamic Medie.
+Istruzioni per l’installazione dell’API dei visualizzatori Dynamic Media.
 
 Installa e verifica Image Server prima di installare i visualizzatori Image Server.
 
@@ -24,7 +24,7 @@ Copiare i file dei visualizzatori IS sul disco rigido e quindi distribuire il fi
 
 >[!NOTE]
 >
->Non è disponibile alcuna installazione di aggiornamento per i visualizzatori Image Server. L’Adobe consiglia di eseguire il backup di qualsiasi directory dei visualizzatori Dynamic Medie (s7viewers) esistente prima di continuare con l’installazione.
+>Non è disponibile alcuna installazione di aggiornamento per i visualizzatori Image Server. Adobe consiglia di eseguire il backup di qualsiasi directory di visualizzatori Dynamic Media (s7viewers) esistente prima di continuare con l’installazione.
 
 **Per installare più visualizzatori sullo stesso server:**
 

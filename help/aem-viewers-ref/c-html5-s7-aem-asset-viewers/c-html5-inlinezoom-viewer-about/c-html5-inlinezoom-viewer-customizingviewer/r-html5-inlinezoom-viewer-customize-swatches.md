@@ -45,13 +45,13 @@ L’aspetto del contenitore dei campioni è controllato dal seguente selettore d
    <td colname="col2"> <p>Altezza dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
    <td colname="col2"> <p> Offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare i campioni su 460 x 100 pixel:
+Esempio - per impostare i campioni a 460 x 100 pixel:
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +60,9 @@ Esempio: per impostare i campioni su 460 x 100 pixel:
 }
 ```
 
-**Proprietà CSS della spaziatura campioni miniature**
+**Proprietà CSS della miniatura campione della spaziatura**
 
-La spaziatura tra le miniature dei campioni è controllata con il selettore di classe CSS:
+La spaziatura tra campione miniature è controllata dalla classe CSS selettore:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -116,15 +116,15 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
    <td colname="col2"> <p>Altezza dei campioni di miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
-   <td colname="col2"> <p>Bordo dei campioni di miniature. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> confine </span> </p> </td> 
+   <td colname="col2"> <p>La bordo dei campioni di miniatura. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniatura supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse a stati di miniatura diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzato al passaggio del mouse.
+>La miniatura supporta l&#39;attributo `state` selettore, che viene utilizzato per applicare interfacce diverse a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura per l&#39;immagine che viene attualmente visualizzata nella vista principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzata al passaggio del mouse.
 
 Esempio: per impostare miniature di 56 x 56 pixel con un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro:
 
@@ -143,14 +143,14 @@ Esempio: per impostare miniature di 56 x 56 pixel con un bordo predefinito grigi
 
 **Proprietà CSS dei pulsanti di scorrimento sinistro e destro**
 
-L’aspetto dei pulsanti di scorrimento sinistro e destro è controllato dai seguenti selettori di classi CSS:
+L&#39;aspetto dei pulsanti di scorrimento sinistro e destro è controllato con i seguenti selettori di classe CSS:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica di visualizzazione li posiziona automaticamente.
+Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà. Al contrario, la logica visualizzatore li posiziona automaticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,7 +161,7 @@ Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
@@ -173,19 +173,19 @@ Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS 
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse agli stati dei pulsanti `up`, `down`, `over` e `disabled`.
+>Questo pulsante supporta l&#39;attributo `state` selettore, utilizzato per applicare interfacce diverse a stati pulsante `up`, `down`, `over`e `disabled`.
 
-Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
+I suggerimenti pulsante strumento possono essere localizzati. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) dell&#39;interfaccia.
 
-Esempio - per impostare pulsanti di scorrimento di 56 x 56 pixel con grafica diversa per ogni stato:
+Esempio - per impostare pulsanti di scorrimento di 56 x 56 pixel e con grafica diversa per ogni stato:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

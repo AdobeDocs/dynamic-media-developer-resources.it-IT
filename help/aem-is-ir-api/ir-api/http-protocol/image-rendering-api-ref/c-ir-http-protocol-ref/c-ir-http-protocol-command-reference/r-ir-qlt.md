@@ -21,7 +21,7 @@ Qualità JPEG. Specifica gli attributi di codifica JPEG per controllare il livel
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> qualità </span> </p> </td> 
-  <td class="stentry"> <p>Qualità della codifica JPEG (1...100) </p> </td> 
+  <td class="stentry"> <p>Qualità codifica JPEG (1...100) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> crominanza </span> </p> </td> 
@@ -33,7 +33,7 @@ Specifica gli attributi di codifica JPEG per controllare il livello di compressi
 
 Valori più alti di *`quality`* aumentano le dimensioni e la qualità del file, valori più bassi riducono le dimensioni dei file e riducono la qualità percepita delle immagini. Con valori superiori a 90 si ottengono spesso immagini molto simili alle corrispondenti immagini non compresse.
 
-Impostare il flag *`chroma`* per disattivare il downsampling della cromaticità utilizzato dai tipici codificatori JPEG. Questa impostazione può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità anziché di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
+Impostare il flag *`chroma`* per disattivare il downsampling della cromaticità utilizzato dai tipici encoder JPEG. Questa impostazione può aumentare la nitidezza percepita dei bordi di un&#39;immagine quando il bordo è definito da una variazione di tonalità anziché di luminosità. L&#39;impostazione di questo flag può causare un leggero aumento delle dimensioni del file. Provare con questa impostazione se il testo sembra leggermente sfocato.
 
 ## Proprietà {#section-897b61c786dd4230a2c5807f2f40e722}
 

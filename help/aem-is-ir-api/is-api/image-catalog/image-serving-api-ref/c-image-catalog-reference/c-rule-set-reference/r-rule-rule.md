@@ -58,7 +58,7 @@ Elemento regola di richiesta. Una o più regole sono facoltative nell&#39;elemen
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> Attributo </span> </b> di <b> <span class="varname"> </th> 
+   <th class="entry"> Attributo <b> <span class="varname"> di </span> </b> </th> 
    <th class="entry"> <p>Attributo catalogo immagini corrispondente </p> </th> 
   </tr> 
  </thead>

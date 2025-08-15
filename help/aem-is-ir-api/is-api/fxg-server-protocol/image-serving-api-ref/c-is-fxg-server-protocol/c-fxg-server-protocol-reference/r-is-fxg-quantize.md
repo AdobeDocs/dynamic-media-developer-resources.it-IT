@@ -29,11 +29,11 @@ Quantizzazione colore. Specifica gli attributi di quantizzazione del colore per 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-  <td class="stentry"> <p>Numero di colori di output (numero intero) inclusi nella tavolozza adattiva </span> ' <span class="codeph">. </p> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> deve essere compreso tra 2 e 256. </p> </td> 
+  <td class="stentry"> <p>Numero di colori di output (numero intero) inclusi nella tavolozza adattiva <span class="codeph"> ' </span>. </p> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> deve essere compreso tra 2 e 256. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Elenco separato da virgole dei colori RGB obbligatori in formato esadecimale6. Consente di specificare i colori forzati da includere in una tavolozza </span> adattiva ' <span class="codeph">'. Se il numero di colori specificati è inferiore a <span class="codeph"> numColors </span>, verranno calcolati colori aggiuntivi in base al contenuto dell'immagine. </p> <p>Utilizzato solo se <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. Altrimenti ignorato. I colori specificati con <span class="codeph"> <span class="varname"> colorList </span> </span> devono essere valori RGB in formato hex6 (vedere <span class="codeph"> color </span>). Non sono consentiti altri identificatori di colore. </p> </td> 
+  <td class="stentry"> <p>Elenco separato da virgole dei colori RGB forzati in formato esadecimale6. Consente di specificare i colori forzati da includere in una tavolozza <span class="codeph"> adattiva ' </span>'. Se il numero di colori specificati è inferiore a <span class="codeph"> numColors </span>, verranno calcolati colori aggiuntivi in base al contenuto dell'immagine. </p> <p>Utilizzato solo se <span class="codeph"> fmt=gif </span> o <span class="codeph"> fmt=gif-alpha </span>. Altrimenti ignorato. I colori specificati con <span class="codeph"> <span class="varname"> colorList </span> </span> devono essere valori RGB in formato hex6 (vedere <span class="codeph"> color </span>). Non sono consentiti altri identificatori colore. </p> </td> 
  </tr> 
 </table>
 
@@ -47,6 +47,6 @@ Generare una miniatura GIF utilizzando la tavolozza &#39; `web`&#39; e senza dit
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Converti l’immagine in GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:
+Converti l’immagine in un GIF bicontonale con trasparenza dei colori chiave e forza i colori in bianco e nero:
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

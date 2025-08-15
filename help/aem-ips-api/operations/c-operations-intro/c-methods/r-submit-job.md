@@ -76,7 +76,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa cron</span> <span class="codeph"> che esegue il processo su base periodica. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consulta la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
+   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa cron<span class="codeph"> </span> che esegue il processo su base periodica. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consulta la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 

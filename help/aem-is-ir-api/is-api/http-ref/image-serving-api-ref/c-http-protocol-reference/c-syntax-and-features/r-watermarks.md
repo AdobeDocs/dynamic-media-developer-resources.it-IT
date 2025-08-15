@@ -20,7 +20,7 @@ Una filigrana è in genere un&#39;immagine semitrasparente, ma può essere costi
 
 La filigrana è abilitata impostando `attribute::Watermark` su una voce di catalogo valida contenente l&#39;immagine o il modello della filigrana. Se `attribute::Watermark` è impostato in un catalogo denominato, il server aggiunge la filigrana a tutte le richieste di immagini che fanno riferimento all&#39;ID catalogo nell&#39;URL della richiesta. Se è impostato `default::Watermark` (nel catalogo predefinito, [!DNL default.ini]), la filigrana viene applicata a tutte le richieste di immagini, indipendentemente dal fatto che facciano riferimento o meno a un catalogo.
 
-Le filigrane non vengono applicate alle immagini restituite in risposta a richieste di miniature ( `req=tmb`) e ad alcune richieste dei visualizzatori Dynamic Medie.
+Le filigrane non vengono applicate alle immagini restituite in risposta a richieste di miniature ( `req=tmb`) e ad alcune richieste dei visualizzatori Dynamic Media.
 
 ## Ridimensionamento e allineamento {#section-89ef9e5926ae438abbd8e70332749b76}
 

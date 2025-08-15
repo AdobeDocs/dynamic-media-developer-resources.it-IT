@@ -1,6 +1,6 @@
 ---
 title: Cataloghi di materiali
-description: I cataloghi di materiali offrono diverse funzioni.
+description: I cataloghi dei materiali offrono diverse funzionalità.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 # Cataloghi di materiali {#material-catalogs}
 
-I cataloghi di materiali offrono diverse funzioni.
+I cataloghi dei materiali offrono diverse funzionalità.
 
-* Consente la definizione persistente dei materiali, incluse tutte le proprietà dei materiali.
+* Consente la definizione persistente dei materiali, incluse tutte le proprietà del materiale.
 
-  I materiali definiti nel catalogo dei materiali possono essere referenziati utilizzando un ID semplice, anziché un insieme di proprietà dei materiali.
-* Specifica le impostazioni predefinite per alcuni attributi di richiesta, ad esempio la qualità JPEG o una dimensione predefinita per l&#39;immagine di risposta.
-* Gestisci le vignettature, i profili ICC e i modelli di richiesta.
+  È possibile fare riferimento ai materiali definiti nel catalogo dei materiali utilizzando un semplice ID anziché un insieme di proprietà del materiale.
+* Specificate le impostazioni predefinite per determinati attributi richiesta, ad esempio la qualità JPEG o le dimensioni predefinite dell&#39;immagine di risposta.
+* Consente di gestire vignettature, profili ICC e modelli richiesta.
 
-Anche se non sono definiti cataloghi di materiale specifici, tutte le caratteristiche dei cataloghi di materiale sono disponibili tramite il catalogo predefinito ( [!DNL default.ini]).
+Anche se non sono definiti cataloghi di materiali specifici, tutte le funzionalità dei cataloghi di materiali sono disponibili tramite il catalogo predefinito ( [!DNL default.ini]).
 
-Anche se i materiali di rendering possono essere specificati esplicitamente nelle richieste che utilizzano gli attributi dei materiali, spesso è più opportuno nascondere i dettagli dei materiali dal sito web utilizzando i cataloghi dei materiali. i comandi src= accettano riferimenti di catalogo anziché percorsi di file espliciti. Una voce di catalogo è costituita da ` [ *[!DNL catId]*/] *[!DNL itemId]*`, dove ` *[!DNL catId]*` identifica un catalogo di materiali e ` *[!DNL itemId]*` identifica un record nel catalogo. Se ` *[!DNL catId]*` non è specificato, viene utilizzato il catalogo delle sessioni (vedi sotto).
+Mentre i materiali di rendering possono essere specificati esplicitamente nelle richieste che utilizzano gli attributi del materiale, spesso è più desiderabile nascondere i dettagli dei materiali dal sito Web utilizzando cataloghi di materiali. I comandi src= accettano riferimenti a cataloghi invece di percorsi di file espliciti. Una voce di catalogo è costituita da ` [ *[!DNL catId]*/] *[!DNL itemId]*`, dove ` *[!DNL catId]*` identifica un catalogo di materiali e ` *[!DNL itemId]*` identifica un record nel catalogo. Se ` *[!DNL catId]*` non è specificato, viene utilizzato il catalogo di sessione (vedere di seguito).
 
-Un record catalogo viene trovato correttamente se (a) ` *[!DNL catId]*` corrisponde al valore `attribute::RootId` di un catalogo di materiali e (b) ` *[!DNL recId]*` corrisponde al valore catalog::Id nello stesso catalogo. In caso di esito positivo, gli attributi del materiale (incluso `src=`) vengono impostati sui dati del record del catalogo. Se il MSS include attributi aggiuntivi per questo materiale oltre a src=, sovrascriveranno i valori del record catalogo.
+Un record di catalogo viene abbinato correttamente se (a) ` *[!DNL catId]*` corrisponde al `attribute::RootId` valore di un catalogo di materiali e (b) ` *[!DNL recId]*` corrisponde al valore catalog::Id nello stesso catalogo. Se esiste una corrispondenza positiva, gli attributi del materiale (incluso `src=`) vengono impostati sui dati dal record del catalogo. Se l&#39;MSS include attributi aggiuntivi per questo materiale oltre a src=, ignorano i valori dal record del catalogo.
 
-Se ` *[!DNL recId]*` non corrisponde a una voce di catalogo, ` *[!DNL catId]*` viene sostituito con `attribute::RootPath` dal catalogo e il percorso risultante viene quindi considerato un percorso di file semplice. Altri attributi predefiniti, ad esempio `attribute::Resolution`, possono essere ereditati dal catalogo dei materiali.
+Se ` *[!DNL recId]*` non può essere associato a una voce di catalogo, viene ` *[!DNL catId]*` sostituito con `attribute::RootPath` dal catalogo e si presume che il percorso risultante sia un percorso di file semplice. Anche altri attributi predefiniti (ad esempio, `attribute::Resolution`) possono essere ereditati dal catalogo dei materiali.
 
-Vignettature e profili ICC possono essere dettagliati in cataloghi di materiali simili ai materiali stessi e date proprietà. Inoltre, la mappa di vignettatura fornisce anche il contenitore per i modelli.
+Le vignettature e i profili ICC possono essere dettagliati in cataloghi di materiali simili ai materiali stessi e le proprietà fornite. Inoltre, la mappa delle vignette funge anche da contenitore per i modelli.
 
-**Vedere anche**
+**Vedi anche**
 
-Riferimento catalogo materiali, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`
+Riferimento al catalogo dei materiali, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`

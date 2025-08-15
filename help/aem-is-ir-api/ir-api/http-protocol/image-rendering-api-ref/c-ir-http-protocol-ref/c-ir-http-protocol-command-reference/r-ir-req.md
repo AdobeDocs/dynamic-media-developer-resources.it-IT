@@ -166,7 +166,7 @@ Restituisce i dati della mappa immagine inclusi nella vignettatura. Per impostaz
 
 I dati della mappa non vengono ridimensionati a `wid=` o `hei=` o modificati in altro modo. Il tipo MIME di risposta è `<text/xml>`.
 
-I dati di risposta sono costituiti da un elemento `<map>` contenente un set di elementi `<area>`, simile al tag HTML `<AREA>`.
+I dati di risposta sono costituiti da un elemento `<map>` contenente un set di elementi `<area>`, simile al tag `<AREA>` di HTML.
 
 Ogni elemento `<area>` include gli attributi standard `type=` e `coord=` e un attributo `name=` che specifica il nome o il percorso del nome del gruppo di vignettatura. Se le maschere del gruppo di oggetti corrispondente presentano aree discontinue, sono presenti più elementi `<area>` con lo stesso nome.
 
@@ -236,7 +236,7 @@ Le seguenti proprietà possono essere incluse nella risposta:
   <tr> 
    <td> <p> <span class="codeph"> immagine.qualità </span> </p> </td> 
    <td> <p>Intero, booleano </p> </td> 
-   <td> <p> Qualità JPEG e flag chroma (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> Flag qualità JPEG e chroma (vedere <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

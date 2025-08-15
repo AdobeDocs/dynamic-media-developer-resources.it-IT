@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: Guida di riferimento dell'API JavaScript per il visualizzatore interattivo di immagini
+description: JavaScript Riferimento API per visualizzatore Immagine interattivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 # setHandlers{#sethandlers}
 
-Guida di riferimento dell&#39;API JavaScript per il visualizzatore interattivo di immagini
+JavaScript Riferimento API per visualizzatore Immagine interattivo
 
 `setHandlers(handlers)`
 
-Specifica zero o più gestori di callback. Una chiamata a questo metodo sovrascrive completamente i gestori eventi precedentemente assegnati per tale istanza del visualizzatore. Deve essere chiamato prima di `init()`.
+Specifica zero o più gestori di callback. Una chiamata a questo metodo sovrascrive completamente i gestori eventi precedentemente assegnati per tale visualizzatore istanza. Deve essere chiamato prima `init()`.
 
 ## Parametro {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gestori </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> oggetto JSON con callback di eventi del visualizzatore. Il nome della proprietà è il nome dell’evento visualizzatore supportato. Il valore della proprietà è un riferimento della funzione JavaScript a un callback appropriato. </p> <p>Per ulteriori informazioni sugli eventi visualizzatore, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> callback di eventi </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Gestori </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">{Object} </span> Oggetto JSON con callback di eventi visualizzatore. Il nome della proprietà è il nome dell'evento visualizzatore supportato. Il valore della proprietà è un riferimento di funzione JavaScript a una chiamata di ritorno appropriata. </p> <p>Per ulteriori informazioni sugli eventi visualizzatore, vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Callback di </a> eventi. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Rendiconto {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nessuno.
 

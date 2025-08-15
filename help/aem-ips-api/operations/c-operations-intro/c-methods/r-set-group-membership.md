@@ -1,5 +1,5 @@
 ---
-description: Imposta l'appartenenza al gruppo per un utente.
+description: Imposta iscrizione al gruppo per un utente.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # setGroupMembership{#setgroupmembership}
 
-Imposta l&#39;appartenenza al gruppo per un utente.
+Imposta iscrizione al gruppo per un utente.
 
 Sintassi
 
@@ -30,9 +30,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:string` | No | Handle per l&#39;utente di cui si desidera impostare l&#39;appartenenza al gruppo. |
-| companyHandle | `xsd:string` | No | Gestore azienda. |
-| groupHandleArray | `types:HandleArray` | Sì | Array di handle ai gruppi a cui appartiene l&#39;utente. |
+| Handle utente | `xsd:string` | No | Handle del utente di cui si desidera impostare il iscrizione al gruppo. |
+| CompanyHandle | `xsd:string` | No | Maniglia aziendale. |
+| GroupHandleArray | `types:HandleArray` | Sì | Array di handle per gruppi a cui appartiene il utente. |
 
 **Output (setGroupMembershipReturn)**
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-67b86d259df24938896fe19061845811}
 
-Questo esempio di codice rende l&#39;utente membro di un gruppo. Aggiungere un utente a più gruppi con l&#39;array dell&#39;handle di gruppo.
+Questo esempio di codice rende l&#39;utente membro di un gruppo. Aggiungi un utente a più gruppi con l&#39;array di handle di gruppo.
 
 **Richiesta**
 

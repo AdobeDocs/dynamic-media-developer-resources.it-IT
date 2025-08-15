@@ -1,5 +1,5 @@
 ---
-description: Stringa del modificatore di richiesta. Nessuno o più comandi di Image Rendering separati da '&' caratteri. Utilizzato per memorizzare modelli e modificatori da applicare ogni volta che viene effettuata una richiesta per questa voce di mappa di vignettatura.
+description: Stringa modificatore Request. Nessuno o più Immagine comandi di rendering separati da caratteri '&'. Utilizzato per store modelli e modificatori che devono essere applicati ogni volta che viene effettuata una richiesta per questa voce di mappa vignetta.
 solution: Experience Manager
 title: Modificatore
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # Modificatore{#modifier}
 
-Stringa del modificatore di richiesta. Nessuno o più comandi di Image Rendering separati da &#39;&amp;&#39; caratteri. Utilizzato per memorizzare modelli e modificatori da applicare ogni volta che viene effettuata una richiesta per questa voce di mappa di vignettatura.
+Stringa modificatore Request. Nessuno o più Immagine comandi di rendering separati da caratteri &#39;&amp;&#39;. Utilizzato per store modelli e modificatori che devono essere applicati ogni volta che viene effettuata una richiesta per questa voce di mappa vignetta.
 
-I comandi in questo campo vengono sostituiti dagli stessi comandi nella richiesta o nel modello da cui si fa riferimento al record.
+I comandi in questo campo vengono sostituiti dagli stessi comandi nel richiesta o nel modello da cui viene fatto riferimento a questo record.
 
 ## Proprietà {#section-b7b01c307ebc41d48c34db77307dbfd1}
 

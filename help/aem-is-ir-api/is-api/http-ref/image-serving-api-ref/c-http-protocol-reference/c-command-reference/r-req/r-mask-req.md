@@ -18,6 +18,6 @@ Maschera immagine. Richiede i dati della maschera (canale alfa).
 
 `req=mask`
 
-Supporta gli stessi comandi di `req=img`. Viene elaborato allo stesso modo dal server, ma invece di restituire i dati RGB o RGBA, il server elimina le informazioni sul colore e restituisce solo i dati maschera (canale alfa). Il formato dei dati di risposta e il tipo MIME di risposta sono determinati da `fmt=`.
+Supporta gli stessi comandi di `req=img`. Viene elaborato allo stesso modo dal server, ma invece di restituire i dati RGB o RGBA, il server elimina le informazioni sul colore e restituisce solo i dati della maschera (canale alfa). Il formato dei dati di risposta e il tipo MIME di risposta sono determinati da `fmt=`.
 
 La risposta HTTP è memorizzabile in cache con TTL basato su `catalog::Expiration`.

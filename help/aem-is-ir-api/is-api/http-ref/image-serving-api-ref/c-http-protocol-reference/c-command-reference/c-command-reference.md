@@ -18,17 +18,17 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 >[!TIP]
 >
->Prova e scopri i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
+>Prova e scopri i vantaggi dei modificatori di immagini Dynamic Media e dell&#39;imaging avanzato utilizzando Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Medie per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Medie per osservare visivamente l’output di vari modificatori di immagini Dynamic Medie e ottimizzazioni Smart Imaging per i seguenti elementi:
+> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Media per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL di elementi multimediali dinamici per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e le ottimizzazioni di Smart Imaging per i seguenti elementi:
 >* Dimensione del file (con consegna WebP e AVIF)
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
 >
->Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=it) (3 minuti e 17 secondi).
+>Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
 
 
-**Solo per Dynamic Medie in Adobe Experience Manager** - Oltre alle impostazioni immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] nell&#39;AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche immagini avanzate che è possibile specificare nel campo **Modificatori immagine**. Questi parametri sono definiti di seguito. Tuttavia, le seguenti funzionalità non sono supportate in Dynamic Medie nell’AEM.
+**Solo per Dynamic Media in Adobe Experience Manager** - Oltre alle impostazioni immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate alle immagini che è possibile specificare nel campo **Modificatori immagine**. Questi parametri sono definiti di seguito. Tieni presente, tuttavia, che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
 
 * Comandi di correzione colore: `icc=` e `iccEmbed=`.
 * Comandi di base per la creazione di modelli e il rendering del testo: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` e `textPs=`.
@@ -38,11 +38,11 @@ Questa sezione descrive i comandi del protocollo HTTP.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Servizi Dynamic Medie non core: SVG, Image Rendering e Web-to-Print.
+* Servizi Dynamic Media non core: SVG, Image Rendering e Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche le [Opzioni predefinito immagine](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=it#dynamic) di Dynamic Medie nella documentazione di AEM 6.5.
+Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)

@@ -27,7 +27,7 @@ Attributo di configurazione per il visualizzatore Video360.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph">?</span> come <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> come <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> come <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> Questo modificatore funziona per i contenuti video in hosting su Dynamic Media Classic o Adobe Experience Manager, Dynamic Medie. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specificare <span class="codeph"> none</span> come valore dell'immagine poster. </p> </td> 
+     </ul> </p> <p> Questo modificatore funziona per i contenuti video in hosting su Dynamic Media Classic o Adobe Experience Manager, Dynamic Media. </p> <p>Per impedire la visualizzazione dell'immagine poster predefinita, specificare <span class="codeph"> none</span> come valore dell'immagine poster. </p> </td> 
   </tr> 
  </tbody> 
 </table>

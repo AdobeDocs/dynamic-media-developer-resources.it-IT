@@ -36,7 +36,7 @@ Attualmente, la densità di pixel della visualizzazione proviene dai valori di i
 
 È possibile utilizzare `dpr=on,dprValue` anche se l&#39;impostazione DPR a livello aziendale è disattivata.
 
-A causa dell&#39;ottimizzazione DPR, quando l&#39;immagine risultante è maggiore dell&#39;impostazione MaxPix Dynamic Medie, la larghezza MaxPix viene sempre riconosciuta mantenendo le proporzioni dell&#39;immagine.
+A causa dell’ottimizzazione DPR, quando l’immagine risultante è maggiore dell’impostazione MaxPix Dynamic Media, la larghezza MaxPix viene sempre riconosciuta mantenendo le proporzioni dell’immagine.
 
 | Dimensione immagine richiesta | Valore DPR | Dimensioni immagine consegnata |
 |-|-|-|
@@ -45,7 +45,7 @@ A causa dell&#39;ottimizzazione DPR, quando l&#39;immagine risultante è maggior
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle. Questi valori a volte sono imprecisi. Ad esempio, iPhone5 con `dpr=2` e iPhone12 con dpr=3, entrambi mostrano `dpr=2`. Tuttavia, per i dispositivi ad alta risoluzione, l&#39;invio di `dpr=2` è migliore rispetto all&#39;invio di `dpr=1`. Il modo migliore per superare questa imprecisione, tuttavia, è utilizzare il DPR lato client per fornire valori accurati al 100%. E funziona per qualsiasi dispositivo, sia esso Apple o qualsiasi altro dispositivo che è stato lanciato. Vedi [Utilizzare Smart Imaging con le proporzioni pixel del dispositivo lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=it).
+I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle. Questi valori a volte sono imprecisi. Ad esempio, iPhone5 con `dpr=2` e iPhone12 con dpr=3, entrambi mostrano `dpr=2`. Tuttavia, per i dispositivi ad alta risoluzione, l&#39;invio di `dpr=2` è migliore rispetto all&#39;invio di `dpr=1`. Il modo migliore per superare questa imprecisione, tuttavia, è utilizzare il DPR lato client per fornire valori accurati al 100%. E funziona per qualsiasi dispositivo, sia esso Apple o qualsiasi altro dispositivo che è stato lanciato. Vedi [Utilizzare Smart Imaging con le proporzioni pixel del dispositivo lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
 
 ## Proprietà
 
@@ -63,4 +63,4 @@ Un attributo di richiesta. Non ha alcun effetto se `dpr` è disattivato o se `dp
 
 ## Consultate anche
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=it)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

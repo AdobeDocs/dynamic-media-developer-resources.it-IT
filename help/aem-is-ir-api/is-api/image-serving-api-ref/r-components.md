@@ -1,6 +1,6 @@
 ---
 title: Componenti Image Server
-description: Dynamic Medie Image Server è costituito dai seguenti componenti.
+description: Dynamic Media Image Server è costituito dai seguenti componenti.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Componenti Image Server{#image-serving-components}
 
-Dynamic Medie Image Server è costituito dai seguenti componenti:
+Dynamic Media Image Server è costituito dai seguenti componenti:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -57,7 +57,7 @@ Dynamic Medie Image Server è costituito dai seguenti componenti:
    <td colname="col2"> <p>Applicazione Java™ autonoma (non ospitata da Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendering immagini Dynamic Medie (alias Server di rendering) </p> </td> 
+   <td colname="col1"> <p>Rendering immagini Dynamic Media (o Server di rendering) </p> </td> 
    <td colname="col2"> <p>Per l’attivazione è necessaria una licenza separata. Accesso HTTP in <span class="filepath"> /ir/render</span>. Tutte le funzionalità di Image Rendering sono integrate in [!DNL Platform Server] e nel server immagini, senza componenti eseguibili separati. </p> </td> 
   </tr> 
  </tbody> 

@@ -20,13 +20,13 @@ Incorpora metadati XMP. Specifica se includere i metadati XMP nell&#39;immagine 
 
 >[!NOTE]
 >
->I dati XMP vengono trasmessi dall’immagine sorgente all’immagine di risposta senza modifiche. Questo potrebbe causare l’incorporazione di dati errati nell’immagine di risposta.
+>I dati XMP vengono passati dall’immagine di origine all’immagine di risposta senza modifiche. Questo potrebbe causare l’incorporazione di dati errati nell’immagine di risposta.
 
 ## Proprietà {#section-27024c4272f44d9a8c264a0629193af2}
 
-Attributo della richiesta. Ignorato se l’immagine di origine non contiene dati XMP. Vengono elaborati solo i dati XMP dell&#39;immagine di origine di `layer=0`. I dati XMP da altre immagini di livello vengono ignorati.
+Attributo della richiesta. Ignorato se l&#39;immagine di origine non contiene dati di XMP. Vengono elaborati solo i dati XMP dell&#39;immagine di origine di `layer=0`. I dati XMP provenienti da altre immagini di livello vengono ignorati.
 
-Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento XMP. Fare riferimento alla descrizione di `fmt=` per un elenco dei formati di immagine di output che supportano l&#39;incorporamento di XMP.
+Ignorato se il formato dell&#39;immagine di output non supporta l&#39;incorporamento di XMP. Per un elenco dei formati di immagine di output che supportano l&#39;incorporamento di XMP, fare riferimento alla descrizione di `fmt=`.
 
 ## Predefinito {#section-aedbedd04d664ba184b2cfe35644b960}
 

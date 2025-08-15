@@ -39,7 +39,7 @@ Formato immagine di risposta.
 
 `tiffCompression` è consentito solo se il formato specificato è tif, tif-alpha. Per informazioni sulle opzioni di compressione supportate per questi formati di immagine, consulta la tabella seguente.
 
-`qlt=` può essere utilizzato per impostare le opzioni di codifica JPEG per i seguenti formati: JPEG, TIFF con compressione JPEG. quantize= può essere utilizzato se fmt=gif o fmt=gif-alpha. Per ulteriori informazioni, consultare le descrizioni dei comandi. Gli altri formati non dispongono di opzioni impostabili.
+`qlt=` può essere utilizzato per impostare le opzioni di codifica JPEG per questi formati: JPEG, TIFF con compressione JPEG. quantize= può essere utilizzato se fmt=gif o fmt=gif-alpha. Per ulteriori informazioni, consultare le descrizioni dei comandi. Gli altri formati non dispongono di opzioni impostabili.
 
 8 bit per componente pixel restituiti per tutti i formati e `pixelTypes[7]`.
 

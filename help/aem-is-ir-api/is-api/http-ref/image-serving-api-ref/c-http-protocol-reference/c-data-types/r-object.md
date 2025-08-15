@@ -37,7 +37,7 @@ Specificatore oggetto di Source. Gli oggetti profilo immagine, SVG e ICC possono
  </tr> 
 </table>
 
-*`rootId`* identifica un catalogo immagini. Per ulteriori dettagli, vedere [Catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3). Se *`rootId`* è specificato nel percorso URL, tale catalogo diventerà il *catalogo principale* per questa richiesta. In caso contrario, viene utilizzato il catalogo predefinito come catalogo principale. Nella stessa richiesta è possibile utilizzare più cataloghi di immagini diversi.
+*`rootId`* identifica un catalogo immagini. Per ulteriori dettagli, vedere [Catalogo immagini](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3). Se nel percorso URL è specificato *`rootId`*, tale catalogo diventerà il *catalogo principale* per questa richiesta. In caso contrario, viene utilizzato il catalogo predefinito come catalogo principale. Nella stessa richiesta è possibile utilizzare più cataloghi di immagini diversi.
 
 Il server presuppone inizialmente che *`rootId`* sia omesso nei comandi `src=`, `mask=` e `icc=` e tenta di trovare una voce di catalogo nel catalogo principale. Il server tenta di utilizzare l&#39;intera stringa *`object`* come *`objId.`*
 
@@ -49,7 +49,7 @@ Sia *`rootId`* che *`objId`* fanno distinzione tra maiuscole e minuscole. *`path
 
 Se si specifica un `/` iniziale, viene eseguita la ricerca nel catalogo predefinito anziché nel catalogo principale. Questa funzione è utile soprattutto quando un percorso esplicito richiede `default::RootPath` anziché `attribute::RootPath` del catalogo principale, ma può anche essere utilizzata per accedere alle voci del catalogo predefinito che altrimenti verrebbero ignorate dalle voci del catalogo principale.
 
-Per informazioni dettagliate sulla conversione di *`path`* in un percorso di file fisico, consultare *Gestione del contenuto* nella *Guida alla configurazione del server*.
+Per informazioni dettagliate sulla conversione di *in un percorso di file fisico, consultare* Gestione del contenuto *nella* Guida alla configurazione del server *`path`*.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Per informazioni dettagliate sulla conversione di *`path`* in un percorso di fil
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility IC (Image Converter).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIF). L&#39;utilità IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato multi-risoluzione PTIF (Dynamic Media pyramid TIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIF da qualsiasi formato di immagine supportato.
 
 ## Esempi {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

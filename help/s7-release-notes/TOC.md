@@ -21,7 +21,7 @@ ht-degree: 0%
 
 + [Note sulla versione più recente](s7rn2017.md)
 + Archivia {#archive-release-notes}
-   + [Versione autunno 2016 di Scene7](s7rnfall2016.md)
+   + [Rilascio di Scene7 - Autunno 2016](s7rnfall2016.md)
    + [Note sulla versione di Scene7 Publishing System 6.10 (maggio 2015)](s7rn610.md)
    + [Note sulla versione di Scene7 Publishing System 6.9 (ottobre 2014)](s7rn69.md)
    + [Note sulla versione di Scene7 Publishing System 6.8 (maggio 2014)](s7rn68.md)

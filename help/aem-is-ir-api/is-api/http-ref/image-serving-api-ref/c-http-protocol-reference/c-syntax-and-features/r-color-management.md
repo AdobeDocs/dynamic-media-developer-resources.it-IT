@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Image Server generalmente tenta di ritardare le conversioni dei colori durante l
 
 >[!NOTE]
 >
->I comandi `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` e `op_saturation=` sono operazioni RGB. Queste operazioni mantengono la fedeltà dei colori solo se lo spazio colore del livello è di tipo pixel RGB. Se diverso da RGB, i dati vengono convertiti in RGB utilizzando la conversione dei colori naïve e il risultato ha una fedeltà dei colori limitata. Lo spazio colore del livello per tali livelli deve essere considerato indeterminato.
+>I comandi `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` e `op_saturation=` sono operazioni di RGB. Queste operazioni mantengono la fedeltà dei colori solo se lo spazio colore del livello è di tipo pixel RGB. Se sono diversi da RGB, i dati vengono convertiti in RGB utilizzando la conversione dei colori naïve e il risultato ha una fedeltà dei colori limitata. Lo spazio colore del livello per tali livelli deve essere considerato indeterminato.
 
 Le opzioni di conversione colore vengono fornite con `icc=` o, se `icc=` non è specificato, con `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` e `attribute::IccDither`.
 
@@ -76,30 +76,30 @@ Al momento sono supportati solo gli spazi di colore CMYK, RGB e in scala di grig
 
 ## Profili colore ICC inclusi {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-Image Server include la maggior parte dei profili ICC Adobe standard nel catalogo immagini predefinito. È possibile accedere a questi profili con i loro nomi comuni (ad esempio, come si vede in Photoshop) o con un identificatore un po’ più breve. Nella tabella seguente sono elencati tutti i profili ICC standard. Quando si fa riferimento a un profilo nel comando `icc=` con il relativo nome comune, gli spazi devono essere codificati come `%20`.
+Image Server include la maggior parte dei profili ICC standard di Adobe nel catalogo immagini predefinito. È possibile accedere a questi profili con i loro nomi comuni (ad esempio, come si vede in Photoshop) o con un identificatore un po’ più breve. Nella tabella seguente sono elencati tutti i profili ICC standard. Quando si fa riferimento a un profilo nel comando `icc=` con il relativo nome comune, gli spazi devono essere codificati come `%20`.
 
 Ulteriori profili possono essere aggiunti ai profili standard nel catalogo predefinito o in un catalogo immagini specifico. Per ulteriori informazioni, consulta la [documentazione sulla mappa del profilo ICC](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c).
 
 >[!NOTE]
 >
->La tabella seguente si applica solo a *Dynamic Medie Hybrid* (in esecuzione in modalità di esecuzione `dynamicmedia`).
+>La tabella seguente si applica solo a *Dynamic Media Hybrid* (in esecuzione in modalità di esecuzione `dynamicmedia`).
 
 | Identificatore | Nome comune | Nome file |
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
 | `AppleRGB` | Apple RGB | AppleRGB.icc |
-| `CIERGB` | CIE RGB | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
+| `CIERGB` | RGB CIE | CIERGB.icc |
+| `ColorMatchRGB` | RGB ColorMatch | ColorMatchRGB.icc |
 | `NTSC` | NTSC, 1953 | NTSC1953.icc |
 | `PAL` | PAL/SECAM | PAL_SECAM.icc |
-| `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
+| `ProPhoto` | RGB ProPhoto | ProPhoto.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | Profilo spazio colore sRgb.icm |
-| `WideGamutRGB` | Wide Gamut RGB | WideGamutRGB.icc |
+| `WideGamutRGB` | RGB ad ampia gamma | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | FOGRA27 rivestito (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | FOGRA39 rivestita (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedFogra39` | FOGRA39 rivestito (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `CoatedGraCol` | GracoL 2006 rivestito (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa FOGRA27 con rivestimento ISO | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Euroscale rivestita | EuroscaleCoated.icc |
@@ -121,7 +121,7 @@ Ulteriori profili possono essere aggiunti ai profili standard nel catalogo prede
 | `WebCoatedGrade5` | Carta rivestita SWOP 2006 Grado 5 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | Web statunitense non rivestito v2 | USWebUncoated.icc |
 
-La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic Medie* (in esecuzione in modalità di esecuzione `dynamicmedia_scene7`).
+La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic Media* (in esecuzione in modalità di esecuzione `dynamicmedia_scene7`).
 
 | Identificatore | Nome comune | Nome file |
 |-- |-- |-- |
@@ -129,16 +129,16 @@ La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
 | `AppleRGB` | Apple RGB | AppleRGB.icc |
 | `CIERGB|CIE RGB` | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
+| `ColorMatchRGB` | RGB ColorMatch | ColorMatchRGB.icc |
 | `NTSC` | NTSC, 1953 | NTSC1953.icc |
 | `PAL` | PAL/SECAM | PAL_SECAM.icc |
-| `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
+| `ProPhoto RGB` | RGB ProPhoto | ProPhoto RGB.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | Profilo spazio colore sRgb.icm |
-| `WideGamutRGB` | Wide Gamut RGB | WideGamutRGB.icc |
+| `WideGamutRGB` | RGB ad ampia gamma | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | FOGRA27 rivestito (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | FOGRA39 rivestita (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedFogra39` | FOGRA39 rivestito (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `Coated GRACoL 2006 (ISO 12647-2:2004)` | GracoL 2006 rivestito (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa FOGRA27 con rivestimento ISO | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale rivestita v2 | EuroscaleCoated.icc |
@@ -162,4 +162,4 @@ La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic
 
 ## Consultate anche {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [&#128279;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)Riferimento mappa ICC 7&rbrace;, [colore=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[International Color Consortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [ICC Map Riferimento](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [colore=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

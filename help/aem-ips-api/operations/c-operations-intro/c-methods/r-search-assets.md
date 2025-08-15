@@ -96,7 +96,7 @@ Limita le dimensioni del set di dati con i parametri `responseFieldArray` o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Scelta dello stato di Publish. </td> 
+   <td colname="col4"> Scelta stato pubblicazione. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -180,7 +180,7 @@ Limita le dimensioni del set di dati con i parametri `responseFieldArray` o `exc
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Se true, le risorse dei sottoprodotti generate durante l’acquisizione di una risorsa principale, ad esempio le immagini di pagina di PDF strappate, vengono escluse dai risultati della ricerca. Il valore predefinito è false. </td> 
+   <td colname="col4"> Se true, le risorse dei sottoprodotti generate durante l’acquisizione di una risorsa principale, come le immagini di pagina PDF copiate da CD, vengono escluse dai risultati della ricerca. Il valore predefinito è false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 

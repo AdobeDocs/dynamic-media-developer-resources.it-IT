@@ -24,9 +24,9 @@ Sempre associato a un&#39;immagine. È possibile ottenere una destinazione `Imag
 |---|---|---|
 | imageMapHandle | `xsd:string` | Handle mappa immagine. |
 | [!DNL name] | `xsd:string` | Nome mappa immagine. |
-| [!DNL region] | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo tag HTML `<area>`. |
+| [!DNL region] | `xsd:string` | Coordinate mappa immagine. Il formato è basato sull&#39;attributo tag `<area>` di HTML. |
 | [!DNL action] | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l&#39;URL `href`. |
 | shapeType | `xsd:boolean` | Un valore [!DNL RegionShape]. |
-| [!DNL position] | `xsd:string` | Posizione nel formato dell&#39;attributo [!DNL coords] dell&#39;elemento HTML `<area>`. Esempio: `coords ="0,0,84,128"`. |
+| [!DNL position] | `xsd:string` | Posizione nel formato dell&#39;attributo `<area>` dell&#39;elemento [!DNL coords] di HTML. Esempio: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True se la mappa immagine è abilitata. |
 | lastModified | `xsd:dateTime` | Data e ora dell&#39;ultima modifica apportata alla mappa immagine. |

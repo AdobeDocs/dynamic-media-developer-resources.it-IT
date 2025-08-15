@@ -22,7 +22,7 @@ Importante È necessario riservare una quantità sufficiente di spazio su disco 
 
 [!DNL Platform Server] e Image Server creano i tre tipi di file di registro descritti di seguito.
 
-Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Medie, come i visualizzatori Dynamic Medie, possono creare file di registro nella stessa cartella. Questi file di registro sono per uso interno di Dynamic Medie e possono essere richiesti dal supporto tecnico Dynamic Medie per la risoluzione dei problemi.
+Anche altri componenti Image Server e alcuni altri pacchetti Dynamic Media, come i visualizzatori Dynamic Media, possono creare file di registro nella stessa cartella. Questi file di registro sono per uso interno di Dynamic Media e possono essere richiesti dal supporto tecnico di Dynamic Media per la risoluzione dei problemi.
 
 * [Registro di accesso](c-access-log.md)
 * [Registro traccia](c-trace-log.md)

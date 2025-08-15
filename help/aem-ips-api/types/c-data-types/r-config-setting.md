@@ -1,5 +1,5 @@
 ---
-description: Utilizzato solo dagli sviluppatori di Dynamic Medie.
+description: Utilizzato solo dagli sviluppatori Dynamic Media.
 solution: Experience Manager
 title: ConfigurazioneImpostazione
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ConfigSetting]{#configsetting}
 
-Utilizzato solo dagli sviluppatori di Dynamic Medie.
+Utilizzato solo dagli sviluppatori Dynamic Media.
 
 Sintassi
 

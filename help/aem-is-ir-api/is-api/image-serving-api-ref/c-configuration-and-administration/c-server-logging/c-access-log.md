@@ -20,6 +20,6 @@ Il registro di accesso è configurato in server.xml.
 
 >[!NOTE]
 >
->Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il log degli accessi può includere un certo traffico interno: accesso al sistema di catalogo [!DNL Platform Server] ( [!DNL /is-catalog/*]), condivisione cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti in [!DNL Platform Server], ad esempio visualizzatori Dynamic Medie ( [!DNL /is-viewers/*]), traffico statico e richieste di contenuto statico gestite da [!DNL Platform Server] (ad esempio [!DNL /is-docs/*]).
+>Oltre al traffico client per Image Server ( [!DNL /is/image/*]) e Image Rendering ( [!DNL /ir/render/*]), il log degli accessi può includere un certo traffico interno: accesso al sistema di catalogo [!DNL Platform Server] ( [!DNL /is-catalog/*]), condivisione cache e richieste di reindirizzamento degli errori ( [!DNL /is/cache/*]), accesso ad altri pacchetti distribuiti in [!DNL Platform Server], ad esempio visualizzatori Dynamic Media ( [!DNL /is-viewers/*]), traffico statico e richieste di contenuto statico gestite da [!DNL Platform Server] (ad esempio [!DNL /is-docs/*]).
 
 Le richieste con [!DNL /is-catalog] e [!DNL /is/cache] percorsi principali devono sempre essere escluse dall&#39;analisi del traffico client.

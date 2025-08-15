@@ -1,5 +1,5 @@
 ---
-description: Proprietà di una risorsa SWF del visualizzatore.
+description: Proprietà di una risorsa del file SWF del visualizzatore.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Proprietà di una risorsa SWF del visualizzatore.
+Proprietà di una risorsa del file SWF del visualizzatore.
 
 Sintassi
 

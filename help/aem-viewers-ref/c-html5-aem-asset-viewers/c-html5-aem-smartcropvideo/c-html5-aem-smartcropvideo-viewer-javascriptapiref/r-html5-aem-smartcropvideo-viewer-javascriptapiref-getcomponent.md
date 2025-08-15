@@ -28,7 +28,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatore </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome classe componente SDK visualizzatore </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -77,7 +77,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Condivisione social </span> di <span class="codeph"> </p> </td> 
+   <td colname="col1"> <p> Condivisione social <span class="codeph"> di </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
@@ -103,10 +103,10 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare uno spazio dei nomi SDK completo e corretto, come descritto in [Spazio dei nomi SDK per visualizzatori]
+Quando si utilizzano le API di SDK, è importante utilizzare uno spazio dei nomi SDK completo corretto, come descritto in [Spazio dei nomi SDK del visualizzatore]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
-Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API di Viewer SDK.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

@@ -1,7 +1,7 @@
 ---
 description: Compensazione punto nero. Specifica se la compensazione del punto nero deve essere applicata alle conversioni di colore quando non viene effettuata alcuna selezione esplicita con icc=.
 solution: Experience Manager
-title: Compensazione punto nero Icc
+title: Compensazione IccBlackPoint
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9cf6a415-cc82-40e9-a8b9-a687ca95560e
@@ -12,13 +12,13 @@ ht-degree: 4%
 
 ---
 
-# Compensazione punto nero Icc{#iccblackpointcompensation}
+# Compensazione IccBlackPoint{#iccblackpointcompensation}
 
 Compensazione punto nero. Specifica se la compensazione del punto nero deve essere applicata alle conversioni di colore quando non viene effettuata alcuna selezione esplicita con icc=.
 
 ## Proprietà {#section-ea27b8089b89468bbc38e9e7154ea413}
 
-Bandiera. Impostate questo valore su 0 per disattivare o su 1 per attivare la compensazione del punto nero.
+Bandiera. Imposta su 0 per disabilitare o su 1 per abilitare la compensazione del punto nero.
 
 ## Predefinito {#section-0d79b203be4c434f927b7c03c7a0062d}
 

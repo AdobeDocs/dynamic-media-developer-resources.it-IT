@@ -22,12 +22,12 @@ Formato immagine di risposta. Specifica il formato di codifica dell&#39;immagine
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> formato </span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>Lossy JPEG. </p> </td> 
+  <td class="stentry"> <p>Perdita di JPEG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>Perdita JPG-. </p> </td> 
+  <td class="stentry"> <p>Perdita di JPG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -52,12 +52,12 @@ Formato immagine di risposta. Specifica il formato di codifica dell&#39;immagine
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>Lossy JPEG incorporato in un file SWF di Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG con perdita incorporata in un file SWF Macromedia. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alfa </p> </td> 
-  <td class="stentry"> <p>Lossy JPEG e una maschera deflata compressa incorporati in un file SWF di Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG con perdita di dati e una maschera compressa deflata incorporata in un file SWF Macromedia. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -82,7 +82,7 @@ Formato immagine di risposta. Specifica il formato di codifica dell&#39;immagine
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
   <td class="stentry"> <p>rgb </p> </td> 
-  <td class="stentry"> <p>Restituisci dati immagine RGB. </p> </td> 
+  <td class="stentry"> <p>Restituire i dati immagine RGB. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -169,7 +169,7 @@ Nella tabella seguente sono elencate le combinazioni valide di *`format`* e *`pi
    <td colname="col1"> <p>swf, swf-alfa </p> </td> 
    <td colname="col2"> <p>rgb, grigio </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>No </p> <p>Il Flash Player ignora i profili ICC incorporati. </p> </td> 
+   <td colname="col4"> <p>No </p> <p>Flash Player ignora i profili ICC incorporati. </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, attributo <span class="codeph">::DominiAttendibili </span> </p> </td> 
   </tr> 
   <tr> 

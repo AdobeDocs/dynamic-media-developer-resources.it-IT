@@ -1,5 +1,5 @@
 ---
-description: I componenti Image Server sono gestiti dal Supervisore server, che è un daemon Linux o un servizio Windows (S7Supervisor.exe, elencato come 'Dynamic Medie Image Server' nel Pannello di controllo Campaign Servizi).
+description: I componenti Image Server sono gestiti dal Supervisore server, che è un daemon Linux o un servizio Windows (S7Supervisor.exe, elencato come 'Dynamic Media Image Server' nel Pannello di controllo Campaign Services).
 solution: Experience Manager
 title: Supervisore server
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Supervisore server{#server-supervisor}
 
-I componenti Image Server sono gestiti dal Supervisore server, che è un daemon Linux o un servizio Windows (S7Supervisor.exe, elencato come &#39;Dynamic Medie Image Server&#39; nel Pannello di controllo Campaign Servizi).
+I componenti Image Server sono gestiti dal Supervisore server, che è un daemon Linux o un servizio Windows (S7Supervisor.exe, elencato come &#39;Dynamic Media Image Server&#39; nel Pannello di controllo Campaign Services).
 
 Oltre ad avviare e arrestare altri componenti di Image Server, il Supervisore server è responsabile della loro integrità. In caso di arresto anomalo di un componente, questo viene riavviato automaticamente per ridurre al minimo le interruzioni del servizio.
 

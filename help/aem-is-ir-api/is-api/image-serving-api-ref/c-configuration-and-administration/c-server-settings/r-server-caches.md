@@ -22,7 +22,7 @@ Cartelle radice per la cache su disco di [!DNL Platform Server]. Uno o più perc
 
 ## PS::cache.maxSize - Response Data Cache Size {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-Dimensione massima della cache di risposta HTTP in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (Vedi [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se si specificano più cartelle di dati della cache, i dati della cache vengono distribuiti in modo uniforme in tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è in byte.
+Dimensione massima della cache di risposta HTTP in byte. Questa impostazione limita la quantità di dati effettivi da memorizzare nella cache; non considera il sovraccarico del file system. (Vedi [Cache dei dati di risposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se sono specificate più cartelle di dati della cache, i dati della cache vengono distribuiti in modo uniforme in tutte le cartelle. Il valore di `cache.maxSize` in [!DNL PlatformServer.conf] è in byte.
 
 ## PS::cache.maxEntries - Max voci cache dati risposta {#section-5603e327e90542a5b50aeeb27b080410}
 

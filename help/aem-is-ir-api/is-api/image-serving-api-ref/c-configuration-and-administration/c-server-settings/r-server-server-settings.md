@@ -52,7 +52,7 @@ Alcuni sistemi operativi dispongono di modelli di threading con un elevato sovra
 
 ## IS::NumberOfTextServers - Numero di istanze del server di testo {#section-971e20a90c1a473598fba738ed95671a}
 
-Numero massimo di renderer di testo attivi contemporaneamente. 0 (valore predefinito) equivale a 1,5 volte il numero di core della CPU disponibili.
+Numero massimo di renderer di testo attivi contemporaneamente. 0 (valore predefinito) equivale a 1,5 volte il numero di core CPU disponibili.
 
 ## IS::TextServerTcpPortRange - Porte di comunicazione server di testo {#section-a13465de88ed4df09931e5ba840c1942}
 

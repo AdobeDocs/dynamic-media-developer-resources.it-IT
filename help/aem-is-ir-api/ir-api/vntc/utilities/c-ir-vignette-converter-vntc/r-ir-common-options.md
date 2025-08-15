@@ -19,7 +19,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
 <table id="simpletable_3BFC3737C891411D84405CEEF6B19542"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> stringa </span> </span> </p> </td> 
-  <td class="stentry"> <p>Cartella in cui inserire i file di output (incluso il file di log, se <span class="codeph"> -log </span> è specificato). Può essere un percorso assoluto o relativo della directory di lavoro corrente. La gerarchia di cartelle viene creata se non esiste, ma non si applica al file specificato con <span class="codeph"> -log </span>. Se non specificato, i file di output vengono scritti nella cartella in cui si trova il file di origine </span> di <span class="varname">. Se si specifica <span class="varname"> destFile </span>, verrà scritto sempre in tale posizione e <span class="codeph"> -destpath </span> verrà applicato solo ai file di output secondari. </p> </td> 
+  <td class="stentry"> <p>Cartella in cui inserire i file di output (incluso il file di log, se <span class="codeph"> -log </span> è specificato). Può essere un percorso assoluto o relativo della directory di lavoro corrente. La gerarchia di cartelle viene creata se non esiste, ma non si applica al file specificato con <span class="codeph"> -log </span>. Se non specificato, i file di output vengono scritti nella cartella in cui si trova il file di origine <span class="varname"> di </span>. Se si specifica <span class="varname"> destFile </span>, verrà scritto sempre in tale posizione e <span class="codeph"> -destpath </span> verrà applicato solo ai file di output secondari. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -immagine </span> </p> </td> 
@@ -31,7 +31,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Seleziona la codifica JPEG con perdita di dati per i dati immagine RGB e in scala di grigi incorporati nel file di output, anziché PNG senza perdita di dati. Le immagini con alfa (RGBA) vengono sempre salvate utilizzando la codifica PNG. <span class="varname"> ival </span> specifica la qualità JPEG (1...100); si consiglia 85 o superiore. Il valore predefinito è <span class="codeph"> -jpegquality 0 </span>, che seleziona la codifica PNG. </p> </td> 
+  <td class="stentry"> <p>Seleziona la codifica JPEG con perdita di dati per RGB e dati immagine in scala di grigio incorporati nel file di output, invece di PNG senza perdita di dati. Le immagini con alfa (RGBA) vengono sempre salvate utilizzando la codifica PNG. <span class="varname"> ival </span> specifica la qualità JPEG (1...100); si consiglia 85 o superiore. Il valore predefinito è <span class="codeph"> -jpegquality 0 </span>, che seleziona la codifica PNG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> percorso </span> </span> </p> </td> 
@@ -39,7 +39,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> - priorità più bassa <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Ridurre la priorità del processo </span> vntc <span class="filepath">. È possibile utilizzare questo processo in modo che <span class="filepath"> vntc </span> non acquisisca un'intera CPU durante l'elaborazione di una vignettatura. Consente al sistema operativo di dare più tempo ad altri processi, più importanti. <span class="varname"> ival </span> specifica la percentuale di priorità inferiore (0..100). Il valore predefinito è <span class="codeph"> -lowerpriority 0 </span>, che non riduce la priorità del processo </span> vntc <span class="filepath">. </p> </td> 
+  <td class="stentry"> <p>Ridurre la priorità del processo <span class="filepath"> vntc </span>. È possibile utilizzare questo processo in modo che <span class="filepath"> vntc </span> non acquisisca un intero CPU durante l'elaborazione di una vignettatura. Consente al sistema operativo di dare più tempo ad altri processi, più importanti. <span class="varname"> ival </span> specifica la percentuale di priorità inferiore (0..100). Il valore predefinito è <span class="codeph"> -lowerpriority 0 </span>, che non riduce la priorità del processo <span class="filepath"> vntc </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
@@ -63,7 +63,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Verifica che la vignettatura specificata sia una vignettatura di produzione corretta. Il flaconcino </span> di <span class="varname"> rappresenta la versione file minima della vignettatura. </p> </td> 
+  <td class="stentry"> <p>Verifica che la vignettatura specificata sia una vignettatura di produzione corretta. Il flaconcino <span class="varname"> di </span> rappresenta la versione file minima della vignettatura. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -versione <span class="varname"> ival </span> </span> </p> </td> 

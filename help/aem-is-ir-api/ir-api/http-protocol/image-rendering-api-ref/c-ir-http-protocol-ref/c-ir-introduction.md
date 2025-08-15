@@ -1,6 +1,6 @@
 ---
 title: Introduzione
-description: Questo documento descrive il protocollo HTTP per Dynamic Medie Image Rendering.
+description: Questo documento descrive il protocollo HTTP per il rendering di immagini Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Introduzione{#introduction}
 
-Questo documento descrive il protocollo HTTP per Dynamic Medie Image Rendering.
+Questo documento descrive il protocollo HTTP per il rendering di immagini Dynamic Media.
 
-Sono descritti solo gli aspetti del protocollo accessibili al pubblico. Il server può supportare comandi aggiuntivi riservati per l&#39;utilizzo da parte del software client Dynamic Medie.
+Sono descritti solo gli aspetti del protocollo accessibili al pubblico. Il server può supportare comandi aggiuntivi riservati per l&#39;utilizzo da parte del software client Dynamic Media.
 
 **Pubblico previsto**
 
-Questo documento è destinato a programmatori esperti e sviluppatori di siti Web che desiderano utilizzare Dynamic Medie Image Rendering per un sito Web o un’applicazione personalizzata.
+Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano utilizzare il rendering di immagini Dynamic Media per un sito web o un’applicazione personalizzata.
 
-Si presume che il lettore abbia familiarità con Dynamic Medie Image Authoring e Image Rendering, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
+Si presume che il lettore abbia familiarità con l’authoring e il rendering delle immagini Dynamic Media, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
 
 **Convenzioni documento**
 
@@ -95,6 +95,6 @@ Si presume che il lettore abbia familiarità con Dynamic Medie Image Authoring e
 
 **Termini comuni**
 
-**&#x200B; *`MSS`* &#x200B;** segmento di specifica materiale: un insieme di attributi di materiale tra due comandi di selezione nella richiesta.
+** *`MSS`* ** segmento di specifica materiale: un insieme di attributi di materiale tra due comandi di selezione nella richiesta.
 
-**&#x200B; *`vignette`* &#x200B;** Immagine preparata in Dynamic Medie Image Authoring per l&#39;utilizzo con Image Rendering.
+** *`vignette`* ** Immagine preparata in Dynamic Media Image Authoring per l&#39;utilizzo con Image Rendering.

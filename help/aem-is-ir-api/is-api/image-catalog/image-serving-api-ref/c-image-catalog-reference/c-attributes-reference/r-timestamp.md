@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Il valore di ora *`hh`* è compreso nell&#39;intervallo tra 0 e 23.
 
 Il valore di ora *`zzz`* è un codice di fuso orario di tre o quattro caratteri, ad esempio `GMT` o `PST`. L&#39;ora legale deve essere considerata nel codice del fuso orario (ad esempio, `PST` per l&#39;ora solare Pacifico rispetto a `PDT` per l&#39;ora legale Pacifico).
 
-Il valore di ora *`offset`* è uno scostamento del fuso orario espresso in ore o ore:minuti, relativo a GMT. `PDT`, ad esempio, equivale a `GMT -7`.
+Il valore di ora *`offset`* è uno scostamento del fuso orario in ore o ore:minutes, relativo a GMT. `PDT`, ad esempio, equivale a `GMT -7`.
 
 Tutti gli elementi dei valori di data/ora in formato stringa devono essere presenti. Se il valore data/ora non è formattato correttamente, viene ignorato e viene utilizzata l&#39;ora di modifica del file [!DNL *`catalog`*.ini].
 

@@ -19,7 +19,7 @@ Visualizzatore di file multimediali diversi è un visualizzatore di file multime
 
 Una miniatura nella parte inferiore del visualizzatore rappresenta ogni elemento del set di file multimediali insieme al relativo indicatore del tipo di risorsa. Quando viene selezionato un elemento del set di campioni, viene visualizzata una riga secondaria di campioni che consente di selezionare la variazione di colore all&#39;interno del set di campioni. Le immagini e gli elementi del set di campioni supportano lo zoom in modalità continua o in linea; i set 360 gradi supportano sia lo zoom che la rotazione. I video e i set video adattivi supportano tutti i controlli di riproduzione di base, purché tutti i sottotitoli facoltativi vengano visualizzati sopra il contenuto video. L’utente può passare alla modalità a schermo intero in qualsiasi momento facendo clic sul pulsante. Il visualizzatore ha un pulsante di chiusura opzionale. È progettato per funzionare su desktop e dispositivi mobili.
 
-Il visualizzatore di file multimediali diversi utilizza la riproduzione video in streaming HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
+Il visualizzatore di file multimediali diversi utilizza la riproduzione di video in streaming HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming su HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## Utilizzo del visualizzatore di file multimediali diversi {#section-f21ac23d3f6449ad9765588d69584772}
 
-Il visualizzatore di file multimediali diversi rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il visualizzatore di file multimediali diversi rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 È possibile utilizzare il visualizzatore di file multimediali diversi in modalità pop-up utilizzando la pagina HTML pronta per la produzione fornita con i visualizzatori IS. In alternativa, puoi utilizzare il visualizzatore in modalità incorporata, dove viene integrato in una pagina web di destinazione utilizzando l’API documentata.
 
@@ -65,7 +65,7 @@ Il visualizzatore di file multimediali diversi supporta i gesti single-touch e m
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tocco e tenere premuto </p> </td> 
-   <td colname="col2"> <p> In modalità zoom </span> inline <span class="codeph"> attiva l'immagine ingrandita. </p> </td> 
+   <td colname="col2"> <p> In modalità zoom <span class="codeph"> inline </span> attiva l'immagine ingrandita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pizzicare </p> </td> 
@@ -149,7 +149,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -187,9 +187,9 @@ Il percorso relativo è simile al seguente:
 
    Puoi vedere il comportamento con un’area visualizzatore esterna fissa nella seguente pagina di esempio. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7mixedmediaviewer .s7container` o il modificatore `stagesize`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7mixedmediaviewer .s7container` o il modificatore `stagesize`.
 
    Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
@@ -202,7 +202,7 @@ Il percorso relativo è simile al seguente:
 
    Nella pagina di esempio seguente viene illustrato il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    È possibile impostare il modificatore `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic oppure trasmetterlo in modo esplicito con il codice di inizializzazione del visualizzatore nella raccolta `params`. Oppure, come chiamata API come descritto nella sezione Riferimento comando di questa Guida, come nei seguenti casi:
 
@@ -329,7 +329,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Dimensione flessibile che incorpora con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 

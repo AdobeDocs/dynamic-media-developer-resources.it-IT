@@ -26,15 +26,15 @@ Metodo di ricampionamento. Seleziona l&#39;algoritmo di ricampionamento e/o inte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona l'interpolazione bicubica. L'interpolazione è più intensiva della CPU rispetto a quella bilineare, ma produce immagini più nitide con meno artefatti di aliasing. </p> </td> 
+   <td colname="col2"> <p>Seleziona l'interpolazione bicubica. L'interpolazione è più intensiva di CPU rispetto a quella bilineare, ma produce immagini più nitide con meno artefatti di aliasing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona una funzione Finestra di Lanczo modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto a bicubic con un costo di CPU più elevato. </p> <p> <span class="codeph"> </span> è stato sostituito da <span class="codeph"> </span>, che ha meno probabilità di causare artefatti di alias, noti anche come Moiré. </p> </td> 
+   <td colname="col2"> <p>Seleziona una funzione Finestra di Lanczo modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto a bicubic a un costo CPU più elevato. </p> <p> <span class="codeph"> </span> è stato sostituito da <span class="codeph"> </span>, che ha meno probabilità di causare artefatti di alias, noti anche come Moiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vescovo </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona il ricampionatore predefinito </span> di Adobe Photoshop <span class="keyword"> per la riduzione delle dimensioni dell'immagine, denominato "bicubic sharper" in <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col2"> <p>Seleziona il ricampionatore predefinito <span class="keyword"> di Adobe Photoshop </span> per la riduzione delle dimensioni dell'immagine, denominato "bicubic sharper" in <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

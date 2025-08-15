@@ -18,7 +18,7 @@ Tutti i file di configurazione si trovano in `install_folder/conf` e sono modifi
 
 >[!NOTE]
 >
->La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi non descritti in questo documento. Tali proprietà sono destinate all&#39;uso interno del server e non devono essere modificate se non dietro istruzione del supporto tecnico Dynamic Medie.
+>La maggior parte dei file di configurazione del server contiene proprietà e valori aggiuntivi non descritti in questo documento. Tali proprietà sono destinate all’uso interno del server e non devono essere modificate se non dietro istruzione del supporto tecnico Dynamic Media.
 
 Questo documento illustra le impostazioni per i seguenti file di configurazione:
 

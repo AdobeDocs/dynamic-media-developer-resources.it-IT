@@ -18,7 +18,7 @@ Qualità predefinita codifica JPEG. Specifica l&#39;impostazione di qualità pre
 
 ## Proprietà {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1..100 e definisce la qualità. Il secondo valore può essere `0` per il comportamento normale o `1` per disabilitare il downsampling della cromaticità utilizzato dai codificatori JPEG.
+Numero intero e flag, separati da una virgola. Il primo valore è compreso nell&#39;intervallo 1..100 e definisce la qualità. Il secondo valore può essere `0` per il comportamento normale o `1` per disabilitare il downsampling della cromaticità utilizzato dagli encoder JPEG.
 
 ## Predefinito {#section-60900c0fb8c54444b2361513232514db}
 

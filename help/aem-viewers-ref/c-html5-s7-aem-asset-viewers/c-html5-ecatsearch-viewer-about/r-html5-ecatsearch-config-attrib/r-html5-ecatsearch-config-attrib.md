@@ -18,7 +18,7 @@ Documentazione sugli attributi di configurazione per il visualizzatore eCatalog.
 
 Qualsiasi comando di configurazione può essere impostato nell&#39;URL o utilizzando `setParam()`, `setParams()` o entrambi i metodi API. È inoltre possibile specificare qualsiasi attributo di configurazione specificato nel record di configurazione lato server.
 
-Alcuni comandi di configurazione possono essere preceduti dal nome della classe o dell’istanza del componente SDK del visualizzatore corrispondente. Il nome di istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore passato al metodo API `setContainerId()`. La documentazione include un prefisso facoltativo per tali comandi. Ad esempio, il comando `zoomstep` è documentato come segue:
+Alcuni comandi di configurazione possono essere preceduti dal nome della classe o dell&#39;istanza del componente SDK del visualizzatore corrispondente. Il nome di istanza del componente è dinamico e dipende dall&#39;ID dell&#39;elemento DOM del contenitore del visualizzatore passato al metodo API `setContainerId()`. La documentazione include un prefisso facoltativo per tali comandi. Ad esempio, il comando `zoomstep` è documentato come segue:
 
 `[PageView.|<containerId>_pageView].zoomstep`
 

@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Guida di riferimento per i visualizzatori di Dynamic Medie
+user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
-user-guide-description: Personalizza i visualizzatori Dynamic Medie da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
+user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
 source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
@@ -11,9 +11,9 @@ ht-degree: 0%
 ---
 
 
-# Guida di riferimento per i visualizzatori di Dynamic Medie {#library}
+# Guida di riferimento per i visualizzatori Dynamic Media {#library}
 
-+ [Guida di riferimento per i visualizzatori di Dynamic Medie](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it) -->
++ [Guida di riferimento per i visualizzatori Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Esempi di librerie visualizzatore](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisiti di sistema](c-system-requirements-and-prerequisites.md)
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
@@ -36,7 +36,7 @@ ht-degree: 0%
       + [Note sulla versione dei visualizzatori (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Note sulla compatibilità](c-compatibility-notes.md)
 + [Accessibilità della tastiera e navigazione](c-keyboard-accessibility.md)
-+ [Tutorial sull’SDK per visualizzatori](c-tutorial.md)
++ [Tutorial su Viewer SDK](c-tutorial.md)
 + Visualizzatori per AEM Assets e Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Visualizzatori per AEM Assets e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Zoom di base {#basic-zoom}
@@ -87,7 +87,7 @@ ht-degree: 0%
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-      + Riferimento comando - Attributi di configurazione {#command-reference-configuration-attributes-ecatalog}
+      + Riferimento comando - Configuration-attributes {#command-reference-configuration-attributes-ecatalog}
          + [Riferimento comando - Attributi di configurazione](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib.md)
          + [Closebutton](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-controlbar-transition.md)
@@ -152,7 +152,7 @@ ht-degree: 0%
          + [Scarica](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-download.md)
          + [Condivisione e-mail](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-emailshare.md)
          + [Incorpora condivisione](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-embedshare.md)
-         + [Condivisione facebook](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-facebookshare.md)
          + [Menu Preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesmenu.md)
          + [Effetto Preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoriteseffect.md)
          + [Visualizzazione Preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesview.md)
@@ -180,7 +180,7 @@ ht-degree: 0%
          + [Miniature](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnails.md)
          + [Pulsante Miniature](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnailsbutton.md)
          + [Descrizione](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
          + [Pulsante Visualizza tutti i preferiti](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-viewallfavorites.md)
          + [Pulsante Zoom in](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoominbutton.md)
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomoutbutton.md)
@@ -268,7 +268,7 @@ ht-degree: 0%
          + [Scarica](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-download.md)
          + [Condivisione e-mail](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-emailshare.md)
          + [Incorpora condivisione](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-embedshare.md)
-         + [Condivisione facebook](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-facebookshare.md)
          + [Effetto Preferiti](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoriteseffect.md)
          + [Menu Preferiti](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesmenu.md)
          + [Visualizzazione Preferiti](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesview.md)
@@ -299,7 +299,7 @@ ht-degree: 0%
          + [Miniature](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnails.md)
          + [Pulsante Miniature](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnailsbutton.md)
          + [Descrizione](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
          + [Pulsante Visualizza tutti i preferiti](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-viewallfavorites.md)
          + [Pulsante Zoom in](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoominbutton.md)
          + [Pulsante Zoom out](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomoutbutton.md)
@@ -466,7 +466,7 @@ ht-degree: 0%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + Riferimento API di JavaScript per il visualizzatore di file multimediali diversi {#jsapi-mixed-media}
+      + Guida di riferimento dell’API JavaScript per il visualizzatore di file multimediali diversi {#jsapi-mixed-media}
          + [Guida di riferimento dell’API JavaScript per il visualizzatore di file multimediali diversi](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [eliminare](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -514,7 +514,7 @@ ht-degree: 0%
       + [Localizzazione degli elementi dell’interfaccia utente](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
       + [Supporto a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
-   + Ruota {#spin}
+   + Spin {#spin}
       + [Visualizzatore rotazione](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
       + Riferimento comando - Attributi di configurazione {#command-reference-configuration-attributes-spin}
          + [Riferimento comando - Attributi di configurazione](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib.md)
@@ -594,7 +594,7 @@ ht-degree: 0%
          + [navigazione](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + Riferimento API di JavaScript al Visualizzatore video {#jsapi-video}
+      + Riferimento API di JavaScript per Visualizzatore video {#jsapi-video}
          + [Riferimento API di JavaScript per il visualizzatore video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [eliminare](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
@@ -614,7 +614,7 @@ ht-degree: 0%
          + [Barra di controllo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
          + [Condivisione e-mail](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-emailshare.md)
          + [Incorpora condivisione](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-embedshare.md)
-         + [Condivisione facebook](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-focushighlight.md)
          + [pulsante a schermo intero](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-iconeffect.md)
@@ -624,7 +624,7 @@ ht-degree: 0%
          + [Pulsante Riproduci/Pausa](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-playpausebutton.md)
          + [Condivisione social](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-socialshare.md)
          + [Descrizione](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-twittershare.md)
          + [Lettore video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoplayer.md)
          + [Scorrimento video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoscrubber.md)
          + [Tempo video](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videotime.md)
@@ -751,7 +751,7 @@ ht-degree: 0%
       + Riferimento comando - URL {#command-reference-interactive-images}
          + [Riferimento comando - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [precaricamento](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + Riferimento API di JavaScript per il visualizzatore di immagini interattivo {#jsapi-interactive-image}
+      + Guida di riferimento dell&#39;API JavaScript per il visualizzatore interattivo di immagini {#jsapi-interactive-image}
          + [Guida di riferimento dell&#39;API JavaScript per il visualizzatore interattivo di immagini](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [eliminare](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -821,7 +821,7 @@ ht-degree: 0%
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [navigazione](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + Riferimento API JavaScript per il visualizzatore video interattivo {#jsapi-interactive-video}
+      + Guida di riferimento dell&#39;API JavaScript per il visualizzatore video interattivo {#jsapi-interactive-video}
          + [Guida di riferimento dell&#39;API JavaScript per il visualizzatore video interattivo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [eliminare](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -836,10 +836,10 @@ ht-degree: 0%
       + [Callback di eventi](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
       + Personalizzare il visualizzatore video interattivo {#customizing-interactive-video}
          + [Personalizzare il visualizzatore video interattivo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
-         + [Invito all’azione](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
+         + [Call to action](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Pulsante Didascalia](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
          + [Barra di controllo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-controlbar.md)
-         + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-focushighlight.md)
          + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-iconeffect.md)
@@ -850,7 +850,7 @@ ht-degree: 0%
          + [Pulsante Riproduci/Pausa](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-playpausebutton.md)
          + [Condivisione social](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-socialshare.md)
          + [Descrizione](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-twittershare.md)
          + [Lettore video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoplayer.md)
          + [Scorrimento video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoscrubber.md)
          + [Tempo video](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
@@ -905,13 +905,13 @@ ht-degree: 0%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md)
          + [SmartCropVideoViewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md)
       + [Callback di eventi](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md)
-      + Personalizzare il Visualizzatore video ritaglio avanzato {#customizing-smartcropvideo}
+      + Personalizzare il visualizzatore ritaglio video automatico {#customizing-smartcropvideo}
          + [Personalizzare il visualizzatore ritaglio video automatico](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md)
          + [Pulsante Didascalia](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-captionbutton.md)
          + [Barra di controllo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-controlbar.md)
          + [Condivisione e-mail](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-emailshare.md)
          + [Incorpora condivisione](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
-         + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
          + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
@@ -921,7 +921,7 @@ ht-degree: 0%
          + [Pulsante Riproduci/Pausa](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-playpausebutton.md)
          + [Condivisione social](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-socialshare.md)
          + [Descrizione](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
          + [Scorrimento video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videoscrubber.md)
          + [Tempo video](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videotime.md)
       + [Supporto per il tracciamento di Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-sitecatalystracking.md)
@@ -931,7 +931,7 @@ ht-degree: 0%
       + [supporto a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
       + [Supporto video esterno](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
       + [Spazio dei nomi SDK per visualizzatori](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
-   + Video360 {#video360}
+   + Video 360 {#video360}
       + [Video 360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + Riferimento comando - Attributi di configurazione {#command-reference-configuration-attributes-video360}
          + [Riferimento comando - Attributi di configurazione](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
@@ -975,7 +975,7 @@ ht-degree: 0%
          + [Personalizzare il visualizzatore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Barra di controllo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [Incorpora condivisione](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
-         + [Condivisione facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
+         + [Condivisione Facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
          + [Evidenziazione focus](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
          + [pulsante a schermo intero](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-fullscreenbutton.md)
          + [Effetto icona](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-iconeffect.md)
@@ -985,7 +985,7 @@ ht-degree: 0%
          + [Pulsante Riproduci/Pausa](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-playpausebutton.md)
          + [Condivisione social](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-socialshare.md)
          + [Descrizione](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-tooltips.md)
-         + [Condivisione twitter](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
+         + [Condividi su Twitter](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
          + [Lettore Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [Scorrimento video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Tempo video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)

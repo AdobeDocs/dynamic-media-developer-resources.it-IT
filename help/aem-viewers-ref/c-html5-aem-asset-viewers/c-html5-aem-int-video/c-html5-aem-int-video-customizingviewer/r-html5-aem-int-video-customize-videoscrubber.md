@@ -1,6 +1,6 @@
 ---
-title: Scorrimento video
-description: Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all’utente di cercare dinamicamente una posizione temporale all’interno del video attualmente in riproduzione.
+title: Video scrubber
+description: Lo scorrimento video è il controllo cursore orizzontale che consente a un utente di cercare dinamicamente qualsiasi posizione temporale all'interno del video attualmente in riproduzione.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Scorrimento video{#video-scrubber}
+# Video scrubber{#video-scrubber}
 
-Lo scorrimento video è il dispositivo di scorrimento orizzontale che consente all’utente di cercare dinamicamente una posizione temporale all’interno del video attualmente in riproduzione.
+Lo scorrimento video è il controllo cursore orizzontale che consente a un utente di cercare dinamicamente qualsiasi posizione temporale all&#39;interno del video attualmente in riproduzione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La &quot;manopola&quot; di scorrimento si sposta anche durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile applicare lo skin al video scrubber e modificarne l’altezza e la posizione verticale, mediante CSS.
+Anche la &quot;manopola&quot; dello scorrimento si muove durante la riproduzione del video per indicare la posizione temporale corrente del video durante la riproduzione. Lo scorrimento video occupa sempre l&#39;intera larghezza della barra di controllo. È possibile applicare lo skin al video scrubber e modificarne l’altezza e la posizione verticale, mediante CSS.
 
 L’aspetto generale dello scorrimento dei video è controllato dal seguente selettore di classe CSS:
 
@@ -37,21 +37,21 @@ L’aspetto generale dello scorrimento dei video è controllato dal seguente sel
    <td colname="col2"> <p>Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dal bordo inferiore, inclusa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
+   <td colname="col2"> <p> Posizione dal basso bordo, compresa l'imbottitura. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dello scorrimento video. </p> </td> 
+   <td colname="col2"> <p>Altezza dello scrubber video. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore dello scorrimento video. </p> </td> 
+   <td colname="col2"> <p>Colore dello scrubber video. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I seguenti selettori di classi CSS tengono traccia degli indicatori di sfondo, riproduzione e caricamento:
+I seguenti selettori di classi CSS tengono traccia degli indicatori di background, riproduzione e caricamento:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7track 
@@ -59,13 +59,13 @@ I seguenti selettori di classi CSS tengono traccia degli indicatori di sfondo, r
 .s7interactivevideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Proprietà CSS del brano**
+**Proprietà CSS della traccia**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza del brano corrispondente. </p> </td> 
+   <td colname="col2"> <p>Altezza della traccia corrispondente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
@@ -101,19 +101,19 @@ Il seguente selettore di classe CSS controlla la manopola:
    <td colname="col2"> <p>Grafica a manopola. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il seguente selettore di classe CSS controlla la bolla del tempo riprodotto:
+La seguente classe CSS selettore controlla l&#39;indicatore del tempo riprodotto:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7videotime
 ```
 
-**Proprietà CSS dell&#39;indicatore del tempo riprodotto**
+**Proprietà CSS della bolla di tempo riprodotta**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -122,32 +122,32 @@ Il seguente selettore di classe CSS controlla la bolla del tempo riprodotto:
    <td colname="col2"> <p> Famiglia di font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> Dimensione font da utilizzare per il testo visualizzato nel tempo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Dimensioni font </span> </p> </td> 
+   <td colname="col2"> <p> Dimensioni font da utilizzare per il testo visualizzato per l'ora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
-   <td colname="col2"> <p> Colore del carattere da utilizzare per il testo visualizzato nel tempo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Colore </span> </p> </td> 
+   <td colname="col2"> <p> Colore font da utilizzare per il testo visualizzato per l'ora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza area bolle. </p> </td> 
+   <td colname="col2"> <p>Larghezza dell'area della bolla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza area bolle. </p> </td> 
+   <td colname="col2"> <p>Altezza dell'area della bolla. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura interna area bolle. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
+   <td colname="col2"> <p>Imbottitura dell'area delle bolle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Illustrazione di bolle. </p> </td> 
+   <td colname="col2"> <p>Grafica a bolle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
+   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> allinea testo </span> </p> </td> 
@@ -158,7 +158,7 @@ Il seguente selettore di classe CSS controlla la bolla del tempo riprodotto:
 
 La descrizione comando dello scorrimento video può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-**Esempio** - Per impostare un visualizzatore video con uno scorrimento video e con colori di traccia personalizzati alti dieci pixel. Posizionarlo a dieci pixel e a 35 pixel dai bordi superiore e sinistro della barra di controllo.
+**Esempio** - Per impostare un visualizzatore video con uno scorrimento video e con colori di traccia personalizzati alti dieci pixel. Posizionalo a dieci pixel e 35 pixel dai bordi superiore e sinistro della barra di controllo.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Quando l&#39;indicatore del capitolo video è abilitato con il parametro `navigation`, le posizioni dei capitoli vengono visualizzate come indicatori sopra la traccia di scorrimento video.
+Quando il marcatore capitolo video è attivato con il `navigation` parametro, le posizioni dei capitoli vengono visualizzate come marcatori nella parte superiore della traccia di scorrimento video.
 
 Il marcatore del capitolo video è controllato dal seguente selettore di classe CSS:
 
@@ -194,8 +194,8 @@ Il marcatore del capitolo video è controllato dal seguente selettore di classe 
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza marcatore capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col2"> <p>Video larghezza dell'indicatore capitolo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
@@ -214,9 +214,9 @@ Il marcatore del capitolo video è controllato dal seguente selettore di classe 
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse a diversi stati di pulsante. In particolare, `selected='default'` corrisponde allo stato predefinito del marcatore del capitolo video e `selected='over'` viene utilizzato quando il marcatore del capitolo video viene attivato con un passaggio del mouse o un movimento di contatto.
+>Questo supporta pulsante il `state` selettore attributo, che potete utilizzare per applicare interfacce diverse a diversi stati pulsante. In particolare, `selected='default'` corrisponde allo stato predefinito del marcatore capitolo video e `selected='over'` viene utilizzato quando il marcatore capitolo video viene attivato con un gesto di passaggio del mouse o di tocco.
 
-**Esempio** - Per impostare un marcatore di capitolo video di 5 x 8 pixel e utilizzare un&#39;immagine diversa per lo stato &quot;predefinito&quot; e &quot;sopra&quot;.
+**Esempio** : per impostare un marcatore capitolo video di 5 x 8 pixel e con grafica diversa per lo stato &quot;Predefinito&quot; e &quot;Sopra&quot;.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7navigation { 
@@ -231,9 +231,9 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
 }
 ```
 
-La bolla dei capitoli video è posizionata sopra il marcatore dei capitoli video e mostra il titolo, l’ora di inizio e la descrizione di un determinato capitolo. È possibile controllare la larghezza massima della bolla e l&#39;offset verticale rispetto alla traccia di scorrimento video. Il resto viene calcolato automaticamente dal componente.
+Video fumetto del capitolo è posizionato sopra l&#39;indicatore del capitolo video e mostra il titolo, l&#39;ora di inizio e la descrizione di un determinato capitolo. È possibile controllare la larghezza massima della bolla e l&#39;offset verticale rispetto alla traccia di scorrimento video. Il resto viene calcolato automaticamente dal componente.
 
-La bolla dei capitoli video è controllata dal seguente selettore di classe CSS:
+Il fumetto del capitolo video è controllato dalla seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter
@@ -244,11 +244,11 @@ La bolla dei capitoli video è controllata dal seguente selettore di classe CSS:
 <table id="table_7F33738422F84978B9132495F67C2156"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza max </span> </p> </td> 
-   <td colname="col2"> <p>Larghezza massima della bolla del capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza massima </span> </p> </td> 
+   <td colname="col2"> <p>Larghezza massima del fumetto del capitolo video. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
    <td colname="col2"> <p>Offset verticale dalla traccia di scorrimento video. </p> </td> 
   </tr> 
  </tbody> 
@@ -289,12 +289,12 @@ L’intestazione è controllata dal seguente selettore di classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
-   <td colname="col2"> <p>Altezza riga testo intestazione capitolo video. </p> </td> 
+   <td colname="col2"> <p>Video altezza riga del testo dell'intestazione del fumetto del capitolo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** - Per impostare un&#39;intestazione a bolla di capitolo video alta 22 pixel, con un&#39;altezza di linea di 22 pixel, un margine orizzontale di 12 pixel e uno sfondo grigio.
+**Esempio** : per impostare un&#39;intestazione a fumetto del capitolo video alta 22 pixel, un&#39;altezza della linea di 22 pixel, un margine orizzontale di 12 pixel e uno sfondo grigio.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -305,7 +305,7 @@ background-color: rgba(51, 51, 51, 0.8);
 }
 ```
 
-L’ora di inizio del capitolo video è controllata dal seguente selettore di classe CSS:
+L&#39;ora di inizio del capitolo video è controllata dalla seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7starttime
@@ -360,12 +360,12 @@ Il titolo del capitolo video è controllato dal seguente selettore di classe CSS
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
-   <td colname="col2"> <p>Colore testo titolo capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Colore </span> </p> </td> 
+   <td colname="col2"> <p>Video colore del testo del titolo del capitolo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Spessore font titolo capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Peso font </span> </p> </td> 
+   <td colname="col2"> <p>Video titolo del capitolo font peso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -389,7 +389,7 @@ font-weight: bold;
 }
 ```
 
-La descrizione del capitolo video è controllata dal seguente selettore di classe CSS:
+La descrizione del capitolo video è controllata dalla seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description
@@ -400,15 +400,15 @@ La descrizione del capitolo video è controllata dal seguente selettore di class
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
-   <td colname="col2"> <p>Colore testo descrizione capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Colore </span> </p> </td> 
+   <td colname="col2"> <p>Video colore del testo della descrizione del capitolo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore di sfondo della descrizione del capitolo video. </p> </td> 
+   <td colname="col2"> <p>Video colore di sfondo della descrizione del capitolo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Peso font </span> </p> </td> 
    <td colname="col2"> <p>Spessore font descrizione capitolo video. </p> </td> 
   </tr> 
   <tr> 
@@ -420,17 +420,17 @@ La descrizione del capitolo video è controllata dal seguente selettore di class
    <td colname="col2"> <p>Famiglia di font per la descrizione del capitolo video. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
-   <td colname="col2"> <p>Altezza riga descrizione capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza linea </span> </p> </td> 
+   <td colname="col2"> <p>Video altezza riga descrizione capitolo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura interna descrizione capitolo video. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
+   <td colname="col2"> <p>Video descrizione del capitolo imbottitura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Esempio** - Per impostare la descrizione del capitolo video utilizzando un carattere Verdana di colore grigio scuro da 11 pixel con uno sfondo grigio chiaro. Altezza delle linee di cinque pixel, spaziatura orizzontale di 12 pixel, spaziatura superiore di 12 pixel e spaziatura inferiore di nove pixel.
+**Esempio** : per impostare la descrizione del capitolo video usando un font Verdana grigio scuro da 11 pixel, con sfondo grigio chiaro. Altezza linea di cinque pixel, spaziatura orizzontale di 12 pixel, spaziatura superiore di 12 pixel e spaziatura inferiore di nove pixel.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -443,22 +443,22 @@ padding: 12px 12px 9px;
 }
 ```
 
-Il connettore a cuneo all’interno della parte inferiore della bolla del capitolo è controllato dal seguente selettore di classe CSS:
+Il connettore wedge nella parte inferiore del fumetto del capitolo è controllato dalla seguente classe CSS selettore:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7tail
 ```
 
-**Proprietà CSS del connettore cuneo**
+**Proprietà CSS del connettore wedge**
 
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colore bordo </span> </p> </td> 
-   <td colname="col2"> <p>Colore connettore cuneo. </p> <p>Definito come <span class="codeph"> &lt;colore&gt; trasparente </span> in modo che venga definito solo il colore del bordo superiore e che i bordi rimanenti vengano lasciati trasparenti. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo colore </span> </p> </td> 
+   <td colname="col2"> <p>Colore connettore cuneo. </p> <p>Definito trasparente <span class="codeph"> &lt;color&gt; </span> in modo che venga definito solo il colore superiore bordo e i bordi rimanenti rimangano trasparenti.&lt;/color&gt; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> larghezza bordo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Larghezza bordo </span> </p> </td> 
    <td colname="col2"> <p> Larghezza connettore cuneo. </p> <p>Definito come <span class="codeph"> &lt;larghezza&gt; &lt;larghezza&gt; 0 </span> in modo che la stessa larghezza sia definita solo per i bordi superiore e orizzontale e la larghezza del bordo inferiore sia <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 

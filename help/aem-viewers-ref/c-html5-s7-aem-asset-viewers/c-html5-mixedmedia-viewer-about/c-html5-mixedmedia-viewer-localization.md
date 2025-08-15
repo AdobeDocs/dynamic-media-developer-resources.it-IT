@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore di file multimediali diversi sono soggetti a localizzazione. Questa linea guida include pulsanti di zoom, pulsanti di rotazione, controlli video, pulsante di chiusura, pulsante a schermo intero e pulsanti di scorrimento dei campioni.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
+Ogni contenuto testuale del visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito. Può inoltre disporre di valori definiti dall&#39;utente impostati per il numero di impostazioni internazionali necessario.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato per le impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -98,11 +98,11 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Sistemi desktop in modalità zoom </span> in linea <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>Sistemi desktop in modalità zoom <span class="codeph"> in linea </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Toccare i dispositivi in modalità zoom </span> in linea <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>Toccare i dispositivi in modalità zoom <span class="codeph"> in linea </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -174,7 +174,7 @@ Sono supportati i seguenti SIMBOLI:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Etichetta manopola cursore del volume esposta tramite l’attributo aria-valuetext </span> di ARIA <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>Etichetta manopola cursore del volume esposta tramite l’attributo aria-valuetext <span class="codeph"> di ARIA </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERRORE </span> </p> </td> 

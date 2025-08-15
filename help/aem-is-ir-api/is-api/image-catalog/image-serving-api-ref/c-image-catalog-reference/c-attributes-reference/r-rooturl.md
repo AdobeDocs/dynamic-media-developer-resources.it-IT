@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 72560180-53e5-4293-9dd3-c0cd196551dc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 URL principale per gli URL immagine relativi. Specifica l&#39;URL principale per gli URL immagine relativi.
 
-`attribute::RootUrl` viene utilizzato al posto di `attribute::RootPath` quando un valore `src=` o `mask=` è racchiuso tra {parentesi graffe} o (parentesi graffe).
+`attribute::RootUrl` viene utilizzato al posto di `attribute::RootPath` quando un valore `src=` o `mask=` è racchiuso tra {curly braces} o (parentesi).
 
 ## Proprietà {#section-fe02269b4b724319a5d1f2cfcae31cba}
 

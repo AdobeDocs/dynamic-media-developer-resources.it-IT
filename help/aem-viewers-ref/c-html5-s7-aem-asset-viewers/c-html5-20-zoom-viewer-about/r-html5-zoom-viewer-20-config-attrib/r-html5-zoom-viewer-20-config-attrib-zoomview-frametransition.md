@@ -24,11 +24,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durata </span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica la durata (in secondi) dell'effetto di transizione </span> o <span class="codeph"> della dissolvenza </span> di <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>Specifica la durata (in secondi) dell'effetto di transizione <span class="codeph"> o </span> della dissolvenza <span class="codeph"> di </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spaziatura </span> </span> </p> </td> 
-   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione </span> della diapositiva <span class="codeph"> ha un intervallo compreso tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
+   <td colname="col2"> <p>La spaziatura tra fotogrammi adiacenti nella transizione <span class="codeph"> della diapositiva </span> ha un intervallo compreso tra <span class="codeph"> 0 </span> e <span class="codeph"> 1 </span> ed è relativa alla larghezza del componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

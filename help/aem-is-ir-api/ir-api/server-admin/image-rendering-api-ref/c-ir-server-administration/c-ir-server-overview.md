@@ -1,5 +1,5 @@
 ---
-description: In questa documentazione viene illustrato come amministrare il server Dynamic Medie Image Rendering.
+description: Questa documentazione spiega come amministrare il server di rendering delle immagini Dynamic Media.
 solution: Experience Manager
 title: Panoramica sull'amministrazione del server
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panoramica sull&#39;amministrazione del server{#server-administration-overview}
 
-In questa documentazione viene illustrato come amministrare il server Dynamic Medie Image Rendering.
+Questa documentazione spiega come amministrare il server di rendering delle immagini Dynamic Media.
 
 Image Rendering è costituito da due componenti principali:
 

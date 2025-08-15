@@ -33,7 +33,7 @@ Questo visualizzatore funziona con gli ecatalog e supporta mappe immagine opzion
 
 ## Utilizzo di eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il visualizzatore eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript da includere con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione
+Il visualizzatore eCatalog rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione
 
 È possibile utilizzare eCatalog Viewer in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con IS-Viewers o in modalità incorporata, in cui viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -86,7 +86,7 @@ Questo visualizzatore è completamente accessibile da tastiera come descritto in
 
 Il visualizzatore eCatalog supporta gli strumenti di condivisione social. Sono disponibili come pulsante nella barra di controllo principale che si espande in una barra degli strumenti di condivisione quando un utente fa clic o tocca su di essa.
 
-La barra degli strumenti Condivisione contiene icone per ogni tipo di canale di condivisione supportato, tra cui Facebook, Twitter, condivisione e-mail, condivisione codice di incorporamento e condivisione collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l’utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
+La barra degli strumenti di condivisione contiene icone per ogni tipo di canale di condivisione supportato, tra cui Facebook, Twitter, condivisione e-mail, condivisione codice di incorporamento e condivisione collegamenti. Quando gli strumenti di condivisione e-mail, condivisione di incorporamento o condivisione di collegamenti sono attivati, il visualizzatore visualizza una finestra di dialogo modale con il modulo di immissione dati corrispondente. Quando si chiama Facebook o Twitter, il visualizzatore reindirizza l’utente a una finestra di dialogo di condivisione standard da un servizio social. Gli strumenti di condivisione non sono disponibili in modalità a schermo intero a causa di restrizioni di sicurezza del browser Web.
 
 ## Incorporazione del visualizzatore eCatalog {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -149,7 +149,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -174,7 +174,7 @@ Il percorso relativo è simile al seguente:
 
    Per ulteriori informazioni sullo stile del visualizzatore con CSS, vedere [Personalizzazione del visualizzatore eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0).
 
-   Di seguito è riportato un esempio di definizione di una dimensione di visualizzatore statico nella pagina HTML:
+   Di seguito è riportato un esempio di definizione di una dimensione statica del visualizzatore nella pagina HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
@@ -243,7 +243,7 @@ Il percorso relativo è simile al seguente:
 
 **Incorporamento di progettazione reattiva con altezza illimitata**
 
-Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML risultante per la pagina Web è simile al seguente:
+Con l’incorporamento di un design reattivo, la pagina web in genere ha un layout flessibile che determina la dimensione di runtime del contenitore del visualizzatore `DIV`. Ai fini di questo esempio, si supponga che la pagina Web consenta al contenitore del visualizzatore `DIV` di occupare il 40% delle dimensioni della finestra del browser Web, senza limitazioni di altezza. Il codice HTML della pagina Web risultante sarà simile al seguente:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

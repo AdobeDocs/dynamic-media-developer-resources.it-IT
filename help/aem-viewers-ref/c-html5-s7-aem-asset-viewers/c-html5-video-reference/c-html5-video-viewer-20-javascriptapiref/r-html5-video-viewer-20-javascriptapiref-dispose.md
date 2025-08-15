@@ -22,7 +22,7 @@ Dispone di questa istanza del visualizzatore rilasciando tutte le risorse utiliz
 
 Il codice della pagina web deve anche eliminare la variabile dell’istanza del visualizzatore e rimuovere completamente il visualizzatore dalla memoria del browser web.
 
-Se il codice della pagina web contiene listener di eventi registrati direttamente sui componenti SDK del visualizzatore utilizzati dal visualizzatore, o riferimenti esterni memorizzati a tali componenti, devi esplicitamente annullare la registrazione di tali listener in base al codice della pagina web. È necessario eliminare tali riferimenti a componenti esterni prima di chiamare `dispose()`.
+Se il codice della pagina web contiene listener di eventi registrati direttamente sui componenti del Visualizzatore SDK utilizzati dal visualizzatore, o riferimenti esterni memorizzati a tali componenti, è necessario annullare esplicitamente la registrazione di tali listener in base al codice della pagina web. È necessario eliminare tali riferimenti a componenti esterni prima di chiamare `dispose()`.
 
 Non accedere più all&#39;API del visualizzatore dopo la chiamata di `dispose()`.
 

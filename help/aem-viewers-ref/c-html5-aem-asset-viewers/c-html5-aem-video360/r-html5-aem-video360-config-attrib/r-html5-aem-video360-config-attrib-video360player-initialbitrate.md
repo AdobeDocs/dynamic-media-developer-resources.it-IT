@@ -1,6 +1,6 @@
 ---
 title: Video360Player.initialbitrate
-description: Attributo di configurazione per il visualizzatore Video360.
+description: Attributo di configurazione per Video360 Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
-Attributo di configurazione per il visualizzatore Video360.
+Attributo di configurazione per Video360 Viewer.
 
 ` [Video360Player.|<containerId>_video360Player.]initialbitrate= *`valore`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Valore <span class="codeph"></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il bitrate video (in kilobit al secondo o Kbps) utilizzato per la riproduzione iniziale del video su un desktop. </p> <p>Se questo valore di bitrate non esiste nel set di video adattivi, il lettore video inizia con il video che ha il bitrate inferiore successivo. </p> <p>Se è impostato su <span class="codeph"> 0</span>, il lettore video inizia dal bitrate più basso possibile. </p> <p>Applicabile solo per i sistemi che non dispongono di supporto nativo per video HLS HTML5 (come i browser Firefox, Chrome e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su auto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valore</span> </p> </td> 
+   <td colname="col2"> <p> Imposta il bitrate video (in kilobit al secondo o kbps) utilizzato per la riproduzione iniziale del video su un desktop. </p> <p>Se questo valore di bitrate non esiste nel set di Video adattivi, il lettore video inizia con il video il cui bitrate è inferiore. </p> <p>Se impostato su <span class="codeph"> 0</span>, il lettore video viene avviato con il bitrate più basso possibile. </p> <p>Applicabile solo per i sistemi che non dispongono del supporto nativo per i video HTML5 HLS (come i browser Firefox, Effetto cromatura e Internet Explorer 11 su Windows 10) e quando la modalità di riproduzione è impostata su auto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

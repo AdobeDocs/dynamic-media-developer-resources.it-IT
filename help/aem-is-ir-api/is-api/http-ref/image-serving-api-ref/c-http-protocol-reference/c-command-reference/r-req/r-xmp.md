@@ -1,5 +1,5 @@
 ---
-description: Metadati XMP. Restituisce i metadati XMP associati all’immagine specificata nel percorso della richiesta.
+description: Metadati di XMP. Restituisce i metadati XMP associati all’immagine specificata nel percorso della richiesta.
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # xmp{#xmp}
 
-Metadati XMP. Restituisce i metadati XMP associati all’immagine specificata nel percorso della richiesta.
+Metadati di XMP. Restituisce i metadati XMP associati all’immagine specificata nel percorso della richiesta.
 
 `req=xmp`
 

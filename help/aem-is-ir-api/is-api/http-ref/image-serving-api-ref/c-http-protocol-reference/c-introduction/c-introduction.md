@@ -1,5 +1,5 @@
 ---
-description: Questo documento descrive il protocollo HTTP per Dynamic Medie Image Server.
+description: Questo documento descrive il protocollo HTTP per Dynamic Media Image Server.
 solution: Experience Manager
 title: Introduzione
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Introduzione{#introduction}
 
-Questo documento descrive il protocollo HTTP per Dynamic Medie Image Server.
+Questo documento descrive il protocollo HTTP per Dynamic Media Image Server.
 
-Sono descritti solo gli aspetti del protocollo accessibili al pubblico. Il server può supportare comandi aggiuntivi, riservati per l&#39;utilizzo da parte del software client Dynamic Medie.
+Sono descritti solo gli aspetti del protocollo accessibili al pubblico. Il server può supportare comandi aggiuntivi, riservati per l&#39;utilizzo da parte del software client Dynamic Media.

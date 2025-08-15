@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Condivisione social{#social-share}
+# Social condivisione{#social-share}
 
-Per impostazione predefinita, lo strumento condivisione social viene visualizzato nell&#39;angolo in alto a destra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
+Il strumento di condivisione social viene visualizzato nell&#39;angolo in alto a destra per impostazione predefinita. È costituito da un pulsante e un pannello che si espande quando il utente fa clic o tocca un pulsante e contiene strumenti di condivisione individuali.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -42,7 +42,7 @@ La posizione e le dimensioni dello strumento di condivisione social network nell
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dello strumento di condivisione social. </p> </td> 
+   <td colname="col2"> <p>L'altezza del condivisione social strumento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,9 +83,9 @@ L’aspetto del pulsante dello strumento Condivisione social è controllato dal 
 
 >[!NOTE]
 >
->Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
+>Questo pulsante supporta l&#39;attributo `state` selettore, che può essere utilizzato per applicare interfacce diverse a diversi stati pulsante.
 
-La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Il suggerimento strumento pulsante può essere localizzato. Vedere [Localizzazione di utente elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia.
 
 ## Esempio {#example-1}
 

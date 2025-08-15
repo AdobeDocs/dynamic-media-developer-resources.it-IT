@@ -55,7 +55,7 @@ Oltre allo spazio necessario per installare il software, Image Server dispone de
 
 ## Requisiti di spazio su disco per le immagini sorgente {#section-317da75099ad480d9a461c7e706d4f1c}
 
-L&#39;Adobe consiglia di convertire tutte le immagini di origine nel formato di file PTIFF (pyramid TIFF file format) utilizzando lo strumento da riga di comando Image Converter. Questa conversione garantisce prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene il server immagini sia in grado di elaborare tutti i formati di file di origine accettati da IC, Dynamic Medie non supporta tali utilizzi.
+Adobe consiglia di convertire tutte le immagini di origine nel formato di file piramidale TIFF (PTIFF) utilizzando lo strumento da riga di comando Image Converter (IC). Questa conversione garantisce prestazioni di runtime ottimali di Image Server per tutte le applicazioni. Sebbene il server immagini possa elaborare tutti i formati di file di origine accettati da IC, Dynamic Media non supporta tali utilizzi.
 
 Quando si utilizzano file PTIFF, le seguenti regole generali possono essere utili per determinare i requisiti di spazio.
 
@@ -83,7 +83,7 @@ Quando si utilizzano file PTIFF, le seguenti regole generali possono essere util
   </tr> 
   <tr> 
    <td> <p>Compressione JPEG </p> </td> 
-   <td> <p> 1 (tipico per JPEG di qualità 95) </p> </td> 
+   <td> <p> 1 (tipico per la qualità JPEG 95) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Quando si utilizzano file PTIFF, le seguenti regole generali possono essere util
 
 **Esempio**
 
-Un’implementazione di Image Server prevede di utilizzare 30.000 immagini legacy a bassa risoluzione, con una dimensione media di 500 × 500 RGB. Vengono aggiunti nuovi dati a una velocità di 10.000 immagini all&#39;anno. Le dimensioni tipiche dell&#39;immagine CMYK sono 4 × 6 KB. Tutti i dati vengono compressi in JPEG ad alta qualità. La quantità totale di spazio su disco dopo tre anni di utilizzo è stimata come segue:
+Un’implementazione di Image Server prevede di utilizzare 30.000 immagini legacy a bassa risoluzione, con una dimensione media di 500 × 500 pixel RGB. Vengono aggiunti nuovi dati a una velocità di 10.000 immagini all&#39;anno. Le dimensioni tipiche dell&#39;immagine CMYK sono 4 × 6 KB. Tutti i dati sono JPEG compressi ad alta qualità. La quantità totale di spazio su disco dopo tre anni di utilizzo è stimata come segue:
 
 *`total_space`* = 30.000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10.000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = circa 270 GB
 

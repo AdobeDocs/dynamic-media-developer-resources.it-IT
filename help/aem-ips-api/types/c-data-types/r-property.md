@@ -1,5 +1,5 @@
 ---
-description: Una coppia nome-valore.
+description: Una coppia di nome e valore.
 solution: Experience Manager
 title: Proprietà
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL Property]{#property}
 
-Una coppia nome-valore.
+Una coppia di nome e valore.
 
 Sintassi
 

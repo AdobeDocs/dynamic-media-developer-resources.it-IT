@@ -1,6 +1,6 @@
 ---
-title: Tutorial sull’SDK per visualizzatori
-description: L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Medie.
+title: Tutorial su Viewer SDK
+description: Il SDK visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 ---
 
-# Tutorial sull’SDK per visualizzatori{#viewer-sdk-tutorial}
+# Tutorial su Viewer SDK{#viewer-sdk-tutorial}
 
-L’SDK del visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Medie.
+Il SDK visualizzatore fornisce un set di componenti basati su JavaScript per lo sviluppo di visualizzatori personalizzati. I visualizzatori sono applicazioni basate sul web che consentono di incorporare nelle pagine web i contenuti rich media gestiti da Adobe Dynamic Media.
 
-Ad esempio, l&#39;SDK fornisce zoom e panning interattivi. Inoltre, fornisce una visualizzazione a 360° e la riproduzione video delle risorse caricate in Adobe Dynamic Medie tramite l’applicazione back-end denominata Dynamic Media Classic.
+SDK, ad esempio, consente di eseguire operazioni interattive di zoom e panning. Inoltre, fornisce una visualizzazione a 360° e la riproduzione video delle risorse caricate in Adobe Dynamic Media tramite l’applicazione back-end denominata Dynamic Media Classic.
 
-Anche se i componenti si basano sulla funzionalità HTML5, sono progettati per funzionare su dispositivi e desktop Android™ e Apple iOS, tra cui Internet Explorer e versioni successive. Questo tipo di esperienza ti consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
+Anche se i componenti si basano sulla funzionalità di HTML5, sono progettati per funzionare su dispositivi e desktop Android™ e Apple iOS, tra cui Internet Explorer e versioni successive. Questo tipo di esperienza ti consente di fornire un unico flusso di lavoro per tutte le piattaforme supportate.
 
-L’SDK è costituito da componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare a questi componenti uno stile CSS o componenti non dell’interfaccia utente che dispongono di un certo tipo di ruolo di supporto, ad esempio recupero, analisi e tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che è possibile specificare in vari modi, ad esempio come `name=value` coppie nell&#39;URL.
+Il SDK è costituito da componenti dell’interfaccia utente che compongono il contenuto del visualizzatore. Puoi assegnare a questi componenti uno stile CSS o componenti non dell’interfaccia utente che dispongono di un certo tipo di ruolo di supporto, ad esempio recupero, analisi e tracciamento delle definizioni dei set. Tutti i comportamenti dei componenti sono personalizzabili tramite modificatori che è possibile specificare in vari modi, ad esempio come `name=value` coppie nell&#39;URL.
 
 Questo tutorial include il seguente ordine di attività per aiutarti a creare un visualizzatore di zoom di base:
 
-* [Scarica l&#39;SDK del visualizzatore più recente da Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [Carica l&#39;SDK del visualizzatore](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [Scarica il Viewer SDK più recente da Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Carica il Visualizzatore SDK](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Aggiunta di uno stile al visualizzatore](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Contenitore incluso e ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
 * [Aggiunta di componenti MediaSet e Swatches al visualizzatore](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [Aggiunta di pulsanti al visualizzatore](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configurazione dei campioni in verticale](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Scarica l’SDK del visualizzatore più recente da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Scarica l’ultimo Viewer SDK da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Scaricare l&#39;SDK del visualizzatore più recente da Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Scaricare l&#39;ultimo SDK visualizzatore da Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >Puoi completare questa esercitazione senza scaricare il pacchetto SDK del visualizzatore, perché l’SDK viene caricato in remoto. Tuttavia, il pacchetto Visualizzatore include ulteriori esempi e una guida di riferimento API che possono essere utili per creare visualizzatori personalizzati.
+   >È possibile completare questa esercitazione senza dover scaricare il pacchetto Viewer SDK, perché il SDK viene caricato in modalità remota. Tuttavia, il pacchetto Visualizzatore include ulteriori esempi e una guida di riferimento API che possono essere utili per creare visualizzatori personalizzati.
 
-## Caricare l’SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Carica il SDK del visualizzatore {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Per iniziare, imposta una nuova pagina per sviluppare il visualizzatore zoom di base che stai per creare.
 
-   Considera questa nuova pagina come il codice Bootstrap (o caricatore) utilizzato per impostare un’applicazione SDK vuota. Apri l’editor di testo preferito e incolla il seguente markup HTML:
+   Considera questa nuova pagina come codice Bootstrap, o loader, utilizzato per impostare un’applicazione SDK vuota. Apri l’editor di testo preferito e incolla in esso il seguente markup HTML:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Questo tutorial include il seguente ordine di attività per aiutarti a creare un
    </html>
    ```
 
-   Aggiungere il codice JavaScript seguente nel tag `script` in modo che inizializzi `ParameterManager`. In questo modo è possibile prepararsi a creare e creare istanze di componenti SDK all&#39;interno della funzione `initViewer`:
+   Aggiungere il codice JavaScript seguente nel tag `script` in modo che inizializzi `ParameterManager`. Questa operazione consente di preparare la creazione e la creazione di un&#39;istanza dei componenti SDK all&#39;interno della funzione `initViewer`:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -161,7 +161,7 @@ Ora includi i componenti `Container` e `ZoomView`.
    </script>
    ```
 
-1. Ora crea delle variabili per fare riferimento ai vari componenti dell’SDK.
+1. Ora crea delle variabili per fare riferimento ai vari componenti di SDK.
 
    Aggiungi le seguenti variabili nella parte superiore della funzione principale anonima, appena sopra `s7sdk.Util.init()`:
 
@@ -215,7 +215,7 @@ Aggiungere ora i componenti `MediaSet` e `Swatches` al visualizzatore.
 
 1. Per consentire agli utenti di selezionare immagini da un set, è possibile aggiungere i componenti `MediaSet` e `Swatches`.
 
-   Aggiungi i seguenti SDK includono:
+   Aggiungi i seguenti SDK include:
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
@@ -389,4 +389,4 @@ Ora aggiungi al visualizzatore i pulsanti zoom in, zoom out e zoom reset (zoom i
 
    Il visualizzatore zoom di base è stato completato.
 
-   Questo tutorial illustra le nozioni di base di Dynamic Medie Viewer SDK. Mentre lavori con l’SDK, puoi utilizzare i vari componenti standard per creare e personalizzare facilmente le esperienze di visualizzazione per il pubblico di destinazione.
+   Questo tutorial illustra le nozioni di base di Dynamic Media Viewer SDK. Quando lavori con SDK, puoi utilizzare i vari componenti standard per creare e personalizzare con facilità le esperienze di visualizzazione per il pubblico di destinazione.

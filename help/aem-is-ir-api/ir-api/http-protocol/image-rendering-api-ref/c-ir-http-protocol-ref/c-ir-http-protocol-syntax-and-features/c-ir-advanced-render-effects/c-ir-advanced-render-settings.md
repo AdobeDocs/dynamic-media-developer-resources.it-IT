@@ -1,6 +1,6 @@
 ---
 title: Impostazioni di rendering avanzate
-description: Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Medie Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+description: Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # Impostazioni di rendering avanzate{#advanced-render-settings}
 
-Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Medie Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
+Lo strumento di authoring di vignettature (parte del pacchetto Dynamic Media Image Authoring) fornisce meccanismi per controllare gli aspetti di basso livello del motore di rendering della vignettatura.
 
 >[!NOTE]
 >
->Impostazioni rendering è una funzione avanzata di Image Rendering e Image Authoring. Contatta l’Assistenza tecnica per gli Adobe Adobi o il tuo rappresentante di consulenza per la formazione, la consulenza o entrambe sull’utilizzo delle impostazioni di rendering.
+>Impostazioni rendering è una funzione avanzata di Image Rendering e Image Authoring. Contatta il supporto tecnico Adobe o il tuo rappresentante di consulenza Adobe per formazione, consulenza o entrambe le cose sull’utilizzo delle impostazioni di rendering.
 
 Queste impostazioni sono controllate interattivamente in Image Authoring. È possibile applicare le stesse impostazioni in Image Rendering utilizzando il comando `rs=` o con il valore `catalog::RenderSettings`. Questo meccanismo viene utilizzato per selezionare diverse opzioni di nitidezza per ciascun materiale e modificare il comportamento degli algoritmi di rendering dell&#39;illuminazione, ad esempio la variazione della saturazione delle luci o del contrasto nelle ombre.
 

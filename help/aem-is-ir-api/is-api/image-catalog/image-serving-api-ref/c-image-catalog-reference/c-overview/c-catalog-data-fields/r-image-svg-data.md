@@ -1,5 +1,5 @@
 ---
-description: I campi seguenti vengono riconosciuti nei file di dati immagine e SVG.
+description: I campi seguenti vengono riconosciuti nei file di dati di immagine e SVG.
 solution: Experience Manager
 title: Dati Image_SVG
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dati Image_SVG{#image-svg-data}
 
-I campi seguenti vengono riconosciuti nei file di dati immagine e SVG.
+I campi seguenti vengono riconosciuti nei file di dati di immagine e SVG.
 
 ## Gestione catalogo {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 

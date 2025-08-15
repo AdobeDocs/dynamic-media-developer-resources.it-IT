@@ -1,5 +1,5 @@
 ---
-description: Inoltra l’elenco di URL fornito al provider Dynamic Medie CDN (Content Distribution Network) per annullare la validità della cache esistente delle risposte HTTP.
+description: Inoltra l’elenco di URL fornito al provider Dynamic Media CDN (Content Distribution Network) per annullare la validità della cache esistente delle risposte HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Inoltra l’elenco di URL fornito al provider Dynamic Medie CDN (Content Distribution Network) per annullare la validità della cache esistente delle risposte HTTP.
+Inoltra l’elenco di URL fornito al provider Dynamic Media CDN (Content Distribution Network) per annullare la validità della cache esistente delle risposte HTTP.
 
 ## cdnCacheInvalidation: Informazioni {#section-4f70d2bc79d64288b961836ab17e9690}
 
-L’annullamento della validità della cache CDN forza la riconvalida di tutte le richieste HTTP per questi URL in base ai dati pubblicati correnti sulla rete Dynamic Medie dopo l’elaborazione di questa richiesta di annullamento della validità tramite la rete CDN. Eventuali URL non connessi alla struttura dell’URL del servizio Dynamic Medie e che corrispondono direttamente all’ID principale dell’azienda Dynamic Medie assegnato al momento della creazione dell’azienda generano un errore API per l’intera richiesta. Eventuali URL non validi che la rete CDN non supporta e che considera non validi causano inoltre un errore API per l’intera richiesta.
+L’annullamento della validità della cache CDN forza la riconvalida di tutte le richieste HTTP per questi URL in base ai dati pubblicati correnti sulla rete Dynamic Media dopo l’elaborazione di questa richiesta di annullamento della validità tramite la rete CDN. Eventuali URL non connessi alla struttura URL del servizio Dynamic Media e che corrispondono direttamente all’ID radice della società Dynamic Media assegnato al momento della creazione della società generano un errore API per l’intera richiesta. Eventuali URL non validi che la rete CDN non supporta e che considera non validi causano inoltre un errore API per l’intera richiesta.
 
 **Frequenza di utilizzo: regole**
 
-Le regole che disciplinano la frequenza di utilizzo di questa funzione sono controllate dai partner CDN di Dynamic Medie. La CDN mantiene la discrezione di degradare la reattività di questi invalidamenti per mantenere prestazioni ottimali del servizio per i suoi utenti. Se Dynamic Medie viene avvisata di un uso eccessivo di questa funzione, Adobe deve ricorrere alla disattivazione della funzione per singola azienda o per l’intero servizio.
+Le regole che disciplinano la frequenza di utilizzo di questa funzione sono controllate dai partner CDN di Dynamic Media. La CDN mantiene la discrezione di degradare la reattività di questi invalidamenti per mantenere prestazioni ottimali del servizio per i suoi utenti. Nel caso in cui Dynamic Media riceva una notifica di utilizzo eccessivo di questa funzione, Adobe deve disabilitare la funzione per singola azienda o per l’intero servizio.
 
 **E-Mail Di Conferma**
 
-Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al creatore dell’elenco o a un massimo di 5 altri indirizzi e-mail. L’API invia la conferma quando l’intera rete CDN viene avvisata che gli URL a cui si fa riferimento nell’e-mail sono stati cancellati. Una singola chiamata a `cdnCacheInvalidation` può inviare più e-mail se il numero di URL forniti supera il numero che Dynamic Medie può inviare al partner CDN con una singola notifica. Attualmente, ciò si verifica se la richiesta supera i 100 URL, ma è soggetta a modifiche in base alla richiesta del partner CDN.
+Le e-mail di conferma dal partner CDN di Dynamic Media possono essere inviate al creatore dell’elenco o a un massimo di 5 altri indirizzi e-mail. L’API invia la conferma quando l’intera rete CDN viene avvisata che gli URL a cui si fa riferimento nell’e-mail sono stati cancellati. Una singola chiamata a `cdnCacheInvalidation` può inviare più e-mail se il numero di URL forniti supera il numero che Dynamic Media può inviare al partner CDN con una singola notifica. Attualmente, ciò si verifica se la richiesta supera i 100 URL, ma è soggetta a modifiche in base alla richiesta del partner CDN.
 
 **Supportato da**
 
@@ -61,7 +61,7 @@ Le e-mail di conferma dal partner CDN di Dynamic Medie possono essere inviate al
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipi:UrlArray</span> </p> </td> 
    <td> <p> Sì </p> </td> 
-   <td> <p> Elenco di un massimo di 1000 URL da invalidare dalla cache CDN. Per poter essere invalidati, tutti gli URL devono contenere l’ID principale della società Dynamic Medie. </p> </td> 
+   <td> <p> Elenco di un massimo di 1000 URL da invalidare dalla cache CDN. Tutti gli URL devono contenere l’ID radice della società Dynamic Media da invalidare. </p> </td> 
   </tr> 
  </tbody> 
 </table>

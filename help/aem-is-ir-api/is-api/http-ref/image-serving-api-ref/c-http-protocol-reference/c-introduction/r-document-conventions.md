@@ -67,7 +67,7 @@ In questo documento vengono utilizzate le seguenti convenzioni.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> facoltativo </span>] </span> </p> </td> 
-  <td class="stentry"> <p>L'elemento di sintassi </span> facoltativo <span class="varname"> non può essere ripetuto una o più volte. </p> </td> 
+  <td class="stentry"> <p>L'elemento di sintassi <span class="varname"> facoltativo </span> non può essere ripetuto una o più volte. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> elemento1 </span>| <span class="varname"> elemento2 </span> </span> </p> </td> 

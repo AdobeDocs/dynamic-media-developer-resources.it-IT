@@ -1,7 +1,7 @@
 ---
-description: Per caricare le risorse tramite URL.
+description: Per caricare risorse tramite URL.
 solution: Experience Manager
-title: UploadUrl
+title: Carica URL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-Per caricare le risorse tramite URL.
+Per caricare risorse tramite URL.
 
 Sintassi
 
@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| sourceUrl | `xsd:string` | URL di origine da cui viene caricata la risorsa. |
-| destPath | `xsd:string` | Percorso e nome del file IPS in cui si desidera caricare il file. |
+| url origine | `xsd:string` | L&#39;origine URL da cui viene caricato il risorsa. |
+| Percorso destPath | `xsd:string` | Il percorso del file IPS e il nome del file in cui si desidera effettuare il caricamento. |

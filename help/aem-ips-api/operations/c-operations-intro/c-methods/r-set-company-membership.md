@@ -1,5 +1,5 @@
 ---
-description: Imposta l'appartenenza di un utente a una o più società.
+description: Imposta il iscrizione di un utente in una o più società.
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # setCompanyMembership{#setcompanymembership}
 
-Imposta l&#39;appartenenza di un utente a una o più società.
+Imposta il iscrizione di un utente in una o più società.
 
 Sintassi
 
@@ -31,8 +31,8 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| userHandle | `xsd:sting` | No | Handle utente. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Array di aziende. |
+| Handle utente | `xsd:sting` | No | Handle utente. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Sì | Gamma di aziende. |
 
 **Output (setCompanyMembershipParam)**
 
@@ -40,7 +40,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-862c0cc32ce0407ab248028e690a8386}
 
-Questo esempio di codice aggiunge un utente a un’azienda. Se necessario, specifica più aziende nell’array di handle della società.
+In questo esempio di codice viene aggiunto un utente a un&#39;azienda. Se necessario, specificare più società nell&#39;handle array aziendale.
 
 **Richiesta**
 

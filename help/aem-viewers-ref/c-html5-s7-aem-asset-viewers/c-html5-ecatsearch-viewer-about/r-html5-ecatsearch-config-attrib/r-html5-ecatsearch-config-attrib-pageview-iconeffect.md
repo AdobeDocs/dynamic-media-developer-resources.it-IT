@@ -32,7 +32,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> Nascondi automaticamente</span></span> </p> </td> 
-   <td colname="col2"> <p>Imposta il numero di secondi in cui l'effetto iconeffect</span> di <span class="codeph"> rimane completamente visibile prima che venga nascosto automaticamente. Ossia, il tempo dopo il completamento dell'animazione di dissolvenza in entrata, ma prima dell'inizio dell'animazione di dissolvenza in uscita. L'impostazione <span class="codeph"> 0</span> disattiva il comportamento Nascondi automatico. </p> </td> 
+   <td colname="col2"> <p>Imposta il numero di secondi in cui l'effetto iconeffect<span class="codeph"> di </span> rimane completamente visibile prima che venga nascosto automaticamente. Ossia, il tempo dopo il completamento dell'animazione di dissolvenza in entrata, ma prima dell'inizio dell'animazione di dissolvenza in uscita. L'impostazione <span class="codeph"> 0</span> disattiva il comportamento Nascondi automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>

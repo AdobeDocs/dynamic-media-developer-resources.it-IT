@@ -1,6 +1,6 @@
 ---
 title: Sintassi di base del protocollo HTTP Image Rendering
-description: In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Medie Image Rendering.
+description: Questa sezione descrive la sintassi di base del protocollo HTTP di Rendering immagini Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sintassi di base del protocollo HTTP Image Rendering{#image-rendering-http-protocol-basic-syntax}
 
-In questa sezione viene descritta la sintassi di base del protocollo HTTP Dynamic Medie Image Rendering.
+Questa sezione descrive la sintassi di base del protocollo HTTP di Rendering immagini Dynamic Media.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -79,7 +79,7 @@ Il contesto radice &#39;`/ir/render`&#39; è necessario per tutte le richieste H
 
 **Commenti**
 
-I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente dopo il separatore di comandi (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
+I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente successivo al separatore di comando (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
 
 **Decodifica HTTP**
 

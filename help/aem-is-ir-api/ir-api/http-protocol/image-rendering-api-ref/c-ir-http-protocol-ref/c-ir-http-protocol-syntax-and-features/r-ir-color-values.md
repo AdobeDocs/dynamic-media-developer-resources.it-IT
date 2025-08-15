@@ -1,6 +1,6 @@
 ---
 title: Valori colore
-description: I valori colore per gli attributi color= e bgc= possono essere specificati utilizzando un elenco di valori decimali di componenti separati da virgole o una notazione esadecimale, simile a HTML.
+description: I valori dei colori per gli attributi color= e bgc= possono essere specificati utilizzando un elenco di valori di componenti separati da virgola o una notazione esadecimale, simile a HTML.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -37,7 +37,7 @@ I valori colore per gli attributi `color=` e `bgc=` possono essere specificati u
 
 ## Esempi {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-Alcuni esempi di specificatori di colore validi e la corrispondente interpretazione del valore del colore RGB:
+Alcuni esempi di specificatori di colore validi e della corrispondente interpretazione del valore del colore di RGB:
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 

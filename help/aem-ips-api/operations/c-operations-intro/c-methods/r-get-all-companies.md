@@ -28,17 +28,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | Sì | Impostare su true per restituire le società scadute e non scadute. |
+| includeExpired | `xsd:boolean` | Sì | Imposta su true per restituire le società scadute e non scadute. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Sì | L’array di aziende. |
+| CompanyArray | `types:CompanyArray` | Sì | La gamma delle aziende. |
 
 ## Esempi {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-In questo esempio di codice vengono restituite tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
+Questo esempio di codice restituisce tutte le società in IPS in un array. Nota, la risposta di esempio è troncata per brevità.
 
 **Richiesta**
 

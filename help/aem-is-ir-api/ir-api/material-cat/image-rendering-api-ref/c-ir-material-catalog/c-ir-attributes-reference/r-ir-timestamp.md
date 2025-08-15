@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Valore data/ora in formato Java™. Può essere il numero intero di millisecondi
 
 *[!DNL zzz]* è un codice di fuso orario di tre o quattro caratteri come &#39;GMT&#39; o &#39;PST&#39;. L’ora legale deve essere inclusa nel codice del fuso orario (ad esempio, &quot;PST&quot; per l’ora solare Pacifico e &quot;PDT&quot; per l’ora legale Pacifico).
 
-*[!DNL offset]* è una differenza di fuso orario in ore o ore:minuti, relativa a GMT. Ad esempio, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
+*[!DNL offset]* è una differenza di fuso orario in ore o ore:minutes, relativa a GMT. Ad esempio, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
 
 Tutti gli elementi dei valori di data/ora in formato stringa devono essere presenti. Se il valore data/ora non è formattato correttamente, viene ignorato e viene utilizzata l&#39;ora di modifica del file [!DNL *[!DNL catalog]*.ini].
 

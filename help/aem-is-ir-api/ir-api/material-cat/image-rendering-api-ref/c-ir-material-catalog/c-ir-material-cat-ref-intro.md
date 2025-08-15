@@ -1,5 +1,5 @@
 ---
-description: Questo documento descrive il catalogo dei materiali per Dynamic Medie Image Rendering.
+description: Questo documento descrive il catalogo dei materiali per Dynamic Media Image Rendering.
 solution: Experience Manager
 title: Introduzione
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Introduzione{#introduction}
 
-Questo documento descrive il catalogo dei materiali per Dynamic Medie Image Rendering.
+Questo documento descrive il catalogo dei materiali per Dynamic Media Image Rendering.
 
 **Pubblico previsto**
 
-Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano sfruttare il Rendering di immagini Dynamic Medie per un sito web o un’applicazione personalizzata.
+Questo documento è destinato a programmatori esperti e sviluppatori di siti web che desiderano sfruttare il Rendering di immagini Dynamic Media per un sito web o un’applicazione personalizzata.
 
-Si presume che il lettore abbia familiarità con Dynamic Medie Image Authoring e Image Rendering, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
+Si presume che il lettore abbia familiarità con l’authoring e il rendering delle immagini Dynamic Media, gli standard e le convenzioni generali del protocollo HTTP e la terminologia di base dell’imaging.
 
 **Convenzioni documento**
 

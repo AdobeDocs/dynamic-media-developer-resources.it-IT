@@ -37,7 +37,7 @@ Utilizzando questo comando, Image Server può distribuire immagini di grandi dim
 
 >[!NOTE]
 >
->Per ottenere risultati ottimali, quando si utilizza la compressione JPEG, la dimensione della striscia o del riquadro deve essere un multiplo della dimensione del riquadro di codifica JPEG (16x16 pixel).
+>Per risultati ottimali, quando si utilizza la compressione JPEG, la dimensione della striscia o del riquadro deve essere un multiplo della dimensione del riquadro di codifica JPEG (16x16 pixel).
 
 ## Esempio {#section-932fcfcb41d74a29bc929e4430c49601}
 

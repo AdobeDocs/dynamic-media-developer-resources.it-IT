@@ -34,10 +34,10 @@ Durante la creazione di CSS personalizzati, ricorda che il visualizzatore assegn
 
 ## Note generali sullo stile e consigli {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS, non in base alla posizione della pagina del visualizzatore HTML. Tieni presente questo aspetto durante la copia del CSS predefinito in una posizione diversa: potrebbe essere necessario copiare anche le risorse predefinite o aggiornare i percorsi all’interno del CSS personalizzato.
+* Tutti i percorsi delle risorse esterne all’interno di CSS vengono risolti in base alla posizione CSS, non in base alla posizione della pagina HTML del visualizzatore. Tieni presente questo aspetto durante la copia del CSS predefinito in una posizione diversa: potrebbe essere necessario copiare anche le risorse predefinite o aggiornare i percorsi all’interno del CSS personalizzato.
 * Puoi utilizzare vari formati per il valore del colore supportato dai CSS. Se è necessaria la trasparenza, viene suggerito il formato `rgba(R,G,B,A)`. In caso contrario, non è richiesta la trasparenza `#RRGGBB`.
 
-Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per ignorare eventuali stili predefiniti o di runtime forniti dal visualizzatore o dall&#39;SDK del visualizzatore, in quanto potrebbero influenzare il comportamento corretto dei componenti. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specifica appropriata.
+Quando si personalizza l&#39;interfaccia utente del visualizzatore con CSS, l&#39;utilizzo della regola `!IMPORTANT` non è supportato per gli elementi visualizzatore di stile. In particolare, la regola `!IMPORTANT` non deve essere utilizzata per ignorare eventuali stili predefiniti o di runtime forniti dal visualizzatore o da Viewer SDK, in quanto potrebbero influenzare il comportamento corretto dei componenti. Per impostare le proprietà CSS documentate in questa guida di riferimento, è invece necessario utilizzare i selettori CSS con la specifica appropriata.
 
 ## CSS visualizzatore panoramico {#section-9b6d8d601cb441d08214dada7bb4eddc}
 

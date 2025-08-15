@@ -26,7 +26,7 @@ Un utente finale può spostarsi tra gli elementi dell&#39;interfaccia utente del
 
 A seconda del sistema operativo e delle impostazioni del browser Web, l&#39;elemento dell&#39;interfaccia utente che dispone di input focus riceve un&#39;indicazione di focus visivo. Ad esempio, l’indicatore visivo può essere un bordo sottile rappresentato intorno all’elemento dell’interfaccia utente.
 
-È possibile disabilitare o personalizzare tale evidenziazione dello stato attivo nel CSS del visualizzatore. Nel sommario di questa Guida in linea, sotto un nome di visualizzatore specifico (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione del *nome del visualizzatore*** >**&#x200B; Evidenziazione elemento attivo &#x200B;**.
+È possibile disabilitare o personalizzare tale evidenziazione dello stato attivo nel CSS del visualizzatore. Nel sommario di questa Guida in linea, sotto un nome di visualizzatore specifico (ad esempio, Zoom di base o Video interattivo), fare clic su **Personalizzazione del *nome del visualizzatore*** >** Evidenziazione elemento attivo **.
 
 Le sequenze di tasti supportate dai singoli elementi dell’interfaccia utente del visualizzatore sono, nella maggior parte dei casi, ovvie e facili da individuare.
 

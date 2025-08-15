@@ -53,7 +53,7 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## Visualizzatore video HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* Il modificatore `IntialBitRate` è supportato solo con la riproduzione di HLS software e HDS di Flash. Non funziona se la riproduzione utilizza il lettore nativo.
+* Il modificatore `IntialBitRate` è supportato solo con la riproduzione di software HLS e Flash HDS. Non funziona se la riproduzione utilizza il lettore nativo.
 * Riproduzione progressiva OGG e WebM non supportata.
 * Il ridimensionamento del browser causa la visualizzazione del lettore video con dimensioni non corrette (incluse le impostazioni di visualizzazione del Pannello di controllo Campaign di Windows®).
 * Le ricerche video con lo streaming HLS su Safari non sono coerenti.
@@ -70,6 +70,6 @@ Note sulla compatibilità per sistemi operativi, browser e dispositivi mobili.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 o versione successiva: le impostazioni del plug-in Internet impediscono la riproduzione di video di Flash.
+* Safari 6.1 o versione successiva: le impostazioni del plug-in Internet impediscono la riproduzione di video Flash.
 * Le ricerche video con lo streaming HLS su Safari non sono coerenti.
 * Impossibile cercare la fine del video su Safari 6 utilizzando lo streaming HLS.

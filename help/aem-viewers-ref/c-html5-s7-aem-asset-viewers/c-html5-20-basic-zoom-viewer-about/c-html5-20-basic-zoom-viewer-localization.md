@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati in Basic Zoom Viewer (Visualizzatore zoom di base) sono soggetti alla localizzazione, inclusi i pulsanti di zoom e un pulsante a schermo intero.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale del visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato nelle impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 

@@ -31,7 +31,7 @@ Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-p
 
 ## Utilizzo del Visualizzatore zoom {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-Il Visualizzatore zoom rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti SDK del Visualizzatore utilizzati da questo particolare visualizzatore, risorse e CSS) scaricati dal visualizzatore in fase di esecuzione.
+Il Visualizzatore zoom rappresenta un file JavaScript principale e un set di file di supporto (un singolo JavaScript include con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, risorse, CSS) scaricati dal visualizzatore in fase di esecuzione.
 
 È possibile utilizzare il Visualizzatore zoom in modalità pop-up utilizzando una pagina HTML pronta per la produzione fornita con i visualizzatori IS o in modalità incorporata, in cui viene integrato nella pagina web di destinazione utilizzando l’API documentata.
 
@@ -65,7 +65,7 @@ Il Visualizzatore zoom supporta i seguenti gesti touch comuni in altre applicazi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento orizzontale </p> </td> 
-   <td colname="col2"> <p> Scorre l'elenco dei campioni nella barra dei campioni. </p> <p> Se l'immagine è in uno stato di reimpostazione e il parametro <span class="codeph"> frametransition </span> è impostato su slide, la risorsa viene modificata con l'animazione della diapositiva. Per le altre modalità </span> di frametransition <span class="codeph">, il movimento esegue lo scorrimento nativo della pagina. </p> <p> Se l'immagine è ingrandita, l'immagine viene spostata orizzontalmente. Se l'immagine viene spostata sul bordo della vista e viene eseguito un passaggio nella stessa direzione, il movimento esegue lo scorrimento nativo della pagina. </p> </td> 
+   <td colname="col2"> <p> Scorre l'elenco dei campioni nella barra dei campioni. </p> <p> Se l'immagine è in uno stato di reimpostazione e il parametro <span class="codeph"> frametransition </span> è impostato su slide, la risorsa viene modificata con l'animazione della diapositiva. Per le altre modalità <span class="codeph"> di frametransition </span>, il movimento esegue lo scorrimento nativo della pagina. </p> <p> Se l'immagine è ingrandita, l'immagine viene spostata orizzontalmente. Se l'immagine viene spostata sul bordo della vista e viene eseguito un passaggio nella stessa direzione, il movimento esegue lo scorrimento nativo della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento verticale </p> </td> 
@@ -90,7 +90,7 @@ In modalità pop-up, il visualizzatore viene aperto in una finestra o scheda del
 
 Questa modalità è la più comune per i dispositivi mobili. La pagina Web carica il visualizzatore utilizzando `window.open()` chiamata JavaScript, `A` elemento HTML configurato correttamente o qualsiasi altro metodo appropriato.
 
-Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di funzionamento popup. La pagina HTML predefinita è denominata `ZoomViewer.html` e si trova nella sottocartella `html5/` della distribuzione IS-Viewers standard, come indicato di seguito:
+Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità operativa popup. La pagina HTML predefinita è denominata `ZoomViewer.html` e si trova nella sottocartella `html5/` della distribuzione IS-Viewers standard, come indicato di seguito:
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
@@ -142,7 +142,7 @@ Il percorso relativo è simile al seguente:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -178,9 +178,9 @@ Il percorso relativo è simile al seguente:
 
    Il comportamento con un visualizzatore esterno fisso è visibile nell’esempio seguente. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definisci le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7zoomviewer` `.s7container` o il modificatore `stagesize`.
+   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7zoomviewer` `.s7container` o il modificatore `stagesize`.
 
    Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
@@ -193,7 +193,7 @@ Il percorso relativo è simile al seguente:
 
    La pagina demo seguente mostra il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta in verticale.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    È possibile impostare il modificatore `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic. In alternativa, è possibile trasmetterlo in modo esplicito con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando della presente Guida, come indicato di seguito:
 

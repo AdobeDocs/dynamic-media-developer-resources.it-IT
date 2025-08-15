@@ -1,7 +1,7 @@
 ---
-description: Contrassegna il tipo di dati.
+description: Tipo di dati del contrassegno.
 solution: Experience Manager
-title: Contrassegno
+title: Bandiera
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5916f107-7aaf-4cc9-98fb-c4c070c38031
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Contrassegno{#flag}
+# Bandiera{#flag}
 
-Contrassegna il tipo di dati.
+Tipo di dati del contrassegno.
 
-0=false, 1=true. Qualsiasi altro valore indica sconosciuto o non specificato.
+0=false, 1=true. Qualsiasi altro valore significa sconosciuto o non specificato.

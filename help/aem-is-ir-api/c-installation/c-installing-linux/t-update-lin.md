@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento da IS 4.7.4 o versione successiva
-description: Utilizzare questa procedura per aggiornare Dynamic Medie Image Server su Linux®.
+description: Segui questa procedura per aggiornare Dynamic Media Image Server su Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aggiornamento da IS 4.7.4 o versione successiva{#updating-from-is-or-later}
 
-Utilizzare questa procedura per aggiornare Dynamic Medie Image Server su Linux®.
+Segui questa procedura per aggiornare Dynamic Media Image Server su Linux®.
 
 Se stai effettuando l’aggiornamento da una versione precedente di Image Server, contatta il supporto per la procedura corretta.
 

@@ -26,11 +26,11 @@ Metodo di ricampionamento. Consente di scegliere l&#39;algoritmo di ricampioname
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona l'interpolazione bi-cubica. Più CPU-intensive rispetto all'interpolazione bi-lineare, ma produce immagini più nitide con meno artefatti di aliasing visibili. </p> </td> 
+   <td colname="col2"> <p>Seleziona l'interpolazione bi-cubica. L'interpolazione CPU è più intensiva di quella bi-lineare, ma produce immagini più nitide con meno artefatti di aliasing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleziona una funzione Finestra di Lanczo modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato. <span class="codeph"> </span> è stato sostituito da <span class="codeph"> </span>, che ha meno probabilità di causare artefatti di aliasing (Moiré). </p> </td> 
+   <td colname="col2"> <p>Seleziona una funzione Finestra di Lanczo modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo CPU più elevato. <span class="codeph"> </span> è stato sostituito da <span class="codeph"> </span>, che ha meno probabilità di causare artefatti di aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vescovo </span> </p> </td> 

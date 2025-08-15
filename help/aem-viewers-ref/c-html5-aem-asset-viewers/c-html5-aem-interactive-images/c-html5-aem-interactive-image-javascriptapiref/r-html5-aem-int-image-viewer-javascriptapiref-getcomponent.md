@@ -18,7 +18,7 @@ Guida di riferimento dell&#39;API JavaScript per il Visualizzatore immagini vide
 
 `getComponent(componentId)`
 
-Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
+Restituisce un riferimento al componente SDK per visualizzatori utilizzato dall&#39;visualizzatore. La pagina web può utilizzare questo metodo per estendere o personalizzare il comportamento del visualizzatore predefinito. Chiamare questo metodo solo dopo l&#39;esecuzione del callback del visualizzatore `initComplete`, altrimenti il componente potrebbe non essere ancora stato creato dalla logica del visualizzatore.
 
 ## Parametri {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -28,7 +28,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome classe componente SDK per visualizzatore </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome classe componente SDK visualizzatore </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -41,7 +41,7 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Set file multimediali </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
@@ -55,9 +55,9 @@ Restituisce un riferimento al componente SDK del visualizzatore utilizzato dal v
  </tbody> 
 </table>
 
-Quando si lavora con le API SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
+Quando si utilizzano le API di SDK, è importante utilizzare lo spazio dei nomi SDK completo corretto come descritto in [Spazio dei nomi SDK del visualizzatore](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
 
-Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API SDK per visualizzatori.
+Per ulteriori informazioni su un particolare componente, consulta la documentazione dell’API di Viewer SDK.
 
 ## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

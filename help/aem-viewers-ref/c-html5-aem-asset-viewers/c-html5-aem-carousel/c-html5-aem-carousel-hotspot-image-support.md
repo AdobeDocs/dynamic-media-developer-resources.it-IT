@@ -22,8 +22,8 @@ I punti attivi e le aree geografiche possono attivare una funzione Quickview sul
 
 ## Hotspot Quickview {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Questi tipi di punti attivi o mappe immagine devono essere creati utilizzando il tipo di azione &quot;Quickview&quot; in Dynamic Medie, di Adobe Experience Manager. Quando un utente attiva un punto attivo o una mappa immagine, il visualizzatore esegue il callback di JavaScript `quickViewActivate` e vi trasmette i dati del punto attivo o della mappa immagine. La pagina Web di incorporamento deve essere in ascolto di questo callback. Quando attiva la pagina, apre la propria implementazione Quickview.
+Questi tipi di punti attivi o mappe immagine devono essere creati utilizzando il tipo di azione &quot;Quickview&quot; in Dynamic Media, di Adobe Experience Manager. Quando un utente attiva un punto attivo o una mappa immagine, il visualizzatore esegue il callback di JavaScript `quickViewActivate` e vi trasmette i dati del punto attivo o della mappa immagine. La pagina Web di incorporamento deve essere in ascolto di questo callback. Quando attiva la pagina, apre la propria implementazione Quickview.
 
 ## Reindirizza a pagina web esterna {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-I punti attivi o le mappe immagine creati per il tipo di azione &quot;Quickview&quot; in Dynamic Medie di Experience Manager reindirizzano l’utente a un URL esterno. A seconda delle impostazioni effettuate durante l’authoring, l’URL si apre in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.
+I punti attivi o le mappe immagine creati per il tipo di azione &quot;Quickview&quot; in Dynamic Media di Experience Manager reindirizzano l’utente a un URL esterno. A seconda delle impostazioni effettuate durante l’authoring, l’URL si apre in una nuova scheda del browser, nella stessa finestra o nella finestra del browser denominata.

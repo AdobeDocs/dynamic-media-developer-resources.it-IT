@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Scansione JPEG progressiva. Progressive JPEG mostra un'immagine in modo tale che inizialmente sia completamente sfocata/di bassa qualità.
+description: Scansione JPEG progressiva. Il JPEG progressivo mostra un'immagine in modo tale che inizialmente sia completamente sfocata/di bassa qualità.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # pscan{#pscan}
 
-Scansione JPEG progressiva. Progressive JPEG mostra un&#39;immagine in modo tale che inizialmente sia completamente sfocata/di bassa qualità. Man mano che la scansione continua, diventa più chiara man mano che i dati dell&#39;immagine diventano più completamente scaricati. Questo parametro consente di impostare il numero di scansioni necessarie (3, 4 o 5) per visualizzare l’intera immagine.
+Scansione JPEG progressiva. Il JPEG progressivo mostra un&#39;immagine in modo tale che inizialmente sia completamente sfocata/di bassa qualità. Man mano che la scansione continua, diventa più chiara man mano che i dati dell&#39;immagine diventano più completamente scaricati. Questo parametro consente di impostare il numero di scansioni necessarie (3, 4 o 5) per visualizzare l’intera immagine.
 
 `pscan=auto|3|4|5`
 
 La velocità effettiva di ciascuna scansione dipende dalla velocità di trasmissione del sistema dell&#39;utente e del computer che riceve e decomprime i dati.
 
-`Auto` utilizza le impostazioni di scansione calcolate dalla libreria JPEG indipendente e dipendono dal modello di colore. I valori di `3`, `4`, `5` corrispondono all&#39;impostazione di scansione trovata in Adobe Photoshop quando si salva un file JPEG come pjpeg (progressive JPEG).
+`Auto` utilizza le impostazioni di scansione calcolate dalla libreria JPEG indipendente e dipendono dal modello di colore. I valori di `3`, `4`, `5` corrispondono all&#39;impostazione di analisi trovata in Adobe Photoshop quando si salva un file JPEG come pjpeg (progressive JPEG).
 
 Se `pscan` non è impostato, il valore predefinito è `auto`.
 

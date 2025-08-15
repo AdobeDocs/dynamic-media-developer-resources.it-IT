@@ -1,6 +1,6 @@
 ---
 title: Domini attendibili
-description: Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l'accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere esplicitamente l'accesso registrando il nome dei domini dell'applicazione considerati attendibili.
+description: Domini web delle applicazioni Flash. le applicazioni Adobe Flash possono richiedere l'accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere esplicitamente l'accesso registrando il nome dei domini dell'applicazione considerati attendibili.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Domini attendibili{#trusteddomains}
 
-Domini web dell’applicazione di Flash. Adobe Le applicazioni di Flash possono richiedere l&#39;accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere esplicitamente l&#39;accesso registrando il nome dei domini dell&#39;applicazione considerati attendibili.
+Domini web delle applicazioni Flash. le applicazioni Adobe Flash possono richiedere l&#39;accesso alle proprietà delle immagini fornite in formato swf. Il file SWF deve concedere esplicitamente l&#39;accesso registrando il nome dei domini dell&#39;applicazione considerati attendibili.
 
 ## Proprietà {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

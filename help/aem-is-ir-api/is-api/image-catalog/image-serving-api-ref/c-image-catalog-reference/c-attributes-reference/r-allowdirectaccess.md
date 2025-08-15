@@ -43,7 +43,7 @@ Se non si specifica né `include` né `exclude`, verrà utilizzato `include`.
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Consenti accesso diretto per tutti i tipi di oggetto eccetto `IS` e `STATIC` `AllowDirectAccess=exclude:IS,STATIC`
+* Consenti accesso diretto per tutti i tipi di oggetto eccetto `IS` e `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
 * Consenti accesso diretto per i tipi di oggetto *no* (ovvero non includere nessuno)
 

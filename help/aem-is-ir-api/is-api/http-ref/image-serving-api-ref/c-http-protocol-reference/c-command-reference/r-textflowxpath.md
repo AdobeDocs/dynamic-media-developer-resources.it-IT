@@ -25,7 +25,7 @@ Area di esclusione del flusso di testo. Specifica una o più aree da escludere d
  </tr> 
 </table>
 
-Per ulteriori informazioni, inclusa una descrizione di *`pathDefinition`*, vedere [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d). Se non viene specificata alcuna definizione di percorso, `textFlowXPath=` verrà ignorato.
+Per ulteriori informazioni, inclusa una descrizione di [, vedere ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*. Se non viene specificata alcuna definizione di percorso, `textFlowXPath=` verrà ignorato.
 
 ## Proprietà {#section-cd1ebb151d4a405fbfc508d46522d686}
 

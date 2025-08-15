@@ -26,9 +26,9 @@ Stringa di testo. Necessario per i materiali di texture e decalcomanie, facoltat
 
 ## Formati di file supportati {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Medie Image Server.
+Image Rendering supporta gli stessi formati di immagine sorgente di Dynamic Media Image Server.
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato multi-risoluzione PTIFF (Dynamic Media pyramid TIFF). Image Server include l&#39;utility Image Converter (IC) che crea immagini PTIFF da qualsiasi formato supportato.
 
 Per un elenco completo dei formati di file supportati, consultare la descrizione dell&#39;utility IC nella documentazione di Image Server.
 

@@ -18,13 +18,13 @@ Il server utilizza le regole di risoluzione dei percorsi descritte in [Gestione 
 
 ## Proprietà {#section-72d9edc532ad43349afcb4df22e1c692}
 
-Stringa di testo. Obbligatorio per i record immagine e SVG, potrebbe essere vuoto per i record modello. Se specificato, deve essere un percorso di file del server immagini relativo o assoluto valido. attribute::DefaultExt viene aggiunto se non è presente alcun suffisso di file.
+Stringa di testo. Obbligatorio per i record immagine e SVG. Può essere vuoto per i record modello. Se specificato, deve essere un percorso di file del server immagini relativo o assoluto valido. attribute::DefaultExt viene aggiunto se non è presente alcun suffisso di file.
 
 ## Formati di file immagine supportati {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
 Per un elenco completo dei formati di file di immagine supportati, consultare la descrizione dell&#39;utilità Image Converter (IC).
 
-Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato a più risoluzioni Dynamic Medie pyramid TIFF (PTIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
+Le applicazioni che richiedono dati immagine in più risoluzioni diverse offrono prestazioni ottimali quando si utilizza il formato multi-risoluzione PTIFF (Dynamic Media pyramid TIFF). L&#39;utilità IC viene utilizzata per creare immagini PTIFF da qualsiasi formato di immagine supportato.
 
 ## Predefinito {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

@@ -53,7 +53,7 @@ Richieste che supportano il formato di risposta JSONP consentono di specificare 
 
 La sintassi `<reqHandler>` è il nome del gestore JS presente nella risposta JSONP. Sono consentiti solo i caratteri a-z, A-Z e 0-9. Facoltativo. Il valore predefinito è `s7jsonResponse`.
 
-Il pacchetto dei visualizzatori Image Server di Dynamic Medie include un’utility per richiedere ed analizzare i dati in formato JSONP da Image Server.
+Il pacchetto dei visualizzatori Dynamic Media Image Server include un’utility per richiedere ed analizzare dati in formato JSONP da Image Server.
 
 Per ulteriori informazioni sul formato JSONP, consulta [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP).
 

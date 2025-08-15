@@ -1,7 +1,7 @@
 ---
-description: Se per un catalogo di materiali sono necessari dati sui materiali, il percorso relativo o assoluto del file di dati sui materiali deve essere specificato nell'attributo FileCatalogo.
+description: Se per un catalogo dei materiali sono necessari dati materiali, è necessario specificare il percorso relativo o assoluto del file di dati del materiale nell'attributo CatalogFile.
 solution: Experience Manager
-title: Riferimento dati materiale
+title: Riferimento dei dati dei materiali
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef0bb687-065b-4efe-b8ca-77945bb2f54e
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Riferimento dati materiale{#material-data-reference}
+# Riferimento dei dati dei materiali{#material-data-reference}
 
-Se per un catalogo di materiali sono necessari dati sui materiali, il percorso relativo o assoluto del file di dati sui materiali deve essere specificato in attribute::CatalogFile.
+Se per un catalogo dei materiali sono necessari dati materiali, il percorso relativo o assoluto del file di dati del materiale deve essere specificato in attribute::CatalogFile.
 
-Le voci nel file di dati dei materiali di un catalogo dei materiali specifico sostituiscono le voci nel file di dati dei materiali del catalogo predefinito.
+Le voci nel file dei dati dei materiali di un catalogo di materiali specifico sostituiscono le voci nel file dei dati dei materiali del catalogo predefinito.

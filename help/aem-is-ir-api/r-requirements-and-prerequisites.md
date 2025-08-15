@@ -1,6 +1,6 @@
 ---
 title: Requisiti di sistema e prerequisiti
-description: Prima di utilizzare Dynamic Medie Image Server, verificare che il sistema soddisfi i requisiti di sistema.
+description: Prima di utilizzare Dynamic Media Image Server, accertati che il sistema soddisfi i requisiti di sistema.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Requisiti di sistema e prerequisiti{#system-requirements-and-prerequisites}
 
-Prima di utilizzare Dynamic Medie Image Server, verificare che il sistema soddisfi i requisiti di sistema.
+Prima di utilizzare Dynamic Media Image Server, accertati che il sistema soddisfi i requisiti di sistema.
 
 ## Hardware del server {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -54,7 +54,7 @@ A
 
 ## Software server {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Medie Image Server richiede il seguente software server.
+Dynamic Media Image Server richiede il seguente software server.
 
 **Windows**
 

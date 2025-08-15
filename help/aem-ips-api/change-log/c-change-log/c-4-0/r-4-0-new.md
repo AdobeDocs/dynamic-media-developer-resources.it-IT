@@ -39,7 +39,7 @@ Implementato parametro `trashState` per `searchAssets`.
 
 Implementata l&#39;operazione `getAssetPublishHistory`.
 
-È stata aggiunta l&#39;intestazione opzionale SOAP `faultHttpStatusCode` per abilitare la gestione degli errori in Flex. Per Flex, utilizzare `<faultHttpStatusCode>200</faultHttpStatusCode>`. Il codice di stato predefinito per le risposte di errore è `500 (Internal Server Error)`.
+È stata aggiunta l&#39;intestazione SOAP `faultHttpStatusCode` opzionale per abilitare la gestione degli errori in Flex. Per Flex, utilizzare `<faultHttpStatusCode>200</faultHttpStatusCode>`. Il codice di stato predefinito per le risposte di errore è `500 (Internal Server Error)`.
 
 Sono state aggiunte operazioni per ripristinare le risorse dal cestino e svuotare le risorse dal cestino.
 
@@ -79,7 +79,7 @@ Aggiunta dell&#39;operazione `createTemplate`. Richiama per creare risorse model
 
 Impostazioni società IPS, `CompanySettings`, trasferite all&#39;API dei servizi Web.
 
-Flag di filtro `excludeByproducts` aggiunto all&#39;operazione `searchAssets`. Se si imposta questo flag su true, vengono eseguite `PSDlayer` immagini e immagini copiate da PDF.
+Flag di filtro `excludeByproducts` aggiunto all&#39;operazione `searchAssets`. L&#39;impostazione di questo flag su true esegue `PSDlayer` immagini e immagini copiate da PDF.
 
 Aggiunta dell&#39;operazione `getGenerationInfo`.
 
@@ -115,7 +115,7 @@ Gli skin del visualizzatore supportano due parametri: `skinFg` e `skinBg`. Il co
 
 Implementata l&#39;operazione `getAssociatedAssets`.
 
-È stato aggiunto il tipo di processo `ReprocessAssets` per consentire la rielaborazione dei file di origine primari caricati in precedenza, inclusi la ripulitura dei PDF e la riottimizzazione delle immagini.
+È stato aggiunto il tipo di processo `ReprocessAssets` per consentire la rielaborazione dei file di origine primari caricati in precedenza, inclusa la ripulitura dei PDF e la riottimizzazione delle immagini.
 
 Tipo di campo `PropertySetType` rinominato `propertyType`. Questa ridenominazione influisce sul parametro `createPropertySetType` e sulla risposta `getPropertySetType/getPropertySetTypes`.
 
@@ -164,7 +164,7 @@ Sono stati aggiunti i parametri delle impostazioni locali per i processi e un me
 
 È stato aggiunto il supporto per get/set per campi di metadati fortemente tipizzati.
 
-È stato implementato il supporto dell’SOAP e dell’intestazione HTTP per il controllo della risposta gzip.
+È stato implementato il supporto di SOAP e HTTP header per il controllo della risposta gzip.
 
 Aggiunta del flag `gzipResponse` a `authHeader`. Se non è presente, l&#39;API controlla l&#39;intestazione HTTP `Accept-Encoding`.
 
@@ -322,12 +322,12 @@ Sono state aggiunte opzioni aggiuntive a `UploadDirectoryJob` e `UploadUrlsJob` 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;booleano&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definisce se combinare un PDF di più pagine in un eCatalog dopo il rendering (il valore predefinito è true). </p> </td> 
+   <td colname="col4"> <p>Definisce se combinare un PDF con più pagine in un eCatalog dopo il rendering (il valore predefinito è true). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;booleano&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Definisce se le parole del PDF vengono estratte nel database per essere successivamente fornite a un server di ricerca (il valore predefinito è false). </p> </td> 
+   <td colname="col4"> <p>Definisce se le parole del PDF vengono estratte nel database per essere successivamente fornite a un server di ricerca (l'impostazione predefinita è false). </p> </td> 
   </tr> 
  </tbody> 
 </table>

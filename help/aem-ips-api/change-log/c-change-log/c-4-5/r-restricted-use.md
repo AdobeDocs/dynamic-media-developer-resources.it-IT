@@ -1,5 +1,5 @@
 ---
-description: Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Medie.
+description: Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
 solution: Experience Manager
 title: Uso limitato
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uso limitato{#restricted-use}
 
-Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Medie.
+Le operazioni e i tipi di dati nuovi o modificati disponibili nel file WSDL beta non devono essere utilizzati al di fuori delle applicazioni sviluppate da Dynamic Media.
 
 Queste operazioni e tipi sono soggetti a disabilitazione, modifica o rimozione con successivi aggiornamenti di sistema.
 

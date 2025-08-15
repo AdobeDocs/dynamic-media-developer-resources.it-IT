@@ -81,7 +81,7 @@ Gli elementi *`string`* abilitati per la localizzazione nel catalogo immagini so
 
 *`locId`* deve essere ASCII e non può includere &#39;^&#39;.
 
-&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero pattern `^loc=locId^` di *`localizationToken`* a sottostringhe separate.
+&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero pattern *`localizationToken`* di `^loc=locId^` a sottostringhe separate.
 
 *`stringElements`*, che non includono almeno un *`localizationToken`*, non sono considerati per la localizzazione.
 

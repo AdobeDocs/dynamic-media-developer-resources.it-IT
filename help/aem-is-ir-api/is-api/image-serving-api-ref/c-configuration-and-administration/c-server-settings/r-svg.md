@@ -26,7 +26,7 @@ Percorso dei file di dati di origine di SVG. Può essere uno o più percorsi di 
 
 ## PS::svgProvider.SVGFileSizeLimit - Dimensione massima file SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
-Dimensione massima del file di origine SVG in KB. Il server restituisce un errore quando si tenta di eseguire il rendering di un file SVG che supera questo limite. Il valore predefinito è 1024 kbyte.
+Dimensione massima del file di origine di SVG in KB. Il server restituisce un errore quando si tenta di eseguire il rendering di un file SVG che supera questo limite. Il valore predefinito è 1024 kbyte.
 
 ## IS::SvgMAxRenderRgnPixels - Limite dimensioni immagine di output SVG {#section-5be1fd9639424d878a5ffd11736d3920}
 
@@ -40,9 +40,9 @@ Importante Per il corretto funzionamento del componente SVGRender, questa opzion
 
 ## PS::svgProvider.fontRoot - Cartella file di font SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Specifica dove SvgRender trova i file dei tipi di carattere necessari per il rendering del testo SVG. In genere si tratta di uno dei percorsi specificati in `IS::RootPaths`. Il valore predefinito è [!DNL *[!DNL install_folder]*/images].
+Specifica dove SvgRender trova i file dei tipi di carattere necessari per il rendering del testo di SVG. In genere si tratta di uno dei percorsi specificati in `IS::RootPaths`. Il valore predefinito è [!DNL *[!DNL install_folder]*/images].
 
-## SVG::SVGRender.port, IS::SVGTcpPort - Porta di comunicazione SVG {#section-608687123aa644b7b58fe42385d71b79}
+## SVG::SVGRender.port, IS::SVGTcpPort - SVG Communications Port {#section-608687123aa644b7b58fe42385d71b79}
 
 Configura la porta su cui comunicano il server immagini e il componente SVGRender.
 

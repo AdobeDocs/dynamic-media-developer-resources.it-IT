@@ -42,4 +42,4 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Sì | Matrice di contesti di pubblicazione attivi, che possono includere zero o più valori da Contesto Publish. |
+| contextArray | `types:StringArray` | Sì | Matrice di contesti di pubblicazione attivi, che possono includere zero o più valori da Contesto di pubblicazione. |

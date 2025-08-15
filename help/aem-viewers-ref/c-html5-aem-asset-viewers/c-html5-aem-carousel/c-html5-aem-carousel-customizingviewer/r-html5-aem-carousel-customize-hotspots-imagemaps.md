@@ -1,6 +1,6 @@
 ---
 title: Punti attivi e mappe immagine
-description: Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Medie di AEM Assets - on-demand.
+description: Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui tali punti sono stati creati originariamente in Dynamic Media di AEM Assets, on-demand.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Punti attivi e mappe immagine{#hotspots-and-image-maps}
 
-Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui i punti attivi sono stati creati originariamente in Dynamic Medie di AEM Assets - on-demand.
+Il visualizzatore mostra le icone dei punti attivi sulla vista principale nei luoghi in cui tali punti sono stati creati originariamente in Dynamic Media di AEM Assets, on-demand.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -84,11 +84,11 @@ L’aspetto dell’area della mappa immagine è controllato dal seguente seletto
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore riempimento area mappa immagine. </p> <p>Specificare questo colore nei formati </span> di <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) . </p> </td> 
+   <td colname="col2"> <p>Colore riempimento area mappa immagine. </p> <p>Specificare questo colore in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> formati RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Colore riempimento area mappa immagine. </p> <p>Specificare questo colore nei formati </span> di <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) . </p> </td> 
+   <td colname="col2"> <p>Colore riempimento area mappa immagine. </p> <p>Specificare questo colore in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> formati RGB(R,G,B) </span> o <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 

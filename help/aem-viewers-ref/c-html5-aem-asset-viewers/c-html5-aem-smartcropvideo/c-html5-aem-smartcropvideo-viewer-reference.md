@@ -1,6 +1,6 @@
 ---
 title: Visualizzatore video ritaglio avanzato
-description: Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Medie.
+description: Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Adobe Experience Manager con Dynamic Media.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Ritaglio video automatico{#smart-crop-video}
 
-Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Medie.
+Il visualizzatore video con ritaglio avanzato riproduce video in streaming e progressivi codificati nel formato H.264 con l’aggiunta del supporto per il ritaglio avanzato. Viene fornito da Dynamic Media Classic o Experience Manager con Dynamic Media.
 
 Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Sono supportati sia set per video singolo che set per video adattivi. Inoltre, il visualizzatore supporta l’utilizzo di video progressivi e flussi HLS in hosting su posizioni esterne. È progettato per funzionare sia su browser Web desktop che mobili che supportano video HTML5. Questo visualizzatore supporta anche sottotitoli codificati facoltativi visualizzati sopra al contenuto video, alla navigazione dei capitoli video e agli strumenti di condivisione dei social media.
+Sono supportati sia set per video singolo che set per video adattivi. Inoltre, il visualizzatore supporta l’utilizzo di video progressivi e flussi HLS in hosting su posizioni esterne. È progettato per funzionare su browser Web desktop e mobili che supportano video HTML5. Questo visualizzatore supporta anche sottotitoli codificati facoltativi visualizzati sopra al contenuto video, alla navigazione dei capitoli video e agli strumenti di condivisione dei social media.
 
-Il Visualizzatore video ritaglio avanzato utilizza la riproduzione video in streaming HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
+Il Visualizzatore video ritaglio avanzato utilizza la riproduzione video in streaming di HTML5 in formato HLS nella sua configurazione predefinita ogni volta che il sistema sottostante lo supporta. Sui sistemi che non supportano lo streaming su HTML5, il visualizzatore torna alla distribuzione di video progressivi HTML5.
 
 Visualizzatore di tipo 518.
 
@@ -31,7 +31,7 @@ Visualizzatore di tipo 518.
 
 ## Utilizzo del visualizzatore ritaglio video automatico {#section-f21ac23d3f6449ad9765588d69584772}
 
-Il visualizzatore video Ritaglio avanzato rappresenta un file JavaScript principale e un set di file di supporto, un singolo JavaScript da includere con tutti i componenti SDK del visualizzatore utilizzati da questo particolare visualizzatore, le risorse e gli stili CSS scaricati dal visualizzatore in fase di esecuzione.
+Il Visualizzatore video ritaglio avanzato rappresenta un file JavaScript principale e un set di file di supporto, un singolo JavaScript da includere con tutti i componenti del Visualizzatore SDK utilizzati da questo particolare visualizzatore, le risorse e i file CSS scaricati dal visualizzatore in fase di esecuzione.
 
 È possibile utilizzare il Visualizzatore video ritaglio avanzato in modalità pop-up utilizzando la pagina HTML pronta per la produzione fornita con i visualizzatori IS. In alternativa, puoi utilizzare il visualizzatore in modalità incorporata, dove viene integrato in una pagina web di destinazione utilizzando l’API documentata.
 
@@ -135,7 +135,7 @@ Il percorso relativo si presenta come segue:
 
 >[!NOTE]
 >
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` dell&#39;SDK di HTML5 caricata dal visualizzatore dal percorso di contesto `/s7viewers` (il cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. L&#39;Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+>Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
 >
 >
 >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
@@ -293,7 +293,7 @@ La pagina di esempi seguente illustra un utilizzo più reale del design responsi
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporamento di progettazione reattiva con larghezza e altezza definite**
 

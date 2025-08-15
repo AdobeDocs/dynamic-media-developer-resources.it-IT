@@ -30,8 +30,8 @@ Aggiorna le impostazioni del formato di pubblicazione vignettatura.
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sì | Gestore azienda. |
-| vignetteFormatHandle | `xsd:string` | Sì | Handle di formato Publish. |
-| nome | `xsd:string` | No | Nome formato Publish. |
+| vignetteFormatHandle | `xsd:string` | Sì | Handle di formato di pubblicazione. |
+| nome | `xsd:string` | No | Nome formato di pubblicazione. |
 | targetWidth | `xsd:int` | Sì | Specifica la larghezza di destinazione della visualizzazione vignettatura risultante, in pixel. Utilizzare zero in modo che la vignettatura di output abbia le stesse dimensioni della vignettatura principale. |
 | targetHeight | `xsd:int` | Sì | Specifica l&#39;altezza di destinazione in pixel della visualizzazione vignettatura risultante. Utilizzare zero in modo che la vignettatura di output abbia le stesse dimensioni della vignettatura principale. |
 | createPyramid | `xsd:boolean` | Sì | Crea una vignettatura piramidale ottimizzata per lo zoom sul server Image Rendering. Partendo dalla dimensione massima, impostata dai campi Dimensione vignettatura di destinazione, vengono create visualizzazioni con più dimensioni in un singolo file di output vignettatura. Ogni dimensione di visualizzazione successiva viene dimezzata fino a raggiungere valori di larghezza e altezza compresi tra 128x128 pixel. |

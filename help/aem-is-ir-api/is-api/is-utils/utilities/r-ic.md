@@ -18,9 +18,9 @@ Image Conversion Utility
 
 `ic` è uno strumento da riga di comando che converte i file immagine nel formato PTIFF (Pyramid TIFF Format) ottimizzato. Mentre Image Server può elaborare le immagini senza conversione, ti consigliamo di convertire tutte le immagini di dimensioni superiori a 512x512 pixel in PTIFF. Questa conversione garantisce prestazioni ottimali del server e l’utilizzo delle risorse, riducendo al minimo i tempi di risposta.
 
-È consigliabile che i file PTIFF contenenti contenuto fotografico siano codificati in JPEG (specificare `-jpegcompress`). I contenuti generati dal computer possono beneficiare di una compressione senza perdita (`-deflatecompress` o `-lzwcompress`). A meno che non sia necessaria una conversione del colore o del tipo di pixel, i dati dell&#39;immagine sorgente JPEG vengono trasferiti al PTIFF senza decodifica, per evitare il degrado della qualità. In questo caso, le opzioni di compressione specificate si applicano solo ai livelli piramidali a risoluzione inferiore.
+È consigliabile che i file PTIFF contenenti contenuto fotografico siano codificati in JPEG (specificare `-jpegcompress`). I contenuti generati dal computer possono beneficiare di una compressione senza perdita (`-deflatecompress` o `-lzwcompress`). A meno che non sia necessaria una conversione del colore o del tipo di pixel, i dati dell&#39;immagine sorgente di JPEG vengono trasferiti al file PTIFF senza decodifica, per evitare il degrado della qualità. In questo caso, le opzioni di compressione specificate si applicano solo ai livelli piramidali a risoluzione inferiore.
 
-Se non si convertono immagini di grandi dimensioni, non è necessario impostare i parametri che controllano la quantità di memoria da utilizzare. Tuttavia, se lo sei, concedi a `ic` più memoria utilizzando l&#39;impostazione `-maxmem` descritta di seguito. Una buona regola per calcolare la quantità di memoria necessaria è moltiplicare la larghezza dell&#39;immagine per l&#39;altezza dell&#39;immagine per il numero di canali. Ad esempio, quattro per un’immagine RGB con alfa per tre. Inoltre, se i canali sono a 16 bit per componente invece di 8, il risultato finale sarà doppio.
+Se non si convertono immagini di grandi dimensioni, non è necessario impostare i parametri che controllano la quantità di memoria da utilizzare. Tuttavia, se lo sei, concedi a `ic` più memoria utilizzando l&#39;impostazione `-maxmem` descritta di seguito. Una buona regola per calcolare la quantità di memoria necessaria è moltiplicare la larghezza dell&#39;immagine per l&#39;altezza dell&#39;immagine per il numero di canali. Ad esempio, quattro per un’immagine RGB con alfa moltiplicato per tre. Inoltre, se i canali sono a 16 bit per componente invece di 8, il risultato finale sarà doppio.
 
 ## Utilizzo {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -115,7 +115,7 @@ Se non si convertono immagini di grandi dimensioni, non è necessario impostare 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>Copiare i metadati XMP, se disponibili, da <span class="codeph"> <span class="varname"> sourceFile </span> </span> a <span class="codeph"> <span class="varname"> destFile </span> </span> senza modifiche. </p> </td> 
+   <td colname="col2"> <p>Copiare i metadati di XMP, se disponibili, da <span class="codeph"> <span class="varname"> sourceFile </span> </span> a <span class="codeph"> <span class="varname"> destFile </span> </span> senza modifiche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
@@ -159,7 +159,7 @@ Se non si convertono immagini di grandi dimensioni, non è necessario impostare 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>Imponi la decodifica e la nuova codifica delle immagini di input JPEG. </p> <p> <b>Attenzione:</b> L'applicazione di questa opzione potrebbe ridurre la qualità dell'immagine. </p> </td> 
+   <td colname="col2"> <p>Forza la decodifica e la ricodifica delle immagini di input JPEG. </p> <p> <b>Attenzione:</b> L'applicazione di questa opzione potrebbe ridurre la qualità dell'immagine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsampling2x2 </span> </p> </td> 
@@ -316,9 +316,9 @@ Nella tabella seguente sono elencati i formati di file immagine e le opzioni di 
  </tbody> 
 </table>
 
-I profili ICC incorporati vengono riconosciuti nei file EPS, JPG PSD, PNG e TIFF.
+I profili ICC incorporati vengono riconosciuti nei file EPS, JPG, PSD, PNG e TIFF.
 
-I percorsi incorporati e i metadati XMP vengono riconosciuti nei file EPS, JPG PSD, e TIFF.
+I percorsi incorporati e i metadati XMP vengono riconosciuti nei file EPS, JPG, PSD e TIFF.
 
 ## Esempi {#section-3c1986b30315431989bd76b1ee5bef6d}
 

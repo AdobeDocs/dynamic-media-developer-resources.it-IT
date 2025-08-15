@@ -1,7 +1,7 @@
 ---
-description: Matrice di mappe immagine.
+description: Array di mappe immagine.
 solution: Experience Manager
-title: MatriceMappaImmagine
+title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da823ee9-198f-4d52-b77f-ac7d21162fb5
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL ImageMapArray]{#imagemaparray}
 
-Matrice di mappe immagine.
+Array di mappe immagine.
 
 Sintassi
 
@@ -22,4 +22,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| elementi | `types:ImageMap` | Array della mappa immagine. |
+| Elementi | `types:ImageMap` | La matrice della mappa immagine. |

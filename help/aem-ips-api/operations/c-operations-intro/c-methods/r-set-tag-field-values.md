@@ -1,5 +1,5 @@
 ---
-description: Imposta i valori del dizionario di tag per un campo tag esistente.
+description: Imposta tag valori del dizionario per un campo tag esistente.
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # setTagFieldValues{#settagfieldvalues}
 
-Imposta i valori del dizionario di tag per un campo tag esistente.
+Imposta tag valori del dizionario per un campo tag esistente.
 
 Sintassi
 
@@ -26,13 +26,13 @@ Sintassi
 
 ## Parametri {#section-a05cbee4cb4f44198c414a6b14e69156}
 
-**Input**
+**Immissione**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Gestore azienda. |
-| fieldHandle | `xsd:string` | Sì | Handle campo tag. |
-| valueArray | `types:StringArray` | Sì | Matrice di valori di tag che sostituiscono il dizionario esistente del campo. Le associazioni tra risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
+| CompanyHandle | `xsd:string` | Sì | Maniglia aziendale. |
+| Gestione campo | `xsd:string` | Sì | Handle del campo tag. |
+| valueArray | `types:StringArray` | Sì | Matrice di valori tag che sostituiscono il dizionario esistente del campo. Le associazioni di risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
 
 **Output (setTagFieldValuesReturn)**
 

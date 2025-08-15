@@ -50,13 +50,13 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col4"> Handle dell'azienda a cui appartiene il registro di processo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Maniglia</span> processo </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Handle di un processo attivo o completato. </td> 
+   <td colname="col4"> Un handle per un lavoro attivo o completato. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nomeOriginale</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Nome</span> originale </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> Nome originale del registro del processo. </td> 
@@ -65,11 +65,11 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:StringArray</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> Una o più costanti Log Type. Se presente, vengono restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
+   <td colname="col4"> Una o più costanti di tipo registro. Se presenti, vengono restituiti solo i tipi di registro specificati. Per impostazione predefinita, vengono restituiti tutti i tipi di registro. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordPerPage</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> recordPer pagina</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:int</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4">Numero massimo di <span class="codeph"> elementi detailArray</span> da restituire. Il valore massimo e predefinito è 1000. </td> 
   </tr> 
@@ -80,13 +80,13 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
    <td colname="col4">Numero di pagine di <span class="codeph"> recordPerPage</span>-results da restituire. Il valore predefinito è 1. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Ordina per</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Uno dei valori costanti del campo di ordinamento dei dettagli processo (Date o LogType). Il valore predefinito è Date. </p> </td> 
+   <td colname="col4"> <p>Uno dei valori costanti del campo di ordinamento dettagli processo (Date o LogType). Il valore predefinito è Data. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Direzione</span> ordinamento </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> <p>Una delle costanti della stringa di ordinamento. Il valore predefinito è crescente. </p> </td> 
@@ -102,7 +102,7 @@ Il campo di risposta `logMessage` è localizzato in base al campo `authHeader` `
 
 ## Esempi {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-In questo esempio di codice vengono restituiti tutti i dettagli del registro processi per una società specifica. Il primo array contiene i dettagli del registro di processo standard. Un array incorporato restituisce informazioni aggiuntive sul processo.
+In questo esempio di codice vengono restituiti tutti i dettagli del registro processi di una specifica società. Il primo array contiene i dettagli standard del registro dei processi. Un array incorporato restituisce informazioni aggiuntive sul processo.
 
 **Richiesta**
 

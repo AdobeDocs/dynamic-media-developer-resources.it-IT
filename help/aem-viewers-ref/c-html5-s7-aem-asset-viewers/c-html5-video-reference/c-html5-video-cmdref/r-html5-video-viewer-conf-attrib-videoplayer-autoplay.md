@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.autoplay
-description: Attributo di configurazione per Visualizzatore video.
+description: Attributo di configurazione per Video visualizzatore.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 7%
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attributo di configurazione per Visualizzatore video.
+Attributo di configurazione per Video visualizzatore.
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0|1`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video al caricamento. Alcuni sistemi, come alcuni dispositivi mobili, non supportano AutoPlay. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 0|1</span> </span> </p> </td> 
+   <td colname="col2"> <p> Indica se il visualizzatore avvia la riproduzione del video durante il caricamento. Alcuni sistemi like alcuni dispositivi mobili non supportano AutoPlay. </p> </td> 
   </tr> 
  </tbody> 
 </table>

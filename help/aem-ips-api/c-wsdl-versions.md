@@ -18,7 +18,7 @@ Il servizio Web IPS è supportato da un insieme di documenti WSDL (Web Services 
 
 ## Accesso WSDL {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-Accedere ai file WSDL di Scene7 come illustrato di seguito.
+Accedi ai file WSDL di Scene7 come mostrato di seguito.
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**URL di accesso per aree geografiche Dynamic Medie**
+**URL di accesso per le aree Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,9 +131,9 @@ Il servizio Web API IPS supporta solo un&#39;associazione SOAP.
 
 **Trasporti supportati**
 
-Il binding SOAP API IPS supporta solo il trasporto HTTP. Effettuare tutte le richieste SOAP utilizzando il metodo HTTPS POST.
+Il binding IPS API SOAP supporta solo il trasporto HTTP. Effettuare tutte le richieste SOAP utilizzando il metodo HTTPS POST.
 
-**Intestazione azione azione SOAP**
+**Intestazione azione SOAP**
 
 Per elaborare una richiesta, impostare l&#39;intestazione HTTP SOAPAction sul nome dell&#39;operazione richiesta. L&#39;attributo del nome dell&#39;operazione nella sezione di associazione WSDL specifica il nome.
 
@@ -219,7 +219,7 @@ Di seguito è riportato un esempio di utilizzo dell&#39;elemento `authHeader` in
 
 **Altri metodi di autenticazione delle richieste**
 
-Se per qualche motivo l&#39;applicazione client non è in grado di trasmettere l&#39;intestazione SOAP `authHeader`, le richieste API possono specificare anche le credenziali utilizzando l&#39;autenticazione HTTP Basic (come specificato nella RFC 2617).
+Se per qualche motivo l&#39;applicazione client non è in grado di passare l&#39;intestazione SOAP `authHeader`, le richieste API possono specificare anche le credenziali utilizzando l&#39;autenticazione HTTP Basic (come specificato in RFC 2617).
 
 Per l’autenticazione HTTP Basic, la sezione dell’intestazione HTTP di ogni richiesta SOAP POST deve includere un’intestazione del modulo:
 
@@ -229,7 +229,7 @@ Dove `base64()` applica la codifica Base64 standard, `<IPS_user_email>` è l&#39
 
 Invia preventivamente l’intestazione Autorizzazione con la richiesta iniziale. Se nella richiesta non sono incluse credenziali di autenticazione, `IpsApiService` non risponde con il codice di stato `401 (Unauthorized)`. Viene invece restituito un codice di stato `500 (Internal Server Error)` con un corpo di errore SOAP che indica che la richiesta non può essere autenticata.
 
-Prima di IPS 3.8, l&#39;autenticazione tramite l&#39;intestazione SOAP è stata implementata utilizzando gli elementi `AuthUser` e `AuthPassword` nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
+Prima di IPS 3.8, l&#39;autenticazione tramite l&#39;intestazione SOAP era implementata utilizzando gli elementi `AuthUser` e `AuthPassword` nello spazio dei nomi `http://www.scene7.com/IpsApi`. Ad esempio:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 

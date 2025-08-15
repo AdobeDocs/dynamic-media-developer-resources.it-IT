@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal Visualizzatore immagini interattivo sono soggetti a localizzazione. Questo contenuto include descrizioni con gli strumenti per gli elementi dell’interfaccia utente e un messaggio informativo visualizzato dalla visualizzazione zoom a comparsa al momento del caricamento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale del visualizzatore che può essere localizzato è rappresentato dallo speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se esiste un valore definito dall&#39;utente per ciascun SIMBOLO supportato per tali impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 

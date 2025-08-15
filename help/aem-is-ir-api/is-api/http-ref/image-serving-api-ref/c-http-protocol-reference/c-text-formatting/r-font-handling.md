@@ -1,6 +1,6 @@
 ---
-title: Gestione caratteri
-description: Tutti i font a cui si fa riferimento nella stringa RTF devono essere disponibili nel file di mappa font del catalogo predefinito o del catalogo immagine corrente. In caso contrario viene restituito un errore.
+title: Gestione dei font
+description: Tutti i font a cui si fa riferimento nella stringa RTF devono essere disponibili nel file mappa font del catalogo predefinito o del catalogo immagini corrente, altrimenti viene restituito un errore.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Gestione caratteri{#font-handling}
+# Gestione dei font{#font-handling}
 
-Tutti i font a cui si fa riferimento nella stringa RTF devono essere disponibili nel file di mappa font del catalogo predefinito o del catalogo immagine corrente. In caso contrario viene restituito un errore.
+Tutti i font a cui si fa riferimento nella stringa RTF devono essere disponibili nel file mappa font del catalogo predefinito o del catalogo immagini corrente, altrimenti viene restituito un errore.
 
-La migliore qualità per il testo in corsivo e in grassetto si ottiene registrando i file di font corrispondenti. Se non è disponibile, il server è in grado di sintetizzare i caratteri in grassetto e/o corsivo del volto standard. (Vedi [attributo::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+La migliore qualità per il testo in corsivo e grassetto si ottiene registrando i corrispondenti file font. Se non disponibile, il server può sintetizzare facce font in grassetto e/o corsivo dalla faccia standard. (Vedi [attributo::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
 
-Il tipo di carattere specificato con `attribute::DefaultFont` viene utilizzato quando non ne è specificato esplicitamente alcuno nella stringa RTF.
+La faccia font specificata con `attribute::DefaultFont` viene utilizzata quando nessuna è specificata in modo esplicito nella stringa RTF.
 
-Image Server supporta i caratteri TrueType® OpenType e Adobe Type 1 (solo Windows).
+Immagine Serving supporta i caratteri TrueType, OpenType® Adobe Systems Type 1 (solo Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## Consultate anche {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Riferimento mappa caratteri](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attributo::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attributo::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[Riferimento](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d) mappa font, [attributo::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attributo::D efaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

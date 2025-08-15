@@ -22,5 +22,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| ccOriginator | `xsd:boolean` | Se true, include l’account utente del servizio web dell’utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Dynamic Medie. |
-| ccOthersArray | `types:EmailArray` | Un array di indirizzi e-mail (massimo 5) designati per ricevere la notifica di conferma dal CDN di Dynamic Medie. |
+| ccOriginator | `xsd:boolean` | Se true, include l’account utente del servizio web dell’utente, che è un elenco di e-mail designate per ricevere una conferma e-mail dalla rete CDN di Dynamic Media. |
+| ccOthersArray | `types:EmailArray` | Un array di indirizzi e-mail (massimo 5) designati per ricevere la notifica di conferma dalla rete CDN di Dynamic Media. |

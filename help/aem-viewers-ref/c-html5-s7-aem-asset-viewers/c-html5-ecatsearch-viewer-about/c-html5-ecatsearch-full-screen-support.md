@@ -1,7 +1,7 @@
 ---
-description: Il visualizzatore supporta la modalità di funzionamento a schermo intero.
+description: Il visualizzatore supporta la modalità operativa a schermo intero.
 solution: Experience Manager
-title: supporto a schermo intero
+title: Supporto per schermi interi
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b4196444-10a9-4391-b3ac-d8f12deb173f
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# supporto a schermo intero{#full-screen-support}
+# Supporto per schermi interi{#full-screen-support}
 
-Il visualizzatore supporta la modalità di funzionamento a schermo intero.
+Il visualizzatore supporta la modalità operativa a schermo intero.
 
-Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni precedenti, e su alcuni dispositivi touch, il visualizzatore utilizza la modalità a schermo intero &quot;nativa&quot;. Questa modalità indica che l’intero schermo del dispositivo è occupato dal contenuto del visualizzatore.
+Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni precedenti e su alcuni dispositivi touch, il visualizzatore utilizza la modalità a schermo intero &quot;nativo&quot;. Questa modalità significa che l&#39;intero schermo dispositivo è occupato dal visualizzatore contenuto.
 
-Sui dispositivi iOS e sui browser Internet Explorer precedenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona semplicemente per occupare l’intera area della finestra del browser web. Inoltre, l’interfaccia utente del browser web e altre finestre sono ancora visibili sullo schermo.
+Nei dispositivi iOS e nei browser Internet Explorer meno recenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona semplicemente per occupare l&#39;intera area della finestra del browser Web. Inoltre, il browser web utente l&#39;interfaccia e altre finestre sono ancora visibili sullo schermo.
 
-Un utente finale entra in modalità a schermo intero e ne esce premendo il pulsante nell’interfaccia utente del visualizzatore. Se sul desktop viene utilizzata la modalità a schermo intero &quot;nativa&quot;, è possibile uscire premendo **Esc**.
+Un utente finale entra ed esce dalla modalità a schermo intero premendo il pulsante a schermo intero nell&#39;interfaccia utente visualizzatore. Quando si utilizza la modalità a schermo intero &quot;nativo&quot; sul desktop, è anche possibile uscirne premendo **Esc**.

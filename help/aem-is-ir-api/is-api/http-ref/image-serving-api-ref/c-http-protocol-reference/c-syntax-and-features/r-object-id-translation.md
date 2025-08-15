@@ -26,7 +26,7 @@ L’applicazione può essere scritta utilizzando solo gli ID oggetto globali; Im
 
 ## Ambito {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Tutti i riferimenti alle voci nei cataloghi di contenuto statico, SVG e immagine vengono considerati per i font di traduzione e i riferimenti al profilo ICC non vengono tradotti. Oltre a *`object`* nel percorso di [!DNL /is/image] e [!DNL /is/static requests], questi comandi e attributi del catalogo sono soggetti alla traduzione ID: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` e `attribute::Watermark`.
+Tutti i riferimenti alle voci nei cataloghi di immagini, SVG e contenuti statici vengono considerati per i font di traduzione e i riferimenti al profilo ICC non vengono tradotti. Oltre a *`object`* nel percorso di [!DNL /is/image] e [!DNL /is/static requests], questi comandi e attributi del catalogo sono soggetti alla traduzione ID: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` e `attribute::Watermark`.
 
 ## Mappa di traduzione ID {#section-9e417b352c314dfe94e831fdd62cddc8}
 

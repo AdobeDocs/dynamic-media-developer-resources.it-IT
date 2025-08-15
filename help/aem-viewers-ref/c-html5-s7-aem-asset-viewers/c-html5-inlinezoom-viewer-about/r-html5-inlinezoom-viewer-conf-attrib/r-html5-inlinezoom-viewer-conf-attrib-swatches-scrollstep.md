@@ -19,17 +19,17 @@ ht-degree: 9%
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
-   <td> <p>Incremento orizzontale. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> hStep</span> </span> </p> </td> 
+   <td> <p>Passaggio orizzontale. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>Incremento verticale. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> vStep</span> </span> </p> </td> 
+   <td> <p>Passaggio verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Specifica quanti campioni devono scorrere ogni volta che si tocca o si fa clic sul pulsante di scorrimento corrispondente.
+Specifica quanti campioni devono scorrere per ogni clic o tocco del pulsante di scorrimento corrispondente.
 
 ## Proprietà {#section-e6310c8c4e8547689a5b48ceddb3671d}
 

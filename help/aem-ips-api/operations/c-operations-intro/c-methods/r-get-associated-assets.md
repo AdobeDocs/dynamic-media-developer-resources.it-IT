@@ -117,7 +117,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>GeneratorArray</span> di <span class="codeph"> elenca la modalità di creazione della risorsa. Se ad esempio <span class="codeph"> assetHandler</span> è una pagina immagine di un PDF, lo strumento processore PDF conterrà un riferimento alla risorsa PdfFile. </p> </td> 
+   <td colname="col4"> <p>GeneratorArray<span class="codeph"> di </span> elenca la modalità di creazione della risorsa. Se ad esempio <span class="codeph"> assetHandler</span> è una pagina immagine di un PDF, lo strumento di elaborazione di PDF conterrà un riferimento alla risorsa PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
@@ -134,11 +134,11 @@ Sintassi
  </tbody> 
 </table>
 
-È possibile utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, gli elementi `GenerationInfo` restituiti in `generatorArray` o `generatedArray` sono predefiniti per includere sia il record originatore che il record risorsa generato. Per un tipo di risorsa PDF, questo comportamento genera più copie indesiderate del record di risorsa PDF &quot;originator&quot; nella risposta. È possibile eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, è possibile specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
+È possibile utilizzare i parametri `responseFieldArray` o `excludeFieldArray` per limitare la dimensione della risposta. In particolare, gli elementi `GenerationInfo` restituiti in `generatorArray` o `generatedArray` sono predefiniti per includere sia il record originatore che il record risorsa generato. Per un tipo di risorsa PDF, questo comportamento genera più copie indesiderate del record di risorsa PDF &quot;originatore&quot; nella risposta. È possibile eliminare questo problema aggiungendo `generatedArray/items/originator` a `excludeFieldArray`. In alternativa, è possibile specificare un elenco esplicito di campi di risposta da includere in `responseFieldArray`.
 
 ## Esempi {#section-8946ea4b9cb94912a8408249c897f192}
 
-L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore di un&#39;immagine estratta da un PDF. Include un `containerArray` di lunghezza 1 con un elemento che include il `assetHandle` del PDF.
+L&#39;esempio di base seguente è una richiesta per l&#39;handle del generatore di un&#39;immagine estratta da un PDF. Include un `containerArray` di lunghezza 1 con un elemento che include il `assetHandle` di PDF.
 
 **Richiesta**
 

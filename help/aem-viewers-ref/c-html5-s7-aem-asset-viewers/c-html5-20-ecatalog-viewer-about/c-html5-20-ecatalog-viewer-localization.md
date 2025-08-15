@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alcuni contenuti visualizzati dal visualizzatore eCatalog sono soggetti a localizzazione, ad esempio i pulsanti di zoom, i pulsanti di modifica della pagina, i pulsanti delle miniature, i pulsanti a schermo intero, i pulsanti di chiusura e i pulsanti della barra di scorrimento.
 
-Ogni contenuto testuale nel visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore chiamato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
+Ogni contenuto testuale del visualizzatore che può essere localizzato è rappresentato da uno speciale identificatore SDK del visualizzatore denominato SYMBOL. Qualsiasi simbolo ha un valore di testo associato predefinito per le impostazioni locali inglesi ( `"en"`) fornito con il visualizzatore predefinito e può anche avere valori definiti dall&#39;utente impostati per tutte le impostazioni internazionali necessarie.
 
 All&#39;avvio, il visualizzatore controlla le impostazioni locali correnti per verificare se è presente un valore definito dall&#39;utente per ciascun SIMBOLO supportato nelle impostazioni locali. In caso affermativo, viene utilizzato il valore definito dall’utente; in caso contrario, viene utilizzato il testo predefinito.
 
@@ -294,11 +294,11 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Condividi di facebook. </p> </td> 
+   <td colname="col2"> <p>Pulsante Condividi di Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante Condivisione twitter. </p> </td> 
+   <td colname="col2"> <p>Pulsante Condividi di Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 

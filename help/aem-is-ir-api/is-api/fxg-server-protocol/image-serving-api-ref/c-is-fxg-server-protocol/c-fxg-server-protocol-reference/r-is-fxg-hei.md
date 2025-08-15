@@ -25,7 +25,7 @@ Altezza visualizzazione. Specifica l&#39;altezza dell&#39;immagine di risposta.
  </tr> 
 </table>
 
-Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Seleziona **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Installazione di Publish]** > **[!UICONTROL Server immagini]**, quindi immetti i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui un Image Server Publish per applicare una modifica.
+Il rendering dei formati raster viene eseguito utilizzando l&#39;impostazione Default View Size (o DefaultPix). Seleziona **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**, quindi immetti i valori di larghezza e altezza. Le dimensioni più piccole offrono prestazioni migliori. Salva le impostazioni ed esegui una pubblicazione Image Server per applicare una modifica.
 
 Se si applica un comando `scale=1`, viene eseguito il rendering di una richiesta in formato raster alle dimensioni specificate in FXG.
 
@@ -37,12 +37,12 @@ Se `wid=`, `hei=` o `scale=` non sono specificati, l&#39;immagine di risposta è
 
 [!DNL `http://server/is/agm/myRootId/myImageId?hei=200`]
 
-A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, l’altezza e la larghezza non hanno alcun significato, perché il SWF di solito si espande fino alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
+A meno che non sia specificato un formato, l&#39;immagine viene riprodotta come file SWF. In questo caso, l’altezza e la larghezza non hanno alcun significato, perché SWF in genere si espande alle dimensioni della finestra del browser. Di conseguenza, hei e wid si applicano solo ai formati raster o PDF. I formati raster includono:
 
 * GIF
 * TIF
 * PNG
-* JPG-
+* JPG
 * JPEG
 * GIF-alfa
 * TIF-alfa

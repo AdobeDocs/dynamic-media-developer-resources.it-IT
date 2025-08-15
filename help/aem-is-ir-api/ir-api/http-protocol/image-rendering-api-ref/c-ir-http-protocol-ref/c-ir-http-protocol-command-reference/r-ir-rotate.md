@@ -1,5 +1,5 @@
 ---
-title: rotazione
+title: ruotare
 description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione dei materiali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# rotazione{#rotate}
+# ruotare{#rotate}
 
 Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei materiali.
 
@@ -25,17 +25,17 @@ Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei mater
  </tr> 
 </table>
 
-Ruotare i materiali di texture ripetibili (esclusi gli sfondi) di multipli di 45° quando applicati a oggetti piatti o a oggetti piani.
+Ruotate i materiali texture ripetibili (esclusi gli sfondi) di multipli di 45° quando applicati a oggetti piatti o oggetti piani.
 
-Ruotate i materiali di texture ripetibili mediante angoli arbitrari quando applicate agli oggetti di sketch e di flusso.
+Ruota i materiali texture ripetibili di angoli arbitrari quando viene applicato a Flowline e Sketch oggetti.
 
-Ruotare i materiali delle decalcomanie per angoli arbitrari.
+Ruota i materiali delle decalcomanie con angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La trama o la decalcomania viene ruotata attorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
+Gli angoli positivi ruotano in senso orario. La texture o decal viene ruotata attorno al punto ancoraggio ( `anchor=`); il punto ancoraggio rimane allineato all&#39;origine dell&#39;oggetto destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attributo materiale. Ignorato dai materiali di colore solido, carta da parati, armadio e trattamento delle finestre. *`angle`* deve essere un multiplo di 45 per le texture ripetibili, a meno che non sia applicato agli oggetti di disegno o di flusso.
+Attributo materiale. Ignorato da colori solidi, carta da parati, armadi e materiali per il trattamento delle finestre. *`angle`* Deve essere un multiplo di 45 per le texture ripetibili, a meno che non venga applicato a Flowline o Sketch Objects.
 
 ## Predefinito {#section-14c991e71b74449db8ff18a775949b28}
 

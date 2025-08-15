@@ -1,5 +1,5 @@
 ---
-description: Restituisce gli utenti di una società specificata da un handle di società.
+description: Restituisce gli utenti di una società specificata da un handle aziendale.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # getCompanyMembers{#getcompanymembers}
 
-Restituisce gli utenti di una società specificata da un handle di società.
+Restituisce gli utenti di una società specificata da un handle aziendale.
 
 Sintassi
 
@@ -31,18 +31,18 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sì | Handle per l&#39;azienda di cui si desidera ottenere i membri. |
-| includeInvalid | `xsd:boolean` | Sì | Includi società non valide. |
+| CompanyHandle | `xsd:string` | Sì | L&#39;handle per la società di cui si desidera ottenere membri. |
+| includeInvalid | `xsd:boolean` | Sì | Includi non valido società. |
 
 **Output (getCompanyMembersReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| memberArray | `types:CompanyMemberArray` | Sì | Array di appartenenze utente. |
+| memberArray | `types:CompanyMemberArray` | Sì | Matrice di utente appartenenze. |
 
 ## Esempi {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-In questo esempio di codice vengono restituiti tutti i membri di un&#39;azienda in un array di utenti. La risposta è stata troncata per brevità.
+In questo esempio di codice vengono restituiti tutti i membri di una società in una matrice utente. La risposta è stata troncata per brevità.
 
 **Richiesta**
 

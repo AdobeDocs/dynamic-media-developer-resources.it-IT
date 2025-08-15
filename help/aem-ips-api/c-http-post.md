@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Caricamento di risorse tramite HTTP POST nel servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Il caricamento di risorse in Dynamic Media Classic prevede una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
+Il caricamento di risorse in Dynamic Media Classic comporta una o più richieste HTTP POST che impostano un processo per coordinare tutte le attività di registro associate ai file caricati.
 
 Utilizza il seguente URL per accedere a UploadFile Servlet:
 
@@ -24,9 +24,9 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Tutte le richieste di POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
+>Tutte le richieste POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
 
-**URL di accesso per aree geografiche Dynamic Medie**
+**URL di accesso per le aree Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -61,14 +61,14 @@ Il processo di caricamento è costituito da uno o più POST HTTP che utilizzano 
 
 >[!NOTE]
 >
->Tutte le richieste di POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
+>Tutte le richieste POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
 
-|  parte modulo HTTP POST  |  Descrizione  |
+|  Parte modulo HTTP POST  |  Descrizione  |
 |---|---|
 | `auth`  |   Obbligatorio. Documento di intestazione di autenticazione XML che specifica le informazioni di autenticazione e client. Vedi **Richiedi autenticazione** in [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Facoltativo. Con ogni richiesta POST puoi includere uno o più file da caricare. Ogni parte di file può includere un parametro filename nell&#39;intestazione Content-Disposition che viene utilizzato come nome di file di destinazione in IPS se non viene specificato alcun parametro `uploadPostParams/fileName`. |
 
-|  parte modulo HTTP POST   |  uploadPostParams, nome elemento   |  Tipo   |  Descrizione   |
+|  Parte modulo HTTP POST   |  uploadPostParams, nome elemento   |  Tipo   |  Descrizione   |
 |---|---|---|---|
 | `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento)   |   `companyHandle`  |  `xsd:string`  | Obbligatorio. Gestisce alla società in cui viene caricato il file.  |
 | `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobName`  |  `xsd:string`  | È necessario `jobName` o `jobHandle`. Nome del processo di caricamento.  |
@@ -86,7 +86,7 @@ Vedi [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b5
 
 Anche se è possibile presumere che il parametro `uploadParams` possa cambiare per singoli file come parte dello stesso processo, non è così. Utilizzare gli stessi `uploadParams` parametri per l&#39;intero processo.
 
-La richiesta POST iniziale per un nuovo processo di caricamento deve specificare il parametro `jobName`, preferibilmente utilizzando un nome di processo univoco per semplificare il polling dello stato e le query del registro di processo successivi. Ulteriori richieste POST per lo stesso processo di caricamento devono specificare il parametro `jobHandle` anziché `jobName`, utilizzando il valore `jobHandle` restituito dalla richiesta iniziale.
+La richiesta POST iniziale per un nuovo processo di caricamento deve specificare il parametro `jobName`, preferibilmente utilizzando un nome di processo univoco per semplificare il polling dello stato e le query del registro di processo successivi. Ulteriori richieste POST per lo stesso processo di caricamento devono specificare il parametro `jobHandle` invece di `jobName`, utilizzando il valore `jobHandle` restituito dalla richiesta iniziale.
 
 La richiesta POST finale per un processo di caricamento deve impostare il parametro `endJob` su true in modo che non vengano creati file POST futuri per questo processo. A sua volta, questo consente il completamento del processo subito dopo l’acquisizione di tutti i file POST. In caso contrario, il processo si interrompe se non vengono ricevute ulteriori richieste POST entro 30 minuti.
 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Esempio di risposta di POST - operazione riuscita {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Esempio di risposta POST - operazione riuscita {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Esempio di risposta di POST - errore {#section-efc32bb371554982858b8690b05090ec}
+## Esempio di risposta POST - errore {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

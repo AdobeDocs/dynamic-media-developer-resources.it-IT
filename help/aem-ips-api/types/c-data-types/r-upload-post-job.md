@@ -20,7 +20,7 @@ Vedi anche [Caricamento delle risorse tramite HTTP POST in Caricamento...](../..
 
 >[!NOTE]
 >
->Tutte le richieste di POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
+>Tutte le richieste POST per un processo di caricamento devono provenire dallo stesso indirizzo IP.
 
 ## Parametri {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -74,7 +74,7 @@ Vedi anche [Caricamento delle risorse tramite HTTP POST in Caricamento...](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipi:InDesignOptions</span> </td> 
    <td colname="col3"> <p>No </p> </td> 
-   <td colname="col4"> <p>Opzioni per il caricamento di file InDesign sul server immagini. </p> </td> 
+   <td colname="col4"> <p>Opzioni per caricare i file InDesign sul server immagini. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> OpzioniIllustrator</span> </span> </td> 

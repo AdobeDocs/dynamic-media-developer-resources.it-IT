@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API di Dynamic Medie Image Production System
+user-guide-title: API del sistema di produzione delle immagini Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: L’API del servizio web IPS (Image Production System) consente alle applicazioni esterne e agli sviluppatori di terze parti di accedere in modo programmatico alle risorse e alle funzionalità IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
@@ -11,12 +11,12 @@ ht-degree: 1%
 ---
 
 
-# API di Dynamic Medie Image Production System {#image-production-api}
+# API del sistema di produzione delle immagini Dynamic Media {#image-production-api}
 
-+ [Informazioni sull’API di Dynamic Medie Image Production System](c-overview.md)
++ [Informazioni sull’API del sistema di produzione delle immagini Dynamic Media](c-overview.md)
 + [Chiamate obsolete](c-deprecated-calls.md)
 + [Versioni WSDL servizio Web IPS](c-wsdl-versions.md)
-+ Metodi operazione {#operation-methods}
++ Metodi operativi {#operation-methods}
    + [Metodi operativi](operations/c-operations-intro/c-operations-intro.md)
    + Parametri operazione {#operation-parameters}
       + [Panoramica dei parametri delle operazioni](operations/c-operations-intro/c-methods/c-methods.md)
@@ -425,10 +425,10 @@ ht-degree: 1%
    + [Modalità di denominazione dei livelli di Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modalità spazio colore PostScript](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Classi profilo](string-constants/c-string-constants/r-profile-classes.md)
-   + [Stato Publish](string-constants/c-string-constants/r-publish-state.md)
+   + [Stato pubblicazione](string-constants/c-string-constants/r-publish-state.md)
    + [Tipi di set di proprietà](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contesto Publish](string-constants/c-string-constants/r-publish-context.md)
-   + [Tipi di Publish](string-constants/c-string-constants/r-publish-types.md)
+   + [Contesto di pubblicazione](string-constants/c-string-constants/r-publish-context.md)
+   + [Tipi di pubblicazione](string-constants/c-string-constants/r-publish-types.md)
    + [Forma Regione](string-constants/c-string-constants/r-region-shape.md)
    + [Cerca modalità di corrispondenza](string-constants/c-string-constants/r-search-match-modes.md)
    + [Ordina direzioni](string-constants/c-string-constants/r-sort-directions.md)

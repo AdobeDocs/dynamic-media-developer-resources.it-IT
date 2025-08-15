@@ -1,6 +1,6 @@
 ---
 title: API di rendering immagini
-description: La sezione Riferimento API per il rendering delle immagini contiene informazioni sulla configurazione e l’utilizzo dell’API di rendering delle immagini di Dynamic Medie.
+description: La sezione Riferimento API di rendering immagini contiene informazioni sulla configurazione e l’utilizzo dell’API di rendering immagini di Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # API di rendering immagini{#image-rendering-api}
 
-La sezione Riferimento API per il rendering delle immagini contiene informazioni sulla configurazione e l’utilizzo dell’API di rendering delle immagini di Dynamic Medie.
+La sezione Riferimento API di rendering immagini contiene informazioni sulla configurazione e l’utilizzo dell’API di rendering immagini di Dynamic Media.
 
 * [Configurazione](c-ir-installation/c-ir-installation.md)
 * [Licenze](c-ir-installation/c-ir-licensing.md)

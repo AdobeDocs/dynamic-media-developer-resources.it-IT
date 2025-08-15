@@ -47,13 +47,13 @@ ExportJob non supporta i seguenti tipi di risorse:
    <td colname="col3"> <p>Specifica il tipo di esportazione <span class="codeph">. Valori possibili</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Se <span class="codeph"> fmt=orig</span>, le risorse vengono esportate come originali </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Se <span class="codeph"> fmt=convert</span>, le risorse vengono convertite nel formato specificato nei parametri di input is_modifer</span> o <span class="codeph"> macro</span> di <span class="codeph"> </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Se <span class="codeph"> fmt=convert</span>, le risorse vengono convertite nel formato specificato nei parametri di input is_modifer<span class="codeph"> o </span> macro<span class="codeph"> di </span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:stringa </span> </p> </td> 
-   <td colname="col3"> <p>Specifica la stringa dell'URL di rendering di ImageServer </span> <span class="codeph">, che viene aggiunta alla richiesta Convert</span> di ExportJob <span class="codeph">. </p> <p>Per informazioni dettagliate sull'invio dei modificatori IS, consultare la documentazione di <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it" scope="external" format="html"> IS</a>. </p> </td> 
+   <td colname="col3"> <p>Specifica la stringa dell'URL di rendering di ImageServer <span class="codeph"> </span>, che viene aggiunta alla richiesta Convert<span class="codeph"> di ExportJob </span>. </p> <p>Per informazioni dettagliate sull'invio dei modificatori IS, consultare la documentazione di <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: Gli attributi descritti in questa sezione vengono riconosciuti nei file di attributi del catalogo.
+description: Gli attributi descritti in questa sezione vengono riconosciuti nei file degli attributi del catalogo.
 solution: Experience Manager
 title: Attributi del catalogo
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Attributi del catalogo{#catalog-attributes}
 
-Gli attributi descritti in questa sezione vengono riconosciuti nei file di attributi del catalogo.
+Gli attributi descritti in questa sezione vengono riconosciuti nei file degli attributi del catalogo.
 
 * [Gestione catalogo](r-catalog-management.md)
-* [Attributi di richiesta](r-request-attributes.md)
-* [Attributi di richiesta predefiniti](r-default-request-attributes.md)
-* [Attributi gestione colore](r-color-management-attributes.md)
-* [Attributi miniatura comuni](r-common-thumbnail-attributes.md)
-* [Valori predefiniti per i campi catalogo](r-defaults-for-catalog-fields.md)
-* [Attributi video](r-video-attributes.md)
+* [Attributi della richiesta](r-request-attributes.md)
+* [Attributi richiesta predefiniti](r-default-request-attributes.md)
+* [Colore attributi di gestione](r-color-management-attributes.md)
+* [Attributi comuni delle miniature](r-common-thumbnail-attributes.md)
+* [Impostazioni predefinite per i campi catalogo](r-defaults-for-catalog-fields.md)
+* [Video attributi](r-video-attributes.md)
