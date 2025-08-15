@@ -36,14 +36,14 @@ Sintassi
 | triggerState | `xsd:int` | Scelta dello stato di attivazione del processo. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Dettagli di un processo di pubblicazione di image server. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Dettagli di un processo di rendering di immagini. |
-| videoPublishJob | `types:VideoPublishJob` | Dettagli di un processo di pubblicazione video. Vedi [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| videoPublishJob | `types:VideoPublishJob` | Dettagli di un processo di pubblicazione video. Vedi [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=it). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Dettagli del processo per un processo di pubblicazione della directory del server. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Dettagli del processo per un processo di caricamento directory. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Dettagli di un processo di caricamento URL. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Consente l’esportazione autorizzata di file caricati in precedenza. Vedi [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| exportJob | `types:ExportJob` | Consente l’esportazione autorizzata di file caricati in precedenza. Vedi [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=it). |
 
 ## Note {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

@@ -271,7 +271,7 @@ La pagina di esempi seguente illustra un utilizzo più reale del design responsi
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
 
 **Incorporamento di progettazione reattiva con larghezza e altezza definite**
 
