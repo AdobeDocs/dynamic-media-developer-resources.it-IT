@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Colora immagine. Colora i dati dell&#39;immagine mantenendo ombre ed evidenziazioni.
 
-` op_colorize= *`Contrasto colore`*[,off|norm[, *``*]]`
+` op_colorize= *`Contrasto colore`*[,off|norm[, *` `*]]`
 
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 

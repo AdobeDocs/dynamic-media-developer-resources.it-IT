@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La risposta Immagine modalità di adattamento. Specifica come viene calcolato il fattore di scala, che viene utilizzato per ridimensionare l&#39;immagine composita all&#39;immagine di risposta quando la dimensione di risposta è specificata con wid= e hei= e scl= non è presente.
 
-` fit= *`Upscale della modalità`*, *``*`
+` fit= *`Upscale della modalità`*, *` `*`
 
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 

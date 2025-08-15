@@ -20,7 +20,7 @@ Sintassi
 
 ## TC::directory - Cartella file di registro {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Cartella in cui [!DNL Platform Server] scrive i file di registro. Può essere un percorso assoluto o relativo a *`install_folder`*. Il valore predefinito è [!DNL  *`install_folder`*/logs].
+Cartella in cui [!DNL Platform Server] scrive i file di registro. Può essere un percorso assoluto o relativo a *`install_folder`*. Il valore predefinito è [!DNL &#x200B; *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Il numero di file di registro dei giorni deve essere mantenuto. I nuovi file di 
 
 ## TC::prefix - Nome file log di accesso {#section-1003856323b844049632710a5a056aa7}
 
-Prefisso del nome del file in cui vengono scritti i dati del log degli accessi. La data e il suffisso del file ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sono aggiunti alla stringa specificata. Il nome del file di log degli accessi deve essere diverso da quello del file di log di traccia. Il valore predefinito è &quot;`access-`&quot;.
+Prefisso del nome del file in cui vengono scritti i dati del log degli accessi. La data e il suffisso del file ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) sono aggiunti alla stringa specificata. Il nome del file di log degli accessi deve essere diverso da quello del file di log di traccia. Il valore predefinito è &quot;`access-`&quot;.
 
 ## TC::pattern - Schema log degli accessi {#section-22775ea85cee444d8a7d7336a3b1feef}
 

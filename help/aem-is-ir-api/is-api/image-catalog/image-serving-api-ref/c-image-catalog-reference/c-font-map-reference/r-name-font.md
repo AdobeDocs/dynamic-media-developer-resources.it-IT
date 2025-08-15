@@ -1,5 +1,5 @@
 ---
-description: Nome del font. Nome del tipo di carattere, esattamente come specificato nel comando RTF \fonttbl.
+description: Nome del font. Nome del tipo di carattere, esattamente come specificato nel comando RTF fonttbl.
 solution: Experience Manager
 title: Nome
 feature: Dynamic Media Classic,SDK/API

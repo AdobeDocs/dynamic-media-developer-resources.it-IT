@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Immagine Rendering applica un limite di dimensioni di due megapixel per le vignettature non piramidali.
 
-Modificare il valore di `IrMaxNonPyrVignetteSize` in [! DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se il applicazione richiede il supporto per vignettature non piramidali con un&#39;area dell&#39;immagine (larghezza x altezza) superiore a questo limite.
+Modificare il valore di `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se il applicazione richiede il supporto per vignettature non piramidali con un&#39;area dell&#39;immagine (larghezza x altezza) superiore a questo limite.
 
 >[!NOTE]
 >

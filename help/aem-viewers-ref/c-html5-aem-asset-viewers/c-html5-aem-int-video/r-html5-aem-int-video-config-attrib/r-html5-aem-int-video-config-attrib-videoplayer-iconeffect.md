@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Attributo di configurazione per visualizzatore Video interattivo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *``*][, *`Nascondi automaticamente dissolvenza conteggio`*][, *``*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *` `*][, *`Nascondi automaticamente dissolvenza conteggio`*][, *` `*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 

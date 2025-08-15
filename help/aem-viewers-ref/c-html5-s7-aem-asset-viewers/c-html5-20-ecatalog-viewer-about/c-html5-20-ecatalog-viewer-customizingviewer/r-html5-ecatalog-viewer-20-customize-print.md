@@ -241,7 +241,7 @@ Chiudi pulsante è controllato con il seguente selettore di classe CSS:
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-**Proprietà CSS della close pulsante **
+**Proprietà CSS della close pulsante &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Il piè di pagina della finestra di dialogo è costituito dai pulsanti Annulla e
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**Proprietà CSS del piè di pagina della finestra di dialogo **
+**Proprietà CSS del piè di pagina della finestra di dialogo &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ L&#39;area di dialogo principale, tra l&#39;intestazione e il piè di pagina, co
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**Proprietà CSS dell&#39;area di visualizzazione della finestra di dialogo **
+**Proprietà CSS dell&#39;area di visualizzazione della finestra di dialogo &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -562,7 +562,7 @@ Tutti i contenuto modulo (like etichette e campi di input) risiedono all&#39;int
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**Proprietà CSS del corpo della finestra di dialogo **
+**Proprietà CSS del corpo della finestra di dialogo &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ Tutte le etichette statiche nel modulo della finestra di dialogo sono controllat
 
 Questa classe non è adatta per controllare le dimensioni o la posizione dell&#39;etichetta perché è possibile applicarla ai testi in varie posizioni nel modulo utente interfaccia.
 
-**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

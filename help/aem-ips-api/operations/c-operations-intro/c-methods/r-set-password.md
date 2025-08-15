@@ -67,7 +67,7 @@ La data di scadenza della password è facoltativa. Se omessa, la password non sc
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caratteri inglesi minuscoli. <span class="codeph"> a b c d e </span> e così via </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caratteri inglesi maiuscoli. <span class="codeph"> A B C D E </span> e così via. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Numeri. Ad esempio, <span class="codeph"> 1 2 3 4 5 </span> e così via. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, è possibile utilizzare uno dei seguenti elementi: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caratteri simbolo speciali. Ad esempio, è possibile utilizzare uno dei seguenti elementi: <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

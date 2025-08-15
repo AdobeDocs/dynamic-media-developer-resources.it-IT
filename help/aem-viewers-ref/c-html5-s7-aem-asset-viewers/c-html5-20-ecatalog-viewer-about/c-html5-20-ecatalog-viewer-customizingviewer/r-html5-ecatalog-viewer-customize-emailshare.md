@@ -243,7 +243,7 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 .s7ecatalogviewer .s7emaildialog .s7closebutton
 ```
 
-**Proprietà CSS del ** del pulsante Chiudi
+**Proprietà CSS del &#x200B;** del pulsante Chiudi
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +330,7 @@ Il piè di pagina della finestra di dialogo è costituito dai pulsanti Annulla e
 .s7ecatalogviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Proprietà CSS del ** piè di pagina della finestra di dialogo
+**Proprietà CSS del &#x200B;** piè di pagina della finestra di dialogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -529,7 +529,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
 .s7ecatalogviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**Proprietà CSS della finestra di dialogo ** area di visualizzazione
+**Proprietà CSS della finestra di dialogo &#x200B;** area di visualizzazione
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -573,7 +573,7 @@ Tutto il contenuto del modulo (come etichette e campi di input) si trova all’i
 
 Se l’altezza del contenitore risulta maggiore dell’area della finestra di dialogo principale, il componente abilita automaticamente uno scorrimento verticale.
 
-**Proprietà CSS del ** del corpo della finestra di dialogo
+**Proprietà CSS del &#x200B;** del corpo della finestra di dialogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -625,7 +625,7 @@ Tutte le etichette statiche nel modulo della finestra di dialogo sono controllat
 
 Questa classe non è adatta per controllare le dimensioni o la posizione delle etichette, poiché può essere applicata a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -961,7 +961,7 @@ Il contenuto condiviso viene visualizzato nella parte inferiore del corpo della 
 .s7ecatalogviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Proprietà CSS della finestra di dialogo ** contenuto
+**Proprietà CSS della finestra di dialogo &#x200B;** contenuto
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1096,7 +1096,7 @@ L’origine del contenuto è controllata con il seguente selettore di classe CSS
 .s7ecatalogviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Proprietà CSS della finestra di dialogo ** origine contenuto
+**Proprietà CSS della finestra di dialogo &#x200B;** origine contenuto
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

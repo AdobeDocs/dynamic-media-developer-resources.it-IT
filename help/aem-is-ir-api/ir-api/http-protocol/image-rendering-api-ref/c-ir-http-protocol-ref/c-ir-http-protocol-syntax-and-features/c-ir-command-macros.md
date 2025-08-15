@@ -18,7 +18,7 @@ Le macro dei comandi forniscono scelte rapide denominate per insiemi di comandi.
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** nome macro
+**&#x200B; *[!DNL name]* &#x200B;** nome macro
 
 Le macro vengono definite in file di definizione delle macro separati, che possono essere allegati ai cataloghi di materiale o al catalogo predefinito.
 
