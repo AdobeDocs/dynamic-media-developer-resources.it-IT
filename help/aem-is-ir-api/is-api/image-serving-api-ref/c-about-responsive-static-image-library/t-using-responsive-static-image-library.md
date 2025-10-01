@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La procedura seguente illustra come aggiungere una libreria di immagini reattive
 
 **Per utilizzare la libreria Immagine reattiva**
 
-1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=it#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
+1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
 
    Quando definisci i predefiniti immagine da utilizzare con la Libreria immagini reattiva, non utilizzare impostazioni che influiscono sulla dimensione dell&#39;immagine, ad esempio `wid=`, `hei=` o `scl=`. Non specificare alcun campo di dimensione nel predefinito immagine. Lasciali invece vuoti.
 1. Aggiungi il file JavaScript della libreria alla pagina web.
@@ -32,11 +32,13 @@ La procedura seguente illustra come aggiungere una libreria di immagini reattive
 
    Si consiglia inoltre di inserire l&#39;URL dell&#39;immagine esistente nell&#39;attributo `data-src`. Quindi, impostare l&#39;attributo `src` esistente in modo che un&#39;immagine GIF 1x1 sia codificata come URI dati. In questo modo, riduce il numero di richieste HTTP inviate dalla pagina web al momento del caricamento. Tuttavia, se è necessario l&#39;ottimizzazione SEO (Search Engine Optimization), è meglio impostare un attributo `title` sull&#39;istanza dell&#39;immagine.
 
-   Di seguito è riportato un esempio di definizione dell&#39;attributo `data-breakpoints` per l&#39;immagine e utilizzo di un GIF 1x1 codificato come URI dati:
+<!--
+   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
+-->
 
 1. Chiamare la funzione API `s7responsiveImage` per ogni istanza di immagine gestita dalla libreria.
 
@@ -56,7 +58,8 @@ La libreria supporta l’utilizzo simultaneo di più istanze di immagini sulla p
 
 È responsabilità della pagina web applicare uno stile all’elemento immagine per renderlo di dimensioni flessibili. La libreria Immagine reattiva di per sé non distingue tra immagini di dimensioni fisse e immagini &quot;fluide&quot;. Se applicata a un’immagine a dimensione fissa, la nuova immagine viene caricata una sola volta.
 
-Il codice seguente è un esempio completo di una pagina web banale con una singola immagine fluida gestita dalla libreria Immagine reattiva. L’esempio contiene uno stile CSS aggiuntivo per rendere l’immagine &quot;reattiva&quot; alle dimensioni della finestra del browser web:
+<!--
+The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -81,7 +84,9 @@ Il codice seguente è un esempio completo di una pagina web banale con una singo
   </script> 
  </body> 
 </html>
+
 ```
+-->
 
 **Utilizzo di ritaglio avanzato**
 

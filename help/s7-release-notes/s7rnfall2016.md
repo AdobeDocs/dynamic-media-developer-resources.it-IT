@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Note aggiornate sulla versione di [!DNL Adobe Scene7] - Autunno 2016 - parte del
 
 Adobe è entusiasta di annunciare la disponibilità della distribuzione HTTP/2 dei contenuti che offre il vantaggio complessivo di prestazioni migliorate.
 
-Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=it#dynamic).
+Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
+Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nuove funzioni, miglioramenti e correzioni di bug**
 
@@ -58,7 +58,7 @@ Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dy
 
 ## Visualizzatori (Image Server 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correzioni di bug per Image Server 5.5.3**
 
@@ -68,7 +68,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correzioni di bug per Image Server 5.5.2**
 
@@ -77,7 +77,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nuove funzioni, miglioramenti e correzioni di bug per Image Server 5.5.1**
 
@@ -151,10 +151,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 **Problemi noti e restrizioni**
 
-* I modificatori Image Server di `iscommands` non sono stati aggiunti alla richiesta `req=set` per progettazione. I modificatori che influiscono solo sulla visualizzazione delle immagini funzionano correttamente. I modificatori che influiscono sulle dimensioni devono essere utilizzati in una risorsa complessa. Ad esempio:
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* I modificatori Image Server di `iscommands` non sono stati aggiunti alla richiesta `req=set` per progettazione. I modificatori che influiscono solo sulla visualizzazione delle immagini funzionano correttamente. I modificatori che influiscono sulle dimensioni devono essere utilizzati in una risorsa complessa.
 * [A comparsa] IE9 a volte rimane sullo schermo dopo lo spegnimento del mouse.
 * Il ridimensionamento del browser non funziona correttamente.
 * iPad 2: una risorsa di eCatalog di grandi dimensioni provoca l’arresto anomalo di Safari su iOS.
