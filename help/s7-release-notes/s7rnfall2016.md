@@ -32,11 +32,11 @@ Note aggiornate sulla versione di [!DNL Adobe Scene7] - Autunno 2016 - parte del
 
 Adobe è entusiasta di annunciare la disponibilità della distribuzione HTTP/2 dei contenuti che offre il vantaggio complessivo di prestazioni migliorate.
 
-Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=it#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
 
 **Nuove funzioni, miglioramenti e correzioni di bug**
 
@@ -58,7 +58,7 @@ Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dy
 
 ## Visualizzatori (Image Server 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
 
 **Correzioni di bug per Image Server 5.5.3**
 
@@ -68,7 +68,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
 
 **Correzioni di bug per Image Server 5.5.2**
 
@@ -77,7 +77,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
 
 **Nuove funzioni, miglioramenti e correzioni di bug per Image Server 5.5.1**
 
