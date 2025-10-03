@@ -296,7 +296,7 @@ La pagina di esempi seguente illustra altri casi d’uso reali di progetti reatt
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
 
 -->
 

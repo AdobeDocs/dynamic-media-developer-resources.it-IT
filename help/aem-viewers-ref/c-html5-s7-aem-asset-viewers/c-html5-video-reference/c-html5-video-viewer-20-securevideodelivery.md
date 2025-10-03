@@ -34,7 +34,7 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in Adob
 
 -->
 
-Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
 
 * Se pubblichi un video Dynamic Media con codice di incorporamento, aggiungi `VideoPlayer.ssl` all&#39;elenco degli altri parametri di configurazione del visualizzatore nel frammento di codice di incorporamento.
 
@@ -69,4 +69,4 @@ Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleag
 
 -->
 
-Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
