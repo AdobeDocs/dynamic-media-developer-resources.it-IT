@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Il tipo di visualizzatore è 511.
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 -->
 
 ## Requisiti di sistema {#section-b7270cc4290043399681dc504f043609}
@@ -167,8 +167,13 @@ Il percorso relativo è simile al seguente:
 
    Allo stesso tempo, l’elemento contenitore non deve ancora necessariamente far parte del layout della pagina web. Ad esempio, potrebbe essere nascosto utilizzando lo stile `display:none` assegnato. In questo caso, il visualizzatore ritarda il processo di inizializzazione fino al momento in cui la pagina web riporta l’elemento contenitore al layout. Quando si verifica questa funzionalità, il caricamento del visualizzatore riprende automaticamente.
 
+<!--
 
-   Di seguito è riportato un esempio di creazione di un&#39;istanza del visualizzatore, di passaggio delle opzioni di configurazione minime necessarie al costruttore e di chiamata al metodo `init()`. L&#39;esempio presuppone che `carouselViewer` sia l&#39;istanza del visualizzatore; `s7viewer` è il nome del segnaposto `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` è l&#39;URL di Image Server e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` è la risorsa:
+   The following is an example of creating a viewer instance, passing minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes `carouselViewer` is the viewer instance; `s7viewer` is the name of placeholder `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is the Image Serving URL, and `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is the asset:
+
+-->
+
+<!--
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -182,8 +187,13 @@ Il percorso relativo è simile al seguente:
    </script>
    ```
 
+-->
 
-   Il codice che segue è un esempio completo di una banale pagina web che incorpora il visualizzatore carosello con una dimensione fissa:
+<!--
+   The following code is a complete example of a trivial web page that embeds the Carousel Viewer with a fixed size:
+-->
+
+<!--
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,6 +221,8 @@ Il percorso relativo è simile al seguente:
    </body> 
    </html>
    ```
+-->
+
 
 **Incorporamento di progettazione reattiva con altezza illimitata**
 
@@ -240,7 +252,11 @@ L’aggiunta del visualizzatore a tale pagina è simile alla procedura per l’i
 1. Definizione del contenitore `DIV`.
 1. Creazione e inizializzazione del visualizzatore.
 
-Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungere il contenitore `DIV` all&#39;elemento `"holder"` `DIV` esistente. Il codice seguente è un esempio completo. Osserva come cambiano le dimensioni del visualizzatore quando il browser viene ridimensionato e come le proporzioni del visualizzatore corrispondono alla risorsa.
+Tutti i passaggi precedenti sono gli stessi dell’incorporamento di dimensioni fisse. Aggiungere il contenitore `DIV` all&#39;elemento `"holder"` `DIV` esistente.
+
+<!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,14 +286,21 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-La pagina di esempi seguente illustra usi più reali dell’incorporamento di design responsive con altezza illimitata:
+-->
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=it)
+<!-- The following examples page illustrates more real-life uses of responsive design embedding with unrestricted height: -->
+
+<!--
+
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+
+-->
 
 **Dimensione flessibile incorporata con larghezza e altezza definite**
 
 Nell’incorporamento di dimensioni flessibili con larghezza e altezza definite, lo stile della pagina web è diverso. Fornisce entrambe le dimensioni al DIV `"holder"` e lo centra nella finestra del browser. La pagina Web imposta inoltre le dimensioni dell&#39;elemento `HTML` e dell&#39;elemento `BODY` al 100%.
 
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -303,7 +326,7 @@ height: 60%;
 </html>
 ```
 
-Il resto dei passaggi di incorporamento è identico ai passaggi utilizzati per l’incorporamento reattivo con altezza illimitata. L’esempio risultante è il seguente:
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,13 +364,16 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+-->
+
 
 **Incorporamento tramite API basata su Set**
 
 Invece di utilizzare l’inizializzazione basata su JSON, puoi utilizzare l’API basata su setter e il costruttore no-args. L&#39;utilizzo di questo costruttore API non accetta parametri e i parametri di configurazione sono specificati utilizzando i metodi API `setContainerId()`, `setParam()` e `setAsset()` con chiamate JavaScript separate.
 
+<!-- The following example illustrates using fixed size embedding with the setter-based API: -->
 
-L’esempio seguente illustra l’utilizzo dell’incorporamento a dimensione fissa con l’API basata su setter:
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -373,4 +399,6 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+
+-->
 

@@ -5,9 +5,9 @@ title: Riferimento comando - Attributi di configurazione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Gli attributi di configurazione sono definiti come attributi direttamente su un 
 Facoltativo.
 
 URL dell&#39;immagine fornita da Image Server. Se l&#39;URL non è presente, la libreria utilizza come fallback il valore impostato nell&#39;attributo `src`. Questo attributo serve l’immagine iniziale e l’immagine dinamica che la libreria di immagini reattive gestisce da posizioni diverse.
-<!--
-**Example** 
+
+**Esempio**
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -35,15 +35,15 @@ Se `data-src` è impostato, `src` è facoltativo e può contenere qualsiasi URL 
 
 Se `data-src` non è impostato, `src` è obbligatorio e deve contenere un URL per l&#39;immagine fornita da Image Server.
 
-<!--
-**Example**
 
-Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
+**Esempio**
+
+Utilizzo dell&#39;URI dati per l&#39;attributo `src` e dell&#39;URL Image Server per l&#39;attributo `data-src`:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## data-breakpoint {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -55,26 +55,26 @@ Per qualsiasi punto di interruzione dall’elenco, è possibile definire uno o p
 
 Più comandi Image Server o nomi di predefiniti immagine sono separati con il carattere &quot; `&`&quot;. Se il valore di un comando Image Server contiene una virgola, tale virgola viene sostituita con `%2C`. I nomi dei predefiniti immagine sono racchiusi tra simboli del dollaro ( `$`).
 
-<!--
-**Examples**
 
-**Using breakpoints only**
+**Esempi**
+
+**Utilizzo solo dei punti di interruzione**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Using Image Serving commands**
+**Utilizzo dei comandi Image Server**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Using Image Presets**
+**Utilizzo dei predefiniti per le immagini**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Using Image Presets & Image Serving commands**
+**Utilizzo dei predefiniti immagine e dei comandi Image Server**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
--->
+
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

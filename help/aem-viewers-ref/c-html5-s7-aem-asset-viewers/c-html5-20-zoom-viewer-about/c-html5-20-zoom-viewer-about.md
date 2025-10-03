@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -176,33 +176,41 @@ Il percorso relativo è simile al seguente:
    }
    ```
 
-   Il comportamento con un visualizzatore esterno fisso è visibile nell’esempio seguente. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
+<!-- You can see the behavior with a fixed outer viewer in the following example. Notice that when you switch between sets, the outer viewer size does not change: -->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it)
+<!--
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7zoomviewer` `.s7container` o il modificatore `stagesize`.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7zoomviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK `Container` interno utilizzando il selettore CSS `.s7zoomviewer` `.s7container` o il modificatore `stagesize`.
 
-   La pagina demo seguente mostra il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta in verticale.
+Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it)
+```html {.line-numbers}
+#s7viewer.s7zoomviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   È possibile impostare il modificatore `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic. In alternativa, è possibile trasmetterlo in modo esplicito con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando della presente Guida, come indicato di seguito:
+<!-- The following demo page shows the viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically. -->
 
-   ```html {.line-numbers}
-    zoomViewer.setParam("stagesize", 
-   "640,480");
-   ```
+<!--
 
-   Si consiglia un approccio basato su CSS, che viene utilizzato in questo esempio.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+
+-->
+
+È possibile impostare il modificatore `stagesize` nel record del predefinito visualizzatore in Dynamic Media Classic. In alternativa, è possibile trasmetterlo in modo esplicito con il codice di inizializzazione del visualizzatore con la raccolta `params` o come chiamata API come descritto nella sezione Riferimento comando della presente Guida, come indicato di seguito:
+
+```html {.line-numbers}
+ zoomViewer.setParam("stagesize", 
+"640,480");
+```
+
+Si consiglia un approccio basato su CSS, che viene utilizzato in questo esempio.
 
 1. Creazione e inizializzazione del visualizzatore.
 

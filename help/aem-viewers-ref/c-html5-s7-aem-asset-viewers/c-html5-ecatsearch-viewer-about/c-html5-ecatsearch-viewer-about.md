@@ -6,9 +6,9 @@ title: Ricerca eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,10 @@ Visualizzatore di tipo 513.
 
 Consulta [Requisiti di sistema e prerequisiti](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## URL demo {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
--->
 
 ## Utilizzo di eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -109,13 +107,11 @@ Si consiglia di utilizzare una pagina HTML preconfigurata per la modalità di fu
 
 Puoi ottenere una personalizzazione visiva applicando CSS personalizzata.
 
-<!--
-The following is an example of HTML code that opens the viewer in a new window:
+Di seguito è riportato un esempio di codice HTML che apre il visualizzatore in una nuova finestra:
 
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
--->
 
 **Informazioni sulla modalità di incorporamento a dimensione fissa e sulla modalità di incorporamento di progettazione reattiva**
 

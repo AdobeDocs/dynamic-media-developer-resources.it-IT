@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2173'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Il tipo di visualizzatore è 510.
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=it)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 -->
 
 ## Requisiti di sistema {#section-b7270cc4290043399681dc504f043609}
@@ -281,7 +281,11 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 **Incorporamento reattivo con larghezza e altezza definite**
 

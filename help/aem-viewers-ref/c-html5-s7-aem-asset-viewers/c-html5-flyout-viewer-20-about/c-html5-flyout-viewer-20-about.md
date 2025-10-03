@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -147,30 +147,38 @@ Di seguito è riportato un percorso relativo:
    }
    ```
 
-   Puoi vedere il comportamento con un’area visualizzatore esterna fissa nella seguente pagina di esempio. Tieni presente che quando passi da un set all’altro, le dimensioni del visualizzatore esterno non cambiano:
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it)
+<!--
 
-   Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7flyoutviewer { 
-    width: auto; 
-    height: auto; 
-   }  
-   #s7viewer.s7flyoutviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+Per rendere statiche le dimensioni della visualizzazione principale, definire le dimensioni del visualizzatore in unità assolute per il componente SDK interno `Container` utilizzando il selettore CSS `.s7flyoutviewer .s7container`. È inoltre necessario ignorare la dimensione fissa definita per la classe CSS di primo livello `.s7flyoutviewer` nel CSS visualizzatore predefinito impostandola su `auto`.
 
-   Nella pagina di esempio seguente viene illustrato il comportamento del visualizzatore con una dimensione di visualizzazione principale fissa. Quando passi da un set all’altro, la vista principale rimane statica e il contenuto della pagina web si sposta verticalmente:
+Di seguito è riportato un esempio di definizione delle dimensioni del visualizzatore per il componente SDK `Container` interno in modo che l&#39;area di visualizzazione principale non cambi le dimensioni quando si cambia la risorsa:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it)
+```html {.line-numbers}
+#s7viewer.s7flyoutviewer { 
+ width: auto; 
+ height: auto; 
+}  
+#s7viewer.s7flyoutviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   Inoltre, il CSS visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically:-->
+
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
+
+-->
+
+Inoltre, il CSS visualizzatore predefinito fornisce una dimensione fissa per l’area esterna preconfigurata.
 
 1. Creazione e inizializzazione del visualizzatore.
 
@@ -302,7 +310,11 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 [Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Percorso demo alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## Dimensione flessibile che incorpora con larghezza e altezza definite {#section-0a329016f9414d199039776645c693de}
 

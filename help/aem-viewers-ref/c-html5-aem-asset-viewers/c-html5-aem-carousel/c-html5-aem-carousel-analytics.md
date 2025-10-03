@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 Per impostazione predefinita, il visualizzatore invia una singola richiesta HTTP di tracciamento al server immagini configurato con le informazioni sul tipo e sulla versione del visualizzatore.
 
-Per l&#39;integrazione con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback in base alle esigenze. Il codice che segue è un esempio di tale funzione di gestore:
+Per l&#39;integrazione con sistemi di analisi di terze parti, è necessario ascoltare il callback del visualizzatore `trackEvent` ed elaborare l&#39;argomento `eventInfo` della funzione di callback in base alle esigenze.
+
+<!-- The following code is an example of such handler function: -->
+
+<!--
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -41,6 +45,8 @@ var carouselViewer = new s7viewers.CarouselViewer({
 } 
 });
 ```
+
+-->
 
 Il visualizzatore tiene traccia dei seguenti eventi utente di SDK:
 

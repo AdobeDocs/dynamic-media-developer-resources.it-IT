@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ Se il visualizzatore funziona nella configurazione come descritto all’inizio d
 
 A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in Adobe Experience Manager, l&#39;attributo di configurazione `VideoPlayer.ssl` viene applicato in modo diverso, come illustrato di seguito:
 
-* Se pubblichi un video Dynamic Media con un URL, aggiungi `VideoPlayer.ssl` all&#39;URL. Ad esempio, per forzare la consegna sicura dei video, aggiungi `&VideoPlayer.ssl=on` alla fine del seguente esempio di URL visualizzatore:
+* Se pubblichi un video Dynamic Media con un URL, aggiungi `VideoPlayer.ssl` all&#39;URL.
+
+<!-- For example, to force secure video delivery, you append `&VideoPlayer.ssl=on` to the end of the following viewer URL example: -->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/VideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&VideoPlayer.ssl=on
   ```
 
-  Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
+-->
 
-* Se pubblichi un video Dynamic Media con codice di incorporamento, aggiungi `VideoPlayer.ssl` all&#39;elenco degli altri parametri di configurazione del visualizzatore nel frammento di codice di incorporamento. Ad esempio, per forzare la consegna di video HTTPS, aggiungi `&VideoPlayer.ssl=on` come nell&#39;esempio seguente:
+Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+
+* Se pubblichi un video Dynamic Media con codice di incorporamento, aggiungi `VideoPlayer.ssl` all&#39;elenco degli altri parametri di configurazione del visualizzatore nel frammento di codice di incorporamento.
+
+<!-- For example, to force HTTPS video delivery, you append `&VideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```
   <style type="text/css"> 
@@ -57,4 +67,6 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in Adob
   </script>
   ```
 
-  Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
+-->
+
+Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
