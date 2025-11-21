@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Guida di riferimento per i visualizzatori Dynamic Media {#library}
 
-+ [Guida di riferimento per i visualizzatori Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it) -->
++ [Guida di riferimento per i visualizzatori Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Esempi di librerie visualizzatore](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisiti di sistema](c-system-requirements-and-prerequisites.md)
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
