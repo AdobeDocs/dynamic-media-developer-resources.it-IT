@@ -276,7 +276,7 @@ La pagina di esempi seguente illustra un utilizzo più reale del design responsi
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
 
 -->
 

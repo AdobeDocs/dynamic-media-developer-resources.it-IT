@@ -45,7 +45,7 @@ A causa dell’ottimizzazione DPR, quando l’immagine risultante è maggiore de
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle. Questi valori a volte sono imprecisi. Ad esempio, iPhone5 con `dpr=2` e iPhone12 con dpr=3, entrambi mostrano `dpr=2`. Tuttavia, per i dispositivi ad alta risoluzione, l&#39;invio di `dpr=2` è migliore rispetto all&#39;invio di `dpr=1`. Il modo migliore per superare questa imprecisione, tuttavia, è utilizzare il DPR lato client per fornire valori accurati al 100%. E funziona per qualsiasi dispositivo, sia esso Apple o qualsiasi altro dispositivo che è stato lanciato. Vedi [Utilizzare Smart Imaging con le proporzioni pixel del dispositivo lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+I valori DPR si basano sui valori lato client rilevati per la rete CDN in bundle. Questi valori a volte sono imprecisi. Ad esempio, iPhone5 con `dpr=2` e iPhone12 con dpr=3, entrambi mostrano `dpr=2`. Tuttavia, per i dispositivi ad alta risoluzione, l&#39;invio di `dpr=2` è migliore rispetto all&#39;invio di `dpr=1`. Il modo migliore per superare questa imprecisione, tuttavia, è utilizzare il DPR lato client per fornire valori accurati al 100%. E funziona per qualsiasi dispositivo, sia esso Apple o qualsiasi altro dispositivo che è stato lanciato. Vedi [Utilizzare Smart Imaging con le proporzioni pixel del dispositivo lato client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=it).
 
 ## Proprietà
 
@@ -63,4 +63,4 @@ Un attributo di richiesta. Non ha alcun effetto se `dpr` è disattivato o se `dp
 
 ## Consultate anche
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rete](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=it)
