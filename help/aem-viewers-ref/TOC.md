@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
-source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Guida di riferimento per i visualizzatori Dynamic Media {#library}
 
-+ [Guida di riferimento per i visualizzatori Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it) -->
++ [Guida di riferimento per i visualizzatori Dynamic Media](homeviewers.md)
 + [Esempi di librerie visualizzatore](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisiti di sistema](c-system-requirements-and-prerequisites.md)
 + [Installazione di più visualizzatori sullo stesso server](t-installing-the-viewers.md)
@@ -1012,3 +1012,4 @@ ht-degree: 0%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

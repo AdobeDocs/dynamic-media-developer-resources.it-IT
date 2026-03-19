@@ -1,11 +1,12 @@
 ---
 title: pulsante a schermo intero
 description: Il pulsante a schermo intero fa sì che il lettore video Ritaglio avanzato entri o esca dalla modalità a schermo intero quando un utente lo fa clic.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

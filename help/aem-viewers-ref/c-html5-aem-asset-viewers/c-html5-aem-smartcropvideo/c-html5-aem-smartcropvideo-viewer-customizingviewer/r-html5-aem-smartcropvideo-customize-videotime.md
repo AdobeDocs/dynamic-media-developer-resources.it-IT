@@ -1,11 +1,12 @@
 ---
 title: Tempo video
 description: La durata del video è il display numerico che mostra la durata e l’ora correnti del video attualmente in riproduzione.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 0ef09f06-c2d5-4c84-8ff9-4e94e9e54d40
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

@@ -4,7 +4,7 @@ user-guide-title: API di server e rendering immagini Dynamic Media
 breadcrumb-title: API di server e rendering immagini Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Consulta la documentazione sulle API IS (Image Serving) e IR (Image Rendering) e sulle tecnologie correlate.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # API di server e rendering immagini Dynamic Media {#image-serving-api}
 
-+ [Pagina principale API di server immagini Dynamic Media e rendering immagini](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it) -->
++ [Pagina principale dell’API Image Server e Image Rendering di Dynamic Media](homeisir.md)
 + [Informazioni su questa versione](r-about-this-release.md)
 + [Requisiti di sistema e prerequisiti](r-requirements-and-prerequisites.md)
 + [Requisiti di spazio su disco e raccomandazioni](r-disk-space-reqs.md)
@@ -458,7 +458,7 @@ ht-degree: 2%
          + [DigimarcInfo](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)
          + [Scade](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
-         + [ImageSet](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
+         + [Set di immagini](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)
          + [Mappa](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)
          + [MascheraPercorso](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
          + [Modificatore](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md)
@@ -466,7 +466,7 @@ ht-degree: 2%
          + [PostModifier](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md)
          + [RisoluzioneStampa](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md)
          + [Risoluzione](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md)
-         + [Dimensione](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-size-cat.md)
+         + [Dimensioni](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-size-cat.md)
          + [Target](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)
          + [ThumbRes](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md)
          + [ThumbType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md)
@@ -720,7 +720,7 @@ ht-degree: 2%
          + [Risoluzione](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md)
          + [Rugosità](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md)
          + [Nitido](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md)
-         + [Dimensione](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
+         + [Dimensioni](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
          + [Timestamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md)
          + [Tipo](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
       + Riferimento mappa vignettatura {#vignette-map-reference}
@@ -765,3 +765,9 @@ ht-degree: 2%
       + [Opzioni per i file di stile archivio](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [Restituisce](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [Output](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

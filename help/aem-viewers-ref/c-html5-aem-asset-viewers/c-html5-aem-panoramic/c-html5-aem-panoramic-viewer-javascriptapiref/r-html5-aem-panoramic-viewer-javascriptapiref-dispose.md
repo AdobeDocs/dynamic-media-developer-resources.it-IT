@@ -1,36 +1,37 @@
 ---
-title: disporre
-description: JavaScript riferimento API per Visualizzatore panoramico.
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+title: eliminare
+description: Riferimento API di JavaScript per il visualizzatore panoramico.
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 4e6ad465-36df-49e2-8c9e-722e8aa9063e
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-# disporre{#dispose}
+# eliminare{#dispose}
 
-JavaScript riferimento API per Visualizzatore panoramico.
+Riferimento API di JavaScript per il visualizzatore panoramico.
 
 `dispose()`
 
-Elimina questa istanza visualizzatore rilasciando tutte le risorse utilizzate dalla logica di visualizzatore ed eliminando tutti gli oggetti e i componenti interni creati dal visualizzatore in fase di esecuzione.
+Dispone di questa istanza del visualizzatore rilasciando tutte le risorse utilizzate dalla logica del visualizzatore ed eliminando tutti gli oggetti e i componenti interni creati dal visualizzatore in fase di esecuzione.
 
-Il codice della pagina Web dovrebbe anche eliminare la variabile istanza visualizzatore per rimuovere completamente il visualizzatore dalla memoria del browser Web.
+Il codice della pagina web deve anche eliminare la variabile dell’istanza del visualizzatore e rimuovere completamente il visualizzatore dalla memoria del browser web.
 
-Se il codice della pagina Web dispone di listener di eventi registrati direttamente nei componenti SDK del visualizzatore utilizzati dall&#39;visualizzatore o ha memorizzato riferimenti esterni a tali componenti, tali listener devono essere esplicitamente annullati dal codice della pagina Web. Inoltre, tali riferimenti a componenti esterni devono essere eliminati prima di chiamare `dispose()`.
+Se il codice della pagina web contiene listener di eventi registrati direttamente sui componenti del Visualizzatore SDK utilizzati dal visualizzatore, o riferimenti esterni memorizzati a tali componenti, tali listener devono essere esplicitamente annullati dal codice della pagina web. Inoltre, tali riferimenti a componenti esterni devono essere eliminati prima di chiamare `dispose()`.
 
-Non accesso più l&#39;API del visualizzatore dopo `dispose()` che è stata chiamata.
+Non accedere più all&#39;API del visualizzatore dopo la chiamata di `dispose()`.
 
 ## Parametri {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 Nessuno.
 
-## Rendiconto {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Restituisce {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nessuno.
 

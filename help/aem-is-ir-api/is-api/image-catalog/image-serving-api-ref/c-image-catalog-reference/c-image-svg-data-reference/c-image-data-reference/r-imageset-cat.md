@@ -1,18 +1,18 @@
 ---
 description: Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
 solution: Experience Manager
-title: ImageSet
+title: Set di immagini
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# ImageSet{#imageset}
+# Set di immagini{#imageset}
 
 Dati set di immagini. Fornisce un meccanismo per definire set ordinati di immagini e controllare gli attributi utilizzati dai visualizzatori Dynamic Media.
 
@@ -48,7 +48,7 @@ Ogni elemento di un set di campioni di base è costituito da un riferimento a un
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`campione`*]` |
-| `*`campione`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`campione`*` | `*`ID campione`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | Riferimento immagine IS (catalogo/id) |
 | `*`swatchId`*` | Riferimento immagine IS (catalogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rggbb`* [ *`etichetta`*]'}'` |
@@ -61,7 +61,7 @@ Ogni elemento di un set di campioni gerarchico può essere costituito da un elem
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | Riferimento IS (catalogo/id) a un record di catalogo che definisce un set di campioni di base |
 
 **Set 360 gradi di base**
@@ -76,7 +76,7 @@ Ogni elemento di un set 360 gradi bidimensionale può essere costituito da un&#3
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | Riferimento IS (catalogo/id) a un record di catalogo che definisce un set 360 gradi di base |
 
 **Set di pagine**
@@ -93,12 +93,12 @@ Ogni elemento di un set di file multimediali può essere costituito da un’imma
 
 | `*`mediaSet`*` | `*`elemento`* &#42;[ , *`elemento`* ]` |
 |---|---|
-| `*`elemento`*` | ` { *`videoItem`* | *`remixItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`prenotato`* ] ] ]` |
+| `*`elemento`*` | `{ *`elementoVideo`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`elementoVideo`*` | `*`video`* ; *`ID campione`*` |
 | `*`remixItem`*` | `*`remix`* ; *`swatchId`*` |
 | `*`elementoImmagine`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| base \| immagine_avanzata \| img \| set_di_immagini \| advanced_imageset \| advanced_swatchset \| spin \| video `]` |
 | `*`swatchId`*` | ID immagine IS |
 | `*`video`*` | Percorso file video/animazione o ID catalogo statico |
 | `*`remix`*` | Percorso file XML di definizione remix o ID catalogo statico |

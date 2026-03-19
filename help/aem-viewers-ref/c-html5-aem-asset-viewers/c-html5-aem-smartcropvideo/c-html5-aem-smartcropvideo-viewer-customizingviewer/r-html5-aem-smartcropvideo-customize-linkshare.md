@@ -1,11 +1,12 @@
 ---
 title: Condivisione collegamento
 description: Lo strumento Condivisione collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -243,7 +244,7 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 .s7smartcropvideoviewer .s7linkdialog .s7closebutton
 ```
 
-**Proprietà CSS del &#x200B;** del pulsante Chiudi
+**Proprietà CSS del ** del pulsante Chiudi
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +331,7 @@ Il piè di pagina della finestra di dialogo è costituito dal pulsante Annulla. 
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Proprietà CSS del &#x200B;** piè di pagina della finestra di dialogo
+**Proprietà CSS del ** piè di pagina della finestra di dialogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +532,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Proprietà CSS della finestra di dialogo &#x200B;** area di visualizzazione
+**Proprietà CSS della finestra di dialogo ** area di visualizzazione
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +567,7 @@ Tutto il contenuto del modulo (come etichette e campi di input) si trova all’i
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody
 ```
 
-**Proprietà CSS del &#x200B;** del corpo della finestra di dialogo
+**Proprietà CSS del ** del corpo della finestra di dialogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -593,7 +594,7 @@ Tutte le etichette statiche nel modulo della finestra di dialogo sono controllat
 
 Questa classe non è adatta per controllare la dimensione o la posizione dell&#39;etichetta perché può essere applicata a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell&#39;etichetta della finestra di dialogo. &#x200B;**
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

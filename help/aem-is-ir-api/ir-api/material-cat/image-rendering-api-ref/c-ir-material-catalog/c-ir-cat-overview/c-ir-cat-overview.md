@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ Inoltre, il catalogo predefinito fornisce tutti gli attributi e i record di dati
 
 Per il corretto funzionamento del server di rendering, il file degli attributi del catalogo predefinito deve essere denominato [!DNL default.ini]. Deve inoltre essere sempre presente nella cartella del catalogo e deve essere compilato completamente con tutti gli attributi richiesti, esclusi `attribute::RootId` e i riferimenti ai vari file di dati del catalogo, che sono tutti facoltativi.
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->
