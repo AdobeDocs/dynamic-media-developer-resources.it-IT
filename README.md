@@ -1,17 +1,16 @@
 ---
 source-git-commit: 8bb72078ad582e6a23e9048a9daa152b7cd5bb54
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-# Documentazione sulle risorse per sviluppatori di Dynamic Media  Adobe
+# Documentazione delle risorse per sviluppatori Adobe Dynamic Media
 
-Questo è l&#39;archivio per  documentazione Dynamic Media Developer Resources di Adobe.
+Questo è l’archivio in cui sono raccolte le risorse per sviluppatori di Adobe Dynamic Media.
 
-I vostri contributi alla documentazione sono i benvenuti. Consulta le risorse seguenti:
+I tuoi contributi alla documentazione di sono i benvenuti. Consulta le risorse seguenti:
 
-* [contribute.](contributing.md) mdPer una panoramica di come contribuire alla documentazione.
-* [guidelines.](guidelines.md) mdPer una panoramica di quanto ci si aspetta dai contributi e come comporre i contributi della documentazione.
-* [code-of-Conduct.](code-of-conduct.md) mdPer una panoramica degli standard di comportamento che ci aspettiamo nel corso del progetto di documentazione.
+* [contributing.md](contributing.md): panoramica su come contribuire alla documentazione.
+* [guidelines.md](guidelines.md): panoramica su cosa includere nei contributi e come comporre i contributi alla documentazione.
+* [code-of-conduct.md](code-of-conduct.md): panoramica degli standard di comportamento a cui dovrà attenersi chi partecipa al progetto di documentazione.
