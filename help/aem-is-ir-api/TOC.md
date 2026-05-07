@@ -4,9 +4,9 @@ user-guide-title: API di server e rendering immagini Dynamic Media
 breadcrumb-title: API di server e rendering immagini Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Consulta la documentazione sulle API IS (Image Serving) e IR (Image Rendering) e sulle tecnologie correlate.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 2%
          + [catalog-server.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-catalogserverconf.md)
          + [server.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server.md)
          + [ImageServerRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-imageserverregistry.md)
-         + [SupervisorRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md)
+         + [RegistroSupervisore.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md)
       + Cache dei dati {#data-caches}
          + [Panoramica delle cache di dati](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-data-caches.md)
          + [Cache dei dati di risposta](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md)
@@ -510,7 +510,7 @@ ht-degree: 2%
       + [set di regole](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [sostituzione](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [Proxy server immagini](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [Esempi di Image Server](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[Esempi di server immagini](is-api/image-serving-api-ref/r-examples-is.md)
    + Libreria immagini statiche reattive {#responsive-static-image-library}
       + [Libreria immagini statiche reattive](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [Utilizzo della libreria Immagine reattiva](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -768,6 +768,6 @@ ht-degree: 2%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
