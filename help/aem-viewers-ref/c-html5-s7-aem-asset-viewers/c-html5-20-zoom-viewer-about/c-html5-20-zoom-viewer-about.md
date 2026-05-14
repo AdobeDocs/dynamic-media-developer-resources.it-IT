@@ -6,9 +6,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/L-Dy2JpWs29wOU5v-sAqS2DO9uAtbo93hNLDWThMAmk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 2337
 ht-degree: 0%
 
 ---
@@ -65,7 +75,7 @@ Il Visualizzatore zoom supporta i seguenti gesti touch comuni in altre applicazi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento orizzontale </p> </td> 
-   <td colname="col2"> <p> Scorre l'elenco dei campioni nella barra dei campioni. </p> <p> Se l'immagine è in uno stato di reimpostazione e il parametro <span class="codeph"> frametransition </span> è impostato su slide, la risorsa viene modificata con l'animazione della diapositiva. Per le altre modalità <span class="codeph"> di frametransition </span>, il movimento esegue lo scorrimento nativo della pagina. </p> <p> Se l'immagine è ingrandita, l'immagine viene spostata orizzontalmente. Se l'immagine viene spostata sul bordo della vista e viene eseguito un passaggio nella stessa direzione, il movimento esegue lo scorrimento nativo della pagina. </p> </td> 
+   <td colname="col2"> <p> Scorre l'elenco dei campioni nella barra dei campioni. </p> <p> Se l'immagine è in uno stato di reimpostazione e il parametro <span class="codeph"> frametransition </span> è impostato su slide, la risorsa viene modificata con l'animazione della diapositiva. Per le altre modalità </span> di frametransition <span class="codeph">, il movimento esegue lo scorrimento nativo della pagina. </p> <p> Se l'immagine è ingrandita, l'immagine viene spostata orizzontalmente. Se l'immagine viene spostata sul bordo della vista e viene eseguito un passaggio nella stessa direzione, il movimento esegue lo scorrimento nativo della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scorrimento verticale </p> </td> 
@@ -180,7 +190,7 @@ Il percorso relativo è simile al seguente:
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
 -->
 
@@ -199,7 +209,7 @@ Di seguito è riportato un esempio di definizione delle dimensioni del visualizz
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
 -->
 
@@ -323,7 +333,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 La pagina di esempi seguente illustra usi più reali dell’incorporamento di design responsive con altezza illimitata:
 
-[Demo Live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[Demo live](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Incorporamento di dimensioni flessibili con larghezza e altezza definite {#section-3674e6c032594441a6576b7fb1de6e64}
 

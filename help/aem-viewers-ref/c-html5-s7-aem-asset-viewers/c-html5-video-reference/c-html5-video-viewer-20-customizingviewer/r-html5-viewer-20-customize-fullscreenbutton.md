@@ -1,79 +1,87 @@
 ---
 title: pulsante a schermo intero
-description: La pulsante a schermo intero fa sì che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di esso.
+description: Il pulsante di visualizzazione a schermo intero fa in modo che il lettore video entri o esca dalla modalità a schermo intero quando un utente fa clic su di essa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/wi7drc1-dg-ArH-G8NQ2o0j5xefcoc9WTAVC9YAsDcA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
 
 # pulsante a schermo intero{#full-screen-button}
 
-La pulsante a schermo intero fa sì che il lettore video entri o esca dalla modalità a schermo intero quando un utente lo seleziona.
+Il pulsante a schermo intero fa sì che il lettore video entri o esca dalla modalità a schermo intero quando un utente lo seleziona.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-È possibile ridimensionare, interfacciare e posizionare l&#39;pulsante a schermo intero, rispetto alla barra di controllo che lo contiene, in base ai CSS.
+È possibile ridimensionare, applicare lo skin e posizionare il pulsante a schermo intero in base alla barra di controllo che lo contiene mediante CSS.
 
-L&#39;aspetto del pulsante a schermo intero è controllato con il selettore della classe CSS:
+L’aspetto del pulsante a schermo intero è controllato con il selettore di classe CSS:
 
 ```
 .s7videoviewer .s7fullscreenbutton
 ```
 
-**Proprietà CSS dell&#39;pulsante a schermo intero**
+**Proprietà CSS del pulsante Schermo intero**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> In alto </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dall'alto bordo, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
+   <td colname="col2"> <p> Posizione dal bordo superiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A destra </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dal bordo destro, compresa l'imbottitura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
+   <td colname="col2"> <p> Posizione dal bordo destro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A sinistra </span> </p> </td> 
-   <td colname="col2"> <p> Posizione dal bordo sinistro, compresa l'imbottitura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha lasciato </span> </p> </td> 
+   <td colname="col2"> <p> Posizione dal bordo sinistro, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal basso bordo, compresa l'imbottitura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo inferiore, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
-   <td colname="col2"> <p> Larghezza dello schermo intero pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col2"> <p> Larghezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza dello schermo intero pulsante. </p> </td> 
+   <td colname="col2"> <p>Altezza del pulsante a schermo intero. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per uno stato pulsante specificato. </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta sia i selettori di attributi `state` che `selected` quelli che possono essere utilizzati per applicare interfacce diverse a diversi stati di pulsante. In particolare, `selected='true'` corrisponde allo stato &quot;schermo intero&quot; e `selected='false'` corrisponde allo stato &quot;normale&quot;.
+>Questo pulsante supporta sia i selettori di attributi `state` che `selected`, che possono essere utilizzati per applicare interfacce diverse a stati di pulsante diversi. In particolare, `selected='true'` corrisponde allo stato &quot;a schermo intero&quot; e `selected='false'` allo stato &quot;normale&quot;.
 
-Il suggerimento strumento pulsante può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) dell&#39;interfaccia.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad).
 
 ## Esempio {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Per impostare un pulsante a schermo intero di 32 x 32 pixel e posizionato a 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, quando è selezionata o non selezionata, viene visualizzata un&#39;immagine diversa per ciascuno dei quattro diversi stati pulsante.
+Impostare un pulsante a schermo intero di 32 x 32 pixel e posizionare 6 pixel dal bordo superiore e destro della barra di controllo. Inoltre, se selezionata o meno, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7videoviewer . s7fullscreenbutton { 

@@ -1,23 +1,34 @@
 ---
-title: Limitazione dimensione vignettatura
-description: Immagine Rendering applica un limite di dimensioni di due megapixel per le vignettature non piramidali.
+title: Limite dimensioni vignettatura
+description: Image Rendering applica un limite di dimensione di due megapixel per le vignettature non piramidali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/qPrnkvYXinvZAfx-s6ePjpe64qsoBfwtVbUJ-fYBbmc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: 78
 ht-degree: 0%
 
 ---
 
-# Limitazione dimensione vignettatura{#vignette-size-limitation}
+# Limite dimensioni vignettatura{#vignette-size-limitation}
 
-Immagine Rendering applica un limite di dimensioni di due megapixel per le vignettature non piramidali.
+Image Rendering applica un limite di dimensione di due megapixel per le vignettature non piramidali.
 
-Modificare il valore di `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se il applicazione richiede il supporto per vignettature non piramidali con un&#39;area dell&#39;immagine (larghezza x altezza) superiore a questo limite.
+Modificare il valore di `IrMaxNonPyrVignetteSize` in [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se l&#39;applicazione richiede il supporto per vignettature non piramidali con un&#39;area immagine (larghezza x altezza) maggiore di questo limite.
 
 >[!NOTE]
 >
->Regola gli attributi `attribute::MaxPix` e `IS::MaxMessageSize` consente di ottenere dimensioni insolitamente grandi per le immagini di risposta. Per ulteriori informazioni, consulta la documentazione di Immagine Serving.
+>Regolare gli attributi `attribute::MaxPix` e `IS::MaxMessageSize` per consentire dimensioni di immagine di risposta insolitamente grandi. Per ulteriori informazioni, consulta la documentazione di Image Server.

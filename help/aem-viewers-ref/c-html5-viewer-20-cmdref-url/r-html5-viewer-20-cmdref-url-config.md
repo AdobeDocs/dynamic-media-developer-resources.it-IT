@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/dqbTP8mI5YGjwqG2AbkT3L0HIeLZ9qDIA6A78R5i-IQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 264
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ Parametro comune a tutti i visualizzatori.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini che contiene le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia un comando <span class="codeph"> req=userdata </span> per il configId <span class="codeph"> </span> al server ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa dell'URL specifica le stesse proprietà, sostituiscono i valori del catalogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catalogo/ID per la configurazione del visualizzatore. </p> <p> Specifica una voce del catalogo immagini che contiene le proprietà di configurazione del visualizzatore nel catalogo <span class="codeph">::UserData </span>. Quando questo comando è presente, il visualizzatore invia un comando <span class="codeph"> req=userdata </span> per il configId </span> <span class="codeph"> al server ed estrae le proprietà dalla risposta. Le proprietà vengono utilizzate per inizializzare il visualizzatore. Se la stringa dell'URL specifica le stesse proprietà, sostituiscono i valori del catalogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,17 @@ title: Localizzazione degli elementi dell’interfaccia utente
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/k-ToJzA2bXCcIYGLiXJtPFESV9Bl-HrVhky1nSfmVao'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
@@ -439,7 +447,7 @@ Sono supportati i seguenti SIMBOLI (supponendo che containerId sia l’ID del co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Definisce un valore dell'attributo aria-label <span class="codeph"> di </span> per l'intero pannello di ricerca. </p> </td> 
+   <td colname="col2"> <p>Definisce un valore dell'attributo aria-label </span> di <span class="codeph"> per l'intero pannello di ricerca. </p> </td> 
   </tr> 
  </tbody> 
 </table>

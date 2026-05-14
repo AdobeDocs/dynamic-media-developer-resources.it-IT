@@ -5,10 +5,18 @@ title: colore
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
-source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
+TQID: 'https://experienceleague.adobe.com/3NfMrvwXTP9A-KoxjVPtps-0rhO5xNd04WUlrdCQEo8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 2%
+source-wordcount: 456
+ht-degree: 9%
 
 ---
 
@@ -30,15 +38,15 @@ Valori colore. Puoi specificare i valori dei colori utilizzando la notazione esa
   <td class="stentry"> <p>Valore del componente colore CMYK (0,100 %, int decimale) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> grigio</span>, <span class="varname"> alfa</span></span> </p> </td> 
-  <td class="stentry"> <p>Valore componente colore grigio (0... 100%, decimale int) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> grigio</span>, <span class="varname"> alfa</span></span> </p> </td> 
+  <td class="stentry"> <p>valore componente colore grigio (0...100%, int decimale) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> esadecimale2</span> </span> </p></td> 
-  <td class="stentry"> <p>Valore di colore grigio esadecimale (GG) a due cifre imballato </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
+  <td class="stentry"> <p>valore colore grigio esadecimale a due cifre imballato (GG) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> esadecimale4</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
   <td class="stentry"> <p>colore grigio esadecimale a quattro cifre con valore di colore alfa (GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -61,7 +69,7 @@ Si presume che i valori dei componenti colore siano indipendenti dal valore alfa
 
 Per tutti i valori di colore, i prefissi e i suffissi non viene fatta distinzione tra maiuscole e minuscole.
 
-Il suffisso di tipo &#39;k&#39; è obbligatorio per i valori di colore CMYK. Facoltativamente è possibile specificare un suffisso di tipo per i valori di colore RGB e grigio.
+Il suffisso di tipo &#39;k&#39; è obbligatorio per i valori di colore CMYK. Facoltativamente, è possibile specificare un suffisso di tipo per i valori dei colori RGB e grigio.
 
 Il prefisso &#39;0x&#39; è obbligatorio per i valori esadecimali dei colori grigi.
 
@@ -78,25 +86,25 @@ Alcuni esempi di specificatori di colore validi e il tipo di pixel, il valore di
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b><i>Colore</i> </b> </th> 
+   <th class="entry"> <b> <i>colore</i> </b> </th> 
    <th class="entry"> <b>Tipo di pixel</b> </th> 
-   <th class="entry"> <b>Colore Valore</b> </th> 
+   <th class="entry"> <b>Valore colore</b> </th> 
    <th class="entry"> <b>Valore Alpha</b> </th> 
    <th class="entry"> <b>Spazio colore predefinito </b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>255 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0,100,200,200 rs </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>200 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
@@ -110,7 +118,7 @@ Alcuni esempi di specificatori di colore validi e il tipo di pixel, il valore di
   <tr> 
    <td> <p>a0b1c2d3R </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>160.177.194 </p> </td> 
+   <td> <p>160,177,194 </p> </td> 
    <td> <p>211 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
@@ -133,7 +141,7 @@ Alcuni esempi di specificatori di colore validi e il tipo di pixel, il valore di
    <td> <p>grigio </p> </td> 
    <td> <p>44% </p> </td> 
    <td> <p>44% </p> </td> 
-   <td> <p> <span class="codeph"> Grigio profilo ICC</span> </p> </td> 
+   <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0xddeegs </p> </td> 

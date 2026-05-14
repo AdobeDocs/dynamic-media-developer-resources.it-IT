@@ -5,9 +5,17 @@ title: Set di immagini
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -93,12 +101,12 @@ Ogni elemento di un set di file multimediali può essere costituito da un’imma
 
 | `*`mediaSet`*` | `*`elemento`* &#42;[ , *`elemento`* ]` |
 |---|---|
-| `*`elemento`*` | `{ *`elementoVideo`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
+| `*`elemento`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`elementoVideo`*` | `*`video`* ; *`ID campione`*` |
 | `*`remixItem`*` | `*`remix`* ; *`swatchId`*` |
 | `*`elementoImmagine`*` | `*`imageId`* ; [ *`swatchId`* ]` |
 | `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
-| `*`ID`*` | `media type identifier` `[` img \| base \| immagine_avanzata \| img \| set_di_immagini \| advanced_imageset \| advanced_swatchset \| spin \| video `]` |
+| `*`ID`*` | `media type identifier` `[` img \| base \| immagine_avanzata \| img \| set_immagine_avanzata \| set_immagini_avanzate \| set_campioni_avanzato \| rotazione \| video `]` |
 | `*`swatchId`*` | ID immagine IS |
 | `*`video`*` | Percorso file video/animazione o ID catalogo statico |
 | `*`remix`*` | Percorso file XML di definizione remix o ID catalogo statico |

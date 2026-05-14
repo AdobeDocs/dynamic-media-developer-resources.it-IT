@@ -1,23 +1,31 @@
 ---
-description: Il visualizzatore supporta la modalità operativa a schermo intero.
+description: Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 solution: Experience Manager
-title: Supporto per schermi interi
+title: supporto a schermo intero
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b4196444-10a9-4391-b3ac-d8f12deb173f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/smVbdwj5iAXkEqAefCfBevWroIW4qa9re0UGsmgIWwc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 144
 ht-degree: 0%
 
 ---
 
-# Supporto per schermi interi{#full-screen-support}
+# supporto a schermo intero{#full-screen-support}
 
-Il visualizzatore supporta la modalità operativa a schermo intero.
+Il visualizzatore supporta la modalità di funzionamento a schermo intero.
 
-Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni precedenti e su alcuni dispositivi touch, il visualizzatore utilizza la modalità a schermo intero &quot;nativo&quot;. Questa modalità significa che l&#39;intero schermo dispositivo è occupato dal visualizzatore contenuto.
+Nei browser desktop moderni, ad eccezione di Internet Explorer 10 e versioni precedenti, e su alcuni dispositivi touch, il visualizzatore utilizza la modalità a schermo intero &quot;nativa&quot;. Questa modalità indica che l’intero schermo del dispositivo è occupato dal contenuto del visualizzatore.
 
-Nei dispositivi iOS e nei browser Internet Explorer meno recenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona semplicemente per occupare l&#39;intera area della finestra del browser Web. Inoltre, il browser web utente l&#39;interfaccia e altre finestre sono ancora visibili sullo schermo.
+Sui dispositivi iOS e sui browser Internet Explorer precedenti, il visualizzatore utilizza invece la modalità a schermo intero &quot;simulata&quot;. In questa modalità, il visualizzatore si ridimensiona semplicemente per occupare l’intera area della finestra del browser web. Inoltre, l’interfaccia utente del browser web e altre finestre sono ancora visibili sullo schermo.
 
-Un utente finale entra ed esce dalla modalità a schermo intero premendo il pulsante a schermo intero nell&#39;interfaccia utente visualizzatore. Quando si utilizza la modalità a schermo intero &quot;nativo&quot; sul desktop, è anche possibile uscirne premendo **Esc**.
+Un utente finale entra in modalità a schermo intero e ne esce premendo il pulsante nell’interfaccia utente del visualizzatore. Se sul desktop viene utilizzata la modalità a schermo intero &quot;nativa&quot;, è possibile uscire premendo **Esc**.

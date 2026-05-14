@@ -1,18 +1,26 @@
 ---
-title: SocialShare.bearing
-description: SocialShare.bearing
+title: Condivisione.social
+description: Condivisione.social
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 026b5921-53ae-436f-bf82-dee2e699405f
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/sWilQyllf5wtlr-tP1kKtK4L0taRA6HWQW2Yh0MSefQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
 
-# SocialShare.bearing{#socialshare-bearing}
+# Condivisione.social{#socialshare-bearing}
 
 `[SocialShare.|<containerId>_socialShare.]bearing= up|down|left|right|fit-vertical|fit-lateral`
 
@@ -20,7 +28,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> su|giù|sinistra|destra|adatta-verticale|adatta-laterale </span> </p> </td> 
-   <td colname="col2"> <p> Specifica la direzione dell diapositiva animazione per il contenitore dei pulsanti. </p> <p> Se impostato su <span class="codeph"> su </span>, <span class="codeph"> giù </span>, <span class="codeph"> sinistra </span>o <span class="codeph"> destra </span>, il pannello si srotola in una direzione specificata senza ulteriori controlli dei limiti. Questo comportamento può causare il ritaglio del pannello da parte di un contenitore esterno. </p> <p>Se impostato su <span class="codeph"> fit-vertical, </span>il componente sposta prima la posizione del pannello di base nella parte inferiore di SocialShare e prova a stendere il pannello dal basso, a destra o a sinistra, da tale posizione di base. Ad ogni tentativo, il componente controlla se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi falliscono, il componente tenta di spostare la posizione del pannello di base verso l'alto e ripetere i rollout tentativi dalla direzione superiore, destra e sinistra. </p> <p>Se impostato su <span class="codeph"> fit-lateral </span>, il componente utilizza una logica simile a quella di fit-vertical. Tuttavia, sposta la base verso destra prima - provando le direzioni di srotolamento a destra, in basso e in alto - quindi sposta la base a sinistra, provando le direzioni di sinistra, giù e su rollout. </p> </td> 
+   <td colname="col2"> <p> Specifica la direzione dell'animazione di scorrimento per il contenitore pulsanti. </p> <p> Se è impostato su <span class="codeph"> su </span>, <span class="codeph"> su </span>, <span class="codeph"> a sinistra </span> o <span class="codeph"> a destra </span>, il pannello si sposta in una direzione specificata senza un controllo dei limiti aggiuntivi. Questo comportamento può causare il ritaglio del pannello da parte di un contenitore esterno. </p> <p>Se è impostato su <span class="codeph"> adatta a </span> verticale, il componente sposta prima la posizione del pannello di base nella parte inferiore di SocialShare e prova a stendere il pannello dalla parte inferiore, destra o sinistra, da tale posizione di base. A ogni tentativo, il componente controlla se il pannello è ritagliato da un contenitore esterno. Se tutti i tentativi hanno esito negativo, il componente tenta di spostare la posizione del pannello di base verso l’alto e di ripetere i tentativi di rollout dalla direzione superiore, destra e sinistra. </p> <p>Se è impostato su <span class="codeph"> fit-lateral </span>, il componente utilizza una logica simile a quella di fit-vertical. Tuttavia, sposta la base verso destra, prima provando verso destra, verso il basso e verso l'alto verso il basso, quindi sposta la base verso sinistra, provando le direzioni di rollout verso sinistra, verso il basso e verso l'alto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

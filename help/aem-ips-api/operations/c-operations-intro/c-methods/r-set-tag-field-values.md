@@ -1,20 +1,28 @@
 ---
-description: Imposta tag valori del dizionario per un campo tag esistente.
+description: Imposta i valori del dizionario di tag per un campo tag esistente.
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/--ArL0CPejqbpJX-G7Z8zdU97WVXXjGfWc74UmOWSV0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 8%
 
 ---
 
 # setTagFieldValues{#settagfieldvalues}
 
-Imposta tag valori del dizionario per un campo tag esistente.
+Imposta i valori del dizionario di tag per un campo tag esistente.
 
 Sintassi
 
@@ -26,13 +34,13 @@ Sintassi
 
 ## Parametri {#section-a05cbee4cb4f44198c414a6b14e69156}
 
-**Immissione**
+**Input**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Sì | Maniglia aziendale. |
-| Gestione campo | `xsd:string` | Sì | Handle del campo tag. |
-| valueArray | `types:StringArray` | Sì | Matrice di valori tag che sostituiscono il dizionario esistente del campo. Le associazioni di risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
+| companyHandle | `xsd:string` | Sì | Gestore azienda. |
+| fieldHandle | `xsd:string` | Sì | Handle campo tag. |
+| valueArray | `types:StringArray` | Sì | Matrice di valori di tag che sostituiscono il dizionario esistente del campo. Le associazioni tra risorse vengono mantenute quando un nuovo valore corrisponde a un valore esistente. |
 
 **Output (setTagFieldValuesReturn)**
 

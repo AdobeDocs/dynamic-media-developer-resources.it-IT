@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/iT-q5yLQijvkYDB0xOq3E6r1k3DIbU9BWu3Jkqs8wUI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 672
 ht-degree: 0%
 
 ---
@@ -40,7 +48,7 @@ La localizzazione delle stringhe di testo viene applicata a tutti gli elementi s
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogo::Destinazioni </span> </p> </td> 
-   <td> <p>Il valore di qualsiasi destinazione <span class="codeph">.*.label </span> e destinazione <span class="codeph">.*.userdata </span>, proprietà. </p> </td> 
+   <td> <p>Valore di qualsiasi proprietà <span class="codeph"> di destinazione.*.label </span> e <span class="codeph"> di destinazione.*.userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Catalogo <span class="codeph">::Dati utente </span> </p> </td> 
@@ -81,7 +89,7 @@ Gli elementi *`string`* abilitati per la localizzazione nel catalogo immagini so
 
 *`locId`* deve essere ASCII e non può includere &#39;^&#39;.
 
-&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero pattern *`localizationToken`* di `^loc=locId^` a sottostringhe separate.
+&#39;^&#39; può verificarsi ovunque nelle sottostringhe con o senza codifica HTTP. Il server corrisponde all&#39;intero pattern `^loc=locId^` di *`localizationToken`* a sottostringhe separate.
 
 *`stringElements`*, che non includono almeno un *`localizationToken`*, non sono considerati per la localizzazione.
 

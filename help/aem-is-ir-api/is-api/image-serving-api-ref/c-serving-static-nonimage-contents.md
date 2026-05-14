@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/bC4s5gEY2HaVRGv37BToYmWINn7ZG1JMVp1wSIF60l4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 475
 ht-degree: 0%
 
 ---
@@ -26,12 +36,12 @@ Image Server supporta i seguenti comandi in [!DNL /is/content]:
   <td class="stentry"> <p>Filtro del tipo di contenuto. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> Req </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>e <span class="codeph"> req=exists </span> only. </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> richiesta </a> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> e <span class="codeph"> req=esiste solo </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
-  <td class="stentry"> <p>Consente di disabilitare le caching lato client. </p> </td> 
+  <td class="stentry"> <p>Consente di disabilitare il caching lato client. </p> </td> 
  </tr> 
 </table>
 
@@ -39,7 +49,7 @@ Image Server supporta i seguenti comandi in [!DNL /is/content]:
 
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> richiesta </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> richiesta </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> server </span>/is/content[/catalog/ <span class="varname"> elemento </span>][? <span class="varname"> modificatori </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -85,8 +95,8 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogo::ID </span> </p> </td> 
-   <td colname="col2"> <p>Identificatore del record del catalogo per l'elemento contenuto statico. </p> </td> 
+   <td colname="col1"> <p> Catalogo <span class="codeph">::Id </span> </p> </td> 
+   <td colname="col2"> <p>Identificatore del record di catalogo per questo elemento di contenuto statico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Catalogo <span class="codeph">::Percorso </span> </p> </td> 
@@ -113,11 +123,11 @@ I cataloghi di contenuti statici sono simili ai cataloghi di immagini, ma suppor
 
 ## Filtraggio del contenuto statico {#section-4c41bf41ff994910840c1352683d1f37}
 
-Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i valori `catalog::UserType` appropriati, il client può aggiungere il comando `type=` alla richiesta. Immagine Serving confronta il valore fornito con il `type=` comando con il valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore anziché contenuti potenzialmente inappropriati.
+Questo meccanismo può aiutare a garantire che i clienti ricevano solo i contenuti appropriati alle loro esigenze. Supponendo che il contenuto statico sia contrassegnato con i valori `catalog::UserType` appropriati, il client può aggiungere il comando `type=` alla richiesta. Image Server confronta il valore fornito con il comando `type=` con il valore di `catalog::UserType` e, in caso di mancata corrispondenza, restituisce un errore invece di contenuti potenzialmente inappropriati.
 
-## Video file di sottotitoli {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
+## File di didascalia video {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
-Potete incapsulare file di sottotitoli video (WebVTT), CSS o qualsiasi altro file di testo in formato JSONP. La risposta JSON è descritta di seguito.
+È possibile incapsulare file di sottotitoli video (WebVTT), CSS o qualsiasi file di testo in formato JSONP. La risposta JSON è descritta di seguito.
 
 * Per i file WebVTT, il tipo mime della risposta è text/javascript. JSON non viene restituito; viene invece restituito JavaScript che chiama un metodo con JSON. Sia l’ID che il gestore sono facoltativi.
 * Per i file CSS, il tipo mime della risposta è text/javascript. Sia l’ID che il gestore sono facoltativi.

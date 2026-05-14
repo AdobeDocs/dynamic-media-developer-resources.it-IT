@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/Cb5DzbRJBDdUEt-daR36rT6CRPMkclg0KtU47IdzWik'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 297
 ht-degree: 1%
 
 ---
@@ -58,7 +66,7 @@ Elemento regola di richiesta. Una o più regole sono facoltative nell&#39;elemen
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> Attributo <b> <span class="varname"> di </span> </b> </th> 
+   <th class="entry"> Attributo </span> </b> di <b> <span class="varname"> </th> 
    <th class="entry"> <p>Attributo catalogo immagini corrispondente </p> </th> 
   </tr> 
  </thead>

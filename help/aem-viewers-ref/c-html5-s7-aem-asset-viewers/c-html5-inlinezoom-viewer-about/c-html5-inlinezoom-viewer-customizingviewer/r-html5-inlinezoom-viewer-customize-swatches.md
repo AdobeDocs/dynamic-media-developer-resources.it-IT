@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/DipZwi8ia9ZAkf8YYqHv-Bg7auGyYvLMm1rsTTtxoP0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: 443
 ht-degree: 0%
 
 ---
@@ -45,13 +53,13 @@ L’aspetto del contenitore dei campioni è controllato dal seguente selettore d
    <td colname="col2"> <p>Altezza dei campioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
    <td colname="col2"> <p> Offset dei campioni verticali rispetto al contenitore del visualizzatore. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio - per impostare i campioni a 460 x 100 pixel:
+Esempio: per impostare i campioni su 460 x 100 pixel:
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +68,9 @@ Esempio - per impostare i campioni a 460 x 100 pixel:
 }
 ```
 
-**Proprietà CSS della miniatura campione della spaziatura**
+**Proprietà CSS della spaziatura campioni miniature**
 
-La spaziatura tra campione miniature è controllata dalla classe CSS selettore:
+La spaziatura tra le miniature dei campioni è controllata con il selettore di classe CSS:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -116,15 +124,15 @@ L’aspetto di una singola miniatura viene controllato con il seguente selettore
    <td colname="col2"> <p>Altezza dei campioni di miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> confine </span> </p> </td> 
-   <td colname="col2"> <p>La bordo dei campioni di miniatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
+   <td colname="col2"> <p>Bordo dei campioni di miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniatura supporta l&#39;attributo `state` selettore, che viene utilizzato per applicare interfacce diverse a diversi stati di miniatura. In particolare, `state="selected"` corrisponde alla miniatura per l&#39;immagine che viene attualmente visualizzata nella vista principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzata al passaggio del mouse.
+>La miniatura supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse a stati di miniatura diversi. In particolare, `state="selected"` corrisponde alla miniatura dell&#39;immagine attualmente visualizzata nella visualizzazione principale, `state="default"` corrisponde al resto delle miniature e `state="over"` viene utilizzato al passaggio del mouse.
 
 Esempio: per impostare miniature di 56 x 56 pixel con un bordo predefinito grigio chiaro e un bordo selezionato grigio scuro:
 
@@ -143,14 +151,14 @@ Esempio: per impostare miniature di 56 x 56 pixel con un bordo predefinito grigi
 
 **Proprietà CSS dei pulsanti di scorrimento sinistro e destro**
 
-L&#39;aspetto dei pulsanti di scorrimento sinistro e destro è controllato con i seguenti selettori di classe CSS:
+L’aspetto dei pulsanti di scorrimento sinistro e destro è controllato dai seguenti selettori di classi CSS:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `left`, `bottom`, e `right` proprietà. Al contrario, la logica visualizzatore li posiziona automaticamente.
+Impossibile posizionare i pulsanti di scorrimento utilizzando le proprietà CSS `top`, `left`, `bottom` e `right`. Al contrario, la logica di visualizzazione li posiziona automaticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,7 +169,7 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p> Larghezza del pulsante di scorrimento. </p> </td> 
   </tr> 
   <tr> 
@@ -173,19 +181,19 @@ Non è possibile posizionare i pulsanti di scorrimento utilizzando CSS `top`, `l
    <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta l&#39;attributo `state` selettore, utilizzato per applicare interfacce diverse a stati pulsante `up`, `down`, `over`e `disabled`.
+>Questo pulsante supporta il selettore di attributi `state`, utilizzato per applicare interfacce diverse agli stati dei pulsanti `up`, `down`, `over` e `disabled`.
 
-I suggerimenti pulsante strumento possono essere localizzati. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) dell&#39;interfaccia.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27).
 
-Esempio - per impostare pulsanti di scorrimento di 56 x 56 pixel e con grafica diversa per ogni stato:
+Esempio - per impostare pulsanti di scorrimento di 56 x 56 pixel con grafica diversa per ogni stato:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

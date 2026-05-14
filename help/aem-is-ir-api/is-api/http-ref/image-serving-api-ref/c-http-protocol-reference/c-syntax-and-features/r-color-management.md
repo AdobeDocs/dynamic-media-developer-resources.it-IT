@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/IzOzGIHXhgknu9Wms73sua9vEF17EemCmaWPByRAp5M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: 1243
 ht-degree: 0%
 
 ---
@@ -105,20 +113,20 @@ Ulteriori profili possono essere aggiunti ai profili standard nel catalogo prede
 | `EuroscaleCoated` | Euroscale rivestita | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale senza rivestimento v2 | EuroscaleUncoated.icc |
 | `JapanColorCoated` | Rivestito colore Giappone 2001 | JapanColor2001Coated.icc |
-| `JapanColorNewspaper` | Giornale Japan Color 2002 | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japan Color 2001 non patinata | JapanColor2001Uncoated.icc |
+| `JapanColorNewspaper` | Giornale Japan Color 2002 | JapanColor2002Quotidiani.icc |
+| `JapanColorUncoated` | Japan Color 2001 non patinata | JapanColor2001Non rivestito.icc |
 | `JapanColorWebCoated` | Rivestimento Web Japan Color 2003 | JapanColor2003WebCoated.icc |
-| `JapanWebCoated` | Rivestito Web Giappone (Ad) | JapanWebCoated.icc |
+| `JapanWebCoated` | Rivestito Web Giappone (Ad) | GiapponeWebCoated.icc |
 | `NewsprintSNAP2007` | US Newsprint (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `PS4Default` | CMYK predefinito di Photoshop 4 | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK predefinito di Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed non rivestito v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 non rivestito (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | FOGRA29 non rivestito (ISO 12647-2:2004) | FOGRA29.icc non rivestito |
 | `WebCoated` | SWOP (U.S. Web Coated) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 rivestito con web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Carta rivestita SWOP 2006 Grado 3 | WebCoatedSWOP2006Grade3.icc |
-| `WebCoatedGrade5` | Carta rivestita SWOP 2006 Grado 5 | WebCoatedSWOP2006Grade5.icc |
+| `WebCoatedGrade5` | Carta rivestita SWOP 2006 Grado 5 | WebCoatedSWOP2006Grado5.icc |
 | `WebUncoated` | Web statunitense non rivestito v2 | USWebUncoated.icc |
 
 La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic Media* (in esecuzione in modalità di esecuzione `dynamicmedia_scene7`).
@@ -144,20 +152,20 @@ La tabella seguente si applica a *Dynamic Media Classic Image Server* e *Dynamic
 | `Euroscale Coated v2` | Euroscale rivestita v2 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale senza rivestimento v2 | EuroscaleUncoated.icc |
 | `JapanColorCoated` | Rivestito colore Giappone 2001 | JapanColor2001Coated.icc |
-| `JapanColorNewspaper` | Giornale Japan Color 2002 | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japan Color 2001 non patinata | JapanColor2001Uncoated.icc |
+| `JapanColorNewspaper` | Giornale Japan Color 2002 | JapanColor2002Quotidiani.icc |
+| `JapanColorUncoated` | Japan Color 2001 non patinata | JapanColor2001Non rivestito.icc |
 | `Japan Color 2003 Web Coated` | Rivestimento Web Japan Color 2003 | JapanColor2003WebCoated.icc |
-| `JapanWebCoated` | Rivestito Web Giappone (Ad) | JapanWebCoated.icc |
+| `JapanWebCoated` | Rivestito Web Giappone (Ad) | GiapponeWebCoated.icc |
 | `PS4Default` | CMYK predefinito di Photoshop 4 | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK predefinito di Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed non rivestito v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 non rivestito (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | FOGRA29 non rivestito (ISO 12647-2:2004) | FOGRA29.icc non rivestito |
 | `US Newsprint (SNAP 2007)` | US Newsprint (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | SWOP (U.S. Web Coated) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 rivestito con web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Carta rivestita SWOP 2006 Grado 3 | WebCoatedSWOP2006Grade3.icc |
-| `Web Coated SWOP Grade 5 Paper` | Carta rivestita SWOP 2006 Grado 5 | WebCoatedSWOP2006Grade5.icc |
+| `Web Coated SWOP Grade 5 Paper` | Carta rivestita SWOP 2006 Grado 5 | WebCoatedSWOP2006Grado5.icc |
 | `WebUncoated` | Web statunitense non rivestito v2 | USWebUncoated.icc |
 
 ## Consultate anche {#section-39159397e80b4efca5f631eab8b9aa06}

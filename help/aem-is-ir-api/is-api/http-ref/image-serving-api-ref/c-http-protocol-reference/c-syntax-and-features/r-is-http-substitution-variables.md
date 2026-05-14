@@ -5,9 +5,17 @@ title: Variabili di sostituzione
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -57,7 +65,7 @@ si risolve in:
 
 ## Elaborazione delle variabili nelle richieste nidificate {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$` i riferimenti possono verificarsi ovunque all&#39;interno delle parentesi graffe di una richiesta di Image Server o Image Rendering nidificata, anche a sinistra di &#39;?&#39; separazione del percorso dalla query. Il server sostituisce questi riferimenti con valori (provenienti dall&#39;URL o da `catalog::Modifier` del catalogo principale delle immagini) prima di analizzare ed elaborare ulteriormente la richiesta nidificata.
+I riferimenti ` $ *`var`*$` possono verificarsi ovunque all&#39;interno delle parentesi graffe di una richiesta di Image Server o Image Rendering nidificata, incluso a sinistra del carattere &#39;?&#39; che separa il percorso dalla query. Il server sostituisce questi riferimenti con valori (provenienti dall&#39;URL o da `catalog::Modifier` del catalogo principale delle immagini) prima di analizzare ed elaborare ulteriormente la richiesta nidificata.
 
 Inoltre, tutte le definizioni di ` $ *`var`*=` dall&#39;URL o `catalog::Modifier` vengono inoltrate a tutte le richieste nidificate di Image Server e Image Rendering. In questo modo tutte le definizioni di variabili sono disponibili per tutti i modelli, indipendentemente dal livello di nidificazione.
 

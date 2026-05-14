@@ -5,9 +5,20 @@ title: Registrazione degli accessi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -76,7 +87,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>data e ora, formattate come <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. Scostamento <span class="varname"> di </span> SSS </span> </p> <p> ( <span class="varname"> SSS </span> sono msec, <span class="varname"> offset </span> è l'offset ora GMT); il valore di ora viene acquisito quando la risposta viene inviata al client. </p> </td> 
+   <td> <p>data e ora, formattate come <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> Scostamento </span> SSS </span> </p> <p> ( <span class="varname"> SSS </span> sono msec, <span class="varname"> offset </span> è l'offset ora GMT); il valore di ora viene acquisito quando la risposta viene inviata al client. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -92,7 +103,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>Stringa di query (preceduta da un "?" se esiste). </p> </td> 
+   <td> <p>Stringa di query (preceduta da un "?", se esiste). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -136,7 +147,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] parola chiave per la gestione della cache: <span class="codeph"> { REUSED | CREATO | AGGIORNATO | REMOTO | REMOTE_CREATED | AGGIORNATO_IN_REMOTO | CACHE_REMOTA | CONVALIDATO | IGNORATO | NON DEFINITO } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] parola chiave per la gestione della cache: <span class="codeph"> { REUSED | CREATO | AGGIORNATO | REMOTO | CREATO_IN_REMOTO | AGGIORNATO_IN_REMOTO | CACHE_REMOTA | CONVALIDATO | IGNORATO | NON DEFINITO } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +159,7 @@ Sono supportate le seguenti variabili di pattern:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>Valore dell'intestazione di risposta <span class="codeph"> etag </span> (firma MD5 dei dati di risposta). </p> </td> 
+   <td> <p>Valore dell'intestazione di risposta </span> etag <span class="codeph"> (firma MD5 dei dati di risposta). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 

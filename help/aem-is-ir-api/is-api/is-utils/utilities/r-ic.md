@@ -5,10 +5,21 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ALpdD-ZyQbjzCD6-sexqaq2gMQZGAZvMd7MqaDC6Gyo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: 1258
+ht-degree: 1%
 
 ---
 
@@ -103,7 +114,7 @@ Se non si convertono immagini di grandi dimensioni, non è necessario impostare 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> angolo </span>&gt; &lt; modalità <span class="varname"> </span>&gt; &lt; tolleranza <span class="varname"> </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Calcola un rettangolo di ritaglio per ridurre al minimo lo sfondo di un colore a tinta unita. Se con l’algoritmo di ritaglio automatico l’intera immagine viene ritagliata, non viene generata alcuna informazione di ritaglio. </p> <p>Per calcolare il rettangolo di ritaglio senza convertire l'immagine, specificare <span class="codeph"> -autocrop </span> senza <span class="codeph"> -convert </span> e senza <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
-<p><i><b>angolo</b></i> - ul | ur | ll | lr </p>
+<p><i><b>angolo</b></i> - ul | ur | Tutti | lr </p>
    <p> Specifica l'angolo dell'immagine da utilizzare come punto di partenza. Ignorato se la modalità è 1.</p>
    <p><i><b>modalità</b></i> - 0 | 1</p>
    <p>Impostate questo valore su 0 per ritagliare in base al colore del pixel d'angolo specificato; funziona sui dati di colore premoltiplicati se all'immagine sorgente sono associati dati alfa.</p>
@@ -310,7 +321,7 @@ Nella tabella seguente sono elencati i formati di file immagine e le opzioni di 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grigio | grigioA | indicizzato </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> non compresso | ZIP | LZW | JPEG | REGOLA CCITT | CCITT G3 | CCITT G4 | Pacchetti </p> </td> 
+   <td> <p> non compresso | ZIP | LZW | JPEG | REGIME CCITT | CCITT G3 | CCITT G4 | Pacchetti </p> </td> 
    <td> <p> Ad eccezione del primo canale alfa associato, i canali aggiuntivi vengono ignorati. </p> </td> 
   </tr> 
  </tbody> 

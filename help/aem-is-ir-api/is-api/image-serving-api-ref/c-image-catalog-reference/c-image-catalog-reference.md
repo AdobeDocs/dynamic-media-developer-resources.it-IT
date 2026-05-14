@@ -1,20 +1,28 @@
 ---
-description: Immagine cataloghi forniscono al server informazioni sulle immagini e sui dati di supporto, quali font e profili ICC.
+description: I cataloghi di immagini forniscono al server informazioni sulle immagini e sui dati di supporto, come font e profili ICC.
 solution: Experience Manager
-title: Immagine riferimento catalogo
+title: Riferimento catalogo immagini
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/5glkf7Cg0P97ieayUl3OCWzdMVJBRRf5GFHgvQS5qMA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: 50
 ht-degree: 0%
 
 ---
 
-# Immagine riferimento catalogo{#image-catalog-reference}
+# Riferimento catalogo immagini{#image-catalog-reference}
 
-Immagine cataloghi forniscono al server informazioni sulle immagini e sui dati di supporto, quali font e profili ICC.
+I cataloghi di immagini forniscono al server informazioni sulle immagini e sui dati di supporto, come font e profili ICC.
 
 * [Panoramica](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [Aggiornamento dei cataloghi di immagini](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)

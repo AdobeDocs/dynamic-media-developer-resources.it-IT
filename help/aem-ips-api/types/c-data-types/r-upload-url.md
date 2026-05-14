@@ -1,20 +1,28 @@
 ---
-description: Per caricare risorse tramite URL.
+description: Per caricare le risorse tramite URL.
 solution: Experience Manager
-title: Carica URL
+title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/3LU4lnQx-7geOnDmenb1JF1xqQPbYixIi223u-3T0lQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: 44
 ht-degree: 6%
 
 ---
 
 # [!DNL UploadUrl]{#uploadurl}
 
-Per caricare risorse tramite URL.
+Per caricare le risorse tramite URL.
 
 Sintassi
 
@@ -22,5 +30,5 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| url origine | `xsd:string` | L&#39;origine URL da cui viene caricato il risorsa. |
-| Percorso destPath | `xsd:string` | Il percorso del file IPS e il nome del file in cui si desidera effettuare il caricamento. |
+| sourceUrl | `xsd:string` | URL di origine da cui viene caricata la risorsa. |
+| destPath | `xsd:string` | Percorso e nome del file IPS in cui si desidera caricare il file. |

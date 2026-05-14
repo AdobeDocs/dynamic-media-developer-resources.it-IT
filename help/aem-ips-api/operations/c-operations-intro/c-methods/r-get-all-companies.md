@@ -5,9 +5,17 @@ title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/B2wkv6Xvuvg17yqUucjIx170K4YmznQgBrJiVgLe2qg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: 71
 ht-degree: 14%
 
 ---
@@ -28,17 +36,17 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | Sì | Imposta su true per restituire le società scadute e non scadute. |
+| includeExpired | `xsd:boolean` | Sì | Impostare su true per restituire le società scadute e non scadute. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| CompanyArray | `types:CompanyArray` | Sì | La gamma delle aziende. |
+| companyArray | `types:CompanyArray` | Sì | L’array di aziende. |
 
 ## Esempi {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Questo esempio di codice restituisce tutte le società in IPS in un array. Nota, la risposta di esempio è troncata per brevità.
+In questo esempio di codice vengono restituite tutte le società in IPS in un array. La risposta di esempio viene troncata per brevità.
 
 **Richiesta**
 

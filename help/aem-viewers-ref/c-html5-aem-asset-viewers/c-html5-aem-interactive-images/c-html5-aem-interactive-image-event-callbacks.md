@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/rANyVj9GuwAbFPrO2-xVCD0cvvo4kZutjyDrkj60yVU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 1%
 
 ---
@@ -37,7 +45,7 @@ Gli eventi visualizzatore supportati includono:
    <td colname="col2"> <p> Si attiva ogni volta che si verifica un evento all’interno del visualizzatore che può essere gestito da un sistema di tracciamento degli eventi, come Adobe Analytics. Il gestore di callback accetta i seguenti argomenti: </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String} </span> - non attualmente utilizzato. </p> </li> 
-      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> - non attualmente in uso. </p> </li> 
+      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> non attualmente in uso. </p> </li> 
       <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span>: nome di istanza del componente SDK del visualizzatore che ha attivato l'evento. </p> </li> 
       <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timestamp {Number} </span> - timestamp evento. </p> </li> 
       <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String} </span> - payload evento. </p> </li> 
@@ -47,7 +55,7 @@ Gli eventi visualizzatore supportati includono:
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate </span> </p> </td> 
    <td colname="col2"> <p> Si attiva quando l'utente attiva un punto attivo a cui sono associati dati Quickview. Il gestore di callback accetta l'argomento seguente: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
-      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> dati {Object} </span> - un oggetto JSON contenente i dati della definizione del punto attivo. Lo SKU del campo <span class="codeph"> </span> è obbligatorio, mentre gli altri campi sono facoltativi e dipendono dalla definizione del punto attivo di origine. </p> </li> 
+      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> dati {Object} </span>: oggetto JSON contenente i dati della definizione del punto attivo. Lo SKU del campo <span class="codeph"> </span> è obbligatorio, mentre gli altri campi sono facoltativi e dipendono dalla definizione del punto attivo di origine. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
