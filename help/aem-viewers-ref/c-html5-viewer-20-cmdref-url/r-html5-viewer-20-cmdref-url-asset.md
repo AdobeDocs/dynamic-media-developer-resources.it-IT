@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
 TQID: 'https://experienceleague.adobe.com/EylLoY4VQMafn65jykpRSh99ZuybGh5bx-RVhmJnyTE'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 562
@@ -66,7 +70,7 @@ Oppure
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> set 360 gradi multidimensionale </span> </span> </p> </td> 
-   <td colname="col2"> <p>Specifica un set 360 gradi multidimensionale esplicito utilizzando la sintassi seguente: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> dove <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> è un elenco separato da virgole di frame per un determinato asse orizzontale. Tutti i <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devono avere lo stesso numero di frame. </p> <p> <p>Nota: questa funzione è supportata in Adobe Dynamic Media Classic e non in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Specifica un set 360 gradi multidimensionale esplicito utilizzando la sintassi seguente: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;&lbrack;,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> dove <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> è un elenco separato da virgole di frame per un determinato asse orizzontale. Tutti i <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devono avere lo stesso numero di frame. </p> <p> <p>Nota: questa funzione è supportata in Adobe Dynamic Media Classic e non in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificatori </span> </span> </p> </td> 
