@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 20618017-2f73-4951-baa9-2063a0f4efcb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/e-j3Y9zymMOwlwNcz6Ouh0Asn1m5u-lx5zoRfUORN2U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 196
 ht-degree: 1%
 
 ---
@@ -20,14 +24,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> modello</span></span> </p> </td> 
-   <td> <p>Il modello per contenuto in cui vengono uniti i dati restituiti dal server informazioni. </p> <p>Il modello di contenuto è un XML che segue questa DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>Il modello per contenuto in cui vengono uniti i dati restituiti dal server informazioni. </p> <p>Il modello di contenuto è un XML che segue questa DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>La sintassi effettiva del modello di contenuto è la seguente: </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&rbrack;&gt;
+      ]&gt;</code> </p> <p>La sintassi effettiva del modello di contenuto è la seguente: </p> <p> <code>&lt;info&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
       &lt;/info&gt;</code> </p> <p>Il modello deve iniziare con l'elemento <span class="codeph"> &lt;info&gt;</span> che può contenere <span class="codeph"> &lt;var&gt;</span> elementi predefiniti facoltativi. Il contenuto del modello stesso, <span class="codeph"> TEMPLATE_CONTENT</span>, è un testo HTML. Inoltre, il modello di contenuto può contenere nomi di variabili racchiusi tra <span class="codeph"> $</span> caratteri che vengono sostituiti con i valori di variabili restituiti dal server informazioni o con quelli predefiniti. </p> <p>Le variabili predefinite definite nel modello possono essere globali (se l’attributo di rollover non è impostato) o specifiche per una determinata chiave di rollover (se l’attributo di rollover è presente). </p> <p>Durante l’elaborazione dei modelli, le variabili specifiche per le chiavi di rollover hanno la precedenza rispetto alle variabili globali. </p> </td> 
   </tr> 

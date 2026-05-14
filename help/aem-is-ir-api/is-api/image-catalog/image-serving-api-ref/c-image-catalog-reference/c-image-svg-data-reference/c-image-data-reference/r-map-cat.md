@@ -1,28 +1,32 @@
 ---
-description: Immagine dati cartografici. Nessuno o più elementi HTML <AREA> completi, ordinati front-to-back.
+description: Dati mappa immagine. Nessuno o più elementi HTML <AREA> completi, ordinati in ordine crescente.
 solution: Experience Manager
 title: Mappa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/JY0barcvbF72sTyYW4iIhjFE-8tfqtbI78PDccLcXV0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 135
 ht-degree: 2%
 
 ---
 
 # Mappa{#map}
 
-Immagine dati cartografici. Nessuno o più elementi HTML `<AREA>` completi, ordinati front-to-back.
+Dati mappa immagine. Nessuno o più elementi HTML `<AREA>` completi, ordinati in avanti e indietro.
 
-Il server interpreta e può modificare gli attributi SHAPE e COORDS (SHAPE=CIRCLE non è supportato in questa versione). Tutti gli altri attributi di `<AREA>` vengono trasmessi senza modifiche. I valori delle coordinate specificati con l&#39;attributo COORDS devono essere offset di pixel rispetto all&#39;angolo superiore sinistro dell&#39;immagine sorgente non modificata. `%`( le coordinate non sono supportate in questa versione e potrebbero non essere elaborate correttamente.)
+Il server interpreta e può modificare gli attributi SHAPE e COORDS (SHAPE=CIRCLE non è supportato in questa release). Tutti gli altri attributi di `<AREA>` vengono passati senza modifiche. I valori di coordinate specificati con l&#39;attributo COORDS devono essere offset in pixel dall&#39;angolo superiore sinistro dell&#39;immagine di origine non modificata. (`%` coordinate non sono supportate in questa versione e potrebbero non essere elaborate correttamente).
 
 ## Proprietà {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Valore stringa testo. Se specificato, deve essere uno o più elementi HTML `<AREA>` completi.
+Valore stringa di testo. Se specificato, deve essere uno o più elementi HTML `<AREA>` completi.
 
-Questo campo contribuisce alla localizzazione delle stringhe di testo. Per ulteriori informazioni, fare riferimento a [Localizzazione](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) di stringhe di testo in HTTP *Protocol Reference* .
+Questo campo partecipa alla localizzazione delle stringhe di testo. Per ulteriori informazioni, consultare [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) nella *documentazione sul protocollo HTTP*.
 
 ## Predefinito {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

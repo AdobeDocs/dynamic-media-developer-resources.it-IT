@@ -5,9 +5,13 @@ title: ExportJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/h-GfeigJEitlDHdIGUYv-Trj3fhk5Lp9hcWxeL-A3qA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 198
 ht-degree: 10%
 
 ---
@@ -44,16 +48,16 @@ ExportJob non supporta i seguenti tipi di risorse:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:stringa </span> </p> </td> 
-   <td colname="col3"> <p>Specifica il tipo di esportazione <span class="codeph">. Valori possibili</span>: [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Specifica il tipo di esportazione <span class="codeph">.Valori possibili</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Se <span class="codeph"> fmt=orig</span>, le risorse vengono esportate come originali </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Se <span class="codeph"> fmt=convert</span>, le risorse vengono convertite nel formato specificato nei parametri di input is_modifer<span class="codeph"> o </span> macro<span class="codeph"> di </span> </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Se <span class="codeph"> fmt=convert</span>, le risorse vengono convertite nel formato specificato nei parametri di input is_modifer</span> o <span class="codeph"> macro</span> di <span class="codeph"> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:stringa </span> </p> </td> 
-   <td colname="col3"> <p>Specifica la stringa dell'URL di rendering di ImageServer <span class="codeph"> </span>, che viene aggiunta alla richiesta Convert<span class="codeph"> di ExportJob </span>. </p> <p>Per informazioni dettagliate sull'invio dei modificatori IS, consultare la documentazione di <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it" scope="external" format="html"> IS</a>. </p> </td> 
+   <td colname="col3"> <p>Specifica la stringa dell'URL di rendering di ImageServer </span> <span class="codeph">, che viene aggiunta alla richiesta Convert</span> di ExportJob <span class="codeph">. </p> <p>Per informazioni dettagliate sull'invio dei modificatori IS, consultare la documentazione di <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

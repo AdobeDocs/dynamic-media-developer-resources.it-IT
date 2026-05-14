@@ -5,16 +5,20 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/YIV6y11nCjz4iC2ODpnUOiHeDlMcQY5Sq06res4DgPM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
 
-# Social condivisione{#social-share}
+# Condivisione social{#social-share}
 
-Il strumento di condivisione social viene visualizzato nell&#39;angolo in alto a destra per impostazione predefinita. È costituito da un pulsante e un pannello che si espande quando il utente fa clic o tocca un pulsante e contiene strumenti di condivisione individuali.
+Per impostazione predefinita, lo strumento condivisione social viene visualizzato nell&#39;angolo in alto a destra. È costituito da un pulsante e da un pannello che si espande quando l’utente fa clic o tocca un pulsante e contiene singoli strumenti di condivisione.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -42,7 +46,7 @@ La posizione e le dimensioni dello strumento di condivisione social network nell
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>L'altezza del condivisione social strumento. </p> </td> 
+   <td colname="col2"> <p>Altezza dello strumento di condivisione social. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,9 +87,9 @@ L’aspetto del pulsante dello strumento Condivisione social è controllato dal 
 
 >[!NOTE]
 >
->Questo pulsante supporta l&#39;attributo `state` selettore, che può essere utilizzato per applicare interfacce diverse a diversi stati pulsante.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-Il suggerimento strumento pulsante può essere localizzato. Vedere [Localizzazione di utente elementi](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia.
+La descrizione comando del pulsante può essere localizzata. Vedi [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Esempio {#example-1}
 

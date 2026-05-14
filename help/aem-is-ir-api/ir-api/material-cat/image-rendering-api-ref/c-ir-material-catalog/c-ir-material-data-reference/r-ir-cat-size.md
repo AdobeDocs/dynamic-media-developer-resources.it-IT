@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/HLyEmmOch9kiHQ3sqpvHCQiHOBltjQcsZaDu0na1-Ww'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: 217
+ht-degree: 4%
 
 ---
 
@@ -40,7 +44,7 @@ Fornite un valore di spessore per aggiungere un&#39;ombra esterna all&#39;oggett
   <td class="stentry"> <p>La decalcomania è larga 5 pollici, l'altezza è determinata dalle proporzioni dell'immagine e un'ombra esterna viene riprodotta in base a uno spessore di 1 pollice. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>La larghezza e l'altezza della decalcomania sono determinate da catalog::Resolution e che lo spessore della decalcomania sia di ½ pollice. </p></td> 
  </tr> 
 </table>

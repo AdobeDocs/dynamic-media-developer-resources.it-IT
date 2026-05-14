@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: 2295
 ht-degree: 0%
 
 ---
@@ -32,11 +37,11 @@ Note aggiornate sulla versione di [!DNL Adobe Scene7] - Autunno 2016 - parte del
 
 Adobe è entusiasta di annunciare la disponibilità della distribuzione HTTP/2 dei contenuti che offre il vantaggio complessivo di prestazioni migliorate.
 
-Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=it#dynamic).
+Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=it)
+Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nuove funzioni, miglioramenti e correzioni di bug**
 
@@ -58,7 +63,7 @@ Per la documentazione completa, vedi [https://experienceleague.adobe.com/docs/dy
 
 ## Visualizzatori (Image Server 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correzioni di bug per Image Server 5.5.3**
 
@@ -68,7 +73,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correzioni di bug per Image Server 5.5.2**
 
@@ -77,7 +82,7 @@ Per la documentazione completa, consulta [Guida di riferimento visualizzatori](h
 
 ## Visualizzatori (Image Server 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it).
+Per la documentazione completa, consulta [Guida di riferimento visualizzatori](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nuove funzioni, miglioramenti e correzioni di bug per Image Server 5.5.1**
 

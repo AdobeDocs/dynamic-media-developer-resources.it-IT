@@ -5,10 +5,14 @@ title: submitJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/RtEWl0OGJGwGT-0CfZPNXr1-zCFt--3ZcJQshdBA6Nk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: 393
+ht-degree: 7%
 
 ---
 
@@ -76,7 +80,7 @@ Sintassi
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> No </td> 
-   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa cron<span class="codeph"> </span> che esegue il processo su base periodica. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consulta la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
+   <td colname="col4"> <p>Determina quando eseguire il processo. </p> <p> Può essere una stringa cron</span> <span class="codeph"> che esegue il processo su base periodica. </p> <p>La pianificazione è sempre relativa al fuso orario locale del server. Consulta la documentazione IPS per il formato di pianificazione personalizzato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrizione</span> </span> </td> 

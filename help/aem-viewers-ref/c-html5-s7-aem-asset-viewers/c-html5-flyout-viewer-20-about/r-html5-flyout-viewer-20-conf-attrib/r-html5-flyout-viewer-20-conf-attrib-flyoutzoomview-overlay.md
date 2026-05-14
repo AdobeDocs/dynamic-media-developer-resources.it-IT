@@ -1,18 +1,22 @@
 ---
-title: FlyoutZoomView.overlay
-description: FlyoutZoomView.overlay
+title: A comparsaZoomView.overlay
+description: A comparsaZoomView.overlay
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/MxdOr4hM38H7Hy6uCIvrOJQ0xjxbiyaJlIwaIFKGZOU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 2%
+source-wordcount: 103
+ht-degree: 4%
 
 ---
 
-# FlyoutZoomView.overlay{#flyoutzoomview-overlay}
+# A comparsaZoomView.overlay{#flyoutzoomview-overlay}
 
 `[FlyoutZoomView.|<containerId>_flyout.]overlay=0|1`
 
@@ -20,7 +24,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Controlla l'aspetto della luce della visualizzazione principale quando il riquadro a comparsa è attivo. Se impostato su <span class="codeph"> 0</span>, l'area attualmente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti da <span class="codeph"> .s7highlight</span> o dai <span class="codeph"> nomi delle classi CSS .s7cursor</span> (a seconda del valore del modificatore highlightmode<span class="codeph"></span>). Se impostato su <span class="codeph"> 1</span> , il componente entra in modalità "inversa" in cui l'area attualmente visualizzata è completamente trasparente (nel caso in cui <span class="codeph"> highlightmode</span> sia impostata su <span class="codeph"> highlight</span>) o formattata con <span class="codeph"> il nome della classe CSS .s7cursor</span> (nel caso in cui <span class="codeph"> highlightmode</span> sia impostato su <span class="codeph"> cursor</span>), ma l'area circostante viene riempita utilizzando gli stili forniti dal <span class="codeph"> nome della classe CSS .s7overlay</span> . </p> </td> 
+   <td colname="col2"> <p> Controlla l'aspetto di evidenziazione della vista principale quando il menu a comparsa è attivo. Se è impostato su <span class="codeph"> 0</span>, l'area attualmente visibile nella finestra a comparsa viene evidenziata utilizzando gli stili forniti dai nomi di classe CSS <span class="codeph"> .s7highlight</span> o <span class="codeph"> .s7cursor</span> (a seconda del valore del modificatore <span class="codeph"> highlightmode</span>). Quando è impostato su <span class="codeph">, il componente 1</span> entra in modalità "inversa" in cui l'area visualizzata è completamente trasparente (nel caso in cui <span class="codeph"> highlightmode</span> sia impostato su <span class="codeph"> highlight</span>) o formattato con il nome di classe CSS <span class="codeph"> .s7cursor</span> (nel caso in cui <span class="codeph"> highlightmode</span> sia impostato su <span class="codeph"> cursor</span>), ma l'area circostante viene riempita utilizzando gli stili forniti dal nome di classe CSS <span class="codeph"> .s7overlay</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

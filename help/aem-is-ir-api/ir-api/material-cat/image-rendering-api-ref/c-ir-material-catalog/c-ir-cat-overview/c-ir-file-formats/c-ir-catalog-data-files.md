@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -30,7 +34,7 @@ I campi dati non possono contenere `<CR>`, `<LF>` o `<TAB>` caratteri, a meno ch
 
 Se non diversamente specificato, più valori di dati nello stesso campo sono separati da virgole (&#39;,&#39;).
 
-Colonne i cui nomi iniziano con &quot;.&quot; vengono ignorati; ciò consente di memorizzare i dati in cataloghi di materiali che non sono di alcun interesse per Image Rendering. Le colonne con nomi di intestazione sconosciuti vengono ignorate e viene scritto un avviso nel file di registro.
+Le colonne i cui nomi iniziano con &quot;.&quot; vengono ignorate; ciò consente l&#39;archiviazione dei dati nei cataloghi di materiali, operazione che non interessa Image Rendering. Le colonne con nomi di intestazione sconosciuti vengono ignorate e viene scritto un avviso nel file di registro.
 
 I nomi dei campi possono essere costituiti da qualsiasi combinazione di lettere ASCII, numeri e &quot;-&quot; e &quot;_&quot;.
 

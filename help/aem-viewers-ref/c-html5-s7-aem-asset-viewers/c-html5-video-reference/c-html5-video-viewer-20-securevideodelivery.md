@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/fK-RwKVARzyO2dleZHW7Hv1ZjfLoR24CwKZcLJ-9G1k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ A seconda del metodo di pubblicazione del video Dynamic Media utilizzato in Adob
 
 -->
 
-Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
+Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Se pubblichi un video Dynamic Media con codice di incorporamento, aggiungi `VideoPlayer.ssl` all&#39;elenco degli altri parametri di configurazione del visualizzatore nel frammento di codice di incorporamento.
 
@@ -71,4 +75,4 @@ Vedi anche [Collegamento di URL all&#39;applicazione Web](https://experienceleag
 
 -->
 
-Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=it#dynamic).
+Vedi anche [Incorporazione del video in una pagina Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

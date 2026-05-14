@@ -5,9 +5,13 @@ title: Output
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/XYdTYt0N200rDYSl4klx7c0kfsDY-650TOy9-ui4cvw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -32,11 +36,11 @@ Vengono generate le seguenti proprietà:
   <td class="stentry"> <p>Versione predefinita del file di output. Inoltre, il numero di versione più alto che questa versione di <span class="filepath"> vntc</span> può generare. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> errore.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">errore.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
   <td class="stentry"> <p>Messaggio di errore La presenza di messaggi di errore indica in genere che non vengono creati file di output o che non sono adatti per il rendering immagini. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> file.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">file.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
   <td class="stentry"> <p>Percorso/nome completo di tutti i file di output, inclusi vignettature, file di stile archivio, immagini a risoluzione completa e miniature. È presente un attributo di file per ciascun file generato (eccetto il file di registro). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -85,7 +89,7 @@ Vengono generate le seguenti proprietà:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">risoluzione=<span class="varname"> valore</span></span> </p></td> 
-  <td class="stentry"> <p>Per gli stili di archivio, la risoluzione dell'oggetto dell'elemento sourceFile<span class="varname"> </span>. Per le vignettature, questa è la risoluzione del materiale consigliata per ottenere risultati di rendering di qualità migliore durante il rendering della vignettatura di output. Pixel/pollici (ppi). </p></td> 
+  <td class="stentry"> <p>Per gli stili di archivio, la risoluzione dell'oggetto dell'elemento sourceFile</span> <span class="varname">. Per le vignettature, questa è la risoluzione del materiale consigliata per ottenere risultati di rendering di qualità migliore durante il rendering della vignettatura di output. Pixel/pollici (ppi). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.min=<span class="varname"> val</span></span> </p></td> 
@@ -138,7 +142,7 @@ Vengono generate le seguenti proprietà:
   <td class="stentry"> <p><span class="varname"> ival</span> è 1 se lo stile dell'archivio è testurizzabile, 0 in caso contrario. Non presente per i file di stile delle vignettature e delle copertine di finestre. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> avviso.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">avviso.<span class="varname"> n</span>=<span class="varname"> stringa</span></span> </p></td> 
   <td class="stentry"> <p>Messaggio di avviso (ad esempio, quando è specificato <span class="codeph"> -imagemap</span> ma non sono stati trovati dati mappa nella vignettatura). </p></td> 
  </tr> 
 </table>

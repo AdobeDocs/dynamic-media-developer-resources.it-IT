@@ -1,20 +1,24 @@
 ---
-description: Un array di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
+description: Un array di avanzamento dell’attività. Contiene informazioni sulle attività di transcodifica video.
 solution: Experience Manager
-title: Matrice di avanzamento attività
+title: MatriceAvanzamentoAttività
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/jKcKXsJNT47OUs-rjbRxXdbfAqBjeNy6gK17uxeykXc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: 38
 ht-degree: 10%
 
 ---
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-Un array di avanzamento attività. Contiene informazioni sulle attività di transcodifica video.
+Un array di avanzamento dell’attività. Contiene informazioni sulle attività di transcodifica video.
 
 Sintassi
 
@@ -22,4 +26,4 @@ Sintassi
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| item | `types:TaskProgress` | Elementi di avanzamento attività. Il occorrenza minimo è zero. Il numero massimo occorrenza non è vincolato. |
+| item | `types:TaskProgress` | Elementi di avanzamento attività. L&#39;occorrenza minima è zero. L&#39;occorrenza massima non è limitata. |

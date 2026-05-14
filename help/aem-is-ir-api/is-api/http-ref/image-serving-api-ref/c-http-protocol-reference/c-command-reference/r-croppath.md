@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/zjmnN-7ACO78rMKs7H2S6b989IEHi2I9nPrS5FPaEFA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 173
 ht-degree: 1%
 
 ---
@@ -22,7 +26,7 @@ Consente di ritagliare fino al riquadro di delimitazione di un percorso denomina
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> nomePercorso</span></span> </p> </td> 
-   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> nomePercorso</span></span> è il nome di un percorso incorporato nell'immagine di origine del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se viene specificato più di un percorso <span class="codeph"><span class="varname"> &lbrace;pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi percorso <span class="codeph"><span class="varname"></span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
+   <td colname="col2"> <p>Nome del percorso incorporato nell'immagine sorgente del livello (solo ASCII). </p> <p> <span class="codeph"><span class="varname"> nomePercorso</span></span> è il nome di un percorso incorporato nell'immagine di origine del livello. Il percorso viene trasformato automaticamente in base alle necessità per mantenere l'allineamento relativo con il contenuto dell'immagine. Se viene specificato più di un percorso <span class="codeph"><span class="varname"> {pathName</span></span>, il server ritaglia il riquadro di delimitazione di ciascun percorso, uno alla volta. Qualsiasi percorso <span class="codeph"><span class="varname"></span></span> non trovato nell'immagine di origine viene ignorato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

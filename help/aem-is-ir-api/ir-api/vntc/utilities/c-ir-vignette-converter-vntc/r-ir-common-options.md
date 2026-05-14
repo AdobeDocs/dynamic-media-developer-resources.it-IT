@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/3Wz0goEJBDZmEomYaszS1Am7GMuTBxWEl1l-6Y163J0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -19,7 +23,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
 <table id="simpletable_3BFC3737C891411D84405CEEF6B19542"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> stringa </span> </span> </p> </td> 
-  <td class="stentry"> <p>Cartella in cui inserire i file di output (incluso il file di log, se <span class="codeph"> -log </span> è specificato). Può essere un percorso assoluto o relativo della directory di lavoro corrente. La gerarchia di cartelle viene creata se non esiste, ma non si applica al file specificato con <span class="codeph"> -log </span>. Se non specificato, i file di output vengono scritti nella cartella in cui si trova il file di origine <span class="varname"> di </span>. Se si specifica <span class="varname"> destFile </span>, verrà scritto sempre in tale posizione e <span class="codeph"> -destpath </span> verrà applicato solo ai file di output secondari. </p> </td> 
+  <td class="stentry"> <p>Cartella in cui inserire i file di output (incluso il file di log, se <span class="codeph"> -log </span> è specificato). Può essere un percorso assoluto o relativo della directory di lavoro corrente. La gerarchia di cartelle viene creata se non esiste, ma non si applica al file specificato con <span class="codeph"> -log </span>. Se non specificato, i file di output vengono scritti nella cartella in cui si trova il file di origine </span> di <span class="varname">. Se si specifica <span class="varname"> destFile </span>, verrà scritto sempre in tale posizione e <span class="codeph"> -destpath </span> verrà applicato solo ai file di output secondari. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -immagine </span> </p> </td> 
@@ -39,7 +43,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> - priorità più bassa <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Ridurre la priorità del processo <span class="filepath"> vntc </span>. È possibile utilizzare questo processo in modo che <span class="filepath"> vntc </span> non acquisisca un intero CPU durante l'elaborazione di una vignettatura. Consente al sistema operativo di dare più tempo ad altri processi, più importanti. <span class="varname"> ival </span> specifica la percentuale di priorità inferiore (0..100). Il valore predefinito è <span class="codeph"> -lowerpriority 0 </span>, che non riduce la priorità del processo <span class="filepath"> vntc </span>. </p> </td> 
+  <td class="stentry"> <p>Ridurre la priorità del processo </span> vntc <span class="filepath">. È possibile utilizzare questo processo in modo che <span class="filepath"> vntc </span> non acquisisca un intero CPU durante l'elaborazione di una vignettatura. Consente al sistema operativo di dare più tempo ad altri processi, più importanti. <span class="varname"> ival </span> specifica la percentuale di priorità inferiore (0..100). Il valore predefinito è <span class="codeph"> -lowerpriority 0 </span>, che non riduce la priorità del processo </span> vntc <span class="filepath">. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
@@ -63,7 +67,7 @@ Le seguenti opzioni possono essere applicate indipendentemente dal tipo di sourc
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Verifica che la vignettatura specificata sia una vignettatura di produzione corretta. Il flaconcino <span class="varname"> di </span> rappresenta la versione file minima della vignettatura. </p> </td> 
+  <td class="stentry"> <p>Verifica che la vignettatura specificata sia una vignettatura di produzione corretta. Il flaconcino </span> di <span class="varname"> rappresenta la versione file minima della vignettatura. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -versione <span class="varname"> ival </span> </span> </p> </td> 

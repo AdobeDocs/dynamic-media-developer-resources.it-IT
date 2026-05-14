@@ -5,10 +5,14 @@ title: Traduzione ID oggetto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -58,7 +62,7 @@ Se una mappa di traduzione non specifica una regola di traduzione predefinita, v
 
 È spesso auspicabile raggruppare le lingue (ad esempio, europeo, mediorientale e nordamericana) per rispettare gli standard regionali. Ciò può essere ottenuto con una ricerca su più livelli.
 
-Per questo esempio, vogliamo supportare le raccolte per uso occidentale e mediorientale. Entrambe le raccolte sono basate sulla raccolta di immagini generica e per entrambe alcune immagini sono aggiunte o modificate. Entrambe le raccolte vengono quindi ulteriormente perfezionate per specifiche impostazioni internazionali ( `m1`, `m2` per due varianti mediorientali e `w1`, `w2` e `w3` per tre impostazioni internazionali occidentali), ad eccezione delle immagini condivise per `w1` e `w3`. Le impostazioni locali sconosciute vengono mappate solo alla raccolta generica e non hanno accesso a immagini specifiche per le impostazioni locali.
+Per questo esempio, vogliamo supportare le raccolte per uso occidentale e mediorientale. Entrambe le raccolte sono basate sulla raccolta di immagini generica e per entrambe alcune immagini sono aggiunte o modificate. Entrambe le raccolte vengono quindi ulteriormente perfezionate per specifiche impostazioni internazionali ( `m1`, `m2` per due varianti mediorientali e `w1`, `w2` e `w3` per tre impostazioni internazionali occidentali), ad eccezione delle immagini condivise per `w1` e `w3`. Le lingue sconosciute sono associate solo alla raccolta generica e non hanno accesso alle immagini per lingue specifiche.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 

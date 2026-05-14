@@ -5,9 +5,13 @@ title: Richiedi offuscamento
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/77Q5rV3cP4KoBz3rFKlEmBlumS0TBthuLbLQBETPitE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 220
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ Il server tenta di decodificare se `attribute::RequestObfuscation` è impostato.
 
 >[!IMPORTANT]
 >
->Se abiliti questa funzione, tieni presente che esistono alcune limitazioni al suo utilizzo che includono quanto segue:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, il flusso video HLS non funziona se sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.<br>- Attualmente, alcuni visualizzatori Dynamic Media non funzionano quando sono abilitati **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]**.
+>Se abiliti questa funzione, tieni presente che esistono alcune limitazioni al suo utilizzo che includono quanto segue:<br>- L&#39;interfaccia utente di Dynamic Media potrebbe non mostrare i dettagli corretti per il campo **[!UICONTROL Ultima pubblicazione]**. Tuttavia, questo effetto non influisce sulla pubblicazione.<br>- Attualmente, il flusso video HLS non funziona quando **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]** sono abilitati.<br>- Attualmente, alcuni visualizzatori Dynamic Media non funzionano quando **[!UICONTROL Offuscamento richiesta]** e **[!UICONTROL Blocco richiesta]** sono abilitati.
 
 ## Esempio {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

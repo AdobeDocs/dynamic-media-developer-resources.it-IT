@@ -1,18 +1,22 @@
 ---
-title: FlyoutZoomView.highlightmode
-description: FlyoutZoomView.highlightmode
+title: A comparsaZoomView.highlightmode
+description: A comparsaZoomView.highlightmode
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x43ipzx6iKOODZ10S8o8yJA9pg0Gl8mldfS5fEiVQJ4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 1%
 
 ---
 
-# FlyoutZoomView.highlightmode{#flyoutzoomview-highlightmode}
+# A comparsaZoomView.highlightmode{#flyoutzoomview-highlightmode}
 
 ` [FlyoutZoomView.|<containerId>_flyout.]highlightmode=highlight|cursor[, *`showtime`*[,onimage|free]]`
 
@@ -24,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imposta il tempo (in secondi) di dissolvenza in entrata dell'evidenziazione o del cursore dopo l'attivazione da parte dell'utente. La dissolvenza in entrata viene applicata solo ai dispositivi touch; sui sistemi desktop viene ignorata dal componente. </p> <p>La dissolvenza in entrata si applica ai seguenti elementi dell'interfaccia utente: frame di evidenziazione, cursore fisso, sovrapposizione (se il parametro <span class="codeph"> della sovrapposizione </span> è impostato su <span class="codeph"> 1 </span>). L'animazione della vista a comparsa inizia solo dopo la dissolvenza di evidenziazione/cursore al termine dell'animazione. Non è presente alcuna animazione di dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia utente (cursore, evidenziazione e sovrapposizione) si nascondono immediatamente. </p> </td> 
+   <td colname="col2"> <p> Imposta il tempo (in secondi) di dissolvenza in entrata dell'evidenziazione o del cursore dopo l'attivazione da parte dell'utente. La dissolvenza in entrata viene applicata solo ai dispositivi touch; sui sistemi desktop viene ignorata dal componente. </p> <p>La dissolvenza in entrata si applica ai seguenti elementi dell'interfaccia utente: frame di evidenziazione, cursore fisso, sovrapposizione (se il parametro </span> della sovrapposizione <span class="codeph"> è impostato su <span class="codeph"> 1 </span>). L'animazione della vista a comparsa inizia solo dopo la dissolvenza di evidenziazione/cursore al termine dell'animazione. Non è presente alcuna animazione di dissolvenza in uscita. Quando l’utente disattiva il riquadro a comparsa, gli elementi corrispondenti dell’interfaccia utente (cursore, evidenziazione e sovrapposizione) si nascondono immediatamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|libero </span> </p> </td> 

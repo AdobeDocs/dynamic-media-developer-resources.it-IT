@@ -1,26 +1,30 @@
 ---
-title: Chiudi pulsante
-description: Selezionando o toccando questo pulsante si chiude la pagina Web contenitore. Questo pulsante viene visualizzato solo se il parametro closebutton è impostato su 1. Questo pulsante non è disponibile nei sistemi desktop. Potete ridimensionare, interfacciare e posizionare questo pulsante utilizzando i CSS.
+title: Pulsante Chiudi
+description: Se si seleziona o si tocca questo pulsante, la pagina Web che la contiene viene chiusa. Questo pulsante viene visualizzato solo se il parametro closebutton è impostato su 1. Questo pulsante non è disponibile sui sistemi desktop. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07dc3a95-1f3e-44c4-8126-621f10aec212
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/nLkvH1mMD0Kmc92-6-kqB3gSuLyV8BLhnmKoG-y9LDo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
 
-# Chiudi pulsante{#close-button}
+# Pulsante Chiudi{#close-button}
 
-Selezionando o toccando questo pulsante si chiude la pagina Web contenitore. Questo pulsante viene visualizzato solo se il parametro closebutton è impostato su 1. Questo pulsante non è disponibile nei sistemi desktop. Potete ridimensionare, interfacciare e posizionare questo pulsante utilizzando i CSS.
+Se si seleziona o si tocca questo pulsante, la pagina Web che la contiene viene chiusa. Questo pulsante viene visualizzato solo se il parametro closebutton è impostato su 1. Questo pulsante non è disponibile sui sistemi desktop. Puoi ridimensionare, applicare lo skin e posizionare questo pulsante utilizzando gli stili CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Proprietà CSS dell&#39;area visualizzatore principale**
 
-L&#39;aspetto del pulsante è controllato con i seguenti selettore di classe CSS:
+L’aspetto del pulsante è controllato dal seguente selettore di classe CSS:
 
 `.s7ecatalogviewer .s7closebutton`
 
@@ -33,23 +37,23 @@ L&#39;aspetto del pulsante è controllato con i seguenti selettore di classe CSS
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> In alto </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dalla parte superiore bordo della barra di controllo principale, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo superiore della barra di controllo principale, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A destra </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo destro della barra di controllo principale, inclusa la spaziatura interna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A sinistra </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ha lasciato </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo sinistro della barra di controllo principale, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Fondoschiena </span> </p> </td> 
-   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale, compresa la spaziatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> in basso </span> </p> </td> 
+   <td colname="col2"> <p>Posizione dal bordo inferiore della barra di controllo principale, inclusa la spaziatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza del pulsante. </p> </td> 
   </tr> 
   <tr> 
@@ -58,22 +62,22 @@ L&#39;aspetto del pulsante è controllato con i seguenti selettore di classe CSS
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p>Immagine visualizzata per uno stato pulsante specificato. </p> </td> 
+   <td colname="col2"> <p>Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo supporta pulsante il `state` selettore attributo, che potete utilizzare per applicare interfacce diverse a diversi stati pulsante.
+>Questo pulsante supporta il selettore di attributi `state`, che è possibile utilizzare per applicare interfacce diverse a diversi stati di pulsante.
 
-Il suggerimento strumento pulsante può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Esempio: per impostare un Chiudi pulsante di 56 x 56 pixel posizionato a 4 pixel dal bordo superiore e destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati pulsante.
+Esempio: per impostare un pulsante Chiudi di 56 x 56 pixel posizionato a 4 pixel dal bordo superiore e destro della barra di controllo principale. Infine, visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati dei pulsanti.
 
 ```
 .s7ecatalogviewer .s7closebutton { 

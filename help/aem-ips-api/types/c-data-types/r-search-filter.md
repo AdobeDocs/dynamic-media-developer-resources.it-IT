@@ -1,20 +1,25 @@
 ---
-title: Filtro di ricerca
-description: Filtri che consentono di definire ricerca criteri per rendere più efficienti le ricerche.
+title: SearchFilter
+description: Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/4rQHqEjIH65ge5McCUNf0I9mV18zVo8Jb9xKfBtgZMc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 255
 ht-degree: 2%
 
 ---
 
 # [!DNL SearchFilter]{#searchfilter}
 
-Filtri che consentono di definire ricerca criteri per rendere più efficienti le ricerche.
+Filtri che consentono di definire i criteri di ricerca per rendere le ricerche più efficienti.
 
 Sintassi
 
@@ -30,8 +35,8 @@ Sintassi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> cartella</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> cartella</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Specificare la cartella in cui eseguire la ricerca. Lascia vuoto questo campo per eseguire ricerche per tutta l’azienda. </td> 
   </tr> 
   <tr> 
@@ -51,17 +56,17 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipo:StringArray</span> </td> 
-   <td colname="col3"> Specifica un tipo di risorsa da escludere da una ricerca. Ad esempio, l'immagine. </td> 
+   <td colname="col3"> Specifica un tipo di risorsa da escludere da una ricerca. Ad esempio, l’immagine. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> assetSubTypeArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipo:StringArray</span> </td> 
-   <td colname="col3">Un elenco di risorsa sottotipi che desideri restituire in una ricerca. Ad esempio, per un <span class="codeph"> AssetSet</span>, puoi ricerca per il <span class="codeph"> sottotipo MediaType</span> . </td> 
+   <td colname="col3">Elenco dei sottotipi di risorse che si desidera restituire in una ricerca. Ad esempio, per un AssetSet <span class="codeph"></span>, è possibile cercare il sottotipo <span class="codeph"> MediaType</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> strictSubTypeCheck</span></span> </td> 
-   <td colname="col2"><span class="codeph"> XSD:booleano</span> </td> 
-   <td colname="col3"> <p>Un contrassegno booleano facoltativo che specifica se restituire risorse senza sottotipo quando <span class="codeph"> viene passato assetSubTypeArray</span> . </p> <p>Se true, viene restituito solo risorse con uno dei sottotipi specificati. </p> <p>Se false, vengono restituiti anche risorse senza sottotipo. </p> <p>Il valore predefinito è false. </p> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col3"> <p>Flag booleano facoltativo che specifica se restituire risorse senza sottotipo quando viene passato <span class="codeph"> assetSubTypeArray</span>. </p> <p>Se è true, vengono restituite solo le risorse con uno dei sottotipi specificati. </p> <p>Se false, vengono restituite anche le risorse prive di sottotipo. </p> <p>Il valore predefinito è false. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -80,15 +85,15 @@ Sintassi
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Specificare: 
+   <td colname="col3">Specifica: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> restituisce solo il risorse pubblicato. </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> restituisce solo risorse non pubblicati. </li> 
-    </ul> <p>Nota: lasciare vuoto il ricerca per <i>tutti i</i> tipi di stato pubblicati. </p> </td> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> contrassegnato per la pubblicazione</span> per restituire solo le risorse pubblicate. </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> per restituire solo le risorse non pubblicate. </li> 
+    </ul> <p>Nota: lascia vuoto per cercare <i>tutti</i> i tipi di stato pubblicati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> trashState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> XSD:stringa</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Specifica: 
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
      <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> Any</span> per restituire le risorse indipendentemente dal loro stato di cestino. </li> 

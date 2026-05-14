@@ -1,36 +1,40 @@
 ---
-title: Fotogramma iniziale
+title: initialFrame
 description: Parametro comune a tutti i visualizzatori.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/v4kG-OcDN3wmdHDClJHeLR8d2SNcMa5sRQo89Qwig4I'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: 108
 ht-degree: 2%
 
 ---
 
-# Fotogramma iniziale{#initialframe}
+# initialFrame{#initialframe}
 
 Parametro comune a tutti i visualizzatori.
 
 >[!NOTE]
 >
->Questo comando non si applica a Video visualizzatore Immagine.
+>Questo comando non è applicabile al Visualizzatore immagini video.
 
-` initialFrame= *`frameIdx`*[ *`, pageIdx`*]`
+` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frameIdx</span> </span> </p> </td> 
-   <td colname="col2"> <p> Specifica un indice di fotogramma basato su zero che l'visualizzatore visualizza al momento del caricamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
+   <td colname="col2"> <p> Specifica un indice di frame a base zero visualizzato al caricamento del visualizzatore. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Indice basato su zero della pagina all'interno dello spread quando il dispositivo è in orientamento verticale. Per un ambiente "da sinistra a destra", <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". Per un ambiente "da destra a sinistra", è opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non viene specificato, <span class="codeph"> per impostazione predefinita si presume 0</span> . Ignorato quando dispositivo è con orientamento orizzontale. </p> </td> 
+   <td colname="col2"> <p>Un indice in base zero della pagina all’interno del set di pagine affiancate quando il dispositivo è in orientamento verticale. Per un ambiente "da sinistra a destra", <span class="codeph"> 0</span> significa "pagina sinistra" e <span class="codeph"> 1</span> significa "pagina destra". Per un ambiente "da destra a sinistra", è opposto: <span class="codeph"> 0</span> significa "pagina destra" e <span class="codeph"> 1</span> significa "pagina sinistra". </p> <p>Se non specificato, <span class="codeph"> 0</span> viene utilizzato per impostazione predefinita. Ignorato quando il dispositivo è in orientamento orizzontale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

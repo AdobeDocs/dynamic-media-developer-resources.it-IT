@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+TQID: 'https://experienceleague.adobe.com/NURaQ7eznu6tyM5IhrlLMxaZ1L38L7t9lHb826jSyfs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
 >
->Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=it) (3 minuti e 17 secondi).
+>Per scoprire quanto è facile utilizzare Snapshot, riprodurre il [video di formazione Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
 
 
 **Solo per Dynamic Media in Adobe Experience Manager** - Oltre alle impostazioni immagine di base disponibili nell&#39;interfaccia utente, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) supporta numerose modifiche avanzate alle immagini che è possibile specificare nel campo **Modificatori immagine**. Questi parametri sono definiti di seguito. Tieni presente, tuttavia, che le seguenti funzionalità non sono supportate in Dynamic Media in AEM.
@@ -42,7 +47,7 @@ Questa sezione descrive i comandi del protocollo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=it#dynamic) nella documentazione di AEM 6.5.
+Consulta anche Dynamic Media [Image Preset Options](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) nella documentazione di AEM 6.5.
 
 * [allinea](r-align.md)
 * [ancoraggio](r-anchor.md)

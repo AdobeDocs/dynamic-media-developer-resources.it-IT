@@ -1,20 +1,24 @@
 ---
-description: Imposta iscrizione al gruppo per un utente.
+description: Imposta l'appartenenza al gruppo per un utente.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/j-wK2g-evSRY0YD3ZspgT--giCkKJl1VBYgPylixVz8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 96
 ht-degree: 7%
 
 ---
 
 # setGroupMembership{#setgroupmembership}
 
-Imposta iscrizione al gruppo per un utente.
+Imposta l&#39;appartenenza al gruppo per un utente.
 
 Sintassi
 
@@ -30,9 +34,9 @@ Sintassi
 
 | Nome | Tipo | Obbligatorio | Descrizione |
 |---|---|---|---|
-| Handle utente | `xsd:string` | No | Handle del utente di cui si desidera impostare il iscrizione al gruppo. |
-| CompanyHandle | `xsd:string` | No | Maniglia aziendale. |
-| GroupHandleArray | `types:HandleArray` | Sì | Array di handle per gruppi a cui appartiene il utente. |
+| userHandle | `xsd:string` | No | Handle per l&#39;utente di cui si desidera impostare l&#39;appartenenza al gruppo. |
+| companyHandle | `xsd:string` | No | Gestore azienda. |
+| groupHandleArray | `types:HandleArray` | Sì | Array di handle ai gruppi a cui appartiene l&#39;utente. |
 
 **Output (setGroupMembershipReturn)**
 
@@ -40,7 +44,7 @@ L&#39;API IPS non restituisce una risposta per questa operazione.
 
 ## Esempi {#section-67b86d259df24938896fe19061845811}
 
-Questo esempio di codice rende l&#39;utente membro di un gruppo. Aggiungi un utente a più gruppi con l&#39;array di handle di gruppo.
+Questo esempio di codice rende l&#39;utente membro di un gruppo. Aggiungere un utente a più gruppi con l&#39;array dell&#39;handle di gruppo.
 
 **Richiesta**
 

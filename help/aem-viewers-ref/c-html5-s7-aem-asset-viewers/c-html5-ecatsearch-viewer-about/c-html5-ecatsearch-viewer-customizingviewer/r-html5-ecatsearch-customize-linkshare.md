@@ -1,61 +1,65 @@
 ---
-title: Condivisione collegamenti
-description: Il strumento di condivisione dei collegamenti è costituito da un pulsante aggiunto al pannello di condivisione Social e dalla finestra di dialogo modale che viene visualizzata quando il strumento viene attivato. La posizione del pulsante è interamente gestita dal strumento Social share.
+title: Condivisione collegamento
+description: Lo strumento Condivisione collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/aBphMcWJdGVpUx57KLiEvgrIRKAGVK-2UVecGaHwgVk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
 
-# Condivisione collegamenti{#link-share}
+# Condivisione collegamento{#link-share}
 
-Il strumento di condivisione dei collegamenti è costituito da un pulsante aggiunto al pannello di condivisione Social e dalla finestra di dialogo modale che viene visualizzata quando il strumento viene attivato. La posizione del pulsante è interamente gestita dal strumento Social share.
+Lo strumento Condivisione collegamenti è costituito da un pulsante aggiunto al pannello Condivisione social e dalla finestra di dialogo modale visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-L&#39;aspetto del pulsante di condivisione collegare è controllato con i seguenti selettore di classe CSS:
+L’aspetto del pulsante di condivisione del collegamento è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkshare
 ```
 
-**Proprietà CSS dell&#39;strumento di condivisione collegare**
+**Proprietà CSS dello strumento condivisione collegamenti**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza pulsanti. </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Immagine visualizzata per uno stato pulsante specificato. </p> </td> 
+   <td colname="col2"> <p> Immagine visualizzata per un determinato stato del pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta l&#39;attributo `state` selettore, che può essere utilizzato per applicare interfacce diverse a diversi stati pulsante.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-È possibile rimuovere il pulsante dal pannello di condivisione Social impostando `display:none` la proprietà CSS sulla sua classe CSS.
+È possibile rimuovere il pulsante dal pannello Condivisione social impostando la proprietà CSS `display:none` sulla relativa classe CSS.
 
-Il suggerimento strumento pulsante può essere localizzato. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia.
+La descrizione comando del pulsante può essere localizzata. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Esempio: per impostare un pulsante di condivisione collegare di 28 x 28 pixel e visualizza un&#39;immagine diversa per ciascuno dei quattro diversi stati pulsante:
+Esempio: per impostare un pulsante di condivisione del collegamento di 28 x 28 pixel e visualizzare un&#39;immagine diversa per ciascuno dei quattro stati dei pulsanti:
 
 ```
 .s7ecatalogsearchviewer .s7linkshare { 
@@ -76,7 +80,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-Il sovrapposizione in background che copre la pagina Web quando la finestra di dialogo è attiva, è controllato con la seguente classe CSS selettore:
+La sovrapposizione di sfondo che copre la pagina web quando la finestra di dialogo è attiva è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7backoverlay
@@ -190,7 +194,7 @@ L’icona dell’intestazione è controllata dal seguente selettore di classe CS
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza icona. </p> </td> 
   </tr> 
   <tr> 
@@ -202,13 +206,13 @@ L’icona dell’intestazione è controllata dal seguente selettore di classe CS
    <td colname="col2"> <p>Immagine icona. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posizione sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Posizione all'interno dello sprite dell'illustrazione, se vengono utilizzati sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posizionate all'interno dello sprite del disegno, se vengono utilizzati gli sprite CSS. </p> <p>Vedere anche <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> sprite CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il titolo dell&#39;intestazione è controllato con la seguente classe CSS selettore:
+Il titolo dell’intestazione è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogheadertext
@@ -219,53 +223,53 @@ Il titolo dell&#39;intestazione è controllato con la seguente classe CSS selett
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Peso font </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Spessore font. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Dimensioni font </span> </p> </td> 
-   <td colname="col2"> <p>Altezza font. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>Altezza carattere. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-famiglia </span> </p> </td> 
-   <td colname="col2"> <p>Famiglia di font. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
+   <td colname="col2"> <p>Famiglia di caratteri. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
-   <td colname="col2"> <p>Spaziatura interna del testo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura interna testo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Chiudi pulsante è controllato con il seguente selettore di classe CSS:
+Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7closebutton
 ```
 
-**Proprietà CSS della close pulsante &#x200B;**
+**Proprietà CSS del ** del pulsante Chiudi
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> In alto </span> </p> </td> 
-   <td colname="col2"> <p> Posizione di pulsante verticale rispetto al contenitore dell'intestazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primi </span> </p> </td> 
+   <td colname="col2"> <p> Posizione verticale del pulsante rispetto al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A destra </span> </p> </td> 
-   <td colname="col2"> <p> Posizione orizzontale della pulsante rispetto al contenitore dell'intestazione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> a destra </span> </p> </td> 
+   <td colname="col2"> <p> Posizione del pulsante orizzontale relativa al contenitore di intestazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza pulsanti. </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
-   <td colname="col2"> <p>Imbottitura interna di pulsante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura interna del pulsante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> immagine di sfondo </span> </p> </td> 
@@ -330,7 +334,7 @@ Il piè di pagina della finestra di dialogo è costituito da un pulsante Annulla
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Proprietà CSS del &#x200B;** piè di pagina della finestra di dialogo
+**Proprietà CSS del ** piè di pagina della finestra di dialogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -384,16 +388,16 @@ Il pulsante è disponibile solo sui sistemi desktop.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La pulsante Seleziona tutto supporta il selettore dell&#39;attributo `state` , che può essere utilizzato per applicare interfacce diverse a diversi stati pulsante.
+>Il pulsante Seleziona tutto supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati dei pulsanti.
 
-Annulla pulsante è controllato con il seguente selettore di classe CSS:
+Il pulsante Annulla è controllato dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogcancelbutton
@@ -409,24 +413,24 @@ Annulla pulsante è controllato con il seguente selettore di classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altezza </span> </p> </td> 
-   <td colname="col2"> <p>Altezza pulsanti. </p> </td> 
+   <td colname="col2"> <p>Altezza pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Colore </span> </p> </td> 
-   <td colname="col2"> <p> Colore del testo del pulsante per ogni stato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colore </span> </p> </td> 
+   <td colname="col2"> <p> Colore testo pulsante per ogni stato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> colore di sfondo </span> </p> </td> 
-   <td colname="col2"> <p> Colore di sfondo del pulsante per ogni stato. </p> </td> 
+   <td colname="col2"> <p> Colore di sfondo pulsante per ogni stato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Questo pulsante supporta l&#39;attributo `state` selettore, che può essere utilizzato per applicare interfacce diverse a diversi stati pulsante.
+>Questo pulsante supporta il selettore di attributi `state`, che può essere utilizzato per applicare interfacce diverse a diversi stati di pulsante.
 
-Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contenere impostazioni CSS uguali per altri pulsanti della finestra di dialogo:
+Inoltre, entrambi i pulsanti condividono la stessa classe CSS che può contenere impostazioni CSS identiche a quelle degli altri pulsanti della finestra di dialogo:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogfooter .s7button
@@ -437,35 +441,35 @@ Inoltre, entrambi i pulsanti condividono una classe CSS comune che può contener
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Peso font </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante font peso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>Spessore font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Dimensioni font </span> </p> </td> 
-   <td colname="col2"> <p>Pulsante font dimensione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>Dimensione font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-famiglia </span> </p> </td> 
-   <td colname="col2"> <p>Button font famiglia. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> famiglia di caratteri </span> </p> </td> 
+   <td colname="col2"> <p>Famiglia font pulsante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altezza linea </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altezza riga </span> </p> </td> 
    <td colname="col2"> <p> Altezza del testo all'interno del pulsante. Influisce sull'allineamento verticale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>Ombra. </p> </td> 
+   <td colname="col2"> <p>Ombra esterna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Margine destro </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margine destro </span> </p> </td> 
    <td colname="col2"> <p>Margine pulsante destro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-I suggerimenti pulsante strumento possono essere localizzati. Per ulteriori informazioni, consulta [Localizzazione di utente elementi](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) dell&#39;interfaccia.
+Le descrizioni dei pulsanti possono essere localizzate. Per ulteriori informazioni, vedere [Localizzazione degli elementi dell&#39;interfaccia utente](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Esempio: per impostare un piè di pagina di una finestra di dialogo con una pulsante di 64 x 34 Annulla, con colore del testo e colore di sfondo diversi per ogni stato pulsante:
+Esempio: per impostare un piè di pagina della finestra di dialogo con un pulsante Annulla 64 x 34, con un colore del testo e un colore di sfondo diversi per ogni stato del pulsante:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogfooter { 
@@ -525,13 +529,13 @@ Esempio: per impostare un piè di pagina di una finestra di dialogo con una puls
 }
 ```
 
-L&#39;area di dialogo principale, tra l&#39;intestazione e il piè di pagina, contiene contenuto della finestra di dialogo. In tutti i casi, il componente gestisce la larghezza di quest&#39;area, non è possibile impostarla in CSS. L&#39;area di dialogo principale è controllata con il seguente selettore di classe CSS:
+L’area della finestra di dialogo principale, tra l’intestazione e il piè di pagina, contiene il contenuto della finestra di dialogo. In tutti i casi, il componente gestisce la larghezza di quest’area, non è possibile impostarla in CSS. L’area della finestra di dialogo principale è controllata dal seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Proprietà CSS dell&#39;area di visualizzazione della finestra di dialogo &#x200B;**
+**Proprietà CSS della finestra di dialogo ** area di visualizzazione
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +570,7 @@ Tutto il contenuto del modulo (come etichette e campi di input) si trova all’i
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogbody
 ```
 
-**Proprietà CSS del &#x200B;** del corpo della finestra di dialogo
+**Proprietà CSS del ** del corpo della finestra di dialogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -593,7 +597,7 @@ Tutte le etichette statiche nel modulo della finestra di dialogo sono controllat
 
 Questa classe non è adatta per controllare la dimensione o la posizione dell&#39;etichetta perché può essere applicata a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell&#39;etichetta della finestra di dialogo. &#x200B;**
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -634,16 +638,16 @@ La dimensione della copia di testo visualizzata sopra il collegamento è control
 .s7ecatalogsearchviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Proprietà CSS del campo di input-wide della finestra di dialogo**
+**Proprietà CSS del campo a livello di input della finestra di dialogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
    <td colname="col2"> <p>Larghezza testo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
    <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
@@ -658,7 +662,7 @@ Esempio: per impostare una copia di testo larga 430 pixel e con una spaziatura d
 }
 ```
 
-Il collegare di condivisione viene racchiuso in un contenitore e controllato con il seguente selettore di classe CSS:
+Il collegamento di condivisione viene racchiuso in un contenitore e controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialoginputcontainer
@@ -669,17 +673,17 @@ Il collegare di condivisione viene racchiuso in un contenitore e controllato con
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> confine </span> </p> </td> 
-   <td colname="col2"> <p>Bordo attorno al contenitore collegare di condivisione. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordo </span> </p> </td> 
+   <td colname="col2"> <p>Bordo intorno al contenitore del collegamento di condivisione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imbottitura </span> </p> </td> 
-   <td colname="col2"> <p>Imbottitura interna. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> riempimento </span> </p> </td> 
+   <td colname="col2"> <p>Spaziatura interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare una bordo grigia di un pixel attorno al testo del codice di incorporamento e avere nove pixel di spaziatura:
+Esempio: per impostare un bordo grigio di un pixel attorno al testo del codice da incorporare e avere nove pixel di spaziatura interna:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialoginputcontainer { 
@@ -688,24 +692,24 @@ Esempio: per impostare una bordo grigia di un pixel attorno al testo del codice 
 }
 ```
 
-Il collegare di condivisione è controllato con il seguente selettore di classe CSS:
+Il collegamento di condivisione stesso è controllato con il seguente selettore di classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialoglink
 ```
 
-**Proprietà CSS della finestra di dialogo, condividere collegare**
+**Proprietà CSS del collegamento di condivisione della finestra di dialogo**
 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Larghezza </span> </p> </td> 
-   <td colname="col2"> <p>Condividi collegare larghezza. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> larghezza </span> </p> </td> 
+   <td colname="col2"> <p>Condividere la larghezza del collegamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Esempio: per impostare il collegare di condivisione in modo che abbia una larghezza di 450 pixel:
+Esempio: per impostare la larghezza del collegamento di condivisione su 450 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialoglink { 

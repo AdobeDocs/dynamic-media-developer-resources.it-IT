@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/06qs3B4mQcS7CSQs46RYnhTTpSa2xONlzN4Nfg0oU0g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ La procedura seguente illustra come aggiungere una libreria di immagini reattive
 
 **Per utilizzare la libreria Immagine reattiva**
 
-1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=it#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
+1. In Dynamic Media Classic, [crea un predefinito immagine](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) se intendi utilizzare la libreria Immagine reattiva con i predefiniti.
 
    Quando definisci i predefiniti immagine da utilizzare con la Libreria immagini reattiva, non utilizzare impostazioni che influiscono sulla dimensione dell&#39;immagine, ad esempio `wid=`, `hei=` o `scl=`. Non specificare alcun campo di dimensione nel predefinito immagine. Lasciali invece vuoti.
 1. Aggiungi il file JavaScript della libreria alla pagina web.

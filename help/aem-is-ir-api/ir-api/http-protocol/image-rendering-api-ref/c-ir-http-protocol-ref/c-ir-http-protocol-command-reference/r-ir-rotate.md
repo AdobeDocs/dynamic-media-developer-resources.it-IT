@@ -1,18 +1,22 @@
 ---
-title: ruotare
+title: rotazione
 description: Angolo di rotazione del materiale. Definisce l'angolo di rotazione dei materiali.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/prSGGMuV4SpFfhd8uCVzMRGpr-VBpowxE-UagKtpnqI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 2%
 
 ---
 
-# ruotare{#rotate}
+# rotazione{#rotate}
 
 Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei materiali.
 
@@ -25,17 +29,17 @@ Angolo di rotazione del materiale. Definisce l&#39;angolo di rotazione dei mater
  </tr> 
 </table>
 
-Ruotate i materiali texture ripetibili (esclusi gli sfondi) di multipli di 45° quando applicati a oggetti piatti o oggetti piani.
+Ruotare i materiali di texture ripetibili (esclusi gli sfondi) di multipli di 45° quando applicati a oggetti piatti o a oggetti piani.
 
-Ruota i materiali texture ripetibili di angoli arbitrari quando viene applicato a Flowline e Sketch oggetti.
+Ruotate i materiali di texture ripetibili mediante angoli arbitrari quando applicate agli oggetti di sketch e di flusso.
 
-Ruota i materiali delle decalcomanie con angoli arbitrari.
+Ruotare i materiali delle decalcomanie per angoli arbitrari.
 
-Gli angoli positivi ruotano in senso orario. La texture o decal viene ruotata attorno al punto ancoraggio ( `anchor=`); il punto ancoraggio rimane allineato all&#39;origine dell&#39;oggetto destinazione.
+Gli angoli positivi ruotano in senso orario. La trama o la decalcomania viene ruotata attorno al punto di ancoraggio ( `anchor=`); il punto di ancoraggio rimane allineato con l&#39;origine dell&#39;oggetto di destinazione.
 
 ## Proprietà {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attributo materiale. Ignorato da colori solidi, carta da parati, armadi e materiali per il trattamento delle finestre. *`angle`* Deve essere un multiplo di 45 per le texture ripetibili, a meno che non venga applicato a Flowline o Sketch Objects.
+Attributo materiale. Ignorato dai materiali di colore solido, carta da parati, armadio e trattamento delle finestre. *`angle`* Deve essere un multiplo di 45 per le texture ripetibili, a meno che non sia applicato agli oggetti di disegno o di linea di flusso.
 
 ## Predefinito {#section-14c991e71b74449db8ff18a775949b28}
 

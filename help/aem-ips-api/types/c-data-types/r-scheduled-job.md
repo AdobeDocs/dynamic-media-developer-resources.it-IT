@@ -5,9 +5,13 @@ title: Processo pianificato
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/OFG30nHlkuRT7HeNob0hkEfaygi8b2gNFEiu67LJBmU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 276
 ht-degree: 1%
 
 ---
@@ -36,14 +40,14 @@ Sintassi
 | triggerState | `xsd:int` | Scelta dello stato di attivazione del processo. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Dettagli di un processo di pubblicazione di image server. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Dettagli di un processo di rendering di immagini. |
-| videoPublishJob | `types:VideoPublishJob` | Dettagli di un processo di pubblicazione video. Vedi [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=it). |
+| videoPublishJob | `types:VideoPublishJob` | Dettagli di un processo di pubblicazione video. Vedi [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Dettagli del processo per un processo di pubblicazione della directory del server. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Dettagli del processo per un processo di caricamento directory. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Dettagli di un processo di caricamento URL. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Consente l’esportazione autorizzata di file caricati in precedenza. Vedi [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=it). |
+| exportJob | `types:ExportJob` | Consente l’esportazione autorizzata di file caricati in precedenza. Vedi [Processo di esportazione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Note {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

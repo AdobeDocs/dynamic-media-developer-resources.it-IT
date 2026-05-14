@@ -1,40 +1,44 @@
 ---
 title: VideoPlayer.iconeffect
-description: Attributo di configurazione per visualizzatore Video interattivo.
+description: Attributo di configurazione per Visualizzatore video interattivo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/s2UgvZ7USvFjvZ8NBUKa1MHrRe9HOh-ZE-g7jpNyeeg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 2%
+source-wordcount: 130
+ht-degree: 3%
 
 ---
 
 # VideoPlayer.iconeffect{#videoplayer-iconeffect}
 
-Attributo di configurazione per visualizzatore Video interattivo.
+Attributo di configurazione per Visualizzatore video interattivo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *` `*][, *`Nascondi automaticamente dissolvenza conteggio`*][, *` `*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`conteggio`*][, *`dissolvenza`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Consente di visualizzare IconEffect sopra il video quando il video si trova in pausa. In alcuni dispositivi vengono utilizzati controlli nativo. In tal caso, il <span class="codeph"> modificatore iconeffect</span> viene ignorato. </p> </td> 
+   <td colname="col2"> <p> Abilita la visualizzazione di IconEffect sopra il video quando quest'ultimo è in pausa. Su alcuni dispositivi vengono utilizzati controlli nativi. In questi casi, il modificatore iconeffect</span> di <span class="codeph"> viene ignorato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> contare</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica il numero massimo di volte in cui IconEffect appare e riappare. Il valore - <span class="codeph"> 1</span> indica che l'icona riappare a tempo indeterminato. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> conteggio</span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica il numero massimo di volte che IconEffect viene visualizzato e rivisualizzato. Il valore <span class="codeph"> -1</span> indica che l'icona viene visualizzata di nuovo indefinitamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> sbiadire</span></span> </p> </td> 
-   <td colname="col2"> <p> Specifica la durata dell'animazione visualizzata o nascondere, in secondi. </p> </td> 
+   <td colname="col1"> <p> Dissolvenza <span class="codeph"><span class="varname"></span></span> </p> </td> 
+   <td colname="col2"> <p> Specifica la durata dell'animazione mostra/nascondi, in secondi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> Nascondi automaticamente</span></span> </p> </td> 
-   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima di nascondersi automaticamente. ovvero il tempo trascorso dopo il completamento della dissolvenza nell'animazione e prima dell'inizio dell'animazione di dissolvenza in uscita. Impostare questo valore su <span class="codeph"> 0</span> per disabilitare il comportamento di nascondere automatico. </p> </td> 
+   <td colname="col2"> <p> Imposta il numero di secondi in cui IconEffect rimane completamente visibile prima che venga nascosto automaticamente. ovvero il tempo trascorso tra il completamento della dissolvenza in entrata e l'inizio della dissolvenza in uscita. Impostare su <span class="codeph"> 0</span> per disabilitare il comportamento di Nascondi automatico. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ title: Sintassi di base del protocollo HTTP Image Server
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
@@ -81,7 +85,7 @@ Image Server estrae prima *`object`* e *`modifiers`* dalla richiesta in ingresso
 
 ## Commenti {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente successivo al separatore di comando (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
+I commenti possono essere incorporati nelle stringhe di richiesta ovunque e sono identificati da un punto (.) immediatamente dopo il separatore di comandi (&amp;). Il commento viene terminato dall&#39;occorrenza successiva di un separatore di comando (non codificato). Questa funzione può essere utilizzata per aggiungere informazioni alla richiesta che non sono destinate all’utilizzo in Image Server, ad esempio timestamp e ID di database.
 
 ## Consultate anche {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
