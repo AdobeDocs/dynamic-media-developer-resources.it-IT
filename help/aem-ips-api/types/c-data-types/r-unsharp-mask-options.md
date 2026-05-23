@@ -100,4 +100,4 @@ Il tipo `unsharpMaskOptions` è utilizzato da:
 
 >[!MORELIKETHIS]
 >
->* [Riferimento API Image Server: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [Riferimento API Image Server: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=it)
