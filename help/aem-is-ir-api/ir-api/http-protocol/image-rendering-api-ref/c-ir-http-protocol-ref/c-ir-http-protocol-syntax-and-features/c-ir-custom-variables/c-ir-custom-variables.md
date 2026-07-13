@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
 TQID: 'https://experienceleague.adobe.com/1-o3GqgzwvPYV8UDBuZu5udOiG-p8Tue3Fo-ft8-QhI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 251
 ht-degree: 0%
@@ -41,3 +37,4 @@ Per fare riferimento alle variabili, incorpora il nome della variabile (racchius
 Le variabili personalizzate potrebbero non essere nidificate. Eventuali occorrenze di `$ [!DNL name]$` in `[!DNL string]` non vengono sostituite. Ad esempio, il frammento di richiesta `$var2=apple&$var1=my$var2$tree&text=$var1$` viene risolto in `text=my$var2$tree`.
 
 `$` non è un carattere riservato. È possibile che la richiesta non contenga alcun carattere riservato. `src=my$texture$file.tif`, ad esempio, è un comando valido (supponendo che esista una voce di catalogo dei materiali o un file di trama denominato `[!DNL my$texture$file.tif]`), mentre `wid=$number$` non lo è, perché `wid=` richiede un argomento numerico.
+
