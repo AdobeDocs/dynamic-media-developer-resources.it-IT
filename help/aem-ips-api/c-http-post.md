@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 1%
@@ -78,12 +74,12 @@ Il processo di caricamento è costituito da uno o più POST HTTP che utilizzano 
 
 |  Parte modulo HTTP POST   |  uploadPostParams, nome elemento   |  Tipo   |  Descrizione   |
 |---|---|---|---|
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento)   |   `companyHandle`  |  `xsd:string`  | Obbligatorio. Gestisce alla società in cui viene caricato il file.  |
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobName`  |  `xsd:string`  | È necessario `jobName` o `jobHandle`. Nome del processo di caricamento.  |
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobHandle`  |  `xsd:string`  | È necessario `jobName` o `jobHandle`. Gestisci un processo di caricamento avviato in una richiesta precedente.  |
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `locale`  |  `xsd:string`  | Facoltativo. Lingua e codice del paese per la localizzazione.  |
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `description`  |  `xsd:string`  | Facoltativo. Descrizione del processo.  |
-| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `destFolder`  |  `xsd:string`  | Facoltativo. Percorso della cartella di destinazione per il prefisso di una proprietà del nome file, in particolare per i browser e altri client che potrebbero non supportare percorsi completi in un nome file.  |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento)   |   `companyHandle`  |  `xsd:string`  | Obbligatorio. Gestisce alla società in cui viene caricato il file. |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobName`  |  `xsd:string`  | È necessario `jobName` o `jobHandle`. Nome del processo di caricamento. |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `jobHandle`  |  `xsd:string`  | È necessario `jobName` o `jobHandle`. Gestisci un processo di caricamento avviato in una richiesta precedente. |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `locale`  |  `xsd:string`  | Facoltativo. Lingua e codice del paese per la localizzazione. |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `description`  |  `xsd:string`  | Facoltativo. Descrizione del processo. |
+| `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `destFolder`  |  `xsd:string`  | Facoltativo. Percorso della cartella di destinazione per il prefisso di una proprietà del nome file, in particolare per i browser e altri client che potrebbero non supportare percorsi completi in un nome file. |
 | `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `fileName`  |  `xsd:string`  | Facoltativo. Nome del file di destinazione. Sostituisce la proprietà del nome file. |
 | `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `endJob`  |  `xsd:boolean`  | Facoltativo. Il valore predefinito è false. |
 | `uploadParams` (obbligatorio. Un documento XML `uploadParams` che specifica i parametri di caricamento) | `uploadParams`  |  `types:UploadPostJob`  | Facoltativo se si tratta di una richiesta successiva per un processo attivo esistente. Se è presente un processo esistente, `uploadParams` viene ignorato e vengono utilizzati i parametri di caricamento del processo esistenti. Vedi [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -212,3 +208,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+
