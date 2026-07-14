@@ -4,7 +4,7 @@ user-guide-title: Guida di riferimento per i visualizzatori Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalizza i visualizzatori Dynamic Media da utilizzare su dispositivi desktop e touchscreen. Includi immagini e video interattivi, caroselli, set 360 gradi e altro ancora.
 nudge: true
-source-git-commit: b40d8ed938698a776b4ca6eb8f456b40ad6060f6
+source-git-commit: c9b4e04351d32190a5b27e807c3a752f8a2a26a8
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
