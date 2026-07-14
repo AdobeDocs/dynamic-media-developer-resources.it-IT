@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 0%
@@ -44,3 +44,4 @@ I file degli attributi del catalogo sono costituiti da un set di record di testo
 * I nomi degli attributi possono essere costituiti da qualsiasi combinazione di lettere ASCII, numeri e `-`, `_` e `.` caratteri.
 * Se lo stesso nome di attributo si trova più di una volta nello stesso file di attributi, prevale l’ultimo.
 * Utilizzare `#` come primo carattere per contrassegnare qualsiasi record come commento ignorato dal parser.
+

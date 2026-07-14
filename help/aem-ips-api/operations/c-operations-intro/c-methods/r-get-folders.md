@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 6%
@@ -26,8 +26,7 @@ Restituisce tutte le cartelle e le sottocartelle, a partire dal percorso della c
 
 ## Scopo delle cartelle {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Una cartella consente di organizzare sottocartelle e risorse. Tutti i nomi delle cartelle e delle risorse devono essere univoci. Le cartelle e le risorse che condividono lo stesso nome causano un conflitto nello spazio dei nomi, anche se si trovano in gerarchie di cartelle diverse.
-Sintassi
+Una cartella consente di organizzare sottocartelle e risorse. Tutti i nomi delle cartelle e delle risorse devono essere univoci. Le cartelle e le risorse che condividono lo stesso nome causano un conflitto nello spazio dei nomi, anche se si trovano in gerarchie di cartelle diverse.Sintassi
 
 ## Tipi di utenti autorizzati {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +100,4 @@ Questo esempio di codice restituisce un array che contiene tutte le cartelle di 
    </folderArray>
 </getFoldersReturn>
 ```
+

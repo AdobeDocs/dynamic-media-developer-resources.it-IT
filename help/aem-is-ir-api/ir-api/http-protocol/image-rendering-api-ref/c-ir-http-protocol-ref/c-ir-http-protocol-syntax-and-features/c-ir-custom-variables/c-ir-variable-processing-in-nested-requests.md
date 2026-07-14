@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 162
 ht-degree: 0%
@@ -29,3 +29,4 @@ Il server sostituisce questi riferimenti con valori (provenienti dall&#39;URL o 
 Inoltre, tutte le definizioni di `$ *[!DNL var]*=` dall&#39;URL e `catalog::Modifier` vengono inoltrate a tutte le richieste nidificate di Image Server e Image Rendering. In questo modo tutte le definizioni di variabili saranno disponibili per tutti i modelli, indipendentemente dal livello di nidificazione.
 
 Indipendentemente dal livello di nidificazione, solo la codifica HTTP a passata singola deve essere applicata ai valori delle variabili che devono essere sostituiti ovunque nelle richieste di Image Rendering o Image Server nidificate.
+

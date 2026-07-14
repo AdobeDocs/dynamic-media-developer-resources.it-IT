@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 244
 ht-degree: 1%
@@ -41,3 +41,4 @@ Sintassi
 | diskSpaceWarningMin | `xsd:int` | Quantità minima di spazio libero su disco nella directory delle immagini prima dell&#39;invio di un avviso. |
 | emailTrashCleanupWarning | `xsd:boolean` | Determina se inviare e-mail prima dell&#39;eliminazione automatica degli elementi del cestino. |
 | javascriptUploadEnabled | `types:Asset` | Determina se caricare i file JavaScript. Questa opzione rappresenta un potenziale rischio per la sicurezza, pertanto utilizza con cautela. |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 161
 ht-degree: 1%
@@ -35,3 +35,4 @@ In questo argomento viene descritta la sintassi di utilizzo vntc.
 Obbligatorio.
 
 *[!DNL destFile]* è il percorso e il nome del file di vignettatura di output. Se non viene specificato, il file di output viene inserito nella cartella specificata con `-destpath`. In questo scenario, il nome del file viene generato automaticamente dal nome del file di input e da un suffisso di dimensione, separato dalla stringa specificata con `-separator`. Per le vignettature, il suffisso dimensione corrisponde alla larghezza in pixel della vignettatura di output a risoluzione singola, alla larghezza della prima visualizzazione di una vignettatura di output a più risoluzioni o a &#39;0&#39; se è presente una vignettatura piramidale. Per i file di stile cabinet, la risoluzione di output viene utilizzata come suffisso del file. *[!DNL destFile]* viene ignorato quando si specifica `-info`.
+

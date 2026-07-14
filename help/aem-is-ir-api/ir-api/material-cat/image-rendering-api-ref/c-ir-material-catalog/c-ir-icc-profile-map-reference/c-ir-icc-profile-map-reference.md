@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 96
 ht-degree: 0%
@@ -27,3 +27,4 @@ Se per un catalogo immagini è richiesta una mappa di profilo ICC, il percorso r
 Voci nella mappa del profilo ICC di una voce di sostituzione specifica del catalogo dei materiali nella mappa del profilo ICC del catalogo predefinito.
 
 Image Rendering supporta i file dei profili colore conformi alle specifiche ICC.
+

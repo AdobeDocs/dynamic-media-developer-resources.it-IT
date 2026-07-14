@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 5%
@@ -35,3 +35,4 @@ Sintassi
 | area geografica | `xsd:string` | Coordinate mappa immagine. Il formato è basato sugli attributi tag di HTML `<area>`. |
 | action | `xsd:string` | Altri attributi da includere nel tag HTML `<area>`, incluso l&#39;URL `href`. |
 | abilitato | `xsd:boolean` | True se la mappa immagine è attivata. |
+

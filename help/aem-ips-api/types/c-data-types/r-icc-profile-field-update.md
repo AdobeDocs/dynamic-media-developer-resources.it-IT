@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 52
 ht-degree: 5%
@@ -34,3 +34,4 @@ Sintassi
 | [!DNL class] | `xsd:string` | Classi di profilo (consulta &quot;Classi di profilo&quot; per i valori). |
 | colorSpace | `xsd:string` | Spazio colore del profilo (per i valori, vedere &quot;Spazi colore&quot;). |
 | pcsType | `xsd:string` | Spazio di connessione profilo (per i valori, vedere &quot;Spazi colore&quot;). |
+

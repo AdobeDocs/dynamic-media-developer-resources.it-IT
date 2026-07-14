@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 4%
@@ -35,3 +35,4 @@ Sintassi
 | colorspace | `xsd:string` | modalità PostScript colorspace. |
 | alfa | `xsd:boolean` | Specifica se rasterizzare il file in un&#39;immagine. In tal caso, viene creato uno sfondo trasparente se il file originale è definito in questo modo. Generalmente utilizzato per creare logo sovrapposti. |
 | extractSearchWords | `xsd:boolean` | Indica se estrarre le parole di ricerca dal file PostScript. |
+

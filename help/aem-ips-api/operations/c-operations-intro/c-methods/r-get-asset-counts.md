@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 7%
@@ -26,8 +26,7 @@ ht-degree: 7%
 
 Ottiene i cespiti e il numero di cespiti associati a una società specifica.
 
-Il `countArray` restituito è costituito da un array di `assetTypes` (tipo di dati `xsd:string`), ciascuno con un proprio campo di conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento dell&#39;array.
-Sintassi
+Il `countArray` restituito è costituito da un array di `assetTypes` (tipo di dati `xsd:string`), ciascuno con un proprio campo di conteggio (tipo di dati `xsd:int`), che consente la rappresentazione di più tipi di risorse per elemento dell&#39;array.Sintassi
 
 ## Tipi di utenti autorizzati {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ In questo esempio di codice viene utilizzato l&#39;handle della società come ca
    </countArray>
 </getAssetCountsReturn>
 ```
+

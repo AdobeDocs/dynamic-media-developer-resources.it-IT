@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 104
 ht-degree: 0%
@@ -27,3 +27,4 @@ Image Rendering supporta cataloghi di materiali con codifica ISO-8859-1 e UTF-8.
 Per specificare la codifica per ciascun file viene utilizzato un indicatore di ordine dei byte (BOM, Byte Order Mark). Per UTF-8, la distinta base è la sequenza di byte `EF BB BF`. La codifica UTF-8 viene utilizzata quando questa sequenza di caratteri viene rilevata all&#39;inizio di ogni file di catalogo dei materiali. Qualsiasi altra sequenza di byte fa sì che il file venga interpretato come codificato nello standard ISO-8859-1.
 
 Molte applicazioni contemporanee, se configurate per UTF-8, inseriscono automaticamente la distinta base.
+

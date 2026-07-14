@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 0%
@@ -29,3 +29,4 @@ La funzione di ricerca viene attivata attivando un pulsante di ricerca nella bar
 I risultati della ricerca vengono visualizzati come miniature delle pagine in cui è stato trovato il testo da cercare. Inoltre, il visualizzatore mostra il numero totale di pagine e hit trovati durante la ricerca. L’utente può fare clic o toccare una miniatura dei risultati di ricerca per passare alla pagina corrispondente del catalogo.
 
 Infine, il visualizzatore evidenzia gli hit di ricerca nella visualizzazione principale utilizzando regioni gialle semitrasparenti.
+
