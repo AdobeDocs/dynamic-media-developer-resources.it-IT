@@ -14,20 +14,23 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: 132
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Dynamic Media] risorse per sviluppatori{#dynamic-media-developer-resource}
 
-* Guida di riferimento per i visualizzatori di [&#128279;](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=it) -->
+* Guida di riferimento per i visualizzatori di [&#128279;](/help/aem-viewers-ref/homeviewers.md)
 Personalizza [!DNL Dynamic Media] visualizzatori da utilizzare su dispositivi desktop e touchscreen. Alcuni dei tipi di file multimediali che è possibile utilizzare includono immagini e video interattivi, video a 360 gradi, caroselli, zoom di immagini, video, ecatalog, elementi a comparsa, file multimediali diversi e set 360 gradi.
-* [API Image Server/Image Rendering](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=it) -->
+* [API Image Server/Image Rendering](/help/aem-is-ir-api/homeisir.md)
 Documentazione sulle API IS (Image Serving) e IR (Image Rendering) e sulle tecnologie correlate. Se lavori sull&#39;integrazione di [!DNL Dynamic Media] Classic con Adobe Experience Manager, devi fare riferimento alla sezione IS dell&#39;API.
-* [API sistema di produzione immagini](/help/aem-ips-api/c-overview.md)
-L’API del servizio web IPS (Image Production System) consente alle applicazioni esterne e agli sviluppatori di terze parti di accedere in modo programmatico alle risorse e alle funzionalità IPS.
+* [API Image Production System](/help/aem-ips-api/c-overview.md)
+
+  L’API del servizio web IPS (Image Production System) consente alle applicazioni esterne e agli sviluppatori di terze parti di accedere in modo programmatico alle risorse e alle funzionalità IPS.
+
 * [[!DNL Dynamic Media] Note sulla versione Classic](/help/s7-release-notes/s7rn2017.md)
 Note aggiornate sulla versione per Adobe [!DNL Dynamic Media] Classic-part della soluzione [!DNL Adobe Experience Manager] in [!DNL Adobe Experience Cloud].
