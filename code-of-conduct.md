@@ -1,7 +1,7 @@
 ---
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ I gestori dei progetti che non seguono o non applicano il Codice di condotta in 
 
 ## Attribuzione
 
-Il presente Codice di condotta è adattato dal [Convenzione collaboratore](https://www.contributor-covenant.org/), versione 1.4, disponibile all’indirizzo [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+Questo Codice di condotta è stato adattato dal [Contributor Covenant](https://www.contributor-covenant.org/), versione 1.4, disponibile all&#39;indirizzo [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
