@@ -9,18 +9,37 @@ exl-id: f2685d59-6b92-49cf-9359-dda602af4297
 TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Developer
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 3093
+source-wordcount: '3093'
 ht-degree: 0%
-
 ---
-
 # Condivisione e-mail{#email-share}
 
 Lo strumento Condivisione e-mail è costituito da un pulsante aggiunto al pannello Condivisione e dalla finestra di dialogo modale che viene visualizzata quando lo strumento viene attivato. La posizione del pulsante è completamente gestita dallo strumento Condivisione social.
@@ -250,7 +269,7 @@ Il pulsante Chiudi è controllato dal seguente selettore di classe CSS:
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**Proprietà CSS del &#x200B;** del pulsante Chiudi
+**Proprietà CSS del ** del pulsante Chiudi
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -337,7 +356,7 @@ Il piè di pagina della finestra di dialogo è costituito dai pulsanti &quot;ann
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Proprietà CSS del &#x200B;** piè di pagina della finestra di dialogo
+**Proprietà CSS del ** piè di pagina della finestra di dialogo
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -536,7 +555,7 @@ L’area della finestra di dialogo principale, tra l’intestazione e il piè di
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**Proprietà CSS della finestra di dialogo &#x200B;** area di visualizzazione
+**Proprietà CSS della finestra di dialogo ** area di visualizzazione
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -580,7 +599,7 @@ Tutto il contenuto del modulo (come etichette e campi di input) si trova all’i
 
 Se l’altezza del contenitore risulta maggiore dell’area della finestra di dialogo principale, il componente abilita automaticamente uno scorrimento verticale.
 
-**Proprietà CSS del &#x200B;** del corpo della finestra di dialogo
+**Proprietà CSS del ** del corpo della finestra di dialogo
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -632,7 +651,7 @@ Tutte le etichette statiche nel modulo della finestra di dialogo sono controllat
 
 Questa classe non è adatta per controllare le dimensioni o la posizione delle etichette, poiché può essere applicata a testi in varie posizioni dell&#39;interfaccia utente del modulo.
 
-**Proprietà CSS dell&#39;etichetta della finestra di dialogo. &#x200B;**
+**Proprietà CSS dell&#39;etichetta della finestra di dialogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -968,7 +987,7 @@ Il contenuto condiviso viene visualizzato nella parte inferiore del corpo della 
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Proprietà CSS della finestra di dialogo &#x200B;** contenuto
+**Proprietà CSS della finestra di dialogo ** contenuto
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1103,7 +1122,7 @@ L’origine del contenuto è controllata con il seguente selettore di classe CSS
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Proprietà CSS della finestra di dialogo &#x200B;** origine contenuto
+**Proprietà CSS della finestra di dialogo ** origine contenuto
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
