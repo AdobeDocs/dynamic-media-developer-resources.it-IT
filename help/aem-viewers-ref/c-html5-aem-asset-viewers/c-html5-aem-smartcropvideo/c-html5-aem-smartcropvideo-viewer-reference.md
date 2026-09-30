@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
 source-wordcount: '2427'
 ht-degree: 0%
@@ -158,22 +158,22 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
    Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere [!DNL SmartCropVideoViewer.js]. Il file [!DNL SmartCropVideoViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
-[!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
+   [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
+   Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
-Il percorso relativo si presenta come segue:
+   Il percorso relativo si presenta come segue:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
->
->
->Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
+   >[!NOTE]
+   >
+   >Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+   >
+   >
+   >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del DIV del contenitore.
 

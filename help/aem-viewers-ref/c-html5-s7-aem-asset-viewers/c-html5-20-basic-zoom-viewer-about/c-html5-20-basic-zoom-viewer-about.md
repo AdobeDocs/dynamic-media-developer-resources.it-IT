@@ -9,20 +9,23 @@ exl-id: ee15ce21-20c4-428b-9512-050115e4c322
 TQID: 'https://experienceleague.adobe.com/-Iib9ll59o8f1ozA2e9WMnvlfCPtrZDxA2y7Mtx4-Rg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Accessibility
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
-source-wordcount: 2053
+source-wordcount: '2053'
 ht-degree: 0%
-
 ---
-
 # Zoom di base{#basic-zoom}
 
 Visualizzatore zoom di base è un visualizzatore di immagini che visualizza una singola immagine ingrandita. Dispone di strumenti zoom, supporto per schermo intero e un pulsante di chiusura opzionale. Questo visualizzatore è il più leggero. È progettato per funzionare su desktop e dispositivi mobili.
@@ -137,22 +140,22 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
    Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere [!DNL BasicZoomViewer.js]. Il file [!DNL BasicZoomViewer.js] si trova nella sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
-[!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
+   [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
+   Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server Adobe Dynamic Media Classic e viene fornito dallo stesso dominio. In caso contrario, si specifica un percorso completo per uno dei server Adobe Dynamic Media Classic in cui sono installati i visualizzatori IS.
 
-Il percorso relativo è simile al seguente:
+   Il percorso relativo è simile al seguente:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/BasicZoomViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/BasicZoomViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
->
->
->Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
+   >[!NOTE]
+   >
+   >Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+   >
+   >
+   >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del DIV del contenitore.
 

@@ -9,20 +9,23 @@ exl-id: 9b60330f-5348-431d-9682-cf97aace3679
 TQID: 'https://experienceleague.adobe.com/NSZ3RPawFT-2Rsw4hlzAI9Lc0hYjTHMufVWJE5NssOU'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Accessibility
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
-source-wordcount: 1989
+source-wordcount: '1989'
 ht-degree: 0%
-
 ---
-
 # A comparsa{#flyout}
 
 Visualizzatore a comparsa è un visualizzatore di immagini. Visualizza un’immagine statica con la versione ingrandita mostrata nella vista a comparsa attivata da un utente. Questo visualizzatore funziona con i set di immagini e la navigazione viene eseguita utilizzando i campioni. È progettato per funzionare su desktop e dispositivi mobili.
@@ -109,22 +112,22 @@ Per aggiungere il visualizzatore a una pagina Web, effettuare le seguenti operaz
 
    Per creare un visualizzatore è necessario aggiungere un tag script nell’intestazione del HTML. Prima di poter utilizzare l&#39;API del visualizzatore, assicurati di includere `FlyoutViewer.js`. `FlyoutViewer.js` si trova nella seguente sottocartella [!DNL html5/js/] della distribuzione standard IS-Viewers:
 
-[!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
+   [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
+   Puoi utilizzare un percorso relativo se il visualizzatore viene distribuito su uno dei server di Adobe Dynamic Media e viene fornito dallo stesso dominio. In caso contrario, puoi specificare un percorso completo per uno dei server Adobe Dynamic Media in cui sono installati gli IS-Viewers.
 
-Di seguito è riportato un percorso relativo:
+   Di seguito è riportato un percorso relativo:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
->
->
->Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
+   >[!NOTE]
+   >
+   >Fare riferimento solo al file JavaScript `include` del visualizzatore principale nella pagina. Non fare riferimento ad altri file JavaScript nel codice della pagina web che potrebbero essere scaricati dalla logica del visualizzatore in fase di esecuzione. In particolare, non fare riferimento direttamente alla libreria `Utils.js` di HTML5 SDK caricata dal visualizzatore dal percorso di contesto `/s7viewers` (cosiddetto SDK consolidato `include`). Il motivo è che la posizione di `Utils.js` o di librerie di visualizzatori di runtime simili è completamente gestita dalla logica del visualizzatore e la posizione cambia tra le versioni del visualizzatore. Adobe non mantiene sul server le versioni precedenti del visualizzatore secondario `includes`.
+   >
+   >
+   >Di conseguenza, il posizionamento di un riferimento diretto a qualsiasi JavaScript `include` secondario utilizzato dal visualizzatore nella pagina interrompe la funzionalità del visualizzatore in futuro, quando viene distribuita una nuova versione del prodotto.
 
 1. Definizione del DIV del contenitore.
 
@@ -161,7 +164,7 @@ Di seguito è riportato un percorso relativo:
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
 -->
 
@@ -184,7 +187,7 @@ Di seguito è riportato un esempio di definizione delle dimensioni del visualizz
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=it)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
 -->
 
@@ -322,7 +325,7 @@ La pagina di esempi seguente illustra usi più reali dell’incorporamento di de
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=it)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 
