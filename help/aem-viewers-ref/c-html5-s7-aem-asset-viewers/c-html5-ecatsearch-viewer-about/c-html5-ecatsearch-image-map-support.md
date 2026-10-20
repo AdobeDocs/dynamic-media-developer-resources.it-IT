@@ -34,11 +34,11 @@ L&#39;attributo `href` della mappa immagine ha un URL per la risorsa esterna, sp
 
 Di seguito è riportato un esempio di reindirizzamento URL semplice:
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/it`
 
 In questo esempio, lo stesso URL viene racchiuso con la funzione `loadProduct()`:
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/it");void(0);`
 
 Tieni presente che quando aggiungi il codice JavaScript nell&#39;attributo `HREF` della mappa immagine, il codice viene eseguito sul computer del client. Di conseguenza, assicurati che il codice JavaScript sia sicuro.
 

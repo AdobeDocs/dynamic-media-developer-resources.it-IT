@@ -30,7 +30,7 @@ Il metodo scelto dipende dal grado di familiarità con le procedure di modifica 
 
 >[!NOTE]
 >
->I contributi inviati sono soggetti alle [condizioni per l&#39;utilizzo di Adobe.](https://www.adobe.com/legal/terms.html)
+>I contributi inviati sono soggetti alle [condizioni per l&#39;utilizzo di Adobe.](https://www.adobe.com/it/legal/terms.html)
 
 ### Segnalare un problema {#create-an-issue}
 
